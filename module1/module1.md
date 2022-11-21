@@ -1,11 +1,11 @@
-<h2>Video introduction - Module 1</h2>
+<h1>Video introduction - Module 1</h2>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- module1.md in W3Cx-5of5-JS.0x --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 
-<h3>Module 1: Introduction to JavaScript</h3>
-<h3>> 1.1 Introduction - Module 1</h3>
+<h2>Module 1: Introduction to JavaScript</h2>
+<h3>1.1 Introduction - Module 1</h3>
 <h3>Video introduction - Module 1</h3>
 
 > Hello everyone, welcome to the wonderful world of JavaScript! In this
