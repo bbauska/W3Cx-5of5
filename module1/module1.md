@@ -37,9 +37,9 @@
 
 <hr>
 
-<h3>1.1 Introduction to JavaScript - Outline</h3>
+<h2>1.1 Introduction to JavaScript - Outline</h2>
 
-<h4>What you will learn in Module 1</h4>
+<h3>What you will learn in Module 1</h3>
 
 If you thought that a Web browser could only display HTML documents, you were mistaken! ;)
 Under the hood, an HTML document is nearly always associated with two other standard languages of the Web: CSS and JavaScript. Before looking at the guts of JavaScript, we will introduce you to the basics and play with many examples. We will also have a first look at the browser devtools, and discover how JavaScript is useful.
@@ -54,11 +54,7 @@ Under the hood, an HTML document is nearly always associated with two other stan
 
 <hr>
 
-<h3>HTML is for structure</h3>
-
-<h3>Module 1: Introduction to JavaScript</h3>
-
-<h3>1.2 JavaScript, HTML and CSS > HTML is for structure</h3>
+<h2>1.2 JavaScript, HTML and CSS - HTML is for structure</h2>
 
 <h3>HTML: Hyper Text Markup language</h3>
 
@@ -67,16 +63,6 @@ Under the hood, an HTML document is nearly always associated with two other stan
 A fundamental key to the World Wide Web is the concept of "hypertext".  Hypertext is built on the idea of linking information together, not unlike using footnotes, but far easier and more flexible. The idea is to "mark up" your document with links and define how to break it down into different segments (chapters, sections, paragraphs, tables, figures, etc.)
 
 That's why, in 1989, Tim Berners-Lee began to create a definition of HTML: Hypertext Markup Language, to provide a simple, uniform way to incorporate hyperlinks into a text document.
-
-<hr>
-
-<h3>1.2 JavaScript, HTML and CSS</h3>
-
-<h4>HTML is for structure</h4>
-
-<h4>HTML: Hyper Text Markup language</h4>
-
-<h4>The "Hyper Text" part: links!</h4>
 
 A fundamental key to the World Wide Web is the concept of "hypertext".  Hypertext is built on the idea of linking information together, not unlike using footnotes, but far easier and more flexible. The idea is to "mark up" your document with links and define how to break it down into different segments (chapters, sections, paragraphs, tables, figures, etc.)
 
@@ -174,13 +160,13 @@ As an example, let's look at a simplified version of the last HTML code we showe
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   <title>Your first HTML page</title>
-   <meta charset="utf-8"/>
+    <title>Your first HTML page</title>
+    <meta charset="utf-8"/>
   </head>
   <body>
-   <h1>My home page</h1>
-   <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I'm a professor at the University of Nice, in France, and I'm also the author of two MOOCS about HTML5 on W3Cx.</p>
-   </body>
+    <h1>My home page</h1>
+    <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I'm a professor at the University of Nice, in   France, and I'm also the author of two MOOCS about HTML5 on W3Cx.</p>
+  </body>
 </html>
 ```
 
@@ -219,13 +205,13 @@ tag it is.  To completely describe the element, it needs an open and close tag, 
 
 Most tags have open and close versions, but there are a few strange ones.  For more info, we strongly recommend that you follow the W3Cx HTML5&CSS Fundamentals course, but we generally refer to the strange ones as "self closing" tags.   Usually these tags represent an element that is completely described by its attributes, and thus there is no need for other content.  So if you see something like this:
 
-    <img src="https://goo.gl/pVxY0e" alt="Floating Flower"/>
+  <img src="https://goo.gl/pVxY0e" alt="Floating Flower"/>
 
 ... then you should know that the slash at the end of the open tag is sort of a shorthand for a close tag, so you won't see any other indication that this element is now complete. There are also a few tags that don't even use the "/" at the end, they just don't have any close tag at all.  This works because all of the information this tag needs is declared in an "attribute".
 
-The <img> tag is one of them, the "/" at the end is optional and can be removed entirely, this will still be valid HTML5.
+The &lt;img&gt; tag is one of them, the "/" at the end is optional and can be removed entirely, this will still be valid HTML5.
 
-    <img src="https://goo.gl/pVxY0e" alt="Floating Flower">
+  <img src="https://goo.gl/pVxY0e" alt="Floating Flower">
 
 These elements, without a "/" at the end, are called "void elements". They are : area, base, br, col, embed, hr, img, input, link, menuitem, meta, param, source, track, wbr.
 
@@ -233,12 +219,12 @@ These elements, without a "/" at the end, are called "void elements". They are :
 
 Most of what you can learn about HTML attributes is presented in the three W3Cx MOOCs about HTML5 (fundamentals, coding essentials, and advanced techniques), but we can introduce the idea briefly in this JavaScript course. Basically, a given element on your Web page can be distinguished by any number of unique or common attributes. For example, we've already seen how an image can be inserted in your Web page, and in that example we used the width attribute of the <img> tag in order to constrain the width of the image:
 
-    <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
-         width=200 alt="Michel Buffa plays rock&roll">
+  <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
+    width=200 alt="Michel Buffa plays rock&roll">
      
-As you might guess, the `<img>` tag also has a height attribute, as well as others. Different HTML tags share some common attributes that we'll meet in the next section, which 
+As you might guess, the `&lt;img&gt;` tag also has a height attribute, as well as others. Different HTML tags share some common attributes that we'll meet in the next section, which 
 are particularly useful when coupled with CSS (id and class) for applying graphic styles (color, shadow, etc.), but  can also have specific attributes (for example: the src 
-attribute can be found in the `<video>`, `<audio>`, `<img>` tags but not on a `<p>` or on an `<h1>` tag!)
+attribute can be found in the `&lt;video&gt;`, `&lt;audio&gt;`, `&lt;img&gt;` tags but not on a `&lt;p&gt;` or on an `&lt;h1&gt;` tag!)
 
 Try changing the value of the width attribute in the example below, or add a height attribute, and see the result:
 
