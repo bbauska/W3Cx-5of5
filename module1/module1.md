@@ -209,7 +209,7 @@ Most tags have open and close versions, but there are a few strange ones.  For m
 
 ... then you should know that the slash at the end of the open tag is sort of a shorthand for a close tag, so you won't see any other indication that this element is now complete. There are also a few tags that don't even use the "/" at the end, they just don't have any close tag at all.  This works because all of the information this tag needs is declared in an "attribute".
 
-The &lt;img&gt; tag is one of them, the "/" at the end is optional and can be removed entirely, this will still be valid HTML5.
+The <img> tag is one of them, the "/" at the end is optional and can be removed entirely, this will still be valid HTML5.
 
   <img src="https://goo.gl/pVxY0e" alt="Floating Flower">
 
@@ -222,9 +222,9 @@ Most of what you can learn about HTML attributes is presented in the three W3Cx 
   <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
     width=200 alt="Michel Buffa plays rock&roll">
      
-As you might guess, the `&lt;img&gt;` tag also has a height attribute, as well as others. Different HTML tags share some common attributes that we'll meet in the next section, which 
+As you might guess, the `<img>` tag also has a height attribute, as well as others. Different HTML tags share some common attributes that we'll meet in the next section, which 
 are particularly useful when coupled with CSS (id and class) for applying graphic styles (color, shadow, etc.), but  can also have specific attributes (for example: the src 
-attribute can be found in the `&lt;video&gt;`, `&lt;audio&gt;`, `&lt;img&gt;` tags but not on a `&lt;p&gt;` or on an `&lt;h1&gt;` tag!)
+attribute can be found in the `<video>`, `<audio>`, `<img>` tags but not on a `<p>` or on an `<h1>` tag!)
 
 Try changing the value of the width attribute in the example below, or add a height attribute, and see the result:
 
