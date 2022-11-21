@@ -30,7 +30,7 @@
 
 <hr>
 
-<h3>Module 1: Introduction to JavaScript - Outline</h3>
+<h3>1.1 Introduction to JavaScript - Outline</h3>
 
 <h4>What you will learn in Module 1</h4>
 
@@ -43,7 +43,7 @@ Under the hood, an HTML document is nearly always associated with two other stan
 <li>Finally we will learn how to use the browser devtools, a powerful, built-in set of tools that represent the Swiss army knife of any Web developer. Without the devtools, you will not be able to debug your code, find errors, print traces of what a JavaScript program is doing etc.</li>
 </ul>
 
-**A word of caution**: you will not learn JavaScript in full detail in this course! This is an introductory course designed to help you understand the basic concepts of the language.
+<b>A word of caution</b>: you will not learn JavaScript in full detail in this course! This is an introductory course designed to help you understand the basic concepts of the language.
 
 <hr>
 
@@ -51,11 +51,11 @@ Under the hood, an HTML document is nearly always associated with two other stan
 
 <h3>Module 1: Introduction to JavaScript</h3>
 
-<h4>1.2 JavaScript, HTML and CSS > HTML is for structure</h4>
+<h3>1.2 JavaScript, HTML and CSS > HTML is for structure</h3>
 
-## HTML: Hyper Text Markup language
+<h3>HTML: Hyper Text Markup language</h3>
 
-#### The "Hyper Text" part: links!
+<h4>The "Hyper Text" part: links!</h4>
 
 A fundamental key to the World Wide Web is the concept of "hypertext".  Hypertext is built on the idea of linking information together, not unlike using footnotes, but far easier and more flexible. The idea is to "mark up" your document with links and define how to break it down into different segments (chapters, sections, paragraphs, tables, figures, etc.)
 
