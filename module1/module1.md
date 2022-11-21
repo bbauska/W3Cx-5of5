@@ -50,7 +50,9 @@ Under the hood, an HTML document is nearly always associated with two other stan
 
 <h3>HTML is for structure</h3>
 
-#### Module 1: Introduction to JavaScript > 1.2 JavaScript, HTML and CSS > HTML is for structure
+<h3>Module 1: Introduction to JavaScript</h3>
+
+<h4>1.2 JavaScript, HTML and CSS > HTML is for structure</h4>
 
 ## HTML: Hyper Text Markup language
 
