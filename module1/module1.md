@@ -1,4 +1,11 @@
-<h1>Video introduction - Module 1</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>W3Cx-5of5-JS.0x</title>
+  <meta charset="utf-8"/>
+</head>
+<body>
+  <h1>Video introduction - Module 1</h1>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- module1.md in W3Cx-5of5-JS.0x --------------------------------->
@@ -61,18 +68,15 @@ A fundamental key to the World Wide Web is the concept of "hypertext".  Hypertex
 
 That's why, in 1989, Tim Berners-Lee began to create a definition of HTML: Hypertext Markup Language, to provide a simple, uniform way to incorporate hyperlinks into a text document.
 
+<hr>
 
----
+<h3>1.2 JavaScript, HTML and CSS</h3>
 
+<h4>HTML is for structure</h4>
 
-#### Module 1: Introduction to JavaScript > 1.2 JavaScript, HTML and CSS > HTML is for structure
+<h4>HTML: Hyper Text Markup language</h4>
 
-### HTML is for structure
-
-
-#### HTML: Hyper Text Markup language
-
-The "Hyper Text" part: links!
+<h4>The "Hyper Text" part: links!</h4>
 
 A fundamental key to the World Wide Web is the concept of "hypertext".  Hypertext is built on the idea of linking information together, not unlike using footnotes, but far easier and more flexible. The idea is to "mark up" your document with links and define how to break it down into different segments (chapters, sections, paragraphs, tables, figures, etc.)
 
@@ -4614,50 +4618,34 @@ function soundLoaded() {
 
 ---  
 
-#### Module 1: Introduction to JavaScript   1.6 Simple JavaScript examples to play with   Discussion topic and project
+<h3>1.6 Simple JavaScript examples to play with</h3>
 
-# Discussion topic and project
+<h4>Discussion topic and project</h4>
 
 Here is the discussion forum for this part of the course. Please either post your comments/observations/questions or share your creations.
 
 See below for a suggested topic of discussion and an optional project.
 
-Suggested topic
+<h4>Suggested topic</h4>
 
 Please share any fun/interesting JS example that could interest your fellow students.
 Optional project
 
 You can tweak and share some of the examples provided in this section. No need to understand the whole code...
 
+<hr>
+
 ---
 
-#### Module 1: Introduction to JavaScript   1.7 Exercises - Module 1   Intro. exercises - Module 1
+<h3>Module 1: Introduction to JavaScript   1.7 Exercises - Module 1   Intro. exercises - Module 1</h3>
 
-# Intro. exercises - Module 1
+<h2>Intro. exercises - Module 1</h2>
 
 These exercises are due on 17 July 2017 (at 23:30 UTC), but please try to complete them in a timely manner.
 
 As stated in the grading policy page, these exercises count towards 18% of your final grade.
 
-
-
-
-
-
-
-
-
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
-
+<h4>the end...module 1</h4>
+<div> <script> date = new Date().toLocaleDateString(); document.write(date); </script> </div>
+</body>
+</html>
