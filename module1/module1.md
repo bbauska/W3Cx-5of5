@@ -170,7 +170,6 @@ As an example, let's look at a simplified version of the last HTML code we showe
 </html>
 ```
 
-
 Click the red circle next to HTML to unfold this HTML document structure (we can also say "see its DOM structure"):
 
 https://codepen.io/w3devcampus/pen/BRNpYQ
@@ -189,7 +188,6 @@ HTML borrows a technique from another language, SGML, to provide an easy way for
 
 
 Whatever that tag (or "open tag") does, it applies to the content following the tag. Unless you want that to be the entire rest of the document, you need to indicate when to stop using that tag and do something else, so "<" and ">" are used again. Since elements are typically nested within other elements, the browser needs to be able to distinguish between the end of the current tag and the beginning of a new tag (representing a nested element). This is done by adding a "/" right after the "<" to indicated that it's a "close tag". To indicate the beginning and end of a paragraph (indicated by the single letter "p") you end up with something like this:
-
 
 ```html
 <p>This is my first paragraph!</p>
@@ -211,7 +209,7 @@ Most tags have open and close versions, but there are a few strange ones.  For m
 
 The <img> tag is one of them, the "/" at the end is optional and can be removed entirely, this will still be valid HTML5.
 
-  <img src="https://goo.gl/pVxY0e" alt="Floating Flower">
+<img src="https://goo.gl/pVxY0e" alt="Floating Flower">
 
 These elements, without a "/" at the end, are called "void elements". They are : area, base, br, col, embed, hr, img, input, link, menuitem, meta, param, source, track, wbr.
 
@@ -219,7 +217,7 @@ These elements, without a "/" at the end, are called "void elements". They are :
 
 Most of what you can learn about HTML attributes is presented in the three W3Cx MOOCs about HTML5 (fundamentals, coding essentials, and advanced techniques), but we can introduce the idea briefly in this JavaScript course. Basically, a given element on your Web page can be distinguished by any number of unique or common attributes. For example, we've already seen how an image can be inserted in your Web page, and in that example we used the width attribute of the <img> tag in order to constrain the width of the image:
 
-  <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
+<img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
     width=200 alt="Michel Buffa plays rock&roll">
      
 As you might guess, the `<img>` tag also has a height attribute, as well as others. Different HTML tags share some common attributes that we'll meet in the next section, which 
@@ -233,16 +231,13 @@ Try changing the value of the width attribute in the example below, or add a hei
 <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
      width=200
      alt="Michel Buffa plays rock and roll">
-     
 ```
 
 ### Live coding video: creating a simple Web page using common tags and attributes
 
 https://youtu.be/BmzEHG8A2Fg
 
-
----
-
+<hr>
 
 #### Module 1: Introduction to JavaScript > 1.2 JavaScript, HTML and CSS > CSS is for style
 
@@ -297,22 +292,18 @@ h1 {
   border-radius: 15px;
   text-align: center;
 }
-
 h2 {
   color:brown;
 }
-
 p, h1, h2 {
   font-family: cursive 
 }
 img {
     box-shadow: 10px 10px 15px grey;
 }
-
 p, img {
   margin-left:50px;
 }
-
 ```
 
 If you click on the CSS button on the top left of the previous codepen example, you will see the CSS rules that have been applied to the HTML document. Let's look at the first one:
@@ -326,7 +317,6 @@ h1 {
     border-radius: 15px;
     text-align: center;
 }
-
 ```
 
 This rule turns all the h1s in the document into red text, centered horizontally, on a light green background, with a violet border of 12 pixels (a solid border, not a dashed one), and this border has rounded corners made of arcs of a circle whose radius is 15 pixels.
@@ -378,34 +368,28 @@ h1 {
   border-radius: 15px;
   text-align: center;
 }
-
 h2 {
   color:brown;
 }
-
 p, h1, h2 {
   font-family: cursive 
 }
 img {
     box-shadow: 10px 10px 15px grey;
 }
-
 p, img {
   margin-left:50px;
 }
-
 #hobbyTitle {
   font-family: 'caveat';
   font-size:40px;
   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
-
 .funny {
   color:purple;
   font-family: 'caveat';
   font-size:40px;
 }
-
 ```
 
 The last two rules first target the element whose id is 'hobbyTitle', in our case it's the second h2 element:
@@ -445,6 +429,7 @@ The last rule targets all elements that have an attribute class="funny". Notice 
 font-size:40px;
 }
 ```
+
 This rule will change the color, font family and size of two out of three paragraphs in the HTML element:
 
 ```css
@@ -463,7 +448,6 @@ You can do both!
 You can embed the CSS rules between a `<style>...</style>` tag, located inside the `<head>...</head>` of the HTML documents, like in this example:
 
 ```html
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -485,7 +469,6 @@ You can embed the CSS rules between a `<style>...</style>` tag, located inside t
     ...
   </body>
 </html>
-
 ```
 
 This is OK if you do not have too many CSS rules. In general it's better to put the CSS rules in one or more separate .css files, like this:
@@ -576,6 +559,7 @@ So, in the browser, JavaScript lies between HTML and CSS and will be used togeth
 ```
 
 **Example 2: Push another button to modify the CSS style (color, background-color, border) of a paragraph in the page.**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -603,7 +587,6 @@ So, in the browser, JavaScript lies between HTML and CSS and will be used togeth
 We will take a detailed look at how these examples work in the subsequent parts of the course. These examples are just here to show you how JavaScript can interact with the HTML content and the CSS styles of a Web document.
 
 Notice that in these examples, the JavaScript code is located in the HTML of the document.
-
 
 > Hello, your Web browser can only understand three different languages
 > when you ask for a Web page to be rendered in the browser. So, let's
@@ -732,12 +715,11 @@ Optional project
 
 Try to make a simple home page and add some interactivity to it, adapting the examples provided in the course (change the HTML content by clicking on a button, change the CSS style of some parts of the document).
 
----
+<hr>
 
+<h2>1.3 JavaScript overview</h2>
 
-#### Module 1: Introduction to JavaScript > 1.3 JavaScript overview > The best way to learn JavaScript
-
-# The best way to learn JavaScript
+<h3>The best way to learn JavaScript</h3>
 
 ### Live coding video: learn by the examples
 
