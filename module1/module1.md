@@ -42,7 +42,8 @@
 <h3>What you will learn in Module 1</h3>
 
 If you thought that a Web browser could only display HTML documents, you were mistaken! ;)
-Under the hood, an HTML document is nearly always associated with two other standard languages of the Web: CSS and JavaScript. Before looking at the guts of JavaScript, we will introduce you to the basics and play with many examples. We will also have a first look at the browser devtools, and discover how JavaScript is useful.
+Under the hood, an HTML document is nearly always associated with two other standard languages of the Web: CSS and JavaScript. Before looking at the guts of JavaScript, we will introduce you to the basics and play with many examples.
+We will also have a first look at the browser devtools, and discover how JavaScript is useful.
 <ul>
 <li>First we will briefly discuss the roles of HTML, CSS and JavaScript, and how they work together.</li><br>
 <li>We will show examples of what can be done with JavaScript: a showcase of very small examples through to impressively complex ones.</li><br>
@@ -102,7 +103,8 @@ If you eliminated everything in between the angle brackets from the text, for mo
 >   . . .
 > . . . it is a far, far better rest
 >     that I go to than I have ever known.
-> Once you know that everything in angle brackets is "meta-information", it gives you a lot of flexibility. You can put a lot of different things in between those brackets without any of it showing up (directly) in your finished document. And though you don't usually see directly what's in those angle brackets, they can often have a big effect on how your Web page looks, as well as how it responds and interacts with you.
+
+Once you know that everything in angle brackets is "meta-information", it gives you a lot of flexibility. You can put a lot of different things in between those brackets without any of it showing up (directly) in your finished document. And though you don't usually see directly what's in those angle brackets, they can often have a big effect on how your Web page looks, as well as how it responds and interacts with you.
 
 Here is another, more generic example:
 
@@ -4614,6 +4616,7 @@ These exercises are due on 17 July 2017 (at 23:30 UTC), but please try to comple
 As stated in the grading policy page, these exercises count towards 18% of your final grade.
 
 <h4>the end...module 1</h4>
+
 <div> <script> date = new Date().toLocaleDateString(); document.write(date); </script> </div>
 </body>
 </html>
