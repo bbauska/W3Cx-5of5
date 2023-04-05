@@ -1,8 +1,8 @@
-#### Module 5: Working with forms   5.1 Introduction - Module 5   Module 5 outline
+<h4>Module 5: Working with forms   5.1 Introduction - Module 5   Module 5 outline</h4>
 
-# Module 5 outline
+<h1>Module 5 outline</h1>
 
-### What you will learn in Module 5
+<h3>What you will learn in Module 5</h3>
 
 * We continue the study of object-oriented JavaScript programming with "predefined classes": Object, Array, String, Date, Math
 * We present a very useful API for building HTML5 tables dynamically.
@@ -138,9 +138,9 @@ undefined
 
 ---
 
-#### Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   Comparing two objects
+<h4>Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   Comparing two objects</h4>
 
-# Comparing two objects
+<h5>Comparing two objects</h5>
 
 Comparing two objects will only return true if they point to the same object (i.e., if they have the same reference).
 
@@ -210,6 +210,7 @@ undefined
 > window.z
 undefined
 ```
+
 `a` and `window.a` are the same variable.
 `navigator` and `window.navigator` are the same, `document` and `window.document` are the same thing.
 
@@ -220,6 +221,7 @@ true
 > navigator === window.navigator
 true
 ```
+
 Predefined functions are methods from the global object window:
 
 ```javascript
@@ -297,6 +299,7 @@ undefined
 > "An object into a string : " + t // same as t.toString()
 "The object as a String : 1, 2, 3"
 ```
+
 * Line 5: using the `+` operator with a string as the left argument will force the other arguments to convert to string by implicitly calling their toString() method.
 
 The valueOf method inherited from Object by all objects
@@ -350,6 +353,7 @@ undefined
 > myArray;
 [undefined × 3]
 ```
+
 #### Arrays are objects, but they are “special” objects
 
 * Their property names are numerical indexes that start from 0
@@ -366,7 +370,9 @@ undefined
 > o.length; // o is a simple literal object
 undefined
 ```
+
 Some horrible things we can do with arrays (**TO AVOID!**):
+
 ```javascript
 > var a = [1, 2];
 undefined
@@ -395,7 +401,7 @@ undefined
 [1, 2, 3, name: "I'm an array named a!"]
 ```
 
-> With arrays, only properties with a numerical index are taken into account by the length property!
+ With arrays, only properties with a numerical index are taken into account by the length property!
 
 #### The length property can be modified: reducing or increasing the size of an array
 
@@ -474,6 +480,7 @@ undefined
 > a.join(' and ');
 "1 and 3 and 5 and 7 and test"
 ```
+
 #### The slice() method returns a sub-array without modifying the original array:
 
 The `slice()` method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included). The original array will 
@@ -504,6 +511,7 @@ not be modified.
  
 // a is unchanged by calls to a.slice(...)
 ```
+
 #### The splice() method modifies the array: it removes “a slice” and also adds new elements
 
 The first two parameters are start and end indexes, the other parameters are the elements to add to the array to replace the slice that will be removed.
@@ -521,8 +529,7 @@ The first two parameters are start and end indexes, the other parameters are the
 `item1`, `item2`, ...: these are optional. They are the elements to add to the array, beginning at the `start` index. If you don't specify any elements, `splice()`
 will only remove elements from the array.
 
-Examples:
-
+<h6>Examples:</h6>
 
 ```javascript
 > a;
@@ -543,12 +550,11 @@ Examples:
 
 ---
 
-#### Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   Built-in JS class: Number
+<h3>Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   Built-in JS class: Number</h3>
 
-# Built-in JS class: Number
+<h4>Built-in JS class: Number</h4>
 
 The Number class can be used to transform strings into numbers, but it is recommended that you use parseInt or parseFloat instead.
-
 
 ```javascript
 > var n = Number('3.1416');
@@ -572,6 +578,7 @@ undefined
 > n;
 3.1416
 ```
+
 Number has useful non-modifiable properties (constants): `MAX_VALUE` and `MIN_VALUE`
 
 ```javascript
@@ -582,7 +589,7 @@ Number has useful non-modifiable properties (constants): `MAX_VALUE` and `MIN_VA
 5e-324
 ```
 
-#### Methods useful for converting numbers: toFixed(), toExponential(), toString()
+<h5>Methods useful for converting numbers: toFixed(), toExponential(), toString()</h5>
 
 * `toFixed`: sets the number of digits for the decimal part of a number. 
 There is also another method, named [`toPrecision`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision), that has a very close behavior, and can also return numbers in scientific notation. 
@@ -605,7 +612,6 @@ Number {[[PrimitiveValue]]: 123.456} // well, not exactly, but when you use n, i
 > n.toExponential();
 "1.23456e+2"
  
- 
 > var n = 255;
 undefined
  
@@ -627,16 +633,17 @@ undefined
 
 ---
 
-#### Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   Built-in JS class: String
+<h3>Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   Built-in JS class: String</h3>
 
-# Built-in JS class: String
+<h4>Built-in JS class: String</h4>
 
+```javascript
 >! Missing Video/Transcript
+```
 
-Source code from the video example
-https://codepen.io/w3devcampus/pen/pwPGve?editors=0012
+<a href="https://codepen.io/w3devcampus/pen/pwPGve?editors=0012">Source code from the video example.</a>
 
-#### Built-in JavaScript class: String
+<h4>Built-in JavaScript class: String</h4>
 
 The String class can be used to build new strings, but it’s preferable to use the standard syntax
 
@@ -653,6 +660,7 @@ undefined
 > typeof name;
 "string"
 ```
+
 Some reminders about strings:
 
 ```javascript
@@ -677,7 +685,8 @@ undefined
 > 'Michel'[0];
 "M"
 ```
-Explanations: 
+
+<h6>Explanations:</h6>
 
 * Line 10: in JavaScript, and in many other programming languages, a string is not modifiable at all. 
 When we do `var s = s + "hello"`, in fact, we are building a new string somewhere in memory, and we assign this new value to the variable `s`. 
@@ -1222,7 +1231,8 @@ for (var year = 2017; year <= 2047; year++) {
 [4, 4, 5, 5, 5, 4, 4] // 4 times on a Sunday, Monday, Friday and Saturday, 
                       // 5 times on Tuesday, Wednesday and Thursday
 ```
-#### Explanations:
+
+<h6>Explanations:</h6>
 
 * Line 1 we use an array with each element being the number of times the birthday occurs on a Sunday, Monday, etc.
 * Line 3: we iterate using a for loop on every year between 2017 and 2047.
@@ -1488,7 +1498,8 @@ td {
     padding:10px;
 }
 ```
-Explanations:
+
+<h6>Explanations:</h6>
 
 + Line 1: this rule says that the table will occupy the width of the window and will have a black, continuous border that is one pixel wide.
 + Line 7: this rule says that table rows, table cells and table headers will also have a border and will use the font family Courier.
@@ -2495,7 +2506,7 @@ function validateName(evt) {
 }
 ```
 
-#### JavaScript can be used for a more global validation before sending a form to a remote server
+<h4>JavaScript can be used for a more global validation before sending a form to a remote server</h4>
 
 Example: checking that a password entered twice is identical in two different input fields, that some values are coherent (e.g. a birthday cannot be in the future), etc.
 
@@ -2580,19 +2591,19 @@ This is the small project we will build together at the end of the course. :-)
 
 ---
 
-### Module 5: Working with forms   5.3 HTML5 tables, forms and input fields   Discussion topics and project
+<h3>Module 5: Working with forms   5.3 HTML5 tables, forms and input fields   Discussion topics and project</h3>
 # Discussion topics and project
 
 Here is the discussion forum for this part of the course. Please either post your comments/observations/questions or share your creations.
 
 See below for suggested topics of discussion and an optional project.
 
-#### Suggested topics
+<h4>Suggested topics</h4>
 
 + HTML5 tables are some of the most complicated elements, and there are lots of tricks to make them nice and reactive using CSS3 styles. Please share in the forum some of the best looking tables you find.
 + There exist external JavaScript libraries for making "datatables", i.e., HTML tables especially made for displaying structured data. Do you know some of them and can you share your experiences and examples that use them in the forum? What do you think of them?
 
-#### Optional project
+<h4>Optional project</h4>
 
 + Add a search input field + a search button to the dynamic table example. Add some more data in the table. Implement a search feature: when you search for "Ian Solo", for example, highlight the table row that contains it. If not found, display a message in the page, next to the search form.
 
@@ -2823,7 +2834,7 @@ function search() {
 }
 ```
 
-#### Explanations:
+<h6>Explanations:</h6>
 
 * Lines 4 and 5 build an Ajax request using XhR2.
 * Line 22 is executed after: the request is sent in the background (we say "asynchronously").
@@ -2835,9 +2846,9 @@ function search() {
 
 The [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses. It also provides a global [fetch()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch) method that provides an easy, logical way to fetch resources asynchronously across the network. You fetch data from a URL, then, you do something with the response, then you do something else. If there is an error you can catch this error and display, for example, an error message. 
 
-See this [blog post](https://davidwalsh.name/fetch) for a detailed tutorial. Asynchronous JavaScript and JavaScript promises (the fetch...then...then... is based on the concept of "promises"), will be detailed in a next MOOC to appear at W3Cx.
+See this <a href="https://davidwalsh.name/fetch">blog post</a> for a detailed tutorial. Asynchronous JavaScript and JavaScript promises (the fetch...then...then... is based on the concept of "promises"), will be detailed in a next MOOC to appear at W3Cx.
 
-https://codepen.io/w3devcampus/pen/xgoZdg
+<a href="https://codepen.io/w3devcampus/pen/xgoZdg">Codepen</a>
 
 ```html
 <!DOCTYPE html>
@@ -2855,7 +2866,6 @@ https://codepen.io/w3devcampus/pen/xgoZdg
 </body>
 </html>
 ```
-
 
 ```css
 table {
@@ -2914,6 +2924,7 @@ function displayUsersAsATable(users) {
 }
 
 ```
+
 #### JavaScript source code extract:
 
 ```javascript
@@ -2934,6 +2945,7 @@ function search() {
       });
 }
 ```
+
 The fetch API will also be covered in an advanced JavaScript course to come. In contrast to XhR2, fetch is based on a concept called "JavaScript promises" (also covered in the advanced course!). You recognize promises when you see ".then..." ".then...".
 
 ---
@@ -2954,12 +2966,12 @@ Indeed, Web Storage provides two interfaces - `sessionStorage` and `localStorage
 
 For convenience, we will mainly illustrate the `localStorage` object. Just change "local" to "session" and it should work (this time with a session lifetime)
 
-### Simple key-value stores, one per domain (following the [same origin policy](https://en.wikipedia.org/wiki/Same-origin_policy))!
+### Simple key-value stores, one per domain (following the <a href="https://en.wikipedia.org/wiki/Same-origin_policy">same origin policy)!
 
 `localStorage` is a simple key-value store, in which the keys and values are strings. There is only one store per domain. This functionality is exposed through the globally 
 available `localStorage` object. The same applies to `sessionStorage`.
 
-Example:
+<h4>Example:</h4>
 
 ```javascript
 // Using localStorage
@@ -2995,13 +3007,13 @@ This data is located in a store attached to the origin of the page. We've create
     var location = localStorage.location;
     
     console.log("lastName just retrieved from the localStorage of your browser, for this particular web site: " + lastName);
-    </script>
+  </script>
 </head>
 <body>
 
 </body>
 </html>
-``
+```
 
 Once opened in your browser, the JavaScript code is executed. With the browser dev. tools, we can check what has been stored in the localStorage for this domain:
 
@@ -3054,7 +3066,9 @@ In this final part of the course, we will build together a minimal contact manag
 This is a play project that you can easily improve:
 
 A contact, in this application, is just a person with a name and an email. Feel free to add other properties and methods to the Contact class.
+
 The contactManager is also an ES6 class with methods for adding, removing, sorting, saving and loading contacts on your hard disk. We will add new functionalities, step by step, in the next sections, but you can improve the examples provided by adding your own new features (build a better HTML table, add new sorting options, etc.)
+
 Let's start with a simple skeleton (no GUI), beginning with the Contact class
 
 ```javascript
@@ -3065,15 +3079,17 @@ class Contact {
    }
 }
 ```
+
 As you can see, a contact is just a name and an email. We will use the above class like this:
 
 ```javascript
 var c1 = new Contact("Jimi Hendrix", "jimi@rip.com");
 var c2 = new Contact("Robert Fripp", "robert.fripp@kingcrimson.com");
 ```
+
 Then you can print the properties of contact c1 or c2 using for example console.log(c1.name), console.log(c2.email), etc.
 
-A minimal ContactManager class
+<h4>A minimal ContactManager class</h4>
 
 ```javascript
 class ContactManager {
@@ -3107,7 +3123,7 @@ class ContactManager {
 }
 ```
 
-#### Explanations:
+<h6>Explanations:</h6>
 
 This is a minimal ES6 class for building a contact manager. It has only one property: the list of contacts, and a method for adding a new contact (line 8), one for removing a contact (line 12), that iterate on the list of contacts until the contact passed as a parameter is found (when email properties match), then the contact is removed using the splice method, and we go out from the loop using the break statement (line 22).
 
@@ -3135,7 +3151,7 @@ cm.printContactsToConsole();
 As you can see, this is a very minimal version. It's always a good idea to start with very simple structures/classes, and a few methods. Then type the code on CodePen or jsBin and use the devtool console. Check that there are no syntax errors, that everything runs smoothly.
 
 Here is the CodePen of this minimal version. Click on the CodePen label on the top right, and once in CodePen, open the console:
-https://codepen.io/w3devcampus/pen/yXoXER
+<a href="https://codepen.io/w3devcampus/pen/yXoXER">Codepen</a>
 
 ```javascript
 class Contact {
@@ -3202,7 +3218,6 @@ cm.printContactsToConsole();
 
 Do you remember the sort() method you can use on arrays? We saw it in modules 2 or 3. Since our array contains objects, we must provide a callback for comparing two elements by name. Here is the code for the new sort() method we added to the ContactManager class:
 
-
 ```javascript
 sort() {
     // As our array contains objects, we need to pass as argument
@@ -3224,10 +3239,10 @@ static compareByName(c1, c2) {
     return 0; // c1.name = c2.name
 }
 ```
+
 The important thing here is to notice that we declared the `compareByName` method as a class method (using the `static` keyword). This is similar to what we did in the Point class example from module 4, when we explained the "class properties and methods". This method compareByName does not depend on any instance of the contact manager, consequently: it's a class method.
 
-CodePen that uses this new method:
-https://codepen.io/w3devcampus/pen/MovoBz
+<a href="https://codepen.io/w3devcampus/pen/MovoBz">CodePen that uses this new method:</a>
 
 ```javascript
 class Contact {
@@ -3315,6 +3330,7 @@ console.log("--- sorting contacts ---");
 cm.sort();
 cm.printContactsToConsole();
 ```
+
 ---
 
 #### Module 5: Working with forms   5.5 A small application   Part 2: persistence
@@ -3347,6 +3363,7 @@ class ContactManager {
      }
 }
 ```
+
 You write data identified by a key in localStorage like this:
 
 * `localStorage.keyName = a string value`
@@ -3354,8 +3371,8 @@ You write data identified by a key in localStorage like this:
 In our case, line 13 saves the list of contacts with a key named "contacts" in the local storage. In order to save the list of contacts as a string, we convert it to the JSON format using 
 the  `JSON.stringify(...)` method (JSON = string based)
 
-Try an example on CodePen, save some contacts...
-https://codepen.io/w3devcampus/pen/PjKbVP
+<a href="https://codepen.io/w3devcampus/pen/PjKbVP">Try an example on CodePen, save some contacts...</a>
+
 ```javascript
 class Contact {
 	constructor(name, email) {
@@ -3477,25 +3494,24 @@ cm.load();
 cm.printContactsToConsole();
 console.log("Do you notice: contacts have all been restored!");
 ```
+
 Then we can check in the devtools that the list has been saved
 
 In Google Chrome, click the Application tab, then `LocalStorage`:
 
-![Application tab](https://d37djvu3ytnwxt.cloudfront.net/assets/courseware/v1/2d5f785476ed3c369762f15329f9087a/asset-v1:W3Cx+JS.0x+1T2017+type@asset+block/ChromeContactDevtools.jpg)
+<a href="https://d37djvu3ytnwxt.cloudfront.net/assets/courseware/v1/2d5f785476ed3c369762f15329f9087a/asset-v1:W3Cx+JS.0x+1T2017+type@asset+block/ChromeContactDevtools.jpg">Application tab</a>
 
 In Firefox, you first need to activate the storage view like this:
 
-![firefox](https://d37djvu3ytnwxt.cloudfront.net/assets/courseware/v1/d8cad0cef9d86dc2d8431bde4be3e113/asset-v1:W3Cx+JS.0x+1T2017+type@asset+block/FFContactDevtools1.jpg)
+<a href="https://d37djvu3ytnwxt.cloudfront.net/assets/courseware/v1/d8cad0cef9d86dc2d8431bde4be3e113/asset-v1:W3Cx+JS.0x+1T2017+type@asset+block/FFContactDevtools1.jpg">firefox</a>
 
 You will see the list of contacts when you click on the newly appeared "Storage" tab:
 
-![Storage](https://d37djvu3ytnwxt.cloudfront.net/assets/courseware/v1/600644d940fbf5c1f12c490d0ca670f0/asset-v1:W3Cx+JS.0x+1T2017+type@asset+block/FFContactDevtools2.jpg)
+<a href="https://d37djvu3ytnwxt.cloudfront.net/assets/courseware/v1/600644d940fbf5c1f12c490d0ca670f0/asset-v1:W3Cx+JS.0x+1T2017+type@asset+block/FFContactDevtools2.jpg">Storage</a>
 
 #### Restoring the list of contacts
 
 This time, we've added a load() method that will check if a list of contacts has been saved. If this is the case, it will read it from LocalStorage, convert it back from JSON into a JavaScript object. In order to test this, in the following CodePen, we first save the list, then we empty the list in memory (setting the array to an empty array), print the list of contacts (that displays a message "LIST EMPTY!"), then we load the contacts from LocalStorage and print the list again: it has been restored to its previous value.
-
-
 
 ```javascript
 class ContactManager {
@@ -3508,9 +3524,7 @@ class ContactManager {
     empty() {
         this.listOfContacts = [];
     }
- 
     ...
- 
     load() {
         if(localStorage.contacts !== undefined) {
             // the array of contacts is saved in JSON, let's convert
@@ -3519,9 +3533,7 @@ class ContactManager {
         }
     }
 }
- 
 ...
- 
 console.log("--- Saving contacts to local storage ---");
 cm.save();
  
@@ -3535,7 +3547,7 @@ cm.printContactsToConsole();
 console.log("Do you notice: contacts have all been restored!");
 ```
 
-#### Explanations:
+<h6>Explanations:</h6>
 
 At line 16, we check if a previous version has been saved.
 At line 19, we read the string value associated to the key named "contacts", and use JSON.parse(...) to turn it into a JavaScript object we can work with.
@@ -3552,11 +3564,12 @@ Adapt the code we saw in a previous part of this module, that generates an HTML5
 We're going to reuse the code from this CodePen (example taken from a previous section of the course, the one about working with remote data), and adapt it to our needs:
 
 https://codepen.io/w3devcampus/pen/vmLMRN
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Working with remote data suing XhR2</title>
+  <title>Working with remote data suing XhR2</title>
   <meta charset="utf-8"/>
 </head>
 <body>
@@ -3627,21 +3640,22 @@ function displayUsersAsATable(users) {
 }
 ```
 
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>A contact manager, v3</title>
-    <meta charset="utf-8"/>
+  <title>A contact manager, v3</title>
+  <meta charset="utf-8"/>
 </head>
 <body>
-    <p>List of contacts</p>
-    <div id="contacts"></div>
+  <p>List of contacts</p>
+  <div id="contacts"></div>
 </body>
 </html>
 ```
+
 The div at line 9 is where we're going to dynamically insert an HTML table with one row for each contact. We will keep the same minimal CSS for displaying table, row and cell borders (we encourage you to improve this):
+
 ```javascript
 table {
    margin-top: 20px;
@@ -3651,6 +3665,7 @@ table, tr, td {
    border: 1px solid;
 }
 ```
+
 And here is the method we add in our `ContactManager` class; an adaptation of the function `displayUsersAsATable(users)` from the previous CodePen:
 
 ```javascript
@@ -3680,7 +3695,8 @@ class ContactManager {
     }
 }
 ```
-Explanations:
+
+<h6>Explanations:</h6>
 
 * Line 3: the method displayContactsAsATable takes as a parameter the id of the HTML element in which the table will be inserted after being built. This id is used by the querySelector call at line 5.
 * Lines 9-13: if the list of contacts is empty, we just return, but first we display in the HTML container a message: "No contact to display!"
@@ -3694,8 +3710,8 @@ https://codepen.io/w3devcampus/pen/yXoVdp
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>A contact manager, v3</title>
-  <meta charset="utf-8"/>
+  <title>A contact manager, v3</title>
+    <meta charset="utf-8"/>
 </head>
 <body> 
   <p>List of contacts</p> 
@@ -3891,6 +3907,7 @@ Here is the HTML code of the form:
     </fieldset>
 </form>
 ```
+
 * The button at line 13 will submit the form by default (it's equivalent to an <input type="submit">). 
 
 The event listener at line 1: 
@@ -3898,6 +3915,7 @@ The event listener at line 1:
 ```html
 <form onsubmit="return formSubmitted();">
 ```
+
 ... will call the `formSubmitted` function when the form is submitted. It is interesting that we use `onclick="return formSubmitted();"`:
 
 * If the returned value is true, the form will be submitted by your browser (this would reload the HTML page).
@@ -3921,7 +3939,8 @@ function formSubmitted() {
     return false;
 }
 ```
-#### Explanations:
+
+<h6>Explanations:</h6>
 
 * Lines 2-7: we get the values entered in the form's input fields, build a new contact and add it to the contact list
 * Lines 10-11: we reset the content of the input fields (we empty them)
