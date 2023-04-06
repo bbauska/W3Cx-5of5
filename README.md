@@ -1,7 +1,7 @@
 # js.0x-w3cx - W3Cx-5of5-JS.0x
 W3Cx: JS.0x JavaScript Introduction
 
-# Course outline
+## Course outline
 
 ## Module 1: Introduction to JavaScript
 
@@ -13,7 +13,7 @@ W3Cx: JS.0x JavaScript Introduction
 &nbsp;&nbsp;1.6 Simple JavaScript examples to play with  
 &nbsp;&nbsp;1.7 Exercises - Module 1  
 
-Live on Tuesday 6 June 2017 - 7:00 UTC
+Recorded on Tuesday 6 June 2017 - 7:00 UTC
 
 ## Module 2: Adding interactivity to HTML
 
@@ -25,7 +25,7 @@ Live on Tuesday 6 June 2017 - 7:00 UTC
 &nbsp;&nbsp;2.6 Let's write a small game  
 &nbsp;&nbsp;2.7 Exercises - Module 2  
 
-Live on Tuesday 13 June 2017 - 7:00 UTC
+Recorded on Tuesday 13 June 2017 - 7:00 UTC
 
 ## Module 3: Playing with HTML5 APIs
 
@@ -36,7 +36,7 @@ Live on Tuesday 13 June 2017 - 7:00 UTC
 &nbsp;&nbsp;3.5 Playing sound samples and music  
 &nbsp;&nbsp;3.6 Exercises - Module 3  
 
-Live on Tuesday 20 June 2017 - 14:00 UTC
+Recorded on Tuesday 20 June 2017 - 14:00 UTC
 
 ## Module 4: Structuring data
 
@@ -46,7 +46,7 @@ Live on Tuesday 20 June 2017 - 14:00 UTC
 &nbsp;&nbsp;4.4 Organizing the code in separate files  
 &nbsp;&nbsp;4.5 Exercises - Module 4  
 
-Live on Tuesday 27 June 2017 - 7:00 UTC
+Recorded on Tuesday 27 June 2017 - 7:00 UTC
 
 ## Module 5: Working with forms
 
