@@ -3892,23 +3892,23 @@ Here is the HTML code of the form:
 
 ```html
 <form onsubmit="return formSubmitted();">
-    <fieldset>
-        <legend>Personal informations</legend>
-        <label>
-            Name :
-            <input type="text" id="name" required>
-        </label>
-        <label>
-            Email :
-            <input type="email" id="email" required>
-        </label>
-        <br>
-        <button>Add new Contact</button>
-    </fieldset>
+  <fieldset>
+    <legend>Personal informations</legend>
+    <label>
+      Name :
+      <input type="text" id="name" required>
+    </label>
+    <label>
+      Email :
+      <input type="email" id="email" required>
+    </label>
+    <br>
+    <button>Add new Contact</button>
+  </fieldset>
 </form>
 ```
 
-* The button at line 13 will submit the form by default (it's equivalent to an <input type="submit">). 
+* The button at 'Add new Contact' or line 13 will submit the form by default (it's equivalent to an &lt;input type="submit"&gt;). 
 
 The event listener at line 1: 
 
@@ -4202,7 +4202,7 @@ Reload the list... you can see that contacts have been correctly saved and resto
 
 #### Module 5: Working with forms   5.5 A small application   Discussion and project
 
-# Discussion and project
+### Discussion and project
 
 Here is the discussion forum for this part of the course. Please either post your comments/observations/questions or share your creations.
 
@@ -4216,7 +4216,7 @@ See below for a suggested optional project.
 
 #### Module 5: Working with forms   5.5 A small application   Discusion and optional projects (verified cohort)
 
-# Discusion and optional projects (verified cohort)
+### Discusion and optional projects (verified cohort)
 
 Optional projects for the verified cohort
 
@@ -4243,7 +4243,7 @@ It's like adding a `data-contactId` attribute to the HTML of the img element. Th
 
 #### Module 5: Working with forms   5.6 Further reading   i18n further reading
 
-# i18n further reading
+### i18n further reading
 
 ### Web internationalization: further reading (suggested but not mandatory)
 
