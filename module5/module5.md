@@ -16,7 +16,7 @@ This module ends with the final exam which regroups questions specific to the cu
 
 #### Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   References and objects
 
-# References and objects
+### References and objects
 
 ### Live coding video: references and objects
 
@@ -168,7 +168,7 @@ false
 
 #### Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   The "global" window object
 
-# The "global" window object
+### The "global" window object
 
 It is time to tell you the truth: the JavaScript code is executed by an “environment" (usually a Web browser, but there are some HTTP Web servers that use JavaScript for coding the server side of Web sites of applications, such as the NodeJS HTTP server). 
 
@@ -245,7 +245,7 @@ true
 
 #### Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   Built-in JS class: Object
 
-# Built-in JS class: Object
+### Built-in JS class: Object
 
 ### Live coding video: predefined class - Object
 
@@ -321,7 +321,7 @@ undefined
 
 #### Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   Built-in JS class: Array
 
-# Built-in JS class: Array
+### Built-in JS class: Array
 
 >! Missing Video/Transcript
 
@@ -331,7 +331,6 @@ https://codepen.io/w3devcampus/pen/XgRyar?editors=0012
 ### Built-in JavaScript objects: Array
 
 The `Array` class can be used for creating arrays (however, we recommend that you use the other methods presented instead):
-
 
 ```javascript
 > var a = new Array(); // same as a = []; use this instead!
@@ -435,7 +434,7 @@ undefined
 
 #### Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   The most useful methods of the class Array
 
-# The most useful methods of the class Array
+### The most useful methods of the class Array
 
 Most useful methods you can use on arrays: sort(), join(), slice(), splice(), push()and pop()
 
@@ -731,6 +730,7 @@ undefined
 s2.charAt(8); // same as s2[8]
 "w"
 ```
+
 #### Other useful methods: lastIndexOf, chaining methods
 
 lastIndexOf: returns the last index of the string value passed as parameter
@@ -760,9 +760,7 @@ undefined
 
 #### Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   The most useful methods of the class String
 
-# The most useful methods of the class String
-
-### The most useful methods of the String class: slice, substring, split, join
+### The most useful methods of the class String: slice, substring, split, join
 
 ### The slice and substring methods
 
@@ -839,7 +837,7 @@ Actually, here is a summary of the common behaviors and the differences between 
 * If start is negative: sets char from the end of string.
 * If stop is negative: sets stop to: string.length – Math.abs(stop.
 
-###The split(), join() and concat() methods
+### The split(), join() and concat() methods
 
 The split method returns an array of strings, the parameter is a separator. The join method builds a string from an array of strings.
 
@@ -888,9 +886,7 @@ undefined
 
 #### Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   Built-in JavaScript class: Math
 
-# Built-in JavaScript class: Math
-
-Built-in JavaScript class: Math
+### Built-in JavaScript class: Math
 
 It’s not possible to do `var m = new Math();`
 
@@ -978,6 +974,7 @@ Indeed, if `Math.random()` returns a value above 0.5, Math.round of this value w
 > Math.max(12, 4);
 12
 ```
+
 #### A useful function that restricts a value between  min and  max bounds:
 
 ```javascript
@@ -994,6 +991,7 @@ function restrictValue(value, min, max) {
 > restrictValue(10, 1, 20);
 10
 ```
+
 #### Math functions for arithmetical computations sin(), cos(), tan(), atan(), atan2(), pow(), sqrt()
 
 ```javascript
@@ -1037,8 +1035,6 @@ canvas {
   border: 2px solid black;
 }
 ```
-
-
 
 ```javascript
 var canvas, ctx, width, height;
@@ -1107,9 +1103,7 @@ function getMousePos(canvas, evt) {
 
 #### Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   Built-in JS class: Date
 
-# Built-in JS class: Date
-
-### Built-in JavaScript class: Date
+### Built-in JS class: Date
 
 Getting a date by calling the Date constructor
 
@@ -1185,6 +1179,7 @@ Calling `Date()` without "new" returns the current date as a string. It does not
 > Date();
 "Sun Apr 16 2017 14:51:47 GMT+0200 (CEST)"
 ```
+
 #### Useful methods
 
 ```javascript
@@ -1350,7 +1345,7 @@ function displayResults(array) {
 
 #### Module 5: Working with forms   5.2 Objects (part 4): objects and references, built-in JS classes   Discussion topics and projects
 
-# Discussion topics and projects
+### Discussion topics and projects
 
 Here is the discussion forum for this part of the course. Please either post your comments/observations/questions or share your creations.
 
@@ -1365,7 +1360,7 @@ See below for suggested topics of discussion and optional projects.
 
 #### Module 5: Working with forms   5.3 HTML5 tables, forms and input fields   The HTML table basics
 
-# The HTML table basics
+### The HTML table basics
 
 The HTML table basics: tags, attributes and CSS styling
 
@@ -1700,7 +1695,7 @@ tfoot tr {
 
 #### Module 5: Working with forms   5.3 HTML5 tables, forms and input fields   The HTML table JavaScript API: dynamic tables!
 
-# The HTML table JavaScript API: dynamic tables!
+### The HTML table JavaScript API: dynamic tables!
 
 ### Introduction
 
@@ -1711,8 +1706,6 @@ We've already seen some examples in the course, but we have not completely cover
 #### The Table object (<table>)
 
 When you look for a table using the DOM API or the selector API, or when you create a table using the DOM API, you get a Table object:
-
-
 
 ```javascript
 var table = document.getElementById("myTable");
@@ -1744,8 +1737,6 @@ Like all objects, an instance of Table will have properties and methods:
 |deleteTFoot()	|Removes the `<tfoot>` element from the table|
 
 #### Example that adds a new row or removes a row to/from a table using the insertRow()/deleteRow() methods:
-
-
 
 ```html
 <!DOCTYPE html>
@@ -2155,7 +2146,7 @@ WAI-ARIA roles are very important in the accessibility world, and we invite you 
 
 #### Module 5: Working with forms   5.3 HTML5 tables, forms and input fields   HTML forms and JavaScript
 
-# HTML forms and JavaScript
+### HTML forms and JavaScript
 
 https://youtu.be/iq5gnJJ8svU
 
@@ -2532,7 +2523,6 @@ Example: checking that a password entered twice is identical in two different in
 </html>
 ```
 
-
 ```css
 .myForm input:invalid { 
   background-color: lightPink;
@@ -2552,8 +2542,6 @@ Example: checking that a password entered twice is identical in two different in
   text-align: right; 
 } 
 ```
-
-
 
 ```javascript
  function checkPasswords() {
@@ -2583,6 +2571,7 @@ function submitForm() {
   return false;
 }
 ```
+
 JavaScript can be used to make a WebApp that uses form data locally, perhaps with some client-side persistence API
 
 For example, a contact manager that will work offline, saving data locally, in a database inside the browser. Data will be displayed in a dynamic HTML table, without the need for a remote database.
@@ -2621,7 +2610,7 @@ Ah, but this table looks too long now!!! Try to paginate it by using a previous 
 
 #### Module 5: Working with forms   5.4 The JSON notation   What is JSON?
 
-# What is JSON?
+### What is JSON?
 
 JSON stands for JavaScript Object Notation. It's a standard for transforming nearly any object into a string representation that is human readable. It became a standard for exchanging data to/from a remote HTTP server, and is available for many other languages in addition to JavaScript.
 
@@ -2633,7 +2622,6 @@ A JavaScript object o in JSON looks a lot like what o.toString() returns.
 > Transform any JSON string into a JavaScript object:    var jsObj  = JSON.parse(jsonStr);
 
 #### Let's see some examples:
-
 
 ```javascript
 > var x = 3;
@@ -2665,6 +2653,7 @@ undefined
 > JSON.stringify(complexObject);
 "{"name":"Metallica","albums":[{"name":"Master of Puppets","year":1986},{"name":"Black Album","year":1991}]}"
 ```
+
 In the above examples, you can see JSON representations of a simple variable of a predefined type, of an array, of a simple object, of an object that contains an array of objects (Metallica example).
 
 And indeed, it looks like the code you typed to create the objects, with quotes around it and around the property names. This is why it is called JavaScript Object Notation ;-)
@@ -2695,6 +2684,7 @@ undefined
 > obj.name; // this is an object
 "Metallica"
 ```
+
 With the JSON representation of an object you cannot access the original object's properties using the "." operator, nor call its methods. The JSON format only stores the list of the object properties (name and value) as a string. Look at line 10: we cannot access the name property of the JSON representation of the metallica object defined at line 1.
 
 When we parse a JSON string using JSON.parse(), we get a real JavaScript object, and we can access its properties (lines 16 and 19).
@@ -2703,7 +2693,7 @@ When we parse a JSON string using JSON.parse(), we get a real JavaScript object,
 
 #### Module 5: Working with forms   5.4 The JSON notation   Example: consuming JSON remote data
 
-# Example: consuming JSON remote data
+### Example: consuming JSON remote data
 
 >! Missing video/transcript
 
@@ -2730,7 +2720,6 @@ However, we can show you two simple examples that use the Xhr2 API for Ajax requ
 
 ### Downloading JSON data using the Xhr2 API
 
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -2746,7 +2735,6 @@ However, we can show you two simple examples that use the Xhr2 API for Ajax requ
 </html>
 ```
 
-
 ```css
 table {
   margin-top: 20px;
@@ -2755,8 +2743,6 @@ table, tr, td {
   border: 1px solid;
 } 
 ```
-
-
 
 ```javascript
   function search() {    
@@ -2952,7 +2938,7 @@ The fetch API will also be covered in an advanced JavaScript course to come. In 
 
 #### Module 5: Working with forms   5.4 The JSON notation   Example of use: the LocalStorage API
 
-# Example of use: the LocalStorage API
+### Example of use: the LocalStorage API
 
 #### Example of use: the LocalStorage API as a client-side database for JavaScript objects
 
@@ -2986,7 +2972,6 @@ var location = localStorage.location;
 ```
 
 This data is located in a store attached to the origin of the page. We've created a [JsBin](http://jsbin.com/hebino/1/edit?html,output) example in which we've included the above code.
-
 
 ```html
 <!DOCTYPE html>
@@ -3032,7 +3017,7 @@ External resources
 
 #### Module 5: Working with forms   5.4 The JSON notation   Discussion
 
-# Discussion
+### Discussion
 
 Here is the discussion forum for this part of the course. Please either post your comments/observations/questions or share your creations.
 
@@ -3046,7 +3031,7 @@ See below for a suggested topic of discussion.
 
 #### Module 5: Working with forms   5.4 The JSON notation   Projects (verified cohort)
 
-# Projects for the verified cohort
+### Projects for the verified cohort
 
 * Please display the data from this [URL](https://gist.githubusercontent.com/heiswayi/7fde241975ed8a80535a/raw/ff1caaeaf62bd6740ab7cafcd61f1215de173379/datatables-data.json) in a dynamic table.
 * Try to add a "hi-score" table to the game developed during this course. The table will be displayed when you lose, and will show only the 10 best scores.
@@ -3055,7 +3040,7 @@ See below for a suggested topic of discussion.
 
 #### Module 5: Working with forms   5.5 A small application   Part 1: a contact manager
 
-# Part 1: a contact manager
+### Part 1: a contact manager
 
 A small project that uses ES6 classes, local storage, the HTML table JavaScript API and forms
 
@@ -3335,7 +3320,7 @@ cm.printContactsToConsole();
 
 #### Module 5: Working with forms   5.5 A small application   Part 2: persistence
 
-# Part 2: persistence
+### Part 2: persistence
 
 We will use load/save methods is for loading and saving the list of contacts in Local Storage.
 
@@ -3557,7 +3542,7 @@ Lines 26-36 test the load/save/empty functionalities. You can try this yourself 
 
 #### Module 5: Working with forms   5.5 A small application   Part 3: display contacts in an HTML5 table
 
-# Part 3: display contacts in an HTML5 table
+### Part 3: display contacts in an HTML5 table
 
 Adapt the code we saw in a previous part of this module, that generates an HTML5 table dynamically
 
@@ -3879,8 +3864,6 @@ code we used in previous examples for testing the class by adding four contacts 
 
 #### Module 5: Working with forms   5.5 A small application   Part 4: use a form to enter new contacts
 
-# Part 4: use a form to enter new contacts
-
 ### Part 4: use a form to enter new contacts in an HTML5 table
 
 Some reminders about HTML forms
@@ -3888,7 +3871,6 @@ Some reminders about HTML forms
 In the previous example, we added a form for entering a new contact, and an "add" button.
 
 Here is the HTML code of the form:
-
 
 ```html
 <form onsubmit="return formSubmitted();">
@@ -4019,7 +4001,6 @@ input:valid {
   background-color:lightgreen;
 }
 ```
-
 
 ```javascript
 window.onload= init;
@@ -4216,7 +4197,7 @@ See below for a suggested optional project.
 
 #### Module 5: Working with forms   5.5 A small application   Discusion and optional projects (verified cohort)
 
-### Discusion and optional projects (verified cohort)
+### Discussion and optional projects (verified cohort)
 
 Optional projects for the verified cohort
 
