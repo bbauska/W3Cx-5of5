@@ -36,7 +36,7 @@
 
 <hr>
 
-<h2>1.1 Introduction to JavaScript - Outline</h2>
+<h2 id="ch1-01">1.01 Introduction to JavaScript - Outline</h2>
 
 <h3>What you will learn in Module 1</h3>
 
@@ -80,18 +80,17 @@ There are many ways to markup a document, but HTML borrows a technique from an a
 
 For example, consider the following chunk of HTML code (note: you can edit the source code and see the resulting Web page updating in real time):
 
-
 ```html
 <body>
-      <h1>A Tale of Two Cities</h1>
-      <p>
-         It was the best of times, it was the worst of times, . . . .
-      </p>
-      . . .
-      <p>
-         . . . it is a far, far better rest
-         that I go to than I have ever known.
-      </p>
+  <h1>A Tale of Two Cities</h1>
+  <p>
+    It was the best of times, it was the worst of times, . . . .
+  </p>
+  . . .
+  <p>
+    . . . it is a far, far better rest
+    that I go to than I have ever known.
+  </p>
 </body>
 ```
 
@@ -115,18 +114,19 @@ Notes:
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Your first HTML page</title>
-  <meta charset="utf-8"/>
-</head>
+  <head>
+    <title>Your first HTML page</title>
+    <meta charset="utf-8"/>
+  </head>
   <body>
     <h1>My home page</h1> 
     <h2>Who am I?</h2>
-  <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I'm a professor at the University of Nice, in France, and I'm also the author of two MOOCS about HTML5 on W3Cx.</p>
+  <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I'm a professor at the University 
+    of Nice, in France, and I'm also the author of two MOOCS about HTML5 on W3Cx.</p>
     <p>I also play electric guitar and love coding WebAudio applications...</p>
     <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
-         width=200
-         alt="Michel Buffa plays rock and roll">
+      width=200
+      alt="Michel Buffa plays rock and roll">
     <h2>My Hobbies</h2>
     Music, Movies, Video Games, Travelling, Family, etc.
   </body>
@@ -230,8 +230,8 @@ Try changing the value of the width attribute in the example below, or add a hei
 
 ```html
 <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
-     width=200
-     alt="Michel Buffa plays rock and roll">
+  width=200
+  alt="Michel Buffa plays rock and roll">
 ```
 
 ### Live coding video: creating a simple Web page using common tags and attributes
@@ -349,7 +349,7 @@ Basically, any given element on your Web page can be identified uniquely with an
 
 ```css
 <p id="paragraph-1" class="regular-paragraphs">
-    Call me Ishmael . . .
+  Call me Ishmael . . .
 </p>
 ```
 
@@ -376,7 +376,7 @@ p, h1, h2 {
   font-family: cursive 
 }
 img {
-    box-shadow: 10px 10px 15px grey;
+  box-shadow: 10px 10px 15px grey;
 }
 p, img {
   margin-left:50px;
@@ -395,7 +395,9 @@ p, img {
 
 The last two rules first target the element whose id is 'hobbyTitle', in our case it's the second h2 element:
 
-    <h2 id="hobbyTitle">My Hobbies</h2>
+```
+<h2 id="hobbyTitle">My Hobbies</h2>
+```
     
 And here is the CSS rule:
 
@@ -427,7 +429,7 @@ The last rule targets all elements that have an attribute class="funny". Notice 
 .funny {
   color:purple;
   font-family: 'caveat';
-font-size:40px;
+  font-size:40px;
 }
 ```
 
@@ -451,20 +453,20 @@ You can embed the CSS rules between a `<style>...</style>` tag, located inside t
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Your first HTML page</title>
-  <meta charset="utf-8">
-  <style>
-    h1 {
-       color:red;
+  <head>
+    <title>Your first HTML page</title>
+    <meta charset="utf-8">
+    <style>
+      h1 {
+        color:red;
         background-color:lightGreen;
         border:12px solid violet;
         padding: 5px;
         border-radius: 15px;
         text-align: center;
-}
-  </style>
-</head>
+      }
+    </style>
+  </head>
   <body>
     <h1>My home page</h1> 
     ...
@@ -4592,14 +4594,12 @@ function soundLoaded() {
 <h4>Discussion topic and project</h4>
 
 Here is the discussion forum for this part of the course. Please either post your comments/observations/questions or share your creations.
-
 See below for a suggested topic of discussion and an optional project.
 
 <h4>Suggested topic</h4>
 
 Please share any fun/interesting JS example that could interest your fellow students.
 Optional project
-
 You can tweak and share some of the examples provided in this section. No need to understand the whole code...
 
 <hr>
@@ -4611,7 +4611,6 @@ You can tweak and share some of the examples provided in this section. No need t
 <h2>Intro. exercises - Module 1</h2>
 
 These exercises are due on 17 July 2017 (at 23:30 UTC), but please try to complete them in a timely manner.
-
 As stated in the grading policy page, these exercises count towards 18% of your final grade.
 
 <h4>the end...module 1</h4>
