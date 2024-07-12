@@ -7,9 +7,8 @@
 <body>
   <h1>Video introduction - Module 1</h1>
 
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- module1.md in W3Cx-5of5-JS.0x --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ module1.md in W3Cx-5of5-JS.0x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Module 1: Introduction to JavaScript</h2>
 <h3>1.0 Introduction - Video introduction</h3>
 
@@ -270,7 +269,6 @@ https://youtu.be/UrVjWOYEHHU
 CSS, or Cascading Style Sheets, is a style sheet language used to describe the way an HTML or XML document should look to a user. CSS is where you specify the color, size, spacing, font and other visual aspects of the content that you create in your markup language document.
 
 Usually you will see CSS used alongside HTML to describe the way a Web page looks and feels. You can have a Web page without CSS, but it would be very difficult to make it look the way you want with just HTML. This is why almost every Web page is a combination of HTML and CSS.
-
 
 #### CSS • /si-ɛs-ɛs/ • noun 
 
