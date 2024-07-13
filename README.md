@@ -25,10 +25,10 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. W3Cx-5of5-JS.0x logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.webp?raw=true"
+<img src="./images/w3cx-js-logo.png?raw=true"
   style="width:65%"
   title="W3Cx JS logo"
-  alt="W3Cx HTML 5.0x logo." />
+  alt="W3Cx JS.0x logo." />
 </p>
 <!-- edX NOW COSTS MONEY so there will not be a documentation of JavaScript Introduction course.
 
