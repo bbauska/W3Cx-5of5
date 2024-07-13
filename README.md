@@ -27,7 +27,6 @@ W3Cx: JS.0x JavaScript Introduction
 &nbsp;&nbsp;1.4 Your first HTML/CSS/JS page - step by step  
 &nbsp;&nbsp;1.5 Variables, values, functions, operators, and expressions  
 &nbsp;&nbsp;1.6 Simple JavaScript examples to play with  
-&nbsp;&nbsp;1.7 Exercises - Module 1  
 
 Recorded on Tuesday 6 June 2017 - 7:00 UTC
 
@@ -39,7 +38,6 @@ Recorded on Tuesday 6 June 2017 - 7:00 UTC
 &nbsp;&nbsp;2.4 Handling events  
 &nbsp;&nbsp;2.5 The DOM API  
 &nbsp;&nbsp;2.6 Let's write a small game  
-&nbsp;&nbsp;2.7 Exercises - Module 2  
 
 Recorded on Tuesday 13 June 2017 - 7:00 UTC
 
@@ -50,7 +48,6 @@ Recorded on Tuesday 13 June 2017 - 7:00 UTC
 &nbsp;&nbsp;3.3 HTML5 multimedia and JavaScript API  
 &nbsp;&nbsp;3.4 Displaying a map with the Geolocation API  
 &nbsp;&nbsp;3.5 Playing sound samples and music  
-&nbsp;&nbsp;3.6 Exercises - Module 3  
 
 Recorded on Tuesday 20 June 2017 - 14:00 UTC
 
@@ -60,7 +57,6 @@ Recorded on Tuesday 20 June 2017 - 14:00 UTC
 &nbsp;&nbsp;4.2 Objects: properties and methods  
 &nbsp;&nbsp;4.3 Creating multiple objects  
 &nbsp;&nbsp;4.4 Organizing the code in separate files  
-&nbsp;&nbsp;4.5 Exercises - Module 4  
 
 Recorded on Tuesday 27 June 2017 - 7:00 UTC
 
@@ -72,4 +68,4 @@ Recorded on Tuesday 27 June 2017 - 7:00 UTC
 &nbsp;&nbsp;5.4 The JSON notation  
 &nbsp;&nbsp;5.5 A small application  
 &nbsp;&nbsp;5.6 Where to from here?  
-&nbsp;&nbsp;5.7 Final exam and conclusion  
+
