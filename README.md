@@ -1,5 +1,5 @@
 ---
-title: "W3Cx-3of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
+title: "W3Cx-5of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
 author: "bbauska"
 date created: "3/16/2024 2+pm"
 date last editted: "3/16/2024 2+pm"
