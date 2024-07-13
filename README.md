@@ -15,7 +15,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/w3cx-logo.webp?raw=true"
+<img src="./images/w3cx-logo.png?raw=true"
   style="width:35%"
   title="W3C logo"
   alt="W3C logo." />
