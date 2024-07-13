@@ -1,9 +1,9 @@
 ---
-title: "w3cx-5of5-js.0x: Coursera - Front-End Web Development - JavaScript Introduction"
+title: "W3Cx-3of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
 author: "bbauska"
-date created "1/1/2023 12:00am"
-date date last editted: "1/1/2024 2+pm"
-output:
+date created: "3/16/2024 2+pm"
+date last editted: "3/16/2024 2+pm"
+output: 
   markdown:
     with some style
 ---
