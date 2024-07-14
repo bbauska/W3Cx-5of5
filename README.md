@@ -30,7 +30,6 @@ output:
   title="W3Cx JS logo"
   alt="W3Cx JS.0x logo." />
 </p>
-## [Table of Contents](#table-of-contents)
 
 ## [Table of Contents](#table-of-contents)
 
@@ -89,7 +88,6 @@ output:
 W3Cx: JS.0x JavaScript Introduction
 
 ## Course outline
-
 
 This course is designed for anyone who is comfortable with programming concepts. No prerequisites are required though we encourage you to follow these two other W3Cx courses: HTML5 and CSS Fundamentals and CSS Basics.
 During this course, you will learn:
