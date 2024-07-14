@@ -407,7 +407,6 @@ And here is the CSS rule:
 }
 ```
 
-
 Line 1 uses the "#" character in the selector, meaning that we're going to select an element by its id attribute. In this case, the selector equal to #hobbyTitle, will select the element that has an attribute id="hobbyTitle".
 
 In that case we use a funny char font called 'caveat' we took from the Google font service (see fonts.google.com), and in order to be able to use it in a font-family CSS property, we included its definition using a <link> tag in the HTML part of the document:
@@ -476,8 +475,9 @@ This is OK if you do not have too many CSS rules. In general it's better to put 
 
 https://plnkr.co/edit/vedmaDmnfiJzoiLPrInG?p=preview
 
-Note that when you use an online IDE, you usually type/paste the CSS rules in a "CSS tab" in the online editor, and it will hide all the plumbery for you (except the more complete ones such as plunker or c9.io that will enable you to manage files in the cloud).
-
+Note that when you use an online IDE, you usually type/paste the CSS rules in a "CSS tab" in the online editor, and it 
+will hide all the plumbery for you (except the more complete ones such as plunker or c9.io that will enable you to 
+manage files in the cloud).
 
 ### Live coding video: mixing HTML and CSS
 
