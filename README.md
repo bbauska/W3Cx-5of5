@@ -298,14 +298,14 @@ CSS and JavaScript files. For this course, you are free to use whichever
 you prefer. However, there are some in particular that we recommend.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 03. sublime text logo (xx) ~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="left" width="100%">
 <img src="./images/image003.png?raw=true"
-  style="width:35%"
+  style="width:15%"
   title="Sublime text logo"
   alt="Sublime text logo." />
 </p>
 
-![Sublime Text logo](./images/image003.png)[Sublime Text](https://www.sublimetext.com/)
+[Sublime Text](https://www.sublimetext.com/)
 is a very powerful, multi-platform source code editor, it&apos;s semi-free (you can
 use it without paying, it will pop up a dialog asking you to buy it once
 in a while, but not very often). Sublime text supports hundreds of
@@ -315,16 +315,30 @@ plugins to enhance its features.
 <!--~~~~~~~~~~~ 04. snapshot of sublime text editing an html/css/js project (xx) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.jpeg?raw=true"
-  style="width:35%"
+  style="width:40%"
   title="Snapshot of Sublime Text editing an html/css/js project"
   alt="Snapshot of Sublime Text editing an html/css/js project." />
 </p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 05. vs code logo (xx) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image005.jpeg?raw=true"
+  style="width:40%"
+  title="VS Code logo"
+  alt="VS Code logo." />
+</p>
 
-![Visual Studio Code logo](./images/image005.jpeg)[Visual Studio Code](https://code.visualstudio.com/) is a
+[Visual Studio Code](https://code.visualstudio.com/) is a
 free, open source, multi-platform editor by Microsoft.
 
-![Snapshot of a Visual Studio code editing an HTML/CSS/JS
-project](./images/image006.jpeg)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 06. snapshot of visual studio code editing an html/css/js project (xx) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image006.jpeg?raw=true"
+  style="width:40%"
+  title="Snapshot of Visual Studio code editing an html/css/js project"
+  alt="Snapshot of Visual Studio code editing an html/css/js project." />
+</p>
 
 #### Other tools
 
@@ -386,7 +400,7 @@ for the live coding videos.
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 09. codepen logo (xx) ~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="left" width="100%">
 <img src="./images/image009.png?raw=true"
   style="width:5%"
   title="CodePen logo"
@@ -406,22 +420,44 @@ saved projects from any Web browser. Here&apos;s an article which will be
 of-interest if you use CodePen: [Things you can do with
 CodePen](https://codepen.io/brentmiller/post/things-you-can-do-with-codepen) &lbrack;Brent
 Miller, February 6, 2019&rbrack;.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 10. snapshot of a 'button' codepen example (xx) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image010.jpeg?raw=true"
+  style="width:50%"
+  title="Snapshot of a 'button' CodePen example"
+  alt="Snapshot of a 'button' CodePen example." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 11. plunker logo (xx) ~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image011.png?raw=true"
+  style="width:5%"
+  title="Plunker logo"
+  alt="Plunker logo." />
+</p>
+[Plunker](https://plnkr.co/)
+allows us to work online with separate files. So, when we have no choice but to 
+use separate files, we might use this tool.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 12. snapshot of a plunker example (xx) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image012.jpeg?raw=true"
+  style="width:50%"
+  title="Snapshot of a Plunker example"
+  alt="Snapshot of a Plunker example." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 13. liveweaver logo (xx) ~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image013.png?raw=true"
+  style="width:5%"
+  title="Liveweaver logo"
+  alt="Liveweaver logo." />
+</p>
 
-![Snapshot of a CodePen
-example](./images/image010.jpeg){width="5.0in"
-height="3.929580052493438in"}
-
-![Plunker logo](./images/image011.png){width="0.5in"
-height="0.5in"}[Plunker](https://plnkr.co/) allows us to work online
-with separate files. So, when we have no choice but to use separate
-files, we might use this tool.
-
-![Snapshot of a Plunker
-example](./images/image012.jpeg){width="5.0in"
-height="2.4604319772528433in"}
-
-![Liveweave logo](./images/image013.png){width="0.5in"
-height="0.5in"}[LiveWeave](https://liveweave.com/) is great for writing
+[LiveWeave](https://liveweave.com/) 
+is great for writing
 CSS code or for embedding SVG Graphics in an HTML document, as it
 includes online wizards and interactive editors. We use it when we have
 problems with CSS shadows, CSS colors or gradients, or when we want to
