@@ -91,17 +91,19 @@ W3Cx: JS.0x JavaScript Introduction
 
 This course is designed for anyone who is comfortable with programming concepts. No prerequisites 
 are required though we encourage you to follow these two other W3Cx courses: HTML5 and CSS Fundamentals and CSS Basics.
+
 During this course, you will learn:
 
-  •	How to add JavaScript code in your Web site/Web app, and how to debug it.
-  •	How to make interactive Web sites through the DOM API.
-  •	How to change the CSS styles of HTML5 elements from JavaScript.
-  •	How to deal with HTML5 forms.
-  •	How to make basic graphics and animations using the HTML5 canvas.
+  - How to add JavaScript code in your Web site/Web app, and how to debug it.
+  - How to make interactive Web sites through the DOM API.
+  - How to change the CSS styles of HTML5 elements from JavaScript.
+  - How to deal with HTML5 forms.
+  - How to make basic graphics and animations using the HTML5 canvas.
 
 You will make good use of your JavaScript skills in the other 2 W3Cx courses included in the 
 "Front-End Web Developer" W3Cx Professional Certificate program: HTML5 Coding Essentials and 
 Best Practices and HTML5 Apps and Games.
+
 In the meantime, have fun in this course!
 Professional Certificate programs are series of courses designed by industry leaders and/or 
 top universities to build and enhance critical professional skills needed to succeed in 
@@ -110,8 +112,10 @@ today's most in-demand fields.
 W3C has designed a "Front-End Web Developer" (FEWD) Professional Certificate where you 
 will learn all of the necessary skills needed to build interactive and responsive user 
 experiences on the Web. This program will deepen your knowledge of the 3 foundational 
-languages that power the Web: HTML5, CSS and JavaScript. The W3C FEWD program is composed 
-of 5 courses:
+languages that power the Web: HTML5, CSS and JavaScript. 
+
+The W3C FEWD program is composed of 5 courses:
+
 1.	CSS Basics
 2.	HTML5 and CSS Fundamentals
 3.	HTML5 Coding Essentials and Best Practices
