@@ -134,4 +134,22 @@ To get a W3C FEWD professional certificate, you must successfully pass and recei
 - For embedding online examples in this course, I use the CodePen.io online code editor.
 - For choosing a CSS color, shadow, text-shadow, gradients, etc. I use the LiveWeave online code editor."
 
+Traditional source code editors
+You can use any source code editor that has good support for HTML, CSS and JavaScript files. For this course, you are free to use whichever you prefer. However, there are some in particular that we recommend.
+Sublime Text is a very powerful, multi-platform source code editor, it's semi-free (you can use it without paying, it will pop up a dialog asking you to buy it once in a while, but not very often). Sublime text supports hundreds of plugins to enhance its features.
+
+**Visual Studio Code** is a free, open source, multi-platform editor by Microsoft.
+
+## Other tools
+
+### Free of charge:
+	•	Atom source code editor (note that Visual Studio code is based on Atom).
+	•	Brackets source code editor.
+	•	NotePad++ (Windows only)
+	•	NetBeans and Eclipse: very powerful IDEs (integrated development environments), but heavier than all the "lightweight" source editors that we've talked about so far. More dedicated to "mid-size/large-size projects", more for pro developers that are also looking for good support for server-side languages such as Java, Python, PHP, etc.
+
+### Not free of charge:
+
+	•	IDEs by JetBrains.com have a very good reputation and can be obtained for free if you are an academic customer (student or teacher). The WebStorm IDE is a very good mid-weight tool for developing HTML/CSS/JS/NodeJS code.
+	•	BBedit (for Macs): source code editor for mac with support for Web languages.
 
