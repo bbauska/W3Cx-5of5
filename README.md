@@ -373,8 +373,14 @@ free, open source, multi-platform editor by Microsoft.
 
 To help you practice for the duration of the course, you will use the
 following tools:
-
-![jsbin logo](./images/image007.png)[JS Bin](https://jsbin.com/) is an open-source
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 07. jsbin logo (xx) ~~~~~~~~~~~~-->
+<p align="left" width="25%">
+<img src="./images/image007.png?raw=true"
+  style="width:5%"
+  title="JSBin logo"
+  alt="JSBin logo." />
+<a href="https://jsbin.com/">JS Bin</a> is an open-source
 collaborative Web development debugging tool. Most of the examples you
 will find in this course are either on JSBin or on CodePen.
 
@@ -436,6 +442,7 @@ Miller, February 6, 2019&rbrack;.
   title="Plunker logo"
   alt="Plunker logo." />
 </p>
+
 [Plunker](https://plnkr.co/)
 allows us to work online with separate files. So, when we have no choice but to 
 use separate files, we might use this tool.
