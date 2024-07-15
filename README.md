@@ -105,6 +105,7 @@ You will make good use of your JavaScript skills in the other 2 W3Cx courses inc
 Best Practices and HTML5 Apps and Games.
 
 In the meantime, have fun in this course!
+
 Professional Certificate programs are series of courses designed by industry leaders and/or 
 top universities to build and enhance critical professional skills needed to succeed in 
 today's most in-demand fields.
@@ -121,4 +122,16 @@ The W3C FEWD program is composed of 5 courses:
 3.	HTML5 Coding Essentials and Best Practices
 4.	HTML5 Apps and Games
 5.	This course: JavaScript Introduction
+
 To get a W3C FEWD professional certificate, you must successfully pass and receive a Verified Certificate in the five courses above.
+
+Web editors
+Foreword:
+Michel Buffa, author of this course:
+
+"When I work locally, with files located on my computer hard drive, I use the Sublime Text source code editor, Visual Studio Code, WebStorm, NetBeans, depending on the size of the project I'm working on.
+- For testing simple examples, I mainly use the JsBin.com online code editor.
+- For embedding online examples in this course, I use the CodePen.io online code editor.
+- For choosing a CSS color, shadow, text-shadow, gradients, etc. I use the LiveWeave online code editor."
+
+
