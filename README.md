@@ -241,9 +241,14 @@ In the meantime, have fun in this course!
 Professional Certificate programs are series of courses designed by
 industry leaders and/or top universities to build and enhance critical
 professional skills needed to succeed in today&apos;s most in-demand fields.
-
-![Banner image for the FEWD professional certificate
-program](./images/image002.png)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 02. banner image for the fewd professional certificate program (xx) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image002.png?raw=true"
+  style="width:35%"
+  title="Banner image  for the FEWD professional certificate program"
+  alt="Banner image for the FEWD professional certificate program." />
+</p>
 
 W3C has designed a [&quot;Front-End Web Developer&quot; (FEWD) Professional
 Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) where
@@ -291,15 +296,29 @@ the LiveWeave online code editor.&quot;
 You can use any source code editor that has good support for HTML,
 CSS and JavaScript files. For this course, you are free to use whichever
 you prefer. However, there are some in particular that we recommend.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 03. sublime text logo (xx) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image003.png?raw=true"
+  style="width:35%"
+  title="Sublime text logo"
+  alt="Sublime text logo." />
+</p>
 
-![Sublime Text logo](./images/image003.png)[Sublime Text](https://www.sublimetext.com/) is a very
-powerful, multi-platform source code editor, it&apos;s semi-free (you can
+![Sublime Text logo](./images/image003.png)[Sublime Text](https://www.sublimetext.com/)
+is a very powerful, multi-platform source code editor, it&apos;s semi-free (you can
 use it without paying, it will pop up a dialog asking you to buy it once
 in a while, but not very often). Sublime text supports hundreds of
 plugins to enhance its features.
 
-![Snapshot of Sublime Text editing an html/css/js
-project](./images/image004.jpeg)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 04. snapshot of sublime text editing an html/css/js project (xx) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image004.jpeg?raw=true"
+  style="width:35%"
+  title="Snapshot of Sublime Text editing an html/css/js project"
+  alt="Snapshot of Sublime Text editing an html/css/js project." />
+</p>
 
 ![Visual Studio Code logo](./images/image005.jpeg)[Visual Studio Code](https://code.visualstudio.com/) is a
 free, open source, multi-platform editor by Microsoft.
@@ -1775,19 +1794,12 @@ example, you see the CSS rules that have been applied to the HTML
 document. Let&apos;s look at the first one:
 
 1.  h1 {
-
 2.  color:red;
-
 3.  background-color:lightGreen;
-
 4.  border:12px solid violet;
-
 5.  padding: 5px;   
-
 6.  border-radius: 15px;
-
 7.  text-align: center;
-
 8.  }
 
 This rule turns all the h1s in the document into red text, centered
@@ -1813,9 +1825,7 @@ brown (second rule).
 The third rule uses what is called &quot;a multiple selector&quot;:
 
 1.  p, h1, h2 {
-
 2.  font-family: cursive
-
 3.  }
 
 This one says that all p, h1 and h2 uses a cursive font character. The
@@ -14156,5 +14166,13 @@ element.appendChild(para);
 <img src="./images/image208.png?raw=true"
   style="width:30%"
   title=" "
+  alt="." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xxx. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/imageXXX?raw=true"
+  style="width:35%"
+  title=""
   alt="." />
 </p>
