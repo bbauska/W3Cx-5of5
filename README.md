@@ -125,9 +125,9 @@ The W3C FEWD program is composed of 5 courses:
 
 To get a W3C FEWD professional certificate, you must successfully pass and receive a Verified Certificate in the five courses above.
 
-Web editors
-Foreword:
-Michel Buffa, author of this course:
+### Web editors
+### Foreword:
+###### Michel Buffa, author of this course:
 
 "When I work locally, with files located on my computer hard drive, I use the Sublime Text source code editor, Visual Studio Code, WebStorm, NetBeans, depending on the size of the project I'm working on.
 - For testing simple examples, I mainly use the JsBin.com online code editor.
