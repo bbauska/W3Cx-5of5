@@ -143,13 +143,13 @@ Sublime Text is a very powerful, multi-platform source code editor, it's semi-fr
 ## Other tools
 
 ### Free of charge:
-	•	Atom source code editor (note that Visual Studio code is based on Atom).
-	•	Brackets source code editor.
-	•	NotePad++ (Windows only)
-	•	NetBeans and Eclipse: very powerful IDEs (integrated development environments), but heavier than all the "lightweight" source editors that we've talked about so far. More dedicated to "mid-size/large-size projects", more for pro developers that are also looking for good support for server-side languages such as Java, Python, PHP, etc.
+- Atom source code editor (note that Visual Studio code is based on Atom).
+- Brackets source code editor.
+- NotePad++ (Windows only)
+- NetBeans and Eclipse: very powerful IDEs (integrated development environments), but heavier than all the "lightweight" source editors that we've talked about so far. More dedicated to "mid-size/large-size projects", more for pro developers that are also looking for good support for server-side languages such as Java, Python, PHP, etc.
 
 ### Not free of charge:
 
-	•	IDEs by JetBrains.com have a very good reputation and can be obtained for free if you are an academic customer (student or teacher). The WebStorm IDE is a very good mid-weight tool for developing HTML/CSS/JS/NodeJS code.
-	•	BBedit (for Macs): source code editor for mac with support for Web languages.
+- IDEs by JetBrains.com have a very good reputation and can be obtained for free if you are an academic customer (student or teacher). The WebStorm IDE is a very good mid-weight tool for developing HTML/CSS/JS/NodeJS code.
+- BBedit (for Macs): source code editor for mac with support for Web languages.
 
