@@ -279,15 +279,15 @@ and receive a Verified Certificate in the five courses above.**
 
 #### **Foreword:**
 
-Michel Buffa, author of this course:\
-\
+Michel Buffa, author of this course:
+
 &quot;When I work locally, with files located on my computer hard drive, I
 use the Sublime Text source code editor, Visual Studio Code, WebStorm,
-NetBeans, depending on the size of the project I&apos;m working on.**\
+NetBeans, depending on the size of the project I&apos;m working on.**
 **- For testing simple examples, I mainly use the JsBin.com online code
-editor.**\
+editor.**
 **- For embedding online examples in this course, I use the CodePen.io
-online code editor.**\
+online code editor.**
 **- For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
 the LiveWeave online code editor.&quot;
 
@@ -298,19 +298,16 @@ CSS and JavaScript files. For this course, you are free to use whichever
 you prefer. However, there are some in particular that we recommend.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 03. sublime text logo (xx) ~~~~~~~~~~~~-->
-<p align="left" width="100%">
+<p align="left" width="25%">
 <img src="./images/image003.png?raw=true"
-  style="width:15%"
+  style="width:10%"
   title="Sublime text logo"
   alt="Sublime text logo." />
-</p>
-
-[Sublime Text](https://www.sublimetext.com/)
+<a href="https://www.sublimetext.com/">Sublime Text</a>
 is a very powerful, multi-platform source code editor, it&apos;s semi-free (you can
 use it without paying, it will pop up a dialog asking you to buy it once
 in a while, but not very often). Sublime text supports hundreds of
-plugins to enhance its features.
-
+plugins to enhance its features.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 04. snapshot of sublime text editing an html/css/js project (xx) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -321,16 +318,14 @@ plugins to enhance its features.
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 05. vs code logo (xx) ~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="left" width="25%">
 <img src="./images/image005.jpeg?raw=true"
-  style="width:40%"
+  style="width:5%"
   title="VS Code logo"
   alt="VS Code logo." />
-</p>
 
-[Visual Studio Code](https://code.visualstudio.com/) is a
-free, open source, multi-platform editor by Microsoft.
-
+<a href="https://code.visualstudio.com/">Visual Studio Code</a> is a
+free, open source, multi-platform editor by Microsoft.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 06. snapshot of visual studio code editing an html/css/js project (xx) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -377,12 +372,12 @@ following tools:
 <!--~~~~~~~~~~~ 07. jsbin logo (xx) ~~~~~~~~~~~~-->
 <p align="left" width="25%">
 <img src="./images/image007.png?raw=true"
-  style="width:5%"
+  style="width:10%"
   title="JSBin logo"
   alt="JSBin logo." />
 <a href="https://jsbin.com/">JS Bin</a> is an open-source
 collaborative Web development debugging tool. Most of the examples you
-will find in this course are either on JSBin or on CodePen.
+will find in this course are either on JSBin or on CodePen.</p>
 
 Tutorials can be found on the Web (such as [these
 ones](https://www.youtube.com/playlist?list=PLXmT1r4krsTooRDWOrIu23P3SEZ3luIUq))
@@ -818,7 +813,7 @@ Web Platform, as well as to help shape the Web of the future.
 ### Why accessibility is important
 
 *The power of the Web is in its universality. Access by everyone
-regardless of disability is an essential aspect.\
+regardless of disability is an essential aspect.
 ***Tim Berners-Lee, W3C Director and inventor of the World Wide Web**
 
 When websites and web tools are properly designed and coded, people with
@@ -1276,9 +1271,9 @@ text, for most purposes it would still read the same:
 
 A Tale of Two Cities
 
-> It was the best of times, it was the worst of times . . . .\
-> . . .\
-> . . . it is a far, far better rest\
+> It was the best of times, it was the worst of times . . . .
+> . . .
+> . . . it is a far, far better rest
 > that I go to than I have ever known.
 
 Once you know that everything in angle brackets is &quot;meta-information&quot;,
@@ -2271,7 +2266,7 @@ timeline](./images/image090.png)
 The present: what is the current version?
 
 What about ES6/ES2015/ES2016/ES2017/ ES2018/ES2019/ES2020/ES2021/
-ES2022?\
+ES2022?
 Are these the new names of JavaScript?
 
 Since 1996, multiple versions of JavaScript have appeared. For a long
@@ -2295,7 +2290,7 @@ incongruities!](https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats
 At the beginning, ES2015 was referred to as ES6 and before that,
 Harmony. Moving forward, ES suffixed with the year of the latest
 approved standard is the naming convention. The next version was
-called&hellip; ES2016, etc.!\
+called&hellip; ES2016, etc.!
 Browser vendors do not wait that ECMA standardizes a version as they
 start implementing it during the standardization process, which can take
 months or years (they also contribute to the standardization process all
@@ -2692,11 +2687,11 @@ on the CodePen example), we see:
 Ok, the syntax looks strange if you are not used to JavaScript, but I
 bet that you guessed that the function plotted is &quot;sin(x)&quot;, that the
 color of the curve is &quot;red&quot;, that the range of the x values is &lbrack;0,
-2\*PI&rbrack;, and the range of the y values is &lbrack;-1, 1&rbrack;.
+2&ast;PI&rbrack;, and the range of the y values is &lbrack;-1, 1&rbrack;.
 
 ### <b>Your job:</b>
 
--   try to plot sin(x\^2),
+-   try to plot sin(x&#94;2),
 
 -   try to change the domain for the x and y values,
 
@@ -2766,7 +2761,7 @@ you tweaked). They are in bold in the source code we saw earlier:
 
 11. <b>xAxis</b>: {
 
-12. domain: &lbrack;0, 2\*Math.PI&rbrack;
+12. domain: &lbrack;0, 2&ast;Math.PI&rbrack;
 
 13. }
 
@@ -2832,7 +2827,7 @@ are also objects.
 
 1.  xAxis: {
 
-2.  domain: &lbrack;0, 2\*Math.PI&rbrack;
+2.  domain: &lbrack;0, 2&ast;Math.PI&rbrack;
 
 3.  }
 
@@ -3135,8 +3130,8 @@ height="3.2777777777777777in"}
 
 https://codepen.io/w3devcampus/pen/ZLBPpY
 
-Old JavaScript examples may use a type attribute:\
-&lt;script **type=&quot;text/javascript&quot;**&gt;.\
+Old JavaScript examples may use a type attribute:
+&lt;script **type=&quot;text/javascript&quot;**&gt;.
 **The type attribute is now obsolete and should be ignored.**
 
 #### Second variant: in the &lt;head&gt;&hellip;&lt;/head&gt; of the document {#second-variant-in-the-head...head-of-the-document .unnumbered}
@@ -3696,7 +3691,7 @@ var myVar;
 
 let x;
 
-The first letter of a variable can only be &quot;\$&quot;, &quot;\_&quot;, &quot;a&quot; to
+The first letter of a variable can only be &quot;&dollar;&quot;, &quot;&lowbar;&quot;, &quot;a&quot; to
 &quot;z&quot;, or &quot;A&quot; to &quot;Z&quot;. The other characters in a name must be any of
 these, or numeric digits. The name is case sensitive. So variables
 &quot;myVar&quot; and &quot;MyVar&quot; are different variables.
@@ -4026,8 +4021,8 @@ In JavaScript 5 / ES5, a variable declared in a function without
 the var keyword, makes it a global variable.
 
 **BEST PRACTICE: in JavaScript 5 / ES5, always use the keyword var when
-declaring a global or a local variable.**\
-\
+declaring a global or a local variable.**
+
 **Better: use the keyword let if you target browsers that support
 JavaScript 6 or above.**
 
@@ -4147,7 +4142,7 @@ cards](./images/image118.png){width="2.0833333333333335in"
 height="1.25in"}
 
 1.  Objects (everything that is not a  &quot;primitive data type&quot; is an
-    object):\
+    object):
     var michel = {firstName:&apos;Michel&apos;, lastName:&apos;Buffa&apos;};
 
     -   There is a set of &quot;predefined objects&quot; in JavaScript (arrays,
@@ -4255,7 +4250,7 @@ undefined
 
 -   **Scientific notation**: 3.46e4, 5.3e+6, 5344000e-5
 
-3.46e4 equals 3.46 x 10\^4 equals 34600
+3.46e4 equals 3.46 x 10&#94;4 equals 34600
 
 Examples:
 
@@ -4304,9 +4299,9 @@ Examples:
 **Be careful with this, don&apos;t start an integer with 0 (zero),
 JavaScript will understand it as an octal value.**
 
-010 equals 8 which means 1 \* 8\^1 + 0 \* 8\^0
+010 equals 8 which means 1 &ast; 8&#94;1 + 0 &ast; 8&#94;0
 
-The number 0456 means 4 \* 8\^2 + 5 \* 8\^1 + 6 \* 8\^0
+The number 0456 means 4 &ast; 8&#94;2 + 5 &ast; 8&#94;1 + 6 &ast; 8&#94;0
 
 **Question 1**: What&apos;s the result, as an integer, of the
 operation: 24 - 024?
@@ -4322,7 +4317,7 @@ typed number will be considered as an integer.
 
 -   **Hexadecimal**: 0xF3
 
-0xFF equals 255, 0xF3 means 15 \* 16\^1 + 3 \* 16\^0 and the resulting
+0xFF equals 255, 0xF3 means 15 &ast; 16&#94;1 + 3 &ast; 16&#94;0 and the resulting
 value is 243
 
 Examples of octal and hexadecimal data types:
@@ -4482,7 +4477,7 @@ Any operation with Infinity gives Infinity as a result:
 
 3.   
 
-4.  &gt; -Infinity \* 3;
+4.  &gt; -Infinity &ast; 3;
 
 5.  -Infinity
 
@@ -4518,7 +4513,7 @@ NaN is a special value and its type is &quot;Number&quot;!
 
 8.  NaN
 
-&gt; var a = 10 \* &quot;f&quot;;
+&gt; var a = 10 &ast; &quot;f&quot;;
 
 undefined
 
@@ -4562,9 +4557,9 @@ floating point numbers is that 0.1 + 0.2 does not equal 0.3. 
 ](./images/image120.jpeg){width="6.635416666666667in"
 height="1.5729166666666667in"}
 
-Second, an integer has 2\^52 relevant bits, so the biggest integer
-is 2\^53. There is one bit that determines the sign of the number, so
-the smallest signed integer is -2\^53.
+Second, an integer has 2&#94;52 relevant bits, so the biggest integer
+is 2&#94;53. There is one bit that determines the sign of the number, so
+the smallest signed integer is -2&#94;53.
 
 **Note**: Some arithmetic functions use only numbers with a 32-bit
 format. Larger numbers will be converted&hellip;
@@ -4603,7 +4598,7 @@ of the expression inside. Parentheses can be used to indicate
 precedence.   
 
 For example, this is an expression: (3 + 2). And the expression (3 + 2)
-\* 4, which equals 20, depends on the expression within the parentheses.
+&ast; 4, which equals 20, depends on the expression within the parentheses.
 
 ![operators](./images/image121.png){width="2.0833333333333335in"
 height="1.2291666666666667in"}
@@ -4682,24 +4677,24 @@ double quotes.
 But if I wanted to use the simple quote like for &quot;I&apos;m your teacher&quot;,
 you see that the color changes because this is not correct.
 
-So, in that case you must use the antislash (\\)...
+So, in that case you must use the antislash (&#92;)...
 
 Like this&hellip; you escape the simple quote that confuses the JavaScript
 interpreter, and you can, in that case, display simple quotes inside a
-string that has been defined using simple quotes. So, the \\ character
+string that has been defined using simple quotes. So, the &#92; character
 is also useful for printing special characters.
 
-For "s1 = My\\n" ... it means &quot;go to the next line&quot;&hellip;
+For "s1 = My&#92;n" ... it means &quot;go to the next line&quot;&hellip;
 
-if I print "s1 = My\\nName\\Is\\Michel". You saw the carriage return
+if I print "s1 = My&#92;&#92;nName&#92;&#92;Is&#92;&#92;Michel". You saw the carriage return
 here, I came to the next line. .
 
-Ok, let me fix it by adding \\n
+Ok, let me fix it by adding &#92;&#92;n
 
-In that case each word is on a different line. You can use also \\t for
-inserting a tab, and \\\\ for displaying the \\ character itself.
+In that case each word is on a different line. You can use also &#92;&#92;t for
+inserting a tab, and &#92;&#92;&#92;&#92; for displaying the &#92;&#92; character itself.
 
-In that case, you can display the \\ character itself using double
+In that case, you can display the &#92;&#92; character itself using double
 antislash.
 
 Ok, let&apos;s talk about string operators. So the "+" operator is the most
@@ -4734,7 +4729,7 @@ The += means s = s+something, so it adds to the end of s. I can also use
 strings in mathematical operations, and they can be converted
 automatically. So I&apos;ve got s2 that is 10.
 
-s2 is a string, and if I do s2=s2 \* 2; in that case, s2 has been
+s2 is a string, and if I do s2=s2 &ast; 2; in that case, s2 has been
 converted automatically.
 
 The value &quot;10&quot; as a string became 10 as a number. And s2 now is a
@@ -4823,7 +4818,7 @@ s3.concat(&apos; World&apos; , &apos; JavaScript&apos; );
 A String number in an arithmetic expression is converted to Number,
 unless the formula is a pure addition.
 
-&gt; var s = &apos;1&apos;; s = 3 \* s; typeof s;
+&gt; var s = &apos;1&apos;; s = 3 &ast; s; typeof s;
 
 &quot;number&quot;
 
@@ -4853,7 +4848,7 @@ unless the formula is a pure addition.
 
  
 
-&gt; s = s \* 1;
+&gt; s = s &ast; 1;
 
 100
 
@@ -4871,16 +4866,16 @@ undefined
 
  
 
-&gt; d \* 1;
+&gt; d &ast; 1;
 
 NaN
 
 #### The above example is shown in the devtools console: {#the-above-example-is-shown-in-the-devtools-console .unnumbered}
 
-![Devtool console showing var s = &apos;1&apos;; s = 3 \* s; typeof s;
+![Devtool console showing var s = &apos;1&apos;; s = 3 &ast; s; typeof s;
 &quot;number&quot; s 3 var s = &apos;1&apos;; s++; typeof s; &quot;number&quot; s 2 var s =
-&quot;100&quot;; typeof s; &quot;string&quot; s = s \* 1; 100 typeof s; &quot;number&quot; var d
-= &apos;101 dalmatiens&apos;; undefined d \* 1
+&quot;100&quot;; typeof s; &quot;string&quot; s = s &ast; 1; 100 typeof s; &quot;number&quot; var d
+= &apos;101 dalmatiens&apos;; undefined d &ast; 1
 NaN](./images/image123.jpeg){width="3.4791666666666665in"
 height="5.458333333333333in"}
 
@@ -4904,34 +4899,34 @@ typeof n;
 
 // returns &quot;string&quot;
 
-#### Special character: the &quot;\\&quot; {#special-character-the .unnumbered}
+#### Special character: the &quot;&#92;&#92;&quot; {#special-character-the .unnumbered}
 
-The \\ is useful for &quot;escaping&quot; special characters. Here are a few
+The &#92;&#92; is useful for &quot;escaping&quot; special characters. Here are a few
 examples:
 
-var s = &apos;I don\\&apos;t know&apos;;
+var s = &apos;I don&apos;t know&apos;;
 
-var s = &quot;I don\\&apos;t know&quot;; // here the \\ is useless
+var s = &quot;I don&apos;t know&quot;; // here the &#92; is useless
 
 var s = &quot;I don&apos;t know&quot;;  // same result as previous line
 
 var s = &apos;&quot;Hello&quot;, he said.&apos;; // ok, double quotes inside single one
 will be displayed
 
-var s = &quot;\\&quot;Hello\\&quot;, he said.&quot;; // double quotes inside double
+var s = &quot;&#92;&quot;Hello&#92;&quot;, he said.&quot;; // double quotes inside double
 quotes need to be escaped
 
-#### Escaping the escape! Use a double &quot;\\&quot; {#escaping-the-escape-use-a-double .unnumbered}
+#### Escaping the escape! Use a double &quot;&#92;&quot; {#escaping-the-escape-use-a-double .unnumbered}
 
-var s = &quot;1\\\\2&quot;; s;
+var s = &quot;1&#92;&#92;2&quot;; s;
 
-// returns &quot;1\\2&quot;
+// returns &quot;1&#92;2&quot;
 
-#### Special characters starting with &quot;\\&quot; {#special-characters-starting-with .unnumbered}
+#### Special characters starting with &quot;&#92;&quot; {#special-characters-starting-with .unnumbered}
 
-##### &quot;\\n&quot; for &quot;next line&quot;: {#n-for-next-line .unnumbered}
+##### &quot;&#92;n&quot; for &quot;next line&quot;: {#n-for-next-line .unnumbered}
 
-var s = &apos;\\n1\\n2\\n3\\n&apos;;
+var s = &apos;&#92;n1&#92;n2&#92;n3&#92;n&apos;;
 
 s
 
@@ -4945,13 +4940,13 @@ s
 
 &quot;
 
-##### &quot;\\r&quot; for &quot;carriage return&quot;: {#r-for-carriage-return .unnumbered}
+##### &quot;&#92;r&quot; for &quot;carriage return&quot;: {#r-for-carriage-return .unnumbered}
 
-var s = &apos;1\\r2&apos;;
+var s = &apos;1&#92;r2&apos;;
 
-var s = &apos;1\\n\\r2&apos;;
+var s = &apos;1&#92;n&#92;r2&apos;;
 
-var s = &apos;1\\r\\n2&apos;;
+var s = &apos;1&#92;r&#92;n2&apos;;
 
 // the three previous lines give :
 
@@ -4959,9 +4954,9 @@ var s = &apos;1\\r\\n2&apos;;
 
 2&quot;
 
-##### &quot;\\t&quot; for &quot;insert a tabulation&quot;: {#t-for-insert-a-tabulation .unnumbered}
+##### &quot;&#92;t&quot; for &quot;insert a tabulation&quot;: {#t-for-insert-a-tabulation .unnumbered}
 
-var s = &quot;1\\t2&quot;
+var s = &quot;1&#92;t2&quot;
 
 // s is equal to
 
@@ -5355,7 +5350,7 @@ devtool console** of your browser. This is a common way to debug your
 code!
 
 For example, let&apos;s say you added a button to your Web page, but nothing
-happens when you click on it.\
+happens when you click on it.
 It can be very difficult to spot your error without using the devtool
 console and console.log(&hellip;)!
 
@@ -5438,7 +5433,7 @@ You can click on the button now&hellip;.
 
 Instead of just displaying pure string messages, you can also use the
 &quot;+&quot; operator to concatenate variable values to the pure character
-strings.\
+strings.
 Example :
 
 1.  var x = 2;
@@ -5479,7 +5474,7 @@ Result:
 console.log](./images/image133.jpeg){width="7.416666666666667in"
 height="3.0416666666666665in"}
 
-You can use any operator (+, -, /, \*, etc.), you are not limited to
+You can use any operator (+, -, /, &ast;, etc.), you are not limited to
 using the &quot;+&quot; operator.
 
 And of course, you can use such code in your programs, not only in the
@@ -5770,14 +5765,14 @@ src=&quot;https://maps.google.com/maps/api/js?sensor=false&quot;&gt;&lt;/script&
 
 &lt;body&gt;
 
-&lt;!\--
+&lt;!&#45;&#45;
 
 I Hope you enjoy this pen, it was a lot of fun to make.
 
 Both mouse and keyboard is supported. However, make sure you click onto
 the preview window before using keyboard.
 
-\--&gt;
+&#45;-&gt;
 
 &lt;div id=&quot;synth&quot;&gt;
 
@@ -6260,12 +6255,12 @@ top:0;
 
 color: #48a6ff;
 
-/\*background: #48a6ff;\*/
+/&ast;background: #48a6ff;&ast;/
 
-/\*border-right: 2px groove #c0c0c0 !important;\*/
+/&ast;border-right: 2px groove #c0c0c0 !important;&ast;/
 
-/\*background: linear-gradient(to bottom, rgba(73,192,240,1)
-0%,rgba(44,175,227,1) 100%);\*/
+/&ast;background: linear-gradient(to bottom, rgba(73,192,240,1)
+0%,rgba(44,175,227,1) 100%);&ast;/
 
 box-shadow: 0 0 1px black;
 
@@ -6277,7 +6272,7 @@ transition: all 0.2s;
 
 {
 
-/\*width:50%;\*/
+/&ast;width:50%;&ast;/
 
 width:968px;
 
@@ -6396,7 +6391,7 @@ border-radius: 50%;
 .ledLabel input&lbrack;type=&quot;radio&quot;&rbrack; + label span {
 
 background: radial-gradient(ellipse at center, rgba(152,255,84,1)
-0%,rgba(135,196,56,1) 31%,rgba(0,0,0,1) 100%); /\* W3C \*/
+0%,rgba(135,196,56,1) 31%,rgba(0,0,0,1) 100%); /&ast; W3C &ast;/
 
 }
 
@@ -6406,7 +6401,7 @@ box-shadow: 0 0 15px #79ff5d;
 
 background: radial-gradient(ellipse at center, rgba(255,255,255,1)
 12%,rgba(210,255,82,1) 39%,rgba(145,232,66,1) 65%,rgba(0,0,0,1) 92%);
-/\* W3C \*/
+/&ast; W3C &ast;/
 
 }
 
@@ -6416,7 +6411,7 @@ background: radial-gradient(ellipse at center, rgba(255,255,255,1)
 
 -webkit-transition:background-color 0.4s linear;
 
-/\*-moz-transition:background-color 0.4s linear;\*/
+/&ast;-moz-transition:background-color 0.4s linear;&ast;/
 
 transition:background-color 0.4s linear;
 
@@ -6446,7 +6441,7 @@ outline:none;
 
 }
 
-/\*================Button Style=================\*/
+/&ast;================Button Style=================&ast;/
 
 button
 
@@ -6467,7 +6462,7 @@ top:10%;
 left:7%;
 
 background: linear-gradient(to bottom, rgba(75,75,75,1)
-0%,rgba(63,63,63,1) 100%); /\* W3C \*/
+0%,rgba(63,63,63,1) 100%); /&ast; W3C &ast;/
 
 border:none;
 
@@ -6482,7 +6477,7 @@ box-shadow: 0 0 0 black;
 border: 2px groove #2b2b2b;
 
 background: linear-gradient(to bottom, rgba(47,47,47,1)
-0%,rgba(59,59,59,1) 100%); /\* W3C \*/
+0%,rgba(59,59,59,1) 100%); /&ast; W3C &ast;/
 
 width:90%;
 
@@ -6512,14 +6507,14 @@ display:block;
 
 position: relative;
 
-/\*left:190px;/\*/
+/&ast;left:190px;/&ast;/
 
-/\*top:-5px;\*/
+/&ast;top:-5px;&ast;/
 
 border-radius: 10%;
 
 background: linear-gradient(to bottom, rgba(28,28,28,1)
-0%,rgba(63,63,63,1) 100%); /\* W3C \*/
+0%,rgba(63,63,63,1) 100%); /&ast; W3C &ast;/
 
 }
 
@@ -6593,8 +6588,8 @@ note++;
 
 //=============== Context.js ==================//
 
-var context = new (window.AudioContext \|\| window.webkitAudioContext
-\|\| window.mozAudioContext \|\| window.oAudioContext \|\|
+var context = new (window.AudioContext &vert;&vert; window.webkitAudioContext
+&vert;&vert; window.mozAudioContext &vert;&vert; window.oAudioContext &vert;&vert;
 window.msAudioContext)();
 
 function getContext()
@@ -6719,7 +6714,7 @@ function toneGen(oscillator, noteKey)
 
 {
 
-var freq = calculateFrequency(noteKey + (oscillator.octave \* 12));
+var freq = calculateFrequency(noteKey + (oscillator.octave &ast; 12));
 
 freq = calculateFineTune(oscillator.fineTune, freq);
 
@@ -6791,7 +6786,7 @@ var A4Key = 49;
 
 var a = Math.pow(2,(1/12));
 
-return Math.pow(a,(noteKey - A4Key)) \* concertPitch;
+return Math.pow(a,(noteKey - A4Key)) &ast; concertPitch;
 
 }
 
@@ -6821,11 +6816,11 @@ positive = true;
 
 }
 
-var percentage = freq \* (pos/100);
+var percentage = freq &ast; (pos/100);
 
 freq = positive ? freq + percentage : freq - percentage;
 
-//console.log(fineTune + &quot; &quot; + freq + &quot;hz before \| &quot; +
+//console.log(fineTune + &quot; &quot; + freq + &quot;hz before &vert; &quot; +
 (parseFloat(freq) + parseInt(fineTune)) + &quot;hz after&quot;);
 
 return freq;
@@ -6954,8 +6949,8 @@ el.className = el.className.substring(0,5);
 
 }
 
-//\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--Getters And
-Setters\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--//
+//&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-Getters And
+Setters&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-//
 
 function setGain(e)
 
@@ -7123,9 +7118,9 @@ other external libraries.
 
 There are numerous libraries for plotting math functions, but this one
 is pretty easy to use and very powerful. Here is an example that
-plots f(x) = x\^2, then f(x) = sin(x) and finally a mix of
-fours functions : f(x) = x\^2 (in red), f(x) = 3\*x (in green), f(x) =
-cos(x) (in blue) and f(x) = -3\*x\^2 + x\^2 (dashed)
+plots f(x) = x&#94;2, then f(x) = sin(x) and finally a mix of
+fours functions : f(x) = x&#94;2 (in red), f(x) = 3&ast;x (in green), f(x) =
+cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)
 
 ![](./images/image143.png){width="6.5in"
 height="5.102083333333334in"}
@@ -7203,13 +7198,13 @@ target: &apos;#quadratic&apos;,
 
 data: &lbrack;{
 
-fn: &apos;x\^2&apos;,
+fn: &apos;x&#94;2&apos;,
 
 color: &apos;red&apos;,
 
 derivative: {
 
-fn: &apos;2 \* x&apos;,
+fn: &apos;2 &ast; x&apos;,
 
 color: &apos;green&apos;,
 
@@ -7267,9 +7262,9 @@ target: &apos;#multiple&apos;,
 
 data: &lbrack;
 
-{fn: &apos;x\*x&apos;, color: &apos;red&apos;},
+{fn: &apos;x&ast;x&apos;, color: &apos;red&apos;},
 
-{fn: &apos;3\*x&apos;, color: &apos;green&apos;},
+{fn: &apos;3&ast;x&apos;, color: &apos;green&apos;},
 
 {fn: &apos;cos(x)&apos;,
 
@@ -7287,7 +7282,7 @@ color: &apos;blue&apos;
 
 },
 
-{fn: &apos;-3\*x\^2 + x\^2&apos;,
+{fn: &apos;-3&ast;x&#94;2 + x&#94;2&apos;,
 
 nSamples: 150,
 
@@ -7297,7 +7292,7 @@ graphType: &apos;scatter&apos;}
 
 Here is another much simpler example, please edit the code (click on
 &quot;edit on codepen&quot;) and change the function for something like f(x) =
-x\^3 and look at the result (don&apos;t forget to change
+x&#94;3 and look at the result (don&apos;t forget to change
 the xRange and yRange values). If you have trouble, [look
 here](https://codepen.io/w3devcampus/pen/MJMYNb) for a solution.
 
@@ -7359,7 +7354,7 @@ target: &apos;#myFunction&apos;,
 
 data: &lbrack;{
 
-fn: &apos;sin(x\^2)&apos;,
+fn: &apos;sin(x&#94;2)&apos;,
 
 color: &apos;red&apos;
 
@@ -7369,7 +7364,7 @@ grid: true,
 
 yAxis: {domain: &lbrack;-1, 1&rbrack;},
 
-xAxis: {domain: &lbrack;0, 2\*Math.PI&rbrack;},
+xAxis: {domain: &lbrack;0, 2&ast;Math.PI&rbrack;},
 
 });
 
@@ -7399,8 +7394,8 @@ height="4.909722222222222in"}
 
 &lt;meta charset=&quot;utf-8&quot;/&gt;
 
-&lt;!\-- Polyfill in case your browser does not support the fetch API
-\--&gt;
+&lt;!&#45;- Polyfill in case your browser does not support the fetch API
+&#45;-&gt;
 
 &lt;script
 src=&quot;https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.js&quot;&gt;&lt;/script&gt;
@@ -7916,25 +7911,25 @@ a ReferenceError will be raised. But the typeof operator will return
 
 The logical operators are: 
 
--   **&&** (AND)  \
-    usage example : **if ((x  &gt; 0) && (x &lt; 10)) {**\
+-   **&&** (AND)  
+    usage example : **if ((x  &gt; 0) && (x &lt; 10)) {**
     **                 console.log(&apos;x is strictly positive and less
-    than 10&apos;);**\
+    than 10&apos;);**
     **             }**
 
--   **\|\|** (OR)\
-    usage  example : **if ((x  &gt; 0) \|\| (x == -5)) { **\
+-   **&vert;&vert;** (OR)
+    usage  example : **if ((x  &gt; 0) &vert;&vert; (x == -5)) { **
     **                 console.log(&apos;x is positive or equal to
-    -5&apos;); **\
+    -5&apos;); **
     **             }**
 
--   **!** (NOT)\
-    usage example : **if (!(x  &gt; 0)) { **\
+-   **!** (NOT)
+    usage example : **if (!(x  &gt; 0)) { **
     **                 console.log(&apos;x is not positive (x is less or
-    equal to 0&apos;); **\
+    equal to 0&apos;); **
     **             }**
 
--   **&&**, **\|\|** operators are binary, **!** is unary. 
+-   **&&**, **&vert;&vert;** operators are binary, **!** is unary. 
 
 1.  var b = !true; 
 
@@ -7972,8 +7967,8 @@ third, and nth conditions from being tested in certain cases: 
 -   false && something (an expression)  is always false, and the part to
     the right of && operator is not tested.
 
--   true \|\| something (an expression) is evaluated to true, and the
-    part to the right of the \|\| operator is not tested.
+-   true &vert;&vert; something (an expression) is evaluated to true, and the
+    part to the right of the &vert;&vert; operator is not tested.
 
 Examples:
 
@@ -7983,7 +7978,7 @@ Examples:
 
 3.   
 
-4.  if ((b === 5) \|\| (b === 6))  { //the second part is never tested
+4.  if ((b === 5) &vert;&vert; (b === 6))  { //the second part is never tested
 
 5.      console.log(&apos;b is equal to 5 or equal to 6&apos;);
 
@@ -8039,23 +8034,23 @@ will return a value! Indeed, boo will equal &apos;world&apos; because
 in also true as it&apos;s not one of the value cited in the previous
 paragraph. If we do : if (boo) then&hellip;. we will enter the if statement.
 
-The rule is that both && and \|\| result in the value of (exactly) one
+The rule is that both && and &vert;&vert; result in the value of (exactly) one
 of their operands:
 
 -   A && B returns the value A if A can be coerced into false;
     otherwise, it returns B.
 
--   A \|\| B returns the value A if A can be coerced into true;
+-   A &vert;&vert; B returns the value A if A can be coerced into true;
     otherwise, it returns B.
 
-External resource: [The && and \|\| Operators in
+External resource: [The && and &vert;&vert; Operators in
 JavaScript](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript)
 
 **TO SUM UP: it works &quot;normally&quot; if you just think true/false, but the
 real value affected is not true false, it&apos;s one of the operands, that
 can be seen as true/false.**
 
-1.  **var boo2 = (0/0) \|\| 43.2 ;**
+1.  **var boo2 = (0/0) &vert;&vert; 43.2 ;**
 
  boo2 equals 43.2 because the expression 0/0 equals NaN, which is
 evaluated as false.
@@ -8077,7 +8072,7 @@ if(myNumber == null){
 
  
 
-myNumber = myNumber \|\| 2;
+myNumber = myNumber &vert;&vert; 2;
 
 **Explanation**: after the first line, myNumber equals false. In
 the if statement, at **line 3**, false does not equal null. Therefore,
@@ -8133,9 +8128,9 @@ Some examples :
 
  
 
-/\* Here, the interpreter will try to convert the string '1'
+/&ast; Here, the interpreter will try to convert the string '1'
 
-into a number before doing the comparison \*/
+into a number before doing the comparison &ast;/
 
  
 
@@ -8243,19 +8238,19 @@ var num = isNaN(num) ? 0 : num
 
 //version with logical operator (implicit conversion)
 
-var num = num \|\| 0;
+var num = num &vert;&vert; 0;
 
  
 
-/\*
+/&ast;
 
-   &lt;=&gt; num = NaN \|\| 0
+   &lt;=&gt; num = NaN &vert;&vert; 0
 
  
 
-   &lt;=&gt; num = false \|\| 0
+   &lt;=&gt; num = false &vert;&vert; 0
 
-\*/
+&ast;/
 
  
 
@@ -8443,7 +8438,7 @@ console to see the outputs of this program):
 (Please look, edit and try whatever you want. There are parts that are
 commented - please remove comments and try to understand the results).
 
-**Conditional statements are used to execute a unit of code**\
+**Conditional statements are used to execute a unit of code**
 **only if a condition is evaluated as true.**
 
 ### The if statement {#the-if-statement .unnumbered}
@@ -8456,7 +8451,7 @@ commented - please remove comments and try to understand the results).
 
 **The expression may include:**
 
--   logical operators ( **! && \|\|** )
+-   logical operators ( **! && &vert;&vert;** )
 
 -   comparison operators
     ( **==**, **===**, **&gt;**, **&gt;=**, **&lt;**, **&lt;=** )
@@ -8588,7 +8583,7 @@ pressing the enter key. And you can add some extra lines of code without
 worrying about adding curly braces because you broke the &quot;1 line
 statement rule&quot;).
 
-**So it is strongly recommended that you always use if-statements**\
+**So it is strongly recommended that you always use if-statements**
 **enclosed in curly braces. **
 
 Of course, one-line if-statements like this :
@@ -8794,9 +8789,9 @@ console to see the outputs.
 
 JS
 
-/\*CONDITIONAL STATEMENTS\*/
+/&ast;CONDITIONAL STATEMENTS&ast;/
 
-/\*3 examples which are equivalent\*/
+/&ast;3 examples which are equivalent&ast;/
 
 //try to change foo value
 
@@ -8860,11 +8855,11 @@ bar3 =&apos;something&apos;;
 
 //now we print results :
 
-console.log(&apos;example1,\\n bar1 &gt;&gt; &apos; + bar1);
+console.log(&apos;example1,&#92;n bar1 &gt;&gt; &apos; + bar1);
 
-console.log(&apos;example2,\\n bar2 &gt;&gt; &apos; + bar2);
+console.log(&apos;example2,&#92;n bar2 &gt;&gt; &apos; + bar2);
 
-console.log(&apos;example3,\\n bar3 &gt;&gt; &apos; + bar3);
+console.log(&apos;example3,&#92;n bar3 &gt;&gt; &apos; + bar3);
 
 ### 2.2.3 Loop statements {#loop-statements .unnumbered}
 
@@ -9247,9 +9242,9 @@ for(var i = 1, k = 0; i &lt; 5; i++) {
 
  
 
-    k += 2\*i;
+    k += 2&ast;i;
 
-    console.log(&apos;k += &apos; + (2\*i));
+    console.log(&apos;k += &apos; + (2&ast;i));
 
 }
 
@@ -9259,7 +9254,7 @@ Copy and paste this example in your devtool console, but first, try to
 guess what the value of k will be!
 
 Hint: **lines 2-4** mean that **line 6** will never be executed for i =
-3. That means that i\*2 will only be added to k for i = 1, 2 and 4&hellip;
+3. That means that i&ast;2 will only be added to k for i = 1, 2 and 4&hellip;
 
 #### The break statement {#the-break-statement .unnumbered}
 
@@ -9350,19 +9345,19 @@ post your comments/observations/questions or share your creations.
 -   If not allergic to High School math, please write a piece of code
     that solves second degree equations. You pass the a, b, c parameters
     of: ax^2^ + bx + c, and the solve function will compute delta =
-    b^2^ - 4a\*c. Test the sign of delta, and if it&apos;s equal to zero,
+    b^2^ - 4a&ast;c. Test the sign of delta, and if it&apos;s equal to zero,
     then display (in the console, or better, in the page) the roots of
     the equation.
 
 -   Try to write a small program that asks you to guess a number. It
     will choose randomly a number, and will ask you to enter a value in
     an input field. Then it will display &quot;too small&quot; or &quot;too big&quot;,
-    until you find the number.\
-    \
+    until you find the number.
+    
     **Hint**: use the Math.random and Math.round methods, such as in let
-    randomNumber = Math.round(Math.random() \* 10); to get a random
-    value between 0 and 10.\
-    \
+    randomNumber = Math.round(Math.random() &ast; 10); to get a random
+    value between 0 and 10.
+    
     For working with input fields, look at section 1.4 from the first
     module, the math function plotter example used input fields. Or look
     at the section about DOM in this module.
@@ -10594,7 +10589,7 @@ window.addEventListener(&quot;scroll&quot;, function() {
 
 var max = document.body.scrollHeight - window.innerHeight;
 
-var percent = (window.pageYOffset / max) \* 100;
+var percent = (window.pageYOffset / max) &ast; 100;
 
 progressBar.style.width = percent + &quot;%&quot;;
 
@@ -10692,13 +10687,13 @@ window.onkeyup = processKeyUp;
 
 window.onkeydown = processKeyDown;
 
-/\* or we could have written:
+/&ast; or we could have written:
 
 window.addEventListener(&apos;keyup&apos;, processKeyUp);
 
 window.addEventListener(&apos;keydown&apos;, processKeyDown);
 
-\*/
+&ast;/
 
 function processKeyUp(evt) {
 
@@ -10722,7 +10717,7 @@ keys.innerHTML += &quot;keydown: &quot; + evt.key + &quot; code: &quot; + evt.ke
 
 See the Pen [keyup and keydown events on
 window](https://codepen.io/w3devcampus/pen/WpWjey/) by W3Cx
-([\@w3devcampus](https://codepen.io/w3devcampus))
+([&commat;w3devcampus](https://codepen.io/w3devcampus))
 on [CodePen](https://codepen.io/).
 
 #### Example #3: detect a combination of keys + modifier keys (shift, ctrl, alt) {#example-3-detect-a-combination-of-keys-modifier-keys-shift-ctrl-alt .unnumbered}
@@ -10764,11 +10759,11 @@ modifiers at the same time: shift, alt, control&lt;/p&gt;
 
 window.onkeydown = processKeyDown;
 
-/\* or we could have written:
+/&ast; or we could have written:
 
 window.addEventListener(&apos;keypress&apos;, processKeyPress);
 
-\*/
+&ast;/
 
 function processKeyDown(evt) {
 
@@ -10898,13 +10893,13 @@ old keyCode property.
     form. This means it's totally independent of the keyboard layout
     that is being used. So let's say the user presses the Q key on a
     QWERTY keyboard. **Then event.code gives you &apos;KeyQ&apos;
-    while event.key gives you &apos;q&apos;.\
-    \
+    while event.key gives you &apos;q&apos;.
+    
     But when an AZERTY keyboard user presses the A key, he also gets
     &apos;KeyQ&apos; as event.code, yet event.key contains &apos;a&apos;. This happens
     because the A key on a AZERTY keyboard is at the same location as
-    the Q key on a QWERTY keyboard.\
-    \
+    the Q key on a QWERTY keyboard.
+    
     **As for numbers, the top digit bar yields values like &apos;Digit1&apos;,
     while the numeric pad yields values like &apos;Numpad1&apos;.
 
@@ -11112,7 +11107,7 @@ div
 
 #### Example #2: see the differences between clientX/clientY and pageX/pageY {#example-2-see-the-differences-between-clientxclienty-and-pagexpagey .unnumbered}
 
-The source code is not meant to be understood. It uses the jQuery lib.\
+The source code is not meant to be understood. It uses the jQuery lib.
 Please move the mouse pointer, and look at the different properties.
 Then scroll the page (the table at the top will not move), and look at
 the properties again; notice how pageX/pageY change, since they are
@@ -11242,17 +11237,17 @@ JS
 
 var m = &lbrack;&apos;client&apos;,&apos;page&apos;,&apos;screen&apos;&rbrack;; // mods
 
-\$(document).mousemove(function(e){
+&dollar;(document).mousemove(function(e){
 
 for(var i=0; i&lt;3; i++){
 
-\$(&apos;#&apos;+m&lbrack;i&rbrack;).text((e&lbrack;m&lbrack;i&rbrack;+&apos;X&apos;&rbrack;)+&apos; &apos;+ (e&lbrack;m&lbrack;i&rbrack;+&apos;Y&apos;&rbrack;));
+&dollar;(&apos;#&apos;+m&lbrack;i&rbrack;).text((e&lbrack;m&lbrack;i&rbrack;+&apos;X&apos;&rbrack;)+&apos; &apos;+ (e&lbrack;m&lbrack;i&rbrack;+&apos;Y&apos;&rbrack;));
 
 }
 
-\$(&apos;#scrollTop&apos;).text(
+&dollar;(&apos;#scrollTop&apos;).text(
 
-\$(&apos;html, body&apos;).scrollTop()
+&dollar;(&apos;html, body&apos;).scrollTop()
 
 );
 
@@ -11577,8 +11572,8 @@ padding:10px 12px;
 
 cursor:move;
 
-position:absolute; /\* important (all position that&apos;s not \`static\`)
-\*/
+position:absolute; /&ast; important (all position that&apos;s not &apos;static&apos;)
+&ast;/
 
 }
 
@@ -11710,22 +11705,22 @@ HTML
 
 &lt;nav id=&quot;context-menu&quot; class=&quot;context-menu&quot;&gt;
 
-&lt;ul class=&quot;context-menu\_\_items&quot;&gt;
+&lt;ul class=&quot;context-menu&lowbar;&lowbar;items&quot;&gt;
 
-&lt;li class=&quot;context-menu\_\_item&quot; id=&quot;context-menu-learn&quot;
+&lt;li class=&quot;context-menu&lowbar;&lowbar;item&quot; id=&quot;context-menu-learn&quot;
 onclick=&quot;menuItem1();&quot;&gt;
 
 Learn
 
 &lt;/li&gt;
 
-&lt;li class=&quot;context-menu\_\_item&quot; onclick=&quot;menuItem2();&quot;&gt;
+&lt;li class=&quot;context-menu&lowbar;&lowbar;item&quot; onclick=&quot;menuItem2();&quot;&gt;
 
 Clear
 
 &lt;/li&gt;
 
-&lt;li class=&quot;context-menu\_\_item&quot; onclick=&quot;toggleMenuOff();&quot;&gt;
+&lt;li class=&quot;context-menu&lowbar;&lowbar;item&quot; onclick=&quot;toggleMenuOff();&quot;&gt;
 
 Close
 
@@ -11753,9 +11748,9 @@ menu&lt;/div&gt;
 
 CSS
 
-/\* CONTEXT MENU \*/
+/&ast; CONTEXT MENU &ast;/
 
-/\* context menu \*/
+/&ast; context menu &ast;/
 
 .context-menu {
 
@@ -11777,13 +11772,13 @@ box-shadow: 1px 1px 2px #cfcfcf;
 
 }
 
-.context-menu\--active {
+.context-menu&#45;-active {
 
 display: block;
 
 }
 
-.context-menu\_\_items {
+.context-menu&lowbar;&lowbar;items {
 
 list-style: none;
 
@@ -11793,7 +11788,7 @@ padding: 0;
 
 }
 
-.context-menu\_\_item {
+.context-menu&lowbar;&lowbar;item {
 
 display: block;
 
@@ -11807,13 +11802,13 @@ text-decoration: none;
 
 }
 
-.context-menu\_\_item:last-child {
+.context-menu&lowbar;&lowbar;item:last-child {
 
 margin-bottom: 0;
 
 }
 
-.context-menu\_\_item:hover {
+.context-menu&lowbar;&lowbar;item:hover {
 
 color: #fff;
 
@@ -11849,7 +11844,7 @@ menu = document.querySelector(&quot;#context-menu&quot;);
 
 menuIsVisible = false;
 
-/\* to attach a context menu to all divs, you can do this:
+/&ast; to attach a context menu to all divs, you can do this:
 
 var divs = document.querySelectorAll(&quot;.div&quot;);
 
@@ -11859,7 +11854,7 @@ divs.forEach(function(d) {
 
 });
 
-\*/
+&ast;/
 
 // attache the context menu to the first div
 
@@ -11895,7 +11890,7 @@ if(!menuIsVisible) {
 
 menuIsVisible = true;
 
-> menu.classList.add(&quot;context-menu\--active&quot;); // see further in the
+> menu.classList.add(&quot;context-menu&#45;-active&quot;); // see further in the
 > DOM section of the course
 
 }
@@ -11908,7 +11903,7 @@ if(menuIsVisible) {
 
 menuIsVisible = false;
 
-> menu.classList.remove(&quot;context-menu\--active&quot;);
+> menu.classList.remove(&quot;context-menu&#45;-active&quot;);
 
 }
 
@@ -12354,7 +12349,7 @@ HTML
 
 onchange = &quot;changePageBackgroundColor(this.value);&quot;&gt;
 
-&lt;!\-- we could have used oninput= in the previous line \--&gt;
+&lt;!&#45;- we could have used oninput= in the previous line &#45;-&gt;
 
 &lt;/label&gt;
 
@@ -12531,13 +12526,13 @@ the most useful ones for an intro course:
   -------- ----------------------------------------------------------------
   resize   The event occurs when the document view is resized. Usually we
            get the new size of the window inside the event listener using
-           var w = window.innerWidth; and\
+           var w = window.innerWidth; and
            var h = window.innerHeight;
 
   scroll   The event occurs when an element&apos;s scrollbar is being scrolled.
-           Usually, in the scroll event listener, we use things such as:\
-             var max = document.body.scrollHeight - innerHeight;\
-            var percent = (pageYOffset / max);\
+           Usually, in the scroll event listener, we use things such as:
+             var max = document.body.scrollHeight - innerHeight;
+            var percent = (pageYOffset / max);
            &hellip;to know the percentage of the scroll in the page.
   -------------------------------------------------------------------------
 
@@ -12695,7 +12690,7 @@ height="1.3854166666666667in"}
     array, randomly, and you will have to type the letters of this word
     as fast as you can. A bit like the &quot;type of the dead&quot; game (look
     on YouTube). You can imagine the evolution such as choosing the
-    level, start with 3 letter words, 4 letter words, etc.\
+    level, start with 3 letter words, 4 letter words, etc.
     Choose a topic (medicine, with very difficult words to spell, etc.).
     If you look at the end of the module, you will see how to work with
     graphics and animation, you can also imagine a graphic version of
@@ -12811,8 +12806,8 @@ ones are highlighted in bold.
     type text&lt;/p&gt;)**
 
 -   Document, DocumentFragment, DocumentType (example: &lt;!doctype
-    html&gt; for html5), Comment (example: &lt;!\-- left column \--&gt;),
-    ProcessingInstruction (example: &lt;?php echo \$name ?&gt;)
+    html&gt; for html5), Comment (example: &lt;!&#45;- left column &#45;-&gt;),
+    ProcessingInstruction (example: &lt;?php echo &dollar;name ?&gt;)
 
 ### Exploring the DOM with the devtool console {#exploring-the-dom-with-the-devtool-console .unnumbered}
 
@@ -13666,8 +13661,8 @@ few ways:
     has the id "identifier".
 
 This is equivalent to document.querySelector(&quot;#identifier&apos;); (just add
-a \# before the id when using a CSS selector). \
-\
+a &#35; before the id when using a CSS selector). 
+
 Example: var elm = document.getElementById(&apos;myDiv&apos;); is equivalent
 to document.querySelector(&apos;#myDiv&apos;);
 
@@ -13912,8 +13907,8 @@ Properties that can be used to change the value of selected DOM node
 
 This property is useful when you want to change all the children of a
 given element. It can be used to modify the text content of an element,
-or to insert a whole set of HTML elements inside another one.\
-\
+or to insert a whole set of HTML elements inside another one.
+
 **Typical use:**
 
 var elem = document.querySelector(&apos;#myElem&apos;);
