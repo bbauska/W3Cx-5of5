@@ -409,7 +409,7 @@ height="0.5in"}
 [JSFiddle](https://jsfiddle.net/) is very similar to JSBin and CodePen
 in terms of features. 
 
-### Other tools {#other-tools-1 .unnumbered}
+### Other tools
 
 There are many other online IDEs and new ones appear each year. If you
 want a real, heavyweight online IDE that has nearly all the features
@@ -436,7 +436,7 @@ valuable approach):
 ![C9 ide](./images/image018.jpeg){width="5.0in"
 height="3.316773840769904in"}
 
-#### JavaScript debuggers {#javascript-debuggers .unnumbered}
+#### JavaScript debuggers
 
 Here is a selection of tools to help debug JavaScript code. The
 instructor will indicate other tools in module 1 of the course.
@@ -455,7 +455,7 @@ instructor will indicate other tools in module 1 of the course.
 -   Check also other[ JavaScript debugging
     tools](https://jqueryhouse.com/best-javascript-debugging-tools/)
 
-#### Browser compatibility {#browser-compatibility .unnumbered}
+#### Browser compatibility
 
 The term browser compatibility refers to the ability of a given Web site
 to appear fully functional on the browsers available in the market.
@@ -481,7 +481,7 @@ features presented in this course using 2 resources: [Can I
 Use](https://caniuse.com/) and [Mozilla Developer Network (MDN) Web
 Docs](https://developer.mozilla.org/en-US/).
 
-#### Can I use {#can-i-use .unnumbered}
+#### Can I use
 
 [Can I Use](https://caniuse.com/) provides up-to-date tables for support
 of front-end Web technologies on desktop and mobile Web browsers. Below
@@ -492,7 +492,7 @@ is a snapshot of what information is given by CanIUse when searching for
 colors)](./images/image019.png){width="5.0in"
 height="2.148759842519685in"}
 
-#### MDN Web Docs {#mdn-web-docs .unnumbered}
+#### MDN Web Docs
 
 ![Logo of MDN Web Docs](./images/image020.png){width="3.0in"
 height="0.9408737970253719in"}![Logo of MDN Web
@@ -505,7 +505,7 @@ browser compatibility tables in its documentation pages, so that when
 looking up a feature you're considering for your project, you know
 exactly which browsers will support it.
 
-#### External resources {#external-resources .unnumbered}
+#### External resources
 
 -   [MDN browser compatibility data: Taking the guesswork out of web
     compatibility](https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/)
@@ -517,7 +517,7 @@ https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/
 
 https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/
 
-#### ![W3C Developers home page](./images/image022.png){width="2.0in" height="0.5368055555555555in"}W3C validators {#w3c-developers-home-pagew3c-validators .unnumbered}
+#### ![W3C Developers home page](./images/image022.png){width="2.0in" height="0.5368055555555555in"}W3C validators
 
 For over 20 years, the W3C has been developing and
 hosting [**[free]{.underline}** and **[open
@@ -527,13 +527,13 @@ tools listed below are Web-based, and are available as downloadable
 sources or as free services on the [W3C Developers
 tools ](https://w3c.github.io/developers/tools/)site.
 
-#### W3C Validator {#w3c-validator .unnumbered}
+#### W3C Validator
 
 The [W3C validator](https://validator.w3.org/) checks the [markup
 validity](https://validator.w3.org/docs/help.html#validation_basics) of
 various Web document formats, such as HTML.
 
-### CSS Validator {#css-validator .unnumbered}
+### CSS Validator
 
 The [CSS validator](https://jigsaw.w3.org/css-validator/) checks
 Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
@@ -549,9 +549,7 @@ performing a variety of checks. Unicorn gathers the results of the
 popular HTML and CSS validators, as well as other useful services, such
 as RSS/Atom feeds and http headers.
 
-###  {#section .unnumbered}
-
-### Link Checker {#link-checker .unnumbered}
+### Link Checker
 
 The [W3C Link Checker](https://validator.w3.org/checklink) looks for
 issues in links, anchors and referenced objects in a Web page, CSS style
@@ -559,7 +557,7 @@ sheet, or recursively on a whole Web site. For best results, it is
 recommended to first ensure that the documents checked use valid [HTML
 Markup](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
 
-### Internationalization Checker {#internationalization-checker .unnumbered}
+### Internationalization Checker
 
 The [W3C Internationalization
 Checker](https://validator.w3.org/i18n-checker/) provides information
@@ -567,7 +565,7 @@ about various internationalization-related aspects of your page,
 including the HTTP headers that affect it. It also reports a number of
 issues and offers advice about how to resolve them.
 
-### W3C cheatsheet {#w3c-cheatsheet .unnumbered}
+### W3C cheatsheet
 
 <https://dev.w3.org/2009/cheatsheet/doc/>
 
@@ -590,7 +588,7 @@ interest.
 The W3C cheatsheet is only available as a [pure Web
 application](https://dev.w3.org/2009/cheatsheet/doc/).
 
-### Help build the Web Platform! {#help-build-the-web-platform .unnumbered}
+### Help build the Web Platform!
 
 Most of the technologies you use when developing Web applications and
 Web sites are designed and standardized in W3C in a completely open and
@@ -602,7 +600,7 @@ GitHub, you already know how to contribute to W3C specifications! This
 is all about raising issues (with feedback and suggestions) and/or
 bringing pull requests to fix identified issues.
 
-### Contribute {#contribute .unnumbered}
+### Contribute
 
 Contributing to this standardization process might be a bit scary or
 hard to approach at first, but understanding at a deeper level how these
@@ -616,7 +614,7 @@ GitHub repositories have been marked as &quot;good first
 issue&quot;](https://github.com/search?q=org%3Aw3c+label%3A%22good+first+issue%22+state%3Aopen&type=Issues) and
 see if you find anything where you think you would be ready to help.
 
-### First steps in Web accessibility {#first-steps-in-web-accessibility .unnumbered}
+### First steps in Web accessibility
 
 As steward of global Web standards, W3C&apos;s mission is to safeguard the
 openness, accessibility, and freedom of the World Wide Web from a
@@ -626,7 +624,7 @@ W3C&apos;s primary activity is to develop protocols and guidelines that
 ensure long-term growth for the Web. The widely adopted Web standards
 define key parts of what actually makes the World Wide Web work.
 
-### Shape the future {#shape-the-future .unnumbered}
+### Shape the future
 
 ![Logo of the W3C Web Incubator Community
 Group](./images/image026.png){width="2.0in"
@@ -638,7 +636,7 @@ proposals for consideration.
 
 Happy Web building!
 
-### What is W3C? {#what-is-w3c .unnumbered}
+### What is W3C?
 
 As steward of global Web standards, W3C&apos;s mission is to safeguard the
 openness, accessibility, and freedom of the World Wide Web from a
@@ -648,7 +646,7 @@ W3C&apos;s primary activity is to develop protocols and guidelines that
 ensure long-term growth for the Web. The widely adopted Web standards
 define key parts of what actually makes the World Wide Web work.
 
-### A few history bits {#a-few-history-bits .unnumbered}
+### A few history bits
 
 ![Tim Berners-Lee at his desk in CERN,
 1994](./images/image027.jpeg){width="2.0in" height="2.0in"}
@@ -680,7 +678,7 @@ As of January 2023, W3C is a public-interest non-profit organization
 incorporated in the United States of America, led by a Board of
 Directors and employing a global staff across the globe
 
-### A few figures {#a-few-figures .unnumbered}
+### A few figures
 
 As of July 2023, W3C:
 
@@ -712,7 +710,7 @@ As of July 2023, W3C:
 -   Has a [technical staff](https://www.w3.org/People/) composed of 46
     people, spread on all five continents.
 
-### W3C&apos;s core values {#w3cs-core-values .unnumbered}
+### W3C&apos;s core values
 
 Committed to core values of an open Web that promotes innovation,
 neutrality, and interoperability, W3C and its community are setting the
@@ -720,9 +718,9 @@ vision and standards for the Web, ensuring the building blocks of the
 Web are open, accessible, secure, international and have been developed
 via the collaboration of global technical experts.
 
-### The Web is amazing! {#the-web-is-amazing .unnumbered}
+### The Web is amazing!
 
-## Level 2 headings may be created by course providers in the future. {#level-2-headings-may-be-created-by-course-providers-in-the-future. .unnumbered}
+## Level 2 headings may be created by course providers in the future.
 
 People often use the words &quot;Internet&quot; and &quot;Web&quot; interchangeably, but
 this usage is technically incorrect.
@@ -735,16 +733,16 @@ Web is a car, the email is a bicycle, etc.  Read [this
 article](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335) for
 more details about the difference between Internet and the Web.
 
-### Check also this reminder ;) {#check-also-this-reminder .unnumbered}
+### Check also this reminder ;)
 
-### ![First photo: Tim Berners-Lee is on the left wearing a black shirt that says "I didn't invent the Internet" and Vint Cerf on the right wearing a black shirt that says "I did not invent the Web". Second photo: Both facing backwards, Tim Berners-Lee is on the left wearing a black shirt that says "I invented the Web" and Vint Cerf on the right wearing a black shirt that says "I invented the Internet". ](./images/image028.jpeg){width="4.0in" height="2.252136920384952in"} {#first-photo-tim-berners-lee-is-on-the-left-wearing-a-black-shirt-that-says-i-didnt-invent-the-internet-and-vint-cerf-on-the-right-wearing-a-black-shirt-that-says-i-did-not-invent-the-web.-second-photo-both-facing-backwards-tim-berners-lee-is-on-the-left-wearing-a-black-shirt-that-says-i-invented-the-web-and-vint-cerf-on-the-right-wearing-a-black-shirt-that-says-i-invented-the-internet. .unnumbered}
+### ![First photo: Tim Berners-Lee is on the left wearing a black shirt that says "I didn't invent the Internet" and Vint Cerf on the right wearing a black shirt that says "I did not invent the Web". Second photo: Both facing backwards, Tim Berners-Lee is on the left wearing a black shirt that says "I invented the Web" and Vint Cerf on the right wearing a black shirt that says "I invented the Internet". ](./images/image028.jpeg){width="4.0in" height="2.252136920384952in"}
 
 The W3C community is passionate about creating free and open Web
 standards. The next video, created in partnership with Microsoft,
 explains why standards are important to maintain a royalty-free, Open
 Web Platform, as well as to help shape the Web of the future.
 
-### Why accessibility is important {#why-accessibility-is-important .unnumbered}
+### Why accessibility is important
 
 *The power of the Web is in its universality. Access by everyone
 regardless of disability is an essential aspect.\
@@ -768,7 +766,7 @@ Standards](https://www.w3.org/WAI/videos/standards-and-benefits/) is a
 4-minute video with descriptive transcript and subtitles in over 20
 languages.
 
-### Who is impacted? {#who-is-impacted .unnumbered}
+### Who is impacted?
 
 Web accessibility addresses all disabilities, including hearing,
 learning and cognitive, neurological, physical, speech, and visual
@@ -786,7 +784,7 @@ disabilities. Some examples of Web accessibility features include:
 -   **Text alternatives** for people with visual disabilities and using
     screen readers;
 
-### Web accessibility benefits people with and w**ithout** disabilities {#web-accessibility-benefits-people-with-and-without-disabilities .unnumbered}
+### Web accessibility benefits people with and w**ithout** disabilities
 
 Web accessibility features also benefit many more users, such as:
 
@@ -809,7 +807,7 @@ applications are badly designed, they can create barriers that exclude
 people from using the Web. More information is available in the [W3C
 Accessibility](https://www.w3.org/standards/webdesign/accessibility) overview.
 
-### First steps in Web accessibility {#first-steps-in-web-accessibility-1 .unnumbered}
+### First steps in Web accessibility
 
 There are many simple Web accessibility improvements that you can
 implement and check right away, even when you are new to this topic. Two
@@ -822,7 +820,7 @@ tips and information from W3C/WAI:
 -   [Easy Checks - A First Review of Web
     Accessibility](https://www.w3.org/WAI/eval/preliminary)
 
-### Example 1: page title {#example-1-page-title .unnumbered}
+### Example 1: page title
 
 Good page titles are particularly important for orientation --- to help
 people know where they are and move between pages open in their browser.
@@ -834,7 +832,7 @@ within the &lt;head&gt;.
 content of a page, and that it distinguishes the page from other Web
 pages.
 
-#### **Example**: {#example .unnumbered}
+#### **Example**:
 
 > &lt;head&gt;
 >
@@ -846,7 +844,7 @@ pages.
 >
 > &lt;/head&gt;
 
-#### Example 2: image text alternatives (&quot;alt text&quot;) {#example-2-image-text-alternatives-alt-text .unnumbered}
+#### Example 2: image text alternatives (&quot;alt text&quot;)
 
 Text alternatives (&quot;alt text&quot;) are a primary way of making visual
 information accessible, because they can be rendered through any sensory
@@ -856,7 +854,7 @@ rendered in a variety of ways by a variety of user agents. For example,
 a person who cannot see a picture can have the text alternative read
 aloud using synthesized speech.
 
-#### **Check #2: Every image has **alt** with appropriate alternative text.** {#check-2-every-image-has-alt-with-appropriate-alternative-text. .unnumbered}
+#### **Check #2: Every image has **alt** with appropriate alternative text.**
 
 **Example**: See the W3C logo below. It contains a link that points to
 the W3C Web site. The text alternative is going to be a brief
@@ -870,7 +868,7 @@ description of the link target.
 >
 > &lt;/a&gt;
 
-### Why internationalization is important {#why-internationalization-is-important .unnumbered}
+### Why internationalization is important
 
 Access to the Web for all has been a fundamental concern and goal of the
 W3C since the beginning. It is easy to overlook the needs of people from
@@ -882,13 +880,19 @@ features that they will need.
 &apos;Internationalization&apos; is sometimes abbreviated to &apos;i18n&apos; in
 English, because there are 18 characters between the &apos;i&apos; and the
 &apos;n&apos;.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 29. W3C Internationalization Activity logo (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image029.png?raw=true"
+  style="width:10%"
+  title="W3C Internationalization Activity logo"
+  alt="W3C Internationalization Activity logo." />
+</p>
 
-![W3C Internationalization Activity
-logo](./images/image029.png){width="1.0in"
-height="0.93457895888014in"}The [W3C Internationalization
-Activity](https://www.w3.org/International/) works with W3C working
-groups and liaises with other organizations to make it possible to use
-Web technologies with different languages, scripts, and cultures.
+The [W3C Internationalization Activity](https://www.w3.org/International/)
+works with W3C working groups and liaises with other organizations to make 
+it possible to use Web technologies with different languages, scripts, and 
+cultures.
 
 During this course you will learn about some basic internationalization
 features, such as character encoding and language declarations. If you
@@ -898,11 +902,16 @@ important even if you think you are only designing for a specific
 community -- communities are made up of diverse individuals, and the Web
 stretches worldwide.
 
-### Unicode {#unicode .unnumbered}
-
-![Unicode symbols](./images/image030.jpeg){width="2.0in"
-height="2.0in"}Text in a computer or on the Web is composed of
-characters. 
+### Unicode
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 30. unicode symbols (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image030.jpeg?raw=true"
+  style="width:20%"
+  title="Unicode symbols"
+  alt="Unicode symbols." />
+</p>
+Text in a computer or on the Web is composed of characters. 
 
 *Characters* represent letters of the alphabet, punctuation, or other
 symbols.
@@ -920,14 +929,14 @@ your content or data. This Unicode encoding is a good choice because you
 can use a single encoding to handle any character you are likely to
 meet. This greatly simplifies things.
 
-### Essential steps in Web i18n {#essential-steps-in-web-i18n .unnumbered}
+### Essential steps in Web i18n
 
 You find below three examples (and checks!) to help you to ensure that
 your Web page works for people around the world, and to make it work
 differently for different cultures, where needed. Let&apos;s meet the words
 &apos;charset&apos; and &apos;lang&apos;, soon to become your favorite markup ;)
 
-### Example 1: Character encoding declaration {#example-1-character-encoding-declaration .unnumbered}
+### Example 1: Character encoding declaration
 
 A character encoding declaration is **vital to ensure that the text in
 your page is recognized by browsers around the world**, and not garbled.
@@ -937,7 +946,7 @@ through the course.  For now, just ensure that it&apos;s always there.
 **Check #1: There is a character encoding declaration near the start of
 your source code, and  its value is UTF-8.**
 
-### **Example 1**: {#example-1 .unnumbered}
+### **Example 1**:
 
 &lt;head&gt;
 
@@ -947,7 +956,7 @@ your source code, and  its value is UTF-8.**
 
 &lt;/head&gt;
 
-### Example 2: Primary language declaration {#example-2-primary-language-declaration .unnumbered}
+### Example 2: Primary language declaration
 
 For a wide variety of reasons, it&apos;s important for a browser to know
 what language your page is written in, including font selection,
@@ -958,9 +967,9 @@ tag**. Again you will learn how to do this during the course.  You will
 also learn how to change the language, where necessary, for parts of
 your document that are in a different language.
 
-#### **Check #2: The HTML tag has a lang attribute which correctly indicates the language of your content.** {#check-2-the-html-tag-has-a-lang-attribute-which-correctly-indicates-the-language-of-your-content. .unnumbered}
+#### **Check #2: The HTML tag has a lang attribute which correctly indicates the language of your content.**
 
-#### **Example 2**: This indicates that the page is in French. {#example-2-this-indicates-that-the-page-is-in-french. .unnumbered}
+#### **Example 2**: This indicates that the page is in French.
 
 &lt;!doctype html&gt;
 
@@ -970,7 +979,7 @@ your document that are in a different language.
 
 &hellip;
 
-#### Example 3: Cultural bias {#example-3-cultural-bias .unnumbered}
+#### Example 3: Cultural bias
 
 People around the world don&apos;t always understand cultural references
 that you are familiar with, for example the concept of a &apos;home run&apos; in
@@ -988,7 +997,7 @@ other cultures.
 cultures, check that your cultural references will be recognized and
 that there is no inappropriate cultural bias.**
 
-### Don&apos;t worry! {#dont-worry .unnumbered}
+### Don&apos;t worry!
 
 The following 7 quick tips summarize some important concepts of
 international Web design. They will become more meaningful as you work
@@ -1023,7 +1032,7 @@ You will find more quick tips on the [Internationalization quick
 tips](https://www.w3.org/International/quicktips/) page. Remember that
 these tips do not constitute complete guidelines.
 
-### Internationalization checker {#internationalization-checker-1 .unnumbered}
+### Internationalization checker
 
 When you start creating Web pages, you can also run them through the
 W3C&apos;s [Internationalization
@@ -1031,7 +1040,7 @@ Checker](https://validator.w3.org/i18n-checker/).  If there are
 internationalization problems with your page, this checker explains what
 they are and what to do about it.
 
-### 1.1.1 Introduction - Module 1: Intro to JavaScript (1:46) {#introduction---module-1-intro-to-javascript-146 .unnumbered}
+### 1.1.1 Introduction - Module 1: Intro to JavaScript (1:46)
 
 Hello everyone, welcome to the wonderful world of JavaScript!
 
@@ -1060,7 +1069,7 @@ interactive graphic tool that will use many different features from
 JavaScript, HTML and CSS. Let's start having fun with JavaScript, now
 :-)
 
-### 1.1.2 Module 1 outline {#module-1-outline .unnumbered}
+### 1.1.2 Module 1 outline
 
 If you thought that a Web browser could only display HTML documents, you
 were mistaken! ;)
@@ -1090,9 +1099,17 @@ discover how JavaScript is useful.
 this course! This is an introductory course designed to help
 you understand the basic concepts of the language.
 
-### 1.2.1 HTML is for structure {#html-is-for-structure .unnumbered}
+### 1.2.1 HTML is for structure
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 31. html5 logo (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image031.png?raw=true"
+  style="width:20%"
+  title="HTML5 logo"
+  alt="HTML5 logo." />
+</p>
 
-### ![HTML5 logo](./images/image031.png){width="2.0in" height="2.0in"}The &quot;**H**yper **T**ext&quot; part: links! {#html5-logothe-hyper-text-part-links .unnumbered}
+### The &quot;**H**yper **T**ext&quot; part: links!
 
 A fundamental key to the World Wide Web is the concept of
 &quot;**hypertext**&quot;. Hypertext is built on the idea of linking information
@@ -1104,10 +1121,14 @@ tables, figures, etc.)
 That&apos;s why, in 1989, Tim Berners-Lee began to create a definition of
 HTML: Hypertext Markup Language, to provide a simple, uniform way to
 incorporate hyperlinks into a text document.
-
-![Illustration of hypertext
-documents](./images/image032.png){width="4.0in"
-height="2.655220909886264in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 32. illustration of hypertext documents (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image032.png?raw=true"
+  style="width:40%"
+  title="Illustration of hypertext documents"
+  alt="Illustration of hypertext documents." />
+</p>
 
 He envisioned a technology that would facilitate thoroughly
 interconnected documents. He wanted authors to be able to connect an
@@ -1124,7 +1145,7 @@ between documents. It was not just a long list of details, but rather a
 sea of information stretching out in all directions. This sea of
 information was navigated by a new tool called a &quot;browser&quot;.
 
-### The &quot;Markup&quot; part: elements, tags and attributes! {#the-markup-part-elements-tags-and-attributes .unnumbered}
+### The &quot;Markup&quot; part: elements, tags and attributes!
 
 The &quot;M&quot; in HTML stands for &quot;Markup&quot;, but what does Markup really
 mean?  Essentially it means to annotate a document with extra
@@ -1142,13 +1163,18 @@ annotations from the regular text.  In HTML these annotations are called
 For example, consider the following chunk of HTML code (note: you can
 edit the source code and see the resulting Web page updating in real
 time):
-
-![](./images/image033.png){width="5.0in"
-height="1.5555555555555556in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 33. glue javascript between html5 and css3 (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image033.png?raw=true"
+  style="width:50%"
+  title="Glue JavaScript between HTML5 and CSS3"
+  alt="Glue JavaScript between HTML5 and CSS3." />
+</p>
 
 <https://codepen.io/w3devcampus/pen/PWqYxG>
 
-##### HTML {#html .unnumbered}
+##### HTML
 
 &lt;body&gt;
 
@@ -1191,7 +1217,7 @@ your Web page looks, as well as how it responds and interacts with you.
 
 Here is another, more generic example:
 
-#### **Notes**: {#notes .unnumbered}
+#### **Notes**:
 
 -   Remember that the first line of your HTML5 page should start
     by &lt;!DOCTYPE html&gt;. CodePen does not force you to add a DOCTYPE on
@@ -1206,7 +1232,7 @@ height="2.9381944444444446in"}
 
 <https://codepen.io/w3devcampus/pen/egNOLj>
 
-##### HTML: {#html-1 .unnumbered}
+##### HTML:
 
 1.  &lt;!DOCTYPE html&gt;
 
@@ -1245,7 +1271,7 @@ height="2.9381944444444446in"}
 
 17. &lt;/html&gt;
 
-### Try it out! {#try-it-out .unnumbered}
+### Try it out!
 
 It&apos;s time to write your first HTML code :-)
 
@@ -1268,9 +1294,9 @@ with folders and files.
 The next lesson shows how you can use JSBin, CodePen, and SublimeText in
 order to test the HTML code provided earlier in this section.
 
-### 1.2.1 Live coding video: using the course&apos;s tools (6:25) {#live-coding-video-using-the-courses-tools-625 .unnumbered}
+### 1.2.1 Live coding video: using the course&apos;s tools (6:25)
 
-### ![](./images/image035.png){width="5.0in" height="2.56251312335958in"} {#section-1 .unnumbered}
+### ![](./images/image035.png){width="5.0in" height="2.56251312335958in"}
 
 In this lesson, I will show you how to try and tweak the HTML example
 from the Web page, the one from the course.
@@ -1384,7 +1410,7 @@ back the file that I downloaded when I was working with CodePen.io. And
 here, I have got HTML file. This is the code I prototyped, I tested
 first using an online environment.
 
-### 1.2.2 HTML elements {#html-elements .unnumbered}
+### 1.2.2 HTML elements
 
 If you are sitting at a coffee shop next to a table of Web developers,
 you will probably often hear these three words: &quot;Elements&quot;, &quot;Tags&quot;
@@ -1463,22 +1489,22 @@ etc.
 That may be a great picture, but how do we represent such a structure in
 a text file?  Well, that&apos;s where &quot;tags&quot; come in.
 
-### 1.2.3 HTML tags {#html-tags .unnumbered}
+### 1.2.3 HTML tags
 
 ![Thinking about HTML tags](./images/image049.jpeg){width="2.0in"
 height="2.0in"}
 
-# &lt;html&gt;  {#html-2 .unnumbered}
+# &lt;html&gt;
 
-### &lt;BODY&gt; {#body .unnumbered}
+### &lt;BODY&gt;
 
-### &lt;p&gt; {#p .unnumbered}
+### &lt;p&gt;
 
-### &lt;em&gt; {#em .unnumbered}
+### &lt;em&gt;
 
-### &lt;i&gt; {#i .unnumbered}
+### &lt;i&gt;
 
-### &lt;b&gt; {#b .unnumbered}
+### &lt;b&gt;
 
 &quot;Tags&quot; are what we use to organize a text file (which is just a long
 string of characters) such that it represents a tree of elements that
@@ -1551,7 +1577,7 @@ These elements, without a &quot;/&quot; at the end, are called &quot;void
 elements&quot;. They are : area, base, br, col, embed, hr, img, input, link,
 menuitem, meta, param, source, track, wbr.
 
-### 1.2.4 HTML attributes (6:01) {#html-attributes-601 .unnumbered}
+### 1.2.4 HTML attributes (6:01)
 
 Most of what you can learn about HTML attributes is presented [in the
 three W3Cx MOOCs about
@@ -1615,9 +1641,9 @@ element.
 ![](./images/image054.png){width="6.0in"
 height="3.3788462379702535in"}
 
-### We&apos;ve got a head element, here, and an empty body element, here.  {#weve-got-a-head-element-here-and-an-empty-body-element-here. .unnumbered}
+### We&apos;ve got a head element, here, and an empty body element, here.  
 
-### ![](./images/image055.png){width="6.0in" height="3.3788462379702535in"} {#section-2 .unnumbered}
+### ![](./images/image055.png){width="6.0in" height="3.3788462379702535in"}
 
 In the &lt;head&gt;, usually, we specify the title: &quot;First HTML page&quot;. And
 this title is what will be displayed when you put the cursor on a tab in
@@ -1627,7 +1653,7 @@ engines. And then in the body of the document, we will add some really
 visible content. I start with the very common element, a very common
 tag.
 
-### ![](./images/image056.png){width="6.0in" height="3.3788462379702535in"} {#section-3 .unnumbered}
+### ![](./images/image056.png){width="6.0in" height="3.3788462379702535in"}
 
 The tag is the notation between &lt; and &gt; signs and the element is the
 conceptual thing - like, I'm writing a heading. &quot;This is my first
@@ -1644,7 +1670,7 @@ just for going to the next line without letting some space between
 paragraphs, it&apos;s called &lt;br&gt;. And &lt;br&gt; in that case, I can go to
 the next line.
 
-### ![](./images/image057.png){width="6.0in" height="3.3788462379702535in"} {#section-4 .unnumbered}
+### ![](./images/image057.png){width="6.0in" height="3.3788462379702535in"}
 
 If I want to enumerate my hobbies, a very common practice is to use
 lists. In HTML, you&apos;ve got an **unnumbered list** that are composed of
@@ -1652,7 +1678,7 @@ list items. For example: &quot;I play guitar&quot;, &quot;I code video games&quo
 These are my hobbies. &quot;I like movies&quot;, etc. If I want, instead of an
 unnumbered list, a numbered list, I can use an order list.
 
-### ![](./images/image058.png){width="6.0in" height="3.3788462379702535in"} {#section-5 .unnumbered}
+### ![](./images/image058.png){width="6.0in" height="3.3788462379702535in"}
 
 With &lt;ol&gt; instead of &lt;ul&gt;. In that case, you can see numbers.
 Another very common element is the &quot;img&quot; tag that is useful for
@@ -1674,7 +1700,7 @@ of Leonardo. I pick an image of Leonardo. I display the image and
 **I've** got the URL, here, in the address bar. I just copy and
 **paste** it and **I've** got Leonardo Di Caprio in my document.
 
-### 1.2.5 CSS is for style (1:34) {#css-is-for-style-134 .unnumbered}
+### 1.2.5 CSS is for style (1:34)
 
 Hi!
 
@@ -1722,12 +1748,12 @@ looks and feels. You can have a Web page without CSS, but it would be
 very difficult to make it look the way you want with just HTML. This is
 why almost every Web page is a combination of HTML and CSS.
 
-### CSS • /si-ɛs-ɛs/ • *noun * {#css-si-ɛs-ɛs-noun .unnumbered}
+### CSS • /si-ɛs-ɛs/ • *noun *
 
 Stands for &quot;**C**ascading **S**tyle **S**heets&quot;. A style sheet
 language for describing how to display an HTML document.
 
-### Let&apos;s look at an example! {#lets-look-at-an-example .unnumbered}
+### Let&apos;s look at an example!
 
 Let&apos;s take the (ridiculous) Michel Buffa home page again:
 
@@ -1778,7 +1804,7 @@ useful for setting the look and feel of the selected elements.
 
 **Line 2** for example, says that all h1s is colored in red.
 
-### CSS rules are applied in sequence {#css-rules-are-applied-in-sequence .unnumbered}
+### CSS rules are applied in sequence
 
 After the previous rule is applied, then the second rule is taken into
 account, then the next, etc. In this way, you can see that all h2s is in
@@ -1798,7 +1824,7 @@ This one says that all p, h1 and h2 uses a cursive font character. The
 This is also how we indicate in the last rule that images and paragraphs
 should be moved to the right 50 pixels (property margin-left: 50px).
 
-### The id and class attributes {#the-id-and-class-attributes .unnumbered}
+### The id and class attributes
 
 Basically, any given element on your Web page can be identified uniquely
 with an &apos;id&apos; attribute, or grouped with a class of other elements by
@@ -13666,9 +13692,14 @@ about CSS):
 -   text-align (centered, etc.)
 
 Here are some examples:
-
-![](./images/image204.png){width="6.5in"
-height="4.622222222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image204.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt="." />
+</p>
 
 ### Using the ClassList interface to change more than one CSS property simultaneously {#using-the-classlist-interface-to-change-more-than-one-css-property-simultaneously .unnumbered}
 
@@ -13727,9 +13758,14 @@ collection of class names:
 16. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div class=&quot;&quot;/&gt;
 
 ### Another example: add and remove multiple CSS properties in a list of checkboxes {#another-example-add-and-remove-multiple-css-properties-in-a-list-of-checkboxes .unnumbered}
-
-![](./images/image205.png){width="6.5in"
-height="3.982638888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image205.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt="." />
+</p>
 
 This is a variation of an example from a previous section. This time,
 when the &lt;input type=&quot;checkbox&quot;&gt; elements have been checked, in
@@ -13837,9 +13873,14 @@ use the textContent property to read the text content or to modify it.
 There are subtle differences that can be seen in the above example
 (click the &apos;edit on CodePen&quot; part on the top left, and once in
 codePen, open the devtool console):
-
-![](./images/image206.png){width="6.5in"
-height="2.723611111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image206.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt="." />
+</p>
 
 HTML
 
@@ -13901,7 +13942,7 @@ JS
 
 15. }
 
-### Extract from the HTML code: {#extract-from-the-html-code .unnumbered}
+### Extract from the HTML code:
 
 &lt;p id=&quot;first&quot;&gt;first paragraph&lt;/p&gt;
 
@@ -13961,18 +14002,23 @@ text decoration (the &lt;em&gt; is removed), this is done at **lines
 
 21. }
 
-### Changing the attributes of selected elements {#changing-the-attributes-of-selected-elements .unnumbered}
+### Changing the attributes of selected elements
 
 It&apos;s very common to modify the attributes of selected elements: the
 width of an image, CSS style with the style attribute, value of an input
 field, etc.
 
 This example shows some of the things we can do:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image207.png?raw=true"
+  style="width:50%"
+  title=" "
+  alt="." />
+</p>
 
-![](./images/image207.png){width="5.0in"
-height="3.2222222222222223in"}
-
-#### HTML {#html-16 .unnumbered}
+#### HTML
 
 &lt;!DOCTYPE html&gt;
 
@@ -14020,7 +14066,7 @@ onclick=&quot;changeAndResize(this)&quot; alt=&quot;Michel Buffa&quot;&gt;
 
 &lt;/html&gt;
 
-#### JS {#js-14 .unnumbered}
+#### JS
 
 function resetName() {
 
@@ -14060,12 +14106,12 @@ img.style.border = &quot;4px solid red&quot;;
 
 }
 
-### 2.5.6 Adding new elements to the DOM {#adding-new-elements-to-the-dom .unnumbered}
+### 2.5.6 Adding new elements to the DOM
 
 To add a new element to the HTML DOM, you must create the element
 (element node) first, and then append it to an existing element.
 
-#### Example: {#example-8 .unnumbered}
+#### Example:
 
 &lt;!DOCTYPE html&gt;
 
@@ -14103,7 +14149,12 @@ element.appendChild(para);
 
 &lt;/html&gt;
 
-#### Output: {#output .unnumbered}
-
-![](./images/image208.png){width="3.0in"
-height="4.2459022309711285in"}
+#### Output:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 208.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image208.png?raw=true"
+  style="width:30%"
+  title=" "
+  alt="." />
+</p>
