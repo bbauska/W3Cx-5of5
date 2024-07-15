@@ -376,18 +376,29 @@ In our opinion, JSBin is the best online IDE for &quot;live coding&quot;: typing
 and seeing what you are doing in real time, monitoring error messages in
 the console tab, and debugging your code. We will mainly use this tool
 for the live coding videos.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 08. jsbin example (xx) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image008.jpeg?raw=true"
+  style="width:50%"
+  title="JSBin example"
+  alt="JSBin example." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 09. codepen logo (xx) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image009.png?raw=true"
+  style="width:5%"
+  title="CodePen logo"
+  alt="CodePen logo." />
+</p>
 
-![JSBin example](./images/image008.jpeg){width="5.0in"
-height="4.207492344706911in"}
-
-![CodePen logo](./images/image009.png){width="0.5in"
-height="0.5in"}[CodePen](https://codepen.io/) is similar to JSBin except
-that its Web site includes a search engine, which is very useful for
-finding out what others have developed. Looking for a nice HTML5/CSS
+[CodePen](https://codepen.io/)
+is similar to JSBin except that its Web site includes a search engine, which is 
+very useful for finding out what others have developed. Looking for a nice HTML5/CSS
 button style? Just search for &quot;button&quot;, etc. It&apos;s also easier for us
-to embed HTML/CSS/JS examples in this course with CodePen than with
-other online IDEs; this is why so many &quot;pens&quot; are embedded in the
-course pages.
+to embed HTML/CSS/JS examples in this course with CodePen than with other online 
+IDEs; this is why so many &quot;pens&quot; are embedded in the course pages.
 
 This is a great service to get you started quickly as it doesn&apos;t
 require you to download anything and you can access it, along with your
