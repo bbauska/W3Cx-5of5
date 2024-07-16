@@ -319,10 +319,9 @@ very often). Sublime text supports hundreds of plugins to enhance its features.<
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. vs code logo (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
 <img src="./images/image005.jpeg?raw=true"
-  style="width:5%"
+  style="width:10%"
   title="VS Code logo"
   alt="VS Code logo." />
-
 <a href="https://code.visualstudio.com/">Visual Studio Code</a> is a
 free, open source, multi-platform editor by Microsoft.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -402,7 +401,7 @@ for the live coding videos.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. codepen logo (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
 <img src="./images/image009.png?raw=true"
-  style="width:5%"
+  style="width:10%"
   title="CodePen logo"
   alt="CodePen logo." />
 <a href="https://codepen.io/">CodePen</a> is similar to JSBin except that its 
