@@ -569,39 +569,46 @@ https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/
 
 https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/
 
-#### ![W3C Developers home page](./images/image022.png){width="2.0in" height="0.5368055555555555in"}W3C validators
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. w3c developers logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="25%">
+<img src="./images/image022.png?raw=true"
+  style="width:20%"
+  title="W3C Developers logo"
+  alt="W3C Developers logo." />
 For over 20 years, the W3C has been developing and
-hosting [**[free]{.underline}** and **[open
-source]{.underline}** tools](https://w3c.github.io/developers/) used
-every day by **millions of Web developers and Web designers**. All the
+hosting and <a href="https://w3c.github.io/developers/"><b>open source tools</b></a> used
+every day by <b>millions of Web developers and Web designers</b>. All the
 tools listed below are Web-based, and are available as downloadable
-sources or as free services on the [W3C Developers
-tools ](https://w3c.github.io/developers/tools/)site.
+sources or as free services on the <a href="https://w3c.github.io/developers/tools/">
+W3C Developers tools</a> site.</p>
 
-#### W3C Validator
+<h4>W3C Validator</h4>
 
 The [W3C validator](https://validator.w3.org/) checks the [markup
 validity](https://validator.w3.org/docs/help.html#validation_basics) of
 various Web document formats, such as HTML.
 
-### CSS Validator
+<h4>CSS Validator</h4>
 
 The [CSS validator](https://jigsaw.w3.org/css-validator/) checks
 Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
 stylesheets.
 
-![Laptop showing unicorn
-validator](./images/image023.png){width="2.0in"
-height="1.646616360454943in"}**Unicorn**
-
-[Unicorn](https://validator.w3.org/unicorn/) is W3C&apos;s unified
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 23. laptop showing unicorn validator (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="50%">
+<img src="./images/image023.png?raw=true"
+  style="width:20%"
+  title="Laptop showing unicorn validator"
+  alt="Laptop showing unicorn validator." />
+<a href="https://validator.w3.org/unicorn/">Unicorn</a> is W3C&apos;s unified
 validator, which helps people improve the quality of their Web pages by
 performing a variety of checks. Unicorn gathers the results of the
 popular HTML and CSS validators, as well as other useful services, such
-as RSS/Atom feeds and http headers.
+as RSS/Atom feeds and http headers.</p>
 
-### Link Checker
+<h4>Link Checker</h4>
 
 The [W3C Link Checker](https://validator.w3.org/checklink) looks for
 issues in links, anchors and referenced objects in a Web page, CSS style
@@ -609,7 +616,7 @@ sheet, or recursively on a whole Web site. For best results, it is
 recommended to first ensure that the documents checked use valid [HTML
 Markup](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
 
-### Internationalization Checker
+#### Internationalization Checker
 
 The [W3C Internationalization
 Checker](https://validator.w3.org/i18n-checker/) provides information
@@ -617,7 +624,7 @@ about various internationalization-related aspects of your page,
 including the HTTP headers that affect it. It also reports a number of
 issues and offers advice about how to resolve them.
 
-### W3C cheatsheet
+#### W3C cheatsheet
 
 The [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/) provides quick
 access to useful information from a variety of specifications published
@@ -638,7 +645,7 @@ interest.
 The W3C cheatsheet is only available as a [pure Web
 application](https://dev.w3.org/2009/cheatsheet/doc/).
 
-### Help build the Web Platform!
+#### Help build the Web Platform!
 
 Most of the technologies you use when developing Web applications and
 Web sites are designed and standardized in W3C in a completely open and
@@ -650,7 +657,7 @@ GitHub, you already know how to contribute to W3C specifications! This
 is all about raising issues (with feedback and suggestions) and/or
 bringing pull requests to fix identified issues.
 
-### Contribute
+#### Contribute
 
 Contributing to this standardization process might be a bit scary or
 hard to approach at first, but understanding at a deeper level how these
@@ -664,7 +671,7 @@ GitHub repositories have been marked as &quot;good first
 issue&quot;](https://github.com/search?q=org%3Aw3c+label%3A%22good+first+issue%22+state%3Aopen&type=Issues) and
 see if you find anything where you think you would be ready to help.
 
-### First steps in Web accessibility
+#### First steps in Web accessibility
 
 As steward of global Web standards, W3C&apos;s mission is to safeguard the
 openness, accessibility, and freedom of the World Wide Web from a
@@ -674,7 +681,7 @@ W3C&apos;s primary activity is to develop protocols and guidelines that
 ensure long-term growth for the Web. The widely adopted Web standards
 define key parts of what actually makes the World Wide Web work.
 
-### Shape the future
+#### Shape the future
 
 ![Logo of the W3C Web Incubator Community
 Group](./images/image026.png){width="2.0in"
@@ -686,7 +693,7 @@ proposals for consideration.
 
 Happy Web building!
 
-### What is W3C?
+#### What is W3C?
 
 As steward of global Web standards, W3C&apos;s mission is to safeguard the
 openness, accessibility, and freedom of the World Wide Web from a
@@ -696,7 +703,7 @@ W3C&apos;s primary activity is to develop protocols and guidelines that
 ensure long-term growth for the Web. The widely adopted Web standards
 define key parts of what actually makes the World Wide Web work.
 
-### A few history bits
+#### A few history bits
 
 ![Tim Berners-Lee at his desk in CERN,
 1994](./images/image027.jpeg){width="2.0in" height="2.0in"}
@@ -728,7 +735,7 @@ As of January 2023, W3C is a public-interest non-profit organization
 incorporated in the United States of America, led by a Board of
 Directors and employing a global staff across the globe
 
-### A few figures
+#### A few figures
 
 As of July 2023, W3C:
 
@@ -760,7 +767,7 @@ As of July 2023, W3C:
 -   Has a [technical staff](https://www.w3.org/People/) composed of 46
     people, spread on all five continents.
 
-### W3C&apos;s core values
+#### W3C&apos;s core values
 
 Committed to core values of an open Web that promotes innovation,
 neutrality, and interoperability, W3C and its community are setting the
@@ -768,9 +775,9 @@ vision and standards for the Web, ensuring the building blocks of the
 Web are open, accessible, secure, international and have been developed
 via the collaboration of global technical experts.
 
-### The Web is amazing!
+#### The Web is amazing!
 
-## Level 2 headings may be created by course providers in the future.
+### Level 2 headings may be created by course providers in the future.
 
 People often use the words &quot;Internet&quot; and &quot;Web&quot; interchangeably, but
 this usage is technically incorrect.
@@ -783,16 +790,16 @@ Web is a car, the email is a bicycle, etc.  Read [this
 article](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335) for
 more details about the difference between Internet and the Web.
 
-### Check also this reminder ;)
+#### Check also this reminder ;)
 
-### ![First photo: Tim Berners-Lee is on the left wearing a black shirt that says "I didn't invent the Internet" and Vint Cerf on the right wearing a black shirt that says "I did not invent the Web". Second photo: Both facing backwards, Tim Berners-Lee is on the left wearing a black shirt that says "I invented the Web" and Vint Cerf on the right wearing a black shirt that says "I invented the Internet". ](./images/image028.jpeg){width="4.0in" height="2.252136920384952in"}
+#### ![First photo: Tim Berners-Lee is on the left wearing a black shirt that says "I didn't invent the Internet" and Vint Cerf on the right wearing a black shirt that says "I did not invent the Web". Second photo: Both facing backwards, Tim Berners-Lee is on the left wearing a black shirt that says "I invented the Web" and Vint Cerf on the right wearing a black shirt that says "I invented the Internet". ](./images/image028.jpeg){width="4.0in" height="2.252136920384952in"}
 
 The W3C community is passionate about creating free and open Web
 standards. The next video, created in partnership with Microsoft,
 explains why standards are important to maintain a royalty-free, Open
 Web Platform, as well as to help shape the Web of the future.
 
-### Why accessibility is important
+#### Why accessibility is important
 
 *The power of the Web is in its universality. Access by everyone
 regardless of disability is an essential aspect.
@@ -816,7 +823,7 @@ Standards](https://www.w3.org/WAI/videos/standards-and-benefits/) is a
 4-minute video with descriptive transcript and subtitles in over 20
 languages.
 
-### Who is impacted?
+#### Who is impacted?
 
 Web accessibility addresses all disabilities, including hearing,
 learning and cognitive, neurological, physical, speech, and visual
@@ -834,7 +841,7 @@ disabilities. Some examples of Web accessibility features include:
 -   **Text alternatives** for people with visual disabilities and using
     screen readers;
 
-### Web accessibility benefits people with and w**ithout** disabilities
+#### Web accessibility benefits people with and w**ithout** disabilities
 
 Web accessibility features also benefit many more users, such as:
 
@@ -857,7 +864,7 @@ applications are badly designed, they can create barriers that exclude
 people from using the Web. More information is available in the [W3C
 Accessibility](https://www.w3.org/standards/webdesign/accessibility) overview.
 
-### First steps in Web accessibility
+#### First steps in Web accessibility
 
 There are many simple Web accessibility improvements that you can
 implement and check right away, even when you are new to this topic. Two
@@ -870,7 +877,7 @@ tips and information from W3C/WAI:
 -   [Easy Checks - A First Review of Web
     Accessibility](https://www.w3.org/WAI/eval/preliminary)
 
-### Example 1: page title
+#### Example 1: page title
 
 Good page titles are particularly important for orientation --- to help
 people know where they are and move between pages open in their browser.
@@ -882,7 +889,7 @@ within the &lt;head&gt;.
 content of a page, and that it distinguishes the page from other Web
 pages.
 
-#### **Example**:
+##### **Example**:
 
 > &lt;head&gt;
 >
@@ -894,7 +901,7 @@ pages.
 >
 > &lt;/head&gt;
 
-#### Example 2: image text alternatives (&quot;alt text&quot;)
+##### Example 2: image text alternatives (&quot;alt text&quot;)
 
 Text alternatives (&quot;alt text&quot;) are a primary way of making visual
 information accessible, because they can be rendered through any sensory
@@ -904,7 +911,7 @@ rendered in a variety of ways by a variety of user agents. For example,
 a person who cannot see a picture can have the text alternative read
 aloud using synthesized speech.
 
-#### **Check #2: Every image has **alt** with appropriate alternative text.**
+##### **Check #2: Every image has **alt** with appropriate alternative text.**
 
 **Example**: See the W3C logo below. It contains a link that points to
 the W3C Web site. The text alternative is going to be a brief
@@ -918,7 +925,7 @@ description of the link target.
 >
 > &lt;/a&gt;
 
-### Why internationalization is important
+#### Why internationalization is important
 
 Access to the Web for all has been a fundamental concern and goal of the
 W3C since the beginning. It is easy to overlook the needs of people from
@@ -952,7 +959,7 @@ important even if you think you are only designing for a specific
 community -- communities are made up of diverse individuals, and the Web
 stretches worldwide.
 
-### Unicode
+#### Unicode
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 30. unicode symbols (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -979,14 +986,14 @@ your content or data. This Unicode encoding is a good choice because you
 can use a single encoding to handle any character you are likely to
 meet. This greatly simplifies things.
 
-### Essential steps in Web i18n
+#### Essential steps in Web i18n
 
 You find below three examples (and checks!) to help you to ensure that
 your Web page works for people around the world, and to make it work
 differently for different cultures, where needed. Let&apos;s meet the words
 &apos;charset&apos; and &apos;lang&apos;, soon to become your favorite markup ;)
 
-### Example 1: Character encoding declaration
+#### Example 1: Character encoding declaration
 
 A character encoding declaration is **vital to ensure that the text in
 your page is recognized by browsers around the world**, and not garbled.
@@ -996,7 +1003,7 @@ through the course.  For now, just ensure that it&apos;s always there.
 **Check #1: There is a character encoding declaration near the start of
 your source code, and  its value is UTF-8.**
 
-### **Example 1**:
+#### **Example 1**:
 
 &lt;head&gt;
 
@@ -1006,7 +1013,7 @@ your source code, and  its value is UTF-8.**
 
 &lt;/head&gt;
 
-### Example 2: Primary language declaration
+#### Example 2: Primary language declaration
 
 For a wide variety of reasons, it&apos;s important for a browser to know
 what language your page is written in, including font selection,
@@ -1017,9 +1024,9 @@ tag**. Again you will learn how to do this during the course.  You will
 also learn how to change the language, where necessary, for parts of
 your document that are in a different language.
 
-#### **Check #2: The HTML tag has a lang attribute which correctly indicates the language of your content.**
+##### **Check #2: The HTML tag has a lang attribute which correctly indicates the language of your content.**
 
-#### **Example 2**: This indicates that the page is in French.
+##### **Example 2**: This indicates that the page is in French.
 
 &lt;!doctype html&gt;
 
@@ -1029,7 +1036,7 @@ your document that are in a different language.
 
 &hellip;
 
-#### Example 3: Cultural bias
+##### Example 3: Cultural bias
 
 People around the world don&apos;t always understand cultural references
 that you are familiar with, for example the concept of a &apos;home run&apos; in
@@ -1047,7 +1054,7 @@ other cultures.
 cultures, check that your cultural references will be recognized and
 that there is no inappropriate cultural bias.**
 
-### Don&apos;t worry!
+#### Don&apos;t worry!
 
 The following 7 quick tips summarize some important concepts of
 international Web design. They will become more meaningful as you work
@@ -1082,7 +1089,7 @@ You will find more quick tips on the [Internationalization quick
 tips](https://www.w3.org/International/quicktips/) page. Remember that
 these tips do not constitute complete guidelines.
 
-### Internationalization checker
+#### Internationalization checker
 
 When you start creating Web pages, you can also run them through the
 W3C&apos;s [Internationalization
@@ -1159,7 +1166,7 @@ you understand the basic concepts of the language.
   alt="HTML5 logo." />
 </p>
 
-### The &quot;**H**yper **T**ext&quot; part: links!
+#### The &quot;**H**yper **T**ext&quot; part: links!
 
 A fundamental key to the World Wide Web is the concept of
 &quot;**hypertext**&quot;. Hypertext is built on the idea of linking information
@@ -1195,7 +1202,7 @@ between documents. It was not just a long list of details, but rather a
 sea of information stretching out in all directions. This sea of
 information was navigated by a new tool called a &quot;browser&quot;.
 
-### The &quot;Markup&quot; part: elements, tags and attributes!
+#### The &quot;Markup&quot; part: elements, tags and attributes!
 
 The &quot;M&quot; in HTML stands for &quot;Markup&quot;, but what does Markup really
 mean?  Essentially it means to annotate a document with extra
@@ -1321,7 +1328,7 @@ height="2.9381944444444446in"}
 
 17. &lt;/html&gt;
 
-### Try it out!
+#### Try it out!
 
 It&apos;s time to write your first HTML code :-)
 
@@ -1346,7 +1353,7 @@ order to test the HTML code provided earlier in this section.
 
 ### 1.2.1 Live coding video: using the course&apos;s tools (6:25)
 
-### ![](./images/image035.png){width="5.0in" height="2.56251312335958in"}
+#### ![](./images/image035.png){width="5.0in" height="2.56251312335958in"}
 
 In this lesson, I will show you how to try and tweak the HTML example
 from the Web page, the one from the course.
@@ -1750,9 +1757,9 @@ element.
 ![](./images/image054.png){width="6.0in"
 height="3.3788462379702535in"}
 
-### We&apos;ve got a head element, and an empty body element, here.  
+#### We&apos;ve got a head element, and an empty body element, here.  
 
-### ![](./images/image055.png)
+#### ![](./images/image055.png)
 <!-- {width="6.0in" height="3.3788462379702535in"} -->
 
 In the &lt;head&gt;, usually, we specify the title: &quot;First HTML page&quot;. And
@@ -1763,7 +1770,7 @@ engines. And then in the body of the document, we will add some really
 visible content. I start with the very common element, a very common
 tag.
 
-### ![](./images/image056.png){width="6.0in" height="3.3788462379702535in"}
+#### ![](./images/image056.png){width="6.0in" height="3.3788462379702535in"}
 
 The tag is the notation between &lt; and &gt; signs and the element is the
 conceptual thing - like, I'm writing a heading. &quot;This is my first
@@ -1780,7 +1787,7 @@ just for going to the next line without letting some space between
 paragraphs, it&apos;s called &lt;br&gt;. And &lt;br&gt; in that case, I can go to
 the next line.
 
-### ![](./images/image057.png){width="6.0in" height="3.3788462379702535in"}
+#### ![](./images/image057.png){width="6.0in" height="3.3788462379702535in"}
 
 If I want to enumerate my hobbies, a very common practice is to use
 lists. In HTML, you&apos;ve got an **unnumbered list** that are composed of
@@ -1788,7 +1795,7 @@ list items. For example: &quot;I play guitar&quot;, &quot;I code video games&quo
 These are my hobbies. &quot;I like movies&quot;, etc. If I want, instead of an
 unnumbered list, a numbered list, I can use an order list.
 
-### ![](./images/image058.png){width="6.0in" height="3.3788462379702535in"}
+#### ![](./images/image058.png){width="6.0in" height="3.3788462379702535in"}
 
 With &lt;ol&gt; instead of &lt;ul&gt;. In that case, you can see numbers.
 Another very common element is the &quot;img&quot; tag that is useful for
@@ -1907,7 +1914,7 @@ useful for setting the look and feel of the selected elements.
 
 **Line 2** for example, says that all h1s is colored in red.
 
-### CSS rules are applied in sequence
+#### CSS rules are applied in sequence
 
 After the previous rule is applied, then the second rule is taken into
 account, then the next, etc. In this way, you can see that all h2s is in
@@ -1927,7 +1934,7 @@ This one says that all p, h1 and h2 uses a cursive font character. The
 This is also how we indicate in the last rule that images and paragraphs
 should be moved to the right 50 pixels (property margin-left: 50px).
 
-### The id and class attributes
+#### The id and class attributes
 
 Basically, any given element on your Web page can be identified uniquely
 with an &apos;id&apos; attribute, or grouped with a class of other elements by
@@ -2228,7 +2235,7 @@ JavaScript remains the most commonly used programming language with
 67.7% of developers employing it in 2020 (see this [survey&apos;s
 results](https://insights.stackoverflow.com/survey/2020#most-popular-technologies)).
 
-### How and why JS was created?
+#### How and why JS was created?
 
 Created out of necessity, it is used to build 97.4% of websites,
 including some of the world's largest, like Facebook and YouTube.
@@ -2343,7 +2350,7 @@ published in June 2022 and is known as ES2022**.
 sets of the latest versions are generally not completely implemented, as
 it takes time for browser vendors to follow the standards!
 
-### **Current support for ES2020/ 11th version (June 2020):**
+#### **Current support for ES2020/ 11th version (June 2020):**
 
 There is no easy-to-read table of current browser global support, but
 caniuse.com can be used to check feature by feature which browsers
@@ -2356,7 +2363,7 @@ the version corresponding to the previous year. For example, in 2020,
 there is an good support for ES2019, while certain features from ES2020
 won&apos;t be implemented before some months.
 
-### Which version will we learn?
+#### Which version will we learn?
 
 First of all, this is an introductory course! Not all features of
 JavaScript need to be covered, in particular the ones that you cannot
@@ -2368,7 +2375,7 @@ use and not for beginners).
 **We will cover all the important features of the last version that are
 relevant for an intro course**. 
 
-### Is JavaScript an important language to learn? What about Java, PHP, C#, Python, Ruby and all the others?
+#### Is JavaScript an important language to learn? What about Java, PHP, C#, Python, Ruby and all the others?
 
 JavaScript is the only programming language you can run in your browser.
 Without JavaScript there would be no games, no fancy dynamic HTML forms,
@@ -2395,7 +2402,7 @@ applications running on a remote Web server. Mastering JavaScript basics
 is highly recommended before trying to learn JavaScript server-side
 programming.
 
-### JavaScript is an interpreted language
+#### JavaScript is an interpreted language
 
 JavaScript is an interpreted (or just-in-time compiled) language, which
 means that the code is converted into a machine language at, or just
@@ -2410,17 +2417,17 @@ before, runtime. The most popular JavaScript engines are:
 -   [Chrome V8](https://developers.google.com/v8/) (included in Google
     Chrome, in the Node.js server)
 
-### External resources
+#### External resources
 
 -   [History of JavaScript on a
     timeline](https://blog.risingstack.com/history-of-javascript-on-a-timeline/)
 
-#### 1.2.8 Discussion and project
+### 1.2.8 Discussion and project
 
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
 
-### Suggested topics
+#### Suggested topics
 
 -   Did you know about JavaScript history? Do you have stories to share?
 
@@ -2433,14 +2440,14 @@ post your comments/observations/questions or share your creations.
 -   Do you know a good service for hosting Web sites made with
     HTML/CSS/JS files?
 
-### Optional project
+#### Optional project
 
 -   Try to make a simple home page and add some interactivity to it,
     adapting the examples provided in the course (change the HTML
     content by clicking on a button, change the CSS style of some parts
     of the document).
 
-#### 1.3.1 The best way to learn JavaScript (8:42)
+### 1.3.1 The best way to learn JavaScript (8:42)
 
 ![](./images/image091.png)
 
@@ -2633,7 +2640,7 @@ brackets. What is the best method to learn JavaScript?
 
 &lt;end of video transcript The Best Way to Learn JS&gt;
 
-### FIRST: learn by looking at and tweaking the code in the examples
+#### FIRST: learn by looking at and tweaking the code in the examples
 
 Well, there is no definitive answer to this question, but I&apos;d recommend
 firstly looking at small examples, tweaking them and trying to guess
@@ -2661,7 +2668,7 @@ During module 1, we give you some basics:
 -   In further modules, we will be revisiting the examples,
     and discussing them in greater detail and with fuller explanations.
 
-### SECOND: take some time to carefully read the sections titled &quot;What you&apos;ve learnt / let&apos;s detail &hellip;.&quot;
+#### SECOND: take some time to carefully read the sections titled &quot;What you&apos;ve learnt / let&apos;s detail &hellip;.&quot;
 
 During the course, we provide extra &quot;reference pages&quot; that detail some
 important parts of the language. For example, in a later section, we
@@ -2725,7 +2732,7 @@ bet that you guessed that the function plotted is &quot;sin(x)&quot;, that the
 color of the curve is &quot;red&quot;, that the range of the x values is &lbrack;0,
 2&ast;PI&rbrack;, and the range of the y values is &lbrack;-1, 1&rbrack;.
 
-### <b>Your job:</b>
+#### <b>Your job:</b>
 
 -   try to plot sin(x&#94;2),
 
@@ -2856,7 +2863,7 @@ Notice that after each property (color, grid, etc.) there is a &quot;,&quot;.
 Notice that between the name of the properties and the value there is a
 &quot;:&quot;, etc&hellip;
 
-### <b>Embedded objects</b>
+#### <b>Embedded objects</b>
 
 If we look at the values of the xAxis and yAxis properties, they
 are also objects.
@@ -2915,7 +2922,7 @@ cos(x) to our example, with a different color:
 
 https://codepen.io/w3devcampus/pen/KWPyeX
 
-### Conclusion
+#### Conclusion
 
 Just by looking at one example, and without going into the boring
 details, you saw:
@@ -2931,7 +2938,7 @@ details, you saw:
 
 Not bad ;-)
 
-#### 1.3.2 What can be done with JavaScript
+### 1.3.2 What can be done with JavaScript
 
 Hello!
 
@@ -2981,7 +2988,7 @@ were the most typical uses of JavaScript Web sites.
 
 What can be done with JavaScript:
 
-### 1) interact with the HTML and CSS content of a document, respond to events
+#### 1) interact with the HTML and CSS content of a document, respond to events
 
 We have already seen three examples in previous parts of this week&apos;s
 course material.
@@ -3077,7 +3084,7 @@ The third example (outlined in the previous section), which showed how
 to plot math functions, illustrated that with a few lines of code you
 can reuse code from others (a third party JavaScript library).
 
-### 2) use numerous APIs in addition to the DOM and selector APIs: multimedia, drawing, animating, geolocation, webcam, etc.
+#### 2) use numerous APIs in addition to the DOM and selector APIs: multimedia, drawing, animating, geolocation, webcam, etc.
 
 Your browser comes with a lot of different &quot;libraries&quot; that are called
 &quot;standards APIs&quot; for &quot;application programming interfaces&quot;. Such APIs
@@ -3097,7 +3104,7 @@ height="2.0819444444444444in"}
 
 https://codepen.io/w3devcampus/pen/LYVgyxE
 
-### 3) work with remote data / speak with a remote HTTP Web server
+#### 3) work with remote data / speak with a remote HTTP Web server
 
 You can also download or upload data from your browser to a remote Web
 server. When this is done from JavaScript the popular term to describe
@@ -3114,9 +3121,9 @@ height="2.9611111111111112in"}
 
 https://codepen.io/w3devcampus/pen/wJwpKq
 
-#### 1.3.3 Where to put JavaScript code
+### 1.3.3 Where to put JavaScript code
 
-### JavaScript code can be located in different places
+#### JavaScript code can be located in different places
 
 1.  In your HTML code between &lt;script&gt; and &lt;/script&gt; tag
 
@@ -3130,7 +3137,7 @@ https://codepen.io/w3devcampus/pen/wJwpKq
 
 Here are some examples:
 
-### Example #1:  the JavaScript code is included in an HTML file using the &lt;script&gt;&hellip;&lt;/script&gt; tag
+#### Example #1:  the JavaScript code is included in an HTML file using the &lt;script&gt;&hellip;&lt;/script&gt; tag
 
 #### First variant: in the &lt;body&gt;..&lt;/body&gt; of the HTML document
 
@@ -3192,7 +3199,7 @@ height="3.1881944444444446in"}
 
 https://codepen.io/w3devcampus/pen/apBMYJ
 
-### Example #2: put the JavaScript code in local .js files
+#### Example #2: put the JavaScript code in local .js files
 
 Putting JavaScript code in external scripts files is easy, and
 offers many advantages:
@@ -3317,7 +3324,7 @@ How to run this example:
 
 4.  Click on the button in the page
 
-### Example #3: use external references to JavaScript files/libraries located on the Web
+#### Example #3: use external references to JavaScript files/libraries located on the Web
 
 External JavaScript libraries (they are just big JS files) can be also
 referenced with a full URL, like in this example:
@@ -3340,11 +3347,11 @@ an external URL:
 
 https://codepen.io/w3devcampus/pen/VPmNWg
 
-#### 1.3.4 How to debug JavaScript
+### 1.3.4 How to debug JavaScript
 
 Let&apos;s introduce what is debugging.
 
-### You will make errors!
+#### You will make errors!
 
 When you are developing a Web Application that contains JavaScript code,
 you will make errors. 
@@ -3363,7 +3370,7 @@ in the browser&quot;, how it works, how to start writing code, etc.
 First of all, you need to find a way to debug your code and see errors.
 If your work does not produce any results, you need to know why!
 
-### Your Swiss army knife: your browser devtools, especially the devtool console!
+#### Your Swiss army knife: your browser devtools, especially the devtool console!
 
 For this you will use **the dev. tools of your
 browser**. Press **F12** (or ctrl-shift-i) in Windows
@@ -3465,9 +3472,9 @@ to look at some basic tutorials on how to use the dev. tools of your
 browsers, since they differ from one another in the way they work
 - although the principles remain the same.
 
-#### 1.3.5 Discussion and projects
+### 1.3.5 Discussion and projects
 
-#### 1.4.1 Creating an HTML/CSS/JS project
+### 1.4.1 Creating an HTML/CSS/JS project
 
 Let&apos;s create a small HTML/CSS/JS project together.
 
@@ -3486,7 +3493,7 @@ will take a break and have a &quot;real&quot;, &quot;academic&quot;, look at the
 concepts of the language you have been using. We think this is the best
 way for you to learn!
 
-### Topic
+#### Topic
 
 We will write a small, interactive HTML page that will use some HTML
 input fields for indicating the name of a math function we&apos;d like to
@@ -3503,7 +3510,7 @@ height="3.0480774278215224in"}
 
 https://codepen.io/w3devcampus/pen/bqGboZ
 
-#### 1.4.2 Using CodePen
+### 1.4.2 Using CodePen
 
 In the video, at 3:19, there are some mistakes in the HTML code:
 
@@ -3516,7 +3523,7 @@ In the video, at 3:19, there are some mistakes in the HTML code:
 2.  Improvement in the code could be to replace all empty
     paragraphs &lt;p&gt;&lt;/p&gt; by line breaks &lt;br&gt; or by a single &lt;p&gt;.
 
-### CodePen example with the starting code used in the video
+#### CodePen example with the starting code used in the video
 
 If you want to code while watching the video, [please open this
 CodePen.](https://codepen.io/w3devcampus/pen/GmbpzZ) It contains the
@@ -3531,7 +3538,7 @@ In case you have a hard time to follow the video, [here is the full
 example](https://codepen.io/w3devcampus/pen/bqGboZ) (this link points to
 the example from the previous course page).
 
-#### 1.4.3 Using Sublime Text
+### 1.4.3 Using Sublime Text
 
 Now, I&apos;m going to show you how we can do the same application using
 files and a regular source code editor, and working on your local hard
@@ -3589,7 +3596,7 @@ Using generated code can be useful, but most of the time for a big
 project or a serious project, you will use a source code editor like
 Sublime Text.
 
-#### 1.5.1 JS variables and values
+### 1.5.1 JS variables and values
 
 Hi!
 
@@ -3862,7 +3869,7 @@ With ES2015/2016 it is recommended that you use the
 keyword **const** instead of **var** to declare them. This means that an
 error will be raised if you try to change their value in the future.
 
-#### Example: {#example-6 .unnumbered}
+#### Example:
 
 var TIME_LIMIT;
 
@@ -3875,7 +3882,7 @@ and const. The code executed is the one from the above
 example](./images/image111.jpeg){width="6.510416666666667in"
 height="2.3413331146106735in"}
 
-### Summary {#summary .unnumbered}
+#### Summary
 
 Here are a set of examples (using the let keyword, but they would also
 work with var):
@@ -3903,7 +3910,7 @@ let case_matters = &apos;lower&apos;;
 
 let CASE_MATTERS = &apos;upper&apos;;
 
-#### 1.5.2 Scope of JS variables {#scope-of-js-variables .unnumbered}
+### 1.5.2 Scope of JS variables {#scope-of-js-variables .unnumbered}
 
 Hi!
 
@@ -3959,7 +3966,7 @@ got an error: &quot;b is not defined&quot;. Remember that if I used &quot;var&qu
 that case it works, because &quot;var&quot; will define a variable local to the
 whole function, not just to the block of instructions.
 
-### Scope of JavaScript variables {#scope-of-javascript-variables .unnumbered}
+#### Scope of JavaScript variables {#scope-of-javascript-variables .unnumbered}
 
 #### 1)  JavaScript 5 / ES5 scopes, with the var keyword {#javascript-5-es5-scopes-with-the-var-keyword .unnumbered}
 
@@ -3986,7 +3993,7 @@ height="2.323611111111111in"}
 
 https://codepen.io/w3devcampus/pen/WjMMLZ
 
-### 1.2) Local scope / local variable (also called function scope) {#local-scope-local-variable-also-called-function-scope .unnumbered}
+#### 1.2) Local scope / local variable (also called function scope) {#local-scope-local-variable-also-called-function-scope .unnumbered}
 
 Variables declared with the keyword var in a function, are said to
 be &quot;local to the function&quot;. They &quot;mask&quot; any global variable that may
@@ -4021,7 +4028,7 @@ height="3.3743055555555554in"}
 
 https://codepen.io/w3devcampus/pen/oWEEmN
 
-### 1.3) Never declare a variable without the keyword var! {#never-declare-a-variable-without-the-keyword-var .unnumbered}
+#### 1.3) Never declare a variable without the keyword var! {#never-declare-a-variable-without-the-keyword-var .unnumbered}
 
 JavaScript is sometimes an overly permissive language. We can make
 stupid errors that turn out to be very hard to detect. One such error
@@ -4078,7 +4085,7 @@ you might find lots of examples that still use the var keyword&hellip;
 **Anyway, we highly recommend to use let and const instead of var, for
 declaring variables and constants!**
 
-#### 1.5.3 JS data types {#js-data-types .unnumbered}
+### 1.5.3 JS data types {#js-data-types .unnumbered}
 
 Hi!
 
@@ -4141,7 +4148,7 @@ and null and object.
 Nothing else. And the "typeof" operator can be used to display the type
 of an object.
 
-### What kind of values can we assign to a variable? {#what-kind-of-values-can-we-assign-to-a-variable .unnumbered}
+#### What kind of values can we assign to a variable? {#what-kind-of-values-can-we-assign-to-a-variable .unnumbered}
 
 Well, there are multiple possibilities:
 
@@ -4206,7 +4213,7 @@ for us, for explaining the data types.
 
 ### 1.5.4 Numbers {#numbers .unnumbered}
 
-### Number values can be: {#number-values-can-be .unnumbered}
+#### Number values can be: {#number-values-can-be .unnumbered}
 
 -   **Integer**: 1, 4, 274929
 
@@ -4540,7 +4547,7 @@ NaN
 
 NaN
 
-### &lbrack;ADVANCED&rbrack; Optional explanations about numbers {#advanced-optional-explanations-about-numbers .unnumbered}
+#### &lbrack;ADVANCED&rbrack; Optional explanations about numbers {#advanced-optional-explanations-about-numbers .unnumbered}
 
 In JavaScript, numbers are represented with a double-precision 64-bit
 format (IEEE 754). These 64 bits are used with this table:
@@ -4578,7 +4585,7 @@ format. Larger numbers will be converted&hellip;
 For more information about floating point numbers, [follow this link at
 Wikipedia](https://en.wikipedia.org/wiki/IEEE_floating_point).
 
-#### 1.5.5 JS operators and expressions {#js-operators-and-expressions .unnumbered}
+### 1.5.5 JS operators and expressions {#js-operators-and-expressions .unnumbered}
 
 **An expression** is a small piece of code used to produce a value.
 
@@ -4620,7 +4627,7 @@ with the operator - will evaluate to a number. But an expression with
 the operator + can evaluate to a number or a string (for addition or
 concatenation).
 
-#### 1.5.7 Strings (part 1) {#strings-part-1 .unnumbered}
+### 1.5.7 Strings (part 1) {#strings-part-1 .unnumbered}
 
 To declare or manipulate strings you must write them with **single
 quotes &apos; or double quotes &quot;** around them. Single quotes or double
@@ -4670,7 +4677,7 @@ height="2.4791666666666665in"}
 
 4.  To output HTML in JavaScript, single quotes are more useful
 
-#### 1.5.8 String operators {#string-operators .unnumbered}
+### 1.5.8 String operators {#string-operators .unnumbered}
 
 Strings can be defined using double quotes, or simple quotes.
 
@@ -4973,7 +4980,7 @@ var s = &quot;1&#92;t2&quot;
 
 &quot;1 2&quot;
 
-#### 1.5.9 Objects (part 1) {#objects-part-1 .unnumbered}
+### 1.5.9 Objects (part 1) {#objects-part-1 .unnumbered}
 
 We have already encountered objects in different examples. You can
 easily recognize these objects:
@@ -4993,7 +5000,7 @@ object. With the object var p = {givenName:&apos;Michel&apos;, familyName:
 &apos;Buffa&apos;}, we can access the properties the same way,
 with: p.givenName and p.familyName.
 
-### Take a look at some common objects and properties! {#take-a-look-at-some-common-objects-and-properties .unnumbered}
+#### Take a look at some common objects and properties! {#take-a-look-at-some-common-objects-and-properties .unnumbered}
 
 Open your devtool console (F12 or ctrl-alt-i or cmd-alt-i on Mac), go to
 the console tab and type &quot;window&quot; followed by a &quot;.&quot;, normally you
@@ -5023,7 +5030,7 @@ objects :-)
 
 &quot;Google Inc.&quot;
 
-### You can define your own objects {#you-can-define-your-own-objects .unnumbered}
+#### You can define your own objects {#you-can-define-your-own-objects .unnumbered}
 
 There are many ways to create your own JavaScript objects. For the
 moment, let&apos;s stick to the simplest one, &quot;singleton objects&quot;, and for
@@ -5067,9 +5074,9 @@ Accessing an object&apos;s properties: we use the operator &quot;.&quot;
 
 }
 
-#### 1.5.10 Arrays (part 1) {#arrays-part-1 .unnumbered}
+### 1.5.10 Arrays (part 1) {#arrays-part-1 .unnumbered}
 
-### Definition: arrays are containers with indexes  {#definition-arrays-are-containers-with-indexes .unnumbered}
+#### Definition: arrays are containers with indexes  {#definition-arrays-are-containers-with-indexes .unnumbered}
 
 Arrays are a special datatype. You declare arrays using brackets, like
 this:
@@ -5082,7 +5089,7 @@ You can fill them at declaration time:
 
 2.  var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;
 
-### Elements in an array can be accessed using **indexes** {#elements-in-an-array-can-be-accessed-using-indexes .unnumbered}
+#### Elements in an array can be accessed using **indexes** {#elements-in-an-array-can-be-accessed-using-indexes .unnumbered}
 
 Each element in an array has an index. **The first element&apos;s index is
 0**, the second element&apos;s index is 1 etc.
@@ -5110,7 +5117,7 @@ the index value followed by &quot;&rbrack;&quot;, as shown in these examples:
 
 10. 7
 
-### Use the length property of an array to know its length {#use-the-length-property-of-an-array-to-know-its-length .unnumbered}
+#### Use the length property of an array to know its length {#use-the-length-property-of-an-array-to-know-its-length .unnumbered}
 
 1.  var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;,&apos;Friday&apos;, &apos;Saturday&apos;, &apos;Sunday&apos;&rbrack;;
 
@@ -5127,7 +5134,7 @@ has seven elements, indexed from **0** to **daysOfWeek.length -1**
 array -1) is very, very common, and will prove to be very useful when
 you learn how to iterate on an array&apos;s elements (Week 2).**
 
-### You can add elements to an array using a new index {#you-can-add-elements-to-an-array-using-a-new-index .unnumbered}
+#### You can add elements to an array using a new index {#you-can-add-elements-to-an-array-using-a-new-index .unnumbered}
 
 If you want to add a new element at the end of an array, use the index
 equal to the length of the array
@@ -5158,7 +5165,7 @@ equal to the length of the array
 
 12. **// Sunday, the 7th day of week is at index 6 !**
 
-### Arrays are JavaScript objects! {#arrays-are-javascript-objects .unnumbered}
+#### Arrays are JavaScript objects! {#arrays-are-javascript-objects .unnumbered}
 
 Well, this is not so important for the moment, but look:
 
@@ -5185,7 +5192,7 @@ Well, this is not so important for the moment, but look:
 And indeed, when you write daysOfWeek.length, you are using the array as
 an object, and you are using the length property of array objects.
 
-### Add an element at the end of an array using the push method {#add-an-element-at-the-end-of-an-array-using-the-push-method .unnumbered}
+#### Add an element at the end of an array using the push method {#add-an-element-at-the-end-of-an-array-using-the-push-method .unnumbered}
 
 Since arrays are objects, we can do much more with them - in particular,
 they have more properties and more methods than the push method. You
@@ -5213,7 +5220,7 @@ the moment, let&apos;s focus on the most useful features&hellip;
 
 10. 7
 
-### Arrays and Strings {#arrays-and-strings .unnumbered}
+#### Arrays and Strings {#arrays-and-strings .unnumbered}
 
 Strings are arrays of characters! 
 
@@ -5245,7 +5252,7 @@ Examples:
 
 9.  3
 
-### Definition of a function {#definition-of-a-function .unnumbered}
+#### Definition of a function {#definition-of-a-function .unnumbered}
 
 A function allows you to group code, give it a name and be able to
 execute it by calling it by name.
@@ -5257,7 +5264,7 @@ Functions always return a value:
 
 -   Implicitly, in which case the return value is undefined.
 
-### Declaring a function {#declaring-a-function .unnumbered}
+#### Declaring a function {#declaring-a-function .unnumbered}
 
 1.  function sum(a, b) {
 
@@ -5267,7 +5274,7 @@ Functions always return a value:
 
 4.  }
 
-### Calling a function {#calling-a-function .unnumbered}
+#### Calling a function {#calling-a-function .unnumbered}
 
 1.  var result = sum(1, 2);
 
@@ -5277,7 +5284,7 @@ Functions always return a value:
 
 4.  &gt; 3
 
-### Function parameters {#function-parameters .unnumbered}
+#### Function parameters {#function-parameters .unnumbered}
 
 If parameters are omitted during the call, JavaScript gives them the
 value undefined:
@@ -5286,7 +5293,7 @@ value undefined:
 
 2.  NaN
 
-### Functions with a variable number of parameters {#functions-with-a-variable-number-of-parameters .unnumbered}
+#### Functions with a variable number of parameters {#functions-with-a-variable-number-of-parameters .unnumbered}
 
 An array named &quot;arguments&quot; is created automatically in each function,
 it contains all the call parameters of the function:
@@ -5315,7 +5322,7 @@ it contains all the call parameters of the function:
 
 7.  // returns &lbrack;1, 2, 3, 4, true, &quot;Michel Buffa&quot;&rbrack;
 
-### Example of the sum with a variable number of arguments {#example-of-the-sum-with-a-variable-number-of-arguments .unnumbered}
+#### Example of the sum with a variable number of arguments {#example-of-the-sum-with-a-variable-number-of-arguments .unnumbered}
 
 1.  function newSum() {
 
@@ -5343,7 +5350,7 @@ it contains all the call parameters of the function:
 
 13. 10
 
-#### 1.6.1 Introduction {#introduction .unnumbered}
+### 1.6.1 Introduction {#introduction .unnumbered}
 
 This section does not detail the examples presented. Some of them are
 studied later in the course, some won&apos;t.
@@ -5354,7 +5361,7 @@ code, and to tweak the examples. Do not worry if you don&apos;t understand
 how they work. We are just giving you &quot;a taste&quot; of JavaScript. There
 will be no graded exercises about them.
 
-#### 1.6.2 The devtool console {#the-devtool-console .unnumbered}
+### 1.6.2 The devtool console {#the-devtool-console .unnumbered}
 
 Using the console.log(&hellip;) instruction, you can **write messages to the
 devtool console** of your browser. This is a common way to debug your
@@ -5365,7 +5372,7 @@ happens when you click on it.
 It can be very difficult to spot your error without using the devtool
 console and console.log(&hellip;)!
 
-### Example {#example-7 .unnumbered}
+#### Example {#example-7 .unnumbered}
 
 Let&apos;s check that some parts of the code you wrote are executed
 correctly.
@@ -5438,7 +5445,7 @@ should be ok now:
 
 You can click on the button now&hellip;.
 
-### Going further with console.log {#going-further-with-console.log .unnumbered}
+#### Going further with console.log {#going-further-with-console.log .unnumbered}
 
 #### Displaying variable values {#displaying-variable-values .unnumbered}
 
@@ -5524,15 +5531,15 @@ see this:
 
 ![](./images/image134.png){width="3.90625in" height="2.71875in"}
 
-# 1.6.4 Modifying CSS styles on the fly {#modifying-css-styles-on-the-fly .unnumbered}
+### 1.6.4 Modifying CSS styles on the fly
 
 We&apos;ve already seen some examples in which we modify the style of some
 parts of a document using JavaScript. Here we show another example of
 what can be done.
 
-### Examples {#examples-1 .unnumbered}
+#### Examples
 
-#### Example #1: change common properties (color, border, background color) {#example-1-change-common-properties-color-border-background-color .unnumbered}
+#### Example #1: change common properties (color, border, background color)
 
 ![](./images/image135.png){width="6.5in"
 height="2.2583333333333333in"}
@@ -5646,14 +5653,14 @@ Below, we outline some extra examples. In the next course module, we
 will go into detail about events, and in the following modules, we will
 study some of the most useful events in even greater depth.
 
-### Examples {#examples-2 .unnumbered}
+### Examples
 
-#### Example #1: use input events on an HTML input field {#example-1-use-input-events-on-an-html-input-field .unnumbered}
+#### Example #1: use input events on an HTML input field
 
 ![](./images/image138.png){width="6.5in"
 height="2.1347222222222224in"}
 
-#### Example #2: listen to mouse events in an HTML5 canvas {#example-2-listen-to-mouse-events-in-an-html5-canvas .unnumbered}
+#### Example #2: listen to mouse events in an HTML5 canvas
 
 The HTML5 canvas is useful for drawing and animating at 60
 frames/second. Very detailed tutorials are provided in the W3C [HTML5
