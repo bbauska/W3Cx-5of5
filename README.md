@@ -149,7 +149,7 @@ Table of Contents -- **W3Cx-5of5-JS.0x** -- **JavaScript Introduction**
 
 6.  Simple JavaScript examples to play with
 
-<h2 id="ch2">Module 2: Adding interactivity to HTML documents</h2>
+<h3 id="ch2">Module 2: Adding interactivity to HTML documents</h3>
 
 1.  Introduction -- Module 2: Adding interactivity to HTML documents
 
@@ -163,7 +163,7 @@ Table of Contents -- **W3Cx-5of5-JS.0x** -- **JavaScript Introduction**
 
 6.  Let&apos;s write a small game
 
-<h2 id="ch3">Module 3: Playing with HTML5 APIs</h2>
+<h3 id="ch3">Module 3: Playing with HTML5 APIs</h3>
 
 1.  Introduction -- Module 3: Playing with HTML5 APIs
 
@@ -175,7 +175,7 @@ Table of Contents -- **W3Cx-5of5-JS.0x** -- **JavaScript Introduction**
 
 5.  Playing sound samples and music
 
-<h2 id="ch4">Module 4: Structuring data</h2>
+<h3 id="ch4">Module 4: Structuring data</h3>
 
 1.  Introduction -- Module 4: Structuring data
 
@@ -185,7 +185,7 @@ Table of Contents -- **W3Cx-5of5-JS.0x** -- **JavaScript Introduction**
 
 4.  Improving the game with classes
 
-<h2 id="ch5">Module 5: Working with forms</h2>
+<h3 id="ch5">Module 5: Working with forms</h3>
 
 1.  Introduction -- Module 5: Working with forms
 
@@ -205,7 +205,7 @@ follow these two other W3Cx courses: [HTML5 and CSS
 Fundamentals](https://www.edx.org/course/html5-and-css-fundamentals) and [CSS
 Basics](https://www.edx.org/course/css-basics).
 
-#### During this course, you will learn:
+<h4>During this course, you will learn:</h4>
 
 -   How to add JavaScript code in your Web site/Web app, and how to
     debug it.
@@ -247,22 +247,17 @@ your knowledge of the 3 foundational languages that power the Web:
 HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
 courses:
 
-1.  [**CSS
-    Basics**](https://www.edx.org/course/html5-and-css-fundamentals)
+1.  [**CSS Basics**](https://www.edx.org/course/css-basics)
 
-2.  **HTML5 and CSS Fundamentals**
+2.  [**HTML5 and CSS Fundamentals**](https://www.edx.org/course/html5-and-css-fundamentals)
 
-3.  [**HTML5 Coding Essentials and Best
-    Practices**](https://www.edx.org/course/html5-coding-essentials-and-best-practices)
+3.  [**HTML5 Coding Essentials and Best Practices**](https://www.edx.org/course/html5-coding-essentials-and-best-practices)
 
-4.  [**HTML5 Apps and
-    Games**](https://www.edx.org/course/html5-apps-and-games)
+4.  [**HTML5 Apps and Games**](https://www.edx.org/course/html5-apps-and-games)
 
-5.  This course: [**JavaScript
-    Introduction**](https://www.edx.org/course/javascript-introduction)
+5.  <b>This course</b>: [**JavaScript Introduction**](https://www.edx.org/course/javascript-introduction)
 
-**To get a W3C FEWD professional certificate, you must successfully pass
-and receive a Verified Certificate in the five courses above.**
+**To get a W3C FEWD professional certificate, you must successfully pass and receive a Verified Certificate in the five courses above**.
 
 #### Web editors
 
