@@ -138,65 +138,43 @@ Table of Contents -- **W3Cx-5of5-JS.0x** -- **JavaScript Introduction**
 <h3 id="ch1">Module 1: Introduction to JavaScript</h2>
 
 1.  Introduction -- Module 1: Intro to JS
-
 2.  JavaScript, HTML and CSS
-
 3.  JavaScript overview
-
 4.  Your first HTML/CSS/JS page
-
 5.  Variables, values, function, operators and expressions
-
 6.  Simple JavaScript examples to play with
 
 <h3 id="ch2">Module 2: Adding interactivity to HTML documents</h3>
 
 1.  Introduction -- Module 2: Adding interactivity to HTML documents
-
 2.  Conditional statements, loops and logical operators
-
 3.  Functions (part2): callbacks
-
 4.  Handling events
-
 5.  The DOM API
-
 6.  Let&apos;s write a small game
 
 <h3 id="ch3">Module 3: Playing with HTML5 APIs</h3>
 
 1.  Introduction -- Module 3: Playing with HTML5 APIs
-
 2.  Arrays (part 2); iterators
-
 3.  HTML5 multimedia and JavaScript API
-
 4.  Displaying a map with the geolocation API
-
 5.  Playing sound samples and music
 
 <h3 id="ch4">Module 4: Structuring data</h3>
 
 1.  Introduction -- Module 4: Structuring data
-
 2.  Objects: properties and methods
-
 3.  Creating multiple objects
-
 4.  Improving the game with classes
 
 <h3 id="ch5">Module 5: Working with forms</h3>
 
 1.  Introduction -- Module 5: Working with forms
-
 2.  Built-in JavaScript objects
-
 3.  HTML5 tables, forms and input fields
-
 4.  The JSON notation
-
 5.  A small application
-
 6.  Where to from here?
 
 This course is designed for anyone who is comfortable with programming
@@ -261,18 +239,18 @@ courses:
 
 #### Web editors
 
-#### **Foreword:**
+#### Foreword:
 
 Michel Buffa, author of this course:
 
 &quot;When I work locally, with files located on my computer hard drive, I
 use the Sublime Text source code editor, Visual Studio Code, WebStorm,
-NetBeans, depending on the size of the project I&apos;m working on.**
-**- For testing simple examples, I mainly use the JsBin.com online code
-editor.**
-**- For embedding online examples in this course, I use the CodePen.io
-online code editor.**
-**- For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
+NetBeans, depending on the size of the project I&apos;m working on.
+<b>- For testing simple examples, I mainly use the JsBin.com online code
+editor.</b>
+<b>- For embedding online examples in this course, I use the CodePen.io
+online code editor.</b>
+<b>- For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
 the LiveWeave online code editor.&quot;
 
 #### Traditional source code editors
@@ -287,6 +265,7 @@ you prefer. However, there are some in particular that we recommend.
   style="width:10%"
   title="Sublime text logo"
   alt="Sublime text logo." />
+  
 <a href="https://www.sublimetext.com/">Sublime Text</a> is a very powerful, 
 multi-platform source code editor, it&apos;s semi-free (you can use it without 
 paying, it will pop up a dialog asking you to buy it once in a while, but not 
@@ -551,17 +530,29 @@ Docs](https://developer.mozilla.org/en-US/).
 of front-end Web technologies on desktop and mobile Web browsers. Below
 is a snapshot of what information is given by CanIUse when searching for
 &quot;CSS3 colors&quot;.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~ 19. example of a caniuse browser support table (using css3) colors (14) ~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image019.png?raw=true"
+  style="width:40%"
+  title="Example of a CanIUse browser support table (using CSS3) colors"
+  alt="Example of a CanIUse browser support table (using CSS3) colors." />
+</p>
 
-![Example of a CanIUse browser support table (using CSS3
-colors)](./images/image019.png){width="5.0in"
-height="2.148759842519685in"}
+<h4>MDN Web Docs</h4>
 
-#### MDN Web Docs
-
-![Logo of MDN Web Docs](./images/image020.png){width="3.0in"
-height="0.9408737970253719in"}![Logo of MDN Web
-Docs](./images/image021.png){width="2.0in"
-height="0.5781255468066492in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20/21. logo of mdn web docs (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image020.png?raw=true"
+  style="width:30%"
+  title="MDN web docs, logo #1"
+  alt="MDN web docs, logo #1." />
+<img src="./images/image021.png?raw=true"
+  style="width:20%"
+  title="MDN web docs, logo #2"
+  alt="MDN web docs, logo #2." />
+</p>
 
 To help developers make these decisions consciously rather than
 accidentally, [MDN Web Docs](https://developer.mozilla.org/) provides
@@ -569,7 +560,7 @@ browser compatibility tables in its documentation pages, so that when
 looking up a feature you're considering for your project, you know
 exactly which browsers will support it.
 
-#### External resources
+<h4>External resources</h4>
 
 -   [MDN browser compatibility data: Taking the guesswork out of web
     compatibility](https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/)
@@ -630,8 +621,6 @@ including the HTTP headers that affect it. It also reports a number of
 issues and offers advice about how to resolve them.
 
 ### W3C cheatsheet
-
-<https://dev.w3.org/2009/cheatsheet/doc/>
 
 The [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/) provides quick
 access to useful information from a variety of specifications published
