@@ -83,12 +83,10 @@ output:
 <a href="https://github.com/bbauska/W3Cx-5of5-Introduction-JavaScript.git" 
 target="_blank" rel="noopener noreferrer">Introduction JavaScript - git</a>
 
-<h3>Course Outline:</h3>
+<h2 id="outline">Course Outline:</h2>
 
-# js.0x-w3cx - W3Cx-5of5-JS.0x
-W3Cx: JS.0x JavaScript Introduction
-
-## Course outline
+<h3>js.0x-w3cx - W3Cx-5of5-JS.0x</h3>
+<h4>W3Cx: JS.0x JavaScript Introduction</h4>
 
 HTML5, CSS and JavaScript are the "classic three" for Web developers and
 designers. JavaScript lets you add interactive features to your Web
@@ -126,7 +124,7 @@ animated images, and much more.
 
 Table of Contents -- **W3Cx-5of5-JS.0x** -- **JavaScript Introduction**
 
-<h3 id="syllabus">Syllabus></h3>
+<h3 id="syllabus">Syllabus</h3>
 
 <h2 id="course-info">Course information</h2>
 
@@ -1717,9 +1715,10 @@ element.
 ![](./images/image054.png){width="6.0in"
 height="3.3788462379702535in"}
 
-### We&apos;ve got a head element, here, and an empty body element, here.  
+### We&apos;ve got a head element, and an empty body element, here.  
 
-### ![](./images/image055.png){width="6.0in" height="3.3788462379702535in"}
+### ![](./images/image055.png)
+<!-- {width="6.0in" height="3.3788462379702535in"} -->
 
 In the &lt;head&gt;, usually, we specify the title: &quot;First HTML page&quot;. And
 this title is what will be displayed when you put the cursor on a tab in
