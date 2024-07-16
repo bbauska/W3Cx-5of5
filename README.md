@@ -130,7 +130,7 @@ Table of Contents -- **W3Cx-5of5-JS.0x** -- **JavaScript Introduction**
 
 <h2 id="course-info">Course information</h2>
 
-<ol start="a">
+<ol type="a">
   <li><a href="welcome">Welcome to &quot;JavaScript Introduction&quot;</a></li>
   <li><a href="forums">Course forums</a></li>
   <li><a href="tools">Course tools</a></li>
