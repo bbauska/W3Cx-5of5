@@ -242,7 +242,7 @@ Professional Certificate programs are series of courses designed by
 industry leaders and/or top universities to build and enhance critical
 professional skills needed to succeed in today&apos;s most in-demand fields.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 02. banner image for the fewd professional certificate program (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 02. banner image for the fewd professional certificate program (05) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
   style="width:35%"
@@ -297,19 +297,18 @@ You can use any source code editor that has good support for HTML,
 CSS and JavaScript files. For this course, you are free to use whichever
 you prefer. However, there are some in particular that we recommend.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 03. sublime text logo (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. sublime text logo (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
 <img src="./images/image003.png?raw=true"
   style="width:10%"
   title="Sublime text logo"
   alt="Sublime text logo." />
-<a href="https://www.sublimetext.com/">Sublime Text</a>
-is a very powerful, multi-platform source code editor, it&apos;s semi-free (you can
-use it without paying, it will pop up a dialog asking you to buy it once
-in a while, but not very often). Sublime text supports hundreds of
-plugins to enhance its features.</p>
+<a href="https://www.sublimetext.com/">Sublime Text</a> is a very powerful, 
+multi-platform source code editor, it&apos;s semi-free (you can use it without 
+paying, it will pop up a dialog asking you to buy it once in a while, but not 
+very often). Sublime text supports hundreds of plugins to enhance its features.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 04. snapshot of sublime text editing an html/css/js project (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 04. snapshot of sublime text editing an html/css/js project (06) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.jpeg?raw=true"
   style="width:40%"
@@ -317,7 +316,7 @@ plugins to enhance its features.</p>
   alt="Snapshot of Sublime Text editing an html/css/js project." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 05. vs code logo (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. vs code logo (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
 <img src="./images/image005.jpeg?raw=true"
   style="width:5%"
@@ -327,7 +326,7 @@ plugins to enhance its features.</p>
 <a href="https://code.visualstudio.com/">Visual Studio Code</a> is a
 free, open source, multi-platform editor by Microsoft.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 06. snapshot of visual studio code editing an html/css/js project (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 06. snapshot of visual studio code editing an html/css/js project (07) ~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.jpeg?raw=true"
   style="width:40%"
@@ -369,7 +368,7 @@ free, open source, multi-platform editor by Microsoft.</p>
 To help you practice for the duration of the course, you will use the
 following tools:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 07. jsbin logo (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. jsbin logo (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
 <img src="./images/image007.png?raw=true"
   style="width:10%"
@@ -392,28 +391,26 @@ and seeing what you are doing in real time, monitoring error messages in
 the console tab, and debugging your code. We will mainly use this tool
 for the live coding videos.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 08. jsbin example (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. jsbin example error code (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image008.jpeg?raw=true"
   style="width:50%"
-  title="JSBin example"
-  alt="JSBin example." />
+  title="JSBin Example Error Code"
+  alt="JSBin Example Error Code." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 09. codepen logo (xx) ~~~~~~~~~~~~-->
-<p align="left" width="100%">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. codepen logo (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="25%">
 <img src="./images/image009.png?raw=true"
   style="width:5%"
   title="CodePen logo"
   alt="CodePen logo." />
-</p>
-
-[CodePen](https://codepen.io/)
-is similar to JSBin except that its Web site includes a search engine, which is 
-very useful for finding out what others have developed. Looking for a nice HTML5/CSS
-button style? Just search for &quot;button&quot;, etc. It&apos;s also easier for us
-to embed HTML/CSS/JS examples in this course with CodePen than with other online 
-IDEs; this is why so many &quot;pens&quot; are embedded in the course pages.
+<a href="https://codepen.io/">CodePen</a> is similar to JSBin except that its 
+Web site includes a search engine, which is very useful for finding out what 
+others have developed. Looking for a nice HTML5/CSS button style? Just search 
+for &quot;button&quot;, etc. It&apos;s also easier for us to embed HTML/CSS/JS 
+examples in this course with CodePen than with other online IDEs; this is why so 
+many &quot;pens&quot; are embedded in the course pages.</p>
 
 This is a great service to get you started quickly as it doesn&apos;t
 require you to download anything and you can access it, along with your
@@ -422,7 +419,7 @@ of-interest if you use CodePen: [Things you can do with
 CodePen](https://codepen.io/brentmiller/post/things-you-can-do-with-codepen) &lbrack;Brent
 Miller, February 6, 2019&rbrack;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 10. snapshot of a 'button' codepen example (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 10. snapshot of a 'button' codepen example (09) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image010.jpeg?raw=true"
   style="width:50%"
@@ -430,19 +427,16 @@ Miller, February 6, 2019&rbrack;.
   alt="Snapshot of a 'button' CodePen example." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 11. plunker logo (xx) ~~~~~~~~~~~~-->
-<p align="left" width="100%">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. plunker logo (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="25%">
 <img src="./images/image011.png?raw=true"
   style="width:5%"
   title="Plunker logo"
   alt="Plunker logo." />
-</p>
-
-[Plunker](https://plnkr.co/)
-allows us to work online with separate files. So, when we have no choice but to 
-use separate files, we might use this tool.
+<a href="https://plnkr.co/">Plunker</a> allows us to work online with separate 
+files. So, when we have no choice but to use separate files, we might use this tool.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 12. snapshot of a plunker example (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 12. snapshot of a plunker example (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image012.jpeg?raw=true"
   style="width:50%"
@@ -450,32 +444,42 @@ use separate files, we might use this tool.
   alt="Snapshot of a Plunker example." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 13. liveweaver logo (xx) ~~~~~~~~~~~~-->
-<p align="left" width="100%">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. liveweave logo (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="25%">
 <img src="./images/image013.png?raw=true"
   style="width:5%"
-  title="Liveweaver logo"
-  alt="Liveweaver logo." />
-</p>
-
-[LiveWeave](https://liveweave.com/) 
-is great for writing
+  title="Liveweave logo"
+  alt="Liveweave logo." />
+<a href="https://liveweave.com/">LiveWeave</a> is great for writing
 CSS code or for embedding SVG Graphics in an HTML document, as it
 includes online wizards and interactive editors. We use it when we have
 problems with CSS shadows, CSS colors or gradients, or when we want to
-include an SVG arrow in a document.
-
-![LiveWeave code editor](./images/image014.jpeg){width="5.0in"
-height="3.1526388888888888in"}
-
-![LiveWeave CSS editor](./images/image015.jpeg){width="5.0in"
-height="4.565538057742782in"}
-
-![JsFiddle logo](./images/image016.png){width="0.5in"
-height="0.5in"}
-
-[JSFiddle](https://jsfiddle.net/) is very similar to JSBin and CodePen
-in terms of features. 
+include an SVG arrow in a document.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 14. liveweave code editor example (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image014.jpeg?raw=true"
+  style="width:50%"
+  title="Liveweave Code Editor Example"
+  alt="Liveweave Code Editor Example." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 15. liveweave code editor example (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image015.jpeg?raw=true"
+  style="width:50%"
+  title="Liveweave Code Editor Example"
+  alt="Liveweave Code Editor Example." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. jsfiddle logo (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="25%">
+<img src="./images/image016.png?raw=true"
+  style="width:5%"
+  title="jsFiddle logo"
+  alt="jsFiddle logo." />
+<a href="https://jsfiddle.net/">JSFiddle</a> is very similar to JSBin and CodePen 
+in terms of features.</p>
 
 ### Other tools
 
@@ -490,19 +494,28 @@ time on the same project, even on the same file. It&apos;s a real
 collaborative environment.
 
 Michel Buffa, author of this course, developed a whole multitrack audio
-player this way. This application is
-available [online](https://mainline.i3s.unice.fr/). See also screenshots
-below:
-
-![multitrack audio player](./images/image017.jpeg){width="5.0in"
-height="3.371757436570429in"}
+player this way. This application is <a href="https://mainline.i3s.unice.fr/">
+available online</a>. (See also screenshots below:)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. multitrack audio player (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image017.jpeg?raw=true"
+  style="width:50%"
+  title="Multitrack audio player"
+  alt="Multitrack audio player." />
+</p>
 
 100% of the development was done in a Web browser, by Michel Buffa and
 two friends, using the c9.io (Cloud 9) IDE (to see if online IDEs were a
 valuable approach):
-
-![C9 ide](./images/image018.jpeg){width="5.0in"
-height="3.316773840769904in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. c9 ide, example (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image018.jpeg?raw=true"
+  style="width:50%"
+  title="C9 IDE, example"
+  alt="C9 IDE example." />
+</p>
 
 #### JavaScript debuggers
 
@@ -1920,7 +1933,7 @@ in our case it&apos;s the second h2 element:
 
 1.  &lt;h2 **id=&quot;hobbyTitle&quot;**&gt;My Hobbies&lt;/h2&gt;
 
-##### And here is the CSS rule: {#and-here-is-the-css-rule .unnumbered}
+##### And here is the CSS rule:
 
 1.  **#hobbyTitle** {
 
@@ -1987,7 +2000,7 @@ W3Cx [CSS Basics](https://www.edx.org/course/css-basics) and [HTML5&CSS
 Fundamentals](https://www.edx.org/course/html5-and-css-fundamentals) courses
 to learn more about CSS and about HTML5 basics.
 
-##### Where can we put the CSS rules: in the HTML file? in another file?  {#where-can-we-put-the-css-rules-in-the-html-file-in-another-file .unnumbered}
+##### Where can we put the CSS rules: in the HTML file? in another file?
 
 You can do both! 
 
@@ -2015,7 +2028,7 @@ rules in a &quot;CSS tab&quot; in the online editor, and it hides all the
 as [Plunker](https://plnkr.co/) or [AWS Cloud9](https://c9.io/) that
 enable you to manage files in the cloud).
 
-### Live coding video: mixing HTML and CSS (3:49) {#live-coding-video-mixing-html-and-css-349 .unnumbered}
+### Live coding video: mixing HTML and CSS (3:49)
 
 ![](./images/image066.png){width="5.0in"
 height="3.954983595800525in"}
@@ -2081,7 +2094,7 @@ directly in the HTML, the CSS rule.
 To sum up, you can have your CSS in external file or inside the HTML
 file using the &quot;style&quot; element.
 
-### 1.2.6 JavaScript is the &quot;interactive glue&quot; (4:22) {#javascript-is-the-interactive-glue-422 .unnumbered}
+### 1.2.6 JavaScript is the &quot;interactive glue&quot; (4:22)
 
 Hello, your Web browser can only understand three different languages
 when you ask for a Web page to be rendered in the browser.
@@ -2153,7 +2166,7 @@ trio&quot;: HTML5/CSS/JavaScript. It is the only programming language a
 browser can run (without installing any plugins or extensions), and
 it&apos;s a real standard of the Web (even if not standardized by the W3C).
 
-#### Why do we call it &quot;the interactive glue between HTML and CSS&quot;?  {#why-do-we-call-it-the-interactive-glue-between-html-and-css .unnumbered}
+#### Why do we call it &quot;the interactive glue between HTML and CSS&quot;?
 
 ![JS is the perfect glue](./images/image078.png){width="2.6041666666666665in" height="2.2291666666666665in"}
 
@@ -2820,16 +2833,16 @@ Notice that after each property (color, grid, etc.) there is a &quot;,&quot;.
 Notice that between the name of the properties and the value there is a
 &quot;:&quot;, etc&hellip;
 
-### <b>Embedded objects</b> {#embedded-objects .unnumbered}
+### <b>Embedded objects</b>
 
 If we look at the values of the xAxis and yAxis properties, they
 are also objects.
 
+<pre><code>
 1.  xAxis: {
-
 2.  domain: &lbrack;0, 2&ast;Math.PI&rbrack;
-
 3.  }
+</code></pre>
 
 The data object is even more complicated:
 
@@ -2879,7 +2892,7 @@ cos(x) to our example, with a different color:
 
 https://codepen.io/w3devcampus/pen/KWPyeX
 
-### Conclusion {#conclusion .unnumbered}
+### Conclusion
 
 Just by looking at one example, and without going into the boring
 details, you saw:
@@ -2895,7 +2908,7 @@ details, you saw:
 
 Not bad ;-)
 
-#### 1.3.2 What can be done with JavaScript {#what-can-be-done-with-javascript .unnumbered}
+#### 1.3.2 What can be done with JavaScript
 
 Hello!
 
@@ -2945,7 +2958,7 @@ were the most typical uses of JavaScript Web sites.
 
 What can be done with JavaScript:
 
-### 1) interact with the HTML and CSS content of a document, respond to events {#interact-with-the-html-and-css-content-of-a-document-respond-to-events .unnumbered}
+### 1) interact with the HTML and CSS content of a document, respond to events
 
 We have already seen three examples in previous parts of this week&apos;s
 course material.
@@ -3041,7 +3054,7 @@ The third example (outlined in the previous section), which showed how
 to plot math functions, illustrated that with a few lines of code you
 can reuse code from others (a third party JavaScript library).
 
-### 2) use numerous APIs in addition to the DOM and selector APIs: multimedia, drawing, animating, geolocation, webcam, etc. {#use-numerous-apis-in-addition-to-the-dom-and-selector-apis-multimedia-drawing-animating-geolocation-webcam-etc. .unnumbered}
+### 2) use numerous APIs in addition to the DOM and selector APIs: multimedia, drawing, animating, geolocation, webcam, etc.
 
 Your browser comes with a lot of different &quot;libraries&quot; that are called
 &quot;standards APIs&quot; for &quot;application programming interfaces&quot;. Such APIs
@@ -3061,7 +3074,7 @@ height="2.0819444444444444in"}
 
 https://codepen.io/w3devcampus/pen/LYVgyxE
 
-### 3) work with remote data / speak with a remote HTTP Web server {#work-with-remote-data-speak-with-a-remote-http-web-server .unnumbered}
+### 3) work with remote data / speak with a remote HTTP Web server
 
 You can also download or upload data from your browser to a remote Web
 server. When this is done from JavaScript the popular term to describe
@@ -3078,9 +3091,9 @@ height="2.9611111111111112in"}
 
 https://codepen.io/w3devcampus/pen/wJwpKq
 
-#### 1.3.3 Where to put JavaScript code {#where-to-put-javascript-code .unnumbered}
+#### 1.3.3 Where to put JavaScript code
 
-### JavaScript code can be located in different places {#javascript-code-can-be-located-in-different-places .unnumbered}
+### JavaScript code can be located in different places
 
 1.  In your HTML code between &lt;script&gt; and &lt;/script&gt; tag
 
@@ -3094,34 +3107,25 @@ https://codepen.io/w3devcampus/pen/wJwpKq
 
 Here are some examples:
 
-### Example #1:  the JavaScript code is included in an HTML file using the &lt;script&gt;&hellip;&lt;/script&gt; tag {#example-1-the-javascript-code-is-included-in-an-html-file-using-the-script...script-tag .unnumbered}
+### Example #1:  the JavaScript code is included in an HTML file using the &lt;script&gt;&hellip;&lt;/script&gt; tag
 
-#### First variant: in the &lt;body&gt;..&lt;/body&gt; of the HTML document {#first-variant-in-the-body..body-of-the-html-document .unnumbered}
+#### First variant: in the &lt;body&gt;..&lt;/body&gt; of the HTML document
 
 Typically:
 
+<pre><code>
 &lt;body&gt;
-
 &hellip;
-
 &lt;script&gt;
-
 var x = 2;
-
 // show a message in the body of the html document
-
-document.body.innerHTML += &quot;&lt;b&gt;JavaScript code executed. The value of
-the variable x is: &quot; + x + &quot;&lt;/b&gt;&quot;;
-
+document.body.innerHTML += &quot;&lt;b&gt;JavaScript code executed. The value of the variable x is: &quot; + x + &quot;&lt;/b&gt;&quot;;
 // also print a message in the devtool console
-
 console.log(&quot;JavaScript code executed&quot;);
-
 &lt;/script&gt;
-
 &hellip;
-
 &lt;/body&gt;
+</code></pre>
 
 Here is this first example on CodePen:
 
@@ -3134,7 +3138,7 @@ Old JavaScript examples may use a type attribute:
 &lt;script **type=&quot;text/javascript&quot;**&gt;.
 **The type attribute is now obsolete and should be ignored.**
 
-#### Second variant: in the &lt;head&gt;&hellip;&lt;/head&gt; of the document {#second-variant-in-the-head...head-of-the-document .unnumbered}
+#### Second variant: in the &lt;head&gt;&hellip;&lt;/head&gt; of the document
 
 In this example, the &lt;script&gt;&hellip;&lt;/script&gt; element is placed in
 the &lt;head&gt;..&lt;/head&gt; section of an HTML page.
@@ -3142,32 +3146,21 @@ the &lt;head&gt;..&lt;/head&gt; section of an HTML page.
 This time, we placed a JavaScript function that is invoked (called) when
 a button is clicked:
 
+<pre><code>
 &lt;head&gt;
-
 **&lt;script&gt;**
-
 **function addSomeText() {**
-
 **// append a message in the body of the html document**
-
 **document.body.innerHTML += &quot;&lt;br&gt;Function executed!&quot;;**
-
 **}**
-
 **&lt;/script&gt;**
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
-&lt;button **onclick=&quot;addSomeText();&quot;**&gt;Click me to call a JavaScript
-function that will add
-
+&lt;button **onclick=&quot;addSomeText();&quot;**&gt;Click me to call a JavaScript function that will add
 some content to this document
-
 &lt;/button&gt;
-
 &lt;/body&gt;
+</code></pre>
 
 Here is this second example on CodePen:
 
@@ -3176,7 +3169,7 @@ height="3.1881944444444446in"}
 
 https://codepen.io/w3devcampus/pen/apBMYJ
 
-### Example #2: put the JavaScript code in local .js files {#example-2-put-the-javascript-code-in-local-.js-files .unnumbered}
+### Example #2: put the JavaScript code in local .js files
 
 Putting JavaScript code in external scripts files is easy, and
 offers many advantages:
@@ -3221,23 +3214,18 @@ A typical example:
 
 Example that uses more than one JavaScript file:
 
+<pre><code>
 1.  &lt;head&gt;
-
 2.  &hellip;
-
 3.  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
-
 4.  **&lt;script src=&quot;js/script1.js&quot;&gt;&lt;/script&gt;**
-
 5.  **&lt;script src=&quot;js/script2.js&quot;&gt;&lt;/script&gt;**
-
 6.  **&lt;script src=&quot;js/anotherOne.js&quot;&gt;&lt;/script&gt;**
-
 7.  **&hellip;**
-
 8.  &lt;/head&gt;
+</code></pre>
 
-#### A typical HTML/CSS/JS project folder structure, when working with external local files {#a-typical-htmlcssjs-project-folder-structure-when-working-with-external-local-files .unnumbered}
+#### A typical HTML/CSS/JS project folder structure, when working with external local files
 
 It is good practice to locate CSS files in a css subfolder, and
 JavaScript files in a js subfolder.
@@ -3306,7 +3294,7 @@ How to run this example:
 
 4.  Click on the button in the page
 
-### Example #3: use external references to JavaScript files/libraries located on the Web {#example-3-use-external-references-to-javascript-fileslibraries-located-on-the-web .unnumbered}
+### Example #3: use external references to JavaScript files/libraries located on the Web
 
 External JavaScript libraries (they are just big JS files) can be also
 referenced with a full URL, like in this example:
@@ -3329,11 +3317,11 @@ an external URL:
 
 https://codepen.io/w3devcampus/pen/VPmNWg
 
-#### 1.3.4 How to debug JavaScript {#how-to-debug-javascript .unnumbered}
+#### 1.3.4 How to debug JavaScript
 
 Let&apos;s introduce what is debugging.
 
-### You will make errors! {#you-will-make-errors .unnumbered}
+### You will make errors!
 
 When you are developing a Web Application that contains JavaScript code,
 you will make errors. 
@@ -3352,7 +3340,7 @@ in the browser&quot;, how it works, how to start writing code, etc.
 First of all, you need to find a way to debug your code and see errors.
 If your work does not produce any results, you need to know why!
 
-### Your Swiss army knife: your browser devtools, especially the devtool console! {#your-swiss-army-knife-your-browser-devtools-especially-the-devtool-console .unnumbered}
+### Your Swiss army knife: your browser devtools, especially the devtool console!
 
 For this you will use **the dev. tools of your
 browser**. Press **F12** (or ctrl-shift-i) in Windows
@@ -3454,9 +3442,9 @@ to look at some basic tutorials on how to use the dev. tools of your
 browsers, since they differ from one another in the way they work
 - although the principles remain the same.
 
-#### 1.3.5 Discussion and projects {#discussion-and-projects .unnumbered}
+#### 1.3.5 Discussion and projects
 
-#### 1.4.1 Creating an HTML/CSS/JS project {#creating-an-htmlcssjs-project .unnumbered}
+#### 1.4.1 Creating an HTML/CSS/JS project
 
 Let&apos;s create a small HTML/CSS/JS project together.
 
@@ -3475,7 +3463,7 @@ will take a break and have a &quot;real&quot;, &quot;academic&quot;, look at the
 concepts of the language you have been using. We think this is the best
 way for you to learn!
 
-### Topic {#topic .unnumbered}
+### Topic
 
 We will write a small, interactive HTML page that will use some HTML
 input fields for indicating the name of a math function we&apos;d like to
@@ -3492,7 +3480,7 @@ height="3.0480774278215224in"}
 
 https://codepen.io/w3devcampus/pen/bqGboZ
 
-#### 1.4.2 Using CodePen {#using-codepen .unnumbered}
+#### 1.4.2 Using CodePen
 
 In the video, at 3:19, there are some mistakes in the HTML code:
 
@@ -3505,7 +3493,7 @@ In the video, at 3:19, there are some mistakes in the HTML code:
 2.  Improvement in the code could be to replace all empty
     paragraphs &lt;p&gt;&lt;/p&gt; by line breaks &lt;br&gt; or by a single &lt;p&gt;.
 
-### CodePen example with the starting code used in the video {#codepen-example-with-the-starting-code-used-in-the-video .unnumbered}
+### CodePen example with the starting code used in the video
 
 If you want to code while watching the video, [please open this
 CodePen.](https://codepen.io/w3devcampus/pen/GmbpzZ) It contains the
@@ -3520,7 +3508,7 @@ In case you have a hard time to follow the video, [here is the full
 example](https://codepen.io/w3devcampus/pen/bqGboZ) (this link points to
 the example from the previous course page).
 
-#### 1.4.3 Using Sublime Text {#using-sublime-text .unnumbered}
+#### 1.4.3 Using Sublime Text
 
 Now, I&apos;m going to show you how we can do the same application using
 files and a regular source code editor, and working on your local hard
@@ -3578,7 +3566,7 @@ Using generated code can be useful, but most of the time for a big
 project or a serious project, you will use a source code editor like
 Sublime Text.
 
-#### 1.5.1 JS variables and values {#js-variables-and-values .unnumbered}
+#### 1.5.1 JS variables and values
 
 Hi!
 
@@ -3663,7 +3651,7 @@ In most of the examples seen earlier, we&apos;ve used the concept of
 &quot;variable&quot;, and we have used them to &quot;store values&quot;. It&apos;s time to
 take a break and talk about them :-)
 
-#### Variables {#variables .unnumbered}
+#### Variables
 
 In order to remember a value, programming languages share the concept of
 &quot;variables&quot;. When you write programs, you will need to store values in
@@ -3671,7 +3659,7 @@ the computer&apos;s memory. By saving these values in &quot;variables&quot;, by
 giving them a &quot;name&quot; (we call it an identifier), you can reuse
 them later for display, for computations, etc.
 
-#### Create (declaring) a variable {#create-declaring-a-variable .unnumbered}
+#### Create (declaring) a variable
 
 With JavaScript versions &lt; 5 (prior to 2015), there was a single way to
 create (we say &quot;declare&quot;) a variable: using the **var** keyword. But
@@ -3685,7 +3673,7 @@ keyword **var** or **let**. So you are not required to specify the type
 of variable you are creating. **After the keyword &quot;var&quot; and a space,
 just give the name of the variable.**
 
-#### Example: {#example-2 .unnumbered}
+#### Example:
 
 var myVar;
 
@@ -3700,13 +3688,13 @@ There are some reserved names that you can&apos;t use as a variable
 name: boolean, if, delete, var, function, etc. as they are reserved
 words of the JavaScript language.
 
-#### Give a value to a variable (**assign** a value to a variable) {#give-a-value-to-a-variable-assign-a-value-to-a-variable .unnumbered}
+#### Give a value to a variable (**assign** a value to a variable)
 
 A value can be assigned to a declared variable, or even directly in the
 variable declaration. For this, we use the equal character, also
 called &quot;the assignment operator&quot;. 
 
-#### Example: {#example-3 .unnumbered}
+#### Example:
 
 (notice at **line 4** one way to introduce comments in your code: start
 a line with &quot;//&quot;!)
@@ -3734,7 +3722,7 @@ example by executing myValue = 5;).
 You can also declare many variables at once by separating them with a
 comma. Always end each instruction line with a semi colon.
 
-#### Example: {#example-4 .unnumbered}
+#### Example:
 
 var myNumber1, myNumber2 = 34, myNumber3;
 
@@ -3742,7 +3730,7 @@ var myNumber1, myNumber2 = 34, myNumber3;
 
 let x = 1, y = 3, z = 12;
 
-#### Try the devtool console - you can type code in there too! {#try-the-devtool-console---you-can-type-code-in-there-too .unnumbered}
+#### Try the devtool console - you can type code in there too!
 
 **Reminder**: you can always open the devtool console using F12 on
 windows, or ctrl-shift i, or cmd-alt-i on other computers.
@@ -13911,21 +13899,17 @@ or to insert a whole set of HTML elements inside another one.
 
 **Typical use:**
 
+<pre><code>
 var elem = document.querySelector(&apos;#myElem&apos;);
-
 elem.innerHTML = &apos;Hello &apos;; // replace content by Hello
-
 elem.innerHTML += &apos;&lt;b&gt;Michel Buffa&lt;/b&gt;&apos;, // append at the end
-
-> // Michel Buffa in bold
-
+// Michel Buffa in bold
 elem.innerHTML = &apos;Welcome&apos; + elem.innerHTML; // insert Welcome
-
-> // at the beginning
-
+// at the beginning
 elem.innerHTML = &apos;&apos;; // empty the elem
+</code></pre>
 
-#### Using the textContent property {#using-the-textcontent-property .unnumbered}
+#### Using the textContent property
 
 It&apos;s also possible, with selected nodes/elements that contain text, to
 use the textContent property to read the text content or to modify it.
@@ -13943,31 +13927,21 @@ codePen, open the devtool console):
 
 HTML
 
+<pre><code>
 1.  &lt;!DOCTYPE html&gt;
-
 2.  &lt;html lang=&quot;en&quot;&gt;
-
 3.  &lt;head&gt;
-
 4.  &lt;meta charset=&quot;utf-8&quot;&gt;
-
 5.  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 6.  &lt;title&gt;Modifying content of selected DOM nodes&lt;/title&gt;
-
 7.  &lt;/head&gt;
-
 8.  &lt;body&gt;
-
 9.  &lt;h1&gt;Open the console and look at the JavaScript code!&lt;/h1&gt;
-
 10. &lt;p id=&quot;first&quot;&gt;first paragraph&lt;/p&gt;
-
 11. &lt;p id=&quot;second&quot;&gt;&lt;em&gt;second&lt;/em&gt; paragraph&lt;/p&gt;
-
 12. &lt;/body&gt;
-
 13. &lt;/html&gt;
+</code></pre>
 
 JS
 
