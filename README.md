@@ -1389,16 +1389,28 @@ The other online tool, that is very practical, is codepen.io. This one
 is maybe nicer but I think that JSBin is more practical for typing code.
 This one is interesting because it&apos;s got a search engine, and you can
 look for existing examples made by others.
-
-![](./images/image040.png){width="5.0in"
-height="2.848824365704287in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image040.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image040.png){width="5.0in" height="2.848824365704287in"} -->
 
 I just typed &quot;button », and here I can see an example that create
 buttons. I can see the HTML code; CSS code and I can learn by looking at
 these examples.
-
-![](./images/image041.png){width="5.0in"
-height="2.848824365704287in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image041.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image041.png){width="5.0in" height="2.848824365704287in"} -->
 
 In our case, if you want to create a new example, you just open
 codepen.io, you click on the &quot;New Pen&quot; button and you copy the HTML
@@ -1406,9 +1418,15 @@ code in the HTML part on the editor, and you see the result. Don&apos;t
 forget to save to create an account also. And here, you can download the
 result for editing that offline if you would like using the &quot;export&quot;
 option (bottom right of screen in 'edit CodePen' mode).
-
-![](./images/image042.png){width="5.0in"
-height="2.848824365704287in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image042.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image042.png){width="5.0in" height="2.848824365704287in"} -->
 
 So &quot;Export.zip&quot;. With CodePen, I&apos;ve got a zip file and in the zip
 file, I&apos;ve got index.html here. And if I look at the source, it&apos;s
@@ -1429,9 +1447,15 @@ You download, it&apos;s free. You can also buy an enhanced version but the
 free version is ok. You download it. And once it&apos;s installed, you can
 work with it locally. I&apos;m going to show you how to do that. What I
 recommend is that you create a directory somewhere.
-
-![](./images/image043.png){width="6.5in"
-height="3.660416666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image043.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image043.png){width="6.5in" height="3.660416666666667in"} -->
 
 Here, I&apos;m creating a directory on my desktop... so, a new directory:
 &quot;Example 1&quot;. And inside that directory, I will create the HTML file. I
@@ -1440,9 +1464,15 @@ code. I use &quot;Save as&quot; and i will save the page as index.html file...
 you can name it as you like. &quot;index&quot; is very common for the main page
 of Web site. I then go to the desktop to the « Example 1&quot; directory and
 i save the file.
-
-![](./images/image044.png){width="6.0in"
-height="3.3788462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image044.png?raw=true"
+  style="width:60%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image044.png){width="6.0in" height="3.3788462379702535in"} -->
 
 And from Sublime Text, you can use the right click &quot;Open in browser&quot;
 and you can see the result. If I change the code here, my home page
@@ -1450,9 +1480,15 @@ and you can see the result. If I change the code here, my home page
 s' or command s on my Mac. I do &quot;Open in the browser&quot; or I can just
 reload the page, and I can see that I change the content of the HTML
 file.
-
-![](./images/image045.png){width="6.0in"
-height="3.3788462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image045.png?raw=true"
+  style="width:60%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image045.png){width="6.0in" height="3.3788462379702535in"} -->
 
 This is how you can work. Or you can also directly open an example you
 downloaded from JSBin or from CodePen. My download directory, I can find
@@ -1502,17 +1538,29 @@ we presented earlier:
 
 Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):
-
-![](./images/image046.png){width="5.0in"
-height="3.9049146981627296in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image046.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image046.png){width="5.0in" height="3.9049146981627296in"} -->
 
 Consider the figure above. It contains a single html element. It turns
 out this includes within it the entire content of your html file. If you
 click on the &quot;html&quot; red node, you&apos;ll find that it contains two
 components, a head and a body.
-
-![](./images/image047.png){width="6.0in"
-height="1.9519225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image047.png?raw=true"
+  style="width:60%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image047.png){width="6.0in" height="1.9519225721784776in"} -->
 
 Clicking on each of those will reveal their respective contents. This
 structure is what we computer scientists call a &quot;tree&quot;. Any given
@@ -1521,9 +1569,15 @@ inside another element, referred to as the &quot;parent&quot; element. Not
 surprisingly, the elements contained within a given element are its
 &quot;child&quot; elements. And, yes, children of a common parent are often
 referred to as &quot;siblings&quot;.
-
-![](./images/image048.png){width="6.0in"
-height="3.389744094488189in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image048.png?raw=true"
+  style="width:60%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image048.png){width="6.0in" height="3.389744094488189in"} -->
 
 Thus, in the example above, the top element is the html element, which
 contains just two elements, the head and body.  The head element
@@ -1539,22 +1593,21 @@ etc.
 That may be a great picture, but how do we represent such a structure in
 a text file?  Well, that&apos;s where &quot;tags&quot; come in.
 
-### 1.2.3 HTML tags
-
-![Thinking about HTML tags](./images/image049.jpeg){width="2.0in"
-height="2.0in"}
-
-# &lt;html&gt;
-
-### &lt;BODY&gt;
-
-### &lt;p&gt;
-
-### &lt;em&gt;
-
-### &lt;i&gt;
-
-### &lt;b&gt;
+<h3 id="ch1-2-3">1.2.3 HTML tags</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 49. thinking about html tags (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="50%">
+<img src="./images/image049.jpeg?raw=true"
+  style="width:20%"
+  title="Thinking about HTML tags"
+  alt="Thinking about HTML tags." />
+<h3>&lt;html&gt;</h3>
+<h3>&lt;BODY&gt;</h3>
+<h3>&lt;p&gt;</h3>
+<h3>&lt;em&gt;</h3>
+<h3>&lt;i&gt;</h3>
+<h3>&lt;b&gt;</h3>
+</p>
 
 &quot;Tags&quot; are what we use to organize a text file (which is just a long
 string of characters) such that it represents a tree of elements that
@@ -1595,9 +1648,15 @@ needs **Em**phasis.  The  &quot;&lt;&quot; and &quot;&gt;&quot; indicate tha
 and the &quot;little bits of text&quot; in between tell us what kind of tag it
 is.  To completely describe the element, it needs an open and close
 tag, and everything in between the tags is the contents of the element:
-
-![Diagram of an element](./images/image050.png){width="4.0in"
-height="2.1715890201224846in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 50. diagram of an element (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image050.png?raw=true"
+  style="width:40%"
+  title="Diagram of an element"
+  alt="Diagram of an element." />
+</p>
+<!-- ![Diagram of an element](./images/image050.png){width="4.0in" height="2.1715890201224846in"} -->
 
 Most tags have open and close versions, but there are a few strange
 ones.  For more info, we strongly recommend that you follow the
@@ -1627,7 +1686,7 @@ These elements, without a &quot;/&quot; at the end, are called &quot;void
 elements&quot;. They are : area, base, br, col, embed, hr, img, input, link,
 menuitem, meta, param, source, track, wbr.
 
-### 1.2.4 HTML attributes (6:01)
+<h3 id="ch1-2-4">1.2.4 HTML attributes (6:01)</h3>
 
 Most of what you can learn about HTML attributes is presented [in the
 three W3Cx MOOCs about
@@ -1856,9 +1915,11 @@ brown (second rule).
 
 The third rule uses what is called &quot;a multiple selector&quot;:
 
+```
 1.  p, h1, h2 {
 2.  font-family: cursive
 3.  }
+```
 
 This one says that all p, h1 and h2 uses a cursive font character. The
 &quot;,&quot; means &quot;and also&quot;.
@@ -1905,15 +1966,13 @@ in our case it&apos;s the second h2 element:
 
 ##### And here is the CSS rule:
 
+```
 1.  **#hobbyTitle** {
-
 2.    font-family: &apos;caveat&apos;;
-
 3.    font-size:40px;
-
 4.    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-
 5.  }
+```
 
 **Line 1** uses the &quot;#&quot; character in the selector, meaning that we&apos;re
 going to select an element by its id attribute. In this case, the
@@ -1926,43 +1985,37 @@ the Google font service
 able to use it in a font-family CSS property, we included its definition
 using a &lt;link&gt; tag in the HTML part of the document:
 
+```
 1.  &lt;head&gt;
-
 2.  &lt;title&gt;Your first HTML page&lt;/title&gt;
-
 3.  &lt;meta charset=&quot;utf-8&quot;/&gt;
-
 4.  **&lt;link href=&quot;https://fonts.googleapis.com/css?family=Caveat&quot;**
-
 5.  **rel=&quot;stylesheet&quot;&gt;**
-
 6.  &lt;/head&gt;
+```
 
 The last rule targets all elements that have an
 attribute class=&quot;funny&quot;. Notice they can be different elements, we can
 have a p and an h3 element that have the class=&quot;funny&quot; attribute:
 
+```
 1.  **.funny **{
-
 2.  color:purple;
-
 3.  font-family: &apos;caveat&apos;;
-
 4.  font-size:40px;
-
 5.  }
+```
 
 This rule changes the color, font family and size of two out of three
 paragraphs in the HTML element:
 
+```
 1.  &hellip;
-
 2.  &lt;p class=&quot;funny&quot;&gt;I also play electric guitar and love
     coding WebAudio applications&hellip;&lt;/p&gt;
-
 3.  &hellip;
-
 4.  &lt;p class=&quot;funny&quot;&gt;Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;
+```
 
 There are many, many, many different CSS properties in existence, and
 many different ways to select elements. We recommend that you follow the
