@@ -57,7 +57,7 @@ output:
 >#### 2.3 [**Functions and callbacks**](#ch2-3-1)
 >#### 2.4 [**Handling events**](#ch2-4-1)
 >#### 2.5 [**The DOM API**](#ch2-5-1)
->#### 2.6 [**Let's wrie a small game**](#ch2-6-1)
+>#### 2.6 [**Let's write a small game**](#ch2-6-1)
 
 ### Module 3: Playing with HTML5 APIs
 >#### 3.1 [**Introduction to Module 3: Playing with HTML5 APIs**](#ch3-1-1)
@@ -153,20 +153,15 @@ Table of Contents -- **W3Cx-5of5-JS.0x** -- **JavaScript Introduction**
 
 1.  Introduction -- Module 2: Adding interactivity to HTML documents
 
-2.  [Conditional statements, loops and logical
-    operators](https://learning.edx.org/course/course-v1:W3Cx+JS.0x+2T2021/block-v1:W3Cx+JS.0x+2T2021+type@sequential+block@f6cf675cb0b04aa3a6d20ea5172c3ca7)
+2.  Conditional statements, loops and logical operators
 
-3.  [Functions (part2):
-    callbacks](https://learning.edx.org/course/course-v1:W3Cx+JS.0x+2T2021/block-v1:W3Cx+JS.0x+2T2021+type@sequential+block@7382ad09ff3147e99bfc26ac3a871ad6)
+3.  Functions (part2): callbacks
 
-4.  [Handling
-    events](https://learning.edx.org/course/course-v1:W3Cx+JS.0x+2T2021/block-v1:W3Cx+JS.0x+2T2021+type@sequential+block@2b7536f2b69145d39b42668950ec5b05)
+4.  Handling events
 
-5.  [The DOM
-    API](https://learning.edx.org/course/course-v1:W3Cx+JS.0x+2T2021/block-v1:W3Cx+JS.0x+2T2021+type@sequential+block@eb07da2208384bf393e3124d8806f347)
+5.  The DOM API
 
-6.  [Let&apos;s write a small
-    game](https://learning.edx.org/course/course-v1:W3Cx+JS.0x+2T2021/block-v1:W3Cx+JS.0x+2T2021+type@sequential+block@f9c0988a7a0846adbcd0b0e0578f0369)
+6.  Let&apos;s write a small game
 
 <h2 id="ch3">Module 3: Playing with HTML5 APIs</h2>
 
