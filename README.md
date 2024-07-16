@@ -23,7 +23,7 @@ output:
 
 <h3 align="center">W3Cx-5of5-JS.0x - JavaScript Introduction</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. W3Cx-5of5-JS.0x logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. W3Cx-5of5-JS.0x logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
   style="width:65%"
@@ -80,7 +80,8 @@ output:
 >### 5.5 [**A small application**](#ch5-5-1)
 >### 5.6 [**Where to from here?**](#ch5-6-1)
 
-<a href="https://github.com/bbauska/W3Cx-5of5-Introduction-JavaScript.git" target="_blank" rel="noopener noreferrer">Introduction JavaScript - git</a>
+<a href="https://github.com/bbauska/W3Cx-5of5-Introduction-JavaScript.git" 
+target="_blank" rel="noopener noreferrer">Introduction JavaScript - git</a>
 
 <h3>Course Outline:</h3>
 
@@ -125,23 +126,18 @@ animated images, and much more.
 
 Table of Contents -- **W3Cx-5of5-JS.0x** -- **JavaScript Introduction**
 
-#### Syllabus
+<h3 id="syllabus">Syllabus></h3>
 
-## Course information
+<h2 id="course-info">Course information</h2>
 
-a.  [Welcome to &quot;JavaScript
-    Introduction&quot;](https://learning.edx.org/course/course-v1:W3Cx+JS.0x+2T2021/block-v1:W3Cx+JS.0x+2T2021+type@sequential+block@241b2b4bdcac485e90e727b3990c6600)
+<ol start="a">
+  <li><a href="welcome">Welcome to &quot;JavaScript Introduction&quot;</a></li>
+  <li><a href="forums">Course forums</a></li>
+  <li><a href="tools">Course tools</a></li>
+  <li><a href="about">About W3C and the Web</a></li>
+</ol>
 
-b.  [Course
-    forums](https://learning.edx.org/course/course-v1:W3Cx+JS.0x+2T2021/block-v1:W3Cx+JS.0x+2T2021+type@sequential+block@3a8cdd90c62f4062afc887562aa62037)
-
-c.  [Course
-    tools](https://learning.edx.org/course/course-v1:W3Cx+JS.0x+2T2021/block-v1:W3Cx+JS.0x+2T2021+type@sequential+block@24575cf0615e44a893953a5d19c4602e)
-
-d.  [About W3C and the
-    Web](https://learning.edx.org/course/course-v1:W3Cx+JS.0x+2T2021/block-v1:W3Cx+JS.0x+2T2021+type@sequential+block@b649399965e14ec3a9c5b988a4c57e9e)
-
-## Module 1: Introduction to JavaScript
+<h3 id="ch1">Module 1: Introduction to JavaScript</h2>
 
 1.  Introduction -- Module 1: Intro to JS
 
@@ -155,7 +151,7 @@ d.  [About W3C and the
 
 6.  Simple JavaScript examples to play with
 
-## Module 2: Adding interactivity to HTML documents
+<h2 id="ch2">Module 2: Adding interactivity to HTML documents</h2>
 
 1.  Introduction -- Module 2: Adding interactivity to HTML documents
 
@@ -174,7 +170,7 @@ d.  [About W3C and the
 6.  [Let&apos;s write a small
     game](https://learning.edx.org/course/course-v1:W3Cx+JS.0x+2T2021/block-v1:W3Cx+JS.0x+2T2021+type@sequential+block@f9c0988a7a0846adbcd0b0e0578f0369)
 
-## Module 3: Playing with HTML5 APIs
+<h2 id="ch3">Module 3: Playing with HTML5 APIs</h2>
 
 1.  Introduction -- Module 3: Playing with HTML5 APIs
 
@@ -186,7 +182,7 @@ d.  [About W3C and the
 
 5.  Playing sound samples and music
 
-## Module 4: Structuring data
+<h2 id="ch4">Module 4: Structuring data</h2>
 
 1.  Introduction -- Module 4: Structuring data
 
@@ -196,7 +192,7 @@ d.  [About W3C and the
 
 4.  Improving the game with classes
 
-## Module 5: Working with forms
+<h2 id="ch5">Module 5: Working with forms</h2>
 
 1.  Introduction -- Module 5: Working with forms
 
