@@ -1028,13 +1028,12 @@ your document that are in a different language.
 
 ##### **Example 2**: This indicates that the page is in French.
 
+```
 &lt;!doctype html&gt;
-
 &lt;html lang=&quot;fr&quot;&gt;
-
 &lt;head&gt;
-
 &hellip;
+```
 
 ##### Example 3: Cultural bias
 
@@ -1233,27 +1232,19 @@ time):
 
 ##### HTML
 
+```
 &lt;body&gt;
-
 &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
-
 &lt;p&gt;
-
 It was the best of times, it was the worst of times, . . . .
-
 &lt;/p&gt;
-
 . . .
-
 &lt;p&gt;
-
-. . . it is a far, far better rest
-
-that I go to than I have ever known.
-
+  . . . it is a far, far better rest
+  that I go to than I have ever known.
 &lt;/p&gt;
-
 &lt;/body&gt;
+```
 
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
@@ -1291,42 +1282,28 @@ height="2.9381944444444446in"}
 
 ##### HTML:
 
+```
 1.  &lt;!DOCTYPE html&gt;
-
 2.  &lt;html lang=&quot;en&quot;&gt;
-
 3.  &lt;head&gt;
-
 4.  &lt;title&gt;Your first HTML page&lt;/title&gt;
-
 5.  &lt;meta charset=&quot;utf-8&quot;/&gt;
-
 6.  &lt;/head&gt;
-
 7.  &lt;body&gt;
-
 8.  &lt;h1&gt;My home page&lt;/h1&gt;
-
 9.  &lt;h2&gt;Who am I?&lt;/h2&gt;
-
 10. &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
     professor at the University of Nice, in France, and I&apos;m also the
     author of two MOOCS about HTML5 on W3Cx.&lt;/p&gt;
-
 11. &lt;p&gt;I also play electric guitar and love coding WebAudio
     applications&hellip;&lt;/p&gt;
-
 12. &lt;img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot; width=200
-
 13. alt=&quot;Michel Buffa plays rock and roll&quot;&gt;
-
 14. &lt;h2&gt;My Hobbies&lt;/h2&gt;
-
 15. Music, Movies, Video Games, Travelling, Family, etc.
-
 16. &lt;/body&gt;
-
 17. &lt;/html&gt;
+```
 
 #### Try it out!
 
@@ -1519,29 +1496,21 @@ elements of the Document Object Model (that developers refer to as the
 As an example, let&apos;s look at a simplified version of the last HTML code
 we presented earlier:
 
+```
 > &lt;!DOCTYPE html&gt;
->
 > &lt;html lang=&quot;en&quot;&gt;
->
 >   &lt;head&gt;
->
 >    &lt;title&gt;Your first HTML page&lt;/title&gt;
->
 >    &lt;meta charset=&quot;utf-8&quot;/&gt;
->
 >   &lt;/head&gt;
->
 >   &lt;body&gt;
->
 >    &lt;h1&gt;My home page&lt;/h1&gt;
->
 >    &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
 > professor at the University of Côte d&apos;Azur, in France, and I&apos;m also
 > the author of three W3Cx MOOCS.&lt;/p&gt;
->
 >    &lt;/body&gt;
->
 > &lt;/html&gt;
+```
 
 Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):
@@ -1642,7 +1611,9 @@ right after the &quot;&lt;&quot; to indicated that it&apos;s a &quot;close tag&q
 indicate the beginning and end of a paragraph (indicated by the single
 letter &quot;p&quot;) you end up with something like this:
 
+```
 > &lt;p&gt;This is my first paragraph!&lt;/p&gt;
+```
 
 The browser sees the letters &quot;&lt;p&gt;&quot; and decides &quot;A new paragraph is
 starting; I&apos;d better start a new line and maybe indent it&quot;. Then when
@@ -1674,7 +1645,9 @@ Usually these tags represent an element that is completely described by
 its attributes, and thus there is no need for other content.  So if you
 see something like this:
 
+```
 > &lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;/&gt;
+```
 
 &hellip; then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won&apos;t see any other
@@ -1687,7 +1660,9 @@ The &lt;img&gt; tag is one of them, the &quot;/&quot; at the end is optional 
 be removed entirely, this will still be [valid
 HTML5](https://w3c.github.io/html/syntax.html#void-elements).
 
+```
 > &lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;&gt;
+```
 
 These elements, without a &quot;/&quot; at the end, are called &quot;void
 elements&quot;. They are : area, base, br, col, embed, hr, img, input, link,
@@ -1706,9 +1681,10 @@ inserted in your Web page, and in that example we
 used the width attribute of the &lt;img&gt; tag in order to constrain
 the width of the image:
 
+```
 > &lt;img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;
->
 >      width=200 alt=&quot;Michel Buffa plays rock&roll&quot;&gt;
+```
 
 As you might guess, the &lt;img&gt; tag also has a height attribute, as well
 as others. Different HTML tags share some common attributes that we&apos;ll
@@ -1725,12 +1701,12 @@ add a height attribute, and see the result:
 ![](./images/image051.png){width="5.0in"
 height="1.5908114610673665in"}
 
+```
 &lt;img
-src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;
-
+  src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;
 width=200
-
 alt=&quot;Michel Buffa plays rock and roll&quot;&gt;
+```
 
 ![](./images/image052.png){width="5.0in"
 height="3.921474190726159in"}
@@ -1891,6 +1867,7 @@ If you click on the CSS button on the top left of the previous codepen
 example, you see the CSS rules that have been applied to the HTML
 document. Let&apos;s look at the first one:
 
+```
 1.  h1 {
 2.  color:red;
 3.  background-color:lightGreen;
@@ -1899,6 +1876,7 @@ document. Let&apos;s look at the first one:
 6.  border-radius: 15px;
 7.  text-align: center;
 8.  }
+```
 
 This rule turns all the h1s in the document into red text, centered
 horizontally, on a light green background, with a violet border of 12
@@ -1940,11 +1918,11 @@ Basically, any given element on your Web page can be identified uniquely
 with an &apos;id&apos; attribute, or grouped with a class of other elements by
 setting the &apos;class&apos; attribute.
 
+```
 1.  &lt;p id=&quot;paragraph-1&quot; class=&quot;regular-paragraphs&quot;&gt;
-
 2.  Call me Ishmael . . .
-
 3.  &lt;/p&gt;
+```
 
 The paragraph above has a unique identifier: the id attribute whose
 value is &quot;paragraph-1&quot; and is part of a class of
@@ -2692,9 +2670,10 @@ By looking at this example (HTML and JS code), you note a few things:
 Two lines in the HTML code that correspond to the inclusion in the
 document of some external JavaScript code:
 
+```
 1.  &lt;script src=&quot;https://d3js.org/d3.v3.min.js&quot;&gt;&lt;/script&gt;
-
 2.  &lt;script src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;&gt;&lt;/script&gt;
+```
 
 We will examine this soon in a later section of the course, but, in
 brief, it means that we will use the [d3js plotting
@@ -2707,25 +2686,18 @@ library&quot;](https://mauriciopoppe.github.io/function-plot/)).
 Then, looking at the JavaScript code of the example (click the JS button
 on the CodePen example), we see:
 
+```
 1.  functionPlot(**{**
-
 2.  **target: &apos;#myFunction&apos;,**
-
 3.  <b>data: &lbrack;{</b>
-
 4.  <b>fn: &apos;sin(x)&apos;,</b>
-
 5.  <b>color: &apos;red&apos;</b>
-
 6.  <b>}&rbrack;,</b>
-
 7.  <b>grid: true,</b>
-
 8.  <b>yAxis:,</b>
-
 9.  <b>xAxis:,</b>
-
 10. <b>}</b>);
+```
 
 Ok, the syntax looks strange if you are not used to JavaScript, but I
 bet that you guessed that the function plotted is &quot;sin(x)&quot;, that the
@@ -2759,7 +2731,9 @@ To do this:
 
 You can think of this code in this way:
 
+```
 1.  functionPlot(&hellip;);
+```
 
 Where the &quot;&hellip;&quot; corresponds to some sort of parameter. When you see a
 name followed by two parentheses (maybe with something in between)
@@ -2782,33 +2756,22 @@ for the x and y values, with or without a grid, etc.
 Let&apos;s have a look at the parameters we used in our example (the ones
 you tweaked). They are in bold in the source code we saw earlier:
 
+```
 1.  {
-
 2.  <b>target</b>: &apos;#myFunction&apos;,
-
 3.  <b>data</b>: &lbrack;{
-
 4.  fn: &apos;sin(x)&apos;,
-
 5.  color: &apos;red&apos;
-
 6.  }&rbrack;,
-
 7.  <b>grid</b>: true,
-
 8.  <b>yAxis</b>: {
-
 9.  domain: &lbrack;-1, 1&rbrack;
-
 10. },
-
 11. <b>xAxis</b>: {
-
 12. domain: &lbrack;0, 2&ast;Math.PI&rbrack;
-
 13. }
-
 14. }
+```
 
 <b>JavaScript object</b>
 
@@ -2821,13 +2784,12 @@ much detail.
 A JavaScript object can be defined by two braces with a set of
 properties/values inside, separated by a comma. Here is a simple object:
 
+```
 1.  {
-
 2.  givenName: &quot;Michel&quot;,
-
 3.  familyName: &quot;Buffa&quot;
-
 4.  }
+```
 
 We use the &quot;:&quot; separator between the property name and its value. We
 use a comma between two properties, and we omit the comma after the last
@@ -2876,13 +2838,12 @@ are also objects.
 
 The data object is even more complicated:
 
+```
 1.  data: &lbrack;{
-
 2.  fn: &apos;sin(x)&apos;,
-
 3.  color: &apos;red&apos;
-
 4.  }&rbrack;,
+```
 
 Instead of containing another object like xAxis or yAxis, it contains
 another sort of object, but inside brackets! <b>In JavaScript, brackets
@@ -2898,25 +2859,18 @@ properties:
 try to plot an additional function in our example. We will add f(x) =
 cos(x) to our example, with a different color:
 
+```
 1.  data: &lbrack;
-
 2.  {
-
 3.  fn: &apos;sin(x)&apos;,  // First function
-
 4.  color: &apos;red&apos;
-
 5.  },
-
 6.  {
-
 7.  fn: &apos;cos(x)&apos;,  // second function
-
 8.  color: &apos;blue&apos;
-
 9.  }
-
 10. &rbrack;
+```
 
 ![](./images/image094.png){width="6.5in" height="3.18125in"}
 
@@ -3031,13 +2985,12 @@ And it executes the whole action (changing the title text) in** a
 function** (a block of code that is executed only when we call it by
 adding a parenthesis after its name, followed by a semi colon):
 
+```
 **function changeTitle()** {
-
 var title = document.querySelector(&quot;#mainTitle&quot;);
-
 title.innerHTML = &quot;This new title has been changed from JavaScript!&quot;;
-
 }
+```
 
 ![](./images/image096.png){width="6.5in"
 height="3.071527777777778in"}
@@ -3050,17 +3003,14 @@ content of the main title, **we use its style property to change its
 look and feel. Using the style property is a way of altering the CSS
 property values of this HTML element.**
 
+```
 function changeTitleCSSStyle() {
-
 var title = document.querySelector(&quot;#mainTitle&quot;);
-
 **title.style.color = &apos;black&apos;;**
-
 **title.style.backgroundColor = &quot;yellow&quot;;**
-
 **title.style.border = &quot;5px dashed red&quot;;**
-
 }
+```
 
 title is in reality what we call &quot;an object&quot; and style is a property
 of the title object. The style is an object as well and has attributes
@@ -3215,15 +3165,13 @@ offers many advantages:
 
 A typical example:
 
+```
 1.  &lt;head&gt;
-
 2.  &hellip;
-
 3.  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
-
 4.  **&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;**
-
 5.  &lt;/head&gt;
+```
 
 **To use an external JavaScript file:**
 
@@ -3272,45 +3220,37 @@ height="1.4493766404199475in"}
 
 Contents of the index.html file:
 
+```
 1.  &hellip;
-
 2.  &lt;head&gt;
-
 3.  &hellip;
-
 4.  **&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;**
-
 5.  **&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;**
-
 6.  &lt;/head&gt;
-
 7.  &lt;body&gt;
-
 8.  &lt;h1&gt;Example 3: JavaScript and CSS in local files!&lt;/h1&gt;
-
 9.  &lt;button **onclick=&quot;addSomeText();**&quot;&gt;Click me to call a
     JavaScript function that will add some content to this
     document&lt;/button&gt;
-
 10. &lt;/body&gt;
-
 11. &lt;/html&gt;
+```
 
 Content of the js/script.js file (JavaScript file):
 
+```
 1.  function addSomeText() {
-
 2.  document.body.innerHTML += &quot;&lt;p&gt;Function executed!&lt;/p&gt;&quot;;
-
 3.  }
+```
 
 Content of the style.css file:
 
+```
 1.  p {
-
 2.  color:green;
-
 3.  }
+```
 
 How to run this example:
 
@@ -3383,31 +3323,21 @@ able to type any JavaScript command.
 Let&apos;s look at this example below (or online as a [JS
 Bin)](http://jsbin.com/moqimuz/edit?html,console,output):
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=utf-8 /&gt;
-
 &lt;title&gt;Web Audio API&lt;/title&gt;
-
 &lt;script&gt;
-
 console.log(&quot;Some JavaScript code has been executed&quot;);
-
 &lt;/script&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;JavaScript debugging using the dev tool console&lt;/h1&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 The simplest way to add JavaScript code in an HTML page is to use
 the &lt;script&gt;&hellip;&lt;/script&gt; element.
@@ -3705,9 +3635,10 @@ just give the name of the variable.**
 
 #### Example:
 
+```
 var myVar;
-
 let x;
+```
 
 The first letter of a variable can only be &quot;&dollar;&quot;, &quot;&lowbar;&quot;, &quot;a&quot; to
 &quot;z&quot;, or &quot;A&quot; to &quot;Z&quot;. The other characters in a name must be any of
@@ -3729,15 +3660,12 @@ called &quot;the assignment operator&quot;. 
 (notice at **line 4** one way to introduce comments in your code: start
 a line with &quot;//&quot;!)
 
+```
 var myValue;
-
 myValue = 78;
-
- 
-
 // With the ES2015 syntax. BTW, lines staring with // are comments!
-
 let myNumber = 1.34;
+```
 
 At **line 2**, we are not saying that &quot;myValue&quot; and &quot;78&quot; are the
 same, we&apos;re saying &quot;hey, I want to store the value 78, and I&apos;m
@@ -3754,11 +3682,11 @@ comma. Always end each instruction line with a semi colon.
 
 #### Example:
 
+```
 var myNumber1, myNumber2 = 34, myNumber3;
-
 // Or with the ES2015 syntax, you can also use &quot;let&quot;
-
 let x = 1, y = 3, z = 12;
+```
 
 #### Try the devtool console - you can type code in there too!
 
@@ -3769,43 +3697,28 @@ If we copy and paste the variable declarations from the previous
 example, and type myNumber2 in the devtool console, it will display 34
 (while myNumber1 will have an undefined value):
 
+```
 &gt; var myNumber1, myNumber2 = 34, myNumber3;
-
 undefined
-
  
 
 &gt; // Or with the ES6 syntax you can also use &quot;let&quot;
-
 undefined
-
  
-
 &gt; let x=1, y=3, z=12;
 
 undefined
-
- 
-
 &gt; x;
-
 1
-
  
-
 &gt; z;
-
 12
-
 &gt; myNumber2;
-
 34
-
  
-
 &gt; myNumber1;
-
 undefined
+```
 
 Below is an image that explains how you can try JavaScript code in the
 devtools console:
@@ -3837,11 +3750,11 @@ The JavaScript community has some conventions about naming variables:
 
 #### Example: {#example-5 .unnumbered}
 
+```
 var myModel;
-
 // ES2015 syntax
-
 let michelBuffaAge = 51;
+```
 
 Most JavaScript examples you will find are written in the camelCase
 format. For harmony in the code source, it is a good idea to keep this
@@ -3871,11 +3784,11 @@ error will be raised if you try to change their value in the future.
 
 #### Example:
 
+```
 var TIME_LIMIT;
-
 // ES2015 Syntax
-
 const MAX_GRADE = 20;
+```
 
 ![Constants in the devtool console. We see the difference between var
 and const. The code executed is the one from the above
@@ -3887,28 +3800,19 @@ height="2.3413331146106735in"}
 Here are a set of examples (using the let keyword, but they would also
 work with var):
 
+```
 let a;
-
 let thisIsAVariable;
-
-let and_this_too; // but **does not respect the usual naming
-convention**
-
+let and_this_too; // but **does not respect the usual naming convention**
 let mix12three;
-
 // invalid!
-
 let 2three4five; // **can&apos;t start with a digit!**
-
 let a = 1
-
 let v1, v2, v3 = &apos;hello&apos;, v4 = 4, v5;
-
 // Beware with lowercase / uppercase
-
 let case_matters = &apos;lower&apos;;
-
 let CASE_MATTERS = &apos;upper&apos;;
+```
 
 ### 1.5.2 Scope of JS variables {#scope-of-js-variables .unnumbered}
 
@@ -3968,7 +3872,7 @@ whole function, not just to the block of instructions.
 
 #### Scope of JavaScript variables {#scope-of-javascript-variables .unnumbered}
 
-#### 1)  JavaScript 5 / ES5 scopes, with the var keyword {#javascript-5-es5-scopes-with-the-var-keyword .unnumbered}
+#### 1)  JavaScript 5 / ES5 scopes, with the var keyword
 
 **JavaScript 5 / ES5 has the var keyword for declaring variables.**
 
@@ -3981,19 +3885,19 @@ local variable masks a global variable that has the same name.**
 
 See examples below.
 
-##### 1.1) Global scope / global variable {#global-scope-global-variable .unnumbered}
+##### 1.1) Global scope / global variable
 
 Global variables are variables declared outside of functions. They can
 be used anywhere in the code.
 
-#### Here is an example: {#here-is-an-example .unnumbered}
+#### Here is an example:
 
 ![](./images/image112.png){width="6.5in"
 height="2.323611111111111in"}
 
 https://codepen.io/w3devcampus/pen/WjMMLZ
 
-#### 1.2) Local scope / local variable (also called function scope) {#local-scope-local-variable-also-called-function-scope .unnumbered}
+#### 1.2) Local scope / local variable (also called function scope)
 
 Variables declared with the keyword var in a function, are said to
 be &quot;local to the function&quot;. They &quot;mask&quot; any global variable that may
@@ -4028,7 +3932,7 @@ height="3.3743055555555554in"}
 
 https://codepen.io/w3devcampus/pen/oWEEmN
 
-#### 1.3) Never declare a variable without the keyword var! {#never-declare-a-variable-without-the-keyword-var .unnumbered}
+#### 1.3) Never declare a variable without the keyword var!
 
 JavaScript is sometimes an overly permissive language. We can make
 stupid errors that turn out to be very hard to detect. One such error
@@ -4056,7 +3960,7 @@ https://codepen.io/w3devcampus/pen/rmJJbo
 global](./images/image116.jpeg){width="6.375in"
 height="1.2871139545056869in"}
 
-#### 2) Since 2015 and ES2015, there are new scopes, with the let keyword {#since-2015-and-es2015-there-are-new-scopes-with-the-let-keyword .unnumbered}
+#### 2) Since 2015 and ES2015, there are new scopes, with the let keyword
 
 **Modern JavaScript has the let keyword for declaring variables, and
 the const keyword for declaring constants.**
@@ -4077,7 +3981,7 @@ the block:
 
 https://codepen.io/w3devcampus/pen/VbXNPz
 
-#### 3) Recommended way to declare variables: var or let? {#recommended-way-to-declare-variables-var-or-let .unnumbered}
+#### 3) Recommended way to declare variables: var or let?
 
 Well, all modern browsers support the let and const keywords, however,
 you might find lots of examples that still use the var keyword&hellip;
@@ -4085,7 +3989,7 @@ you might find lots of examples that still use the var keyword&hellip;
 **Anyway, we highly recommend to use let and const instead of var, for
 declaring variables and constants!**
 
-### 1.5.3 JS data types {#js-data-types .unnumbered}
+### 1.5.3 JS data types
 
 Hi!
 
@@ -4148,16 +4052,18 @@ and null and object.
 Nothing else. And the "typeof" operator can be used to display the type
 of an object.
 
-#### What kind of values can we assign to a variable? {#what-kind-of-values-can-we-assign-to-a-variable .unnumbered}
+#### What kind of values can we assign to a variable?
 
 Well, there are multiple possibilities:
 
 What we call &quot;primitive data types&quot;: for example a number, a string,
 etc. ex:
 
+```
 var x = 3; var name = &quot;Buffa&quot;;![a set of playing
-cards](./images/image118.png){width="2.0833333333333335in"
-height="1.25in"}
+  cards](./images/image118.png){width="2.0833333333333335in"
+  height="1.25in"}
+```
 
 1.  Objects (everything that is not a  &quot;primitive data type&quot; is an
     object):
@@ -4211,9 +4117,9 @@ height="2.5648020559930007in"}
 This operator is not often use in JavaScript programs, but it&apos;s useful
 for us, for explaining the data types.
 
-### 1.5.4 Numbers {#numbers .unnumbered}
+### 1.5.4 Numbers
 
-#### Number values can be: {#number-values-can-be .unnumbered}
+#### Number values can be:
 
 -   **Integer**: 1, 4, 274929
 
@@ -4226,91 +4132,39 @@ Type 343 in the devtool console, and after you press the Enter key,  the
 
 Examples of integer and decimals:
 
+```
 &gt; var n=1;
-
 undefined
-
- 
-
 &gt; typeof n;
-
 &quot;number&quot;
-
- 
-
 &gt; n=1234;
-
 1234
-
- 
-
 &gt; typeof n;
-
 &quot;number&quot;
-
- 
-
 &gt; n=1.23;
-
 1.23
-
- 
-
 &gt; typeof n;
-
 &quot;number&quot;
-
- 
-
 &gt; typeof 123;
-
 &quot;number&quot;
-
 -   **Scientific notation**: 3.46e4, 5.3e+6, 5344000e-5
-
 3.46e4 equals 3.46 x 10&#94;4 equals 34600
-
 Examples:
-
 &gt; 1e1;
-
 10
-
- 
-
 &gt; 1e+1;
-
 10
-
- 
-
 &gt; 2e+3;
-
 2000
-
- 
-
 &gt; typeof 2e+3;
-
 &quot;number&quot;
-
- 
-
 &gt; 2e-3;
-
 0.002
-
- 
-
 &gt; 123.456E-3;
-
 0.123456
-
- 
-
 &gt; typeof 2e-3;
-
 &quot;number&quot;
+```
 
 -   **Octal**: 010
 
@@ -4340,57 +4194,34 @@ value is 243
 
 Examples of octal and hexadecimal data types:
 
+```
 &gt; var n3 = 0377;
-
 undefined
-
  
-
 &gt; typeof n3;
-
 &quot;number&quot;
-
  
-
 &gt; n3;
-
 255
-
  
-
 &gt; var n4 = 0x00;
-
 undefined
-
  
-
 &gt; typeof n4;
-
 &quot;number&quot;
-
  
-
 &gt; n4;
-
 0
-
  
-
 &gt; var n5 = 0xFF;
-
 undefined
-
  
-
 &gt; typeof n5;
-
 &quot;number&quot;
-
  
-
 &gt; n5;
-
 255
+```
 
 -   **Special values**:
 
@@ -4407,145 +4238,97 @@ than -1.79769313486231570e+308.
 Finally, Nan represents **not-a-number** values, for example if you try
 to divide 0 by 0 (type 0/0 in the devtool console).
 
+```
 &gt; 0 / 0;
-
 NaN
-
  
-
 &gt; 3 / 0;
-
 Infinity
+```
 
 #### Examples: {#examples .unnumbered}
 
 Any operation with Infinity gives Infinity as a result:
 
+```
 1.  &gt; Infinity;
-
 2.  Infinity
-
 3.   
-
 4.  &gt; typeof Infinity;
-
 5.  &quot;number&quot;
-
 6.   
-
 7.  &gt; 1e309;
-
 8.  Infinity
-
 9.   
-
 10. &gt; 1e308;
-
 11. 1e+308
-
 12.  
-
 13. &gt; var a = 6 / 0;
-
 14. undefined
-
 15.  
-
 16. &gt; a;
-
 17. Infinity
-
 18.  
-
 19. &gt; var i = -Infinity;
-
 20. undefined
-
 21.  
-
 22. &gt; i;
-
 23. -Infinity
-
 24.  
-
 25. &gt; typeof i;
-
 26. &quot;number&quot;
+```
 
 ```{=html}
 <!-- -->
+```
+
 ```
 1.  &gt; Infinity - Infinity;
-
 2.  NaN
-
 3.   
-
 4.  &gt; -Infinity + Infinity;
-
 5.  NaN
+```
 
 ```{=html}
 <!-- -->
 ```
+
+```
 1.  &gt; Infinity - 20;
-
 2.  Infinity
-
 3.   
-
 4.  &gt; -Infinity &ast; 3;
-
 5.  -Infinity
-
 6.   
-
 7.  &gt; Infinity / 2;
-
 8.  Infinity
-
 9.   
-
 10. &gt; Infinity - 9999999999999;
-
 11. Infinity
+```
 
 #### Examples with NaN: {#examples-with-nan .unnumbered}
 
 NaN is a special value and its type is &quot;Number&quot;!
 
+```
 1.  &gt; typeof NaN;
-
 2.  &quot;number&quot;
-
 3.   
-
 4.  &gt; var a = NaN;
-
 5.  undefined
-
 6.   
-
 7.  &gt; a;
-
 8.  NaN
-
 &gt; var a = 10 &ast; &quot;f&quot;;
-
 undefined
-
- 
-
 &gt; a;
-
 NaN
-
- 
-
 &gt; 1 + 2 + a;
-
 NaN
+```
 
 #### &lbrack;ADVANCED&rbrack; Optional explanations about numbers {#advanced-optional-explanations-about-numbers .unnumbered}
 
@@ -4566,9 +4349,10 @@ But there are approximation errors that are well-known in float
 calculations. One common example of errors due to the approximation of
 floating point numbers is that 0.1 + 0.2 does not equal 0.3. 
 
+```
 &gt; 0.1 + 0.2;
-
 0.30000000000000004
+```
 
 ![devtool console showing that 0.1 + 0.2 is not equal to 0.3 but to
 0.30000000000000004
@@ -4585,7 +4369,7 @@ format. Larger numbers will be converted&hellip;
 For more information about floating point numbers, [follow this link at
 Wikipedia](https://en.wikipedia.org/wiki/IEEE_floating_point).
 
-### 1.5.5 JS operators and expressions {#js-operators-and-expressions .unnumbered}
+### 1.5.5 JS operators and expressions
 
 **An expression** is a small piece of code used to produce a value.
 
@@ -4598,18 +4382,18 @@ In JavaScript, **an operator** can be unary or binary (plus one ternary
 operator). A unary operator is applied to one expression. It can be
 prefixed or suffixed.
 
-##### Unary operator example:  {#unary-operator-example .unnumbered}
+##### Unary operator example:
 
 typeof &apos;world&apos;;
 
 A binary operator is applied to two different expressions, and is both
 prefixed and suffixed.
 
-##### Binary operator example: {#binary-operator-example .unnumbered}
+##### Binary operator example:
 
 var x = 45 / 32;
 
-##### The division operator is binary. {#the-division-operator-is-binary. .unnumbered}
+##### The division operator is binary.
 
 Within an expression, we can also use parentheses to force the execution
 of the expression inside. Parentheses can be used to indicate
@@ -4638,26 +4422,19 @@ string - this is not a convention, but a recommendation.
 And finally, you cannot start a string with a single and end with a
 double quotes, or the opposite.
 
+```
 &gt; &quot;Hello World&quot;;
-
 &quot;Hello World&quot;
-
  
-
 &gt; &quot;JavaScript Course&quot;;
-
 &quot;JavaScript Course&quot;
-
  
-
 &gt; &apos;With simple quotes&apos;;
-
 &quot;With simple quotes&quot;
-
  
-
 &gt; &quot;Do not mix double and simple quotes&apos;; // here we opened the string
 with double and closed with simple quotes
+```
 
 VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
 
@@ -4765,128 +4542,81 @@ two.
 The operator (+) used with strings is called the concatenation operator,
 and it allows you to concatenate strings.
 
+```
 1.  //the operator (+)
-
 2.  var s1 = &apos;one&apos;;
-
 3.  var s2= &apos;two&apos;;
-
 4.  var s = s1 + s2;
-
 5.  s;
-
 6.  // returns &apos;onetwo&apos;
-
 7.  typeof s;
-
 8.  //&apos;string&apos;
+```
 
 #### The shorthand assignment operator (+=) {#the-shorthand-assignment-operator .unnumbered}
 
 The shorthand assignment operator (+=) can also be used to concatenate
 strings.
 
+```
 //the assignment operator (+=)
-
 var s1 = &apos;one&apos;;
-
 var s2 = &apos;two&apos;;
-
 s1+= s2; // or directly s1+=&apos;two&apos;
-
 s1;
-
 //returns &apos;onetwo&apos;
-
 #### The method concat() {#the-method-concat .unnumbered}
-
 Another way to concatenate strings is the method concat().
-
 //the &apos;concat&apos; method
-
 var s1 = &apos;one&apos;;
-
 var s2 =&apos;two&apos;;
-
 var s = s1.concat(s2);
-
 s;
-
 //returns &apos;onetwo&apos;
-
 All the methods shown above can be used with a variable number of
 arguments:
-
 var s1 = &apos;Hello&apos;;
-
 s1 = s1 + &apos; World&apos; + &apos; JavaScript&apos;;
-
 var s2 = &apos;Hello&apos;;
-
 s2+= &apos; World&apos; + &apos; JavaScript&apos;;
-
 var s3 = &apos;Hello&apos;;
-
 s3.concat(&apos; World&apos; , &apos; JavaScript&apos; );
-
 //s1,s2 and s3 return &apos;Hello World JavaScript&apos;
+```
 
 #### Converting strings {#converting-strings .unnumbered}
 
 A String number in an arithmetic expression is converted to Number,
 unless the formula is a pure addition.
 
+```
 &gt; var s = &apos;1&apos;; s = 3 &ast; s; typeof s;
-
 &quot;number&quot;
-
  
-
 &gt; s;
-
 3
-
  
-
 &gt; var s = &apos;1&apos;; s++; typeof s;
-
 &quot;number&quot;
-
  
-
 &gt; s;
-
 2
-
  
-
 &gt; var s = &quot;100&quot;; typeof s;
-
 &quot;string&quot;
-
  
-
 &gt; s = s &ast; 1;
-
 100
-
  
-
 &gt; typeof s;
-
 &quot;number&quot;
-
  
-
 &gt; var d = &quot;101 dalmatians&quot;;
-
 undefined
-
  
-
 &gt; d &ast; 1;
-
 NaN
+```
 
 #### The above example is shown in the devtools console: {#the-above-example-is-shown-in-the-devtools-console .unnumbered}
 
@@ -14083,91 +13813,61 @@ This example shows some of the things we can do:
 
 #### HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;Modifying content of selected DOM nodes&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;Try these&lt;/h1&gt;
-
 &lt;p&gt;What is your name: &lt;input type=&quot;text&quot; id=&quot;name&quot;
-value=&quot;Michel&quot;&gt; &lt;button onclick=&quot;resetName();&quot;&gt;Reset (click to
-empty the input field)&lt;/button&gt;&lt;/p&gt;
-
+  value=&quot;Michel&quot;&gt; &lt;button onclick=&quot;resetName();&quot;&gt;Reset (click to
+  empty the input field)&lt;/button&gt;&lt;/p&gt;
 &lt;p&gt;Pick a color: &lt;input id=&quot;color&quot; type=&quot;color&quot;
-value=&apos;#FF0000&apos;&gt;&lt;button onclick=&quot;setToGreen();&quot;&gt;Set color chooser
-to green&lt;/button&gt;&lt;/p&gt;
-
-&lt;p&gt;In the next example, click on the input field and use the small
-vertical arrows to increase the value. Notice that the numbers go 1 by 1
-and that the maximum value is 20. Then click the button and do the same
-thing!&lt;/p&gt;
-
+  value=&apos;#FF0000&apos;&gt;&lt;button onclick=&quot;setToGreen();&quot;&gt;Set color chooser
+  to green&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;In the next example, click on the input field and use the small 
+  vertical arrows to increase the value. Notice that the numbers go 1 by 1
+  and that the maximum value is 20. Then click the button and do the same
+  thing!&lt;/p&gt;
 &lt;p&gt;Pick a number between 0 and 20: &lt;input id=&quot;number&quot;
-type=&quot;number&quot; min=0 max=20 step = 1 value=&apos;10&apos;&gt;&lt;button
-onclick=&quot;changeStep();&quot;&gt;Change step and max attribute values
-&lt;/button&gt;&lt;/p&gt;
-
+  type=&quot;number&quot; min=0 max=20 step = 1 value=&apos;10&apos;&gt;&lt;button
+  onclick=&quot;changeStep();&quot;&gt;Change step and max attribute values
+  &lt;/button&gt;&lt;/p&gt;
 &lt;p&gt;Click the next image to change its url and size:&lt;/p&gt;
-
 &lt;img
-src=&quot;https://www.paris-web.fr/2013/assets_c/2013/08/michel-buffa-thumb-143x143-372.jpg&quot;
-onclick=&quot;changeAndResize(this)&quot; alt=&quot;Michel Buffa&quot;&gt;
-
+  src=&quot;https://www.paris-web.fr/2013/assets_c/2013/08/michel-buffa-thumb-143x143-372.jpg&quot;
+  onclick=&quot;changeAndResize(this)&quot; alt=&quot;Michel Buffa&quot;&gt;
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 #### JS
 
+```
 function resetName() {
-
 var inputField = document.querySelector(&quot;#name&quot;);
-
 inputField.value = &quot;&quot;;
-
 }
-
 function setToGreen() {
-
 var colorChooser = document.querySelector(&quot;#color&quot;);
-
 colorChooser.value = &quot;#00FF00&quot;;
-
 }
-
 function changeStep() {
-
 var number = document.querySelector(&quot;#number&quot;);
-
 number.value = 10;
-
 number.step = &quot;0.1&quot;;
-
 number.max = 11;
-
 }
-
 function changeAndResize(img) {
-
 img.src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;;
-
 img.width=250;
-
 img.style.border = &quot;4px solid red&quot;;
-
 }
+```
 
 ### 2.5.6 Adding new elements to the DOM
 
@@ -14176,41 +13876,26 @@ To add a new element to the HTML DOM, you must create the element
 
 #### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;body&gt;
-
 &lt;h2&gt;JavaScript HTML DOM&lt;/h2&gt;
-
 &lt;p&gt;Add a new HTML Element.&lt;/p&gt;
-
 &lt;div id=&quot;div1&quot;&gt;
-
 &lt;p id=&quot;p1&quot;&gt;This is a paragraph.&lt;/p&gt;
-
 &lt;p id=&quot;p2&quot;&gt;This is another paragraph.&lt;/p&gt;
-
 &lt;/div&gt;
-
 &lt;script&gt;
-
 const para = document.createElement(&quot;p&quot;);
-
 const node = document.createTextNode(&quot;This is new.&quot;);
-
 para.appendChild(node);
-
 const element = document.getElementById(&quot;div1&quot;);
-
 element.appendChild(para);
-
 &lt;/script&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 #### Output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
