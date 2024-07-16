@@ -85,13 +85,12 @@ target="_blank" rel="noopener noreferrer">Introduction JavaScript - git</a>
 
 <h2 id="outline">Course Outline:</h2>
 
-<h3>js.0x-w3cx - W3Cx-5of5-JS.0x</h3>
-<h4>W3Cx: JS.0x JavaScript Introduction</h4>
+<h3>js.0x-w3cx - W3Cx-5of5-JS.0x JavaScript Introduction</h3>
 
-HTML5, CSS and JavaScript are the "classic three" for Web developers and
+<p>HTML5, CSS and JavaScript are the "classic three" for Web developers and
 designers. JavaScript lets you add interactive features to your Web
 sites, including dynamically updated content, controlled multimedia,
-animated images, and much more.
+animated images, and much more.</p>
 
 -   In **Module 1**, we present the basics of JavaScript by the way of
     many examples. We also show how to use the browser devtools, a
@@ -122,11 +121,11 @@ animated images, and much more.
     practice, let&apos;s develop a mini contact manager that load/save its
     data using the JSON format.
 
-Table of Contents -- **W3Cx-5of5-JS.0x** -- **JavaScript Introduction**
+<h3>Table of Contents -- <b>W3Cx-5of5-JS.0x</b> -- <b>JavaScript Introduction</b></h3>
 
 <h3 id="syllabus">Syllabus</h3>
 
-<h2 id="course-info">Course information</h2>
+<h3 id="course-info">Course information</h3>
 
 <ol type="a">
   <li><a href="welcome">Welcome to &quot;JavaScript Introduction&quot;</a></li>
@@ -177,53 +176,50 @@ Table of Contents -- **W3Cx-5of5-JS.0x** -- **JavaScript Introduction**
 5.  A small application
 6.  Where to from here?
 
-This course is designed for anyone who is comfortable with programming
+<p>This course is designed for anyone who is comfortable with programming
 concepts. No prerequisites are required though we encourage you to
-follow these two other W3Cx courses: [HTML5 and CSS
-Fundamentals](https://www.edx.org/course/html5-and-css-fundamentals) and [CSS
-Basics](https://www.edx.org/course/css-basics).
+follow these two other W3Cx courses: <a href="https://www.edx.org/course/html5-and-css-fundamentals">
+HTML5 and CSS Fundamentals</a> and <a href="https://www.edx.org/course/css-basics">CSS Basics</a>.</p>
 
 <h4>During this course, you will learn:</h4>
 
--   How to add JavaScript code in your Web site/Web app, and how to
-    debug it.
+<ul>
+  <li>How to add JavaScript code in your Web site/Web app, and how to debug it.</li>
+  <li>How to make interactive Web sites through the DOM API.</li>
+  <li>How to change the CSS styles of HTML5 elements from JavaScript.</li>
+  <li>How to deal with HTML5 forms.</li>
+  <li>How to make basic graphics and animations using the HTML5 canvas.</li>
+</ul>
 
--   How to make interactive Web sites through the DOM API.
+<p>You will make good use of your JavaScript skills in the other 2 W3Cx
+courses included in the <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer">
+&quot;Front-End Web Developer&quot; W3Cx Professional Certificate</a> program: 
+<a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">
+HTML5 Coding Essentials and Best Practices</a> and <a href="https://www.edx.org/course/html5-apps-and-games">HTML5
+Apps and Games</a>.</p>
 
--   How to change the CSS styles of HTML5 elements from JavaScript.
+<p>In the meantime, have fun in this course!</p>
 
--   How to deal with HTML5 forms.
-
--   How to make basic graphics and animations using the HTML5 canvas.
-
-You will make good use of your JavaScript skills in the other 2 W3Cx
-courses included in the [&quot;Front-End Web Developer&quot; W3Cx Professional
-Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) program: [HTML5
-Coding Essentials and Best
-Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) and [HTML5
-Apps and Games](https://www.edx.org/course/html5-apps-and-games).
-
-In the meantime, have fun in this course!
-
-Professional Certificate programs are series of courses designed by
+<p>Professional Certificate programs are series of courses designed by
 industry leaders and/or top universities to build and enhance critical
-professional skills needed to succeed in today&apos;s most in-demand fields.
+professional skills needed to succeed in today&apos;s most in-demand fields.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 02. banner image for the fewd professional certificate program (05) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
-  style="width:35%"
+  style="width:40%"
   title="Banner image  for the FEWD professional certificate program"
   alt="Banner image for the FEWD professional certificate program." />
 </p>
 
-W3C has designed a [&quot;Front-End Web Developer&quot; (FEWD) Professional
-Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) where
+<p>W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer">
+&quot;Front-End Web Developer&quot; (FEWD) Professional Certificate</a> where
 you will learn all of the necessary skills needed to build interactive
 and responsive user experiences on the Web. This program will deepen
 your knowledge of the 3 foundational languages that power the Web:
-HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
-courses:
+HTML5, CSS and JavaScript.</p>
+
+<h4>The W3C FEWD program is composed of 5 courses:</h4>
 
 1.  [**CSS Basics**](https://www.edx.org/course/css-basics)
 
@@ -235,37 +231,39 @@ courses:
 
 5.  <b>This course</b>: [**JavaScript Introduction**](https://www.edx.org/course/javascript-introduction)
 
-**To get a W3C FEWD professional certificate, you must successfully pass and receive a Verified Certificate in the five courses above**.
+<p><b>To get a W3C FEWD professional certificate, you must successfully pass 
+and receive a Verified Certificate in the five courses above</b>.</p>
 
-#### Web editors
+<h4>Web editors</h4>
 
-#### Foreword:
+<h4>Foreword:</h4>
 
-Michel Buffa, author of this course:
+<h5><i>Michel Buffa, author of this course:</i></h5>
 
-&quot;When I work locally, with files located on my computer hard drive, I
-use the Sublime Text source code editor, Visual Studio Code, WebStorm,
-NetBeans, depending on the size of the project I&apos;m working on.
-<b>- For testing simple examples, I mainly use the JsBin.com online code
-editor.</b>
-<b>- For embedding online examples in this course, I use the CodePen.io
-online code editor.</b>
-<b>- For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
-the LiveWeave online code editor.&quot;
+<blockquote>
+  &quot;When I work locally, with files located on my computer hard drive, I
+  use the Sublime Text source code editor, Visual Studio Code, WebStorm,
+  NetBeans, depending on the size of the project I&apos;m working on.<br>
+  <b>- For testing simple examples, I mainly use the JsBin.com online code 
+    editor.</b><br>
+  <b>- For embedding online examples in this course, I use the CodePen.io 
+    online code editor.</b><br>
+  <b>- For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
+    the LiveWeave online code editor.&quot;</b>
+</blockquote>
 
-#### Traditional source code editors
+<h4>Traditional source code editors</h4>
 
-You can use any source code editor that has good support for HTML,
+<p>You can use any source code editor that has good support for HTML,
 CSS and JavaScript files. For this course, you are free to use whichever
-you prefer. However, there are some in particular that we recommend.
+you prefer. However, there are some in particular that we recommend.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. sublime text logo (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
 <img src="./images/image003.png?raw=true"
-  style="width:10%"
+  style="width:5%"
   title="Sublime text logo"
   alt="Sublime text logo." />
-  
 <a href="https://www.sublimetext.com/">Sublime Text</a> is a very powerful, 
 multi-platform source code editor, it&apos;s semi-free (you can use it without 
 paying, it will pop up a dialog asking you to buy it once in a while, but not 
@@ -282,7 +280,7 @@ very often). Sublime text supports hundreds of plugins to enhance its features.<
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. vs code logo (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
 <img src="./images/image005.jpeg?raw=true"
-  style="width:10%"
+  style="width:5%"
   title="VS Code logo"
   alt="VS Code logo." />
 <a href="https://code.visualstudio.com/">Visual Studio Code</a> is a
@@ -296,9 +294,9 @@ free, open source, multi-platform editor by Microsoft.</p>
   alt="Snapshot of Visual Studio code editing an html/css/js project." />
 </p>
 
-#### Other tools
+<h4>Other tools</h4>
 
-#### Free of charge:
+<h4>Free of charge:</h4>
 
 -   [Atom source](https://atom.io/) code editor (note that Visual Studio
     code is based on Atom).
@@ -314,7 +312,7 @@ free, open source, multi-platform editor by Microsoft.</p>
     projects&quot;, more for pro developers that are also looking for good
     support for server-side languages such as Java, Python, PHP, etc.
 
-#### Not free of charge:
+<h4>Not free of charge:</h4>
 
 -   [IDEs by JetBrains.com](https://www.jetbrains.com/) have a very good
     reputation and can be obtained for free if you are an academic
@@ -325,33 +323,32 @@ free, open source, multi-platform editor by Microsoft.</p>
 -   [BBedit](https://www.barebones.com/products/bbedit/) (for Macs):
     source code editor for mac with support for Web languages.
 
-#### Online editors/IDEs
+<h4>Online editors/IDEs</h4>
 
-To help you practice for the duration of the course, you will use the
-following tools:
+<p>To help you practice for the duration of the course, you will use the following tools:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. jsbin logo (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
 <img src="./images/image007.png?raw=true"
-  style="width:10%"
+  style="width:5%"
   title="JSBin logo"
   alt="JSBin logo." />
 <a href="https://jsbin.com/">JS Bin</a> is an open-source
 collaborative Web development debugging tool. Most of the examples you
 will find in this course are either on JSBin or on CodePen.</p>
 
-Tutorials can be found on the Web (such as [these
-ones](https://www.youtube.com/playlist?list=PLXmT1r4krsTooRDWOrIu23P3SEZ3luIUq))
-or on YouTube. The tool is really simple: just open the link to the
+<p>Tutorials can be found on the Web (such as 
+<a href="https://www.youtube.com/playlist?list=PLXmT1r4krsTooRDWOrIu23P3SEZ3luIUq">these
+ones</a>) or on YouTube. The tool is really simple: just open the link to the
 provided examples, look at the code, look at the result, etc. And you
 can modify the examples as you like, you can also modify / clone / save
 / share them. Keep in mind that it&apos;s always better to be logged in
-(it&apos;s free) if you do not want to lose your work.
+(it&apos;s free) if you do not want to lose your work.</p>
 
-In our opinion, JSBin is the best online IDE for &quot;live coding&quot;: typing
+<p>In our opinion, JSBin is the best online IDE for &quot;live coding&quot;: typing
 and seeing what you are doing in real time, monitoring error messages in
 the console tab, and debugging your code. We will mainly use this tool
-for the live coding videos.
+for the live coding videos.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. jsbin example error code (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -364,7 +361,7 @@ for the live coding videos.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. codepen logo (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
 <img src="./images/image009.png?raw=true"
-  style="width:10%"
+  style="width:5%"
   title="CodePen logo"
   alt="CodePen logo." />
 <a href="https://codepen.io/">CodePen</a> is similar to JSBin except that its 
@@ -374,12 +371,12 @@ for &quot;button&quot;, etc. It&apos;s also easier for us to embed HTML/CSS/JS
 examples in this course with CodePen than with other online IDEs; this is why so 
 many &quot;pens&quot; are embedded in the course pages.</p>
 
-This is a great service to get you started quickly as it doesn&apos;t
+<p>This is a great service to get you started quickly as it doesn&apos;t
 require you to download anything and you can access it, along with your
 saved projects from any Web browser. Here&apos;s an article which will be
-of-interest if you use CodePen: [Things you can do with
-CodePen](https://codepen.io/brentmiller/post/things-you-can-do-with-codepen) &lbrack;Brent
-Miller, February 6, 2019&rbrack;.
+of-interest if you use CodePen: 
+<a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen">
+Things you can do with CodePen</a> &lbrack;Brent Miller, February 6, 2019&rbrack;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 10. snapshot of a 'button' codepen example (09) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
