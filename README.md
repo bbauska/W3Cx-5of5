@@ -2547,9 +2547,9 @@ shipped it with Internet Explorer 3 in 1996 -- It was a dud).</p>
 did not exist at this time!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. ecma logo (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="left" width="50%">
+<p align="left" width="100%">
 <img src="./images/image089.gif?raw=true"
-  style="width:10%"
+  style="width:30%"
   title="ecma"
   alt="ECMA." />
 Towards the end of 1996, JavaScript was standardized
