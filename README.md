@@ -441,7 +441,7 @@ include an SVG arrow in a document.</p>
 <a href="https://jsfiddle.net/">JSFiddle</a> is very similar to JSBin and CodePen 
 in terms of features.</p>
 
-#### Other tools
+<h4>Other tools</h4>
 
 There are many other online IDEs and new ones appear each year. If you
 want a real, heavyweight online IDE that has nearly all the features
@@ -477,7 +477,7 @@ valuable approach):
   alt="C9 IDE example." />
 </p>
 
-#### JavaScript debuggers
+<h4>JavaScript debuggers</h4>
 
 Here is a selection of tools to help debug JavaScript code. The
 instructor will indicate other tools in module 1 of the course.
@@ -496,7 +496,7 @@ instructor will indicate other tools in module 1 of the course.
 -   Check also other[ JavaScript debugging
     tools](https://jqueryhouse.com/best-javascript-debugging-tools/)
 
-#### Browser compatibility
+<h4>Browser compatibility</h4>
 
 The term browser compatibility refers to the ability of a given Web site
 to appear fully functional on the browsers available in the market.
@@ -522,7 +522,7 @@ features presented in this course using 2 resources: [Can I
 Use](https://caniuse.com/) and [Mozilla Developer Network (MDN) Web
 Docs](https://developer.mozilla.org/en-US/).
 
-#### Can I use
+<h4>Can I use</h4>
 
 [Can I Use](https://caniuse.com/) provides up-to-date tables for support
 of front-end Web technologies on desktop and mobile Web browsers. Below
@@ -616,7 +616,7 @@ sheet, or recursively on a whole Web site. For best results, it is
 recommended to first ensure that the documents checked use valid [HTML
 Markup](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
 
-#### Internationalization Checker
+<h4>Internationalization Checker</h4>
 
 The [W3C Internationalization
 Checker](https://validator.w3.org/i18n-checker/) provides information
@@ -624,7 +624,7 @@ about various internationalization-related aspects of your page,
 including the HTTP headers that affect it. It also reports a number of
 issues and offers advice about how to resolve them.
 
-#### W3C cheatsheet
+<h4>W3C cheatsheet</h4>
 
 The [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/) provides quick
 access to useful information from a variety of specifications published
@@ -651,7 +651,7 @@ interest.
 The W3C cheatsheet is only available as a [pure Web
 application](https://dev.w3.org/2009/cheatsheet/doc/).
 
-#### Help build the Web Platform!
+<h4>Help build the Web Platform!</h4>
 
 Most of the technologies you use when developing Web applications and
 Web sites are designed and standardized in W3C in a completely open and
@@ -663,7 +663,7 @@ GitHub, you already know how to contribute to W3C specifications! This
 is all about raising issues (with feedback and suggestions) and/or
 bringing pull requests to fix identified issues.
 
-#### Contribute
+<h4>Contribute</h4>
 
 Contributing to this standardization process might be a bit scary or
 hard to approach at first, but understanding at a deeper level how these
@@ -681,7 +681,7 @@ If you&apos;re looking to an easy way to dive into this standardization processe
 issues in the W3C GitHub repositories have been marked as &quot;good first issue&quot; and
 see if you find anything where you think you would be ready to help.
 
-#### First steps in Web accessibility
+<h4>First steps in Web accessibility</h4>
 
 As steward of global Web standards, W3C&apos;s mission is to safeguard the
 openness, accessibility, and freedom of the World Wide Web from a
@@ -691,7 +691,7 @@ W3C&apos;s primary activity is to develop protocols and guidelines that
 ensure long-term growth for the Web. The widely adopted Web standards
 define key parts of what actually makes the World Wide Web work.
 
-#### Shape the future
+<h4>Shape the future</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 26. w3c web incubator community group logo (17) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -824,7 +824,7 @@ standards. The next video, created in partnership with Microsoft,
 explains why standards are important to maintain a royalty-free, Open
 Web Platform, as well as to help shape the Web of the future.
 
-#### Why accessibility is important
+<h4>Why accessibility is important</h4>
 
 *The power of the Web is in its universality. Access by everyone
 regardless of disability is an essential aspect.
@@ -848,7 +848,7 @@ Standards](https://www.w3.org/WAI/videos/standards-and-benefits/) is a
 4-minute video with descriptive transcript and subtitles in over 20
 languages.
 
-#### Who is impacted?
+<h4>Who is impacted?</h4>
 
 Web accessibility addresses all disabilities, including hearing,
 learning and cognitive, neurological, physical, speech, and visual
@@ -866,7 +866,7 @@ disabilities. Some examples of Web accessibility features include:
 -   **Text alternatives** for people with visual disabilities and using
     screen readers;
 
-#### Web accessibility benefits people with and w**ithout** disabilities
+<h4>Web accessibility benefits people with and <b>without</b> disabilities</h4>
 
 Web accessibility features also benefit many more users, such as:
 
@@ -889,7 +889,7 @@ applications are badly designed, they can create barriers that exclude
 people from using the Web. More information is available in the [W3C
 Accessibility](https://www.w3.org/standards/webdesign/accessibility) overview.
 
-#### First steps in Web accessibility
+<h4>First steps in Web accessibility</h4>
 
 There are many simple Web accessibility improvements that you can
 implement and check right away, even when you are new to this topic. Two
@@ -902,7 +902,7 @@ tips and information from W3C/WAI:
 -   [Easy Checks - A First Review of Web
     Accessibility](https://www.w3.org/WAI/eval/preliminary)
 
-#### Example 1: page title
+<h4>Example 1: page title</h4>
 
 Good page titles are particularly important for orientation --- to help
 people know where they are and move between pages open in their browser.
@@ -1026,7 +1026,7 @@ through the course.  For now, just ensure that it&apos;s always there.
 **Check #1: There is a character encoding declaration near the start of
 your source code, and  its value is UTF-8.**
 
-#### **Example 1**:
+<h4>**Example 1**:</h4>
 
 ```
 &lt;head&gt;
@@ -1035,7 +1035,7 @@ your source code, and  its value is UTF-8.**
 &lt;/head&gt;
 ```
 
-#### Example 2: Primary language declaration
+<h4>Example 2: Primary language declaration</h4>
 
 For a wide variety of reasons, it&apos;s important for a browser to know
 what language your page is written in, including font selection,
@@ -1075,7 +1075,7 @@ other cultures.
 cultures, check that your cultural references will be recognized and
 that there is no inappropriate cultural bias.**
 
-#### Don&apos;t worry!
+<h4>Don&apos;t worry!</h4>
 
 The following 7 quick tips summarize some important concepts of
 international Web design. They will become more meaningful as you work
@@ -1110,7 +1110,7 @@ You will find more quick tips on the [Internationalization quick
 tips](https://www.w3.org/International/quicktips/) page. Remember that
 these tips do not constitute complete guidelines.
 
-#### Internationalization checker
+<h4>Internationalization checker</h4>
 
 When you start creating Web pages, you can also run them through the
 W3C&apos;s [Internationalization
@@ -1224,7 +1224,7 @@ between documents. It was not just a long list of details, but rather a
 sea of information stretching out in all directions. This sea of
 information was navigated by a new tool called a &quot;browser&quot;.
 
-#### The &quot;Markup&quot; part: elements, tags and attributes!
+<h4>The &quot;Markup&quot; part: elements, tags and attributes!</h4>
 
 The &quot;M&quot; in HTML stands for &quot;Markup&quot;, but what does Markup really
 mean?  Essentially it means to annotate a document with extra
@@ -1331,7 +1331,7 @@ Here is another, more generic example:
 17. &lt;/html&gt;
 ```
 
-#### Try it out!
+<h4>Try it out!</h4>
 
 It&apos;s time to write your first HTML code :-)
 
@@ -1364,7 +1364,7 @@ order to test the HTML code provided earlier in this section.
   title=" "
   alt="." />
 </p>
-<!-- #### ![](./images/image035.png){width="5.0in" height="2.56251312335958in"} -->
+<!-- ![](./images/image035.png){width="5.0in" height="2.56251312335958in"} -->
 
 In this lesson, I will show you how to try and tweak the HTML example
 from the Web page, the one from the course.
@@ -2027,7 +2027,7 @@ useful for setting the look and feel of the selected elements.
 
 **Line 2** for example, says that all h1s is colored in red.
 
-#### CSS rules are applied in sequence
+<h4>CSS rules are applied in sequence</h4>
 
 After the previous rule is applied, then the second rule is taken into
 account, then the next, etc. In this way, you can see that all h2s is in
@@ -2047,7 +2047,7 @@ This one says that all p, h1 and h2 uses a cursive font character. The
 This is also how we indicate in the last rule that images and paragraphs
 should be moved to the right 50 pixels (property margin-left: 50px).
 
-#### The id and class attributes
+<h4>The id and class attributes</h4>
 
 Basically, any given element on your Web page can be identified uniquely
 with an &apos;id&apos; attribute, or grouped with a class of other elements by
@@ -2090,7 +2090,7 @@ in our case it&apos;s the second h2 element:
 
 1.  &lt;h2 **id=&quot;hobbyTitle&quot;**&gt;My Hobbies&lt;/h2&gt;
 
-##### And here is the CSS rule:
+<h5>And here is the CSS rule:</h5>
 
 ```
 1.  **#hobbyTitle** {
@@ -2149,7 +2149,7 @@ W3Cx [CSS Basics](https://www.edx.org/course/css-basics) and [HTML5&CSS
 Fundamentals](https://www.edx.org/course/html5-and-css-fundamentals) courses
 to learn more about CSS and about HTML5 basics.
 
-##### Where can we put the CSS rules: in the HTML file? in another file?
+<h5>Where can we put the CSS rules: in the HTML file? in another file?</h5>
 
 You can do both! 
 
@@ -2396,7 +2396,7 @@ trio&quot;: HTML5/CSS/JavaScript. It is the only programming language a
 browser can run (without installing any plugins or extensions), and
 it&apos;s a real standard of the Web (even if not standardized by the W3C).
 
-#### Why do we call it &quot;the interactive glue between HTML and CSS&quot;?
+<h4>Why do we call it &quot;the interactive glue between HTML and CSS&quot;?</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 78. javascript is the perfect glue (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2455,7 +2455,7 @@ JavaScript remains the most commonly used programming language with
 67.7% of developers employing it in 2020 (see this [survey&apos;s
 results](https://insights.stackoverflow.com/survey/2020#most-popular-technologies)).
 
-#### How and why JS was created?
+<h4>How and why JS was created?</h4>
 
 Created out of necessity, it is used to build 97.4% of websites,
 including some of the world's largest, like Facebook and YouTube.
@@ -2532,44 +2532,58 @@ it was quickly integrated into other popular browsers. Microsoft also
 created its own version named JScript (and shipped it with Internet
 Explorer 3 in 1996 -- It was a dud).
 
-![Screenshot of a page in Netscape Navigator
-2](./images/image087.jpeg)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 87. snapshot of a web page in netscape navigator 2 (67) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image087.jpeg?raw=true"
+  style="width:50%"
+  title="Snapshot of a web page in Netscape Navigator 2"
+  alt="Snapshot of a web page in Netscape Navigator 2." />
+</p>
 
 **Netscape Navigator 2 in 1996, with big buttons and plain HTML pages
 (CSS did not exist at that time)**
-
-![Snapshot of a Web page in Internet Explorer
-3](./images/image088.jpeg)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 88. snapshot of a web page in internet explorer (67) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image088.jpeg?raw=true"
+  style="width:50%"
+  title="Snapshot of a web page in IE 3"
+  alt="Snapshot of a web page in IE 3." />
+</p>
 
 **Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
 did not exist at this time!**
-
-![ecma logo](./images/image089.gif)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. ecma logo (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="50%">
+<img src="./images/image089.gif?raw=true"
+  style="width:10%"
+  title="ecma"
+  alt="ECMA." />
 Towards the end of 1996, JavaScript was standardized
-by [ECMA](https://en.wikipedia.org/wiki/Ecma_International) as
-the [EcmaScript](https://en.wikipedia.org/wiki/ECMAScript) standard. **So
-no matter whether you see it called JavaScript or EcmaScript, don&apos;t
-worry, it&apos;s the same thing.** EcmaScript has continued to be released
-right up to the present day. MS still didn't play ball.
-
-![JavaScript detailed
-timeline](./images/image090.png)
-
+by <a href="https://en.wikipedia.org/wiki/Ecma_International">ECMA</a> as
+the <a href="https://en.wikipedia.org/wiki/ECMAScript">EcmaScript</a> standard. 
+<b>So no matter whether you see it called JavaScript or EcmaScript, don&apos;t
+worry, it&apos;s the same thing.</b> EcmaScript has continued to be released
+right up to the present day. MS still didn't play ball.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 90. javascript detailed timeline (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="50%">
+<img src="./images/image090.png?raw=true"
+  style="width:50%"
+  title="JavaScript detailed timeline"
+  alt="JavaScript detailed timeline." />
 The present: what is the current version?
-
-What about ES6/ES2015/ES2016/ES2017/ ES2018/ES2019/ES2020/ES2021/
-ES2022?
-Are these the new names of JavaScript?
-
+What about ES6/ES2015/ES2016/ES2017/ ES2018/ES2019/ES2020/ES2021/ES2022?
+Are these the new names of JavaScript?<br>
 Since 1996, multiple versions of JavaScript have appeared. For a long
 time, the stable version supported by all major browsers deployed on
 computers and smartphones was **EcmaScript version 5 from 2010**, but in
 2015, a new version known first as EcmaScript 6 or ES 2015 came out with
 lots of new features (classes, etc.). Since then, every year a new
 version is published, with some adjustments/novelties.  The latest
-official version is ES2021. 
-
+official version is ES2021.<br>
 **Back in 2015, ES2015 was a pseudonym for the 6th version of the
 JavaScript** programming language to be approved by ECMA International,
 the standards group responsible for vetting and approving different
@@ -2578,7 +2592,7 @@ versions of the language. In June 2015, ECMA International approved the
 latest version of JavaScript is identified as the 2015 version of
 ECMAScript (the alternative name for JavaScript). [Read this blog post
 about all these naming
-incongruities!](https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning)
+incongruities!](https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning)</p>
 
 At the beginning, ES2015 was referred to as ES6 and before that,
 Harmony. Moving forward, ES suffixed with the year of the latest
@@ -2600,7 +2614,7 @@ published in June 2022 and is known as ES2022**.
 sets of the latest versions are generally not completely implemented, as
 it takes time for browser vendors to follow the standards!
 
-#### **Current support for ES2020/ 11th version (June 2020):**
+<h4>**Current support for ES2020/ 11th version (June 2020):**</h4>
 
 There is no easy-to-read table of current browser global support, but
 caniuse.com can be used to check feature by feature which browsers
@@ -2613,7 +2627,7 @@ the version corresponding to the previous year. For example, in 2020,
 there is an good support for ES2019, while certain features from ES2020
 won&apos;t be implemented before some months.
 
-#### Which version will we learn?
+<h4>Which version will we learn?</h4>
 
 First of all, this is an introductory course! Not all features of
 JavaScript need to be covered, in particular the ones that you cannot
@@ -2625,7 +2639,8 @@ use and not for beginners).
 **We will cover all the important features of the last version that are
 relevant for an intro course**. 
 
-#### Is JavaScript an important language to learn? What about Java, PHP, C#, Python, Ruby and all the others?
+<h4>Is JavaScript an important language to learn? What about Java, PHP, C#, 
+Python, Ruby and all the others?</h4>
 
 JavaScript is the only programming language you can run in your browser.
 Without JavaScript there would be no games, no fancy dynamic HTML forms,
@@ -2652,14 +2667,13 @@ applications running on a remote Web server. Mastering JavaScript basics
 is highly recommended before trying to learn JavaScript server-side
 programming.
 
-#### JavaScript is an interpreted language
+<h4>JavaScript is an interpreted language</h4>
 
 JavaScript is an interpreted (or just-in-time compiled) language, which
 means that the code is converted into a machine language at, or just
 before, runtime. The most popular JavaScript engines are:
 
--   [SpiderMonkey](https://spidermonkey.dev/) (included in Mozilla
-    Firefox)
+-   [SpiderMonkey](https://spidermonkey.dev/) (included in Mozilla Firefox)
 
 -   [JavaScriptCore](https://developer.apple.com/reference/javascriptcore) (included
     in Apple Safari)
@@ -2667,7 +2681,7 @@ before, runtime. The most popular JavaScript engines are:
 -   [Chrome V8](https://developers.google.com/v8/) (included in Google
     Chrome, in the Node.js server)
 
-#### External resources
+<h4>External resources</h4>
 
 -   [History of JavaScript on a
     timeline](https://blog.risingstack.com/history-of-javascript-on-a-timeline/)
@@ -2677,7 +2691,7 @@ before, runtime. The most popular JavaScript engines are:
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
 
-#### Suggested topics
+<h4>Suggested topics</h4>
 
 -   Did you know about JavaScript history? Do you have stories to share?
 
@@ -2690,16 +2704,23 @@ post your comments/observations/questions or share your creations.
 -   Do you know a good service for hosting Web sites made with
     HTML/CSS/JS files?
 
-#### Optional project
+<h4>Optional project</h4>
 
 -   Try to make a simple home page and add some interactivity to it,
     adapting the examples provided in the course (change the HTML
     content by clicking on a button, change the CSS style of some parts
     of the document).
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-1">1.3.1 The best way to learn JavaScript (8:42)</h3>
-
-![](./images/image091.png)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 91. the best way to learn javascript (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image091.png?raw=true"
+  style="width:50%"
+  title="The Best Way to Learn JavaScript"
+  alt="The Best Way to Learn JavaScript." />
+</p>
 
 So, what it the best method for learning JavaScript?
 
@@ -2890,7 +2911,7 @@ brackets. What is the best method to learn JavaScript?
 
 &lt;end of video transcript The Best Way to Learn JS&gt;
 
-#### FIRST: learn by looking at and tweaking the code in the examples
+<h4>FIRST: learn by looking at and tweaking the code in the examples</h4>
 
 Well, there is no definitive answer to this question, but I&apos;d recommend
 firstly looking at small examples, tweaking them and trying to guess
@@ -2918,20 +2939,28 @@ During module 1, we give you some basics:
 -   In further modules, we will be revisiting the examples,
     and discussing them in greater detail and with fuller explanations.
 
-#### SECOND: take some time to carefully read the sections titled &quot;What you&apos;ve learnt / let&apos;s detail &hellip;.&quot;
+<h4>SECOND: take some time to carefully read the sections titled &quot;What you&apos;ve learnt / let&apos;s detail &hellip;.&quot;</h4>
 
 During the course, we provide extra &quot;reference pages&quot; that detail some
 important parts of the language. For example, in a later section, we
 explain the concepts of &quot;variables&quot;, &quot;values&quot;, &quot;operators&quot;,
 &quot;output&quot;, etc.
 
-#### Here is an example - we provide some clues, but it&apos;s your job to tweak it!
+<h4>Here is an example - we provide some clues, but it&apos;s your job to tweak it!</h4>
 
 Here is an example that uses an external JavaScript library useful for
 plotting math functions. Look at the JavaScript code (click on the JS
 button) and try to guess where the function is specified, where the
 range for the x and y values is set, etc. Notice that you can use your
 mouse wheel to zoom in/out the function plot.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 92. javascript detailed timeline (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image092.png?raw=true"
+  style="width:50%"
+  title="JavaScript detailed timeline"
+  alt="JavaScript detailed timeline." />
+</p>
 
 ![image092.png](./images/image092.png)
 
@@ -2976,7 +3005,7 @@ bet that you guessed that the function plotted is &quot;sin(x)&quot;, that the
 color of the curve is &quot;red&quot;, that the range of the x values is &lbrack;0,
 2&ast;PI&rbrack;, and the range of the y values is &lbrack;-1, 1&rbrack;.
 
-#### <b>Your job:</b>
+<h4><b>Your job:</b></h4>
 
 -   try to plot sin(x&#94;2),
 
@@ -3097,7 +3126,7 @@ Notice that after each property (color, grid, etc.) there is a &quot;,&quot;.
 Notice that between the name of the properties and the value there is a
 &quot;:&quot;, etc&hellip;
 
-#### <b>Embedded objects</b>
+<h4><b>Embedded objects</b></h4>
 
 If we look at the values of the xAxis and yAxis properties, they
 are also objects.
@@ -3148,7 +3177,7 @@ cos(x) to our example, with a different color:
 
 https://codepen.io/w3devcampus/pen/KWPyeX
 
-#### Conclusion
+<h4>Conclusion</h4>
 
 Just by looking at one example, and without going into the boring
 details, you saw:
@@ -3164,7 +3193,9 @@ details, you saw:
 
 Not bad ;-)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-2">1.3.2 What can be done with JavaScript</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hello!
 
@@ -3214,7 +3245,7 @@ were the most typical uses of JavaScript Web sites.
 
 What can be done with JavaScript:
 
-#### 1) interact with the HTML and CSS content of a document, respond to events
+<h4>1) interact with the HTML and CSS content of a document, respond to events</h4>
 
 We have already seen three examples in previous parts of this week&apos;s
 course material.
@@ -3306,7 +3337,7 @@ The third example (outlined in the previous section), which showed how
 to plot math functions, illustrated that with a few lines of code you
 can reuse code from others (a third party JavaScript library).
 
-#### 2) use numerous APIs in addition to the DOM and selector APIs: multimedia, drawing, animating, geolocation, webcam, etc.
+<h4>2) use numerous APIs in addition to the DOM and selector APIs: multimedia, drawing, animating, geolocation, webcam, etc.</h4>
 
 Your browser comes with a lot of different &quot;libraries&quot; that are called
 &quot;standards APIs&quot; for &quot;application programming interfaces&quot;. Such APIs
@@ -3326,7 +3357,7 @@ height="2.0819444444444444in"}
 
 https://codepen.io/w3devcampus/pen/LYVgyxE
 
-#### 3) work with remote data / speak with a remote HTTP Web server
+<h4>3) work with remote data / speak with a remote HTTP Web server</h4>
 
 You can also download or upload data from your browser to a remote Web
 server. When this is done from JavaScript the popular term to describe
@@ -3343,9 +3374,11 @@ height="2.9611111111111112in"}
 
 https://codepen.io/w3devcampus/pen/wJwpKq
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-3">1.3.3 Where to put JavaScript code</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-#### JavaScript code can be located in different places
+<h4>JavaScript code can be located in different places</h4>
 
 1.  In your HTML code between &lt;script&gt; and &lt;/script&gt; tag
 
@@ -3359,9 +3392,9 @@ https://codepen.io/w3devcampus/pen/wJwpKq
 
 Here are some examples:
 
-#### Example #1:  the JavaScript code is included in an HTML file using the &lt;script&gt;&hellip;&lt;/script&gt; tag
+<h4>Example #1:  the JavaScript code is included in an HTML file using the &lt;script&gt;&hellip;&lt;/script&gt; tag</h4>
 
-#### First variant: in the &lt;body&gt;..&lt;/body&gt; of the HTML document
+<h4>First variant: in the &lt;body&gt;..&lt;/body&gt; of the HTML document</h4>
 
 Typically:
 
@@ -3390,7 +3423,7 @@ Old JavaScript examples may use a type attribute:
 &lt;script **type=&quot;text/javascript&quot;**&gt;.
 **The type attribute is now obsolete and should be ignored.**
 
-#### Second variant: in the &lt;head&gt;&hellip;&lt;/head&gt; of the document
+<h4>Second variant: in the &lt;head&gt;&hellip;&lt;/head&gt; of the document</h4>
 
 In this example, the &lt;script&gt;&hellip;&lt;/script&gt; element is placed in
 the &lt;head&gt;..&lt;/head&gt; section of an HTML page.
@@ -3421,7 +3454,7 @@ height="3.1881944444444446in"}
 
 https://codepen.io/w3devcampus/pen/apBMYJ
 
-#### Example #2: put the JavaScript code in local .js files
+<h4>Example #2: put the JavaScript code in local .js files</h4>
 
 Putting JavaScript code in external scripts files is easy, and
 offers many advantages:
@@ -3475,7 +3508,7 @@ Example that uses more than one JavaScript file:
 8.  &lt;/head&gt;
 </code></pre>
 
-#### A typical HTML/CSS/JS project folder structure, when working with external local files
+<h4>A typical HTML/CSS/JS project folder structure, when working with external local files</h4>
 
 It is good practice to locate CSS files in a css subfolder, and
 JavaScript files in a js subfolder.
@@ -3536,7 +3569,7 @@ How to run this example:
 
 4.  Click on the button in the page
 
-#### Example #3: use external references to JavaScript files/libraries located on the Web
+<h4>Example #3: use external references to JavaScript files/libraries located on the Web</h4>
 
 External JavaScript libraries (they are just big JS files) can be also
 referenced with a full URL, like in this example:
@@ -3559,11 +3592,13 @@ an external URL:
 
 https://codepen.io/w3devcampus/pen/VPmNWg
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let&apos;s introduce what is debugging.
 
-#### You will make errors!
+<h4>You will make errors!</h4>
 
 When you are developing a Web Application that contains JavaScript code,
 you will make errors. 
@@ -3582,7 +3617,7 @@ in the browser&quot;, how it works, how to start writing code, etc.
 First of all, you need to find a way to debug your code and see errors.
 If your work does not produce any results, you need to know why!
 
-#### Your Swiss army knife: your browser devtools, especially the devtool console!
+<h4>Your Swiss army knife: your browser devtools, especially the devtool console!</h4>
 
 For this you will use **the dev. tools of your
 browser**. Press **F12** (or ctrl-shift-i) in Windows
@@ -3674,9 +3709,11 @@ to look at some basic tutorials on how to use the dev. tools of your
 browsers, since they differ from one another in the way they work
 - although the principles remain the same.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-5">1.3.5 Discussion and projects</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-1">1.4.1 Creating an HTML/CSS/JS project</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let&apos;s create a small HTML/CSS/JS project together.
 
@@ -3695,7 +3732,7 @@ will take a break and have a &quot;real&quot;, &quot;academic&quot;, look at the
 concepts of the language you have been using. We think this is the best
 way for you to learn!
 
-#### Topic
+<h4>Topic</h4>
 
 We will write a small, interactive HTML page that will use some HTML
 input fields for indicating the name of a math function we&apos;d like to
@@ -3725,7 +3762,7 @@ In the video, at 3:19, there are some mistakes in the HTML code:
 2.  Improvement in the code could be to replace all empty
     paragraphs &lt;p&gt;&lt;/p&gt; by line breaks &lt;br&gt; or by a single &lt;p&gt;.
 
-#### CodePen example with the starting code used in the video
+<h4>CodePen example with the starting code used in the video</h4>
 
 If you want to code while watching the video, [please open this
 CodePen.](https://codepen.io/w3devcampus/pen/GmbpzZ) It contains the
@@ -3740,7 +3777,9 @@ In case you have a hard time to follow the video, [here is the full
 example](https://codepen.io/w3devcampus/pen/bqGboZ) (this link points to
 the example from the previous course page).
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-3">1.4.3 Using Sublime Text</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Now, I&apos;m going to show you how we can do the same application using
 files and a regular source code editor, and working on your local hard
@@ -3883,7 +3922,7 @@ In most of the examples seen earlier, we&apos;ve used the concept of
 &quot;variable&quot;, and we have used them to &quot;store values&quot;. It&apos;s time to
 take a break and talk about them :-)
 
-#### Variables
+<h4>Variables</h4>
 
 In order to remember a value, programming languages share the concept of
 &quot;variables&quot;. When you write programs, you will need to store values in
@@ -3891,7 +3930,7 @@ the computer&apos;s memory. By saving these values in &quot;variables&quot;, by
 giving them a &quot;name&quot; (we call it an identifier), you can reuse
 them later for display, for computations, etc.
 
-#### Create (declaring) a variable
+<h4>Create (declaring) a variable</h4>
 
 With JavaScript versions &lt; 5 (prior to 2015), there was a single way to
 create (we say &quot;declare&quot;) a variable: using the **var** keyword. But
@@ -3905,7 +3944,7 @@ keyword **var** or **let**. So you are not required to specify the type
 of variable you are creating. **After the keyword &quot;var&quot; and a space,
 just give the name of the variable.**
 
-#### Example:
+<h4>Example:</h4>
 
 ```
 var myVar;
@@ -3921,13 +3960,13 @@ There are some reserved names that you can&apos;t use as a variable
 name: boolean, if, delete, var, function, etc. as they are reserved
 words of the JavaScript language.
 
-#### Give a value to a variable (**assign** a value to a variable)
+<h4>Give a value to a variable (**assign** a value to a variable)</h4>
 
 A value can be assigned to a declared variable, or even directly in the
 variable declaration. For this, we use the equal character, also
 called &quot;the assignment operator&quot;. 
 
-#### Example:
+<h4>Example:</h4>
 
 (notice at **line 4** one way to introduce comments in your code: start
 a line with &quot;//&quot;!)
@@ -3952,7 +3991,7 @@ example by executing myValue = 5;).
 You can also declare many variables at once by separating them with a
 comma. Always end each instruction line with a semi colon.
 
-#### Example:
+<h4>Example:</h4>
 
 ```
 var myNumber1, myNumber2 = 34, myNumber3;
@@ -3960,7 +3999,7 @@ var myNumber1, myNumber2 = 34, myNumber3;
 let x = 1, y = 3, z = 12;
 ```
 
-#### Try the devtool console - you can type code in there too!
+<h4>Try the devtool console - you can type code in there too!</h4>
 
 **Reminder**: you can always open the devtool console using F12 on
 windows, or ctrl-shift i, or cmd-alt-i on other computers.
@@ -4007,10 +4046,9 @@ error message:
 ![If you type k; followed by the enter key in the devtool console, and
 if k has not been defined, then an error message is displayed:
 &quot;uncaught referenceError: k is not
-defined&hellip;](./images/image110.jpeg){width="6.729166666666667in"
-height="1.3895297462817149in"}
+defined&hellip;](./images/image110.jpeg){width="6.729166666666667in" height="1.3895297462817149in"}
 
-#### Name conventions for variables
+<h4>Name conventions for variables</h4>
 
 The JavaScript community has some conventions about naming variables:
 
@@ -4020,7 +4058,7 @@ The JavaScript community has some conventions about naming variables:
 -   **For a variable, the first letter is lowercase and each first
     letter of each word is capitalized**. Example: var myVariableName
 
-#### Example:
+<h4>Example:</h4>
 
 ```
 var myModel;
@@ -4036,10 +4074,9 @@ which separates each word of a variable with an underscore.
 Here&apos;s an interesting article: [CamelCase vs underscores: Scientific
 showdown](https://whatheco.de/2011/02/10/camelcase-vs-underscores-scientific-showdown/) 
 
-#### Constants
+<h4>Constants</h4>
 
-Constants are variables that cannot be modified after a value has been
-set.
+Constants are variables that cannot be modified after a value has been set.
 
 **The naming convention is to use uppercase letters with underscores. **
 
@@ -4054,7 +4091,7 @@ With ES2015/2016 it is recommended that you use the
 keyword **const** instead of **var** to declare them. This means that an
 error will be raised if you try to change their value in the future.
 
-#### Example:
+<h4>Example:</h4>
 
 ```
 var TIME_LIMIT;
@@ -4064,10 +4101,9 @@ const MAX_GRADE = 20;
 
 ![Constants in the devtool console. We see the difference between var
 and const. The code executed is the one from the above
-example](./images/image111.jpeg){width="6.510416666666667in"
-height="2.3413331146106735in"}
+example](./images/image111.jpeg){width="6.510416666666667in" height="2.3413331146106735in"}
 
-#### Summary
+<h4>Summary</h4>
 
 Here are a set of examples (using the let keyword, but they would also
 work with var):
@@ -4086,7 +4122,9 @@ let case_matters = &apos;lower&apos;;
 let CASE_MATTERS = &apos;upper&apos;;
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Scope of JS variables</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi!
 
@@ -4142,9 +4180,9 @@ got an error: &quot;b is not defined&quot;. Remember that if I used &quot;var&qu
 that case it works, because &quot;var&quot; will define a variable local to the
 whole function, not just to the block of instructions.
 
-#### Scope of JavaScript variables
+<h4>Scope of JavaScript variables</h4>
 
-#### 1)  JavaScript 5 / ES5 scopes, with the var keyword
+<h4>1)  JavaScript 5 / ES5 scopes, with the var keyword</h4>
 
 **JavaScript 5 / ES5 has the var keyword for declaring variables.**
 
@@ -4157,19 +4195,19 @@ local variable masks a global variable that has the same name.**
 
 See examples below.
 
-##### 1.1) Global scope / global variable
+<h5>1.1) Global scope / global variable</h5>
 
 Global variables are variables declared outside of functions. They can
 be used anywhere in the code.
 
-#### Here is an example:
+<h4>Here is an example:</h4>
 
 ![](./images/image112.png){width="6.5in"
 height="2.323611111111111in"}
 
 https://codepen.io/w3devcampus/pen/WjMMLZ
 
-#### 1.2) Local scope / local variable (also called function scope)
+<h5>1.2) Local scope / local variable (also called function scope)</h5>
 
 Variables declared with the keyword var in a function, are said to
 be &quot;local to the function&quot;. They &quot;mask&quot; any global variable that may
@@ -4204,7 +4242,7 @@ height="3.3743055555555554in"}
 
 https://codepen.io/w3devcampus/pen/oWEEmN
 
-#### 1.3) Never declare a variable without the keyword var!
+<h5>1.3) Never declare a variable without the keyword var!</h5>
 
 JavaScript is sometimes an overly permissive language. We can make
 stupid errors that turn out to be very hard to detect. One such error
@@ -4223,8 +4261,7 @@ JavaScript 6 or above.**
 Here is an example that shows what happens when you forget to use var or
 let while declaring a local variable:
 
-![](./images/image115.png){width="6.5in"
-height="3.941666666666667in"}
+![](./images/image115.png){width="6.5in" height="3.941666666666667in"}
 
 https://codepen.io/w3devcampus/pen/rmJJbo
 
@@ -4232,7 +4269,7 @@ https://codepen.io/w3devcampus/pen/rmJJbo
 global](./images/image116.jpeg){width="6.375in"
 height="1.2871139545056869in"}
 
-#### 2) Since 2015 and ES2015, there are new scopes, with the let keyword
+<h5>2) Since 2015 and ES2015, there are new scopes, with the let keyword</h5>
 
 **Modern JavaScript has the let keyword for declaring variables, and
 the const keyword for declaring constants.**
@@ -4253,7 +4290,7 @@ the block:
 
 https://codepen.io/w3devcampus/pen/VbXNPz
 
-#### 3) Recommended way to declare variables: var or let?
+<h5>3) Recommended way to declare variables: var or let?</h5>
 
 Well, all modern browsers support the let and const keywords, however,
 you might find lots of examples that still use the var keyword&hellip;
@@ -4324,7 +4361,7 @@ and null and object.
 Nothing else. And the "typeof" operator can be used to display the type
 of an object.
 
-#### What kind of values can we assign to a variable?
+<h4>What kind of values can we assign to a variable?</h4>
 
 Well, there are multiple possibilities:
 
@@ -4344,7 +4381,7 @@ var x = 3; var name = &quot;Buffa&quot;;![a set of playing
     -   There is a set of &quot;predefined objects&quot; in JavaScript (arrays,
         functions, etc). We will come back on these later in the course.
 
-#### JavaScript has a small set of primitive data types
+<h4>JavaScript has a small set of primitive data types</h4>
 
 -   **number**: 1,2,105,3.14 &hellip;
 
@@ -4370,7 +4407,7 @@ instance) instead of var x=2; or let name=&quot;Buffa&quot;; you would writ
 x=2; or String name = &quot;Buffa&quot;;, with the datatype explicit in the
 variable declaration.
 
-#### Knowing the type of a JavaScript variable: the typeof operator
+<h4>Knowing the type of a JavaScript variable: the typeof operator</h4>
 
 The next section of the course talks about &quot;operators&quot; but there is
 one that is better introduced in this section: the **typeof** operator,
@@ -4389,9 +4426,11 @@ height="2.5648020559930007in"}
 This operator is not often use in JavaScript programs, but it&apos;s useful
 for us, for explaining the data types.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-4">1.5.4 Numbers</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-#### Number values can be:
+<h4>Number values can be:</h4>
 
 -   **Integer**: 1, 4, 274929
 
@@ -4518,7 +4557,7 @@ NaN
 Infinity
 ```
 
-#### Examples:
+<h4>Examples:</h4>
 
 Any operation with Infinity gives Infinity as a result:
 
@@ -4581,7 +4620,7 @@ Any operation with Infinity gives Infinity as a result:
 11. Infinity
 ```
 
-#### Examples with NaN:
+<h4>Examples with NaN:</h4>
 
 NaN is a special value and its type is &quot;Number&quot;!
 
@@ -4602,7 +4641,7 @@ NaN
 NaN
 ```
 
-#### &lbrack;ADVANCED&rbrack; Optional explanations about numbers
+<h4>&lbrack;ADVANCED&rbrack; Optional explanations about numbers</h4>
 
 In JavaScript, numbers are represented with a double-precision 64-bit
 format (IEEE 754). These 64 bits are used with this table:
@@ -4611,7 +4650,7 @@ format (IEEE 754). These 64 bits are used with this table:
 |------------|---------|----------|-------------|
 | 64 |  1 |  11 | 52 |
 
-##### What does it mean?
+<h5>What does it mean?</h5>
 
 First, each number is represented as a float. For example, 1 equals 1.0.
 But there are approximation errors that are well-known in float
@@ -4638,7 +4677,9 @@ format. Larger numbers will be converted&hellip;
 For more information about floating point numbers, [follow this link at
 Wikipedia](https://en.wikipedia.org/wiki/IEEE_floating_point).
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-5">1.5.5 JS operators and expressions</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 **An expression** is a small piece of code used to produce a value.
 
@@ -4651,18 +4692,18 @@ In JavaScript, **an operator** can be unary or binary (plus one ternary
 operator). A unary operator is applied to one expression. It can be
 prefixed or suffixed.
 
-##### Unary operator example:
+<h5>Unary operator example:</h5>
 
 typeof &apos;world&apos;;
 
 A binary operator is applied to two different expressions, and is both
 prefixed and suffixed.
 
-##### Binary operator example:
+<h5>Binary operator example:</h5>
 
 var x = 45 / 32;
 
-##### The division operator is binary.
+<h5>The division operator is binary</h5>
 
 Within an expression, we can also use parentheses to force the execution
 of the expression inside. Parentheses can be used to indicate
@@ -4707,7 +4748,7 @@ with double and closed with simple quotes
 
 VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
 
-##### Image from the devtool console, from the above example:
+<h5>Image from the devtool console, from the above example:</h5>
 
 ![Snapshot of a devtool console: do not mix simple and double
 quotes](./images/image122.jpeg){width="6.583333333333333in"
@@ -4902,22 +4943,17 @@ There is trick for converting a Number into a String: we concatenate
 with an empty string, at the beginning of expression (type this in the
 devtools):
 
+```
 var n = 1;
-
 typeof n;
-
 // returns &quot;number&quot;
-
 n = &quot;&quot; + n;
-
 // returns &quot;1&quot;
-
 typeof n;
-
 // returns &quot;string&quot;
+```
 
 #### Special character: the &quot;&#92;&#92;&quot;
-
 The &#92;&#92; is useful for &quot;escaping&quot; special characters. Here are a few
 examples:
 
@@ -4963,13 +4999,15 @@ var s = &apos;1&#92;r&#92;n2&apos;;
 
 <h5>&quot;&#92;t&quot; for &quot;insert a tabulation&quot;:</h5>
 
+```
 var s = &quot;1&#92;t2&quot;
-
 // s is equal to
-
 &quot;1 2&quot;
+```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-9">1.5.9 Objects (part 1)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 We have already encountered objects in different examples. You can
 easily recognize these objects:
@@ -5016,7 +5054,7 @@ objects :-)
 &quot;Google Inc.&quot;
 ```
 
-#### You can define your own objects {#you-can-define-your-own-objects .unnumbered}
+#### You can define your own objects
 
 There are many ways to create your own JavaScript objects. For the
 moment, let&apos;s stick to the simplest one, &quot;singleton objects&quot;, and for
@@ -5049,9 +5087,11 @@ Accessing an object&apos;s properties: we use the operator &quot;.&quot;
 }
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-10">1.5.10 Arrays (part 1)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-#### Definition: arrays are containers with indexes  {#definition-arrays-are-containers-with-indexes .unnumbered}
+#### Definition: arrays are containers with indexes
 
 Arrays are a special datatype. You declare arrays using brackets, like
 this:
@@ -5065,7 +5105,7 @@ You can fill them at declaration time:
 2.  var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;
 ```
 
-#### Elements in an array can be accessed using **indexes** {#elements-in-an-array-can-be-accessed-using-indexes .unnumbered}
+#### Elements in an array can be accessed using **indexes**
 
 Each element in an array has an index. **The first element&apos;s index is
 0**, the second element&apos;s index is 1 etc.
@@ -5086,7 +5126,7 @@ the index value followed by &quot;&rbrack;&quot;, as shown in these examples:
 10. 7
 ```
 
-#### Use the length property of an array to know its length {#use-the-length-property-of-an-array-to-know-its-length .unnumbered}
+#### Use the length property of an array to know its length
 
 ```
 1.  var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;,&apos;Friday&apos;, &apos;Saturday&apos;, &apos;Sunday&apos;&rbrack;;
@@ -5102,7 +5142,7 @@ has seven elements, indexed from **0** to **daysOfWeek.length -1**
 array -1) is very, very common, and will prove to be very useful when
 you learn how to iterate on an array&apos;s elements (Week 2).**
 
-#### You can add elements to an array using a new index {#you-can-add-elements-to-an-array-using-a-new-index .unnumbered}
+#### You can add elements to an array using a new index
 
 If you want to add a new element at the end of an array, use the index
 equal to the length of the array
@@ -5124,7 +5164,7 @@ equal to the length of the array
 12. **// Sunday, the 7th day of week is at index 6 !**
 ```
 
-#### Arrays are JavaScript objects! {#arrays-are-javascript-objects .unnumbered}
+#### Arrays are JavaScript objects!
 
 Well, this is not so important for the moment, but look:
 
@@ -5144,33 +5184,26 @@ Well, this is not so important for the moment, but look:
 And indeed, when you write daysOfWeek.length, you are using the array as
 an object, and you are using the length property of array objects.
 
-#### Add an element at the end of an array using the push method {#add-an-element-at-the-end-of-an-array-using-the-push-method .unnumbered}
+#### Add an element at the end of an array using the push method
 
 Since arrays are objects, we can do much more with them - in particular,
 they have more properties and more methods than the push method. You
 will learn more about this in a later lesson (Arrays part 2), but for
 the moment, let&apos;s focus on the most useful features&hellip;
 
+```
 1.  &gt;
     var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;&rbrack;;
-
 2.  undefined
-
 3.  &gt; daysOfWeek.length
-
 4.  6
-
 5.  **&gt; daysOfWeek.push(&apos;Sunday&apos;);**
-
 6.  7
-
 7.  &gt; daysOfWeek
-
 8.  &lbrack;&quot;Monday&quot;, &quot;Tuesday&quot;, &quot;Wednesday&quot;, &quot;Thursday&quot;, &quot;Friday&quot;, &quot;Saturday&quot;, &quot;Sunday&quot;&rbrack;
-
 9.  &gt; daysOfWeek.length
-
 10. 7
+```
 
 #### Arrays and Strings {#arrays-and-strings .unnumbered}
 
@@ -5179,30 +5212,22 @@ Strings are arrays of characters! 
 Consequence:
 
 1.  They are objects too! 
-
 2.  They have a length property,
-
 3.  Each individual character can be accessed using an index.
 
 Examples:
 
+```
 1.  &gt; var s = &apos;one&apos;;
-
 2.  &gt; s&lbrack;0&rbrack;
-
 3.  &quot;o&quot;
-
 4.  &gt; s&lbrack;1&rbrack;;
-
 5.  &quot;n&quot;
-
 6.  &gt; s&lbrack;2&rbrack;;
-
 7.  &quot;e&quot;
-
 8.  &gt; s.length;
-
 9.  3
+```
 
 #### Definition of a function {#definition-of-a-function .unnumbered}
 
@@ -5218,89 +5243,80 @@ Functions always return a value:
 
 #### Declaring a function {#declaring-a-function .unnumbered}
 
+```
 1.  function sum(a, b) {
-
 2.      var c = a + b;
-
 3.      return c;
-
 4.  }
+```
 
 #### Calling a function {#calling-a-function .unnumbered}
 
+```
 1.  var result = sum(1, 2);
-
 2.  //result is equal to 3
-
 3.  console.log(result)
-
 4.  &gt; 3
+```
 
 #### Function parameters {#function-parameters .unnumbered}
 
 If parameters are omitted during the call, JavaScript gives them the
 value undefined:
 
+```
 1.  &gt; sum(1)
-
 2.  NaN
+```
 
 #### Functions with a variable number of parameters {#functions-with-a-variable-number-of-parameters .unnumbered}
 
 An array named &quot;arguments&quot; is created automatically in each function,
 it contains all the call parameters of the function:
 
+```
 1.  function f() {
-
 ```{=html}
+
+```
 <!-- -->
+```
+
 ```
 1.     return arguments;
+```
 
 ```{=html}
 <!-- -->
 ```
+
+```
 1.  }
-
 2.  &hellip;
-
 3.  f();
-
 4.  // returns &lbrack;&rbrack;
-
 5.  &hellip;
-
 6.  f( 1, 2, 3, 4, true, &apos;Michel Buffa&apos;);
-
 7.  // returns &lbrack;1, 2, 3, 4, true, &quot;Michel Buffa&quot;&rbrack;
+```
 
 #### Example of the sum with a variable number of arguments {#example-of-the-sum-with-a-variable-number-of-arguments .unnumbered}
 
+```
 1.  function newSum() {
-
 2.      var i, res = 0;
-
 3.      var numberOfParameters = arguments.length;
-
 4.      for (i = 0; i &lt; numberOfParameters; i++) {
-
 5.         res += arguments&lbrack;i&rbrack;;
-
 6.      }
-
 7.      return res;
-
 8.  }
-
 9.  &hellip;
-
 10. &gt;&gt;&gt; newSum(1, 1, 1);
-
 11. 3
-
 12. &gt;&gt;&gt; newSum(1, 2, 3, 4);
-
 13. 10
+```
 
 ### 1.6.1 Introduction {#introduction .unnumbered}
 
@@ -5425,18 +5441,15 @@ will be turned into a string if the part in front is a string&hellip;
 You can also use parentheses in order to display results of simple
 calculations:
 
+```
 1.  var x = 2;
-
 2.  var y = 4;
-
 3.  console.log(&quot;x = &quot; + x);
-
 4.  console.log(&quot;y = &quot; + y);
-
 5.   
-
 6.  console.log(&quot;The value of (x+y) is &quot; + (x+y) + &quot; and it&apos;s ok
     like that.&quot;);
+```
 
 Result:
 
@@ -5450,7 +5463,7 @@ using the &quot;+&quot; operator.
 And of course, you can use such code in your programs, not only in the
 devtool console :-)
 
-# 1.6.3 Modifying an HTML document {#modifying-an-html-document .unnumbered}
+### 1.6.3 Modifying an HTML document
 
 Don&apos;t worry if we do not explain all the details of this example. In
 the first module, we&apos;re giving you &quot;a taste&quot; of what we can do with
@@ -5498,75 +5511,55 @@ height="2.2583333333333333in"}
 
 HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;UTF-8&quot;&gt;
-
 &lt;title&gt;JavaScript can change CSS properties on the fly&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body onload=&quot;init();&quot;&gt;
-
 &lt;p&gt;Here is a div. Click the button below to change its style!&lt;/p&gt;
-
 &lt;p&gt;
-
 &lt;button onclick=&quot;changeStyle();&quot;&gt;Change style of the div&lt;/button&gt;
-
 &lt;/p&gt;
-
 &lt;div id=&quot;theDiv&quot;&gt;
+```
 
 This is a div!
 
+```
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 CSS
 
+```
 #theDiv {
-
 width:105px;
-
 height:33px;
-
 background-color: pink;
-
 }
+```
 
 JS
 
+```
 var divElem;
-
 function init() {
-
 console.log(&quot;page loaded and DOM is ready&quot;);
-
 // use the selection API to select the div
-
 divElem = document.querySelector(&quot;#theDiv&quot;);
-
 }
-
 function changeStyle() {
-
 console.log(&quot;add border&quot;);
-
 divElem.style.border = &quot;5px dashed purple&quot;;
-
 divElem.style.padding = &quot;10px&quot;;
-
 divElem.style.backgroundColor = &quot;lightGreen&quot;;
-
 }
+```
 
 #### Example #2: change the background image property using an external image {#example-2-change-the-background-image-property-using-an-external-image .unnumbered}
 
@@ -5590,7 +5583,7 @@ example we used pixel units and a percentage, so we need to add the
 &quot;px&quot; and &quot;%&quot; character(s) when we manipulate these properties from
 JavaScript.
 
-# 1.6.5 Adding interactivity with events {#adding-interactivity-with-events .unnumbered}
+### 1.6.5 Adding interactivity with events
 
 With JavaScript, you can react to user interactions (keyboard, mouse,
 gamepad), to changes in the lifecycle of your document (page has just
@@ -5636,7 +5629,7 @@ presented.
 ![](./images/image141.png){width="6.5in"
 height="4.159027777777778in"}
 
-### 1.6.6 Using built-in HTML5 APIs {#using-built-in-html5-apis .unnumbered}
+### 1.6.6 Using built-in HTML5 APIs
 
 Your browser comes with a lot of standard W3C APIs. By standard, we mean
 &quot;parts of HTML5&quot; or real Web standards that will still work in 10
@@ -5649,9 +5642,9 @@ The following example uses some of these APIs, simply to &quot;show the
 possibilities&quot;. Others will be discussed later on in the course, or in
 other W3Cx courses.
 
-### Examples {#examples-3 .unnumbered}
+### Examples
 
-#### Example #1: using the WebCam {#example-1-using-the-webcam .unnumbered}
+#### Example #1: using the WebCam
 
 **CLICK ON THE TOP RIGHT OF THE BELOW WINDOW (on the &quot;Codepen&quot; logo)
 to see this example running**. Due to security restrictions, the webcam
@@ -5663,47 +5656,33 @@ provides many other examples that use the webcam.
 
 HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Using the webcam - Example #1&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;/&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 JS
 
+```
 navigator.mediaDevices.getUserMedia({
-
 audio: false,
-
 video: true
-
 }).then(function(stream) {
-
 var video = document.createElement(&apos;video&apos;);
-
 document.body.appendChild(video);
-
 video.srcObject = stream;
-
 video.play();
-
 }).catch(err =&gt; {
-
 console.log(err)
-
 })
+```
 
 If you want to spend some time having fun with the WebCam, don&apos;t forget
 to try[ the WebCam Toy](https://webcamtoy.com/) demo!
@@ -5718,495 +5697,286 @@ height="4.813194444444444in"}
 
 HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Make music with the WebAudio API - Example #2&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;/&gt;
-
 &lt;script
 src=&quot;https://maps.google.com/maps/api/js?sensor=false&quot;&gt;&lt;/script&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;!&#45;&#45;
+```
 
 I Hope you enjoy this pen, it was a lot of fun to make.
 
 Both mouse and keyboard is supported. However, make sure you click onto
 the preview window before using keyboard.
 
+```
 &#45;-&gt;
-
 &lt;div id=&quot;synth&quot;&gt;
-
 &lt;div id=&quot;oscs&quot;&gt;
-
 &lt;div id=&quot;osc1&quot; class=&quot;osc&quot;&gt;
-
 &lt;h4&gt;Osc 1&lt;/h4&gt;
-
 &lt;div class=&quot;waveForm&quot;&gt;
-
 &lt;h5&gt;Wave Form&lt;/h5&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc1Led0&quot; data-position=&quot;0&quot;
-name=&quot;osc1Led&quot; data-waveform=&quot;sine&quot; data-osc=&quot;1&quot;
-onclick=&quot;setWaveForm(this)&quot;&gt;
-
+  name=&quot;osc1Led&quot; data-waveform=&quot;sine&quot; data-osc=&quot;1&quot;
+  onclick=&quot;setWaveForm(this)&quot;&gt;
 &lt;label for=&quot;osc1Led0&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-src=&quot;https://www.dropbox.com/s/tnzshhffok4n9ux/sine.png?dl=0&raw=1&quot;
-alt=&quot;sine wave&quot;&gt;&lt;/label&gt;
-
+  src=&quot;https://www.dropbox.com/s/tnzshhffok4n9ux/sine.png?dl=0&raw=1&quot;
+  alt=&quot;sine wave&quot;&gt;&lt;/label&gt;
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc1Led1&quot; data-position=&quot;1&quot;
-name=&quot;osc1Led&quot; data-waveform=&quot;square&quot; data-osc=&quot;1&quot;
-onclick=&quot;setWaveForm(this)&quot; checked&gt;
-
+  name=&quot;osc1Led&quot; data-waveform=&quot;square&quot; data-osc=&quot;1&quot;
+  onclick=&quot;setWaveForm(this)&quot; checked&gt;
 &lt;label for=&quot;osc1Led1&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-src=&quot;https://www.dropbox.com/s/vzq1yzkc123cxug/square.png?dl=0&raw=1&quot;
-alt=&quot;square wave&quot;&gt;&lt;/label&gt;
-
+  src=&quot;https://www.dropbox.com/s/vzq1yzkc123cxug/square.png?dl=0&raw=1&quot;
+  alt=&quot;square wave&quot;&gt;&lt;/label&gt;
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc1Led2&quot; data-position=&quot;2&quot;
-name=&quot;osc1Led&quot; data-waveform=&quot;sawtooth&quot; data-osc=&quot;1&quot;
-onclick=&quot;setWaveForm(this)&quot;&gt;
-
+  name=&quot;osc1Led&quot; data-waveform=&quot;sawtooth&quot; data-osc=&quot;1&quot;
+  onclick=&quot;setWaveForm(this)&quot;&gt;
 &lt;label for=&quot;osc1Led2&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-src=&quot;https://www.dropbox.com/s/du33z0m0pxkuxar/sawtooth.png?dl=0&raw=1&quot;
-alt=&quot;sawtooth wave&quot;&gt;&lt;/label&gt;
-
+  src=&quot;https://www.dropbox.com/s/du33z0m0pxkuxar/sawtooth.png?dl=0&raw=1&quot;
+  alt=&quot;sawtooth wave&quot;&gt;&lt;/label&gt;
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc1Led3&quot; data-position=&quot;3&quot;
-name=&quot;osc1Led&quot; data-waveform=&quot;triangle&quot; data-osc=&quot;1&quot;
-onclick=&quot;setWaveForm(this)&quot;&gt;
-
+  name=&quot;osc1Led&quot; data-waveform=&quot;triangle&quot; data-osc=&quot;1&quot;
+  onclick=&quot;setWaveForm(this)&quot;&gt;
 &lt;label for=&quot;osc1Led3&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-src=&quot;https://www.dropbox.com/s/au6p9mn2h8xb0lp/triangle.png?dl=0&raw=1&quot;
-alt=&quot;triangle wave&quot;&gt;&lt;/label&gt;
-
+  src=&quot;https://www.dropbox.com/s/au6p9mn2h8xb0lp/triangle.png?dl=0&raw=1&quot;
+  alt=&quot;triangle wave&quot;&gt;&lt;/label&gt;
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;div class=&quot;buttonDrop&quot;&gt;
-
 &lt;button id=&quot;switchOsc1Wave&quot; data-osc=&quot;1&quot;
-onclick=&quot;setWaveForm(this)&quot;&gt;&lt;/button&gt;
-
+  onclick=&quot;setWaveForm(this)&quot;&gt;&lt;/button&gt;
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;gain&quot;&gt;
-
 &lt;h5&gt;Gain&lt;/h5&gt;
-
 &lt;input id=&quot;osc1Gain&quot; type=&quot;range&quot; min=&quot;0&quot; max=&quot;100&quot;
-value=&quot;100&quot; data-osc=&quot;1&quot;&gt;
-
+  value=&quot;100&quot; data-osc=&quot;1&quot;&gt;
 &lt;/div&gt;
-
 &lt;div class=&quot;octave&quot;&gt;
-
 &lt;h5&gt;Octave&lt;/h5&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc1OctLed0&quot; data-position=&quot;0&quot;
-name=&quot;osc1OctLed&quot; data-osc=&quot;1&quot; onclick=&quot;setOctave(this)&quot; checked&gt;
-
+  name=&quot;osc1OctLed&quot; data-osc=&quot;1&quot; onclick=&quot;setOctave(this)&quot; checked&gt;
 &lt;label for=&quot;osc1OctLed0&quot;&gt;&lt;span&gt;&lt;/span&gt;4&apos;&lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc1OctLed1&quot; data-position=&quot;1&quot;
-name=&quot;osc1OctLed&quot; data-osc=&quot;1&quot; onclick=&quot;setOctave(this)&quot; &gt;
-
+  name=&quot;osc1OctLed&quot; data-osc=&quot;1&quot; onclick=&quot;setOctave(this)&quot; &gt;
 &lt;label for=&quot;osc1OctLed1&quot;&gt;&lt;span&gt;&lt;/span&gt;8&apos;&lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc1OctLed2&quot; data-position=&quot;2&quot;
-name=&quot;osc1OctLed&quot; data-osc=&quot;1&quot; onclick=&quot;setOctave(this)&quot; &gt;
-
+  name=&quot;osc1OctLed&quot; data-osc=&quot;1&quot; onclick=&quot;setOctave(this)&quot; &gt;
 &lt;label for=&quot;osc1OctLed2&quot;&gt;&lt;span&gt;&lt;/span&gt;16&apos;&lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;div class=&quot;buttonDrop&quot;&gt;
-
 &lt;button id=&quot;switchOsc1Octave&quot; data-osc=&quot;1&quot;
-onclick=&quot;setOctave(this)&quot;&gt;&lt;/button&gt;
-
+  onclick=&quot;setOctave(this)&quot;&gt;&lt;/button&gt;
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;fineTune&quot;&gt;
-
 &lt;h5&gt;Fine Tune&lt;/h5&gt;
-
 &lt;input id=&quot;osc1FineTune&quot; type=&quot;range&quot; min=&quot;-10&quot; max=&quot;10&quot;
-value=&quot;0&quot; data-osc=&quot;1&quot; step=&quot;1&quot; list=&quot;range_snap&quot;&gt;
-
+  value=&quot;0&quot; data-osc=&quot;1&quot; step=&quot;1&quot; list=&quot;range_snap&quot;&gt;
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div id=&quot;osc2&quot; class=&quot;osc&quot;&gt;
-
 &lt;h4&gt;Osc 2&lt;/h4&gt;
-
 &lt;div class=&quot;waveForm&quot;&gt;
-
 &lt;h5&gt;Wave Form&lt;/h5&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc2Led0&quot; data-position=&quot;0&quot;
-name=&quot;osc2Led&quot; data-waveform=&quot;sine&quot; data-osc=&quot;2&quot;
-onclick=&quot;setWaveForm(this)&quot;&gt;
-
+  name=&quot;osc2Led&quot; data-waveform=&quot;sine&quot; data-osc=&quot;2&quot;
+  onclick=&quot;setWaveForm(this)&quot;&gt;
 &lt;label for=&quot;osc2Led0&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-src=&quot;https://www.dropbox.com/s/tnzshhffok4n9ux/sine.png?dl=0&raw=1&quot;
-alt=&quot;sine wave&quot;&gt;&lt;/label&gt;
-
+  src=&quot;https://www.dropbox.com/s/tnzshhffok4n9ux/sine.png?dl=0&raw=1&quot;
+  alt=&quot;sine wave&quot;&gt;&lt;/label&gt;
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc2Led1&quot; data-position=&quot;1&quot;
-name=&quot;osc2Led&quot; data-waveform=&quot;square&quot; data-osc=&quot;2&quot;
-onclick=&quot;setWaveForm(this)&quot;&gt;
-
+  name=&quot;osc2Led&quot; data-waveform=&quot;square&quot; data-osc=&quot;2&quot;
+  onclick=&quot;setWaveForm(this)&quot;&gt;
 &lt;label for=&quot;osc2Led1&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-src=&quot;https://www.dropbox.com/s/vzq1yzkc123cxug/square.png?dl=0&raw=1&quot;
-alt=&quot;square wave&quot;&gt;&lt;/label&gt;
-
+  src=&quot;https://www.dropbox.com/s/vzq1yzkc123cxug/square.png?dl=0&raw=1&quot;
+  alt=&quot;square wave&quot;&gt;&lt;/label&gt;
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc2Led2&quot; data-position=&quot;2&quot;
-name=&quot;osc2Led&quot; data-waveform=&quot;sawtooth&quot; data-osc=&quot;2&quot;
-onclick=&quot;setWaveForm(this)&quot; checked&gt;
-
+  name=&quot;osc2Led&quot; data-waveform=&quot;sawtooth&quot; data-osc=&quot;2&quot;
+  onclick=&quot;setWaveForm(this)&quot; checked&gt;
 &lt;label for=&quot;osc2Led2&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-src=&quot;https://www.dropbox.com/s/du33z0m0pxkuxar/sawtooth.png?dl=0&raw=1&quot;
-alt=&quot;sawtooth wave&quot;&gt;&lt;/label&gt;
-
+  src=&quot;https://www.dropbox.com/s/du33z0m0pxkuxar/sawtooth.png?dl=0&raw=1&quot;
+  alt=&quot;sawtooth wave&quot;&gt;&lt;/label&gt;
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc2Led3&quot; data-position=&quot;3&quot;
-name=&quot;osc2Led&quot; data-waveform=&quot;triangle&quot; data-osc=&quot;2&quot;
-onclick=&quot;setWaveForm(this)&quot;&gt;
-
+  name=&quot;osc2Led&quot; data-waveform=&quot;triangle&quot; data-osc=&quot;2&quot;
+  onclick=&quot;setWaveForm(this)&quot;&gt;
 &lt;label for=&quot;osc2Led3&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-src=&quot;https://www.dropbox.com/s/au6p9mn2h8xb0lp/triangle.png?dl=0&raw=1&quot;
-alt=&quot;triangle wave&quot;&gt;&lt;/label&gt;
-
+  src=&quot;https://www.dropbox.com/s/au6p9mn2h8xb0lp/triangle.png?dl=0&raw=1&quot;
+  alt=&quot;triangle wave&quot;&gt;&lt;/label&gt;
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;div class=&quot;buttonDrop&quot;&gt;
-
 &lt;button id=&quot;switchOsc2Wave&quot; data-osc=&quot;2&quot;
-onclick=&quot;setWaveForm(this)&quot;&gt;&lt;/button&gt;
-
+  onclick=&quot;setWaveForm(this)&quot;&gt;&lt;/button&gt;
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;gain&quot;&gt;
-
 &lt;h5&gt;Gain&lt;/h5&gt;
-
 &lt;input id=&quot;osc2Gain&quot; type=&quot;range&quot; min=&quot;0&quot; max=&quot;100&quot;
-value=&quot;100&quot; data-osc=&quot;2&quot;&gt;
-
+  value=&quot;100&quot; data-osc=&quot;2&quot;&gt;
 &lt;/div&gt;
-
 &lt;div class=&quot;octave&quot;&gt;
-
 &lt;h5&gt;Octave&lt;/h5&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc2OctLed0&quot; data-position=&quot;0&quot;
-name=&quot;osc2OctLed&quot; data-osc=&quot;2&quot; onclick=&quot;setOctave(this)&quot;&gt;
-
+  name=&quot;osc2OctLed&quot; data-osc=&quot;2&quot; onclick=&quot;setOctave(this)&quot;&gt;
 &lt;label for=&quot;osc2OctLed0&quot;&gt;&lt;span&gt;&lt;/span&gt;4&apos;&lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc2OctLed1&quot; data-position=&quot;1&quot;
-name=&quot;osc2OctLed&quot; data-osc=&quot;2&quot; onclick=&quot;setOctave(this)&quot;&gt;
-
+  name=&quot;osc2OctLed&quot; data-osc=&quot;2&quot; onclick=&quot;setOctave(this)&quot;&gt;
 &lt;label for=&quot;osc2OctLed1&quot;&gt;&lt;span&gt;&lt;/span&gt;8&apos;&lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;input type=&quot;radio&quot; id=&quot;osc2OctLed2&quot; data-position=&quot;2&quot;
-name=&quot;osc2OctLed&quot; data-osc=&quot;2&quot; onclick=&quot;setOctave(this)&quot; checked&gt;
-
+  name=&quot;osc2OctLed&quot; data-osc=&quot;2&quot; onclick=&quot;setOctave(this)&quot; checked&gt;
 &lt;label for=&quot;osc2OctLed2&quot;&gt;&lt;span&gt;&lt;/span&gt;16&apos;&lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;ledLabel&quot;&gt;
-
 &lt;div class=&quot;buttonDrop&quot;&gt;
-
 &lt;button id=&quot;switchOsc2Octave&quot; data-osc=&quot;2&quot;
-onclick=&quot;setOctave(this)&quot;&gt;&lt;/button&gt;
-
+  onclick=&quot;setOctave(this)&quot;&gt;&lt;/button&gt;
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;fineTune&quot;&gt;
-
 &lt;h5&gt;Fine Tune&lt;/h5&gt;
-
 &lt;input id=&quot;osc2FineTune&quot; type=&quot;range&quot; min=&quot;-10&quot; max=&quot;10&quot;
-value=&quot;0&quot; data-osc=&quot;2&quot; step=&quot;1&quot; list=&quot;range_snap&quot;&gt;
-
+  value=&quot;0&quot; data-osc=&quot;2&quot; step=&quot;1&quot; list=&quot;range_snap&quot;&gt;
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;datalist id=&quot;range_snap&quot;&gt;
-
 &lt;option value=&quot;0&quot;&gt;
-
 &lt;/datalist&gt;
-
 &lt;/div&gt;
-
 &lt;br&gt;
-
 &lt;div id=&quot;pianoKeys&quot;&gt;&lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 CSS
 
+```
 #synth
-
 {
-
 padding:20px;
-
 background: #2b2b2b;
-
 width:968px;
-
 height:570px;
-
 box-shadow: 2px 2px 10px black;
-
 margin:auto;
-
 position: relative;
-
 }
-
 #synth:before
-
 {
-
 content:&quot;&quot;;
-
 width:968px;
-
 height:5%;
-
 background: #2b2b2b;
-
 position: absolute;
-
 left:20px;
-
 top:325px;
-
 box-shadow: 0px 5px 5px black;
-
 }
-
 #synth:after
-
 {
-
 content:&quot;&quot;;
-
 width:980px;
-
 height:5%;
-
 background: #2b2b2b;
-
 position: absolute;
-
 left:15px;
-
 top:325px;
-
 }
-
 h4, h5 {
-
 line-height: 0em;
-
 }
-
 datalist
-
 {
-
 display: block;
-
 }
-
 .waveForms li
-
 {
-
 list-style: none;
-
 margin:10px -25px;
-
 }
-
 .white
-
 {
-
 border: 2px groove black;
-
 height: 250px;
-
 width: 40px;
-
 float: left;
-
 position: relative;
-
 cursor: pointer;
-
 box-shadow: 0px 2px 5px black;
-
 background: linear-gradient(85deg, rgba(188,188,188,1)
 0%,rgba(255,255,255,1) 0%,rgba(247,247,247,1) 100%);
-
 }
-
 .white.keyDown
-
 {
-
 background: linear-gradient(89deg, rgba(76,76,76,1)
 0%,rgba(255,255,255,1) 10%,rgba(247,247,247,1) 100%);
-
 transition: all 0.2s;
-
 }
-
 .black
-
 {
-
 border: 1px solid black;
-
 height: 150px;
-
 width: 20px;
-
 position: absolute;
-
 top:0;
-
 right:-12px;
-
 background:black;
-
 color:white;
-
 z-index: 10;
-
 box-shadow: 2px 2px 2px black;
-
 background: linear-gradient(to bottom, rgba(28,28,28,1)
 0%,rgba(63,63,63,1) 100%);
-
 }
-
 #pianoKeys p
-
 {
-
 width:100%;
-
 position: absolute;
-
 bottom: 0;
-
 text-align: center;
-
 }
-
 #pianoKeys
-
 {
-
 margin-top: 20px;
-
 clear:both;
-
 width:100%;
-
 }
 #blackKeys
 {
