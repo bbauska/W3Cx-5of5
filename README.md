@@ -694,7 +694,7 @@ define key parts of what actually makes the World Wide Web work.
 <h4>Shape the future</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 26. w3c web incubator community group logo (17) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="left" width="100%">
 <img src="./images/image026.png?raw=true"
   style="width:20%"
   title="W3Cx JS logo"
@@ -721,7 +721,7 @@ define key parts of what actually makes the World Wide Web work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 27. tim berners-lee at his desk in cern, switzerland (17) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image027.png?raw=true"
+<img src="./images/image027.jpeg?raw=true"
   style="width:20%"
   title="Tim Berners-Lee at his desk in CERN, Switzerland 1994"
   alt="Tim Berners-Lee at his desk in CERN, Switzerland 1994." />
@@ -810,14 +810,18 @@ article](https://www.lifewire.com/difference-between-the-internet-and-the-web-24
 more details about the difference between Internet and the Web.
 
 <h4>Check also this reminder ;)</h4>
-
-<a href="./images/image028.jpeg">First photo: Tim Berners-Lee is on the left wearing a black shirt that 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 28. tim berners-lee & fake vint cert on the right (17) ~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="50%">
+<img src="./images/image028.jpeg?raw=true"
+  style="width:20%"
+  title="Tim Berners-Lee invented the WEB &amp; DARPA invented the Internet"
+  alt="Tim Berners-Lee invented the WEB &amp; DARPA invented the Internet." />
+First photo: Tim Berners-Lee is on the left wearing a black shirt that 
 says "I didn't invent the Internet" and Vint Cerf on the right wearing a black 
-shirt that says "I did not invent the Web". Second photo: Both facing backwards, 
+shirt that says "I did not invent shit. DARPA did.". Second photo: Both facing backwards, 
 Tim Berners-Lee is on the left wearing a black shirt that says "I invented the Web" 
-and Vint Cerf on the right wearing a black shirt that says "I invented the Internet".</a>
-
-<!-- (./images/image028.jpeg){width="4.0in" height="2.252136920384952in"} -->
+and Vint Cerf on the right incorrectly wearing a black shirt that says "I invented the Internet".</p>
 
 The W3C community is passionate about creating free and open Web
 standards. The next video, created in partnership with Microsoft,
