@@ -93,31 +93,31 @@ designers. JavaScript lets you add interactive features to your Web
 sites, including dynamically updated content, controlled multimedia,
 animated images, and much more.</p>
 
--   In **Module 1**, we present the basics of JavaScript by the way of
+-   In <b>Module 1</b>, we present the basics of JavaScript by the way of
     many examples. We also show how to use the browser devtools, a
     powerful, built-in set of tools that represent the Swiss army knife
     of any Web developer.
 
--   In **Module 2**, you&apos;ll learn about conditional statements, logical
+-   In <b>Module 2</b>, you&apos;ll learn about conditional statements, logical
     operators, loops and how to detect events. We will introduce the DOM
     API and the selector API (for selecting elements in the DOM). At the
     end of this module, armed with this new knowledge, we&apos;ll write a
     small game together.
 
--   **Module 3** is more &quot;project oriented&quot;, and less focused on
+-   <b>Module 3</b> is more &quot;project oriented&quot;, and less focused on
     fundamental concepts. Discover the audio and video APIs, and other
     cool HTML5 APIs. You will play with sound samples and music, and
     this is going to be useful to put a music background and/or sound
     effects to the game you started to develop in Module 2!
 
--   **Module 4** is about structuring data with a focus on JavaScript
+-   <b>Module 4</b> is about structuring data with a focus on JavaScript
     Object Oriented Programming. As with many other programming
     languages, JavaScript objects can be compared to real-life objects.
     Learn how to create your own classes and multiples objects from the
     same class. And experiment it all by doing one or more optional
     projects!
 
--   **Module 5** is the last module of the course! Let&apos;s enhance
+-   <b>Module 5</b> is the last module of the course! Let&apos;s enhance
     interactivity of past projects by adding forms. To put into
     practice, let&apos;s develop a mini contact manager that load/save its
     data using the JSON format.
@@ -222,15 +222,15 @@ HTML5, CSS and JavaScript.</p>
 
 <h4>The W3C FEWD program is composed of 5 courses:</h4>
 
-1.  [**CSS Basics**](https://www.edx.org/course/css-basics)
+1.  [<b>CSS Basics</b>](https://www.edx.org/course/css-basics)
 
-2.  [**HTML5 and CSS Fundamentals**](https://www.edx.org/course/html5-and-css-fundamentals)
+2.  [<b>HTML5 and CSS Fundamentals</b>](https://www.edx.org/course/html5-and-css-fundamentals)
 
-3.  [**HTML5 Coding Essentials and Best Practices**](https://www.edx.org/course/html5-coding-essentials-and-best-practices)
+3.  [<b>HTML5 Coding Essentials and Best Practices</b>](https://www.edx.org/course/html5-coding-essentials-and-best-practices)
 
-4.  [**HTML5 Apps and Games**](https://www.edx.org/course/html5-apps-and-games)
+4.  [<b>HTML5 Apps and Games</b>](https://www.edx.org/course/html5-apps-and-games)
 
-5.  <b>This course</b>: [**JavaScript Introduction**](https://www.edx.org/course/javascript-introduction)
+5.  <b>This course</b>: [<b>JavaScript Introduction<b>](https://www.edx.org/course/javascript-introduction)
 
 <p><b>To get a W3C FEWD professional certificate, you must successfully pass 
 and receive a Verified Certificate in the five courses above</b>.</p>
@@ -830,21 +830,21 @@ Web Platform, as well as to help shape the Web of the future.
 
 <h4>Why accessibility is important</h4>
 
-*The power of the Web is in its universality. Access by everyone
+The power of the Web is in its universality. Access by everyone
 regardless of disability is an essential aspect.
-***Tim Berners-Lee, W3C Director and inventor of the World Wide Web**
+<b>Tim Berners-Lee, W3C Director and inventor of the World Wide Web</b>
 
 When websites and web tools are properly designed and coded, people with
 disabilities can use them. However, currently many sites and tools are
 developed with accessibility barriers that make them difficult or
 impossible for some people to use.
 
-**Accessibility is essential for developers and organizations that want
+<b>Accessibility is essential for developers and organizations that want
 to create high-quality websites and web tools, and not exclude people
-from using their products and services.**
+from using their products and services.</b>
 
 Making the web accessible benefits people with and
-w**ithout** disabilities, businesses, and society. Accessibility is an
+w<b>ithout</b> disabilities, businesses, and society. Accessibility is an
 important aspect of diversity, equity, and inclusion (DEI).
 
 [Video Introduction to Web Accessibility and W3C
@@ -858,16 +858,16 @@ Web accessibility addresses all disabilities, including hearing,
 learning and cognitive, neurological, physical, speech, and visual
 disabilities. Some examples of Web accessibility features include:
 
--   **Captions** on audio and multimedia content for people who are hard
+-   <b>Captions</b> on audio and multimedia content for people who are hard
     of hearing;
 
--   **Clear and consistent layout** for people with learning and
+-   <b>Clear and consistent layout</b> for people with learning and
     cognitive disabilities;
 
--   **Keyboard support** for people with physical disabilities and do
+-   <b>Keyboard support</b> for people with physical disabilities and do
     not use a mouse;
 
--   **Text alternatives** for people with visual disabilities and using
+-   <b>Text alternatives</b> for people with visual disabilities and using
     screen readers;
 
 <h4>Web accessibility benefits people with and <b>without</b> disabilities</h4>
@@ -918,7 +918,7 @@ within the &lt;head&gt;.
 content of a page, and that it distinguishes the page from other Web
 pages.
 
-<h5>**Example**:</h5>
+<h5><b>Example</b>:</h5>
 
 ```
 > &lt;head&gt;
@@ -942,9 +942,9 @@ rendered in a variety of ways by a variety of user agents. For example,
 a person who cannot see a picture can have the text alternative read
 aloud using synthesized speech.
 
-<h4>**Check #2: Every image has **alt** with appropriate alternative text.**</h4>
+<h4><b>Check #2: Every image has </b>alt<b> with appropriate alternative text.</b></h4>
 
-**Example**: See the W3C logo below. It contains a link that points to
+<b>Example</b>: See the W3C logo below. It contains a link that points to
 the W3C Web site. The text alternative is going to be a brief
 description of the link target.
 
@@ -1022,15 +1022,15 @@ differently for different cultures, where needed. Let&apos;s meet the words
 
 <h4>Example 1: Character encoding declaration</h4>
 
-A character encoding declaration is **vital to ensure that the text in
-your page is recognized by browsers around the world**, and not garbled.
+A character encoding declaration is <b>vital to ensure that the text in
+your page is recognized by browsers around the world</b>, and not garbled.
 You will learn more about what this is, and how to use it as you work
 through the course.  For now, just ensure that it&apos;s always there.
 
-**Check #1: There is a character encoding declaration near the start of
-your source code, and  its value is UTF-8.**
+<b>Check #1: There is a character encoding declaration near the start of
+your source code, and  its value is UTF-8.</b>
 
-<h4>**Example 1**:</h4>
+<h4><b>Example 1</b>:</h4>
 
 ```
 &lt;head&gt;
@@ -1044,15 +1044,15 @@ your source code, and  its value is UTF-8.**
 For a wide variety of reasons, it&apos;s important for a browser to know
 what language your page is written in, including font selection,
 text-to-speech conversion, spell-checking, hyphenation and automated
-line breaking, text transforms, automated translation, and more. **You
+line breaking, text transforms, automated translation, and more. <b>You
 should always indicate the primary language of your page in the &lt;html&gt;
-tag**. Again you will learn how to do this during the course.  You will
+tag</b>. Again you will learn how to do this during the course.  You will
 also learn how to change the language, where necessary, for parts of
 your document that are in a different language.
 
-<h5>**Check #2: The HTML tag has a lang attribute which correctly indicates the language of your content.**</h5>
+<h5><b>Check #2: The HTML tag has a lang attribute which correctly indicates the language of your content.</b></h5>
 
-<h5>**Example 2**: This indicates that the page is in French.</h5>
+<h5><b>Example 2</b>: This indicates that the page is in French.</h5>
 
 ```
 &lt;!doctype html&gt;
@@ -1075,9 +1075,9 @@ details, you will quickly find that your assumptions about how personal
 names and addresses work are very different from those of people from
 other cultures.
 
-**Check #3: If your content will be seen by people from diverse
+<b>Check #3: If your content will be seen by people from diverse
 cultures, check that your cultural references will be recognized and
-that there is no inappropriate cultural bias.**
+that there is no inappropriate cultural bias.</b>
 
 <h4>Don&apos;t worry!</h4>
 
@@ -1085,28 +1085,28 @@ The following 7 quick tips summarize some important concepts of
 international Web design. They will become more meaningful as you work
 through the course, so come back and review this page at the end.
 
-1.  **Encoding**: use the UTF-8 (Unicode) character encoding for
+1.  <b>Encoding</b>: use the UTF-8 (Unicode) character encoding for
     content, databases, etc. Always declare the encoding.
 
-2.  **Language**: declare the language of documents and indicate
+2.  <b>Language</b>: declare the language of documents and indicate
     internal language changes.
 
-3.  **Navigation**: on each page include clearly visible navigation to
+3.  <b>Navigation</b>: on each page include clearly visible navigation to
     localized pages or sites, using the target language.
 
-4.  **Escapes**: use characters rather than escapes (e.g. &#xE1; &#225;
+4.  <b>Escapes</b>: use characters rather than escapes (e.g. &#xE1; &#225;
     or &aacute;) whenever you can.
 
-5.  **Forms**: use UTF-8 on both form and server. Support local formats
+5.  <b>Forms</b>: use UTF-8 on both form and server. Support local formats
     of names/addresses, times/dates, etc.
 
-6.  **Localizable styling**: use CSS styling for the presentational
+6.  <b>Localizable styling</b>: use CSS styling for the presentational
     aspects of your page. So that it&apos;s easy to adapt content to suit
     the typographic needs of the audience, keep a clear separation
     between styling and semantic content, and don&apos;t use
     &apos;presentational&apos; markup.
 
-7.  **Images, animations & examples**: if your content will be seen by
+7.  <b>Images, animations & examples</b>: if your content will be seen by
     people from diverse cultures, check for translatability and
     inappropriate cultural bias.
 
@@ -1179,14 +1179,14 @@ discover how JavaScript is useful.
     code, find errors, print traces of what a JavaScript program is
     doing etc.
 
-**A word of caution**: you will not learn JavaScript in full detail in
+<b>A word of caution</b>: you will not learn JavaScript in full detail in
 this course! This is an introductory course designed to help
 you understand the basic concepts of the language.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-0">1.2.0 HTML is for structure</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>The &quot;**H**yper **T**ext&quot; part: links!</h4>
+<h4>The &quot;<b>H</b>yper <b>T</b>ext&quot; part: links!</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. html5 logo (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -1195,7 +1195,7 @@ you understand the basic concepts of the language.
   title="HTML5 logo"
   alt="HTML5 logo." />
 A fundamental key to the World Wide Web is the concept of
-&quot;**hypertext**&quot;. Hypertext is built on the idea of linking information
+&quot;<b>hypertext</b>&quot;. Hypertext is built on the idea of linking information
 together, not unlike using footnotes, but far easier and more flexible.
 The idea is to &quot;mark up&quot; your document with links and define how to
 break it down into different segments (chapters, sections, paragraphs,
@@ -1683,7 +1683,7 @@ finished, so it should break the line there before going on to whatever
 is next.
 
 For example, the &quot;&lt;em&gt;&quot; tag is used for element that
-needs **Em**phasis.  The  &quot;&lt;&quot; and &quot;&gt;&quot; indicate that this is a tag,
+needs <b>Em</b>phasis.  The  &quot;&lt;&quot; and &quot;&gt;&quot; indicate that this is a tag,
 and the &quot;little bits of text&quot; in between tell us what kind of tag it
 is.  To completely describe the element, it needs an open and close
 tag, and everything in between the tags is the contents of the element:
@@ -1792,7 +1792,7 @@ using some of the most common HTML tags. I will use an online tool for
 doing that. Like that, you will see some live preview of what I&apos;m
 doing. I&apos;m using &quot;jsbin.com&quot;, and I will work on the HTML part of the
 editor, and you will see in the output part the results of what I&apos;m
-doing. **JSBin** created for me a first template. Most common HTML5
+doing. <b>JSBin</b> created for me a first template. Most common HTML5
 starts with &lt;!DOCTYPE html&gt;, that tells the browser that the file is
 going to render will be an HTML5 file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1856,7 +1856,7 @@ page&quot;. This is a heading 1, and you&apos;ve got 6 levels for typing titles.
 And also very common, is a paragraph: &lt;p&gt;, &lt;/p&gt;, I typed the opening
 and closing tags. And I enter &quot;this is a paragraph&quot;. I write a
 subheading h2: &quot;My hobbies are:&quot;. Ok, you see that the size of
-headings **is** different here. And if, in the paragraph, if I go to the
+headings <b>is</b> different here. And if, in the paragraph, if I go to the
 next line, this doesn&apos;t have an effect here.
 
 The only return to the next line I can do is, either write another
@@ -1875,7 +1875,7 @@ the next line.
 <!-- ![](./images/image057.png){width="6.0in" height="3.3788462379702535in"} -->
 
 If I want to enumerate my hobbies, a very common practice is to use
-lists. In HTML, you&apos;ve got an **unnumbered list** that are composed of
+lists. In HTML, you&apos;ve got an <b>unnumbered list</b> that are composed of
 list items. For example: &quot;I play guitar&quot;, &quot;I code video games&quot;.
 These are my hobbies. &quot;I like movies&quot;, etc. If I want, instead of an
 unnumbered list, a numbered list, I can use an order list.
@@ -1899,15 +1899,15 @@ description of an image, and this is a good practice. I&apos;m going to
 insert a picture of Leonardo Di Caprio in this example.
 
 And you&apos;ve got other different attributes that will not be detailed
-this time but I recommend you to follow the HTML5 intro. **C**ourse
-**a**nd the other course about HTML5 provided by the W3Cx. In order to
-indicate which **image,** I want in this page, I need to use the &quot;src&quot;
+this time but I recommend you to follow the HTML5 intro. <b>C</b>ourse
+<b>a</b>nd the other course about HTML5 provided by the W3Cx. In order to
+indicate which <b>image,</b> I want in this page, I need to use the &quot;src&quot;
 attribute that will take as a value the URL of the image.
 
 For this example, I&apos;m using the images.google.com for finding an image
 of Leonardo. I pick an image of Leonardo. I display the image and
-**I've** got the URL, here, in the address bar. I just copy and
-**paste** it and **I've** got Leonardo Di Caprio in my document.
+<b>I've</b> got the URL, here, in the address bar. I just copy and
+<b>paste</b> it and <b>I've</b> got Leonardo Di Caprio in my document.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-5">1.2.5 CSS is for style (1:34)</h3>
@@ -1966,7 +1966,7 @@ indicate a box-shadow.
 </p>
 <!-- ![CSS logo](./images/image061.png){width="4.0in" height="2.255985345581802in"} -->
 
-CSS, or **C**ascading **S**tyle **S**heets, is a style sheet language
+CSS, or <b>C</b>ascading <b>S</b>tyle <b>S</b>heets, is a style sheet language
 used to describe the way an HTML or XML document should look to a user.
 CSS is where you specify the color, size, spacing, font and other visual
 aspects of the content that you create in your markup language document.
@@ -1978,7 +1978,7 @@ why almost every Web page is a combination of HTML and CSS.
 
 ### CSS • /si-ɛs-ɛs/ • *noun *
 
-Stands for &quot;**C**ascading **S**tyle **S**heets&quot;. A style sheet
+Stands for &quot;<b>C</b>ascading <b>S</b>tyle <b>S</b>heets&quot;. A style sheet
 language for describing how to display an HTML document.
 
 ### Let&apos;s look at an example!
@@ -2024,14 +2024,14 @@ horizontally, on a light green background, with a violet border of 12
 pixels (a solid border, not a dashed one), and this border has rounded
 corners made of arcs of a circle whose radius is 15 pixels.
 
-The part before the opening brace (**line 1**) is the &quot;CSS selector&quot;,
+The part before the opening brace (<b>line 1</b>) is the &quot;CSS selector&quot;,
 it indicates the elements that have their properties changed according
 to what is inside the braces.
 
 The part inside the braces is a set of properties and values that are
 useful for setting the look and feel of the selected elements.
 
-**Line 2** for example, says that all h1s is colored in red.
+<b>Line 2</b> for example, says that all h1s is colored in red.
 
 <h4>CSS rules are applied in sequence</h4>
 
@@ -2094,19 +2094,19 @@ https://codepen.io/w3devcampus/pen/ZLGWQJ
 The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
 in our case it&apos;s the second h2 element:
 
-1.  &lt;h2 **id=&quot;hobbyTitle&quot;**&gt;My Hobbies&lt;/h2&gt;
+1.  &lt;h2 <b>id=&quot;hobbyTitle&quot;</b>&gt;My Hobbies&lt;/h2&gt;
 
 <h5>And here is the CSS rule:</h5>
 
 ```
-1.  **#hobbyTitle** {
+1.  <b>#hobbyTitle</b> {
 2.    font-family: &apos;caveat&apos;;
 3.    font-size:40px;
 4.    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 5.  }
 ```
 
-**Line 1** uses the &quot;#&quot; character in the selector, meaning that we&apos;re
+<b>Line 1</b> uses the &quot;#&quot; character in the selector, meaning that we&apos;re
 going to select an element by its id attribute. In this case, the
 selector equal to #hobbyTitle, selects the element that has an
 attribute id=&quot;hobbyTitle&quot;.
@@ -2121,8 +2121,8 @@ using a &lt;link&gt; tag in the HTML part of the document:
 1.  &lt;head&gt;
 2.  &lt;title&gt;Your first HTML page&lt;/title&gt;
 3.  &lt;meta charset=&quot;utf-8&quot;/&gt;
-4.  **&lt;link href=&quot;https://fonts.googleapis.com/css?family=Caveat&quot;**
-5.  **rel=&quot;stylesheet&quot;&gt;**
+4.  <b>&lt;link href=&quot;https://fonts.googleapis.com/css?family=Caveat&quot;</b>
+5.  <b>rel=&quot;stylesheet&quot;&gt;</b>
 6.  &lt;/head&gt;
 ```
 
@@ -2131,7 +2131,7 @@ attribute class=&quot;funny&quot;. Notice they can be different elements, we ca
 have a p and an h3 element that have the class=&quot;funny&quot; attribute:
 
 ```
-1.  **.funny **{
+1.  <b>.funny </b>{
 2.  color:purple;
 3.  font-family: &apos;caveat&apos;;
 4.  font-size:40px;
@@ -2347,7 +2347,7 @@ click, I change the content of the heading. That was previously equal to
 'My home page', and then when I clicked on the button, (this is an HTML
 button), this is how in Javascript we can indicate that we are going to
 do something when you click on it. In that case, it means call the
-function named &quot;**changeTitle**&quot; and the function is here defined
+function named &quot;<b>changeTitle</b>&quot; and the function is here defined
 between &lt;script&gt; and &lt;/script&gt; elements.
 
 In this example, the Javascript lies inside the HTML file and the
@@ -2371,7 +2371,7 @@ this example, I click on the button. And instead of modifying the
 content of the page, I just change the look and feel. I change the CSS
 style of the heading. If we look at the code quickly without going into
 details: when I click on the button &quot;button onclick&quot;, I call the
-&quot;**changeTitleCSSStyle**&quot; function.
+&quot;<b>changeTitleCSSStyle</b>&quot; function.
 
 In this function will use the &quot;style&quot; attribute of some elements that
 correspond to the heading 1 and it will indicate that we want the text
@@ -2547,8 +2547,8 @@ Explorer 3 in 1996 -- It was a dud).
   alt="Snapshot of a web page in Netscape Navigator 2." />
 </p>
 
-**Netscape Navigator 2 in 1996, with big buttons and plain HTML pages
-(CSS did not exist at that time)**
+<b>Netscape Navigator 2 in 1996, with big buttons and plain HTML pages
+(CSS did not exist at that time)</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 88. snapshot of a web page in internet explorer (67) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2558,8 +2558,8 @@ Explorer 3 in 1996 -- It was a dud).
   alt="Snapshot of a web page in IE 3." />
 </p>
 
-**Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
-did not exist at this time!**
+<b>Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
+did not exist at this time!</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. ecma logo (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
@@ -2585,13 +2585,13 @@ What about ES6/ES2015/ES2016/ES2017/ ES2018/ES2019/ES2020/ES2021/ES2022?
 Are these the new names of JavaScript?<br>
 Since 1996, multiple versions of JavaScript have appeared. For a long
 time, the stable version supported by all major browsers deployed on
-computers and smartphones was **EcmaScript version 5 from 2010**, but in
+computers and smartphones was <b>EcmaScript version 5 from 2010</b>, but in
 2015, a new version known first as EcmaScript 6 or ES 2015 came out with
 lots of new features (classes, etc.). Since then, every year a new
 version is published, with some adjustments/novelties.  The latest
 official version is ES2021.<br>
-**Back in 2015, ES2015 was a pseudonym for the 6th version of the
-JavaScript** programming language to be approved by ECMA International,
+<b>Back in 2015, ES2015 was a pseudonym for the 6th version of the
+JavaScript</b> programming language to be approved by ECMA International,
 the standards group responsible for vetting and approving different
 versions of the language. In June 2015, ECMA International approved the
 6th edition of the language. The name, ES2015, was used because the
@@ -2613,14 +2613,14 @@ The new open development process adopted by the ECMA TC39 committee
 decided that every year, a new version will occur. This annual
 publication rate has been effective since 2015.
 
-The current edition of the ECMA-262 standard is **the 13th edition,
-published in June 2022 and is known as ES2022**.
+The current edition of the ECMA-262 standard is <b>the 13th edition,
+published in June 2022 and is known as ES2022</b>.
 
-**Beware**: even on recent Web browsers the whole supported feature
+<b>Beware</b>: even on recent Web browsers the whole supported feature
 sets of the latest versions are generally not completely implemented, as
 it takes time for browser vendors to follow the standards!
 
-<h4>**Current support for ES2020/ 11th version (June 2020):**</h4>
+<h4><b>Current support for ES2020/ 11th version (June 2020):</b></h4>
 
 There is no easy-to-read table of current browser global support, but
 caniuse.com can be used to check feature by feature which browsers
@@ -2642,8 +2642,8 @@ as [Babel](https://babeljs.io/),  that can turn ESxxxx source code into
 ES5 code that can be run in nearly any browser, but they are tricky to
 use and not for beginners).
 
-**We will cover all the important features of the last version that are
-relevant for an intro course**. 
+<b>We will cover all the important features of the last version that are
+relevant for an intro course</b>. 
 
 <h4>Is JavaScript an important language to learn? What about Java, PHP, C#, 
 Python, Ruby and all the others?</h4>
@@ -2996,8 +2996,8 @@ Then, looking at the JavaScript code of the example (click the JS button
 on the CodePen example), we see:
 
 ```
-1.  functionPlot(**{**
-2.  **target: &apos;#myFunction&apos;,**
+1.  functionPlot(<b>{</b>
+2.  <b>target: &apos;#myFunction&apos;,</b>
 3.  <b>data: &lbrack;{</b>
 4.  <b>fn: &apos;sin(x)&apos;,</b>
 5.  <b>color: &apos;red&apos;</b>
@@ -3263,16 +3263,16 @@ height="2.9611111111111112in"}
 
 https://codepen.io/w3devcampus/pen/pREjaE
 
-This first example used **the selector API** for selecting a particular
-element in the document (the main title) and ***the DOM API*** for
+This first example used <b>the selector API</b> for selecting a particular
+element in the document (the main title) and <b><i>the DOM API</i></b> for
 modifying its content.
 
-An API is an ***application programming interface***. In the case of
+An API is an <b><i>application programming interface</i></b>. In the case of
 JavaScript, the DOM API is implemented natively by the browser, and you
 can call several functions/methods or access properties of the DOM:  an
 object that represents the document (the Web page). 
 
-It uses **the selector API** to target a particular part of the DOM (in
+It uses <b>the selector API</b> to target a particular part of the DOM (in
 our case, the main title of the page), the HTML element with
 an id attribute equal to &quot;mainTitle&quot;. The selector API uses the same
 syntax as CSS to select elements in the document. In our case,
@@ -3281,23 +3281,23 @@ equal to mainTitle&quot;.
 
 var title = document.querySelector(&quot;#mainTitle&quot;);
 
-It uses **the DOM API** to change the HTML content of the selected
+It uses <b>the DOM API</b> to change the HTML content of the selected
 element:
 
 title.innerHTML = &quot;This new title has been changed from JavaScript!&quot;;
 
-**It listens to click events** in order to call
+<b>It listens to click events</b> in order to call
 the changeTitle() function when we click on the button:
 
-1.  &lt;button **onclick=&quot;changeTitle();**&quot;&gt;Click me to change the
+1.  &lt;button <b>onclick=&quot;changeTitle();</b>&quot;&gt;Click me to change the
     title of the page&lt;/button&gt;
 
-And it executes the whole action (changing the title text) in** a
-function** (a block of code that is executed only when we call it by
+And it executes the whole action (changing the title text) in<b> a
+function</b> (a block of code that is executed only when we call it by
 adding a parenthesis after its name, followed by a semi colon):
 
 ```
-**function changeTitle()** {
+<b>function changeTitle()</b> {
 var title = document.querySelector(&quot;#mainTitle&quot;);
 title.innerHTML = &quot;This new title has been changed from JavaScript!&quot;;
 }
@@ -3310,16 +3310,16 @@ https://codepen.io/w3devcampus/pen/bgwVvN
 
 The second example is nearly the same except that we changed the name of
 the function, and instead of using the DOM API to update the text
-content of the main title, **we use its style property to change its
+content of the main title, <b>we use its style property to change its
 look and feel. Using the style property is a way of altering the CSS
-property values of this HTML element.**
+property values of this HTML element.</b>
 
 ```
 function changeTitleCSSStyle() {
 var title = document.querySelector(&quot;#mainTitle&quot;);
-**title.style.color = &apos;black&apos;;**
-**title.style.backgroundColor = &quot;yellow&quot;;**
-**title.style.border = &quot;5px dashed red&quot;;**
+<b>title.style.color = &apos;black&apos;;</b>
+<b>title.style.backgroundColor = &quot;yellow&quot;;</b>
+<b>title.style.border = &quot;5px dashed red&quot;;</b>
 }
 ```
 
@@ -3356,9 +3356,9 @@ orientation (on mobile devices), accessing the webcam or the microphone,
 etc. In a later section we will provide a set of examples that use some
 of the most useful APIs provided by your Web browser.
 
-Example of an HTML page that embeds an interactive OpenStreet Map (**you
+Example of an HTML page that embeds an interactive OpenStreet Map (<b>you
 need to click the CodePen logo on top right to run this example. For
-security reasons it cannot be run inside this course page**).
+security reasons it cannot be run inside this course page</b>).
 
 ![](./images/image097.png){width="6.5in"
 height="2.0819444444444444in"}
@@ -3428,8 +3428,8 @@ height="3.2777777777777777in"}
 https://codepen.io/w3devcampus/pen/ZLBPpY
 
 Old JavaScript examples may use a type attribute:
-&lt;script **type=&quot;text/javascript&quot;**&gt;.
-**The type attribute is now obsolete and should be ignored.**
+&lt;script <b>type=&quot;text/javascript&quot;</b>&gt;.
+<b>The type attribute is now obsolete and should be ignored.</b>
 
 <h4>Second variant: in the &lt;head&gt;&hellip;&lt;/head&gt; of the document</h4>
 
@@ -3441,15 +3441,15 @@ a button is clicked:
 
 <pre><code>
 &lt;head&gt;
-**&lt;script&gt;**
-**function addSomeText() {**
-**// append a message in the body of the html document**
-**document.body.innerHTML += &quot;&lt;br&gt;Function executed!&quot;;**
-**}**
-**&lt;/script&gt;**
+<b>&lt;script&gt;</b>
+<b>function addSomeText() {</b>
+<b>// append a message in the body of the html document</b>
+<b>document.body.innerHTML += &quot;&lt;br&gt;Function executed!&quot;;</b>
+<b>}</b>
+<b>&lt;/script&gt;</b>
 &lt;/head&gt;
 &lt;body&gt;
-&lt;button **onclick=&quot;addSomeText();&quot;**&gt;Click me to call a JavaScript function that will add
+&lt;button <b>onclick=&quot;addSomeText();&quot;</b>&gt;Click me to call a JavaScript function that will add
 some content to this document
 &lt;/button&gt;
 &lt;/body&gt;
@@ -3482,11 +3482,11 @@ A typical example:
 1.  &lt;head&gt;
 2.  &hellip;
 3.  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
-4.  **&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;**
+4.  <b>&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;</b>
 5.  &lt;/head&gt;
 ```
 
-**To use an external JavaScript file:**
+<b>To use an external JavaScript file:</b>
 
 1.  In the HTML, put the name of the script file in the src (source)
     attribute of a &lt;script&gt; tag, like in the typical example above,
@@ -3509,10 +3509,10 @@ Example that uses more than one JavaScript file:
 1.  &lt;head&gt;
 2.  &hellip;
 3.  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
-4.  **&lt;script src=&quot;js/script1.js&quot;&gt;&lt;/script&gt;**
-5.  **&lt;script src=&quot;js/script2.js&quot;&gt;&lt;/script&gt;**
-6.  **&lt;script src=&quot;js/anotherOne.js&quot;&gt;&lt;/script&gt;**
-7.  **&hellip;**
+4.  <b>&lt;script src=&quot;js/script1.js&quot;&gt;&lt;/script&gt;</b>
+5.  <b>&lt;script src=&quot;js/script2.js&quot;&gt;&lt;/script&gt;</b>
+6.  <b>&lt;script src=&quot;js/anotherOne.js&quot;&gt;&lt;/script&gt;</b>
+7.  <b>&hellip;</b>
 8.  &lt;/head&gt;
 </code></pre>
 
@@ -3537,12 +3537,12 @@ Contents of the index.html file:
 1.  &hellip;
 2.  &lt;head&gt;
 3.  &hellip;
-4.  **&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;**
-5.  **&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;**
+4.  <b>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;</b>
+5.  <b>&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;</b>
 6.  &lt;/head&gt;
 7.  &lt;body&gt;
 8.  &lt;h1&gt;Example 3: JavaScript and CSS in local files!&lt;/h1&gt;
-9.  &lt;button **onclick=&quot;addSomeText();**&quot;&gt;Click me to call a
+9.  &lt;button <b>onclick=&quot;addSomeText();</b>&quot;&gt;Click me to call a
     JavaScript function that will add some content to this
     document&lt;/button&gt;
 10. &lt;/body&gt;
@@ -3627,10 +3627,10 @@ If your work does not produce any results, you need to know why!
 
 <h4>Your Swiss army knife: your browser devtools, especially the devtool console!</h4>
 
-For this you will use **the dev. tools of your
-browser**. Press **F12** (or ctrl-shift-i) in Windows
-or **cmd-option-i** in MacOS to open the dev. tools, then go to the
-console tab: **this is where errors will be displayed**, or messages of
+For this you will use <b>the dev. tools of your
+browser</b>. Press <b>F12</b> (or ctrl-shift-i) in Windows
+or <b>cmd-option-i</b> in MacOS to open the dev. tools, then go to the
+console tab: <b>this is where errors will be displayed</b>, or messages of
 your own (use the console.log(string) JavaScript function in the
 JavaScript code embedded in your html page). In the console, you will be
 able to type any JavaScript command.
@@ -3657,8 +3657,8 @@ console.log(&quot;Some JavaScript code has been executed&quot;);
 The simplest way to add JavaScript code in an HTML page is to use
 the &lt;script&gt;&hellip;&lt;/script&gt; element.
 
-**The code in this example is executed sequentially when the page is
-loaded**: the JavaScript code is executed before the browser could see
+<b>The code in this example is executed sequentially when the page is
+loaded</b>: the JavaScript code is executed before the browser could see
 the rest of the page (as the &lt;script&gt;&lt;/script&gt; is located before
 the &lt;body&gt;).
 
@@ -3686,14 +3686,14 @@ It is also possible to use the &quot;real dev. tool console&quot;, and for this,
 I recommend running the application in a single window, not in the Js
 Bin editor. Press the black arrow on the top right of the output
 window - this will render the page as a standalone Web page, then
-press **F12**. You should see:
+press <b>F12</b>. You should see:
 
 ![View of the JavaScript
 console](./images/image105.jpeg){width="5.0in"
 height="4.2333902012248465in"}
 
 Ok, now, let&apos;s make an error:
-change console.log() into conso**lll**e.log(). Let&apos;s see what happens:
+change console.log() into conso<b>lll</b>e.log(). Let&apos;s see what happens:
 
 ![View of the javascript console showing an
 error](./images/image8.jpeg){width="5.0in"
@@ -3750,7 +3750,7 @@ We will first write this application online, using the JsBin.com editor,
 then we will do the same thing using the CodePen online editor, then,
 using a regular source code editor and .html, .css and .js files.
 
-**Here is what the resulting Web page will look like:**
+<b>Here is what the resulting Web page will look like:</b>
 
 ![](./images/image108.png){width="5.0in"
 height="3.0480774278215224in"}
@@ -3765,8 +3765,8 @@ In the video, at 3:19, there are some mistakes in the HTML code:
 
 1.  This line uses a wrong value for the for attribute (it should be the
     same value as the id attribute of the input
-    field): &lt;label **for=&quot;yMax&quot;**&gt;Color: &lt;/label&gt; value:
-    &hellip; should be: &lt;label **for=&quot;color&quot;**&gt;Color value: &lt;/label&gt;
+    field): &lt;label <b>for=&quot;yMax&quot;</b>&gt;Color: &lt;/label&gt; value:
+    &hellip; should be: &lt;label <b>for=&quot;color&quot;</b>&gt;Color value: &lt;/label&gt;
     &hellip;
 
 2.  Improvement in the code could be to replace all empty
@@ -3945,16 +3945,16 @@ them later for display, for computations, etc.
 <h4>Create (declaring) a variable</h4>
 
 With JavaScript versions &lt; 5 (prior to 2015), there was a single way to
-create (we say &quot;declare&quot;) a variable: using the **var** keyword. But
+create (we say &quot;declare&quot;) a variable: using the <b>var</b> keyword. But
 with the subsequent versions (called ES2015/ES2016 or JavaScript 6/7),
-we can also use the keyword **let** (this has some subtle differences,
+we can also use the keyword <b>let</b> (this has some subtle differences,
 which we&apos;ll explain later in the course when we will talk about
 &quot;functions&quot;).
 
-JavaScript is **weakly typed**. Each variable is declared with the
-keyword **var** or **let**. So you are not required to specify the type
-of variable you are creating. **After the keyword &quot;var&quot; and a space,
-just give the name of the variable.**
+JavaScript is <b>weakly typed</b>. Each variable is declared with the
+keyword <b>var</b> or <b>let</b>. So you are not required to specify the type
+of variable you are creating. <b>After the keyword &quot;var&quot; and a space,
+just give the name of the variable.</b>
 
 <h4>Example:</h4>
 
@@ -3972,7 +3972,7 @@ There are some reserved names that you can&apos;t use as a variable
 name: boolean, if, delete, var, function, etc. as they are reserved
 words of the JavaScript language.
 
-<h4>Give a value to a variable (**assign** a value to a variable)</h4>
+<h4>Give a value to a variable (<b>assign</b> a value to a variable)</h4>
 
 A value can be assigned to a declared variable, or even directly in the
 variable declaration. For this, we use the equal character, also
@@ -3980,7 +3980,7 @@ called &quot;the assignment operator&quot;. 
 
 <h4>Example:</h4>
 
-(notice at **line 4** one way to introduce comments in your code: start
+(notice at <b>line 4</b> one way to introduce comments in your code: start
 a line with &quot;//&quot;!)
 
 ```
@@ -3990,7 +3990,7 @@ myValue = 78;
 let myNumber = 1.34;
 ```
 
-At **line 2**, we are not saying that &quot;myValue&quot; and &quot;78&quot; are the
+At <b>line 2</b>, we are not saying that &quot;myValue&quot; and &quot;78&quot; are the
 same, we&apos;re saying &quot;hey, I want to store the value 78, and I&apos;m
 putting it in a variable whose name is &quot;myValue&quot;. It&apos;s like giving an
 id to a location somewhere in the memory of the computer.
@@ -4013,7 +4013,7 @@ let x = 1, y = 3, z = 12;
 
 <h4>Try the devtool console - you can type code in there too!</h4>
 
-**Reminder**: you can always open the devtool console using F12 on
+<b>Reminder</b>: you can always open the devtool console using F12 on
 windows, or ctrl-shift i, or cmd-alt-i on other computers.
 
 If we copy and paste the variable declarations from the previous
@@ -4064,11 +4064,11 @@ defined&hellip;](./images/image110.jpeg){width="6.729166666666667in" height="1.3
 
 The JavaScript community has some conventions about naming variables:
 
--   **The camelCase notation is
-    preferred**: mySpaceShip, sumOfAllGrades, etc.
+-   <b>The camelCase notation is
+    preferred</b>: mySpaceShip, sumOfAllGrades, etc.
 
--   **For a variable, the first letter is lowercase and each first
-    letter of each word is capitalized**. Example: var myVariableName
+-   <b>For a variable, the first letter is lowercase and each first
+    letter of each word is capitalized</b>. Example: var myVariableName
 
 <h4>Example:</h4>
 
@@ -4090,17 +4090,17 @@ showdown](https://whatheco.de/2011/02/10/camelcase-vs-underscores-scientific-sho
 
 Constants are variables that cannot be modified after a value has been set.
 
-**The naming convention is to use uppercase letters with underscores. **
+<b>The naming convention is to use uppercase letters with underscores. </b>
 
-**Example: var TIME_LIMIT = 50;**
+<b>Example: var TIME_LIMIT = 50;</b>
 
 With JavaScript 5, constants were declared as normal variables, using
-the **var** keyword, and there were no verifications by the JavaScript
+the <b>var</b> keyword, and there were no verifications by the JavaScript
 interpreter forbidding you to modify them after you assigned a value to
 them.
 
 With ES2015/2016 it is recommended that you use the
-keyword **const** instead of **var** to declare them. This means that an
+keyword <b>const</b> instead of <b>var</b> to declare them. This means that an
 error will be raised if you try to change their value in the future.
 
 <h4>Example:</h4>
@@ -4123,10 +4123,10 @@ work with var):
 ```
 let a;
 let thisIsAVariable;
-let and_this_too; // but **does not respect the usual naming convention**
+let and_this_too; // but <b>does not respect the usual naming convention</b>
 let mix12three;
 // invalid!
-let 2three4five; // **can&apos;t start with a digit!**
+let 2three4five; // <b>can&apos;t start with a digit!</b>
 let a = 1
 let v1, v2, v3 = &apos;hello&apos;, v4 = 4, v5;
 // Beware with lowercase / uppercase
@@ -4196,14 +4196,14 @@ whole function, not just to the block of instructions.
 
 <h4>1)  JavaScript 5 / ES5 scopes, with the var keyword</h4>
 
-**JavaScript 5 / ES5 has the var keyword for declaring variables.**
+<b>JavaScript 5 / ES5 has the var keyword for declaring variables.</b>
 
-**JavaScript 5 / ES5 has two scopes:** **1) a global scope** for
-declaring global variables, and** 2) a function scope** for declaring
+<b>JavaScript 5 / ES5 has two scopes:</b> <b>1) a global scope</b> for
+declaring global variables, and<b> 2) a function scope</b> for declaring
 variables that are local to a function.
 
-Furthermore, like in most programming languages, inside a function, **a
-local variable masks a global variable that has the same name.**
+Furthermore, like in most programming languages, inside a function, <b>a
+local variable masks a global variable that has the same name.</b>
 
 See examples below.
 
@@ -4225,10 +4225,10 @@ Variables declared with the keyword var in a function, are said to
 be &quot;local to the function&quot;. They &quot;mask&quot; any global variable that may
 have the same name.
 
-**When a variable is declared in a function, we also call it simply &quot;a
-local variable&quot;**, as opposed to &quot;a global variable&quot;. **In JavaScript
+<b>When a variable is declared in a function, we also call it simply &quot;a
+local variable&quot;</b>, as opposed to &quot;a global variable&quot;. <b>In JavaScript
 5 (and this is not common in programming languages), local variables
-are local to the function.** They can be used anywhere inside the
+are local to the function.</b> They can be used anywhere inside the
 function.
 
 Most programming languages have local variables that are limited to the
@@ -4264,11 +4264,11 @@ variable.
 In JavaScript 5 / ES5, a variable declared in a function without
 the var keyword, makes it a global variable.
 
-**BEST PRACTICE: in JavaScript 5 / ES5, always use the keyword var when
-declaring a global or a local variable.**
+<b>BEST PRACTICE: in JavaScript 5 / ES5, always use the keyword var when
+declaring a global or a local variable.</b>
 
-**Better: use the keyword let if you target browsers that support
-JavaScript 6 or above.**
+<b>Better: use the keyword let if you target browsers that support
+JavaScript 6 or above.</b>
 
 Here is an example that shows what happens when you forget to use var or
 let while declaring a local variable:
@@ -4283,17 +4283,17 @@ height="1.2871139545056869in"}
 
 <h5>2) Since 2015 and ES2015, there are new scopes, with the let keyword</h5>
 
-**Modern JavaScript has the let keyword for declaring variables, and
-the const keyword for declaring constants.**
+<b>Modern JavaScript has the let keyword for declaring variables, and
+the const keyword for declaring constants.</b>
 
-**Modern JavaScript has two scopes:** **1) a global scope** for
-declaring global variables, and** 2) a block scope** for declaring
+<b>Modern JavaScript has two scopes:</b> <b>1) a global scope</b> for
+declaring global variables, and<b> 2) a block scope</b> for declaring
 variables between { and }. This is similar to what we find in many other
 programming languages such as Java, C# etc.
 
-Furthermore, like in most programming languages, inside a block, **a
+Furthermore, like in most programming languages, inside a block, <b>a
 local variable masks other variables located in higher scopes (global or
-in another block that contains the current block).**
+in another block that contains the current block).</b>
 
 Example of a local variable declared with the let keyword. Its scope is
 the block:
@@ -4307,8 +4307,8 @@ https://codepen.io/w3devcampus/pen/VbXNPz
 Well, all modern browsers support the let and const keywords, however,
 you might find lots of examples that still use the var keyword&hellip;
 
-**Anyway, we highly recommend to use let and const instead of var, for
-declaring variables and constants!**
+<b>Anyway, we highly recommend to use let and const instead of var, for
+declaring variables and constants!</b>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-3">1.5.3 JS data types</h3>
@@ -4397,23 +4397,23 @@ var x = 3; var name = &quot;Buffa&quot;;![a set of playing
 
 <h4>JavaScript has a small set of primitive data types</h4>
 
--   **number**: 1,2,105,3.14 &hellip;
+-   <b>number</b>: 1,2,105,3.14 &hellip;
 
--   **string**: &apos;a&apos;, &quot;one&quot;, &apos;two&apos; , &apos;World Wide Web&apos; &hellip;
+-   <b>string</b>: &apos;a&apos;, &quot;one&quot;, &apos;two&apos; , &apos;World Wide Web&apos; &hellip;
 
--   **boolean**: true / false
+-   <b>boolean</b>: true / false
 
--   **undefined**: absent or unknown value
+-   <b>undefined</b>: absent or unknown value
 
--   **null**: special keyword, meaning no value or empty. The difference
+-   <b>null</b>: special keyword, meaning no value or empty. The difference
     from undefined is that when a variable is null, it is still defined.
 
 These are the simplest forms of data we can use in programming.
 
-Anything that is not listed above is **an object **(JavaScript objects
-are covered later in Module 3)**.** 
+Anything that is not listed above is <b>an object </b>(JavaScript objects
+are covered later in Module 3)<b>.</b> 
 
-**You said JavaScript does not have types for variables?**
+<b>You said JavaScript does not have types for variables?</b>
 
 No! I said that JavaScript is weakly typed; you do not declare the type
 of variable. In some other languages (Java language syntax, for
@@ -4424,7 +4424,7 @@ variable declaration.
 <h4>Knowing the type of a JavaScript variable: the typeof operator</h4>
 
 The next section of the course talks about &quot;operators&quot; but there is
-one that is better introduced in this section: the **typeof** operator,
+one that is better introduced in this section: the <b>typeof</b> operator,
 that is useful for knowing the type of a variable depending in its value
 (possible values: number, string, boolean, undefined, object,
 or function)
@@ -4445,14 +4445,14 @@ for us, for explaining the data types.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Number values can be:</h4>
 
--   **Integer**: 1, 4, 274929
+-   <b>Integer</b>: 1, 4, 274929
 
 Type 343 in the devtool console, and after you press the Enter key,  the
  corresponding value (343) will be displayed.
 
--   **Signed integer**: -17
+-   <b>Signed integer</b>: -17
 
--   **Decimal**: 3.46, -466.8770
+-   <b>Decimal</b>: 3.46, -466.8770
 
 Examples of integer and decimals:
 
@@ -4471,7 +4471,7 @@ undefined
 &quot;number&quot;
 &gt; typeof 123;
 &quot;number&quot;
--   **Scientific notation**: 3.46e4, 5.3e+6, 5344000e-5
+-   <b>Scientific notation</b>: 3.46e4, 5.3e+6, 5344000e-5
 3.46e4 equals 3.46 x 10&#94;4 equals 34600
 Examples:
 &gt; 1e1;
@@ -4490,28 +4490,28 @@ Examples:
 &quot;number&quot;
 ```
 
--   **Octal**: 010
+-   <b>Octal</b>: 010
 
-**Be careful with this, don&apos;t start an integer with 0 (zero),
-JavaScript will understand it as an octal value.**
+<b>Be careful with this, don&apos;t start an integer with 0 (zero),
+JavaScript will understand it as an octal value.</b>
 
 010 equals 8 which means 1 &ast; 8&#94;1 + 0 &ast; 8&#94;0
 
 The number 0456 means 4 &ast; 8&#94;2 + 5 &ast; 8&#94;1 + 6 &ast; 8&#94;0
 
-**Question 1**: What&apos;s the result, as an integer, of the
+<b>Question 1</b>: What&apos;s the result, as an integer, of the
 operation: 24 - 024?
 
-**Explanation 1**: 24 is an integer which equals 24 but 024 is an octal
+<b>Explanation 1</b>: 24 is an integer which equals 24 but 024 is an octal
 value which equals 20.
 
-**Question 2**: Which value will be displayed in the devtool console if
+<b>Question 2</b>: Which value will be displayed in the devtool console if
 you type 098 followed by the Enter key?
 
-**Explanation 2**: 9 and 8 don&apos;t exist in base 8 (only 0 to 7), so the
+<b>Explanation 2</b>: 9 and 8 don&apos;t exist in base 8 (only 0 to 7), so the
 typed number will be considered as an integer.
 
--   **Hexadecimal**: 0xF3
+-   <b>Hexadecimal</b>: 0xF3
 
 0xFF equals 255, 0xF3 means 15 &ast; 16&#94;1 + 3 &ast; 16&#94;0 and the resulting
 value is 243
@@ -4547,7 +4547,7 @@ undefined
 255
 ```
 
--   **Special values**:
+-   <b>Special values</b>:
 
     -   +Infinity
 
@@ -4559,7 +4559,7 @@ The value Infinity (or +Infinity) represents all number values greater
 than 1.79769313486231570e+308 and -Infinity represents values smaller
 than -1.79769313486231570e+308.
 
-Finally, Nan represents **not-a-number** values, for example if you try
+Finally, Nan represents <b>not-a-number</b> values, for example if you try
 to divide 0 by 0 (type 0/0 in the devtool console).
 
 ```
@@ -4682,7 +4682,7 @@ Second, an integer has 2&#94;52 relevant bits, so the biggest integer
 is 2&#94;53. There is one bit that determines the sign of the number, so
 the smallest signed integer is -2&#94;53.
 
-**Note**: Some arithmetic functions use only numbers with a 32-bit
+<b>Note</b>: Some arithmetic functions use only numbers with a 32-bit
 format. Larger numbers will be converted&hellip;
 
 For more information about floating point numbers, [follow this link at
@@ -4692,14 +4692,14 @@ Wikipedia](https://en.wikipedia.org/wiki/IEEE_floating_point).
 <h3 id="ch1-5-5">1.5.5 JS operators and expressions</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-**An expression** is a small piece of code used to produce a value.
+<b>An expression</b> is a small piece of code used to produce a value.
 
 For example, the expression 3 + 5 produces the value 8, and the
 value 11 alone is also an expression. Within an expression, we can find
 values, variables, operators, and expressions. The first two have been
-already described above, so all that&apos;s left are **operators**.
+already described above, so all that&apos;s left are <b>operators</b>.
 
-In JavaScript, **an operator** can be unary or binary (plus one ternary
+In JavaScript, <b>an operator</b> can be unary or binary (plus one ternary
 operator). A unary operator is applied to one expression. It can be
 prefixed or suffixed.
 
@@ -4740,8 +4740,8 @@ concatenation).
 <h3 id="ch1-5-6">1.5.6 Strings (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-To declare or manipulate strings you must write them with **single
-quotes &apos; or double quotes &quot;** around them. Single quotes or double
+To declare or manipulate strings you must write them with <b>single
+quotes &apos; or double quotes &quot;</b> around them. Single quotes or double
 quotes are both accepted, and there is no difference between them in
 JavaScript. However, the community prefers to use single quote for
 string - this is not a convention, but a recommendation.
@@ -5123,10 +5123,10 @@ You can fill them at declaration time:
 2.  var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;
 ```
 
-#### Elements in an array can be accessed using **indexes**
+#### Elements in an array can be accessed using <b>indexes</b>
 
-Each element in an array has an index. **The first element&apos;s index is
-0**, the second element&apos;s index is 1 etc.
+Each element in an array has an index. <b>The first element&apos;s index is
+0</b>, the second element&apos;s index is 1 etc.
 
 To access an element, you use the array variable and &quot;&lbrack;&quot; followed by
 the index value followed by &quot;&rbrack;&quot;, as shown in these examples:
@@ -5149,16 +5149,16 @@ the index value followed by &quot;&rbrack;&quot;, as shown in these examples:
 ```
 1.  var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;,&apos;Friday&apos;, &apos;Saturday&apos;, &apos;Sunday&apos;&rbrack;;
 2.  undefined
-3.  daysOfWeek.**length**
-4.  **7**
+3.  daysOfWeek.<b>length</b>
+4.  <b>7</b>
 ```
 
 Indeed, there are seven days in a week and the daysOfWeek array
-has seven elements, indexed from **0** to **daysOfWeek.length -1**
+has seven elements, indexed from <b>0</b> to <b>daysOfWeek.length -1</b>
 
-**This way of enumerating all elements (from 0 to the length of the
+<b>This way of enumerating all elements (from 0 to the length of the
 array -1) is very, very common, and will prove to be very useful when
-you learn how to iterate on an array&apos;s elements (Week 2).**
+you learn how to iterate on an array&apos;s elements (Week 2).</b>
 
 #### You can add elements to an array using a new index
 
@@ -5166,20 +5166,20 @@ If you want to add a new element at the end of an array, use the index
 equal to the length of the array
 
 ```
-1.  **&gt;
-    var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;&rbrack;;**
-2.  **undefined**
-3.  **&gt; daysOfWeek.length**
-4.  **6**
-5.  **&gt; daysOfWeek&lbrack;6&rbrack;**
-6.  **undefined**
-7.  **// NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is
-    0 // last 6-1 = 5**
-8.  &gt; daysOfWeek**&lbrack;6&rbrack; = &apos;Sunday&apos;**
-9.  **&quot;Sunday&quot;**
-10. **&gt; daysOfWeek.length**
-11. **7**
-12. **// Sunday, the 7th day of week is at index 6 !**
+1.  <b>&gt;
+    var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;&rbrack;;</b>
+2.  <b>undefined</b>
+3.  <b>&gt; daysOfWeek.length</b>
+4.  <b>6</b>
+5.  <b>&gt; daysOfWeek&lbrack;6&rbrack;</b>
+6.  <b>undefined</b>
+7.  <b>// NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is
+    0 // last 6-1 = 5</b>
+8.  &gt; daysOfWeek<b>&lbrack;6&rbrack; = &apos;Sunday&apos;</b>
+9.  <b>&quot;Sunday&quot;</b>
+10. <b>&gt; daysOfWeek.length</b>
+11. <b>7</b>
+12. <b>// Sunday, the 7th day of week is at index 6 !</b>
 ```
 
 #### Arrays are JavaScript objects!
@@ -5188,8 +5188,8 @@ Well, this is not so important for the moment, but look:
 
 ```
 1.  &gt; var a = &lbrack;&rbrack;;
-2.  &gt; **typeof a;**
-3.  **&quot;object&quot;**
+2.  &gt; <b>typeof a;</b>
+3.  <b>&quot;object&quot;</b>
 4.  &gt; var a = &lbrack;1,2,3&rbrack;;
 5.  &gt; a
 6.  &lbrack;1, 2, 3&rbrack;
@@ -5215,7 +5215,7 @@ the moment, let&apos;s focus on the most useful features&hellip;
 2.  undefined
 3.  &gt; daysOfWeek.length
 4.  6
-5.  **&gt; daysOfWeek.push(&apos;Sunday&apos;);**
+5.  <b>&gt; daysOfWeek.push(&apos;Sunday&apos;);</b>
 6.  7
 7.  &gt; daysOfWeek
 8.  &lbrack;&quot;Monday&quot;, &quot;Tuesday&quot;, &quot;Wednesday&quot;, &quot;Thursday&quot;, &quot;Friday&quot;, &quot;Saturday&quot;, &quot;Sunday&quot;&rbrack;
@@ -5254,8 +5254,8 @@ execute it by calling it by name.
 
 Functions always return a value:
 
--   Explicitly, using the keyword return followed by the value (**line
-    3** of the next example),
+-   Explicitly, using the keyword return followed by the value (<b>line
+    3</b> of the next example),
 
 -   Implicitly, in which case the return value is undefined.
 
@@ -5353,8 +5353,8 @@ will be no graded exercises about them.
 <h3 id="ch1-6-1">1.6.2 The devtool console</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Using the console.log(&hellip;) instruction, you can **write messages to the
-devtool console** of your browser. This is a common way to debug your
+Using the console.log(&hellip;) instruction, you can <b>write messages to the
+devtool console</b> of your browser. This is a common way to debug your
 code!
 
 For example, let&apos;s say you added a button to your Web page, but nothing
@@ -5447,8 +5447,8 @@ Example :
 ```
 1.  var x = 2;
 2.   
-3.  console.log(**&quot;The value of x is &quot; + x + &quot; and it&apos;s ok like
-    that.&quot;**);
+3.  console.log(<b>&quot;The value of x is &quot; + x + &quot; and it&apos;s ok like
+    that.&quot;</b>);
 ```
 
 We typed this code in the devtool console to check what it does:
@@ -5495,7 +5495,7 @@ JavaScript. Over the following modules, we&apos;ll delve deeper into the
 details&hellip; 
 
 We&apos;ve already seen some examples that modify the content of the
-document **dynamically**. We changed a title by clicking on a button, we
+document <b>dynamically</b>. We changed a title by clicking on a button, we
 displayed the value of a variable named x in the previous section, etc.
 
 The browser comes with some very powerful APIs (Application Programming
@@ -5535,7 +5535,7 @@ what can be done.
 ![](./images/image135.png){width="6.5in"
 height="2.2583333333333333in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -5676,15 +5676,15 @@ other W3Cx courses.
 
 #### Example #1: using the WebCam
 
-**CLICK ON THE TOP RIGHT OF THE BELOW WINDOW (on the &quot;Codepen&quot; logo)
-to see this example running**. Due to security restrictions, the webcam
+<b>CLICK ON THE TOP RIGHT OF THE BELOW WINDOW (on the &quot;Codepen&quot; logo)
+to see this example running</b>. Due to security restrictions, the webcam
 image cannot be seen in this embedded example anymore.
 
 Look at the JavaScript tab! The [W3Cx HTML5 Coding Essentials and Best
 Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) course
 provides many other examples that use the webcam.
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -5725,7 +5725,7 @@ This example uses the WebAudio API in order to synthesize sounds.
 ![](./images/image142.png){width="6.5in"
 height="4.813194444444444in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -6476,7 +6476,7 @@ cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)
 ![](./images/image143.png){width="6.5in"
 height="5.102083333333334in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -6979,14 +6979,14 @@ on.
 CodePen](https://codepen.io/w3devcampus/pen/pPmqwq?editors=0012)
 
 Before talking about how your JavaScript program can make decisions,
-such as &quot;**if this condition is fulfilled then I&apos;ll do this, otherwise
-I&apos;ll do that&hellip;**&quot;, we need to define a few more concepts.
+such as &quot;<b>if this condition is fulfilled then I&apos;ll do this, otherwise
+I&apos;ll do that&hellip;</b>&quot;, we need to define a few more concepts.
 
 Let&apos;s tart with &quot;boolean values&quot; and &quot;logical operators&quot;.
 
 ### Boolean values {#boolean-values .unnumbered}
 
-The **boolean** type represents a logical entity having two
+The <b>boolean</b> type represents a logical entity having two
 values: true and false.
 
 Use of the keywords true and false:
@@ -7004,7 +7004,7 @@ it becomes a string variable:
 
 #### Undefined and null values {#undefined-and-null-values .unnumbered}
 
-**Undefined**
+<b>Undefined</b>
 
 undefined is returned when a variable has not been assigned:
 
@@ -7031,9 +7031,9 @@ undefined is returned when a variable has not been assigned:
 11. &apos;The variable foo has no value and is undefined&apos;
 
 The above example shows how we can test whether a variable has a value
-(**line 8** uses a conditional statement).
+(<b>line 8</b> uses a conditional statement).
 
-The keyword &quot;**undefined**&quot; is part of the JavaScript language, so you
+The keyword &quot;<b>undefined</b>&quot; is part of the JavaScript language, so you
 can assign the undefined value to a variable:
 
 1.  &gt; var foo = undefined; // equivalent to var foo; without giving any
@@ -7071,25 +7071,25 @@ a ReferenceError will be raised. But the typeof operator will return
 
 The logical operators are: 
 
--   **&&** (AND)  
-    usage example : **if ((x  &gt; 0) && (x &lt; 10)) {**
-    **                 console.log(&apos;x is strictly positive and less
-    than 10&apos;);**
-    **             }**
+-   <b>&&</b> (AND)  
+    usage example : <b>if ((x  &gt; 0) && (x &lt; 10)) {</b>
+    <b>                 console.log(&apos;x is strictly positive and less
+    than 10&apos;);</b>
+    <b>             }</b>
 
--   **&vert;&vert;** (OR)
-    usage  example : **if ((x  &gt; 0) &vert;&vert; (x == -5)) { **
-    **                 console.log(&apos;x is positive or equal to
-    -5&apos;); **
-    **             }**
+-   <b>&vert;&vert;</b> (OR)
+    usage  example : <b>if ((x  &gt; 0) &vert;&vert; (x == -5)) { </b>
+    <b>                 console.log(&apos;x is positive or equal to
+    -5&apos;); </b>
+    <b>             }</b>
 
--   **!** (NOT)
-    usage example : **if (!(x  &gt; 0)) { **
-    **                 console.log(&apos;x is not positive (x is less or
-    equal to 0&apos;); **
-    **             }**
+-   <b>!</b> (NOT)
+    usage example : <b>if (!(x  &gt; 0)) { </b>
+    <b>                 console.log(&apos;x is not positive (x is less or
+    equal to 0&apos;); </b>
+    <b>             }</b>
 
--   **&&**, **&vert;&vert;** operators are binary, **!** is unary. 
+-   <b>&&</b>, <b>&vert;&vert;</b> operators are binary, <b>!</b> is unary. 
 
 1.  var b = !true; 
 
@@ -7114,8 +7114,8 @@ The logical operators are: 
 
 11. !!b; //true
 
- In an expression with logical operators, as shown in **lines
-8 **and** 11** of the previous example, non-boolean values are
+ In an expression with logical operators, as shown in <b>lines
+8 </b>and<b> 11</b> of the previous example, non-boolean values are
 implicitly converted to boolean.
 
 ### Lazy evaluation or short-circuit evaluation {#lazy-evaluation-or-short-circuit-evaluation .unnumbered}
@@ -7166,24 +7166,24 @@ Examples:
 
 ### Implicit conversions of non boolean values in expressions {#implicit-conversions-of-non-boolean-values-in-expressions .unnumbered}
 
-Used with logical operators or within statements, **non-boolean values
-are implicitly converted to booleans**.  
+Used with logical operators or within statements, <b>non-boolean values
+are implicitly converted to booleans</b>.  
 
-**All the following values are evaluated as false :**
+<b>All the following values are evaluated as false :</b>
 
--   **false**
+-   <b>false</b>
 
--   **undefined**
+-   <b>undefined</b>
 
--   **null**
+-   <b>null</b>
 
--   **0**
+-   <b>0</b>
 
--   **NaN**
+-   <b>NaN</b>
 
--   **the empty string &apos;&apos;**
+-   <b>the empty string &apos;&apos;</b>
 
-**Everything else is evaluated as true!**
+<b>Everything else is evaluated as true!</b>
 
 1.  var boo = &apos;hello&apos; && &apos;world&apos;; // boo is equal to &apos;world&apos; that
     is &apos;true&apos;.
@@ -7206,16 +7206,16 @@ of their operands:
 External resource: [The && and &vert;&vert; Operators in
 JavaScript](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript)
 
-**TO SUM UP: it works &quot;normally&quot; if you just think true/false, but the
+<b>TO SUM UP: it works &quot;normally&quot; if you just think true/false, but the
 real value affected is not true false, it&apos;s one of the operands, that
-can be seen as true/false.**
+can be seen as true/false.</b>
 
-1.  **var boo2 = (0/0) &vert;&vert; 43.2 ;**
+1.  <b>var boo2 = (0/0) &vert;&vert; 43.2 ;</b>
 
  boo2 equals 43.2 because the expression 0/0 equals NaN, which is
 evaluated as false.
 
-**Question:**
+<b>Question:</b>
 
 What is the value of the variable myNumber after the execution of this
 code? 
@@ -7234,41 +7234,41 @@ if(myNumber == null){
 
 myNumber = myNumber &vert;&vert; 2;
 
-**Explanation**: after the first line, myNumber equals false. In
-the if statement, at **line 3**, false does not equal null. Therefore,
+<b>Explanation</b>: after the first line, myNumber equals false. In
+the if statement, at <b>line 3</b>, false does not equal null. Therefore,
 the value 3 is not assigned to the var myNumber. In the last
 line, myNumber is evaluated as false, then the value 2 is given to the
 variable myNumber.
 
 ### Comparison operators {#comparison-operators .unnumbered}
 
--   Equal **==**
+-   Equal <b>==</b>
 
--   Not equal **!=**
+-   Not equal <b>!=</b>
 
--   Greater than **&gt;**
+-   Greater than <b>&gt;</b>
 
--   Greater than or equal **&gt;=**
+-   Greater than or equal <b>&gt;=</b>
 
--   Less than **&lt;**
+-   Less than <b>&lt;</b>
 
--   Less than or equal to **&lt;=**
+-   Less than or equal to <b>&lt;=</b>
 
--   Strict equal **===**
+-   Strict equal <b>===</b>
 
--   Strict not equal **!==**
+-   Strict not equal <b>!==</b>
 
-#### What is the difference between **==** and === in JavaScript? {#what-is-the-difference-between-and-in-javascript .unnumbered}
+#### What is the difference between <b>==</b> and === in JavaScript? {#what-is-the-difference-between-and-in-javascript .unnumbered}
 
 <h5>Equal (==)</h5>
 
-Returns true if the operands are strictly equal **with type
-conversion**.
+Returns true if the operands are strictly equal <b>with type
+conversion</b>.
 
 <h5>Strict equal (===)</h5>
 
-Returns true if the operands are strictly equal **with no type
-conversion**.
+Returns true if the operands are strictly equal <b>with no type
+conversion</b>.
 
 The triple-equals operator never does type coercion. It returns true if
 both operands reference the same object, or in the case of value types,
@@ -7314,11 +7314,11 @@ into a number before doing the comparison &ast;/
 
 //false
 
-**Depending on the context, generally strict equal (or strict not
-equal) is preferred. **
+<b>Depending on the context, generally strict equal (or strict not
+equal) is preferred. </b>
 
-**[Best practice for beginners]{.underline}: always use === or !== for
-comparisons.**
+<b>[Best practice for beginners]{.underline}: always use === or !== for
+comparisons.</b>
 
 Here are interesting articles:
 
@@ -7345,7 +7345,7 @@ NaN === NaN;
 
 // false
 
-** Nan is equal to nothing - not even to itself!**  But you do have a
+<b> Nan is equal to nothing - not even to itself!</b>  But you do have a
 function to check the NaN value:  isNaN(expr) 
 
 -   isNaN: returns true if the argument coerces to NaN, and otherwise
@@ -7378,7 +7378,7 @@ an expression of the form X !== X. The result will be true if, and only
 if, X is a NaN. &quot; (see
 the [isNan documentation](https://www.ecma-international.org/ecma-262/5.1/#sec-15.1.2.4)).
 
-**A complete example with isNaN: **
+<b>A complete example with isNaN: </b>
 
 var num =0/0;
 
@@ -7600,37 +7600,35 @@ console to see the outputs of this program):
 (Please look, edit and try whatever you want. There are parts that are
 commented - please remove comments and try to understand the results).
 
-**Conditional statements are used to execute a unit of code**
-**only if a condition is evaluated as true.**
+<b>Conditional statements are used to execute a unit of code</b>
+<b>only if a condition is evaluated as true.</b>
 
 ### The if statement {#the-if-statement .unnumbered}
 
-**Syntax:**
+<b>Syntax:</b>
 
-**if** ( Expression ) Statement **else** Statement
+<b>if</b> ( Expression ) Statement <b>else</b> Statement
 
-**if** ( Expression ) Statement
+<b>if</b> ( Expression ) Statement
 
-**The expression may include:**
+<b>The expression may include:</b>
 
--   logical operators ( **! && &vert;&vert;** )
+-   logical operators ( <b>! && &vert;&vert;</b> )
 
 -   comparison operators
-    ( **==**, **===**, **&gt;**, **&gt;=**, **&lt;**, **&lt;=** )
+    ( <b>==</b>, **===**, **&gt;**, **&gt;=**, **&lt;**, **&lt;=** )
 
 -   any values or expressions which can be converted to boolean
 
 #### Example #1: if-statement {#example-1-if-statement .unnumbered}
 
+```
 1.  var num = 10;
-
 2.  **if** (num === 10) **{**
-
 3.  num = 20;
-
 4.  **}**
-
 5.  // num equals 20
+```
 
 <h4>Example #2: if-else statement</h4>
 
@@ -7663,7 +7661,7 @@ The following values will evaluate to false:
 **All other values, including all objects, evaluate to true when passed
 to a conditional statement.**
 
-### The if-then-else ternary operator {#the-if-then-else-ternary-operator .unnumbered}
+#### The if-then-else ternary operator
 
 This ternary operator is a shortcut version of if&hellip;then&hellip;else.
 
@@ -7697,7 +7695,7 @@ statements that involve a very obvious block of instructions for the
 &quot;then&quot; and the &quot;else&quot;. Usually this syntax is much harder to read
 for beginners.
 
-### Curly braces {#curly-braces .unnumbered}
+#### Curly braces
 
 Should we use them in if-then-else statements? There are examples
 without curly braces on the Web: what does this mean?
@@ -7748,7 +7746,7 @@ later it will become more time consuming.
 
 **Conclusion: always use curly braces!**
 
-### The switch statement {#the-switch-statement .unnumbered}
+#### The switch statement
 
 In order to avoid having a series of ifs and elses, it is possible to
 use a **switch** statement. 
@@ -7857,7 +7855,7 @@ console to see the outputs of this program):
 ![](./images/image147.png){width="6.5in"
 height="2.0659722222222223in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -8252,7 +8250,7 @@ keys) of the object.
 We will see further examples of this statement in module 4, which is
 devoted to the study of JavaScript objects.
 
-### &lbrack;ADVANCED&rbrack; Other statements {#advanced-other-statements .unnumbered}
+### &lbrack;ADVANCED&rbrack; Other statements
 
 <h4>The continue statement</h4>
 
@@ -8288,7 +8286,7 @@ guess what the value of k will be!
 Hint: **lines 2-4** mean that **line 6** will never be executed for i =
 3. That means that i&ast;2 will only be added to k for i = 1, 2 and 4&hellip;
 
-<h4>The break statement {#the-break-statement .unnumbered}
+<h4>The break statement</h4>
 
 The break statement is used to stop an iteration, a switch or a labelled
 statement.
@@ -8331,7 +8329,7 @@ that compares each element in the array passed as the second parameter
 with the name &apos;john&apos;, will stop looping after &apos;john&apos; has been found
 at index = 1.
 
-<h4>**Detailed explanations:** {#detailed-explanations .unnumbered}
+<h4>**Detailed explanations:**</h4>
 
 -   **Line 20** executes the function
 
@@ -8355,12 +8353,12 @@ at index = 1.
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
 
-#### Suggested topic of discussion: {#suggested-topic-of-discussion .unnumbered}
+#### Suggested topic of discussion:
 
 -   Did you know about the === and !== operators we recommend you to
     use?
 
-#### Optional projects: {#optional-projects .unnumbered}
+#### Optional projects:
 
 -   If not allergic to High School math, please write a piece of code
     that solves second degree equations. You pass the a, b, c parameters
@@ -8436,7 +8434,7 @@ Here is an example:
 ![](./images/image150.png){width="6.5in"
 height="2.0659722222222223in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!doctype html&gt;
@@ -8470,7 +8468,7 @@ displayInPage(&quot;Result: &quot;, sum(10, 15));
 In the above example, the sum function returns a value, and
 the displayInPage function does not return anything.
 
-<h4>2) Use a function expression {#use-a-function-expression .unnumbered}
+<h4>2) Use a function expression</h4>
 
 A JavaScript function can also be defined using an expression that can
 be stored in a variable. Then, the variable can be used as a function:
@@ -8480,7 +8478,7 @@ Here is a typical example:
 ![](./images/image151.png){width="6.5in"
 height="2.272222222222222in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!doctype html&gt;
@@ -8542,7 +8540,7 @@ document):
 ![](./images/image152.png){width="6.5in"
 height="2.588888888888889in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!doctype html&gt;
@@ -8595,7 +8593,7 @@ For example:
 ![](./images/image153.png){width="6.5in"
 height="2.0861111111111112in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -8641,7 +8639,7 @@ ones that correspond to the type of event &quot;they listen to&quot;.
 <h3 id="ch2-4-2">2.4.2 Adding and removing event listeners</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-### Live coding video: adding an event listener to a document {#live-coding-video-adding-an-event-listener-to-a-document .unnumbered}
+#### Live coding video: adding an event listener to a document
 
 ![](./images/image154.png){width="6.5in"
 height="5.139583333333333in"}
@@ -8791,12 +8789,12 @@ on a web document will be processed by this event handler):
 &lt;/script&gt;
 ```
 
-<h4>Try it below by clicking anywhere on the document: {#try-it-below-by-clicking-anywhere-on-the-document .unnumbered}
+<h4>Try it below by clicking anywhere on the document:</h4>
 
 ![](./images/image155.png){width="6.5in"
 height="2.0770833333333334in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -8860,7 +8858,7 @@ name as the second parameter):
 7.  &lt;/script&gt;
 ```
 
-#### Adding an event listener to specific HTML elements {#adding-an-event-listener-to-specific-html-elements .unnumbered}
+#### Adding an event listener to specific HTML elements
 
 Instead of listening to event on the whole document
 (using addEventListener is the same as using window.addEventListener),
@@ -8872,7 +8870,7 @@ For example, here is how we can listen to clicks on a specific button
 ![](./images/image156.png){width="6.5in"
 height="2.0701388888888888in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -8910,7 +8908,7 @@ Every DOM object has an addEventListener method. Once you get a
 reference of  any HMTL element from JavaScript, you can start listening
 to events on it.
 
-### An alternative method for adding an event listener to an HTML element: use an &quot;on&quot; attribute (ex: onclick = &quot;&hellip;.&quot;) {#an-alternative-method-for-adding-an-event-listener-to-an-html-element-use-an-on-attribute-ex-onclick-.... .unnumbered}
+### An alternative method for adding an event listener to an HTML element: use an &quot;on&quot; attribute (ex: onclick = &quot;&hellip;.&quot;)
 
 Instead of using b.addEventListener(&apos;click&apos;, callback), it&apos;s possible
 to use an onclick=&apos;doSomething();&apos; attribute directly in the HTML tag
@@ -8919,7 +8917,7 @@ of the element:
 ![](./images/image157.png){width="6.5in"
 height="2.104861111111111in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -8960,7 +8958,7 @@ all your event listener definitions in a separate JavaScript file, and
 use the addEventListener syntax in preference to the &quot;on&quot; attributes
 syntax.
 
-### Removing event listeners {#removing-event-listeners .unnumbered}
+### Removing event listeners
 
 When we click on the button, we execute the processClick(evt) callback
 function, and inside we remove the listener we previously registered.
@@ -8970,7 +8968,7 @@ is no longer a click event listener attached to it.
 ![](./images/image158.png){width="6.5in"
 height="2.0909722222222222in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -9061,7 +9059,7 @@ event, for example:
 In the subsequent sections of this course we will look at the most
 common types of events in detail.
 
-### Reference table {#reference-table .unnumbered}
+### Reference table
 
 The most useful common properties are:
 
@@ -9164,7 +9162,7 @@ element.
 In the next sections, for each kind of event, we&apos;ll detail the
 different properties and provide examples that show how to use them.
 
-### Online example used in the above video {#online-example-used-in-the-above-video .unnumbered}
+#### Online example used in the above video
 
 -   [Example on
     CodePen](https://codepen.io/w3devcampus/pen/XgrveY?editors=0001)
@@ -9172,7 +9170,7 @@ different properties and provide examples that show how to use them.
 The page lifecycle events detect when the page is loaded and when the
 DOM is ready.
 
-### Events related to the page lifecycle {#events-related-to-the-page-lifecycle .unnumbered}
+#### Events related to the page lifecycle
 
 There are many other events related to the page life cycle. The most
 useful ones for an introduction course are shown below:
@@ -9192,7 +9190,7 @@ resized too when the window was resized), and then you do something
 (redraw a graphic in an HTML canvas that takes into account the new
 canvas size, for example).
 
-#### Example 1: wait until the page is loaded (when the DOM is ready) before doing something {#example-1-wait-until-the-page-is-loaded-when-the-dom-is-ready-before-doing-something .unnumbered}
+#### Example 1: wait until the page is loaded (when the DOM is ready) before doing something
 
 This first variant that uses &lt;body onload=&quot;init();&quot;&gt;
 
@@ -9254,7 +9252,7 @@ code&hellip;
 ![](./images/image162.png){width="6.5in"
 height="2.0701388888888888in"}
 
-HTML
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -9323,7 +9321,7 @@ use screen.width and screen.height to display the screen size.
 ![](./images/image163.png){width="6.5in"
 height="2.0631944444444446in"}
 
-HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -9343,7 +9341,7 @@ HTML
 &lt;/html&gt;
 ```
 
-CSS
+<h5>CSS:</h5>
 
 ```
 border:1px solid red;
@@ -9352,7 +9350,7 @@ color:red;
 }
 ```
 
-JS
+<h5>JS:</h5>
 
 ```
 window.onload = resize;
@@ -9374,99 +9372,64 @@ screenSizeSpan.innerHTML = &quot;Width: &quot; + screen.width + &quot; Height: &
 ![](./images/image164.png){width="6.5in"
 height="2.0701388888888888in"}
 
-HTML
+<h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;Example of the &apos;scroll&apos; event&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&quot;progress&quot;&gt;
-
 &lt;div&gt;Percentage&lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;p id=&quot;text&quot;&gt;Scroll me and the progress bar on the right will show
-
 the percentage of scroll. Look also at the CSS
-
 code (body is 2000px height, for example)&hellip;&lt;/p&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-CSS
+<h5>CSS:</h5>
 
+```
 .progress {
-
 border: 1px solid blue;
-
 width: 100px;
-
 position: fixed;
-
 top: 10px; right: 10px;
-
 }
-
 .progress &gt; div {
-
 height: 12px;
-
 background: lightBlue;
-
 width: 0%;
-
 font-size:8px;
-
 }
-
 #text {
-
 margin-top:50px;
-
 }
-
 body {
-
 height: 2000px;
-
 }
+```
 
-JS
+<h5>JS:</h5>
 
+```
 window.onload = init;
-
 var progressBar;
-
 function init() {
-
 progressBar = document.querySelector(&quot;.progress div&quot;);
-
 window.addEventListener(&quot;scroll&quot;, function() {
-
 var max = document.body.scrollHeight - window.innerHeight;
-
 var percent = (window.pageYOffset / max) &ast; 100;
-
 progressBar.style.width = percent + &quot;%&quot;;
-
 });
-
 }
+```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-5">2.4.5 Key events</h3>
@@ -9484,15 +9447,13 @@ listener function will contain the code of the key that fired the event.
 Then it is possible to test which key has been pressed or released, like
 this:
 
+```
 1.  window.addEventListener(&apos;keydown&apos;, function(event) {
-
 2.     if (**event.keyCode === 37**) {
-
 3.       //left arrow was pressed
-
 4.     }
-
 5.  });
+```
 
 At **line 2**, the value &quot;37&quot; is the key code that corresponds to the
 left arrow. It might be difficult to know which codes represent
@@ -9527,64 +9488,44 @@ height="1.7333333333333334in"}
 ![](./images/image167.png){width="6.5in"
 height="2.0631944444444446in"}
 
-HTML
+<h4>HTML:</h4>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;Example of the &apos;keyup&apos; and &apos;keydown&apos; events on the window
-object&lt;/title&gt;
-
+  object&lt;/title&gt;
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;p&gt;Please type some keys and see what happens&lt;/p&gt;
-
 &lt;div id=&quot;keys&quot;&gt;&lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-JS
+<h4>JS:</h4>
 
+```
 window.onkeyup = processKeyUp;
-
 window.onkeydown = processKeyDown;
-
 /&ast; or we could have written:
-
 window.addEventListener(&apos;keyup&apos;, processKeyUp);
-
 window.addEventListener(&apos;keydown&apos;, processKeyDown);
-
 &ast;/
-
 function processKeyUp(evt) {
-
 var keys = document.querySelector(&apos;#keys&apos;);
-
 keys.innerHTML += &quot;keyup: &quot; + evt.key + &quot; code: &quot; + evt.keyCode +
-&quot;&lt;br&gt;&quot;;
-
+  &quot;&lt;br&gt;&quot;;
 }
-
 function processKeyDown(evt) {
-
 var keys = document.querySelector(&apos;#keys&apos;);
-
 keys.innerHTML += &quot;keydown: &quot; + evt.key + &quot; code: &quot; + evt.keyCode +
 &quot;&lt;br&gt;&quot;;
-
 }
+```
 
 <h4>Example #2: see  keypress on the window object</h4>
 
@@ -9677,7 +9618,7 @@ Peck*](https://codepen.io/shshaw/full/apwMwM/)**. **[*Shaw*](https://codepen.io
 nice enough to fix the latter when I told him about the issue. It turns
 out the Web browser actually exposes a useful API for this.&quot;**
 
-### One keyboard, many layouts {#one-keyboard-many-layouts .unnumbered}
+### One keyboard, many layouts
 
 For details, see [Wikipedia's keyboard layout
 page](https://en.wikipedia.org/wiki/Keyboard_layout)!
@@ -9755,7 +9696,7 @@ old keyCode property.
     **As for numbers, the top digit bar yields values like &apos;Digit1&apos;,
     while the numeric pad yields values like &apos;Numpad1&apos;.
 
-### List of codes, the reference keyboard {#list-of-codes-the-reference-keyboard .unnumbered}
+### List of codes, the reference keyboard
 
 There's no existing keyboard with all the possible keys. That's why the
 W3C published [a specification just for
@@ -9781,41 +9722,32 @@ height="2.5652777777777778in"}
 
 <h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;key and keyCode&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;/&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;p&gt;Press some keys on your keyboard and see the corresponding evt.key
-and evt.code values. If you are not using a QWERTY keyboard, notice that
-the values might be different. This is because an &apos;a&apos; on an AZERTY
-keyboard, will correspond to the KeyQ code on the reference
-keyboard.&lt;/p&gt;
-
+  and evt.code values. If you are not using a QWERTY keyboard, notice that
+  the values might be different. This is because an &apos;a&apos; on an AZERTY
+  keyboard, will correspond to the KeyQ code on the reference
+  keyboard.&lt;/p&gt;
 &lt;p&gt; You typed:&lt;/p&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 <h5>JS:</h5>
 
+```
 window.onkeydown = function(evt) {
-
 document.body.innerHTML += &quot;key = &quot; + evt.key + &quot;&lt;br&gt;&quot;;
-
 document.body.innerHTML += &quot;code = &quot; + evt.code + &quot;&lt;br&gt;&lt;br&gt;&quot;;
-
 }
+```
 
 I encourage you to take a look and get at least an overview of this
 specification.
@@ -9834,7 +9766,7 @@ describing the values for the key property.
 <h3 id="ch2-4-8">2.4.8 Mouse events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-***Important note*: Remember that many people do not use the mouse and
+<b><i>Important note*: Remember that many people do not use the mouse and
 rely on the keyboard to interact with the Web. This requires keyboard
 access to all functionality, including form controls, input, and other
 user interface components (**[*learn
@@ -9847,19 +9779,14 @@ the event occurs.
 The example below is about listening to mouseup and mousedown events
 (when a user presses or releases any mouse button):
 
+```
 canvas.addEventListener(&apos;mousedown&apos;, function (evt) {
-
    // do something with the mousedown event
-
 });
-
- 
-
 canvas.addEventListener(&apos;mouseup&apos;, function (evt) {
-
    // do something with the mouseup event
-
 });
+```
 
 The event received by the listener function will be used for getting the
 button number or the coordinates of the mouse cursor. Before looking at
@@ -9887,77 +9814,54 @@ height="2.0631944444444446in"}
 
 <h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;detect mouse clicks on elements&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;button id=&quot;button1&quot;
-onclick=&quot;processClick(event)&quot;&gt;Button1&lt;/button&gt;
-
+  onclick=&quot;processClick(event)&quot;&gt;Button1&lt;/button&gt;
 &lt;div id=&quot;myDiv&quot; onclick=&quot;processClick(event)&quot;&gt;Click also on this
-div!&lt;/div&gt;
-
+  div!&lt;/div&gt;
 &lt;div id=&quot;clicks&quot;&gt;&lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 <h5>CSS:</h5>
 
+```
 #myDiv {
-
 color:red;
-
 background-color: pink;
-
 width:100px;
-
 height:100px;
-
 text-align:center;
-
 margin:20px;
-
 }
+```
 
 <h5>JS:</h5>
 
+```
 window.onclick = processClick;
-
 function processClick(evt) {
-
 var clicks = document.querySelector(&apos;#clicks&apos;);
-
 var target = evt.target.id;
-
 if(target === &quot;&quot;) {
-
 clicks.innerHTML += &quot;You clicked on the window, not on a particular
-element!&lt;br&gt;&quot;;
-
+  element!&lt;br&gt;&quot;;
 } else {
-
 clicks.innerHTML += &quot;Element clicked id: &quot; + target + &quot;&lt;br&gt;&quot;;
-
 }
-
 evt.stopPropagation(); // try commenting it and click on the button or
 div
-
 }
+```
 
 <h4>Example #2: see the differences between clientX/clientY and pageX/pageY</h4>
 
@@ -9972,140 +9876,85 @@ when embedded in this page!
 ![](./images/image180.png){width="6.5in"
 height="2.0701388888888888in"}
 
-HTML
+<h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;script
-src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;&gt;&lt;/script&gt;
-
+  src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;&gt;&lt;/script&gt;
 &lt;meta charset=utf-8 /&gt;
-
 &lt;title&gt;client - page - screen&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;table&gt;
-
 &lt;tr&gt;
-
 &lt;td&gt;Mouse position inside:&lt;/td&gt;
-
 &lt;td&gt;X &nbsp;&nbsp;&nbsp; Y&lt;/td&gt;
-
 &lt;/tr&gt;
-
 &lt;tr&gt;
-
 &lt;td&gt;- client:&lt;/td&gt;
-
 &lt;td id=&quot;client&quot;&gt;&lt;/td&gt;
-
 &lt;td&gt;Client Viewport&lt;/td&gt;
-
 &lt;/tr&gt;
-
 &lt;tr&gt;
-
 &lt;td&gt;- page:&lt;/td&gt;
-
 &lt;td id=&quot;page&quot;&gt;&lt;/td&gt;
-
 &lt;td&gt;Document Page (scroll down to see the difference)&lt;/td&gt;
-
 &lt;/tr&gt;
-
 &lt;tr&gt;
-
 &lt;td&gt;(scrollTop:&lt;/td&gt;
-
 &lt;td id=&quot;scrollTop&quot;&gt;&lt;/td&gt;
-
 &lt;td&gt;Scroll top &lbrack;pageY-clientY&rbrack; )&lt;/td&gt;
-
 &lt;/tr&gt;
-
 &lt;tr&gt;
-
 &lt;td&gt;- screen:&lt;/td&gt;
-
 &lt;td id=&quot;screen&quot;&gt;&lt;/td&gt;
-
 &lt;td&gt;Screen&lt;/td&gt;
-
 &lt;/tr&gt;
-
 &lt;/table&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 CSS
 
+```
 body{
-
 height:4000px;
-
 font-family:Arial,&quot;Helvetica Neue&quot;,Helvetica,sans-serif;
-
 }
-
 table{
-
 position:fixed;
-
 width:100%;
-
 padding:10px 20px;
-
 background:#eee;
-
 border-spacing:5px 0;
-
 }
-
 table td{
-
 vertical-align:bottom;
-
 border:1px dashed #ddd;
-
 padding:3px 10px;
-
 }
-
 table tr:first-child{
-
 background:#ddd;
-
 }
+```
 
 JS
 
+```
 var m = &lbrack;&apos;client&apos;,&apos;page&apos;,&apos;screen&apos;&rbrack;; // mods
-
 &dollar;(document).mousemove(function(e){
-
 for(var i=0; i&lt;3; i++){
-
 &dollar;(&apos;#&apos;+m&lbrack;i&rbrack;).text((e&lbrack;m&lbrack;i&rbrack;+&apos;X&apos;&rbrack;)+&apos; &apos;+ (e&lbrack;m&lbrack;i&rbrack;+&apos;Y&apos;&rbrack;));
-
 }
-
 &dollar;(&apos;#scrollTop&apos;).text(
-
 &dollar;(&apos;html, body&apos;).scrollTop()
-
 );
-
 });
+```
 
 <h4>Example #3: detect a mousemove event and get the mouse position relative to the page</h4>
 
@@ -10114,63 +9963,42 @@ height="2.0631944444444446in"}
 
 <h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;mousemove events relative to page&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;Please move the mouse on this window!&quot;&lt;/h1&gt;
-
 &lt;div id=&quot;mousePositions&quot;&gt;&lt;/div&gt;
-
 &lt;p&gt;Yep! The above values are the same when we&apos;re listening on the
-window and we did not scrolled the page!&lt;/p&gt;
-
+  window and we did not scrolled the page!&lt;/p&gt;
 &lt;div id=&quot;mouseScreenPositions&quot;&gt;&lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 <h5>JS:</h5>
 
+```
 window.onmousemove = processMouseMouve;
-
 function processMouseMouve(evt) {
-
 var mousePositions = document.querySelector(&apos;#mousePositions&apos;);
-
 mousePositions.innerHTML = &quot;clientX: &quot; + evt.clientX +
-
 &quot; clientY: &quot; + evt.clientY + &quot;&lt;br&gt;&quot; +
-
 &quot; pageX : &quot; + evt.pageX +
-
 &quot; pageY : &quot; + evt.pageY +
-
 &quot;&lt;br&gt;&quot;;
-
 var mouseScreenPositions =
-document.querySelector(&apos;#mouseScreenPositions&apos;);
-
+  document.querySelector(&apos;#mouseScreenPositions&apos;);
 mouseScreenPositions.innerHTML = &quot;screenX: &quot; + evt.screenX +
-
 &quot; screenY: &quot; + evt.screenY +
-
 &quot;&lt;br&gt;&quot;;
-
 }
+```
 
 <h4>Example #4: detect a mousemove and get the mouse position relative to the element that fired the event</h4>
 
@@ -10182,82 +10010,56 @@ height="2.0722222222222224in"}
 
 <h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;mousemove events relative to page&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;Please move the mouse on the grey canvas below!&lt;/h1&gt;
-
 &lt;p&gt;The mouse position is not correct (try to move the cursor at the
-top left corner of the cavas: it should be 0,0 but it isn&apos;t. And if you
-scroll the page it&apos;s worse). clientX and clientY cannot be used &quot;as
-is&quot;.&lt;/p&gt;
-
+  top left corner of the cavas: it should be 0,0 but it isn&apos;t. And if you
+  scroll the page it&apos;s worse). clientX and clientY cannot be used &quot;as
+  is&quot;.&lt;/p&gt;
 &lt;canvas id=&quot;myCanvas&quot; width=300 height=50&gt;&lt;/canvas&gt;
-
 &lt;div id=&quot;mousePositions&quot;&gt;&lt;/div&gt;
-
 &lt;div id=&quot;mouseScreenPositions&quot;&gt;&lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 <h5>CSS:</h5>
 
+```
 canvas {
-
 border:4px solid;
-
 margin-left:20px;
-
 background-color:lightGrey;
-
 }
-
 body {
-
 height:2000px;
-
 }
+```
 
 <h5>JS:</h5>
 
+```
 window.onload = init;
-
 function init() {
-
 // page has been loaded
-
 canvas = document.querySelector(&apos;#myCanvas&apos;);
-
 canvas.addEventListener(&apos;mousemove&apos;, processMouseMouve)
-
 }
-
 function processMouseMouve(evt) {
-
 var mousePositions = document.querySelector(&apos;#mousePositions&apos;);
-
 mousePositions.innerHTML = &quot;mouse pos X: &quot; + evt.clientX +
-
 &quot; mouse pos Y: &quot; + evt.clientY +
-
 &quot;&lt;br&gt;&quot;
-
 }
+```
 
 Here is another version that uses clientX/clientY and
 the e.target.getBoundingClientRect() method that returns the bounding
@@ -10272,84 +10074,56 @@ height="2.9541666666666666in"}
 
 <h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;mousemove events relative to page&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;Please move the mouse on the grey canvas below!&lt;/h1&gt;
-
 &lt;p&gt;You&apos;ll see that there is a no more a problem: (0, 0) is now at the
-top left corner of the canvas, even if we scroll the page!&lt;/p&gt;
-
+  top left corner of the canvas, even if we scroll the page!&lt;/p&gt;
 &lt;canvas id=&quot;myCanvas&quot; width=300 height=50&gt;&lt;/canvas&gt;
-
 &lt;div id=&quot;mousePositions&quot;&gt;&lt;/div&gt;
-
 &lt;div id=&quot;mouseScreenPositions&quot;&gt;&lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 <h5>CSS:</h5>
 
+```
 canvas {
-
 border:4px solid;
-
 margin-left:20px;
-
 background-color:lightGrey;
-
 }
-
 body {
-
 height:2000px;
-
 }
+```
 
 <h5>JS:</h5>
 
+```
 function init() {
-
 // page has been loaded
-
 canvas = document.querySelector(&apos;#myCanvas&apos;);
-
 canvas.addEventListener(&apos;mousemove&apos;, processMouseMouve)
-
 }
-
 function processMouseMouve(evt) {
-
 var mousePositions = document.querySelector(&apos;#mousePositions&apos;);
-
 var rect = evt.target.getBoundingClientRect()
-
 var mouseX = evt.clientX - rect.left;
-
 var mouseY = evt.clientY - rect.top;
-
 mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
-
 &quot; mouse pos Y: &quot; + mouseY +
-
 &quot;&lt;br&gt;&quot;
-
 }
+```
 
 <h5>JavaScript source code extract:</h5>
 
@@ -12259,14 +12033,14 @@ list (**line 8**) and concatenate to the string
 variable listOfSelectedValues the value of each element (located in
 its value attribute). This is done in **line 9**.
 
-**Lines 9-12** use the parentNode property of the selected nodes in
+<b>Lines 9-12</b> use the parentNode property of the selected nodes in
 order to change the color of the &lt;li&gt; (parents of &lt;input&gt; elements
 selected) in red. In the DOM tree, we selected input elements that
 are each a child of a &lt;li&gt; element. The text displayed: &quot;Apples&quot;,
 &quot;Oranges&quot; etc. belong to the &lt;li&gt; element. In order to access it
 from the &lt;input&gt; child we selected, we use elm.parentNode.
 
-Finally, at the end of the document, **line 14** adds a message followed
+Finally, at the end of the document, <b>line 14</b> adds a message followed
 by this list:
 
 1.  function displayListOfCheckedItems() {
@@ -12302,12 +12076,12 @@ height="2.6972222222222224in"}
 
 <h5>HTML code:</h5>
 
-1.  &lt;button onclick=&quot;**changeBackGroundOfPs(&apos;firstDiv&apos;);**&quot;&gt;Change
+1.  &lt;button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);</b>&quot;&gt;Change
     backgrounds of p under a given element known by id&lt;/button&gt;
 
 2.  &lt;br&gt;
 
-3.  &lt;div **id=&quot;firstDiv&quot;**&gt;
+3.  &lt;div <b>id=&quot;firstDiv&quot;</b>&gt;
 
 4.  &lt;p&gt;First paragraph.&lt;/p&gt;
 
@@ -12380,7 +12154,7 @@ understand.
 From the document we can access the elements composing our Web page in a
 few ways:
 
--   **document.getElementById(identifier)** returns the element which
+-   <b>document.getElementById(identifier)</b> returns the element which
     has the id "identifier".
 
 This is equivalent to document.querySelector(&quot;#identifier&apos;); (just add
@@ -12389,7 +12163,7 @@ a &#35; before the id when using a CSS selector). 
 Example: var elm = document.getElementById(&apos;myDiv&apos;); is equivalent
 to document.querySelector(&apos;#myDiv&apos;);
 
--   **document.getElementsByTagName(tagName) **returns a list of
+-   <b>document.getElementsByTagName(tagName) </b>returns a list of
     elements which are named "tagName".
 
 This is equivalent to document.querySelectorAll(tagName);
@@ -12397,7 +12171,7 @@ This is equivalent to document.querySelectorAll(tagName);
 Example: var list = document.getElementByTagName(&apos;img&apos;); is equivalent
 to document.querySelector(&apos;img&apos;);
 
--   **document.getElementsByClassName(className)** returns a list of
+-   <b>document.getElementsByClassName(className)</b> returns a list of
     elements which have the class "className".
 
 This is equivalent to document.querySelectorAll(&apos;.className&apos;); 
@@ -12432,7 +12206,7 @@ var p = document.querySelector(&apos;#paragraph1&apos;);
 
 p.style.color = &apos;red&apos;;
 
-**Warning**: with the style attribute, you can modify (or read) any CSS
+<b>Warning</b>: with the style attribute, you can modify (or read) any CSS
 property, but be careful: the syntax changes a little due to the fact
 that in JavaScript the &quot;-&quot; is a math operator, while in CSS it is used
 to separate properties made of multiple words, such as background-color.
@@ -12507,7 +12281,7 @@ collection of class names:
 
 1.  var elem= document.querySelector(&quot;#id1&quot;);
 
-2.  var allClasses = elem.**classList**;
+2.  var allClasses = elem.<b>classList</b>;
 
 <h4>The classList API
 
@@ -12581,13 +12355,13 @@ the &lt;li&gt; elements:
 
     -   listOfSelectedValues += elm.value + &quot; &quot;;
 
-    -   **// get the li parent of the current selected input**
+    -   <b>// get the li parent of the current selected input</b>
 
-    -   **var liParent = elm.parentNode;**
+    -   <b>var liParent = elm.parentNode;</b>
 
-    -   **// add the CSS class .checked**
+    -   <b>// add the CSS class .checked</b>
 
-    -   **liParent.classList.add(&quot;checked&quot;);**
+    -   <b>liParent.classList.add(&quot;checked&quot;);</b>
 
 });
 
@@ -12605,11 +12379,11 @@ list.forEach(function(elm) {
 >
 > elm.checked = false;
 >
-> **// remove CSS decoration**
+> <b>// remove CSS decoration</b>
 >
-> **var liParent = elm.parentNode;**
+> <b>var liParent = elm.parentNode;</b>
 >
-> **liParent.classList.remove(&quot;checked&quot;);**
+> <b>liParent.classList.remove(&quot;checked&quot;);</b>
 
 12. });
 
@@ -12631,7 +12405,7 @@ This property is useful when you want to change all the children of a
 given element. It can be used to modify the text content of an element,
 or to insert a whole set of HTML elements inside another one.
 
-**Typical use:**
+<b>Typical use:</b>
 
 <pre><code>
 var elem = document.querySelector(&apos;#myElem&apos;);
@@ -12718,12 +12492,12 @@ JS
 JavaScript code: the comments after lines that start
 with console.log correspond to what is printed in the devtool debug
 console. Notice the difference between the textNode value and
-the innerHTML property values at **lines 13-14**:
+the innerHTML property values at <b>lines 13-14</b>:
 while textContent returns only the text inside the second
 paragraph, innerHTML also returns the &lt;em&gt;&hellip;&lt;/em&gt; that surrounds
 it. However, when we modify the textContent value, it also replaces the
-text decoration (the &lt;em&gt; is removed), this is done at **lines
-16-20**.
+text decoration (the &lt;em&gt; is removed), this is done at <b>lines
+16-20</b>.
 
 1.  window.onload = init;
 
