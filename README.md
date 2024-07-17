@@ -230,12 +230,10 @@ HTML5, CSS and JavaScript.</p>
 
 4.  [<b>HTML5 Apps and Games</b>](https://www.edx.org/course/html5-apps-and-games)
 
-5.  <b>This course</b>: [<b>JavaScript Introduction<b>](https://www.edx.org/course/javascript-introduction)
+5.  <b>This course</b>: [<b>JavaScript Introduction</b>](https://www.edx.org/course/javascript-introduction)
 
 <p><b>To get a W3C FEWD professional certificate, you must successfully pass 
 and receive a Verified Certificate in the five courses above</b>.</p>
-
-<h4>Web editors</h4>
 
 <h4>Foreword:</h4>
 
@@ -245,12 +243,12 @@ and receive a Verified Certificate in the five courses above</b>.</p>
   &quot;When I work locally, with files located on my computer hard drive, I
   use the Sublime Text source code editor, Visual Studio Code, WebStorm,
   NetBeans, depending on the size of the project I&apos;m working on.<br>
-  <b>- For testing simple examples, I mainly use the JsBin.com online code 
-    editor.</b><br>
-  <b>- For embedding online examples in this course, I use the CodePen.io 
-    online code editor.</b><br>
-  <b>- For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
-    the LiveWeave online code editor.&quot;</b>
+  - For testing simple examples, I mainly use the JsBin.com online code 
+    editor.<br>
+  - For embedding online examples in this course, I use the CodePen.io 
+    online code editor.<br>
+  - For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
+    the LiveWeave online code editor.&quot;
 </blockquote>
 
 <h4>Traditional source code editors</h4>
@@ -443,7 +441,7 @@ in terms of features.</p>
 
 <h4>Other tools</h4>
 
-There are many other online IDEs and new ones appear each year. If you
+<p>There are many other online IDEs and new ones appear each year. If you
 want a real, heavyweight online IDE that has nearly all the features
 offered by &quot;big IDEs&quot; such as Eclipse, NetBeans and WebStorm, take a
 look at the [Cloud9 IDE](https://c9.io/). It&apos;s free and will enable you
@@ -451,11 +449,11 @@ to develop huge projects, that can include many files, it supports
 uploaded assets such as images, videos and sound files.  Furthermore,
 like Google Docs, it will support multiple users working at the same
 time on the same project, even on the same file. It&apos;s a real
-collaborative environment.
+collaborative environment.</p>
 
-Michel Buffa, author of this course, developed a whole multitrack audio
+<p>Michel Buffa, author of this course, developed a whole multitrack audio
 player this way. This application is <a href="https://mainline.i3s.unice.fr/">
-available online</a>. (See also screenshots below:)
+available online</a>. (See also screenshots below:)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. multitrack audio player (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -465,9 +463,9 @@ available online</a>. (See also screenshots below:)
   alt="Multitrack audio player." />
 </p>
 
-100% of the development was done in a Web browser, by Michel Buffa and
+<p>100% of the development was done in a Web browser, by Michel Buffa and
 two friends, using the c9.io (Cloud 9) IDE (to see if online IDEs were a
-valuable approach):
+valuable approach):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. c9 ide, example (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -479,55 +477,50 @@ valuable approach):
 
 <h4>JavaScript debuggers</h4>
 
-Here is a selection of tools to help debug JavaScript code. The
-instructor will indicate other tools in module 1 of the course.
+<p>Here is a selection of tools to help debug JavaScript code. The
+instructor will indicate other tools in module 1 of the course.</p>
 
--   [Firefox JS
-    debugger](https://developer.mozilla.org/en-US/docs/Tools/Debugger) (debugger
-    shipped inside Firefox) - all other browsers have integrated
-    debuggers as well.
-
--   [JS Lint](https://www.jslint.com/)  - The JavaScript Code Quality
-    Tool
-
--   [CodeBeautify](https://codebeautify.org/jsvalidate)  - JavaScript
-    Validator
-
--   Check also other[ JavaScript debugging
-    tools](https://jqueryhouse.com/best-javascript-debugging-tools/)
+<ul>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Tools/Debugger">Firefox JS
+    debugger</a> (debugger shipped inside Firefox) - all other browsers have integrated
+    debuggers as well.</li>
+  <li><a href="https://www.jslint.com/">JS Lint</a> - The JavaScript Code Quality
+    Tool</li>
+  <li><a href="https://codebeautify.org/jsvalidate">CodeBeautify</a> - JavaScript
+    Validator</li>
+  <li>Check also other 
+    <a href="https://jqueryhouse.com/best-javascript-debugging-tools/">
+	JavaScript debugging tools</a></li>
+</ul>
 
 <h4>Browser compatibility</h4>
 
-The term browser compatibility refers to the ability of a given Web site
-to appear fully functional on the browsers available in the market.
-
-The most powerful aspect of the Web is what makes it so challenging to
+<p>The term browser compatibility refers to the ability of a given Web site
+to appear fully functional on the browsers available in the market.</p>
+<p>The most powerful aspect of the Web is what makes it so challenging to
 build for: its universality. When you create a Web site, you're writing
 code that needs to be understood by many different browsers on different
-devices and operating systems!
+devices and operating systems!</p>
 
-To make the Web evolve in a sane and sustainable way for both users and
+<p>To make the Web evolve in a sane and sustainable way for both users and
 developers, browser vendors work together to standardize new features,
-whether it's a new [HTML
-element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS
-property](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index),
-or [JavaScript API](https://developer.mozilla.org/en-US/docs/Web/API).
+whether it's a new <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">
+HTML element</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword">
+CSS property</a>, or <a href="https://developer.mozilla.org/en-US/docs/Web/API">JavaScript API</a>.
 But different vendors have different priorities, resources, and release
 cycles --- so it's very unlikely that a new feature will land on all the
 major browsers at once. As a Web developer, this is something you must
-consider if you're relying on a feature to build your site.
-
-We are then providing references to the browser support of HTML5
-features presented in this course using 2 resources: [Can I
-Use](https://caniuse.com/) and [Mozilla Developer Network (MDN) Web
-Docs](https://developer.mozilla.org/en-US/).
+consider if you're relying on a feature to build your site.</p>
+<p>We are then providing references to the browser support of HTML5
+features presented in this course using 2 resources: <a href="https://caniuse.com/">Can I
+Use</a> and <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network (MDN) Web Docs</a>.</p>
 
 <h4>Can I use</h4>
 
-[Can I Use](https://caniuse.com/) provides up-to-date tables for support
+<p><a href="https://caniuse.com/">Can I Use</a> provides up-to-date tables for support
 of front-end Web technologies on desktop and mobile Web browsers. Below
 is a snapshot of what information is given by CanIUse when searching for
-&quot;CSS3 colors&quot;.
+&quot;CSS3 colors&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 19. example of a caniuse browser support table (using css3) colors (14) ~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -559,16 +552,12 @@ exactly which browsers will support it.
 
 <h4>External resources</h4>
 
--   [MDN browser compatibility data: Taking the guesswork out of web
-    compatibility](https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/)
-
-https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/
-
--   [Caniuse and MDN compatibility data
-    collaboration](https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/)
-
-https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/
-
+<ul>
+  <li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/">
+    MDN browser compatibility data: Taking the guesswork out of web compatibility</a></li>
+  <li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/">
+    Caniuse and MDN compatibility data collaboration</a></li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. w3c developers logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
