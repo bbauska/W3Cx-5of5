@@ -2250,7 +2250,7 @@ subdirectory. If I open this project with Sublime Text ... I go to the
 directory I&apos;ve just downloaded, and if I open the directory, I can see
 my hierarchy, here. The &quot;index.html&quot; file that includes the .css file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. codepen: example style.css  (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. codepen: example style.css (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image071.png?raw=true"
   style="width:50%"
@@ -2283,7 +2283,7 @@ and like that you can directly include, in the HTML file, the style.
 I&apos;ve got &quot;h1&quot; CSS rule, that will indicate how the &quot;h1&quot; will be
 rendered and I&apos;m no more including an external file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 73. example codepen: update css rule (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 73. example codepen: index.html (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image073.png?raw=true"
   style="width:50%"
@@ -2305,12 +2305,12 @@ file using the &quot;style&quot; element.
 Hello, your Web browser can only understand three different languages
 when you ask for a Web page to be rendered in the browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 74. example  (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 74. example: edx studio; using 3rd party js libraries (60) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image074.png?raw=true"
   style="width:50%"
-  title="Example CodePen: Update CSS Rules"
-  alt="Example CodePen: Update CSS Rules." />
+  title="Example: edx studio; using 3rd party JS libraries"
+  alt="Example: edx studio; using 3rd party JS libraries." />
 </p>
 <!-- ![](./images/image074.png){width="6.5in" height="3.428472222222222in"} -->
 
@@ -2324,9 +2324,15 @@ the document as we saw in the previous example. But you can also have
 Javascript code and Javascript when its run inside the browser can act
 as a glue between HTML and CSS. We will use Javascript to provide
 interactivity to the documents.
-
-![](./images/image075.png){width="6.5in"
-height="3.428472222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 75. example: codepen; using javascript (61) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+  style="width:50%"
+  title="Example: CodePen; using JavaScript"
+  alt="Example: CodePen; using JavaScript." />
+</p>
+<!-- ![](./images/image075.png){width="6.5in" height="3.428472222222222in"} -->
 
 In this example, the first one on this page, I can click to change the
 content of the document. We modify what we call the document object
@@ -2344,9 +2350,15 @@ click on the button executes these two lines of code here. 1st use:
 interact with the document object model, interact with the HTML elements
 of the page, add new ones, modify some existing ones, remove some
 elements.
-
-![](./images/image076.png){width="6.5in"
-height="3.428472222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 76. example: codepen; using javascript, #2 (62) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image076.png?raw=true"
+  style="width:50%"
+  title="Example: CodePen; using JavaScript, #2"
+  alt="Example: CodePen; using JavaScript, #2." />
+</p>
+<!-- ![](./images/image076.png){width="6.5in" height="3.428472222222222in"} -->
 
 It can be also use for interactive for the CSS styles of the page. In
 this example, I click on the button. And instead of modifying the
@@ -2365,9 +2377,15 @@ can use it for making multimedia players, for writing video games, for
 making music, for building tables on the fly to display some dynamic
 data that you came after, for example, we enter some text in the search
 form, etc.
-
-![](./images/image077.png){width="6.5in"
-height="3.428472222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 77. example: index.html: update heading using javascript (63) ~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image077.png?raw=true"
+  style="width:50%"
+  title="Example: index.html: update heading using JavaScript"
+  alt="Example: index.html: update heading using JavaScript." />
+</p>
+<!-- ![](./images/image077.png){width="6.5in" height="3.428472222222222in"} -->
 
 During week 1, we will see other examples with different sort of
 applications of JavaScript. And, we will first give some explanations
@@ -2379,8 +2397,15 @@ browser can run (without installing any plugins or extensions), and
 it&apos;s a real standard of the Web (even if not standardized by the W3C).
 
 #### Why do we call it &quot;the interactive glue between HTML and CSS&quot;?
-
-![JS is the perfect glue](./images/image078.png){width="2.6041666666666665in" height="2.2291666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 78. javascript is the perfect glue (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image078.png?raw=true"
+  style="width:50%"
+  title="JavaScript is the perfect glue"
+  alt="JavaScript is the perfect glue." />
+</p>
+<!-- (./images/image078.png){width="2.6041666666666665in" height="2.2291666666666665in"} -->
 
 Actually, this description does not do justice to JavaScript, which can
 do far more than just act as glue. JavaScript can be run outside of the
@@ -2393,15 +2418,27 @@ together with these two languages. Let&apos;s take a look at two small
 examples:
 
 Example #1: push the button to modify the heading of the page.
-
-![](./images/image079.png)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 79. example: javascript; push button to modify the heading (64) ~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image079.png?raw=true"
+  style="width:50%"
+  title="Example: index.html: update heading using JavaScript"
+  alt="Example: index.html: update heading using JavaScript." />
+</p>
 
 https://codepen.io/w3devcampus/pen/pREjaE
 
 Example #2: push another button to modify the CSS style (color,
 background-color, border) of a paragraph in the page.
-
-![](./images/image080.png)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 80. example: javascript: update button to modify css style (64) ~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image080.png?raw=true"
+  style="width:50%"
+  title="Example: javascript: update button to modify CSS style"
+  alt="Example: javascript: update button to modify CSS style." />
+</p>
 
 https://codepen.io/w3devcampus/pen/bgwVvN
 
@@ -2411,8 +2448,9 @@ can interact with the HTML content and the CSS styles of a Web document.
 Finally, note that, in these examples, the JavaScript code is located in
 the HTML of the document.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-7">1.2.7 JavaScript history</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 JavaScript remains the most commonly used programming language with
 67.7% of developers employing it in 2020 (see this [survey&apos;s
 results](https://insights.stackoverflow.com/survey/2020#most-popular-technologies)).
@@ -2423,11 +2461,30 @@ Created out of necessity, it is used to build 97.4% of websites,
 including some of the world's largest, like Facebook and YouTube.
 Without it, we would not have popular and useful web apps such as Google
 Maps and eBay.
-
-![Photo of Brendan Eich, creator of JavaScript](./images/image081.jpeg)
-![Cover page of the Netscape JavaScript 1.2 book](./images/image082.jpeg)
-![year 1995](./images/image083.jpeg)
-![Netscape logo](./images/image084.png)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 81/82. photo brandan eich, creator of js, netscape js book (65) ~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image081.png?raw=true"
+  style="width:35%"
+  title="Photo of Brandan Eich, creator of JavaScript"
+  alt="Photo of Brandan Eich, creator of JavaScript." />
+<img src="./images/image082.png?raw=true"
+  style="width:35%"
+  title="Cover page of the Netscape JavaScript 1.2 book"
+  alt="Cover page of the Netscape JavaScript 1.2 book." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 83/84. year 1995, netscape logo (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image083.png?raw=true"
+  style="width:35%"
+  title="Year 1995"
+  alt="Year 1995." />
+<img src="./images/image084.png?raw=true"
+  style="width:35%"
+  title="Netscape logo"
+  alt="Netscape logo." />
+</p>
 
 JavaScript was born in 1995 as part of the work of Brendan Eich&apos;s team
 at [Netscape](https://en.wikipedia.org/wiki/Netscape) (the ancestor
@@ -2439,16 +2496,27 @@ of [Firefox](https://en.wikipedia.org/wiki/Firefox)) which depended on
 Java. (Sun Microsystems, the company that created the Java programming
 language, no longer exists, having been bought by Oracle Corporation in
 2009.)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 85. snapshot; dotjs 2017 - brandan eich - history of js (66) ~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image085.png?raw=true"
+  style="width:50%"
+  title="dotJS 2017 - Brandan Eich - A Brief History of JavaScript"
+  alt="dotJS 2017 - Brandan Eich - A Brief History of JavaScript." />
+</p>
 
-![](./images/image085.png)
+<p><a href="https://www.youtube.com/watch?v=aX3ZABCdC38">dotJS 2017 - Brandan Eich - A Brief History of JavaScript</a>.</p>
 
-https://www.youtube.com/watch?v=aX3ZABCdC38
-
-![Sun Microsystems
-logo](./images/image086.png)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86. sun microsystems logo (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="50%">
+<img src="./images/image086.png?raw=true"
+  style="width:20%"
+  title="Sun Microsystems logo"
+  alt="Sun Microsystems logo." />
 But Netscape realized that Java wasn&apos;t a
 suitable language for in-browser use. Netscape thought of JavaScript at
-the beginning, as a lightweight Java.
+the beginning, as a lightweight Java.</p>
 
 JavaScript was initially inspired by Java, but in fact only some naming
 conventions remained the same. We highly recommend not even trying to
