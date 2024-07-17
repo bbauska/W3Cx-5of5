@@ -2970,7 +2970,7 @@ mouse wheel to zoom in/out the function plot.
   alt="JavaScript detailed timeline." />
 </p>
 
-![image092.png](./images/image092.png)
+<!-- ![image092.png](./images/image092.png) -->
 
 https://codepen.io/w3devcampus/pen/PpYpjJ
 
@@ -3117,8 +3117,15 @@ They are respectively:
 -   <b>data</b>: this is where we indicate the value of the function(s) to
     be plotted. We talk about this in greater detail below.
 
-![coordplane](./images/image093.gif){width="3.125in"
-height="2.0in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 93.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image093.gif?raw=true"
+  style="width:30%"
+  title="JavaScript detailed timeline"
+  alt="JavaScript detailed timeline." />
+</p>
+<!-- ![coordplane](./images/image093.gif){width="3.125in" height="2.0in"} -->
 
 -   <b>grid</b>: this can be true or false (we call these &quot;boolean
     values&quot;) and indicates whether or not we want a grid to be drawn in
@@ -3181,7 +3188,15 @@ cos(x) to our example, with a different color:
 10. &rbrack;
 ```
 
-![](./images/image094.png){width="6.5in" height="3.18125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 94.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image094.png?raw=true"
+  style="width:65%"
+  title="JavaScript detailed timeline"
+  alt="JavaScript detailed timeline." />
+</p>
+<!-- ![](./images/image094.png){width="6.5in" height="3.18125in"} -->
 
 https://codepen.io/w3devcampus/pen/KWPyeX
 
@@ -3258,8 +3273,15 @@ What can be done with JavaScript:
 We have already seen three examples in previous parts of this week&apos;s
 course material.
 
-![](./images/image095.png){width="6.5in"
-height="2.9611111111111112in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 95.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image095.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image095.png){width="6.5in" height="2.9611111111111112in"} -->
 
 https://codepen.io/w3devcampus/pen/pREjaE
 
@@ -3303,8 +3325,15 @@ title.innerHTML = &quot;This new title has been changed from JavaScript!&quot;
 }
 ```
 
-![](./images/image096.png){width="6.5in"
-height="3.071527777777778in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 96.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image096.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image096.png){width="6.5in" height="3.071527777777778in"} -->
 
 https://codepen.io/w3devcampus/pen/bgwVvN
 
@@ -3360,8 +3389,15 @@ Example of an HTML page that embeds an interactive OpenStreet Map (<b>you
 need to click the CodePen logo on top right to run this example. For
 security reasons it cannot be run inside this course page</b>).
 
-![](./images/image097.png){width="6.5in"
-height="2.0819444444444444in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 97.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image097.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image097.png){width="6.5in" height="2.0819444444444444in"} -->
 
 https://codepen.io/w3devcampus/pen/LYVgyxE
 
@@ -3377,8 +3413,15 @@ years ago).
 Here is an example that will display the current and past members of
 famous rock bands:
 
-![](./images/image098.png){width="6.5in"
-height="2.9611111111111112in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 98.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image098.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image098.png){width="6.5in" height="2.9611111111111112in"} -->
 
 https://codepen.io/w3devcampus/pen/wJwpKq
 
@@ -3421,9 +3464,15 @@ console.log(&quot;JavaScript code executed&quot;);
 </code></pre>
 
 Here is this first example on CodePen:
-
-![](./images/image099.png){width="6.5in"
-height="3.2777777777777777in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 99.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image099.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image099.png){width="6.5in" height="3.2777777777777777in"} -->
 
 https://codepen.io/w3devcampus/pen/ZLBPpY
 
@@ -3456,9 +3505,15 @@ some content to this document
 </code></pre>
 
 Here is this second example on CodePen:
-
-![](./images/image100.png){width="6.5in"
-height="3.1881944444444446in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 100.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image100.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image100.png){width="6.5in" height="3.1881944444444446in"} -->
 
 https://codepen.io/w3devcampus/pen/apBMYJ
 
