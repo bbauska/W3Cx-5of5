@@ -4298,7 +4298,9 @@ you might find lots of examples that still use the var keyword&hellip;
 **Anyway, we highly recommend to use let and const instead of var, for
 declaring variables and constants!**
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-3">1.5.3 JS data types</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi!
 
@@ -4429,7 +4431,6 @@ for us, for explaining the data types.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-4">1.5.4 Numbers</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <h4>Number values can be:</h4>
 
 -   **Integer**: 1, 4, 274929
@@ -4632,13 +4633,11 @@ NaN is a special value and its type is &quot;Number&quot;!
 5.  undefined
 6.   
 7.  &gt; a;
-8.  NaN
-&gt; var a = 10 &ast; &quot;f&quot;;
-undefined
-&gt; a;
-NaN
-&gt; 1 + 2 + a;
-NaN
+8.  NaN &gt; 
+  var a = 10 &ast; &quot;f&quot;;
+  undefined &gt; a;
+  NaN &gt; 1 + 2 + a;
+  NaN
 ```
 
 <h4>&lbrack;ADVANCED&rbrack; Optional explanations about numbers</h4>
@@ -4694,14 +4693,18 @@ prefixed or suffixed.
 
 <h5>Unary operator example:</h5>
 
+```
 typeof &apos;world&apos;;
+```
 
 A binary operator is applied to two different expressions, and is both
 prefixed and suffixed.
 
 <h5>Binary operator example:</h5>
 
+```
 var x = 45 / 32;
+```
 
 <h5>The division operator is binary</h5>
 
@@ -5008,12 +5011,10 @@ var s = &quot;1&#92;t2&quot;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-9">1.5.9 Objects (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 We have already encountered objects in different examples. You can
 easily recognize these objects:
 
-They are declared using &quot;{&quot; and &quot;}&quot;, such as in var p =
-,
+They are declared using &quot;{&quot; and &quot;}&quot;, such as in var p = ,
 givenName and familyName are called &quot;properties&quot;
 and Michel and Buffa are their respective values.
 
@@ -5090,13 +5091,14 @@ Accessing an object&apos;s properties: we use the operator &quot;.&quot;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-10">1.5.10 Arrays (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 #### Definition: arrays are containers with indexes
 
 Arrays are a special datatype. You declare arrays using brackets, like
 this:
 
+```
 var daysOfWeek = &lbrack;&rbrack;;
+```
 
 You can fill them at declaration time:
 
@@ -5318,7 +5320,9 @@ it contains all the call parameters of the function:
 13. 10
 ```
 
-### 1.6.1 Introduction {#introduction .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 1.6.1 Introduction
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 This section does not detail the examples presented. Some of them are
 studied later in the course, some won&apos;t.
@@ -5329,7 +5333,9 @@ code, and to tweak the examples. Do not worry if you don&apos;t understand
 how they work. We are just giving you &quot;a taste&quot; of JavaScript. There
 will be no graded exercises about them.
 
-### 1.6.2 The devtool console {#the-devtool-console .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 1.6.2 The devtool console
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Using the console.log(&hellip;) instruction, you can **write messages to the
 devtool console** of your browser. This is a common way to debug your
@@ -5340,7 +5346,7 @@ happens when you click on it.
 It can be very difficult to spot your error without using the devtool
 console and console.log(&hellip;)!
 
-#### Example {#example-7 .unnumbered}
+#### Example
 
 Let&apos;s check that some parts of the code you wrote are executed
 correctly.
@@ -5422,12 +5428,12 @@ Instead of just displaying pure string messages, you can also use the
 strings.
 Example :
 
+```
 1.  var x = 2;
-
 2.   
-
 3.  console.log(**&quot;The value of x is &quot; + x + &quot; and it&apos;s ok like
     that.&quot;**);
+```
 
 We typed this code in the devtool console to check what it does:
 
@@ -5463,7 +5469,9 @@ using the &quot;+&quot; operator.
 And of course, you can use such code in your programs, not only in the
 devtool console :-)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ### 1.6.3 Modifying an HTML document
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Don&apos;t worry if we do not explain all the details of this example. In
 the first module, we&apos;re giving you &quot;a taste&quot; of what we can do with
@@ -5496,7 +5504,9 @@ see this:
 
 ![](./images/image134.png){width="3.90625in" height="2.71875in"}
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ### 1.6.4 Modifying CSS styles on the fly
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 We&apos;ve already seen some examples in which we modify the style of some
 parts of a document using JavaScript. Here we show another example of
@@ -5583,7 +5593,9 @@ example we used pixel units and a percentage, so we need to add the
 &quot;px&quot; and &quot;%&quot; character(s) when we manipulate these properties from
 JavaScript.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ### 1.6.5 Adding interactivity with events
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 With JavaScript, you can react to user interactions (keyboard, mouse,
 gamepad), to changes in the lifecycle of your document (page has just
@@ -5629,7 +5641,9 @@ presented.
 ![](./images/image141.png){width="6.5in"
 height="4.159027777777778in"}
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ### 1.6.6 Using built-in HTML5 APIs
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Your browser comes with a lot of standard W3C APIs. By standard, we mean
 &quot;parts of HTML5&quot; or real Web standards that will still work in 10
@@ -6595,7 +6609,9 @@ xAxis: {domain: &lbrack;0, 2&ast;Math.PI&rbrack;},
 });
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-8">1.6.8 Working with remote data</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let&apos;s see a few examples on how to work with remote data.
 
@@ -6748,7 +6764,9 @@ soundLoaded();
 });
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1-1">2.1.1 Video introduction - Module 2</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hey everyone!
 
@@ -6778,7 +6796,9 @@ the forum.
 
 And let other students enjoy your creation :D
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1-2">2.1.2 Module 2 outline</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 What you will learn in Module 2:
 
@@ -6795,7 +6815,9 @@ What you will learn in Module 2:
 
 -   HTML5 canvas: learn how to draw and animate simple shapes
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-1">2.2.1 Boolean values and logical operators</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: boolean value, if&hellip;else statement and comparison
 operators
@@ -6875,9 +6897,7 @@ executed...
 I can add some &quot;else&hellip;if&quot; statements.
 
 If age is 10, then in that case I&apos;ll go to the else statement and I
-will test again if
-
-in this case, age is less than 18.
+will test again if in this case, age is less than 18.
 
 I&apos;ll print &quot;I&apos;m a child&quot;.
 
@@ -6894,18 +6914,14 @@ without an &quot;if&quot; behind.
 This means: &quot;when all the other cases are false, please come here!&quot;.
 
 If I set my age to be 70, then in that case, all the tests will be
-false, and I will
-
-execute the block of instructions that is just after the last &quot;else&quot;,
+false, and I will execute the block of instructions that is just after the last &quot;else&quot;,
 and it prints &quot;I&apos;m old&quot;.
 
 I can also try&hellip; if the variable has some exact value using the ==
 operator.
 
 If I set the variable to be 72, then this test is true and it prints
-&quot;I&apos;m 72&quot;
-
-in the devtool console.
+&quot;I&apos;m 72&quot; in the devtool console.
 
 We can also use more than one test at once using logical operators.
 
@@ -6914,9 +6930,7 @@ The double ampersand (&&) here is the AND operator.
 This will be true only is age is more than 12 and less than 14.
 
 If I set the variable to 13, it will print &quot;I&apos;m a young teenager&quot;
-because
-
-both tests here, &gt; 12 and &lt; 14, are true.
+because both tests here, &gt; 12 and &lt; 14, are true.
 
 I can use also the OR operator.
 
@@ -6925,23 +6939,17 @@ In that case, it will be true if one of the two are true.
 Let&apos;s try with age = 8.
 
 With age equals to 8, this is false, age &gt; 12, but age &lt; 14 is true,
-it prints
-
-&quot;I&apos;m a young teenager&quot;.
+it prints &quot;I&apos;m a young teenager&quot;.
 
 Finally, let&apos;s have a look at the === operator.
 
 If I set the age to be &quot;72&quot;, but as a string, like this... it
-prints... let me clear
-
-the devtool console and execute it again... it prints &quot;I&apos;m 72&quot;
+prints... let me clear the devtool console and execute it again... it prints &quot;I&apos;m 72&quot;
 because the age variable, that is a string, has been converted
 implicitly to a number.
 
 If I use the triple equal sign, then it does not print anymore &quot;I&apos;m
-72&quot; because age,
-
-as a string, has not been converted to a number.
+72&quot; because age, as a string, has not been converted to a number.
 
 And thrust me, it&apos;s much better to use the triple equals operator, it
 will avoid you many errors like considering a string as a number, and so
@@ -7403,7 +7411,9 @@ appear, for example:
 ```
 -   Math.sqrt(-1); return NaN 
 
-#### 2.2.2 Conditional statements {#conditional-statements .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+#### 2.2.2 Conditional statements
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi! Let&apos;s have a look at the switch statement.
 
@@ -7754,7 +7764,7 @@ If the value of an expression equals one of the cases (the equality
 operator evaluated is** ===**), all the statements next to this case
 block are executed sequentially until the keyword **break** is reached.
 
-#### Example #1: a common switch/case/default example. {#example-1-a-common-switchcasedefault-example. .unnumbered}
+#### Example #1: a common switch/case/default example.
 
 ```
 var gear = &apos;&apos;;
@@ -7790,7 +7800,7 @@ a watch. The presence of the **break** keyword at the end of the
 different cases make the choices 100% exclusive. Only one case can be
 executed!
 
-#### Example 2#: a switch without &quot;breaks&quot; at the end of each case {#example-2-a-switch-without-breaks-at-the-end-of-each-case .unnumbered}
+#### Example 2#: a switch without &quot;breaks&quot; at the end of each case
 
 ```
 var gear = &apos;&apos;;
@@ -7820,7 +7830,7 @@ spacesuit (because of the break keyword, other cases will not be
 tested). If the cloud color is not in the listed colors, then my gear is
 only a watch (default case).
 
-#### Example #3: three ways to do condition statements {#example-3-three-ways-to-do-condition-statements .unnumbered}
+#### Example #3: three ways to do condition statements
 
 To finish up this section, here is a complete example (to run it: click
 on the &quot;edit on codepen&quot; label and once in codepen, open the devtool
@@ -7887,7 +7897,9 @@ console.log(&apos;example2,&#92;n bar2 &gt;&gt; &apos; + bar2);
 console.log(&apos;example3,&#92;n bar3 &gt;&gt; &apos; + bar3);
 ```
 
-### 2.2.3 Loop statements {#loop-statements .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 2.2.3 Loop statements
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi!
 
@@ -8336,7 +8348,9 @@ at index = 1.
     &quot;comparing with elements&hellip;&quot; with indexes greater than 1: the
     loop exists when &apos;john&apos; is found at index 1 (i equal to 1).
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ### 2.2.4 Discussion and projects {#discussion-and-projects-1 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
@@ -8387,7 +8401,9 @@ post your comments/observations/questions or share your creations.
     (we&apos;ve done an example close to this in the section that presented
     the DOM).
 
-### 2.3.1 Functions and callbacks {#functions-and-callbacks .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 2.3.1 Functions and callbacks
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let&apos;s see how to declare a function and a callback.
 
@@ -8420,49 +8436,34 @@ height="2.0659722222222223in"}
 
 HTML
 
+```
 &lt;!doctype html&gt;
-
 &lt;html&gt;
-
 &lt;head lang=&quot;en&quot;&gt;
-
 &lt;title&gt;Functions declaration - Part 1&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 JS
 
+```
 function sum(a, b) {
-
 // this function returns a result
-
 return (a + b);
-
 }
-
 function displayInPage(message, value) {
-
 // this function does not return anything
-
 document.body.innerHTML += message + value + &quot;&lt;br&gt;&quot;;
-
 }
-
 var result = sum(3, 4);
-
 displayInPage(&quot;Result: &quot;, result);
-
 // we could have written this
-
 displayInPage(&quot;Result: &quot;, sum(10, 15));
+```
 
 In the above example, the sum function returns a value, and
 the displayInPage function does not return anything.
@@ -8479,47 +8480,33 @@ height="2.272222222222222in"}
 
 HTML
 
+```
 &lt;!doctype html&gt;
-
 &lt;html&gt;
-
 &lt;head lang=&quot;en&quot;&gt;
-
 &lt;title&gt;Function expressions - Part 2&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 JS
 
+```
 var sum = function(a, b) {
-
 return (a + b);
-
 };
-
 var displayInPage = function(message, value) {
-
 // this function does not return anything
-
 document.body.innerHTML += message + value + &quot;&lt;br&gt;&quot;;
-
 };
-
 var result = sum(3, 4);
-
 displayInPage(&quot;Result: &quot;, result);
-
 // we could have written this
-
 displayInPage(&quot;Result: &quot;, sum(10, 15));
+```
 
 Notice how the sum and displayInPage functions have been declared. We
 used a variable to store the function expression, then we can call the
@@ -8555,52 +8542,35 @@ height="2.588888888888889in"}
 
 HTML
 
+```
 &lt;!doctype html&gt;
-
 &lt;html&gt;
-
 &lt;head lang=&quot;en&quot;&gt;
-
 &lt;title&gt;Callback functions&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;p&gt;Click in the page!&lt;/p&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 JS
 
 // Add a click event listener on the whole document
-
 // the processClick function is a callback:
-
 // a function called by the browser when a click event
-
 // is detected
-
 window.addEventListener(&apos;click&apos;, processClick);
-
 function processClick(event) {
-
 document.body.innerHTML += &quot;Button clicked&lt;br&gt;&quot;;
-
 }
-
 // We could have written this, with the body of the callback as an
 argument of the addEventListener function
-
 window.addEventListener(&apos;click&apos;, function(evt) {
-
 document.body.innerHTML += &quot;Button clicked version 2&lt;br&gt;&quot;;
-
 });
+```
 
 In this case, the processClick function is passed as a parameter to
 the addEventListener method/function.
@@ -8610,7 +8580,9 @@ as **functional programming**. They are very, very common in JavaScript.
 We&apos;ll use them a lot in the next section of the course, called
 &quot;Handling events&quot;.
 
-### 2.4.1 Introduction {#introduction-1 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 2.4.1 Introduction
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Adding interactivity to a Web application can be achieved by using only
 CSS, such as by using the :hover pseudo CSS class.
@@ -8622,35 +8594,27 @@ height="2.0861111111111112in"}
 
 HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Mouse over&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;/&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;button&gt;Put the mouse cursor over me&lt;/button&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 CSS
 
+```
 button:hover {
-
 color:red;
-
 border:2px solid;
-
 }
+```
 
 However, firing a specific action when the button is clicked, knowing
 which mouse button has been used, computing the (x, y) mouse pointer
@@ -8670,7 +8634,9 @@ Each time an event occurs, the browser puts it in a &quot;queue of events&quot;.
 Then the browser looks at a list of &quot;Event Listeners&quot; and calls the
 ones that correspond to the type of event &quot;they listen to&quot;.
 
-### 2.4.2 Adding and removing event listeners {#adding-and-removing-event-listeners .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 2.4.2 Adding and removing event listeners
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ### Live coding video: adding an event listener to a document {#live-coding-video-adding-an-event-listener-to-a-document .unnumbered}
 
@@ -8724,23 +8690,17 @@ fire the event. The window object is the whole document. We start with
 to this property &quot;onclick&quot;, we assign directly the function.
 
 We can directly type the anonymous function, like that. We add a
-semicolon
-
-because this is a an executable statement. And if I click&hellip; &hellip;it
+semicolon because this is a an executable statement. And if I click&hellip; &hellip;it
 works. Okay, or I could have used the same syntax we saw earlier, with a
 regular callback function with a name, and we just indicate onclick
 equal the name of the callback, like this, which is the same name&hellip; So
 if I click, it works.
 
 In this video, I will show you how to add an event listener to an html
-element,
-
-and not to the whole document, like in the previous video.
+element, and not to the whole document, like in the previous video.
 
 So, let&apos;s try with a button. One of the easiest way to detect a click
-on a button is to use
-
-the onclick = name of the function, name of the callback that will
+on a button is to use the onclick = name of the function, name of the callback that will
 process the function.
 
 In that case, we can locate the body of this callback anywhere in the
@@ -8754,8 +8714,7 @@ Let&apos;s try like that&hellip;
 In that case, you see, when I click, the processClick callback is
 called.
 
-I always add an argument here, that is not used in this example,
-
+I always add an argument here, that is not used in this example, 
 but it will be the topic of a next video.
 
 Here, I&apos;using just the DOM API for adding some text to the document.
@@ -8778,10 +8737,7 @@ There is a good reason for that, that I will explain.
 And first, I get a reference on the element.
 
 For that, we use the selector API: it&apos;s a built-in feature that is in
-your browser,
-
-that is very useful for getting references on elements.
-
+your browser, that is very useful for getting references on elements.
 document.querySelector is the name of the method we are going to use.
 
 And then, we use a CSS3 selector.
@@ -8796,24 +8752,16 @@ Let&apos;s try it.
 I click on the button and I get an alert.
 
 You must understand that when you execute document.querySelector,
-
 the button must exist in the page and must has been rendered.
 
 We say that &quot;the DOM of the page must be ready&quot;.
 
 When an HTML page is rendered, it&apos;s sequential, it goes from top to
-bottom,
-
-so in that case, the button is created, added to the DOM, then the
-script is executed,
-
-and document.querySelector will return a reference on the button.
+bottom, so in that case, the button is created, added to the DOM, then the
+script is executed, and document.querySelector will return a reference on the button.
 
 If I move this script tag before the button, in that case, it&apos;s not
-going to work
-
-because the b variable here will correspond to nothing,
-
+going to work because the b variable here will correspond to nothing,
 it will be null because there is not yet a button in the DOM.
 
 And if we look at the devtool console, we see
@@ -8899,33 +8847,27 @@ the addEventListener function.
 
 In other words, this:
 
+```
 1.  &lt;script&gt;
-
 2.  addEventListener(&apos;click&apos;, **function(evt) {**
-
 3.      **document.body.innerHTML += &apos;Button clicked!&apos;;**
-
 4.  **}**);
-
 5.  &lt;/script&gt;
+```
 
 &hellip; is the same as this (the function called when a click occurs has
 its body &quot;outside&quot; of the addEventListener parameters, and we use its
 name as the second parameter):
 
+```
 1.  &lt;script&gt;
-
 2.  addEventListener(&apos;click&apos;,** processClick**);
-
 3.  
-
 4.  function** processClick**(evt) {
-
 5.      console.log(&quot;Button clicked!&quot;);
-
 6.  }
-
 7.  &lt;/script&gt;
+```
 
 ### Adding an event listener to specific HTML elements {#adding-an-event-listener-to-specific-html-elements .unnumbered}
 
@@ -8941,39 +8883,25 @@ height="2.0701388888888888in"}
 
 HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Second example of an event listener&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;button id=&quot;myButton&quot;&gt;Click me!&lt;/button&gt;
-
 &lt;p&gt;&lt;/p&gt;
-
 &lt;script&gt;
-
 var b = document.querySelector(&quot;#myButton&quot;);
-
 b.addEventListener(&apos;click&apos;, function(evt) {
-
 alert(&quot;Button clicked&quot;);
-
 });
-
 &lt;/script&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 In this example, instead of using the addEventListener method directly,
 we used it on a DOM object (the button):
@@ -9002,41 +8930,31 @@ height="2.104861111111111in"}
 
 HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Third example of an event listener&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;script&gt;
-
 function processClick(evt) {
-
 alert(&quot;Button clicked&quot;);
-
 };
-
 &lt;/script&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;button id=&quot;myButton&quot; onclick=&quot;processClick(event);&quot;&gt;Click
 me!&lt;/button&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 This syntax:
 
+```
 1.  &lt;button id=&quot;myButton&quot; **onclick=&quot;processClick(event);**&quot;&gt;Click
     me!&lt;/button&gt;
+```
 
 &hellip; is ok when you only need a single event listener to click events
 for this button, as there can be only one onclick attribute per element.
@@ -9063,60 +8981,46 @@ height="2.0909722222222222in"}
 
 HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Removing an event listener&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;button id=&quot;myButton&quot;&gt;Click me, this will work only once!&lt;/button&gt;
-
 &lt;p&gt;&lt;/p&gt;
-
 &lt;script&gt;
-
 var b = document.querySelector(&quot;#myButton&quot;);
-
 b.addEventListener(&apos;click&apos;, processClick);
-
 function processClick(evt) {
-
 alert(&quot;Button clicked, event listener removed, try to click on the
 button again: nothing will happen anymore!&quot;);
-
 b.removeEventListener(&apos;click&apos;, processClick);
-
 }
-
 &lt;/script&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 Note that to remove an event listener, you should have added it with its
 named function, so that we can pass it to
 both addEventListener and removeEventListener.
 
-### 2.4.3 The event object {#the-event-object .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 2.4.3 The event object
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The event object is the only parameter passed to event listeners.
 
 Typical example:
 
+```
 1.  function processClick(**evt**) {
-
 2.      alert(&quot;Button clicked!&quot;);
-
 3.  }
+```
 
 Each event listener has a single parameter that is  a &quot;DOM event
 object&quot;. It has various properties and methods that can be very useful.
@@ -9173,7 +9077,9 @@ The most useful common properties are:
 ![](./images/image159.png){width="6.5in"
 height="2.5520833333333335in"}
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ### 2.4.4 Page lifecycle events {#page-lifecycle-events .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi!
 
@@ -9603,7 +9509,9 @@ progressBar.style.width = percent + &quot;%&quot;;
 
 }
 
-### 2.4.5 Key events {#key-events .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 2.4.5 Key events
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 This has been a bit of a nightmare for years, as different browsers have
 had different ways of handling key events and key codes ([read
@@ -9801,7 +9709,9 @@ keys.innerHTML += modifiers + &quot;&lt;br&gt;&quot;;
 
 }
 
-#### 2.4.6 Dealing with different keyboard layouts {#dealing-with-different-keyboard-layouts .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+#### 2.4.6 Dealing with different keyboard layouts
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Please do not assume that each key is at the same location on the
 keyboard in every country!
@@ -9873,7 +9783,9 @@ height="2.478125546806649in"}
 ![Bangladesh keyboard layout](./images/image174.png){width="6.5in"
 height="2.4452384076990374in"}
 
-#### 2.4.7 Key and code properties {#key-and-code-properties .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+#### 2.4.7 Key and code properties
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 key and code are new recommended properties you can use with modern
 browsers.
@@ -9984,7 +9896,9 @@ describing the values for the key property.
 -   [CanIUse table
     F-for code](https://caniuse.com/#feat=keyboardevent-code)
 
-### 2.4.8 Mouse events {#mouse-events .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 2.4.8 Mouse events
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ***Important note*: Remember that many people do not use the mouse and
 rely on the keyboard to interact with the Web. This requires keyboard
@@ -10530,7 +10444,7 @@ function processMouseMouve(evt) {
 ![](./images/image184.png){width="6.5in"
 height="2.3618055555555557in"}
 
-<h5>HTML {#html-10 .unnumbered}
+<h5>HTML
 
 &lt;!DOCTYPE html&gt;
 
@@ -11496,23 +11410,19 @@ use most of the events displayed in these tables.
 
 Most useful common properties:
 
-  -----------------------------------------------------------------------
   type       Returns the name of the event
-  ---------- ------------------------------------------------------------
+
   target     Returns the element that triggered the event
 
-  -----------------------------------------------------------------------
 
 Most useful common methods:
 
-  ---------------------------------------------------------------------------
   preventDefault()    Cancels the event if it is cancelable, meaning that the
                       default action that belongs to the event will not occur
-  ------------------- -------------------------------------------------------
+
   stopPropagation()   Prevents further propagation of an event during event
                       flow
 
-  ---------------------------------------------------------------------------
 
 #### Page {#page .unnumbered}
 
@@ -11521,7 +11431,6 @@ Most useful common methods:
 There are many other events related to the page life cycle. Below are
 the most useful ones for an intro course:
 
-  -------------------------------------------------------------------------
   load     This event occurs when an object has loaded (including all its
            resources: images, etc.) This event is very useful when you want
            to run JS code and be sure that the DOM is ready (in other
@@ -11529,7 +11438,7 @@ the most useful ones for an intro course:
            document.querySelector(&hellip;) will not raise an error because the
            document has not been loaded and elements you are looking for
            are not ready.
-  -------- ----------------------------------------------------------------
+
   resize   The event occurs when the document view is resized. Usually we
            get the new size of the window inside the event listener using
            var w = window.innerWidth; and
@@ -11540,7 +11449,6 @@ the most useful ones for an intro course:
              var max = document.body.scrollHeight - innerHeight;
             var percent = (pageYOffset / max);
            &hellip;to know the percentage of the scroll in the page.
-  -------------------------------------------------------------------------
 
 <h5>Page event properties {#page-event-properties-1 .unnumbered}
 
@@ -11558,21 +11466,18 @@ canvas size, for example).
 
 <h5>Event types related to keyboard {#event-types-related-to-keyboard-1 .unnumbered}
 
-  -----------------------------------------------------------------------
   keydown    The event occurs when the user is pressing a key
-  ---------- ------------------------------------------------------------
+
   keyup      The event occurs when the user releases a key
 
   keypress   The event occurs when the user presses a key (up and
              release)
-  -----------------------------------------------------------------------
 
 <h5>keyboardEvent properties {#keyboardevent-properties-1 .unnumbered}
 
-  -------------------------------------------------------------------------
   keyCode    Returns the Unicode character code of the key that triggered
              the onkeypress ,onkeydown or onkeyup event
-  ---------- --------------------------------------------------------------
+
   shiftKey   Returns whether the &quot;shift&quot; key was pressed when the key
              event was triggered
 
@@ -11581,16 +11486,14 @@ canvas size, for example).
 
   altKey     Returns whether the &quot;alt&quot; key was pressed when the key event
              was triggered
-  -------------------------------------------------------------------------
 
 #### Mouse {#mouse .unnumbered}
 
 <h5>Event types related to mouse {#event-types-related-to-mouse-1 .unnumbered}
 
-  -------------------------------------------------------------------------
   click         The event occurs when the user clicks on an element
                 (presses a button and releases it)
-  ------------- -----------------------------------------------------------
+
   dblclick      The event occurs when the user double-clicks on an element
 
   mousedown     The event occurs when the user presses a key (up and
@@ -11612,14 +11515,12 @@ canvas size, for example).
 
   contextmenu   The event occurs when the user right-clicks on an element
                 to open a context menu
-  -------------------------------------------------------------------------
 
 <h5>MouseEvent properties {#mouseevent-properties-1 .unnumbered}
 
-  -----------------------------------------------------------------------
   button          Returns which mouse button was pressed when the mouse
                   event was triggered
-  --------------- -------------------------------------------------------
+
   clientX and     Returns the coordinates of the mouse pointer, relative
   clientY         to the element coordinate system that triggered the
                   event
@@ -11636,7 +11537,6 @@ canvas size, for example).
 
   detail          Returns a number that indicates how many times the
                   mouse was clicked
-  -----------------------------------------------------------------------
 
 #### Forms {#forms .unnumbered}
 
@@ -11645,7 +11545,7 @@ canvas size, for example).
   ------------------------------------------------------------------------
   input    The event occurs when an element gets user input (e.g., a key
            is typed on an input field, a slider is moved, etc.)
-  -------- ---------------------------------------------------------------
+
   change   The event occurs when the content of a form element, the
            selection, or the checked state have changed (for &lt;input&gt;,
            &lt;select&gt;, and &lt;textarea&gt;). A change event listener on a
@@ -11663,7 +11563,6 @@ canvas size, for example).
            &lt;input&gt; and &lt;textarea&gt;)
 
   submit   The event occurs when a form is submitted
-  ------------------------------------------------------------------------
 
 <h5>FormEvent properties {#formevent-properties-1 .unnumbered}
 
@@ -11672,7 +11571,9 @@ Usually, on a form event listener, we check the content of the different
 input fields, using their value property. See examples in the course, in
 the part dealing with form events.
 
-### 2.4.11 Discussion and project {#discussion-and-project-1 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 2.4.11 Discussion and project
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
@@ -11702,7 +11603,9 @@ height="1.3854166666666667in"}
     graphics and animation, you can also imagine a graphic version of
     this game.
 
-### 2.5.1 Introducing the DOM {#introducing-the-dom .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 2.5.1 Introducing the DOM
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 When a user clicks on a link or enters a URL in the address of your Web
 browser, it downloads the page's HTML text and builds up a model of the
@@ -11815,7 +11718,7 @@ ones are highlighted in bold.
     html&gt; for html5), Comment (example: &lt;!&#45;- left column &#45;-&gt;),
     ProcessingInstruction (example: &lt;?php echo &dollar;name ?&gt;)
 
-### Exploring the DOM with the devtool console {#exploring-the-dom-with-the-devtool-console .unnumbered}
+### Exploring the DOM with the devtool console
 
 You can explore the DOM with the devtool console. This time we used
 Firefox for exploring the DOM, as it proposes a good structured view of
@@ -11838,7 +11741,9 @@ will find this option in all modern browsers&apos; devtool consoles:
 
 ![](./images/image197.png){width="6.0in" height="3.775in"}
 
-### 2.5.2 A warning about the DOM API {#a-warning-about-the-dom-api .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 2.5.2 A warning about the DOM API
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The DOM and the DOM API can be cumbersome and complicated. There are
 many methods and properties for manipulating the DOM tree, that are not
@@ -11861,7 +11766,9 @@ problem where you need to manipulate the DOM.
 mark](./images/image198.png){width="3.0in"
 height="2.6492804024496936in"}
 
-### 2.5.3 Accessing HTML elements {#accessing-html-elements .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### 2.5.3 Accessing HTML elements
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ![](./images/image199.png){width="5.75in"
 height="4.474276027996501in"}
@@ -11897,7 +11804,6 @@ In order to select all the images, and not only one, we can use the
 query.SelectorAll method from the document object.
 
 I&apos;m using querySelectorAll and by just typing the name of an element,
-
 it will select all the elements, the html elements, of this type.
 
 Now, in order to iterate on the collection of elements, you can use the
@@ -11913,9 +11819,7 @@ Here I&apos;m using just a variable that corresponds to the current image.
 You can name it as you like. In that case it&apos;s &quot;currentImage&quot;.
 
 If I do currentImage.style.border&hellip; you see that when the page is
-executed,
-
-it will take each element from the list of images, and add to each image
+executed, it will take each element from the list of images, and add to each image
 a border. Let&apos;s make it larger!
 
 You see, we added a border of 10 pixels width.
@@ -11958,7 +11862,7 @@ resized!
 I can click on the first button to add a border. You saw the different
 possibilities.
 
-### Accessing HTML elements with the selector API (recommended) {#accessing-html-elements-with-the-selector-api-recommended .unnumbered}
+### Accessing HTML elements with the selector API (recommended)
 
 Extract from [HTML5 selectors API -- It's like a Swiss Army Knife for
 the
@@ -12003,7 +11907,7 @@ that corresponds to the whole DOM tree of your web page:
 ![](./images/image200.png){width="5.0in"
 height="2.983974190726159in"}
 
-#### HTML {#html-12 .unnumbered}
+#### HTML
 
 &lt;!DOCTYPE html&gt;
 
@@ -12061,7 +11965,7 @@ width=200 alt=&quot;image #4&quot;&gt;
 
 &lt;/html&gt;
 
-#### JS {#js-11 .unnumbered}
+#### JS
 
 window.onload = init;
 
@@ -12254,7 +12158,7 @@ from [W3Cx](https://www.edx.org/school/w3cx).
 ![](./images/image201.png){width="6.5in"
 height="3.803472222222222in"}
 
-#### HTML {#html-13 .unnumbered}
+#### HTML
 
 1.  &lt;!DOCTYPE html&gt;
 
@@ -12306,7 +12210,7 @@ height="3.803472222222222in"}
 
 24. &lt;/html&gt;
 
-#### JS {#js-12 .unnumbered}
+#### JS:
 
 1.  function firstLiClassRedInUl() {
 
@@ -12332,9 +12236,9 @@ height="3.803472222222222in"}
 
 }
 
-#### Source code extracts: {#source-code-extracts .unnumbered}
+#### Source code extracts:
 
-#### HTML: {#html-14 .unnumbered}
+#### HTML:
 
 1.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
     class red and color it in red&lt;/button&gt;
@@ -12366,7 +12270,7 @@ height="3.803472222222222in"}
 
 14. &lt;/ul&gt;
 
-#### JavaScript code: {#javascript-code .unnumbered}
+#### JavaScript code:
 
 1.  function firstLiClassRedInUl() {
 
@@ -12691,7 +12595,9 @@ before the class name when using a CSS selector). 
 
 Notice that identifier, tagName and className must be of type String.
 
-#### 2.5.4 Changing the style of selected HTML elements {#changing-the-style-of-selected-html-elements .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+#### 2.5.4 Changing the style of selected HTML elements
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ### The style attribute {#the-style-attribute .unnumbered}
 
@@ -12837,33 +12743,28 @@ when the &lt;input type=&quot;checkbox&quot;&gt; elements have been checked, i
 order to give the parent &lt;li&gt; a background color, a border, and to
 change the text color, we use a CSS class named &quot;checked&quot;:
 
-### CSS code: {#css-code .unnumbered}
+### CSS code:
 
+```
 1.  .checked {
-
 2.  border: 2px dashed #000;
-
 3.  background-color: green;
-
 4.  color:yellow;
-
 5.  }
-
 &hellip; and
 the classList.add(CSS_class) and classList.remove(CSS_class) methods on
 the &lt;li&gt; elements:
+```
 
-### JavaScript code: {#javascript-code-1 .unnumbered}
+### JavaScript code:
 
+```
 1.  function displayListOfCheckedItems() {
-
 2.  // all inputs that have been checked
-
 3.  var listOfSelectedValues=&quot;&quot;;
-
 4.  var list = document.querySelectorAll(&quot;#fruits input:checked&quot;);
-
 5.  list.forEach(function(elm) {
+```
 
     -   listOfSelectedValues += elm.value + &quot; &quot;;
 
@@ -12901,7 +12802,9 @@ list.forEach(function(elm) {
 
 13. }
 
-#### 2.5.5 Modifying selected HTML elements {#modifying-selected-html-elements .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+#### 2.5.5 Modifying selected HTML elements
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 We&apos;ve already seen many examples in which we selected one or more
 elements, and modified their content. Let&apos;s summarize all the methods
