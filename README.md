@@ -440,7 +440,7 @@ include an SVG arrow in a document.</p>
 <a href="https://jsfiddle.net/">JSFiddle</a> is very similar to JSBin and CodePen 
 in terms of features.</p>
 
-### Other tools
+#### Other tools
 
 There are many other online IDEs and new ones appear each year. If you
 want a real, heavyweight online IDE that has nearly all the features
@@ -537,7 +537,6 @@ is a snapshot of what information is given by CanIUse when searching for
 </p>
 
 <h4>MDN Web Docs</h4>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20/21. logo of mdn web docs (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -707,7 +706,7 @@ proposals for consideration.</p>
 
 Happy Web building!
 
-#### What is W3C?
+<h4>What is W3C?</h4>
 
 As steward of global Web standards, W3C&apos;s mission is to safeguard the
 openness, accessibility, and freedom of the World Wide Web from a
@@ -717,14 +716,14 @@ W3C&apos;s primary activity is to develop protocols and guidelines that
 ensure long-term growth for the Web. The widely adopted Web standards
 define key parts of what actually makes the World Wide Web work.
 
-#### A few history bits
+<h4>A few history bits</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 27. tim berners-lee at his desk in cern, switzerland (xx) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image027.png?raw=true"
   style="width:20%"
-  title="W3Cx JS logo"
-  alt="W3Cx JS.0x logo." />
+  title="Tim Berners-Lee at his desk in CERN, Switzerland 1994"
+  alt="Tim Berners-Lee at his desk in CERN, Switzerland 1994." />
 </p>
 
 <h6><i><b>Tim Berners-Lee at his desk in CERN, 1994</b></i></h6>
@@ -754,7 +753,7 @@ As of January 2023, W3C is a public-interest non-profit organization
 incorporated in the United States of America, led by a Board of
 Directors and employing a global staff across the globe
 
-#### A few figures
+<h4>A few figures</h4>
 
 As of July 2023, W3C:
 
@@ -786,7 +785,7 @@ As of July 2023, W3C:
 -   Has a [technical staff](https://www.w3.org/People/) composed of 46
     people, spread on all five continents.
 
-#### W3C&apos;s core values
+<h4>W3C&apos;s core values</h4>
 
 Committed to core values of an open Web that promotes innovation,
 neutrality, and interoperability, W3C and its community are setting the
@@ -794,9 +793,9 @@ vision and standards for the Web, ensuring the building blocks of the
 Web are open, accessible, secure, international and have been developed
 via the collaboration of global technical experts.
 
-#### The Web is amazing!
+<h4>The Web is amazing!</h4>
 
-### Level 2 headings may be created by course providers in the future.
+<h5>Level 2 headings may be created by course providers in the future.</h5>
 
 People often use the words &quot;Internet&quot; and &quot;Web&quot; interchangeably, but
 this usage is technically incorrect.
@@ -809,7 +808,7 @@ Web is a car, the email is a bicycle, etc.  Read [this
 article](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335) for
 more details about the difference between Internet and the Web.
 
-#### Check also this reminder ;)
+<h4>Check also this reminder ;)</h4>
 
 #### ![First photo: Tim Berners-Lee is on the left wearing a black shirt that says "I didn't invent the Internet" and Vint Cerf on the right wearing a black shirt that says "I did not invent the Web". Second photo: Both facing backwards, Tim Berners-Lee is on the left wearing a black shirt that says "I invented the Web" and Vint Cerf on the right wearing a black shirt that says "I invented the Internet". ](./images/image028.jpeg){width="4.0in" height="2.252136920384952in"}
 
@@ -908,8 +907,9 @@ within the &lt;head&gt;.
 content of a page, and that it distinguishes the page from other Web
 pages.
 
-##### **Example**:
+<h5>**Example**:</h5>
 
+```
 > &lt;head&gt;
 >
 > &hellip;
@@ -919,8 +919,9 @@ pages.
 > &hellip;
 >
 > &lt;/head&gt;
+```
 
-##### Example 2: image text alternatives (&quot;alt text&quot;)
+<h5>Example 2: image text alternatives (&quot;alt text&quot;)</h5>
 
 Text alternatives (&quot;alt text&quot;) are a primary way of making visual
 information accessible, because they can be rendered through any sensory
@@ -930,12 +931,13 @@ rendered in a variety of ways by a variety of user agents. For example,
 a person who cannot see a picture can have the text alternative read
 aloud using synthesized speech.
 
-##### **Check #2: Every image has **alt** with appropriate alternative text.**
+<h5>**Check #2: Every image has **alt** with appropriate alternative text.**</h5>
 
 **Example**: See the W3C logo below. It contains a link that points to
 the W3C Web site. The text alternative is going to be a brief
 description of the link target.
 
+```
 > &lt;a href=&quot;https://w3.org&quot;&gt;
 >
 >   
@@ -943,8 +945,9 @@ description of the link target.
 > Web site&quot;&gt;
 >
 > &lt;/a&gt;
+```
 
-#### Why internationalization is important
+<h4>Why internationalization is important</h4>
 
 Access to the Web for all has been a fundamental concern and goal of the
 W3C since the beginning. It is easy to overlook the needs of people from
@@ -978,7 +981,7 @@ important even if you think you are only designing for a specific
 community -- communities are made up of diverse individuals, and the Web
 stretches worldwide.
 
-#### Unicode
+<h4>Unicode</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 30. unicode symbols (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1005,14 +1008,14 @@ your content or data. This Unicode encoding is a good choice because you
 can use a single encoding to handle any character you are likely to
 meet. This greatly simplifies things.
 
-#### Essential steps in Web i18n
+<h4>Essential steps in Web i18n</h4>
 
 You find below three examples (and checks!) to help you to ensure that
 your Web page works for people around the world, and to make it work
 differently for different cultures, where needed. Let&apos;s meet the words
 &apos;charset&apos; and &apos;lang&apos;, soon to become your favorite markup ;)
 
-#### Example 1: Character encoding declaration
+<h4>Example 1: Character encoding declaration</h4>
 
 A character encoding declaration is **vital to ensure that the text in
 your page is recognized by browsers around the world**, and not garbled.
@@ -1024,13 +1027,12 @@ your source code, and  its value is UTF-8.**
 
 #### **Example 1**:
 
+```
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;/&gt;
-
 &hellip;
-
 &lt;/head&gt;
+```
 
 #### Example 2: Primary language declaration
 
@@ -1043,9 +1045,9 @@ tag**. Again you will learn how to do this during the course.  You will
 also learn how to change the language, where necessary, for parts of
 your document that are in a different language.
 
-##### **Check #2: The HTML tag has a lang attribute which correctly indicates the language of your content.**
+<h5>**Check #2: The HTML tag has a lang attribute which correctly indicates the language of your content.**</h5>
 
-##### **Example 2**: This indicates that the page is in French.
+<h5>**Example 2**: This indicates that the page is in French.</h5>
 
 ```
 &lt;!doctype html&gt;
@@ -1054,7 +1056,7 @@ your document that are in a different language.
 &hellip;
 ```
 
-##### Example 3: Cultural bias
+<h5>Example 3: Cultural bias</h5>
 
 People around the world don&apos;t always understand cultural references
 that you are familiar with, for example the concept of a &apos;home run&apos; in
@@ -1115,7 +1117,7 @@ Checker](https://validator.w3.org/i18n-checker/).  If there are
 internationalization problems with your page, this checker explains what
 they are and what to do about it.
 
-### 1.1.1 Introduction - Module 1: Intro to JavaScript (1:46)
+<h3 id="ch1-1-1">1.1.1 Introduction - Module 1: Intro to JavaScript (1:46)</h3>
 
 Hello everyone, welcome to the wonderful world of JavaScript!
 
@@ -1144,7 +1146,9 @@ interactive graphic tool that will use many different features from
 JavaScript, HTML and CSS. Let's start having fun with JavaScript, now
 :-)
 
-### 1.1.2 Module 1 outline
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch1-1-2">1.1.2 Module 1 outline</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 If you thought that a Web browser could only display HTML documents, you
 were mistaken! ;)
@@ -1174,7 +1178,8 @@ discover how JavaScript is useful.
 this course! This is an introductory course designed to help
 you understand the basic concepts of the language.
 
-### 1.2.1 HTML is for structure
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch1-2-1">1.2.1 HTML is for structure</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 31. html5 logo (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1249,7 +1254,7 @@ time):
 
 <https://codepen.io/w3devcampus/pen/PWqYxG>
 
-##### HTML
+<h5>HTML:</h5>
 
 ```
 &lt;body&gt;
@@ -1304,7 +1309,7 @@ Here is another, more generic example:
 
 <https://codepen.io/w3devcampus/pen/egNOLj>
 
-##### HTML:
+<h5>HTML:</h5>
 
 ```
 1.  &lt;!DOCTYPE html&gt;
@@ -4743,7 +4748,7 @@ var s = &apos;1&#92;r&#92;n2&apos;;
 2&quot;
 ```
 
-##### &quot;&#92;t&quot; for &quot;insert a tabulation&quot;:
+<h5>&quot;&#92;t&quot; for &quot;insert a tabulation&quot;:</h5>
 
 var s = &quot;1&#92;t2&quot;
 
@@ -5990,883 +5995,462 @@ clear:both;
 width:100%;
 
 }
-
 #blackKeys
-
 {
-
 position: absolute;
-
 top:0;
-
 }
-
 .keyDown
-
 {
-
 color: #48a6ff;
-
 /&ast;background: #48a6ff;&ast;/
-
 /&ast;border-right: 2px groove #c0c0c0 !important;&ast;/
-
-/&ast;background: linear-gradient(to bottom, rgba(73,192,240,1)
-0%,rgba(44,175,227,1) 100%);&ast;/
-
+/&ast;background: linear-gradient(to bottom, rgba(73,192,240,1) 0%,rgba(44,175,227,1) 100%);&ast;/
 box-shadow: 0 0 1px black;
-
 transition: all 0.2s;
-
 }
-
 #oscs, #mixer
-
 {
-
 /&ast;width:50%;&ast;/
-
 width:968px;
-
 height:340px;
-
 float:left;
-
 background: #2b2b2b;
-
 color: whitesmoke;
-
 }
-
 .waveForm, .gain, .octave, .fineTune
-
 {
-
 float: left;
-
 }
-
 .osc
-
 {
-
 clear: both;
-
 }
-
 #osc1,#osc2
-
 {
-
 padding-left:2em;
-
 display: block;
-
 height: 150px;
-
 }
-
 #osc1
-
 {
-
 border-bottom: 1px solid black;
-
 }
-
 #osc2
-
 {
-
 border-top: 1px ridge grey;
-
 }
-
 .gain, .octave, .fineTune
-
 {
-
 margin-left: 60px;
-
 }
-
 .gain, .fineTune
-
 {
-
 max-width:150px;
-
 }
-
 .ledLabel
-
 {
-
 margin:0 0 0.75em 1em;
-
 }
-
 .ledLabel input&lbrack;type=&quot;radio&quot;&rbrack; {
-
 display:none;
-
 }
-
 .ledLabel input&lbrack;type=&quot;radio&quot;&rbrack; + label {
-
 font-family:Arial, sans-serif;
-
 font-size:14px;
-
 }
-
 .ledLabel input&lbrack;type=&quot;radio&quot;&rbrack; + label span {
-
 display:inline-block;
-
 width:10px;
-
 height:10px;
-
 margin:-1px 4px 0 0;
-
 vertical-align:middle;
-
 cursor:pointer;
-
 -moz-border-radius: 50%;
-
 border-radius: 50%;
-
 }
-
 .ledLabel input&lbrack;type=&quot;radio&quot;&rbrack; + label span {
-
 background: radial-gradient(ellipse at center, rgba(152,255,84,1)
 0%,rgba(135,196,56,1) 31%,rgba(0,0,0,1) 100%); /&ast; W3C &ast;/
-
 }
-
 .ledLabel input&lbrack;type=&quot;radio&quot;&rbrack;:checked + label span{
-
 box-shadow: 0 0 15px #79ff5d;
-
 background: radial-gradient(ellipse at center, rgba(255,255,255,1)
-12%,rgba(210,255,82,1) 39%,rgba(145,232,66,1) 65%,rgba(0,0,0,1) 92%);
-/&ast; W3C &ast;/
-
+  12%,rgba(210,255,82,1) 39%,rgba(145,232,66,1) 65%,rgba(0,0,0,1) 92%);
+  /&ast; W3C &ast;/
 }
-
 .ledLabel input&lbrack;type=&quot;radio&quot;&rbrack; + label span,
-
 .ledLabel input&lbrack;type=&quot;radio&quot;&rbrack;:checked + label span {
-
 -webkit-transition:background-color 0.4s linear;
-
 /&ast;-moz-transition:background-color 0.4s linear;&ast;/
-
 transition:background-color 0.4s linear;
-
 }
-
 .ledLabel
-
 {
-
 float:left;
-
 }
-
 .ledLabel img
-
 {
-
 height:10px;
-
 }
-
 input&lbrack;type=&quot;range&quot;&rbrack;:focus
-
 {
-
 outline:none;
-
 }
-
 /&ast;================Button Style=================&ast;/
-
 button
-
 {
-
 width:85%;
-
 height:80%;
-
 box-shadow: 1px 1px 2px black;
-
 cursor:pointer;
-
 position: absolute;
-
 top:10%;
-
 left:7%;
-
 background: linear-gradient(to bottom, rgba(75,75,75,1)
-0%,rgba(63,63,63,1) 100%); /&ast; W3C &ast;/
-
+  0%,rgba(63,63,63,1) 100%); /&ast; W3C &ast;/
 border:none;
-
 }
-
 button:active
-
 {
-
 box-shadow: 0 0 0 black;
-
 border: 2px groove #2b2b2b;
-
 background: linear-gradient(to bottom, rgba(47,47,47,1)
-0%,rgba(59,59,59,1) 100%); /&ast; W3C &ast;/
-
+  0%,rgba(59,59,59,1) 100%); /&ast; W3C &ast;/
 width:90%;
-
 height:84%;
-
 left:5%;
-
 }
-
 button:focus
-
 {
-
 outline:none;
-
 }
-
 .buttonDrop
-
 {
-
 width:50px;
-
 height:30px;
-
 display:block;
-
 position: relative;
-
 /&ast;left:190px;/&ast;/
-
 /&ast;top:-5px;&ast;/
-
 border-radius: 10%;
-
 background: linear-gradient(to bottom, rgba(28,28,28,1)
-0%,rgba(63,63,63,1) 100%); /&ast; W3C &ast;/
-
+  0%,rgba(63,63,63,1) 100%); /&ast; W3C &ast;/
 }
+```
 
-JS
+<h5>JS:</h5>
 
+```
 //=================== AddKeys.js ====================//
-
 var notes =
-&lbrack;&quot;A&quot;,&quot;A#&quot;,&quot;B&quot;,&quot;C&quot;,&quot;C#&quot;,&quot;D&quot;,&quot;D#&quot;,&quot;E&quot;,&quot;F&quot;,&quot;F#&quot;,&quot;G&quot;,&quot;G#&quot;&rbrack;;
-
+  &lbrack;&quot;A&quot;,&quot;A#&quot;,&quot;B&quot;,&quot;C&quot;,&quot;C#&quot;,&quot;D&quot;,&quot;D#&quot;,&quot;E&quot;,&quot;F&quot;,&quot;F#&quot;,&quot;G&quot;,&quot;G#&quot;&rbrack;;
 var note = 0;
-
 var octave = 1;
-
 for(var i=13;i&lt;=49;i++)
-
 {
-
 var thisNote = notes&lbrack;note&rbrack;;
-
 var className = (thisNote.length &gt; 1) ? &apos;black&apos; : &apos;white&apos;;
-
 var el = &quot;&lt;div id=&apos;&quot; + thisNote + octave + &quot;&apos; class=&apos;&quot; +
-className + &quot;&apos; onmousedown=&apos;start(&quot;+i+&quot;,this);&apos;
-onmouseup=&apos;stop(this);&apos;&gt;&lt;p&gt;&quot; + thisNote + &quot;&lt;/p&gt;&lt;/div&gt;&quot;;
-
+  className + &quot;&apos; onmousedown=&apos;start(&quot;+i+&quot;,this);&apos;
+  onmouseup=&apos;stop(this);&apos;&gt;&lt;p&gt;&quot; + thisNote + &quot;&lt;/p&gt;&lt;/div&gt;&quot;;
 if(className == &quot;white&quot;)
-
 {
-
 document.getElementById(&quot;pianoKeys&quot;).innerHTML += el;
-
 }
-
 else
-
 {
-
 //console.log(thisNote.substring(0,1) + octave);
-
-document.getElementById(thisNote.substring(0,1) + octave).innerHTML +=
-el;
-
+document.getElementById(thisNote.substring(0,1) + octave).innerHTML += el;
 }
-
 if(thisNote == &quot;B&quot;)
-
 {
-
 octave ++;
-
 }
-
 if(i%12 == 0)
-
 {
-
 note = 0;
-
 }
-
 else
-
 {
-
 note++;
-
 }
-
 }
-
 //=============== Context.js ==================//
-
 var context = new (window.AudioContext &vert;&vert; window.webkitAudioContext
-&vert;&vert; window.mozAudioContext &vert;&vert; window.oAudioContext &vert;&vert;
-window.msAudioContext)();
-
+  &vert;&vert; window.mozAudioContext &vert;&vert; window.oAudioContext &vert;&vert;
+  window.msAudioContext)();
 function getContext()
-
 {
-
 return context;
-
 }
-
 //================= Oscillator.js ================//
-
 function Oscillator()
-
 {
-
 this.context = getContext();
-
 this.instance = context.createOscillator();
-
 this.gainNode = context.createGain();
-
 this.freq = 440;
-
 this.gain = 100;
-
 this.waveForm = &quot;sine&quot;;
-
 this.octave = 0;
-
 this.fineTune = 0;
-
 //Methods
-
 this.createOscillator = function(freq, gain)
-
 {
-
 this.instance = this.context.createOscillator();
-
 this.instance.connect(this.gainNode);
-
 this.gainNode.connect(context.destination);
-
 this.instance.type = this.waveForm;
-
 };
-
 this.setFreq = function(freq)
-
 {
-
 this.freq = freq;
-
 this.instance.frequency.value = freq;
-
 };
-
 this.setGain = function(gain)
-
 {
-
 this.gain = gain;
-
 this.gainNode.gain.value = gain / 100 / 12;
-
 };
-
 this.setWaveForm = function(waveForm)
-
 {
-
 this.waveForm = waveForm;
-
 };
-
 this.setOctave = function(octave)
-
 {
-
 this.octave = octave;
-
 };
-
 this.setFineTune = function(fineTune)
-
 {
-
 this.fineTune = fineTune;
-
 };
-
 }
-
 //================ Tones.js ================//
-
 var context = getContext();
-
 var playing = false;
-
 var osc = new Oscillator();
-
 var osc2 = new Oscillator();
-
 osc.setGain(document.getElementById(&quot;osc1Gain&quot;).value);
-
 osc2.setGain(document.getElementById(&quot;osc2Gain&quot;).value);
-
 osc.setWaveForm(document.querySelector(&apos;input&lbrack;name=&quot;osc1Led&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-waveform&quot;));
-
 osc2.setWaveForm(document.querySelector(&apos;input&lbrack;name=&quot;osc2Led&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-waveform&quot;));
-
-osc.setOctave(document.querySelector(&apos;input&lbrack;name=&quot;osc1OctLed&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-position&quot;) -
-1);
-
-osc2.setOctave(document.querySelector(&apos;input&lbrack;name=&quot;osc2OctLed&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-position&quot;) -
-1);
-
+osc.setOctave(document.querySelector(&apos;input&lbrack;name=&quot;osc1OctLed&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-position&quot;) -1);
+osc2.setOctave(document.querySelector(&apos;input&lbrack;name=&quot;osc2OctLed&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-position&quot;) -1);
 console.log(osc.octave);
-
 function toneGen(oscillator, noteKey)
-
 {
-
 var freq = calculateFrequency(noteKey + (oscillator.octave &ast; 12));
-
 freq = calculateFineTune(oscillator.fineTune, freq);
-
 oscillator.createOscillator();
-
 oscillator.setFreq(freq);
-
 oscillator.instance.start(0);
-
 }
-
 function start(noteKey,e) {
-
 console.log(e.id);
-
 e.className = e.className + &quot; keyDown&quot;;
-
 event.cancelBubble = true;
-
 if(e.id.substring(1,1) == &quot;#&quot;)
-
 {
-
-document.getElementById(e.id.substring(0,1) +
-e.id.substring(2,1)).className = &quot;white&quot;;
-
+document.getElementById(e.id.substring(0,1) + e.id.substring(2,1)).className = &quot;white&quot;;
 }
-
 if(!playing) {
-
 playing = true;
-
 toneGen(osc,noteKey);
-
 toneGen(osc2,noteKey);
-
 }
-
 }
-
 function stop(e)
-
 {
-
-e.className = e.className.substring(0,5) == &quot;white&quot; ? &quot;white&quot; :
-&quot;black&quot;;
-
+e.className = e.className.substring(0,5) == &quot;white&quot; ? &quot;white&quot; :&quot;black&quot;;
 playing = false;
-
 //setVolume(0);
-
 osc.instance.stop();
-
 osc.gainNode.disconnect();
-
 osc2.instance.stop();
-
 osc2.gainNode.disconnect();
-
 }
-
 function calculateFrequency(noteKey)
-
 {
-
 var concertPitch = 440;
-
 var A4Key = 49;
-
 var a = Math.pow(2,(1/12));
-
 return Math.pow(a,(noteKey - A4Key)) &ast; concertPitch;
-
 }
-
 function calculateFineTune(fineTune, freq)
-
 {
-
 var pos, positive;
-
 if(-fineTune&gt;0)
-
 {
-
 pos = -fineTune; //Is made positive
-
 positive = false;
-
 }
-
 else
-
 {
-
 pos = fineTune; //Already Positive
-
 positive = true;
-
 }
-
 var percentage = freq &ast; (pos/100);
-
 freq = positive ? freq + percentage : freq - percentage;
-
 //console.log(fineTune + &quot; &quot; + freq + &quot;hz before &vert; &quot; +
-(parseFloat(freq) + parseInt(fineTune)) + &quot;hz after&quot;);
-
+  (parseFloat(freq) + parseInt(fineTune)) + &quot;hz after&quot;);
 return freq;
-
 }
-
 document.addEventListener(&apos;DOMContentLoaded&apos;, function ()
-
 {
-
 document.getElementById(&quot;osc1Gain&quot;).addEventListener(&quot;change&quot;,
-setGain);
-
+  setGain);
 document.getElementById(&quot;osc2Gain&quot;).addEventListener(&quot;change&quot;,
-setGain);
-
+  setGain);
 document.getElementById(&quot;osc1FineTune&quot;).addEventListener(&quot;change&quot;,
-setFineTune);
-
+  setFineTune);
 document.getElementById(&quot;osc2FineTune&quot;).addEventListener(&quot;change&quot;,
-setFineTune);
-
+  setFineTune);
 window.addEventListener(&quot;keydown&quot;,handleKeyPress,false);
-
 window.addEventListener(&quot;keyup&quot;,handleKeyPress,false);
-
 });
-
 function handleKeyPress(e)
-
 {
-
 var keyCode = e.which;
-
 var id = null;
-
 //console.log(e, keyCode, e.which);
-
 switch(keyCode)
-
 {
-
 case 90: id = &quot;A1&quot;; break;
-
 case 83: id = &quot;A#1&quot;; break;
-
 case 88: id = &quot;B1&quot;; break;
-
 case 67: id = &quot;C2&quot;; break;
-
 case 70: id = &quot;C#2&quot;; break;
-
 case 86: id = &quot;D2&quot;; break;
-
 case 71: id = &quot;D#2&quot;; break;
-
 case 66: id = &quot;E2&quot;; break;
-
 case 78: id = &quot;F2&quot;; break;
-
 case 74: id = &quot;F#2&quot;; break;
-
 case 77: id = &quot;G2&quot;; break;
-
 case 75: id = &quot;G#2&quot;; break;
-
 case 188: id = &quot;A2&quot;; break;
-
 case 81: id = &quot;A2&quot;; break;
-
 case 50: id = &quot;A#2&quot;; break;
-
 case 87: id = &quot;B2&quot;; break;
-
 case 69: id = &quot;C3&quot;; break;
-
 case 52: id = &quot;C#3&quot;; break;
-
 case 82: id = &quot;D3&quot;; break;
-
 case 53: id = &quot;D#3&quot;; break;
-
 case 84: id = &quot;E3&quot;; break;
-
 case 89: id = &quot;F3&quot;; break;
-
 case 55: id = &quot;F#3&quot;; break;
-
 case 85: id = &quot;G3&quot;; break;
-
 case 56: id = &quot;G#3&quot;; break;
-
 case 73: id = &quot;A3&quot;; break;
-
-default:
-
-}
-
 var el = document.getElementById(id);
-
 if(id != null)
-
 {
-
 if(e.type == &quot;keydown&quot;)
-
 {
-
 el.onmousedown();
-
 el.className = el.className.substring(0,5) + &quot; keyDown&quot;;
-
 }
-
 else
-
 {
-
 el.onmouseup();
-
 el.className = el.className.substring(0,5);
-
 }
-
 }
-
 }
-
 //&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-Getters And
-Setters&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-//
-
+  Setters&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-//
 function setGain(e)
-
 {
-
 var oscillator = this.getAttribute(&quot;data-osc&quot;);
-
 switch(oscillator)
-
 {
-
 case &quot;1&quot;:
-
 osc.setGain(this.value);
-
 break;
-
 case &quot;2&quot;:
-
 osc2.setGain(this.value);
-
 break;
-
 default:
-
 }
-
 }
-
 function setFineTune(e)
-
 {
-
 var oscillator = this.getAttribute(&quot;data-osc&quot;);
-
 switch(oscillator)
-
 {
-
 case &quot;1&quot;:
-
 osc.setFineTune(this.value);
-
 console.log(osc.fineTune);
-
 break;
-
 case &quot;2&quot;:
-
 osc2.setFineTune(this.value);
-
 break;
-
 default:
-
 }
-
 }
-
 function setOctave(e)
-
 {
-
 var oscillator = e.getAttribute(&quot;data-osc&quot;);
-
 var position = parseInt(document.querySelector(&apos;input&lbrack;name=&quot;osc&apos; +
-oscillator + &apos;OctLed&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-position&quot;));
-
+  oscillator + &apos;OctLed&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-position&quot;));
 var newPosition = position &lt; 2 ? (position + 1) : 0;
-
 newPosition = e.id.substring(0,7) == &quot;osc&quot; + oscillator + &quot;Oct&quot; ?
-position : newPosition;
-
+  position : newPosition;
 var octaves = &lbrack;-1,0,+1&rbrack;;
-
 switch(oscillator)
-
 {
-
 case &quot;1&quot;:
-
 osc.setOctave(newPosition - 1);
-
 console.log(&quot;osc1 &quot; + osc.octave);
-
 break;
-
 case &quot;2&quot;:
-
 osc2.setOctave(newPosition - 1);
-
 console.log(&quot;osc2 &quot; + osc2.octave);
-
 break;
-
 default:
-
 }
-
 id = &quot;osc&quot; + oscillator + &quot;OctLed&quot; + newPosition;
-
 document.getElementById(id).checked = true;
-
 }
-
 function setWaveForm(e)
-
 {
-
 var oscillator = e.getAttribute(&quot;data-osc&quot;);
-
 var position = parseInt(document.querySelector(&apos;input&lbrack;name=&quot;osc&apos; +
-oscillator + &apos;Led&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-position&quot;));
-
+  oscillator + &apos;Led&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-position&quot;));
 var newPosition = position &lt; 3 ? (position + 1) : 0;
-
 newPosition = (e.id.substring(0,7) == &quot;osc&quot; + oscillator + &quot;Led&quot;) ?
-position : newPosition;
-
+  position : newPosition;
 var waves = &lbrack;&quot;sine&quot;,&quot;square&quot;,&quot;sawtooth&quot;,&quot;triangle&quot;&rbrack;;
-
 switch(oscillator)
-
 {
-
 case &quot;1&quot;:
-
 osc.setWaveForm(waves&lbrack;newPosition&rbrack;);
-
 console.log(&quot;osc1 &quot; + osc.waveForm);
-
 break;
-
 case &quot;2&quot;:
-
 osc2.setWaveForm(waves&lbrack;newPosition&rbrack;);
-
 console.log(&quot;osc2 &quot; + osc2.waveForm);
-
 break;
-
 default:
-
 }
-
 id = &quot;osc&quot; + oscillator + &quot;Led&quot; + newPosition;
-
 document.getElementById(id).checked = true;
-
 }
+```
 
-#### 1.6.7 Using third-party JS APIs/libraries {#using-third-party-js-apislibraries .unnumbered}
+<h3 id="ch1-6-7">1.6.7 Using third-party JS APIs/libraries</h3>
 
 Thousands of JavaScript libraries exist. Their purposes range from
 making it easier to plot a math function,
 playing [chiptune](https://fr.wikipedia.org/wiki/Chiptune) music,
 animating objects, through to visualizing data and much more.
 
-### Examples {#examples-4 .unnumbered}
+<h4>Examples</h4>
 
 We provide some examples below, but feel free to look on the Web for
 other external libraries.
 
-#### Example #1: plot mathematical functions using the [function plot JavaScript library](https://mauriciopoppe.github.io/function-plot/) {#example-1-plot-mathematical-functions-using-the-function-plot-javascript-library .unnumbered}
+<h4>Example #1: plot mathematical functions using the [function plot JavaScript library](https://mauriciopoppe.github.io/function-plot/)</h4>
 
 There are numerous libraries for plotting math functions, but this one
 is pretty easy to use and very powerful. Here is an example that
@@ -6879,168 +6463,98 @@ height="5.102083333333334in"}
 
 HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Plotting functions in JavaScript using the
-
 function plot library - Example #1&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;/&gt;
-
 &lt;script src=&quot;https://d3js.org/d3.v3.min.js&quot;&gt;&lt;/script&gt;
-
 &lt;script
-src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;&gt;&lt;/script&gt;
-
+  src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;&gt;&lt;/script&gt;
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div id=&quot;quadratic&quot;&gt;&lt;/div&gt;
-
 &lt;div id=&quot;sin&quot;&gt;&lt;/div&gt;
-
 &lt;div id=&quot;multiple&quot;&gt;&lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-CSS
+<h5>CSS:</h5>
 
+```
 div {
-
 float: left;
-
 }
-
 #quadratic {
-
 padding: 25px;
-
 width: 250px;
-
 height: 250px;
-
 }
-
 #sin {
-
 padding: 25px;
-
 }
-
 #multiple {
-
 padding: 25px;
-
 }
-
 }
+```
 
-JS
+<h5>JS:</h5>
 
+```
 var ttt = functionPlot({
-
 target: &apos;#quadratic&apos;,
-
 data: &lbrack;{
-
 fn: &apos;x&#94;2&apos;,
-
 color: &apos;red&apos;,
-
 derivative: {
-
 fn: &apos;2 &ast; x&apos;,
-
 color: &apos;green&apos;,
-
 updateOnMouseMove: true
-
 }
-
 }&rbrack;,
-
 grid: true,
-
 yAxis: {domain: &lbrack;0, 1&rbrack;},
-
 xAxis: {domain: &lbrack;0, 1&rbrack;}
-
 });
-
 ttt.root.width=&quot;200px&quot;;
-
 ttt.root.height=&quot;200px&quot;;
-
 functionPlot({
-
 target: &apos;#sin&apos;,
-
 data: &lbrack;{
-
 fn: &apos;sin(x)&apos;,
-
 color: &apos;blue&apos;,
-
 range: &lbrack;-1, 8&rbrack;,
-
 closed: true
-
 }&rbrack;,
-
 tip: {
-
 xLine: true,
-
 yLine: true
-
 },
-
 yAxis: {domain: &lbrack;-2, 3&rbrack;},
-
 xAxis: {domain: &lbrack;-2, 9&rbrack;},
-
 });
-
 functionPlot({
-
 target: &apos;#multiple&apos;,
-
 data: &lbrack;
-
 {fn: &apos;x&ast;x&apos;, color: &apos;red&apos;},
-
 {fn: &apos;3&ast;x&apos;, color: &apos;green&apos;},
-
 {fn: &apos;cos(x)&apos;,
-
 color: &apos;blue&apos;,
-
 range: &lbrack;3, 6&rbrack;,
-
 closed: true
-
 },
-
 {fn: &apos;cos(x)&apos;,
-
 color: &apos;blue&apos;
-
 },
-
 {fn: &apos;-3&ast;x&#94;2 + x&#94;2&apos;,
-
 nSamples: 150,
-
 graphType: &apos;scatter&apos;}
-
 &rbrack;
+```
 
 Here is another much simpler example, please edit the code (click on
 &quot;edit on codepen&quot;) and change the function for something like f(x) =
@@ -7051,213 +6565,142 @@ here](https://codepen.io/w3devcampus/pen/MJMYNb) for a solution.
 ![](./images/image144.png){width="6.5in"
 height="3.0569444444444445in"}
 
-HTML
+<h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Plotting functions in JavaScript using the
-
 function plot library&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;/&gt;
-
 &lt;script src=&quot;https://d3js.org/d3.v3.min.js&quot;&gt;&lt;/script&gt;
-
 &lt;script
-src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;&gt;&lt;/script&gt;
-
+  src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;&gt;&lt;/script&gt;
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div id=&quot;myFunction&quot;&gt;&lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-CSS
+<h5>CSS:</h5>
 
+```
 div {
-
 float: left;
-
 }
-
 #myFunction {
-
 padding: 25px;
-
 width: 250px;
-
 height: 250px;
-
 }
+```
 
-JS
+<h5>JS:</h5>
 
+```
 var ttt = functionPlot({
-
 target: &apos;#myFunction&apos;,
-
 data: &lbrack;{
-
 fn: &apos;sin(x&#94;2)&apos;,
-
 color: &apos;red&apos;
-
 }&rbrack;,
-
 grid: true,
-
 yAxis: {domain: &lbrack;-1, 1&rbrack;},
-
 xAxis: {domain: &lbrack;0, 2&ast;Math.PI&rbrack;},
-
 });
+```
 
-#### 1.6.8 Working with remote data {#working-with-remote-data .unnumbered}
+<h3 id="ch1-6-8">1.6.8 Working with remote data</h3>
 
 Let&apos;s see a few examples on how to work with remote data.
 
-### Examples {#examples-5 .unnumbered}
+<h4>Examples</h4>
 
-#### Example #1: use remote structured data {#example-1-use-remote-structured-data .unnumbered}
+<h5>Example #1: use remote structured data</h5>
 
 This example downloads and displays a list of users in a table
 (see [remote data](https://jsonplaceholder.typicode.com/users)):
 
-![](./images/image145.png){width="6.5in"
-height="4.909722222222222in"}
+![](./images/image145.png){width="6.5in" height="4.909722222222222in"}
 
-##### HTML {#html-3 .unnumbered}
+<h5>HTML</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Working with remote data - Example #1&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;/&gt;
-
 &lt;!&#45;- Polyfill in case your browser does not support the fetch API
 &#45;-&gt;
-
 &lt;script
-src=&quot;https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.js&quot;&gt;&lt;/script&gt;
-
+  src=&quot;https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.js&quot;&gt;&lt;/script&gt;
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;button onclick=&quot;search();&quot;&gt;Get remote list of users&apos; names and
-emails using the fetch API&lt;/button&gt;
-
+  emails using the fetch API&lt;/button&gt;
 &lt;div id=&quot;users&quot;&gt;&lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-##### CSS {#css .unnumbered}
+<h5>CSS:</h5>
 
+```
 table {
-
 margin-top: 20px;
-
 }
-
 table, tr, td {
-
 border: 1px solid;
-
 }
+```
 
-##### JS {#js .unnumbered}
+<h5>JS</h5>
 
+```
 function search() {
-
 var queryURL = &quot;https://jsonplaceholder.typicode.com/users&quot;;
-
 fetch(queryURL)
-
 .then(function (response) {
-
 // response.json() returns a json string,
-
 // returning it will convert it
-
 // to a pure JavaScript
-
 // object for the next then&apos;s callback
-
 return response.json();
-
 })
-
 .then(function (users) {
-
 // users is a JavaScript object here
-
 displayUsersAsATable(users);
-
 })
-
 .catch(function (error) {
-
 console.log(&apos;Error during fetch: &apos; + error.message);
-
 });
-
 }
-
 function displayUsersAsATable(users) {
-
 // users is a JavaScript object
-
 // empty the div that contains the results
-
 var usersDiv = document.querySelector(&quot;#users&quot;);
-
 usersDiv.innerHTML = &quot;&quot;;
-
 // creates and populate the table with users
-
 var table = document.createElement(&quot;table&quot;);
-
 // iterate on the array of users
-
 users.forEach(function (currentUser) {
-
 // creates a row
-
 var row = table.insertRow();
-
 // insert cells in the row
-
 var nameCell = row.insertCell();
-
 nameCell.innerHTML = currentUser.name;
-
 var cityCell = row.insertCell();
-
 cityCell.innerHTML = currentUser.address.city;
-
 });
-
 // adds the table to the div
-
 usersDiv.appendChild(table);
-
 }
+```
 
-#### Example #2: load and decode remote sounds for use in a video game {#example-2-load-and-decode-remote-sounds-for-use-in-a-video-game .unnumbered}
+<h4>Example #2: load and decode remote sounds for use in a video game</h4>
 
 This example just shows how to use the HowlerJS external library to load
 remote sounds, decode them and play them as samples in memory (useful
@@ -7265,108 +6708,64 @@ for video games):
 
 ### ![](./images/image146.png){width="6.5in" height="3.25in"} {#section-7 .unnumbered}
 
-### HTML {#html-4 .unnumbered}
+<h5>HTML</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Howler.js example - Example #2&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;/&gt;
-
 &lt;script
-src=&quot;https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.25/howler.min.js&quot;&gt;&lt;/script&gt;
-
+  src=&quot;https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.25/howler.min.js&quot;&gt;&lt;/script&gt;
 &lt;/head&gt;
-
 &lt;body&gt;
-
-&lt;p&gt;This example loads, decode and play sounds using the HowlerJS
-library&lt;/p&gt;
-
+&lt;p&gt;This example loads, decode and play sounds using the HowlerJS library&lt;/p&gt;
 &lt;button id=&quot;explosion&quot; disabled&gt;BOOM !&lt;/button&gt;
-
 &lt;button id=&quot;basic_explosion&quot; disabled&gt;Basic Explosion&lt;/button&gt;
-
 &lt;button id=&quot;winner&quot; disabled&gt;Winner!&lt;/button&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###  {#section-8 .unnumbered}
+<h5>JS</h5>
 
-### JS {#js-1 .unnumbered}
-
+```
 function soundLoaded() {
-
 // enable buttons, the sounds are loaded
-
 var button1 = document.querySelector(&quot;#explosion&quot;);
-
 button1.disabled = false;
-
 button1.addEventListener(&quot;click&quot;, function() {
-
 sound.play(&apos;blast&apos;);
-
 });
-
 var button2 = document.querySelector(&quot;#basic_explosion&quot;);
-
 button2.disabled = false;
-
 button2.addEventListener(&quot;click&quot;, function() {
-
 sound.play(&apos;laser&apos;);
-
 });
-
 var button3 = document.querySelector(&quot;#winner&quot;);
-
 button3.disabled = false;
-
 button3.addEventListener(&quot;click&quot;, function() {
-
 sound.play(&apos;winner&apos;);
-
 });
-
 }
-
 // Load and decode sounds
-
 var sound = new Howl({
-
 urls: &lbrack;&apos;https://goldfirestudios.com/proj/howlerjs/sounds.mp3&apos;,
-&apos;https://goldfirestudios.com/proj/howlerjs/sounds.ogg&apos;&rbrack;,
-
+  &apos;https://goldfirestudios.com/proj/howlerjs/sounds.ogg&apos;&rbrack;,
 sprite: {
-
 blast: &lbrack;0, 2000&rbrack;,
-
 laser: &lbrack;3000, 700&rbrack;,
-
 winner: &lbrack;5000, 9000&rbrack;
-
 },
-
 onload: function() {
-
 console.log(&quot;Sound loaded&quot;);
-
 soundLoaded();
-
 }
-
 });
+```
 
-###  {#section-9 .unnumbered}
-
-### 2.1.1 Video introduction - Module 2 {#video-introduction---module-2 .unnumbered}
+<h3 id="ch2-1-1">2.1.1 Video introduction - Module 2</h3>
 
 Hey everyone!
 
@@ -7396,7 +6795,7 @@ the forum.
 
 And let other students enjoy your creation :D
 
-#### 2.1.2 Module 2 outline {#module-2-outline .unnumbered}
+<h3 id="ch2-1-2">2.1.2 Module 2 outline</h3>
 
 What you will learn in Module 2:
 
@@ -7413,7 +6812,7 @@ What you will learn in Module 2:
 
 -   HTML5 canvas: learn how to draw and animate simple shapes
 
-#### 2.2.1 Boolean values and logical operators {#boolean-values-and-logical-operators .unnumbered}
+<h3 id="ch2-2-1">2.2.1 Boolean values and logical operators</h3>
 
 Live coding video: boolean value, if&hellip;else statement and comparison
 operators
@@ -7852,12 +7251,12 @@ variable myNumber.
 
 #### What is the difference between **==** and === in JavaScript? {#what-is-the-difference-between-and-in-javascript .unnumbered}
 
-##### Equal (==) {#equal .unnumbered}
+<h5>Equal (==) {#equal .unnumbered}
 
 Returns true if the operands are strictly equal **with type
 conversion**.
 
-##### Strict equal (===) {#strict-equal .unnumbered}
+<h5>Strict equal (===) {#strict-equal .unnumbered}
 
 Returns true if the operands are strictly equal **with no type
 conversion**.
@@ -8222,7 +7621,7 @@ commented - please remove comments and try to understand the results).
 
 5.  // num equals 20
 
-##### Example #2: if-else statement {#example-2-if-else-statement .unnumbered}
+<h5>Example #2: if-else statement {#example-2-if-else-statement .unnumbered}
 
 ```
 1.  var num = 10;
@@ -10551,7 +9950,7 @@ both for code and key.
 ![](./images/image176.png){width="6.5in"
 height="2.5652777777777778in"}
 
-##### HTML {#html-5 .unnumbered}
+<h5>HTML {#html-5 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
 
@@ -10579,7 +9978,7 @@ keyboard.&lt;/p&gt;
 
 &lt;/html&gt;
 
-##### JS {#js-3 .unnumbered}
+<h5>JS {#js-3 .unnumbered}
 
 window.onkeydown = function(evt) {
 
@@ -10655,7 +10054,7 @@ height="4.127083333333333in"}
 ![](./images/image179.png){width="6.5in"
 height="2.0631944444444446in"}
 
-##### HTML {#html-6 .unnumbered}
+<h5>HTML {#html-6 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
 
@@ -10685,7 +10084,7 @@ div!&lt;/div&gt;
 
 &lt;/html&gt;
 
-##### CSS {#css-1 .unnumbered}
+<h5>CSS {#css-1 .unnumbered}
 
 #myDiv {
 
@@ -10703,7 +10102,7 @@ margin:20px;
 
 }
 
-##### JS {#js-4 .unnumbered}
+<h5>JS {#js-4 .unnumbered}
 
 window.onclick = processClick;
 
@@ -10882,7 +10281,7 @@ for(var i=0; i&lt;3; i++){
 ![](./images/image181.png){width="6.5in"
 height="2.0631944444444446in"}
 
-##### HTML {#html-7 .unnumbered}
+<h5>HTML {#html-7 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
 
@@ -10913,7 +10312,7 @@ window and we did not scrolled the page!&lt;/p&gt;
 
 &lt;/html&gt;
 
-##### JS {#js-5 .unnumbered}
+<h5>JS {#js-5 .unnumbered}
 
 window.onmousemove = processMouseMouve;
 
@@ -10950,7 +10349,7 @@ clientX/PageX and clientY/pageY mouse event properties:
 ![](./images/image182.png){width="6.5in"
 height="2.0722222222222224in"}
 
-##### HTML {#html-8 .unnumbered}
+<h5>HTML {#html-8 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
 
@@ -10985,7 +10384,7 @@ is&quot;.&lt;/p&gt;
 
 &lt;/html&gt;
 
-##### CSS {#css-2 .unnumbered}
+<h5>CSS {#css-2 .unnumbered}
 
 canvas {
 
@@ -11003,7 +10402,7 @@ height:2000px;
 
 }
 
-##### JS {#js-6 .unnumbered}
+<h5>JS {#js-6 .unnumbered}
 
 window.onload = init;
 
@@ -11040,7 +10439,7 @@ real position relative to the top left corner of the canvas:
 ![](./images/image183.png){width="6.5in"
 height="2.9541666666666666in"}
 
-##### HTML {#html-9 .unnumbered}
+<h5>HTML {#html-9 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
 
@@ -11073,7 +10472,7 @@ top left corner of the canvas, even if we scroll the page!&lt;/p&gt;
 
 &lt;/html&gt;
 
-##### CSS {#css-3 .unnumbered}
+<h5>CSS {#css-3 .unnumbered}
 
 canvas {
 
@@ -11091,7 +10490,7 @@ height:2000px;
 
 }
 
-##### JS {#js-7 .unnumbered}
+<h5>JS {#js-7 .unnumbered}
 
 function init() {
 
@@ -11148,7 +10547,7 @@ function processMouseMouve(evt) {
 ![](./images/image184.png){width="6.5in"
 height="2.3618055555555557in"}
 
-##### HTML {#html-10 .unnumbered}
+<h5>HTML {#html-10 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
 
@@ -11174,7 +10573,7 @@ height="2.3618055555555557in"}
 
 &lt;/html&gt;
 
-##### CSS {#css-4 .unnumbered}
+<h5>CSS {#css-4 .unnumbered}
 
 body {
 
@@ -11201,7 +10600,7 @@ position:absolute; /&ast; important (all position that&apos;s not &apos;static&a
 
 }
 
-##### JS {#js-8 .unnumbered}
+<h5>JS {#js-8 .unnumbered}
 
 window.onmousemove = moveElem;
 
@@ -11456,7 +10855,7 @@ height:100px;
 
 }
 
-##### JS {#js-9 .unnumbered}
+<h5>JS {#js-9 .unnumbered}
 
 window.onload = init;
 
@@ -11692,12 +11091,12 @@ output.innerHTML = &quot;This name is too short (at least 5 chars)&quot;;
 
 }
 
-##### Second variant: using the &apos;keyup&apos; event: {#second-variant-using-the-keyup-event .unnumbered}
+<h5>Second variant: using the &apos;keyup&apos; event: {#second-variant-using-the-keyup-event .unnumbered}
 
 ![](./images/image188.png){width="6.5in"
 height="2.4784722222222224in"}
 
-##### HTML {#html-11 .unnumbered}
+<h5>HTML {#html-11 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
 
@@ -11746,7 +11145,7 @@ onkeyup = &quot;validateName(event)&quot;&gt;
 
 &lt;/html&gt;
 
-##### JS {#js-10 .unnumbered}
+<h5>JS
 
 function validateName(evt) {
 
@@ -12027,7 +11426,7 @@ to create **event handlers**.
 There are three ways to manage events in the DOM structure. You could
 attach an event inline in your HTML code like this:
 
-##### **Method #1: declare an event handler in the HTML code** {#method-1-declare-an-event-handler-in-the-html-code .unnumbered}
+<h5>**Method #1: declare an event handler in the HTML code** {#method-1-declare-an-event-handler-in-the-html-code .unnumbered}
 
 &lt;div id=&quot;someDiv&quot; **onclick**=&quot;alert(&apos;clicked!&apos;)&quot;&gt; content of
 the div &lt;/div&gt;
@@ -12038,7 +11437,7 @@ it is **deprecated** (will probably be abandoned in the future). Mixing
 &apos;visual layer&apos; (HTML) and &apos;logic layer&apos; (JavaScript) in one place is
 really bad practice and causes a host of problems during development.
 
-##### **Method #2: attach an event handler to an HTML element in JavaScript** {#method-2-attach-an-event-handler-to-an-html-element-in-javascript .unnumbered}
+<h5>**Method #2: attach an event handler to an HTML element in JavaScript** {#method-2-attach-an-event-handler-to-an-html-element-in-javascript .unnumbered}
 
 1.  document.getElementById(&apos;someDiv&apos;).**onclick **= function() {
 
@@ -12050,7 +11449,7 @@ This method is fine, but  you will not be able to attach
 multiple **listener** functions. If you need to do this, use the version
 shown below.
 
-##### **Method #3: register a callback to the event listener with the addEventListener method (preferred  method)** {#method-3-register-a-callback-to-the-event-listener-with-the-addeventlistener-method-preferred-method .unnumbered}
+<h5>**Method #3: register a callback to the event listener with the addEventListener method (preferred  method)** {#method-3-register-a-callback-to-the-event-listener-with-the-addeventlistener-method-preferred-method .unnumbered}
 
 1.  document.getElementById(&apos;someDiv&apos;).**addEventListener**(&apos;click&apos;, function() {
 
@@ -12134,7 +11533,7 @@ Most useful common methods:
 
 #### Page {#page .unnumbered}
 
-##### Events related to the page lifecycle {#events-related-to-the-page-lifecycle-1 .unnumbered}
+<h5>Events related to the page lifecycle {#events-related-to-the-page-lifecycle-1 .unnumbered}
 
 There are many other events related to the page life cycle. Below are
 the most useful ones for an intro course:
@@ -12160,7 +11559,7 @@ the most useful ones for an intro course:
            &hellip;to know the percentage of the scroll in the page.
   -------------------------------------------------------------------------
 
-##### Page event properties {#page-event-properties-1 .unnumbered}
+<h5>Page event properties {#page-event-properties-1 .unnumbered}
 
 There are no particular properties that need to be mentioned here.
 Usually, the load event listener corresponds to a JavaScript function
@@ -12174,7 +11573,7 @@ canvas size, for example).
 
 #### Keyboard {#keyboard .unnumbered}
 
-##### Event types related to keyboard {#event-types-related-to-keyboard-1 .unnumbered}
+<h5>Event types related to keyboard {#event-types-related-to-keyboard-1 .unnumbered}
 
   -----------------------------------------------------------------------
   keydown    The event occurs when the user is pressing a key
@@ -12185,7 +11584,7 @@ canvas size, for example).
              release)
   -----------------------------------------------------------------------
 
-##### keyboardEvent properties {#keyboardevent-properties-1 .unnumbered}
+<h5>keyboardEvent properties {#keyboardevent-properties-1 .unnumbered}
 
   -------------------------------------------------------------------------
   keyCode    Returns the Unicode character code of the key that triggered
@@ -12203,7 +11602,7 @@ canvas size, for example).
 
 #### Mouse {#mouse .unnumbered}
 
-##### Event types related to mouse {#event-types-related-to-mouse-1 .unnumbered}
+<h5>Event types related to mouse {#event-types-related-to-mouse-1 .unnumbered}
 
   -------------------------------------------------------------------------
   click         The event occurs when the user clicks on an element
@@ -12232,7 +11631,7 @@ canvas size, for example).
                 to open a context menu
   -------------------------------------------------------------------------
 
-##### MouseEvent properties {#mouseevent-properties-1 .unnumbered}
+<h5>MouseEvent properties {#mouseevent-properties-1 .unnumbered}
 
   -----------------------------------------------------------------------
   button          Returns which mouse button was pressed when the mouse
@@ -12258,7 +11657,7 @@ canvas size, for example).
 
 #### Forms {#forms .unnumbered}
 
-##### Events related to forms {#events-related-to-forms-1 .unnumbered}
+<h5>Events related to forms {#events-related-to-forms-1 .unnumbered}
 
   ------------------------------------------------------------------------
   input    The event occurs when an element gets user input (e.g., a key
@@ -12283,7 +11682,7 @@ canvas size, for example).
   submit   The event occurs when a form is submitted
   ------------------------------------------------------------------------
 
-##### FormEvent properties {#formevent-properties-1 .unnumbered}
+<h5>FormEvent properties {#formevent-properties-1 .unnumbered}
 
 There are no particular properties that need to be mentioned here.
 Usually, on a form event listener, we check the content of the different
@@ -12612,7 +12011,7 @@ Any CSS  selector can be passed as a parameter for these methods.
     the results, it will be necessary to loop over each of the elements
     in the collection.
 
-##### Typical use: {#typical-use .unnumbered}
+<h5>Typical use: {#typical-use .unnumbered}
 
 Looking for an element in the whole document (the whole HTML page): call
 the querySelector method (or querySelectorAll) on the document object,
@@ -13015,7 +12414,7 @@ located inside an element of a given id
 
 ![](./images/image202.png){width="6.5in" height="4.35625in"}
 
-##### HTML {#html-15 .unnumbered}
+<h5>HTML {#html-15 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
 
@@ -13076,7 +12475,7 @@ Grapes
 
 &lt;/html&gt;
 
-##### JS {#js-13 .unnumbered}
+<h5>JS {#js-13 .unnumbered}
 
 function displayListOfCheckedItems() {
 
@@ -13196,7 +12595,7 @@ by this list:
 
 13. }
 
-##### Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id {#example-3-change-the-background-of-all-paragraphs-p-in-an-element-of-a-given-id .unnumbered}
+<h5>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id {#example-3-change-the-background-of-all-paragraphs-p-in-an-element-of-a-given-id .unnumbered}
 
 ![](./images/image203.png){width="6.5in"
 height="2.6972222222222224in"}
@@ -13319,7 +12718,7 @@ The most common way to modify the CSS style of one of several elements
 you selected using the DOM or Selector API, is to use
 the style attribute.
 
-##### Typical use: {#typical-use-1 .unnumbered}
+<h5>Typical use: {#typical-use-1 .unnumbered}
 
 // select the paragraph with id = &quot;paragraph1&quot;
 
