@@ -481,19 +481,15 @@ valuable approach):
 Here is a selection of tools to help debug JavaScript code. The
 instructor will indicate other tools in module 1 of the course.
 
--   [Firefox JS
-    debugger](https://developer.mozilla.org/en-US/docs/Tools/Debugger) (debugger
-    shipped inside Firefox) - all other browsers have integrated
+-   [Firefox JS debugger](https://developer.mozilla.org/en-US/docs/Tools/Debugger)
+    (debugger shipped inside Firefox) - all other browsers have integrated
     debuggers as well.
 
--   [JS Lint](https://www.jslint.com/)  - The JavaScript Code Quality
-    Tool
+-   [JS Lint](https://www.jslint.com/)  - The JavaScript Code Quality Tool
 
--   [CodeBeautify](https://codebeautify.org/jsvalidate)  - JavaScript
-    Validator
+-   [CodeBeautify](https://codebeautify.org/jsvalidate)  - JavaScript Validator
 
--   Check also other[ JavaScript debugging
-    tools](https://jqueryhouse.com/best-javascript-debugging-tools/)
+-   Check also other [JavaScript debugging tools](https://jqueryhouse.com/best-javascript-debugging-tools/)
 
 #### Browser compatibility
 
