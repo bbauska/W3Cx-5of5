@@ -1,8 +1,9 @@
 ---
 title: "W3Cx-5of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
 author: "bbauska"
-date created: "7/07/2024 12+pm"
-date last editted: "7/15/2024 Mon 3+pm"
+date created: "7/07/2024 Sun 12+pm"
+date last editted: "7/16/2024 Tue 6+pm"
+
 output: 
   markdown:
     with some style
@@ -17,8 +18,8 @@ output:
 <p align="center" width="100%">
 <img src="./images/w3cx-logo.jpg?raw=true"
   style="width:35%"
-  title="W3C logo"
-  alt="W3C logo." />
+  title="W3Cx logo"
+  alt="W3Cx logo." />
 </p>
 
 <h3 align="center">W3Cx-5of5-JS.0x - JavaScript Introduction</h3>
@@ -481,15 +482,19 @@ valuable approach):
 Here is a selection of tools to help debug JavaScript code. The
 instructor will indicate other tools in module 1 of the course.
 
--   [Firefox JS debugger](https://developer.mozilla.org/en-US/docs/Tools/Debugger)
-    (debugger shipped inside Firefox) - all other browsers have integrated
+-   [Firefox JS
+    debugger](https://developer.mozilla.org/en-US/docs/Tools/Debugger) (debugger
+    shipped inside Firefox) - all other browsers have integrated
     debuggers as well.
 
--   [JS Lint](https://www.jslint.com/)  - The JavaScript Code Quality Tool
+-   [JS Lint](https://www.jslint.com/)  - The JavaScript Code Quality
+    Tool
 
--   [CodeBeautify](https://codebeautify.org/jsvalidate)  - JavaScript Validator
+-   [CodeBeautify](https://codebeautify.org/jsvalidate)  - JavaScript
+    Validator
 
--   Check also other [JavaScript debugging tools](https://jqueryhouse.com/best-javascript-debugging-tools/)
+-   Check also other[ JavaScript debugging
+    tools](https://jqueryhouse.com/best-javascript-debugging-tools/)
 
 #### Browser compatibility
 
@@ -565,7 +570,7 @@ https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/
 https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. w3c developers logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. w3c developers logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
 <img src="./images/image022.png?raw=true"
   style="width:20%"
@@ -591,7 +596,7 @@ Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
 stylesheets.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 23. laptop showing unicorn validator (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 23. laptop showing unicorn validator (15) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
 <img src="./images/image023.png?raw=true"
   style="width:20%"
@@ -629,12 +634,12 @@ completed by summaries of guidelines developed at W3C, in particular Web
 accessibility guidelines, the Mobile Web Best Practices, and a number of
 internationalization tips.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 24. W3Cx cheatsheet snapshot image (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. W3Cx cheatsheet (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image024.png?raw=true"
   style="width:30%"
-  title="W3Cx JS logo"
-  alt="W3Cx JS.0x logo." />
+  title="W3Cx cheatsheet"
+  alt="W3Cx cheatsheet." />
 </p>
 
 Its main feature is a lookup search box,
@@ -665,7 +670,7 @@ hard to approach at first, but understanding at a deeper level how these
 technologies are built is a great way to build your expertise.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. github octocat logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. github octocat logo (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image025.png?raw=true"
   style="width:10%"
@@ -688,7 +693,7 @@ define key parts of what actually makes the World Wide Web work.
 
 #### Shape the future
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 26. w3c web incubator community group logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 26. w3c web incubator community group logo (17) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image026.png?raw=true"
   style="width:20%"
@@ -714,7 +719,7 @@ define key parts of what actually makes the World Wide Web work.
 
 <h4>A few history bits</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 27. tim berners-lee at his desk in cern, switzerland (xx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 27. tim berners-lee at his desk in cern, switzerland (17) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image027.png?raw=true"
   style="width:20%"
@@ -806,7 +811,13 @@ more details about the difference between Internet and the Web.
 
 <h4>Check also this reminder ;)</h4>
 
-#### ![First photo: Tim Berners-Lee is on the left wearing a black shirt that says "I didn't invent the Internet" and Vint Cerf on the right wearing a black shirt that says "I did not invent the Web". Second photo: Both facing backwards, Tim Berners-Lee is on the left wearing a black shirt that says "I invented the Web" and Vint Cerf on the right wearing a black shirt that says "I invented the Internet". ](./images/image028.jpeg){width="4.0in" height="2.252136920384952in"}
+<a href="./images/image028.jpeg">First photo: Tim Berners-Lee is on the left wearing a black shirt that 
+says "I didn't invent the Internet" and Vint Cerf on the right wearing a black 
+shirt that says "I did not invent the Web". Second photo: Both facing backwards, 
+Tim Berners-Lee is on the left wearing a black shirt that says "I invented the Web" 
+and Vint Cerf on the right wearing a black shirt that says "I invented the Internet".</a>
+
+<!-- (./images/image028.jpeg){width="4.0in" height="2.252136920384952in"} -->
 
 The W3C community is passionate about creating free and open Web
 standards. The next video, created in partnership with Microsoft,
@@ -956,18 +967,16 @@ features that they will need.
 English, because there are 18 characters between the &apos;i&apos; and the
 &apos;n&apos;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 29. W3C Internationalization Activity logo (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<!--~~~~~~~~~~~~~~~~~~~~ 29. W3C Internationalization Activity logo (22) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="50%">
 <img src="./images/image029.png?raw=true"
   style="width:10%"
   title="W3C Internationalization Activity logo"
   alt="W3C Internationalization Activity logo." />
-</p>
-
-The [W3C Internationalization Activity](https://www.w3.org/International/)
+The <a href="https://www.w3.org/International/">W3C Internationalization Activity</a> 
 works with W3C working groups and liaises with other organizations to make 
 it possible to use Web technologies with different languages, scripts, and 
-cultures.
+cultures.</p>
 
 During this course you will learn about some basic internationalization
 features, such as character encoding and language declarations. If you
@@ -980,29 +989,25 @@ stretches worldwide.
 <h4>Unicode</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 30. unicode symbols (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="left" width="50%">
 <img src="./images/image030.jpeg?raw=true"
   style="width:20%"
   title="Unicode symbols"
   alt="Unicode symbols." />
-</p>
 Text in a computer or on the Web is composed of characters. 
-
 *Characters* represent letters of the alphabet, punctuation, or other
-symbols.
-
-Unicode is a universal character set, ie. a standard that defines, in
+symbols.</p>
+<p>Unicode is a universal character set, ie. a standard that defines, in
 one place, all the characters needed for writing languages in use on
 computers. It is a superset of all other character sets that have been
-encoded.
-
-As a content author or developer, It is important to clearly distinguish
+encoded.</p>
+<p>As a content author or developer, It is important to clearly distinguish
 between the concepts of a character set versus a character encoding. You
-should nowadays always [choose the UTF-8 character
-encoding](https://www.w3.org/International/articles/definitions-characters/index.en#charsets) for
-your content or data. This Unicode encoding is a good choice because you
-can use a single encoding to handle any character you are likely to
-meet. This greatly simplifies things.
+should nowadays always 
+<a href="https://www.w3.org/International/articles/definitions-characters/index.en#charsets">
+choose the UTF-8 character encoding</a> for your content or data. This Unicode 
+encoding is a good choice because you can use a single encoding to handle any 
+character you are likely to meet. This greatly simplifies things.</p>
 
 <h4>Essential steps in Web i18n</h4>
 
@@ -1113,7 +1118,9 @@ Checker](https://validator.w3.org/i18n-checker/).  If there are
 internationalization problems with your page, this checker explains what
 they are and what to do about it.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-1-1">1.1.1 Introduction - Module 1: Intro to JavaScript (1:46)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hello everyone, welcome to the wonderful world of JavaScript!
 
@@ -1141,11 +1148,9 @@ programming languages. We'll then develop together, and step by step, an
 interactive graphic tool that will use many different features from
 JavaScript, HTML and CSS. Let's start having fun with JavaScript, now
 :-)
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-1-2">1.1.2 Module 1 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 If you thought that a Web browser could only display HTML documents, you
 were mistaken! ;)
 
@@ -1177,28 +1182,26 @@ you understand the basic concepts of the language.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-1">1.2.1 HTML is for structure</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 31. html5 logo (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<h4>The &quot;**H**yper **T**ext&quot; part: links!</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. html5 logo (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
 <img src="./images/image031.png?raw=true"
   style="width:20%"
   title="HTML5 logo"
   alt="HTML5 logo." />
-</p>
-
-#### The &quot;**H**yper **T**ext&quot; part: links!
-
 A fundamental key to the World Wide Web is the concept of
 &quot;**hypertext**&quot;. Hypertext is built on the idea of linking information
 together, not unlike using footnotes, but far easier and more flexible.
 The idea is to &quot;mark up&quot; your document with links and define how to
 break it down into different segments (chapters, sections, paragraphs,
-tables, figures, etc.)
+tables, figures, etc.)</p>
 
-That&apos;s why, in 1989, Tim Berners-Lee began to create a definition of
+<p>That&apos;s why, in 1989, Tim Berners-Lee began to create a definition of
 HTML: Hypertext Markup Language, to provide a simple, uniform way to
-incorporate hyperlinks into a text document.
+incorporate hyperlinks into a text document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 32. illustration of hypertext documents (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 32. illustration of hypertext documents (27) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image032.png?raw=true"
   style="width:40%"
@@ -1240,20 +1243,19 @@ For example, consider the following chunk of HTML code (note: you can
 edit the source code and see the resulting Web page updating in real
 time):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 33. glue javascript between html5 and css3 (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 33. codepen a tale of two cities (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image033.png?raw=true"
   style="width:50%"
-  title="Glue JavaScript between HTML5 and CSS3"
-  alt="Glue JavaScript between HTML5 and CSS3." />
+  title="Codepen: A Tale of Two Cities"
+  alt="Codepen: A Tale of Two Cities." />
 </p>
 
-<https://codepen.io/w3devcampus/pen/PWqYxG>
+<p><a href="https://codepen.io/w3devcampus/pen/PWqYxG">Example (CodePen)</a></p>
 
 <h5>HTML:</h5>
 
-```
-&lt;body&gt;
+<pre><code>&lt;body&gt;
 &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
 &lt;p&gt;
 It was the best of times, it was the worst of times, . . . .
@@ -1263,8 +1265,7 @@ It was the best of times, it was the worst of times, . . . .
   . . . it is a far, far better rest
   that I go to than I have ever known.
 &lt;/p&gt;
-&lt;/body&gt;
-```
+&lt;/body&gt;</pre></code>
 
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
@@ -1285,25 +1286,25 @@ your Web page looks, as well as how it responds and interacts with you.
 
 Here is another, more generic example:
 
-#### **Notes**:
-
--   Remember that the first line of your HTML5 page should start
+<h4>Notes:</h4>
+<ul>
+  <li>Remember that the first line of your HTML5 page should start
     by &lt;!DOCTYPE html&gt;. CodePen does not force you to add a DOCTYPE on
     CodePen, but be assured that you have to specify the DOCTYPE in all
-    your Web documents.
-
--   You can modify the source code in CodePen, and see the results in
-    real time.
+    your Web documents.</li>
+  <li>You can modify the source code in CodePen, and see the results in
+    real time.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 34.  (xx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 34. codepen: who am i? (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image034.png?raw=true"
   style="width:65%"
-  title="W3Cx JS logo"
-  alt="W3Cx JS.0x logo." />
+  title="CodePen: Who Am I?"
+  alt="CodePen: Who Am I?" />
 </p>
 
-<https://codepen.io/w3devcampus/pen/egNOLj>
+<h6><a href="https://codepen.io/w3devcampus/pen/egNOLj">Who Am I? (CodePen)</a></h6>
 
 <h5>HTML:</h5>
 
@@ -1356,7 +1357,7 @@ order to test the HTML code provided earlier in this section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-1">1.2.1 Live coding video: using the course&apos;s tools (6:25)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 35.  (xx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 35.  (31) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image034.png?raw=true"
   style="width:50%"
@@ -1375,7 +1376,7 @@ result of your modifications.
 In the second time, I will show you how to use the regular source code
 editor for editing HTML5 files directly on your hard disk.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 36.  (xx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 36.  (32) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image036.png?raw=true"
   style="width:50%"
@@ -1389,7 +1390,7 @@ you will open a new tab with your browser and you go to
 <http://jsbin.com>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 37./38  (xx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 37./38  (32) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image037.png?raw=true"
   style="width:35%"
@@ -1415,7 +1416,7 @@ of your work with friends. They won&apos;t to be able to break what you&apos;ve
 done because it will be create a new version or clone your own work so
 that your friends can work on what you&apos;ve done.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 39.  (xx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 39.  (33) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image039.png?raw=true"
   style="width:50%"
@@ -1429,7 +1430,7 @@ is maybe nicer but I think that JSBin is more practical for typing code.
 This one is interesting because it&apos;s got a search engine, and you can
 look for existing examples made by others.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image040.png?raw=true"
   style="width:50%"
@@ -1442,7 +1443,7 @@ I just typed &quot;button », and here I can see an example that create
 buttons. I can see the HTML code; CSS code and I can learn by looking at
 these examples.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image041.png?raw=true"
   style="width:50%"
@@ -1458,7 +1459,7 @@ forget to save to create an account also. And here, you can download the
 result for editing that offline if you would like using the &quot;export&quot;
 option (bottom right of screen in 'edit CodePen' mode).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image042.png?raw=true"
   style="width:50%"
@@ -1487,7 +1488,7 @@ free version is ok. You download it. And once it&apos;s installed, you can
 work with it locally. I&apos;m going to show you how to do that. What I
 recommend is that you create a directory somewhere.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image043.png?raw=true"
   style="width:65%"
@@ -1504,7 +1505,7 @@ you can name it as you like. &quot;index&quot; is very common for the main page
 of Web site. I then go to the desktop to the « Example 1&quot; directory and
 i save the file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image044.png?raw=true"
   style="width:60%"
@@ -1520,7 +1521,7 @@ s' or command s on my Mac. I do &quot;Open in the browser&quot; or I can just
 reload the page, and I can see that I change the content of the HTML
 file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image045.png?raw=true"
   style="width:60%"
@@ -1534,9 +1535,9 @@ downloaded from JSBin or from CodePen. My download directory, I can find
 back the file that I downloaded when I was working with CodePen.io. And
 here, I have got HTML file. This is the code I prototyped, I tested
 first using an online environment.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-2">1.2.2 HTML elements</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 If you are sitting at a coffee shop next to a table of Web developers,
 you will probably often hear these three words: &quot;Elements&quot;, &quot;Tags&quot;
 and &quot;Attributes&quot;.
@@ -1570,7 +1571,7 @@ we presented earlier:
 Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image046.png?raw=true"
   style="width:50%"
@@ -1584,7 +1585,7 @@ out this includes within it the entire content of your html file. If you
 click on the &quot;html&quot; red node, you&apos;ll find that it contains two
 components, a head and a body.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image047.png?raw=true"
   style="width:60%"
@@ -1601,7 +1602,7 @@ surprisingly, the elements contained within a given element are its
 &quot;child&quot; elements. And, yes, children of a common parent are often
 referred to as &quot;siblings&quot;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image048.png?raw=true"
   style="width:60%"
@@ -1624,9 +1625,10 @@ etc.
 That may be a great picture, but how do we represent such a structure in
 a text file?  Well, that&apos;s where &quot;tags&quot; come in.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-3">1.2.3 HTML tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 49. thinking about html tags (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. thinking about html tags (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
 <img src="./images/image049.jpeg?raw=true"
   style="width:20%"
@@ -1682,7 +1684,7 @@ and the &quot;little bits of text&quot; in between tell us what kind of tag it
 is.  To completely describe the element, it needs an open and close
 tag, and everything in between the tags is the contents of the element:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 50. diagram of an element (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. diagram of an element (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image050.png?raw=true"
   style="width:40%"
@@ -1752,9 +1754,15 @@ an &lt;h1&gt; tag!)
 
 Try changing the value of the width attribute in the example below, or
 add a height attribute, and see the result:
-
-![](./images/image051.png){width="5.0in"
-height="1.5908114610673665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 51. codepen: pbs twing profile image (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image051.png?raw=true"
+  style="width:40%"
+  title="CodePen: pbs.twing profile image"
+  alt="CodePen: pbs.twing profile image." />
+</p>
+<!-- ![](./images/image051.png){width="5.0in" height="1.5908114610673665in"} -->
 
 ```
 &lt;img
@@ -1763,8 +1771,15 @@ width=200
 alt=&quot;Michel Buffa plays rock and roll&quot;&gt;
 ```
 
-![](./images/image052.png){width="5.0in"
-height="3.921474190726159in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. your first html page (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image052.png?raw=true"
+  style="width:50%"
+  title="Your first HTML page"
+  alt="Your first HTML page." />
+</p>
+<!-- ![](./images/image052.png){width="5.0in" height="3.921474190726159in"} -->
 
 In this lesson, I will show you how to create from scratch an HTML page
 using some of the most common HTML tags. I will use an online tool for
@@ -1774,9 +1789,15 @@ editor, and you will see in the output part the results of what I&apos;m
 doing. **JSBin** created for me a first template. Most common HTML5
 starts with &lt;!DOCTYPE html&gt;, that tells the browser that the file is
 going to render will be an HTML5 file.
-
-![](./images/image053.png){width="6.0in"
-height="3.3788462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 53. example: html, head and body (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image052.png?raw=true"
+  style="width:50%"
+  title="Example: HTML, head and body"
+  alt=""Example: HTML, head and body." />
+</p>
+<!-- ![](./images/image053.png){width="6.0in" height="3.3788462379702535in"} -->
 
 Then, you&apos;ve got a first element that is called &lt;html&gt; and you&apos;ve
 got the closing corresponding element that is &lt;/html&gt;. It&apos;s a common
@@ -1785,13 +1806,26 @@ saw earlier in the course, when you&apos;ve got such elements, they will
 have children. In the HTML tag, we will have a head element and a body
 element.
 
-![](./images/image054.png){width="6.0in"
-height="3.3788462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. jsbin example; template (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image054.png?raw=true"
+  style="width:50%"
+  title="JSBin example; template: head and body"
+  alt="JSBin example; template: head and body." />
+</p>
+<!-- ![](./images/image054.png){width="6.0in" height="3.3788462379702535in"} -->
 
-#### We&apos;ve got a head element, and an empty body element, here.  
-
-#### ![](./images/image055.png)
-<!-- {width="6.0in" height="3.3788462379702535in"} -->
+<p>We&apos;ve got a head element, and an empty body element, here.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 55. example: html, head and body (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image055.png?raw=true"
+  style="width:50%"
+  title="Example: HTML, head and body"
+  alt="Example: HTML, head and body." />
+</p>
+<!-- ![](./images/image055.png) {width="6.0in" height="3.3788462379702535in"} -->
 
 In the &lt;head&gt;, usually, we specify the title: &quot;First HTML page&quot;. And
 this title is what will be displayed when you put the cursor on a tab in
@@ -1800,8 +1834,15 @@ your browser. Then, it is a good practice to indicate the language:
 engines. And then in the body of the document, we will add some really
 visible content. I start with the very common element, a very common
 tag.
-
-#### ![](./images/image056.png){width="6.0in" height="3.3788462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 56. example: html, head and body (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image056.png?raw=true"
+  style="width:50%"
+  title="Example: HTML, head and body"
+  alt="Example: HTML, head and body." />
+</p>
+<!-- ![](./images/image056.png){width="6.0in" height="3.3788462379702535in"} -->
 
 The tag is the notation between &lt; and &gt; signs and the element is the
 conceptual thing - like, I'm writing a heading. &quot;This is my first
@@ -1817,16 +1858,30 @@ paragraph inside the paragraph, or I can use another tag that is useful
 just for going to the next line without letting some space between
 paragraphs, it&apos;s called &lt;br&gt;. And &lt;br&gt; in that case, I can go to
 the next line.
-
-#### ![](./images/image057.png){width="6.0in" height="3.3788462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 57. example: html, head and body (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image057.png?raw=true"
+  style="width:50%"
+  title="Example: HTML, head and body"
+  alt="Example: HTML, head and body." />
+</p>
+<!-- ![](./images/image057.png){width="6.0in" height="3.3788462379702535in"} -->
 
 If I want to enumerate my hobbies, a very common practice is to use
 lists. In HTML, you&apos;ve got an **unnumbered list** that are composed of
 list items. For example: &quot;I play guitar&quot;, &quot;I code video games&quot;.
 These are my hobbies. &quot;I like movies&quot;, etc. If I want, instead of an
 unnumbered list, a numbered list, I can use an order list.
-
-#### ![](./images/image058.png){width="6.0in" height="3.3788462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 58. example: html, head and body (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image058.png?raw=true"
+  style="width:50%"
+  title="Example: HTML, head and body"
+  alt="Example: HTML, head and body." />
+</p>
+<!-- ![](./images/image058.png){width="6.0in" height="3.3788462379702535in"} -->
 
 With &lt;ol&gt; instead of &lt;ul&gt;. In that case, you can see numbers.
 Another very common element is the &quot;img&quot; tag that is useful for
@@ -1848,8 +1903,9 @@ of Leonardo. I pick an image of Leonardo. I display the image and
 **I've** got the URL, here, in the address bar. I just copy and
 **paste** it and **I've** got Leonardo Di Caprio in my document.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-5">1.2.5 CSS is for style (1:34)</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hi!
 
 In this short video, I will show you quickly the principle of CSS.
@@ -1861,17 +1917,29 @@ HTML is for structure. CSS is another language, by W3C, that it&apos;s
 useful for specifying the look and feel of these elements. How do they
 fit together...How many spaces between them...What color to use, and so
 on ...
-
-![](./images/image059.png){width="6.0in"
-height="3.3788462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 59. example: html, head and body (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image059.png?raw=true"
+  style="width:50%"
+  title="Example: HTML, head and body"
+  alt="Example: HTML, head and body." />
+</p>
+<!-- ![](./images/image059.png){width="6.0in" height="3.3788462379702535in"} -->
 
 I&apos;m just going to copy and paste some examples here, and you saw that
 the look and feel of the document changed. And it&apos;s, now, using
 shadows, borders, background colors, different character fonts and so
 on.
-
-![](./images/image060.png){width="6.0in"
-height="3.3788462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. example: html, head and body (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image060.png?raw=true"
+  style="width:50%"
+  title="Example: HTML, head and body"
+  alt="Example: HTML, head and body." />
+</p>
+<!-- ![](./images/image060.png){width="6.0in" height="3.3788462379702535in"} -->
 
 The CSS file, here, is just using what we call "rules". A rule is a
 selector, so this means for all &quot;h1&quot; elements in the page, I want to
@@ -1882,9 +1950,15 @@ indicate, for each different elements you selected (the &quot;h1&quot;, the
 &quot;h2&quot;, the &quot;p&quot; the paragraph, for the image). You then indicate what
 you want to change. For example, for the image in the document, you
 indicate a box-shadow.
-
-![CSS logo](./images/image061.png){width="4.0in"
-height="2.255985345581802in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. css: cascade style sheet (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image060.png?raw=true"
+  style="width:50%"
+  title="CSS: Cascade Style Sheet"
+  alt="CSS: Cascade Style Sheet." />
+</p>
+<!-- ![CSS logo](./images/image061.png){width="4.0in" height="2.255985345581802in"} -->
 
 CSS, or **C**ascading **S**tyle **S**heets, is a style sheet language
 used to describe the way an HTML or XML document should look to a user.
@@ -1912,9 +1986,15 @@ appearance of the resulting HTML page rendering is rather different
 (click on the HMTL/CSS buttons to see alternatively the HTML or the CSS
 code, remember you can always make changes to the code: change the color
 in the CSS part, etc.):
-
-![](./images/image062.png){width="5.0in"
-height="4.019764873140858in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. codepen: my home page (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image062.png?raw=true"
+  style="width:50%"
+  title="Example CodePen: My Home Page"
+  alt="Example CodePen: My Home Page." />
+</p>
+<!-- ![](./images/image062.png){width="5.0in" height="4.019764873140858in"} -->
 
 https://codepen.io/w3devcampus/pen/GrJpXO
 
@@ -1993,9 +2073,15 @@ hint what the significance of x and y are. Best practice is to name
 these things to increase clarity, consistency and brevity.
 
 Let&apos;s look at a modified version of Michel Buffa&apos;s home page example:
-
-![](./images/image063.png){width="5.0in"
-height="5.639957349081365in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 63. example codepen: update css rule (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image063.png?raw=true"
+  style="width:50%"
+  title="Example CodePen: Update CSS Rules"
+  alt="Example CodePen: Update CSS Rules." />
+</p>
+<!-- ![](./images/image063.png){width="5.0in" height="5.639957349081365in"} -->
 
 https://codepen.io/w3devcampus/pen/ZLGWQJ
 
@@ -2070,9 +2156,15 @@ You can do both! 
 You can embed the CSS rules between a &lt;style&gt;&hellip;&lt;/style&gt; tag,
 located inside the &lt;head&gt;&hellip;&lt;/head&gt; of the HTML documents, like in
 this example:
-
-![](./images/image064.png){width="6.0in"
-height="2.612179571303587in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 64. example codepen: update css rule (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image064.png?raw=true"
+  style="width:50%"
+  title="Example CodePen: Update CSS Rules"
+  alt="Example CodePen: Update CSS Rules." />
+</p>
+<!-- ![](./images/image064.png){width="6.0in" height="2.612179571303587in"} -->
 
 https://codepen.io/w3devcampus/pen/ygNOxv
 
@@ -2080,10 +2172,15 @@ This is OK if you do not have too many CSS rules. In general it&apos;s
 better to put the CSS rules in one or more separate .css files, like
 this ([open this example in
 Plunker](https://plnkr.co/edit/vedmaDmnfiJzoiLPrInG?p=preview))
-
-![Snapshot of a code editor showing a separate css
-file](./images/image065.jpeg){width="6.0in"
-height="2.134540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 65. snapshot of a code editor showing a separte css file (56) ~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image065.jpeg?raw=true"
+  style="width:60%"
+  title="Snapshot of a code editor showing a separate CSS file"
+  alt="Snapshot of a code editor showing a separate CSS file." />
+</p>
+<!-- ![Snapshot of a code editor showing a separate css file](./images/image065.jpeg){width="6.0in" height="2.134540682414698in"} -->
 
 Note that when you use an online IDE, you usually type/paste the CSS
 rules in a &quot;CSS tab&quot; in the online editor, and it hides all the
@@ -2092,42 +2189,75 @@ as [Plunker](https://plnkr.co/) or [AWS Cloud9](https://c9.io/) that
 enable you to manage files in the cloud).
 
 ### Live coding video: mixing HTML and CSS (3:49)
-
-![](./images/image066.png){width="5.0in"
-height="3.954983595800525in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 66. example codepen: update css rule (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image066.png?raw=true"
+  style="width:50%"
+  title="Example CodePen: Update CSS Rules"
+  alt="Example CodePen: Update CSS Rules." />
+</p>
+<!-- ![](./images/image066.png){width="5.0in" height="3.954983595800525in"} -->
 
 In this lesson, I will show you how you can include CSS in your HTML
 file, because we used online tools that hide, in a way, the location of
 the different languages.
-
-![](./images/image067.png){width="5.0in"
-height="2.290064523184602in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 67. example codepen: update css rule (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image067.png?raw=true"
+  style="width:50%"
+  title="Example CodePen: Update CSS Rules"
+  alt="Example CodePen: Update CSS Rules." />
+</p>
+<!-- (./images/image067.png){width="5.0in" height="2.290064523184602in"} -->
 
 If you take this example we described in the previous video, and if I
 export it using CodePen...and if I look at the zip file that has been
 downloaded, you can see CSS file are located in the subdirectory and in
 a .css file. This is a common way for organizing source code when you
 make a project with HTML and CSS.
-
-![](./images/image068.png){width="3.5in"
-height="1.718963254593176in"}![](./images/image069.png){width="3.5in"
-height="1.718963254593176in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 68/69. example source code: my home page (58) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image068.png?raw=true"
+  style="width:35%"
+  title="Example Web Page: My Home Page"
+  alt="Example Web Page: My Home Page." />
+<img src="./images/image069.png?raw=true"
+  style="width:35%"
+  title="Example source code: My Home Page"
+  alt="Example source code: My Home Page." />
+</p>
+<!-- ![](./images/image068.png){width="3.5in" (./images/image069.png){width="3.5in" -->
 
 And if we open the &quot;index.html&quot; file, you can see that, what is really
 going on if we look at the source code. Actually, in order to include
 CSS file in an HTML file, we use the &quot;link&quot; tag with the attribute
 &quot;rel = &quot;stylesheet&quot; and &quot;href&quot; = the name of the file.
-
-![](./images/image070.png){width="5.0in"
-height="2.4556627296587927in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 70. codepen: link to css stylesheet (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image070.png?raw=true"
+  style="width:50%"
+  title="CodePen: Link to external CSS Stylesheet"
+  alt="CodePen: Link to external CSS Stylesheet." />
+</p>
+<!-- ![](./images/image070.png){width="5.0in" height="2.4556627296587927in"} -->
 
 Here, it means the &quot;style.css&quot; file located in the &quot;css&quot;
 subdirectory. If I open this project with Sublime Text ... I go to the
 directory I&apos;ve just downloaded, and if I open the directory, I can see
 my hierarchy, here. The &quot;index.html&quot; file that includes the .css file.
-
-![](./images/image071.png){width="5.0in"
-height="2.7174146981627296in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. codepen: example style.css  (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image071.png?raw=true"
+  style="width:50%"
+  title="CodePen: Example style.css"
+  alt="CodePen: Example style.css." />
+</p>
+<!-- ![](./images/image071.png){width="5.0in" height="2.7174146981627296in"} -->
 
 And if I open the &quot;style.css&quot;. I can see the CSS content here. And
 it&apos;s interesting to use a real source code editor because you&apos;ve got
@@ -2136,9 +2266,15 @@ can use also some wizard for indicating or choosing the colors. If I
 take this color, it will give me directly the value and so on. You can
 edit your CSS, edit your HTML and when you save the result, you can open
 directly in your browser the file and see the result.
-
-![](./images/image072.png){width="6.5in"
-height="3.532638888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 72. example codepen: change css background-color (59) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image072.png?raw=true"
+  style="width:50%"
+  title="Example CodePen: Update CSS Rules"
+  alt="Example CodePen: Update CSS Rules." />
+</p>
+<!-- ![](./images/image072.png){width="6.5in" height="3.532638888888889in"} -->
 
 Here, I change the background-color of the heading 1. You can also use
 directly in your HTML, the CSS rules. In that case, instead of using the
@@ -2146,9 +2282,15 @@ directly in your HTML, the CSS rules. In that case, instead of using the
 and like that you can directly include, in the HTML file, the style.
 I&apos;ve got &quot;h1&quot; CSS rule, that will indicate how the &quot;h1&quot; will be
 rendered and I&apos;m no more including an external file.
-
-![](./images/image073.png){width="6.5in"
-height="3.497916666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 73. example codepen: update css rule (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image073.png?raw=true"
+  style="width:50%"
+  title="Example CodePen: Update CSS Rules"
+  alt="Example CodePen: Update CSS Rules." />
+</p>
+<!-- ![](./images/image073.png){width="6.5in" height="3.497916666666667in"} -->
 
 If I save this and &quot;Open in the Browser&quot;, I&apos;ve got the same result
 here for the &quot;h1&quot;. And if I look at the source code, I will see
@@ -2157,13 +2299,20 @@ directly in the HTML, the CSS rule.
 To sum up, you can have your CSS in external file or inside the HTML
 file using the &quot;style&quot; element.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-6">1.2.6 JavaScript is the &quot;interactive glue&quot; (4:22)</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hello, your Web browser can only understand three different languages
 when you ask for a Web page to be rendered in the browser.
-
-![](./images/image074.png){width="6.5in"
-height="3.428472222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 74. example  (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image074.png?raw=true"
+  style="width:50%"
+  title="Example CodePen: Update CSS Rules"
+  alt="Example CodePen: Update CSS Rules." />
+</p>
+<!-- ![](./images/image074.png){width="6.5in" height="3.428472222222222in"} -->
 
 Let&apos;s take this document for example. We type the URL here, and the
 document arrives from a remote machine. And this document is a HTML
@@ -13185,3 +13334,4 @@ element.appendChild(para);
   title=""
   alt="." />
 </p>
+<!-- last editted 7/16/2024 6:25pm -->
