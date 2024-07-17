@@ -2459,11 +2459,11 @@ Maps and eBay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 81/82. photo brandan eich, creator of js, netscape js book (65) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image081.png?raw=true"
+<img src="./images/image081.jpeg?raw=true"
   style="width:35%"
   title="Photo of Brandan Eich, creator of JavaScript"
   alt="Photo of Brandan Eich, creator of JavaScript." />
-<img src="./images/image082.png?raw=true"
+<img src="./images/image082.jpeg?raw=true"
   style="width:35%"
   title="Cover page of the Netscape JavaScript 1.2 book"
   alt="Cover page of the Netscape JavaScript 1.2 book." />
@@ -2471,7 +2471,7 @@ Maps and eBay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 83/84. year 1995, netscape logo (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image083.png?raw=true"
+<img src="./images/image083.jpeg?raw=true"
   style="width:35%"
   title="Year 1995"
   alt="Year 1995." />
@@ -2512,21 +2512,17 @@ language, no longer exists, having been bought by Oracle Corporation in
 But Netscape realized that Java wasn&apos;t a
 suitable language for in-browser use. Netscape thought of JavaScript at
 the beginning, as a lightweight Java.</p>
-
-JavaScript was initially inspired by Java, but in fact only some naming
+<p>JavaScript was initially inspired by Java, but in fact only some naming
 conventions remained the same. We highly recommend not even trying to
 look for similarities - this is actually a bad way to start learning
 JavaScript! We&apos;d rather just say that the only real commonality between
 these two languages is their names. If you are coming to this
-course from Java, leave the Java thinking behind!
-
-JavaScript quickly became a success following its first
-appearance in [Netscape Navigator 2 in March
-1996](http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/), and
-it was quickly integrated into other popular browsers. Microsoft also
-created its own version named JScript (and shipped it with Internet
-Explorer 3 in 1996 -- It was a dud).
-
+course from Java, leave the Java thinking behind!</p>
+<p>JavaScript quickly became a success following its first appearance in 
+<a href="http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/">
+Netscape Navigator 2 in March 1996</a>, and it was quickly integrated into other 
+popular browsers. Microsoft also created its own version named JScript (and 
+shipped it with Internet Explorer 3 in 1996 -- It was a dud).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 87. snapshot of a web page in netscape navigator 2 (67) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2536,8 +2532,8 @@ Explorer 3 in 1996 -- It was a dud).
   alt="Snapshot of a web page in Netscape Navigator 2." />
 </p>
 
-<b>Netscape Navigator 2 in 1996, with big buttons and plain HTML pages
-(CSS did not exist at that time)</b>
+<p><b>Netscape Navigator 2 in 1996, with big buttons and plain HTML pages
+(CSS did not exist at that time)</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 88. snapshot of a web page in internet explorer (67) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2547,8 +2543,8 @@ Explorer 3 in 1996 -- It was a dud).
   alt="Snapshot of a web page in IE 3." />
 </p>
 
-<b>Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
-did not exist at this time!</b>
+<p><b>Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
+did not exist at this time!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. ecma logo (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
@@ -2571,8 +2567,8 @@ right up to the present day. MS still didn't play ball.</p>
   alt="JavaScript detailed timeline." />
 The present: what is the current version?
 What about ES6/ES2015/ES2016/ES2017/ ES2018/ES2019/ES2020/ES2021/ES2022?
-Are these the new names of JavaScript?<br>
-Since 1996, multiple versions of JavaScript have appeared. For a long
+Are these the new names of JavaScript?<br></p>
+<p>Since 1996, multiple versions of JavaScript have appeared. For a long
 time, the stable version supported by all major browsers deployed on
 computers and smartphones was <b>EcmaScript version 5 from 2010</b>, but in
 2015, a new version known first as EcmaScript 6 or ES 2015 came out with
@@ -2585,42 +2581,38 @@ the standards group responsible for vetting and approving different
 versions of the language. In June 2015, ECMA International approved the
 6th edition of the language. The name, ES2015, was used because the
 latest version of JavaScript is identified as the 2015 version of
-ECMAScript (the alternative name for JavaScript). [Read this blog post
-about all these naming
-incongruities!](https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning)</p>
+ECMAScript (the alternative name for JavaScript). 
+<a href="https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning">
+Read this blog post about all these naming incongruities!</a></p>
 
-At the beginning, ES2015 was referred to as ES6 and before that,
+<p>At the beginning, ES2015 was referred to as ES6 and before that,
 Harmony. Moving forward, ES suffixed with the year of the latest
 approved standard is the naming convention. The next version was
-called&hellip; ES2016, etc.!
-Browser vendors do not wait that ECMA standardizes a version as they
+called&hellip; ES2016, etc.!</p>
+<p>Browser vendors do not wait that ECMA standardizes a version as they
 start implementing it during the standardization process, which can take
 months or years (they also contribute to the standardization process all
-along its life cycle).
-
-The new open development process adopted by the ECMA TC39 committee
+along its life cycle).</p>
+<p>The new open development process adopted by the ECMA TC39 committee
 decided that every year, a new version will occur. This annual
-publication rate has been effective since 2015.
-
-The current edition of the ECMA-262 standard is <b>the 13th edition,
-published in June 2022 and is known as ES2022</b>.
-
-<b>Beware</b>: even on recent Web browsers the whole supported feature
+publication rate has been effective since 2015.</p>
+<p>The current edition of the ECMA-262 standard is <b>the 13th edition,
+published in June 2022 and is known as ES2022</b>.</p>
+<p><b>Beware</b>: even on recent Web browsers the whole supported feature
 sets of the latest versions are generally not completely implemented, as
-it takes time for browser vendors to follow the standards!
+it takes time for browser vendors to follow the standards!</p>
 
 <h4><b>Current support for ES2020/ 11th version (June 2020):</b></h4>
 
-There is no easy-to-read table of current browser global support, but
+<p>There is no easy-to-read table of current browser global support, but
 caniuse.com can be used to check feature by feature which browsers
-support them. For example, [this link shows the support for the new
-&quot;javascript private class fields&quot;
-feature](https://caniuse.com/mdn-javascript_classes_private_class_fields).
-
-Up to date browsers usually support more than 90% of the features from
+support them. For example, 
+<a href="https://caniuse.com/mdn-javascript_classes_private_class_fields">
+this link shows the support for the new &quot;javascript private class fields&quot;
+feature</a>. Up to date browsers usually support more than 90% of the features from
 the version corresponding to the previous year. For example, in 2020,
 there is an good support for ES2019, while certain features from ES2020
-won&apos;t be implemented before some months.
+won&apos;t be implemented before some months.</p>
 
 <h4>Which version will we learn?</h4>
 
@@ -2719,7 +2711,7 @@ post your comments/observations/questions or share your creations.
   alt="The Best Way to Learn JavaScript." />
 </p>
 
-So, what it the best method for learning JavaScript?
+So, what is the best method for learning JavaScript?
 
 When you are a complete beginner, I will recommend to look at examples,
 tweak them, change small things, try to understand how the syntax looks
@@ -2836,8 +2828,9 @@ Because, this one: the &quot;function-plot&quot; JavaScript library, is using
 internally another one you must include also in the document. What I
 propose is that we will start looking at this example. The best way is
 to click on &quot;Edit on CodePen&quot; label here, it will open the code in the
-CodePen.io online editor. And&hellip; just look at the HTML part here. Okay,
-we can just look at the HTML part and zoom in a little bit. What do we
+CodePen.io online editor. And&hellip; just look at the HTML part here. 
+
+Okay, we can just look at the HTML part and zoom in a little bit. What do we
 see? We can see that it uses 2 libraries here between &lt;script&gt; and
 &lt;/script&gt; elements. This is how we can insert in the document an
 external JavaScript file. In that case, it&apos;s a remote JavaScript file
@@ -2896,8 +2889,9 @@ color, let&apos;s make it pink&hellip; Look at the result: I&apos;ve got 2 diffe
 functions that have been plotted in my graph. I can, instead of using
 this, I can maybe plot x2 (x square 2), like this, okay. It should work.
 Ok, we can see a little bit of it here. Maybe we will change the domain,
-so instead of stopping at 1, we go to 10. Here we go! And if we look at
-the values, we see the x square function that is a bit better, and if we
+so instead of stopping at 1, we go to 10. Here we go! 
+
+And if we look at the values, we see the x square function that is a bit better, and if we
 just plot it for x=0 to x=2&hellip; &hellip;In that case, i&apos;ve got another
 scale for looking at the functions. In this first example, you saw how
 to use an external library, what is the syntax to call a function, and
@@ -2936,7 +2930,8 @@ During module 1, we give you some basics:
 -   In further modules, we will be revisiting the examples,
     and discussing them in greater detail and with fuller explanations.
 
-<h4>SECOND: take some time to carefully read the sections titled &quot;What you&apos;ve learnt / let&apos;s detail &hellip;.&quot;</h4>
+<h4>SECOND: take some time to carefully read the sections titled &quot;What 
+you&apos;ve learnt / let&apos;s detail &hellip;.&quot;</h4>
 
 During the course, we provide extra &quot;reference pages&quot; that detail some
 important parts of the language. For example, in a later section, we
@@ -2958,8 +2953,6 @@ mouse wheel to zoom in/out the function plot.
   title="JavaScript detailed timeline"
   alt="JavaScript detailed timeline." />
 </p>
-
-<!-- ![image092.png](./images/image092.png) -->
 
 https://codepen.io/w3devcampus/pen/PpYpjJ
 
@@ -3056,18 +3049,18 @@ you tweaked). They are in bold in the source code we saw earlier:
 
 ```
 1.  {
-2.  <b>target</b>: &apos;#myFunction&apos;,
-3.  <b>data</b>: &lbrack;{
-4.  fn: &apos;sin(x)&apos;,
-5.  color: &apos;red&apos;
+2.    <b>target</b>: &apos;#myFunction&apos;,
+3.    <b>data</b>: &lbrack;{
+4.    fn: &apos;sin(x)&apos;,
+5.    color: &apos;red&apos;
 6.  }&rbrack;,
-7.  <b>grid</b>: true,
-8.  <b>yAxis</b>: {
-9.  domain: &lbrack;-1, 1&rbrack;
-10. },
-11. <b>xAxis</b>: {
-12. domain: &lbrack;0, 2&ast;Math.PI&rbrack;
-13. }
+7.    <b>grid</b>: true,
+8.    <b>yAxis</b>: {
+9.      domain: &lbrack;-1, 1&rbrack;
+10.   },
+11.   <b>xAxis</b>: {
+12.     domain: &lbrack;0, 2&ast;Math.PI&rbrack;
+13.   }
 14. }
 ```
 
@@ -3084,8 +3077,8 @@ properties/values inside, separated by a comma. Here is a simple object:
 
 ```
 1.  {
-2.  givenName: &quot;Michel&quot;,
-3.  familyName: &quot;Buffa&quot;
+2.    givenName: &quot;Michel&quot;,
+3.    familyName: &quot;Buffa&quot;
 4.  }
 ```
 
@@ -3403,7 +3396,7 @@ Here is an example that will display the current and past members of
 famous rock bands:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 98.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 98.  (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.png?raw=true"
   style="width:65%"
@@ -3564,16 +3557,26 @@ Example that uses more than one JavaScript file:
 
 It is good practice to locate CSS files in a css subfolder, and
 JavaScript files in a js subfolder.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 101. a typical html/css/js project folder (94) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image101.jpeg?raw=true"
+  style="width:50%"
+  title="A typical HTML/CSS/JS proejct folder"
+  alt="A typical HTML/CSS/JS proejct folder." />
+</p>
+<!-- (./images/image101.jpeg) {width="5.0in" height="1.2621358267716536in"} -->
 
-![A typical HTML/CSS/JS project folder
-structure](./images/image101.jpeg){width="5.0in"
-height="1.2621358267716536in"}
-
-In this example, we have just one CSS file and one JavaScript file:
-
-![A typical HTML/CSS/JS project folder structure, with folders
-expanded](./images/image102.jpeg){width="5.0in"
-height="1.4493766404199475in"}
+<p>In this example, we have just one CSS file and one JavaScript file:</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 102. a typical html/css/js project folder expanded (95) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image102.jpeg?raw=true"
+  style="width:50%"
+  title="A typical HTML/CSS/JS proejct folder expanded"
+  alt="A typical HTML/CSS/JS proejct folder expanded." />
+</p>
+<!-- !(./images/image102.jpeg){width="5.0in" height="1.4493766404199475in"} -->
 
 Contents of the index.html file:
 
@@ -3639,6 +3642,14 @@ made by others is really common when working on JavaScript projects.
 
 Here is a running example that uses the paperJS library, included using
 an external URL:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 103. codepen example using paperjs library (96) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image102.jpeg?raw=true"
+  style="width:65%"
+  title="Example CodePen using paperJS library"
+  alt="Example CodePen using paperJS library." />
+</p>
 
 ![](./images/image103.png){width="6.5in" height="2.075in"}
 
