@@ -932,7 +932,7 @@ pages.
 > &lt;/head&gt;
 ```
 
-<h5>Example 2: image text alternatives (&quot;alt text&quot;)</h5>
+<h4>Example 2: image text alternatives (&quot;alt text&quot;)</h4>
 
 Text alternatives (&quot;alt text&quot;) are a primary way of making visual
 information accessible, because they can be rendered through any sensory
@@ -942,7 +942,7 @@ rendered in a variety of ways by a variety of user agents. For example,
 a person who cannot see a picture can have the text alternative read
 aloud using synthesized speech.
 
-<h5>**Check #2: Every image has **alt** with appropriate alternative text.**</h5>
+<h4>**Check #2: Every image has **alt** with appropriate alternative text.**</h4>
 
 **Example**: See the W3C logo below. It contains a link that points to
 the W3C Web site. The text alternative is going to be a brief
@@ -1184,7 +1184,7 @@ this course! This is an introductory course designed to help
 you understand the basic concepts of the language.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-1">1.2.1 HTML is for structure</h3>
+<h3 id="ch1-2-0">1.2.0 HTML is for structure</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The &quot;**H**yper **T**ext&quot; part: links!</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1729,7 +1729,9 @@ These elements, without a &quot;/&quot; at the end, are called &quot;void
 elements&quot;. They are : area, base, br, col, embed, hr, img, input, link,
 menuitem, meta, param, source, track, wbr.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-4">1.2.4 HTML attributes (6:01)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Most of what you can learn about HTML attributes is presented [in the
 three W3Cx MOOCs about
@@ -2453,7 +2455,7 @@ Finally, note that, in these examples, the JavaScript code is located in
 the HTML of the document.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-7">1.2.7 JavaScript history</h3>
+<h3 id="ch1-2-7">1.2.7 JavaScript history (mm:ss)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 JavaScript remains the most commonly used programming language with
 67.7% of developers employing it in 2020 (see this [survey&apos;s
@@ -2690,7 +2692,9 @@ before, runtime. The most popular JavaScript engines are:
 -   [History of JavaScript on a
     timeline](https://blog.risingstack.com/history-of-javascript-on-a-timeline/)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-8">1.2.8 Discussion and project</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
@@ -3753,7 +3757,9 @@ height="3.0480774278215224in"}
 
 https://codepen.io/w3devcampus/pen/bqGboZ
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 Using CodePen</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In the video, at 3:19, there are some mistakes in the HTML code:
 
@@ -3841,7 +3847,9 @@ Using generated code can be useful, but most of the time for a big
 project or a serious project, you will use a source code editor like
 Sublime Text.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-1">1.5.1 JS variables and values</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi!
 
@@ -4728,7 +4736,9 @@ with the operator - will evaluate to a number. But an expression with
 the operator + can evaluate to a number or a string (for addition or
 concatenation).
 
-<h3 id="ch1-5-7">1.5.7 Strings (part 1)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch1-5-6">1.5.6 Strings (part 1)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 To declare or manipulate strings you must write them with **single
 quotes &apos; or double quotes &quot;** around them. Single quotes or double
@@ -4771,7 +4781,9 @@ height="2.4791666666666665in"}
 
 4.  To output HTML in JavaScript, single quotes are more useful
 
-<h3 id="ch1-5-8">1.5.8 String operators</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch1-5-7">1.5.7 String operators</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Strings can be defined using double quotes, or simple quotes.
 
@@ -5013,7 +5025,7 @@ var s = &quot;1&#92;t2&quot;
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-9">1.5.9 Objects (part 1)</h3>
+<h3 id="ch1-5-8">1.5.8 Objects (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We have already encountered objects in different examples. You can
 easily recognize these objects:
@@ -5093,7 +5105,7 @@ Accessing an object&apos;s properties: we use the operator &quot;.&quot;
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-10">1.5.10 Arrays (part 1)</h3>
+<h3 id="ch1-5-9">1.5.9 Arrays (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 #### Definition: arrays are containers with indexes
 
@@ -5325,7 +5337,7 @@ it contains all the call parameters of the function:
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 1.6.1 Introduction
+<h3 id="ch1-6-1">1.6.1 Introduction</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 This section does not detail the examples presented. Some of them are
@@ -5338,7 +5350,7 @@ how they work. We are just giving you &quot;a taste&quot; of JavaScript. There
 will be no graded exercises about them.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 1.6.2 The devtool console
+<h3 id="ch1-6-1">1.6.2 The devtool console</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Using the console.log(&hellip;) instruction, you can **write messages to the
@@ -5474,7 +5486,7 @@ And of course, you can use such code in your programs, not only in the
 devtool console :-)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 1.6.3 Modifying an HTML document
+<h3 id="ch1-6-3">1.6.3 Modifying an HTML document</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Don&apos;t worry if we do not explain all the details of this example. In
@@ -5509,7 +5521,7 @@ see this:
 ![](./images/image134.png){width="3.90625in" height="2.71875in"}
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 1.6.4 Modifying CSS styles on the fly
+<h3 id="ch1-6-4">1.6.4 Modifying CSS styles on the fly</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 We&apos;ve already seen some examples in which we modify the style of some
@@ -5598,7 +5610,7 @@ example we used pixel units and a percentage, so we need to add the
 JavaScript.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 1.6.5 Adding interactivity with events
+<h3 id="ch1-6-5">1.6.5 Adding interactivity with events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 With JavaScript, you can react to user interactions (keyboard, mouse,
@@ -5646,7 +5658,7 @@ presented.
 height="4.159027777777778in"}
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 1.6.6 Using built-in HTML5 APIs
+<h3 id="ch1-6-6">1.6.6 Using built-in HTML5 APIs</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Your browser comes with a lot of standard W3C APIs. By standard, we mean
@@ -6439,7 +6451,9 @@ document.getElementById(id).checked = true;
 }
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-7">1.6.7 Using third-party JS APIs/libraries</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Thousands of JavaScript libraries exist. Their purposes range from
 making it easier to plot a math function,
@@ -6628,7 +6642,7 @@ This example downloads and displays a list of users in a table
 
 ![](./images/image145.png){width="6.5in" height="4.909722222222222in"}
 
-<h5>HTML</h5>
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -6711,7 +6725,7 @@ for video games):
 
 ### ![](./images/image146.png){width="6.5in" height="3.25in"} {#section-7 .unnumbered}
 
-<h5>HTML</h5>
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -7246,12 +7260,12 @@ variable myNumber.
 
 #### What is the difference between **==** and === in JavaScript? {#what-is-the-difference-between-and-in-javascript .unnumbered}
 
-<h5>Equal (==) {#equal .unnumbered}
+<h5>Equal (==)</h5>
 
 Returns true if the operands are strictly equal **with type
 conversion**.
 
-<h5>Strict equal (===) {#strict-equal .unnumbered}
+<h5>Strict equal (===)</h5>
 
 Returns true if the operands are strictly equal **with no type
 conversion**.
@@ -7416,7 +7430,7 @@ appear, for example:
 -   Math.sqrt(-1); return NaN 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-#### 2.2.2 Conditional statements
+<h3 id="ch2-2-2">2.2.2 Conditional statements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi! Let&apos;s have a look at the switch statement.
@@ -7618,7 +7632,7 @@ commented - please remove comments and try to understand the results).
 
 5.  // num equals 20
 
-<h5>Example #2: if-else statement {#example-2-if-else-statement .unnumbered}
+<h4>Example #2: if-else statement</h4>
 
 ```
 1.  var num = 10;
@@ -7768,7 +7782,7 @@ If the value of an expression equals one of the cases (the equality
 operator evaluated is** ===**), all the statements next to this case
 block are executed sequentially until the keyword **break** is reached.
 
-#### Example #1: a common switch/case/default example.
+<h4>Example #1: a common switch/case/default example</h4>
 
 ```
 var gear = &apos;&apos;;
@@ -7804,7 +7818,7 @@ a watch. The presence of the **break** keyword at the end of the
 different cases make the choices 100% exclusive. Only one case can be
 executed!
 
-#### Example 2#: a switch without &quot;breaks&quot; at the end of each case
+<h4>Example 2#: a switch without &quot;breaks&quot; at the end of each case</h4>
 
 ```
 var gear = &apos;&apos;;
@@ -7834,7 +7848,7 @@ spacesuit (because of the break keyword, other cases will not be
 tested). If the cloud color is not in the listed colors, then my gear is
 only a watch (default case).
 
-#### Example #3: three ways to do condition statements
+<h4>Example #3: three ways to do condition statements</h4>
 
 To finish up this section, here is a complete example (to run it: click
 on the &quot;edit on codepen&quot; label and once in codepen, open the devtool
@@ -7902,7 +7916,7 @@ console.log(&apos;example3,&#92;n bar3 &gt;&gt; &apos; + bar3);
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.2.3 Loop statements
+<h3 id="ch2-2-3">2.2.3 Loop statements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi!
@@ -8039,12 +8053,12 @@ with the index equal to i, inside the loop.
 
 Example from the video
 
--   [Example on
-    CodePen](https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012)
+-   [Example on CodePen](https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012)
 
-#### ![A loop in the sky](./images/image148.jpeg){width="2.59375in" height="1.7291666666666667in"} {#a-loop-in-the-sky .unnumbered}
+<h4>![A loop in the sky](./images/image148.jpeg)</h4>
+<!-- 2.6" width -->
 
-### Loops {#loops .unnumbered}
+<h4>Loops</h4>
 
 A loop is used to run the same block of code several times while a
 condition is satisfied.
@@ -8054,12 +8068,12 @@ tool [slowmoJS](https://toolness.github.io/slowmo-js/) can be really
 useful: you just have to copy and paste an example into it to run it
 step by step and see how your program executes loops.
 
-#### The while statement {#the-while-statement .unnumbered}
+<h4>The while statement</h4>
 
 With a **while** statement, a block of code is executed repeatedly while
 the specified condition is satisfied (evaluates to true).
 
-Syntax:
+<h4>Syntax:</h4>
 
 **while ( condition ) statement**
 
@@ -8126,7 +8140,7 @@ executed infinitely until the machine crashes&hellip; a test like while (i
 Try this example now
 with [slowmoJS](https://toolness.github.io/slowmo-js/?code=var%20i%20%3D%201%2C%20j%20%3D%201%3B%0A%20%0Awhile%20(%20i%20%3C%204%20)%20%7B%0A%20%20%20%20j%20%3D%20j%20%2B%20i%3B%0A%20%20%20%20i%20%3D%20i%20%2B%201%3B%20%0A%7D&filterrange=65-65)!
 
-#### The do-while statement {#the-do-while-statement .unnumbered}
+<h4>The do-while statement</h4>
 
 The do-while statement is very similar to the while statement, but its
 syntax is different:
@@ -8160,7 +8174,7 @@ slowmoJS](https://toolness.github.io/slowmo-js/?code=var%20condition%3D%20false%
 &quot;while&quot; statement
 slowmoJS](https://toolness.github.io/slowmo-js/?code=var%20condition%3D%20false%3B%0Avar%20foo%20%3D%200%3B%0Awhile(condition%20%3D%3D%20true)%3B%20%7b%0Afoo%2B%2B%0A%7d%0A%0Afoo%3B&filterrange=68-68). 
 
-#### The for statement {#the-for-statement .unnumbered}
+<h4>The for statement</h4>
 
 This statement adds some things to the while and do-while statements: an
 initialization expression and an incrementing expression.
@@ -8200,7 +8214,7 @@ Open the devtool console of your browser and copy and paste the above
 code, or [look at the slowmoJS
 execution](https://toolness.github.io/slowmo-js/?code=for%20(var%20i%20%3D%201%2C%20j%20%3D%201%3B%20i%20%3C%3D%2010%3B%20i%2B%2B%2C%20j%2B%3D2)%20%7B%0A%20%20%20%20console.log(%27i%20%3D%20%27%20%2B%20i%20%2B%20%27%20j%20%3D%20%27%20%2B%20j)%3B%0A%7D&filterrange=0-89).
 
-#### The for-in statement {#the-for-in-statement .unnumbered}
+<h4>The for-in statement</h4>
 
 The for-in statement is used to iterate through an object (or through an
 array, which is also an object). 
@@ -8240,7 +8254,7 @@ devoted to the study of JavaScript objects.
 
 ### &lbrack;ADVANCED&rbrack; Other statements {#advanced-other-statements .unnumbered}
 
-#### The continue statement {#the-continue-statement .unnumbered}
+<h4>The continue statement</h4>
 
 The continue statement is used to stop the execution of a block and
 start the next iteration of the loop. The difference from the &quot;break&quot;
@@ -8248,29 +8262,25 @@ statement is that the loop continues.
 
 Syntax:
 
+```
 1.  continue &lbrack;label&rbrack;
+```
 
 The label is optional.
 
 Typical example:
 
+```
 for(var i = 1, k = 0; i &lt; 5; i++) {
-
     if (i === 3) {
-
         continue;
-
     }
-
  
-
     k += 2&ast;i;
-
     console.log(&apos;k += &apos; + (2&ast;i));
-
 }
-
 console.log(&apos;Final k value:&apos; + k)
+```
 
 Copy and paste this example in your devtool console, but first, try to
 guess what the value of k will be!
@@ -8278,64 +8288,50 @@ guess what the value of k will be!
 Hint: **lines 2-4** mean that **line 6** will never be executed for i =
 3. That means that i&ast;2 will only be added to k for i = 1, 2 and 4&hellip;
 
-#### The break statement {#the-break-statement .unnumbered}
+<h4>The break statement {#the-break-statement .unnumbered}
 
 The break statement is used to stop an iteration, a switch or a labelled
 statement.
 
 Syntax:
 
+```
 1.  break &lbrack;label&rbrack;
+```
 
 Typical example:
 
+```
 var tab = &lbrack;&apos;michel&apos;, &apos;john&apos;, &apos;donald&apos;, &apos;paul&apos;&rbrack;; // johh at
 index = 1
-
  
-
 function isNameInTheArray(name, theArray) {
-
     console.log(&quot;Number of elements in the array :
 &quot; + theArray.length);
-
     for(var i=0; i &lt; theArray.length; i++) {
-
         console.log(&apos;comparing with element in the array at pos
 &apos; + i);
-
  
-
         if(theArray&lbrack;i&rbrack; === name) {
-
            console.log(&apos;the name &apos; + name +
-
                        &apos; is in the array at pos: &apos; + i);
-
            break;
-
         } else {
-
            console.log(name + &apos; is not at pos &apos; + i);
-
         }
-
     }
-
 }
-
  
-
 // Execute the function
-
 isNameInTheArray(&apos;john&apos;, tab);
+```
 
 Copy and paste in the devtool console. You&apos;ll see that the function
 that compares each element in the array passed as the second parameter
 with the name &apos;john&apos;, will stop looping after &apos;john&apos; has been found
 at index = 1.
 
-#### **Detailed explanations:** {#detailed-explanations .unnumbered}
+<h4>**Detailed explanations:** {#detailed-explanations .unnumbered}
 
 -   **Line 20** executes the function
 
@@ -8353,18 +8349,18 @@ at index = 1.
     loop exists when &apos;john&apos; is found at index 1 (i equal to 1).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.2.4 Discussion and projects {#discussion-and-projects-1 .unnumbered}
+<h3 id="ch2-2-4">2.2.4 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
 
-### Suggested topic of discussion: {#suggested-topic-of-discussion .unnumbered}
+#### Suggested topic of discussion: {#suggested-topic-of-discussion .unnumbered}
 
 -   Did you know about the === and !== operators we recommend you to
     use?
 
-### Optional projects: {#optional-projects .unnumbered}
+#### Optional projects: {#optional-projects .unnumbered}
 
 -   If not allergic to High School math, please write a piece of code
     that solves second degree equations. You pass the a, b, c parameters
@@ -8406,28 +8402,30 @@ post your comments/observations/questions or share your creations.
     the DOM).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.3.1 Functions and callbacks
+<h3 id="ch2-3-1">2.3.1 Functions and callbacks</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let&apos;s see how to declare a function and a callback.
 
-### Functions {#functions .unnumbered}
+#### Functions
 
 There are two ways to declare a function.
 
-#### 1) Standard function declaration {#standard-function-declaration .unnumbered}
+<h4>1) Standard function declaration</h4>
 
 We&apos;ve already seen that functions can be declared using this syntax:
 
+```
 1.  function functionName(parameters) {
-
 2.  // code to be executed
-
 3.  }
+```
 
 A function declared this way can be called like this:
 
+```
 1.  functionName(parameters);
+```
 
 Notice that we do not add a semicolon at the end of a function
 declaration. Semicolons are used to separate executable JavaScript
@@ -8472,7 +8470,7 @@ displayInPage(&quot;Result: &quot;, sum(10, 15));
 In the above example, the sum function returns a value, and
 the displayInPage function does not return anything.
 
-#### 2) Use a function expression {#use-a-function-expression .unnumbered}
+<h4>2) Use a function expression {#use-a-function-expression .unnumbered}
 
 A JavaScript function can also be defined using an expression that can
 be stored in a variable. Then, the variable can be used as a function:
@@ -8528,7 +8526,7 @@ manipulated like any other object/value in JavaScript.
 This means that functions can also be used as parameters to other
 functions. In this case they are called &quot;callbacks&quot;.
 
-### Callbacks {#callbacks .unnumbered}
+#### Callbacks
 
 Indeed, as functions are first-class objects, we can pass a function as
 an argument, as a parameter to another function and later execute that
@@ -8561,6 +8559,7 @@ HTML
 
 JS
 
+```
 // Add a click event listener on the whole document
 // the processClick function is a callback:
 // a function called by the browser when a click event
@@ -8585,7 +8584,7 @@ We&apos;ll use them a lot in the next section of the course, called
 &quot;Handling events&quot;.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.4.1 Introduction
+<h3 id="ch2-4-1">2.4.1 Introduction</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Adding interactivity to a Web application can be achieved by using only
@@ -8639,7 +8638,7 @@ Then the browser looks at a list of &quot;Event Listeners&quot; and calls the
 ones that correspond to the type of event &quot;they listen to&quot;.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.4.2 Adding and removing event listeners
+<h3 id="ch2-4-2">2.4.2 Adding and removing event listeners</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ### Live coding video: adding an event listener to a document {#live-coding-video-adding-an-event-listener-to-a-document .unnumbered}
@@ -8778,72 +8777,60 @@ that is null.
 So, be very careful, do not try to select an HTML element when the DOM
 is not yet ready.
 
-#### Event listeners: a typical example {#event-listeners-a-typical-example .unnumbered}
+<h4>Event listeners: a typical example</h4>
 
 Here is one possible syntax for registering an event listener that
 listens to &quot;click&quot; events on any part of the window (clicks anywhere
 on a web document will be processed by this event handler):
 
+```
 &lt;script&gt;
-
     addEventListener(&apos;click&apos;, function(evt) {
-
         document.body.innerHTML += &apos;Button clicked!&apos;;
-
     });
-
 &lt;/script&gt;
+```
 
-#### Try it below by clicking anywhere on the document: {#try-it-below-by-clicking-anywhere-on-the-document .unnumbered}
+<h4>Try it below by clicking anywhere on the document: {#try-it-below-by-clicking-anywhere-on-the-document .unnumbered}
 
 ![](./images/image155.png){width="6.5in"
 height="2.0770833333333334in"}
 
 HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;First example of an event listener&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;script&gt;
-
 addEventListener(&apos;click&apos;, function(evt) {
-
 document.body.innerHTML += &quot;Button clicked!&lt;br&gt;&quot;;
-
 });
-
 &lt;/script&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;p&gt;Click anywhere on this page&lt;/p&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 The addEventListener function is one possible syntax for registering a
 function to be called when a given type of event occurs.
 
+```
 1.  addEventListener(type_of_event, callback_function)
+```
 
 In the example below, the type of event is a &apos;click&apos;, and the callback
 function is the part in bold:
 
+```
 1.  function(evt) {
-
 2.     console.log(&quot;Button clicked!&quot;);
-
 3.  }
+```
 
 When this function is small (a few lines of code), it&apos;s common practice
 to put its body as the second parameter of
@@ -8873,7 +8860,7 @@ name as the second parameter):
 7.  &lt;/script&gt;
 ```
 
-### Adding an event listener to specific HTML elements {#adding-an-event-listener-to-specific-html-elements .unnumbered}
+#### Adding an event listener to specific HTML elements {#adding-an-event-listener-to-specific-html-elements .unnumbered}
 
 Instead of listening to event on the whole document
 (using addEventListener is the same as using window.addEventListener),
@@ -9013,7 +9000,7 @@ named function, so that we can pass it to
 both addEventListener and removeEventListener.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.4.3 The event object
+<h3 id="ch2-4-3">2.4.3 The event object</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The event object is the only parameter passed to event listeners.
@@ -9082,7 +9069,7 @@ The most useful common properties are:
 height="2.5520833333333335in"}
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.4.4 Page lifecycle events {#page-lifecycle-events .unnumbered}
+<h3 id="ch2-4-4">2.4.4 Page lifecycle events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi!
@@ -9193,7 +9180,7 @@ useful ones for an introduction course are shown below:
 ![](./images/image160.png){width="6.5in"
 height="2.029166666666667in"}
 
-#### Page event properties {#page-event-properties .unnumbered}
+<h4>Page event properties</h4>
 
 There are no particular properties that need to be mentioned here.
 Usually, the load event listener corresponds to a JavaScript function
@@ -9205,47 +9192,37 @@ resized too when the window was resized), and then you do something
 (redraw a graphic in an HTML canvas that takes into account the new
 canvas size, for example).
 
-### Example 1: wait until the page is loaded (when the DOM is ready) before doing something {#example-1-wait-until-the-page-is-loaded-when-the-dom-is-ready-before-doing-something .unnumbered}
+#### Example 1: wait until the page is loaded (when the DOM is ready) before doing something {#example-1-wait-until-the-page-is-loaded-when-the-dom-is-ready-before-doing-something .unnumbered}
 
 This first variant that uses &lt;body onload=&quot;init();&quot;&gt;
 
 ![](./images/image161.png){width="6.5in"
 height="2.0701388888888888in"}
 
-HTML
+<h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;Example1 of the &apos;load&apos; event&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body onload=&apos;init();&apos;&gt;
-
 &lt;p&gt;This page uses &lt;code&gt;&lt;body onload=&apos;init();&apos;&gt;&lt;/code&gt; in
-the JS code to execute the init function ONLY WHEN THE PAGE HAS BEEN
-LOADED!&lt;/p&gt;
-
+  the JS code to execute the init function ONLY WHEN THE PAGE HAS BEEN
+  LOADED!&lt;/p&gt;
 &lt;p&gt;This is important as very often we cannot do important things
-before the DOM is ready (all HTML elements have been created and can be
-manipulated from JavaScript).&lt;/p&gt;
-
+  before the DOM is ready (all HTML elements have been created and can be
+  manipulated from JavaScript).&lt;/p&gt;
 &lt;p&gt;PAGE STATUS: &lt;span id=&quot;pageStatus&quot;&gt;NOT LOADED
-YET&lt;/span&gt;&lt;/p&gt;
-
+  YET&lt;/span&gt;&lt;/p&gt;
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-CSS
+<h4>CSS:</h4>
 
 #pageStatus {
 
@@ -9324,21 +9301,17 @@ color:red;
 
 JS
 
+```
 window.onload = init;
-
 function init() {
-
 var status = document.querySelector(&apos;#pageStatus&apos;);
-
 status.innerHTML = &apos;LOADED!&apos;;
-
 // start working!
-
 // &hellip;.
-
 }
+```
 
-#### Example 2: detect a resize of the window {#example-2-detect-a-resize-of-the-window .unnumbered}
+<h4>Example 2: detect a resize of the window</h4>
 
 In this example, we&apos;re listening to page load and page resize events.
 When the window is loaded for the first time, or resized, we call
@@ -9352,69 +9325,51 @@ height="2.0631944444444446in"}
 
 HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;Example1 of the &apos;resize&apos; event&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;p&gt;This page uses &lt;code&gt;window.onresize = resize;&lt;/code&gt; in the JS
-code to execute the resize function. Try to change the size of your
-window now!&lt;/p&gt;
-
+  code to execute the resize function. Try to change the size of your
+  window now!&lt;/p&gt;
 &lt;p&gt;Curent page size: &lt;span id=&quot;pageSize&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
 &lt;p&gt;Screen size: &lt;span id=&quot;screenSize&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 CSS
 
+```
 border:1px solid red;
-
 padding: 2px;
-
 color:red;
-
 }
+```
 
 JS
 
+```
 window.onload = resize;
-
 window.onresize = resize;
-
 function resize(evt) {
-
 console.log(&quot;resize&quot;);
-
 var pageSizeSpan = document.querySelector(&apos;#pageSize&apos;);
-
 pageSizeSpan.innerHTML = &quot;Width: &quot; + window.innerWidth + &quot; Height:
-&quot; + window.innerHeight;
-
+  &quot; + window.innerHeight;
 // screen size
-
 var screenSizeSpan = document.querySelector(&apos;#screenSize&apos;);
-
 screenSizeSpan.innerHTML = &quot;Width: &quot; + screen.width + &quot; Height: &quot; +
-screen.height;
-
+  screen.height;
 }
+```
 
-#### Example 3: do something as the page is being scrolled up or down {#example-3-do-something-as-the-page-is-being-scrolled-up-or-down .unnumbered}
+<h4>Example 3: do something as the page is being scrolled up or down</h4>
 
 ![](./images/image164.png){width="6.5in"
 height="2.0701388888888888in"}
@@ -9514,7 +9469,7 @@ progressBar.style.width = percent + &quot;%&quot;;
 }
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.4.5 Key events
+<h3 id="ch2-4-5">2.4.5 Key events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 This has been a bit of a nightmare for years, as different browsers have
@@ -9549,14 +9504,14 @@ which real keyboard keys, so here are some handy pointers:
 -   And find a list of keyCodes (taken from this CSS
     Tricks [article](https://css-tricks.com/snippets/javascript/javascript-keycodes/#keycode-values)).
 
-### The different key events {#the-different-key-events .unnumbered}
+<h4>The different key events</h4>
 
-#### Event types related to keyboard {#event-types-related-to-keyboard .unnumbered}
+<h4>Event types related to keyboard</h4>
 
 ![](./images/image165.png){width="6.5in"
 height="1.2861111111111112in"}
 
-#### keyboardEvent properties {#keyboardevent-properties .unnumbered}
+<h4>keyboardEvent properties {#keyboardevent-properties .unnumbered}
 
 These are legacy properties, still used by many JavaScript code around
 the world. However, we do not recommend that you use them if you are
@@ -9567,7 +9522,7 @@ with a new key property (see the following pages of the course).
 ![](./images/image166.png){width="6.5in"
 height="1.7333333333333334in"}
 
-#### Example #1: use keyup and keydown on the window object {#example-1-use-keyup-and-keydown-on-the-window-object .unnumbered}
+<h4>Example #1: use keyup and keydown on the window object</h4>
 
 ![](./images/image167.png){width="6.5in"
 height="2.0631944444444446in"}
@@ -9631,90 +9586,65 @@ keys.innerHTML += &quot;keydown: &quot; + evt.key + &quot; code: &quot; + evt.ke
 
 }
 
-#### Example #2: see  keypress on the window object {#example-2-see-keypress-on-the-window-object .unnumbered}
+<h4>Example #2: see  keypress on the window object</h4>
 
 See the Pen [keyup and keydown events on
 window](https://codepen.io/w3devcampus/pen/WpWjey/) by W3Cx
 ([&commat;w3devcampus](https://codepen.io/w3devcampus))
 on [CodePen](https://codepen.io/).
 
-#### Example #3: detect a combination of keys + modifier keys (shift, ctrl, alt) {#example-3-detect-a-combination-of-keys-modifier-keys-shift-ctrl-alt .unnumbered}
+<h4>Example #3: detect a combination of keys + modifier keys (shift, ctrl, alt)</h4>
 
 Try to type shift-a for example, ctrl-shift-b or alt-f&hellip;
 
 ![](./images/image168.png){width="6.5in"
 height="2.0770833333333334in"}
 
-HTML
+<h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;Example of the &apos;keypress&apos; event on the window object, awith
-shift, meta and alt&lt;/title&gt;
-
+  shift, meta and alt&lt;/title&gt;
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;p&gt;Please type some keys and see what happens. Try typing key
-modifiers at the same time: shift, alt, control&lt;/p&gt;
-
+  modifiers at the same time: shift, alt, control&lt;/p&gt;
 &lt;div id=&quot;keys&quot;&gt;&lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-#### JS {#js-2 .unnumbered}
+<h5>JS:</h5>
 
+```
 window.onkeydown = processKeyDown;
-
 /&ast; or we could have written:
-
 window.addEventListener(&apos;keypress&apos;, processKeyPress);
-
 &ast;/
-
 function processKeyDown(evt) {
-
 var keys = document.querySelector(&apos;#keys&apos;);
-
 keys.innerHTML += &quot;keypress: &quot; + evt.key +
-
 &quot; code: &quot; + evt.keyCode + &quot; Modifiers : &quot;;
-
 var modifiers = &quot;&quot;;
-
 if(event.shiftKey)
-
 modifiers += &quot;SHIFT &quot;;
-
 if(event.altKey)
-
 modifiers += &quot;ALT &quot;;
-
 if(event.ctrlKey)
-
 modifiers += &quot;CTRL &quot;;
-
 if(modifiers === &quot;&quot;)
-
 modifiers = &quot;NONE&quot;;
-
 keys.innerHTML += modifiers + &quot;&lt;br&gt;&quot;;
-
 }
+```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-#### 2.4.6 Dealing with different keyboard layouts
+<h3 id="ch2-4-6">2.4.6 Dealing with different keyboard layouts</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Please do not assume that each key is at the same location on the
@@ -9752,7 +9682,7 @@ out the Web browser actually exposes a useful API for this.&quot;**
 For details, see [Wikipedia's keyboard layout
 page](https://en.wikipedia.org/wiki/Keyboard_layout)!
 
-#### [QWERTY](https://en.wikipedia.org/wiki/QWERTY) layout, used in US, GB, etc. {#qwerty-layout-used-in-us-gb-etc. .unnumbered}
+<h4>[QWERTY](https://en.wikipedia.org/wiki/QWERTY) layout, used in US, GB, etc.</h4>
 
 ![QWERTY keyboard
 layout](./images/image169.png){width="5.208333333333333in"
@@ -9762,7 +9692,7 @@ height="1.7395833333333333in"}
 layout](./images/image170.png){width="5.208333333333333in"
 height="1.6041666666666667in"}
 
-#### In addition, [QWERTZ](https://en.wikipedia.org/wiki/QWERTZ) keyboards are in use in Germany and other European countries, and [DVORAK](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout) is another alternative to QWERTY: {#in-addition-qwertz-keyboards-are-in-use-in-germany-and-other-european-countries-and-dvorak-is-another-alternative-to-qwerty .unnumbered}
+<h4>In addition, [QWERTZ](https://en.wikipedia.org/wiki/QWERTZ) keyboards are in use in Germany and other European countries, and [DVORAK](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout) is another alternative to QWERTY:</h4>
 
 DVORAK:
 
@@ -9776,19 +9706,19 @@ QWERTZ:
 keyboard](./images/image172.png){width="5.208333333333333in"
 height="1.7395833333333333in"}
 
-#### Saudi Arabic keyboard layout (see more [Arabic keyboards](https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards)): {#saudi-arabic-keyboard-layout-see-more-arabic-keyboards .unnumbered}
+<h4>Saudi Arabic keyboard layout (see more [Arabic keyboards](https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards)):</h4>
 
 ![Saoudian Arabic keyboard
 layout](./images/image173.jpeg){width="6.5in"
 height="2.478125546806649in"}
 
-#### [Bangla National (Jatiyo) keyboard](https://en.wikipedia.org/wiki/Bengali_input_methods#Bangla_Jatiyo): {#bangla-national-jatiyo-keyboard .unnumbered}
+<h4>[Bangla National (Jatiyo) keyboard](https://en.wikipedia.org/wiki/Bengali_input_methods#Bangla_Jatiyo):</h4>
 
 ![Bangladesh keyboard layout](./images/image174.png){width="6.5in"
 height="2.4452384076990374in"}
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-#### 2.4.7 Key and code properties
+<h3 id="ch2-4-7">2.4.7 Key and code properties</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 key and code are new recommended properties you can use with modern
@@ -9849,7 +9779,7 @@ both for code and key.
 ![](./images/image176.png){width="6.5in"
 height="2.5652777777777778in"}
 
-<h5>HTML {#html-5 .unnumbered}
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -9877,7 +9807,7 @@ keyboard.&lt;/p&gt;
 
 &lt;/html&gt;
 
-<h5>JS {#js-3 .unnumbered}
+<h5>JS:</h5>
 
 window.onkeydown = function(evt) {
 
@@ -9901,7 +9831,7 @@ describing the values for the key property.
     F-for code](https://caniuse.com/#feat=keyboardevent-code)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.4.8 Mouse events
+<h3 id="ch2-4-8">2.4.8 Mouse events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ***Important note*: Remember that many people do not use the mouse and
@@ -9936,26 +9866,26 @@ button number or the coordinates of the mouse cursor. Before looking at
 different examples, let&apos;s look at the different event types we can
 listen to.
 
-### Mouse events {#mouse-events-1 .unnumbered}
+#### Mouse events
 
-#### Event types related to mouse {#event-types-related-to-mouse .unnumbered}
+<h4>Event types related to mouse</h4>
 
 ![](./images/image177.png){width="6.5in"
 height="3.6798611111111112in"}
 
-#### MouseEvent properties {#mouseevent-properties .unnumbered}
+<h4>MouseEvent properties</h4>
 
 ![](./images/image178.png){width="6.5in"
 height="4.127083333333333in"}
 
-### Examples {#examples-6 .unnumbered}
+<h4>Examples</h4>
 
-#### Example #1: detect a click on an element {#example-1-detect-a-click-on-an-element .unnumbered}
+<h4>Example #1: detect a click on an element</h4>
 
 ![](./images/image179.png){width="6.5in"
 height="2.0631944444444446in"}
 
-<h5>HTML {#html-6 .unnumbered}
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -9985,7 +9915,7 @@ div!&lt;/div&gt;
 
 &lt;/html&gt;
 
-<h5>CSS {#css-1 .unnumbered}
+<h5>CSS:</h5>
 
 #myDiv {
 
@@ -10003,7 +9933,7 @@ margin:20px;
 
 }
 
-<h5>JS {#js-4 .unnumbered}
+<h5>JS:</h5>
 
 window.onclick = processClick;
 
@@ -10029,7 +9959,7 @@ div
 
 }
 
-#### Example #2: see the differences between clientX/clientY and pageX/pageY {#example-2-see-the-differences-between-clientxclienty-and-pagexpagey .unnumbered}
+<h4>Example #2: see the differences between clientX/clientY and pageX/pageY</h4>
 
 The source code is not meant to be understood. It uses the jQuery lib.
 Please move the mouse pointer, and look at the different properties.
@@ -10177,12 +10107,12 @@ for(var i=0; i&lt;3; i++){
 
 });
 
-#### Example #3: detect a mousemove event and get the mouse position relative to the page {#example-3-detect-a-mousemove-event-and-get-the-mouse-position-relative-to-the-page .unnumbered}
+<h4>Example #3: detect a mousemove event and get the mouse position relative to the page</h4>
 
 ![](./images/image181.png){width="6.5in"
 height="2.0631944444444446in"}
 
-<h5>HTML {#html-7 .unnumbered}
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -10213,7 +10143,7 @@ window and we did not scrolled the page!&lt;/p&gt;
 
 &lt;/html&gt;
 
-<h5>JS {#js-5 .unnumbered}
+<h5>JS:</h5>
 
 window.onmousemove = processMouseMouve;
 
@@ -10242,7 +10172,7 @@ mouseScreenPositions.innerHTML = &quot;screenX: &quot; + evt.screenX +
 
 }
 
-#### Example #4: detect a mousemove and get the mouse position relative to the element that fired the event {#example-4-detect-a-mousemove-and-get-the-mouse-position-relative-to-the-element-that-fired-the-event .unnumbered}
+<h4>Example #4: detect a mousemove and get the mouse position relative to the element that fired the event</h4>
 
 Here is a first version that does not work well due to a naive use of
 clientX/PageX and clientY/pageY mouse event properties:
@@ -10250,7 +10180,7 @@ clientX/PageX and clientY/pageY mouse event properties:
 ![](./images/image182.png){width="6.5in"
 height="2.0722222222222224in"}
 
-<h5>HTML {#html-8 .unnumbered}
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -10285,7 +10215,7 @@ is&quot;.&lt;/p&gt;
 
 &lt;/html&gt;
 
-<h5>CSS {#css-2 .unnumbered}
+<h5>CSS:</h5>
 
 canvas {
 
@@ -10303,7 +10233,7 @@ height:2000px;
 
 }
 
-<h5>JS {#js-6 .unnumbered}
+<h5>JS:</h5>
 
 window.onload = init;
 
@@ -10340,7 +10270,7 @@ real position relative to the top left corner of the canvas:
 ![](./images/image183.png){width="6.5in"
 height="2.9541666666666666in"}
 
-<h5>HTML {#html-9 .unnumbered}
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -10373,7 +10303,7 @@ top left corner of the canvas, even if we scroll the page!&lt;/p&gt;
 
 &lt;/html&gt;
 
-<h5>CSS {#css-3 .unnumbered}
+<h5>CSS:</h5>
 
 canvas {
 
@@ -10391,7 +10321,7 @@ height:2000px;
 
 }
 
-<h5>JS {#js-7 .unnumbered}
+<h5>JS:</h5>
 
 function init() {
 
@@ -10421,7 +10351,7 @@ mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
 
 }
 
-#### JavaScript source code extract: {#javascript-source-code-extract .unnumbered}
+<h5>JavaScript source code extract:</h5>
 
 function processMouseMouve(evt) {
 
@@ -10443,12 +10373,12 @@ function processMouseMouve(evt) {
 
 }
 
-#### Example #5: combine mouseup, mousedown, mousemove to implement a click and drag behavior {#example-5-combine-mouseup-mousedown-mousemove-to-implement-a-click-and-drag-behavior .unnumbered}
+<h4>Example #5: combine mouseup, mousedown, mousemove to implement a click and drag behavior</h4>
 
 ![](./images/image184.png){width="6.5in"
 height="2.3618055555555557in"}
 
-<h5>HTML
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -10474,7 +10404,7 @@ height="2.3618055555555557in"}
 
 &lt;/html&gt;
 
-<h5>CSS {#css-4 .unnumbered}
+<h5>CSS:</h5>
 
 body {
 
@@ -10501,7 +10431,7 @@ position:absolute; /&ast; important (all position that&apos;s not &apos;static&a
 
 }
 
-<h5>JS {#js-8 .unnumbered}
+<h5>JS:</h5>
 
 window.onmousemove = moveElem;
 
@@ -10756,7 +10686,7 @@ height:100px;
 
 }
 
-<h5>JS {#js-9 .unnumbered}
+<h5>JS:</h5>
 
 window.onload = init;
 
@@ -10891,28 +10821,30 @@ toggleMenuOff();
 
 }
 
-### 2.4.9 Form and input field events {#form-and-input-field-events .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch2-4-9">2.4.9 Form and input field events</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-### Events related to forms {#events-related-to-forms .unnumbered}
+#### Events related to forms
 
 ![](./images/image186.png){width="6.5in"
 height="2.6506944444444445in"}
 
-### FormEvent properties {#formevent-properties .unnumbered}
+#### FormEvent properties
 
 There are no particular properties that need to be mentioned here.
 Usually, on a form event listener, we check the content of the different
 input fields, using their value property. See examples in the part of
 the course that deals with form events.
 
-#### Example #1: validating on the fly as the user types in a text input field {#example-1-validating-on-the-fly-as-the-user-types-in-a-text-input-field .unnumbered}
+<h4>Example #1: validating on the fly as the user types in a text input field</h4>
 
 First variant: using the &apos;input&apos; event:
 
 ![](./images/image187.png){width="6.5in"
 height="2.4854166666666666in"}
 
-HTML
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -10992,12 +10924,12 @@ output.innerHTML = &quot;This name is too short (at least 5 chars)&quot;;
 
 }
 
-<h5>Second variant: using the &apos;keyup&apos; event: {#second-variant-using-the-keyup-event .unnumbered}
+<h4>Second variant: using the &apos;keyup&apos; event:</h4>
 
 ![](./images/image188.png){width="6.5in"
 height="2.4784722222222224in"}
 
-<h5>HTML {#html-11 .unnumbered}
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -11046,7 +10978,7 @@ onkeyup = &quot;validateName(event)&quot;&gt;
 
 &lt;/html&gt;
 
-<h5>JS
+<h5>JS:</h5>
 
 function validateName(evt) {
 
@@ -11100,12 +11032,12 @@ Best
 Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) course,
 which dedicates a whole week to this topic.
 
-#### Example #2: do something while a slider is being moved {#example-2-do-something-while-a-slider-is-being-moved .unnumbered}
+<h4>Example #2: do something while a slider is being moved</h4>
 
 ![](./images/image189.png){width="6.5in"
 height="2.451388888888889in"}
 
-HTML
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -11168,12 +11100,12 @@ var output = document.querySelector(&apos;#sliderValue&apos;);
 
 output.innerHTML = &quot;Value selected: &quot; + val;
 
-#### Example #3: detect value changes in a number input field {#example-3-detect-value-changes-in-a-number-input-field .unnumbered}
+<h4>Example #3: detect value changes in a number input field</h4>
 
 }![](./images/image190.png){width="6.5in"
 height="2.4923611111111112in"}
 
-HTML
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -11240,12 +11172,12 @@ output.innerHTML = &quot;Value selected: &quot; + val;
 
 }
 
-#### Example #4: choose a color and do something {#example-4-choose-a-color-and-do-something .unnumbered}
+<h4>Example #4: choose a color and do something</h4>
 
 ![](./images/image191.png){width="6.5in"
 height="2.0520833333333335in"}
 
-HTML
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -11287,7 +11219,7 @@ onchange = &quot;changePageBackgroundColor(this.value);&quot;&gt;
 
 &lt;/html&gt;
 
-JS
+<h5>JS:</h5>
 
 function changePageBackgroundColor(color) {
 
@@ -11303,11 +11235,13 @@ output.innerHTML = &quot;Color selected: &quot; + color;
 
 }
 
-### 2.4.10 Reference tables {#reference-tables .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch2-4-10">2.4.10 Reference tables</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-### Quick summary of event management in JavaScript {#quick-summary-of-event-management-in-javascript .unnumbered}
+#### Quick summary of event management in JavaScript
 
-#### HTML5 events {#html5-events .unnumbered}
+<h5>HTML5 events:</h5>
 
 ![picture of keyboard an
 mouse](./images/image192.jpeg){width="2.8333333333333335in"
@@ -11322,12 +11256,12 @@ will refer to these variables when determining what action to perform.
 In any case, the events are called DOM events, and we use the DOM APIs
 to create **event handlers**.
 
-#### How to listen to events {#how-to-listen-to-events .unnumbered}
+<h4>How to listen to events {#how-to-listen-to-events .unnumbered}
 
 There are three ways to manage events in the DOM structure. You could
 attach an event inline in your HTML code like this:
 
-<h5>**Method #1: declare an event handler in the HTML code** {#method-1-declare-an-event-handler-in-the-html-code .unnumbered}
+<h4>**Method #1: declare an event handler in the HTML code**</h4>
 
 &lt;div id=&quot;someDiv&quot; **onclick**=&quot;alert(&apos;clicked!&apos;)&quot;&gt; content of
 the div &lt;/div&gt;
@@ -11338,7 +11272,7 @@ it is **deprecated** (will probably be abandoned in the future). Mixing
 &apos;visual layer&apos; (HTML) and &apos;logic layer&apos; (JavaScript) in one place is
 really bad practice and causes a host of problems during development.
 
-<h5>**Method #2: attach an event handler to an HTML element in JavaScript** {#method-2-attach-an-event-handler-to-an-html-element-in-javascript .unnumbered}
+<h4>**Method #2: attach an event handler to an HTML element in JavaScript**</h4>
 
 1.  document.getElementById(&apos;someDiv&apos;).**onclick **= function() {
 
@@ -11350,7 +11284,7 @@ This method is fine, but  you will not be able to attach
 multiple **listener** functions. If you need to do this, use the version
 shown below.
 
-<h5>**Method #3: register a callback to the event listener with the addEventListener method (preferred  method)** {#method-3-register-a-callback-to-the-event-listener-with-the-addeventlistener-method-preferred-method .unnumbered}
+<h4>**Method #3: register a callback to the event listener with the addEventListener method (preferred  method)**</h4>
 
 1.  document.getElementById(&apos;someDiv&apos;).**addEventListener**(&apos;click&apos;, function() {
 
@@ -11364,7 +11298,7 @@ set it to false or ignore it (you can even pass only two parameters to
 the addEventListener function call and do not set this boolean parameter
 at all).
 
-#### Details of the DOM event are passed to the event listener function {#details-of-the-dom-event-are-passed-to-the-event-listener-function .unnumbered}
+<h4>Details of the DOM event are passed to the event listener function</h4>
 
 When you create an **event listener** and attach it to an element, the
 listener will create an **event object** to describe what happened. This
@@ -11385,7 +11319,7 @@ clicked?&quot;, etc.
 In the following lessons, we will remind you how to deal with the
 keyboard and the mouse.
 
-### Further reading {#further-reading .unnumbered}
+### Further reading
 
 In method 1 (above), we mentioned that &quot;mixing &apos;visual layer&apos; (HTML)
 and &apos;logic layer&apos; (JavaScript) &hellip; is bad practice&quot;, and this is
@@ -11410,7 +11344,7 @@ each domain you will see the most useful event types and their
 properties. In the following course pages, we will show  examples that
 use most of the events displayed in these tables.
 
-#### Event object {#event-object .unnumbered}
+<h4>Event object {#event-object .unnumbered}
 
 Most useful common properties:
 
@@ -11428,9 +11362,9 @@ Most useful common methods:
                       flow
 
 
-#### Page {#page .unnumbered}
+<h4>Page {#page .unnumbered}
 
-<h5>Events related to the page lifecycle {#events-related-to-the-page-lifecycle-1 .unnumbered}
+<h4>Events related to the page lifecycle</h4>
 
 There are many other events related to the page life cycle. Below are
 the most useful ones for an intro course:
@@ -11454,7 +11388,7 @@ the most useful ones for an intro course:
             var percent = (pageYOffset / max);
            &hellip;to know the percentage of the scroll in the page.
 
-<h5>Page event properties {#page-event-properties-1 .unnumbered}
+<h4>Page event properties</h4>
 
 There are no particular properties that need to be mentioned here.
 Usually, the load event listener corresponds to a JavaScript function
@@ -11466,9 +11400,9 @@ resized too when the window was resized) and then you do something
 (redraw a graphic in an HTML canvas that takes into account the new
 canvas size, for example).
 
-#### Keyboard {#keyboard .unnumbered}
+<h4>Keyboard</h4>
 
-<h5>Event types related to keyboard {#event-types-related-to-keyboard-1 .unnumbered}
+<h4>Event types related to keyboard</h4>
 
   keydown    The event occurs when the user is pressing a key
 
@@ -11477,7 +11411,7 @@ canvas size, for example).
   keypress   The event occurs when the user presses a key (up and
              release)
 
-<h5>keyboardEvent properties {#keyboardevent-properties-1 .unnumbered}
+<h4>keyboardEvent properties</h4>
 
   keyCode    Returns the Unicode character code of the key that triggered
              the onkeypress ,onkeydown or onkeyup event
@@ -11491,9 +11425,9 @@ canvas size, for example).
   altKey     Returns whether the &quot;alt&quot; key was pressed when the key event
              was triggered
 
-#### Mouse {#mouse .unnumbered}
+<h4>Mouse</h4>
 
-<h5>Event types related to mouse {#event-types-related-to-mouse-1 .unnumbered}
+<h4>Event types related to mouse</h4>
 
   click         The event occurs when the user clicks on an element
                 (presses a button and releases it)
@@ -11520,7 +11454,7 @@ canvas size, for example).
   contextmenu   The event occurs when the user right-clicks on an element
                 to open a context menu
 
-<h5>MouseEvent properties {#mouseevent-properties-1 .unnumbered}
+<h4>MouseEvent properties</h4>
 
   button          Returns which mouse button was pressed when the mouse
                   event was triggered
@@ -11542,11 +11476,10 @@ canvas size, for example).
   detail          Returns a number that indicates how many times the
                   mouse was clicked
 
-#### Forms {#forms .unnumbered}
+<h4>Forms
 
-<h5>Events related to forms {#events-related-to-forms-1 .unnumbered}
+<h4>Events related to forms</h4>
 
-  ------------------------------------------------------------------------
   input    The event occurs when an element gets user input (e.g., a key
            is typed on an input field, a slider is moved, etc.)
 
@@ -11568,7 +11501,7 @@ canvas size, for example).
 
   submit   The event occurs when a form is submitted
 
-<h5>FormEvent properties {#formevent-properties-1 .unnumbered}
+<h4>FormEvent properties</h4>
 
 There are no particular properties that need to be mentioned here.
 Usually, on a form event listener, we check the content of the different
@@ -11576,7 +11509,7 @@ input fields, using their value property. See examples in the course, in
 the part dealing with form events.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.4.11 Discussion and project
+<h3 id="ch2-4-11">2.4.11 Discussion and project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the discussion forum for this part of the course. Please either
@@ -11608,7 +11541,7 @@ height="1.3854166666666667in"}
     this game.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.5.1 Introducing the DOM
+<h3 id="ch2-5-1">2.5.1 Introducing the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 When a user clicks on a link or enters a URL in the address of your Web
@@ -11746,7 +11679,7 @@ will find this option in all modern browsers&apos; devtool consoles:
 ![](./images/image197.png){width="6.0in" height="3.775in"}
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.5.2 A warning about the DOM API
+<h3 id="ch2-5-2">2.5.2 A warning about the DOM API</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The DOM and the DOM API can be cumbersome and complicated. There are
@@ -11771,7 +11704,7 @@ mark](./images/image198.png){width="3.0in"
 height="2.6492804024496936in"}
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2.5.3 Accessing HTML elements
+<h3 id="ch2-5-3">2.5.3 Accessing HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ![](./images/image199.png){width="5.75in"
@@ -11885,7 +11818,7 @@ developed the Selectors API, a way of easily accessing elements in the
 DOM using standard CSS selector concepts, and browser developers have
 baked these into all modern browsers, way back to IE8.**&quot;
 
-#### The querySelector(CSSSelector) and querySelectorAll(CSSSelector) methods {#the-queryselectorcssselector-and-queryselectorallcssselector-methods .unnumbered}
+<h4>The querySelector(CSSSelector) and querySelectorAll(CSSSelector) methods</h4>
 
 Ah&hellip; these methods owe a lot to [jQuery](https://jquery.org/)! They
 introduce a way to use CSS selectors (including CSS3 selectors) for
@@ -11902,7 +11835,7 @@ Any CSS  selector can be passed as a parameter for these methods.
     the results, it will be necessary to loop over each of the elements
     in the collection.
 
-<h5>Typical use: {#typical-use .unnumbered}
+<h4>Typical use:</h4>
 
 Looking for an element in the whole document (the whole HTML page): call
 the querySelector method (or querySelectorAll) on the document object,
@@ -11911,7 +11844,7 @@ that corresponds to the whole DOM tree of your web page:
 ![](./images/image200.png){width="5.0in"
 height="2.983974190726159in"}
 
-#### HTML
+<h5>HTML:</h5>
 
 &lt;!DOCTYPE html&gt;
 
@@ -11969,7 +11902,7 @@ width=200 alt=&quot;image #4&quot;&gt;
 
 &lt;/html&gt;
 
-#### JS
+<h5>JS:</h5>
 
 window.onload = init;
 
@@ -12036,45 +11969,28 @@ img.width = 100;
 images, the first one with an id equal to &quot;img1&quot; (**lines 11, 14, 16
 and 18**). 
 
+```
 1.  &hellip;
-
 2.  &lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
-
 3.  Add a border to the first image
-
 4.  &lt;/button&gt;
-
 5.  &lt;br&gt;
-
 6.  &lt;button onclick=&quot;resizeAllImages();&quot;&gt;
-
 7.  Resize all images
-
 8.  &lt;/button&gt;
-
 9.  &lt;br&gt;
-
 10. &lt;p&gt;Click one of the buttons above!&lt;/p&gt;
-
 11. &lt;img src=&quot;https://i.imgur.com/Ntvj5rq.png&quot;
-
 12. id=&quot;img1&quot;
-
 13. width=200&gt;
-
 14. &lt;img src=&quot;https://i.imgur.com/yiU59oi.gif&quot;
-
 15. width=200&gt;
-
 16. &lt;img src=&quot;https://i.imgur.com/6FstYbc.jpg&quot;
-
 17. width=200&gt;
-
 18. &lt;img src=&quot;https://i.imgur.com/L97CyS4.png&quot;
-
 19. width=200&gt;
-
 20. &hellip;
+```
 
 **JavaScript part**: the init function is executed as soon as the page
 is loaded (and the DOM is ready), in this function we add a shadow and
@@ -12082,291 +11998,184 @@ margins to all images (**lines 3-21**). The two other functions are
 called when one of the HTML buttons is clicked (**line 23 and line
 31**).
 
+```
 1.  window.onload = init; // run init once the page is loaded
-
 2.  function init() {
-
 3.  // we&apos;re sure that the DOM is ready
-
 4.  // before querying it
-
 5.  // this function runs once the page is loaded
-
 6.  // add a shadow to all images
-
 7.  // select all images
-
 8.  var listImages = document.querySelectorAll(&quot;img&quot;);
-
 9.  // change all their width to 100px
-
 10. listImages.forEach(function(img) {
-
 // img = current image
-
 // add a shadow 5px left, 5 pixel down, 15px blur, 5px spread
-
 // grey
-
 img.style.boxShadow = &quot;5px 5px 15px 5px grey&quot;;
-
 // add a margin 10px on each side
-
 img.style.margin = &quot;10px&quot;;
-
 11. });
-
 12. }
-
 13. function addBorderToFirstImage() {
-
 14. // select the first image with id = img1
-
 15. var img1 = document.querySelector(&apos;#img1&apos;);
-
 16. // Add a red border, 3px wide
-
 17. img1.style.border = &apos;3px solid red&apos;;
-
 18. }
-
 19. function resizeAllImages() {
-
 20. // select all images
-
 21. var listImages = document.querySelectorAll(&quot;img&quot;);
-
 22. // change all their width to 100px
-
 23. listImages.forEach(function(img) {
-
 // img = current image, we resize it by changing its
-
 // width attribute
-
 img.width = 100;
-
 24. });
-
 25. }
+```
 
-#### Miscellanous examples of use of querySelector(CSSSelector) and querySelectorAll(CSSselector) {#miscellanous-examples-of-use-of-queryselectorcssselector-and-queryselectorallcssselector .unnumbered}
+<h4>Miscellanous examples of use of querySelector(CSSSelector) and querySelectorAll(CSSselector)</h4>
 
 Here are some other examples that use more complicated CSS selectors. If
 you are not familiar with their syntax, we recommend that you follow the
 CSS basics, and HTML5 and CSS fundamentals courses
 from [W3Cx](https://www.edx.org/school/w3cx).
 
-#### **Example #1: get all &lt;li&gt; directly in a &lt;ul&gt; of class nav** {#example-1-get-all-li-directly-in-a-ul-of-class-nav .unnumbered}
+<h4>**Example #1: get all &lt;li&gt; directly in a &lt;ul&gt; of class nav**</h4>
 
 ![](./images/image201.png){width="6.5in"
 height="3.803472222222222in"}
 
-#### HTML
+<h5>HTML:</h5>
 
+```
 1.  &lt;!DOCTYPE html&gt;
-
 2.  &lt;html lang=&quot;en&quot;&gt;
-
 3.  &lt;head&gt;
-
 4.  &lt;meta charset=&quot;utf-8&quot;&gt;
-
 5.  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 6.  &lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
-
 7.  &lt;/head&gt;
-
 8.  &lt;body&gt;
-
 9.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
     class red and color it in red&lt;/button&gt;
-
 10. &lt;br&gt;
-
 11. &lt;button onclick=&quot;allLisInUlOfClassNav();&quot;&gt;Underline All li in a
     ul of class nav&lt;/button&gt;
-
 12. &lt;ul class=&quot;nav&quot;&gt;
-
 13. &lt;li&gt;Home&lt;/li&gt;
-
 14. &lt;li class=&quot;red&quot;&gt;Products&lt;/li&gt;
-
 15. &lt;li&gt;About&lt;/li&gt;
-
 16. &lt;/ul&gt;
-
 17. Another list:
-
 18. &lt;ul&gt;
-
 19. &lt;li&gt;Apple&lt;/li&gt;
-
 20. &lt;li class=&quot;red&quot;&gt;Cherries&lt;/li&gt;
-
 21. &lt;li&gt;Oranges&lt;/li&gt;
-
 22. &lt;/ul&gt;
-
 23. &lt;/body&gt;
-
 24. &lt;/html&gt;
+```
 
-#### JS:
+<h5>JS:</h5>
 
+```
 1.  function firstLiClassRedInUl() {
-
 2.  // first li of class=&quot;red&quot; in a ul
-
 3.  var elm = document.querySelector(&quot;ul li.red&quot;);
-
 4.  elm.style.color = &apos;red&apos;;
-
 5.  }
-
 6.  function allLisInUlOfClassNav() {
-
 7.  // get all li directly in a ul of class nav
-
 8.  var list = document.querySelectorAll(&quot;ul.nav &gt; li&quot;);
-
 9.  list.forEach(function(elm) {
-
 10. elm.style.textDecoration = &quot;underline&quot;;
-
 11. })
-
 }
+```
 
-#### Source code extracts:
+<h4>Source code extracts:
 
-#### HTML:
+<h5>HTML:</h5>:
 
+```
 1.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
     class red and color it in red&lt;/button&gt;
-
 2.  &lt;br&gt;
-
 3.  &lt;button onclick=&quot;allLisInUlOfClassNav();&quot;&gt;Underline All li in a
     ul of class nav&lt;/button&gt;
-
 4.  &lt;ul class=&quot;nav&quot;&gt;
-
 5.  &lt;li&gt;Home&lt;/li&gt;
-
 6.  &lt;li class=&quot;red&quot;&gt;Products&lt;/li&gt;
-
 7.  &lt;li&gt;About&lt;/li&gt;
-
 8.  &lt;/ul&gt;
-
 9.  Another list:
-
 10. &lt;ul&gt;
-
 11. &lt;li&gt;Apple&lt;/li&gt;
-
 12. &lt;li class=&quot;red&quot;&gt;Cherries&lt;/li&gt;
-
 13. &lt;li&gt;Oranges&lt;/li&gt;
-
 14. &lt;/ul&gt;
+```
 
-#### JavaScript code:
+<h5>JavaScript code:</h5>
 
+```
 1.  function firstLiClassRedInUl() {
-
 2.  // first li of class=&quot;red&quot; in a ul
-
 3.  var elm = document.querySelector(&quot;ul li.red&quot;);
-
 4.  elm.style.color = &apos;red&apos;;
-
 5.  }
-
 6.  function allLisInUlOfClassNav() {
-
 7.  // get all li directly in a ul of class nav
-
 8.  var list = document.querySelectorAll(&quot;ul.nav &gt; li&quot;);
-
 9.  list.forEach(function(elm) {
-
 10. elm.style.textDecoration = &quot;underline&quot;;
-
 11. })
-
 12. }
+```
 
 Example #2: display all checked &lt;input type=&quot;checkbox&quot;&gt; elements
 located inside an element of a given id
 
 ![](./images/image202.png){width="6.5in" height="4.35625in"}
 
-<h5>HTML {#html-15 .unnumbered}
+<h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;button onclick=&quot;displayListOfCheckedItems();&quot;&gt;Show Checked
-items&lt;/button&gt;
-
+  items&lt;/button&gt;
 &lt;br&gt;
-
 &lt;ul id=&quot;fruits&quot;&gt;
-
 &lt;li&gt;
-
 &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;&gt;Apples
-
 &lt;/li&gt;
-
 &lt;li&gt;
-
 &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;&gt;
-
 Oranges
-
 &lt;/li&gt;
-
 &lt;li&gt;
-
 &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;&gt;
-
 Bananas
-
 &lt;/li&gt;
-
 &lt;li&gt;
-
 &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;&gt;
-
 Grapes
-
 &lt;/li&gt;
-
 &lt;/ul&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-<h5>JS {#js-13 .unnumbered}
+<h5>JS:</h5>
 
 function displayListOfCheckedItems() {
 
@@ -12486,12 +12295,12 @@ by this list:
 
 13. }
 
-<h5>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id {#example-3-change-the-background-of-all-paragraphs-p-in-an-element-of-a-given-id .unnumbered}
+<h4>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id</h4>
 
 ![](./images/image203.png){width="6.5in"
 height="2.6972222222222224in"}
 
-HTML code:
+<h5>HTML code:</h5>
 
 1.  &lt;button onclick=&quot;**changeBackGroundOfPs(&apos;firstDiv&apos;);**&quot;&gt;Change
     backgrounds of p under a given element known by id&lt;/button&gt;
@@ -12600,10 +12409,10 @@ before the class name when using a CSS selector). 
 Notice that identifier, tagName and className must be of type String.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-#### 2.5.4 Changing the style of selected HTML elements
+<h3 id="ch2-5-4">2.5.4 Changing the style of selected HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-### The style attribute {#the-style-attribute .unnumbered}
+<h4>The style attribute
 
 How to modify an HTML element&apos;s CSS properties from JavaScript?
 
@@ -12611,7 +12420,7 @@ The most common way to modify the CSS style of one of several elements
 you selected using the DOM or Selector API, is to use
 the style attribute.
 
-<h5>Typical use: {#typical-use-1 .unnumbered}
+<h5>Typical use:</h5>
 
 // select the paragraph with id = &quot;paragraph1&quot;
 
@@ -12636,7 +12445,7 @@ When using such properties from JavaScript, the rule is simple:
 
 Simple, isn&apos;t it?
 
-##### Examples: {#examples-7 .unnumbered}
+<h4>Examples:</h4>
 
 -   text-align becomes style.textAlign
 
@@ -12700,7 +12509,7 @@ collection of class names:
 
 2.  var allClasses = elem.**classList**;
 
-#### The classList API
+<h4>The classList API
 
 3.  The list of methods usable on a classList object are add(),
     remove(), toggle() and contains().
@@ -12807,7 +12616,7 @@ list.forEach(function(elm) {
 13. }
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-#### 2.5.5 Modifying selected HTML elements
+<h3 id="ch2-5-5">2.5.5 Modifying selected HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 We&apos;ve already seen many examples in which we selected one or more
@@ -12834,7 +12643,7 @@ elem.innerHTML = &apos;Welcome&apos; + elem.innerHTML; // insert Welcome
 elem.innerHTML = &apos;&apos;; // empty the elem
 </code></pre>
 
-#### Using the textContent property
+<h4>Using the textContent property
 
 It&apos;s also possible, with selected nodes/elements that contain text, to
 use the textContent property to read the text content or to modify it.
@@ -12976,7 +12785,7 @@ This example shows some of the things we can do:
   alt="." />
 </p>
 
-#### HTML
+<h5>HTML:</h5>
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -13010,7 +12819,7 @@ This example shows some of the things we can do:
 &lt;/html&gt;
 ```
 
-#### JS
+<h4>JS
 
 ```
 function resetName() {
@@ -13034,7 +12843,9 @@ img.style.border = &quot;4px solid red&quot;;
 }
 ```
 
-### 2.5.6 Adding new elements to the DOM
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch2-5-6">2.5.6 Adding new elements to the DOM</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 To add a new element to the HTML DOM, you must create the element
 (element node) first, and then append it to an existing element.
@@ -13062,7 +12873,7 @@ element.appendChild(para);
 &lt;/html&gt;
 ```
 
-#### Output:
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 208.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
