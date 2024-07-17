@@ -633,10 +633,16 @@ compilation of useful knowledge extracted from W3C specifications,
 completed by summaries of guidelines developed at W3C, in particular Web
 accessibility guidelines, the Mobile Web Best Practices, and a number of
 internationalization tips.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 24. W3Cx cheatsheet snapshot image (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image024.png?raw=true"
+  style="width:30%"
+  title="W3Cx JS logo"
+  alt="W3Cx JS.0x logo." />
+</p>
 
-![W3C Cheatsheet snapshot
-image](./images/image024.png){width="3.0in"
-height="2.093959973753281in"}Its main feature is a lookup search box,
+Its main feature is a lookup search box,
 where one can start typing a keyword and get a list of matching
 properties/elements/ attributes/functions in the above-mentioned
 specifications, and further details on those when selecting the one of
@@ -663,12 +669,16 @@ Contributing to this standardization process might be a bit scary or
 hard to approach at first, but understanding at a deeper level how these
 technologies are built is a great way to build your expertise.
 
-![Logo of GitHub (the
-Octocat)](./images/image025.png){width="1.0in"
-height="0.8298611111111112in"}If you&apos;re looking to an easy way to dive
-into this standardization processes, check out which [issues in the W3C
-GitHub repositories have been marked as &quot;good first
-issue&quot;](https://github.com/search?q=org%3Aw3c+label%3A%22good+first+issue%22+state%3Aopen&type=Issues) and
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. github octocat logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image025.png?raw=true"
+  style="width:10%"
+  title="W3Cx JS logo"
+  alt="W3Cx JS.0x logo." />
+If you&apos;re looking to an easy way to dive into this standardization processes, check out which 
+<a href="https://github.com/search?q=org%3Aw3c+label%3A%22good+first+issue%22+state%3Aopen&type=Issues">
+issues in the W3C GitHub repositories have been marked as &quot;good first issue&quot; and
 see if you find anything where you think you would be ready to help.
 
 #### First steps in Web accessibility
@@ -682,14 +692,18 @@ ensure long-term growth for the Web. The widely adopted Web standards
 define key parts of what actually makes the World Wide Web work.
 
 #### Shape the future
-
-![Logo of the W3C Web Incubator Community
-Group](./images/image026.png){width="2.0in"
-height="0.5517038495188101in"}Another approach is to go and bring
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 26. w3c web incubator community group logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image026.png?raw=true"
+  style="width:20%"
+  title="W3Cx JS logo"
+  alt="W3Cx JS.0x logo." />
+Another approach is to go and bring
 feedback on ideas for future technologies: the [W3C Web Platform
 Community Incubator Group](https://wicg.io/) was built as an easy place
 to get started to provide feedback on new proposals or bring brand-new
-proposals for consideration.
+proposals for consideration.</p>
 
 Happy Web building!
 
@@ -704,11 +718,16 @@ ensure long-term growth for the Web. The widely adopted Web standards
 define key parts of what actually makes the World Wide Web work.
 
 #### A few history bits
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 27. tim berners-lee at his desk in cern, switzerland (xx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image027.png?raw=true"
+  style="width:20%"
+  title="W3Cx JS logo"
+  alt="W3Cx JS.0x logo." />
+</p>
 
-![Tim Berners-Lee at his desk in CERN,
-1994](./images/image027.jpeg){width="2.0in" height="2.0in"}
-
-***Tim Berners-Lee at his desk in CERN, 1994***
+<h6><i><b>Tim Berners-Lee at his desk in CERN, 1994</b></i></h6>
 
 [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) wrote
 a [proposal](https://www.w3.org/History/1989/proposal.html) in 1989 for
@@ -1274,9 +1293,14 @@ Here is another, more generic example:
 
 -   You can modify the source code in CodePen, and see the results in
     real time.
-
-![](./images/image034.png){width="6.5in"
-height="2.9381944444444446in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 34.  (xx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image034.png?raw=true"
+  style="width:65%"
+  title="W3Cx JS logo"
+  alt="W3Cx JS.0x logo." />
+</p>
 
 <https://codepen.io/w3devcampus/pen/egNOLj>
 
@@ -1328,9 +1352,17 @@ with folders and files.
 The next lesson shows how you can use JSBin, CodePen, and SublimeText in
 order to test the HTML code provided earlier in this section.
 
-### 1.2.1 Live coding video: using the course&apos;s tools (6:25)
-
-#### ![](./images/image035.png){width="5.0in" height="2.56251312335958in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch1-2-1">1.2.1 Live coding video: using the course&apos;s tools (6:25)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 35.  (xx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image034.png?raw=true"
+  style="width:50%"
+  title=" "
+  alt="." />
+</p>
+<!-- #### ![](./images/image035.png){width="5.0in" height="2.56251312335958in"} -->
 
 In this lesson, I will show you how to try and tweak the HTML example
 from the Web page, the one from the course.
@@ -1341,17 +1373,33 @@ result of your modifications.
 
 In the second time, I will show you how to use the regular source code
 editor for editing HTML5 files directly on your hard disk.
-
-![](./images/image036.png){width="5.0in"
-height="2.848824365704287in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 36.  (xx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image036.png?raw=true"
+  style="width:50%"
+  title=" "
+  alt="." />
+</p>
+<!-- ![](./images/image036.png){width="5.0in" height="2.848824365704287in"} -->
 
 In order to use the JSBin.com tool, that is the first one I recommend,
 you will open a new tab with your browser and you go to
 <http://jsbin.com>.
 
-![](./images/image037.png){width="3.5in"
-height="1.99417760279965in"}![](./images/image038.png){width="3.5in"
-height="1.99417760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 37./38  (xx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image037.png?raw=true"
+  style="width:35%"
+  title=" "
+  alt="." />
+<img src="./images/image038.png?raw=true"
+  style="width:35%"
+  title=" "
+  alt="." />
+</p>
+<!-- ![](./images/image037.png){width="3.5in" height="1.99417760279965in"}![](./images/image038.png){width="3.5in" height="1.99417760279965in"} -->
 
 For the moment, we are going to use only HTML code. If you want to try
 the example from the course, just copy and paste the code in the HTML
@@ -1365,9 +1413,15 @@ days and so on. You can share the URL; you can share the Web addresses
 of your work with friends. They won&apos;t to be able to break what you&apos;ve
 done because it will be create a new version or clone your own work so
 that your friends can work on what you&apos;ve done.
-
-![](./images/image039.png){width="5.0in"
-height="2.848824365704287in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 39.  (xx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image039.png?raw=true"
+  style="width:50%"
+  title=" "
+  alt="." />
+</p>
+<!-- ![](./images/image039.png){width="5.0in" height="2.848824365704287in"} -->
 
 The other online tool, that is very practical, is codepen.io. This one
 is maybe nicer but I think that JSBin is more practical for typing code.
@@ -1480,7 +1534,7 @@ back the file that I downloaded when I was working with CodePen.io. And
 here, I have got HTML file. This is the code I prototyped, I tested
 first using an online environment.
 
-### 1.2.2 HTML elements
+<h3 id="ch1-2-2">1.2.2 HTML elements</h3>
 
 If you are sitting at a coffee shop next to a table of Web developers,
 you will probably often hear these three words: &quot;Elements&quot;, &quot;Tags&quot;
@@ -1793,7 +1847,7 @@ of Leonardo. I pick an image of Leonardo. I display the image and
 **I've** got the URL, here, in the address bar. I just copy and
 **paste** it and **I've** got Leonardo Di Caprio in my document.
 
-### 1.2.5 CSS is for style (1:34)
+<h3 id="ch1-2-5">1.2.5 CSS is for style (1:34)</h3>
 
 Hi!
 
@@ -2102,7 +2156,7 @@ directly in the HTML, the CSS rule.
 To sum up, you can have your CSS in external file or inside the HTML
 file using the &quot;style&quot; element.
 
-### 1.2.6 JavaScript is the &quot;interactive glue&quot; (4:22)
+<h3 id="ch1-2-6">1.2.6 JavaScript is the &quot;interactive glue&quot; (4:22)</h3>
 
 Hello, your Web browser can only understand three different languages
 when you ask for a Web page to be rendered in the browser.
@@ -2207,7 +2261,7 @@ can interact with the HTML content and the CSS styles of a Web document.
 Finally, note that, in these examples, the JavaScript code is located in
 the HTML of the document.
 
-### 1.2.7 JavaScript history
+<h3 id="ch1-2-7">1.2.7 JavaScript history</h3>
 
 JavaScript remains the most commonly used programming language with
 67.7% of developers employing it in 2020 (see this [survey&apos;s
@@ -2400,7 +2454,7 @@ before, runtime. The most popular JavaScript engines are:
 -   [History of JavaScript on a
     timeline](https://blog.risingstack.com/history-of-javascript-on-a-timeline/)
 
-### 1.2.8 Discussion and project
+<h3 id="ch1-2-8">1.2.8 Discussion and project</h3>
 
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
@@ -2425,7 +2479,7 @@ post your comments/observations/questions or share your creations.
     content by clicking on a button, change the CSS style of some parts
     of the document).
 
-### 1.3.1 The best way to learn JavaScript (8:42)
+<h3 id="ch1-3-1">1.3.1 The best way to learn JavaScript (8:42)</h3>
 
 ![](./images/image091.png)
 
@@ -2892,7 +2946,7 @@ details, you saw:
 
 Not bad ;-)
 
-### 1.3.2 What can be done with JavaScript
+<h3 id="ch1-3-2">1.3.2 What can be done with JavaScript</h3>
 
 Hello!
 
@@ -3071,7 +3125,7 @@ height="2.9611111111111112in"}
 
 https://codepen.io/w3devcampus/pen/wJwpKq
 
-### 1.3.3 Where to put JavaScript code
+<h3 id="ch1-3-3">1.3.3 Where to put JavaScript code</h3>
 
 #### JavaScript code can be located in different places
 
@@ -3287,7 +3341,7 @@ an external URL:
 
 https://codepen.io/w3devcampus/pen/VPmNWg
 
-### 1.3.4 How to debug JavaScript
+<h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
 
 Let&apos;s introduce what is debugging.
 
@@ -3402,9 +3456,9 @@ to look at some basic tutorials on how to use the dev. tools of your
 browsers, since they differ from one another in the way they work
 - although the principles remain the same.
 
-### 1.3.5 Discussion and projects
+<h3 id="ch1-3-5">1.3.5 Discussion and projects</h3>
 
-### 1.4.1 Creating an HTML/CSS/JS project
+<h3 id="ch1-4-1">1.4.1 Creating an HTML/CSS/JS project</h3>
 
 Let&apos;s create a small HTML/CSS/JS project together.
 
@@ -3440,7 +3494,7 @@ height="3.0480774278215224in"}
 
 https://codepen.io/w3devcampus/pen/bqGboZ
 
-### 1.4.2 Using CodePen
+<h3 id="ch1-4-2">1.4.2 Using CodePen</h3>
 
 In the video, at 3:19, there are some mistakes in the HTML code:
 
@@ -3468,7 +3522,7 @@ In case you have a hard time to follow the video, [here is the full
 example](https://codepen.io/w3devcampus/pen/bqGboZ) (this link points to
 the example from the previous course page).
 
-### 1.4.3 Using Sublime Text
+<h3 id="ch1-4-3">1.4.3 Using Sublime Text</h3>
 
 Now, I&apos;m going to show you how we can do the same application using
 files and a regular source code editor, and working on your local hard
@@ -3526,7 +3580,7 @@ Using generated code can be useful, but most of the time for a big
 project or a serious project, you will use a source code editor like
 Sublime Text.
 
-### 1.5.1 JS variables and values
+<h3 id="ch1-5-1">1.5.1 JS variables and values</h3>
 
 Hi!
 
@@ -3738,7 +3792,7 @@ if k has not been defined, then an error message is displayed:
 defined&hellip;](./images/image110.jpeg){width="6.729166666666667in"
 height="1.3895297462817149in"}
 
-#### Name conventions for variables {#name-conventions-for-variables .unnumbered}
+#### Name conventions for variables
 
 The JavaScript community has some conventions about naming variables:
 
@@ -3748,7 +3802,7 @@ The JavaScript community has some conventions about naming variables:
 -   **For a variable, the first letter is lowercase and each first
     letter of each word is capitalized**. Example: var myVariableName
 
-#### Example: {#example-5 .unnumbered}
+#### Example:
 
 ```
 var myModel;
@@ -3764,7 +3818,7 @@ which separates each word of a variable with an underscore.
 Here&apos;s an interesting article: [CamelCase vs underscores: Scientific
 showdown](https://whatheco.de/2011/02/10/camelcase-vs-underscores-scientific-showdown/) 
 
-#### Constants {#constants .unnumbered}
+#### Constants
 
 Constants are variables that cannot be modified after a value has been
 set.
@@ -3814,7 +3868,7 @@ let case_matters = &apos;lower&apos;;
 let CASE_MATTERS = &apos;upper&apos;;
 ```
 
-### 1.5.2 Scope of JS variables {#scope-of-js-variables .unnumbered}
+<h3 id="ch1-5-2">1.5.2 Scope of JS variables</h3>
 
 Hi!
 
@@ -3870,7 +3924,7 @@ got an error: &quot;b is not defined&quot;. Remember that if I used &quot;var&qu
 that case it works, because &quot;var&quot; will define a variable local to the
 whole function, not just to the block of instructions.
 
-#### Scope of JavaScript variables {#scope-of-javascript-variables .unnumbered}
+#### Scope of JavaScript variables
 
 #### 1)  JavaScript 5 / ES5 scopes, with the var keyword
 
@@ -3989,7 +4043,7 @@ you might find lots of examples that still use the var keyword&hellip;
 **Anyway, we highly recommend to use let and const instead of var, for
 declaring variables and constants!**
 
-### 1.5.3 JS data types
+<h3 id="ch1-5-3">1.5.3 JS data types</h3>
 
 Hi!
 
@@ -4067,12 +4121,12 @@ var x = 3; var name = &quot;Buffa&quot;;![a set of playing
 
 1.  Objects (everything that is not a  &quot;primitive data type&quot; is an
     object):
-    var michel = {firstName:&apos;Michel&apos;, lastName:&apos;Buffa&apos;};
+    var michel =
 
     -   There is a set of &quot;predefined objects&quot; in JavaScript (arrays,
         functions, etc). We will come back on these later in the course.
 
-#### JavaScript has a small set of primitive data types {#javascript-has-a-small-set-of-primitive-data-types .unnumbered}
+#### JavaScript has a small set of primitive data types
 
 -   **number**: 1,2,105,3.14 &hellip;
 
@@ -4098,7 +4152,7 @@ instance) instead of var x=2; or let name=&quot;Buffa&quot;; you would writ
 x=2; or String name = &quot;Buffa&quot;;, with the datatype explicit in the
 variable declaration.
 
-#### Knowing the type of a JavaScript variable: the typeof operator {#knowing-the-type-of-a-javascript-variable-the-typeof-operator .unnumbered}
+#### Knowing the type of a JavaScript variable: the typeof operator
 
 The next section of the course talks about &quot;operators&quot; but there is
 one that is better introduced in this section: the **typeof** operator,
@@ -4117,7 +4171,7 @@ height="2.5648020559930007in"}
 This operator is not often use in JavaScript programs, but it&apos;s useful
 for us, for explaining the data types.
 
-### 1.5.4 Numbers
+<h3 id="ch1-5-4">1.5.4 Numbers</h3>
 
 #### Number values can be:
 
@@ -4246,7 +4300,7 @@ NaN
 Infinity
 ```
 
-#### Examples: {#examples .unnumbered}
+#### Examples:
 
 Any operation with Infinity gives Infinity as a result:
 
@@ -4309,7 +4363,7 @@ Any operation with Infinity gives Infinity as a result:
 11. Infinity
 ```
 
-#### Examples with NaN: {#examples-with-nan .unnumbered}
+#### Examples with NaN:
 
 NaN is a special value and its type is &quot;Number&quot;!
 
@@ -4330,19 +4384,16 @@ NaN
 NaN
 ```
 
-#### &lbrack;ADVANCED&rbrack; Optional explanations about numbers {#advanced-optional-explanations-about-numbers .unnumbered}
+#### &lbrack;ADVANCED&rbrack; Optional explanations about numbers
 
 In JavaScript, numbers are represented with a double-precision 64-bit
 format (IEEE 754). These 64 bits are used with this table:
 
-  -------------------------------------------------------------------------
-  Total bits      Sign          Exponent             Significant
-  --------------- ------------- -------------------- ----------------------
-  64              1             11                   52
+| Total bits |   Sign  | Exponent | Significant |
+|------------|---------|----------|-------------|
+| 64 |  1 |  11 | 52 |
 
-  -------------------------------------------------------------------------
-
-##### What does it mean? {#what-does-it-mean .unnumbered}
+##### What does it mean?
 
 First, each number is represented as a float. For example, 1 equals 1.0.
 But there are approximation errors that are well-known in float
@@ -4369,7 +4420,7 @@ format. Larger numbers will be converted&hellip;
 For more information about floating point numbers, [follow this link at
 Wikipedia](https://en.wikipedia.org/wiki/IEEE_floating_point).
 
-### 1.5.5 JS operators and expressions
+<h3 id="ch1-5-5">1.5.5 JS operators and expressions</h3>
 
 **An expression** is a small piece of code used to produce a value.
 
@@ -4411,7 +4462,7 @@ with the operator - will evaluate to a number. But an expression with
 the operator + can evaluate to a number or a string (for addition or
 concatenation).
 
-### 1.5.7 Strings (part 1) {#strings-part-1 .unnumbered}
+<h3 id="ch1-5-7">1.5.7 Strings (part 1)</h3>
 
 To declare or manipulate strings you must write them with **single
 quotes &apos; or double quotes &quot;** around them. Single quotes or double
@@ -4438,13 +4489,13 @@ with double and closed with simple quotes
 
 VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
 
-##### Image from the devtool console, from the above example: {#image-from-the-devtool-console-from-the-above-example .unnumbered}
+##### Image from the devtool console, from the above example:
 
 ![Snapshot of a devtool console: do not mix simple and double
 quotes](./images/image122.jpeg){width="6.583333333333333in"
 height="2.4791666666666665in"}
 
-##### There are many reasons to use simple quotes when possible: {#there-are-many-reasons-to-use-simple-quotes-when-possible .unnumbered}
+##### There are many reasons to use simple quotes when possible:
 
 1.  Double quotes are used in HTML
 
@@ -4454,7 +4505,7 @@ height="2.4791666666666665in"}
 
 4.  To output HTML in JavaScript, single quotes are more useful
 
-### 1.5.8 String operators {#string-operators .unnumbered}
+<h3 id="ch1-5-8">1.5.8 String operators</h3>
 
 Strings can be defined using double quotes, or simple quotes.
 
@@ -4535,9 +4586,9 @@ is NaN that means &quot;Not a Number&quot;, you cannot convert &quot;hello&quot;
 number that can be used in a mathematical expression or multiplied by
 two.
 
-#### Introduction to string operators {#introduction-to-string-operators .unnumbered}
+#### Introduction to string operators
 
-#### The concatenation operator (+) {#the-concatenation-operator .unnumbered}
+#### The concatenation operator (+)
 
 The operator (+) used with strings is called the concatenation operator,
 and it allows you to concatenate strings.
@@ -4553,7 +4604,7 @@ and it allows you to concatenate strings.
 8.  //&apos;string&apos;
 ```
 
-#### The shorthand assignment operator (+=) {#the-shorthand-assignment-operator .unnumbered}
+#### The shorthand assignment operator (+=)
 
 The shorthand assignment operator (+=) can also be used to concatenate
 strings.
@@ -4584,7 +4635,7 @@ s3.concat(&apos; World&apos; , &apos; JavaScript&apos; );
 //s1,s2 and s3 return &apos;Hello World JavaScript&apos;
 ```
 
-#### Converting strings {#converting-strings .unnumbered}
+#### Converting strings
 
 A String number in an arithmetic expression is converted to Number,
 unless the formula is a pure addition.
@@ -4618,7 +4669,7 @@ undefined
 NaN
 ```
 
-#### The above example is shown in the devtools console: {#the-above-example-is-shown-in-the-devtools-console .unnumbered}
+#### The above example is shown in the devtools console:
 
 ![Devtool console showing var s = &apos;1&apos;; s = 3 &ast; s; typeof s;
 &quot;number&quot; s 3 var s = &apos;1&apos;; s++; typeof s; &quot;number&quot; s 2 var s =
@@ -4627,7 +4678,7 @@ NaN
 NaN](./images/image123.jpeg){width="3.4791666666666665in"
 height="5.458333333333333in"}
 
-#### How to convert a Number into a String {#how-to-convert-a-number-into-a-string .unnumbered}
+#### How to convert a Number into a String
 
 There is trick for converting a Number into a String: we concatenate
 with an empty string, at the beginning of expression (type this in the
@@ -4647,62 +4698,52 @@ typeof n;
 
 // returns &quot;string&quot;
 
-#### Special character: the &quot;&#92;&#92;&quot; {#special-character-the .unnumbered}
+#### Special character: the &quot;&#92;&#92;&quot;
 
 The &#92;&#92; is useful for &quot;escaping&quot; special characters. Here are a few
 examples:
 
+```
 var s = &apos;I don&apos;t know&apos;;
-
 var s = &quot;I don&apos;t know&quot;; // here the &#92; is useless
-
 var s = &quot;I don&apos;t know&quot;;  // same result as previous line
+var s = &apos;&quot;Hello&quot;, he said.&apos;; // ok, double quotes inside single one will be displayed
+var s = &quot;&#92;&quot;Hello&#92;&quot;, he said.&quot;; // double quotes inside double quotes need to be escaped
+```
 
-var s = &apos;&quot;Hello&quot;, he said.&apos;; // ok, double quotes inside single one
-will be displayed
+#### Escaping the escape! Use a double &quot;&#92;&quot;
 
-var s = &quot;&#92;&quot;Hello&#92;&quot;, he said.&quot;; // double quotes inside double
-quotes need to be escaped
-
-#### Escaping the escape! Use a double &quot;&#92;&quot; {#escaping-the-escape-use-a-double .unnumbered}
-
+```
 var s = &quot;1&#92;&#92;2&quot;; s;
-
 // returns &quot;1&#92;2&quot;
+```
 
-#### Special characters starting with &quot;&#92;&quot; {#special-characters-starting-with .unnumbered}
+#### Special characters starting with &quot;&#92;&quot;
 
-##### &quot;&#92;n&quot; for &quot;next line&quot;: {#n-for-next-line .unnumbered}
+##### &quot;&#92;n&quot; for &quot;next line&quot;:
 
+```
 var s = &apos;&#92;n1&#92;n2&#92;n3&#92;n&apos;;
-
 s
-
 // returns &quot;
-
 1
-
 2
-
 3
-
 &quot;
+```
 
-##### &quot;&#92;r&quot; for &quot;carriage return&quot;: {#r-for-carriage-return .unnumbered}
+##### &quot;&#92;r&quot; for &quot;carriage return&quot;:
 
+```
 var s = &apos;1&#92;r2&apos;;
-
 var s = &apos;1&#92;n&#92;r2&apos;;
-
 var s = &apos;1&#92;r&#92;n2&apos;;
-
 // the three previous lines give :
-
 &quot;1
-
 2&quot;
+```
 
-##### &quot;&#92;t&quot; for &quot;insert a tabulation&quot;: {#t-for-insert-a-tabulation .unnumbered}
+##### &quot;&#92;t&quot; for &quot;insert a tabulation&quot;:
 
 var s = &quot;1&#92;t2&quot;
 
@@ -4710,13 +4751,13 @@ var s = &quot;1&#92;t2&quot;
 
 &quot;1 2&quot;
 
-### 1.5.9 Objects (part 1) {#objects-part-1 .unnumbered}
+<h3 id="ch1-5-9">1.5.9 Objects (part 1)</h3>
 
 We have already encountered objects in different examples. You can
 easily recognize these objects:
 
 They are declared using &quot;{&quot; and &quot;}&quot;, such as in var p =
-{givenName:&apos;Michel&apos;, familyName: &apos;Buffa&apos;},
+,
 givenName and familyName are called &quot;properties&quot;
 and Michel and Buffa are their respective values.
 
@@ -4730,7 +4771,7 @@ object. With the object var p = {givenName:&apos;Michel&apos;, familyName:
 &apos;Buffa&apos;}, we can access the properties the same way,
 with: p.givenName and p.familyName.
 
-#### Take a look at some common objects and properties! {#take-a-look-at-some-common-objects-and-properties .unnumbered}
+#### Take a look at some common objects and properties!
 
 Open your devtool console (F12 or ctrl-alt-i or cmd-alt-i on Mac), go to
 the console tab and type &quot;window&quot; followed by a &quot;.&quot;, normally you
@@ -4748,17 +4789,14 @@ type window.location, etc.
 We will study these objects later, but for the moment, just play with
 objects :-)
 
+```
 &gt; window.innerHeight
-
 217
-
 &gt; window.innerWidth
-
 1704
-
 &gt; navigator.vendor
-
 &quot;Google Inc.&quot;
+```
 
 #### You can define your own objects {#you-can-define-your-own-objects .unnumbered}
 
@@ -4768,43 +4806,32 @@ now all you need to know is that they can have properties that hold
 values. We will return to objects in Week 4 and cover them in further
 detail.
 
+```
 var student1 = {
-
     fullName:&apos;John Doe&apos;,
-
     age: 23,
-
     city: &apos;New York&apos;,
-
     ssn: &quot;11-22-33-44&quot; // no comma at the end of the last property
-
 }                      // declaration
+```
 
 Accessing an object&apos;s properties: we use the operator &quot;.&quot;
 
+```
 &gt; student1.ssn
-
 &quot;11-22-33-44&quot;
-
 &gt; student1.age
-
 23
-
 &gt; student1
-
 &lbrack;object Object&rbrack; {
-
     age: 23,
-
     city: &quot;New York&quot;,
-
     fullName: &quot;John Doe&quot;,
-
     ssn: &quot;11-22-33-44&quot;
-
 }
+```
 
-### 1.5.10 Arrays (part 1) {#arrays-part-1 .unnumbered}
+<h3 id="ch1-5-10">1.5.10 Arrays (part 1)</h3>
 
 #### Definition: arrays are containers with indexes  {#definition-arrays-are-containers-with-indexes .unnumbered}
 
@@ -4815,9 +4842,10 @@ var daysOfWeek = &lbrack;&rbrack;;
 
 You can fill them at declaration time:
 
+```
 1.  var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;, &apos;Sunday&apos;&rbrack;;
-
 2.  var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;
+```
 
 #### Elements in an array can be accessed using **indexes** {#elements-in-an-array-can-be-accessed-using-indexes .unnumbered}
 
@@ -4827,35 +4855,27 @@ Each element in an array has an index. **The first element&apos;s index is
 To access an element, you use the array variable and &quot;&lbrack;&quot; followed by
 the index value followed by &quot;&rbrack;&quot;, as shown in these examples:
 
+```
 1.  var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;, &apos;Sunday&apos;&rbrack;;
-
 2.  undefined
-
 3.  daysOfWeek&lbrack;0&rbrack;
-
 4.  &quot;Monday&quot;
-
 5.  daysOfWeek&lbrack;1&rbrack;
-
 6.  &quot;Tuesday&quot;
-
 7.  daysOfWeek&lbrack;2&rbrack;
-
 8.  &quot;Wednesday&quot;
-
 9.  daysOfWeek.length
-
 10. 7
+```
 
 #### Use the length property of an array to know its length {#use-the-length-property-of-an-array-to-know-its-length .unnumbered}
 
+```
 1.  var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;,&apos;Friday&apos;, &apos;Saturday&apos;, &apos;Sunday&apos;&rbrack;;
-
 2.  undefined
-
 3.  daysOfWeek.**length**
-
 4.  **7**
+```
 
 Indeed, there are seven days in a week and the daysOfWeek array
 has seven elements, indexed from **0** to **daysOfWeek.length -1**
@@ -4869,55 +4889,39 @@ you learn how to iterate on an array&apos;s elements (Week 2).**
 If you want to add a new element at the end of an array, use the index
 equal to the length of the array
 
+```
 1.  **&gt;
     var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;&rbrack;;**
-
 2.  **undefined**
-
 3.  **&gt; daysOfWeek.length**
-
 4.  **6**
-
 5.  **&gt; daysOfWeek&lbrack;6&rbrack;**
-
 6.  **undefined**
-
 7.  **// NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is
     0 // last 6-1 = 5**
-
 8.  &gt; daysOfWeek**&lbrack;6&rbrack; = &apos;Sunday&apos;**
-
 9.  **&quot;Sunday&quot;**
-
 10. **&gt; daysOfWeek.length**
-
 11. **7**
-
 12. **// Sunday, the 7th day of week is at index 6 !**
+```
 
 #### Arrays are JavaScript objects! {#arrays-are-javascript-objects .unnumbered}
 
 Well, this is not so important for the moment, but look:
 
+```
 1.  &gt; var a = &lbrack;&rbrack;;
-
 2.  &gt; **typeof a;**
-
 3.  **&quot;object&quot;**
-
 4.  &gt; var a = &lbrack;1,2,3&rbrack;;
-
 5.  &gt; a
-
 6.  &lbrack;1, 2, 3&rbrack;
-
 7.  &gt; a&lbrack;0&rbrack;
-
 8.  1
-
 9.  &gt; a&lbrack;1&rbrack;
-
 10. 2
+```
 
 And indeed, when you write daysOfWeek.length, you are using the array as
 an object, and you are using the length property of array objects.
@@ -8220,19 +8224,15 @@ commented - please remove comments and try to understand the results).
 
 ##### Example #2: if-else statement {#example-2-if-else-statement .unnumbered}
 
+```
 1.  var num = 10;
-
 2.  **if** (num &gt; 10) **{**
-
 3.  num = 20;
-
 4.  **}** **else** **{**
-
 5.  num = 0;
-
 6.  **}**
-
 7.  // num equals 0
+```
 
 **Reminder:**
 
@@ -8259,28 +8259,24 @@ This ternary operator is a shortcut version of if&hellip;then&hellip;else.
 
 Let&apos;s look at this code example:
 
+```
 1.  var max;
-
 2.  var min = 2;
-
 3.  if (min &lt; 10) {
-
 4.  max = min + 10;
-
 5.  } else {
-
 6.  max = min;
-
 7.  }
+```
 
 **Explanation**: You can replace this &quot;if-then-else&quot; statement with
 the ternary operator that uses a syntax with &quot;?&quot; and &quot;:&quot;
 
+```
 1.  var max;
-
 2.  var min;
-
 3.  max = (min &lt; 10)? min+10 : min;
+```
 
 **Line 3** can be read as if (min &lt; 10) then max = min+10, else max =
 min. The &quot;then&quot; part is after the &quot;?&quot; and the &quot;else&quot; part is after
@@ -8300,26 +8296,23 @@ Here are two versions of the same code.
 
 **Version 1: **no curly braces
 
+```
 1.  **if** (a &gt; 2)
-
 2.      result = &apos;a is bigger than 2&apos;;
-
 3.  **else**
-
 4.      result = &apos;a is not bigger than 2&apos;;
+```
 
 **Version 2: **with curly braces for delimiting the &quot;then&quot; and
 &quot;else&quot; blocks
 
+```
 1.  **if** (a &gt; 2) **{**
-
 2.  result = &apos;a is bigger than 2&apos;;
-
 3.  **} else {**
-
 4.  result = &apos;a is not bigger than 2&apos;;
-
 5.  **}**
+```
 
 Version 1 and version 2 are equivalent. Indeed, version 1 is correct:
 you can omit curly braces if the &quot;then&quot; or &quot;else&quot; blocks are made of
@@ -8336,7 +8329,9 @@ statement rule&quot;).
 
 Of course, one-line if-statements like this :
 
+```
 1.  if (true) doSomething();
+```
 
 &hellip;are really fast to write, but if you want to add a second statement
 later it will become more time consuming.
@@ -8350,45 +8345,28 @@ use a **switch** statement. 
 
 The syntax of the switch statement is:
 
+```
 **switch** (expression) **{**
-
     **case** value1:
-
         statement
-
         **break**;       // break can be omitted in that case
-
                      // the second test case will be executed
-
                      // most of the time we add a break; at the end
-
                      // of a &quot;case&quot;
-
  
-
     **case** value2:
-
         statement
-
         **break**;
-
- 
 
     **case** value3:
-
         statement
-
         **break**;
-
  
-
     **default**:         // if no case tested true
-
         statement
-
         **break**;
-
 }
+```
 
 If the value of an expression equals one of the cases (the equality
 operator evaluated is** ===**), all the statements next to this case
@@ -8396,53 +8374,31 @@ block are executed sequentially until the keyword **break** is reached.
 
 #### Example #1: a common switch/case/default example. {#example-1-a-common-switchcasedefault-example. .unnumbered}
 
+```
 var gear = &apos;&apos;;
-
  
-
 **switch** (cloudColor) **{**
-
     **case** &apos;green&apos;:
-
         gear = &apos;spacesuit&apos;;
-
         break;
-
  
-
     **case** &apos;black&apos;:
-
         gear = &apos;boots&apos;;
-
         **break**;
-
  
-
     **case** &apos;grey&apos;:
-
         gear = &apos;umbrella&apos;;
-
         **break**;
-
  
-
     **case** &apos;white&apos;:
-
         gear = &apos;jacket&apos;;
-
         **break**;
-
  
-
     **default**:
-
         gear = &apos;watch&apos;;
-
         **break**; // useless if in the last case
-
 **}** // end of the switch statement
-
- 
+```
 
 In this example, if the clouds are grey, then my gear will be just an
 umbrella. If they are white, I&apos;ll wear only a jacket, if they are black
@@ -8454,45 +8410,27 @@ executed!
 
 #### Example 2#: a switch without &quot;breaks&quot; at the end of each case {#example-2-a-switch-without-breaks-at-the-end-of-each-case .unnumbered}
 
+```
 var gear = &apos;&apos;;
 
- 
-
 **switch** (cloudColor) **{**
-
     **case** &apos;green&apos;:
-
         gear += &apos;spacesuit&apos;;
-
         **break**;
-
  
-
     **case** &apos;black&apos;:
-
         gear += &apos;boots, &apos;;
-
  
-
     **case** &apos;grey&apos;:
-
         gear += &apos;umbrella, &apos;;
-
  
-
     **case** &apos;white&apos;:
-
         gear += &apos;jacket, &apos;;
-
  
-
     **default**:
-
         gear += &apos;watch&apos;;
-
 **}** // end of the switch statement
-
- 
+```
 
 **Explanation**: if the clouds are black, then my gear will be &apos;boots,
 umbrella, jacket, watch&apos;. If the clouds are green, my gear is a
@@ -8511,103 +8449,61 @@ height="2.0659722222222223in"}
 
 HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;3 ways to do conditional statements&lt;/title&gt;
-
 &lt;meta charset=&quot;utf-8&quot;/&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 Look at the js code from this example!
-
 And do not forget to open the devtool
-
 console to see the outputs.
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 JS
 
+```
 /&ast;CONDITIONAL STATEMENTS&ast;/
-
 /&ast;3 examples which are equivalent&ast;/
-
 //try to change foo value
-
 var foo=1;
-
 //var foo=2;
-
 //var foo=1000;
-
 //var foo=0;
-
 //var foo=&apos;1&apos;;
-
 var bar1,bar2,bar3;
-
 //example 1
-
 if(foo===1){
-
 bar1=&apos;one&apos;;
-
 }
-
 else if(foo===2){
-
 bar1=&apos;two&apos;;
-
 }
-
 else{
-
 bar1=&apos;something&apos;;
-
 }
-
 //example 2
-
 bar2 = (foo===1)?&apos;one&apos;:(foo===2)?&apos;two&apos;:&apos;something&apos;;
-
 //example 3
-
 switch(foo){
-
 case 1 :
-
 bar3=&apos;one&apos;;
-
 break;
-
 case 2 :
-
 bar3 =&apos;two&apos;;
-
 break;
-
 default:
-
 bar3 =&apos;something&apos;;
-
 }
-
 //now we print results :
-
 console.log(&apos;example1,&#92;n bar1 &gt;&gt; &apos; + bar1);
-
 console.log(&apos;example2,&#92;n bar2 &gt;&gt; &apos; + bar2);
-
 console.log(&apos;example3,&#92;n bar3 &gt;&gt; &apos; + bar3);
+```
 
 ### 2.2.3 Loop statements {#loop-statements .unnumbered}
 
@@ -8774,19 +8670,15 @@ statement.
 
 Typical example of a while statement:
 
+```
 1.  var i = 1, j = 1;
-
 2.   
-
 3.  **while ( i &lt; 4 ) {**
-
 4.      j += i;
-
 5.      i += 1; 
-
 6.  **}**
-
 7.  &hellip;
+```
 
 The block inside the while (**lines 4 and 5**) will be executed three
 times:
@@ -8845,21 +8737,16 @@ syntax is different:
 
 Typical example:
 
+```
 1.  var i = 0;
-
 2.   
-
 3.  **do {**
-
 4.  **    console.log(&apos;i = &apos; + i);**
-
 5.      i++;
-
 6.  **} while(i &lt; 20);**
-
 7.   
-
 8.  console.log(&apos;Value of i after the do-while statement: &apos; + i);
+```
 
 The **do-while statement executes the content of the loop once before
 checking the condition of the while**, whereas a **while statement will
@@ -8889,21 +8776,21 @@ condition is omitted, it is replaced by true (infinite loop).
 
 Typical example (counting from 0 to 10):
 
+```
 1.  for (var i = 0; i &lt;= 10; i++) {
-
 2.    console.log(&apos;i = &apos; + i);
-
 3.  }
+```
 
 We can have more than one instruction in the &quot;initialization part&quot;
 (var i = 0), and more than one instruction in the &quot;incrementation
 part&quot; (i++). Here is another example:
 
+```
 1.  for (**var i = 1, j = 1;** i &lt;= 10;** i++, j+=2**) {
-
 2.  console.log(&apos;i = &apos; + i + &apos; j = &apos; + j);
-
 3.  }
+```
 
 In this example, two variables are defined and assigned within the
 initialization expression. Before each execution of the block statement,
@@ -8922,40 +8809,29 @@ array, which is also an object). 
 
 Its syntax is:
 
+```
 1.  for ( variable in expression ) statement
+```
 
 Typical example:
 
+```
 1.  var michel = {              // michel is an object
-
 2.      familyName:&apos;Buffa&apos;,     // familyName, givenName, age
-
 3.                              // are its properties
-
 4.      givenName: &apos;Michel&apos;,
-
 5.      age: 51
-
 6.  }
-
 7.   
-
 8.  **for(var property in michel) {**   // the for-in will
-
 9.                                  // enumerate properties
-
 10.     console.log(property);      // will print &quot;familyName&quot;,
-
 11.                                 // &quot;givenName&quot;,
-
 12.                                 // &quot;age&quot;
-
-13.     console.log(michel&lbrack;property&rbrack;);  // michel&lbrack;&apos;givenName&apos;&rbrack;
-    same 
-
+13.     console.log(michel&lbrack;property&rbrack;);  // michel&lbrack;&apos;givenName&apos;&rbrack;  same 
 14.                                     // as michel.givenName
-
 15. **}**
+```
 
 Before each execution of the block statement, the variable named
 &quot;property&quot; is assigned with the name of one of the properties (the
