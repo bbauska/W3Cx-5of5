@@ -242,15 +242,15 @@ and receive a Verified Certificate in the five courses above</b>.</p>
 <h5><i>Michel Buffa, author of this course:</i></h5>
 
 <blockquote>
-  &quot;When I work locally, with files located on my computer hard drive, I
+  &ldquo;When I work locally, with files located on my computer hard drive, I
   use the Sublime Text source code editor, Visual Studio Code, WebStorm,
   NetBeans, depending on the size of the project I&apos;m working on.<br>
-  <b>- For testing simple examples, I mainly use the JsBin.com online code 
+  <b>- For testing simple examples, I mainly use the JSBin.com online code 
     editor.</b><br>
   <b>- For embedding online examples in this course, I use the CodePen.io 
     online code editor.</b><br>
   <b>- For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
-    the LiveWeave online code editor.&quot;</b>
+    the LiveWeave online code editor.&rdquo;</b>
 </blockquote>
 
 <h4>Traditional source code editors</h4>
@@ -443,15 +443,14 @@ in terms of features.</p>
 
 <h4>Other tools</h4>
 
-There are many other online IDEs and new ones appear each year. If you
-want a real, heavyweight online IDE that has nearly all the features
-offered by &quot;big IDEs&quot; such as Eclipse, NetBeans and WebStorm, take a
-look at the [Cloud9 IDE](https://c9.io/). It&apos;s free and will enable you
-to develop huge projects, that can include many files, it supports
-uploaded assets such as images, videos and sound files.  Furthermore,
-like Google Docs, it will support multiple users working at the same
-time on the same project, even on the same file. It&apos;s a real
-collaborative environment.
+There are many other online IDEs and new ones appear each year. If you want a real, 
+heavyweight online IDE that has nearly all the features offered by 
+&quot;big IDEs&quot; such as Eclipse, NetBeans and WebStorm, take a look at the 
+<a href="https://c9.io/">Cloud9 IDE</a>. It&apos;s free and will enable you to 
+develop huge projects, that can include many files, it supports uploaded assets 
+such as images, videos and sound files.  Furthermore, like Google Docs, it will 
+support multiple users working at the same time on the same project, even on the 
+same file. It&apos;s a real collaborative environment.
 
 Michel Buffa, author of this course, developed a whole multitrack audio
 player this way. This application is <a href="https://mainline.i3s.unice.fr/">
@@ -524,10 +523,10 @@ Docs](https://developer.mozilla.org/en-US/).
 
 <h4>Can I use</h4>
 
-[Can I Use](https://caniuse.com/) provides up-to-date tables for support
+<p><a href="https://caniuse.com/">Can I Use</a> provides up-to-date tables for support
 of front-end Web technologies on desktop and mobile Web browsers. Below
 is a snapshot of what information is given by CanIUse when searching for
-&quot;CSS3 colors&quot;.
+&quot;CSS3 colors&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 19. example of a caniuse browser support table (using css3) colors (14) ~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -551,24 +550,20 @@ is a snapshot of what information is given by CanIUse when searching for
   alt="MDN web docs, logo #2." />
 </p>
 
-To help developers make these decisions consciously rather than
-accidentally, [MDN Web Docs](https://developer.mozilla.org/) provides
-browser compatibility tables in its documentation pages, so that when
-looking up a feature you're considering for your project, you know
-exactly which browsers will support it.
+<p>To help developers make these decisions consciously rather than accidentally, 
+<a href="https://developer.mozilla.org/">MDN Web Docs</a> provides browser 
+compatibility tables in its documentation pages, so that when looking up a 
+feature you're considering for your project, you know exactly which browsers 
+will support it.</p>
 
 <h4>External resources</h4>
 
--   [MDN browser compatibility data: Taking the guesswork out of web
-    compatibility](https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/)
-
-https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/
-
--   [Caniuse and MDN compatibility data
-    collaboration](https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/)
-
-https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/
-
+<ul>
+  <li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/">
+  MDN browser compatibility data: Taking the guesswork out of web compatibility</a></li>
+  <li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/">
+  Caniuse and MDN compatibility data collaboration</a></li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. w3c developers logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
@@ -585,13 +580,13 @@ W3C Developers tools</a> site.</p>
 
 <h4>W3C Validator</h4>
 
-The [W3C validator](https://validator.w3.org/) checks the [markup
-validity](https://validator.w3.org/docs/help.html#validation_basics) of
+The <a href="https://validator.w3.org/">W3C validator</a> checks the 
+<a href="https://validator.w3.org/docs/help.html#validation_basics">markup validity</a> of
 various Web document formats, such as HTML.
 
 <h4>CSS Validator</h4>
 
-The [CSS validator](https://jigsaw.w3.org/css-validator/) checks
+The <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a> checks
 Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
 stylesheets.
 
@@ -610,23 +605,23 @@ as RSS/Atom feeds and http headers.</p>
 
 <h4>Link Checker</h4>
 
-The [W3C Link Checker](https://validator.w3.org/checklink) looks for
+The <a href="https://validator.w3.org/checklink">W3C Link Checker</a> looks for
 issues in links, anchors and referenced objects in a Web page, CSS style
 sheet, or recursively on a whole Web site. For best results, it is
-recommended to first ensure that the documents checked use valid [HTML
-Markup](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
+recommended to first ensure that the documents checked use valid 
+<a href="https://validator.w3.org/">HTML Markup</a> and 
+<a href="https://jigsaw.w3.org/css-validator/">CSS</a>.
 
 <h4>Internationalization Checker</h4>
 
-The [W3C Internationalization
-Checker](https://validator.w3.org/i18n-checker/) provides information
-about various internationalization-related aspects of your page,
+The <a href="https://validator.w3.org/i18n-checker/">W3C Internationalization Checker</a> 
+provides information about various internationalization-related aspects of your page,
 including the HTTP headers that affect it. It also reports a number of
 issues and offers advice about how to resolve them.
 
 <h4>W3C cheatsheet</h4>
 
-The [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/) provides quick
+The <a href="https://www.w3.org/2009/cheatsheet/">W3C cheatsheet</a> provides quick
 access to useful information from a variety of specifications published
 by W3C. It aims at giving in a very compact and mobile-friendly format a
 compilation of useful knowledge extracted from W3C specifications,
@@ -648,8 +643,8 @@ properties/elements/ attributes/functions in the above-mentioned
 specifications, and further details on those when selecting the one of
 interest.
 
-The W3C cheatsheet is only available as a [pure Web
-application](https://dev.w3.org/2009/cheatsheet/doc/).
+The W3C cheatsheet is only available as a <a href="https://dev.w3.org/2009/cheatsheet/doc/">
+pure Web application</a>.
 
 <h4>Help build the Web Platform!</h4>
 
@@ -657,11 +652,10 @@ Most of the technologies you use when developing Web applications and
 Web sites are designed and standardized in W3C in a completely open and
 transparent process.
 
-In fact, all W3C specifications are developed in public [GitHub
-repositories](https://github.com/w3c/), so if you are familiar with
-GitHub, you already know how to contribute to W3C specifications! This
-is all about raising issues (with feedback and suggestions) and/or
-bringing pull requests to fix identified issues.
+In fact, all W3C specifications are developed in public <a href="https://github.com/w3c/">
+GitHub repositories</a>, so if you are familiar with GitHub, you already know 
+how to contribute to W3C specifications! This is all about raising issues 
+(with feedback and suggestions) and/or bringing pull requests to fix identified issues.
 
 <h4>Contribute</h4>
 
@@ -671,15 +665,15 @@ technologies are built is a great way to build your expertise.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. github octocat logo (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="left" width="100%">
 <img src="./images/image025.png?raw=true"
   style="width:10%"
-  title="W3Cx JS logo"
-  alt="W3Cx JS.0x logo." />
+  title="GitHub Octocat logo"
+  alt="GitHub Octocat logo." />
 If you&apos;re looking to an easy way to dive into this standardization processes, check out which 
 <a href="https://github.com/search?q=org%3Aw3c+label%3A%22good+first+issue%22+state%3Aopen&type=Issues">
-issues in the W3C GitHub repositories have been marked as &quot;good first issue&quot; and
-see if you find anything where you think you would be ready to help.
+issues in the W3C GitHub repositories have been marked as &quot;good first issue&quot;</a> and
+see if you find anything where you think you would be ready to help.</p>
 
 <h4>First steps in Web accessibility</h4>
 
@@ -758,33 +752,25 @@ Directors and employing a global staff across the globe
 
 As of July 2023, W3C:
 
--   Is a [member](https://www.w3.org/Consortium/Member/List)-driven
-    organization composed of over 360 companies, universities,
-    start-ups, etc. from all over the world.
-
--   Holds 52 [technical groups](https://www.w3.org/groups/), including
-    Working and Interest Groups where technical specifications are
-    discussed and developed.
-
--   Published over 13585 [published technical
-    reports](https://www.w3.org/TR/), including 510 Web standards (or
-    W3C Recommendations) - since January 1st,1995.
-
--   Runs a [translation
-    program](https://www.w3.org/Consortium/Translation/) to foster the
-    translation of its specifications: see the [translation
-    matrix](https://www.w3.org/Consortium/Translation/matrix.html) currently
-    listing 312 available translations of W3C recommendations.
-
--   Hosts 143 [Community and Business
-    Groups](https://www.w3.org/community/groups/), where developers,
-    designers, and anyone passionate about the Web have a place to hold
-    discussions and publish ideas.
-
--   Gathers over13860active participants constituting the W3C community.
-
--   Has a [technical staff](https://www.w3.org/People/) composed of 46
-    people, spread on all five continents.
+<ul>
+  <li>Is a <a href="https://www.w3.org/Consortium/Member/List">member</a>-driven
+    organization composed of over 360 companies, universities, start-ups, etc. from 
+	all over the world.</li>
+  <li>Holds 52 <a href="https://www.w3.org/groups/">technical groups</a>, including
+    Working and Interest Groups where technical specifications are discussed and developed.</li>
+  <li>Published over 13585 <a href="https://www.w3.org/TR/">published technical reports</a>, 
+  including 510 Web standards (or W3C Recommendations) - since January 1st,1995.</li>
+  <li>Runs a <a href="https://www.w3.org/Consortium/Translation/">translation program</a> 
+    to foster the translation of its specifications: see the 
+	<a href="https://www.w3.org/Consortium/Translation/matrix.html">translation matrix</a> 
+	currently listing 312 available translations of W3C recommendations.</li>
+  <li>Hosts 143 <a href="https://www.w3.org/community/groups/">Community and Business
+    Groups</a>, where developers, designers, and anyone passionate about the Web 
+	have a place to hold discussions and publish ideas.</li>
+  <li>Gathers over13860active participants constituting the W3C community.</li>
+  <li>Has a <a href="https://www.w3.org/People/">technical staff</a> composed of 46
+    people, spread on all five continents.</li>
+</ul>
 
 <h4>W3C&apos;s core values</h4>
 
@@ -3664,12 +3650,12 @@ an external URL:
 <h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 103b. how to debut javascript (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 104. how to debug javascript (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image103b.png?raw=true"
+<img src="./images/image104.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="How to debug JavaScript"
+  alt="How to debug JavaScript." />
 </p>
 Let&apos;s introduce what is debugging.
 
