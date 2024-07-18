@@ -235,8 +235,6 @@ HTML5, CSS and JavaScript.</p>
 <p><b>To get a W3C FEWD professional certificate, you must successfully pass 
 and receive a Verified Certificate in the five courses above</b>.</p>
 
-<h4>Web editors</h4>
-
 <h4>Foreword:</h4>
 
 <h5><i>Michel Buffa, author of this course:</i></h5>
@@ -245,13 +243,15 @@ and receive a Verified Certificate in the five courses above</b>.</p>
   &ldquo;When I work locally, with files located on my computer hard drive, I
   use the Sublime Text source code editor, Visual Studio Code, WebStorm,
   NetBeans, depending on the size of the project I&apos;m working on.<br>
-  <b>- For testing simple examples, I mainly use the JSBin.com online code 
+    - <b>For testing simple examples, I mainly use the JSBin.com online code 
     editor.</b><br>
-  <b>- For embedding online examples in this course, I use the CodePen.io 
+    - <b>For embedding online examples in this course, I use the CodePen.io 
     online code editor.</b><br>
-  <b>- For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
+    - <b>For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
     the LiveWeave online code editor.&rdquo;</b>
 </blockquote>
+
+<h4>Web editors</h4>
 
 <h4>Traditional source code editors</h4>
 
