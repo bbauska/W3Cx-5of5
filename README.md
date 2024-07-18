@@ -1354,7 +1354,6 @@ order to test the HTML code provided earlier in this section.
   title=" "
   alt="." />
 </p>
-<!-- ![](./images/image035.png){width="5.0in" height="2.56251312335958in"} -->
 
 In this lesson, I will show you how to try and tweak the HTML example
 from the Web page, the one from the course.
@@ -1373,7 +1372,6 @@ editor for editing HTML5 files directly on your hard disk.
   title=" "
   alt="." />
 </p>
-<!-- ![](./images/image036.png){width="5.0in" height="2.848824365704287in"} -->
 
 In order to use the JSBin.com tool, that is the first one I recommend,
 you will open a new tab with your browser and you go to
@@ -1391,7 +1389,6 @@ you will open a new tab with your browser and you go to
   title=" "
   alt="." />
 </p>
-<!-- ![](./images/image037.png){width="3.5in" height="1.99417760279965in"}![](./images/image038.png){width="3.5in" height="1.99417760279965in"} -->
 
 For the moment, we are going to use only HTML code. If you want to try
 the example from the course, just copy and paste the code in the HTML
@@ -1413,7 +1410,6 @@ that your friends can work on what you&apos;ve done.
   title=" "
   alt="." />
 </p>
-<!-- ![](./images/image039.png){width="5.0in" height="2.848824365704287in"} -->
 
 The other online tool, that is very practical, is codepen.io. This one
 is maybe nicer but I think that JSBin is more practical for typing code.
@@ -1427,7 +1423,6 @@ look for existing examples made by others.
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image040.png){width="5.0in" height="2.848824365704287in"} -->
 
 I just typed &quot;button », and here I can see an example that create
 buttons. I can see the HTML code; CSS code and I can learn by looking at
@@ -1440,7 +1435,6 @@ these examples.
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image041.png){width="5.0in" height="2.848824365704287in"} -->
 
 In our case, if you want to create a new example, you just open
 codepen.io, you click on the &quot;New Pen&quot; button and you copy the HTML
@@ -1456,7 +1450,6 @@ option (bottom right of screen in 'edit CodePen' mode).
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image042.png){width="5.0in" height="2.848824365704287in"} -->
 
 So &quot;Export.zip&quot;. With CodePen, I&apos;ve got a zip file and in the zip
 file, I&apos;ve got index.html here. And if I look at the source, it&apos;s
@@ -1485,7 +1478,6 @@ recommend is that you create a directory somewhere.
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image043.png){width="6.5in" height="3.660416666666667in"} -->
 
 Here, I&apos;m creating a directory on my desktop... so, a new directory:
 &quot;Example 1&quot;. And inside that directory, I will create the HTML file. I
@@ -1502,7 +1494,6 @@ i save the file.
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image044.png){width="6.0in" height="3.3788462379702535in"} -->
 
 And from Sublime Text, you can use the right click &quot;Open in browser&quot;
 and you can see the result. If I change the code here, my home page
@@ -1518,7 +1509,6 @@ file.
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image045.png){width="6.0in" height="3.3788462379702535in"} -->
 
 This is how you can work. Or you can also directly open an example you
 downloaded from JSBin or from CodePen. My download directory, I can find
@@ -1568,7 +1558,6 @@ Click the red circle next to HTML to unfold this HTML document structure
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image046.png){width="5.0in" height="3.9049146981627296in"} -->
 
 Consider the figure above. It contains a single html element. It turns
 out this includes within it the entire content of your html file. If you
@@ -1582,7 +1571,6 @@ components, a head and a body.
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image047.png){width="6.0in" height="1.9519225721784776in"} -->
 
 Clicking on each of those will reveal their respective contents. This
 structure is what we computer scientists call a &quot;tree&quot;. Any given
@@ -1599,7 +1587,6 @@ referred to as &quot;siblings&quot;.
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image048.png){width="6.0in" height="3.389744094488189in"} -->
 
 Thus, in the example above, the top element is the html element, which
 contains just two elements, the head and body.  The head element
@@ -1681,7 +1668,6 @@ tag, and everything in between the tags is the contents of the element:
   title="Diagram of an element"
   alt="Diagram of an element." />
 </p>
-<!-- ![Diagram of an element](./images/image050.png){width="4.0in" height="2.1715890201224846in"} -->
 
 Most tags have open and close versions, but there are a few strange
 ones.  For more info, we strongly recommend that you follow the
@@ -1754,7 +1740,6 @@ add a height attribute, and see the result:
   title="CodePen: pbs.twing profile image"
   alt="CodePen: pbs.twing profile image." />
 </p>
-<!-- ![](./images/image051.png){width="5.0in" height="1.5908114610673665in"} -->
 
 ```
 &lt;img
@@ -1771,7 +1756,6 @@ alt=&quot;Michel Buffa plays rock and roll&quot;&gt;
   title="Your first HTML page"
   alt="Your first HTML page." />
 </p>
-<!-- ![](./images/image052.png){width="5.0in" height="3.921474190726159in"} -->
 
 In this lesson, I will show you how to create from scratch an HTML page
 using some of the most common HTML tags. I will use an online tool for
@@ -1789,7 +1773,6 @@ going to render will be an HTML5 file.
   title="Example: HTML, head and body"
   alt=""Example: HTML, head and body." />
 </p>
-<!-- ![](./images/image053.png){width="6.0in" height="3.3788462379702535in"} -->
 
 Then, you&apos;ve got a first element that is called &lt;html&gt; and you&apos;ve
 got the closing corresponding element that is &lt;/html&gt;. It&apos;s a common
@@ -1806,7 +1789,6 @@ element.
   title="JSBin example; template: head and body"
   alt="JSBin example; template: head and body." />
 </p>
-<!-- ![](./images/image054.png){width="6.0in" height="3.3788462379702535in"} -->
 
 <p>We&apos;ve got a head element, and an empty body element, here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1817,7 +1799,6 @@ element.
   title="Example: HTML, head and body"
   alt="Example: HTML, head and body." />
 </p>
-<!-- ![](./images/image055.png) {width="6.0in" height="3.3788462379702535in"} -->
 
 In the &lt;head&gt;, usually, we specify the title: &quot;First HTML page&quot;. And
 this title is what will be displayed when you put the cursor on a tab in
@@ -1834,7 +1815,6 @@ tag.
   title="Example: HTML, head and body"
   alt="Example: HTML, head and body." />
 </p>
-<!-- ![](./images/image056.png){width="6.0in" height="3.3788462379702535in"} -->
 
 The tag is the notation between &lt; and &gt; signs and the element is the
 conceptual thing - like, I'm writing a heading. &quot;This is my first
@@ -1858,7 +1838,6 @@ the next line.
   title="Example: HTML, head and body"
   alt="Example: HTML, head and body." />
 </p>
-<!-- ![](./images/image057.png){width="6.0in" height="3.3788462379702535in"} -->
 
 If I want to enumerate my hobbies, a very common practice is to use
 lists. In HTML, you&apos;ve got an <b>unnumbered list</b> that are composed of
@@ -1873,7 +1852,6 @@ unnumbered list, a numbered list, I can use an order list.
   title="Example: HTML, head and body"
   alt="Example: HTML, head and body." />
 </p>
-<!-- ![](./images/image058.png){width="6.0in" height="3.3788462379702535in"} -->
 
 With &lt;ol&gt; instead of &lt;ul&gt;. In that case, you can see numbers.
 Another very common element is the &quot;img&quot; tag that is useful for
@@ -1931,7 +1909,6 @@ on.
   title="Example: HTML, head and body"
   alt="Example: HTML, head and body." />
 </p>
-<!-- ![](./images/image060.png){width="6.0in" height="3.3788462379702535in"} -->
 
 The CSS file, here, is just using what we call "rules". A rule is a
 selector, so this means for all &quot;h1&quot; elements in the page, I want to
@@ -1950,7 +1927,6 @@ indicate a box-shadow.
   title="CSS: Cascade Style Sheet"
   alt="CSS: Cascade Style Sheet." />
 </p>
-<!-- ![CSS logo](./images/image061.png){width="4.0in" height="2.255985345581802in"} -->
 
 CSS, or <b>C</b>ascading <b>S</b>tyle <b>S</b>heets, is a style sheet language
 used to describe the way an HTML or XML document should look to a user.
@@ -1986,7 +1962,6 @@ in the CSS part, etc.):
   title="Example CodePen: My Home Page"
   alt="Example CodePen: My Home Page." />
 </p>
-<!-- ![](./images/image062.png){width="5.0in" height="4.019764873140858in"} -->
 
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GrJpXO">CodePen: My Home Page</a></h6>
 
@@ -2073,7 +2048,6 @@ Let&apos;s look at a modified version of Michel Buffa&apos;s home page example:
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." />
 </p>
-<!-- ![](./images/image063.png){width="5.0in" height="5.639957349081365in"} -->
 
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLGWQJ">CodePen: Update CSS Rule</a></h6>
 
@@ -2156,7 +2130,6 @@ this example:
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." />
 </p>
-<!-- ![](./images/image064.png){width="6.0in" height="2.612179571303587in"} -->
 
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygNOxv">CodePen: Update CSS Rule</a></h6>
 
@@ -2172,7 +2145,6 @@ open this example in Plunker</a>)</p>
   title="Snapshot of a code editor showing a separate CSS file"
   alt="Snapshot of a code editor showing a separate CSS file." />
 </p>
-<!-- ![Snapshot of a code editor showing a separate css file](./images/image065.jpeg){width="6.0in" height="2.134540682414698in"} -->
 
 Note that when you use an online IDE, you usually type/paste the CSS
 rules in a &quot;CSS tab&quot; in the online editor, and it hides all the
@@ -2189,7 +2161,6 @@ enable you to manage files in the cloud).
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." />
 </p>
-<!-- ![](./images/image066.png){width="5.0in" height="3.954983595800525in"} -->
 
 In this lesson, I will show you how you can include CSS in your HTML
 file, because we used online tools that hide, in a way, the location of
@@ -2202,7 +2173,6 @@ the different languages.
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." />
 </p>
-<!-- (./images/image067.png){width="5.0in" height="2.290064523184602in"} -->
 
 If you take this example we described in the previous video, and if I
 export it using CodePen...and if I look at the zip file that has been
@@ -2221,7 +2191,6 @@ make a project with HTML and CSS.
   title="Example source code: My Home Page"
   alt="Example source code: My Home Page." />
 </p>
-<!-- ![](./images/image068.png){width="3.5in" (./images/image069.png){width="3.5in" -->
 
 And if we open the &quot;index.html&quot; file, you can see that, what is really
 going on if we look at the source code. Actually, in order to include
@@ -2235,7 +2204,6 @@ CSS file in an HTML file, we use the &quot;link&quot; tag with the attribute
   title="CodePen: Link to external CSS Stylesheet"
   alt="CodePen: Link to external CSS Stylesheet." />
 </p>
-<!-- ![](./images/image070.png){width="5.0in" height="2.4556627296587927in"} -->
 
 Here, it means the &quot;style.css&quot; file located in the &quot;css&quot;
 subdirectory. If I open this project with Sublime Text ... I go to the
@@ -2249,7 +2217,6 @@ my hierarchy, here. The &quot;index.html&quot; file that includes the .css file.
   title="CodePen: Example style.css"
   alt="CodePen: Example style.css." />
 </p>
-<!-- ![](./images/image071.png){width="5.0in" height="2.7174146981627296in"} -->
 
 And if I open the &quot;style.css&quot;. I can see the CSS content here. And
 it&apos;s interesting to use a real source code editor because you&apos;ve got
@@ -2266,7 +2233,6 @@ directly in your browser the file and see the result.
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." />
 </p>
-<!-- ![](./images/image072.png){width="6.5in" height="3.532638888888889in"} -->
 
 Here, I change the background-color of the heading 1. You can also use
 directly in your HTML, the CSS rules. In that case, instead of using the
@@ -2282,7 +2248,6 @@ rendered and I&apos;m no more including an external file.
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." />
 </p>
-<!-- ![](./images/image073.png){width="6.5in" height="3.497916666666667in"} -->
 
 If I save this and &quot;Open in the Browser&quot;, I&apos;ve got the same result
 here for the &quot;h1&quot;. And if I look at the source code, I will see
@@ -2304,7 +2269,6 @@ when you ask for a Web page to be rendered in the browser.
   title="Example: edx studio; using 3rd party JS libraries"
   alt="Example: edx studio; using 3rd party JS libraries." />
 </p>
-<!-- ![](./images/image074.png){width="6.5in" height="3.428472222222222in"} -->
 
 Let&apos;s take this document for example. We type the URL here, and the
 document arrives from a remote machine. And this document is a HTML
@@ -2324,7 +2288,6 @@ interactivity to the documents.
   title="Example: CodePen; using JavaScript"
   alt="Example: CodePen; using JavaScript." />
 </p>
-<!-- ![](./images/image075.png){width="6.5in" height="3.428472222222222in"} -->
 
 In this example, the first one on this page, I can click to change the
 content of the document. We modify what we call the document object
@@ -2350,7 +2313,6 @@ elements.
   title="Example: CodePen; using JavaScript, #2"
   alt="Example: CodePen; using JavaScript, #2." />
 </p>
-<!-- ![](./images/image076.png){width="6.5in" height="3.428472222222222in"} -->
 
 It can be also use for interactive for the CSS styles of the page. In
 this example, I click on the button. And instead of modifying the
@@ -2370,14 +2332,13 @@ making music, for building tables on the fly to display some dynamic
 data that you came after, for example, we enter some text in the search
 form, etc.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 77. example: index.html: update heading using javascript (63) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 77. example: index.html: update heading using javascript (61) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image077.png?raw=true"
   style="width:50%"
   title="Example: index.html: update heading using JavaScript"
   alt="Example: index.html: update heading using JavaScript." />
 </p>
-<!-- ![](./images/image077.png){width="6.5in" height="3.428472222222222in"} -->
 
 During week 1, we will see other examples with different sort of
 applications of JavaScript. And, we will first give some explanations
@@ -2390,7 +2351,7 @@ it&apos;s a real standard of the Web (even if not standardized by the W3C).
 
 <h4>Why do we call it &quot;the interactive glue between HTML and CSS&quot;?</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 78. javascript is the perfect glue (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 78. javascript is the perfect glue (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image078.png?raw=true"
   style="width:50%"
@@ -3398,7 +3359,6 @@ famous rock bands:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-3">1.3.3 Where to put JavaScript code</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 99a. where to put javascript code (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image099a.png?raw=true"
@@ -3636,7 +3596,6 @@ made by others is really common when working on JavaScript projects.
 Here is a running example that uses the paperJS library, included using
 an external URL:
 
-<!-- ![](./images/image103.png){width="6.5in" height="2.075in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 103.  (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3648,7 +3607,6 @@ an external URL:
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VPmNWg">CodePen: Example paperJS</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 104. how to debug javascript (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3731,39 +3689,66 @@ type a space at the end of a line to re-render the page and display the
 message in the console), we see the message in the console tab, as well
 as in the dev. tools console. This is illustrated by the image below
 (or [online](https://jsbin.com/moqimuz/edit?html,console,output)):
-
-![Snapshot of a JavaScript console view
-(#1)](./images/image104.jpeg){width="5.0in" height="2.65625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 104. snapshot of a javascript console view (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image104.jpeg?raw=true"
+  style="width:50%"
+  title="Snapshot of a JavaScript console view"
+  alt="Snapshot of a JavaScript console view." />
+</p>
+<!-- [Snapshot of a JavaScript console view (#1)](./images/image104.jpeg){width="5.0in" height="2.65625in"} -->
 
 It is also possible to use the &quot;real dev. tool console&quot;, and for this,
 I recommend running the application in a single window, not in the Js
 Bin editor. Press the black arrow on the top right of the output
 window - this will render the page as a standalone Web page, then
 press <b>F12</b>. You should see:
-
-![View of the JavaScript
-console](./images/image105.jpeg){width="5.0in"
-height="4.2333902012248465in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 105. snapshot of a javascript console view (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image105.jpeg?raw=true"
+  style="width:50%"
+  title="Snapshot of a JavaScript console view"
+  alt="Snapshot of a JavaScript console view." />
+</p>
+<!-- ![View of the JavaScript console](./images/image105.jpeg){width="5.0in" height="4.2333902012248465in"} -->
 
 Ok, now, let&apos;s make an error:
 change console.log() into conso<b>lll</b>e.log(). Let&apos;s see what happens:
-
-![View of the javascript console showing an
-error](./images/image8.jpeg){width="5.0in"
-height="4.207420166229221in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 008. view of the javascript console showing an eror (xxx) ~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image008.jpeg?raw=true"
+  style="width:50%"
+  title="View of the JavaScript console showing an eror"
+  alt="View of the JavaScript console showing an eror." />
+</p>
+<!-- ![View of the javascript console showing an error](./images/image8.jpeg){width="5.0in" height="4.207420166229221in"} -->
 
 And if we run it standalone and use the dev. tool console:
-
-![View of the JavaScript console (showing the line that caused the
-error)](./images/image106.jpeg){width="5.0in"
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~ 106. View of the JavaScript console (showing the line that caused the error (xxx) ~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image106.jpeg?raw=true"
+  style="width:50%"
+  title="View of the JavaScript console (showing the line that caused the error"
+  alt="View of the JavaScript console (showing the line that caused the error." />
+</p>
+<!-- ![View of the JavaScript console (showing the line that caused the error)](./images/image106.jpeg){width="5.0in" -->
 height="2.508445975503062in"}
 
 And if we click on the line number to the right, the dev. tool shows the
 source code centered on the line that caused the error:
-
-![View of the JavaScript
-console](./images/image107.jpeg){width="5.0in"
-height="4.199669728783902in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 107. view of the javascript console (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image107.jpeg?raw=true"
+  style="width:50%"
+  title="View of the JavaScript console"
+  alt="View of the JavaScript console." />
+</p>
+<!-- ![View of the JavaScript console](./images/image107.jpeg){width="5.0in" height="4.199669728783902in"} -->
 
 Without such tools, debugging JavaScript code is impossible. So you need
 to look at some basic tutorials on how to use the dev. tools of your
@@ -3805,8 +3790,7 @@ using a regular source code editor and .html, .css and .js files.
 
 <b>Here is what the resulting Web page will look like:</b>
 
-![](./images/image108.png){width="5.0in"
-height="3.0480774278215224in"}
+![](./images/image108.png)  <!-- {width="5.0in" height="3.0480774278215224in"} -->
 
 https://codepen.io/w3devcampus/pen/bqGboZ
 
@@ -11563,8 +11547,15 @@ height="3.803472222222222in"}
 
 Example #2: display all checked &lt;input type=&quot;checkbox&quot;&gt; elements
 located inside an element of a given id
-
-![](./images/image202.png){width="6.5in" height="4.35625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image202.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt="." />
+</p>
+<!-- ![](./images/image202.png){width="6.5in" height="4.35625in"} -->
 
 <h5>HTML:</h5>
 
@@ -11682,9 +11673,15 @@ by this list:
 ```
 
 <h4>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id</h4>
-
-![](./images/image203.png){width="6.5in"
-height="2.6972222222222224in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image203.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt="." />
+</p>
+<!-- ![](./images/image203.png){width="6.5in" height="2.6972222222222224in"} -->
 
 <h5>HTML code:</h5>
 
