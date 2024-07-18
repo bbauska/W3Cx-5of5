@@ -230,10 +230,12 @@ HTML5, CSS and JavaScript.</p>
 
 4.  [<b>HTML5 Apps and Games</b>](https://www.edx.org/course/html5-apps-and-games)
 
-5.  <b>This course</b>: [<b>JavaScript Introduction</b>](https://www.edx.org/course/javascript-introduction)
+5.  <b>This course</b>: [<b>JavaScript Introduction<b>](https://www.edx.org/course/javascript-introduction)
 
 <p><b>To get a W3C FEWD professional certificate, you must successfully pass 
 and receive a Verified Certificate in the five courses above</b>.</p>
+
+<h4>Web editors</h4>
 
 <h4>Foreword:</h4>
 
@@ -243,12 +245,12 @@ and receive a Verified Certificate in the five courses above</b>.</p>
   &quot;When I work locally, with files located on my computer hard drive, I
   use the Sublime Text source code editor, Visual Studio Code, WebStorm,
   NetBeans, depending on the size of the project I&apos;m working on.<br>
-  - For testing simple examples, I mainly use the JsBin.com online code 
-    editor.<br>
-  - For embedding online examples in this course, I use the CodePen.io 
-    online code editor.<br>
-  - For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
-    the LiveWeave online code editor.&quot;
+  <b>- For testing simple examples, I mainly use the JsBin.com online code 
+    editor.</b><br>
+  <b>- For embedding online examples in this course, I use the CodePen.io 
+    online code editor.</b><br>
+  <b>- For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
+    the LiveWeave online code editor.&quot;</b>
 </blockquote>
 
 <h4>Traditional source code editors</h4>
@@ -441,7 +443,7 @@ in terms of features.</p>
 
 <h4>Other tools</h4>
 
-<p>There are many other online IDEs and new ones appear each year. If you
+There are many other online IDEs and new ones appear each year. If you
 want a real, heavyweight online IDE that has nearly all the features
 offered by &quot;big IDEs&quot; such as Eclipse, NetBeans and WebStorm, take a
 look at the [Cloud9 IDE](https://c9.io/). It&apos;s free and will enable you
@@ -449,11 +451,11 @@ to develop huge projects, that can include many files, it supports
 uploaded assets such as images, videos and sound files.  Furthermore,
 like Google Docs, it will support multiple users working at the same
 time on the same project, even on the same file. It&apos;s a real
-collaborative environment.</p>
+collaborative environment.
 
-<p>Michel Buffa, author of this course, developed a whole multitrack audio
+Michel Buffa, author of this course, developed a whole multitrack audio
 player this way. This application is <a href="https://mainline.i3s.unice.fr/">
-available online</a>. (See also screenshots below:)</p>
+available online</a>. (See also screenshots below:)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. multitrack audio player (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -463,9 +465,9 @@ available online</a>. (See also screenshots below:)</p>
   alt="Multitrack audio player." />
 </p>
 
-<p>100% of the development was done in a Web browser, by Michel Buffa and
+100% of the development was done in a Web browser, by Michel Buffa and
 two friends, using the c9.io (Cloud 9) IDE (to see if online IDEs were a
-valuable approach):</p>
+valuable approach):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. c9 ide, example (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -477,50 +479,55 @@ valuable approach):</p>
 
 <h4>JavaScript debuggers</h4>
 
-<p>Here is a selection of tools to help debug JavaScript code. The
-instructor will indicate other tools in module 1 of the course.</p>
+Here is a selection of tools to help debug JavaScript code. The
+instructor will indicate other tools in module 1 of the course.
 
-<ul>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Tools/Debugger">Firefox JS
-    debugger</a> (debugger shipped inside Firefox) - all other browsers have integrated
-    debuggers as well.</li>
-  <li><a href="https://www.jslint.com/">JS Lint</a> - The JavaScript Code Quality
-    Tool</li>
-  <li><a href="https://codebeautify.org/jsvalidate">CodeBeautify</a> - JavaScript
-    Validator</li>
-  <li>Check also other 
-    <a href="https://jqueryhouse.com/best-javascript-debugging-tools/">
-	JavaScript debugging tools</a></li>
-</ul>
+-   [Firefox JS
+    debugger](https://developer.mozilla.org/en-US/docs/Tools/Debugger) (debugger
+    shipped inside Firefox) - all other browsers have integrated
+    debuggers as well.
+
+-   [JS Lint](https://www.jslint.com/)  - The JavaScript Code Quality
+    Tool
+
+-   [CodeBeautify](https://codebeautify.org/jsvalidate)  - JavaScript
+    Validator
+
+-   Check also other[ JavaScript debugging
+    tools](https://jqueryhouse.com/best-javascript-debugging-tools/)
 
 <h4>Browser compatibility</h4>
 
-<p>The term browser compatibility refers to the ability of a given Web site
-to appear fully functional on the browsers available in the market.</p>
-<p>The most powerful aspect of the Web is what makes it so challenging to
+The term browser compatibility refers to the ability of a given Web site
+to appear fully functional on the browsers available in the market.
+
+The most powerful aspect of the Web is what makes it so challenging to
 build for: its universality. When you create a Web site, you're writing
 code that needs to be understood by many different browsers on different
-devices and operating systems!</p>
+devices and operating systems!
 
-<p>To make the Web evolve in a sane and sustainable way for both users and
+To make the Web evolve in a sane and sustainable way for both users and
 developers, browser vendors work together to standardize new features,
-whether it's a new <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">
-HTML element</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword">
-CSS property</a>, or <a href="https://developer.mozilla.org/en-US/docs/Web/API">JavaScript API</a>.
+whether it's a new [HTML
+element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS
+property](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index),
+or [JavaScript API](https://developer.mozilla.org/en-US/docs/Web/API).
 But different vendors have different priorities, resources, and release
 cycles --- so it's very unlikely that a new feature will land on all the
 major browsers at once. As a Web developer, this is something you must
-consider if you're relying on a feature to build your site.</p>
-<p>We are then providing references to the browser support of HTML5
-features presented in this course using 2 resources: <a href="https://caniuse.com/">Can I
-Use</a> and <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network (MDN) Web Docs</a>.</p>
+consider if you're relying on a feature to build your site.
+
+We are then providing references to the browser support of HTML5
+features presented in this course using 2 resources: [Can I
+Use](https://caniuse.com/) and [Mozilla Developer Network (MDN) Web
+Docs](https://developer.mozilla.org/en-US/).
 
 <h4>Can I use</h4>
 
-<p><a href="https://caniuse.com/">Can I Use</a> provides up-to-date tables for support
+[Can I Use](https://caniuse.com/) provides up-to-date tables for support
 of front-end Web technologies on desktop and mobile Web browsers. Below
 is a snapshot of what information is given by CanIUse when searching for
-&quot;CSS3 colors&quot;.</p>
+&quot;CSS3 colors&quot;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 19. example of a caniuse browser support table (using css3) colors (14) ~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -552,12 +559,16 @@ exactly which browsers will support it.
 
 <h4>External resources</h4>
 
-<ul>
-  <li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/">
-    MDN browser compatibility data: Taking the guesswork out of web compatibility</a></li>
-  <li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/">
-    Caniuse and MDN compatibility data collaboration</a></li>
-</ul>
+-   [MDN browser compatibility data: Taking the guesswork out of web
+    compatibility](https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/)
+
+https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/
+
+-   [Caniuse and MDN compatibility data
+    collaboration](https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/)
+
+https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. w3c developers logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
@@ -1244,7 +1255,7 @@ time):
   alt="Codepen: A Tale of Two Cities." />
 </p>
 
-<p><a href="https://codepen.io/w3devcampus/pen/PWqYxG">Example (CodePen)</a></p>
+<p><a href="https://codepen.io/w3devcampus/pen/PWqYxG">CodePen: A Tale of Two Cities</a></p>
 
 <h5>HTML:</h5>
 
@@ -1297,7 +1308,7 @@ Here is another, more generic example:
   alt="CodePen: Who Am I?" />
 </p>
 
-<h6><a href="https://codepen.io/w3devcampus/pen/egNOLj">Who Am I? (CodePen)</a></h6>
+<h6><a href="https://codepen.io/w3devcampus/pen/egNOLj">CodePen: Who Am I?</a></h6>
 
 <h5>HTML:</h5>
 
@@ -1991,11 +2002,11 @@ in the CSS part, etc.):
 </p>
 <!-- ![](./images/image062.png){width="5.0in" height="4.019764873140858in"} -->
 
-https://codepen.io/w3devcampus/pen/GrJpXO
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GrJpXO">CodePen: My Home Page</a></h6>
 
-If you click on the CSS button on the top left of the previous codepen
+<p>If you click on the CSS button on the top left of the previous codepen
 example, you see the CSS rules that have been applied to the HTML
-document. Let&apos;s look at the first one:
+document. Let&apos;s look at the first one:</p>
 
 ```
 1.  h1 {
@@ -2078,12 +2089,12 @@ Let&apos;s look at a modified version of Michel Buffa&apos;s home page example:
 </p>
 <!-- ![](./images/image063.png){width="5.0in" height="5.639957349081365in"} -->
 
-https://codepen.io/w3devcampus/pen/ZLGWQJ
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLGWQJ">CodePen: Update CSS Rule</a></h6>
 
-The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
-in our case it&apos;s the second h2 element:
+<p>The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
+in our case it&apos;s the second h2 element:</p>
 
-1.  &lt;h2 <b>id=&quot;hobbyTitle&quot;</b>&gt;My Hobbies&lt;/h2&gt;
+<pre><code>1.  &lt;h2 <b>id=&quot;hobbyTitle&quot;</b>&gt;My Hobbies&lt;/h2&gt;</code></pre>
 
 <h5>And here is the CSS rule:</h5>
 
@@ -2095,16 +2106,16 @@ in our case it&apos;s the second h2 element:
 5.  }
 ```
 
-<b>Line 1</b> uses the &quot;#&quot; character in the selector, meaning that we&apos;re
+<p><b>Line 1</b> uses the &quot;#&quot; character in the selector, meaning that we&apos;re
 going to select an element by its id attribute. In this case, the
 selector equal to #hobbyTitle, selects the element that has an
-attribute id=&quot;hobbyTitle&quot;.
+attribute id=&quot;hobbyTitle&quot;.</p>
 
-In that case, we use a funny char font called &apos;caveat&apos; we took from
+<p>In that case, we use a funny char font called &apos;caveat&apos; we took from
 the Google font service
 (see [fonts.google.com](https://fonts.google.com/)), and in order to be
 able to use it in a font-family CSS property, we included its definition
-using a &lt;link&gt; tag in the HTML part of the document:
+using a &lt;link&gt; tag in the HTML part of the document:</p>
 
 ```
 1.  &lt;head&gt;
@@ -2115,9 +2126,9 @@ using a &lt;link&gt; tag in the HTML part of the document:
 6.  &lt;/head&gt;
 ```
 
-The last rule targets all elements that have an
+<p>The last rule targets all elements that have an
 attribute class=&quot;funny&quot;. Notice they can be different elements, we can
-have a p and an h3 element that have the class=&quot;funny&quot; attribute:
+have a p and an h3 element that have the class=&quot;funny&quot; attribute:</p>
 
 ```
 1.  <b>.funny </b>{
@@ -2127,8 +2138,8 @@ have a p and an h3 element that have the class=&quot;funny&quot; attribute
 5.  }
 ```
 
-This rule changes the color, font family and size of two out of three
-paragraphs in the HTML element:
+<p>This rule changes the color, font family and size of two out of three
+paragraphs in the HTML element:</p>
 
 ```
 1.  &hellip;
@@ -2161,12 +2172,12 @@ this example:
 </p>
 <!-- ![](./images/image064.png){width="6.0in" height="2.612179571303587in"} -->
 
-https://codepen.io/w3devcampus/pen/ygNOxv
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygNOxv">CodePen: Update CSS Rule</a></h6>
 
-This is OK if you do not have too many CSS rules. In general it&apos;s
+<p>This is OK if you do not have too many CSS rules. In general it&apos;s
 better to put the CSS rules in one or more separate .css files, like
-this ([open this example in
-Plunker](https://plnkr.co/edit/vedmaDmnfiJzoiLPrInG?p=preview))
+this (<a href="https://plnkr.co/edit/vedmaDmnfiJzoiLPrInG?p=preview">
+open this example in Plunker</a>)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 65. snapshot of a code editor showing a separte css file (56) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2421,11 +2432,10 @@ Example #1: push the button to modify the heading of the page.
   title="Example: index.html: update heading using JavaScript"
   alt="Example: index.html: update heading using JavaScript." />
 </p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE">CodePen: Use JS to Modify CSS</a></h6>
 
-https://codepen.io/w3devcampus/pen/pREjaE
-
-Example #2: push another button to modify the CSS style (color,
-background-color, border) of a paragraph in the page.
+<p>Example #2: push another button to modify the CSS style (color,
+background-color, border) of a paragraph in the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 80. example: javascript: update button to modify css style (64) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2434,17 +2444,15 @@ background-color, border) of a paragraph in the page.
   title="Example: javascript: update button to modify CSS style"
   alt="Example: javascript: update button to modify CSS style." />
 </p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN">CodePen</a></h6>
 
-https://codepen.io/w3devcampus/pen/bgwVvN
-
-We have a closer look at how these examples work in the subsequent parts
+<p>We have a closer look at how these examples work in the subsequent parts
 of the course. These examples are just here to show you how JavaScript
 can interact with the HTML content and the CSS styles of a Web document.
 Finally, note that, in these examples, the JavaScript code is located in
-the HTML of the document.
-
+the HTML of the document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-7">1.2.7 JavaScript history (mm:ss)</h3>
+<h3 id="ch1-2-7">1.2.7 JavaScript history</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 JavaScript remains the most commonly used programming language with
 67.7% of developers employing it in 2020 (see this [survey&apos;s
@@ -2459,11 +2467,11 @@ Maps and eBay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 81/82. photo brandan eich, creator of js, netscape js book (65) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image081.jpeg?raw=true"
+<img src="./images/image081.png?raw=true"
   style="width:35%"
   title="Photo of Brandan Eich, creator of JavaScript"
   alt="Photo of Brandan Eich, creator of JavaScript." />
-<img src="./images/image082.jpeg?raw=true"
+<img src="./images/image082.png?raw=true"
   style="width:35%"
   title="Cover page of the Netscape JavaScript 1.2 book"
   alt="Cover page of the Netscape JavaScript 1.2 book." />
@@ -2471,7 +2479,7 @@ Maps and eBay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 83/84. year 1995, netscape logo (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image083.jpeg?raw=true"
+<img src="./images/image083.png?raw=true"
   style="width:35%"
   title="Year 1995"
   alt="Year 1995." />
@@ -2499,8 +2507,7 @@ language, no longer exists, having been bought by Oracle Corporation in
   title="dotJS 2017 - Brandan Eich - A Brief History of JavaScript"
   alt="dotJS 2017 - Brandan Eich - A Brief History of JavaScript." />
 </p>
-
-<p><a href="https://www.youtube.com/watch?v=aX3ZABCdC38">dotJS 2017 - Brandan Eich - A Brief History of JavaScript</a>.</p>
+<h6 align="center"><a href="https://www.youtube.com/watch?v=aX3ZABCdC38">dotJS 2017 - Brandan Eich - A Brief History of JavaScript</a></h6>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86. sun microsystems logo (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2512,17 +2519,21 @@ language, no longer exists, having been bought by Oracle Corporation in
 But Netscape realized that Java wasn&apos;t a
 suitable language for in-browser use. Netscape thought of JavaScript at
 the beginning, as a lightweight Java.</p>
-<p>JavaScript was initially inspired by Java, but in fact only some naming
+
+JavaScript was initially inspired by Java, but in fact only some naming
 conventions remained the same. We highly recommend not even trying to
 look for similarities - this is actually a bad way to start learning
 JavaScript! We&apos;d rather just say that the only real commonality between
 these two languages is their names. If you are coming to this
-course from Java, leave the Java thinking behind!</p>
-<p>JavaScript quickly became a success following its first appearance in 
-<a href="http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/">
-Netscape Navigator 2 in March 1996</a>, and it was quickly integrated into other 
-popular browsers. Microsoft also created its own version named JScript (and 
-shipped it with Internet Explorer 3 in 1996 -- It was a dud).</p>
+course from Java, leave the Java thinking behind!
+
+JavaScript quickly became a success following its first
+appearance in [Netscape Navigator 2 in March
+1996](http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/), and
+it was quickly integrated into other popular browsers. Microsoft also
+created its own version named JScript (and shipped it with Internet
+Explorer 3 in 1996 -- It was a dud).
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 87. snapshot of a web page in netscape navigator 2 (67) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2532,8 +2543,8 @@ shipped it with Internet Explorer 3 in 1996 -- It was a dud).</p>
   alt="Snapshot of a web page in Netscape Navigator 2." />
 </p>
 
-<p><b>Netscape Navigator 2 in 1996, with big buttons and plain HTML pages
-(CSS did not exist at that time)</b></p>
+<b>Netscape Navigator 2 in 1996, with big buttons and plain HTML pages
+(CSS did not exist at that time)</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 88. snapshot of a web page in internet explorer (67) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2543,13 +2554,13 @@ shipped it with Internet Explorer 3 in 1996 -- It was a dud).</p>
   alt="Snapshot of a web page in IE 3." />
 </p>
 
-<p><b>Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
-did not exist at this time!</b></p>
+<b>Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
+did not exist at this time!</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. ecma logo (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="left" width="100%">
+<p align="left" width="50%">
 <img src="./images/image089.gif?raw=true"
-  style="width:30%"
+  style="width:10%"
   title="ecma"
   alt="ECMA." />
 Towards the end of 1996, JavaScript was standardized
@@ -2567,8 +2578,8 @@ right up to the present day. MS still didn't play ball.</p>
   alt="JavaScript detailed timeline." />
 The present: what is the current version?
 What about ES6/ES2015/ES2016/ES2017/ ES2018/ES2019/ES2020/ES2021/ES2022?
-Are these the new names of JavaScript?<br></p>
-<p>Since 1996, multiple versions of JavaScript have appeared. For a long
+Are these the new names of JavaScript?<br>
+Since 1996, multiple versions of JavaScript have appeared. For a long
 time, the stable version supported by all major browsers deployed on
 computers and smartphones was <b>EcmaScript version 5 from 2010</b>, but in
 2015, a new version known first as EcmaScript 6 or ES 2015 came out with
@@ -2581,38 +2592,42 @@ the standards group responsible for vetting and approving different
 versions of the language. In June 2015, ECMA International approved the
 6th edition of the language. The name, ES2015, was used because the
 latest version of JavaScript is identified as the 2015 version of
-ECMAScript (the alternative name for JavaScript). 
-<a href="https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning">
-Read this blog post about all these naming incongruities!</a></p>
+ECMAScript (the alternative name for JavaScript). [Read this blog post
+about all these naming
+incongruities!](https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning)</p>
 
-<p>At the beginning, ES2015 was referred to as ES6 and before that,
+At the beginning, ES2015 was referred to as ES6 and before that,
 Harmony. Moving forward, ES suffixed with the year of the latest
 approved standard is the naming convention. The next version was
-called&hellip; ES2016, etc.!</p>
-<p>Browser vendors do not wait that ECMA standardizes a version as they
+called&hellip; ES2016, etc.!
+Browser vendors do not wait that ECMA standardizes a version as they
 start implementing it during the standardization process, which can take
 months or years (they also contribute to the standardization process all
-along its life cycle).</p>
-<p>The new open development process adopted by the ECMA TC39 committee
+along its life cycle).
+
+The new open development process adopted by the ECMA TC39 committee
 decided that every year, a new version will occur. This annual
-publication rate has been effective since 2015.</p>
-<p>The current edition of the ECMA-262 standard is <b>the 13th edition,
-published in June 2022 and is known as ES2022</b>.</p>
-<p><b>Beware</b>: even on recent Web browsers the whole supported feature
+publication rate has been effective since 2015.
+
+The current edition of the ECMA-262 standard is <b>the 13th edition,
+published in June 2022 and is known as ES2022</b>.
+
+<b>Beware</b>: even on recent Web browsers the whole supported feature
 sets of the latest versions are generally not completely implemented, as
-it takes time for browser vendors to follow the standards!</p>
+it takes time for browser vendors to follow the standards!
 
 <h4><b>Current support for ES2020/ 11th version (June 2020):</b></h4>
 
-<p>There is no easy-to-read table of current browser global support, but
+There is no easy-to-read table of current browser global support, but
 caniuse.com can be used to check feature by feature which browsers
-support them. For example, 
-<a href="https://caniuse.com/mdn-javascript_classes_private_class_fields">
-this link shows the support for the new &quot;javascript private class fields&quot;
-feature</a>. Up to date browsers usually support more than 90% of the features from
+support them. For example, [this link shows the support for the new
+&quot;javascript private class fields&quot;
+feature](https://caniuse.com/mdn-javascript_classes_private_class_fields).
+
+Up to date browsers usually support more than 90% of the features from
 the version corresponding to the previous year. For example, in 2020,
 there is an good support for ES2019, while certain features from ES2020
-won&apos;t be implemented before some months.</p>
+won&apos;t be implemented before some months.
 
 <h4>Which version will we learn?</h4>
 
@@ -2711,7 +2726,7 @@ post your comments/observations/questions or share your creations.
   alt="The Best Way to Learn JavaScript." />
 </p>
 
-So, what is the best method for learning JavaScript?
+So, what it the best method for learning JavaScript?
 
 When you are a complete beginner, I will recommend to look at examples,
 tweak them, change small things, try to understand how the syntax looks
@@ -2828,9 +2843,8 @@ Because, this one: the &quot;function-plot&quot; JavaScript library, is using
 internally another one you must include also in the document. What I
 propose is that we will start looking at this example. The best way is
 to click on &quot;Edit on CodePen&quot; label here, it will open the code in the
-CodePen.io online editor. And&hellip; just look at the HTML part here. 
-
-Okay, we can just look at the HTML part and zoom in a little bit. What do we
+CodePen.io online editor. And&hellip; just look at the HTML part here. Okay,
+we can just look at the HTML part and zoom in a little bit. What do we
 see? We can see that it uses 2 libraries here between &lt;script&gt; and
 &lt;/script&gt; elements. This is how we can insert in the document an
 external JavaScript file. In that case, it&apos;s a remote JavaScript file
@@ -2889,9 +2903,8 @@ color, let&apos;s make it pink&hellip; Look at the result: I&apos;ve got 2 diffe
 functions that have been plotted in my graph. I can, instead of using
 this, I can maybe plot x2 (x square 2), like this, okay. It should work.
 Ok, we can see a little bit of it here. Maybe we will change the domain,
-so instead of stopping at 1, we go to 10. Here we go! 
-
-And if we look at the values, we see the x square function that is a bit better, and if we
+so instead of stopping at 1, we go to 10. Here we go! And if we look at
+the values, we see the x square function that is a bit better, and if we
 just plot it for x=0 to x=2&hellip; &hellip;In that case, i&apos;ve got another
 scale for looking at the functions. In this first example, you saw how
 to use an external library, what is the syntax to call a function, and
@@ -2930,8 +2943,7 @@ During module 1, we give you some basics:
 -   In further modules, we will be revisiting the examples,
     and discussing them in greater detail and with fuller explanations.
 
-<h4>SECOND: take some time to carefully read the sections titled &quot;What 
-you&apos;ve learnt / let&apos;s detail &hellip;.&quot;</h4>
+<h4>SECOND: take some time to carefully read the sections titled &quot;What you&apos;ve learnt / let&apos;s detail &hellip;.&quot;</h4>
 
 During the course, we provide extra &quot;reference pages&quot; that detail some
 important parts of the language. For example, in a later section, we
@@ -2946,20 +2958,19 @@ button) and try to guess where the function is specified, where the
 range for the x and y values is set, etc. Notice that you can use your
 mouse wheel to zoom in/out the function plot.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 92. javascript detailed timeline (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 92. use javascript graph d3.js (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image092.png?raw=true"
   style="width:50%"
-  title="JavaScript detailed timeline"
-  alt="JavaScript detailed timeline." />
+  title=" "
+  alt="." />
 </p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ">CodePen: JS Graph</a></h6>
 
-https://codepen.io/w3devcampus/pen/PpYpjJ
+<p>By looking at this example (HTML and JS code), you note a few things:</p>
 
-By looking at this example (HTML and JS code), you note a few things:
-
-Two lines in the HTML code that correspond to the inclusion in the
-document of some external JavaScript code:
+<p>Two lines in the HTML code that correspond to the inclusion in the
+document of some external JavaScript code:</p>
 
 ```
 1.  &lt;script src=&quot;https://d3js.org/d3.v3.min.js&quot;&gt;&lt;/script&gt;
@@ -3049,18 +3060,18 @@ you tweaked). They are in bold in the source code we saw earlier:
 
 ```
 1.  {
-2.    <b>target</b>: &apos;#myFunction&apos;,
-3.    <b>data</b>: &lbrack;{
-4.    fn: &apos;sin(x)&apos;,
-5.    color: &apos;red&apos;
+2.  <b>target</b>: &apos;#myFunction&apos;,
+3.  <b>data</b>: &lbrack;{
+4.  fn: &apos;sin(x)&apos;,
+5.  color: &apos;red&apos;
 6.  }&rbrack;,
-7.    <b>grid</b>: true,
-8.    <b>yAxis</b>: {
-9.      domain: &lbrack;-1, 1&rbrack;
-10.   },
-11.   <b>xAxis</b>: {
-12.     domain: &lbrack;0, 2&ast;Math.PI&rbrack;
-13.   }
+7.  <b>grid</b>: true,
+8.  <b>yAxis</b>: {
+9.  domain: &lbrack;-1, 1&rbrack;
+10. },
+11. <b>xAxis</b>: {
+12. domain: &lbrack;0, 2&ast;Math.PI&rbrack;
+13. }
 14. }
 ```
 
@@ -3077,8 +3088,8 @@ properties/values inside, separated by a comma. Here is a simple object:
 
 ```
 1.  {
-2.    givenName: &quot;Michel&quot;,
-3.    familyName: &quot;Buffa&quot;
+2.  givenName: &quot;Michel&quot;,
+3.  familyName: &quot;Buffa&quot;
 4.  }
 ```
 
@@ -3175,12 +3186,12 @@ cos(x) to our example, with a different color:
 <p align="center" width="100%">
 <img src="./images/image094.png?raw=true"
   style="width:65%"
-  title="JavaScript detailed timeline"
-  alt="JavaScript detailed timeline." />
+  title=""
+  alt="." />
 </p>
 <!-- ![](./images/image094.png){width="6.5in" height="3.18125in"} -->
 
-https://codepen.io/w3devcampus/pen/KWPyeX
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KWPyeX">CodePen: JS Graph, #2</a></h6>
 
 <h4>Conclusion</h4>
 
@@ -3256,7 +3267,7 @@ We have already seen three examples in previous parts of this week&apos;s
 course material.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 95.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 95. update html using javascript (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image095.png?raw=true"
   style="width:65%"
@@ -3265,65 +3276,60 @@ course material.
 </p>
 <!-- ![](./images/image095.png){width="6.5in" height="2.9611111111111112in"} -->
 
-https://codepen.io/w3devcampus/pen/pREjaE
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE">CodePen: JS &amp; HTML</a></h6>
 
-This first example used <b>the selector API</b> for selecting a particular
+<p>This first example used <b>the selector API</b> for selecting a particular
 element in the document (the main title) and <b><i>the DOM API</i></b> for
-modifying its content.
-
-An API is an <b><i>application programming interface</i></b>. In the case of
+modifying its content.</p>
+<p>An API is an <b><i>application programming interface</i></b>. In the case of
 JavaScript, the DOM API is implemented natively by the browser, and you
 can call several functions/methods or access properties of the DOM:  an
-object that represents the document (the Web page). 
-
-It uses <b>the selector API</b> to target a particular part of the DOM (in
+object that represents the document (the Web page).</p>
+<p>It uses <b>the selector API</b> to target a particular part of the DOM (in
 our case, the main title of the page), the HTML element with
 an id attribute equal to &quot;mainTitle&quot;. The selector API uses the same
 syntax as CSS to select elements in the document. In our case,
 &quot;#mainTitle&quot; is a selector value that means &quot;the element whose id is
-equal to mainTitle&quot;.
+equal to mainTitle&quot;.</p>
 
-var title = document.querySelector(&quot;#mainTitle&quot;);
+<pre><code>var title = document.querySelector(&quot;#mainTitle&quot;);</code></pre>
 
-It uses <b>the DOM API</b> to change the HTML content of the selected
-element:
+<p>It uses <b>the DOM API</b> to change the HTML content of the selected
+element:</p>
 
-title.innerHTML = &quot;This new title has been changed from JavaScript!&quot;;
+<pre><code>title.innerHTML = &quot;This new title has been changed from JavaScript!&quot;;</code></pre>
 
-<b>It listens to click events</b> in order to call
-the changeTitle() function when we click on the button:
+<p><b>It listens to click events</b> in order to call
+the changeTitle() function when we click on the button:</p>
 
-1.  &lt;button <b>onclick=&quot;changeTitle();</b>&quot;&gt;Click me to change the
-    title of the page&lt;/button&gt;
+<pre><code>1.  &lt;button <b>onclick=&quot;changeTitle();</b>&quot;&gt;Click me to change the
+    title of the page&lt;/button&gt;</code></pre>
 
-And it executes the whole action (changing the title text) in<b> a
+<p>And it executes the whole action (changing the title text) in<b> a
 function</b> (a block of code that is executed only when we call it by
-adding a parenthesis after its name, followed by a semi colon):
+adding a parenthesis after its name, followed by a semi colon):</p>
 
-```
-<b>function changeTitle()</b> {
+<pre><code><b>function changeTitle()</b> {
 var title = document.querySelector(&quot;#mainTitle&quot;);
 title.innerHTML = &quot;This new title has been changed from JavaScript!&quot;;
-}
-```
+}</code></pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 96.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 96. example of interactivity between javascript & html (xxx) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image096.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Example of interactivity between javascript &amp; html"
+  alt="Example of interactivity between javascript &amp; html." />
 </p>
 <!-- ![](./images/image096.png){width="6.5in" height="3.071527777777778in"} -->
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN">CodePen: Interactivity between JS &amp; HTML</a></h6>
 
-https://codepen.io/w3devcampus/pen/bgwVvN
-
-The second example is nearly the same except that we changed the name of
+<p>The second example is nearly the same except that we changed the name of
 the function, and instead of using the DOM API to update the text
 content of the main title, <b>we use its style property to change its
 look and feel. Using the style property is a way of altering the CSS
-property values of this HTML element.</b>
+property values of this HTML element.</b></p>
 
 ```
 function changeTitleCSSStyle() {
@@ -3380,23 +3386,20 @@ security reasons it cannot be run inside this course page</b>).
   alt="." />
 </p>
 <!-- ![](./images/image097.png){width="6.5in" height="2.0819444444444444in"} -->
-
-https://codepen.io/w3devcampus/pen/LYVgyxE
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE">CodePen: Geolocation Mapping</a></h6>
 
 <h4>3) work with remote data / speak with a remote HTTP Web server</h4>
 
-You can also download or upload data from your browser to a remote Web
+<p>You can also download or upload data from your browser to a remote Web
 server. When this is done from JavaScript the popular term to describe
 such operations is &quot;AjaX&quot; (Asynchronous JAvascript and Xml), even
 though XML is not used in any examples you&apos;ll see in this course (XML
 is a language for describing structured data that was very popular a few
-years ago).
-
-Here is an example that will display the current and past members of
-famous rock bands:
-
+years ago).</p>
+<p>Here is an example that will display the current and past members of
+famous rock bands:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 98.  (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 98. codepen example, band name (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.png?raw=true"
   style="width:65%"
@@ -3405,12 +3408,18 @@ famous rock bands:
 </p>
 <!-- ![](./images/image098.png){width="6.5in" height="2.9611111111111112in"} -->
 
-https://codepen.io/w3devcampus/pen/wJwpKq
-
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJwpKq">CodePen: Database Lookup</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-3">1.3.3 Where to put JavaScript code</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 99a. where to put javascript code (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image099a.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 <h4>JavaScript code can be located in different places</h4>
 
 1.  In your HTML code between &lt;script&gt; and &lt;/script&gt; tag
@@ -3456,7 +3465,7 @@ Here is this first example on CodePen:
 </p>
 <!-- ![](./images/image099.png){width="6.5in" height="3.2777777777777777in"} -->
 
-https://codepen.io/w3devcampus/pen/ZLBPpY
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY">CodePen: JS in HTML</a></h6>
 
 Old JavaScript examples may use a type attribute:
 &lt;script <b>type=&quot;text/javascript&quot;</b>&gt;.
@@ -3497,7 +3506,7 @@ Here is this second example on CodePen:
 </p>
 <!-- ![](./images/image100.png){width="6.5in" height="3.1881944444444446in"} -->
 
-https://codepen.io/w3devcampus/pen/apBMYJ
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/apBMYJ">CodePen: Plotting Functions in JS</a></h6>
 
 <h4>Example #2: put the JavaScript code in local .js files</h4>
 
@@ -3558,25 +3567,23 @@ Example that uses more than one JavaScript file:
 It is good practice to locate CSS files in a css subfolder, and
 JavaScript files in a js subfolder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 101. a typical html/css/js project folder (94) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 101. a typical html/css/js project folder structure (95) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image101.jpeg?raw=true"
   style="width:50%"
-  title="A typical HTML/CSS/JS proejct folder"
-  alt="A typical HTML/CSS/JS proejct folder." />
+  title="A typical HTML/CSS/JS project folder structure"
+  alt="A typical HTML/CSS/JS project folder structure." />
 </p>
-<!-- (./images/image101.jpeg) {width="5.0in" height="1.2621358267716536in"} -->
 
-<p>In this example, we have just one CSS file and one JavaScript file:</p>
+In this example, we have just one CSS file and one JavaScript file:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 102. a typical html/css/js project folder expanded (95) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 102. a typical html/css/js project folder, folder expanded (96) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.jpeg?raw=true"
   style="width:50%"
-  title="A typical HTML/CSS/JS proejct folder expanded"
-  alt="A typical HTML/CSS/JS proejct folder expanded." />
+  title="A typical HTML/CSS/JS project folder, folder expanded"
+  alt="A typical HTML/CSS/JS project folder, folder expanded." />
 </p>
-<!-- !(./images/image102.jpeg){width="5.0in" height="1.4493766404199475in"} -->
 
 Contents of the index.html file:
 
@@ -3642,23 +3649,28 @@ made by others is really common when working on JavaScript projects.
 
 Here is a running example that uses the paperJS library, included using
 an external URL:
+
+<!-- ![](./images/image103.png){width="6.5in" height="2.075in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 103. codepen example using paperjs library (96) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 103.  (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image102.jpeg?raw=true"
+<img src="./images/image103.png?raw=true"
   style="width:65%"
-  title="Example CodePen using paperJS library"
-  alt="Example CodePen using paperJS library." />
+  title=""
+  alt="." />
 </p>
-
-![](./images/image103.png){width="6.5in" height="2.075in"}
-
-https://codepen.io/w3devcampus/pen/VPmNWg
-
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VPmNWg">CodePen: Example paperJS</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 103b. how to debut javascript (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image103b.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 Let&apos;s introduce what is debugging.
 
 <h4>You will make errors!</h4>
