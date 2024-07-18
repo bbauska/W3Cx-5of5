@@ -41,12 +41,12 @@ output:
 <h3>Course Information</h3>
 
 <blockquote>
-  <h4><a href="#chb-01">b01. Welcome to JavaScript Introduction</a></h4>
-  <h4><a href="#chb-02">b02. Course forums</a></h4>
-  <h4><a href="#chb-03">b03. Course tools</a></h4>
-  <h4><a href="#chb-04">b04. Why accessibility is important</a></h4>
-  <h4><a href="#chb-05">b05. Why internationalization is important</a></h4>
-  <h4><a href="#cha-06">b06. About W3C and the Web</a></h4>
+  <h4><a href="#cha-01">a01. Welcome to JavaScript Introduction</a></h4>
+  <h4><a href="#cha-02">a02. Course forums</a></h4>
+  <h4><a href="#cha-03">a03. Course tools</a></h4>
+  <h4><a href="#cha-04">a04. Why accessibility is important</a></h4>
+  <h4><a href="#cha-05">a05. Why internationalization is important</a></h4>
+  <h4><a href="#cha-06">a06. About W3C and the Web</a></h4>
 </blockquote>
 
 <h3>Module 1: Introduction to JavaScript</h3>
