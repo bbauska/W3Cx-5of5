@@ -59,7 +59,7 @@ output:
   <h4><a href="#ch1-06">1.06 Simple JavaScript examples to play with</a></h4>
 </blockquote>
 
-<h3>Week 2: Adding Interactivity to HTML Documents</h3>
+<h3>Module 2: Adding Interactivity to HTML Documents</h3>
 <blockquote>
   <h4><a href="#ch2-01">2.01 Intro to Module 2: Adding Interactivity to HTML Documents</a></h4>
   <h4><a href="#ch2-02">2.02 Conditional Statements, Loops and Logical Operators</a></h4>
@@ -137,60 +137,6 @@ animated images, and much more.</p>
     practice, let&apos;s develop a mini contact manager that load/save its
     data using the JSON format.
 
-<h3>Table of Contents -- <b>W3Cx-5of5-JS.0x</b> -- <b>JavaScript Introduction</b></h3>
-
-<h3 id="syllabus">Syllabus</h3>
-
-<h3 id="course-info">Course information</h3>
-
-<ol type="a">
-  <li><a href="welcome">Welcome to &quot;JavaScript Introduction&quot;</a></li>
-  <li><a href="forums">Course forums</a></li>
-  <li><a href="tools">Course tools</a></li>
-  <li><a href="about">About W3C and the Web</a></li>
-</ol>
-
-<h3 id="ch1">Module 1: Introduction to JavaScript</h2>
-
-1.  Introduction -- Module 1: Intro to JS
-2.  JavaScript, HTML and CSS
-3.  JavaScript overview
-4.  Your first HTML/CSS/JS page
-5.  Variables, values, function, operators and expressions
-6.  Simple JavaScript examples to play with
-
-<h3 id="ch2">Module 2: Adding interactivity to HTML documents</h3>
-
-1.  Introduction -- Module 2: Adding interactivity to HTML documents
-2.  Conditional statements, loops and logical operators
-3.  Functions (part2): callbacks
-4.  Handling events
-5.  The DOM API
-6.  Let&apos;s write a small game
-
-<h3 id="ch3">Module 3: Playing with HTML5 APIs</h3>
-
-1.  Introduction -- Module 3: Playing with HTML5 APIs
-2.  Arrays (part 2); iterators
-3.  HTML5 multimedia and JavaScript API
-4.  Displaying a map with the geolocation API
-5.  Playing sound samples and music
-
-<h3 id="ch4">Module 4: Structuring data</h3>
-
-1.  Introduction -- Module 4: Structuring data
-2.  Objects: properties and methods
-3.  Creating multiple objects
-4.  Improving the game with classes
-
-<h3 id="ch5">Module 5: Working with forms</h3>
-
-1.  Introduction -- Module 5: Working with forms
-2.  Built-in JavaScript objects
-3.  HTML5 tables, forms and input fields
-4.  The JSON notation
-5.  A small application
-6.  Where to from here?
 
 <p>This course is designed for anyone who is comfortable with programming
 concepts. No prerequisites are required though we encourage you to
