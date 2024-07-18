@@ -32,54 +32,69 @@ output:
   alt="W3Cx JS.0x logo." />
 </p>
 
-## [Table of Contents](#table-of-contents)
+<p id="table-of-contents"></p>
 
-### **About W3C and the Web**
->#### - [**About W3C and the Web**](#cha-1)
->#### - [**Why accessibility is important**](#cha-2)
->#### - [**Why internationalization is important**](#cha-3)
+<h2><a href="#table-of-contents">Table of Contents - W3Cx-5of5-JS.0x - JavaScript Introduction</a></h2>
 
-### **Course information**
->#### * [**Welcome to "HTML5 and CSS Fundamentals"**](#chb-1)
->#### * [**Course practical information**](#chb-2)
->#### * [**Course tools**](#chb-3)
+<h2>Syllabus</h2>
 
-### Module 1: Introduction to JavaScript
->#### 1.1 [**Introduction - Module 1: Intro to JS**](#ch1-1-1)
->#### 1.2 [**JavaScript, HTML and CSS**](#ch1-2-1)
->#### 1.3 [**JavaScript Overview**](#ch1-3-1)
->#### 1.4 [**Your first HTML/CSS/JS page**](#ch1-4-1)
->#### 1.5 [**Variables, values, functions, operators and expressions**](#ch1-5-1)
->#### 1.6 [**Simple JavaScript examples to play with**](#ch1-6-1)
+<h3>Course Information</h3>
 
-### Module 2: Adding interactivity to HTML documents
->#### 2.1 [**Introduction - Module 2: Adding interactivity to HTML documents**](#ch2-1-1)
->#### 2.2 [**Conditional statements, loops and logical operators**](#ch2-2-1)
->#### 2.3 [**Functions and callbacks**](#ch2-3-1)
->#### 2.4 [**Handling events**](#ch2-4-1)
->#### 2.5 [**The DOM API**](#ch2-5-1)
->#### 2.6 [**Let's write a small game**](#ch2-6-1)
+<blockquote>
+  <h4><a href="#chb-01">b01. Welcome to JavaScript Introduction</a></h4>
+  <h4><a href="#chb-02">b02. Course forums</a></h4>
+  <h4><a href="#chb-03">b03. Course tools</a></h4>
+  <h4><a href="#chb-04">b04. Why accessibility is important</a></h4>
+  <h4><a href="#chb-05">b05. Why internationalization is important</a></h4>
+  <h4><a href="#cha-06">b06. About W3C and the Web</a></h4>
+</blockquote>
 
-### Module 3: Playing with HTML5 APIs
->#### 3.1 [**Introduction to Module 3: Playing with HTML5 APIs**](#ch3-1-1)
->#### 3.2 [**Arrays and iterators**](#ch3-2-1)
->#### 3.3 [**HTML5 multimedia and JavaScript**](#ch3-3-1)
->#### 3.4 [**Displaying a map with the Geolocation API**](#ch3-4-1)
->#### 3.5 [**Playing sound samples and music**](#ch3-5-1)
+<h3>Module 1: Introduction to JavaScript</h3>
+<blockquote>
+  <h4><a href="#ch1-01">1.01 Intro Module 1: Introduction to JavaScript</a></h4>
+  <h4><a href="#ch1-02">1.02 JavaScript, HTML and CSS</a></h4>
+  <h4><a href="#ch1-03">1.03 JavaScript Overview</a></h4>
+  <h4><a href="#ch1-04">1.04 Your first HTML/CSS/JS page</a></h4>
+  <h4><a href="#ch1-05">1.05 Variables, values, functions, operators and expressions</a></h4>
+  <h4><a href="#ch1-06">1.06 Simple JavaScript examples to play with</a></h4>
+</blockquote>
 
-### Module 4: Structuring data
->#### 4.1 [**Introduction to Module 4: Structuring data**](#ch4-1-1)
->#### 4.2 [**Objecs: properties and methods**](#ch4-2-1)
->#### 4.3 [**Creating multiple objects**](#ch4-3-1)
->#### 4.4 [**Organizing the code in separate files**](#ch4-4-1)
+<h3>Week 2: Adding Interactivity to HTML Documents</h3>
+<blockquote>
+  <h4><a href="#ch2-01">2.01 Intro to Module 2: Adding Interactivity to HTML Documents</a></h4>
+  <h4><a href="#ch2-02">2.02 Conditional Statements, Loops and Logical Operators</a></h4>
+  <h4><a href="#ch2-03">2.03 Functions and Callbacks</a></h4>
+  <h4><a href="#ch2-04">2.04 Handling events</a></h4>
+  <h4><a href="#ch2-05">2.05 The DOM API</a></h4>
+  <h4><a href="#ch2-06">2.06 Let's write a small game</a></h4>
+</blockquote>
 
-### Module 5: Working with forms
->#### 5.1 [**Introduction to Module 5: Working with forms**](#ch5-1-1)
->#### 5.2 [**Built-in JavaScript objects**](#ch5-2-1)
->#### 5.3 [**HTML5 tables, forms and input fields**](#ch5-3-1)
->#### 5.4 [**The JSON notation**](#ch5-4-1)
->#### 5.5 [**A small application**](#ch5-5-1)
->#### 5.6 [**Where to from here?**](#ch5-6-1)
+<h3>Module 3: Playing with HTML5 APIs</h3>
+<blockquote>
+  <h4><a href="#ch3-01">3.01 Intro to Module 3: Playing with HTML5 APIs</a></h4>
+  <h4><a href="#ch3-02">3.02 Arrays and Iterators</a></h4>
+  <h4><a href="#ch3-03">3.03 HTML5 Multimedia and JavaScript</a></h4>
+  <h4><a href="#ch3-04">3.04 Displaying a map with the Geolocation API</a></h4>
+  <h4><a href="#ch3-05">3.05 Playing sound samples and music</a></h4>
+</blockquote>
+
+<h3>Module 4: Structuring Data</h3>
+<blockquote>
+  <h4><a href="#ch4-01">4.01 Intro Module 4: Structuring Data</a></h4>
+  <h4><a href="#ch4-01">4.02 Objects: properties and methods</a></h4>
+  <h4><a href="#ch4-01">4.03 Creating multiple objects</a></h4>
+  <h4><a href="#ch4-01">4.04 Organizing the code in separate files</a></h4>
+</blockquote>
+
+<h3>Module 5: Working with Forms</h3>
+<blockquote>
+  <h4><a href="#ch5-01">5.01 Intro to Module 5: Working with Forms</a></h4>
+  <h4><a href="#ch5-01">5.02 Built-in JavaScript Objects</a></h4>
+  <h4><a href="#ch5-01">5.03 HTML5 tables, forms and input fields</a></h4>
+  <h4><a href="#ch5-01">5.04 The JSON notation</a></h4>
+  <h4><a href="#ch5-01">5.05 A small application</a></h4>
+  <h4><a href="#ch5-01">5.06 Where to from here?</a></h4>
+</blockquote>
 
 <a href="https://github.com/bbauska/W3Cx-5of5-Introduction-JavaScript.git" 
 target="_blank" rel="noopener noreferrer">Introduction JavaScript - git</a>
@@ -814,7 +829,7 @@ standards. The next video, created in partnership with Microsoft,
 explains why standards are important to maintain a royalty-free, Open
 Web Platform, as well as to help shape the Web of the future.
 
-<h4>Why accessibility is important</h4>
+<h4 id="chb-04">Why accessibility is important</h4>
 
 The power of the Web is in its universality. Access by everyone
 regardless of disability is an essential aspect.
@@ -944,7 +959,7 @@ description of the link target.
 > &lt;/a&gt;
 ```
 
-<h4>Why internationalization is important</h4>
+<h4 id="chb-05">b5. Why internationalization is important</h4>
 
 Access to the Web for all has been a fundamental concern and goal of the
 W3C since the beginning. It is easy to overlook the needs of people from
