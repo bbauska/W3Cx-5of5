@@ -222,15 +222,15 @@ HTML5, CSS and JavaScript.</p>
 
 <h4>The W3C FEWD program is composed of 5 courses:</h4>
 
-1.  [<b>CSS Basics</b>](https://www.edx.org/course/css-basics)
-
-2.  [<b>HTML5 and CSS Fundamentals</b>](https://www.edx.org/course/html5-and-css-fundamentals)
-
-3.  [<b>HTML5 Coding Essentials and Best Practices</b>](https://www.edx.org/course/html5-coding-essentials-and-best-practices)
-
-4.  [<b>HTML5 Apps and Games</b>](https://www.edx.org/course/html5-apps-and-games)
-
-5.  <b>This course</b>: [<b>JavaScript Introduction<b>](https://www.edx.org/course/javascript-introduction)
+<ol>
+  <li><a href="https://www.edx.org/course/css-basics"><b>CSS Basics</b></a></li>
+  <li><a href="https://www.edx.org/course/html5-and-css-fundamentals"><b>HTML5 and CSS Fundamentals</b></a></li>
+  <li><a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">
+    <b>HTML5 Coding Essentials and Best Practices</b></a></li>
+  <li><a href="https://www.edx.org/course/html5-apps-and-games"><b>HTML5 Apps and Games</b></a></li>
+  <li><b>This course</b>: <a href="https://www.edx.org/course/javascript-introduction">
+    <b>JavaScript Introduction</b></a></li>
+</ol>
 
 <p><b>To get a W3C FEWD professional certificate, you must successfully pass 
 and receive a Verified Certificate in the five courses above</b>.</p>
