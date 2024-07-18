@@ -61,7 +61,7 @@ output:
 
 <h3>Module 2: Adding Interactivity to HTML Documents</h3>
 <blockquote>
-  <h4><a href="#ch2-01">2.01 Intro to Module 2: Adding Interactivity to HTML Documents</a></h4>
+  <h4><a href="#ch2-01">2.01 Intro Module 2: Adding Interactivity to HTML Documents</a></h4>
   <h4><a href="#ch2-02">2.02 Conditional Statements, Loops and Logical Operators</a></h4>
   <h4><a href="#ch2-03">2.03 Functions and Callbacks</a></h4>
   <h4><a href="#ch2-04">2.04 Handling events</a></h4>
@@ -71,7 +71,7 @@ output:
 
 <h3>Module 3: Playing with HTML5 APIs</h3>
 <blockquote>
-  <h4><a href="#ch3-01">3.01 Intro to Module 3: Playing with HTML5 APIs</a></h4>
+  <h4><a href="#ch3-01">3.01 Intro Module 3: Playing with HTML5 APIs</a></h4>
   <h4><a href="#ch3-02">3.02 Arrays and Iterators</a></h4>
   <h4><a href="#ch3-03">3.03 HTML5 Multimedia and JavaScript</a></h4>
   <h4><a href="#ch3-04">3.04 Displaying a map with the Geolocation API</a></h4>
@@ -88,7 +88,7 @@ output:
 
 <h3>Module 5: Working with Forms</h3>
 <blockquote>
-  <h4><a href="#ch5-01">5.01 Intro to Module 5: Working with Forms</a></h4>
+  <h4><a href="#ch5-01">5.01 Intro Module 5: Working with Forms</a></h4>
   <h4><a href="#ch5-01">5.02 Built-in JavaScript Objects</a></h4>
   <h4><a href="#ch5-01">5.03 HTML5 tables, forms and input fields</a></h4>
   <h4><a href="#ch5-01">5.04 The JSON notation</a></h4>
@@ -847,11 +847,12 @@ implement and check right away, even when you are new to this topic. Two
 example excerpts are provided below on this page but you can find more
 tips and information from W3C/WAI:
 
--   [Tips for Getting Started with Web
-    Accessibility](https://www.w3.org/WAI/gettingstarted/tips/)
-
--   [Easy Checks - A First Review of Web
-    Accessibility](https://www.w3.org/WAI/eval/preliminary)
+<ul>
+  <li><a href="https://www.w3.org/WAI/gettingstarted/tips/">
+    Tips for Getting Started with Web Accessibility</a></li>
+  <li><a href="https://www.w3.org/WAI/eval/preliminary">
+    Easy Checks - A First Review of Web Accessibility</a></li>
+</ul>
 
 <h4>Example 1: page title</h4>
 
@@ -869,13 +870,9 @@ pages.
 
 ```
 > &lt;head&gt;
->
 > &hellip;
->
 >    &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
->
 > &hellip;
->
 > &lt;/head&gt;
 ```
 
@@ -898,9 +895,8 @@ description of the link target.
 ```
 > &lt;a href=&quot;https://w3.org&quot;&gt;
 >
->   
-> &lt;img src=&quot;https://w3.org/Icons/w3c_home.png&quot; width=&quot;72&quot; height=&quot;48&quot; alt=&quot;W3C
-> Web site&quot;&gt;
+>   &lt;img src=&quot;https://w3.org/Icons/w3c_home.png&quot; width=&quot;72&quot; height=&quot;48&quot; alt=&quot;W3C
+>     Web site&quot;&gt;
 >
 > &lt;/a&gt;
 ```
@@ -1070,7 +1066,7 @@ internationalization problems with your page, this checker explains what
 they are and what to do about it.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-1-1">1.1.1 Introduction - Module 1: Intro to JavaScript (1:46)</h3>
+<h3 id="ch1-01">1.01 Introduction - Module 1: Intro to JavaScript (1:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hello everyone, welcome to the wonderful world of JavaScript!
@@ -1100,7 +1096,7 @@ interactive graphic tool that will use many different features from
 JavaScript, HTML and CSS. Let's start having fun with JavaScript, now
 :-)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-1-2">1.1.2 Module 1 outline</h3>
+<h3 id="ch1-02">1.02 Module 1 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 If you thought that a Web browser could only display HTML documents, you
 were mistaken! ;)
@@ -1184,11 +1180,11 @@ and end, which part is the title, which things should be emphasized and
 so on.
 
 There are many ways to markup a document, but HTML borrows a technique
-from an ancestor language, SGML ([Standard Generalized Markup
-Language](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language)),
-which uses angle brackets (&quot;&lt;&quot; and &quot;&gt;&quot;) to separate the
-annotations from the regular text.  In HTML these annotations are called
-&quot;tags&quot;.
+from an ancestor language, SGML 
+(<a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language">Standard Generalized Markup 
+Language</a>), which uses angle brackets (&quot;&lt;&quot; and &quot;&gt;&quot;) 
+to separate the annotations from the regular text.  In HTML these annotations 
+are called &quot;tags&quot;.
 
 For example, consider the following chunk of HTML code (note: you can
 edit the source code and see the resulting Web page updating in real
@@ -1223,10 +1219,12 @@ text, for most purposes it would still read the same:
 
 A Tale of Two Cities
 
-> It was the best of times, it was the worst of times . . . .
-> . . .
-> . . . it is a far, far better rest
-> that I go to than I have ever known.
+<blockquote>
+  It was the best of times, it was the worst of times . . . .
+  . . .
+  . . . it is a far, far better rest
+  that I go to than I have ever known.
+</blockquote>
 
 Once you know that everything in angle brackets is &quot;meta-information&quot;,
 it gives you a lot of flexibility. You can put a lot of different things
@@ -1286,17 +1284,17 @@ Here is another, more generic example:
 
 It&apos;s time to write your first HTML code :-)
 
-You can use a source code editor like [Sublime
-Text](https://www.sublimetext.com/), [Atom](https://atom.io/), [Brackets](http://brackets.io/) or
+You can use a source code editor like <a href="https://www.sublimetext.com/">Sublime Text</a>, 
+<a href="https://atom.io/">Atom</a>,<a href="http://brackets.io/">brackets</a> or
 any lightweight text editor. You can also use more &quot;professional&quot;
-tools such as [Visual Studio
-Code](https://code.visualstudio.com/), [NetBeans](https://netbeans.org/), [Eclipse](https://eclipse.org/downloads/), [WebStorm](https://www.jetbrains.com/webstorm),
-etc.
+tools such as <a href="https://code.visualstudio.com/">Visual Studio Code</a>, 
+<a href="https://netbeans.org/">NetBeans</a>, <a href="https://eclipse.org/downloads/">Eclipse</a>
+<a href="https://eclipse.org/downloads/WebStorm">WebStorm</a>, 
+<a href="https://www.jetbrains.com/webstorm">jetbrains, etc.
 
 To try out the simple examples from this course, I&apos;d suggest using an
-online IDE such
-as [JSBin](https://jsbin.com/), [CodePen](https://codepen.io/), [Plunker](https://plnkr.co/),
-etc.
+online IDE such as <a href="https://jsbin.com/">JSBin</a>, 
+<a href="https://codepen.io/">CodePen</a>, <a href="https://plnkr.co/">Plunker</a>, etc.
 
 During the course, we will show you how to test out simple code snippets
 in online IDEs, but we will also teach you how to organize your code
@@ -1304,16 +1302,15 @@ with folders and files.
 
 The next lesson shows how you can use JSBin, CodePen, and SublimeText in
 order to test the HTML code provided earlier in this section.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-1">1.2.1 Live coding video: using the course&apos;s tools (6:25)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 35.  (31) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. jsbin live coding (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image034.png?raw=true"
+<img src="./images/image035.png?raw=true"
   style="width:50%"
-  title=" "
-  alt="." />
+  title="JSBin live coding"
+  alt="JSBin live coding." />
 </p>
 
 In this lesson, I will show you how to try and tweak the HTML example
@@ -1326,29 +1323,27 @@ result of your modifications.
 In the second time, I will show you how to use the regular source code
 editor for editing HTML5 files directly on your hard disk.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 36.  (32) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 36. jsbin template and my home page (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image036.png?raw=true"
   style="width:50%"
-  title=" "
-  alt="." />
+  title="JSBin template and My Home Page"
+  alt="JSBin template and My Home Page." />
 </p>
 
-In order to use the JSBin.com tool, that is the first one I recommend,
-you will open a new tab with your browser and you go to
-<http://jsbin.com>.
-
+<p>In order to use the JSBin.com tool, that is the first one I recommend,
+you will open a new tab with your browser and you go to <a href="http://jsbin.com">JSBin</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 37./38  (32) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 37/38. jsbin create my home page, who am i? (32) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image037.png?raw=true"
   style="width:35%"
-  title=" "
-  alt="." />
+  title="JSBin live web site, My Home Page"
+  alt="JSBin live web site, My Home Page." />
 <img src="./images/image038.png?raw=true"
   style="width:35%"
-  title=" "
-  alt="." />
+  title="JSBin, My Home Page and Who Am I?"
+  alt="JSBin, My Home Page and Who Am I?" />
 </p>
 
 For the moment, we are going to use only HTML code. If you want to try
@@ -1358,18 +1353,18 @@ because then you can modify the content, you can change the different
 values, the different elements... You can type your own text or your own
 HTML elements and attributes, and so on. You can also save your work
 using the &quot;Save snapshot&quot; menu, and if you created an account, it&apos;s
-completely free. And you will be able to find back your work the next
-days and so on. You can share the URL; you can share the Web addresses
-of your work with friends. They won&apos;t to be able to break what you&apos;ve
-done because it will be create a new version or clone your own work so
-that your friends can work on what you&apos;ve done.
+completely free. And you will be able to find your work the next time.
+You can share the URL; you can share the Web addresses of your work with friends. 
+They won&apos;t to be able to break what you&apos;ve done because it will be 
+create a new version or clone your own work so that your friends can work on 
+what you&apos;ve done.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 39.  (33) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. codepen.io has search engine (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image039.png?raw=true"
   style="width:50%"
-  title=" "
-  alt="." />
+  title="CodePen.io has search engine"
+  alt="CodePen.io has search engine." />
 </p>
 
 The other online tool, that is very practical, is codepen.io. This one
@@ -1377,19 +1372,19 @@ is maybe nicer but I think that JSBin is more practical for typing code.
 This one is interesting because it&apos;s got a search engine, and you can
 look for existing examples made by others.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. codepen.io, my home page (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image040.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen.io, My Home Page"
+  alt="CodePen.io, My Home Page." />
 </p>
 
 I just typed &quot;button », and here I can see an example that create
 buttons. I can see the HTML code; CSS code and I can learn by looking at
 these examples.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image041.png?raw=true"
   style="width:50%"
@@ -1404,15 +1399,15 @@ forget to save to create an account also. And here, you can download the
 result for editing that offline if you would like using the &quot;export&quot;
 option (bottom right of screen in 'edit CodePen' mode).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. codepen, export to zip file (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image042.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen, export to zip file"
+  alt="CodePen, export to zip file." />
 </p>
 
-So &quot;Export.zip&quot;. With CodePen, I&apos;ve got a zip file and in the zip
+&quot;Export.zip&quot;. With CodePen, I&apos;ve got a zip file and in the zip
 file, I&apos;ve got index.html here. And if I look at the source, it&apos;s
 exactly the source from the example.
 
@@ -1432,12 +1427,12 @@ free version is ok. You download it. And once it&apos;s installed, you can
 work with it locally. I&apos;m going to show you how to do that. What I
 recommend is that you create a directory somewhere.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 43. live web development using sublime (36) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image043.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Live web development using Sublime"
+  alt="Live web development using Sublime." />
 </p>
 
 Here, I&apos;m creating a directory on my desktop... so, a new directory:
@@ -1448,12 +1443,12 @@ you can name it as you like. &quot;index&quot; is very common for the main page
 of Web site. I then go to the desktop to the « Example 1&quot; directory and
 i save the file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 44. sublime example opened in browser (36) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image044.png?raw=true"
   style="width:60%"
-  title=""
-  alt="." />
+  title="Sublime example opened in browser"
+  alt="Sublime example opened in browser." />
 </p>
 
 And from Sublime Text, you can use the right click &quot;Open in browser&quot;
@@ -1463,12 +1458,12 @@ s' or command s on my Mac. I do &quot;Open in the browser&quot; or I can just
 reload the page, and I can see that I change the content of the HTML
 file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. jsbin, hello w3cx students (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image045.png?raw=true"
   style="width:60%"
-  title=""
-  alt="." />
+  title="JSBin, Hello W3Cx students"
+  alt="JSBin, Hello W3Cx students." />
 </p>
 
 This is how you can work. Or you can also directly open an example you
@@ -1512,12 +1507,12 @@ we presented earlier:
 Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. html, red circle in jsbin (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image046.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="HTML, red circle in JSBin"
+  alt="HTML, red circle in JSBin." />
 </p>
 
 Consider the figure above. It contains a single html element. It turns
@@ -1525,12 +1520,12 @@ out this includes within it the entire content of your html file. If you
 click on the &quot;html&quot; red node, you&apos;ll find that it contains two
 components, a head and a body.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. html tree structure (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image047.png?raw=true"
   style="width:60%"
-  title=""
-  alt="." />
+  title="HTML tree structure"
+  alt="HTML tree structure." />
 </p>
 
 Clicking on each of those will reveal their respective contents. This
@@ -1541,12 +1536,12 @@ surprisingly, the elements contained within a given element are its
 &quot;child&quot; elements. And, yes, children of a common parent are often
 referred to as &quot;siblings&quot;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. html, with head & body (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image048.png?raw=true"
   style="width:60%"
-  title=""
-  alt="." />
+  title="HTML, with head & body"
+  alt="HTML, with head & body." />
 </p>
 
 Thus, in the example above, the top element is the html element, which
@@ -1566,7 +1561,7 @@ a text file?  Well, that&apos;s where &quot;tags&quot; come in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-3">1.2.3 HTML tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. thinking about html tags (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. thinking about html tags (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
 <img src="./images/image049.jpeg?raw=true"
   style="width:20%"
