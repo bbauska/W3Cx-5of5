@@ -4143,7 +4143,7 @@ showdown](https://whatheco.de/2011/02/10/camelcase-vs-underscores-scientific-sho
 
 Constants are variables that cannot be modified after a value has been set.
 
-<b>The naming convention is to use uppercase letters with underscores. </b>
+<b>The naming convention is to use uppercase letters with underscores.</b>
 
 <b>Example: var TIME_LIMIT = 50;</b>
 
@@ -5220,7 +5220,8 @@ equal to the length of the array
 
 ```
 1.  <b>&gt;
-    var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;&rbrack;;</b>
+    var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, 
+	  &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;&rbrack;;</b>
 2.  <b>undefined</b>
 3.  <b>&gt; daysOfWeek.length</b>
 4.  <b>6</b>
@@ -7044,16 +7045,18 @@ values: true and false.
 
 Use of the keywords true and false:
 
+```
 1.  var b = true; 
-
 2.   
-
 3.  var b = false;
+```
 
 A boolean variable should not be enclosed in quotation marks, otherwise
 it becomes a string variable:
 
+```
 1.  var b = &apos;true&apos;; // b is not a boolean but a string
+```
 
 #### Undefined and null values {#undefined-and-null-values .unnumbered}
 
@@ -7061,27 +7064,19 @@ it becomes a string variable:
 
 undefined is returned when a variable has not been assigned:
 
+```
 1.  var foo;
-
 2.  &gt; foo
-
 3.  undefined
-
 4.   
-
 5.  &gt; typeof foo;
-
 6.  &apos;undefined&apos;
-
 7.   
-
 8.  &gt;if (foo === undefined) {
-
 9.      console.log(&apos;The variable foo has no value and is undefined&apos;);
-
 10. }
-
 11. &apos;The variable foo has no value and is undefined&apos;
+```
 
 The above example shows how we can test whether a variable has a value
 (<b>line 8</b> uses a conditional statement).
@@ -7089,18 +7084,13 @@ The above example shows how we can test whether a variable has a value
 The keyword &quot;<b>undefined</b>&quot; is part of the JavaScript language, so you
 can assign the undefined value to a variable:
 
-1.  &gt; var foo = undefined; // equivalent to var foo; without giving any
-    value
-
+```
+1.  &gt; var foo = undefined; // equivalent to var foo; without giving any value
 2.  undefined
-
 3.   
-
 4.  &gt; foo;
-
 5.  undefined
-
- 
+```
 
 var foo; and var foo = undefined; are equivalent but we recommend that
 you use the first version to declare the variable (it is shorter, and
@@ -7110,15 +7100,13 @@ If you try to access a variable that has not been declared before,
 a ReferenceError will be raised. But the typeof operator will return
 &quot;undefined&quot;:
 
+```
 1.  &gt; bar;
-
 2.  ReferenceError
-
 3.   
-
 4.  &gt; typeof bar;
-
 5.  &apos;undefined&apos;
+```
 
 ### Logical operators {#logical-operators .unnumbered}
 
@@ -7144,28 +7132,19 @@ The logical operators are: 
 
 -   <b>&&</b>, <b>&vert;&vert;</b> operators are binary, <b>!</b> is unary. 
 
+```
 1.  var b = !true; 
-
 2.  b; //false
-
 3.   
-
 4.  var b = !!true;
-
 5.  b; //true
-
 6.   
-
 7.  var b = &quot;one&quot;; 
-
 8.  !b;   false // implicit conversion of &quot;one&quot; to a boolean value
-
 9.   
-
-10. var b = &quot;one&quot;; // implicit conversion of &quot;one&quot; to a boolean
-    value
-
+10. var b = &quot;one&quot;; // implicit conversion of &quot;one&quot; to a boolean value
 11. !!b; //true
+```
 
  In an expression with logical operators, as shown in <b>lines
 8 </b>and<b> 11</b> of the previous example, non-boolean values are
@@ -7185,37 +7164,24 @@ third, and nth conditions from being tested in certain cases: 
 
 Examples:
 
+```
 1.  var b = 5;
-
 2.  var c = 6;
-
 3.   
-
 4.  if ((b === 5) &vert;&vert; (b === 6))  { //the second part is never tested
-
 5.      console.log(&apos;b is equal to 5 or equal to 6&apos;);
-
 6.  }
-
 7.   
-
 8.  if ((b === 5) && (c === 6)) {  // second part is evaluated
-
 9.      console.log(&apos;b  is equal to 5 and c is equal to 6&apos;);
-
 10. }
-
 11.  
-
 12. if ((b === 15) && (c === 6)) {  // second part is never evaluated
-
 13.     console.log(&apos;b  is equal to 5 and c is equal to 6&apos;);
-
 14. } else {
-
 15.     console.log(&apos;b not equal to 15 or c not equal to 6&apos;);
-
 16. }
+```
 
 ### Implicit conversions of non boolean values in expressions {#implicit-conversions-of-non-boolean-values-in-expressions .unnumbered}
 
@@ -7263,7 +7229,9 @@ JavaScript](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript
 real value affected is not true false, it&apos;s one of the operands, that
 can be seen as true/false.</b>
 
+```
 1.  <b>var boo2 = (0/0) &vert;&vert; 43.2 ;</b>
+```
 
  boo2 equals 43.2 because the expression 0/0 equals NaN, which is
 evaluated as false.
@@ -7273,19 +7241,15 @@ evaluated as false.
 What is the value of the variable myNumber after the execution of this
 code? 
 
+```
 var myNumber = !1;
-
  
-
 if(myNumber == null){
-
    myNumber = 3;
-
 }
-
  
-
 myNumber = myNumber &vert;&vert; 2;
+```
 
 <b>Explanation</b>: after the first line, myNumber equals false. In
 the if statement, at <b>line 3</b>, false does not equal null. Therefore,
@@ -7329,43 +7293,27 @@ have the same value.
 
 Some examples :
 
+```
 1 == 1 ;
-
 //true
-
  
-
 1 == 2 ;
-
 //false
-
  
-
 /&ast; Here, the interpreter will try to convert the string '1'
-
 into a number before doing the comparison &ast;/
-
  
-
 1 == &apos;1&apos;;
-
 //true :
-
  
-
  
-
 //with strict equal, no conversion:
-
  
-
 1 === 1;
-
 //true
-
 1 === &apos;1&apos;;
-
 //false
+```
 
 <b>Depending on the context, generally strict equal (or strict not
 equal) is preferred. </b>
@@ -7386,17 +7334,14 @@ Here are interesting articles:
 As we have already seen, JavaScript has some special values. One of them
 is NaN: "Not-a-Number". 
 
+```
 NaN has this special property : 
-
 NaN == NaN;
-
 // false
-
  
-
 NaN === NaN;
-
 // false
+```
 
 <b> Nan is equal to nothing - not even to itself!</b>  But you do have a
 function to check the NaN value:  isNaN(expr) 
@@ -7404,27 +7349,19 @@ function to check the NaN value:  isNaN(expr) 
 -   isNaN: returns true if the argument coerces to NaN, and otherwise
     returns false.
 
+```
 isNaN(NaN);
-
 // true
-
  
-
 isNaN(0/0);
-
 // true
-
  
-
 isNaN(12);
-
 // false
-
  
-
 isNaN(&apos;foo&apos;);
-
 // true
+```
 
 &quot;A reliable way for ECMAScript code to test if a value X is a NaN, is
 an expression of the form X !== X. The result will be true if, and only
@@ -7433,43 +7370,27 @@ the [isNan documentation](https://www.ecma-international.org/ecma-262/5.1/#sec
 
 <b>A complete example with isNaN: </b>
 
+```
 var num =0/0;
-
  
-
 if(isNaN(num)){
-
    num = 0;
-
 }
-
 //shortened version with the conditional operator
-
 var num = isNaN(num) ? 0 : num
-
  
-
 //version with logical operator (implicit conversion)
-
 var num = num &vert;&vert; 0;
-
  
-
 /&ast;
-
    &lt;=&gt; num = NaN &vert;&vert; 0
-
  
-
    &lt;=&gt; num = false &vert;&vert; 0
-
 &ast;/
-
  
-
 num;
-
 //returns 0 in this three cases
+```
 
 Of course 0/0 rarely happens, but there are other cases where NaN can
 appear, for example:
@@ -7529,9 +7450,7 @@ When you&apos;ve got to make multiple tests, it might be more interesting to
 use a switch.
 
 So, switch(day). Then you test with the different possible values, using
-the
-
-&quot;case&quot; keyword.
+the &quot;case&quot; keyword.
 
 &quot;case 0&quot;: that means that &quot;if day equals 0, then execute
 console.log(&apos;Monday&apos;).
@@ -7601,17 +7520,18 @@ JavaScript source code is a set of statements. There are a couple of
 different statement types. We have already seen one of them, the
 variable statement:
 
+```
 1.  var myVar = &apos;hello &apos; + &apos;world&apos;;
+```
 
 We&apos;ve also seen the expression statement:
 
+```
 1.  3 + 4;
-
 2.  // more often like this
-
 3.  var x = (3 + 4);
-
 4.  var y = (5 + x);
+```
 
 A statement closes with a semicolon, but we will see later that missing
 semicolons are automatically inserted (for readability reasons, we
@@ -7629,15 +7549,13 @@ of statements wrapped in curly braces. 
 
 ### Block statement: {#block-statement .unnumbered}
 
+```
 1.  {
-
 2.  var i = 0;
-
 3.  var result = false;
-
 4.  console.log(&apos;i = &apos; + i);
-
 5.  }
+```
 
 The block statement is used by other statements such as the if-statement
 or for-statement. We will see these statements below.
@@ -7647,9 +7565,7 @@ or for-statement. We will see these statements below.
 All the examples for this section are in this codepen (to run it: click
 on the &quot;edit on CodePen&quot; label, and once in CodePen, open the devtool
 console to see the outputs of this program):
-
  
-
 (Please look, edit and try whatever you want. There are parts that are
 commented - please remove comments and try to understand the results).
 
@@ -7660,11 +7576,11 @@ commented - please remove comments and try to understand the results).
 
 <b>Syntax:</b>
 
+```
 <b>if</b> ( Expression ) Statement <b>else</b> Statement
-
 <b>if</b> ( Expression ) Statement
-
 <b>The expression may include:</b>
+```
 
 -   logical operators ( <b>! && &vert;&vert;</b> )
 
@@ -8608,7 +8524,7 @@ height="2.588888888888889in"}
 &lt;/html&gt;
 ```
 
-JS
+<h5>JS:</h5>
 
 ```
 // Add a click event listener on the whole document
@@ -8661,7 +8577,7 @@ height="2.0861111111111112in"}
 &lt;/html&gt;
 ```
 
-CSS
+<h5>CSS:</h5>
 
 ```
 button:hover {
@@ -8698,9 +8614,7 @@ ones that correspond to the type of event &quot;they listen to&quot;.
 height="5.139583333333333in"}
 
 Hello. Let&apos;s see how events work in JavaScript. In this video, I will
-show you
-
-how to add a simple event listener for detecting clicks or mouse moves,
+show you how to add a simple event listener for detecting clicks or mouse moves,
 and we will start with the simplest example.
 
 It's listening for events that will occur anywhere on the Web page.
@@ -8716,10 +8630,8 @@ anywhere, and an alert message appeared.
 
 This is the first syntax, and there is a variant that is very common in
 JavaScript, when the length of the callback (source code) is small, you
-can
-
-directly add the callback inside the parenthesis of the AddEventListener
-call
+can directly add the callback inside the parenthesis of the AddEventListener
+call.
 
 So, let&apos;s see this example&hellip; I&apos;m going to comment the first example,
 and this time, instead of just adding as an argument the name of the
@@ -8789,7 +8701,6 @@ I&apos;m putting this one at the end of the document.
 There is a good reason for that, that I will explain.
 
 And first, I get a reference on the element.
-
 For that, we use the selector API: it&apos;s a built-in feature that is in
 your browser, that is very useful for getting references on elements.
 document.querySelector is the name of the method we are going to use.
@@ -9273,31 +9184,26 @@ height="2.0701388888888888in"}
 &lt;/html&gt;
 ```
 
-<h4>CSS:</h4>
+<h5>CSS:</h5>
 
+```
 #pageStatus {
-
 border:1px solid red;
-
 padding: 2px;
-
 color:red;
-
 }
+```
 
-JS
+<h5>JS:</h5>
 
+```
 function init() {
-
 var status = document.querySelector(&apos;#pageStatus&apos;);
-
 status.innerHTML = &apos;LOADED!&apos;;
-
 // start working!
-
 // &hellip;.
-
 }
+```
 
 This second variant: using window.onload = init; in the JavaScript
 code&hellip;
@@ -9307,50 +9213,38 @@ height="2.0701388888888888in"}
 
 <h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;Example 2 of the &apos;load&apos; event&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;p&gt;This page uses &lt;code&gt;window.onload = init;&lt;/code&gt; in the JS
-code to execute the init function ONLY WHEN THE PAGE HAS BEEN
-LOADED!&lt;/p&gt;
-
+  code to execute the init function ONLY WHEN THE PAGE HAS BEEN
+  LOADED!&lt;/p&gt;
 &lt;p&gt;This is important as very often we cannot do important things
-before the DOM is ready (all HTML elements have been created and can be
-manipulated from JavaScript).&lt;/p&gt;
-
+  before the DOM is ready (all HTML elements have been created and can be
+  manipulated from JavaScript).&lt;/p&gt;
 &lt;p&gt;PAGE STATUS: &lt;span id=&quot;pageStatus&quot;&gt;NOT LOADED
-YET&lt;/span&gt;&lt;/p&gt;
-
+  YET&lt;/span&gt;&lt;/p&gt;
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-CSS
+<h5>CSS:</h5>
 
+```
 #pageStatus {
-
 border:1px solid red;
-
 padding: 2px;
-
 color:red;
-
 }
+```
 
-JS
+<h5>JS:</h5>
 
 ```
 window.onload = init;
@@ -9525,7 +9419,7 @@ which real keyboard keys, so here are some handy pointers:
 ![](./images/image165.png){width="6.5in"
 height="1.2861111111111112in"}
 
-<h4>keyboardEvent properties {#keyboardevent-properties .unnumbered}
+<h4>keyboardEvent properties
 
 These are legacy properties, still used by many JavaScript code around
 the world. However, we do not recommend that you use them if you are
@@ -9768,7 +9662,7 @@ specification](https://w3c.github.io/uievents/#code-examples). They show
 very clearly what happens when the user presses various types of keys,
 both for code and key.
 
-### Example that displays the key and code values with your current keyboard {#example-that-displays-the-key-and-code-values-with-your-current-keyboard .unnumbered}
+### Example that displays the key and code values with your current keyboard
 
 ![](./images/image176.png){width="6.5in"
 height="2.5652777777777778in"}
@@ -9971,7 +9865,7 @@ height="2.0701388888888888in"}
 &lt;/html&gt;
 ```
 
-CSS
+<h5>CSS:</h5>
 
 ```
 body{
@@ -9995,7 +9889,7 @@ background:#ddd;
 }
 ```
 
-JS
+<h5>JS:</h5>
 
 ```
 var m = &lbrack;&apos;client&apos;,&apos;page&apos;,&apos;screen&apos;&rbrack;; // mods
@@ -10180,25 +10074,18 @@ mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
 
 <h5>JavaScript source code extract:</h5>
 
+```
 function processMouseMouve(evt) {
-
     var mousePositions = document.querySelector(&apos;#mousePositions&apos;);
-
     // adjust mouse position relative to the canvas
-
 **    var rect = evt.target.getBoundingClientRect()**
-
 **    var mouseX = evt.clientX - rect.left;**
-
 **    var mouseY = evt.clientY - rect.top;**
-
     mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
-
-                               &quot; mouse pos Y: &quot; + mouseY +
-
+                               &quot; mouse pos Y: &quot; + mouseY +
                                &quot;&lt;br&gt;&quot;
-
 }
+```
 
 <h4>Example #5: combine mouseup, mousedown, mousemove to implement a click and drag behavior</h4>
 
@@ -10207,352 +10094,200 @@ height="2.3618055555555557in"}
 
 <h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;mousemove events relative to page&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;Please click and drag the div below.&lt;/h1&gt;
-
 &lt;div id=&quot;dragMe&quot; class=&apos;draggable&apos;&gt;Drag me!&lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 <h5>CSS:</h5>
 
+```
 body {
-
 padding:10px
-
 }
-
 .draggable {
-
 width:100px;
-
 height:100px;
-
 background-color:#666;
-
 color:white;
-
 padding:10px 12px;
-
 cursor:move;
-
-position:absolute; /&ast; important (all position that&apos;s not &apos;static&apos;)
-&ast;/
-
+position:absolute; /&ast; important (all position that&apos;s not &apos;static&apos;) &ast;/
 }
+```
 
 <h5>JS:</h5>
 
+```
 window.onmousemove = moveElem;
-
 window.onmouseup = stopMovingElem;
-
 window.onload = init;
-
 var selected = null; // element to be moved
-
-var oldMouseX, oldMouseY; // Stores x & y coordinates of the mouse
-pointer
-
+var oldMouseX, oldMouseY; // Stores x & y coordinates of the mouse pointer
 var elemX, elemY;
-
 function init() {
-
 document.querySelector(&apos;.draggable&apos;).onmousedown = function (evt) {
-
 dragInit(evt);
-
 };
-
 }
-
 // Will be called when user starts dragging an element
-
 function dragInit(evt) {
-
 // Store the elem
-
 selected = evt.target;
-
 elemX = selected.offsetLeft;
-
 elemY = selected.offsetTop;
-
 oldMouseX = evt.clientX;
-
 oldMouseY = evt.clientY;
-
 }
-
 // Will be called when user dragging an element
-
 function moveElem(e) {
-
 // new mouse ps
-
 var newMouseX = e.clientX;
-
 var newMouseY = e.clientY;
-
 if(oldMouseX !== undefined) {
-
 // how many pixels did we move the mouse?
-
 var dx = newMouseX - oldMouseX;
-
 var dy = newMouseY - oldMouseY;
-
 }
-
 if (selected !== null) {
-
 // move the selected element dx, dy pixels hozontally/vertically
-
 changePosOfSelectedElement(dx, dy);
-
 }
-
 // update the old position of the mouse
-
 oldMouseX = newMouseX;
-
 oldMouseY = newMouseY;
-
 }
-
 function changePosOfSelectedElement(dx, dy) {
-
 // update the old position of the selected element
-
 elemX += dx;
-
 elemY += dy;
-
 // change the pos on screen of the element
-
 // by modifying its CSS left/top properties
-
 selected.style.left = elemX + &apos;px&apos;;
-
 selected.style.top = elemY + &apos;px&apos;;
-
 }
-
 // Destroy the object when we are done
-
 function stopMovingElem() {
-
 selected = null;
-
 }
+```
 
 ![](./images/image185.png){width="6.5in"
 height="2.7958333333333334in"}
 
-HTML
+<h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;title&gt;Example of right click context menu in pure JS&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div&gt;
-
 &lt;nav id=&quot;context-menu&quot; class=&quot;context-menu&quot;&gt;
-
 &lt;ul class=&quot;context-menu&lowbar;&lowbar;items&quot;&gt;
-
 &lt;li class=&quot;context-menu&lowbar;&lowbar;item&quot; id=&quot;context-menu-learn&quot;
-onclick=&quot;menuItem1();&quot;&gt;
-
+  onclick=&quot;menuItem1();&quot;&gt;
 Learn
-
 &lt;/li&gt;
-
 &lt;li class=&quot;context-menu&lowbar;&lowbar;item&quot; onclick=&quot;menuItem2();&quot;&gt;
-
 Clear
-
 &lt;/li&gt;
-
 &lt;li class=&quot;context-menu&lowbar;&lowbar;item&quot; onclick=&quot;toggleMenuOff();&quot;&gt;
-
 Close
-
 &lt;/li&gt;
-
 &lt;/ul&gt;
-
 &lt;/nav&gt;
-
 &lt;/div&gt;
-
 &lt;p&gt;Try to right click on this div:&lt;/p&gt;
-
 &lt;div id=&quot;div1&quot; class=&quot;div&quot;&gt;A Div with a context menu&lt;/div&gt;
-
-&lt;p&gt; This one does not have a context menu attached, try also a right
-click: &lt;/p&gt;
-
-&lt;div id=&quot;div2&quot; class=&quot;div&quot;&gt;Another Div without a context
-menu&lt;/div&gt;
-
+&lt;p&gt; This one does not have a context menu attached, try also a right click: &lt;/p&gt;
+&lt;div id=&quot;div2&quot; class=&quot;div&quot;&gt;Another Div without a context menu&lt;/div&gt;
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-CSS
+<h5>CSS:</h5>
 
+```
 /&ast; CONTEXT MENU &ast;/
-
 /&ast; context menu &ast;/
-
 .context-menu {
-
 display: none;
-
 position: absolute;
-
 z-index: 10;
-
 padding: 12px 0;
-
 width: 240px;
-
 background-color: #fff;
-
 border: solid 1px #dfdfdf;
-
 box-shadow: 1px 1px 2px #cfcfcf;
-
 }
-
 .context-menu&#45;-active {
-
 display: block;
-
 }
-
 .context-menu&lowbar;&lowbar;items {
-
 list-style: none;
-
 margin: 0;
-
 padding: 0;
-
 }
-
 .context-menu&lowbar;&lowbar;item {
-
 display: block;
-
 margin-bottom: 4px;
-
 padding: 4px 12px;
-
 color: #0066aa;
-
 text-decoration: none;
-
 }
-
 .context-menu&lowbar;&lowbar;item:last-child {
-
 margin-bottom: 0;
-
 }
-
 .context-menu&lowbar;&lowbar;item:hover {
-
 color: #fff;
-
 background-color: #0066aa;
-
 }
-
 #div1 {
-
 background-color:red;
-
 height:100px;
-
 }
-
 #div2 {
-
 background-color:green;
-
 height:100px;
-
 }
+```
 
 <h5>JS:</h5>
 
+```
 window.onload = init;
-
 var menu, menuIsVisible;
-
 function init() {
-
 menu = document.querySelector(&quot;#context-menu&quot;);
-
 menuIsVisible = false;
-
 /&ast; to attach a context menu to all divs, you can do this:
-
 var divs = document.querySelectorAll(&quot;.div&quot;);
-
 divs.forEach(function(d) {
-
 > addContextMenu(d);
-
 });
-
 &ast;/
-
 // attache the context menu to the first div
-
 var div1 = document.querySelector(&quot;#div1&quot;);
-
 addContextMenu(div1);
-
 // Clicking anywhere on the window toggle the menu off
-
 window.addEventListener(&apos;click&apos;, toggleMenuOff);
-
 }
-
 function addContextMenu(elem) {
-
 elem.addEventListener(&quot;contextmenu&quot;, function(e) {
-
 > //console.log(&quot;contextmenu activated&quot;);
 >
 > e.preventDefault(); // avoids default right click menu
@@ -10560,93 +10295,51 @@ elem.addEventListener(&quot;contextmenu&quot;, function(e) {
 > toggleMenuOn();
 >
 > positionMenu(e);
-
 });
-
 }
-
 function toggleMenuOn() {
-
 if(!menuIsVisible) {
-
 menuIsVisible = true;
-
 > menu.classList.add(&quot;context-menu&#45;-active&quot;); // see further in the
 > DOM section of the course
-
 }
-
 }
-
 function toggleMenuOff() {
-
 if(menuIsVisible) {
-
 menuIsVisible = false;
-
 > menu.classList.remove(&quot;context-menu&#45;-active&quot;);
-
 }
-
 }
-
 function positionMenu(e) {
-
 // Mouse position is relative to the element clicked
-
 // We make the coords absolute in the page
-
 var clickCoordsX = e.pageX;
-
 var clickCoordsY = e.pageY;
-
 var menuWidth = menu.offsetWidth + 1;
-
 var menuHeight = menu.innerHeight + 1;
-
 var elementWidth = e.target.offsetWidth;
-
 var elementHeight = e.target.offsetHeight;
-
 if ((elementWidth - clickCoordsX) &lt; menuWidth) {
-
 menu.style.left = elementWidth - menuWidth + &quot;px&quot;;
-
 } else {
-
 menu.style.left = clickCoordsX + &quot;px&quot;;
-
 }
-
 if ((elementHeight - clickCoordsY) &lt; menuHeight) {
-
 menu.style.top = elementHeight - menuHeight + &quot;px&quot;;
-
 } else {
-
 menu.style.top = clickCoordsY + &quot;px&quot;;
-
 }
-
 }
-
 // Actions called when a menu item is choosen
-
 function menuItem1() {
-
 console.log(&apos;learn&apos;);
-
 toggleMenuOff();
-
 }
-
 function menuItem2() {
-
 console.log(&apos;clear&apos;);
-
 toggleMenuOff();
-
 }
+```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-9">2.4.9 Form and input field events</h3>
@@ -10673,83 +10366,51 @@ height="2.4854166666666666in"}
 
 <h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;Simple input field validation&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;Simple input field validation using the &apos;input&apos; event&lt;/h1&gt;
-
 &lt;p&gt;Just type a name in the input field and see what happens!&lt;/p&gt;
-
 &lt;label&gt;
-
 &lt;span&gt;Name (required):&lt;/span&gt;
-
 &lt;input type=&quot;text&quot;
-
 name=&quot;nom&quot;
-
 maxlength=&quot;32&quot;
-
 required
-
 oninput = &quot;validateName(this)&quot;&gt;
-
 &lt;/label&gt;
-
 &lt;p&gt;
-
 &lt;span id=&quot;nameTyped&quot;&gt;&lt;/span&gt;
-
 &lt;/p&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-JS
+<h5>JS:</h5>
 
+```
 function validateName(field) {
-
 // this is the input field text content
-
 var name = field.value;
-
 // get the output div
-
 var output = document.querySelector(&apos;#nameTyped&apos;);
-
 // display the value typed in the div
-
 output.innerHTML = &quot;Valid name: &quot; + name;
-
 // You can do validation here, set the input field to
-
 // invalid is the name contains forbidden characters
-
 // or is too short
-
 // for example, let&apos;s forbid names with length &lt; 5 chars
-
 if(name.length &lt; 5) {
-
 output.innerHTML = &quot;This name is too short (at least 5 chars)&quot;;
-
 }
-
 }
+```
 
 <h4>Second variant: using the &apos;keyup&apos; event:</h4>
 
@@ -10758,100 +10419,60 @@ height="2.4784722222222224in"}
 
 <h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;Simple input field validation using keyup events&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;Simple input field validation using the &apos;input&apos; event&lt;/h1&gt;
-
 &lt;p&gt;Just type a name in the input field and see what happens! &lt;span
-style=&quot;color:red&quot;&gt; TRY TO TYPE A &quot;!&quot; too&lt;/span&gt;&lt;/p&gt;
-
+  style=&quot;color:red&quot;&gt; TRY TO TYPE A &quot;!&quot; too&lt;/span&gt;&lt;/p&gt;
 &lt;label&gt;
-
 &lt;span&gt;Name (required):&lt;/span&gt;
-
 &lt;input type=&quot;text&quot;
-
 name=&quot;nom&quot;
-
 maxlength=&quot;32&quot;
-
 required
-
 onkeyup = &quot;validateName(event)&quot;&gt;
-
 &lt;/label&gt;
-
 &lt;p&gt;
-
 &lt;span id=&quot;keyTyped&quot;&gt;&lt;/span&gt;
-
 &lt;/p&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 <h5>JS:</h5>
 
+```
 function validateName(evt) {
-
 // this is the input field text content
-
 var key = evt.key;
-
 // get the output div
-
 var output = document.querySelector(&apos;#keyTyped&apos;);
-
 // display the value typed in the div
-
 output.innerHTML = &quot;Valid key: &quot; + key;
-
 // You can do validation here, set the input field to
-
 // invalid is the name contains forbidden characters
-
 // or is too short
-
 // for example, let&apos;s forbid names with length &lt; 5 chars
-
 if(key === &quot;!&quot;) {
-
 output.innerHTML = &quot;This key is forbidden!&quot;;
-
 // remove the forbidden char
-
 // current typed value
-
 var name = evt.target.value;
-
 // we use the substring JavaScript function
-
 // to remove the last character
-
 // first parameter = start index
-
 // second = last index
-
 evt.target.value = name.substring(0, name.length-1);
-
 }
-
 }
+```
 
 Note that HTML5 forms and the multiple facets of form and input field
 validation are covered in depth in the W3C [HTML5 Coding Essentials and
@@ -10866,68 +10487,46 @@ height="2.451388888888889in"}
 
 <h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;JavaScript slider use&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;Simple &lt;code&gt;&lt;input type=range&gt;&lt;/code&gt; field validation
-using the &apos;input&apos; event&lt;/h1&gt;
-
+  using the &apos;input&apos; event&lt;/h1&gt;
 &lt;p&gt;Just move the slider&lt;/p&gt;
-
 &lt;label&gt;
-
 1 &lt;input type=&quot;range&quot;
-
 min=1
-
 max=12
-
 step=0.1
-
 oninput = &quot;doSomething(event)&quot;&gt; 12
-
 &lt;/label&gt;
-
 &lt;p&gt;
-
 &lt;span id=&quot;sliderValue&quot;&gt;&lt;/span&gt;
-
 &lt;/p&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-JS
+<h5>JS:</h5>
 
+```
 function doSomething(evt) {
-
 // this is the slider value
-
 var val = evt.target.value;
-
 // get the output div
-
 var output = document.querySelector(&apos;#sliderValue&apos;);
-
 // display the value typed in the div
-
 output.innerHTML = &quot;Value selected: &quot; + val;
+```
 
 <h4>Example #3: detect value changes in a number input field</h4>
+
 
 }![](./images/image190.png){width="6.5in"
 height="2.4923611111111112in"}
@@ -10981,7 +10580,7 @@ oninput = &quot;doSomething(event)&quot;&gt;
 
 &lt;/html&gt;
 
-JS
+<h5>JS:</h5>
 
 function doSomething(evt) {
 
@@ -11101,11 +10700,11 @@ really bad practice and causes a host of problems during development.
 
 <h4>**Method #2: attach an event handler to an HTML element in JavaScript**</h4>
 
+```
 1.  document.getElementById(&apos;someDiv&apos;).**onclick **= function() {
-
 2.  alert(&apos;clicked!&apos;);
-
 3.  }
+```
 
 This method is fine, but  you will not be able to attach
 multiple **listener** functions. If you need to do this, use the version
@@ -11113,11 +10712,11 @@ shown below.
 
 <h4>**Method #3: register a callback to the event listener with the addEventListener method (preferred  method)**</h4>
 
+```
 1.  document.getElementById(&apos;someDiv&apos;).**addEventListener**(&apos;click&apos;, function() {
-
 2.  alert(&apos;clicked!&apos;);
-
 3.  }, false);
+```
 
 Note that the third parameter describes whether the **callback** has to
 be called during the captured phase. This is not important for now, just
@@ -11131,11 +10730,11 @@ When you create an **event listener** and attach it to an element, the
 listener will create an **event object** to describe what happened. This
 object is provided as a parameter of the **callback function**:
 
+```
 1.  element.addEventListener(&apos;click&apos;, function(**event**) {
-
 2.  **// now you can use event object inside the callback**
-
 3.  }, false);
+```
 
 Depending on the type of event you are listening to, you will consult
 different properties from the event object in order to obtain useful
@@ -11163,7 +10762,7 @@ references useful:
 -   [Software Architecture and the Art of Separation of
     Concerns ](https://medium.com/@alliecohen_Tech/software-architecture-and-the-art-of-separation-of-concerns-1bd780cb8f2a)
 
-### Reference tables for events and properties/methods {#reference-tables-for-events-and-propertiesmethods .unnumbered}
+### Reference tables for events and properties/methods
 
 These tables are provided as a reference. They are a compilation of the
 most common event types sorted by domain (key, mouse, forms, etc.). For
@@ -11399,7 +10998,7 @@ directly as it is implicit: window.document is the same as document. 
 So by using this object, we can access and manipulate our page from
 JavaScript as a structured document.
 
-### Reminder from Module 1: HTML and the DOM {#reminder-from-module-1-html-and-the-dom .unnumbered}
+### Reminder from Module 1: HTML and the DOM
 
 &apos;Elements&apos; are the pieces themselves, i.e., a paragraph, a header,
 and even the body are elements. Most elements can contain other
@@ -11468,7 +11067,7 @@ rendering), h1 means &quot;heading level 1&quot;, and will be rendered by
 default in bold with a bigger char size than any other text element,
 etc.
 
-### There are different types of nodes in the DOM {#there-are-different-types-of-nodes-in-the-dom .unnumbered}
+### There are different types of nodes in the DOM
 
 There are different types of nodes, but don&apos;t worry - the most useful
 ones are highlighted in bold.
@@ -12004,79 +11603,49 @@ Grapes
 
 <h5>JS:</h5>
 
+```
 function displayListOfCheckedItems() {
-
 // all inputs that have been checked
-
 var listOfSelectedValues=&quot;&quot;;
-
 var list = document.querySelectorAll(&quot;#fruits input:checked&quot;);
-
 list.forEach(function(elm) {
-
 listOfSelectedValues += elm.value + &quot; &quot;;
-
 // Put the li in red.
-
 // the li is the parent of the current input elem stored
-
 // in the elm variable
-
 elm.parentNode.style.color = &apos;green&apos;;
-
 });
-
 document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
-
 }
-
 Extract from the source code:
+```
 
-HTML**:**
+<h5>HTML:</h5>
 
+```
 &lt;button onclick=&quot;**displayListOfCheckedItems();**&quot;&gt;
-
     Show Checked items
-
 1.  &lt;/button&gt;
-
 2.  &lt;br&gt;
-
 3.  &lt;ul id=&quot;fruits&quot;&gt;
-
 4.  &lt;li&gt;
-
 5.  &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;&gt;
-
 6.  Apples
-
 7.  &lt;/li&gt;
-
 8.  &lt;li&gt;
-
 9.  &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;&gt;
-
 10. Oranges
-
 11. &lt;/li&gt;
-
 12. &lt;li&gt;
-
 13. &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;&gt;
-
 14. Bananas
-
 15. &lt;/li&gt;
-
 16. &lt;li&gt;
-
 17. &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;&gt;
-
 18. Grapes
-
 19. &lt;/li&gt;
-
 20. &lt;/ul&gt;
+```
 
 JavaScript code: we select all elements of type input that have an
 attribute checked equal to true, and located inside an element whose id
@@ -12096,31 +11665,21 @@ from the &lt;input&gt; child we selected, we use elm.parentNode.
 Finally, at the end of the document, <b>line 14</b> adds a message followed
 by this list:
 
+```
 1.  function displayListOfCheckedItems() {
-
 2.  // all inputs that have been checked
-
 3.  var listOfSelectedValues=&quot;&quot;;
-
 4.  var list = document.querySelectorAll(&quot;#fruits input:checked&quot;);
-
 5.  list.forEach(function(elm) {
-
 6.  listOfSelectedValues += elm.value + &quot; &quot;;
-
 7.  // Put the li in red.
-
 8.  // the li is the parent of the current input elem stored
-
 9.  // in the elm variable
-
 10. elm.parentNode.style.color = &apos;green&apos;;
-
 11. });
-
 12. document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
-
 13. }
+```
 
 <h4>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id</h4>
 
@@ -12129,18 +11688,15 @@ height="2.6972222222222224in"}
 
 <h5>HTML code:</h5>
 
+```
 1.  &lt;button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);</b>&quot;&gt;Change
     backgrounds of p under a given element known by id&lt;/button&gt;
-
 2.  &lt;br&gt;
-
 3.  &lt;div <b>id=&quot;firstDiv&quot;</b>&gt;
-
 4.  &lt;p&gt;First paragraph.&lt;/p&gt;
-
 5.  &lt;p&gt;Second paragraph.&lt;/p&gt;
-
 6.  &lt;/div&gt;
+```
 
 JavaScript code: we build a CSS selector using the id passed as a
 parameter. In this example, the id is &apos;firstDiv&apos;, the id of the div
@@ -12155,47 +11711,33 @@ alternative method to using the forEach method used in previous
 examples) (*lines 5-7*), and we change the background of all selected
 paragraphs (*line 6*).
 
+```
 1.  function changeBackGroundOfPs(id) {
-
 2.  var paragraphs = document.querySelectorAll(&quot;#&quot; + id + &quot; p&quot;);
-
 3.  // Another way to iterate on all elements in a collection
-
 4.  for (var i = 0; i &lt; paragraphs.length; i++ ) {
-
 5.  paragraphs&lbrack;i&rbrack;.style.backgroundColor = &quot;lightGreen&quot;;
-
 6.  }
-
 7.  }
+```
 
 Other examples that use more complex selectors:
 
+```
 1.  // all elements li in ul elements in an element of id=nav
-
 2.  var el = document.querySelector(&apos;#nav ul li&apos;);
-
 3.  // all li in a ul, but only even elements
-
 4.  var els = document.querySelectorAll(&apos;ul li:nth-child(even)&apos;);
-
 5.  // all td directly in tr in a form of class test
-
 6.  var els = document.querySelectorAll(&apos;form.test &gt; tr &gt; td&apos;);
-
 7.  // all paragraphs of class warning or error
-
 8.  querySelectorAll(&quot;p.warning, p.error&quot;);
-
 9.  // first element of id=foo or id=bar
-
 10. querySelector(&quot;#foo, #bar&quot;);
-
 11. // first p in a div
-
 12. var div = document.getElementById(&quot;bar&quot;);
-
 13. var p = div.querySelector(&quot;p&quot;);
+```
 
 ### Accessing HTML elements with the DOM API (old fashioned) {#accessing-html-elements-with-the-dom-api-old-fashioned .unnumbered}
 
