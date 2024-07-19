@@ -869,11 +869,11 @@ pages.
 <h5><b>Example</b>:</h5>
 
 ```
-> <head>
+> &lt;head&gt;
 > &hellip;
->    <title>Web Accessibility Initiative (WAI) - home page</title>
+>    &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
 > &hellip;
-> </head>
+> &lt;/head&gt;
 ```
 
 <h4>Example 2: image text alternatives (&quot;alt text&quot;)</h4>
@@ -893,12 +893,12 @@ the W3C Web site. The text alternative is going to be a brief
 description of the link target.
 
 ```
-> <a href=&quot;https://w3.org&quot;>
+> &lt;a href=&quot;https://w3.org&quot;&gt;
 >
->   <img src=&quot;https://w3.org/Icons/w3c_home.png&quot; width=&quot;72&quot; height=&quot;48&quot; alt=&quot;W3C
->     Web site&quot;>
+>   &lt;img src=&quot;https://w3.org/Icons/w3c_home.png&quot; width=&quot;72&quot; height=&quot;48&quot; alt=&quot;W3C
+>     Web site&quot;&gt;
 >
-> </a>
+> &lt;/a&gt;
 ```
 
 <h4 id="chb-05">b5. Why internationalization is important</h4>
@@ -976,10 +976,10 @@ your source code, and  its value is UTF-8.</b>
 <h4><b>Example 1</b>:</h4>
 
 ```
-<head>
-<meta charset=&quot;utf-8&quot;/>
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;/&gt;
 &hellip;
-</head>
+&lt;/head&gt;
 ```
 
 <h4>Example 2: Primary language declaration</h4>
@@ -998,9 +998,9 @@ your document that are in a different language.
 <h5><b>Example 2</b>: This indicates that the page is in French.</h5>
 
 ```
-<!doctype html>
-<html lang=&quot;fr&quot;>
-<head>
+&lt;!doctype html&gt;
+&lt;html lang=&quot;fr&quot;&gt;
+&lt;head&gt;
 &hellip;
 ```
 
@@ -1202,17 +1202,17 @@ time):
 
 <h5>HTML:</h5>
 
-<pre><code><body>
-<h1>A Tale of Two Cities</h1>
-<p>
+<pre><code>&lt;body&gt;
+&lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
+&lt;p&gt;
 It was the best of times, it was the worst of times, . . . .
-</p>
+&lt;/p&gt;
 . . .
-<p>
+&lt;p&gt;
   . . . it is a far, far better rest
   that I go to than I have ever known.
-</p>
-</body></pre></code>
+&lt;/p&gt;
+&lt;/body&gt;</pre></code>
 
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
@@ -1258,26 +1258,26 @@ Here is another, more generic example:
 <h5>HTML:</h5>
 
 ```
-1.  <!DOCTYPE html>
-2.  <html lang=&quot;en&quot;>
-3.  <head>
-4.  <title>Your first HTML page</title>
-5.  <meta charset=&quot;utf-8&quot;/>
-6.  </head>
-7.  <body>
-8.  <h1>My home page</h1>
-9.  <h2>Who am I?</h2>
-10. <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
+1.  &lt;!DOCTYPE html&gt;
+2.  &lt;html lang=&quot;en&quot;&gt;
+3.  &lt;head&gt;
+4.  &lt;title&gt;Your first HTML page&lt;/title&gt;
+5.  &lt;meta charset=&quot;utf-8&quot;/&gt;
+6.  &lt;/head&gt;
+7.  &lt;body&gt;
+8.  &lt;h1&gt;My home page&lt;/h1&gt;
+9.  &lt;h2&gt;Who am I?&lt;/h2&gt;
+10. &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
     professor at the University of Nice, in France, and I&apos;m also the
-    author of two MOOCS about HTML5 on W3Cx.</p>
-11. <p>I also play electric guitar and love coding WebAudio
-    applications&hellip;</p>
-12. <img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot; width=200
-13. alt=&quot;Michel Buffa plays rock and roll&quot;>
-14. <h2>My Hobbies</h2>
+    author of two MOOCS about HTML5 on W3Cx.&lt;/p&gt;
+11. &lt;p&gt;I also play electric guitar and love coding WebAudio
+    applications&hellip;&lt;/p&gt;
+12. &lt;img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot; width=200
+13. alt=&quot;Michel Buffa plays rock and roll&quot;&gt;
+14. &lt;h2&gt;My Hobbies&lt;/h2&gt;
 15. Music, Movies, Video Games, Travelling, Family, etc.
-16. </body>
-17. </html>
+16. &lt;/body&gt;
+17. &lt;/html&gt;
 ```
 
 <h4>Try it out!</h4>
@@ -1489,19 +1489,19 @@ As an example, let&apos;s look at a simplified version of the last HTML code
 we presented earlier:
 
 ```
-> <!DOCTYPE html>
-> <html lang=&quot;en&quot;>
->   <head>
->    <title>Your first HTML page</title>
->    <meta charset=&quot;utf-8&quot;/>
->   </head>
->   <body>
->    <h1>My home page</h1>
->    <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
+> &lt;!DOCTYPE html&gt;
+> &lt;html lang=&quot;en&quot;&gt;
+>   &lt;head&gt;
+>    &lt;title&gt;Your first HTML page&lt;/title&gt;
+>    &lt;meta charset=&quot;utf-8&quot;/&gt;
+>   &lt;/head&gt;
+>   &lt;body&gt;
+>    &lt;h1&gt;My home page&lt;/h1&gt;
+>    &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
 > professor at the University of Côte d&apos;Azur, in France, and I&apos;m also
-> the author of three W3Cx MOOCS.</p>
->    </body>
-> </html>
+> the author of three W3Cx MOOCS.&lt;/p&gt;
+>    &lt;/body&gt;
+> &lt;/html&gt;
 ```
 
 Click the red circle next to HTML to unfold this HTML document structure
@@ -1602,7 +1602,7 @@ indicate the beginning and end of a paragraph (indicated by the single
 letter &quot;p&quot;) you end up with something like this:
 
 ```
-> <p>This is my first paragraph!</p>
+> &lt;p&gt;This is my first paragraph!&lt;/p&gt;
 ```
 
 The browser sees the letters &quot;&lt;p&gt;&quot; and decides &quot;A new paragraph is
@@ -1635,7 +1635,7 @@ its attributes, and thus there is no need for other content.  So if you
 see something like this:
 
 ```
-> <img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;/>
+> &lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;/&gt;
 ```
 
 &hellip; then you should know that the slash at the end of the open tag is
@@ -1650,7 +1650,7 @@ be removed entirely, this will still be [valid
 HTML5](https://w3c.github.io/html/syntax.html#void-elements).
 
 ```
-> <img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;>
+> &lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;&gt;
 ```
 
 These elements, without a &quot;/&quot; at the end, are called &quot;void
@@ -1673,8 +1673,8 @@ used the width attribute of the &lt;img&gt; tag in order to constrain
 the width of the image:
 
 ```
-> <img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;
->      width=200 alt=&quot;Michel Buffa plays rock&roll&quot;>
+> &lt;img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;
+>      width=200 alt=&quot;Michel Buffa plays rock&roll&quot;&gt;
 ```
 
 As you might guess, the &lt;img&gt; tag also has a height attribute, as well
@@ -1698,10 +1698,10 @@ add a height attribute, and see the result:
 </p>
 
 ```
-<img
+&lt;img
   src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;
 width=200
-alt=&quot;Michel Buffa plays rock and roll&quot;>
+alt=&quot;Michel Buffa plays rock and roll&quot;&gt;
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1977,9 +1977,9 @@ with an &apos;id&apos; attribute, or grouped with a class of other elements by
 setting the &apos;class&apos; attribute.
 
 ```
-1.  <p id=&quot;paragraph-1&quot; class=&quot;regular-paragraphs&quot;>
+1.  &lt;p id=&quot;paragraph-1&quot; class=&quot;regular-paragraphs&quot;&gt;
 2.  Call me Ishmael . . .
-3.  </p>
+3.  &lt;/p&gt;
 ```
 
 The paragraph above has a unique identifier: the id attribute whose
@@ -2010,7 +2010,7 @@ Let&apos;s look at a modified version of Michel Buffa&apos;s home page example:
 <p>The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
 in our case it&apos;s the second h2 element:</p>
 
-<pre><code>1.  <h2 <b>id=&quot;hobbyTitle&quot;</b>>My Hobbies</h2></code></pre>
+<pre><code>1.  &lt;h2 <b>id=&quot;hobbyTitle&quot;</b>&gt;My Hobbies&lt;/h2&gt;</code></pre>
 
 <h5>And here is the CSS rule:</h5>
 
@@ -2034,12 +2034,12 @@ able to use it in a font-family CSS property, we included its definition
 using a &lt;link&gt; tag in the HTML part of the document:</p>
 
 ```
-1.  <head>
-2.  <title>Your first HTML page</title>
-3.  <meta charset=&quot;utf-8&quot;/>
-4.  <b><link href=&quot;https://fonts.googleapis.com/css?family=Caveat&quot;</b>
-5.  <b>rel=&quot;stylesheet&quot;></b>
-6.  </head>
+1.  &lt;head&gt;
+2.  &lt;title&gt;Your first HTML page&lt;/title&gt;
+3.  &lt;meta charset=&quot;utf-8&quot;/&gt;
+4.  <b>&lt;link href=&quot;https://fonts.googleapis.com/css?family=Caveat&quot;</b>
+5.  <b>rel=&quot;stylesheet&quot;&gt;</b>
+6.  &lt;/head&gt;
 ```
 
 <p>The last rule targets all elements that have an
@@ -2059,10 +2059,10 @@ paragraphs in the HTML element:</p>
 
 ```
 1.  &hellip;
-2.  <p class=&quot;funny&quot;>I also play electric guitar and love
-    coding WebAudio applications&hellip;</p>
+2.  &lt;p class=&quot;funny&quot;&gt;I also play electric guitar and love
+    coding WebAudio applications&hellip;&lt;/p&gt;
 3.  &hellip;
-4.  <p class=&quot;funny&quot;>Music, Movies, Video Games, Traveling, Family, etc.</p>
+4.  &lt;p class=&quot;funny&quot;&gt;Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;
 ```
 
 There are many, many, many different CSS properties in existence, and
@@ -2108,7 +2108,7 @@ rules in a &quot;CSS tab&quot; in the online editor, and it hides all the
 as [Plunker](https://plnkr.co/) or [AWS Cloud9](https://c9.io/) that
 enable you to manage files in the cloud).
 
-<h3>Live coding video: mixing HTML and CSS (3:49)</h3>
+### Live coding video: mixing HTML and CSS (3:49)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 66. example codepen: update css rule (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2237,9 +2237,13 @@ Javascript code and Javascript when its run inside the browser can act
 as a glue between HTML and CSS. We will use Javascript to provide
 interactivity to the documents.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 75. example: codepen; using javascript (61) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 75/76. example: codepen; using javascript (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image075.png?raw=true"
+  style="width:50%"
+  title="Example: CodePen; using JavaScript"
+  alt="Example: CodePen; using JavaScript." />
+<img src="./images/image076.png?raw=true"
   style="width:50%"
   title="Example: CodePen; using JavaScript"
   alt="Example: CodePen; using JavaScript." />
@@ -2262,10 +2266,14 @@ interact with the document object model, interact with the HTML elements
 of the page, add new ones, modify some existing ones, remove some
 elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 76. example: codepen; using javascript, #2 (62) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 77/78. example: codepen; using javascript, #2 (62) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image076.png?raw=true"
-  style="width:50%"
+<img src="./images/image077.png?raw=true"
+  style="width:35%"
+  title="Example: CodePen; using JavaScript, #2"
+  alt="Example: CodePen; using JavaScript, #2." />
+<img src="./images/image078.png?raw=true"
+  style="width:35%"
   title="Example: CodePen; using JavaScript, #2"
   alt="Example: CodePen; using JavaScript, #2." />
 </p>
@@ -2288,9 +2296,9 @@ making music, for building tables on the fly to display some dynamic
 data that you came after, for example, we enter some text in the search
 form, etc.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 77. example: index.html: update heading using javascript (61) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 79. example: index.html: update heading using javascript (61) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image077.png?raw=true"
+<img src="./images/image079.png?raw=true"
   style="width:50%"
   title="Example: index.html: update heading using JavaScript"
   alt="Example: index.html: update heading using JavaScript." />
@@ -2307,9 +2315,9 @@ it&apos;s a real standard of the Web (even if not standardized by the W3C).
 
 <h4>Why do we call it &quot;the interactive glue between HTML and CSS&quot;?</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 78. javascript is the perfect glue (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 80. javascript is the perfect glue (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image078.png?raw=true"
+<img src="./images/image080.png?raw=true"
   style="width:50%"
   title="JavaScript is the perfect glue"
   alt="JavaScript is the perfect glue." />
@@ -2328,9 +2336,9 @@ examples:
 
 Example #1: push the button to modify the heading of the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 79. example: javascript; push button to modify the heading (64) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 81. example: javascript; push button to modify the heading (64) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image079.png?raw=true"
+<img src="./images/image081.png?raw=true"
   style="width:50%"
   title="Example: index.html: update heading using JavaScript"
   alt="Example: index.html: update heading using JavaScript." />
@@ -2340,9 +2348,9 @@ Example #1: push the button to modify the heading of the page.
 <p>Example #2: push another button to modify the CSS style (color,
 background-color, border) of a paragraph in the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 80. example: javascript: update button to modify css style (64) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 82. example: javascript: update button to modify css style (64) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image080.png?raw=true"
+<img src="./images/image082.png?raw=true"
   style="width:50%"
   title="Example: javascript: update button to modify CSS style"
   alt="Example: javascript: update button to modify CSS style." />
@@ -2368,25 +2376,25 @@ including some of the world's largest, like Facebook and YouTube.
 Without it, we would not have popular and useful web apps such as Google
 Maps and eBay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 81/82. photo brandan eich, creator of js, netscape js book (65) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 83/84. photo brandan eich, creator of js, netscape js book (65) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image081.png?raw=true"
+<img src="./images/image083.png?raw=true"
   style="width:35%"
   title="Photo of Brandan Eich, creator of JavaScript"
   alt="Photo of Brandan Eich, creator of JavaScript." />
-<img src="./images/image082.png?raw=true"
+<img src="./images/image084.png?raw=true"
   style="width:35%"
   title="Cover page of the Netscape JavaScript 1.2 book"
   alt="Cover page of the Netscape JavaScript 1.2 book." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 83/84. year 1995, netscape logo (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 85/86. year 1995, netscape logo (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image083.png?raw=true"
+<img src="./images/image085.png?raw=true"
   style="width:35%"
   title="Year 1995"
   alt="Year 1995." />
-<img src="./images/image084.png?raw=true"
+<img src="./images/image086.png?raw=true"
   style="width:35%"
   title="Netscape logo"
   alt="Netscape logo." />
@@ -2403,9 +2411,9 @@ Java. (Sun Microsystems, the company that created the Java programming
 language, no longer exists, having been bought by Oracle Corporation in
 2009.)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 85. snapshot; dotjs 2017 - brandan eich - history of js (66) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 87. snapshot; dotjs 2017 - brandan eich - history of js (66) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image085.png?raw=true"
+<img src="./images/image087.png?raw=true"
   style="width:50%"
   title="dotJS 2017 - Brandan Eich - A Brief History of JavaScript"
   alt="dotJS 2017 - Brandan Eich - A Brief History of JavaScript." />
@@ -2413,9 +2421,9 @@ language, no longer exists, having been bought by Oracle Corporation in
 <h6 align="center"><a href="https://www.youtube.com/watch?v=aX3ZABCdC38">dotJS 2017 - Brandan Eich - A Brief History of JavaScript</a></h6>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86. sun microsystems logo (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. sun microsystems logo (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
-<img src="./images/image086.png?raw=true"
+<img src="./images/image088.png?raw=true"
   style="width:20%"
   title="Sun Microsystems logo"
   alt="Sun Microsystems logo." />
@@ -2438,9 +2446,9 @@ created its own version named JScript (and shipped it with Internet
 Explorer 3 in 1996 -- It was a dud).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 87. snapshot of a web page in netscape navigator 2 (67) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 89. snapshot of a web page in netscape navigator 2 (67) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image087.jpeg?raw=true"
+<img src="./images/image089.jpeg?raw=true"
   style="width:50%"
   title="Snapshot of a web page in Netscape Navigator 2"
   alt="Snapshot of a web page in Netscape Navigator 2." />
@@ -2449,9 +2457,9 @@ Explorer 3 in 1996 -- It was a dud).
 <b>Netscape Navigator 2 in 1996, with big buttons and plain HTML pages
 (CSS did not exist at that time)</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 88. snapshot of a web page in internet explorer (67) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 90. snapshot of a web page in internet explorer (67) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image088.jpeg?raw=true"
+<img src="./images/image090.jpeg?raw=true"
   style="width:50%"
   title="Snapshot of a web page in IE 3"
   alt="Snapshot of a web page in IE 3." />
@@ -2460,9 +2468,9 @@ Explorer 3 in 1996 -- It was a dud).
 <b>Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
 did not exist at this time!</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. ecma logo (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. ecma logo (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
-<img src="./images/image089.gif?raw=true"
+<img src="./images/image091.gif?raw=true"
   style="width:10%"
   title="ecma"
   alt="ECMA." />
@@ -2473,9 +2481,9 @@ the <a href="https://en.wikipedia.org/wiki/ECMAScript">EcmaScript</a> standard
 worry, it&apos;s the same thing.</b> EcmaScript has continued to be released
 right up to the present day. MS still didn't play ball.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 90. javascript detailed timeline (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 92. javascript detailed timeline (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
-<img src="./images/image090.png?raw=true"
+<img src="./images/image092.png?raw=true"
   style="width:50%"
   title="JavaScript detailed timeline"
   alt="JavaScript detailed timeline." />
@@ -2621,9 +2629,9 @@ post your comments/observations/questions or share your creations.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-1">1.3.1 The best way to learn JavaScript (8:42)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 91. the best way to learn javascript (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 93. the best way to learn javascript (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image091.png?raw=true"
+<img src="./images/image093.png?raw=true"  <!-- was 091 -->
   style="width:50%"
   title="The Best Way to Learn JavaScript"
   alt="The Best Way to Learn JavaScript." />
@@ -2637,17 +2645,15 @@ like. Even without deep explanations, without reading a book, or
 studying in details the different concepts of language, you can learn a
 lot.
 
-<image>
 In this section, I propose that you look at a small example without
 understanding the details, and try to tweak it.
-<image>
+
 Here is the example we provide. It&apos;s just an example that draws, that
 plots, a mathematical function. You can use the mouse wheel to zoom in,
-zoom out, and you can look at the HTML code. 
-<image>
-There is only very few CSS and very few lines of JavaScript. How can we do the 
-such a complex result? Complex thing drawing the grid with axes, with labels, 
-with a curve, and interact with the mouse.
+zoom out, and you can look at the HTML code. There is only very few CSS
+and very few lines of JavaScript. How can we do the such a complex
+result? Complex thing drawing the grid with axes, with labels, with a
+curve, and interact with the mouse.
 
 With only 10 lines of code: it&apos;s because we are using what we call an
 external JavaScript library. Actually, we are using 2 of them here.
@@ -2657,24 +2663,19 @@ internally another one you must include also in the document.
 What I propose is that we will start looking at this example. The best
 way is to click on &quot;Edit on CodePen&quot; label here, it will open the code
 in the CodePen.io online editor. And&hellip; just look at the HTML part
-here. 
-<image>
-Okay, we can just look at the HTML part and zoom in a little bit.
+here. Okay, we can just look at the HTML part and zoom in a little bit.
 What do we see? We can see that it uses 2 libraries here between
 &lt;script&gt; and &lt;/script&gt; elements. This is how we can insert in the
 document an external JavaScript file. In that case, it&apos;s a remote
 JavaScript file because we are downloading it using http. It uses this
-&quot;d3js&quot; JavaScript library that is located at &quot;d3js.org&quot;. 
-<image>
-You can open this in another tab and you will see the documentation and the Web
+&quot;d3js&quot; JavaScript library that is located at &quot;d3js.org&quot;. You can
+open this in another tab and you will see the documentation and the Web
 site, the homepage of the Web site, for the &quot;d3js&quot; library. By the way
 &quot;d3js&quot;is one of the most popular JavaScript libraries for visualizing
 data.
 
 Let&apos;s go back to our example, so you can just tweak the different
-elements. 
-<image>
-If I want to plot a cosinus instead of a sinus, I don't need
+elements. If I want to plot a cosinus instead of a sinus, I don't need
 to understand the whole syntax here, but I guess that by just typing
 &quot;cos&quot; here, it will do something. And indeed, I have just drawn a
 cosinus. If I change this for &quot;green&quot;, it changes the color. If I
@@ -2682,9 +2683,7 @@ change the grid, that is by default &quot;true&quot;, if I say &quot;false&quot;
 don&apos;t have a grid anymore. Okay let&apos;s put it back. And I&apos;ve got some
 &quot;xAxis&quot; domain: &quot;-1, +1&quot;. If I change that for &quot;-10, +10&quot;, I can
 see the result. It&apos;s more interesting, if you change this for the x
-values&hellip; instead of going from PI to 2 PI. 
-<image>
-I went from 0 to 10 PI. I
+values&hellip; instead of going from PI to 2 PI. I went from 0 to 10 PI. I
 can see the result here, and so on&hellip; Now that you tweak the example,
 you can try to understand what is going on. Okay, this thing is a name
 followed by a parenthesis. an open parenthesis with a closing
@@ -2692,10 +2691,10 @@ parenthesis. It&apos;s a function call. When you&apos;ve got something like
 that, in JavaScript, function parenthesis with something in the middle,
 it&apos;s called a &quot;function call&quot;. We&apos;re going to call a function, that,
 in this case, we haven't written, so it&apos;s coming from one on the
-external libraries. In that case, it&apos;s the &quot;function-plot&quot; 
-library. What is inside? There are the parameters. 
-<image>
-And I can use an external name. I can declare that,
+external libraries.
+
+In that case, it&apos;s the &quot;function-plot&quot; library. What is inside? There
+are the parameters. And I can use an external name. I can declare that,
 here, it&apos;s equivalent. You see that it works the same here, but I've
 just separated the two things. If I put directly this thing inside here,
 like it was before, it still works. Okay, so what is this syntax? In
@@ -2711,16 +2710,14 @@ that is an object.
 The xAxis property is equal to an object that has a property domain,
 that has for values: &quot;-1, 1&quot;. And when you&apos;ve got brackets, opening
 and closing brackets, it&apos;s like that&hellip; That will define arrays of
-things in JavaScript. And an array of things is a list of enumerable elements. 
-In that case, the domain has two elements: the minimum value and the maximum value.
-<image>
+things in JavaScript.
 
+And an array of things is a list of enumerable elements. In that case,
+the domain has two elements: the minimum value and the maximum value.
 And here you can see that the data that are plotted, the cosinus
 function, is also an array. If I use the comma and I introduce a second
 element here. For example, the sinus function, and if I change the
-color, let&apos;s make it pink&hellip; 
-<image>
-Look at the result: I&apos;ve got 2 different
+color, let&apos;s make it pink&hellip; Look at the result: I&apos;ve got 2 different
 functions that have been plotted in my graph. I can, instead of using
 this, I can maybe plot x2 (x square 2), like this, okay. It should work.
 Ok, we can see a little bit of it here. Maybe we will change the domain,
@@ -2728,15 +2725,106 @@ so instead of stopping at 1, we go to 10. Here we go! And if we look at
 the values, we see the x square function that is a bit better, and if we
 just plot it for x=0 to x=2&hellip; &hellip;In that case, I've got another scale
 for looking at the functions.
-<image>
 
 In this first example, you saw how to use an external library, what is
 the syntax to call a function, and how we can define objects in
 JavaScript by using a set of properties and values, separated by a
 comma. And we also had a first encounter with what we call arrays, that
-are elements separated by commas inside brackets.
+are elements separated by commas inside brackets. So, what it the best
+method for learning JavaScript? When you are a complete beginner, I will
+recommend to look at examples, tweak them, change small things, try to
+understand what the syntax looks like. Even without deep explanations,
+without reading a book, or studying in details the different concepts of
+language, you can learn a lot. In this section, I propose that you look
+at a small example without understanding the details, and try to tweak
+it.
 
-<&lt;end of video transcript The Best Way to Learn JS&gt;>
+&lt;Img&gt;
+
+Here is the example we provide. It&apos;s just an example that draws, that
+plots, a mathematical function. You can use the mouse wheel to zoom in,
+zoom out, and you can look at the HTML code. There is only very few CSS
+and very few lines of JavaScript. So how can we do the such a complex
+result? Complex thing drawing the grid with axes, with labels, with a
+curve, and interact with the mouse.
+
+With only 10 lines of code: it&apos;s because we are using what we call an
+external JavaScript library. Actually, we are using 2 of them here.
+Because, this one: the &quot;function-plot&quot; JavaScript library, is using
+internally another one you must include also in the document. What I
+propose is that we will start looking at this example. The best way is
+to click on &quot;Edit on CodePen&quot; label here, it will open the code in the
+CodePen.io online editor. And&hellip; just look at the HTML part here. Okay,
+we can just look at the HTML part and zoom in a little bit. What do we
+see? We can see that it uses 2 libraries here between &lt;script&gt; and
+&lt;/script&gt; elements. This is how we can insert in the document an
+external JavaScript file. In that case, it&apos;s a remote JavaScript file
+because we are downloading it using http. It uses this &quot;d3js&quot;
+JavaScript library that is located at &quot;d3js.org&quot;. You can open this in
+another tab and you will see the documentation and the Web site, the
+homepage of the Web site, for the &quot;d3js&quot; library. By the way
+&quot;d3js&quot;is one of the most popular JavaScript libraries for visualizing
+data. Let&apos;s go back to our example, so you can just tweak the different
+elements. If I want to plot a cosinus instead of a sinus, I don't need
+to understand the whole syntax here, but I guess that by just typing
+&quot;cos&quot; here, it will do something. And indeed, I have just drawn a
+cosinus.
+
+If I change this for &quot;green&quot;, it changes the color. If I change the
+grid, that is by default &quot;true&quot;, if I say &quot;false&quot;, I don&apos;t have a
+grid anymore. Okay let&apos;s put it back. And I&apos;ve got some &quot;xAxis&quot;
+domain : &quot;-1, +1&quot;. If I change that for &quot;-10, +10&quot;, I can see the
+result. It&apos;s more interesting, if you change this for the x values&hellip;
+instead of going from PI to 2 PI. I went from 0 to 10 PI. I can see the
+result here, and so on&hellip; Now that you tweak the example, you can try
+to understand what is going on.
+
+&lt;function&gt;
+
+Okay, this thing is a name followed by a parenthesis; an open
+parenthesis with a closing parenthesis. It&apos;s a function call. When
+you&apos;ve got something like that, in JavaScript, function parenthesis
+with something in the middle, it&apos;s called a &quot;function call&quot;. We&apos;re
+going to call a function, that, in this case, we haven't written, so
+it&apos;s coming from one on the external libraries. In that case, it&apos;s the
+&quot;function-plot&quot; library. What is inside? There are the parameters. And
+I can use an external name. I can declare that, here, it&apos;s equivalent.
+You see that it works the same here, but I've just separated the two
+things. If I put directly this thing inside here, like it was before, it
+still works. Okay, so what is this syntax?
+
+In JavaScript, when you've got braces like that, opening braces and
+closing braces, it's called an object. And inside an object, you&apos;ve got
+properties and values. The properties have names: target, data,
+function, color, grid. And the values are after a column characters. The
+target is my function. The data is this thing. The grid is true, and so
+on&hellip; You separate the different properties of the object using a comma
+and sometimes, you can have some properties that in turn, have a value
+that is an object. The x Axis property is equal to an object that has a
+property domain, that has for values: &quot;-1, 1&quot;. And when you&apos;ve got
+brackets, opening and closing brackets, it&apos;s like that&hellip; That will
+define arrays of things in JavaScript. And an array of things is a list
+of enumerable elements. In that case, the domain has two elements: the
+minimum value and the maximum value.
+
+And here you can see that the data that are plotted, the cosinus
+function, is also an array. If I use the comma and I introduce a second
+element here. For example, the sinus function, and if I change the
+color, let&apos;s make it pink&hellip; Look at the result: I&apos;ve got 2 different
+functions that have been plotted in my graph. I can, instead of using
+this, I can maybe plot x2 (x square 2), like this, okay. It should work.
+Ok, we can see a little bit of it here. Maybe we will change the domain,
+so instead of stopping at 1, we go to 10. Here we go! And if we look at
+the values, we see the x square function that is a bit better, and if we
+just plot it for x=0 to x=2&hellip; &hellip;In that case, i&apos;ve got another
+scale for looking at the functions. In this first example, you saw how
+to use an external library, what is the syntax to call a function, and
+how we can define objects in JavaScript by using a set of properties and
+values, separated by a comma. And we also had a first encounter with
+what we call arrays, that are elements separated by commas inside
+brackets. What is the best method to learn JavaScript?
+
+&lt;end of video transcript The Best Way to Learn JS&gt;
 
 <h4>FIRST: learn by looking at and tweaking the code in the examples</h4>
 
@@ -2796,8 +2884,8 @@ mouse wheel to zoom in/out the function plot.
 document of some external JavaScript code:</p>
 
 ```
-1.  <script src=&quot;https://d3js.org/d3.v3.min.js&quot;></script>
-2.  <script src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;></script>
+1.  &lt;script src=&quot;https://d3js.org/d3.v3.min.js&quot;&gt;&lt;/script&gt;
+2.  &lt;script src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;&gt;&lt;/script&gt;
 ```
 
 We will examine this soon in a later section of the course, but, in
@@ -3491,123 +3579,6 @@ an external URL:
   title="How to debug JavaScript"
   alt="How to debug JavaScript." />
 </p>
-Hi, every programmer will make errors. It is very important that you learn how 
-to debug your JavaScript programs, how to see your errors, how to write messages 
-for debugging, tracing what is going on, etc.
-
-Every browser comes with a very powerful set of tools called the devtools.
-
-With my Mac, I can use command "alt + I". The thing we will going to use the 
-most is the console. A console loads problems or errors. If I can clear the 
-messages from here and this is the place where I will see the different error 
-messages I've got in my code.
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 105.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image105.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-
-Here is an example in JSBin. You can click here to see the console or it’s the 
-same thing you can get here. 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 106?.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image106.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-
-If I type something here: console.log("hello"). This is the instruction you 
-will use the most for printing error messages in the dev tool console. If I 
-execute it, it prints "hello", and I can see also in the browser built in 
-console: "hello".
-
-This just a comfortable way to display error messages. If I make some errors, 
-here I've got a script that will display, as soon the page is loaded, "Some 
-JavaScript code has been executed".
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 107.  (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image107.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
- 
-If I run the code, here, it displays "Some JavaScript code has been executed". 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 108.  (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image108.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
- 
-If there is a mistake, if I make an error here, for example, I write console 
-with two "l". I can see, in red, some messages:  "consolle is not defined", 
-bla, bla, bla...
-When you use some online tools like JSBin or CodePen, and so on, it's a bit 
-difficult to debug your code because you are debugging at the same time the 
-code of the tool itself that is written in JavaScript too. Each these tools 
-comes with a way to run your code in what we decode ‘standalone mode’ or 
-‘debug mode’.
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 109.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image109.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
- 
-With JSBin, I click on the small black arrow, here. And if I open the built-in 
-browser console, I can see the error message.
-
-And here, if I click on the link on the right, it will just show the line where 
-my program made a mistake display, so, as an error. Here, I can see that console 
-needs only one "l", I can fix that. 
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110.  (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image110.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-Another interested thing is that when you use "console.log", you can use it to 
-display some variable values. If I declare a variable named x with a value of 10, 
-I can use «console.log" to display the value of x, using the "+" operator. In 
-that case, if I run my code, it will help me by displaying the value of different 
-variables when “console.log” is executed.
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 111.  (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image111.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-
-With CodePen, another tool we use a lot in the course, you've got the debug mode. 
-Just save your work and click on "change view mode" we’ve got "debug mode" here.
-And you can also open the console. If you click on the console button here, you 
-can have a console here, and see what is going on. CodePen does not display the 
-error messages, so is better for debugging to click on the "debug mode", here.
-
-You've got the page in standalone mode, and you can open the dev tool console. 
-With local files, I’ve got another example here with HTML code that uses it 
-some JavaScript code from a "script.js" file. If I make an error here, an 
-error in the name console, I save. I can run the result: "Open in browser". 
-I click, it does nothing. I open the dev tool console and I see where the 
-problem is and I can click on the link on the right and it shows the line 
-with the error.
-
 Let&apos;s introduce what is debugging.
 
 <h4>You will make errors!</h4>
@@ -3728,9 +3699,8 @@ And if we run it standalone and use the dev. tool console:
   title="View of the JavaScript console (showing the line that caused the error"
   alt="View of the JavaScript console (showing the line that caused the error." />
 </p>
-<!-- ![View of the JavaScript console (showing the line that caused the error)]  -->
-<!-- (./images/image106.jpeg){width="5.0in" -->
-<!-- height="2.508445975503062in"} -->
+<!-- ![View of the JavaScript console (showing the line that caused the error)](./images/image106.jpeg){width="5.0in" -->
+height="2.508445975503062in"}
 
 And if we click on the line number to the right, the dev. tool shows the
 source code centered on the line that caused the error:
@@ -3783,15 +3753,8 @@ then we will do the same thing using the CodePen online editor, then,
 using a regular source code editor and .html, .css and .js files.
 
 <b>Here is what the resulting Web page will look like:</b>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 108.  (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image108.png?raw=true"
-  style="width:50%"
-  title=""
-  alt="." />
-</p>
-<!-- ![](./images/image108.png)  <!-- {width="5.0in" height="3.0480774278215224in"} -->
+
+![](./images/image108.png)  <!-- {width="5.0in" height="3.0480774278215224in"} -->
 
 https://codepen.io/w3devcampus/pen/bqGboZ
 
@@ -4083,37 +4046,20 @@ undefined
 
 Below is an image that explains how you can try JavaScript code in the
 devtools console:
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 109. constants in the devtool console. (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image109.jpeg?raw=true"
-  style="width:50%"
-  title=""
-  alt="." />
-</p>
-<!-- ![Display JS variable in the console devtools, type some instructions, -->
-<!-- press return. For example type var x=2; then press the enter key; then -->
-<!-- type x; it will display its value  -->
-<!-- &quot;2&quot;](./images/image109.jpeg){width="5.0in" -->
-<!-- height="2.112402668416448in"}  -->
+
+![Display JS variable in the console devtools, type some instructions,
+press return. For example type var x=2; then press the enter key; then
+type x; it will display its value
+&quot;2&quot;](./images/image109.jpeg){width="5.0in"
+height="2.112402668416448in"}
 
 If you try to use a variable that has never been declared, you get an
 error message:
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 110. constants in the devtool console. (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image110.jpeg?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-
-<!-- ![If you type k; followed by the enter key in the devtool console, and -->
-<!-- if k has not been defined, then an error message is displayed: -->
-<!-- &quot;uncaught referenceError: k is not -->
-<!-- defined&hellip;] -->
-<!-- (./images/image110.jpeg){width="6.729166666666667in" height="1.3895297462817149in"} -->
+![If you type k; followed by the enter key in the devtool console, and
+if k has not been defined, then an error message is displayed:
+&quot;uncaught referenceError: k is not
+defined&hellip;](./images/image110.jpeg){width="6.729166666666667in" height="1.3895297462817149in"}
 
 <h4>Name conventions for variables</h4>
 
@@ -4166,17 +4112,9 @@ var TIME_LIMIT;
 const MAX_GRADE = 20;
 ```
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 111. constants in the devtool console. (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image111.jpeg?raw=true"
-  style="width:65%"
-  title="Constants in the devtool console. We see the difference between var
-    and const. The code executed is the one from the above example"
-  alt="Constants in the devtool console. We see the difference between var
-    and const. The code executed is the one from the above example." />
-</p>
-<!-- (./images/image111.jpeg){width="6.510416666666667in" height="2.3413331146106735in"} -->
+![Constants in the devtool console. We see the difference between var
+and const. The code executed is the one from the above
+example](./images/image111.jpeg){width="6.510416666666667in" height="2.3413331146106735in"}
 
 <h4>Summary</h4>
 
@@ -4276,15 +4214,9 @@ Global variables are variables declared outside of functions. They can
 be used anywhere in the code.
 
 <h4>Here is an example:</h4>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 112.  (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image112.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-<!-- ![](./images/image112.png){width="6.5in" height="2.323611111111111in"} -->
+
+![](./images/image112.png){width="6.5in"
+height="2.323611111111111in"}
 
 https://codepen.io/w3devcampus/pen/WjMMLZ
 
@@ -4308,29 +4240,16 @@ JavaScript 6 / ES6. See examples at the end of this section.
 
 Example of a local variable declared in a function, that is NOT local to
 the block, but to the whole function:
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 113.  (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image113.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-<!-- ![](./images/image113.png){width="6.5in" height="2.357638888888889in"} -->
+
+![](./images/image113.png){width="6.5in"
+height="2.357638888888889in"}
 
 https://codepen.io/w3devcampus/pen/RVMOGx
 
 Here is another example that shows the differences between global and
 local variables, and highlights the &quot;masking&quot; of global variables by
 local variables when they share the same name.
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 114.  (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image114.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
+
 ![](./images/image114.png){width="6.5in"
 height="3.3743055555555554in"}
 
@@ -4355,26 +4274,13 @@ JavaScript 6 or above.</b>
 Here is an example that shows what happens when you forget to use var or
 let while declaring a local variable:
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 115.  (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image115.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-<!-- ![](./images/image115.png){width="6.5in" height="3.941666666666667in"} -->
+![](./images/image115.png){width="6.5in" height="3.941666666666667in"}
 
 https://codepen.io/w3devcampus/pen/rmJJbo
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 116. declaring a variable without var in a function makes it global (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image116.jpeg?raw=true"
-  style="width:65%"
-  title="Declaring a variable without var in a function makes it global"
-  alt="Declaring a variable without var in a function makes it global." />
-</p>
-<!-- (./images/image116.jpeg){width="6.375in" height="1.2871139545056869in"} -->
+
+![Declaring a variable without var in a function makes it
+global](./images/image116.jpeg){width="6.375in"
+height="1.2871139545056869in"}
 
 <h5>2) Since 2015 and ES2015, there are new scopes, with the let keyword</h5>
 
@@ -4392,15 +4298,8 @@ in another block that contains the current block).</b>
 
 Example of a local variable declared with the let keyword. Its scope is
 the block:
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 117.  (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image117.png?raw=true"
-  style="width:50%"
-  title=""
-  alt="." />
-</p>
-<!-- ![](./images/image117.png){width="6.5in" height="2.46875in"} -->
+
+![](./images/image117.png){width="6.5in" height="2.46875in"}
 
 https://codepen.io/w3devcampus/pen/VbXNPz
 
@@ -4484,16 +4383,11 @@ Well, there are multiple possibilities:
 What we call &quot;primitive data types&quot;: for example a number, a string,
 etc. ex:
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 118.  (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image118.png?raw=true"
-  style="width:20%"
-  title="var x = 3; var name = &quot;Buffa&quot;;![a set of playing cards"
-  alt="var x = 3; var name = &quot;Buffa&quot;;![a set of playing cards." />
-</p>
-<!-- ](./images/image118.png){width="2.0833333333333335in" height="1.25in"} -->
-
+```
+var x = 3; var name = &quot;Buffa&quot;;![a set of playing
+  cards](./images/image118.png){width="2.0833333333333335in"
+  height="1.25in"}
+```
 
 1.  Objects (everything that is not a  &quot;primitive data type&quot; is an
     object):
@@ -4538,19 +4432,11 @@ or function)
 
 We will use it in lots of examples in the next three sections.
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 119.  (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image119.jpeg?raw=true"
-  style="width:50%"
-  title=""
-  alt="." />
-</p>
-<!-- ![dynamic typing. You can use the typeof operator to see the &quot;dynamic -->
-<!-- type of a variable&quot;. For example, type let n=3; then typeof n, it will  -->
-<!-- display &quot;number&quot;. Then type n=&quot;toto&quot;; and typeof n; this time it  -->
-<!-- displays &quot;string&quot;](./images/image119.jpeg){width="5.0in"  -->
-<!-- height="2.5648020559930007in"}  -->
+![dynamic typing. You can use the typeof operator to see the &quot;dynamic
+type of a variable&quot;. For example, type let n=3; then typeof n, it will
+display &quot;number&quot;. Then type n=&quot;toto&quot;; and typeof n; this time it
+displays &quot;string&quot;](./images/image119.jpeg){width="5.0in"
+height="2.5648020559930007in"}
 
 This operator is not often use in JavaScript programs, but it&apos;s useful
 for us, for explaining the data types.
@@ -4788,16 +4674,10 @@ floating point numbers is that 0.1 + 0.2 does not equal 0.3. 
 0.30000000000000004
 ```
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 120. devtools console showing that 0.1 + 0.2 is not equal to 0.3 but to .30000000... (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image120.jpeg?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-<!-- ![devtool console showing that 0.1 + 0.2 is not equal to 0.3 but to 0.30000000000000004  -->
-<!-- (./images/image120.jpeg){width="6.635416666666667in" height="1.5729166666666667in"} -->
+![devtool console showing that 0.1 + 0.2 is not equal to 0.3 but to
+0.30000000000000004
+](./images/image120.jpeg){width="6.635416666666667in"
+height="1.5729166666666667in"}
 
 Second, an integer has 2&#94;52 relevant bits, so the biggest integer
 is 2&#94;53. There is one bit that determines the sign of the number, so
@@ -4847,15 +4727,9 @@ precedence.   
 
 For example, this is an expression: (3 + 2). And the expression (3 + 2)
 &ast; 4, which equals 20, depends on the expression within the parentheses.
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 121. operators (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image121.png?raw=true"
-  style="width:20%"
-  title=""
-  alt="." />
-</p>
-<!-- ![operators](./images/image121.png){width="2.0833333333333335in" height="1.2291666666666667in"} -->
+
+![operators](./images/image121.png){width="2.0833333333333335in"
+height="1.2291666666666667in"}
 
 In JavaScript, expressions can evaluate to four types, which
 are: numbers, strings, booleans, and objects. For example, an expression
@@ -4894,17 +4768,9 @@ VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
 
 <h5>Image from the devtool console, from the above example:</h5>
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 122. Snapshot of a devtool console: do not mix simple and double quotes (xxx) ~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image122.jpeg?raw=true"
-  style="width:65%"
-  title="Snapshot of a devtool console: do not mix simple and double quotes"
-  alt="Snapshot of a devtool console: do not mix simple and double quotes." />
-</p>
-<!-- ![Snapshot of a devtool console: do not mix simple and double -->
-<!-- quotes](./images/image122.jpeg)  -->
-<!-- {width="6.583333333333333in" height="2.4791666666666665in"} -->
+![Snapshot of a devtool console: do not mix simple and double
+quotes](./images/image122.jpeg){width="6.583333333333333in"
+height="2.4791666666666665in"}
 
 ##### There are many reasons to use simple quotes when possible:
 
@@ -5029,7 +4895,7 @@ var s2 = &apos;two&apos;;
 s1+= s2; // or directly s1+=&apos;two&apos;
 s1;
 //returns &apos;onetwo&apos;
-#### The method concat()
+#### The method concat() {#the-method-concat .unnumbered}
 Another way to concatenate strings is the method concat().
 //the &apos;concat&apos; method
 var s1 = &apos;one&apos;;
@@ -5088,8 +4954,8 @@ NaN
 &quot;number&quot; s 3 var s = &apos;1&apos;; s++; typeof s; &quot;number&quot; s 2 var s =
 &quot;100&quot;; typeof s; &quot;string&quot; s = s &ast; 1; 100 typeof s; &quot;number&quot; var d
 = &apos;101 dalmatiens&apos;; undefined d &ast; 1
-NaN](./images/image123.jpeg)
-<!-- {width="3.4791666666666665in" height="5.458333333333333in"} -->
+NaN](./images/image123.jpeg){width="3.4791666666666665in"
+height="5.458333333333333in"}
 
 #### How to convert a Number into a String
 
@@ -5359,7 +5225,7 @@ the moment, let&apos;s focus on the most useful features&hellip;
 10. 7
 ```
 
-#### Arrays and Strings
+#### Arrays and Strings {#arrays-and-strings .unnumbered}
 
 Strings are arrays of characters! 
 
@@ -5383,7 +5249,7 @@ Examples:
 9.  3
 ```
 
-#### Definition of a function
+#### Definition of a function {#definition-of-a-function .unnumbered}
 
 A function allows you to group code, give it a name and be able to
 execute it by calling it by name.
@@ -5395,7 +5261,7 @@ Functions always return a value:
 
 -   Implicitly, in which case the return value is undefined.
 
-#### Declaring a function
+#### Declaring a function {#declaring-a-function .unnumbered}
 
 ```
 1.  function sum(a, b) {
@@ -5404,7 +5270,7 @@ Functions always return a value:
 4.  }
 ```
 
-#### Calling a function
+#### Calling a function {#calling-a-function .unnumbered}
 
 ```
 1.  var result = sum(1, 2);
@@ -5413,7 +5279,7 @@ Functions always return a value:
 4.  &gt; 3
 ```
 
-#### Function parameters
+#### Function parameters {#function-parameters .unnumbered}
 
 If parameters are omitted during the call, JavaScript gives them the
 value undefined:
@@ -5423,7 +5289,7 @@ value undefined:
 2.  NaN
 ```
 
-#### Functions with a variable number of parameters
+#### Functions with a variable number of parameters {#functions-with-a-variable-number-of-parameters .unnumbered}
 
 An array named &quot;arguments&quot; is created automatically in each function,
 it contains all the call parameters of the function:
@@ -5454,7 +5320,7 @@ it contains all the call parameters of the function:
 7.  // returns &lbrack;1, 2, 3, 4, true, &quot;Michel Buffa&quot;&rbrack;
 ```
 
-#### Example of the sum with a variable number of arguments
+#### Example of the sum with a variable number of arguments {#example-of-the-sum-with-a-variable-number-of-arguments .unnumbered}
 
 ```
 1.  function newSum() {
@@ -5503,15 +5369,8 @@ console and console.log(&hellip;)!
 Let&apos;s check that some parts of the code you wrote are executed
 correctly.
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 124.  (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image124.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-<!-- ![](./images/image124.png) {width="6.5in" height="2.748611111111111in"} -->
+![](./images/image124.png){width="6.5in"
+height="2.748611111111111in"}
 
 Normally, when the button is clicked, we should call
 the addXToThePage() function, which in turn should display the value of
@@ -5520,77 +5379,45 @@ the variable x inside an HTML paragraph.
 Let&apos;s check if the function is really executed. We need to add
 a console.log(&quot;In the addXToThePage function&quot;); as the first
 instruction of the function:
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 125.  (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image125.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-<!-- ![](./images/image125.png) {width="6.5in" height="3.18125in"} -->
+
+![](./images/image125.png){width="6.5in" height="3.18125in"}
 
 And let&apos;s execute this with the devtool console open (use F12 on
 Windows, or Cmd-Alt-i on a Mac, or control-shift-i). First, as the
 provided example is located on CodePen, an online IDE, it&apos;s better to
 execute it in &quot;debug mode&quot;. The online IDE will just display a page
 (see snapshot below) with the code running:
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 126.  (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image126.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-<!-- ![](./images/image126.png){width="6.5in" height="3.270138888888889in"} -->
+
+![](./images/image126.png){width="6.5in"
+height="3.270138888888889in"}
 
 This action opens a new tab with only your code running in it (not the
 whole codepen IDE + your code!). Open the devtool console (F12 or
 control-shift-i or cmd-alt-i on Mac), and you should see this:
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 127.  (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image127.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-</p>
-<!-- ![](./images/image127.png) -->
-<!-- {width="6.5in" height="3.1631944444444446in"} -->
+
+![](./images/image127.png){width="6.5in"
+height="3.1631944444444446in"}
 
 Now, press the button! An error message appears:
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 128. Error message in the devtools console (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image128.jpeg?raw=true"
-  style="width:60%"
-  title="Error message in the devtools console"
-  alt="Error message in the devtools console." />
-</p>
-<!-- ![Error message in the devtool console](./images/image128.jpeg) -->
-<!-- {width="5.90625in" height="0.9583333333333334in"} -->
+
+![Error message in the devtool
+console](./images/image128.jpeg){width="5.90625in"
+height="0.9583333333333334in"}
 
 Apparently the function name is wrong, addXToToThePage does not exist.
 We can check the source code by clicking on the YNbvoX:40 link on the
 right:
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 129. source code that fired the error (xxx) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image129.jpeg?raw=true"
-  style="width:65%"
-  title="Source code that fired the error"
-  alt="Error message in the devtools console." />
-</p>
-<!-- ![Source code that fired the error](./images/image129.jpeg) -->
-<!-- {width="6.541666666666667in" height="1.771887576552931in"} -->
+
+![Source code that fired the
+error](./images/image129.jpeg){width="6.541666666666667in"
+height="1.771887576552931in"}
 
 Ok, so our first error was that we typed the wrong name in
 the onclick=&quot;&hellip;&quot;, the name we used : AddXToToThePage has &quot;ToTo&quot;
 instead of &quot;To&quot;. Let&apos;s fix that now and try again:
 
-![](./images/image130.png)
-<!-- {width="6.191674321959755in" height="3.027040682414698in"} -->
+![](./images/image130.png){width="6.191674321959755in"
+height="3.027040682414698in"}
 
 After we&apos;ve changed the name of the function to the correct one, let&apos;s
 go in debug mode, open the devtool console and click the button. Here is
@@ -5610,9 +5437,9 @@ should be ok now:
 
 You can click on the button now&hellip;.
 
-#### Going further with console.log
+#### Going further with console.log {#going-further-with-console.log .unnumbered}
 
-#### Displaying variable values
+#### Displaying variable values {#displaying-variable-values .unnumbered}
 
 Instead of just displaying pure string messages, you can also use the
 &quot;+&quot; operator to concatenate variable values to the pure character
@@ -5628,7 +5455,9 @@ Example :
 
 We typed this code in the devtool console to check what it does:
 
-![Type js code into the console](./images/image132.jpeg)  <!-- {width="6.114583333333333in" height="1.4788757655293088in"} -->
+![Type js code into the
+console](./images/image132.jpeg){width="6.114583333333333in"
+height="1.4788757655293088in"}
 
 You can use as many &quot;+&quot; as you like, the part right after the &quot;+&quot;
 will be turned into a string if the part in front is a string&hellip;
@@ -5646,10 +5475,11 @@ calculations:
     like that.&quot;);
 ```
 
-<h4>Result:<h4>
+Result:
 
 ![Expression displayed using
-console.log](./images/image133.jpeg)  <!-- {width="7.416666666666667in" height="3.0416666666666665in"} -->
+console.log](./images/image133.jpeg){width="7.416666666666667in"
+height="3.0416666666666665in"}
 
 You can use any operator (+, -, /, &ast;, etc.), you are not limited to
 using the &quot;+&quot; operator.
@@ -5690,7 +5520,7 @@ use):
 Just click the button to build the HTML table dynamically. You should
 see this:
 
-![](./images/image134.png)  <!-- {width="3.90625in" height="2.71875in"} -->
+![](./images/image134.png){width="3.90625in" height="2.71875in"}
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-4">1.6.4 Modifying CSS styles on the fly</h3>
@@ -5704,7 +5534,8 @@ what can be done.
 
 #### Example #1: change common properties (color, border, background color)
 
-![](./images/image135.png)  <!-- {width="6.5in" height="2.2583333333333333in"} -->
+![](./images/image135.png){width="6.5in"
+height="2.2583333333333333in"}
 
 <h5>HTML:</h5>
 
@@ -5758,13 +5589,14 @@ divElem.style.backgroundColor = &quot;lightGreen&quot;;
 }
 ```
 
-#### Example #2: change the background image property using an external image
+#### Example #2: change the background image property using an external image {#example-2-change-the-background-image-property-using-an-external-image .unnumbered}
 
-![](./images/image136.png)  <!-- {width="6.5in" height="2.354861111111111in"} -->
+![](./images/image136.png){width="6.5in"
+height="2.354861111111111in"}
 
-#### Example #3: Use the background image as a sprite sheet - animate Mario!
+#### Example #3: Use the background image as a sprite sheet - animate Mario! {#example-3-use-the-background-image-as-a-sprite-sheet---animate-mario .unnumbered}
 
-![](./images/image137.png)  <!-- {width="6.5in" height="5.2125in"} -->
+![](./images/image137.png){width="6.5in" height="5.2125in"}
 
 Notice how the CSS properties change when we use them from JavaScript:
 
@@ -5800,7 +5632,8 @@ study some of the most useful events in even greater depth.
 
 #### Example #1: use input events on an HTML input field
 
-![](./images/image138.png)  <!-- {width="6.5in" height="2.1347222222222224in"} -->
+![](./images/image138.png){width="6.5in"
+height="2.1347222222222224in"}
 
 #### Example #2: listen to mouse events in an HTML5 canvas
 
@@ -5817,14 +5650,14 @@ make a small game, etc. Small and diverse examples for illustrating some
 JavaScript data structures such as Arrays or Objects are going to be
 presented.
 
-#### ![](./images/image139.png) <!-- {width="6.5in" height="4.117361111111111in"} -->
-Example #3: a paint program - click and drag mouse, then release
+#### ![](./images/image139.png){width="6.5in" height="4.117361111111111in"}Example #3: a paint program - click and drag mouse, then release {#example-3-a-paint-program---click-and-drag-mouse-then-release .unnumbered}
 
-![](./images/image140.png) <!-- {width="6.5in" height="5.08125in"} -->
+![](./images/image140.png){width="6.5in" height="5.08125in"}
 
-#### Example #4: move a monster in an HTML5 canvas using left and right arrow keys
+#### Example #4: move a monster in an HTML5 canvas using left and right arrow keys {#example-4-move-a-monster-in-an-html5-canvas-using-left-and-right-arrow-keys .unnumbered}
 
-![](./images/image141.png)  <!-- {width="6.5in" height="4.159027777777778in"} -->
+![](./images/image141.png){width="6.5in"
+height="4.159027777777778in"}
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-6">1.6.6 Using built-in HTML5 APIs</h3>
@@ -5886,12 +5719,13 @@ console.log(err)
 If you want to spend some time having fun with the WebCam, don&apos;t forget
 to try[ the WebCam Toy](https://webcamtoy.com/) demo!
 
-#### Example #2: using the WebAudio API to build a small synthetizer
+#### Example #2: using the WebAudio API to build a small synthetizer {#example-2-using-the-webaudio-api-to-build-a-small-synthetizer .unnumbered}
 
 Click on the piano keyboard. Use the different buttons, sliders, etc.
 This example uses the WebAudio API in order to synthesize sounds.
 
-![](./images/image142.png) <!-- {width="6.5in" height="4.813194444444444in"} -->
+![](./images/image142.png){width="6.5in"
+height="4.813194444444444in"}
 
 <h5>HTML:</h5>
 
@@ -6641,7 +6475,8 @@ plots f(x) = x&#94;2, then f(x) = sin(x) and finally a mix of
 fours functions : f(x) = x&#94;2 (in red), f(x) = 3&ast;x (in green), f(x) =
 cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)
 
-![](./images/image143.png) <!-- {width="6.5in" height="5.102083333333334in"} -->
+![](./images/image143.png){width="6.5in"
+height="5.102083333333334in"}
 
 <h5>HTML:</h5>
 
@@ -6744,7 +6579,8 @@ x&#94;3 and look at the result (don&apos;t forget to change
 the xRange and yRange values). If you have trouble, [look
 here](https://codepen.io/w3devcampus/pen/MJMYNb) for a solution.
 
-![](./images/image144.png) <!-- {width="6.5in" height="3.0569444444444445in"} -->
+![](./images/image144.png){width="6.5in"
+height="3.0569444444444445in"}
 
 <h5>HTML:</h5>
 
@@ -6806,7 +6642,7 @@ Let&apos;s see a few examples on how to work with remote data.
 This example downloads and displays a list of users in a table
 (see [remote data](https://jsonplaceholder.typicode.com/users)):
 
-![](./images/image145.png) <!-- {width="6.5in" height="4.909722222222222in"} -->
+![](./images/image145.png){width="6.5in" height="4.909722222222222in"}
 
 <h5>HTML:</h5>
 
@@ -6889,7 +6725,7 @@ This example just shows how to use the HowlerJS external library to load
 remote sounds, decode them and play them as samples in memory (useful
 for video games):
 
-### ![](./images/image146.png) <!-- {width="6.5in" height="3.25in"} {#section-7 .unnumbered} -->
+### ![](./images/image146.png){width="6.5in" height="3.25in"} {#section-7 .unnumbered}
 
 <h5>HTML:</h5>
 
@@ -7073,7 +6909,9 @@ I declared the variable &quot;age&quot; with a value of 1, and I added some
 if&hellip; else statements.
 
 If &quot;age&quot; is less than 2, print &quot;I&apos;m a baby&quot;, and you can see that
-this has been executed, because the variable is 1, 1 is less than 2. It&apos;s been
+this has been
+
+executed, because the variable is 1, 1 is less than 2. It&apos;s been
 executed...
 
 I can add some &quot;else&hellip;if&quot; statements.
@@ -7137,7 +6975,7 @@ And thrust me, it&apos;s much better to use the triple equals operator, it
 will avoid you many errors like considering a string as a number, and so
 on.
 
-### Source code of the example shown in the video
+### Source code of the example shown in the video {#source-code-of-the-example-shown-in-the-video .unnumbered}
 
 [This example is available on
 CodePen](https://codepen.io/w3devcampus/pen/pPmqwq?editors=0012)
@@ -7148,7 +6986,7 @@ I&apos;ll do that&hellip;</b>&quot;, we need to define a few more concepts.
 
 Let&apos;s tart with &quot;boolean values&quot; and &quot;logical operators&quot;.
 
-### Boolean values
+### Boolean values {#boolean-values .unnumbered}
 
 The <b>boolean</b> type represents a logical entity having two
 values: true and false.
@@ -7168,7 +7006,7 @@ it becomes a string variable:
 1.  var b = &apos;true&apos;; // b is not a boolean but a string
 ```
 
-#### Undefined and null values
+#### Undefined and null values {#undefined-and-null-values .unnumbered}
 
 <b>Undefined</b>
 
@@ -7218,7 +7056,7 @@ a ReferenceError will be raised. But the typeof operator will return
 5.  &apos;undefined&apos;
 ```
 
-### Logical operators
+### Logical operators {#logical-operators .unnumbered}
 
 The logical operators are: 
 
@@ -7260,7 +7098,7 @@ The logical operators are: 
 8 </b>and<b> 11</b> of the previous example, non-boolean values are
 implicitly converted to boolean.
 
-### Lazy evaluation or short-circuit evaluation
+### Lazy evaluation or short-circuit evaluation {#lazy-evaluation-or-short-circuit-evaluation .unnumbered}
 
 Logical expressions are evaluated from left to right. JavaScript uses a
 mechanism known as &quot;short-circuit evaluation&quot; to prevent the second,
@@ -7293,7 +7131,7 @@ Examples:
 16. }
 ```
 
-### Implicit conversions of non boolean values in expressions
+### Implicit conversions of non boolean values in expressions {#implicit-conversions-of-non-boolean-values-in-expressions .unnumbered}
 
 Used with logical operators or within statements, <b>non-boolean values
 are implicitly converted to booleans</b>.  
@@ -7367,7 +7205,7 @@ the value 3 is not assigned to the var myNumber. In the last
 line, myNumber is evaluated as false, then the value 2 is given to the
 variable myNumber.
 
-### Comparison operators
+### Comparison operators {#comparison-operators .unnumbered}
 
 -   Equal <b>==</b>
 
@@ -7385,7 +7223,7 @@ variable myNumber.
 
 -   Strict not equal <b>!==</b>
 
-#### What is the difference between <b>==</b> and === in JavaScript?
+#### What is the difference between <b>==</b> and === in JavaScript? {#what-is-the-difference-between-and-in-javascript .unnumbered}
 
 <h5>Equal (==)</h5>
 
@@ -7439,7 +7277,7 @@ Here are interesting articles:
 -   [Equality comparisons and
     sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 
-### Specific case of NaN
+### Specific case of NaN {#specific-case-of-nan .unnumbered}
 
 As we have already seen, JavaScript has some special values. One of them
 is NaN: "Not-a-Number". 
@@ -7652,12 +7490,12 @@ Statements are generally executed sequentially from top to bottom of the
 script. However, this flow can be modified by statements such as
 conditional statements and iteration statements.
 
-### The block statement
+### The block statement {#the-block-statement .unnumbered}
 
 The block statement is a simple statement which allows us to group a set
 of statements wrapped in curly braces. 
 
-### Block statement:
+### Block statement: {#block-statement .unnumbered}
 
 ```
 1.  {
@@ -7670,7 +7508,7 @@ of statements wrapped in curly braces. 
 The block statement is used by other statements such as the if-statement
 or for-statement. We will see these statements below.
 
-### Conditional statements
+### Conditional statements {#conditional-statements-1 .unnumbered}
 
 All the examples for this section are in this codepen (to run it: click
 on the &quot;edit on CodePen&quot; label, and once in CodePen, open the devtool
@@ -7682,7 +7520,7 @@ commented - please remove comments and try to understand the results).
 <b>Conditional statements are used to execute a unit of code</b>
 <b>only if a condition is evaluated as true.</b>
 
-### The if statement
+### The if statement {#the-if-statement .unnumbered}
 
 <b>Syntax:</b>
 
@@ -7699,7 +7537,7 @@ commented - please remove comments and try to understand the results).
 
 -   any values or expressions which can be converted to boolean
 
-#### Example #1: if-statement
+#### Example #1: if-statement {#example-1-if-statement .unnumbered}
 
 ```
 1.  var num = 10;
@@ -9812,7 +9650,7 @@ specification.
 Please note that the W3C has also published a sibling specification
 describing the values for the key property.
 
-### Current browser support
+### Current browser support {#current-browser-support .unnumbered}
 
 -   [CanIUse table for key](https://caniuse.com/#feat=keyboardevent-key)
 
@@ -11051,7 +10889,7 @@ the part dealing with form events.
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
 
-### Suggested topics
+### Suggested topics {#suggested-topics-1 .unnumbered}
 
 -   Did you know the differences between clientX, pageX, etc. when
     dealing with mousemove events? Did you know the method we showed for
@@ -11061,7 +10899,7 @@ post your comments/observations/questions or share your creations.
 -   Did you know the different keyboard layouts, and
     the code and key event properties?
 
-### Optional project
+### Optional project {#optional-project-1 .unnumbered}
 
 ![times](./images/image193.jpeg){width="2.0833333333333335in"
 height="1.3854166666666667in"}
@@ -11382,61 +11220,61 @@ height="2.983974190726159in"}
 
 <h5>HTML:</h5>
 
-<!DOCTYPE html>
+&lt;!DOCTYPE html&gt;
 
-<html lang=&quot;en&quot;>
+&lt;html lang=&quot;en&quot;&gt;
 
-<head>
+&lt;head&gt;
 
-<meta charset=&quot;utf-8&quot;>
+&lt;meta charset=&quot;utf-8&quot;&gt;
 
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
 
-<title>querySelector and querySelector example 1</title>
+&lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
 
-</head>
+&lt;/head&gt;
 
-<body>
+&lt;body&gt;
 
-<button onclick=&quot;addBorderToFirstImage();&quot;>
+&lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
 
 Add a border to the first image
 
-</button>
+&lt;/button&gt;
 
-<br>
+&lt;br&gt;
 
-<button onclick=&quot;resizeAllImages();&quot;>
+&lt;button onclick=&quot;resizeAllImages();&quot;&gt;
 
 Resize all images
 
-</button>
+&lt;/button&gt;
 
-<br>
+&lt;br&gt;
 
-<p>Click one of the buttons above!</p>
+&lt;p&gt;Click one of the buttons above!&lt;/p&gt;
 
-<img src=&quot;https://mainline.i3s.unice.fr/mooc/Ntvj5rq.png&quot;
+&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/Ntvj5rq.png&quot;
 
 id=&quot;img1&quot;
 
-width=200 alt=&quot;image #1&quot;>
+width=200 alt=&quot;image #1&quot;&gt;
 
-<img src=&quot;https://mainline.i3s.unice.fr/mooc/yiU59oi.gif&quot;
+&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/yiU59oi.gif&quot;
 
-width=200 alt=&quot;image #2&quot;>
+width=200 alt=&quot;image #2&quot;&gt;
 
-<img src=&quot;https://mainline.i3s.unice.fr/mooc/6FstYbc.jpg&quot;
+&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/6FstYbc.jpg&quot;
 
-width=200 alt=&quot;image #3&quot;>
+width=200 alt=&quot;image #3&quot;&gt;
 
-<img src=&quot;https://mainline.i3s.unice.fr/mooc/L97CyS4.png&quot;
+&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/L97CyS4.png&quot;
 
-width=200 alt=&quot;image #4&quot;>
+width=200 alt=&quot;image #4&quot;&gt;
 
-</body>
+&lt;/body&gt;
 
-</html>
+&lt;/html&gt;
 
 <h5>JS:</h5>
 
@@ -11507,24 +11345,24 @@ and 18**). 
 
 ```
 1.  &hellip;
-2.  <button onclick=&quot;addBorderToFirstImage();&quot;>
+2.  &lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
 3.  Add a border to the first image
-4.  </button>
-5.  <br>
-6.  <button onclick=&quot;resizeAllImages();&quot;>
+4.  &lt;/button&gt;
+5.  &lt;br&gt;
+6.  &lt;button onclick=&quot;resizeAllImages();&quot;&gt;
 7.  Resize all images
-8.  </button>
-9.  <br>
-10. <p>Click one of the buttons above!</p>
-11. <img src=&quot;https://i.imgur.com/Ntvj5rq.png&quot;
+8.  &lt;/button&gt;
+9.  &lt;br&gt;
+10. &lt;p&gt;Click one of the buttons above!&lt;/p&gt;
+11. &lt;img src=&quot;https://i.imgur.com/Ntvj5rq.png&quot;
 12. id=&quot;img1&quot;
-13. width=200>
-14. <img src=&quot;https://i.imgur.com/yiU59oi.gif&quot;
-15. width=200>
-16. <img src=&quot;https://i.imgur.com/6FstYbc.jpg&quot;
-17. width=200>
-18. <img src=&quot;https://i.imgur.com/L97CyS4.png&quot;
-19. width=200>
+13. width=200&gt;
+14. &lt;img src=&quot;https://i.imgur.com/yiU59oi.gif&quot;
+15. width=200&gt;
+16. &lt;img src=&quot;https://i.imgur.com/6FstYbc.jpg&quot;
+17. width=200&gt;
+18. &lt;img src=&quot;https://i.imgur.com/L97CyS4.png&quot;
+19. width=200&gt;
 20. &hellip;
 ```
 
@@ -11586,32 +11424,32 @@ height="3.803472222222222in"}
 <h5>HTML:</h5>
 
 ```
-1.  <!DOCTYPE html>
-2.  <html lang=&quot;en&quot;>
-3.  <head>
-4.  <meta charset=&quot;utf-8&quot;>
-5.  <meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-6.  <title>querySelector and querySelector example 1</title>
-7.  </head>
-8.  <body>
-9.  <button onclick=&quot;firstLiClassRedInUl();&quot;>Select first li of
-    class red and color it in red</button>
-10. <br>
-11. <button onclick=&quot;allLisInUlOfClassNav();&quot;>Underline All li in a
-    ul of class nav</button>
-12. <ul class=&quot;nav&quot;>
-13. <li>Home</li>
-14. <li class=&quot;red&quot;>Products</li>
-15. <li>About</li>
-16. </ul>
+1.  &lt;!DOCTYPE html&gt;
+2.  &lt;html lang=&quot;en&quot;&gt;
+3.  &lt;head&gt;
+4.  &lt;meta charset=&quot;utf-8&quot;&gt;
+5.  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+6.  &lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
+7.  &lt;/head&gt;
+8.  &lt;body&gt;
+9.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
+    class red and color it in red&lt;/button&gt;
+10. &lt;br&gt;
+11. &lt;button onclick=&quot;allLisInUlOfClassNav();&quot;&gt;Underline All li in a
+    ul of class nav&lt;/button&gt;
+12. &lt;ul class=&quot;nav&quot;&gt;
+13. &lt;li&gt;Home&lt;/li&gt;
+14. &lt;li class=&quot;red&quot;&gt;Products&lt;/li&gt;
+15. &lt;li&gt;About&lt;/li&gt;
+16. &lt;/ul&gt;
 17. Another list:
-18. <ul>
-19. <li>Apple</li>
-20. <li class=&quot;red&quot;>Cherries</li>
-21. <li>Oranges</li>
-22. </ul>
-23. </body>
-24. </html>
+18. &lt;ul&gt;
+19. &lt;li&gt;Apple&lt;/li&gt;
+20. &lt;li class=&quot;red&quot;&gt;Cherries&lt;/li&gt;
+21. &lt;li&gt;Oranges&lt;/li&gt;
+22. &lt;/ul&gt;
+23. &lt;/body&gt;
+24. &lt;/html&gt;
 ```
 
 <h5>JS:</h5>
@@ -11624,7 +11462,7 @@ height="3.803472222222222in"}
 5.  }
 6.  function allLisInUlOfClassNav() {
 7.  // get all li directly in a ul of class nav
-8.  var list = document.querySelectorAll(&quot;ul.nav > li&quot;);
+8.  var list = document.querySelectorAll(&quot;ul.nav &gt; li&quot;);
 9.  list.forEach(function(elm) {
 10. elm.style.textDecoration = &quot;underline&quot;;
 11. })
@@ -11636,22 +11474,22 @@ height="3.803472222222222in"}
 <h5>HTML:</h5>:
 
 ```
-1.  <button onclick=&quot;firstLiClassRedInUl();&quot;>Select first li of
-    class red and color it in red</button>
-2.  <br>
-3.  <button onclick=&quot;allLisInUlOfClassNav();&quot;>Underline All li in a
-    ul of class nav</button>
-4.  <ul class=&quot;nav&quot;>
-5.  <li>Home</li>
-6.  <li class=&quot;red&quot;>Products</li>
-7.  <li>About</li>
-8.  </ul>
+1.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
+    class red and color it in red&lt;/button&gt;
+2.  &lt;br&gt;
+3.  &lt;button onclick=&quot;allLisInUlOfClassNav();&quot;&gt;Underline All li in a
+    ul of class nav&lt;/button&gt;
+4.  &lt;ul class=&quot;nav&quot;&gt;
+5.  &lt;li&gt;Home&lt;/li&gt;
+6.  &lt;li class=&quot;red&quot;&gt;Products&lt;/li&gt;
+7.  &lt;li&gt;About&lt;/li&gt;
+8.  &lt;/ul&gt;
 9.  Another list:
-10. <ul>
-11. <li>Apple</li>
-12. <li class=&quot;red&quot;>Cherries</li>
-13. <li>Oranges</li>
-14. </ul>
+10. &lt;ul&gt;
+11. &lt;li&gt;Apple&lt;/li&gt;
+12. &lt;li class=&quot;red&quot;&gt;Cherries&lt;/li&gt;
+13. &lt;li&gt;Oranges&lt;/li&gt;
+14. &lt;/ul&gt;
 ```
 
 <h5>JavaScript code:</h5>
@@ -11664,7 +11502,7 @@ height="3.803472222222222in"}
 5.  }
 6.  function allLisInUlOfClassNav() {
 7.  // get all li directly in a ul of class nav
-8.  var list = document.querySelectorAll(&quot;ul.nav > li&quot;);
+8.  var list = document.querySelectorAll(&quot;ul.nav &gt; li&quot;);
 9.  list.forEach(function(elm) {
 10. elm.style.textDecoration = &quot;underline&quot;;
 11. })
@@ -11686,36 +11524,36 @@ located inside an element of a given id
 <h5>HTML:</h5>
 
 ```
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>querySelector and querySelector example 1</title>
-</head>
-<body>
-<button onclick=&quot;displayListOfCheckedItems();&quot;>Show Checked
-  items</button>
-<br>
-<ul id=&quot;fruits&quot;>
-<li>
-<input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;>Apples
-</li>
-<li>
-<input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;button onclick=&quot;displayListOfCheckedItems();&quot;&gt;Show Checked
+  items&lt;/button&gt;
+&lt;br&gt;
+&lt;ul id=&quot;fruits&quot;&gt;
+&lt;li&gt;
+&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;&gt;Apples
+&lt;/li&gt;
+&lt;li&gt;
+&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;&gt;
 Oranges
-</li>
-<li>
-<input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;>
+&lt;/li&gt;
+&lt;li&gt;
+&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;&gt;
 Bananas
-</li>
-<li>
-<input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;>
+&lt;/li&gt;
+&lt;li&gt;
+&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;&gt;
 Grapes
-</li>
-</ul>
-</body>
-</html>
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 ```
 
 <h5>JS:</h5>
@@ -11740,28 +11578,28 @@ Extract from the source code:
 <h5>HTML:</h5>
 
 ```
-<button onclick=&quot;**displayListOfCheckedItems();**&quot;>
+&lt;button onclick=&quot;**displayListOfCheckedItems();**&quot;&gt;
     Show Checked items
-1.  </button>
-2.  <br>
-3.  <ul id=&quot;fruits&quot;>
-4.  <li>
-5.  <input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;>
+1.  &lt;/button&gt;
+2.  &lt;br&gt;
+3.  &lt;ul id=&quot;fruits&quot;&gt;
+4.  &lt;li&gt;
+5.  &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;&gt;
 6.  Apples
-7.  </li>
-8.  <li>
-9.  <input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;>
+7.  &lt;/li&gt;
+8.  &lt;li&gt;
+9.  &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;&gt;
 10. Oranges
-11. </li>
-12. <li>
-13. <input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;>
+11. &lt;/li&gt;
+12. &lt;li&gt;
+13. &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;&gt;
 14. Bananas
-15. </li>
-16. <li>
-17. <input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;>
+15. &lt;/li&gt;
+16. &lt;li&gt;
+17. &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;&gt;
 18. Grapes
-19. </li>
-20. </ul>
+19. &lt;/li&gt;
+20. &lt;/ul&gt;
 ```
 
 JavaScript code: we select all elements of type input that have an
@@ -11812,13 +11650,13 @@ by this list:
 <h5>HTML code:</h5>
 
 ```
-1.  <button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);</b>&quot;>Change
-    backgrounds of p under a given element known by id</button>
-2.  <br>
-3.  <div <b>id=&quot;firstDiv&quot;</b>>
-4.  <p>First paragraph.</p>
-5.  <p>Second paragraph.</p>
-6.  </div>
+1.  &lt;button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);</b>&quot;&gt;Change
+    backgrounds of p under a given element known by id&lt;/button&gt;
+2.  &lt;br&gt;
+3.  &lt;div <b>id=&quot;firstDiv&quot;</b>&gt;
+4.  &lt;p&gt;First paragraph.&lt;/p&gt;
+5.  &lt;p&gt;Second paragraph.&lt;/p&gt;
+6.  &lt;/div&gt;
 ```
 
 JavaScript code: we build a CSS selector using the id passed as a
@@ -11838,7 +11676,7 @@ paragraphs (*line 6*).
 1.  function changeBackGroundOfPs(id) {
 2.  var paragraphs = document.querySelectorAll(&quot;#&quot; + id + &quot; p&quot;);
 3.  // Another way to iterate on all elements in a collection
-4.  for (var i = 0; i < paragraphs.length; i++ ) {
+4.  for (var i = 0; i &lt; paragraphs.length; i++ ) {
 5.  paragraphs&lbrack;i&rbrack;.style.backgroundColor = &quot;lightGreen&quot;;
 6.  }
 7.  }
@@ -11852,7 +11690,7 @@ Other examples that use more complex selectors:
 3.  // all li in a ul, but only even elements
 4.  var els = document.querySelectorAll(&apos;ul li:nth-child(even)&apos;);
 5.  // all td directly in tr in a form of class test
-6.  var els = document.querySelectorAll(&apos;form.test > tr > td&apos;);
+6.  var els = document.querySelectorAll(&apos;form.test &gt; tr &gt; td&apos;);
 7.  // all paragraphs of class warning or error
 8.  querySelectorAll(&quot;p.warning, p.error&quot;);
 9.  // first element of id=foo or id=bar
@@ -11862,7 +11700,7 @@ Other examples that use more complex selectors:
 13. var p = div.querySelector(&quot;p&quot;);
 ```
 
-### Accessing HTML elements with the DOM API (old fashioned)
+### Accessing HTML elements with the DOM API (old fashioned) {#accessing-html-elements-with-the-dom-api-old-fashioned .unnumbered}
 
 These methods are from the DOM API and can all be replaced by the
 querySelector and querySelectorAll methods that we&apos;ve discussed. They
@@ -11977,9 +11815,9 @@ Here are some examples:
   alt="." />
 </p>
 
-### Using the ClassList interface to change more than one CSS property simultaneously
+### Using the ClassList interface to change more than one CSS property simultaneously {#using-the-classlist-interface-to-change-more-than-one-css-property-simultaneously .unnumbered}
 
-### External resources:
+### External resources: {#external-resources-2 .unnumbered}
 
 -   [The W3C specification about the classList DOM
     interface](https://www.w3.org/TR/dom/#dom-element-classlist)
@@ -11997,33 +11835,43 @@ object and by providing a set of methods to manipulate its content.
 The classList property applies to an HTML element, and returns a
 collection of class names:
 
-```
 1.  var elem= document.querySelector(&quot;#id1&quot;);
+
 2.  var allClasses = elem.<b>classList</b>;
-```
 
-<h3>The classList API</h3>
+<h4>The classList API
 
-```
 3.  The list of methods usable on a classList object are add(),
     remove(), toggle() and contains().
-4.  // By default, start without a class in the div: <div class=&quot;&quot;/>
-5.  // Set &quot;foo&quot; as the class by adding it to the classList
-6.  div.classList.add(&apos;foo&apos;); // now <div class=&quot;foo&quot;/>
-7.  // Check that the classList contains the class &quot;foo&quot;
-8.  div.classList.contains(&apos;foo&apos;); // returns true
-9.  // Remove the class &quot;foo&quot; from the list
-10. div.classList.remove(&apos;foo&apos;); // now <div class=&quot;&quot;/>
-11. // Check if classList contains the class &quot;foo&quot;
-12. div.classList.contains(&apos;foo&apos;); // returns false: &quot;foo&quot; is gone
-13. // Check if class contains the class &quot;foo&quot;,
-14. // If it does, &quot;foo&quot; is removed, if it doesn&apos;t, it&apos;s added
-15. div.classList.toggle(&apos;foo&apos;); // class set to <div
-    class=&quot;foo&quot;/>
-16. div.classList.toggle(&apos;foo&apos;); // class set to <div class=&quot;&quot;/>
-```
 
-### Another example: add and remove multiple CSS properties in a list of checkboxes
+4.  // By default, start without a class in the div: &lt;div class=&quot;&quot;/&gt;
+
+5.  // Set &quot;foo&quot; as the class by adding it to the classList
+
+6.  div.classList.add(&apos;foo&apos;); // now &lt;div class=&quot;foo&quot;/&gt;
+
+7.  // Check that the classList contains the class &quot;foo&quot;
+
+8.  div.classList.contains(&apos;foo&apos;); // returns true
+
+9.  // Remove the class &quot;foo&quot; from the list
+
+10. div.classList.remove(&apos;foo&apos;); // now &lt;div class=&quot;&quot;/&gt;
+
+11. // Check if classList contains the class &quot;foo&quot;
+
+12. div.classList.contains(&apos;foo&apos;); // returns false: &quot;foo&quot; is gone
+
+13. // Check if class contains the class &quot;foo&quot;,
+
+14. // If it does, &quot;foo&quot; is removed, if it doesn&apos;t, it&apos;s added
+
+15. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div
+    class=&quot;foo&quot;/&gt;
+
+16. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div class=&quot;&quot;/&gt;
+
+### Another example: add and remove multiple CSS properties in a list of checkboxes {#another-example-add-and-remove-multiple-css-properties-in-a-list-of-checkboxes .unnumbered}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -12048,7 +11896,7 @@ change the text color, we use a CSS class named &quot;checked&quot;:
 5.  }
 &hellip; and
 the classList.add(CSS_class) and classList.remove(CSS_class) methods on
-the <li> elements:
+the &lt;li&gt; elements:
 ```
 
 ### JavaScript code:
@@ -12107,7 +11955,7 @@ we&apos;ve seen, and perhaps introduce a few new things&hellip;
 
 Properties that can be used to change the value of selected DOM node
 
-### Using the innerHTML property
+### Using the innerHTML property {#using-the-innerhtml-property .unnumbered}
 
 This property is useful when you want to change all the children of a
 given element. It can be used to modify the text content of an element,
@@ -12118,7 +11966,7 @@ or to insert a whole set of HTML elements inside another one.
 <pre><code>
 var elem = document.querySelector(&apos;#myElem&apos;);
 elem.innerHTML = &apos;Hello &apos;; // replace content by Hello
-elem.innerHTML += &apos;<b>Michel Buffa</b>&apos;, // append at the end
+elem.innerHTML += &apos;&lt;b&gt;Michel Buffa&lt;/b&gt;&apos;, // append at the end
 // Michel Buffa in bold
 elem.innerHTML = &apos;Welcome&apos; + elem.innerHTML; // insert Welcome
 // at the beginning
@@ -12144,19 +11992,19 @@ codePen, open the devtool console):
 HTML
 
 <pre><code>
-1.  <!DOCTYPE html>
-2.  <html lang=&quot;en&quot;>
-3.  <head>
-4.  <meta charset=&quot;utf-8&quot;>
-5.  <meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-6.  <title>Modifying content of selected DOM nodes</title>
-7.  </head>
-8.  <body>
-9.  <h1>Open the console and look at the JavaScript code!</h1>
-10. <p id=&quot;first&quot;>first paragraph</p>
-11. <p id=&quot;second&quot;><em>second</em> paragraph</p>
-12. </body>
-13. </html>
+1.  &lt;!DOCTYPE html&gt;
+2.  &lt;html lang=&quot;en&quot;&gt;
+3.  &lt;head&gt;
+4.  &lt;meta charset=&quot;utf-8&quot;&gt;
+5.  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+6.  &lt;title&gt;Modifying content of selected DOM nodes&lt;/title&gt;
+7.  &lt;/head&gt;
+8.  &lt;body&gt;
+9.  &lt;h1&gt;Open the console and look at the JavaScript code!&lt;/h1&gt;
+10. &lt;p id=&quot;first&quot;&gt;first paragraph&lt;/p&gt;
+11. &lt;p id=&quot;second&quot;&gt;&lt;em&gt;second&lt;/em&gt; paragraph&lt;/p&gt;
+12. &lt;/body&gt;
+13. &lt;/html&gt;
 </code></pre>
 
 JS
@@ -12193,9 +12041,9 @@ JS
 
 ### Extract from the HTML code:
 
-<p id=&quot;first&quot;>first paragraph</p>
+&lt;p id=&quot;first&quot;&gt;first paragraph&lt;/p&gt;
 
-<p id=&quot;second&quot;><em>second</em> paragraph</p>
+&lt;p id=&quot;second&quot;&gt;&lt;em&gt;second&lt;/em&gt; paragraph&lt;/p&gt;
 
 JavaScript code: the comments after lines that start
 with console.log correspond to what is printed in the devtool debug
@@ -12207,31 +12055,49 @@ it. However, when we modify the textContent value, it also replaces the
 text decoration (the &lt;em&gt; is removed), this is done at <b>lines
 16-20</b>.
 
-```
 1.  window.onload = init;
+
 2.   
+
 3.  function init() {
+
 4.     // DOM is ready
+
 5.     var firstP = document.querySelector(&quot;#first&quot;);
+
 6.     console.log(firstP.textContent); // &quot;first paragraph&quot;
+
 7.     console.log(firstP.innerHTML);   // &quot;first paragraph&quot;
+
 8.   
+
 9.     firstP.textContent = &quot;Hello I&apos;m the first paragraph&quot;;
+
 10.    console.log(firstP.textContent); // &quot;Hello I&apos;m the first
     paragraph&quot;
+
 11.                                      
+
 12.    var secondP = document.querySelector(&quot;#second&quot;);
+
 13.    console.log(secondP.textContent); // &quot;second paragraph&quot;
-14.    console.log(secondP.innerHTML);   // &quot;<em>second</em>
+
+14.    console.log(secondP.innerHTML);   // &quot;&lt;em&gt;second&lt;/em&gt;
     paragraph&quot;
+
 15. 
+
 16.    secondP.textContent = &quot;Hello I&apos;m the second paragraph&quot;;
+
 17.    console.log(secondP.textContent); // &quot;Hello I&apos;m the second
+
 18.                                      // paragraph&quot;
+
 19.    console.log(secondP.innerHTML);   // &quot;Hello I&apos;m the second
+
 20.                                      // paragraph&quot;
+
 21. }
-```
 
 ### Changing the attributes of selected elements
 
@@ -12252,35 +12118,35 @@ This example shows some of the things we can do:
 <h5>HTML:</h5>
 
 ```
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>Modifying content of selected DOM nodes</title>
-</head>
-<body>
-<h1>Try these</h1>
-<p>What is your name: <input type=&quot;text&quot; id=&quot;name&quot;
-  value=&quot;Michel&quot;> <button onclick=&quot;resetName();&quot;>Reset (click to
-  empty the input field)</button></p>
-<p>Pick a color: <input id=&quot;color&quot; type=&quot;color&quot;
-  value=&apos;#FF0000&apos;><button onclick=&quot;setToGreen();&quot;>Set color chooser
-  to green</button></p>
-<p>In the next example, click on the input field and use the small 
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;Modifying content of selected DOM nodes&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Try these&lt;/h1&gt;
+&lt;p&gt;What is your name: &lt;input type=&quot;text&quot; id=&quot;name&quot;
+  value=&quot;Michel&quot;&gt; &lt;button onclick=&quot;resetName();&quot;&gt;Reset (click to
+  empty the input field)&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;Pick a color: &lt;input id=&quot;color&quot; type=&quot;color&quot;
+  value=&apos;#FF0000&apos;&gt;&lt;button onclick=&quot;setToGreen();&quot;&gt;Set color chooser
+  to green&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;In the next example, click on the input field and use the small 
   vertical arrows to increase the value. Notice that the numbers go 1 by 1
   and that the maximum value is 20. Then click the button and do the same
-  thing!</p>
-<p>Pick a number between 0 and 20: <input id=&quot;number&quot;
-  type=&quot;number&quot; min=0 max=20 step = 1 value=&apos;10&apos;><button
-  onclick=&quot;changeStep();&quot;>Change step and max attribute values
-  </button></p>
-<p>Click the next image to change its url and size:</p>
-<img
+  thing!&lt;/p&gt;
+&lt;p&gt;Pick a number between 0 and 20: &lt;input id=&quot;number&quot;
+  type=&quot;number&quot; min=0 max=20 step = 1 value=&apos;10&apos;&gt;&lt;button
+  onclick=&quot;changeStep();&quot;&gt;Change step and max attribute values
+  &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;Click the next image to change its url and size:&lt;/p&gt;
+&lt;img
   src=&quot;https://www.paris-web.fr/2013/assets_c/2013/08/michel-buffa-thumb-143x143-372.jpg&quot;
-  onclick=&quot;changeAndResize(this)&quot; alt=&quot;Michel Buffa&quot;>
-</body>
-</html>
+  onclick=&quot;changeAndResize(this)&quot; alt=&quot;Michel Buffa&quot;&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 ```
 
 <h4>JS
@@ -12317,24 +12183,24 @@ To add a new element to the HTML DOM, you must create the element
 #### Example:
 
 ```
-<!DOCTYPE html>
-<html>
-<body>
-<h2>JavaScript HTML DOM</h2>
-<p>Add a new HTML Element.</p>
-<div id=&quot;div1&quot;>
-<p id=&quot;p1&quot;>This is a paragraph.</p>
-<p id=&quot;p2&quot;>This is another paragraph.</p>
-</div>
-<script>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+&lt;h2&gt;JavaScript HTML DOM&lt;/h2&gt;
+&lt;p&gt;Add a new HTML Element.&lt;/p&gt;
+&lt;div id=&quot;div1&quot;&gt;
+&lt;p id=&quot;p1&quot;&gt;This is a paragraph.&lt;/p&gt;
+&lt;p id=&quot;p2&quot;&gt;This is another paragraph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;script&gt;
 const para = document.createElement(&quot;p&quot;);
 const node = document.createTextNode(&quot;This is new.&quot;);
 para.appendChild(node);
 const element = document.getElementById(&quot;div1&quot;);
 element.appendChild(para);
-</script>
-</body>
-</html>
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 ```
 
 <h4>Output:</h4>
