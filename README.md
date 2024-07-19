@@ -2629,7 +2629,7 @@ post your comments/observations/questions or share your creations.
   alt="The Best Way to Learn JavaScript." />
 </p>
 
-So, what it the best method for learning JavaScript?
+What it the best method for learning JavaScript?
 
 When you are a complete beginner, I will recommend to look at examples,
 tweak them, change small things, try to understand how the syntax looks
@@ -2637,15 +2637,17 @@ like. Even without deep explanations, without reading a book, or
 studying in details the different concepts of language, you can learn a
 lot.
 
+<image>
 In this section, I propose that you look at a small example without
 understanding the details, and try to tweak it.
-
+<image>
 Here is the example we provide. It&apos;s just an example that draws, that
 plots, a mathematical function. You can use the mouse wheel to zoom in,
-zoom out, and you can look at the HTML code. There is only very few CSS
-and very few lines of JavaScript. How can we do the such a complex
-result? Complex thing drawing the grid with axes, with labels, with a
-curve, and interact with the mouse.
+zoom out, and you can look at the HTML code. 
+<image>
+There is only very few CSS and very few lines of JavaScript. How can we do the 
+such a complex result? Complex thing drawing the grid with axes, with labels, 
+with a curve, and interact with the mouse.
 
 With only 10 lines of code: it&apos;s because we are using what we call an
 external JavaScript library. Actually, we are using 2 of them here.
@@ -2655,19 +2657,24 @@ internally another one you must include also in the document.
 What I propose is that we will start looking at this example. The best
 way is to click on &quot;Edit on CodePen&quot; label here, it will open the code
 in the CodePen.io online editor. And&hellip; just look at the HTML part
-here. Okay, we can just look at the HTML part and zoom in a little bit.
+here. 
+<image>
+Okay, we can just look at the HTML part and zoom in a little bit.
 What do we see? We can see that it uses 2 libraries here between
 &lt;script&gt; and &lt;/script&gt; elements. This is how we can insert in the
 document an external JavaScript file. In that case, it&apos;s a remote
 JavaScript file because we are downloading it using http. It uses this
-&quot;d3js&quot; JavaScript library that is located at &quot;d3js.org&quot;. You can
-open this in another tab and you will see the documentation and the Web
+&quot;d3js&quot; JavaScript library that is located at &quot;d3js.org&quot;. 
+<image>
+You can open this in another tab and you will see the documentation and the Web
 site, the homepage of the Web site, for the &quot;d3js&quot; library. By the way
 &quot;d3js&quot;is one of the most popular JavaScript libraries for visualizing
 data.
 
 Let&apos;s go back to our example, so you can just tweak the different
-elements. If I want to plot a cosinus instead of a sinus, I don't need
+elements. 
+<image>
+If I want to plot a cosinus instead of a sinus, I don't need
 to understand the whole syntax here, but I guess that by just typing
 &quot;cos&quot; here, it will do something. And indeed, I have just drawn a
 cosinus. If I change this for &quot;green&quot;, it changes the color. If I
@@ -2675,7 +2682,9 @@ change the grid, that is by default &quot;true&quot;, if I say &quot;false&quot;
 don&apos;t have a grid anymore. Okay let&apos;s put it back. And I&apos;ve got some
 &quot;xAxis&quot; domain: &quot;-1, +1&quot;. If I change that for &quot;-10, +10&quot;, I can
 see the result. It&apos;s more interesting, if you change this for the x
-values&hellip; instead of going from PI to 2 PI. I went from 0 to 10 PI. I
+values&hellip; instead of going from PI to 2 PI. 
+<image>
+I went from 0 to 10 PI. I
 can see the result here, and so on&hellip; Now that you tweak the example,
 you can try to understand what is going on. Okay, this thing is a name
 followed by a parenthesis. an open parenthesis with a closing
@@ -2683,10 +2692,10 @@ parenthesis. It&apos;s a function call. When you&apos;ve got something like
 that, in JavaScript, function parenthesis with something in the middle,
 it&apos;s called a &quot;function call&quot;. We&apos;re going to call a function, that,
 in this case, we haven't written, so it&apos;s coming from one on the
-external libraries.
-
-In that case, it&apos;s the &quot;function-plot&quot; library. What is inside? There
-are the parameters. And I can use an external name. I can declare that,
+external libraries. In that case, it&apos;s the &quot;function-plot&quot; 
+library. What is inside? There are the parameters. 
+<image>
+And I can use an external name. I can declare that,
 here, it&apos;s equivalent. You see that it works the same here, but I've
 just separated the two things. If I put directly this thing inside here,
 like it was before, it still works. Okay, so what is this syntax? In
@@ -2702,14 +2711,16 @@ that is an object.
 The xAxis property is equal to an object that has a property domain,
 that has for values: &quot;-1, 1&quot;. And when you&apos;ve got brackets, opening
 and closing brackets, it&apos;s like that&hellip; That will define arrays of
-things in JavaScript.
+things in JavaScript. And an array of things is a list of enumerable elements. 
+In that case, the domain has two elements: the minimum value and the maximum value.
+<image>
 
-And an array of things is a list of enumerable elements. In that case,
-the domain has two elements: the minimum value and the maximum value.
 And here you can see that the data that are plotted, the cosinus
 function, is also an array. If I use the comma and I introduce a second
 element here. For example, the sinus function, and if I change the
-color, let&apos;s make it pink&hellip; Look at the result: I&apos;ve got 2 different
+color, let&apos;s make it pink&hellip; 
+<image>
+Look at the result: I&apos;ve got 2 different
 functions that have been plotted in my graph. I can, instead of using
 this, I can maybe plot x2 (x square 2), like this, okay. It should work.
 Ok, we can see a little bit of it here. Maybe we will change the domain,
@@ -2717,106 +2728,15 @@ so instead of stopping at 1, we go to 10. Here we go! And if we look at
 the values, we see the x square function that is a bit better, and if we
 just plot it for x=0 to x=2&hellip; &hellip;In that case, I've got another scale
 for looking at the functions.
+<image>
 
 In this first example, you saw how to use an external library, what is
 the syntax to call a function, and how we can define objects in
 JavaScript by using a set of properties and values, separated by a
 comma. And we also had a first encounter with what we call arrays, that
-are elements separated by commas inside brackets. So, what it the best
-method for learning JavaScript? When you are a complete beginner, I will
-recommend to look at examples, tweak them, change small things, try to
-understand what the syntax looks like. Even without deep explanations,
-without reading a book, or studying in details the different concepts of
-language, you can learn a lot. In this section, I propose that you look
-at a small example without understanding the details, and try to tweak
-it.
+are elements separated by commas inside brackets.
 
-&lt;Img&gt;
-
-Here is the example we provide. It&apos;s just an example that draws, that
-plots, a mathematical function. You can use the mouse wheel to zoom in,
-zoom out, and you can look at the HTML code. There is only very few CSS
-and very few lines of JavaScript. So how can we do the such a complex
-result? Complex thing drawing the grid with axes, with labels, with a
-curve, and interact with the mouse.
-
-With only 10 lines of code: it&apos;s because we are using what we call an
-external JavaScript library. Actually, we are using 2 of them here.
-Because, this one: the &quot;function-plot&quot; JavaScript library, is using
-internally another one you must include also in the document. What I
-propose is that we will start looking at this example. The best way is
-to click on &quot;Edit on CodePen&quot; label here, it will open the code in the
-CodePen.io online editor. And&hellip; just look at the HTML part here. Okay,
-we can just look at the HTML part and zoom in a little bit. What do we
-see? We can see that it uses 2 libraries here between &lt;script&gt; and
-&lt;/script&gt; elements. This is how we can insert in the document an
-external JavaScript file. In that case, it&apos;s a remote JavaScript file
-because we are downloading it using http. It uses this &quot;d3js&quot;
-JavaScript library that is located at &quot;d3js.org&quot;. You can open this in
-another tab and you will see the documentation and the Web site, the
-homepage of the Web site, for the &quot;d3js&quot; library. By the way
-&quot;d3js&quot;is one of the most popular JavaScript libraries for visualizing
-data. Let&apos;s go back to our example, so you can just tweak the different
-elements. If I want to plot a cosinus instead of a sinus, I don't need
-to understand the whole syntax here, but I guess that by just typing
-&quot;cos&quot; here, it will do something. And indeed, I have just drawn a
-cosinus.
-
-If I change this for &quot;green&quot;, it changes the color. If I change the
-grid, that is by default &quot;true&quot;, if I say &quot;false&quot;, I don&apos;t have a
-grid anymore. Okay let&apos;s put it back. And I&apos;ve got some &quot;xAxis&quot;
-domain : &quot;-1, +1&quot;. If I change that for &quot;-10, +10&quot;, I can see the
-result. It&apos;s more interesting, if you change this for the x values&hellip;
-instead of going from PI to 2 PI. I went from 0 to 10 PI. I can see the
-result here, and so on&hellip; Now that you tweak the example, you can try
-to understand what is going on.
-
-&lt;function&gt;
-
-Okay, this thing is a name followed by a parenthesis; an open
-parenthesis with a closing parenthesis. It&apos;s a function call. When
-you&apos;ve got something like that, in JavaScript, function parenthesis
-with something in the middle, it&apos;s called a &quot;function call&quot;. We&apos;re
-going to call a function, that, in this case, we haven't written, so
-it&apos;s coming from one on the external libraries. In that case, it&apos;s the
-&quot;function-plot&quot; library. What is inside? There are the parameters. And
-I can use an external name. I can declare that, here, it&apos;s equivalent.
-You see that it works the same here, but I've just separated the two
-things. If I put directly this thing inside here, like it was before, it
-still works. Okay, so what is this syntax?
-
-In JavaScript, when you've got braces like that, opening braces and
-closing braces, it's called an object. And inside an object, you&apos;ve got
-properties and values. The properties have names: target, data,
-function, color, grid. And the values are after a column characters. The
-target is my function. The data is this thing. The grid is true, and so
-on&hellip; You separate the different properties of the object using a comma
-and sometimes, you can have some properties that in turn, have a value
-that is an object. The x Axis property is equal to an object that has a
-property domain, that has for values: &quot;-1, 1&quot;. And when you&apos;ve got
-brackets, opening and closing brackets, it&apos;s like that&hellip; That will
-define arrays of things in JavaScript. And an array of things is a list
-of enumerable elements. In that case, the domain has two elements: the
-minimum value and the maximum value.
-
-And here you can see that the data that are plotted, the cosinus
-function, is also an array. If I use the comma and I introduce a second
-element here. For example, the sinus function, and if I change the
-color, let&apos;s make it pink&hellip; Look at the result: I&apos;ve got 2 different
-functions that have been plotted in my graph. I can, instead of using
-this, I can maybe plot x2 (x square 2), like this, okay. It should work.
-Ok, we can see a little bit of it here. Maybe we will change the domain,
-so instead of stopping at 1, we go to 10. Here we go! And if we look at
-the values, we see the x square function that is a bit better, and if we
-just plot it for x=0 to x=2&hellip; &hellip;In that case, i&apos;ve got another
-scale for looking at the functions. In this first example, you saw how
-to use an external library, what is the syntax to call a function, and
-how we can define objects in JavaScript by using a set of properties and
-values, separated by a comma. And we also had a first encounter with
-what we call arrays, that are elements separated by commas inside
-brackets. What is the best method to learn JavaScript?
-
-&lt;end of video transcript The Best Way to Learn JS&gt;
+<&lt;end of video transcript The Best Way to Learn JS&gt;>
 
 <h4>FIRST: learn by looking at and tweaking the code in the examples</h4>
 
