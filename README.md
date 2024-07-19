@@ -3691,8 +3691,9 @@ And if we run it standalone and use the dev. tool console:
   title="View of the JavaScript console (showing the line that caused the error"
   alt="View of the JavaScript console (showing the line that caused the error." />
 </p>
-<!-- ![View of the JavaScript console (showing the line that caused the error)](./images/image106.jpeg){width="5.0in" -->
-height="2.508445975503062in"}
+<!-- ![View of the JavaScript console (showing the line that caused the error)]  -->
+<!-- (./images/image106.jpeg){width="5.0in" -->
+<!-- height="2.508445975503062in"} -->
 
 And if we click on the line number to the right, the dev. tool shows the
 source code centered on the line that caused the error:
@@ -3745,8 +3746,15 @@ then we will do the same thing using the CodePen online editor, then,
 using a regular source code editor and .html, .css and .js files.
 
 <b>Here is what the resulting Web page will look like:</b>
-
-![](./images/image108.png)  <!-- {width="5.0in" height="3.0480774278215224in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 108.  (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image108.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image108.png)  <!-- {width="5.0in" height="3.0480774278215224in"} -->
 
 https://codepen.io/w3devcampus/pen/bqGboZ
 
@@ -4038,20 +4046,37 @@ undefined
 
 Below is an image that explains how you can try JavaScript code in the
 devtools console:
-
-![Display JS variable in the console devtools, type some instructions,
-press return. For example type var x=2; then press the enter key; then
-type x; it will display its value
-&quot;2&quot;](./images/image109.jpeg){width="5.0in"
-height="2.112402668416448in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 109. constants in the devtool console. (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image109.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![Display JS variable in the console devtools, type some instructions, -->
+<!-- press return. For example type var x=2; then press the enter key; then -->
+<!-- type x; it will display its value  -->
+<!-- &quot;2&quot;](./images/image109.jpeg){width="5.0in" -->
+<!-- height="2.112402668416448in"}  -->
 
 If you try to use a variable that has never been declared, you get an
 error message:
 
-![If you type k; followed by the enter key in the devtool console, and
-if k has not been defined, then an error message is displayed:
-&quot;uncaught referenceError: k is not
-defined&hellip;](./images/image110.jpeg){width="6.729166666666667in" height="1.3895297462817149in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 110. constants in the devtool console. (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image110.jpeg?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+
+<!-- ![If you type k; followed by the enter key in the devtool console, and -->
+<!-- if k has not been defined, then an error message is displayed: -->
+<!-- &quot;uncaught referenceError: k is not -->
+<!-- defined&hellip;] -->
+<!-- (./images/image110.jpeg){width="6.729166666666667in" height="1.3895297462817149in"} -->
 
 <h4>Name conventions for variables</h4>
 
@@ -4104,9 +4129,17 @@ var TIME_LIMIT;
 const MAX_GRADE = 20;
 ```
 
-![Constants in the devtool console. We see the difference between var
-and const. The code executed is the one from the above
-example](./images/image111.jpeg){width="6.510416666666667in" height="2.3413331146106735in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 111. constants in the devtool console. (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image111.jpeg?raw=true"
+  style="width:65%"
+  title="Constants in the devtool console. We see the difference between var
+    and const. The code executed is the one from the above example"
+  alt="Constants in the devtool console. We see the difference between var
+    and const. The code executed is the one from the above example." />
+</p>
+<!-- (./images/image111.jpeg){width="6.510416666666667in" height="2.3413331146106735in"} -->
 
 <h4>Summary</h4>
 
@@ -4206,9 +4239,15 @@ Global variables are variables declared outside of functions. They can
 be used anywhere in the code.
 
 <h4>Here is an example:</h4>
-
-![](./images/image112.png){width="6.5in"
-height="2.323611111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 112.  (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image112.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image112.png){width="6.5in" height="2.323611111111111in"} -->
 
 https://codepen.io/w3devcampus/pen/WjMMLZ
 
@@ -4232,16 +4271,29 @@ JavaScript 6 / ES6. See examples at the end of this section.
 
 Example of a local variable declared in a function, that is NOT local to
 the block, but to the whole function:
-
-![](./images/image113.png){width="6.5in"
-height="2.357638888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 113.  (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image113.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image113.png){width="6.5in" height="2.357638888888889in"} -->
 
 https://codepen.io/w3devcampus/pen/RVMOGx
 
 Here is another example that shows the differences between global and
 local variables, and highlights the &quot;masking&quot; of global variables by
 local variables when they share the same name.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 114.  (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image114.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 ![](./images/image114.png){width="6.5in"
 height="3.3743055555555554in"}
 
@@ -4266,13 +4318,26 @@ JavaScript 6 or above.</b>
 Here is an example that shows what happens when you forget to use var or
 let while declaring a local variable:
 
-![](./images/image115.png){width="6.5in" height="3.941666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 115.  (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image115.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image115.png){width="6.5in" height="3.941666666666667in"} -->
 
 https://codepen.io/w3devcampus/pen/rmJJbo
-
-![Declaring a variable without var in a function makes it
-global](./images/image116.jpeg){width="6.375in"
-height="1.2871139545056869in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 116. declaring a variable without var in a function makes it global (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image116.jpeg?raw=true"
+  style="width:65%"
+  title="Declaring a variable without var in a function makes it global"
+  alt="Declaring a variable without var in a function makes it global." />
+</p>
+<!-- (./images/image116.jpeg){width="6.375in" height="1.2871139545056869in"} -->
 
 <h5>2) Since 2015 and ES2015, there are new scopes, with the let keyword</h5>
 
@@ -4290,8 +4355,15 @@ in another block that contains the current block).</b>
 
 Example of a local variable declared with the let keyword. Its scope is
 the block:
-
-![](./images/image117.png){width="6.5in" height="2.46875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 117.  (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image117.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image117.png){width="6.5in" height="2.46875in"} -->
 
 https://codepen.io/w3devcampus/pen/VbXNPz
 
@@ -4375,11 +4447,16 @@ Well, there are multiple possibilities:
 What we call &quot;primitive data types&quot;: for example a number, a string,
 etc. ex:
 
-```
-var x = 3; var name = &quot;Buffa&quot;;![a set of playing
-  cards](./images/image118.png){width="2.0833333333333335in"
-  height="1.25in"}
-```
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 118.  (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image118.png?raw=true"
+  style="width:20%"
+  title="var x = 3; var name = &quot;Buffa&quot;;![a set of playing cards"
+  alt="var x = 3; var name = &quot;Buffa&quot;;![a set of playing cards." />
+</p>
+<!-- ](./images/image118.png){width="2.0833333333333335in" height="1.25in"} -->
+
 
 1.  Objects (everything that is not a  &quot;primitive data type&quot; is an
     object):
@@ -4424,11 +4501,19 @@ or function)
 
 We will use it in lots of examples in the next three sections.
 
-![dynamic typing. You can use the typeof operator to see the &quot;dynamic
-type of a variable&quot;. For example, type let n=3; then typeof n, it will
-display &quot;number&quot;. Then type n=&quot;toto&quot;; and typeof n; this time it
-displays &quot;string&quot;](./images/image119.jpeg){width="5.0in"
-height="2.5648020559930007in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 119.  (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image119.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![dynamic typing. You can use the typeof operator to see the &quot;dynamic -->
+<!-- type of a variable&quot;. For example, type let n=3; then typeof n, it will  -->
+<!-- display &quot;number&quot;. Then type n=&quot;toto&quot;; and typeof n; this time it  -->
+<!-- displays &quot;string&quot;](./images/image119.jpeg){width="5.0in"  -->
+<!-- height="2.5648020559930007in"}  -->
 
 This operator is not often use in JavaScript programs, but it&apos;s useful
 for us, for explaining the data types.
