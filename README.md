@@ -4751,10 +4751,16 @@ floating point numbers is that 0.1 + 0.2 does not equal 0.3. 
 0.30000000000000004
 ```
 
-![devtool console showing that 0.1 + 0.2 is not equal to 0.3 but to
-0.30000000000000004
-](./images/image120.jpeg){width="6.635416666666667in"
-height="1.5729166666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 120. devtools console showing that 0.1 + 0.2 is not equal to 0.3 but to .30000000... (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image120.jpeg?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![devtool console showing that 0.1 + 0.2 is not equal to 0.3 but to 0.30000000000000004  -->
+<!-- (./images/image120.jpeg){width="6.635416666666667in" height="1.5729166666666667in"} -->
 
 Second, an integer has 2&#94;52 relevant bits, so the biggest integer
 is 2&#94;53. There is one bit that determines the sign of the number, so
@@ -4804,9 +4810,15 @@ precedence.   
 
 For example, this is an expression: (3 + 2). And the expression (3 + 2)
 &ast; 4, which equals 20, depends on the expression within the parentheses.
-
-![operators](./images/image121.png){width="2.0833333333333335in"
-height="1.2291666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 121. operators (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image121.png?raw=true"
+  style="width:20%"
+  title=""
+  alt="." />
+</p>
+<!-- ![operators](./images/image121.png){width="2.0833333333333335in" height="1.2291666666666667in"} -->
 
 In JavaScript, expressions can evaluate to four types, which
 are: numbers, strings, booleans, and objects. For example, an expression
@@ -4845,8 +4857,16 @@ VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
 
 <h5>Image from the devtool console, from the above example:</h5>
 
-![Snapshot of a devtool console: do not mix simple and double
-quotes](./images/image122.jpeg)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~ 122. Snapshot of a devtool console: do not mix simple and double quotes (xxx) ~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image122.jpeg?raw=true"
+  style="width:65%"
+  title="Snapshot of a devtool console: do not mix simple and double quotes"
+  alt="Snapshot of a devtool console: do not mix simple and double quotes." />
+</p>
+<!-- ![Snapshot of a devtool console: do not mix simple and double -->
+<!-- quotes](./images/image122.jpeg)  -->
 <!-- {width="6.583333333333333in" height="2.4791666666666665in"} -->
 
 ##### There are many reasons to use simple quotes when possible:
@@ -5446,8 +5466,15 @@ console and console.log(&hellip;)!
 Let&apos;s check that some parts of the code you wrote are executed
 correctly.
 
-![](./images/image124.png)
-<!-- {width="6.5in" height="2.748611111111111in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 124.  (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image124.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image124.png) {width="6.5in" height="2.748611111111111in"} -->
 
 Normally, when the button is clicked, we should call
 the addXToThePage() function, which in turn should display the value of
@@ -5456,38 +5483,69 @@ the variable x inside an HTML paragraph.
 Let&apos;s check if the function is really executed. We need to add
 a console.log(&quot;In the addXToThePage function&quot;); as the first
 instruction of the function:
-
-![](./images/image125.png)
-<!-- {width="6.5in" height="3.18125in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 125.  (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image125.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image125.png) {width="6.5in" height="3.18125in"} -->
 
 And let&apos;s execute this with the devtool console open (use F12 on
 Windows, or Cmd-Alt-i on a Mac, or control-shift-i). First, as the
 provided example is located on CodePen, an online IDE, it&apos;s better to
 execute it in &quot;debug mode&quot;. The online IDE will just display a page
 (see snapshot below) with the code running:
-
-![](./images/image126.png){width="6.5in"
-height="3.270138888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 126.  (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image126.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image126.png){width="6.5in" height="3.270138888888889in"} -->
 
 This action opens a new tab with only your code running in it (not the
 whole codepen IDE + your code!). Open the devtool console (F12 or
 control-shift-i or cmd-alt-i on Mac), and you should see this:
-
-![](./images/image127.png)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 127.  (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image127.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image127.png) -->
 <!-- {width="6.5in" height="3.1631944444444446in"} -->
 
 Now, press the button! An error message appears:
-
-![Error message in the devtool
-console](./images/image128.jpeg)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 128. Error message in the devtools console (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image128.jpeg?raw=true"
+  style="width:60%"
+  title="Error message in the devtools console"
+  alt="Error message in the devtools console." />
+</p>
+<!-- ![Error message in the devtool console](./images/image128.jpeg) -->
 <!-- {width="5.90625in" height="0.9583333333333334in"} -->
 
 Apparently the function name is wrong, addXToToThePage does not exist.
 We can check the source code by clicking on the YNbvoX:40 link on the
 right:
-
-![Source code that fired the
-error](./images/image129.jpeg)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 129. source code that fired the error (xxx) ~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image129.jpeg?raw=true"
+  style="width:65%"
+  title="Source code that fired the error"
+  alt="Error message in the devtools console." />
+</p>
+<!-- ![Source code that fired the error](./images/image129.jpeg) -->
 <!-- {width="6.541666666666667in" height="1.771887576552931in"} -->
 
 Ok, so our first error was that we typed the wrong name in
@@ -5551,7 +5609,7 @@ calculations:
     like that.&quot;);
 ```
 
-Result:
+<h4>Result:<h4>
 
 ![Expression displayed using
 console.log](./images/image133.jpeg)  <!-- {width="7.416666666666667in" height="3.0416666666666665in"} -->
