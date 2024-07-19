@@ -2108,7 +2108,7 @@ rules in a &quot;CSS tab&quot; in the online editor, and it hides all the
 as [Plunker](https://plnkr.co/) or [AWS Cloud9](https://c9.io/) that
 enable you to manage files in the cloud).
 
-### Live coding video: mixing HTML and CSS (3:49)
+<h3>Live coding video: mixing HTML and CSS (3:49)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 66. example codepen: update css rule (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4761,8 +4761,8 @@ VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
 <h5>Image from the devtool console, from the above example:</h5>
 
 ![Snapshot of a devtool console: do not mix simple and double
-quotes](./images/image122.jpeg){width="6.583333333333333in"
-height="2.4791666666666665in"}
+quotes](./images/image122.jpeg)
+<!-- {width="6.583333333333333in" height="2.4791666666666665in"} -->
 
 ##### There are many reasons to use simple quotes when possible:
 
@@ -4887,7 +4887,7 @@ var s2 = &apos;two&apos;;
 s1+= s2; // or directly s1+=&apos;two&apos;
 s1;
 //returns &apos;onetwo&apos;
-#### The method concat() {#the-method-concat .unnumbered}
+#### The method concat()
 Another way to concatenate strings is the method concat().
 //the &apos;concat&apos; method
 var s1 = &apos;one&apos;;
@@ -4946,8 +4946,8 @@ NaN
 &quot;number&quot; s 3 var s = &apos;1&apos;; s++; typeof s; &quot;number&quot; s 2 var s =
 &quot;100&quot;; typeof s; &quot;string&quot; s = s &ast; 1; 100 typeof s; &quot;number&quot; var d
 = &apos;101 dalmatiens&apos;; undefined d &ast; 1
-NaN](./images/image123.jpeg){width="3.4791666666666665in"
-height="5.458333333333333in"}
+NaN](./images/image123.jpeg)
+<!-- {width="3.4791666666666665in" height="5.458333333333333in"} -->
 
 #### How to convert a Number into a String
 
@@ -5217,7 +5217,7 @@ the moment, let&apos;s focus on the most useful features&hellip;
 10. 7
 ```
 
-#### Arrays and Strings {#arrays-and-strings .unnumbered}
+#### Arrays and Strings
 
 Strings are arrays of characters! 
 
@@ -5241,7 +5241,7 @@ Examples:
 9.  3
 ```
 
-#### Definition of a function {#definition-of-a-function .unnumbered}
+#### Definition of a function
 
 A function allows you to group code, give it a name and be able to
 execute it by calling it by name.
@@ -5253,7 +5253,7 @@ Functions always return a value:
 
 -   Implicitly, in which case the return value is undefined.
 
-#### Declaring a function {#declaring-a-function .unnumbered}
+#### Declaring a function
 
 ```
 1.  function sum(a, b) {
@@ -5262,7 +5262,7 @@ Functions always return a value:
 4.  }
 ```
 
-#### Calling a function {#calling-a-function .unnumbered}
+#### Calling a function
 
 ```
 1.  var result = sum(1, 2);
@@ -5271,7 +5271,7 @@ Functions always return a value:
 4.  &gt; 3
 ```
 
-#### Function parameters {#function-parameters .unnumbered}
+#### Function parameters
 
 If parameters are omitted during the call, JavaScript gives them the
 value undefined:
@@ -5281,7 +5281,7 @@ value undefined:
 2.  NaN
 ```
 
-#### Functions with a variable number of parameters {#functions-with-a-variable-number-of-parameters .unnumbered}
+#### Functions with a variable number of parameters
 
 An array named &quot;arguments&quot; is created automatically in each function,
 it contains all the call parameters of the function:
@@ -5312,7 +5312,7 @@ it contains all the call parameters of the function:
 7.  // returns &lbrack;1, 2, 3, 4, true, &quot;Michel Buffa&quot;&rbrack;
 ```
 
-#### Example of the sum with a variable number of arguments {#example-of-the-sum-with-a-variable-number-of-arguments .unnumbered}
+#### Example of the sum with a variable number of arguments
 
 ```
 1.  function newSum() {
@@ -5361,8 +5361,8 @@ console and console.log(&hellip;)!
 Let&apos;s check that some parts of the code you wrote are executed
 correctly.
 
-![](./images/image124.png){width="6.5in"
-height="2.748611111111111in"}
+![](./images/image124.png)
+<!-- {width="6.5in" height="2.748611111111111in"} -->
 
 Normally, when the button is clicked, we should call
 the addXToThePage() function, which in turn should display the value of
@@ -5372,7 +5372,8 @@ Let&apos;s check if the function is really executed. We need to add
 a console.log(&quot;In the addXToThePage function&quot;); as the first
 instruction of the function:
 
-![](./images/image125.png){width="6.5in" height="3.18125in"}
+![](./images/image125.png)
+<!-- {width="6.5in" height="3.18125in"} -->
 
 And let&apos;s execute this with the devtool console open (use F12 on
 Windows, or Cmd-Alt-i on a Mac, or control-shift-i). First, as the
@@ -5387,29 +5388,29 @@ This action opens a new tab with only your code running in it (not the
 whole codepen IDE + your code!). Open the devtool console (F12 or
 control-shift-i or cmd-alt-i on Mac), and you should see this:
 
-![](./images/image127.png){width="6.5in"
-height="3.1631944444444446in"}
+![](./images/image127.png)
+<!-- {width="6.5in" height="3.1631944444444446in"} -->
 
 Now, press the button! An error message appears:
 
 ![Error message in the devtool
-console](./images/image128.jpeg){width="5.90625in"
-height="0.9583333333333334in"}
+console](./images/image128.jpeg)
+<!-- {width="5.90625in" height="0.9583333333333334in"} -->
 
 Apparently the function name is wrong, addXToToThePage does not exist.
 We can check the source code by clicking on the YNbvoX:40 link on the
 right:
 
 ![Source code that fired the
-error](./images/image129.jpeg){width="6.541666666666667in"
-height="1.771887576552931in"}
+error](./images/image129.jpeg)
+<!-- {width="6.541666666666667in" height="1.771887576552931in"} -->
 
 Ok, so our first error was that we typed the wrong name in
 the onclick=&quot;&hellip;&quot;, the name we used : AddXToToThePage has &quot;ToTo&quot;
 instead of &quot;To&quot;. Let&apos;s fix that now and try again:
 
-![](./images/image130.png){width="6.191674321959755in"
-height="3.027040682414698in"}
+![](./images/image130.png)
+<!-- {width="6.191674321959755in" height="3.027040682414698in"} -->
 
 After we&apos;ve changed the name of the function to the correct one, let&apos;s
 go in debug mode, open the devtool console and click the button. Here is
@@ -5429,9 +5430,9 @@ should be ok now:
 
 You can click on the button now&hellip;.
 
-#### Going further with console.log {#going-further-with-console.log .unnumbered}
+#### Going further with console.log
 
-#### Displaying variable values {#displaying-variable-values .unnumbered}
+#### Displaying variable values
 
 Instead of just displaying pure string messages, you can also use the
 &quot;+&quot; operator to concatenate variable values to the pure character
@@ -5447,9 +5448,7 @@ Example :
 
 We typed this code in the devtool console to check what it does:
 
-![Type js code into the
-console](./images/image132.jpeg){width="6.114583333333333in"
-height="1.4788757655293088in"}
+![Type js code into the console](./images/image132.jpeg)  <!-- {width="6.114583333333333in" height="1.4788757655293088in"} -->
 
 You can use as many &quot;+&quot; as you like, the part right after the &quot;+&quot;
 will be turned into a string if the part in front is a string&hellip;
@@ -5470,8 +5469,7 @@ calculations:
 Result:
 
 ![Expression displayed using
-console.log](./images/image133.jpeg){width="7.416666666666667in"
-height="3.0416666666666665in"}
+console.log](./images/image133.jpeg)  <!-- {width="7.416666666666667in" height="3.0416666666666665in"} -->
 
 You can use any operator (+, -, /, &ast;, etc.), you are not limited to
 using the &quot;+&quot; operator.
@@ -5512,7 +5510,7 @@ use):
 Just click the button to build the HTML table dynamically. You should
 see this:
 
-![](./images/image134.png){width="3.90625in" height="2.71875in"}
+![](./images/image134.png)  <!-- {width="3.90625in" height="2.71875in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-4">1.6.4 Modifying CSS styles on the fly</h3>
@@ -5526,8 +5524,7 @@ what can be done.
 
 #### Example #1: change common properties (color, border, background color)
 
-![](./images/image135.png){width="6.5in"
-height="2.2583333333333333in"}
+![](./images/image135.png)  <!-- {width="6.5in" height="2.2583333333333333in"} -->
 
 <h5>HTML:</h5>
 
@@ -5581,14 +5578,13 @@ divElem.style.backgroundColor = &quot;lightGreen&quot;;
 }
 ```
 
-#### Example #2: change the background image property using an external image {#example-2-change-the-background-image-property-using-an-external-image .unnumbered}
+#### Example #2: change the background image property using an external image
 
-![](./images/image136.png){width="6.5in"
-height="2.354861111111111in"}
+![](./images/image136.png)  <!-- {width="6.5in" height="2.354861111111111in"} -->
 
-#### Example #3: Use the background image as a sprite sheet - animate Mario! {#example-3-use-the-background-image-as-a-sprite-sheet---animate-mario .unnumbered}
+#### Example #3: Use the background image as a sprite sheet - animate Mario!
 
-![](./images/image137.png){width="6.5in" height="5.2125in"}
+![](./images/image137.png)  <!-- {width="6.5in" height="5.2125in"} -->
 
 Notice how the CSS properties change when we use them from JavaScript:
 
@@ -5624,8 +5620,7 @@ study some of the most useful events in even greater depth.
 
 #### Example #1: use input events on an HTML input field
 
-![](./images/image138.png){width="6.5in"
-height="2.1347222222222224in"}
+![](./images/image138.png)  <!-- {width="6.5in" height="2.1347222222222224in"} -->
 
 #### Example #2: listen to mouse events in an HTML5 canvas
 
@@ -5642,14 +5637,14 @@ make a small game, etc. Small and diverse examples for illustrating some
 JavaScript data structures such as Arrays or Objects are going to be
 presented.
 
-#### ![](./images/image139.png){width="6.5in" height="4.117361111111111in"}Example #3: a paint program - click and drag mouse, then release {#example-3-a-paint-program---click-and-drag-mouse-then-release .unnumbered}
+#### ![](./images/image139.png) <!-- {width="6.5in" height="4.117361111111111in"} -->
+Example #3: a paint program - click and drag mouse, then release
 
-![](./images/image140.png){width="6.5in" height="5.08125in"}
+![](./images/image140.png) <!-- {width="6.5in" height="5.08125in"} -->
 
-#### Example #4: move a monster in an HTML5 canvas using left and right arrow keys {#example-4-move-a-monster-in-an-html5-canvas-using-left-and-right-arrow-keys .unnumbered}
+#### Example #4: move a monster in an HTML5 canvas using left and right arrow keys
 
-![](./images/image141.png){width="6.5in"
-height="4.159027777777778in"}
+![](./images/image141.png)  <!-- {width="6.5in" height="4.159027777777778in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-6">1.6.6 Using built-in HTML5 APIs</h3>
@@ -5711,13 +5706,12 @@ console.log(err)
 If you want to spend some time having fun with the WebCam, don&apos;t forget
 to try[ the WebCam Toy](https://webcamtoy.com/) demo!
 
-#### Example #2: using the WebAudio API to build a small synthetizer {#example-2-using-the-webaudio-api-to-build-a-small-synthetizer .unnumbered}
+#### Example #2: using the WebAudio API to build a small synthetizer
 
 Click on the piano keyboard. Use the different buttons, sliders, etc.
 This example uses the WebAudio API in order to synthesize sounds.
 
-![](./images/image142.png){width="6.5in"
-height="4.813194444444444in"}
+![](./images/image142.png) <!-- {width="6.5in" height="4.813194444444444in"} -->
 
 <h5>HTML:</h5>
 
@@ -6467,8 +6461,7 @@ plots f(x) = x&#94;2, then f(x) = sin(x) and finally a mix of
 fours functions : f(x) = x&#94;2 (in red), f(x) = 3&ast;x (in green), f(x) =
 cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)
 
-![](./images/image143.png){width="6.5in"
-height="5.102083333333334in"}
+![](./images/image143.png) <!-- {width="6.5in" height="5.102083333333334in"} -->
 
 <h5>HTML:</h5>
 
@@ -6571,8 +6564,7 @@ x&#94;3 and look at the result (don&apos;t forget to change
 the xRange and yRange values). If you have trouble, [look
 here](https://codepen.io/w3devcampus/pen/MJMYNb) for a solution.
 
-![](./images/image144.png){width="6.5in"
-height="3.0569444444444445in"}
+![](./images/image144.png) <!-- {width="6.5in" height="3.0569444444444445in"} -->
 
 <h5>HTML:</h5>
 
@@ -6634,7 +6626,7 @@ Let&apos;s see a few examples on how to work with remote data.
 This example downloads and displays a list of users in a table
 (see [remote data](https://jsonplaceholder.typicode.com/users)):
 
-![](./images/image145.png){width="6.5in" height="4.909722222222222in"}
+![](./images/image145.png) <!-- {width="6.5in" height="4.909722222222222in"} -->
 
 <h5>HTML:</h5>
 
@@ -6717,7 +6709,7 @@ This example just shows how to use the HowlerJS external library to load
 remote sounds, decode them and play them as samples in memory (useful
 for video games):
 
-### ![](./images/image146.png){width="6.5in" height="3.25in"} {#section-7 .unnumbered}
+### ![](./images/image146.png) <!-- {width="6.5in" height="3.25in"} {#section-7 .unnumbered} -->
 
 <h5>HTML:</h5>
 
@@ -6901,9 +6893,7 @@ I declared the variable &quot;age&quot; with a value of 1, and I added some
 if&hellip; else statements.
 
 If &quot;age&quot; is less than 2, print &quot;I&apos;m a baby&quot;, and you can see that
-this has been
-
-executed, because the variable is 1, 1 is less than 2. It&apos;s been
+this has been executed, because the variable is 1, 1 is less than 2. It&apos;s been
 executed...
 
 I can add some &quot;else&hellip;if&quot; statements.
@@ -6967,7 +6957,7 @@ And thrust me, it&apos;s much better to use the triple equals operator, it
 will avoid you many errors like considering a string as a number, and so
 on.
 
-### Source code of the example shown in the video {#source-code-of-the-example-shown-in-the-video .unnumbered}
+### Source code of the example shown in the video
 
 [This example is available on
 CodePen](https://codepen.io/w3devcampus/pen/pPmqwq?editors=0012)
@@ -6978,7 +6968,7 @@ I&apos;ll do that&hellip;</b>&quot;, we need to define a few more concepts.
 
 Let&apos;s tart with &quot;boolean values&quot; and &quot;logical operators&quot;.
 
-### Boolean values {#boolean-values .unnumbered}
+### Boolean values
 
 The <b>boolean</b> type represents a logical entity having two
 values: true and false.
@@ -6998,7 +6988,7 @@ it becomes a string variable:
 1.  var b = &apos;true&apos;; // b is not a boolean but a string
 ```
 
-#### Undefined and null values {#undefined-and-null-values .unnumbered}
+#### Undefined and null values
 
 <b>Undefined</b>
 
@@ -7048,7 +7038,7 @@ a ReferenceError will be raised. But the typeof operator will return
 5.  &apos;undefined&apos;
 ```
 
-### Logical operators {#logical-operators .unnumbered}
+### Logical operators
 
 The logical operators are: 
 
@@ -7090,7 +7080,7 @@ The logical operators are: 
 8 </b>and<b> 11</b> of the previous example, non-boolean values are
 implicitly converted to boolean.
 
-### Lazy evaluation or short-circuit evaluation {#lazy-evaluation-or-short-circuit-evaluation .unnumbered}
+### Lazy evaluation or short-circuit evaluation
 
 Logical expressions are evaluated from left to right. JavaScript uses a
 mechanism known as &quot;short-circuit evaluation&quot; to prevent the second,
@@ -7123,7 +7113,7 @@ Examples:
 16. }
 ```
 
-### Implicit conversions of non boolean values in expressions {#implicit-conversions-of-non-boolean-values-in-expressions .unnumbered}
+### Implicit conversions of non boolean values in expressions
 
 Used with logical operators or within statements, <b>non-boolean values
 are implicitly converted to booleans</b>.  
@@ -7197,7 +7187,7 @@ the value 3 is not assigned to the var myNumber. In the last
 line, myNumber is evaluated as false, then the value 2 is given to the
 variable myNumber.
 
-### Comparison operators {#comparison-operators .unnumbered}
+### Comparison operators
 
 -   Equal <b>==</b>
 
@@ -7215,7 +7205,7 @@ variable myNumber.
 
 -   Strict not equal <b>!==</b>
 
-#### What is the difference between <b>==</b> and === in JavaScript? {#what-is-the-difference-between-and-in-javascript .unnumbered}
+#### What is the difference between <b>==</b> and === in JavaScript?
 
 <h5>Equal (==)</h5>
 
@@ -7269,7 +7259,7 @@ Here are interesting articles:
 -   [Equality comparisons and
     sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 
-### Specific case of NaN {#specific-case-of-nan .unnumbered}
+### Specific case of NaN
 
 As we have already seen, JavaScript has some special values. One of them
 is NaN: "Not-a-Number". 
@@ -7482,12 +7472,12 @@ Statements are generally executed sequentially from top to bottom of the
 script. However, this flow can be modified by statements such as
 conditional statements and iteration statements.
 
-### The block statement {#the-block-statement .unnumbered}
+### The block statement
 
 The block statement is a simple statement which allows us to group a set
 of statements wrapped in curly braces. 
 
-### Block statement: {#block-statement .unnumbered}
+### Block statement:
 
 ```
 1.  {
@@ -7500,7 +7490,7 @@ of statements wrapped in curly braces. 
 The block statement is used by other statements such as the if-statement
 or for-statement. We will see these statements below.
 
-### Conditional statements {#conditional-statements-1 .unnumbered}
+### Conditional statements
 
 All the examples for this section are in this codepen (to run it: click
 on the &quot;edit on CodePen&quot; label, and once in CodePen, open the devtool
@@ -7512,7 +7502,7 @@ commented - please remove comments and try to understand the results).
 <b>Conditional statements are used to execute a unit of code</b>
 <b>only if a condition is evaluated as true.</b>
 
-### The if statement {#the-if-statement .unnumbered}
+### The if statement
 
 <b>Syntax:</b>
 
@@ -7529,7 +7519,7 @@ commented - please remove comments and try to understand the results).
 
 -   any values or expressions which can be converted to boolean
 
-#### Example #1: if-statement {#example-1-if-statement .unnumbered}
+#### Example #1: if-statement
 
 ```
 1.  var num = 10;
@@ -9642,7 +9632,7 @@ specification.
 Please note that the W3C has also published a sibling specification
 describing the values for the key property.
 
-### Current browser support {#current-browser-support .unnumbered}
+### Current browser support
 
 -   [CanIUse table for key](https://caniuse.com/#feat=keyboardevent-key)
 
@@ -10881,7 +10871,7 @@ the part dealing with form events.
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
 
-### Suggested topics {#suggested-topics-1 .unnumbered}
+### Suggested topics
 
 -   Did you know the differences between clientX, pageX, etc. when
     dealing with mousemove events? Did you know the method we showed for
@@ -10891,7 +10881,7 @@ post your comments/observations/questions or share your creations.
 -   Did you know the different keyboard layouts, and
     the code and key event properties?
 
-### Optional project {#optional-project-1 .unnumbered}
+### Optional project
 
 ![times](./images/image193.jpeg){width="2.0833333333333335in"
 height="1.3854166666666667in"}
@@ -11692,7 +11682,7 @@ Other examples that use more complex selectors:
 13. var p = div.querySelector(&quot;p&quot;);
 ```
 
-### Accessing HTML elements with the DOM API (old fashioned) {#accessing-html-elements-with-the-dom-api-old-fashioned .unnumbered}
+### Accessing HTML elements with the DOM API (old fashioned)
 
 These methods are from the DOM API and can all be replaced by the
 querySelector and querySelectorAll methods that we&apos;ve discussed. They
@@ -11807,9 +11797,9 @@ Here are some examples:
   alt="." />
 </p>
 
-### Using the ClassList interface to change more than one CSS property simultaneously {#using-the-classlist-interface-to-change-more-than-one-css-property-simultaneously .unnumbered}
+### Using the ClassList interface to change more than one CSS property simultaneously
 
-### External resources: {#external-resources-2 .unnumbered}
+### External resources:
 
 -   [The W3C specification about the classList DOM
     interface](https://www.w3.org/TR/dom/#dom-element-classlist)
@@ -11827,43 +11817,33 @@ object and by providing a set of methods to manipulate its content.
 The classList property applies to an HTML element, and returns a
 collection of class names:
 
+```
 1.  var elem= document.querySelector(&quot;#id1&quot;);
-
 2.  var allClasses = elem.<b>classList</b>;
+```
 
-<h4>The classList API
+<h3>The classList API</h3>
 
+```
 3.  The list of methods usable on a classList object are add(),
     remove(), toggle() and contains().
-
 4.  // By default, start without a class in the div: <div class=&quot;&quot;/>
-
 5.  // Set &quot;foo&quot; as the class by adding it to the classList
-
 6.  div.classList.add(&apos;foo&apos;); // now <div class=&quot;foo&quot;/>
-
 7.  // Check that the classList contains the class &quot;foo&quot;
-
 8.  div.classList.contains(&apos;foo&apos;); // returns true
-
 9.  // Remove the class &quot;foo&quot; from the list
-
 10. div.classList.remove(&apos;foo&apos;); // now <div class=&quot;&quot;/>
-
 11. // Check if classList contains the class &quot;foo&quot;
-
 12. div.classList.contains(&apos;foo&apos;); // returns false: &quot;foo&quot; is gone
-
 13. // Check if class contains the class &quot;foo&quot;,
-
 14. // If it does, &quot;foo&quot; is removed, if it doesn&apos;t, it&apos;s added
-
 15. div.classList.toggle(&apos;foo&apos;); // class set to <div
     class=&quot;foo&quot;/>
-
 16. div.classList.toggle(&apos;foo&apos;); // class set to <div class=&quot;&quot;/>
+```
 
-### Another example: add and remove multiple CSS properties in a list of checkboxes {#another-example-add-and-remove-multiple-css-properties-in-a-list-of-checkboxes .unnumbered}
+### Another example: add and remove multiple CSS properties in a list of checkboxes
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11947,7 +11927,7 @@ we&apos;ve seen, and perhaps introduce a few new things&hellip;
 
 Properties that can be used to change the value of selected DOM node
 
-### Using the innerHTML property {#using-the-innerhtml-property .unnumbered}
+### Using the innerHTML property
 
 This property is useful when you want to change all the children of a
 given element. It can be used to modify the text content of an element,
