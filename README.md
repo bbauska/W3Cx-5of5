@@ -3571,6 +3571,123 @@ an external URL:
   title="How to debug JavaScript"
   alt="How to debug JavaScript." />
 </p>
+Hi, every programmer will make errors. It is very important that you learn how 
+to debug your JavaScript programs, how to see your errors, how to write messages 
+for debugging, tracing what is going on, etc.
+
+Every browser comes with a very powerful set of tools called the devtools.
+
+With my Mac, I can use command "alt + I". The thing we will going to use the 
+most is the console. A console loads problems or errors. If I can clear the 
+messages from here and this is the place where I will see the different error 
+messages I've got in my code.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 105.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image105.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+
+Here is an example in JSBin. You can click here to see the console or it’s the 
+same thing you can get here. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 106?.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image106.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+
+If I type something here: console.log("hello"). This is the instruction you 
+will use the most for printing error messages in the dev tool console. If I 
+execute it, it prints "hello", and I can see also in the browser built in 
+console: "hello".
+
+This just a comfortable way to display error messages. If I make some errors, 
+here I've got a script that will display, as soon the page is loaded, "Some 
+JavaScript code has been executed".
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 107.  (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image107.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+ 
+If I run the code, here, it displays "Some JavaScript code has been executed". 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 108.  (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image108.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+ 
+If there is a mistake, if I make an error here, for example, I write console 
+with two "l". I can see, in red, some messages:  "consolle is not defined", 
+bla, bla, bla...
+When you use some online tools like JSBin or CodePen, and so on, it's a bit 
+difficult to debug your code because you are debugging at the same time the 
+code of the tool itself that is written in JavaScript too. Each these tools 
+comes with a way to run your code in what we decode ‘standalone mode’ or 
+‘debug mode’.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 109.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image109.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+ 
+With JSBin, I click on the small black arrow, here. And if I open the built-in 
+browser console, I can see the error message.
+
+And here, if I click on the link on the right, it will just show the line where 
+my program made a mistake display, so, as an error. Here, I can see that console 
+needs only one "l", I can fix that. 
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110.  (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image110.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+Another interested thing is that when you use "console.log", you can use it to 
+display some variable values. If I declare a variable named x with a value of 10, 
+I can use «console.log" to display the value of x, using the "+" operator. In 
+that case, if I run my code, it will help me by displaying the value of different 
+variables when “console.log” is executed.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 111.  (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image111.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+
+With CodePen, another tool we use a lot in the course, you've got the debug mode. 
+Just save your work and click on "change view mode" we’ve got "debug mode" here.
+And you can also open the console. If you click on the console button here, you 
+can have a console here, and see what is going on. CodePen does not display the 
+error messages, so is better for debugging to click on the "debug mode", here.
+
+You've got the page in standalone mode, and you can open the dev tool console. 
+With local files, I’ve got another example here with HTML code that uses it 
+some JavaScript code from a "script.js" file. If I make an error here, an 
+error in the name console, I save. I can run the result: "Open in browser". 
+I click, it does nothing. I open the dev tool console and I see where the 
+problem is and I can click on the link on the right and it shows the line 
+with the error.
+
 Let&apos;s introduce what is debugging.
 
 <h4>You will make errors!</h4>
