@@ -3026,24 +3026,23 @@ parameter to the functionPlot(&hellip;) call are in bold.
     be plotted. We talk about this in greater detail below.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 106.  (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 106. grid with x-axis, y-axis, origin, & target (80) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image106.gif?raw=true"
-  style="width:30%"
-  title="JavaScript detailed timeline"
-  alt="JavaScript detailed timeline." />
+  style="width:60%"
+  title="Coordplane: Grid with x-axis, y-axis, origin &amp; target"
+  alt="Coordplane: Grid with x-axis, y-axis, origin &amp; target." />
 </p>
-<!-- ![coordplane](./images/image093.gif){width="3.125in" height="2.0in"} -->
 
--   <b>grid</b>: this can be true or false (we call these &quot;boolean
+<ul>
+  <li><b>grid</b>: this can be true or false (we call these &quot;boolean
     values&quot;) and indicates whether or not we want a grid to be drawn in
-    the background.
-
--   <b>xAxis</b>: the value specifies the domain (range) for the x
-    values&hellip;
-
--   <b>yAxis</b>: the value specifies the domain (range) for the y
-    values&hellip;
+    the background.</li>
+  <li><b>xAxis</b>: the value specifies the domain (range) for the x
+    values&hellip;</li>
+  <li><b>yAxis</b>: the value specifies the domain (range) for the y
+    values&hellip;</li>
+</ul>
 
 Notice that after each property (color, grid, etc.) there is a &quot;,&quot;.
 Notice that between the name of the properties and the value there is a
@@ -3345,9 +3344,9 @@ years ago).</p>
 <p>Here is an example that will display the current and past members of
 famous rock bands:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 98. codepen example, band name (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 117. codepen example, band name (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image098.png?raw=true"
+<img src="./images/image117.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -3358,9 +3357,9 @@ famous rock bands:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-3">1.3.3 Where to put JavaScript code (7:13)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 99a. where to put javascript code (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 118. where to put javascript code (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image099a.png?raw=true"
+<img src="./images/image118.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -3401,9 +3400,9 @@ Typically:
 
 Here is this first example on CodePen:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 99.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 119.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image099.png?raw=true"
+<img src="./images/image119.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -3442,9 +3441,9 @@ some content to this document
 
 Here is this second example on CodePen:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 100.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 120.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image100.png?raw=true"
+<img src="./images/image120.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -3513,9 +3512,9 @@ A typical example:
 It is good practice to locate CSS files in a css subfolder, and
 JavaScript files in a js subfolder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 101. a typical html/css/js project folder structure (95) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 121. a typical html/css/js project folder structure (95) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image101.jpeg?raw=true"
+<img src="./images/image121.jpeg?raw=true"
   style="width:50%"
   title="A typical HTML/CSS/JS project folder structure"
   alt="A typical HTML/CSS/JS project folder structure." />
@@ -3523,9 +3522,9 @@ JavaScript files in a js subfolder.
 
 In this example, we have just one CSS file and one JavaScript file:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 102. a typical html/css/js project folder, folder expanded (96) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 122. a typical html/css/js project folder, folder expanded (96) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image102.jpeg?raw=true"
+<img src="./images/image122.jpeg?raw=true"
   style="width:50%"
   title="A typical HTML/CSS/JS project folder, folder expanded"
   alt="A typical HTML/CSS/JS project folder, folder expanded." />
@@ -3599,9 +3598,9 @@ Here is a running example that uses the paperJS library, included using
 an external URL:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 103.  (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 123.  (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image103.png?raw=true"
+<img src="./images/image123.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -3610,9 +3609,9 @@ an external URL:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 104. how to debug javascript (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 124. how to debug javascript (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image104.png?raw=true"
+<img src="./images/image124.png?raw=true"
   style="width:65%"
   title="How to debug JavaScript"
   alt="How to debug JavaScript." />
@@ -3692,9 +3691,9 @@ message in the console), we see the message in the console tab, as well
 as in the dev. tools console. This is illustrated by the image below
 (or [online](https://jsbin.com/moqimuz/edit?html,console,output)):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 104. snapshot of a javascript console view (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 125. snapshot of a javascript console view (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image104.jpeg?raw=true"
+<img src="./images/image125.png?raw=true"
   style="width:50%"
   title="Snapshot of a JavaScript console view"
   alt="Snapshot of a JavaScript console view." />
@@ -3707,9 +3706,9 @@ Bin editor. Press the black arrow on the top right of the output
 window - this will render the page as a standalone Web page, then
 press <b>F12</b>. You should see:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 105. snapshot of a javascript console view (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 126. snapshot of a javascript console view (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image105.jpeg?raw=true"
+<img src="./images/image126.png?raw=true"
   style="width:50%"
   title="Snapshot of a JavaScript console view"
   alt="Snapshot of a JavaScript console view." />
