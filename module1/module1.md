@@ -109,13 +109,17 @@ If you eliminated everything in between the angle brackets from the text, for mo
 > . . . it is a far, far better rest
 >     that I go to than I have ever known.
 
-Once you know that everything in angle brackets is "meta-information", it gives you a lot of flexibility. You can put a lot of different things in between those brackets without any of it showing up (directly) in your finished document. And though you don't usually see directly what's in those angle brackets, they can often have a big effect on how your Web page looks, as well as how it responds and interacts with you.
+Once you know that everything in angle brackets is "meta-information", it gives you a lot of flexibility. You can put a 
+lot of different things in between those brackets without any of it showing up (directly) in your finished document. 
+And though you don't usually see directly what's in those angle brackets, they can often have a big effect on how your 
+Web page looks, as well as how it responds and interacts with you.
 
 Here is another, more generic example:
 
 Notes:
 
-*  Remember that the first line of your HTML5 page should start by <!DOCTYPE html>. CodePen does not force you to add a DOCTYPE on CodePen,  but be assured that you will need to specify the DOCTYPE in all your Web documents.
+*  Remember that the first line of your HTML5 page should start by <!DOCTYPE html>. CodePen does not force you to add a
+   DOCTYPE on CodePen,  but be assured that you will need to specify the DOCTYPE in all your Web documents.
 *  You can modify the source code in CodePen, and see the results in real time.
 
 ```html
@@ -144,11 +148,13 @@ Try it out!
 
 It's time to write your first HTML code :-)
 
-You can use a source code editor like Sublime Text, Atom, Brackets or any lightweight text editor. You can also use more "professional" tools such as Visual Studio, NetBeans, Eclipse, WebStorm, etc.
+You can use a source code editor like Sublime Text, Atom, Brackets or any lightweight text editor. You can also 
+use more "professional" tools such as Visual Studio, NetBeans, Eclipse, WebStorm, etc.
 
 To try out the simple examples from this course, I'd suggest using an online IDE such as jsbin.com, codepen.io, plunker, etc.
 
-During the course, we will show you how to test out simple code snippets in online IDEs, but we will also teach you how to organize your code with folders and files.
+During the course, we will show you how to test out simple code snippets in online IDEs, but we will also teach 
+you how to organize your code with folders and files.
 
 The next video shows how you can use JsBin, CodePen, and SublimeText in order to test the HTML code provided earlier in this section.
 
@@ -158,9 +164,12 @@ https://youtu.be/a272u8lwzRo
 
 ### HTML Elements
 
-If you are sitting at a coffee shop next to a table of Web developers, you will probably hear three words quite a bit: "Tags", "Attributes" and "Elements".
+If you are sitting at a coffee shop next to a table of Web developers, you will probably hear three words quite a bit: 
+"Tags", "Attributes" and "Elements".
 
-"Elements" are the pieces themselves, i.e. a paragraph is an element, a header is an element, even the body is an element. Most elements can contain other elements, as the body element would contain header elements, paragraph elements, in fact pretty much all of the visible elements of the Document Object Model (that developers refer to as the "DOM").
+"Elements" are the pieces themselves, i.e. a paragraph is an element, a header is an element, even the body is 
+an element. Most elements can contain other elements, as the body element would contain header elements, paragraph 
+elements, in fact pretty much all of the visible elements of the Document Object Model (that developers refer to as the "DOM").
 
 As an example, let's look at a simplified version of the last HTML code we showed you:
 
@@ -173,7 +182,8 @@ As an example, let's look at a simplified version of the last HTML code we showe
   </head>
   <body>
     <h1>My home page</h1>
-    <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I'm a professor at the University of Nice, in   France, and I'm also the author of two MOOCS about HTML5 on W3Cx.</p>
+    <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I'm a professor at the University of Nice,
+      in France, and I'm also the author of two MOOCS about HTML5 on W3Cx.</p>
   </body>
 </html>
 ```
@@ -182,13 +192,19 @@ Click the red circle next to HTML to unfold this HTML document structure (we can
 
 https://codepen.io/w3devcampus/pen/BRNpYQ
 
-Consider the figure above. It contains a single html element. It turns out this includes within it the entire content of your html file. If you click on the "html" red node, you'll find that it contains two components, a head and a body. Clicking on each of those will reveal their respective contents. This structure is what we computer scientists call a "tree". Any given element (except for the outermost "html" element) is wholly contained inside another element, referred to as the "parent" element. Not surprisingly, the elements contained within a given element are its "child" elements. And, yes, children of a common parent are often referred to as "siblings".
+Consider the figure above. It contains a single html element. It turns out this includes within it the entire content 
+of your html file. If you click on the "html" red node, you'll find that it contains two components, a head and a body. 
+Clicking on each of those will reveal their respective contents. This structure is what we computer scientists call a 
+"tree". Any given element (except for the outermost "html" element) is wholly contained inside another element, referred 
+to as the "parent" element. Not surprisingly, the elements contained within a given element are its "child" elements. 
+And, yes, children of a common parent are often referred to as "siblings".
 
-Thus in the example above, the top element is the html element, which contains just two elements, the head and body.  The head 
-element contains a title element and the body contains an h1 element and a p element.  In a more typical example, the body would 
-contain many more children, but for our purpose this is enough. p is for "paragraph" (the text between &lt;p&gt; and &lt;/p&gt; will be 
-separated by some space before the next element is displayed in the final HTML page rendering), h1 means "heading level 1", 
-and will be rendered by default in bold with a bigger char size than any other text element, etc.
+Thus in the example above, the top element is the html element, which contains just two elements, the head and body.  
+The head element contains a title element and the body contains an h1 element and a p element.  In a more typical 
+example, the body would contain many more children, but for our purpose this is enough. p is for "paragraph" (the 
+text between &lt;p&gt; and &lt;/p&gt; will be separated by some space before the next element is displayed in the 
+final HTML page rendering), h1 means "heading level 1", and will be rendered by default in bold with a bigger char 
+size than any other text element, etc.
 
 That may be a great picture, but how do we represent such a structure in a text file?  Well, that's where "tags" come in.
 
@@ -203,7 +219,6 @@ HTML borrows a technique from another language, SGML, to provide an easy way for
 "MarkUp" and which parts are the content. By using "<" and ">" as a kind of parentheses, HTML can indicate the beginning 
 and end of a tag, i.e. the presence of "<" tells the browser "this next bit is markup, pay attention".
 
-
 Whatever that tag (or "open tag") does, it applies to the content following the tag. Unless you want that to be the entire 
 rest of the document, you need to indicate when to stop using that tag and do something else, so "&lt;" and "&gt;" are used 
 again. Since elements are typically nested within other elements, the browser needs to be able to distinguish between the 
@@ -215,11 +230,13 @@ single letter "p") you end up with something like this:
 <p>This is my first paragraph!</p>
 ```
 
-The browser sees the letters `<p>` and decides "A new paragraph is starting, I'd better start a new line and maybe indent it". Then when it sees `</p>` it knows that the paragraph 
-it was working on is finished, so it should break the line there before going on to whatever is next.
+The browser sees the letters `<p>` and decides "A new paragraph is starting, I'd better start a new line and maybe 
+indent it". Then when it sees `</p>` it knows that the paragraph it was working on is finished, so it should break 
+the line there before going on to whatever is next.
 
-For example, the `<em>` tag is used for element that needs Emphasis.  The  `<` and `>` indicate that this is a tag, and the "little bits of text" in between tell us what kind of 
-tag it is.  To completely describe the element, it needs an open and close tag, and everything in between the tags is the contents of the element:
+For example, the `<em>` tag is used for element that needs Emphasis.  The  `<` and `>` indicate that this is a tag, 
+and the "little bits of text" in between tell us what kind of tag it is.  To completely describe the element, it needs 
+an open and close tag, and everything in between the tags is the contents of the element:
 
 ![tags](https://courses.edx.org/asset-v1:W3Cx+HTML5.0x+1T2016+type@asset+block@tags.png)
 
