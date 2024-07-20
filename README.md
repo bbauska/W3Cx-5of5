@@ -2473,7 +2473,7 @@ did NOT exist at this time!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. ecma logo (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image091.gif?raw=true"
-  style="width:30%"
+  style="width:75%"
   title="ecma"
   alt="ECMA." />
 Towards the end of 1996, JavaScript was standardized
@@ -2484,9 +2484,10 @@ worry, it&apos;s the same thing.</b> EcmaScript has continued to be released
 right up to the present day. MS still didn't play ball.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 92. javascript detailed timeline (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="left" width="50%">
+<!-- <p align="left" width="50%"> -->
 <img src="./images/image092.png?raw=true"
-  style="width:50%"
+  align="left" 
+  width="50%"
   title="JavaScript detailed timeline"
   alt="JavaScript detailed timeline." />
 The present: what is the current version?
@@ -2505,9 +2506,10 @@ the standards group responsible for vetting and approving different
 versions of the language. In June 2015, ECMA International approved the
 6th edition of the language. The name, ES2015, was used because the
 latest version of JavaScript is identified as the 2015 version of
-ECMAScript (the alternative name for JavaScript). [Read this blog post
-about all these naming
-incongruities!](https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning)</p>
+ECMAScript (the alternative name for JavaScript). 
+<a href="https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning">
+Read this blog post about all these naming incongruities!</a>
+<br clear="left"/>
 
 At the beginning, ES2015 was referred to as ES6 and before that,
 Harmony. Moving forward, ES suffixed with the year of the latest
