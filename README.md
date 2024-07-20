@@ -2627,7 +2627,7 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-1">1.3.1 The best way to learn JavaScript (8:42)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 93. the best way to learn javascript (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 93. the best way to learn javascript (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image093.png?raw=true"
   style="width:50%"
@@ -2643,9 +2643,9 @@ like. Even without deep explanations, without reading a book, or
 studying in details the different concepts of language, you can learn a
 lot.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 94. the best way to learn javascript (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 94. the best way to learn javascript (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image093.png?raw=true"
+<img src="./images/image094.png?raw=true"
   style="width:50%"
   title="The Best Way to Learn JavaScript"
   alt="The Best Way to Learn JavaScript." />
@@ -2653,10 +2653,27 @@ lot.
 
 In this section, I propose that you look at a small example without
 understanding the details, and try to tweak it.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 95.  (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image095.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
 Here is the example we provide. It&apos;s just an example that draws, that
 plots, a mathematical function. You can use the mouse wheel to zoom in,
-zoom out, and you can look at the HTML code. There is only very few CSS
+zoom out, and you can look at the HTML code. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 96.  (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image096.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+
+There is only very few CSS
 and very few lines of JavaScript. How can we do the such a complex
 result? Complex thing drawing the grid with axes, with labels, with a
 curve, and interact with the mouse.
@@ -2669,19 +2686,46 @@ internally another one you must include also in the document.
 What I propose is that we will start looking at this example. The best
 way is to click on &quot;Edit on CodePen&quot; label here, it will open the code
 in the CodePen.io online editor. And&hellip; just look at the HTML part
-here. Okay, we can just look at the HTML part and zoom in a little bit.
+here. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 97.  (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image097.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+Okay, we can just look at the HTML part and zoom in a little bit.
 What do we see? We can see that it uses 2 libraries here between
 &lt;script&gt; and &lt;/script&gt; elements. This is how we can insert in the
 document an external JavaScript file. In that case, it&apos;s a remote
 JavaScript file because we are downloading it using http. It uses this
-&quot;d3js&quot; JavaScript library that is located at &quot;d3js.org&quot;. You can
-open this in another tab and you will see the documentation and the Web
+&quot;d3js&quot; JavaScript library that is located at &quot;d3js.org&quot;. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 98. js data driven documents (d3) library (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image098.png?raw=true"
+  style="width:40%"
+  title=""
+  alt="." />
+</p>
+
+You can open this in another tab and you will see the documentation and the Web
 site, the homepage of the Web site, for the &quot;d3js&quot; library. By the way
 &quot;d3js&quot;is one of the most popular JavaScript libraries for visualizing
 data.
 
 Let&apos;s go back to our example, so you can just tweak the different
-elements. If I want to plot a cosinus instead of a sinus, I don't need
+elements. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 99.  (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image099.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+If I want to plot a cosinus instead of a sinus, I don't need
 to understand the whole syntax here, but I guess that by just typing
 &quot;cos&quot; here, it will do something. And indeed, I have just drawn a
 cosinus. If I change this for &quot;green&quot;, it changes the color. If I
@@ -2689,18 +2733,37 @@ change the grid, that is by default &quot;true&quot;, if I say &quot;false&quot;
 don&apos;t have a grid anymore. Okay let&apos;s put it back. And I&apos;ve got some
 &quot;xAxis&quot; domain: &quot;-1, +1&quot;. If I change that for &quot;-10, +10&quot;, I can
 see the result. It&apos;s more interesting, if you change this for the x
-values&hellip; instead of going from PI to 2 PI. I went from 0 to 10 PI. I
-can see the result here, and so on&hellip; Now that you tweak the example,
+values&hellip; instead of going from PI to 2 PI. 
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 100.  (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image100.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+
+I went from 0 to 10 PI. I can see the result here, and so on&hellip; Now that you tweak the example,
 you can try to understand what is going on. Okay, this thing is a name
 followed by a parenthesis. an open parenthesis with a closing
 parenthesis. It&apos;s a function call. When you&apos;ve got something like
 that, in JavaScript, function parenthesis with something in the middle,
 it&apos;s called a &quot;function call&quot;. We&apos;re going to call a function, that,
-in this case, we haven't written, so it&apos;s coming from one on the
-external libraries.
+in this case, we haven't written, so it&apos;s coming from one of the
+external libraries. In that case, it&apos;s the &quot;function-plot&quot; library. What is inside? There
+are the parameters. 
 
-In that case, it&apos;s the &quot;function-plot&quot; library. What is inside? There
-are the parameters. And I can use an external name. I can declare that,
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 101.  (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image101.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+
+And I can use an external name. I can declare that,
 here, it&apos;s equivalent. You see that it works the same here, but I've
 just separated the two things. If I put directly this thing inside here,
 like it was before, it still works. Okay, so what is this syntax? In
@@ -2716,14 +2779,31 @@ that is an object.
 The xAxis property is equal to an object that has a property domain,
 that has for values: &quot;-1, 1&quot;. And when you&apos;ve got brackets, opening
 and closing brackets, it&apos;s like that&hellip; That will define arrays of
-things in JavaScript.
-
-And an array of things is a list of enumerable elements. In that case,
+things in JavaScript. And an array of things is a list of enumerable elements. In that case,
 the domain has two elements: the minimum value and the maximum value.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 102.  (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image102.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+
 And here you can see that the data that are plotted, the cosinus
 function, is also an array. If I use the comma and I introduce a second
 element here. For example, the sinus function, and if I change the
-color, let&apos;s make it pink&hellip; Look at the result: I&apos;ve got 2 different
+color, let&apos;s make it pink&hellip; 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 103.  (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image103.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+
+Look at the result: I&apos;ve got 2 different
 functions that have been plotted in my graph. I can, instead of using
 this, I can maybe plot x2 (x square 2), like this, okay. It should work.
 Ok, we can see a little bit of it here. Maybe we will change the domain,
@@ -2731,19 +2811,29 @@ so instead of stopping at 1, we go to 10. Here we go! And if we look at
 the values, we see the x square function that is a bit better, and if we
 just plot it for x=0 to x=2&hellip; &hellip;In that case, I've got another scale
 for looking at the functions.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 104.  (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image104.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
 
 In this first example, you saw how to use an external library, what is
 the syntax to call a function, and how we can define objects in
 JavaScript by using a set of properties and values, separated by a
 comma. And we also had a first encounter with what we call arrays, that
-are elements separated by commas inside brackets. So, what it the best
-method for learning JavaScript? When you are a complete beginner, I will
-recommend to look at examples, tweak them, change small things, try to
+are elements separated by commas inside brackets. 
+
+What it the best method for learning JavaScript? When you are a complete 
+beginner, I recommend you look at examples, tweak them, change small things, try to
 understand what the syntax looks like. Even without deep explanations,
 without reading a book, or studying in details the different concepts of
-language, you can learn a lot. In this section, I propose that you look
-at a small example without understanding the details, and try to tweak
-it.
+language, you can learn a lot. 
+
+In this section, I propose that you look at a small example without understanding 
+the details, and try to tweak it.
 
 &lt;Img&gt;
 
@@ -2833,47 +2923,47 @@ brackets. What is the best method to learn JavaScript?
 &lt;end of video transcript The Best Way to Learn JS&gt;
 
 <h4>FIRST: learn by looking at and tweaking the code in the examples</h4>
-
-Well, there is no definitive answer to this question, but I&apos;d recommend
+<!-- page 76 -->
+<p>Well, there is no definitive answer to this question, but I&apos;d recommend
 firstly looking at small examples, tweaking them and trying to guess
 what they do. You will rapidly discover that you can learn a lot just by
 modifying a few lines of JavaScript code, even if you do not understand
-the whole thing. 
+the whole thing.</p>
 
-During module 1, we give you some basics:
+<p>During module 1, we give you some basics:</p>
 
--   How to write a simple HTML/CSS/JS page,
-
--   Suggest some regular source code editors to use,
-
--   How to use online environments that run in the browser, and offer an
+<ul>
+  <li>How to write a simple HTML/CSS/JS page,</li>
+  <li>Suggest some regular source code editors to use,</li>
+  <li>How to use online environments that run in the browser, and offer an
     &quot;instant preview&quot; of your creations. These tools are generally not
     suited for full scale projects, but are really valuable for testing
-    and learning.
-
--   We present many examples (some short and some bigger ones) that will
+    and learning.</li>
+  <li>We present many examples (some short and some bigger ones) that will
     show what can be done with JavaScript. We strongly encourage you to
     tweak them, look at the code, download them on your hard disk, etc.
     Even if you do not understand everything, have a go at modifying
-    them; further down this page we outline such an exercise.
+    them; further down this page we outline such an exercise.</li>
+  <li>In further modules, we will be revisiting the examples,
+    and discussing them in greater detail and with fuller explanations.</li>
+</ul>
 
--   In further modules, we will be revisiting the examples,
-    and discussing them in greater detail and with fuller explanations.
+<!-- page 77 -->
+<h4>SECOND: take some time to carefully read the sections titled &quot;What 
+you&apos;ve learnt / let&apos;s detail &hellip;.&quot;</h4>
 
-<h4>SECOND: take some time to carefully read the sections titled &quot;What you&apos;ve learnt / let&apos;s detail &hellip;.&quot;</h4>
-
-During the course, we provide extra &quot;reference pages&quot; that detail some
+<p>During the course, we provide extra &quot;reference pages&quot; that detail some
 important parts of the language. For example, in a later section, we
 explain the concepts of &quot;variables&quot;, &quot;values&quot;, &quot;operators&quot;,
-&quot;output&quot;, etc.
+&quot;output&quot;, etc.</p>
 
 <h4>Here is an example - we provide some clues, but it&apos;s your job to tweak it!</h4>
 
-Here is an example that uses an external JavaScript library useful for
+<p>Here is an example that uses an external JavaScript library useful for
 plotting math functions. Look at the JavaScript code (click on the JS
 button) and try to guess where the function is specified, where the
 range for the x and y values is set, etc. Notice that you can use your
-mouse wheel to zoom in/out the function plot.
+mouse wheel to zoom in/out the function plot.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. use javascript graph d3.js (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2894,13 +2984,13 @@ document of some external JavaScript code:</p>
 2.  <script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;</script&gt;
 ```
 
-We will examine this soon in a later section of the course, but, in
-brief, it means that we will use the [d3js plotting
-library](https://d3js.org/), and another from github (a famous
+<p>We will examine this soon in a later section of the course, but, in
+brief, it means that we will use the <a href="https://d3js.org/">d3js plotting
+library</a> and another from github (a famous
 repository for open source contributions), and located in the github
 account of a person named &quot;mauriciopoppe&quot;, the repository is named
-&quot;function plot&quot; ([&quot;function plot JavaScript
-library&quot;](https://mauriciopoppe.github.io/function-plot/)).
+&quot;function plot&quot; (<a href="https://mauriciopoppe.github.io/function-plot/">
+&quot;function plot JavaScript library&quot;</a>).</p>
 
 Then, looking at the JavaScript code of the example (click the JS button
 on the CodePen example), we see:
@@ -2918,54 +3008,57 @@ on the CodePen example), we see:
 10. <b>}</b>);
 ```
 
-Ok, the syntax looks strange if you are not used to JavaScript, but I
+<p>Ok, the syntax looks strange if you are not used to JavaScript, but I
 bet that you guessed that the function plotted is &quot;sin(x)&quot;, that the
 color of the curve is &quot;red&quot;, that the range of the x values is &lbrack;0,
-2&ast;PI&rbrack;, and the range of the y values is &lbrack;-1, 1&rbrack;.
+2&ast;PI&rbrack;, and the range of the y values is &lbrack;-1, 1&rbrack;.</p>
 
 <h4><b>Your job:</b></h4>
 
--   try to plot sin(x&#94;2),
+<ul>
+  <li>try to plot sin(x&#94;2),</li>
+  <li>try to change the domain for the x and y values,</li>
+  <li>try to change the color of the curve, etc.</li>
+</ul>
 
--   try to change the domain for the x and y values,
+<h4>To do this:</h4>
 
--   try to change the color of the curve, etc.
-
-To do this:
-
--   Edit directly the JS code in the embedded example, after a
+<ul>
+  <li>Edit directly the JS code in the embedded example, after a
     few seconds, you should see the updated result in the &quot;Results&quot;
-    tab,
-
--   &hellip;or just click on the &quot;Edit on CodePen&quot; title on the top
+    tab,</li>
+  <li>&hellip;or just click on the &quot;Edit on CodePen&quot; title on the top
     right of the embedded example, then change  the code. Normally you
     should see the results of your modifications as soon as you stop
-    typing (we call this &quot;live coding&quot;). (Here is [an example of what
-    you can obtain](https://codepen.io/w3devcampus/pen/dvpEPZ) as a
-    result).
+    typing (we call this &quot;live coding&quot;). 
+	(Here is <a href="https://codepen.io/w3devcampus/pen/dvpEPZ">an example of what
+    you can obtain</a> as a result).</li>
+</ul>
 
-<b>What can you guess from this example?</b>
+<h4>What can you guess from this example?</h4>
 
-<b>A function call</b>
+<h4>A function call</h4>
 
-You can think of this code in this way:
+<p>You can think of this code in this way:</p>
 
 ```
-1.  functionPlot(&hellip;);
+1.  functionPlot(...);
 ```
 
-Where the &quot;&hellip;&quot; corresponds to some sort of parameter. When you see a
+<!-- page 79 -->
+
+<p>Where the &quot;&hellip;&quot; corresponds to some sort of parameter. When you see a
 name followed by two parentheses (maybe with something in between)
-followed by a &quot;;&quot;, this is &quot;<b>a function call</b>&quot;. 
+followed by a &quot;;&quot;, this is &quot;<b>a function call</b>&quot;.</p>
 
-<b>A function</b> is a piece of code defined somewhere else, that can
+<p><b>A function</b> is a piece of code defined somewhere else, that can
 accept <b>parameters</b> (the &quot;thing&quot; between the parentheses), and that
 will do something. In our case the function&apos;s name is &quot;functionPlot&quot;
 and we can assume (or we read the documentation of the library) that
 the goal of this function is to plot a mathematical function, as its
-name tells us.
+name tells us.</p>
 
-<b>Function parameters</b>
+<h4>Function parameters</h4>
 
 The &quot;thing&quot; between parentheses is what we call &quot;the parameters of
 the function&quot;: the data we pass to the function so that it can plot
@@ -2977,22 +3070,22 @@ you tweaked). They are in bold in the source code we saw earlier:
 
 ```
 1.  {
-2.  <b>target</b>: &apos;#myFunction&apos;,
-3.  <b>data</b>: &lbrack;{
-4.  fn: &apos;sin(x)&apos;,
-5.  color: &apos;red&apos;
-6.  }&rbrack;,
-7.  <b>grid</b>: true,
-8.  <b>yAxis</b>: {
-9.  domain: &lbrack;-1, 1&rbrack;
-10. },
-11. <b>xAxis</b>: {
-12. domain: &lbrack;0, 2&ast;Math.PI&rbrack;
-13. }
+2.    <b>target</b>: '#myFunction',
+3.    <b>data</b>: [{
+4.      fn: 'sin(x)',
+5.      color: 'red'
+6.    }],
+7.    <b>grid</b>: true,
+8.    <b>yAxis</b>: {
+9.      domain: [-1, 1]
+10.   },
+11.   <b>xAxis</b>: {
+12.     domain: [0, 2*Math.PI]
+13.   }
 14. }
 ```
 
-<b>JavaScript object</b>
+<h4>JavaScript object</h4>
 
 In JavaScript you can have simple values like: 2, 5, &quot;hello&quot;,
 &quot;3.14&quot;, and you may also encounter more &quot;structured&quot; values that we
@@ -3005,8 +3098,8 @@ properties/values inside, separated by a comma. Here is a simple object:
 
 ```
 1.  {
-2.  givenName: "Michel",
-3.  familyName: "Buffa"
+2.    givenName: "Michel",
+3.    familyName: "Buffa"
 4.  }
 ```
 
@@ -3017,16 +3110,16 @@ property (or before the ending brace).
 In our examples, the properties of the object that is passed as a
 parameter to the functionPlot(&hellip;) call are in bold.
 
-They are respectively:
+<h4>They are respectively:</h4>
 
--   <b>target</b>: the CSS selector that corresponds to the HTML element
+<ul>
+  <li><b>target</b>: the CSS selector that corresponds to the HTML element
     that will contain the plot. Look at the HTML code (&lt;div
     id=&quot;<b>myFunction</b>&quot;&gt;&lt;/div&gt;), the id value corresponds
-    to target: &quot;#<b>myFunction</b>&quot; in the object.
-
--   <b>data</b>: this is where we indicate the value of the function(s) to
-    be plotted. We talk about this in greater detail below.
-
+    to target: &quot;#<b>myFunction</b>&quot; in the object.</li>
+  <li><b>data</b>: this is where we indicate the value of the function(s) to
+    be plotted. We talk about this in greater detail below.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 93.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
