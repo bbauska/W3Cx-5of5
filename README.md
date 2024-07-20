@@ -2240,11 +2240,12 @@ interactivity to the documents.
 <!--~~~~~~~~~~~~~~~~~~~~ 75/76. example: codepen; using javascript (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image075.png?raw=true"
-  style="width:50%"
+  style="width:35%"
   title="Example: CodePen; using JavaScript"
   alt="Example: CodePen; using JavaScript." />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./images/image076.png?raw=true"
-  style="width:50%"
+  style="width:35%"
   title="Example: CodePen; using JavaScript"
   alt="Example: CodePen; using JavaScript." />
 </p>
@@ -2266,12 +2267,13 @@ interact with the document object model, interact with the HTML elements
 of the page, add new ones, modify some existing ones, remove some
 elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 77/78. example: codepen; using javascript, #2 (62) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 77/78. example: codepen; using javascript, #2 (60) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image077.png?raw=true"
   style="width:35%"
   title="Example: CodePen; using JavaScript, #2"
   alt="Example: CodePen; using JavaScript, #2." />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./images/image078.png?raw=true"
   style="width:35%"
   title="Example: CodePen; using JavaScript, #2"
@@ -2318,7 +2320,7 @@ it&apos;s a real standard of the Web (even if not standardized by the W3C).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 80. javascript is the perfect glue (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image080.png?raw=true"
-  style="width:50%"
+  style="width:35%"
   title="JavaScript is the perfect glue"
   alt="JavaScript is the perfect glue." />
 </p>
