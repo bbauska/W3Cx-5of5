@@ -184,18 +184,32 @@ https://codepen.io/w3devcampus/pen/BRNpYQ
 
 Consider the figure above. It contains a single html element. It turns out this includes within it the entire content of your html file. If you click on the "html" red node, you'll find that it contains two components, a head and a body. Clicking on each of those will reveal their respective contents. This structure is what we computer scientists call a "tree". Any given element (except for the outermost "html" element) is wholly contained inside another element, referred to as the "parent" element. Not surprisingly, the elements contained within a given element are its "child" elements. And, yes, children of a common parent are often referred to as "siblings".
 
-Thus in the example above, the top element is the html element, which contains just two elements, the head and body.  The head element contains a title element and the body contains an h1 element and a p element.  In a more typical example, the body would contain many more children, but for our purpose this is enough. p is for "paragraph" (the text between <p> and </p> will be separated by some space before the next element is displayed in the final HTML page rendering), h1 means "heading level 1", and will be rendered by default in bold with a bigger char size than any other text element, etc.
+Thus in the example above, the top element is the html element, which contains just two elements, the head and body.  The head 
+element contains a title element and the body contains an h1 element and a p element.  In a more typical example, the body would 
+contain many more children, but for our purpose this is enough. p is for "paragraph" (the text between &lt;p&gt; and &lt;/p&gt; will be 
+separated by some space before the next element is displayed in the final HTML page rendering), h1 means "heading level 1", 
+and will be rendered by default in bold with a bigger char size than any other text element, etc.
 
 That may be a great picture, but how do we represent such a structure in a text file?  Well, that's where "tags" come in.
 
 #### Tags
 
-"Tags" are what we use to organize a text file (which is just a long string of characters) such that it represents a tree of elements that make up the html document. Tags are not the elements themselves, rather they're the bits of text you use to tell the computer where an element begins and ends. When you "mark up" a document, you generally don't want those extra notes that are not really part of the text to be presented to the reader.
+"Tags" are what we use to organize a text file (which is just a long string of characters) such that it represents a tree 
+of elements that make up the html document. Tags are not the elements themselves, rather they're the bits of text you use 
+to tell the computer where an element begins and ends. When you "mark up" a document, you generally don't want those extra 
+notes that are not really part of the text to be presented to the reader.
 
-HTML borrows a technique from another language, SGML, to provide an easy way for a computer to determine which parts are "MarkUp" and which parts are the content. By using "<" and ">" as a kind of parentheses, HTML can indicate the beginning and end of a tag, i.e. the presence of "<" tells the browser "this next bit is markup, pay attention".
+HTML borrows a technique from another language, SGML, to provide an easy way for a computer to determine which parts are 
+"MarkUp" and which parts are the content. By using "<" and ">" as a kind of parentheses, HTML can indicate the beginning 
+and end of a tag, i.e. the presence of "<" tells the browser "this next bit is markup, pay attention".
 
 
-Whatever that tag (or "open tag") does, it applies to the content following the tag. Unless you want that to be the entire rest of the document, you need to indicate when to stop using that tag and do something else, so "<" and ">" are used again. Since elements are typically nested within other elements, the browser needs to be able to distinguish between the end of the current tag and the beginning of a new tag (representing a nested element). This is done by adding a "/" right after the "<" to indicated that it's a "close tag". To indicate the beginning and end of a paragraph (indicated by the single letter "p") you end up with something like this:
+Whatever that tag (or "open tag") does, it applies to the content following the tag. Unless you want that to be the entire 
+rest of the document, you need to indicate when to stop using that tag and do something else, so "&lt;" and "&gt;" are used 
+again. Since elements are typically nested within other elements, the browser needs to be able to distinguish between the 
+end of the current tag and the beginning of a new tag (representing a nested element). This is done by adding a "/" right 
+after the "<" to indicated that it's a "close tag". To indicate the beginning and end of a paragraph (indicated by the 
+single letter "p") you end up with something like this:
 
 ```html
 <p>This is my first paragraph!</p>
