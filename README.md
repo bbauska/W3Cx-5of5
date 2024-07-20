@@ -3,7 +3,7 @@ title: "W3Cx-5of5-JS.0x: Coursera - Front-End Web Development - JavaScript Intro
 author: "bbauska"
 date created: "7/07/2024 Sun 12+pm"
 date last editted: "7/16/2024 Tue 6+pm"
-date last editted: "7/19/2024 Fri 3+pm"
+date last editted: "7/19/2024 Fri 6+pm"
 
 output: 
   markdown:
@@ -389,7 +389,7 @@ include an SVG arrow in a document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 15. liveweave code editor example (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image015.jpeg?raw=true"
-  style="width:50%"
+  style="width:65%"
   title="Liveweave Code Editor Example"
   alt="Liveweave Code Editor Example." />
 </p>
@@ -746,20 +746,21 @@ via the collaboration of global technical experts.
 
 <h5>Level 2 headings may be created by course providers in the future.</h5>
 
-People often use the words &quot;Internet&quot; and &quot;Web&quot; interchangeably, but
-this usage is technically incorrect.
+<p>People often use the words &quot;Internet&quot; and &quot;Web&quot; interchangeably, but
+this usage is technically incorrect.</p>
 
-The Web is an application of the Internet. The Web is the most popular
+<p>The Web is an application of the Internet. The Web is the most popular
 way of accessing the Internet, but other applications of the Internet
-are [e-mail ](https://en.wikipedia.org/wiki/Email)and [ftp](https://en.wikipedia.org/wiki/File_Transfer_Protocol) for
-example. One analogy equates the Internet to a road network where the
-Web is a car, the email is a bicycle, etc.  Read [this
-article](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335) for
-more details about the difference between Internet and the Web.
+are <a href="https://en.wikipedia.org/wiki/Email">
+e-mail</a> and <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">
+ftp</a> for example. One analogy equates the Internet to a road network where the
+Web is a car, the email is a bicycle, etc.  Read 
+<a href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335">
+this article</a> for more details about the difference between Internet and the Web.</p>
 
 <h4>Check also this reminder ;)</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 28. tim berners-lee & fake vint cert on the right (17) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 28. tim berners-lee & fake vint cert on the right (17) ~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
 <img src="./images/image028.jpeg?raw=true"
   style="width:20%"
@@ -795,10 +796,9 @@ Making the web accessible benefits people with and
 w<b>ithout</b> disabilities, businesses, and society. Accessibility is an
 important aspect of diversity, equity, and inclusion (DEI).
 
-[Video Introduction to Web Accessibility and W3C
-Standards](https://www.w3.org/WAI/videos/standards-and-benefits/) is a
-4-minute video with descriptive transcript and subtitles in over 20
-languages.
+<p><a href="https://www.w3.org/WAI/videos/standards-and-benefits/">
+Video Introduction to Web Accessibility and W3C Standards</a> is a 4-minute video 
+with descriptive transcript and subtitles in over 20 languages.</p>
 
 <h4>Who is impacted?</h4>
 
@@ -870,11 +870,11 @@ pages.
 <h5><b>Example</b>:</h5>
 
 ```
-> &lt;head&gt;
-> &hellip;
->    &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
-> &hellip;
-> &lt;/head&gt;
+> <head>
+> ...
+>    <title>Web Accessibility Initiative (WAI) - home page</title>
+> ...
+> </head>
 ```
 
 <h4>Example 2: image text alternatives (&quot;alt text&quot;)</h4>
@@ -894,12 +894,11 @@ the W3C Web site. The text alternative is going to be a brief
 description of the link target.
 
 ```
-> &lt;a href=&quot;https://w3.org&quot;&gt;
+> <a href="https://w3.org">
 >
->   &lt;img src=&quot;https://w3.org/Icons/w3c_home.png&quot; width=&quot;72&quot; height=&quot;48&quot; alt=&quot;W3C
->     Web site&quot;&gt;
+>   <img src="https://w3.org/Icons/w3c_home.png" width="72" height="48" alt="W3C Web site">
 >
-> &lt;/a&gt;
+> </a>
 ```
 
 <h4 id="chb-05">b5. Why internationalization is important</h4>
@@ -915,7 +914,7 @@ features that they will need.
 English, because there are 18 characters between the &apos;i&apos; and the
 &apos;n&apos;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 29. W3C Internationalization Activity logo (22) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 29. W3C Internationalization Activity logo (23) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
 <img src="./images/image029.png?raw=true"
   style="width:10%"
@@ -936,12 +935,12 @@ stretches worldwide.
 
 <h4>Unicode</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 30. unicode symbols (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. unicode symbols snapshot (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
 <img src="./images/image030.jpeg?raw=true"
   style="width:20%"
-  title="Unicode symbols"
-  alt="Unicode symbols." />
+  title="Unicode symbols snapshot"
+  alt="Unicode symbols snapshot." />
 Text in a computer or on the Web is composed of characters. 
 *Characters* represent letters of the alphabet, punctuation, or other
 symbols.</p>
@@ -977,10 +976,10 @@ your source code, and  its value is UTF-8.</b>
 <h4><b>Example 1</b>:</h4>
 
 ```
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;/&gt;
-&hellip;
-&lt;/head&gt;
+<head>
+  <meta charset="utf-8"/>
+...
+</head>
 ```
 
 <h4>Example 2: Primary language declaration</h4>
@@ -999,9 +998,9 @@ your document that are in a different language.
 <h5><b>Example 2</b>: This indicates that the page is in French.</h5>
 
 ```
-&lt;!doctype html&gt;
-&lt;html lang=&quot;fr&quot;&gt;
-&lt;head&gt;
+<!doctype html>
+<html lang=&quot;fr&quot;>
+<head>
 &hellip;
 ```
 
@@ -1203,17 +1202,17 @@ time):
 
 <h5>HTML:</h5>
 
-<pre><code>&lt;body&gt;
-&lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
-&lt;p&gt;
+<pre><code><body>
+<h1>A Tale of Two Cities</h1>
+<p>
 It was the best of times, it was the worst of times, . . . .
-&lt;/p&gt;
+</p>
 . . .
-&lt;p&gt;
+<p>
   . . . it is a far, far better rest
   that I go to than I have ever known.
-&lt;/p&gt;
-&lt;/body&gt;</pre></code>
+</p>
+</body></pre></code>
 
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
@@ -1259,26 +1258,26 @@ Here is another, more generic example:
 <h5>HTML:</h5>
 
 ```
-1.  &lt;!DOCTYPE html&gt;
-2.  &lt;html lang=&quot;en&quot;&gt;
-3.  &lt;head&gt;
-4.  &lt;title&gt;Your first HTML page&lt;/title&gt;
-5.  &lt;meta charset=&quot;utf-8&quot;/&gt;
-6.  &lt;/head&gt;
-7.  &lt;body&gt;
-8.  &lt;h1&gt;My home page&lt;/h1&gt;
-9.  &lt;h2&gt;Who am I?&lt;/h2&gt;
-10. &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
+1.  <!DOCTYPE html>
+2.  <html lang=&quot;en&quot;>
+3.  <head>
+4.  <title>Your first HTML page</title>
+5.  <meta charset=&quot;utf-8&quot;/>
+6.  </head>
+7.  <body>
+8.  <h1>My home page</h1>
+9.  <h2>Who am I?</h2>
+10. <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
     professor at the University of Nice, in France, and I&apos;m also the
-    author of two MOOCS about HTML5 on W3Cx.&lt;/p&gt;
-11. &lt;p&gt;I also play electric guitar and love coding WebAudio
-    applications&hellip;&lt;/p&gt;
-12. &lt;img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot; width=200
-13. alt=&quot;Michel Buffa plays rock and roll&quot;&gt;
-14. &lt;h2&gt;My Hobbies&lt;/h2&gt;
+    author of two MOOCS about HTML5 on W3Cx.</p>
+11. <p>I also play electric guitar and love coding WebAudio
+    applications&hellip;</p>
+12. <img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot; width=200
+13. alt=&quot;Michel Buffa plays rock and roll&quot;>
+14. <h2>My Hobbies</h2>
 15. Music, Movies, Video Games, Travelling, Family, etc.
-16. &lt;/body&gt;
-17. &lt;/html&gt;
+16. </body>
+17. </html>
 ```
 
 <h4>Try it out!</h4>
@@ -1490,19 +1489,19 @@ As an example, let&apos;s look at a simplified version of the last HTML code
 we presented earlier:
 
 ```
-> &lt;!DOCTYPE html&gt;
-> &lt;html lang=&quot;en&quot;&gt;
->   &lt;head&gt;
->    &lt;title&gt;Your first HTML page&lt;/title&gt;
->    &lt;meta charset=&quot;utf-8&quot;/&gt;
->   &lt;/head&gt;
->   &lt;body&gt;
->    &lt;h1&gt;My home page&lt;/h1&gt;
->    &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
+> <!DOCTYPE html>
+> <html lang=&quot;en&quot;>
+>   <head>
+>    <title>Your first HTML page</title>
+>    <meta charset=&quot;utf-8&quot;/>
+>   </head>
+>   <body>
+>    <h1>My home page</h1>
+>    <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
 > professor at the University of Côte d&apos;Azur, in France, and I&apos;m also
-> the author of three W3Cx MOOCS.&lt;/p&gt;
->    &lt;/body&gt;
-> &lt;/html&gt;
+> the author of three W3Cx MOOCS.</p>
+>    </body>
+> </html>
 ```
 
 Click the red circle next to HTML to unfold this HTML document structure
@@ -1603,7 +1602,7 @@ indicate the beginning and end of a paragraph (indicated by the single
 letter &quot;p&quot;) you end up with something like this:
 
 ```
-> &lt;p&gt;This is my first paragraph!&lt;/p&gt;
+> <p>This is my first paragraph!</p>
 ```
 
 The browser sees the letters &quot;&lt;p&gt;&quot; and decides &quot;A new paragraph is
@@ -1636,7 +1635,7 @@ its attributes, and thus there is no need for other content.  So if you
 see something like this:
 
 ```
-> &lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;/&gt;
+> <img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;/>
 ```
 
 &hellip; then you should know that the slash at the end of the open tag is
@@ -1651,7 +1650,7 @@ be removed entirely, this will still be [valid
 HTML5](https://w3c.github.io/html/syntax.html#void-elements).
 
 ```
-> &lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;&gt;
+> &lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;>
 ```
 
 These elements, without a &quot;/&quot; at the end, are called &quot;void
@@ -1674,8 +1673,8 @@ used the width attribute of the &lt;img&gt; tag in order to constrain
 the width of the image:
 
 ```
-> &lt;img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;
->      width=200 alt=&quot;Michel Buffa plays rock&roll&quot;&gt;
+> <img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;
+>      width=200 alt=&quot;Michel Buffa plays rock&roll&quot;>
 ```
 
 As you might guess, the &lt;img&gt; tag also has a height attribute, as well
@@ -1699,10 +1698,10 @@ add a height attribute, and see the result:
 </p>
 
 ```
-&lt;img
+<img
   src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;
 width=200
-alt=&quot;Michel Buffa plays rock and roll&quot;&gt;
+alt=&quot;Michel Buffa plays rock and roll&quot;>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1978,9 +1977,9 @@ with an &apos;id&apos; attribute, or grouped with a class of other elements by
 setting the &apos;class&apos; attribute.
 
 ```
-1.  &lt;p id=&quot;paragraph-1&quot; class=&quot;regular-paragraphs&quot;&gt;
+1.  <p id=&quot;paragraph-1&quot; class=&quot;regular-paragraphs&quot;>
 2.  Call me Ishmael . . .
-3.  &lt;/p&gt;
+3.  </p>
 ```
 
 The paragraph above has a unique identifier: the id attribute whose
@@ -2011,7 +2010,7 @@ Let&apos;s look at a modified version of Michel Buffa&apos;s home page example:
 <p>The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
 in our case it&apos;s the second h2 element:</p>
 
-<pre><code>1.  &lt;h2 <b>id=&quot;hobbyTitle&quot;</b>&gt;My Hobbies&lt;/h2&gt;</code></pre>
+<pre><code>1.  <h2 <b>id=&quot;hobbyTitle&quot;</b>>My Hobbies</h2></code></pre>
 
 <h5>And here is the CSS rule:</h5>
 
@@ -2035,12 +2034,12 @@ able to use it in a font-family CSS property, we included its definition
 using a &lt;link&gt; tag in the HTML part of the document:</p>
 
 ```
-1.  &lt;head&gt;
-2.  &lt;title&gt;Your first HTML page&lt;/title&gt;
-3.  &lt;meta charset=&quot;utf-8&quot;/&gt;
-4.  <b>&lt;link href=&quot;https://fonts.googleapis.com/css?family=Caveat&quot;</b>
-5.  <b>rel=&quot;stylesheet&quot;&gt;</b>
-6.  &lt;/head&gt;
+1.  <head>
+2.  <title>Your first HTML page</title>
+3.  <meta charset=&quot;utf-8&quot;/>
+4.  <b><link href=&quot;https://fonts.googleapis.com/css?family=Caveat&quot;</b>
+5.  <b>rel=&quot;stylesheet&quot;></b>
+6.  </head>
 ```
 
 <p>The last rule targets all elements that have an
@@ -2060,10 +2059,10 @@ paragraphs in the HTML element:</p>
 
 ```
 1.  &hellip;
-2.  &lt;p class=&quot;funny&quot;&gt;I also play electric guitar and love
-    coding WebAudio applications&hellip;&lt;/p&gt;
+2.  <p class=&quot;funny&quot;>I also play electric guitar and love
+    coding WebAudio applications&hellip;</p>
 3.  &hellip;
-4.  &lt;p class=&quot;funny&quot;&gt;Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;
+4.  <p class=&quot;funny&quot;>Music, Movies, Video Games, Traveling, Family, etc.</p>
 ```
 
 There are many, many, many different CSS properties in existence, and
@@ -2323,7 +2322,6 @@ it&apos;s a real standard of the Web (even if not standardized by the W3C).
   title="JavaScript is the perfect glue"
   alt="JavaScript is the perfect glue." />
 </p>
-<!-- (./images/image078.png){width="2.6041666666666665in" height="2.2291666666666665in"} -->
 
 Actually, this description does not do justice to JavaScript, which can
 do far more than just act as glue. JavaScript can be run outside of the
@@ -2331,13 +2329,13 @@ browser (on a nodeJS interpreter on a remote server, or in scripts run
 by the operating system), but for this intro course, we focus on
 &quot;JavaScript&quot; in the browser.
 
-In the browser, JavaScript lies between HTML and CSS and will be used
+<p>In the browser, JavaScript lies between HTML and CSS and will be used
 together with these two languages. Let&apos;s take a look at two small
-examples:
+examples:</p>
 
-Example #1: push the button to modify the heading of the page.
+<p>Example #1: push the button to modify the heading of the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 81. example: javascript; push button to modify the heading (64) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 81. example: javascript; push button to modify the heading (62) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image081.png?raw=true"
   style="width:50%"
@@ -2349,7 +2347,7 @@ Example #1: push the button to modify the heading of the page.
 <p>Example #2: push another button to modify the CSS style (color,
 background-color, border) of a paragraph in the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 82. example: javascript: update button to modify css style (64) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 82. example: javascript: update button to modify css style (62) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image082.png?raw=true"
   style="width:50%"
@@ -2367,34 +2365,37 @@ the HTML of the document.</p>
 <h3 id="ch1-2-7">1.2.7 JavaScript history</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 JavaScript remains the most commonly used programming language with
-67.7% of developers employing it in 2020 (see this [survey&apos;s
-results](https://insights.stackoverflow.com/survey/2020#most-popular-technologies)).
+67.7% of developers employing it in 2020 (see this 
+<a href="https://insights.stackoverflow.com/survey/2020#most-popular-technologies">
+survey&apos;s results</a>).
 
-<h4>How and why JS was created?</h4>
+<h4>How and why JavaScript was created</h4>
 
-Created out of necessity, it is used to build 97.4% of websites,
+<p>Created out of necessity, it is used to build 97.4% of websites,
 including some of the world's largest, like Facebook and YouTube.
 Without it, we would not have popular and useful web apps such as Google
-Maps and eBay.
+Maps and eBay.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 83/84. photo brandan eich, creator of js, netscape js book (65) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 83/84. photo brandan eich, creator of js, netscape js book (63) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image083.png?raw=true"
+<img src="./images/image083.jpeg?raw=true"
   style="width:35%"
   title="Photo of Brandan Eich, creator of JavaScript"
   alt="Photo of Brandan Eich, creator of JavaScript." />
-<img src="./images/image084.png?raw=true"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./images/image084.jpeg?raw=true"
   style="width:35%"
   title="Cover page of the Netscape JavaScript 1.2 book"
   alt="Cover page of the Netscape JavaScript 1.2 book." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 85/86. year 1995, netscape logo (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 85/86. year 1995, netscape logo (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image085.png?raw=true"
+<img src="./images/image085.jpeg?raw=true"
   style="width:35%"
   title="Year 1995"
   alt="Year 1995." />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./images/image086.png?raw=true"
   style="width:35%"
   title="Netscape logo"
@@ -2412,17 +2413,17 @@ Java. (Sun Microsystems, the company that created the Java programming
 language, no longer exists, having been bought by Oracle Corporation in
 2009.)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 87. snapshot; dotjs 2017 - brandan eich - history of js (66) ~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<!--~~~~~~~~~~~~~~~ 87. snapshot; dotjs 2017 - brandan eich - history of js (64) ~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
 <img src="./images/image087.png?raw=true"
-  style="width:50%"
+  style="width:40%"
   title="dotJS 2017 - Brandan Eich - A Brief History of JavaScript"
   alt="dotJS 2017 - Brandan Eich - A Brief History of JavaScript." />
 </p>
 <h6 align="center"><a href="https://www.youtube.com/watch?v=aX3ZABCdC38">dotJS 2017 - Brandan Eich - A Brief History of JavaScript</a></h6>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. sun microsystems logo (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. sun microsystems logo (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
 <img src="./images/image088.png?raw=true"
   style="width:20%"
@@ -2447,7 +2448,7 @@ created its own version named JScript (and shipped it with Internet
 Explorer 3 in 1996 -- It was a dud).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 89. snapshot of a web page in netscape navigator 2 (67) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 89. snapshot of a web page in netscape navigator 2 (65) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image089.jpeg?raw=true"
   style="width:50%"
@@ -2458,7 +2459,7 @@ Explorer 3 in 1996 -- It was a dud).
 <b>Netscape Navigator 2 in 1996, with big buttons and plain HTML pages
 (CSS did not exist at that time)</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 90. snapshot of a web page in internet explorer (67) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 90. snapshot of a web page in internet explorer (65) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image090.jpeg?raw=true"
   style="width:50%"
@@ -2469,7 +2470,7 @@ Explorer 3 in 1996 -- It was a dud).
 <b>Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
 did not exist at this time!</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. ecma logo (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. ecma logo (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
 <img src="./images/image091.gif?raw=true"
   style="width:10%"
@@ -2482,7 +2483,7 @@ the <a href="https://en.wikipedia.org/wiki/ECMAScript">EcmaScript</a> standard
 worry, it&apos;s the same thing.</b> EcmaScript has continued to be released
 right up to the present day. MS still didn't play ball.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 92. javascript detailed timeline (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 92. javascript detailed timeline (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
 <img src="./images/image092.png?raw=true"
   style="width:50%"
@@ -2630,7 +2631,7 @@ post your comments/observations/questions or share your creations.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-1">1.3.1 The best way to learn JavaScript (8:42)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 93. the best way to learn javascript (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 93. the best way to learn javascript (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image093.png?raw=true"  <!-- was 091 -->
   style="width:50%"
@@ -2645,6 +2646,14 @@ tweak them, change small things, try to understand how the syntax looks
 like. Even without deep explanations, without reading a book, or
 studying in details the different concepts of language, you can learn a
 lot.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 94. the best way to learn javascript (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image093.png?raw=true"  <!-- was 091 -->
+  style="width:50%"
+  title="The Best Way to Learn JavaScript"
+  alt="The Best Way to Learn JavaScript." />
+</p>
 
 In this section, I propose that you look at a small example without
 understanding the details, and try to tweak it.
@@ -2870,7 +2879,7 @@ button) and try to guess where the function is specified, where the
 range for the x and y values is set, etc. Notice that you can use your
 mouse wheel to zoom in/out the function plot.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 92. use javascript graph d3.js (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. use javascript graph d3.js (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image092.png?raw=true"
   style="width:50%"
@@ -2885,8 +2894,8 @@ mouse wheel to zoom in/out the function plot.
 document of some external JavaScript code:</p>
 
 ```
-1.  &lt;script src=&quot;https://d3js.org/d3.v3.min.js&quot;&gt;&lt;/script&gt;
-2.  &lt;script src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;&gt;&lt;/script&gt;
+1.  <script src=&quot;https://d3js.org/d3.v3.min.js&quot;&gt;</script&gt;
+2.  <script src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;&gt;</script&gt;
 ```
 
 We will examine this soon in a later section of the course, but, in
@@ -3127,7 +3136,7 @@ Not bad ;-)
 
 Hello!
 
-So what can be done with JavaScript?
+What can be done with JavaScript?
 
 Let me show you some examples that are the most common ones.
 
@@ -3157,9 +3166,9 @@ And here, we also use the Google Map APIs; we pass it the longitude and
 latitude and it displays the map centered on the current position and
 also displays the surface address.
 
-So, here we go.
+Here we go.
 
-So, I&apos;m located near Antibes in the south of France.
+I&apos;m located near Antibes in the south of France.
 
 You can also work with remote data. So in this code, I&apos;m just sending
 what we call an Ajax request to a remote server to get a list of
@@ -3171,9 +3180,9 @@ getting the members of a rock band. So, I type &quot;The Beatles&quot;. I got
 from the remote server the list of the members of The Beatles. So, these
 were the most typical uses of JavaScript Web sites.
 
-What can be done with JavaScript:
+<h4>What can be done with JavaScript:</h4>
 
-<h4>1) interact with the HTML and CSS content of a document, respond to events</h4>
+<h4>1) Interact with the HTML and CSS content of a document, respond to events</h4>
 
 We have already seen three examples in previous parts of this week&apos;s
 course material.
@@ -3214,8 +3223,8 @@ element:</p>
 <p><b>It listens to click events</b> in order to call
 the changeTitle() function when we click on the button:</p>
 
-<pre><code>1.  &lt;button <b>onclick=&quot;changeTitle();</b>&quot;&gt;Click me to change the
-    title of the page&lt;/button&gt;</code></pre>
+<pre><code>1.  <button <b>onclick=&quot;changeTitle();</b>&quot;>Click me to change the
+    title of the page</button></code></pre>
 
 <p>And it executes the whole action (changing the title text) in<b> a
 function</b> (a block of code that is executed only when we call it by
@@ -3265,7 +3274,8 @@ example, if you write title.style.background-color, JavaScript will try
 to subtract color from the title.style.background notation, which is not
 what you want to happen. To stop this problem from occurring, all the
 CSS properties are written out in CamelCase: the CSS
-name background-color becomes backgroundColor, text-size becomes textSize, border-color becomes borderColor etc.
+name background-color becomes backgroundColor, text-size becomes textSize, 
+border-color becomes borderColor etc.
 
 Don&apos;t worry, we will return to this later in this course, these first
 examples are just here as an introduction.
@@ -3274,7 +3284,8 @@ The third example (outlined in the previous section), which showed how
 to plot math functions, illustrated that with a few lines of code you
 can reuse code from others (a third party JavaScript library).
 
-<h4>2) use numerous APIs in addition to the DOM and selector APIs: multimedia, drawing, animating, geolocation, webcam, etc.</h4>
+<h4>2) Use numerous APIs in addition to the DOM and selector APIs: multimedia, 
+drawing, animating, geolocation, webcam, etc.</h4>
 
 Your browser comes with a lot of different &quot;libraries&quot; that are called
 &quot;standards APIs&quot; for &quot;application programming interfaces&quot;. Such APIs
@@ -3298,7 +3309,8 @@ security reasons it cannot be run inside this course page</b>).
   alt="." />
 </p>
 <!-- ![](./images/image097.png){width="6.5in" height="2.0819444444444444in"} -->
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE">CodePen: Geolocation Mapping</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE">
+CodePen: Geolocation Mapping</a></h6>
 
 <h4>3) work with remote data / speak with a remote HTTP Web server</h4>
 
@@ -3322,7 +3334,7 @@ famous rock bands:</p>
 
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJwpKq">CodePen: Database Lookup</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-3">1.3.3 Where to put JavaScript code</h3>
+<h3 id="ch1-3-3">1.3.3 Where to put JavaScript code (7:13)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 99a. where to put javascript code (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11836,41 +11848,31 @@ object and by providing a set of methods to manipulate its content.
 The classList property applies to an HTML element, and returns a
 collection of class names:
 
+```
 1.  var elem= document.querySelector(&quot;#id1&quot;);
-
 2.  var allClasses = elem.<b>classList</b>;
+```
 
 <h4>The classList API
 
+```
 3.  The list of methods usable on a classList object are add(),
     remove(), toggle() and contains().
-
 4.  // By default, start without a class in the div: &lt;div class=&quot;&quot;/&gt;
-
 5.  // Set &quot;foo&quot; as the class by adding it to the classList
-
 6.  div.classList.add(&apos;foo&apos;); // now &lt;div class=&quot;foo&quot;/&gt;
-
 7.  // Check that the classList contains the class &quot;foo&quot;
-
 8.  div.classList.contains(&apos;foo&apos;); // returns true
-
 9.  // Remove the class &quot;foo&quot; from the list
-
 10. div.classList.remove(&apos;foo&apos;); // now &lt;div class=&quot;&quot;/&gt;
-
 11. // Check if classList contains the class &quot;foo&quot;
-
 12. div.classList.contains(&apos;foo&apos;); // returns false: &quot;foo&quot; is gone
-
 13. // Check if class contains the class &quot;foo&quot;,
-
 14. // If it does, &quot;foo&quot; is removed, if it doesn&apos;t, it&apos;s added
-
 15. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div
     class=&quot;foo&quot;/&gt;
-
 16. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div class=&quot;&quot;/&gt;
+```
 
 ### Another example: add and remove multiple CSS properties in a list of checkboxes {#another-example-add-and-remove-multiple-css-properties-in-a-list-of-checkboxes .unnumbered}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11967,7 +11969,7 @@ or to insert a whole set of HTML elements inside another one.
 <pre><code>
 var elem = document.querySelector(&apos;#myElem&apos;);
 elem.innerHTML = &apos;Hello &apos;; // replace content by Hello
-elem.innerHTML += &apos;&lt;b&gt;Michel Buffa&lt;/b&gt;&apos;, // append at the end
+elem.innerHTML += &apos;&lt;b>Michel Buffa&lt;/b>&apos;, // append at the end
 // Michel Buffa in bold
 elem.innerHTML = &apos;Welcome&apos; + elem.innerHTML; // insert Welcome
 // at the beginning
@@ -11993,19 +11995,19 @@ codePen, open the devtool console):
 HTML
 
 <pre><code>
-1.  &lt;!DOCTYPE html&gt;
-2.  &lt;html lang=&quot;en&quot;&gt;
-3.  &lt;head&gt;
-4.  &lt;meta charset=&quot;utf-8&quot;&gt;
-5.  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-6.  &lt;title&gt;Modifying content of selected DOM nodes&lt;/title&gt;
-7.  &lt;/head&gt;
-8.  &lt;body&gt;
-9.  &lt;h1&gt;Open the console and look at the JavaScript code!&lt;/h1&gt;
-10. &lt;p id=&quot;first&quot;&gt;first paragraph&lt;/p&gt;
-11. &lt;p id=&quot;second&quot;&gt;&lt;em&gt;second&lt;/em&gt; paragraph&lt;/p&gt;
-12. &lt;/body&gt;
-13. &lt;/html&gt;
+1.  &lt;!DOCTYPE html>
+2.  &lt;html lang=&quot;en&quot;>
+3.  &lt;head>
+4.  &lt;meta charset=&quot;utf-8&quot;>
+5.  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+6.  &lt;title>Modifying content of selected DOM nodes&lt;/title>
+7.  &lt;/head>
+8.  &lt;body>
+9.  &lt;h1>Open the console and look at the JavaScript code!&lt;/h1>
+10. &lt;p id=&quot;first&quot;>first paragraph&lt;/p>
+11. &lt;p id=&quot;second&quot;>&lt;em>second&lt;/em> paragraph&lt;/p>
+12. &lt;/body>
+13. &lt;/html>
 </code></pre>
 
 JS
@@ -12042,9 +12044,9 @@ JS
 
 ### Extract from the HTML code:
 
-&lt;p id=&quot;first&quot;&gt;first paragraph&lt;/p&gt;
+&lt;p id=&quot;first&quot;>first paragraph&lt;/p>
 
-&lt;p id=&quot;second&quot;&gt;&lt;em&gt;second&lt;/em&gt; paragraph&lt;/p&gt;
+&lt;p id=&quot;second&quot;>&lt;em>second&lt;/em> paragraph&lt;/p>
 
 JavaScript code: the comments after lines that start
 with console.log correspond to what is printed in the devtool debug
@@ -12083,7 +12085,7 @@ text decoration (the &lt;em&gt; is removed), this is done at <b>lines
 
 13.    console.log(secondP.textContent); // &quot;second paragraph&quot;
 
-14.    console.log(secondP.innerHTML);   // &quot;&lt;em&gt;second&lt;/em&gt;
+14.    console.log(secondP.innerHTML);   // &quot;&lt;em>second&lt;/em>
     paragraph&quot;
 
 15. 
@@ -12119,35 +12121,35 @@ This example shows some of the things we can do:
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Modifying content of selected DOM nodes&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Try these&lt;/h1&gt;
-&lt;p&gt;What is your name: &lt;input type=&quot;text&quot; id=&quot;name&quot;
-  value=&quot;Michel&quot;&gt; &lt;button onclick=&quot;resetName();&quot;&gt;Reset (click to
-  empty the input field)&lt;/button&gt;&lt;/p&gt;
-&lt;p&gt;Pick a color: &lt;input id=&quot;color&quot; type=&quot;color&quot;
-  value=&apos;#FF0000&apos;&gt;&lt;button onclick=&quot;setToGreen();&quot;&gt;Set color chooser
-  to green&lt;/button&gt;&lt;/p&gt;
-&lt;p&gt;In the next example, click on the input field and use the small 
+&lt;!DOCTYPE html>
+&lt;html lang=&quot;en&quot;>
+&lt;head>
+&lt;meta charset=&quot;utf-8&quot;>
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+&lt;title>Modifying content of selected DOM nodes&lt;/title>
+&lt;/head>
+&lt;body>
+&lt;h1>Try these&lt;/h1>
+&lt;p>What is your name: &lt;input type=&quot;text&quot; id=&quot;name&quot;
+  value=&quot;Michel&quot;> &lt;button onclick=&quot;resetName();&quot;>Reset (click to
+  empty the input field)&lt;/button>&lt;/p>
+&lt;p>Pick a color: &lt;input id=&quot;color&quot; type=&quot;color&quot;
+  value=&apos;#FF0000&apos;>&lt;button onclick=&quot;setToGreen();&quot;>Set color chooser
+  to green&lt;/button>&lt;/p>
+&lt;p>In the next example, click on the input field and use the small 
   vertical arrows to increase the value. Notice that the numbers go 1 by 1
   and that the maximum value is 20. Then click the button and do the same
-  thing!&lt;/p&gt;
-&lt;p&gt;Pick a number between 0 and 20: &lt;input id=&quot;number&quot;
-  type=&quot;number&quot; min=0 max=20 step = 1 value=&apos;10&apos;&gt;&lt;button
-  onclick=&quot;changeStep();&quot;&gt;Change step and max attribute values
-  &lt;/button&gt;&lt;/p&gt;
-&lt;p&gt;Click the next image to change its url and size:&lt;/p&gt;
+  thing!&lt;/p>
+&lt;p>Pick a number between 0 and 20: &lt;input id=&quot;number&quot;
+  type=&quot;number&quot; min=0 max=20 step = 1 value=&apos;10&apos;>&lt;button
+  onclick=&quot;changeStep();&quot;>Change step and max attribute values
+  &lt;/button>&lt;/p>
+&lt;p>Click the next image to change its url and size:&lt;/p>
 &lt;img
   src=&quot;https://www.paris-web.fr/2013/assets_c/2013/08/michel-buffa-thumb-143x143-372.jpg&quot;
-  onclick=&quot;changeAndResize(this)&quot; alt=&quot;Michel Buffa&quot;&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+  onclick=&quot;changeAndResize(this)&quot; alt=&quot;Michel Buffa&quot;>
+&lt;/body>
+&lt;/html>
 ```
 
 <h4>JS
@@ -12184,24 +12186,24 @@ To add a new element to the HTML DOM, you must create the element
 #### Example:
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
-&lt;h2&gt;JavaScript HTML DOM&lt;/h2&gt;
-&lt;p&gt;Add a new HTML Element.&lt;/p&gt;
-&lt;div id=&quot;div1&quot;&gt;
-&lt;p id=&quot;p1&quot;&gt;This is a paragraph.&lt;/p&gt;
-&lt;p id=&quot;p2&quot;&gt;This is another paragraph.&lt;/p&gt;
-&lt;/div&gt;
-&lt;script&gt;
+&lt;!DOCTYPE html>
+&lt;html>
+&lt;body>
+&lt;h2>JavaScript HTML DOM&lt;/h2>
+&lt;p>Add a new HTML Element.&lt;/p>
+&lt;div id=&quot;div1&quot;>
+&lt;p id=&quot;p1&quot;>This is a paragraph.&lt;/p>
+&lt;p id=&quot;p2&quot;>This is another paragraph.&lt;/p>
+&lt;/div>
+&lt;script>
 const para = document.createElement(&quot;p&quot;);
 const node = document.createTextNode(&quot;This is new.&quot;);
 para.appendChild(node);
 const element = document.getElementById(&quot;div1&quot;);
 element.appendChild(para);
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+&lt;/script>
+&lt;/body>
+&lt;/html>
 ```
 
 <h4>Output:</h4>
@@ -12222,3 +12224,4 @@ element.appendChild(para);
   alt="." />
 </p>
 <!-- last editted 7/16/2024 6:25pm -->
+<!-- last editted 7/19/2024 6:00pm -->
