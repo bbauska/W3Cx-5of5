@@ -4,6 +4,7 @@ author: "bbauska"
 date created: "7/07/2024 Sun 12+pm"
 date last editted: "7/16/2024 Tue 6+pm"
 date last editted: "7/19/2024 Fri 6+pm"
+date last editted: "7/20/2024 Sat 5+am"
 
 output: 
   markdown:
@@ -792,8 +793,8 @@ impossible for some people to use.
 to create high-quality websites and web tools, and not exclude people
 from using their products and services.</b>
 
-Making the web accessible benefits people with and
-w<b>ithout</b> disabilities, businesses, and society. Accessibility is an
+Making the web accessible benefits people <b>with</b> and
+<b>without</b> disabilities, businesses, and society. Accessibility is an
 important aspect of diversity, equity, and inclusion (DEI).
 
 <p><a href="https://www.w3.org/WAI/videos/standards-and-benefits/">
@@ -870,11 +871,11 @@ pages.
 <h5><b>Example</b>:</h5>
 
 ```
-> <head>
-> ...
->    <title>Web Accessibility Initiative (WAI) - home page</title>
-> ...
-> </head>
+<head>
+  ...
+  <title>Web Accessibility Initiative (WAI) - home page</title>
+  ...
+</head>
 ```
 
 <h4>Example 2: image text alternatives (&quot;alt text&quot;)</h4>
@@ -1201,15 +1202,15 @@ time):
 <h5>HTML:</h5>
 
 <pre><code><body>
-<h1>A Tale of Two Cities</h1>
-<p>
-It was the best of times, it was the worst of times, . . . .
-</p>
-. . .
-<p>
+  <h1>A Tale of Two Cities</h1>
+  <p>
+  It was the best of times, it was the worst of times, . . . .
+  </p>
+  . . .
+  <p>
   . . . it is a far, far better rest
   that I go to than I have ever known.
-</p>
+  </p>
 </body></pre></code>
 
 If you eliminated everything in between the angle brackets from the
@@ -2008,12 +2009,12 @@ Let&apos;s look at a modified version of Michel Buffa&apos;s home page example:
 <p>The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
 in our case it&apos;s the second h2 element:</p>
 
-<pre><code>1.  <h2 <b>id=&quot;hobbyTitle&quot;</b>>My Hobbies</h2></code></pre>
+<pre><code>1.  <h2 **id="hobbyTitle"**>My Hobbies</h2></code></pre>
 
 <h5>And here is the CSS rule:</h5>
 
 ```
-1.  <b>#hobbyTitle</b> {
+1.  **#hobbyTitle** {
 2.    font-family: 'caveat';
 3.    font-size:40px;
 4.    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
@@ -2902,10 +2903,10 @@ on the CodePen example), we see:
 ```
 1.  functionPlot(<b>{</b>
 2.  <b>target: '#myFunction',</b>
-3.  <b>data: &lbrack;{</b>
+3.  <b>data: [{</b>
 4.  <b>fn: 'sin(x)',</b>
 5.  <b>color: 'red'</b>
-6.  <b>}&rbrack;,</b>
+6.  <b>}],</b>
 7.  <b>grid: true,</b>
 8.  <b>yAxis:,</b>
 9.  <b>xAxis:,</b>
@@ -3055,17 +3056,17 @@ are also objects.
 
 <pre><code>
 1.  xAxis: {
-2.  domain: &lbrack;0, 2&ast;Math.PI&rbrack;
+2.  domain: [0, 2&ast;Math.PI]
 3.  }
 </code></pre>
 
 The data object is even more complicated:
 
 ```
-1.  data: &lbrack;{
+1.  data: [{
 2.  fn: 'sin(x)',
 3.  color: 'red'
-4.  }&rbrack;,
+4.  }],
 ```
 
 Instead of containing another object like xAxis or yAxis, it contains
@@ -4160,7 +4161,7 @@ work with var):
 ```
 let a;
 let thisIsAVariable;
-let and_this_too; // but <b>does not respect the usual naming convention</b>
+let and_this_too; // but **does not respect the usual naming convention**
 let mix12three;
 // invalid!
 let 2three4five; // <b>can't start with a digit!</b>
@@ -4420,7 +4421,7 @@ What we call &quot;primitive data types&quot;: for example a number, a string,
 etc. ex:
 
 ```
-var x = 3; var name = &quot;Buffa&quot;;![a set of playing
+var x = 3; var name = "Buffa";![a set of playing
   cards](./images/image118.png){width="2.0833333333333335in"
   height="1.25in"}
 ```
@@ -4497,17 +4498,17 @@ Examples of integer and decimals:
 > var n=1;
 undefined
 > typeof n;
-&quot;number&quot;
+"number"
 > n=1234;
 1234
 > typeof n;
-&quot;number&quot;
+"number"
 > n=1.23;
 1.23
 > typeof n;
-&quot;number&quot;
+"number"
 > typeof 123;
-&quot;number&quot;
+"number"
 -   <b>Scientific notation</b>: 3.46e4, 5.3e+6, 5344000e-5
 3.46e4 equals 3.46 x 10&#94;4 equals 34600
 Examples:
@@ -4518,13 +4519,13 @@ Examples:
 > 2e+3;
 2000
 > typeof 2e+3;
-&quot;number&quot;
+"number"
 > 2e-3;
 0.002
 > 123.456E-3;
 0.123456
 > typeof 2e-3;
-&quot;number&quot;
+"number"
 ```
 
 -   <b>Octal</b>: 010
@@ -4560,7 +4561,7 @@ Examples of octal and hexadecimal data types:
 undefined
  
 > typeof n3;
-&quot;number&quot;
+"number"
  
 > n3;
 255
@@ -4569,7 +4570,7 @@ undefined
 undefined
  
 > typeof n4;
-&quot;number&quot;
+"number"
  
 > n4;
 0
@@ -4578,7 +4579,7 @@ undefined
 undefined
  
 > typeof n5;
-&quot;number&quot;
+"number"
  
 > n5;
 255
@@ -4616,7 +4617,7 @@ Any operation with Infinity gives Infinity as a result:
 2.  Infinity
 3.   
 4.  > typeof Infinity;
-5.  &quot;number&quot;
+5.  "number"
 6.   
 7.  > 1e309;
 8.  Infinity
@@ -4637,7 +4638,7 @@ Any operation with Infinity gives Infinity as a result:
 23. -Infinity
 24.  
 25. > typeof i;
-26. &quot;number&quot;
+26. "number"
 ```
 
 ```{=html}
@@ -4676,14 +4677,14 @@ NaN is a special value and its type is &quot;Number&quot;!
 
 ```
 1.  > typeof NaN;
-2.  &quot;number&quot;
+2.  "number"
 3.   
 4.  > var a = NaN;
 5.  undefined
 6.   
 7.  > a;
 8.  NaN > 
-  var a = 10 &ast; &quot;f&quot;;
+  var a = 10 &ast; "f";
   undefined > a;
   NaN > 1 + 2 + a;
   NaN
@@ -4787,16 +4788,16 @@ And finally, you cannot start a string with a single and end with a
 double quotes, or the opposite.
 
 ```
-> &quot;Hello World&quot;;
-&quot;Hello World&quot;
+> "Hello World";
+"Hello World"
  
-> &quot;JavaScript Course&quot;;
-&quot;JavaScript Course&quot;
+> "JavaScript Course";
+"JavaScript Course"
  
 > 'With simple quotes';
-&quot;With simple quotes&quot;
+"With simple quotes"
  
-> &quot;Do not mix double and simple quotes'; // here we opened the string
+> "Do not mix double and simple quotes'; // here we opened the string
 with double and closed with simple quotes
 ```
 
@@ -4910,13 +4911,13 @@ and it allows you to concatenate strings.
 
 ```
 1.  //the operator (+)
-2.  var s1 = &apos;one&apos;;
-3.  var s2= &apos;two&apos;;
+2.  var s1 = 'one';
+3.  var s2= 'two';
 4.  var s = s1 + s2;
 5.  s;
-6.  // returns &apos;onetwo&apos;
+6.  // returns 'onetwo'
 7.  typeof s;
-8.  //&apos;string&apos;
+8.  //'string'
 ```
 
 #### The shorthand assignment operator (+=)
@@ -4926,28 +4927,28 @@ strings.
 
 ```
 //the assignment operator (+=)
-var s1 = &apos;one&apos;;
-var s2 = &apos;two&apos;;
-s1+= s2; // or directly s1+=&apos;two&apos;
+var s1 = 'one';
+var s2 = 'two';
+s1+= s2; // or directly s1+='two'
 s1;
-//returns &apos;onetwo&apos;
+//returns 'onetwo'
 #### The method concat() {#the-method-concat .unnumbered}
 Another way to concatenate strings is the method concat().
-//the &apos;concat&apos; method
-var s1 = &apos;one&apos;;
-var s2 =&apos;two&apos;;
+//the 'concat' method
+var s1 = 'one';
+var s2 ='two';
 var s = s1.concat(s2);
 s;
-//returns &apos;onetwo&apos;
+//returns 'onetwo'
 All the methods shown above can be used with a variable number of
 arguments:
-var s1 = &apos;Hello&apos;;
-s1 = s1 + &apos; World&apos; + &apos; JavaScript&apos;;
-var s2 = &apos;Hello&apos;;
-s2+= &apos; World&apos; + &apos; JavaScript&apos;;
-var s3 = &apos;Hello&apos;;
-s3.concat(&apos; World&apos; , &apos; JavaScript&apos; );
-//s1,s2 and s3 return &apos;Hello World JavaScript&apos;
+var s1 = 'Hello';
+s1 = s1 + ' World' + ' JavaScript';
+var s2 = 'Hello';
+s2+= ' World' + ' JavaScript';
+var s3 = 'Hello';
+s3.concat(' World' , ' JavaScript' );
+//s1,s2 and s3 return 'Hello World JavaScript'
 ```
 
 #### Converting strings
@@ -4956,28 +4957,28 @@ A String number in an arithmetic expression is converted to Number,
 unless the formula is a pure addition.
 
 ```
-> var s = &apos;1&apos;; s = 3 &ast; s; typeof s;
-&quot;number&quot;
+> var s = '1'; s = 3 &ast; s; typeof s;
+"number"
  
 > s;
 3
  
-> var s = &apos;1&apos;; s++; typeof s;
-&quot;number&quot;
+> var s = '1'; s++; typeof s;
+"number"
  
 > s;
 2
  
-> var s = &quot;100&quot;; typeof s;
-&quot;string&quot;
+> var s = "100"; typeof s;
+"string"
  
 > s = s &ast; 1;
 100
  
 > typeof s;
-&quot;number&quot;
+"number"
  
-> var d = &quot;101 dalmatians&quot;;
+> var d = "101 dalmatians";
 undefined
  
 > d &ast; 1;
@@ -5002,11 +5003,11 @@ devtools):
 ```
 var n = 1;
 typeof n;
-// returns &quot;number&quot;
-n = &quot;&quot; + n;
-// returns &quot;1&quot;
+// returns "number"
+n = "" + n;
+// returns "1"
 typeof n;
-// returns &quot;string&quot;
+// returns "string"
 ```
 
 #### Special character: the &quot;&#92;&#92;&quot;
@@ -5014,18 +5015,18 @@ The &#92;&#92; is useful for &quot;escaping&quot; special characters. Here are
 examples:
 
 ```
-var s = &apos;I don&apos;t know&apos;;
-var s = &quot;I don&apos;t know&quot;; // here the &#92; is useless
-var s = &quot;I don&apos;t know&quot;;  // same result as previous line
-var s = &apos;&quot;Hello&quot;, he said.&apos;; // ok, double quotes inside single one will be displayed
-var s = &quot;&#92;&quot;Hello&#92;&quot;, he said.&quot;; // double quotes inside double quotes need to be escaped
+var s = 'I don't know';
+var s = "I don't know"; // here the &#92; is useless
+var s = "I don't know";  // same result as previous line
+var s = '"Hello", he said.'; // ok, double quotes inside single one will be displayed
+var s = "&#92;"Hello&#92;", he said."; // double quotes inside double quotes need to be escaped
 ```
 
 #### Escaping the escape! Use a double &quot;&#92;&quot;
 
 ```
-var s = &quot;1&#92;&#92;2&quot;; s;
-// returns &quot;1&#92;2&quot;
+var s = "1&#92;&#92;2"; s;
+// returns "1&#92;2"
 ```
 
 #### Special characters starting with &quot;&#92;&quot;
@@ -5033,32 +5034,32 @@ var s = &quot;1&#92;&#92;2&quot;; s;
 ##### &quot;&#92;n&quot; for &quot;next line&quot;:
 
 ```
-var s = &apos;&#92;n1&#92;n2&#92;n3&#92;n&apos;;
+var s = '&#92;n1&#92;n2&#92;n3&#92;n';
 s
-// returns &quot;
+// returns "
 1
 2
 3
-&quot;
+"
 ```
 
 ##### &quot;&#92;r&quot; for &quot;carriage return&quot;:
 
 ```
-var s = &apos;1&#92;r2&apos;;
-var s = &apos;1&#92;n&#92;r2&apos;;
-var s = &apos;1&#92;r&#92;n2&apos;;
+var s = '1&#92;r2';
+var s = '1&#92;n&#92;r2';
+var s = '1&#92;r&#92;n2';
 // the three previous lines give :
-&quot;1
-2&quot;
+"1
+2"
 ```
 
 <h5>&quot;&#92;t&quot; for &quot;insert a tabulation&quot;:</h5>
 
 ```
-var s = &quot;1&#92;t2&quot;
+var s = "1&#92;t2"
 // s is equal to
-&quot;1 2&quot;
+"1 2"
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5105,7 +5106,7 @@ objects :-)
 > window.innerWidth
 1704
 > navigator.vendor
-&quot;Google Inc.&quot;
+"Google Inc."
 ```
 
 #### You can define your own objects
@@ -5118,10 +5119,10 @@ detail.
 
 ```
 var student1 = {
-    fullName:&apos;John Doe&apos;,
+    fullName:'John Doe',
     age: 23,
-    city: &apos;New York&apos;,
-    ssn: &quot;11-22-33-44&quot; // no comma at the end of the last property
+    city: 'New York',
+    ssn: "11-22-33-44" // no comma at the end of the last property
 }                      // declaration
 ```
 
@@ -5129,15 +5130,15 @@ Accessing an object&apos;s properties: we use the operator &quot;.&quot;
 
 ```
 > student1.ssn
-&quot;11-22-33-44&quot;
+"11-22-33-44"
 > student1.age
 23
 > student1
-&lbrack;object Object&rbrack; {
+[object Object] {
     age: 23,
-    city: &quot;New York&quot;,
-    fullName: &quot;John Doe&quot;,
-    ssn: &quot;11-22-33-44&quot;
+    city: "New York",
+    fullName: "John Doe",
+    ssn: "11-22-33-44"
 }
 ```
 
@@ -5150,14 +5151,14 @@ Arrays are a special datatype. You declare arrays using brackets, like
 this:
 
 ```
-var daysOfWeek = &lbrack;&rbrack;;
+var daysOfWeek = [];
 ```
 
 You can fill them at declaration time:
 
 ```
-1.  var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;, &apos;Sunday&apos;&rbrack;;
-2.  var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;
+1.  var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+2.  var gradesInMaths = [12, 7, 14, 18, 9, 11];
 ```
 
 #### Elements in an array can be accessed using <b>indexes</b>
@@ -5169,14 +5170,14 @@ To access an element, you use the array variable and &quot;&lbrack;&quot; follow
 the index value followed by &quot;&rbrack;&quot;, as shown in these examples:
 
 ```
-1.  var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;, &apos;Sunday&apos;&rbrack;;
+1.  var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 2.  undefined
-3.  daysOfWeek&lbrack;0&rbrack;
-4.  &quot;Monday&quot;
-5.  daysOfWeek&lbrack;1&rbrack;
-6.  &quot;Tuesday&quot;
-7.  daysOfWeek&lbrack;2&rbrack;
-8.  &quot;Wednesday&quot;
+3.  daysOfWeek[0]
+4.  "Monday"
+5.  daysOfWeek[1]
+6.  "Tuesday"
+7.  daysOfWeek[2]
+8.  "Wednesday"
 9.  daysOfWeek.length
 10. 7
 ```
@@ -5184,10 +5185,10 @@ the index value followed by &quot;&rbrack;&quot;, as shown in these examples:
 #### Use the length property of an array to know its length
 
 ```
-1.  var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;,&apos;Friday&apos;, &apos;Saturday&apos;, &apos;Sunday&apos;&rbrack;;
+1.  var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday', 'Saturday', 'Sunday'];
 2.  undefined
-3.  daysOfWeek.<b>length</b>
-4.  <b>7</b>
+3.  daysOfWeek.**length**
+4.  **7**
 ```
 
 Indeed, there are seven days in a week and the daysOfWeek array
@@ -5203,21 +5204,21 @@ If you want to add a new element at the end of an array, use the index
 equal to the length of the array
 
 ```
-1.  <b>
+1.  **
     var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 
-	  'Thursday', 'Friday';, 'Saturday'];</b>
-2.  <b>undefined</b>
-3.  <b>daysOfWeek.length</b>
-4.  <b>6</b>
-5.  <b>daysOfWeek[6]</b>
-6.  <b>undefined</b>
-7.  <b>// NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is
-    0 // last 6-1 = 5</b>
-8.  > daysOfWeek<b>[6] = 'Sunday'</b>
-9.  <b>"Sunday"</b>
-10. <b>daysOfWeek.length</b>
-11. <b>7</b>
-12. <b>// Sunday, the 7th day of week is at index 6 !</b>
+	  'Thursday', 'Friday';, 'Saturday'];**
+2.  **undefined**
+3.  **daysOfWeek.length**
+4.  **6**
+5.  **daysOfWeek[6]**
+6.  **undefined**
+7.  **// NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is
+    0 // last 6-1 = 5**
+8.  > daysOfWeek**[6] = 'Sunday'**
+9.  **"Sunday"**
+10. **daysOfWeek.length**
+11. **7**
+12. **// Sunday, the 7th day of week is at index 6 !**
 ```
 
 #### Arrays are JavaScript objects!
@@ -5226,8 +5227,8 @@ Well, this is not so important for the moment, but look:
 
 ```
 1.  > var a = [];
-2.  > <b>typeof a;</b>
-3.  <b>"object"</b>
+2.  > **typeof a;**
+3.  **"object"**
 4.  > var a = [1,2,3];
 5.  > a
 6.  [1, 2, 3]
@@ -5249,19 +5250,19 @@ the moment, let&apos;s focus on the most useful features&hellip;
 
 ```
 1.  >
-    var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;&rbrack;;
+    var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 2.  undefined
 3.  > daysOfWeek.length
 4.  6
-5.  <b>> daysOfWeek.push(&apos;Sunday&apos;);</b>
+5.  **> daysOfWeek.push('Sunday');**
 6.  7
 7.  > daysOfWeek
-8.  &lbrack;&quot;Monday&quot;, &quot;Tuesday&quot;, &quot;Wednesday&quot;, &quot;Thursday&quot;, &quot;Friday&quot;, &quot;Saturday&quot;, &quot;Sunday&quot;&rbrack;
+8.  ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 9.  > daysOfWeek.length
 10. 7
 ```
 
-#### Arrays and Strings {#arrays-and-strings .unnumbered}
+#### Arrays and Strings
 
 Strings are arrays of characters! 
 
@@ -5274,18 +5275,18 @@ Consequence:
 Examples:
 
 ```
-1.  > var s = &apos;one&apos;;
-2.  > s&lbrack;0&rbrack;
-3.  &quot;o&quot;
-4.  > s&lbrack;1&rbrack;;
-5.  &quot;n&quot;
-6.  > s&lbrack;2&rbrack;;
-7.  &quot;e&quot;
+1.  > var s = 'one';
+2.  > s[0]
+3.  "o"
+4.  > s[1];
+5.  "n"
+6.  > s[2];
+7.  "e"
 8.  > s.length;
 9.  3
 ```
 
-#### Definition of a function {#definition-of-a-function .unnumbered}
+#### Definition of a function
 
 A function allows you to group code, give it a name and be able to
 execute it by calling it by name.
@@ -5350,10 +5351,10 @@ it contains all the call parameters of the function:
 1.  }
 2.  &hellip;
 3.  f();
-4.  // returns &lbrack;&rbrack;
+4.  // returns []
 5.  &hellip;
-6.  f( 1, 2, 3, 4, true, &apos;Michel Buffa&apos;);
-7.  // returns &lbrack;1, 2, 3, 4, true, &quot;Michel Buffa&quot;&rbrack;
+6.  f( 1, 2, 3, 4, true, ';Michel Buffa';);
+7.  // returns [1, 2, 3, 4, true, "Michel Buffa"]
 ```
 
 #### Example of the sum with a variable number of arguments {#example-of-the-sum-with-a-variable-number-of-arguments .unnumbered}
@@ -5363,7 +5364,7 @@ it contains all the call parameters of the function:
 2.      var i, res = 0;
 3.      var numberOfParameters = arguments.length;
 4.      for (i = 0; i < numberOfParameters; i++) {
-5.         res += arguments&lbrack;i&rbrack;;
+5.         res += arguments[i];
 6.      }
 7.      return res;
 8.  }
@@ -5485,8 +5486,8 @@ Example :
 ```
 1.  var x = 2;
 2.   
-3.  console.log(<b>&quot;The value of x is &quot; + x + &quot; and it&apos;s ok like
-    that.&quot;</b>);
+3.  console.log(**"The value of x is " + x + " and it';s ok like
+    that."**);
 ```
 
 We typed this code in the devtool console to check what it does:
@@ -5504,11 +5505,11 @@ calculations:
 ```
 1.  var x = 2;
 2.  var y = 4;
-3.  console.log(&quot;x = &quot; + x);
-4.  console.log(&quot;y = &quot; + y);
+3.  console.log("x = " + x);
+4.  console.log("y = " + y);
 5.   
-6.  console.log(&quot;The value of (x+y) is &quot; + (x+y) + &quot; and it&apos;s ok
-    like that.&quot;);
+6.  console.log("The value of (x+y) is " + (x+y) + " and it';s ok
+    like that.");
 ```
 
 Result:
@@ -5579,15 +5580,15 @@ height="2.2583333333333333in"}
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset=&quot;UTF-8&quot;>
+<meta charset="UTF-8">
 <title>JavaScript can change CSS properties on the fly</title>
 </head>
-<body onload=&quot;init();&quot;>
+<body onload="init();">
 <p>Here is a div. Click the button below to change its style!</p>
 <p>
-<button onclick=&quot;changeStyle();&quot;>Change style of the div</button>
+<button onclick="changeStyle();">Change style of the div</button>
 </p>
-<div id=&quot;theDiv&quot;>
+<div id="theDiv">
 This is a div!
 </div>
 </body>
@@ -5609,15 +5610,15 @@ background-color: pink;
 ```
 var divElem;
 function init() {
-console.log(&quot;page loaded and DOM is ready&quot;);
+console.log("page loaded and DOM is ready");
 // use the selection API to select the div
-divElem = document.querySelector(&quot;#theDiv&quot;);
+divElem = document.querySelector("#theDiv");
 }
 function changeStyle() {
-console.log(&quot;add border&quot;);
-divElem.style.border = &quot;5px dashed purple&quot;;
-divElem.style.padding = &quot;10px&quot;;
-divElem.style.backgroundColor = &quot;lightGreen&quot;;
+console.log("add border");
+divElem.style.border = "5px dashed purple";
+divElem.style.padding = "10px";
+divElem.style.backgroundColor = "lightGreen";
 }
 ```
 
@@ -5721,15 +5722,15 @@ provides many other examples that use the webcam.
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Using the webcam - Example #1&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;/&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html&gt;
+<html lang="en"&gt;
+<head&gt;
+<title&gt;Using the webcam - Example #1</title&gt;
+<meta charset="utf-8"/&gt;
+</head&gt;
+<body&gt;
+</body&gt;
+</html&gt;
 ```
 
 <h5>JS:</h5>
@@ -5739,7 +5740,7 @@ navigator.mediaDevices.getUserMedia({
 audio: false,
 video: true
 }).then(function(stream) {
-var video = document.createElement(&apos;video&apos;);
+var video = document.createElement(';video';);
 document.body.appendChild(video);
 video.srcObject = stream;
 video.play();
@@ -5762,16 +5763,16 @@ height="4.813194444444444in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Make music with the WebAudio API - Example #2&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;/&gt;
-&lt;script
-src=&quot;https://maps.google.com/maps/api/js?sensor=false&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;!&#45;&#45;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Make music with the WebAudio API - Example #2</title>
+<meta charset="utf-8"/>
+<script
+src="https://maps.google.com/maps/api/js?sensor=false"></script>
+</head>
+<body>
+<!&#45;&#45;
 ```
 
 I Hope you enjoy this pen, it was a lot of fun to make.
@@ -5780,174 +5781,174 @@ Both mouse and keyboard is supported. However, make sure you click onto
 the preview window before using keyboard.
 
 ```
-&#45;-&gt;
-&lt;div id=&quot;synth&quot;&gt;
-&lt;div id=&quot;oscs&quot;&gt;
-&lt;div id=&quot;osc1&quot; class=&quot;osc&quot;&gt;
-&lt;h4&gt;Osc 1&lt;/h4&gt;
-&lt;div class=&quot;waveForm&quot;&gt;
-&lt;h5&gt;Wave Form&lt;/h5&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc1Led0&quot; data-position=&quot;0&quot;
-  name=&quot;osc1Led&quot; data-waveform=&quot;sine&quot; data-osc=&quot;1&quot;
-  onclick=&quot;setWaveForm(this)&quot;&gt;
-&lt;label for=&quot;osc1Led0&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-  src=&quot;https://www.dropbox.com/s/tnzshhffok4n9ux/sine.png?dl=0&raw=1&quot;
-  alt=&quot;sine wave&quot;&gt;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc1Led1&quot; data-position=&quot;1&quot;
-  name=&quot;osc1Led&quot; data-waveform=&quot;square&quot; data-osc=&quot;1&quot;
-  onclick=&quot;setWaveForm(this)&quot; checked&gt;
-&lt;label for=&quot;osc1Led1&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-  src=&quot;https://www.dropbox.com/s/vzq1yzkc123cxug/square.png?dl=0&raw=1&quot;
-  alt=&quot;square wave&quot;&gt;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc1Led2&quot; data-position=&quot;2&quot;
-  name=&quot;osc1Led&quot; data-waveform=&quot;sawtooth&quot; data-osc=&quot;1&quot;
-  onclick=&quot;setWaveForm(this)&quot;&gt;
-&lt;label for=&quot;osc1Led2&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-  src=&quot;https://www.dropbox.com/s/du33z0m0pxkuxar/sawtooth.png?dl=0&raw=1&quot;
-  alt=&quot;sawtooth wave&quot;&gt;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc1Led3&quot; data-position=&quot;3&quot;
-  name=&quot;osc1Led&quot; data-waveform=&quot;triangle&quot; data-osc=&quot;1&quot;
-  onclick=&quot;setWaveForm(this)&quot;&gt;
-&lt;label for=&quot;osc1Led3&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-  src=&quot;https://www.dropbox.com/s/au6p9mn2h8xb0lp/triangle.png?dl=0&raw=1&quot;
-  alt=&quot;triangle wave&quot;&gt;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;div class=&quot;buttonDrop&quot;&gt;
-&lt;button id=&quot;switchOsc1Wave&quot; data-osc=&quot;1&quot;
-  onclick=&quot;setWaveForm(this)&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;gain&quot;&gt;
-&lt;h5&gt;Gain&lt;/h5&gt;
-&lt;input id=&quot;osc1Gain&quot; type=&quot;range&quot; min=&quot;0&quot; max=&quot;100&quot;
-  value=&quot;100&quot; data-osc=&quot;1&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;octave&quot;&gt;
-&lt;h5&gt;Octave&lt;/h5&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc1OctLed0&quot; data-position=&quot;0&quot;
-  name=&quot;osc1OctLed&quot; data-osc=&quot;1&quot; onclick=&quot;setOctave(this)&quot; checked&gt;
-&lt;label for=&quot;osc1OctLed0&quot;&gt;&lt;span&gt;&lt;/span&gt;4&apos;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc1OctLed1&quot; data-position=&quot;1&quot;
-  name=&quot;osc1OctLed&quot; data-osc=&quot;1&quot; onclick=&quot;setOctave(this)&quot; &gt;
-&lt;label for=&quot;osc1OctLed1&quot;&gt;&lt;span&gt;&lt;/span&gt;8&apos;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc1OctLed2&quot; data-position=&quot;2&quot;
-  name=&quot;osc1OctLed&quot; data-osc=&quot;1&quot; onclick=&quot;setOctave(this)&quot; &gt;
-&lt;label for=&quot;osc1OctLed2&quot;&gt;&lt;span&gt;&lt;/span&gt;16&apos;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;div class=&quot;buttonDrop&quot;&gt;
-&lt;button id=&quot;switchOsc1Octave&quot; data-osc=&quot;1&quot;
-  onclick=&quot;setOctave(this)&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;fineTune&quot;&gt;
-&lt;h5&gt;Fine Tune&lt;/h5&gt;
-&lt;input id=&quot;osc1FineTune&quot; type=&quot;range&quot; min=&quot;-10&quot; max=&quot;10&quot;
-  value=&quot;0&quot; data-osc=&quot;1&quot; step=&quot;1&quot; list=&quot;range_snap&quot;&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;osc2&quot; class=&quot;osc&quot;&gt;
-&lt;h4&gt;Osc 2&lt;/h4&gt;
-&lt;div class=&quot;waveForm&quot;&gt;
-&lt;h5&gt;Wave Form&lt;/h5&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc2Led0&quot; data-position=&quot;0&quot;
-  name=&quot;osc2Led&quot; data-waveform=&quot;sine&quot; data-osc=&quot;2&quot;
-  onclick=&quot;setWaveForm(this)&quot;&gt;
-&lt;label for=&quot;osc2Led0&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-  src=&quot;https://www.dropbox.com/s/tnzshhffok4n9ux/sine.png?dl=0&raw=1&quot;
-  alt=&quot;sine wave&quot;&gt;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc2Led1&quot; data-position=&quot;1&quot;
-  name=&quot;osc2Led&quot; data-waveform=&quot;square&quot; data-osc=&quot;2&quot;
-  onclick=&quot;setWaveForm(this)&quot;&gt;
-&lt;label for=&quot;osc2Led1&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-  src=&quot;https://www.dropbox.com/s/vzq1yzkc123cxug/square.png?dl=0&raw=1&quot;
-  alt=&quot;square wave&quot;&gt;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc2Led2&quot; data-position=&quot;2&quot;
-  name=&quot;osc2Led&quot; data-waveform=&quot;sawtooth&quot; data-osc=&quot;2&quot;
-  onclick=&quot;setWaveForm(this)&quot; checked&gt;
-&lt;label for=&quot;osc2Led2&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-  src=&quot;https://www.dropbox.com/s/du33z0m0pxkuxar/sawtooth.png?dl=0&raw=1&quot;
-  alt=&quot;sawtooth wave&quot;&gt;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc2Led3&quot; data-position=&quot;3&quot;
-  name=&quot;osc2Led&quot; data-waveform=&quot;triangle&quot; data-osc=&quot;2&quot;
-  onclick=&quot;setWaveForm(this)&quot;&gt;
-&lt;label for=&quot;osc2Led3&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;img
-  src=&quot;https://www.dropbox.com/s/au6p9mn2h8xb0lp/triangle.png?dl=0&raw=1&quot;
-  alt=&quot;triangle wave&quot;&gt;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;div class=&quot;buttonDrop&quot;&gt;
-&lt;button id=&quot;switchOsc2Wave&quot; data-osc=&quot;2&quot;
-  onclick=&quot;setWaveForm(this)&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;gain&quot;&gt;
-&lt;h5&gt;Gain&lt;/h5&gt;
-&lt;input id=&quot;osc2Gain&quot; type=&quot;range&quot; min=&quot;0&quot; max=&quot;100&quot;
-  value=&quot;100&quot; data-osc=&quot;2&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;octave&quot;&gt;
-&lt;h5&gt;Octave&lt;/h5&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc2OctLed0&quot; data-position=&quot;0&quot;
-  name=&quot;osc2OctLed&quot; data-osc=&quot;2&quot; onclick=&quot;setOctave(this)&quot;&gt;
-&lt;label for=&quot;osc2OctLed0&quot;&gt;&lt;span&gt;&lt;/span&gt;4&apos;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc2OctLed1&quot; data-position=&quot;1&quot;
-  name=&quot;osc2OctLed&quot; data-osc=&quot;2&quot; onclick=&quot;setOctave(this)&quot;&gt;
-&lt;label for=&quot;osc2OctLed1&quot;&gt;&lt;span&gt;&lt;/span&gt;8&apos;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;input type=&quot;radio&quot; id=&quot;osc2OctLed2&quot; data-position=&quot;2&quot;
-  name=&quot;osc2OctLed&quot; data-osc=&quot;2&quot; onclick=&quot;setOctave(this)&quot; checked&gt;
-&lt;label for=&quot;osc2OctLed2&quot;&gt;&lt;span&gt;&lt;/span&gt;16&apos;&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ledLabel&quot;&gt;
-&lt;div class=&quot;buttonDrop&quot;&gt;
-&lt;button id=&quot;switchOsc2Octave&quot; data-osc=&quot;2&quot;
-  onclick=&quot;setOctave(this)&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;fineTune&quot;&gt;
-&lt;h5&gt;Fine Tune&lt;/h5&gt;
-&lt;input id=&quot;osc2FineTune&quot; type=&quot;range&quot; min=&quot;-10&quot; max=&quot;10&quot;
-  value=&quot;0&quot; data-osc=&quot;2&quot; step=&quot;1&quot; list=&quot;range_snap&quot;&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;datalist id=&quot;range_snap&quot;&gt;
-&lt;option value=&quot;0&quot;&gt;
-&lt;/datalist&gt;
-&lt;/div&gt;
-&lt;br&gt;
-&lt;div id=&quot;pianoKeys&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+&#45;->
+<div id="synth">
+<div id="oscs">
+<div id="osc1" class="osc">
+<h4>Osc 1</h4>
+<div class="waveForm">
+<h5>Wave Form</h5>
+<div class="ledLabel">
+<input type="radio" id="osc1Led0" data-position="0"
+  name="osc1Led" data-waveform="sine" data-osc="1"
+  onclick="setWaveForm(this)">
+<label for="osc1Led0"><span></span><img
+  src="https://www.dropbox.com/s/tnzshhffok4n9ux/sine.png?dl=0&raw=1"
+  alt="sine wave"></label>
+</div>
+<div class="ledLabel">
+<input type="radio" id="osc1Led1" data-position="1"
+  name="osc1Led" data-waveform="square" data-osc="1"
+  onclick="setWaveForm(this)" checked>
+<label for="osc1Led1"><span></span><img
+  src="https://www.dropbox.com/s/vzq1yzkc123cxug/square.png?dl=0&raw=1"
+  alt="square wave"></label>
+</div>
+<div class="ledLabel">
+<input type="radio" id="osc1Led2" data-position="2"
+  name="osc1Led" data-waveform="sawtooth" data-osc="1"
+  onclick="setWaveForm(this)">
+<label for="osc1Led2"><span></span><img
+  src="https://www.dropbox.com/s/du33z0m0pxkuxar/sawtooth.png?dl=0&raw=1"
+  alt="sawtooth wave"></label>
+</div>
+<div class="ledLabel">
+<input type="radio" id="osc1Led3" data-position="3"
+  name="osc1Led" data-waveform="triangle" data-osc="1"
+  onclick="setWaveForm(this)">
+<label for="osc1Led3"><span></span><img
+  src="https://www.dropbox.com/s/au6p9mn2h8xb0lp/triangle.png?dl=0&raw=1"
+  alt="triangle wave"></label>
+</div>
+<div class="ledLabel">
+<div class="buttonDrop">
+<button id="switchOsc1Wave" data-osc="1"
+  onclick="setWaveForm(this)"></button>
+</div>
+</div>
+</div>
+<div class="gain">
+<h5>Gain</h5>
+<input id="osc1Gain" type="range" min="0" max="100"
+  value="100" data-osc="1">
+</div>
+<div class="octave">
+<h5>Octave</h5>
+<div class="ledLabel">
+<input type="radio" id="osc1OctLed0" data-position="0"
+  name="osc1OctLed" data-osc="1" onclick="setOctave(this)" checked>
+<label for="osc1OctLed0"><span></span>4';</label>
+</div>
+<div class="ledLabel">
+<input type="radio" id="osc1OctLed1" data-position="1"
+  name="osc1OctLed" data-osc="1" onclick="setOctave(this)" >
+<label for="osc1OctLed1"><span></span>8';</label>
+</div>
+<div class="ledLabel">
+<input type="radio" id="osc1OctLed2" data-position="2"
+  name="osc1OctLed" data-osc="1" onclick="setOctave(this)" >
+<label for="osc1OctLed2"><span></span>16';</label>
+</div>
+<div class="ledLabel">
+<div class="buttonDrop">
+<button id="switchOsc1Octave" data-osc="1"
+  onclick="setOctave(this)"></button>
+</div>
+</div>
+</div>
+<div class="fineTune">
+<h5>Fine Tune</h5>
+<input id="osc1FineTune" type="range" min="-10" max="10"
+  value="0" data-osc="1" step="1" list="range_snap">
+</div>
+</div>
+<div id="osc2" class="osc">
+<h4>Osc 2</h4>
+<div class="waveForm">
+<h5>Wave Form</h5>
+<div class="ledLabel">
+<input type="radio" id="osc2Led0" data-position="0"
+  name="osc2Led" data-waveform="sine" data-osc="2"
+  onclick="setWaveForm(this)">
+<label for="osc2Led0"><span></span><img
+  src="https://www.dropbox.com/s/tnzshhffok4n9ux/sine.png?dl=0&raw=1"
+  alt="sine wave"></label>
+</div>
+<div class="ledLabel">
+<input type="radio" id="osc2Led1" data-position="1"
+  name="osc2Led" data-waveform="square" data-osc="2"
+  onclick="setWaveForm(this)">
+<label for="osc2Led1"><span></span><img
+  src="https://www.dropbox.com/s/vzq1yzkc123cxug/square.png?dl=0&raw=1"
+  alt="square wave"></label>
+</div>
+<div class="ledLabel">
+<input type="radio" id="osc2Led2" data-position="2"
+  name="osc2Led" data-waveform="sawtooth" data-osc="2"
+  onclick="setWaveForm(this)" checked>
+<label for="osc2Led2"><span></span><img
+  src="https://www.dropbox.com/s/du33z0m0pxkuxar/sawtooth.png?dl=0&raw=1"
+  alt="sawtooth wave"></label>
+</div>
+<div class="ledLabel">
+<input type="radio" id="osc2Led3" data-position="3"
+  name="osc2Led" data-waveform="triangle" data-osc="2"
+  onclick="setWaveForm(this)">
+<label for="osc2Led3"><span></span><img
+  src="https://www.dropbox.com/s/au6p9mn2h8xb0lp/triangle.png?dl=0&raw=1"
+  alt="triangle wave"></label>
+</div>
+<div class="ledLabel">
+<div class="buttonDrop">
+<button id="switchOsc2Wave" data-osc="2"
+  onclick="setWaveForm(this)"></button>
+</div>
+</div>
+</div>
+<div class="gain">
+<h5>Gain</h5>
+<input id="osc2Gain" type="range" min="0" max="100"
+  value="100" data-osc="2">
+</div>
+<div class="octave">
+<h5>Octave</h5>
+<div class="ledLabel">
+<input type="radio" id="osc2OctLed0" data-position="0"
+  name="osc2OctLed" data-osc="2" onclick="setOctave(this)">
+<label for="osc2OctLed0"><span></span>4';</label>
+</div>
+<div class="ledLabel">
+<input type="radio" id="osc2OctLed1" data-position="1"
+  name="osc2OctLed" data-osc="2" onclick="setOctave(this)">
+<label for="osc2OctLed1"><span></span>8';</label>
+</div>
+<div class="ledLabel">
+<input type="radio" id="osc2OctLed2" data-position="2"
+  name="osc2OctLed" data-osc="2" onclick="setOctave(this)" checked>
+<label for="osc2OctLed2"><span></span>16';</label>
+</div>
+<div class="ledLabel">
+<div class="buttonDrop">
+<button id="switchOsc2Octave" data-osc="2"
+  onclick="setOctave(this)"></button>
+</div>
+</div>
+</div>
+<div class="fineTune">
+<h5>Fine Tune</h5>
+<input id="osc2FineTune" type="range" min="-10" max="10"
+  value="0" data-osc="2" step="1" list="range_snap">
+</div>
+</div>
+<datalist id="range_snap">
+<option value="0">
+</datalist>
+</div>
+<br>
+<div id="pianoKeys"></div>
+</div>
+</body>
+</html>
 ```
 
 CSS
@@ -5965,7 +5966,7 @@ position: relative;
 }
 #synth:before
 {
-content:&quot;&quot;;
+content:"";
 width:968px;
 height:5%;
 background: #2b2b2b;
@@ -5976,7 +5977,7 @@ box-shadow: 0px 5px 5px black;
 }
 #synth:after
 {
-content:&quot;&quot;;
+content:"";
 width:980px;
 height:5%;
 background: #2b2b2b;
@@ -6099,14 +6100,14 @@ max-width:150px;
 {
 margin:0 0 0.75em 1em;
 }
-.ledLabel input&lbrack;type=&quot;radio&quot;&rbrack; {
+.ledLabel input[type="radio"] {
 display:none;
 }
-.ledLabel input&lbrack;type=&quot;radio&quot;&rbrack; + label {
+.ledLabel input[type="radio"] + label {
 font-family:Arial, sans-serif;
 font-size:14px;
 }
-.ledLabel input&lbrack;type=&quot;radio&quot;&rbrack; + label span {
+.ledLabel input[type="radio"] + label span {
 display:inline-block;
 width:10px;
 height:10px;
@@ -6116,18 +6117,18 @@ cursor:pointer;
 -moz-border-radius: 50%;
 border-radius: 50%;
 }
-.ledLabel input&lbrack;type=&quot;radio&quot;&rbrack; + label span {
+.ledLabel input[type="radio"] + label span {
 background: radial-gradient(ellipse at center, rgba(152,255,84,1)
 0%,rgba(135,196,56,1) 31%,rgba(0,0,0,1) 100%); /&ast; W3C &ast;/
 }
-.ledLabel input&lbrack;type=&quot;radio&quot;&rbrack;:checked + label span{
+.ledLabel input[type="radio"]:checked + label span{
 box-shadow: 0 0 15px #79ff5d;
 background: radial-gradient(ellipse at center, rgba(255,255,255,1)
   12%,rgba(210,255,82,1) 39%,rgba(145,232,66,1) 65%,rgba(0,0,0,1) 92%);
   /&ast; W3C &ast;/
 }
-.ledLabel input&lbrack;type=&quot;radio&quot;&rbrack; + label span,
-.ledLabel input&lbrack;type=&quot;radio&quot;&rbrack;:checked + label span {
+.ledLabel input[type="radio"] + label span,
+.ledLabel input[type="radio"]:checked + label span {
 -webkit-transition:background-color 0.4s linear;
 /&ast;-moz-transition:background-color 0.4s linear;&ast;/
 transition:background-color 0.4s linear;
@@ -6140,7 +6141,7 @@ float:left;
 {
 height:10px;
 }
-input&lbrack;type=&quot;range&quot;&rbrack;:focus
+input[type="range"]:focus
 {
 outline:none;
 }
@@ -6191,26 +6192,26 @@ background: linear-gradient(to bottom, rgba(28,28,28,1)
 ```
 //=================== AddKeys.js ====================//
 var notes =
-  &lbrack;&quot;A&quot;,&quot;A#&quot;,&quot;B&quot;,&quot;C&quot;,&quot;C#&quot;,&quot;D&quot;,&quot;D#&quot;,&quot;E&quot;,&quot;F&quot;,&quot;F#&quot;,&quot;G&quot;,&quot;G#&quot;&rbrack;;
+  ["A","A#","B","C","C#","D","D#","E","F","F#","G","G#"];
 var note = 0;
 var octave = 1;
-for(var i=13;i&lt;=49;i++)
+for(var i=13;i<=49;i++)
 {
-var thisNote = notes&lbrack;note&rbrack;;
-var className = (thisNote.length &gt; 1) ? &apos;black&apos; : &apos;white&apos;;
-var el = &quot;&lt;div id=&apos;&quot; + thisNote + octave + &quot;&apos; class=&apos;&quot; +
-  className + &quot;&apos; onmousedown=&apos;start(&quot;+i+&quot;,this);&apos;
-  onmouseup=&apos;stop(this);&apos;&gt;&lt;p&gt;&quot; + thisNote + &quot;&lt;/p&gt;&lt;/div&gt;&quot;;
-if(className == &quot;white&quot;)
+var thisNote = notes[note];
+var className = (thisNote.length > 1) ? ';black'; : ';white';;
+var el = "<div id=';" + thisNote + octave + "'; class=';" +
+  className + "'; onmousedown=';start("+i+",this);';
+  onmouseup=';stop(this);';><p>" + thisNote + "</p></div>";
+if(className == "white")
 {
-document.getElementById(&quot;pianoKeys&quot;).innerHTML += el;
+document.getElementById("pianoKeys").innerHTML += el;
 }
 else
 {
 //console.log(thisNote.substring(0,1) + octave);
 document.getElementById(thisNote.substring(0,1) + octave).innerHTML += el;
 }
-if(thisNote == &quot;B&quot;)
+if(thisNote == "B")
 {
 octave ++;
 }
@@ -6239,7 +6240,7 @@ this.instance = context.createOscillator();
 this.gainNode = context.createGain();
 this.freq = 440;
 this.gain = 100;
-this.waveForm = &quot;sine&quot;;
+this.waveForm = "sine";
 this.octave = 0;
 this.fineTune = 0;
 //Methods
@@ -6278,12 +6279,12 @@ var context = getContext();
 var playing = false;
 var osc = new Oscillator();
 var osc2 = new Oscillator();
-osc.setGain(document.getElementById(&quot;osc1Gain&quot;).value);
-osc2.setGain(document.getElementById(&quot;osc2Gain&quot;).value);
-osc.setWaveForm(document.querySelector(&apos;input&lbrack;name=&quot;osc1Led&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-waveform&quot;));
-osc2.setWaveForm(document.querySelector(&apos;input&lbrack;name=&quot;osc2Led&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-waveform&quot;));
-osc.setOctave(document.querySelector(&apos;input&lbrack;name=&quot;osc1OctLed&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-position&quot;) -1);
-osc2.setOctave(document.querySelector(&apos;input&lbrack;name=&quot;osc2OctLed&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-position&quot;) -1);
+osc.setGain(document.getElementById("osc1Gain").value);
+osc2.setGain(document.getElementById("osc2Gain").value);
+osc.setWaveForm(document.querySelector(';input[name="osc1Led"]:checked';).getAttribute("data-waveform"));
+osc2.setWaveForm(document.querySelector(';input[name="osc2Led"]:checked';).getAttribute("data-waveform"));
+osc.setOctave(document.querySelector(';input[name="osc1OctLed"]:checked';).getAttribute("data-position") -1);
+osc2.setOctave(document.querySelector(';input[name="osc2OctLed"]:checked';).getAttribute("data-position") -1);
 console.log(osc.octave);
 function toneGen(oscillator, noteKey)
 {
@@ -6295,11 +6296,11 @@ oscillator.instance.start(0);
 }
 function start(noteKey,e) {
 console.log(e.id);
-e.className = e.className + &quot; keyDown&quot;;
+e.className = e.className + " keyDown";
 event.cancelBubble = true;
-if(e.id.substring(1,1) == &quot;#&quot;)
+if(e.id.substring(1,1) == "#")
 {
-document.getElementById(e.id.substring(0,1) + e.id.substring(2,1)).className = &quot;white&quot;;
+document.getElementById(e.id.substring(0,1) + e.id.substring(2,1)).className = "white";
 }
 if(!playing) {
 playing = true;
@@ -6309,7 +6310,7 @@ toneGen(osc2,noteKey);
 }
 function stop(e)
 {
-e.className = e.className.substring(0,5) == &quot;white&quot; ? &quot;white&quot; :&quot;black&quot;;
+e.className = e.className.substring(0,5) == "white" ? "white" :"black";
 playing = false;
 //setVolume(0);
 osc.instance.stop();
@@ -6327,7 +6328,7 @@ return Math.pow(a,(noteKey - A4Key)) &ast; concertPitch;
 function calculateFineTune(fineTune, freq)
 {
 var pos, positive;
-if(-fineTune&gt;0)
+if(-fineTune>0)
 {
 pos = -fineTune; //Is made positive
 positive = false;
@@ -6339,22 +6340,22 @@ positive = true;
 }
 var percentage = freq &ast; (pos/100);
 freq = positive ? freq + percentage : freq - percentage;
-//console.log(fineTune + &quot; &quot; + freq + &quot;hz before &vert; &quot; +
-  (parseFloat(freq) + parseInt(fineTune)) + &quot;hz after&quot;);
+//console.log(fineTune + " " + freq + "hz before &vert; " +
+  (parseFloat(freq) + parseInt(fineTune)) + "hz after");
 return freq;
 }
-document.addEventListener(&apos;DOMContentLoaded&apos;, function ()
+document.addEventListener(';DOMContentLoaded';, function ()
 {
-document.getElementById(&quot;osc1Gain&quot;).addEventListener(&quot;change&quot;,
+document.getElementById("osc1Gain").addEventListener("change",
   setGain);
-document.getElementById(&quot;osc2Gain&quot;).addEventListener(&quot;change&quot;,
+document.getElementById("osc2Gain").addEventListener("change",
   setGain);
-document.getElementById(&quot;osc1FineTune&quot;).addEventListener(&quot;change&quot;,
+document.getElementById("osc1FineTune").addEventListener("change",
   setFineTune);
-document.getElementById(&quot;osc2FineTune&quot;).addEventListener(&quot;change&quot;,
+document.getElementById("osc2FineTune").addEventListener("change",
   setFineTune);
-window.addEventListener(&quot;keydown&quot;,handleKeyPress,false);
-window.addEventListener(&quot;keyup&quot;,handleKeyPress,false);
+window.addEventListener("keydown",handleKeyPress,false);
+window.addEventListener("keyup",handleKeyPress,false);
 });
 function handleKeyPress(e)
 {
@@ -6363,39 +6364,39 @@ var id = null;
 //console.log(e, keyCode, e.which);
 switch(keyCode)
 {
-case 90: id = &quot;A1&quot;; break;
-case 83: id = &quot;A#1&quot;; break;
-case 88: id = &quot;B1&quot;; break;
-case 67: id = &quot;C2&quot;; break;
-case 70: id = &quot;C#2&quot;; break;
-case 86: id = &quot;D2&quot;; break;
-case 71: id = &quot;D#2&quot;; break;
-case 66: id = &quot;E2&quot;; break;
-case 78: id = &quot;F2&quot;; break;
-case 74: id = &quot;F#2&quot;; break;
-case 77: id = &quot;G2&quot;; break;
-case 75: id = &quot;G#2&quot;; break;
-case 188: id = &quot;A2&quot;; break;
-case 81: id = &quot;A2&quot;; break;
-case 50: id = &quot;A#2&quot;; break;
-case 87: id = &quot;B2&quot;; break;
-case 69: id = &quot;C3&quot;; break;
-case 52: id = &quot;C#3&quot;; break;
-case 82: id = &quot;D3&quot;; break;
-case 53: id = &quot;D#3&quot;; break;
-case 84: id = &quot;E3&quot;; break;
-case 89: id = &quot;F3&quot;; break;
-case 55: id = &quot;F#3&quot;; break;
-case 85: id = &quot;G3&quot;; break;
-case 56: id = &quot;G#3&quot;; break;
-case 73: id = &quot;A3&quot;; break;
+case 90: id = "A1"; break;
+case 83: id = "A#1"; break;
+case 88: id = "B1"; break;
+case 67: id = "C2"; break;
+case 70: id = "C#2"; break;
+case 86: id = "D2"; break;
+case 71: id = "D#2"; break;
+case 66: id = "E2"; break;
+case 78: id = "F2"; break;
+case 74: id = "F#2"; break;
+case 77: id = "G2"; break;
+case 75: id = "G#2"; break;
+case 188: id = "A2"; break;
+case 81: id = "A2"; break;
+case 50: id = "A#2"; break;
+case 87: id = "B2"; break;
+case 69: id = "C3"; break;
+case 52: id = "C#3"; break;
+case 82: id = "D3"; break;
+case 53: id = "D#3"; break;
+case 84: id = "E3"; break;
+case 89: id = "F3"; break;
+case 55: id = "F#3"; break;
+case 85: id = "G3"; break;
+case 56: id = "G#3"; break;
+case 73: id = "A3"; break;
 var el = document.getElementById(id);
 if(id != null)
 {
-if(e.type == &quot;keydown&quot;)
+if(e.type == "keydown")
 {
 el.onmousedown();
-el.className = el.className.substring(0,5) + &quot; keyDown&quot;;
+el.className = el.className.substring(0,5) + " keyDown";
 }
 else
 {
@@ -6408,13 +6409,13 @@ el.className = el.className.substring(0,5);
   Setters&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-//
 function setGain(e)
 {
-var oscillator = this.getAttribute(&quot;data-osc&quot;);
+var oscillator = this.getAttribute("data-osc");
 switch(oscillator)
 {
-case &quot;1&quot;:
+case "1":
 osc.setGain(this.value);
 break;
-case &quot;2&quot;:
+case "2":
 osc2.setGain(this.value);
 break;
 default:
@@ -6422,14 +6423,14 @@ default:
 }
 function setFineTune(e)
 {
-var oscillator = this.getAttribute(&quot;data-osc&quot;);
+var oscillator = this.getAttribute("data-osc");
 switch(oscillator)
 {
-case &quot;1&quot;:
+case "1":
 osc.setFineTune(this.value);
 console.log(osc.fineTune);
 break;
-case &quot;2&quot;:
+case "2":
 osc2.setFineTune(this.value);
 break;
 default:
@@ -6437,50 +6438,50 @@ default:
 }
 function setOctave(e)
 {
-var oscillator = e.getAttribute(&quot;data-osc&quot;);
-var position = parseInt(document.querySelector(&apos;input&lbrack;name=&quot;osc&apos; +
-  oscillator + &apos;OctLed&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-position&quot;));
-var newPosition = position &lt; 2 ? (position + 1) : 0;
-newPosition = e.id.substring(0,7) == &quot;osc&quot; + oscillator + &quot;Oct&quot; ?
+var oscillator = e.getAttribute("data-osc");
+var position = parseInt(document.querySelector(';input[name="osc'; +
+  oscillator + ';OctLed"]:checked';).getAttribute("data-position"));
+var newPosition = position < 2 ? (position + 1) : 0;
+newPosition = e.id.substring(0,7) == "osc" + oscillator + "Oct" ?
   position : newPosition;
-var octaves = &lbrack;-1,0,+1&rbrack;;
+var octaves = [-1,0,+1];
 switch(oscillator)
 {
-case &quot;1&quot;:
+case "1":
 osc.setOctave(newPosition - 1);
-console.log(&quot;osc1 &quot; + osc.octave);
+console.log("osc1 " + osc.octave);
 break;
-case &quot;2&quot;:
+case "2":
 osc2.setOctave(newPosition - 1);
-console.log(&quot;osc2 &quot; + osc2.octave);
+console.log("osc2 " + osc2.octave);
 break;
 default:
 }
-id = &quot;osc&quot; + oscillator + &quot;OctLed&quot; + newPosition;
+id = "osc" + oscillator + "OctLed" + newPosition;
 document.getElementById(id).checked = true;
 }
 function setWaveForm(e)
 {
-var oscillator = e.getAttribute(&quot;data-osc&quot;);
-var position = parseInt(document.querySelector(&apos;input&lbrack;name=&quot;osc&apos; +
-  oscillator + &apos;Led&quot;&rbrack;:checked&apos;).getAttribute(&quot;data-position&quot;));
-var newPosition = position &lt; 3 ? (position + 1) : 0;
-newPosition = (e.id.substring(0,7) == &quot;osc&quot; + oscillator + &quot;Led&quot;) ?
+var oscillator = e.getAttribute("data-osc");
+var position = parseInt(document.querySelector(';input[name="osc'; +
+  oscillator + ';Led"]:checked';).getAttribute("data-position"));
+var newPosition = position < 3 ? (position + 1) : 0;
+newPosition = (e.id.substring(0,7) == "osc" + oscillator + "Led") ?
   position : newPosition;
-var waves = &lbrack;&quot;sine&quot;,&quot;square&quot;,&quot;sawtooth&quot;,&quot;triangle&quot;&rbrack;;
+var waves = ["sine","square","sawtooth","triangle"];
 switch(oscillator)
 {
-case &quot;1&quot;:
-osc.setWaveForm(waves&lbrack;newPosition&rbrack;);
-console.log(&quot;osc1 &quot; + osc.waveForm);
+case "1":
+osc.setWaveForm(waves[newPosition]);
+console.log("osc1 " + osc.waveForm);
 break;
-case &quot;2&quot;:
-osc2.setWaveForm(waves&lbrack;newPosition&rbrack;);
-console.log(&quot;osc2 &quot; + osc2.waveForm);
+case "2":
+osc2.setWaveForm(waves[newPosition]);
+console.log("osc2 " + osc2.waveForm);
 break;
 default:
 }
-id = &quot;osc&quot; + oscillator + &quot;Led&quot; + newPosition;
+id = "osc" + oscillator + "Led" + newPosition;
 document.getElementById(id).checked = true;
 }
 ```
@@ -6513,22 +6514,22 @@ height="5.102083333333334in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Plotting functions in JavaScript using the
-function plot library - Example #1&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;/&gt;
-&lt;script src=&quot;https://d3js.org/d3.v3.min.js&quot;&gt;&lt;/script&gt;
-&lt;script
-  src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div id=&quot;quadratic&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;sin&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;multiple&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Plotting functions in JavaScript using the
+function plot library - Example #1</title>
+<meta charset="utf-8"/>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script
+  src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
+</head>
+<body>
+<div id="quadratic"></div>
+<div id="sin"></div>
+<div id="multiple"></div>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -6578,7 +6579,7 @@ fn: 'sin(x)',
 color: 'blue',
 range: [-1, 8],
 closed: true
-}&rbrack;,
+}],
 tip: {
 xLine: true,
 yLine: true
@@ -6588,7 +6589,7 @@ xAxis: {domain: [-2, 9]},
 });
 functionPlot({
 target: '#multiple',
-data: &lbrack;
+data: [
 {fn: 'x&ast;x', color: 'red'},
 {fn: '3&ast;x', color: 'green'},
 {fn: 'cos(x)',
@@ -6602,7 +6603,7 @@ color: 'blue'
 {fn: '-3&ast;x&#94;2 + x&#94;2',
 nSamples: 150,
 graphType: 'scatter'}
-&rbrack;
+]
 ```
 
 Here is another much simpler example, please edit the code (click on
@@ -6617,20 +6618,20 @@ height="3.0569444444444445in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Plotting functions in JavaScript using the
-function plot library&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;/&gt;
-&lt;script src=&quot;https://d3js.org/d3.v3.min.js&quot;&gt;&lt;/script&gt;
-&lt;script
-  src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div id=&quot;myFunction&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Plotting functions in JavaScript using the
+function plot library</title>
+<meta charset="utf-8"/>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script
+  src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
+</head>
+<body>
+<div id="myFunction"></div>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -6651,13 +6652,13 @@ height: 250px;
 ```
 var ttt = functionPlot({
 target: '#myFunction',
-data: &lbrack;{
+data: [{
 fn: 'sin(x&#94;2)',
 color: 'red'
-}&rbrack;,
+}],
 grid: true,
-yAxis: {domain: &lbrack;-1, 1&rbrack;},
-xAxis: {domain: &lbrack;0, 2&ast;Math.PI&rbrack;},
+yAxis: {domain: [-1, 1]},
+xAxis: {domain: [0, 2&ast;Math.PI]},
 });
 ```
 
@@ -6679,22 +6680,22 @@ This example downloads and displays a list of users in a table
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Working with remote data - Example #1&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;/&gt;
-&lt;!&#45;- Polyfill in case your browser does not support the fetch API
-&#45;-&gt;
-&lt;script
-  src=&quot;https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.js&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button onclick=&quot;search();&quot;&gt;Get remote list of users' names and
-  emails using the fetch API&lt;/button&gt;
-&lt;div id=&quot;users&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Working with remote data - Example #1</title>
+<meta charset="utf-8"/>
+<!&#45;- Polyfill in case your browser does not support the fetch API
+&#45;->
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.js"></script>
+</head>
+<body>
+<button onclick="search();">Get remote list of users' names and
+  emails using the fetch API</button>
+<div id="users"></div>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -6712,7 +6713,7 @@ border: 1px solid;
 
 ```
 function search() {
-var queryURL = &quot;https://jsonplaceholder.typicode.com/users&quot;;
+var queryURL = "https://jsonplaceholder.typicode.com/users";
 fetch(queryURL)
 .then(function (response) {
 // response.json() returns a json string,
@@ -6732,10 +6733,10 @@ console.log('Error during fetch: ' + error.message);
 function displayUsersAsATable(users) {
 // users is a JavaScript object
 // empty the div that contains the results
-var usersDiv = document.querySelector(&quot;#users&quot;);
-usersDiv.innerHTML = &quot;&quot;;
+var usersDiv = document.querySelector("#users");
+usersDiv.innerHTML = "";
 // creates and populate the table with users
-var table = document.createElement(&quot;table&quot;);
+var table = document.createElement("table");
 // iterate on the array of users
 users.forEach(function (currentUser) {
 // creates a row
@@ -6762,21 +6763,21 @@ for video games):
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Howler.js example - Example #2&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;/&gt;
-&lt;script
-  src=&quot;https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.25/howler.min.js&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;This example loads, decode and play sounds using the HowlerJS library&lt;/p&gt;
-&lt;button id=&quot;explosion&quot; disabled&gt;BOOM !&lt;/button&gt;
-&lt;button id=&quot;basic_explosion&quot; disabled&gt;Basic Explosion&lt;/button&gt;
-&lt;button id=&quot;winner&quot; disabled&gt;Winner!&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html>
+<head>
+<title>Howler.js example - Example #2</title>
+<meta charset="utf-8"/>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.25/howler.min.js"></script>
+</head>
+<body>
+<p>This example loads, decode and play sounds using the HowlerJS library</p>
+<button id="explosion" disabled>BOOM !</button>
+<button id="basic_explosion" disabled>Basic Explosion</button>
+<button id="winner" disabled>Winner!</button>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -6784,33 +6785,33 @@ for video games):
 ```
 function soundLoaded() {
 // enable buttons, the sounds are loaded
-var button1 = document.querySelector(&quot;#explosion&quot;);
+var button1 = document.querySelector("#explosion");
 button1.disabled = false;
-button1.addEventListener(&quot;click&quot;, function() {
+button1.addEventListener("click", function() {
 sound.play('blast');
 });
-var button2 = document.querySelector(&quot;#basic_explosion&quot;);
+var button2 = document.querySelector("#basic_explosion");
 button2.disabled = false;
-button2.addEventListener(&quot;click&quot;, function() {
+button2.addEventListener("click", function() {
 sound.play('laser');
 });
-var button3 = document.querySelector(&quot;#winner&quot;);
+var button3 = document.querySelector("#winner");
 button3.disabled = false;
-button3.addEventListener(&quot;click&quot;, function() {
+button3.addEventListener("click", function() {
 sound.play('winner');
 });
 }
 // Load and decode sounds
 var sound = new Howl({
-urls: &lbrack;'https://goldfirestudios.com/proj/howlerjs/sounds.mp3',
-  'https://goldfirestudios.com/proj/howlerjs/sounds.ogg'&rbrack;,
+urls: ['https://goldfirestudios.com/proj/howlerjs/sounds.mp3',
+  'https://goldfirestudios.com/proj/howlerjs/sounds.ogg'],
 sprite: {
-blast: &lbrack;0, 2000&rbrack;,
-laser: &lbrack;3000, 700&rbrack;,
-winner: &lbrack;5000, 9000&rbrack;
+blast: [0, 2000],
+laser: [3000, 700],
+winner: [5000, 9000]
 },
 onload: function() {
-console.log(&quot;Sound loaded&quot;);
+console.log("Sound loaded");
 soundLoaded();
 }
 });
@@ -6885,9 +6886,7 @@ And we&apos;re gonna see how this variable can be tested in a &quot;if&quot;
 statement.
 
 In order to use the &quot;if&quot; statement, we type &quot;if&quot;, followed by
-parentheses, and by
-
-a block of instructions, that will be executed only if what is between
+parentheses, and by a block of instructions, that will be executed only if what is between
 the parentheses here, is true.
 
 I&apos;m gonna put this variable that we set to true, and add an instruction
@@ -6941,9 +6940,7 @@ I declared the variable &quot;age&quot; with a value of 1, and I added some
 if&hellip; else statements.
 
 If &quot;age&quot; is less than 2, print &quot;I&apos;m a baby&quot;, and you can see that
-this has been
-
-executed, because the variable is 1, 1 is less than 2. It&apos;s been
+this has been executed, because the variable is 1, 1 is less than 2. It&apos;s been
 executed...
 
 I can add some &quot;else&hellip;if&quot; statements.
@@ -6982,7 +6979,7 @@ The double ampersand (&&) here is the AND operator.
 This will be true only is age is more than 12 and less than 14.
 
 If I set the variable to 13, it will print &quot;I&apos;m a young teenager&quot;
-because both tests here, &gt; 12 and &lt; 14, are true.
+because both tests here, > 12 and &lt; 14, are true.
 
 I can use also the OR operator.
 
@@ -6990,7 +6987,7 @@ In that case, it will be true if one of the two are true.
 
 Let&apos;s try with age = 8.
 
-With age equals to 8, this is false, age &gt; 12, but age &lt; 14 is true,
+With age equals to 8, this is false, age > 12, but age &lt; 14 is true,
 it prints &quot;I&apos;m a young teenager&quot;.
 
 Finally, let&apos;s have a look at the === operator.
@@ -7046,13 +7043,13 @@ undefined is returned when a variable has not been assigned:
 
 ```
 1.  var foo;
-2.  &gt; foo
+2.  > foo
 3.  undefined
 4.   
-5.  &gt; typeof foo;
+5.  > typeof foo;
 6.  'undefined'
 7.   
-8.  &gt;if (foo === undefined) {
+8.  >if (foo === undefined) {
 9.      console.log('The variable foo has no value and is undefined');
 10. }
 11. 'The variable foo has no value and is undefined'
@@ -7065,10 +7062,10 @@ The keyword &quot;<b>undefined</b>&quot; is part of the JavaScript language, so 
 can assign the undefined value to a variable:
 
 ```
-1.  &gt; var foo = undefined; // equivalent to var foo; without giving any value
+1.  > var foo = undefined; // equivalent to var foo; without giving any value
 2.  undefined
 3.   
-4.  &gt; foo;
+4.  > foo;
 5.  undefined
 ```
 
@@ -7081,10 +7078,10 @@ a ReferenceError will be raised. But the typeof operator will return
 &quot;undefined&quot;:
 
 ```
-1.  &gt; bar;
+1.  > bar;
 2.  ReferenceError
 3.   
-4.  &gt; typeof bar;
+4.  > typeof bar;
 5.  'undefined'
 ```
 
@@ -7093,19 +7090,19 @@ a ReferenceError will be raised. But the typeof operator will return
 The logical operators are: 
 
 -   <b>&&</b> (AND)  
-    usage example : <b>if ((x  &gt; 0) && (x &lt; 10)) {</b>
+    usage example : <b>if ((x  > 0) && (x &lt; 10)) {</b>
     <b>                 console.log(&apos;x is strictly positive and less
     than 10&apos;);</b>
     <b>             }</b>
 
 -   <b>&vert;&vert;</b> (OR)
-    usage  example : <b>if ((x  &gt; 0) &vert;&vert; (x == -5)) { </b>
+    usage  example : <b>if ((x  > 0) &vert;&vert; (x == -5)) { </b>
     <b>                 console.log(&apos;x is positive or equal to
     -5&apos;); </b>
     <b>             }</b>
 
 -   <b>!</b> (NOT)
-    usage example : <b>if (!(x  &gt; 0)) { </b>
+    usage example : <b>if (!(x  > 0)) { </b>
     <b>                 console.log(&apos;x is not positive (x is less or
     equal to 0&apos;); </b>
     <b>             }</b>
@@ -7119,10 +7116,10 @@ The logical operators are: 
 4.  var b = !!true;
 5.  b; //true
 6.   
-7.  var b = &quot;one&quot;; 
-8.  !b;   false // implicit conversion of &quot;one&quot; to a boolean value
+7.  var b = "one"; 
+8.  !b;   false // implicit conversion of "one" to a boolean value
 9.   
-10. var b = &quot;one&quot;; // implicit conversion of &quot;one&quot; to a boolean value
+10. var b = "one"; // implicit conversion of "one" to a boolean value
 11. !!b; //true
 ```
 
@@ -7184,8 +7181,10 @@ are implicitly converted to booleans</b>.  
 
 <b>Everything else is evaluated as true!</b>
 
-1.  var boo = &apos;hello&apos; && &apos;world&apos;; // boo is equal to &apos;world&apos; that
-    is &apos;true&apos;.
+```
+1.  var boo = 'hello' && 'world'; // boo is equal to 'world' that
+    is 'true'.
+```
 
 In the above example, &apos;hello&apos; && &apos;world&apos; is evaluated as true but
 will return a value! Indeed, boo will equal &apos;world&apos; because
@@ -7210,7 +7209,7 @@ real value affected is not true false, it&apos;s one of the operands, that
 can be seen as true/false.</b>
 
 ```
-1.  <b>var boo2 = (0/0) &vert;&vert; 43.2 ;</b>
+1.  **var boo2 = (0/0) || 43.2 ;**
 ```
 
  boo2 equals 43.2 because the expression 0/0 equals NaN, which is
@@ -7228,7 +7227,7 @@ if(myNumber == null){
    myNumber = 3;
 }
  
-myNumber = myNumber &vert;&vert; 2;
+myNumber = myNumber || 2;
 ```
 
 <b>Explanation</b>: after the first line, myNumber equals false. In
@@ -7243,9 +7242,9 @@ variable myNumber.
 
 -   Not equal <b>!=</b>
 
--   Greater than <b>&gt;</b>
+-   Greater than <b>></b>
 
--   Greater than or equal <b>&gt;=</b>
+-   Greater than or equal <b>>=</b>
 
 -   Less than <b>&lt;</b>
 
@@ -7280,8 +7279,8 @@ Some examples :
 1 == 2 ;
 //false
  
-/&ast; Here, the interpreter will try to convert the string '1'
-into a number before doing the comparison &ast;/
+/* Here, the interpreter will try to convert the string '1'
+into a number before doing the comparison */
  
 1 == '1';
 //true :
@@ -7360,13 +7359,13 @@ if(isNaN(num)){
 var num = isNaN(num) ? 0 : num
  
 //version with logical operator (implicit conversion)
-var num = num &vert;&vert; 0;
+var num = num || 0;
  
-/&ast;
-   &lt;=&gt; num = NaN &vert;&vert; 0
+/*
+   <=> num = NaN || 0
  
-   &lt;=&gt; num = false &vert;&vert; 0
-&ast;/
+   <=> num = false || 0
+*/
  
 num;
 //returns 0 in this three cases
@@ -7378,9 +7377,6 @@ appear, for example:
 -   parseInt(&apos;foo&apos;);  returns NaN   //parseInt tries to convert a
     String to a Number 
 
-```{=html}
-<!-- -->
-```
 -   Math.sqrt(-1); return NaN 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7556,16 +7552,14 @@ commented - please remove comments and try to understand the results).
 
 <b>Syntax:</b>
 
-```
-<b>if</b> ( Expression ) Statement <b>else</b> Statement
-<b>if</b> ( Expression ) Statement
-<b>The expression may include:</b>
-```
+```**if** ( Expression ) Statement **else** Statement
+**if** ( Expression ) Statement
+**The expression may include:**```
 
 -   logical operators ( <b>! && &vert;&vert;</b> )
 
 -   comparison operators
-    ( <b>==</b>, **===**, **&gt;**, **&gt;=**, **&lt;**, **&lt;=** )
+    ( <b>==</b>, **===**, **>**, **>=**, **&lt;**, **&lt;=** )
 
 -   any values or expressions which can be converted to boolean
 
@@ -7583,7 +7577,7 @@ commented - please remove comments and try to understand the results).
 
 ```
 1.  var num = 10;
-2.  **if** (num &gt; 10) **{**
+2.  **if** (num >; 10) **{**
 3.  num = 20;
 4.  **}** **else** **{**
 5.  num = 0;
@@ -7619,7 +7613,7 @@ Let&apos;s look at this code example:
 ```
 1.  var max;
 2.  var min = 2;
-3.  if (min &lt; 10) {
+3.  if (min < 10) {
 4.  max = min + 10;
 5.  } else {
 6.  max = min;
@@ -7632,7 +7626,7 @@ the ternary operator that uses a syntax with &quot;?&quot; and &quot;:&quot;
 ```
 1.  var max;
 2.  var min;
-3.  max = (min &lt; 10)? min+10 : min;
+3.  max = (min < 10)? min+10 : min;
 ```
 
 **Line 3** can be read as if (min &lt; 10) then max = min+10, else max =
@@ -7654,7 +7648,7 @@ Here are two versions of the same code.
 **Version 1: **no curly braces
 
 ```
-1.  **if** (a &gt; 2)
+1.  **if** (a > 2)
 2.      result = 'a is bigger than 2';
 3.  **else**
 4.      result = 'a is not bigger than 2';
@@ -7664,7 +7658,7 @@ Here are two versions of the same code.
 &quot;else&quot; blocks
 
 ```
-1.  **if** (a &gt; 2) **{**
+1.  **if** (a > 2) **{**
 2.  result = 'a is bigger than 2';
 3.  **} else {**
 4.  result = 'a is not bigger than 2';
@@ -7807,18 +7801,18 @@ height="2.0659722222222223in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;3 ways to do conditional statements&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;/&gt;
-&lt;/head&gt;
-&lt;body&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<title>3 ways to do conditional statements</title>
+<meta charset=&quot;utf-8&quot;/>
+</head>
+<body>
 Look at the js code from this example!
 And do not forget to open the devtool
 console to see the outputs.
-&lt;/body&gt;
-&lt;/html&gt;
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -7857,9 +7851,9 @@ default:
 bar3 ='something';
 }
 //now we print results :
-console.log('example1,&#92;n bar1 &gt;&gt; ' + bar1);
-console.log('example2,&#92;n bar2 &gt;&gt; ' + bar2);
-console.log('example3,&#92;n bar3 &gt;&gt; ' + bar3);
+console.log('example1,&#92;n bar1 >> ' + bar1);
+console.log('example2,&#92;n bar2 >> ' + bar2);
+console.log('example3,&#92;n bar3 >> ' + bar3);
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8032,7 +8026,7 @@ Typical example of a while statement:
 ```
 1.  var i = 1, j = 1;
 2.   
-3.  **while ( i &lt; 4 ) {**
+3.  **while ( i < 4 ) {**
 4.      j += i;
 5.      i += 1; 
 6.  **}**
@@ -8058,7 +8052,7 @@ times:
     -   We execute **line 5** and increment i by one. The variable i is
         now equal to 2.
 
-    -    We go back to the while at **line 3**. Is i &lt; 4? Yes, we
+    -    We go back to the while at **line 3**. Is i < 4? Yes, we
         execute lines 3 and 4 again.
 
 -   **Run 2:**
@@ -8067,7 +8061,7 @@ times:
         &quot;new i value&quot;, so j = 2 + 2 = 4, i has been incremented and is
         now equal to 3.
 
-    -   We go back to the while at **line 3**. Is i &lt; 4? Yes, we
+    -   We go back to the while at **line 3**. Is i < 4? Yes, we
         execute lines 3 and 4 again.
 
 -   **Run 3:**
@@ -8076,13 +8070,13 @@ times:
         &quot;new i value&quot;, so j = 4 + 3 = 7, i has been incremented and is
         now equal to 4.
 
-    -   We go back to the while at **line 3**. Is i &lt; 4? No! The value
+    -   We go back to the while at **line 3**. Is i < 4? No! The value
         of i is now 4, which is not less than 4. We continue
         the execution of the program at line 7 with i = 4 and j = 7.
 
 Of course, if the condition never evaluates to false, the block will be
 executed infinitely until the machine crashes&hellip; a test like while (i
-&gt; 0) { &hellip;..} will never stop and will eat all the CPU.
+> 0) { &hellip;..} will never stop and will eat all the CPU.
 
 Try this example now
 with [slowmoJS](https://toolness.github.io/slowmo-js/?code=var%20i%20%3D%201%2C%20j%20%3D%201%3B%0A%20%0Awhile%20(%20i%20%3C%204%20)%20%7B%0A%20%20%20%20j%20%3D%20j%20%2B%20i%3B%0A%20%20%20%20i%20%3D%20i%20%2B%201%3B%20%0A%7D&filterrange=65-65)!
@@ -8102,7 +8096,7 @@ Typical example:
 3.  **do {**
 4.  **    console.log('i = ' + i);**
 5.      i++;
-6.  **} while(i &lt; 20);**
+6.  **} while(i < 20);**
 7.   
 8.  console.log('Value of i after the do-while statement: ' + i);
 ```
@@ -8136,7 +8130,7 @@ condition is omitted, it is replaced by true (infinite loop).
 Typical example (counting from 0 to 10):
 
 ```
-1.  for (var i = 0; i &lt;= 10; i++) {
+1.  for (var i = 0; i <= 10; i++) {
 2.    console.log('i = ' + i);
 3.  }
 ```
@@ -8146,14 +8140,14 @@ We can have more than one instruction in the &quot;initialization part&quot;
 part&quot; (i++). Here is another example:
 
 ```
-1.  for (**var i = 1, j = 1;** i &lt;= 10;** i++, j+=2**) {
+1.  for (**var i = 1, j = 1;** i <= 10;** i++, j+=2**) {
 2.  console.log('i = ' + i + ' j = ' + j);
 3.  }
 ```
 
 In this example, two variables are defined and assigned within the
 initialization expression. Before each execution of the block statement,
-the condition is checked; here we need i &lt;=10. After each execution of
+the condition is checked; here we need i <=10. After each execution of
 the block statement, the incremental expression is executed to increment
 the variables i by 1 and j by 2.
 
@@ -8187,7 +8181,7 @@ Typical example:
 10.     console.log(property);      // will print &quot;familyName&quot;,
 11.                                 // &quot;givenName&quot;,
 12.                                 // &quot;age&quot;
-13.     console.log(michel&lbrack;property&rbrack;);  // michel&lbrack;'givenName'&rbrack;  same 
+13.     console.log(michel[property]);  // michel['givenName']  same 
 14.                                     // as michel.givenName
 15. **}**
 ```
@@ -8210,7 +8204,7 @@ statement is that the loop continues.
 Syntax:
 
 ```
-1.  continue &lbrack;label&rbrack;
+1.  continue [label]
 ```
 
 The label is optional.
@@ -8218,13 +8212,13 @@ The label is optional.
 Typical example:
 
 ```
-for(var i = 1, k = 0; i &lt; 5; i++) {
+for(var i = 1, k = 0; i < 5; i++) {
     if (i === 3) {
         continue;
     }
  
     k += 2&ast;i;
-    console.log('k += ' + (2&ast;i));
+    console.log('k += ' + (2*i));
 }
 console.log('Final k value:' + k)
 ```
@@ -8243,23 +8237,23 @@ statement.
 Syntax:
 
 ```
-1.  break &lbrack;label&rbrack;
+1.  break [label]
 ```
 
 Typical example:
 
 ```
-var tab = &lbrack;'michel', 'john', 'donald', 'paul'&rbrack;; // johh at
+var tab = ['michel', 'john', 'donald', 'paul']; // johh at
 index = 1
  
 function isNameInTheArray(name, theArray) {
-    console.log(&quot;Number of elements in the array :
-&quot; + theArray.length);
-    for(var i=0; i &lt; theArray.length; i++) {
+    console.log("Number of elements in the array :
+" + theArray.length);
+    for(var i=0; i < theArray.length; i++) {
         console.log('comparing with element in the array at pos
 ' + i);
  
-        if(theArray&lbrack;i&rbrack; === name) {
+        if(theArray[i] === name) {
            console.log('the name ' + name +
                        ' is in the array at pos: ' + i);
            break;
@@ -8386,15 +8380,15 @@ height="2.0659722222222223in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!doctype html&gt;
-&lt;html&gt;
-&lt;head lang=&quot;en&quot;&gt;
-&lt;title&gt;Functions declaration - Part 1&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!doctype html>
+<html>
+<head lang=&quot;en&quot;>
+<title>Functions declaration - Part 1</title>
+<meta charset=&quot;utf-8&quot;>
+</head>
+<body>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -8406,7 +8400,7 @@ return (a + b);
 }
 function displayInPage(message, value) {
 // this function does not return anything
-document.body.innerHTML += message + value + &quot;&lt;br&gt;&quot;;
+document.body.innerHTML += message + value + &quot;<br>&quot;;
 }
 var result = sum(3, 4);
 displayInPage(&quot;Result: &quot;, result);
@@ -8430,15 +8424,15 @@ height="2.272222222222222in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!doctype html&gt;
-&lt;html&gt;
-&lt;head lang=&quot;en&quot;&gt;
-&lt;title&gt;Function expressions - Part 2&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!doctype html>
+<html>
+<head lang=&quot;en&quot;>
+<title>Function expressions - Part 2</title>
+<meta charset=&quot;utf-8&quot;>
+</head>
+<body>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -8449,7 +8443,7 @@ return (a + b);
 };
 var displayInPage = function(message, value) {
 // this function does not return anything
-document.body.innerHTML += message + value + &quot;&lt;br&gt;&quot;;
+document.body.innerHTML += message + value + &quot;<br>&quot;;
 };
 var result = sum(3, 4);
 displayInPage(&quot;Result: &quot;, result);
@@ -8492,16 +8486,16 @@ height="2.588888888888889in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!doctype html&gt;
-&lt;html&gt;
-&lt;head lang=&quot;en&quot;&gt;
-&lt;title&gt;Callback functions&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;Click in the page!&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!doctype html>
+<html>
+<head lang=&quot;en&quot;>
+<title>Callback functions</title>
+<meta charset=&quot;utf-8&quot;>
+</head>
+<body>
+<p>Click in the page!</p>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -8513,12 +8507,12 @@ height="2.588888888888889in"}
 // is detected
 window.addEventListener('click', processClick);
 function processClick(event) {
-document.body.innerHTML += &quot;Button clicked&lt;br&gt;&quot;;
+document.body.innerHTML += &quot;Button clicked<br>&quot;;
 }
 // We could have written this, with the body of the callback as an
 argument of the addEventListener function
 window.addEventListener('click', function(evt) {
-document.body.innerHTML += &quot;Button clicked version 2&lt;br&gt;&quot;;
+document.body.innerHTML += &quot;Button clicked version 2<br>&quot;;
 });
 ```
 
@@ -8545,16 +8539,16 @@ height="2.0861111111111112in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Mouse over&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;/&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button&gt;Put the mouse cursor over me&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<title>Mouse over</title>
+<meta charset=&quot;utf-8&quot;/>
+</head>
+<body>
+<button>Put the mouse cursor over me</button>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -8617,7 +8611,7 @@ So, let&apos;s see this example&hellip; I&apos;m going to comment the first exam
 and this time, instead of just adding as an argument the name of the
 callback, we directly put the body of the callback.
 
-&lt;so a function&hellip; and we don&apos;t have to indicate a name: it&apos;s an
+<so a function&hellip; and we don&apos;t have to indicate a name: it&apos;s an
 anonymous function, an anonymous callback. So, when we click on the
 page, we will execute this callback that is located exactly as the
 second argument.
@@ -8726,11 +8720,11 @@ listens to &quot;click&quot; events on any part of the window (clicks anywhere
 on a web document will be processed by this event handler):
 
 ```
-&lt;script&gt;
+<script>
     addEventListener('click', function(evt) {
         document.body.innerHTML += 'Button clicked!';
     });
-&lt;/script&gt;
+</script>
 ```
 
 <h4>Try it below by clicking anywhere on the document:</h4>
@@ -8741,21 +8735,21 @@ height="2.0770833333333334in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;First example of an event listener&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;script&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<title>First example of an event listener</title>
+<meta charset=&quot;utf-8&quot;>
+<script>
 addEventListener('click', function(evt) {
-document.body.innerHTML += &quot;Button clicked!&lt;br&gt;&quot;;
+document.body.innerHTML += &quot;Button clicked!<br>&quot;;
 });
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;Click anywhere on this page&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</script>
+</head>
+<body>
+<p>Click anywhere on this page</p>
+</body>
+</html>
 ```
 
 The addEventListener function is one possible syntax for registering a
@@ -8781,11 +8775,11 @@ the addEventListener function.
 In other words, this:
 
 ```
-1.  &lt;script&gt;
+1.  <script>
 2.  addEventListener('click', **function(evt) {**
 3.      **document.body.innerHTML += 'Button clicked!';**
 4.  **}**);
-5.  &lt;/script&gt;
+5.  </script>
 ```
 
 &hellip; is the same as this (the function called when a click occurs has
@@ -8793,13 +8787,13 @@ its body &quot;outside&quot; of the addEventListener parameters, and we use it
 name as the second parameter):
 
 ```
-1.  &lt;script&gt;
+1.  <script>
 2.  addEventListener('click',** processClick**);
 3.  
 4.  function** processClick**(evt) {
 5.      console.log(&quot;Button clicked!&quot;);
 6.  }
-7.  &lt;/script&gt;
+7.  </script>
 ```
 
 #### Adding an event listener to specific HTML elements
@@ -8817,23 +8811,23 @@ height="2.0701388888888888in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Second example of an event listener&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button id=&quot;myButton&quot;&gt;Click me!&lt;/button&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;script&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<title>Second example of an event listener</title>
+<meta charset=&quot;utf-8&quot;>
+</head>
+<body>
+<button id=&quot;myButton&quot;>Click me!</button>
+<p></p>
+<script>
 var b = document.querySelector(&quot;#myButton&quot;);
 b.addEventListener('click', function(evt) {
 alert(&quot;Button clicked&quot;);
 });
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</script>
+</body>
+</html>
 ```
 
 In this example, instead of using the addEventListener method directly,
@@ -8864,29 +8858,29 @@ height="2.104861111111111in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Third example of an event listener&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;script&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<title>Third example of an event listener</title>
+<meta charset=&quot;utf-8&quot;>
+<script>
 function processClick(evt) {
 alert(&quot;Button clicked&quot;);
 };
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button id=&quot;myButton&quot; onclick=&quot;processClick(event);&quot;&gt;Click
-me!&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</script>
+</head>
+<body>
+<button id=&quot;myButton&quot; onclick=&quot;processClick(event);&quot;>Click
+me!</button>
+</body>
+</html>
 ```
 
 This syntax:
 
 ```
-1.  &lt;button id=&quot;myButton&quot; **onclick=&quot;processClick(event);**&quot;&gt;Click
-    me!&lt;/button&gt;
+1.  <button id=&quot;myButton&quot; **onclick=&quot;processClick(event);**&quot;>Click
+    me!</button>
 ```
 
 &hellip; is ok when you only need a single event listener to click events
@@ -8915,16 +8909,16 @@ height="2.0909722222222222in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Removing an event listener&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button id=&quot;myButton&quot;&gt;Click me, this will work only once!&lt;/button&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;script&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<title>Removing an event listener</title>
+<meta charset=&quot;utf-8&quot;>
+</head>
+<body>
+<button id=&quot;myButton&quot;>Click me, this will work only once!</button>
+<p></p>
+<script>
 var b = document.querySelector(&quot;#myButton&quot;);
 b.addEventListener('click', processClick);
 function processClick(evt) {
@@ -8932,9 +8926,9 @@ alert(&quot;Button clicked, event listener removed, try to click on the
 button again: nothing will happen anymore!&quot;);
 b.removeEventListener('click', processClick);
 }
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</script>
+</body>
+</html>
 ```
 
 Note that to remove an event listener, you should have added it with its
@@ -9136,7 +9130,7 @@ canvas size, for example).
 
 #### Example 1: wait until the page is loaded (when the DOM is ready) before doing something
 
-This first variant that uses &lt;body onload=&quot;init();&quot;&gt;
+This first variant that uses <body onload=&quot;init();&quot;>
 
 ![](./images/image161.png){width="6.5in"
 height="2.0701388888888888in"}
@@ -9144,24 +9138,24 @@ height="2.0701388888888888in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example1 of the 'load' event&lt;/title&gt;
-&lt;/head&gt;
-&lt;body onload='init();'&gt;
-&lt;p&gt;This page uses &lt;code&gt;&lt;body onload='init();'&gt;&lt;/code&gt; in
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>Example1 of the 'load' event</title>
+</head>
+<body onload='init();'>
+<p>This page uses <code><body onload='init();'></code> in
   the JS code to execute the init function ONLY WHEN THE PAGE HAS BEEN
-  LOADED!&lt;/p&gt;
-&lt;p&gt;This is important as very often we cannot do important things
+  LOADED!</p>
+<p>This is important as very often we cannot do important things
   before the DOM is ready (all HTML elements have been created and can be
-  manipulated from JavaScript).&lt;/p&gt;
-&lt;p&gt;PAGE STATUS: &lt;span id=&quot;pageStatus&quot;&gt;NOT LOADED
-  YET&lt;/span&gt;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+  manipulated from JavaScript).</p>
+<p>PAGE STATUS: <span id=&quot;pageStatus&quot;>NOT LOADED
+  YET</span></p>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -9194,24 +9188,24 @@ height="2.0701388888888888in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example 2 of the 'load' event&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;This page uses &lt;code&gt;window.onload = init;&lt;/code&gt; in the JS
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>Example 2 of the 'load' event</title>
+</head>
+<body>
+<p>This page uses <code>window.onload = init;</code> in the JS
   code to execute the init function ONLY WHEN THE PAGE HAS BEEN
-  LOADED!&lt;/p&gt;
-&lt;p&gt;This is important as very often we cannot do important things
+  LOADED!</p>
+<p>This is important as very often we cannot do important things
   before the DOM is ready (all HTML elements have been created and can be
-  manipulated from JavaScript).&lt;/p&gt;
-&lt;p&gt;PAGE STATUS: &lt;span id=&quot;pageStatus&quot;&gt;NOT LOADED
-  YET&lt;/span&gt;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+  manipulated from JavaScript).</p>
+<p>PAGE STATUS: <span id=&quot;pageStatus&quot;>NOT LOADED
+  YET</span></p>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -9251,21 +9245,21 @@ height="2.0631944444444446in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example1 of the 'resize' event&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;This page uses &lt;code&gt;window.onresize = resize;&lt;/code&gt; in the JS
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>Example1 of the 'resize' event</title>
+</head>
+<body>
+<p>This page uses <code>window.onresize = resize;</code> in the JS
   code to execute the resize function. Try to change the size of your
-  window now!&lt;/p&gt;
-&lt;p&gt;Curent page size: &lt;span id=&quot;pageSize&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Screen size: &lt;span id=&quot;screenSize&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+  window now!</p>
+<p>Curent page size: <span id=&quot;pageSize&quot;></span></p>
+<p>Screen size: <span id=&quot;screenSize&quot;></span></p>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -9302,22 +9296,22 @@ height="2.0701388888888888in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example of the 'scroll' event&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;progress&quot;&gt;
-&lt;div&gt;Percentage&lt;/div&gt;
-&lt;/div&gt;
-&lt;p id=&quot;text&quot;&gt;Scroll me and the progress bar on the right will show
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>Example of the 'scroll' event</title>
+</head>
+<body>
+<div class=&quot;progress&quot;>
+<div>Percentage</div>
+</div>
+<p id=&quot;text&quot;>Scroll me and the progress bar on the right will show
 the percentage of scroll. Look also at the CSS
-code (body is 2000px height, for example)&hellip;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+code (body is 2000px height, for example)&hellip;</p>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -9329,7 +9323,7 @@ width: 100px;
 position: fixed;
 top: 10px; right: 10px;
 }
-.progress &gt; div {
+.progress > div {
 height: 12px;
 background: lightBlue;
 width: 0%;
@@ -9418,19 +9412,19 @@ height="2.0631944444444446in"}
 <h4>HTML:</h4>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example of the 'keyup' and 'keydown' events on the window
-  object&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;Please type some keys and see what happens&lt;/p&gt;
-&lt;div id=&quot;keys&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>Example of the 'keyup' and 'keydown' events on the window
+  object</title>
+</head>
+<body>
+<p>Please type some keys and see what happens</p>
+<div id=&quot;keys&quot;></div>
+</body>
+</html>
 ```
 
 <h4>JS:</h4>
@@ -9445,12 +9439,12 @@ window.addEventListener('keydown', processKeyDown);
 function processKeyUp(evt) {
 var keys = document.querySelector('#keys');
 keys.innerHTML += &quot;keyup: &quot; + evt.key + &quot; code: &quot; + evt.keyCode +
-  &quot;&lt;br&gt;&quot;;
+  &quot;<br>&quot;;
 }
 function processKeyDown(evt) {
 var keys = document.querySelector('#keys');
 keys.innerHTML += &quot;keydown: &quot; + evt.key + &quot; code: &quot; + evt.keyCode +
-&quot;&lt;br&gt;&quot;;
+&quot;<br>&quot;;
 }
 ```
 
@@ -9471,20 +9465,20 @@ height="2.0770833333333334in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example of the 'keypress' event on the window object, awith
-  shift, meta and alt&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;Please type some keys and see what happens. Try typing key
-  modifiers at the same time: shift, alt, control&lt;/p&gt;
-&lt;div id=&quot;keys&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>Example of the 'keypress' event on the window object, awith
+  shift, meta and alt</title>
+</head>
+<body>
+<p>Please type some keys and see what happens. Try typing key
+  modifiers at the same time: shift, alt, control</p>
+<div id=&quot;keys&quot;></div>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -9507,7 +9501,7 @@ if(event.ctrlKey)
 modifiers += &quot;CTRL &quot;;
 if(modifiers === &quot;&quot;)
 modifiers = &quot;NONE&quot;;
-keys.innerHTML += modifiers + &quot;&lt;br&gt;&quot;;
+keys.innerHTML += modifiers + &quot;<br>&quot;;
 }
 ```
 
@@ -9650,29 +9644,29 @@ height="2.5652777777777778in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;key and keyCode&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;/&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;Press some keys on your keyboard and see the corresponding evt.key
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<title>key and keyCode</title>
+<meta charset=&quot;utf-8&quot;/>
+</head>
+<body>
+<p>Press some keys on your keyboard and see the corresponding evt.key
   and evt.code values. If you are not using a QWERTY keyboard, notice that
   the values might be different. This is because an 'a' on an AZERTY
   keyboard, will correspond to the KeyQ code on the reference
-  keyboard.&lt;/p&gt;
-&lt;p&gt; You typed:&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+  keyboard.</p>
+<p> You typed:</p>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
 
 ```
 window.onkeydown = function(evt) {
-document.body.innerHTML += &quot;key = &quot; + evt.key + &quot;&lt;br&gt;&quot;;
-document.body.innerHTML += &quot;code = &quot; + evt.code + &quot;&lt;br&gt;&lt;br&gt;&quot;;
+document.body.innerHTML += &quot;key = &quot; + evt.key + &quot;<br>&quot;;
+document.body.innerHTML += &quot;code = &quot; + evt.code + &quot;<br><br>&quot;;
 }
 ```
 
@@ -9742,21 +9736,21 @@ height="2.0631944444444446in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;detect mouse clicks on elements&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button id=&quot;button1&quot;
-  onclick=&quot;processClick(event)&quot;&gt;Button1&lt;/button&gt;
-&lt;div id=&quot;myDiv&quot; onclick=&quot;processClick(event)&quot;&gt;Click also on this
-  div!&lt;/div&gt;
-&lt;div id=&quot;clicks&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>detect mouse clicks on elements</title>
+</head>
+<body>
+<button id=&quot;button1&quot;
+  onclick=&quot;processClick(event)&quot;>Button1</button>
+<div id=&quot;myDiv&quot; onclick=&quot;processClick(event)&quot;>Click also on this
+  div!</div>
+<div id=&quot;clicks&quot;></div>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -9781,9 +9775,9 @@ var clicks = document.querySelector('#clicks');
 var target = evt.target.id;
 if(target === &quot;&quot;) {
 clicks.innerHTML += &quot;You clicked on the window, not on a particular
-  element!&lt;br&gt;&quot;;
+  element!<br>&quot;;
 } else {
-clicks.innerHTML += &quot;Element clicked id: &quot; + target + &quot;&lt;br&gt;&quot;;
+clicks.innerHTML += &quot;Element clicked id: &quot; + target + &quot;<br>&quot;;
 }
 evt.stopPropagation(); // try commenting it and click on the button or
 div
@@ -9806,43 +9800,43 @@ height="2.0701388888888888in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;script
-  src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;&gt;&lt;/script&gt;
-&lt;meta charset=utf-8 /&gt;
-&lt;title&gt;client - page - screen&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td&gt;Mouse position inside:&lt;/td&gt;
-&lt;td&gt;X &nbsp;&nbsp;&nbsp; Y&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;- client:&lt;/td&gt;
-&lt;td id=&quot;client&quot;&gt;&lt;/td&gt;
-&lt;td&gt;Client Viewport&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;- page:&lt;/td&gt;
-&lt;td id=&quot;page&quot;&gt;&lt;/td&gt;
-&lt;td&gt;Document Page (scroll down to see the difference)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;(scrollTop:&lt;/td&gt;
-&lt;td id=&quot;scrollTop&quot;&gt;&lt;/td&gt;
-&lt;td&gt;Scroll top &lbrack;pageY-clientY&rbrack; )&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;- screen:&lt;/td&gt;
-&lt;td id=&quot;screen&quot;&gt;&lt;/td&gt;
-&lt;td&gt;Screen&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<script
+  src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;></script>
+<meta charset=utf-8 />
+<title>client - page - screen</title>
+</head>
+<body>
+<table>
+<tr>
+<td>Mouse position inside:</td>
+<td>X &nbsp;&nbsp;&nbsp; Y</td>
+</tr>
+<tr>
+<td>- client:</td>
+<td id=&quot;client&quot;></td>
+<td>Client Viewport</td>
+</tr>
+<tr>
+<td>- page:</td>
+<td id=&quot;page&quot;></td>
+<td>Document Page (scroll down to see the difference)</td>
+</tr>
+<tr>
+<td>(scrollTop:</td>
+<td id=&quot;scrollTop&quot;></td>
+<td>Scroll top [pageY-clientY] )</td>
+</tr>
+<tr>
+<td>- screen:</td>
+<td id=&quot;screen&quot;></td>
+<td>Screen</td>
+</tr>
+</table>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -9872,10 +9866,10 @@ background:#ddd;
 <h5>JS:</h5>
 
 ```
-var m = &lbrack;'client','page','screen'&rbrack;; // mods
+var m = ['client','page','screen']; // mods
 &dollar;(document).mousemove(function(e){
-for(var i=0; i&lt;3; i++){
-&dollar;('#'+m&lbrack;i&rbrack;).text((e&lbrack;m&lbrack;i&rbrack;+'X'&rbrack;)+' '+ (e&lbrack;m&lbrack;i&rbrack;+'Y'&rbrack;));
+for(var i=0; i<3; i++){
+&dollar;('#'+m[i]).text((e[m[i]+'X'])+' '+ (e[m[i]+'Y']));
 }
 &dollar;('#scrollTop').text(
 &dollar;('html, body').scrollTop()
@@ -9891,21 +9885,21 @@ height="2.0631944444444446in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;mousemove events relative to page&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Please move the mouse on this window!&quot;&lt;/h1&gt;
-&lt;div id=&quot;mousePositions&quot;&gt;&lt;/div&gt;
-&lt;p&gt;Yep! The above values are the same when we're listening on the
-  window and we did not scrolled the page!&lt;/p&gt;
-&lt;div id=&quot;mouseScreenPositions&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>mousemove events relative to page</title>
+</head>
+<body>
+<h1>Please move the mouse on this window!&quot;</h1>
+<div id=&quot;mousePositions&quot;></div>
+<p>Yep! The above values are the same when we're listening on the
+  window and we did not scrolled the page!</p>
+<div id=&quot;mouseScreenPositions&quot;></div>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -9915,15 +9909,15 @@ window.onmousemove = processMouseMouve;
 function processMouseMouve(evt) {
 var mousePositions = document.querySelector('#mousePositions');
 mousePositions.innerHTML = &quot;clientX: &quot; + evt.clientX +
-&quot; clientY: &quot; + evt.clientY + &quot;&lt;br&gt;&quot; +
+&quot; clientY: &quot; + evt.clientY + &quot;<br>&quot; +
 &quot; pageX : &quot; + evt.pageX +
 &quot; pageY : &quot; + evt.pageY +
-&quot;&lt;br&gt;&quot;;
+&quot;<br>&quot;;
 var mouseScreenPositions =
   document.querySelector('#mouseScreenPositions');
 mouseScreenPositions.innerHTML = &quot;screenX: &quot; + evt.screenX +
 &quot; screenY: &quot; + evt.screenY +
-&quot;&lt;br&gt;&quot;;
+&quot;<br>&quot;;
 }
 ```
 
@@ -9938,24 +9932,24 @@ height="2.0722222222222224in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;mousemove events relative to page&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Please move the mouse on the grey canvas below!&lt;/h1&gt;
-&lt;p&gt;The mouse position is not correct (try to move the cursor at the
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>mousemove events relative to page</title>
+</head>
+<body>
+<h1>Please move the mouse on the grey canvas below!</h1>
+<p>The mouse position is not correct (try to move the cursor at the
   top left corner of the cavas: it should be 0,0 but it isn't. And if you
   scroll the page it's worse). clientX and clientY cannot be used &quot;as
-  is&quot;.&lt;/p&gt;
-&lt;canvas id=&quot;myCanvas&quot; width=300 height=50&gt;&lt;/canvas&gt;
-&lt;div id=&quot;mousePositions&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;mouseScreenPositions&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+  is&quot;.</p>
+<canvas id=&quot;myCanvas&quot; width=300 height=50></canvas>
+<div id=&quot;mousePositions&quot;></div>
+<div id=&quot;mouseScreenPositions&quot;></div>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -9984,7 +9978,7 @@ function processMouseMouve(evt) {
 var mousePositions = document.querySelector('#mousePositions');
 mousePositions.innerHTML = &quot;mouse pos X: &quot; + evt.clientX +
 &quot; mouse pos Y: &quot; + evt.clientY +
-&quot;&lt;br&gt;&quot;
+&quot;<br>&quot;
 }
 ```
 
@@ -10002,22 +9996,22 @@ height="2.9541666666666666in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;mousemove events relative to page&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Please move the mouse on the grey canvas below!&lt;/h1&gt;
-&lt;p&gt;You'll see that there is a no more a problem: (0, 0) is now at the
-  top left corner of the canvas, even if we scroll the page!&lt;/p&gt;
-&lt;canvas id=&quot;myCanvas&quot; width=300 height=50&gt;&lt;/canvas&gt;
-&lt;div id=&quot;mousePositions&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;mouseScreenPositions&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>mousemove events relative to page</title>
+</head>
+<body>
+<h1>Please move the mouse on the grey canvas below!</h1>
+<p>You'll see that there is a no more a problem: (0, 0) is now at the
+  top left corner of the canvas, even if we scroll the page!</p>
+<canvas id=&quot;myCanvas&quot; width=300 height=50></canvas>
+<div id=&quot;mousePositions&quot;></div>
+<div id=&quot;mouseScreenPositions&quot;></div>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -10048,7 +10042,7 @@ var mouseX = evt.clientX - rect.left;
 var mouseY = evt.clientY - rect.top;
 mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
 &quot; mouse pos Y: &quot; + mouseY +
-&quot;&lt;br&gt;&quot;
+&quot;<br>&quot;
 }
 ```
 
@@ -10063,7 +10057,7 @@ function processMouseMouve(evt) {
 **    var mouseY = evt.clientY - rect.top;**
     mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
                                &quot; mouse pos Y: &quot; + mouseY +
-                               &quot;&lt;br&gt;&quot;
+                               &quot;<br>&quot;
 }
 ```
 
@@ -10075,18 +10069,18 @@ height="2.3618055555555557in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;mousemove events relative to page&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Please click and drag the div below.&lt;/h1&gt;
-&lt;div id=&quot;dragMe&quot; class='draggable'&gt;Drag me!&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>mousemove events relative to page</title>
+</head>
+<body>
+<h1>Please click and drag the div below.</h1>
+<div id=&quot;dragMe&quot; class='draggable'>Drag me!</div>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -10168,35 +10162,35 @@ height="2.7958333333333334in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;title&gt;Example of right click context menu in pure JS&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div&gt;
-&lt;nav id=&quot;context-menu&quot; class=&quot;context-menu&quot;&gt;
-&lt;ul class=&quot;context-menu&lowbar;&lowbar;items&quot;&gt;
-&lt;li class=&quot;context-menu&lowbar;&lowbar;item&quot; id=&quot;context-menu-learn&quot;
-  onclick=&quot;menuItem1();&quot;&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<title>Example of right click context menu in pure JS</title>
+</head>
+<body>
+<div>
+<nav id=&quot;context-menu&quot; class=&quot;context-menu&quot;>
+<ul class=&quot;context-menu&lowbar;&lowbar;items&quot;>
+<li class=&quot;context-menu&lowbar;&lowbar;item&quot; id=&quot;context-menu-learn&quot;
+  onclick=&quot;menuItem1();&quot;>
 Learn
-&lt;/li&gt;
-&lt;li class=&quot;context-menu&lowbar;&lowbar;item&quot; onclick=&quot;menuItem2();&quot;&gt;
+</li>
+<li class=&quot;context-menu&lowbar;&lowbar;item&quot; onclick=&quot;menuItem2();&quot;>
 Clear
-&lt;/li&gt;
-&lt;li class=&quot;context-menu&lowbar;&lowbar;item&quot; onclick=&quot;toggleMenuOff();&quot;&gt;
+</li>
+<li class=&quot;context-menu&lowbar;&lowbar;item&quot; onclick=&quot;toggleMenuOff();&quot;>
 Close
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-&lt;p&gt;Try to right click on this div:&lt;/p&gt;
-&lt;div id=&quot;div1&quot; class=&quot;div&quot;&gt;A Div with a context menu&lt;/div&gt;
-&lt;p&gt; This one does not have a context menu attached, try also a right click: &lt;/p&gt;
-&lt;div id=&quot;div2&quot; class=&quot;div&quot;&gt;Another Div without a context menu&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</li>
+</ul>
+</nav>
+</div>
+<p>Try to right click on this div:</p>
+<div id=&quot;div1&quot; class=&quot;div&quot;>A Div with a context menu</div>
+<p> This one does not have a context menu attached, try also a right click: </p>
+<div id=&quot;div2&quot; class=&quot;div&quot;>Another Div without a context menu</div>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
@@ -10299,12 +10293,12 @@ var menuWidth = menu.offsetWidth + 1;
 var menuHeight = menu.innerHeight + 1;
 var elementWidth = e.target.offsetWidth;
 var elementHeight = e.target.offsetHeight;
-if ((elementWidth - clickCoordsX) &lt; menuWidth) {
+if ((elementWidth - clickCoordsX) < menuWidth) {
 menu.style.left = elementWidth - menuWidth + &quot;px&quot;;
 } else {
 menu.style.left = clickCoordsX + &quot;px&quot;;
 }
-if ((elementHeight - clickCoordsY) &lt; menuHeight) {
+if ((elementHeight - clickCoordsY) < menuHeight) {
 menu.style.top = elementHeight - menuHeight + &quot;px&quot;;
 } else {
 menu.style.top = clickCoordsY + &quot;px&quot;;
@@ -10347,29 +10341,29 @@ height="2.4854166666666666in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Simple input field validation&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Simple input field validation using the 'input' event&lt;/h1&gt;
-&lt;p&gt;Just type a name in the input field and see what happens!&lt;/p&gt;
-&lt;label&gt;
-&lt;span&gt;Name (required):&lt;/span&gt;
-&lt;input type=&quot;text&quot;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>Simple input field validation</title>
+</head>
+<body>
+<h1>Simple input field validation using the 'input' event</h1>
+<p>Just type a name in the input field and see what happens!</p>
+<label>
+<span>Name (required):</span>
+<input type=&quot;text&quot;
 name=&quot;nom&quot;
 maxlength=&quot;32&quot;
 required
-oninput = &quot;validateName(this)&quot;&gt;
-&lt;/label&gt;
-&lt;p&gt;
-&lt;span id=&quot;nameTyped&quot;&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+oninput = &quot;validateName(this)&quot;>
+</label>
+<p>
+<span id=&quot;nameTyped&quot;></span>
+</p>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -10385,8 +10379,8 @@ output.innerHTML = &quot;Valid name: &quot; + name;
 // You can do validation here, set the input field to
 // invalid is the name contains forbidden characters
 // or is too short
-// for example, let's forbid names with length &lt; 5 chars
-if(name.length &lt; 5) {
+// for example, let's forbid names with length < 5 chars
+if(name.length < 5) {
 output.innerHTML = &quot;This name is too short (at least 5 chars)&quot;;
 }
 }
@@ -10400,30 +10394,30 @@ height="2.4784722222222224in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Simple input field validation using keyup events&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Simple input field validation using the 'input' event&lt;/h1&gt;
-&lt;p&gt;Just type a name in the input field and see what happens! &lt;span
-  style=&quot;color:red&quot;&gt; TRY TO TYPE A &quot;!&quot; too&lt;/span&gt;&lt;/p&gt;
-&lt;label&gt;
-&lt;span&gt;Name (required):&lt;/span&gt;
-&lt;input type=&quot;text&quot;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>Simple input field validation using keyup events</title>
+</head>
+<body>
+<h1>Simple input field validation using the 'input' event</h1>
+<p>Just type a name in the input field and see what happens! <span
+  style=&quot;color:red&quot;> TRY TO TYPE A &quot;!&quot; too</span></p>
+<label>
+<span>Name (required):</span>
+<input type=&quot;text&quot;
 name=&quot;nom&quot;
 maxlength=&quot;32&quot;
 required
-onkeyup = &quot;validateName(event)&quot;&gt;
-&lt;/label&gt;
-&lt;p&gt;
-&lt;span id=&quot;keyTyped&quot;&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+onkeyup = &quot;validateName(event)&quot;>
+</label>
+<p>
+<span id=&quot;keyTyped&quot;></span>
+</p>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -10439,7 +10433,7 @@ output.innerHTML = &quot;Valid key: &quot; + key;
 // You can do validation here, set the input field to
 // invalid is the name contains forbidden characters
 // or is too short
-// for example, let's forbid names with length &lt; 5 chars
+// for example, let's forbid names with length < 5 chars
 if(key === &quot;!&quot;) {
 output.innerHTML = &quot;This key is forbidden!&quot;;
 // remove the forbidden char
@@ -10468,29 +10462,29 @@ height="2.451388888888889in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;JavaScript slider use&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Simple &lt;code&gt;&lt;input type=range&gt;&lt;/code&gt; field validation
-  using the 'input' event&lt;/h1&gt;
-&lt;p&gt;Just move the slider&lt;/p&gt;
-&lt;label&gt;
-1 &lt;input type=&quot;range&quot;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>JavaScript slider use</title>
+</head>
+<body>
+<h1>Simple <code><input type=range></code> field validation
+  using the 'input' event</h1>
+<p>Just move the slider</p>
+<label>
+1 <input type=&quot;range&quot;
 min=1
 max=12
 step=0.1
-oninput = &quot;doSomething(event)&quot;&gt; 12
-&lt;/label&gt;
-&lt;p&gt;
-&lt;span id=&quot;sliderValue&quot;&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+oninput = &quot;doSomething(event)&quot;> 12
+</label>
+<p>
+<span id=&quot;sliderValue&quot;></span>
+</p>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -10514,34 +10508,34 @@ height="2.4923611111111112in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;JavaScript number input use&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Simple &lt;code&gt;&lt;input type=number&gt;&lt;/code&gt; field validation
-using the &apos;input&apos; event&lt;/h1&gt;
-&lt;p&gt;type a number or use the small vertical arrows&lt;/p&gt;
-&lt;label&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>JavaScript number input use</title>
+</head>
+<body>
+<h1>Simple <code><input type=number></code> field validation
+using the &apos;input&apos; event</h1>
+<p>type a number or use the small vertical arrows</p>
+<label>
 ```
 
 Type a number:
 
 ```
-&lt;input type=&quot;number&quot;
+<input type=&quot;number&quot;
 min=1
 max=12
 step=0.1
-oninput = &quot;doSomething(event)&quot;&gt;
-&lt;/label&gt;
-&lt;p&gt;
-&lt;span id=&quot;numberValue&quot;&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+oninput = &quot;doSomething(event)&quot;>
+</label>
+<p>
+<span id=&quot;numberValue&quot;></span>
+</p>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -10565,26 +10559,26 @@ height="2.0520833333333335in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;JavaScript color chooser use&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Simple &lt;code&gt;&lt;input type=color&gt;&lt;/code&gt; use&lt;/h1&gt;
-&lt;p&gt;Pick a color to change the background color of the page&lt;/p&gt;
-&lt;label&gt;
-&lt;input type=&quot;color&quot;
-onchange = &quot;changePageBackgroundColor(this.value);&quot;&gt;
-&lt;!&#45;- we could have used oninput= in the previous line &#45;-&gt;
-&lt;/label&gt;
-&lt;p&gt;
-&lt;span id=&quot;choosedColor&quot;&gt;&lt;/span&gt;
-&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>JavaScript color chooser use</title>
+</head>
+<body>
+<h1>Simple <code><input type=color></code> use</h1>
+<p>Pick a color to change the background color of the page</p>
+<label>
+<input type=&quot;color&quot;
+onchange = &quot;changePageBackgroundColor(this.value);&quot;>
+<!&#45;- we could have used oninput= in the previous line &#45;->
+</label>
+<p>
+<span id=&quot;choosedColor&quot;></span>
+</p>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -10627,8 +10621,8 @@ attach an event inline in your HTML code like this:
 
 <h4>**Method #1: declare an event handler in the HTML code**</h4>
 
-&lt;div id=&quot;someDiv&quot; **onclick**=&quot;alert(&apos;clicked!&apos;)&quot;&gt; content of
-the div &lt;/div&gt;
+<div id=&quot;someDiv&quot; **onclick**=&quot;alert(&apos;clicked!&apos;)&quot;> content of
+the div </div>
 
 This method is very easy to use, but it is not the recommended way to
 handle events. Indeed, although it currently works,
@@ -10848,8 +10842,8 @@ canvas size, for example).
            is typed on an input field, a slider is moved, etc.)
 
   change   The event occurs when the content of a form element, the
-           selection, or the checked state have changed (for &lt;input&gt;,
-           &lt;select&gt;, and &lt;textarea&gt;). A change event listener on a
+           selection, or the checked state have changed (for <input>,
+           <select>, and <textarea>). A change event listener on a
            slider will generate an event when the drag/move ended, while
            input events will be useful to do something as the slider is
            being moved.
@@ -10861,7 +10855,7 @@ canvas size, for example).
            clicks on another element)
 
   select   The event occurs after the user selects some text (for
-           &lt;input&gt; and &lt;textarea&gt;)
+           <input> and <textarea>)
 
   submit   The event occurs when a form is submitted
 
@@ -10947,23 +10941,23 @@ the Document Object Model (developers call it the &quot;DOM&quot;).
 Let&apos;s take, for example, a simplified version of the last HTML code we
 showed you:
 
-&lt;!DOCTYPE html&gt;
+<!DOCTYPE html&gt;
 
-&lt;html lang=&quot;en&quot;&gt;
+<html lang=&quot;en&quot;&gt;
 
-    &lt;head&gt;
+    <head&gt;
 
-        &lt;title&gt;Your first HTML page&lt;/title&gt;
+        <title&gt;Your first HTML page</title&gt;
 
-        &lt;meta charset=&quot;utf-8&quot;&gt;
+        <meta charset=&quot;utf-8&quot;&gt;
 
-    &lt;/head&gt;
+    </head&gt;
 
-    &lt;body&gt;
+    <body&gt;
 
-        &lt;h1&gt;My home page&lt;/h1&gt;
+        <h1&gt;My home page</h1&gt;
 
-        &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa,
+        <p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa,
 
 I&apos;m a professor at the University of Côte d&apos;Azur, in France,
 
@@ -10971,11 +10965,11 @@ and I&apos;m also the author
 
 of two other W3CX MOOCS.
 
-        &lt;/p&gt;
+        </p&gt;
 
-    &lt;/body&gt;
+    </body&gt;
 
-&lt;/html&gt;
+</html&gt;
 
 Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):
@@ -11615,10 +11609,10 @@ by this list:
 <h5>HTML code:</h5>
 
 ```
-1.  <button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);</b>&quot;>Change
+1.  <button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);**&quot;>Change
     backgrounds of p under a given element known by id</button>
 2.  <br>
-3.  <div <b>id=&quot;firstDiv&quot;</b>>
+3.  <div <b>id=&quot;firstDiv&quot;**>
 4.  <p>First paragraph.</p>
 5.  <p>Second paragraph.</p>
 6.  </div>
@@ -11642,7 +11636,7 @@ paragraphs (*line 6*).
 2.  var paragraphs = document.querySelectorAll(&quot;#&quot; + id + &quot; p&quot;);
 3.  // Another way to iterate on all elements in a collection
 4.  for (var i = 0; i < paragraphs.length; i++ ) {
-5.  paragraphs&lbrack;i&rbrack;.style.backgroundColor = &quot;lightGreen&quot;;
+5.  paragraphs[i].style.backgroundColor = &quot;lightGreen&quot;;
 6.  }
 7.  }
 ```
@@ -11802,7 +11796,7 @@ collection of class names:
 
 ```
 1.  var elem= document.querySelector(&quot;#id1&quot;);
-2.  var allClasses = elem.<b>classList</b>;
+2.  var allClasses = elem.<b>classList**;
 ```
 
 <h4>The classList API
@@ -11890,11 +11884,11 @@ list.forEach(function(elm) {
 >
 > elm.checked = false;
 >
-> <b>// remove CSS decoration</b>
+> <b>// remove CSS decoration**
 >
-> <b>var liParent = elm.parentNode;</b>
+> <b>var liParent = elm.parentNode;**
 >
-> <b>liParent.classList.remove(&quot;checked&quot;);</b>
+> <b>liParent.classList.remove(&quot;checked&quot;);**
 
 12. });
 
@@ -11918,15 +11912,13 @@ or to insert a whole set of HTML elements inside another one.
 
 <b>Typical use:</b>
 
-<pre><code>
-var elem = document.querySelector(&apos;#myElem&apos;);
-elem.innerHTML = &apos;Hello &apos;; // replace content by Hello
-elem.innerHTML += &apos;<b>Michel Buffa</b>&apos;, // append at the end
+<pre><code>var elem = document.querySelector('#myElem');
+elem.innerHTML = 'Hello '; // replace content by Hello
+elem.innerHTML += '**Michel Buffa**', // append at the end
 // Michel Buffa in bold
-elem.innerHTML = &apos;Welcome&apos; + elem.innerHTML; // insert Welcome
+elem.innerHTML = 'Welcome' + elem.innerHTML; // insert Welcome
 // at the beginning
-elem.innerHTML = &apos;&apos;; // empty the elem
-</code></pre>
+elem.innerHTML = ''; // empty the elem</code></pre>
 
 <h4>Using the textContent property
 
@@ -12148,3 +12140,4 @@ element.appendChild(para);
 </p>
 <!-- last editted 7/16/2024 6:25pm -->
 <!-- last editted 7/19/2024 6:00pm -->
+<!-- last editted 7/20/2024 5:49am -->
