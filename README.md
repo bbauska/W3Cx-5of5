@@ -2508,53 +2508,53 @@ versions of the language. In June 2015, ECMA International approved the
 latest version of JavaScript is identified as the 2015 version of
 ECMAScript (the alternative name for JavaScript). 
 <a href="https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning">
-Read this blog post about all these naming incongruities!</a>
-<br clear="left"/>
-
+Read this blog post about all these naming incongruities!</a><br>
 At the beginning, ES2015 was referred to as ES6 and before that,
 Harmony. Moving forward, ES suffixed with the year of the latest
 approved standard is the naming convention. The next version was
-called&hellip; ES2016, etc.!
-Browser vendors do not wait that ECMA standardizes a version as they
+called&hellip; ES2016, etc.!<br clear="left"/>
+
+<p>Browser vendors do not wait that ECMA standardizes a version as they
 start implementing it during the standardization process, which can take
 months or years (they also contribute to the standardization process all
-along its life cycle).
+along its life cycle).</p>
 
-The new open development process adopted by the ECMA TC39 committee
+<p>The new open development process adopted by the ECMA TC39 committee
 decided that every year, a new version will occur. This annual
-publication rate has been effective since 2015.
+publication rate has been effective since 2015.</p>
 
-The current edition of the ECMA-262 standard is <b>the 13th edition,
-published in June 2022 and is known as ES2022</b>.
+<p>The current edition of the ECMA-262 standard is <b>the 13th edition,
+published in June 2022 and is known as ES2022</b>.</p>
 
-<b>Beware</b>: even on recent Web browsers the whole supported feature
+<p><b>Beware</b>: even on recent Web browsers the whole supported feature
 sets of the latest versions are generally not completely implemented, as
-it takes time for browser vendors to follow the standards!
+it takes time for browser vendors to follow the standards!</p>
 
 <h4><b>Current support for ES2020/ 11th version (June 2020):</b></h4>
 
-There is no easy-to-read table of current browser global support, but
+<p>There is no easy-to-read table of current browser global support, but
 caniuse.com can be used to check feature by feature which browsers
-support them. For example, [this link shows the support for the new
-&quot;javascript private class fields&quot;
-feature](https://caniuse.com/mdn-javascript_classes_private_class_fields).
+support them. For example, 
+<a href="https://caniuse.com/mdn-javascript_classes_private_class_fields">
+this link shows the support for the new &quot;javascript private class 
+fields&quot; feature</a>.</p>
 
-Up to date browsers usually support more than 90% of the features from
+<p>Up to date browsers usually support more than 90% of the features from
 the version corresponding to the previous year. For example, in 2020,
-there is an good support for ES2019, while certain features from ES2020
-won&apos;t be implemented before some months.
+there is good support for ES2019, while certain features from ES2020
+won&apos;t be implemented before some months.</p>
 
 <h4>Which version will we learn?</h4>
 
-First of all, this is an introductory course! Not all features of
+<p>First of all, this is an introductory course! Not all features of
 JavaScript need to be covered, in particular the ones that you cannot
 run in your browser without using advanced tools (there are tools, such
-as [Babel](https://babeljs.io/),  that can turn ESxxxx source code into
+as <a href="https://babeljs.io/">Babel</a>, that can turn ESxxxx source code into
 ES5 code that can be run in nearly any browser, but they are tricky to
-use and not for beginners).
+use and not for beginners).</p>
 
-<b>We will cover all the important features of the last version that are
-relevant for an intro course</b>. 
+<p><b>We will cover all the important features of the last version that are
+relevant for an intro course</b>.</p>
 
 <h4>Is JavaScript an important language to learn? What about Java, PHP, C#, 
 Python, Ruby and all the others?</h4>
@@ -2606,36 +2606,32 @@ before, runtime. The most popular JavaScript engines are:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-8">1.2.8 Discussion and project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Here is the discussion forum for this part of the course. Please either
-post your comments/observations/questions or share your creations.
+<p>Here is the discussion forum for this part of the course. Please either
+post your comments/observations/questions or share your creations.</p>
 
 <h4>Suggested topics</h4>
 
--   Did you know about JavaScript history? Do you have stories to share?
-
--   What online tools do you know about, that could be useful for other
-    students?
-
--   Do you prefer trying small examples using an online IDE or using a
-    source code editor and working with files located on your hard disk?
-
--   Do you know a good service for hosting Web sites made with
-    HTML/CSS/JS files?
+<ul>
+  <li>Did you know about JavaScript history? Do you have stories to share?</li>
+  <li>What online tools do you know about, that could be useful for other students?</li>
+  <li>Do you prefer trying small examples using an online IDE or using a source 
+    code editor and working with files located on your hard disk?</li>
+  <li>Do you know a good service for hosting Web sites made with HTML/CSS/JS files?</li>
+</ul>
 
 <h4>Optional project</h4>
 
--   Try to make a simple home page and add some interactivity to it,
-    adapting the examples provided in the course (change the HTML
-    content by clicking on a button, change the CSS style of some parts
-    of the document).
-
+<ul>
+  <li>Try to make a simple home page and add some interactivity to it, adapting 
+    the examples provided in the course (change the HTML content by clicking on 
+	a button, change the CSS style of some parts of the document).</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-1">1.3.1 The best way to learn JavaScript (8:42)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 93. the best way to learn javascript (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image093.png?raw=true"  <!-- was 091 -->
+<img src="./images/image093.png?raw=true"
   style="width:50%"
   title="The Best Way to Learn JavaScript"
   alt="The Best Way to Learn JavaScript." />
@@ -2651,7 +2647,7 @@ lot.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 94. the best way to learn javascript (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image093.png?raw=true"  <!-- was 091 -->
+<img src="./images/image093.png?raw=true"
   style="width:50%"
   title="The Best Way to Learn JavaScript"
   alt="The Best Way to Learn JavaScript." />
