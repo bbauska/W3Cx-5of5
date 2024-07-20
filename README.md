@@ -2241,13 +2241,13 @@ interactivity to the documents.
 <p align="center" width="100%">
 <img src="./images/image075.png?raw=true"
   style="width:35%"
-  title="Example: CodePen; using JavaScript"
-  alt="Example: CodePen; using JavaScript." />
+  title="Example: CodePen; using JavaScript, before change"
+  alt="Example: CodePen; using JavaScript, before change." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./images/image076.png?raw=true"
   style="width:35%"
-  title="Example: CodePen; using JavaScript"
-  alt="Example: CodePen; using JavaScript." />
+  title="Example: CodePen; using JavaScript, after change"
+  alt="Example: CodePen; using JavaScript, after change." />
 </p>
 
 In this example, the first one on this page, I can click to change the
@@ -2271,13 +2271,13 @@ elements.
 <p align="center" width="100%">
 <img src="./images/image077.png?raw=true"
   style="width:35%"
-  title="Example: CodePen; using JavaScript, #2"
-  alt="Example: CodePen; using JavaScript, #2." />
+  title="Example: CodePen; using JavaScript, before change #2"
+  alt="Example: CodePen; using JavaScript, before change #2." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./images/image078.png?raw=true"
   style="width:35%"
-  title="Example: CodePen; using JavaScript, #2"
-  alt="Example: CodePen; using JavaScript, #2." />
+  title="Example: CodePen; using JavaScript, after change #2"
+  alt="Example: CodePen; using JavaScript, after change #2." />
 </p>
 
 It can be also use for interactive for the CSS styles of the page. In
@@ -2422,7 +2422,7 @@ language, no longer exists, having been bought by Oracle Corporation in
   title="dotJS 2017 - Brandan Eich - A Brief History of JavaScript"
   alt="dotJS 2017 - Brandan Eich - A Brief History of JavaScript." />
 </p>
-<h6 align="center"><a href="https://www.youtube.com/watch?v=aX3ZABCdC38">dotJS 2017 - Brandan Eich - A Brief History of JavaScript</a></h6>
+<h6 align="left"><a href="https://www.youtube.com/watch?v=aX3ZABCdC38">dotJS 2017 - Brandan Eich - A Brief History of JavaScript</a></h6>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. sun microsystems logo (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2435,20 +2435,18 @@ But Netscape realized that Java wasn&apos;t a
 suitable language for in-browser use. Netscape thought of JavaScript at
 the beginning, as a lightweight Java.</p>
 
-JavaScript was initially inspired by Java, but in fact only some naming
+<p>JavaScript was initially inspired by Java, but in fact only some naming
 conventions remained the same. We highly recommend not even trying to
 look for similarities - this is actually a bad way to start learning
 JavaScript! We&apos;d rather just say that the only real commonality between
 these two languages is their names. If you are coming to this
-course from Java, leave the Java thinking behind!
+course from Java, leave the Java thinking behind!</p>
 
-JavaScript quickly became a success following its first
-appearance in [Netscape Navigator 2 in March
-1996](http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/), and
-it was quickly integrated into other popular browsers. Microsoft also
-created its own version named JScript (and shipped it with Internet
-Explorer 3 in 1996 -- It was a dud).
-
+<p>JavaScript quickly became a success following its first appearance in 
+<a href="http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/">
+Netscape Navigator 2 in March 1996</a>, and it was quickly integrated into other popular browsers. Microsoft also
+created its own version named JScript (and shipped it with Internet Explorer 3 
+in 1996 -- It was a dud).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 89. snapshot of a web page in netscape navigator 2 (65) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2458,8 +2456,8 @@ Explorer 3 in 1996 -- It was a dud).
   alt="Snapshot of a web page in Netscape Navigator 2." />
 </p>
 
-<b>Netscape Navigator 2 in 1996, with big buttons and plain HTML pages
-(CSS did not exist at that time)</b>
+<p><b>Netscape Navigator 2 in 1996, with big buttons and plain HTML pages. 
+CSS did NOT exist at that time!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 90. snapshot of a web page in internet explorer (65) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2469,13 +2467,13 @@ Explorer 3 in 1996 -- It was a dud).
   alt="Snapshot of a web page in IE 3." />
 </p>
 
-<b>Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
-did not exist at this time!</b>
+<p><b>Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
+did NOT exist at this time!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. ecma logo (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="left" width="50%">
+<p align="left" width="100%">
 <img src="./images/image091.gif?raw=true"
-  style="width:10%"
+  style="width:30%"
   title="ecma"
   alt="ECMA." />
 Towards the end of 1996, JavaScript was standardized
@@ -2485,7 +2483,7 @@ the <a href="https://en.wikipedia.org/wiki/ECMAScript">EcmaScript</a> standard
 worry, it&apos;s the same thing.</b> EcmaScript has continued to be released
 right up to the present day. MS still didn't play ball.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 92. javascript detailed timeline (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 92. javascript detailed timeline (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
 <img src="./images/image092.png?raw=true"
   style="width:50%"
