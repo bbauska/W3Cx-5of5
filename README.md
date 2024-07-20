@@ -3121,7 +3121,6 @@ details, you saw:</p>
     call&quot;, &quot;function parameters&quot;, simple objects, embedded objects
     and arrays (we will discuss them as we move through the course).</li>
 </ul>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-2">1.3.2 What can be done with JavaScript (2:23)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3209,7 +3208,7 @@ We have already seen three examples in previous parts of this week&apos;s
 course material.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 114. update html using javascript (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 114. update html using javascript (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image114.png?raw=true"
   style="width:65%"
@@ -3257,7 +3256,7 @@ title.innerHTML = "This new title has been changed from JavaScript!";
 }</code></pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 115. example of interactivity between javascript & html (xxx) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 115. example of interactivity between javascript & html (86) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image115.png?raw=true"
   style="width:65%"
@@ -3322,7 +3321,7 @@ need to click the CodePen logo on top right to run this example. For
 security reasons it cannot be run inside this course page</b>).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 116.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 116.  (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image116.png?raw=true"
   style="width:65%"
@@ -3344,7 +3343,7 @@ years ago).</p>
 <p>Here is an example that will display the current and past members of
 famous rock bands:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 117. codepen example, band name (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 117. codepen example, band name (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image117.png?raw=true"
   style="width:65%"
@@ -3357,13 +3356,90 @@ famous rock bands:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-3">1.3.3 Where to put JavaScript code (7:13)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 118. where to put javascript code (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 118. where to put javascript code (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image118.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
 </p>
+<!------------------------------------------------------------------------------------------------>
+Welcome!
+In this video, we will just look at the different locations where we can put 
+JavaScript code.
+The first place where you can put JavaScript code is inside an HTML document,
+using the <script> and </script> tags.
+We've prepared an example, it's called the "Example 1" in the page,
+that shows how we can display the value of a variable.
+A variable is a location in the memory of the computer where we are going to 
+store some values.
+And the variable has a name and it's declared using the "var" keyword.
+There are others possibilities we will see later.
+Here we've got the variable called "x" that has the value of 2.
+And, we use some strange instruction "document.body.innerHTML"
+for adding to the body of the document some HTML code.
+So "document.body" corresponds in JavaScript to the body element of the document,
+and the "innerHTML" property corresponds to its HTML content.
+By doing this, we are adding a bold element JavaScript code executing
+the value of the variable x=2 and we display the value of the x variable in bold.
+This is the result of the execution of this code.
+And this code is not in a function, so it's executed as soon as the page is 
+rendered. When the browser
+receives this document, it will first display the "h1" then display this paragraph,
+then executes this code.
+It will define the variable x, assign the value "2" to it, and then add this string,
+with the value of "x" inside, to the body of the document.
+And finally, we display in the dev tool console: "console.log("JavaScript code executed")".
+We can open it by clicking on the console button in CodePen, or we can also open the
+devtools using the "F12" key or "ctrl+alt+i" or "cmd+alt+i" on a Mac.
+And you see that the "console.log" message has been displayed in the devtool console
+of your browser.
+Here, notice that we use the "script" element directly into the body of the document.
+Another possibility is to a put this code in the head of the document.
+It's also common practice because it separates clearly the JavaScript
+code from the HTML body of the document.
+In that case, the result is the same, except that the JavaScript code is displayed
+before the rest of the page.
+Here we defined the variable x, we added it to the body of the document ,
+and later on we display the body, where the browser renders the body of the document.
+Okay, what is better?
+It depends on your application.
+For the moment, just stay with knowing that you can put scripts in the body
+or in the head of a document.
+Another possibility is to use an external JavaScript file.
+In that case, the same way we showed you how to use an external file for storing the CSS code,
+we can use the "script" tag with the "src" attribute
+to include in the HTML document an external JavaScript file.
+Notice than we can include more than one JavaScript file if we like, like this.
+In that example, we are including 3 different JavaScript files sequentially.
+I prepared for you an example you can download - it's called "Example_3.zip".
+I click on it, download it, unpack it, and inside this element, I've got an HTML file.
+And I open it with my Sublime Text editor.
+And what i've got here, is that you can see in the HTML header in that case but you can
+also put this in the body if you like,
+we included a "script.js" file located under the "js" directory.
+I can open also this file.
+I can see that I just display the message called "Function executed"
+and a function "addSomeText" directly in the script.
+When is this executed?
+It's executed when we click on a button.
+Let's have the button "onclick" call the function "addSomeText".
+Let's execute this, here is the result: "Click me to call a JavaScript function that will
+add some content to this document". I click and you see that the function have been executed.
+And finally, the last thing you can do, is to include an external JavaScript source code.
+You've got an example here, where we use the "paper.js" library and the "paper.js" library,
+if I open the "paper.js" Web site, is a library for making graphic animations in JavaScript,
+so you can have plenty of funny things you can do.
+Things like that, or things like this…
+Just to be able to use what this library proposes, you need to include the library.
+If you read the documentation, they will tell that you what you need to include...
+Okay -let's me open it in CodePen- ...you need to include this JavaScript file.
+And once you included this JavaScript file... a bit the same way we used the external library for plotting
+functions... then you can use some functionalities that come from the "paper.js" library.
+You need to read the documentation to learn how to use it, but here is an example: a set of
+squares, animated squares, that follow the mouse.
+<!------------------------------------------------------------------------------------------------>
+<video for 1.3.3 above>
 <h4>JavaScript code can be located in different places</h4>
 
 1.  In your HTML code between &lt;script&gt; and &lt;/script&gt; tag
@@ -3378,7 +3454,7 @@ famous rock bands:</p>
 
 Here are some examples:
 
-<h4>Example #1:  the JavaScript code is included in an HTML file using the &lt;script&gt;&hellip;&lt;/script&gt; tag</h4>
+<h4>Example #1: the JavaScript code is included in an HTML file using the &lt;script&gt;&hellip;&lt;/script&gt; tag</h4>
 
 <h4>First variant: in the &lt;body&gt;..&lt;/body&gt; of the HTML document</h4>
 
@@ -3400,15 +3476,13 @@ Typically:
 
 Here is this first example on CodePen:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 119.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 119.  (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image119.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image099.png){width="6.5in" height="3.2777777777777777in"} -->
-
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY">CodePen: JS in HTML</a></h6>
 
 Old JavaScript examples may use a type attribute:
@@ -3616,6 +3690,55 @@ an external URL:
   title="How to debug JavaScript"
   alt="How to debug JavaScript." />
 </p>
+
+<!------------------------------------------------------------------------------------------------>
+Hi, every programmer will make errors. So is very important that you learn how to debug
+your JavaScript programs, how to see your errors, how to write messages
+for debugging, tracing what is going on, etc.
+Every browser comes with a very powerful set of tools called the devtools.
+With my Mac, I can use command "alt + I". So the thing we will going to use
+the most is the console. A console loads problems or errors.
+So, if I can clear the messages from here and this is the place where I will see
+the different error messages I've got in my code.
+Here is an example in JsBin. So, you can click here to see the console or
+it’s the same thing you can get here.
+If I type something here: console.log("hello"). So this is the instruction
+you will use the most for printing error messages in the dev toolconsole.
+If I execute it, it prints "hello", and I can see also in the browser built in console: "hello".
+So this just a comfortable way to display error messages.
+So, if I make some errors, here I've got a script that will display, as soon the page is loaded,
+"Some JavaScript code has been executed". So if I run the code, here, it displays
+"Some JavaScript code has been executed". If there is a mistake, if I make an error here,
+for example, I write console with two "l". I can see, in red, some messages:
+ "consolle is not defined", bla, bla, bla...
+When you use some online tools like JsBin or CodePen, and so on, it's a bit difficult to
+debug your code because you are debugging at the same time the code of the tool itself that
+is written in JavaScript too. So each each these tools comes with a way to
+run your code in what we decode ‘standalone mode’ or ‘debug mode’.
+So with JsBin, I click on the small black arrow, here.
+And if I open the built-in browser console, I can see the error message.
+And here, if I click on the link on the right, it will just show the line where my program
+made a mistake display, so, as an error. So here, I can see that console
+needs only one "l", I can fix that.
+Another interested thing is that when you use "console.log", you can use it to display
+some variable values. So, if I declare a variable named x with a value of 10,
+I can use «console.log" to display the value of x, using the "+" operator.
+So in that case, if I run my code it will help me by displaying the value
+of different variables when “console.log” is executed.
+With CodePen, another tool we use a lot in the course, you've got the debug mode.
+Just save your work and click on "change view mode" we’ve got "debug mode" here.
+And you can also open the console. If you click on the console button here,
+you can have a console here, and see what is going on. CodePen does not display
+the error messages, so is better for debugging to click on the "debug mode", here.
+So you've got the page in standalone mode, and you can open the dev tool console.
+With local files, I’ve got another example here with HTML code that uses it some JavaScript
+code from a "script.js" file. If I make an error here, an error in the name console,
+I save. I can run the result: "Open in browser".
+I click, it does nothing. I open the dev tool console and I see where
+the problem is and I can click on the link on the right and it shows the line with the error.
+
+<!------------------------------------------------------------------------------------------------>
+
 Let&apos;s introduce what is debugging.
 
 <h4>You will make errors!</h4>
@@ -3796,7 +3919,7 @@ using a regular source code editor and .html, .css and .js files.
 https://codepen.io/w3devcampus/pen/bqGboZ
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-2">1.4.2 Using CodePen</h3>
+<h3 id="ch1-4-2">1.4.2 Using CodePen (6:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In the video, at 3:19, there are some mistakes in the HTML code:
@@ -3826,7 +3949,7 @@ example](https://codepen.io/w3devcampus/pen/bqGboZ) (this link points to
 the example from the previous course page).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-3">1.4.3 Using Sublime Text</h3>
+<h3 id="ch1-4-3">1.4.3 Using Sublime Text (4:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Now, I&apos;m going to show you how we can do the same application using
@@ -3886,7 +4009,7 @@ project or a serious project, you will use a source code editor like
 Sublime Text.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-1">1.5.1 JS variables and values</h3>
+<h3 id="ch1-5-1">1.5.1 JS variables and values (5:28)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi!
@@ -3968,6 +4091,8 @@ We will next talk about variable values and variable scopes, and you
 will see that there is a small difference between "var" and "let" when
 you declare variables.
 
+<video above for 1.5.1>
+<!------------------------------------------------------------------------------------------------>
 In most of the examples seen earlier, we&apos;ve used the concept of
 &quot;variable&quot;, and we have used them to &quot;store values&quot;. It&apos;s time to
 take a break and talk about them :-)
@@ -4082,7 +4207,7 @@ undefined
 
 Below is an image that explains how you can try JavaScript code in the
 devtools console:
-
+<image139.jpeg>
 ![Display JS variable in the console devtools, type some instructions,
 press return. For example type var x=2; then press the enter key; then
 type x; it will display its value
@@ -4096,6 +4221,7 @@ error message:
 if k has not been defined, then an error message is displayed:
 &quot;uncaught referenceError: k is not
 defined&hellip;](./images/image110.jpeg){width="6.729166666666667in" height="1.3895297462817149in"}
+<image140.png>
 
 <h4>Name conventions for variables</h4>
 
@@ -4172,7 +4298,7 @@ let CASE_MATTERS = 'upper';
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-2">1.5.2 Scope of JS variables</h3>
+<h3 id="ch1-5-2">1.5.2 Scope of JS variables (4:19)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi!
@@ -4348,7 +4474,7 @@ you might find lots of examples that still use the var keyword&hellip;
 declaring variables and constants!</b>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-3">1.5.3 JS data types</h3>
+<h3 id="ch1-5-3">1.5.3 JS data types (5:27)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi!
@@ -4411,7 +4537,7 @@ and null and object.
 
 Nothing else. And the "typeof" operator can be used to display the type
 of an object.
-
+<!------------------------------------------------------------------------------------------------>
 <h4>What kind of values can we assign to a variable?</h4>
 
 Well, there are multiple possibilities:
@@ -4468,6 +4594,7 @@ or function)
 
 We will use it in lots of examples in the next three sections.
 
+<image149.jpeg>
 ![dynamic typing. You can use the typeof operator to see the &quot;dynamic
 type of a variable&quot;. For example, type let n=3; then typeof n, it will
 display &quot;number&quot;. Then type n=&quot;toto&quot;; and typeof n; this time it
@@ -4774,7 +4901,7 @@ the operator + can evaluate to a number or a string (for addition or
 concatenation).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-6">1.5.6 Strings (part 1)</h3>
+<h3 id="ch1-5-6">1.5.6 Strings (part 1) (4:12)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 To declare or manipulate strings you must write them with <b>single
@@ -4817,9 +4944,12 @@ height="2.4791666666666665in"}
 3.  Single quotes are easier to read and to type
 
 4.  To output HTML in JavaScript, single quotes are more useful
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch1-5-7">1.5.7 Strings (part 2)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-7">1.5.7 String operators</h3>
+<h3 id="ch1-5-8">1.5.8 String operators (6:44)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Strings can be defined using double quotes, or simple quotes.
@@ -4900,7 +5030,7 @@ like &quot;hello&quot;&hellip; in that case -if do the same operation- I the res
 is NaN that means &quot;Not a Number&quot;, you cannot convert &quot;hello&quot; to a
 number that can be used in a mathematical expression or multiplied by
 two.
-
+<!------------------------------------------------------------------------------------------------>
 #### Introduction to string operators
 
 #### The concatenation operator (+)
@@ -5062,7 +5192,7 @@ var s = "1&#92;t2"
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-8">1.5.8 Objects (part 1)</h3>
+<h3 id="ch1-5-9">1.5.9 Objects (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We have already encountered objects in different examples. You can
 easily recognize these objects:
@@ -5142,7 +5272,7 @@ Accessing an object&apos;s properties: we use the operator &quot;.&quot;
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-9">1.5.9 Arrays (part 1)</h3>
+<h3 id="ch1-5-10">1.5.10 Arrays (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 #### Definition: arrays are containers with indexes
 
@@ -5284,6 +5414,10 @@ Examples:
 8.  > s.length;
 9.  3
 ```
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch1-5-11">1.5.11 Functions (part 1)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 #### Definition of a function
 
