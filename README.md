@@ -894,11 +894,9 @@ the W3C Web site. The text alternative is going to be a brief
 description of the link target.
 
 ```
-> <a href="https://w3.org">
->
->   <img src="https://w3.org/Icons/w3c_home.png" width="72" height="48" alt="W3C Web site">
->
-> </a>
+<a href="https://w3.org">
+  <img src="https://w3.org/Icons/w3c_home.png" width="72" height="48" alt="W3C Web site">
+</a>
 ```
 
 <h4 id="chb-05">b5. Why internationalization is important</h4>
@@ -978,7 +976,7 @@ your source code, and  its value is UTF-8.</b>
 ```
 <head>
   <meta charset="utf-8"/>
-...
+  ...
 </head>
 ```
 
@@ -999,9 +997,9 @@ your document that are in a different language.
 
 ```
 <!doctype html>
-<html lang=&quot;fr&quot;>
-<head>
-&hellip;
+<html lang="fr">
+  <head>
+  ...
 ```
 
 <h5>Example 3: Cultural bias</h5>
@@ -1262,7 +1260,7 @@ Here is another, more generic example:
 2.  <html lang=&quot;en&quot;>
 3.  <head>
 4.  <title>Your first HTML page</title>
-5.  <meta charset=&quot;utf-8&quot;/>
+5.  <meta charset="utf-8"/>
 6.  </head>
 7.  <body>
 8.  <h1>My home page</h1>
@@ -1272,8 +1270,8 @@ Here is another, more generic example:
     author of two MOOCS about HTML5 on W3Cx.</p>
 11. <p>I also play electric guitar and love coding WebAudio
     applications&hellip;</p>
-12. <img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot; width=200
-13. alt=&quot;Michel Buffa plays rock and roll&quot;>
+12. <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg" width=200
+13. alt="Michel Buffa plays rock and roll">
 14. <h2>My Hobbies</h2>
 15. Music, Movies, Video Games, Travelling, Family, etc.
 16. </body>
@@ -1489,19 +1487,19 @@ As an example, let&apos;s look at a simplified version of the last HTML code
 we presented earlier:
 
 ```
-> <!DOCTYPE html>
-> <html lang=&quot;en&quot;>
->   <head>
->    <title>Your first HTML page</title>
->    <meta charset=&quot;utf-8&quot;/>
->   </head>
->   <body>
->    <h1>My home page</h1>
->    <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
-> professor at the University of Côte d&apos;Azur, in France, and I&apos;m also
-> the author of three W3Cx MOOCS.</p>
->    </body>
-> </html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Your first HTML page</title>
+   <meta charset="utf-8"/>
+  </head>
+  <body>
+   <h1>My home page</h1>
+   <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
+professor at the University of Côte d&apos;Azur, in France, and I&apos;m also
+the author of three W3Cx MOOCS.</p>
+   </body>
+</html>
 ```
 
 Click the red circle next to HTML to unfold this HTML document structure
@@ -2036,9 +2034,9 @@ using a &lt;link&gt; tag in the HTML part of the document:</p>
 ```
 1.  <head>
 2.  <title>Your first HTML page</title>
-3.  <meta charset=&quot;utf-8&quot;/>
-4.  <b><link href=&quot;https://fonts.googleapis.com/css?family=Caveat&quot;</b>
-5.  <b>rel=&quot;stylesheet&quot;></b>
+3.  <meta charset="utf-8"/>
+4.  <b><link href="https://fonts.googleapis.com/css?family=Caveat"</b>
+5.  <b>rel="stylesheet"></b>
 6.  </head>
 ```
 
@@ -2047,9 +2045,9 @@ attribute class=&quot;funny&quot;. Notice they can be different elements, we ca
 have a p and an h3 element that have the class=&quot;funny&quot; attribute:</p>
 
 ```
-1.  <b>.funny </b>{
+1.  .funny {
 2.  color:purple;
-3.  font-family: &apos;caveat&apos;;
+3.  font-family: 'caveat';
 4.  font-size:40px;
 5.  }
 ```
@@ -2058,11 +2056,11 @@ have a p and an h3 element that have the class=&quot;funny&quot; attribute
 paragraphs in the HTML element:</p>
 
 ```
-1.  &hellip;
-2.  <p class=&quot;funny&quot;>I also play electric guitar and love
+1.  ...
+2.  <p class="funny">I also play electric guitar and love
     coding WebAudio applications&hellip;</p>
-3.  &hellip;
-4.  <p class=&quot;funny&quot;>Music, Movies, Video Games, Traveling, Family, etc.</p>
+3.  ...
+4.  <p class="funny">Music, Movies, Video Games, Traveling, Family, etc.</p>
 ```
 
 There are many, many, many different CSS properties in existence, and
@@ -11231,61 +11229,36 @@ height="2.983974190726159in"}
 
 <h5>HTML:</h5>
 
-&lt;!DOCTYPE html&gt;
-
-&lt;html lang=&quot;en&quot;&gt;
-
-&lt;head&gt;
-
-&lt;meta charset=&quot;utf-8&quot;&gt;
-
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
-&lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
-
-&lt;/head&gt;
-
-&lt;body&gt;
-
-&lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
-
+```
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>querySelector and querySelector example 1</title>
+</head>
+<body>
+<button onclick=&quot;addBorderToFirstImage();&quot;>
 Add a border to the first image
-
-&lt;/button&gt;
-
-&lt;br&gt;
-
-&lt;button onclick=&quot;resizeAllImages();&quot;&gt;
-
+</button>
+<br>
+<button onclick=&quot;resizeAllImages();&quot;>
 Resize all images
-
-&lt;/button&gt;
-
-&lt;br&gt;
-
-&lt;p&gt;Click one of the buttons above!&lt;/p&gt;
-
-&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/Ntvj5rq.png&quot;
-
+</button>
+<br>
+<p>Click one of the buttons above!</p>
+<img src=&quot;https://mainline.i3s.unice.fr/mooc/Ntvj5rq.png&quot;
 id=&quot;img1&quot;
-
-width=200 alt=&quot;image #1&quot;&gt;
-
-&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/yiU59oi.gif&quot;
-
-width=200 alt=&quot;image #2&quot;&gt;
-
-&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/6FstYbc.jpg&quot;
-
-width=200 alt=&quot;image #3&quot;&gt;
-
-&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/L97CyS4.png&quot;
-
-width=200 alt=&quot;image #4&quot;&gt;
-
-&lt;/body&gt;
-
-&lt;/html&gt;
+width=200 alt=&quot;image #1&quot;>
+<img src=&quot;https://mainline.i3s.unice.fr/mooc/yiU59oi.gif&quot;
+width=200 alt=&quot;image #2&quot;>
+<img src=&quot;https://mainline.i3s.unice.fr/mooc/6FstYbc.jpg&quot;
+width=200 alt=&quot;image #3&quot;>
+<img src=&quot;https://mainline.i3s.unice.fr/mooc/L97CyS4.png&quot;
+width=200 alt=&quot;image #4&quot;>
+</body>
+</html>
+```
 
 <h5>JS:</h5>
 
@@ -11356,24 +11329,24 @@ and 18**). 
 
 ```
 1.  &hellip;
-2.  &lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
+2.  <button onclick=&quot;addBorderToFirstImage();&quot;>
 3.  Add a border to the first image
-4.  &lt;/button&gt;
-5.  &lt;br&gt;
-6.  &lt;button onclick=&quot;resizeAllImages();&quot;&gt;
+4.  </button>
+5.  <br>
+6.  <button onclick=&quot;resizeAllImages();&quot;>
 7.  Resize all images
-8.  &lt;/button&gt;
-9.  &lt;br&gt;
-10. &lt;p&gt;Click one of the buttons above!&lt;/p&gt;
-11. &lt;img src=&quot;https://i.imgur.com/Ntvj5rq.png&quot;
+8.  </button>
+9.  <br>
+10. <p>Click one of the buttons above!</p>
+11. <img src=&quot;https://i.imgur.com/Ntvj5rq.png&quot;
 12. id=&quot;img1&quot;
-13. width=200&gt;
-14. &lt;img src=&quot;https://i.imgur.com/yiU59oi.gif&quot;
-15. width=200&gt;
-16. &lt;img src=&quot;https://i.imgur.com/6FstYbc.jpg&quot;
-17. width=200&gt;
-18. &lt;img src=&quot;https://i.imgur.com/L97CyS4.png&quot;
-19. width=200&gt;
+13. width=200>
+14. <img src=&quot;https://i.imgur.com/yiU59oi.gif&quot;
+15. width=200>
+16. <img src=&quot;https://i.imgur.com/6FstYbc.jpg&quot;
+17. width=200>
+18. <img src=&quot;https://i.imgur.com/L97CyS4.png&quot;
+19. width=200>
 20. &hellip;
 ```
 
@@ -11435,32 +11408,32 @@ height="3.803472222222222in"}
 <h5>HTML:</h5>
 
 ```
-1.  &lt;!DOCTYPE html&gt;
-2.  &lt;html lang=&quot;en&quot;&gt;
-3.  &lt;head&gt;
-4.  &lt;meta charset=&quot;utf-8&quot;&gt;
-5.  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-6.  &lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
-7.  &lt;/head&gt;
-8.  &lt;body&gt;
-9.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
-    class red and color it in red&lt;/button&gt;
-10. &lt;br&gt;
-11. &lt;button onclick=&quot;allLisInUlOfClassNav();&quot;&gt;Underline All li in a
-    ul of class nav&lt;/button&gt;
-12. &lt;ul class=&quot;nav&quot;&gt;
-13. &lt;li&gt;Home&lt;/li&gt;
-14. &lt;li class=&quot;red&quot;&gt;Products&lt;/li&gt;
-15. &lt;li&gt;About&lt;/li&gt;
-16. &lt;/ul&gt;
+1.  <!DOCTYPE html>
+2.  <html lang=&quot;en&quot;>
+3.  <head>
+4.  <meta charset=&quot;utf-8&quot;>
+5.  <meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+6.  <title>querySelector and querySelector example 1</title>
+7.  </head>
+8.  <body>
+9.  <button onclick=&quot;firstLiClassRedInUl();&quot;>Select first li of
+    class red and color it in red</button>
+10. <br>
+11. <button onclick=&quot;allLisInUlOfClassNav();&quot;>Underline All li in a
+    ul of class nav</button>
+12. <ul class=&quot;nav&quot;>
+13. <li>Home</li>
+14. <li class=&quot;red&quot;>Products</li>
+15. <li>About</li>
+16. </ul>
 17. Another list:
-18. &lt;ul&gt;
-19. &lt;li&gt;Apple&lt;/li&gt;
-20. &lt;li class=&quot;red&quot;&gt;Cherries&lt;/li&gt;
-21. &lt;li&gt;Oranges&lt;/li&gt;
-22. &lt;/ul&gt;
-23. &lt;/body&gt;
-24. &lt;/html&gt;
+18. <ul>
+19. <li>Apple</li>
+20. <li class=&quot;red&quot;>Cherries</li>
+21. <li>Oranges</li>
+22. </ul>
+23. </body>
+24. </html>
 ```
 
 <h5>JS:</h5>
@@ -11473,7 +11446,7 @@ height="3.803472222222222in"}
 5.  }
 6.  function allLisInUlOfClassNav() {
 7.  // get all li directly in a ul of class nav
-8.  var list = document.querySelectorAll(&quot;ul.nav &gt; li&quot;);
+8.  var list = document.querySelectorAll(&quot;ul.nav > li&quot;);
 9.  list.forEach(function(elm) {
 10. elm.style.textDecoration = &quot;underline&quot;;
 11. })
@@ -11485,22 +11458,22 @@ height="3.803472222222222in"}
 <h5>HTML:</h5>:
 
 ```
-1.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
-    class red and color it in red&lt;/button&gt;
-2.  &lt;br&gt;
-3.  &lt;button onclick=&quot;allLisInUlOfClassNav();&quot;&gt;Underline All li in a
-    ul of class nav&lt;/button&gt;
-4.  &lt;ul class=&quot;nav&quot;&gt;
-5.  &lt;li&gt;Home&lt;/li&gt;
-6.  &lt;li class=&quot;red&quot;&gt;Products&lt;/li&gt;
-7.  &lt;li&gt;About&lt;/li&gt;
-8.  &lt;/ul&gt;
+1.  <button onclick=&quot;firstLiClassRedInUl();&quot;>Select first li of
+    class red and color it in red</button>
+2.  <br>
+3.  <button onclick=&quot;allLisInUlOfClassNav();&quot;>Underline All li in a
+    ul of class nav</button>
+4.  <ul class=&quot;nav&quot;>
+5.  <li>Home</li>
+6.  <li class=&quot;red&quot;>Products</li>
+7.  <li>About</li>
+8.  </ul>
 9.  Another list:
-10. &lt;ul&gt;
-11. &lt;li&gt;Apple&lt;/li&gt;
-12. &lt;li class=&quot;red&quot;&gt;Cherries&lt;/li&gt;
-13. &lt;li&gt;Oranges&lt;/li&gt;
-14. &lt;/ul&gt;
+10. <ul>
+11. <li>Apple</li>
+12. <li class=&quot;red&quot;>Cherries</li>
+13. <li>Oranges</li>
+14. </ul>
 ```
 
 <h5>JavaScript code:</h5>
@@ -11513,7 +11486,7 @@ height="3.803472222222222in"}
 5.  }
 6.  function allLisInUlOfClassNav() {
 7.  // get all li directly in a ul of class nav
-8.  var list = document.querySelectorAll(&quot;ul.nav &gt; li&quot;);
+8.  var list = document.querySelectorAll(&quot;ul.nav > li&quot;);
 9.  list.forEach(function(elm) {
 10. elm.style.textDecoration = &quot;underline&quot;;
 11. })
@@ -11535,36 +11508,36 @@ located inside an element of a given id
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button onclick=&quot;displayListOfCheckedItems();&quot;&gt;Show Checked
-  items&lt;/button&gt;
-&lt;br&gt;
-&lt;ul id=&quot;fruits&quot;&gt;
-&lt;li&gt;
-&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;&gt;Apples
-&lt;/li&gt;
-&lt;li&gt;
-&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;&gt;
+<!DOCTYPE html>
+<html lang=&quot;en&quot;>
+<head>
+<meta charset=&quot;utf-8&quot;>
+<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+<title>querySelector and querySelector example 1</title>
+</head>
+<body>
+<button onclick=&quot;displayListOfCheckedItems();&quot;>Show Checked
+  items</button>
+<br>
+<ul id=&quot;fruits&quot;>
+<li>
+<input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;>Apples
+</li>
+<li>
+<input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;>
 Oranges
-&lt;/li&gt;
-&lt;li&gt;
-&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;&gt;
+</li>
+<li>
+<input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;>
 Bananas
-&lt;/li&gt;
-&lt;li&gt;
-&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;&gt;
+</li>
+<li>
+<input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;>
 Grapes
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</li>
+</ul>
+</body>
+</html>
 ```
 
 <h5>JS:</h5>
@@ -11589,28 +11562,28 @@ Extract from the source code:
 <h5>HTML:</h5>
 
 ```
-&lt;button onclick=&quot;**displayListOfCheckedItems();**&quot;&gt;
+<button onclick=&quot;**displayListOfCheckedItems();**&quot;>
     Show Checked items
-1.  &lt;/button&gt;
-2.  &lt;br&gt;
-3.  &lt;ul id=&quot;fruits&quot;&gt;
-4.  &lt;li&gt;
-5.  &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;&gt;
+1.  </button>
+2.  <br>
+3.  <ul id=&quot;fruits&quot;>
+4.  <li>
+5.  <input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;>
 6.  Apples
-7.  &lt;/li&gt;
-8.  &lt;li&gt;
-9.  &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;&gt;
+7.  </li>
+8.  <li>
+9.  <input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;>
 10. Oranges
-11. &lt;/li&gt;
-12. &lt;li&gt;
-13. &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;&gt;
+11. </li>
+12. <li>
+13. <input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;>
 14. Bananas
-15. &lt;/li&gt;
-16. &lt;li&gt;
-17. &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;&gt;
+15. </li>
+16. <li>
+17. <input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;>
 18. Grapes
-19. &lt;/li&gt;
-20. &lt;/ul&gt;
+19. </li>
+20. </ul>
 ```
 
 JavaScript code: we select all elements of type input that have an
@@ -11661,13 +11634,13 @@ by this list:
 <h5>HTML code:</h5>
 
 ```
-1.  &lt;button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);</b>&quot;&gt;Change
-    backgrounds of p under a given element known by id&lt;/button&gt;
-2.  &lt;br&gt;
-3.  &lt;div <b>id=&quot;firstDiv&quot;</b>&gt;
-4.  &lt;p&gt;First paragraph.&lt;/p&gt;
-5.  &lt;p&gt;Second paragraph.&lt;/p&gt;
-6.  &lt;/div&gt;
+1.  <button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);</b>&quot;>Change
+    backgrounds of p under a given element known by id</button>
+2.  <br>
+3.  <div <b>id=&quot;firstDiv&quot;</b>>
+4.  <p>First paragraph.</p>
+5.  <p>Second paragraph.</p>
+6.  </div>
 ```
 
 JavaScript code: we build a CSS selector using the id passed as a
@@ -11687,7 +11660,7 @@ paragraphs (*line 6*).
 1.  function changeBackGroundOfPs(id) {
 2.  var paragraphs = document.querySelectorAll(&quot;#&quot; + id + &quot; p&quot;);
 3.  // Another way to iterate on all elements in a collection
-4.  for (var i = 0; i &lt; paragraphs.length; i++ ) {
+4.  for (var i = 0; i < paragraphs.length; i++ ) {
 5.  paragraphs&lbrack;i&rbrack;.style.backgroundColor = &quot;lightGreen&quot;;
 6.  }
 7.  }
@@ -11701,7 +11674,7 @@ Other examples that use more complex selectors:
 3.  // all li in a ul, but only even elements
 4.  var els = document.querySelectorAll(&apos;ul li:nth-child(even)&apos;);
 5.  // all td directly in tr in a form of class test
-6.  var els = document.querySelectorAll(&apos;form.test &gt; tr &gt; td&apos;);
+6.  var els = document.querySelectorAll(&apos;form.test > tr > td&apos;);
 7.  // all paragraphs of class warning or error
 8.  querySelectorAll(&quot;p.warning, p.error&quot;);
 9.  // first element of id=foo or id=bar
@@ -11856,20 +11829,20 @@ collection of class names:
 ```
 3.  The list of methods usable on a classList object are add(),
     remove(), toggle() and contains().
-4.  // By default, start without a class in the div: &lt;div class=&quot;&quot;/&gt;
+4.  // By default, start without a class in the div: <div class=&quot;&quot;/>
 5.  // Set &quot;foo&quot; as the class by adding it to the classList
-6.  div.classList.add(&apos;foo&apos;); // now &lt;div class=&quot;foo&quot;/&gt;
+6.  div.classList.add(&apos;foo&apos;); // now <div class=&quot;foo&quot;/>
 7.  // Check that the classList contains the class &quot;foo&quot;
 8.  div.classList.contains(&apos;foo&apos;); // returns true
 9.  // Remove the class &quot;foo&quot; from the list
-10. div.classList.remove(&apos;foo&apos;); // now &lt;div class=&quot;&quot;/&gt;
+10. div.classList.remove(&apos;foo&apos;); // now <div class=&quot;&quot;/>
 11. // Check if classList contains the class &quot;foo&quot;
 12. div.classList.contains(&apos;foo&apos;); // returns false: &quot;foo&quot; is gone
 13. // Check if class contains the class &quot;foo&quot;,
 14. // If it does, &quot;foo&quot; is removed, if it doesn&apos;t, it&apos;s added
-15. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div
-    class=&quot;foo&quot;/&gt;
-16. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div class=&quot;&quot;/&gt;
+15. div.classList.toggle(&apos;foo&apos;); // class set to <div
+    class=&quot;foo&quot;/>
+16. div.classList.toggle(&apos;foo&apos;); // class set to <div class=&quot;&quot;/>
 ```
 
 ### Another example: add and remove multiple CSS properties in a list of checkboxes {#another-example-add-and-remove-multiple-css-properties-in-a-list-of-checkboxes .unnumbered}
@@ -11897,7 +11870,7 @@ change the text color, we use a CSS class named &quot;checked&quot;:
 5.  }
 &hellip; and
 the classList.add(CSS_class) and classList.remove(CSS_class) methods on
-the &lt;li&gt; elements:
+the <li> elements:
 ```
 
 ### JavaScript code:
@@ -11967,7 +11940,7 @@ or to insert a whole set of HTML elements inside another one.
 <pre><code>
 var elem = document.querySelector(&apos;#myElem&apos;);
 elem.innerHTML = &apos;Hello &apos;; // replace content by Hello
-elem.innerHTML += &apos;&lt;b>Michel Buffa&lt;/b>&apos;, // append at the end
+elem.innerHTML += &apos;<b>Michel Buffa</b>&apos;, // append at the end
 // Michel Buffa in bold
 elem.innerHTML = &apos;Welcome&apos; + elem.innerHTML; // insert Welcome
 // at the beginning
@@ -11993,58 +11966,47 @@ codePen, open the devtool console):
 HTML
 
 <pre><code>
-1.  &lt;!DOCTYPE html>
-2.  &lt;html lang=&quot;en&quot;>
-3.  &lt;head>
-4.  &lt;meta charset=&quot;utf-8&quot;>
-5.  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-6.  &lt;title>Modifying content of selected DOM nodes&lt;/title>
-7.  &lt;/head>
-8.  &lt;body>
-9.  &lt;h1>Open the console and look at the JavaScript code!&lt;/h1>
-10. &lt;p id=&quot;first&quot;>first paragraph&lt;/p>
-11. &lt;p id=&quot;second&quot;>&lt;em>second&lt;/em> paragraph&lt;/p>
-12. &lt;/body>
-13. &lt;/html>
+1.  <!DOCTYPE html>
+2.    <html lang=&quot;en&quot;>
+3.    <head>
+4.      <meta charset=&quot;utf-8&quot;>
+5.      <meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+6.      <title>Modifying content of selected DOM nodes</title>
+7.    </head>
+8.    <body>
+9.      <h1>Open the console and look at the JavaScript code!</h1>
+10.     <p id=&quot;first&quot;>first paragraph</p>
+11.     <p id=&quot;second&quot;><em>second</em> paragraph</p>
+12.   </body>
+13. </html>
 </code></pre>
 
 JS
 
+```
 1.  window.onload = init;
-
 2.  function init() {
-
 3.  // DOM is ready
-
-4.  var firstP = document.querySelector(&quot;#first&quot;);
-
+4.  var firstP = document.querySelector("#first");
 5.  console.log(firstP.textContent);
-
 6.  console.log(firstP.innerHTML);
-
-7.  firstP.textContent = &quot;Hello I&apos;m the first paragraph&quot;;
-
+7.  firstP.textContent = &quot;Hello I'm the first paragraph&quot;;
 8.  console.log(firstP.textContent);
-
-9.  var secondP = document.querySelector(&quot;#second&quot;);
-
+9.  var secondP = document.querySelector("#second");
 10. console.log(secondP.textContent);
-
 11. console.log(secondP.innerHTML);
-
-12. secondP.textContent = &quot;Hello I&apos;m the second paragraph&quot;;
-
+12. secondP.textContent = "Hello I'm the second paragraph";
 13. console.log(secondP.textContent);
-
 14. console.log(secondP.innerHTML);
-
 15. }
+```
 
 ### Extract from the HTML code:
 
-&lt;p id=&quot;first&quot;>first paragraph&lt;/p>
-
-&lt;p id=&quot;second&quot;>&lt;em>second&lt;/em> paragraph&lt;/p>
+```
+<p id="first">first paragraph</p>
+<p id="second"><em>second</em> paragraph</p>
+```
 
 JavaScript code: the comments after lines that start
 with console.log correspond to what is printed in the devtool debug
@@ -12056,49 +12018,31 @@ it. However, when we modify the textContent value, it also replaces the
 text decoration (the &lt;em&gt; is removed), this is done at <b>lines
 16-20</b>.
 
+```
 1.  window.onload = init;
-
 2.   
-
 3.  function init() {
-
 4.     // DOM is ready
-
-5.     var firstP = document.querySelector(&quot;#first&quot;);
-
-6.     console.log(firstP.textContent); // &quot;first paragraph&quot;
-
-7.     console.log(firstP.innerHTML);   // &quot;first paragraph&quot;
-
+5.     var firstP = document.querySelector("#first");
+6.     console.log(firstP.textContent); // "first paragraph"
+7.     console.log(firstP.innerHTML);   // "first paragraph"
 8.   
-
-9.     firstP.textContent = &quot;Hello I&apos;m the first paragraph&quot;;
-
-10.    console.log(firstP.textContent); // &quot;Hello I&apos;m the first
-    paragraph&quot;
-
+9.     firstP.textContent = "Hello I&apos;m the first paragraph";
+10.    console.log(firstP.textContent); // "Hello I&apos;m the first
+    paragraph"
 11.                                      
-
-12.    var secondP = document.querySelector(&quot;#second&quot;);
-
-13.    console.log(secondP.textContent); // &quot;second paragraph&quot;
-
-14.    console.log(secondP.innerHTML);   // &quot;&lt;em>second&lt;/em>
-    paragraph&quot;
-
+12.    var secondP = document.querySelector("#second");
+13.    console.log(secondP.textContent); // "second paragraph"
+14.    console.log(secondP.innerHTML);   // "<em>second</em>
+    paragraph"
 15. 
-
-16.    secondP.textContent = &quot;Hello I&apos;m the second paragraph&quot;;
-
-17.    console.log(secondP.textContent); // &quot;Hello I&apos;m the second
-
-18.                                      // paragraph&quot;
-
-19.    console.log(secondP.innerHTML);   // &quot;Hello I&apos;m the second
-
-20.                                      // paragraph&quot;
-
+16.    secondP.textContent = "Hello I&apos;m the second paragraph";
+17.    console.log(secondP.textContent); // "Hello I&apos;m the second
+18.                                      // paragraph"
+19.    console.log(secondP.innerHTML);   // "Hello I&apos;m the second
+20.                                      // paragraph"
 21. }
+```
 
 ### Changing the attributes of selected elements
 
@@ -12119,58 +12063,58 @@ This example shows some of the things we can do:
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html>
-&lt;html lang=&quot;en&quot;>
-&lt;head>
-&lt;meta charset=&quot;utf-8&quot;>
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-&lt;title>Modifying content of selected DOM nodes&lt;/title>
-&lt;/head>
-&lt;body>
-&lt;h1>Try these&lt;/h1>
-&lt;p>What is your name: &lt;input type=&quot;text&quot; id=&quot;name&quot;
-  value=&quot;Michel&quot;> &lt;button onclick=&quot;resetName();&quot;>Reset (click to
-  empty the input field)&lt;/button>&lt;/p>
-&lt;p>Pick a color: &lt;input id=&quot;color&quot; type=&quot;color&quot;
-  value=&apos;#FF0000&apos;>&lt;button onclick=&quot;setToGreen();&quot;>Set color chooser
-  to green&lt;/button>&lt;/p>
-&lt;p>In the next example, click on the input field and use the small 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Modifying content of selected DOM nodes</title>
+</head>
+<body>
+<h1>Try these</h1>
+<p>What is your name: <input type="text" id="name"
+  value="Michel"> <button onclick="resetName();">Reset (click to
+  empty the input field)</button></p>
+<p>Pick a color: <input id="color" type="color"
+  value=&apos;#FF0000&apos;><button onclick="setToGreen();">Set color chooser
+  to green</button></p>
+<p>In the next example, click on the input field and use the small 
   vertical arrows to increase the value. Notice that the numbers go 1 by 1
   and that the maximum value is 20. Then click the button and do the same
-  thing!&lt;/p>
-&lt;p>Pick a number between 0 and 20: &lt;input id=&quot;number&quot;
-  type=&quot;number&quot; min=0 max=20 step = 1 value=&apos;10&apos;>&lt;button
-  onclick=&quot;changeStep();&quot;>Change step and max attribute values
-  &lt;/button>&lt;/p>
-&lt;p>Click the next image to change its url and size:&lt;/p>
-&lt;img
-  src=&quot;https://www.paris-web.fr/2013/assets_c/2013/08/michel-buffa-thumb-143x143-372.jpg&quot;
-  onclick=&quot;changeAndResize(this)&quot; alt=&quot;Michel Buffa&quot;>
-&lt;/body>
-&lt;/html>
+  thing!</p>
+<p>Pick a number between 0 and 20: <input id="number"
+  type="number" min=0 max=20 step = 1 value=&apos;10&apos;><button
+  onclick="changeStep();">Change step and max attribute values
+  </button></p>
+<p>Click the next image to change its url and size:</p>
+<img
+  src="https://www.paris-web.fr/2013/assets_c/2013/08/michel-buffa-thumb-143x143-372.jpg"
+  onclick="changeAndResize(this)" alt="Michel Buffa">
+</body>
+</html>
 ```
 
 <h4>JS
 
 ```
 function resetName() {
-var inputField = document.querySelector(&quot;#name&quot;);
-inputField.value = &quot;&quot;;
+var inputField = document.querySelector("#name");
+inputField.value = "";
 }
 function setToGreen() {
-var colorChooser = document.querySelector(&quot;#color&quot;);
-colorChooser.value = &quot;#00FF00&quot;;
+var colorChooser = document.querySelector("#color");
+colorChooser.value = "#00FF00";
 }
 function changeStep() {
-var number = document.querySelector(&quot;#number&quot;);
+var number = document.querySelector("#number");
 number.value = 10;
-number.step = &quot;0.1&quot;;
+number.step = "0.1";
 number.max = 11;
 }
 function changeAndResize(img) {
-img.src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;;
+img.src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg";
 img.width=250;
-img.style.border = &quot;4px solid red&quot;;
+img.style.border = "4px solid red";
 }
 ```
 
@@ -12184,24 +12128,24 @@ To add a new element to the HTML DOM, you must create the element
 #### Example:
 
 ```
-&lt;!DOCTYPE html>
-&lt;html>
-&lt;body>
-&lt;h2>JavaScript HTML DOM&lt;/h2>
-&lt;p>Add a new HTML Element.&lt;/p>
-&lt;div id=&quot;div1&quot;>
-&lt;p id=&quot;p1&quot;>This is a paragraph.&lt;/p>
-&lt;p id=&quot;p2&quot;>This is another paragraph.&lt;/p>
-&lt;/div>
-&lt;script>
-const para = document.createElement(&quot;p&quot;);
-const node = document.createTextNode(&quot;This is new.&quot;);
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript HTML DOM</h2>
+<p>Add a new HTML Element.</p>
+<div id="div1">
+<p id="p1">This is a paragraph.</p>
+<p id="p2">This is another paragraph.</p>
+</div>
+<script>
+const para = document.createElement("p");
+const node = document.createTextNode("This is new.");
 para.appendChild(node);
-const element = document.getElementById(&quot;div1&quot;);
+const element = document.getElementById("div1");
 element.appendChild(para);
-&lt;/script>
-&lt;/body>
-&lt;/html>
+</script>
+</body>
+</html>
 ```
 
 <h4>Output:</h4>
