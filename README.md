@@ -2014,7 +2014,7 @@ in our case it&apos;s the second h2 element:</p>
 
 ```
 1.  <b>#hobbyTitle</b> {
-2.    font-family: &apos;caveat&apos;;
+2.    font-family: 'caveat';
 3.    font-size:40px;
 4.    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 5.  }
@@ -2826,102 +2826,6 @@ JavaScript by using a set of properties and values, separated by a
 comma. And we also had a first encounter with what we call arrays, that
 are elements separated by commas inside brackets. 
 
-What it the best method for learning JavaScript? When you are a complete 
-beginner, I recommend you look at examples, tweak them, change small things, try to
-understand what the syntax looks like. Even without deep explanations,
-without reading a book, or studying in details the different concepts of
-language, you can learn a lot. 
-
-In this section, I propose that you look at a small example without understanding 
-the details, and try to tweak it.
-
-&lt;Img&gt;
-
-Here is the example we provide. It&apos;s just an example that draws, that
-plots, a mathematical function. You can use the mouse wheel to zoom in,
-zoom out, and you can look at the HTML code. There is only very few CSS
-and very few lines of JavaScript. So how can we do the such a complex
-result? Complex thing drawing the grid with axes, with labels, with a
-curve, and interact with the mouse.
-
-With only 10 lines of code: it&apos;s because we are using what we call an
-external JavaScript library. Actually, we are using 2 of them here.
-Because, this one: the &quot;function-plot&quot; JavaScript library, is using
-internally another one you must include also in the document. What I
-propose is that we will start looking at this example. The best way is
-to click on &quot;Edit on CodePen&quot; label here, it will open the code in the
-CodePen.io online editor. And&hellip; just look at the HTML part here. Okay,
-we can just look at the HTML part and zoom in a little bit. What do we
-see? We can see that it uses 2 libraries here between &lt;script&gt; and
-&lt;/script&gt; elements. This is how we can insert in the document an
-external JavaScript file. In that case, it&apos;s a remote JavaScript file
-because we are downloading it using http. It uses this &quot;d3js&quot;
-JavaScript library that is located at &quot;d3js.org&quot;. You can open this in
-another tab and you will see the documentation and the Web site, the
-homepage of the Web site, for the &quot;d3js&quot; library. By the way
-&quot;d3js&quot;is one of the most popular JavaScript libraries for visualizing
-data. Let&apos;s go back to our example, so you can just tweak the different
-elements. If I want to plot a cosinus instead of a sinus, I don't need
-to understand the whole syntax here, but I guess that by just typing
-&quot;cos&quot; here, it will do something. And indeed, I have just drawn a
-cosinus.
-
-If I change this for &quot;green&quot;, it changes the color. If I change the
-grid, that is by default &quot;true&quot;, if I say &quot;false&quot;, I don&apos;t have a
-grid anymore. Okay let&apos;s put it back. And I&apos;ve got some &quot;xAxis&quot;
-domain : &quot;-1, +1&quot;. If I change that for &quot;-10, +10&quot;, I can see the
-result. It&apos;s more interesting, if you change this for the x values&hellip;
-instead of going from PI to 2 PI. I went from 0 to 10 PI. I can see the
-result here, and so on&hellip; Now that you tweak the example, you can try
-to understand what is going on.
-
-&lt;function&gt;
-
-Okay, this thing is a name followed by a parenthesis; an open
-parenthesis with a closing parenthesis. It&apos;s a function call. When
-you&apos;ve got something like that, in JavaScript, function parenthesis
-with something in the middle, it&apos;s called a &quot;function call&quot;. We&apos;re
-going to call a function, that, in this case, we haven't written, so
-it&apos;s coming from one on the external libraries. In that case, it&apos;s the
-&quot;function-plot&quot; library. What is inside? There are the parameters. And
-I can use an external name. I can declare that, here, it&apos;s equivalent.
-You see that it works the same here, but I've just separated the two
-things. If I put directly this thing inside here, like it was before, it
-still works. Okay, so what is this syntax?
-
-In JavaScript, when you've got braces like that, opening braces and
-closing braces, it's called an object. And inside an object, you&apos;ve got
-properties and values. The properties have names: target, data,
-function, color, grid. And the values are after a column characters. The
-target is my function. The data is this thing. The grid is true, and so
-on&hellip; You separate the different properties of the object using a comma
-and sometimes, you can have some properties that in turn, have a value
-that is an object. The x Axis property is equal to an object that has a
-property domain, that has for values: &quot;-1, 1&quot;. And when you&apos;ve got
-brackets, opening and closing brackets, it&apos;s like that&hellip; That will
-define arrays of things in JavaScript. And an array of things is a list
-of enumerable elements. In that case, the domain has two elements: the
-minimum value and the maximum value.
-
-And here you can see that the data that are plotted, the cosinus
-function, is also an array. If I use the comma and I introduce a second
-element here. For example, the sinus function, and if I change the
-color, let&apos;s make it pink&hellip; Look at the result: I&apos;ve got 2 different
-functions that have been plotted in my graph. I can, instead of using
-this, I can maybe plot x2 (x square 2), like this, okay. It should work.
-Ok, we can see a little bit of it here. Maybe we will change the domain,
-so instead of stopping at 1, we go to 10. Here we go! And if we look at
-the values, we see the x square function that is a bit better, and if we
-just plot it for x=0 to x=2&hellip; &hellip;In that case, i&apos;ve got another
-scale for looking at the functions. In this first example, you saw how
-to use an external library, what is the syntax to call a function, and
-how we can define objects in JavaScript by using a set of properties and
-values, separated by a comma. And we also had a first encounter with
-what we call arrays, that are elements separated by commas inside
-brackets. What is the best method to learn JavaScript?
-
-&lt;end of video transcript The Best Way to Learn JS&gt;
-
 <h4>FIRST: learn by looking at and tweaking the code in the examples</h4>
 <!-- page 76 -->
 <p>Well, there is no definitive answer to this question, but I&apos;d recommend
@@ -2965,9 +2869,9 @@ button) and try to guess where the function is specified, where the
 range for the x and y values is set, etc. Notice that you can use your
 mouse wheel to zoom in/out the function plot.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. use javascript graph d3.js (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. use javascript graph d3.js (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image092.png?raw=true"
+<img src="./images/image105.png?raw=true"
   style="width:50%"
   title=" "
   alt="." />
@@ -2980,8 +2884,8 @@ mouse wheel to zoom in/out the function plot.</p>
 document of some external JavaScript code:</p>
 
 ```
-1.  <script src="https://d3js.org/d3.v3.min.js"&gt;</script&gt;
-2.  <script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;</script&gt;
+1.  <script src="https://d3js.org/d3.v3.min.js"></script>
+2.  <script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
 ```
 
 <p>We will examine this soon in a later section of the course, but, in
@@ -2997,10 +2901,10 @@ on the CodePen example), we see:
 
 ```
 1.  functionPlot(<b>{</b>
-2.  <b>target: &apos;#myFunction&apos;,</b>
+2.  <b>target: '#myFunction',</b>
 3.  <b>data: &lbrack;{</b>
-4.  <b>fn: &apos;sin(x)&apos;,</b>
-5.  <b>color: &apos;red&apos;</b>
+4.  <b>fn: 'sin(x)',</b>
+5.  <b>color: 'red'</b>
 6.  <b>}&rbrack;,</b>
 7.  <b>grid: true,</b>
 8.  <b>yAxis:,</b>
@@ -3121,9 +3025,9 @@ parameter to the functionPlot(&hellip;) call are in bold.
     be plotted. We talk about this in greater detail below.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 93.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 106.  (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image093.gif?raw=true"
+<img src="./images/image106.gif?raw=true"
   style="width:30%"
   title="JavaScript detailed timeline"
   alt="JavaScript detailed timeline." />
@@ -3159,8 +3063,8 @@ The data object is even more complicated:
 
 ```
 1.  data: &lbrack;{
-2.  fn: &apos;sin(x)&apos;,
-3.  color: &apos;red&apos;
+2.  fn: 'sin(x)',
+3.  color: 'red'
 4.  }&rbrack;,
 ```
 
@@ -3179,94 +3083,122 @@ try to plot an additional function in our example. We will add f(x) =
 cos(x) to our example, with a different color:
 
 ```
-1.  data: &lbrack;
-2.  {
-3.  fn: &apos;sin(x)&apos;,  // First function
-4.  color: &apos;red&apos;
-5.  },
-6.  {
-7.  fn: &apos;cos(x)&apos;,  // second function
-8.  color: &apos;blue&apos;
-9.  }
-10. &rbrack;
+1.  data: [
+2.    {
+3.      fn: 'sin(x)',  // First function
+4.      color: 'red'
+5.    },
+6.    {
+7.      fn: 'cos(x)',  // second function
+8.      color: 'blue'
+9.    }
+10. ]
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 94.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 107.  (82) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image094.png?raw=true"
+<img src="./images/image107.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
 </p>
 <!-- ![](./images/image094.png){width="6.5in" height="3.18125in"} -->
+<!-- page 82 -->
 
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KWPyeX">CodePen: JS Graph, #2</a></h6>
 
 <h4>Conclusion</h4>
 
-Just by looking at one example, and without going into the boring
-details, you saw:
+<p>Just by looking at one example, and without going into the boring
+details, you saw:</p>
 
--   How to plot a function using a third party library and how to
-    include it in your code,
-
--   How to change some parameters without knowing JavaScript in depth,
-
--   You had a first encounter with concepts such as: &quot;a function
+<ul>
+  <li>How to plot a function using a third party library and how to
+    include it in your code,</li>
+  <li>How to change some parameters without knowing JavaScript in depth,</li>
+  <li>You had a first encounter with concepts such as: &quot;a function
     call&quot;, &quot;function parameters&quot;, simple objects, embedded objects
-    and arrays (we will discuss them as we move through the course).
-
-Not bad ;-)
+    and arrays (we will discuss them as we move through the course).</li>
+</ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-2">1.3.2 What can be done with JavaScript</h3>
+<h3 id="ch1-3-2">1.3.2 What can be done with JavaScript (2:23)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Hello! What can be done with JavaScript? Let me show you some examples that are 
+the most common ones.</p>
+<p>First, you can change dynamically the content of a Web page.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 108/109.  (82) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image108.png?raw=true"
+  style="width:35%"
+  title=""
+  alt="." />
+<img src="./images/image109.png?raw=true"
+  style="width:35%"
+  title=""
+  alt="." />
+</p>
 
-Hello!
-
-What can be done with JavaScript?
-
-Let me show you some examples that are the most common ones.
-
-First, you can change dynamically the content of a Web page.
-
-So here I&apos;ve got a Web page, I click on the button and I change the
-content of the page.
+<p>Here I&apos;ve got a Web page, I click on the button and I change the
+content of the page.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110.  (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image110.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
 
 Another thing we can do is to change dynamically the CSS style of some
-part of the document.
+part of the document. I click on the button and I change the style of the title.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 111.  (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image111.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
 
-I click on the button and I change the style of the title.
+<p>You can also use, from your JavaScript code, different objects, methods and 
+functions that are defined in your browser, in what we called standard HTML or 
+standard JavaScript APIs. HTML5 comes with many of these APIs for the geolocation, 
+for animation, for making music, and so on. In this example, we use the standard 
+W3C geolocation API that comes with HTML5. You can get from your browser, your 
+current latitude and longitude.</p>
 
-You can also use, from your JavaScript code, different objects, methods
-and functions that are defined in your browser, in what we called
-standard HTML or standard JavaScript APIs.
-
-HTML5 comes with many of these APIs for the geolocation, for animation,
-for making music, and so on.
-
-In this example, we use the standard W3C geolocation API that comes with
-HTML5.
-
-You can get from your browser, your current latitude and longitude.
-
-And here, we also use the Google Map APIs; we pass it the longitude and
-latitude and it displays the map centered on the current position and
-also displays the surface address.
-
-Here we go.
-
-I&apos;m located near Antibes in the south of France.
+<p>And here, we also use the Google Map APIs; we pass it the longitude and latitude 
+and it displays the map centered on the current position and also displays the 
+surface address. Here we go. I&apos;m located near Antibes in the south of France.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 112.  (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image112.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
 
 You can also work with remote data. So in this code, I&apos;m just sending
 what we call an Ajax request to a remote server to get a list of
 users... and once I get this list of users, I just use the HTML table
 JavaScript API for building dynamically tables. And I use this API to
-display the data that just came from a remote server. There is another
-example, that uses another database, another online database, for
-getting the members of a rock band. So, I type &quot;The Beatles&quot;. I got
-from the remote server the list of the members of The Beatles. So, these
+display the data that just came from a remote server. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 113.  (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image113.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+
+There is another example, that uses another database, another online database, 
+for getting the members of a rock band. So, I type &quot;The Beatles&quot;. I 
+got from the remote server the list of the members of The Beatles. So, these
 were the most typical uses of JavaScript Web sites.
 
 <h4>What can be done with JavaScript:</h4>
@@ -3277,9 +3209,9 @@ We have already seen three examples in previous parts of this week&apos;s
 course material.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 95. update html using javascript (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 114. update html using javascript (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image095.png?raw=true"
+<img src="./images/image114.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -3325,9 +3257,9 @@ title.innerHTML = "This new title has been changed from JavaScript!";
 }</code></pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 96. example of interactivity between javascript & html (xxx) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 115. example of interactivity between javascript & html (xxx) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image096.png?raw=true"
+<img src="./images/image115.png?raw=true"
   style="width:65%"
   title="Example of interactivity between javascript &amp; html"
   alt="Example of interactivity between javascript &amp; html." />
@@ -3344,7 +3276,7 @@ property values of this HTML element.</b></p>
 ```
 function changeTitleCSSStyle() {
 var title = document.querySelector("#mainTitle");
-<b>title.style.color = &apos;black&apos;;</b>
+<b>title.style.color = 'black';</b>
 <b>title.style.backgroundColor = "yellow";</b>
 <b>title.style.border = "5px dashed red";</b>
 }
@@ -3390,9 +3322,9 @@ need to click the CodePen logo on top right to run this example. For
 security reasons it cannot be run inside this course page</b>).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 97.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 116.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image097.png?raw=true"
+<img src="./images/image116.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -3453,17 +3385,17 @@ Here are some examples:
 Typically:
 
 <pre><code>
-&lt;body&gt;
-&hellip;
-&lt;script&gt;
-var x = 2;
-// show a message in the body of the html document
-document.body.innerHTML += "&lt;b&gt;JavaScript code executed. The value of the variable x is: " + x + "&lt;/b&gt;";
-// also print a message in the devtool console
-console.log("JavaScript code executed");
-&lt;/script&gt;
-&hellip;
-&lt;/body&gt;
+<body>
+...
+<script>
+  var x = 2;
+  // show a message in the body of the html document
+  document.body.innerHTML += "<b>JavaScript code executed. The value of the variable x is: " + x + "</b>";
+  // also print a message in the devtool console
+  console.log("JavaScript code executed");
+</script>
+...
+</body>
 </code></pre>
 
 Here is this first example on CodePen:
@@ -3518,7 +3450,8 @@ Here is this second example on CodePen:
 </p>
 <!-- ![](./images/image100.png){width="6.5in" height="3.1881944444444446in"} -->
 
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/apBMYJ">CodePen: Plotting Functions in JS</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/apBMYJ">
+CodePen: Plotting Functions in JS</a></h6>
 
 <h4>Example #2: put the JavaScript code in local .js files</h4>
 
@@ -3600,26 +3533,26 @@ In this example, we have just one CSS file and one JavaScript file:
 <h5>Contents of the index.html file:</h5>
 
 ```
-1.  &hellip;
-2.  &lt;head&gt;
+1.  ...
+2.  <head>
 3.  &hellip;
-4.  <b>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;</b>
-5.  <b>&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;</b>
-6.  &lt;/head&gt;
-7.  &lt;body&gt;
-8.  &lt;h1&gt;Example 3: JavaScript and CSS in local files!&lt;/h1&gt;
-9.  &lt;button <b>onclick=&quot;addSomeText();</b>&quot;&gt;Click me to call a
+4.  <b><link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;></b>
+5.  <b><script src=&quot;js/script.js&quot;></script></b>
+6.  </head>
+7.  <body>
+8.  <h1>Example 3: JavaScript and CSS in local files!</h1>
+9.  <button <b>onclick=&quot;addSomeText();</b>&quot;>Click me to call a
     JavaScript function that will add some content to this
-    document&lt;/button&gt;
-10. &lt;/body&gt;
-11. &lt;/html&gt;
+    document</button>
+10.   </body>
+11. </html>
 ```
 
 Content of the js/script.js file (JavaScript file):
 
 ```
 1.  function addSomeText() {
-2.  document.body.innerHTML += &quot;&lt;p&gt;Function executed!&lt;/p&gt;&quot;;
+2.  document.body.innerHTML += &quot;<p>Function executed!</p>&quot;;
 3.  }
 ```
 
@@ -3648,7 +3581,9 @@ How to run this example:
 External JavaScript libraries (they are just big JS files) can be also
 referenced with a full URL, like in this example:
 
-1.  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;&gt;&lt;/script&gt;
+```
+1.  <script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;></script>
+```
 
 Here, we just included in our HTML document the
 excellent [paperJS](http://paperjs.org/) library that can be used to
@@ -3716,19 +3651,19 @@ Let&apos;s look at this example below (or online as a [JS
 Bin)](http://jsbin.com/moqimuz/edit?html,console,output):
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&gt;
-&lt;head&gt;
-&lt;meta charset=utf-8 /&gt;
-&lt;title&gt;Web Audio API&lt;/title&gt;
-&lt;script&gt;
+<!DOCTYPE html>
+<html lang=&quot;en>
+<head>
+<meta charset=utf-8 />
+<title>Web Audio API</title>
+<script>
 console.log(&quot;Some JavaScript code has been executed&quot;);
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;JavaScript debugging using the dev tool console&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</script>
+</head>
+<body>
+<h1>JavaScript debugging using the dev tool console</h1>
+</body>
+</html>
 ```
 
 The simplest way to add JavaScript code in an HTML page is to use
@@ -4138,7 +4073,7 @@ undefined
  
 > z;
 12
-&gt; myNumber2;
+> myNumber2;
 34
  
 > myNumber1;
@@ -4228,12 +4163,12 @@ let thisIsAVariable;
 let and_this_too; // but <b>does not respect the usual naming convention</b>
 let mix12three;
 // invalid!
-let 2three4five; // <b>can&apos;t start with a digit!</b>
+let 2three4five; // <b>can't start with a digit!</b>
 let a = 1
-let v1, v2, v3 = &apos;hello&apos;, v4 = 4, v5;
+let v1, v2, v3 = 'hello', v4 = 4, v5;
 // Beware with lowercase / uppercase
-let case_matters = &apos;lower&apos;;
-let CASE_MATTERS = &apos;upper&apos;;
+let case_matters = 'lower';
+let CASE_MATTERS = 'upper';
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4559,36 +4494,36 @@ Type 343 in the devtool console, and after you press the Enter key,  the
 Examples of integer and decimals:
 
 ```
-&gt; var n=1;
+> var n=1;
 undefined
-&gt; typeof n;
+> typeof n;
 &quot;number&quot;
-&gt; n=1234;
+> n=1234;
 1234
-&gt; typeof n;
+> typeof n;
 &quot;number&quot;
-&gt; n=1.23;
+> n=1.23;
 1.23
-&gt; typeof n;
+> typeof n;
 &quot;number&quot;
-&gt; typeof 123;
+> typeof 123;
 &quot;number&quot;
 -   <b>Scientific notation</b>: 3.46e4, 5.3e+6, 5344000e-5
 3.46e4 equals 3.46 x 10&#94;4 equals 34600
 Examples:
-&gt; 1e1;
+> 1e1;
 10
-&gt; 1e+1;
+> 1e+1;
 10
-&gt; 2e+3;
+> 2e+3;
 2000
-&gt; typeof 2e+3;
+> typeof 2e+3;
 &quot;number&quot;
-&gt; 2e-3;
+> 2e-3;
 0.002
-&gt; 123.456E-3;
+> 123.456E-3;
 0.123456
-&gt; typeof 2e-3;
+> typeof 2e-3;
 &quot;number&quot;
 ```
 
@@ -4621,31 +4556,31 @@ value is 243
 Examples of octal and hexadecimal data types:
 
 ```
-&gt; var n3 = 0377;
+> var n3 = 0377;
 undefined
  
-&gt; typeof n3;
+> typeof n3;
 &quot;number&quot;
  
-&gt; n3;
+> n3;
 255
  
-&gt; var n4 = 0x00;
+> var n4 = 0x00;
 undefined
  
-&gt; typeof n4;
+> typeof n4;
 &quot;number&quot;
  
-&gt; n4;
+> n4;
 0
  
-&gt; var n5 = 0xFF;
+> var n5 = 0xFF;
 undefined
  
-&gt; typeof n5;
+> typeof n5;
 &quot;number&quot;
  
-&gt; n5;
+> n5;
 255
 ```
 
@@ -4665,10 +4600,10 @@ Finally, Nan represents <b>not-a-number</b> values, for example if you try
 to divide 0 by 0 (type 0/0 in the devtool console).
 
 ```
-&gt; 0 / 0;
+> 0 / 0;
 NaN
  
-&gt; 3 / 0;
+> 3 / 0;
 Infinity
 ```
 
@@ -4677,31 +4612,31 @@ Infinity
 Any operation with Infinity gives Infinity as a result:
 
 ```
-1.  &gt; Infinity;
+1.  > Infinity;
 2.  Infinity
 3.   
-4.  &gt; typeof Infinity;
+4.  > typeof Infinity;
 5.  &quot;number&quot;
 6.   
-7.  &gt; 1e309;
+7.  > 1e309;
 8.  Infinity
 9.   
-10. &gt; 1e308;
+10. > 1e308;
 11. 1e+308
 12.  
-13. &gt; var a = 6 / 0;
+13. > var a = 6 / 0;
 14. undefined
 15.  
-16. &gt; a;
+16. > a;
 17. Infinity
 18.  
-19. &gt; var i = -Infinity;
+19. > var i = -Infinity;
 20. undefined
 21.  
-22. &gt; i;
+22. > i;
 23. -Infinity
 24.  
-25. &gt; typeof i;
+25. > typeof i;
 26. &quot;number&quot;
 ```
 
@@ -4710,10 +4645,10 @@ Any operation with Infinity gives Infinity as a result:
 ```
 
 ```
-1.  &gt; Infinity - Infinity;
+1.  > Infinity - Infinity;
 2.  NaN
 3.   
-4.  &gt; -Infinity + Infinity;
+4.  > -Infinity + Infinity;
 5.  NaN
 ```
 
@@ -4722,16 +4657,16 @@ Any operation with Infinity gives Infinity as a result:
 ```
 
 ```
-1.  &gt; Infinity - 20;
+1.  > Infinity - 20;
 2.  Infinity
 3.   
-4.  &gt; -Infinity &ast; 3;
+4.  > -Infinity &ast; 3;
 5.  -Infinity
 6.   
-7.  &gt; Infinity / 2;
+7.  > Infinity / 2;
 8.  Infinity
 9.   
-10. &gt; Infinity - 9999999999999;
+10. > Infinity - 9999999999999;
 11. Infinity
 ```
 
@@ -4740,17 +4675,17 @@ Any operation with Infinity gives Infinity as a result:
 NaN is a special value and its type is &quot;Number&quot;!
 
 ```
-1.  &gt; typeof NaN;
+1.  > typeof NaN;
 2.  &quot;number&quot;
 3.   
-4.  &gt; var a = NaN;
+4.  > var a = NaN;
 5.  undefined
 6.   
-7.  &gt; a;
-8.  NaN &gt; 
+7.  > a;
+8.  NaN > 
   var a = 10 &ast; &quot;f&quot;;
-  undefined &gt; a;
-  NaN &gt; 1 + 2 + a;
+  undefined > a;
+  NaN > 1 + 2 + a;
   NaN
 ```
 
@@ -4771,7 +4706,7 @@ calculations. One common example of errors due to the approximation of
 floating point numbers is that 0.1 + 0.2 does not equal 0.3. 
 
 ```
-&gt; 0.1 + 0.2;
+> 0.1 + 0.2;
 0.30000000000000004
 ```
 
@@ -4808,7 +4743,7 @@ prefixed or suffixed.
 <h5>Unary operator example:</h5>
 
 ```
-typeof &apos;world&apos;;
+typeof 'world';
 ```
 
 A binary operator is applied to two different expressions, and is both
@@ -4852,16 +4787,16 @@ And finally, you cannot start a string with a single and end with a
 double quotes, or the opposite.
 
 ```
-&gt; &quot;Hello World&quot;;
+> &quot;Hello World&quot;;
 &quot;Hello World&quot;
  
-&gt; &quot;JavaScript Course&quot;;
+> &quot;JavaScript Course&quot;;
 &quot;JavaScript Course&quot;
  
-&gt; &apos;With simple quotes&apos;;
+> 'With simple quotes';
 &quot;With simple quotes&quot;
  
-&gt; &quot;Do not mix double and simple quotes&apos;; // here we opened the string
+> &quot;Do not mix double and simple quotes'; // here we opened the string
 with double and closed with simple quotes
 ```
 
@@ -5021,31 +4956,31 @@ A String number in an arithmetic expression is converted to Number,
 unless the formula is a pure addition.
 
 ```
-&gt; var s = &apos;1&apos;; s = 3 &ast; s; typeof s;
+> var s = &apos;1&apos;; s = 3 &ast; s; typeof s;
 &quot;number&quot;
  
-&gt; s;
+> s;
 3
  
-&gt; var s = &apos;1&apos;; s++; typeof s;
+> var s = &apos;1&apos;; s++; typeof s;
 &quot;number&quot;
  
-&gt; s;
+> s;
 2
  
-&gt; var s = &quot;100&quot;; typeof s;
+> var s = &quot;100&quot;; typeof s;
 &quot;string&quot;
  
-&gt; s = s &ast; 1;
+> s = s &ast; 1;
 100
  
-&gt; typeof s;
+> typeof s;
 &quot;number&quot;
  
-&gt; var d = &quot;101 dalmatians&quot;;
+> var d = &quot;101 dalmatians&quot;;
 undefined
  
-&gt; d &ast; 1;
+> d &ast; 1;
 NaN
 ```
 
@@ -5165,11 +5100,11 @@ We will study these objects later, but for the moment, just play with
 objects :-)
 
 ```
-&gt; window.innerHeight
+> window.innerHeight
 217
-&gt; window.innerWidth
+> window.innerWidth
 1704
-&gt; navigator.vendor
+> navigator.vendor
 &quot;Google Inc.&quot;
 ```
 
@@ -5193,11 +5128,11 @@ var student1 = {
 Accessing an object&apos;s properties: we use the operator &quot;.&quot;
 
 ```
-&gt; student1.ssn
+> student1.ssn
 &quot;11-22-33-44&quot;
-&gt; student1.age
+> student1.age
 23
-&gt; student1
+> student1
 &lbrack;object Object&rbrack; {
     age: 23,
     city: &quot;New York&quot;,
@@ -5268,19 +5203,19 @@ If you want to add a new element at the end of an array, use the index
 equal to the length of the array
 
 ```
-1.  <b>&gt;
-    var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, 
-	  &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;&rbrack;;</b>
+1.  <b>
+    var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 
+	  'Thursday', 'Friday';, 'Saturday'];</b>
 2.  <b>undefined</b>
-3.  <b>&gt; daysOfWeek.length</b>
+3.  <b>daysOfWeek.length</b>
 4.  <b>6</b>
-5.  <b>&gt; daysOfWeek&lbrack;6&rbrack;</b>
+5.  <b>daysOfWeek[6]</b>
 6.  <b>undefined</b>
 7.  <b>// NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is
     0 // last 6-1 = 5</b>
-8.  &gt; daysOfWeek<b>&lbrack;6&rbrack; = &apos;Sunday&apos;</b>
-9.  <b>&quot;Sunday&quot;</b>
-10. <b>&gt; daysOfWeek.length</b>
+8.  > daysOfWeek<b>[6] = 'Sunday'</b>
+9.  <b>"Sunday"</b>
+10. <b>daysOfWeek.length</b>
 11. <b>7</b>
 12. <b>// Sunday, the 7th day of week is at index 6 !</b>
 ```
@@ -5290,15 +5225,15 @@ equal to the length of the array
 Well, this is not so important for the moment, but look:
 
 ```
-1.  &gt; var a = &lbrack;&rbrack;;
-2.  &gt; <b>typeof a;</b>
-3.  <b>&quot;object&quot;</b>
-4.  &gt; var a = &lbrack;1,2,3&rbrack;;
-5.  &gt; a
-6.  &lbrack;1, 2, 3&rbrack;
-7.  &gt; a&lbrack;0&rbrack;
+1.  > var a = [];
+2.  > <b>typeof a;</b>
+3.  <b>"object"</b>
+4.  > var a = [1,2,3];
+5.  > a
+6.  [1, 2, 3]
+7.  > a[0]
 8.  1
-9.  &gt; a&lbrack;1&rbrack;
+9.  > a[1]
 10. 2
 ```
 
@@ -5313,16 +5248,16 @@ will learn more about this in a later lesson (Arrays part 2), but for
 the moment, let&apos;s focus on the most useful features&hellip;
 
 ```
-1.  &gt;
+1.  >
     var daysOfWeek = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;, &apos;Friday&apos;, &apos;Saturday&apos;&rbrack;;
 2.  undefined
-3.  &gt; daysOfWeek.length
+3.  > daysOfWeek.length
 4.  6
-5.  <b>&gt; daysOfWeek.push(&apos;Sunday&apos;);</b>
+5.  <b>> daysOfWeek.push(&apos;Sunday&apos;);</b>
 6.  7
-7.  &gt; daysOfWeek
+7.  > daysOfWeek
 8.  &lbrack;&quot;Monday&quot;, &quot;Tuesday&quot;, &quot;Wednesday&quot;, &quot;Thursday&quot;, &quot;Friday&quot;, &quot;Saturday&quot;, &quot;Sunday&quot;&rbrack;
-9.  &gt; daysOfWeek.length
+9.  > daysOfWeek.length
 10. 7
 ```
 
@@ -5339,14 +5274,14 @@ Consequence:
 Examples:
 
 ```
-1.  &gt; var s = &apos;one&apos;;
-2.  &gt; s&lbrack;0&rbrack;
+1.  > var s = &apos;one&apos;;
+2.  > s&lbrack;0&rbrack;
 3.  &quot;o&quot;
-4.  &gt; s&lbrack;1&rbrack;;
+4.  > s&lbrack;1&rbrack;;
 5.  &quot;n&quot;
-6.  &gt; s&lbrack;2&rbrack;;
+6.  > s&lbrack;2&rbrack;;
 7.  &quot;e&quot;
-8.  &gt; s.length;
+8.  > s.length;
 9.  3
 ```
 
@@ -5377,7 +5312,7 @@ Functions always return a value:
 1.  var result = sum(1, 2);
 2.  //result is equal to 3
 3.  console.log(result)
-4.  &gt; 3
+4.  > 3
 ```
 
 #### Function parameters {#function-parameters .unnumbered}
@@ -5386,7 +5321,7 @@ If parameters are omitted during the call, JavaScript gives them the
 value undefined:
 
 ```
-1.  &gt; sum(1)
+1.  > sum(1)
 2.  NaN
 ```
 
@@ -5427,15 +5362,15 @@ it contains all the call parameters of the function:
 1.  function newSum() {
 2.      var i, res = 0;
 3.      var numberOfParameters = arguments.length;
-4.      for (i = 0; i &lt; numberOfParameters; i++) {
+4.      for (i = 0; i < numberOfParameters; i++) {
 5.         res += arguments&lbrack;i&rbrack;;
 6.      }
 7.      return res;
 8.  }
 9.  &hellip;
-10. &gt;&gt;&gt; newSum(1, 1, 1);
+10. >>> newSum(1, 1, 1);
 11. 3
-12. &gt;&gt;&gt; newSum(1, 2, 3, 4);
+12. >>> newSum(1, 2, 3, 4);
 13. 10
 ```
 
@@ -5641,22 +5576,22 @@ height="2.2583333333333333in"}
 <h5>HTML:</h5>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;UTF-8&quot;&gt;
-&lt;title&gt;JavaScript can change CSS properties on the fly&lt;/title&gt;
-&lt;/head&gt;
-&lt;body onload=&quot;init();&quot;&gt;
-&lt;p&gt;Here is a div. Click the button below to change its style!&lt;/p&gt;
-&lt;p&gt;
-&lt;button onclick=&quot;changeStyle();&quot;&gt;Change style of the div&lt;/button&gt;
-&lt;/p&gt;
-&lt;div id=&quot;theDiv&quot;&gt;
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=&quot;UTF-8&quot;>
+<title>JavaScript can change CSS properties on the fly</title>
+</head>
+<body onload=&quot;init();&quot;>
+<p>Here is a div. Click the button below to change its style!</p>
+<p>
+<button onclick=&quot;changeStyle();&quot;>Change style of the div</button>
+</p>
+<div id=&quot;theDiv&quot;>
 This is a div!
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</div>
+</body>
+</html>
 ```
 
 <h5>CSS:</h5>
