@@ -3253,8 +3253,8 @@ function</b> (a block of code that is executed only when we call it by
 adding a parenthesis after its name, followed by a semi colon):</p>
 
 <pre><code>**function changeTitle()** {
-var title = document.querySelector("#mainTitle");
-title.innerHTML = "This new title has been changed from JavaScript!";
+  var title = document.querySelector("#mainTitle");
+  title.innerHTML = "This new title has been changed from JavaScript!";
 }</code></pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3274,14 +3274,12 @@ content of the main title, <b>we use its style property to change its
 look and feel. Using the style property is a way of altering the CSS
 property values of this HTML element.</b></p>
 
-```
-function changeTitleCSSStyle() {
-var title = document.querySelector("#mainTitle");
-**title.style.color = 'black';**
-**title.style.backgroundColor = "yellow";**
-**title.style.border = "5px dashed red";**
-}
-```
+<pre><code>function changeTitleCSSStyle() {
+  var title = document.querySelector("#mainTitle");
+  **title.style.color = 'black';**
+  **title.style.backgroundColor = "yellow";**
+  **title.style.border = "5px dashed red";**
+}</code></pre>
 
 title is in reality what we call &quot;an object&quot; and style is a property
 of the title object. The style is an object as well and has attributes
@@ -3674,9 +3672,9 @@ Here is a running example that uses the paperJS library, included using
 an external URL:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 123.  (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 124.  (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image123.png?raw=true"
+<img src="./images/image124.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -3685,9 +3683,9 @@ an external URL:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 124. how to debug javascript (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 125. how to debug javascript (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image124.png?raw=true"
+<img src="./images/image125.png?raw=true"
   style="width:65%"
   title="How to debug JavaScript"
   alt="How to debug JavaScript." />
@@ -3697,47 +3695,71 @@ an external URL:
 Hi, every programmer will make errors. So is very important that you learn how to debug
 your JavaScript programs, how to see your errors, how to write messages
 for debugging, tracing what is going on, etc.
+
 Every browser comes with a very powerful set of tools called the devtools.
+
 With my Mac, I can use command "alt + I". So the thing we will going to use
 the most is the console. A console loads problems or errors.
 So, if I can clear the messages from here and this is the place where I will see
 the different error messages I've got in my code.
+
+<image126> pg 97
+
 Here is an example in JsBin. So, you can click here to see the console or
 it’s the same thing you can get here.
+
+<image127> pg97
+
 If I type something here: console.log("hello"). So this is the instruction
 you will use the most for printing error messages in the dev toolconsole.
-If I execute it, it prints "hello", and I can see also in the browser built in console: "hello".
-So this just a comfortable way to display error messages.
-So, if I make some errors, here I've got a script that will display, as soon the page is loaded,
-"Some JavaScript code has been executed". So if I run the code, here, it displays
-"Some JavaScript code has been executed". If there is a mistake, if I make an error here,
+If I execute it, it prints "hello", and I can see also in the browser built 
+in console: "hello".
+
+This just a comfortable way to display error messages. If I make some errors, 
+here I've got a script that will display, as soon the page is loaded,
+"Some JavaScript code has been executed". 
+<image128> pg98
+
+If I run the code, here, it displays "Some JavaScript code has been executed". 
+<image129> pg98
+
+If there is a mistake, if I make an error here,
 for example, I write console with two "l". I can see, in red, some messages:
  "consolle is not defined", bla, bla, bla...
+ 
 When you use some online tools like JsBin or CodePen, and so on, it's a bit difficult to
 debug your code because you are debugging at the same time the code of the tool itself that
 is written in JavaScript too. So each each these tools comes with a way to
 run your code in what we decode ‘standalone mode’ or ‘debug mode’.
-So with JsBin, I click on the small black arrow, here.
+ <image130>pg99
+
+With JsBin, I click on the small black arrow, here.
 And if I open the built-in browser console, I can see the error message.
+
 And here, if I click on the link on the right, it will just show the line where my program
 made a mistake display, so, as an error. So here, I can see that console
 needs only one "l", I can fix that.
+<image131> pg100
+
 Another interested thing is that when you use "console.log", you can use it to display
 some variable values. So, if I declare a variable named x with a value of 10,
 I can use «console.log" to display the value of x, using the "+" operator.
 So in that case, if I run my code it will help me by displaying the value
 of different variables when “console.log” is executed.
+<image132> pg100
+
 With CodePen, another tool we use a lot in the course, you've got the debug mode.
 Just save your work and click on "change view mode" we’ve got "debug mode" here.
 And you can also open the console. If you click on the console button here,
 you can have a console here, and see what is going on. CodePen does not display
 the error messages, so is better for debugging to click on the "debug mode", here.
-So you've got the page in standalone mode, and you can open the dev tool console.
+
+You've got the page in standalone mode, and you can open the dev tool console.
 With local files, I’ve got another example here with HTML code that uses it some JavaScript
 code from a "script.js" file. If I make an error here, an error in the name console,
-I save. I can run the result: "Open in browser".
-I click, it does nothing. I open the dev tool console and I see where
-the problem is and I can click on the link on the right and it shows the line with the error.
+I save. I can run the result: "Open in browser". I click, it does nothing. I open 
+the dev tool console and I see where the problem is and I can click on the link on 
+the right and it shows the line with the error.
 
 <!------------------------------------------------------------------------------------------------>
 
@@ -3748,7 +3770,7 @@ Let&apos;s introduce what is debugging.
 When you are developing a Web Application that contains JavaScript code,
 you will make errors. 
 
-Repeat after me: &quot;I WILL MAKE ERRORS!&quot; ; &quot;I WILL MAKE ERRORS!&quot;
+<h4>Repeat after me: &quot;I WILL MAKE ERRORS!&quot; ; &quot;I WILL MAKE ERRORS!&quot;</h4>
 
 There will be error messages, and you will need to print messages for
 debugging your code. We will see more advanced debugging techniques at
@@ -3816,9 +3838,9 @@ message in the console), we see the message in the console tab, as well
 as in the dev. tools console. This is illustrated by the image below
 (or [online](https://jsbin.com/moqimuz/edit?html,console,output)):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 125. snapshot of a javascript console view (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 133. snapshot of a javascript console view (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image125.png?raw=true"
+<img src="./images/image133.jpeg?raw=true"
   style="width:50%"
   title="Snapshot of a JavaScript console view"
   alt="Snapshot of a JavaScript console view." />
@@ -3831,9 +3853,9 @@ Bin editor. Press the black arrow on the top right of the output
 window - this will render the page as a standalone Web page, then
 press <b>F12</b>. You should see:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 126. snapshot of a javascript console view (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 134. snapshot of a javascript console view (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image126.png?raw=true"
+<img src="./images/image135.jpeg?raw=true"
   style="width:50%"
   title="Snapshot of a JavaScript console view"
   alt="Snapshot of a JavaScript console view." />
@@ -3843,7 +3865,7 @@ press <b>F12</b>. You should see:
 Ok, now, let&apos;s make an error:
 change console.log() into conso<b>lll</b>e.log(). Let&apos;s see what happens:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 008. view of the javascript console showing an eror (xxx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 008. view of the javascript console showing an eror (104) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image008.jpeg?raw=true"
   style="width:50%"
@@ -3854,9 +3876,9 @@ change console.log() into conso<b>lll</b>e.log(). Let&apos;s see what happens
 
 And if we run it standalone and use the dev. tool console:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~ 106. View of the JavaScript console (showing the line that caused the error (xxx) ~~~~~-->
+<!--~~~~ 135. View of the JavaScript console (showing the line that caused the error (104) ~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image106.jpeg?raw=true"
+<img src="./images/image135.jpeg?raw=true"
   style="width:50%"
   title="View of the JavaScript console (showing the line that caused the error"
   alt="View of the JavaScript console (showing the line that caused the error." />
@@ -3867,9 +3889,9 @@ height="2.508445975503062in"}
 And if we click on the line number to the right, the dev. tool shows the
 source code centered on the line that caused the error:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 107. view of the javascript console (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 136. view of the javascript console (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image107.jpeg?raw=true"
+<img src="./images/image136.jpeg?raw=true"
   style="width:50%"
   title="View of the JavaScript console"
   alt="View of the JavaScript console." />
@@ -3916,14 +3938,14 @@ using a regular source code editor and .html, .css and .js files.
 
 <b>Here is what the resulting Web page will look like:</b>
 
-![](./images/image108.png)  <!-- {width="5.0in" height="3.0480774278215224in"} -->
+![](./images/image137.png)  <!-- {width="5.0in" height="3.0480774278215224in"} -->
 
 https://codepen.io/w3devcampus/pen/bqGboZ
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 Using CodePen (6:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
+<image138>
 In the video, at 3:19, there are some mistakes in the HTML code:
 
 1.  This line uses a wrong value for the for attribute (it should be the
@@ -3935,6 +3957,7 @@ In the video, at 3:19, there are some mistakes in the HTML code:
 2.  Improvement in the code could be to replace all empty
     paragraphs &lt;p&gt;&lt;/p&gt; by line breaks &lt;br&gt; or by a single &lt;p&gt;.
 
+<end of 1.4.2 video transcript>
 <h4>CodePen example with the starting code used in the video</h4>
 
 If you want to code while watching the video, [please open this
