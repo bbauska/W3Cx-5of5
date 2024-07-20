@@ -2890,8 +2890,8 @@ mouse wheel to zoom in/out the function plot.
 document of some external JavaScript code:</p>
 
 ```
-1.  <script src=&quot;https://d3js.org/d3.v3.min.js&quot;&gt;</script&gt;
-2.  <script src=&quot;https://mauriciopoppe.github.io/function-plot/js/function-plot.js&quot;&gt;</script&gt;
+1.  <script src="https://d3js.org/d3.v3.min.js"&gt;</script&gt;
+2.  <script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;</script&gt;
 ```
 
 We will examine this soon in a later section of the course, but, in
@@ -3005,8 +3005,8 @@ properties/values inside, separated by a comma. Here is a simple object:
 
 ```
 1.  {
-2.  givenName: &quot;Michel&quot;,
-3.  familyName: &quot;Buffa&quot;
+2.  givenName: "Michel",
+3.  familyName: "Buffa"
 4.  }
 ```
 
@@ -3209,17 +3209,17 @@ syntax as CSS to select elements in the document. In our case,
 &quot;#mainTitle&quot; is a selector value that means &quot;the element whose id is
 equal to mainTitle&quot;.</p>
 
-<pre><code>var title = document.querySelector(&quot;#mainTitle&quot;);</code></pre>
+<pre><code>var title = document.querySelector("#mainTitle");</code></pre>
 
 <p>It uses <b>the DOM API</b> to change the HTML content of the selected
 element:</p>
 
-<pre><code>title.innerHTML = &quot;This new title has been changed from JavaScript!&quot;;</code></pre>
+<pre><code>title.innerHTML = "This new title has been changed from JavaScript!";</code></pre>
 
 <p><b>It listens to click events</b> in order to call
 the changeTitle() function when we click on the button:</p>
 
-<pre><code>1.  <button <b>onclick=&quot;changeTitle();</b>&quot;>Click me to change the
+<pre><code>1.  <button <b>onclick="changeTitle();</b>">Click me to change the
     title of the page</button></code></pre>
 
 <p>And it executes the whole action (changing the title text) in<b> a
@@ -3227,8 +3227,8 @@ function</b> (a block of code that is executed only when we call it by
 adding a parenthesis after its name, followed by a semi colon):</p>
 
 <pre><code><b>function changeTitle()</b> {
-var title = document.querySelector(&quot;#mainTitle&quot;);
-title.innerHTML = &quot;This new title has been changed from JavaScript!&quot;;
+var title = document.querySelector("#mainTitle");
+title.innerHTML = "This new title has been changed from JavaScript!";
 }</code></pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3250,10 +3250,10 @@ property values of this HTML element.</b></p>
 
 ```
 function changeTitleCSSStyle() {
-var title = document.querySelector(&quot;#mainTitle&quot;);
+var title = document.querySelector("#mainTitle");
 <b>title.style.color = &apos;black&apos;;</b>
-<b>title.style.backgroundColor = &quot;yellow&quot;;</b>
-<b>title.style.border = &quot;5px dashed red&quot;;</b>
+<b>title.style.backgroundColor = "yellow";</b>
+<b>title.style.border = "5px dashed red";</b>
 }
 ```
 
@@ -3365,9 +3365,9 @@ Typically:
 &lt;script&gt;
 var x = 2;
 // show a message in the body of the html document
-document.body.innerHTML += &quot;&lt;b&gt;JavaScript code executed. The value of the variable x is: &quot; + x + &quot;&lt;/b&gt;&quot;;
+document.body.innerHTML += "&lt;b&gt;JavaScript code executed. The value of the variable x is: " + x + "&lt;/b&gt;";
 // also print a message in the devtool console
-console.log(&quot;JavaScript code executed&quot;);
+console.log("JavaScript code executed");
 &lt;/script&gt;
 &hellip;
 &lt;/body&gt;
@@ -3399,19 +3399,19 @@ This time, we placed a JavaScript function that is invoked (called) when
 a button is clicked:
 
 <pre><code>
-&lt;head&gt;
-<b>&lt;script&gt;</b>
+<head>
+<b><script></b>
 <b>function addSomeText() {</b>
 <b>// append a message in the body of the html document</b>
-<b>document.body.innerHTML += &quot;&lt;br&gt;Function executed!&quot;;</b>
+<b>document.body.innerHTML += "<br>Function executed!";</b>
 <b>}</b>
-<b>&lt;/script&gt;</b>
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button <b>onclick=&quot;addSomeText();&quot;</b>&gt;Click me to call a JavaScript function that will add
+<b></script></b>
+</head>
+<body>
+<button <b>onclick="addSomeText();"</b>>Click me to call a JavaScript function that will add
 some content to this document
-&lt;/button&gt;
-&lt;/body&gt;
+</button>
+</body>
 </code></pre>
 
 Here is this second example on CodePen:
@@ -3444,11 +3444,11 @@ offers many advantages:
 A typical example:
 
 ```
-1.  &lt;head&gt;
-2.  &hellip;
-3.  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
-4.  <b>&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;</b>
-5.  &lt;/head&gt;
+1.  <head>
+2.    ...
+3.    <link rel="stylesheet" href="css/style.css">
+4.    <b><script src="js/script.js"></script></b>
+5.  </head>
 ```
 
 <b>To use an external JavaScript file:</b>
@@ -3468,17 +3468,17 @@ A typical example:
 5.  It&apos;s possible to use more than one JavaScript file, just use
     multiple &lt;script src=&quot;&hellip;&quot;&gt;&lt;/script&gt;
 
-Example that uses more than one JavaScript file:
+<h5>Example that uses more than one JavaScript file:</h5>
 
 <pre><code>
-1.  &lt;head&gt;
-2.  &hellip;
-3.  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
-4.  <b>&lt;script src=&quot;js/script1.js&quot;&gt;&lt;/script&gt;</b>
-5.  <b>&lt;script src=&quot;js/script2.js&quot;&gt;&lt;/script&gt;</b>
-6.  <b>&lt;script src=&quot;js/anotherOne.js&quot;&gt;&lt;/script&gt;</b>
-7.  <b>&hellip;</b>
-8.  &lt;/head&gt;
+1.  <head>
+2.    ...
+3.    <link rel="stylesheet" href="css/style.css">
+4.    <b><script src="js/script1.js"></script></b>
+5.    <b><script src="js/script2.js"></script></b>
+6.    <b><script src="js/anotherOne.js"></script></b>
+7.    <b>...</b>
+8.  </head>
 </code></pre>
 
 <h4>A typical HTML/CSS/JS project folder structure, when working with external local files</h4>
@@ -3504,7 +3504,7 @@ In this example, we have just one CSS file and one JavaScript file:
   alt="A typical HTML/CSS/JS project folder, folder expanded." />
 </p>
 
-Contents of the index.html file:
+<h5>Contents of the index.html file:</h5>
 
 ```
 1.  &hellip;
@@ -4031,25 +4031,24 @@ example, and type myNumber2 in the devtool console, it will display 34
 (while myNumber1 will have an undefined value):
 
 ```
-&gt; var myNumber1, myNumber2 = 34, myNumber3;
+> var myNumber1, myNumber2 = 34, myNumber3;
+undefined
+
+> // Or with the ES6 syntax you can also use &quot;let&quot;
 undefined
  
-
-&gt; // Or with the ES6 syntax you can also use &quot;let&quot;
-undefined
- 
-&gt; let x=1, y=3, z=12;
+> let x=1, y=3, z=12;
 
 undefined
-&gt; x;
+> x;
 1
  
-&gt; z;
+> z;
 12
 &gt; myNumber2;
 34
  
-&gt; myNumber1;
+> myNumber1;
 undefined
 ```
 
@@ -5561,17 +5560,13 @@ height="2.2583333333333333in"}
 &lt;button onclick=&quot;changeStyle();&quot;&gt;Change style of the div&lt;/button&gt;
 &lt;/p&gt;
 &lt;div id=&quot;theDiv&quot;&gt;
-```
-
 This is a div!
-
-```
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 ```
 
-CSS
+<h5>CSS:</h5>
 
 ```
 #theDiv {
@@ -5581,7 +5576,7 @@ background-color: pink;
 }
 ```
 
-JS
+<h5>JS:</h5>
 
 ```
 var divElem;
@@ -5709,7 +5704,7 @@ provides many other examples that use the webcam.
 &lt;/html&gt;
 ```
 
-JS
+<h5>JS:</h5>
 
 ```
 navigator.mediaDevices.getUserMedia({
@@ -6532,53 +6527,53 @@ padding: 25px;
 
 ```
 var ttt = functionPlot({
-target: &apos;#quadratic&apos;,
-data: &lbrack;{
-fn: &apos;x&#94;2&apos;,
-color: &apos;red&apos;,
+target: '#quadratic',
+data: [{
+fn: 'x&#94;2',
+color: 'red',
 derivative: {
-fn: &apos;2 &ast; x&apos;,
-color: &apos;green&apos;,
+fn: '2 * x',
+color: 'green',
 updateOnMouseMove: true
 }
-}&rbrack;,
+}&],
 grid: true,
-yAxis: {domain: &lbrack;0, 1&rbrack;},
-xAxis: {domain: &lbrack;0, 1&rbrack;}
+yAxis: {domain: [0, 1]},
+xAxis: {domain: [0, 1]}
 });
-ttt.root.width=&quot;200px&quot;;
-ttt.root.height=&quot;200px&quot;;
+ttt.root.width="200px";
+ttt.root.height="200px";
 functionPlot({
-target: &apos;#sin&apos;,
-data: &lbrack;{
-fn: &apos;sin(x)&apos;,
-color: &apos;blue&apos;,
-range: &lbrack;-1, 8&rbrack;,
+target: '#sin&',
+data: [{
+fn: 'sin(x)',
+color: 'blue',
+range: [-1, 8],
 closed: true
 }&rbrack;,
 tip: {
 xLine: true,
 yLine: true
 },
-yAxis: {domain: &lbrack;-2, 3&rbrack;},
-xAxis: {domain: &lbrack;-2, 9&rbrack;},
+yAxis: {domain: [-2, 3]},
+xAxis: {domain: [-2, 9]},
 });
 functionPlot({
-target: &apos;#multiple&apos;,
+target: '#multiple',
 data: &lbrack;
-{fn: &apos;x&ast;x&apos;, color: &apos;red&apos;},
-{fn: &apos;3&ast;x&apos;, color: &apos;green&apos;},
-{fn: &apos;cos(x)&apos;,
-color: &apos;blue&apos;,
-range: &lbrack;3, 6&rbrack;,
+{fn: 'x&ast;x', color: 'red'},
+{fn: '3&ast;x', color: 'green'},
+{fn: 'cos(x)',
+color: 'blue',
+range: [3, 6],
 closed: true
 },
-{fn: &apos;cos(x)&apos;,
-color: &apos;blue&apos;
+{fn: 'cos(x)',
+color: 'blue'
 },
-{fn: &apos;-3&ast;x&#94;2 + x&#94;2&apos;,
+{fn: '-3&ast;x&#94;2 + x&#94;2',
 nSamples: 150,
-graphType: &apos;scatter&apos;}
+graphType: 'scatter'}
 &rbrack;
 ```
 
@@ -6627,10 +6622,10 @@ height: 250px;
 
 ```
 var ttt = functionPlot({
-target: &apos;#myFunction&apos;,
+target: '#myFunction',
 data: &lbrack;{
-fn: &apos;sin(x&#94;2)&apos;,
-color: &apos;red&apos;
+fn: 'sin(x&#94;2)',
+color: 'red'
 }&rbrack;,
 grid: true,
 yAxis: {domain: &lbrack;-1, 1&rbrack;},
@@ -6642,7 +6637,7 @@ xAxis: {domain: &lbrack;0, 2&ast;Math.PI&rbrack;},
 <h3 id="ch1-6-8">1.6.8 Working with remote data</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Let&apos;s see a few examples on how to work with remote data.
+Let's see a few examples on how to work with remote data.
 
 <h4>Examples</h4>
 
@@ -6667,7 +6662,7 @@ This example downloads and displays a list of users in a table
   src=&quot;https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.js&quot;&gt;&lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;button onclick=&quot;search();&quot;&gt;Get remote list of users&apos; names and
+&lt;button onclick=&quot;search();&quot;&gt;Get remote list of users' names and
   emails using the fetch API&lt;/button&gt;
 &lt;div id=&quot;users&quot;&gt;&lt;/div&gt;
 &lt;/body&gt;
@@ -6685,7 +6680,7 @@ border: 1px solid;
 }
 ```
 
-<h5>JS</h5>
+<h5>JS:</h5>
 
 ```
 function search() {
@@ -6695,7 +6690,7 @@ fetch(queryURL)
 // response.json() returns a json string,
 // returning it will convert it
 // to a pure JavaScript
-// object for the next then&apos;s callback
+// object for the next then's callback
 return response.json();
 })
 .then(function (users) {
@@ -6703,7 +6698,7 @@ return response.json();
 displayUsersAsATable(users);
 })
 .catch(function (error) {
-console.log(&apos;Error during fetch: &apos; + error.message);
+console.log('Error during fetch: ' + error.message);
 });
 }
 function displayUsersAsATable(users) {
@@ -6734,7 +6729,7 @@ This example just shows how to use the HowlerJS external library to load
 remote sounds, decode them and play them as samples in memory (useful
 for video games):
 
-### ![](./images/image146.png){width="6.5in" height="3.25in"} {#section-7 .unnumbered}
+### ![](./images/image146.png){width="6.5in" height="3.25in"}
 
 <h5>HTML:</h5>
 
@@ -6756,7 +6751,7 @@ for video games):
 &lt;/html&gt;
 ```
 
-<h5>JS</h5>
+<h5>JS:</h5>
 
 ```
 function soundLoaded() {
@@ -6764,23 +6759,23 @@ function soundLoaded() {
 var button1 = document.querySelector(&quot;#explosion&quot;);
 button1.disabled = false;
 button1.addEventListener(&quot;click&quot;, function() {
-sound.play(&apos;blast&apos;);
+sound.play('blast');
 });
 var button2 = document.querySelector(&quot;#basic_explosion&quot;);
 button2.disabled = false;
 button2.addEventListener(&quot;click&quot;, function() {
-sound.play(&apos;laser&apos;);
+sound.play('laser');
 });
 var button3 = document.querySelector(&quot;#winner&quot;);
 button3.disabled = false;
 button3.addEventListener(&quot;click&quot;, function() {
-sound.play(&apos;winner&apos;);
+sound.play('winner');
 });
 }
 // Load and decode sounds
 var sound = new Howl({
-urls: &lbrack;&apos;https://goldfirestudios.com/proj/howlerjs/sounds.mp3&apos;,
-  &apos;https://goldfirestudios.com/proj/howlerjs/sounds.ogg&apos;&rbrack;,
+urls: &lbrack;'https://goldfirestudios.com/proj/howlerjs/sounds.mp3',
+  'https://goldfirestudios.com/proj/howlerjs/sounds.ogg'&rbrack;,
 sprite: {
 blast: &lbrack;0, 2000&rbrack;,
 laser: &lbrack;3000, 700&rbrack;,
@@ -7012,7 +7007,7 @@ A boolean variable should not be enclosed in quotation marks, otherwise
 it becomes a string variable:
 
 ```
-1.  var b = &apos;true&apos;; // b is not a boolean but a string
+1.  var b = 'true'; // b is not a boolean but a string
 ```
 
 #### Undefined and null values {#undefined-and-null-values .unnumbered}
@@ -7027,12 +7022,12 @@ undefined is returned when a variable has not been assigned:
 3.  undefined
 4.   
 5.  &gt; typeof foo;
-6.  &apos;undefined&apos;
+6.  'undefined'
 7.   
 8.  &gt;if (foo === undefined) {
-9.      console.log(&apos;The variable foo has no value and is undefined&apos;);
+9.      console.log('The variable foo has no value and is undefined');
 10. }
-11. &apos;The variable foo has no value and is undefined&apos;
+11. 'The variable foo has no value and is undefined'
 ```
 
 The above example shows how we can test whether a variable has a value
@@ -7062,7 +7057,7 @@ a ReferenceError will be raised. But the typeof operator will return
 2.  ReferenceError
 3.   
 4.  &gt; typeof bar;
-5.  &apos;undefined&apos;
+5.  'undefined'
 ```
 
 ### Logical operators {#logical-operators .unnumbered}
@@ -7126,17 +7121,17 @@ Examples:
 2.  var c = 6;
 3.   
 4.  if ((b === 5) &vert;&vert; (b === 6))  { //the second part is never tested
-5.      console.log(&apos;b is equal to 5 or equal to 6&apos;);
+5.      console.log('b is equal to 5 or equal to 6');
 6.  }
 7.   
 8.  if ((b === 5) && (c === 6)) {  // second part is evaluated
-9.      console.log(&apos;b  is equal to 5 and c is equal to 6&apos;);
+9.      console.log('b  is equal to 5 and c is equal to 6');
 10. }
 11.  
 12. if ((b === 15) && (c === 6)) {  // second part is never evaluated
-13.     console.log(&apos;b  is equal to 5 and c is equal to 6&apos;);
+13.     console.log('b  is equal to 5 and c is equal to 6');
 14. } else {
-15.     console.log(&apos;b not equal to 15 or c not equal to 6&apos;);
+15.     console.log('b not equal to 15 or c not equal to 6');
 16. }
 ```
 
@@ -7260,7 +7255,7 @@ Some examples :
 /&ast; Here, the interpreter will try to convert the string '1'
 into a number before doing the comparison &ast;/
  
-1 == &apos;1&apos;;
+1 == '1';
 //true :
  
  
@@ -7268,7 +7263,7 @@ into a number before doing the comparison &ast;/
  
 1 === 1;
 //true
-1 === &apos;1&apos;;
+1 === '1';
 //false
 ```
 
@@ -7316,7 +7311,7 @@ isNaN(0/0);
 isNaN(12);
 // false
  
-isNaN(&apos;foo&apos;);
+isNaN('foo');
 // true
 ```
 
@@ -7478,7 +7473,7 @@ different statement types. We have already seen one of them, the
 variable statement:
 
 ```
-1.  var myVar = &apos;hello &apos; + &apos;world&apos;;
+1.  var myVar = 'hello ' + 'world';
 ```
 
 We&apos;ve also seen the expression statement:
@@ -7510,7 +7505,7 @@ of statements wrapped in curly braces. 
 1.  {
 2.  var i = 0;
 3.  var result = false;
-4.  console.log(&apos;i = &apos; + i);
+4.  console.log('i = ' + i);
 5.  }
 ```
 
@@ -7632,9 +7627,9 @@ Here are two versions of the same code.
 
 ```
 1.  **if** (a &gt; 2)
-2.      result = &apos;a is bigger than 2&apos;;
+2.      result = 'a is bigger than 2';
 3.  **else**
-4.      result = &apos;a is not bigger than 2&apos;;
+4.      result = 'a is not bigger than 2';
 ```
 
 **Version 2: **with curly braces for delimiting the &quot;then&quot; and
@@ -7642,9 +7637,9 @@ Here are two versions of the same code.
 
 ```
 1.  **if** (a &gt; 2) **{**
-2.  result = &apos;a is bigger than 2&apos;;
+2.  result = 'a is bigger than 2';
 3.  **} else {**
-4.  result = &apos;a is not bigger than 2&apos;;
+4.  result = 'a is not bigger than 2';
 5.  **}**
 ```
 
@@ -7709,27 +7704,27 @@ block are executed sequentially until the keyword **break** is reached.
 <h4>Example #1: a common switch/case/default example</h4>
 
 ```
-var gear = &apos;&apos;;
+var gear = '';
  
 **switch** (cloudColor) **{**
-    **case** &apos;green&apos;:
-        gear = &apos;spacesuit&apos;;
+    **case** 'green':
+        gear = 'spacesuit';
         break;
  
-    **case** &apos;black&apos;:
-        gear = &apos;boots&apos;;
+    **case** 'black':
+        gear = 'boots';
         **break**;
  
-    **case** &apos;grey&apos;:
-        gear = &apos;umbrella&apos;;
+    **case** 'grey':
+        gear = 'umbrella';
         **break**;
  
-    **case** &apos;white&apos;:
-        gear = &apos;jacket&apos;;
+    **case** 'white':
+        gear = 'jacket';
         **break**;
  
     **default**:
-        gear = &apos;watch&apos;;
+        gear = 'watch';
         **break**; // useless if in the last case
 **}** // end of the switch statement
 ```
@@ -7745,24 +7740,24 @@ executed!
 <h4>Example 2#: a switch without &quot;breaks&quot; at the end of each case</h4>
 
 ```
-var gear = &apos;&apos;;
+var gear = '';
 
 **switch** (cloudColor) **{**
-    **case** &apos;green&apos;:
-        gear += &apos;spacesuit&apos;;
+    **case** 'green':
+        gear += 'spacesuit';
         **break**;
  
-    **case** &apos;black&apos;:
-        gear += &apos;boots, &apos;;
+    **case** 'black':
+        gear += 'boots, ';
  
-    **case** &apos;grey&apos;:
-        gear += &apos;umbrella, &apos;;
+    **case** 'grey':
+        gear += 'umbrella, ';
  
-    **case** &apos;white&apos;:
-        gear += &apos;jacket, &apos;;
+    **case** 'white':
+        gear += 'jacket, ';
  
     **default**:
-        gear += &apos;watch&apos;;
+        gear += 'watch';
 **}** // end of the switch statement
 ```
 
@@ -7798,7 +7793,7 @@ console to see the outputs.
 &lt;/html&gt;
 ```
 
-JS
+<h5>JS:</h5>
 
 ```
 /&ast;CONDITIONAL STATEMENTS&ast;/
@@ -7808,35 +7803,35 @@ var foo=1;
 //var foo=2;
 //var foo=1000;
 //var foo=0;
-//var foo=&apos;1&apos;;
+//var foo='1';
 var bar1,bar2,bar3;
 //example 1
 if(foo===1){
-bar1=&apos;one&apos;;
+bar1='one';
 }
 else if(foo===2){
-bar1=&apos;two&apos;;
+bar1='two';
 }
 else{
-bar1=&apos;something&apos;;
+bar1='something';
 }
 //example 2
-bar2 = (foo===1)?&apos;one&apos;:(foo===2)?&apos;two&apos;:&apos;something&apos;;
+bar2 = (foo===1)?'one':(foo===2)?'two':'something';
 //example 3
 switch(foo){
 case 1 :
-bar3=&apos;one&apos;;
+bar3='one';
 break;
 case 2 :
-bar3 =&apos;two&apos;;
+bar3 ='two';
 break;
 default:
-bar3 =&apos;something&apos;;
+bar3 ='something';
 }
 //now we print results :
-console.log(&apos;example1,&#92;n bar1 &gt;&gt; &apos; + bar1);
-console.log(&apos;example2,&#92;n bar2 &gt;&gt; &apos; + bar2);
-console.log(&apos;example3,&#92;n bar3 &gt;&gt; &apos; + bar3);
+console.log('example1,&#92;n bar1 &gt;&gt; ' + bar1);
+console.log('example2,&#92;n bar2 &gt;&gt; ' + bar2);
+console.log('example3,&#92;n bar3 &gt;&gt; ' + bar3);
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8077,11 +8072,11 @@ Typical example:
 1.  var i = 0;
 2.   
 3.  **do {**
-4.  **    console.log(&apos;i = &apos; + i);**
+4.  **    console.log('i = ' + i);**
 5.      i++;
 6.  **} while(i &lt; 20);**
 7.   
-8.  console.log(&apos;Value of i after the do-while statement: &apos; + i);
+8.  console.log('Value of i after the do-while statement: ' + i);
 ```
 
 The **do-while statement executes the content of the loop once before
@@ -8114,7 +8109,7 @@ Typical example (counting from 0 to 10):
 
 ```
 1.  for (var i = 0; i &lt;= 10; i++) {
-2.    console.log(&apos;i = &apos; + i);
+2.    console.log('i = ' + i);
 3.  }
 ```
 
@@ -8124,7 +8119,7 @@ part&quot; (i++). Here is another example:
 
 ```
 1.  for (**var i = 1, j = 1;** i &lt;= 10;** i++, j+=2**) {
-2.  console.log(&apos;i = &apos; + i + &apos; j = &apos; + j);
+2.  console.log('i = ' + i + ' j = ' + j);
 3.  }
 ```
 
@@ -8153,9 +8148,9 @@ Typical example:
 
 ```
 1.  var michel = {              // michel is an object
-2.      familyName:&apos;Buffa&apos;,     // familyName, givenName, age
+2.      familyName:'Buffa',     // familyName, givenName, age
 3.                              // are its properties
-4.      givenName: &apos;Michel&apos;,
+4.      givenName: 'Michel',
 5.      age: 51
 6.  }
 7.   
@@ -8164,7 +8159,7 @@ Typical example:
 10.     console.log(property);      // will print &quot;familyName&quot;,
 11.                                 // &quot;givenName&quot;,
 12.                                 // &quot;age&quot;
-13.     console.log(michel&lbrack;property&rbrack;);  // michel&lbrack;&apos;givenName&apos;&rbrack;  same 
+13.     console.log(michel&lbrack;property&rbrack;);  // michel&lbrack;'givenName'&rbrack;  same 
 14.                                     // as michel.givenName
 15. **}**
 ```
@@ -8201,9 +8196,9 @@ for(var i = 1, k = 0; i &lt; 5; i++) {
     }
  
     k += 2&ast;i;
-    console.log(&apos;k += &apos; + (2&ast;i));
+    console.log('k += ' + (2&ast;i));
 }
-console.log(&apos;Final k value:&apos; + k)
+console.log('Final k value:' + k)
 ```
 
 Copy and paste this example in your devtool console, but first, try to
@@ -8226,28 +8221,28 @@ Syntax:
 Typical example:
 
 ```
-var tab = &lbrack;&apos;michel&apos;, &apos;john&apos;, &apos;donald&apos;, &apos;paul&apos;&rbrack;; // johh at
+var tab = &lbrack;'michel', 'john', 'donald', 'paul'&rbrack;; // johh at
 index = 1
  
 function isNameInTheArray(name, theArray) {
     console.log(&quot;Number of elements in the array :
 &quot; + theArray.length);
     for(var i=0; i &lt; theArray.length; i++) {
-        console.log(&apos;comparing with element in the array at pos
-&apos; + i);
+        console.log('comparing with element in the array at pos
+' + i);
  
         if(theArray&lbrack;i&rbrack; === name) {
-           console.log(&apos;the name &apos; + name +
-                       &apos; is in the array at pos: &apos; + i);
+           console.log('the name ' + name +
+                       ' is in the array at pos: ' + i);
            break;
         } else {
-           console.log(name + &apos; is not at pos &apos; + i);
+           console.log(name + ' is not at pos ' + i);
         }
     }
 }
  
 // Execute the function
-isNameInTheArray(&apos;john&apos;, tab);
+isNameInTheArray('john', tab);
 ```
 
 Copy and paste in the devtool console. You&apos;ll see that the function
@@ -8374,7 +8369,7 @@ height="2.0659722222222223in"}
 &lt;/html&gt;
 ```
 
-JS
+<h5>JS:</h5>
 
 ```
 function sum(a, b) {
@@ -8418,7 +8413,7 @@ height="2.272222222222222in"}
 &lt;/html&gt;
 ```
 
-JS
+<h5>JS:</h5>
 
 ```
 var sum = function(a, b) {
@@ -8488,13 +8483,13 @@ height="2.588888888888889in"}
 // the processClick function is a callback:
 // a function called by the browser when a click event
 // is detected
-window.addEventListener(&apos;click&apos;, processClick);
+window.addEventListener('click', processClick);
 function processClick(event) {
 document.body.innerHTML += &quot;Button clicked&lt;br&gt;&quot;;
 }
 // We could have written this, with the body of the callback as an
 argument of the addEventListener function
-window.addEventListener(&apos;click&apos;, function(evt) {
+window.addEventListener('click', function(evt) {
 document.body.innerHTML += &quot;Button clicked version 2&lt;br&gt;&quot;;
 });
 ```
@@ -8704,8 +8699,8 @@ on a web document will be processed by this event handler):
 
 ```
 &lt;script&gt;
-    addEventListener(&apos;click&apos;, function(evt) {
-        document.body.innerHTML += &apos;Button clicked!&apos;;
+    addEventListener('click', function(evt) {
+        document.body.innerHTML += 'Button clicked!';
     });
 &lt;/script&gt;
 ```
@@ -8724,7 +8719,7 @@ height="2.0770833333333334in"}
 &lt;title&gt;First example of an event listener&lt;/title&gt;
 &lt;meta charset=&quot;utf-8&quot;&gt;
 &lt;script&gt;
-addEventListener(&apos;click&apos;, function(evt) {
+addEventListener('click', function(evt) {
 document.body.innerHTML += &quot;Button clicked!&lt;br&gt;&quot;;
 });
 &lt;/script&gt;
@@ -8759,8 +8754,8 @@ In other words, this:
 
 ```
 1.  &lt;script&gt;
-2.  addEventListener(&apos;click&apos;, **function(evt) {**
-3.      **document.body.innerHTML += &apos;Button clicked!&apos;;**
+2.  addEventListener('click', **function(evt) {**
+3.      **document.body.innerHTML += 'Button clicked!';**
 4.  **}**);
 5.  &lt;/script&gt;
 ```
@@ -8771,7 +8766,7 @@ name as the second parameter):
 
 ```
 1.  &lt;script&gt;
-2.  addEventListener(&apos;click&apos;,** processClick**);
+2.  addEventListener('click',** processClick**);
 3.  
 4.  function** processClick**(evt) {
 5.      console.log(&quot;Button clicked!&quot;);
@@ -8805,7 +8800,7 @@ height="2.0701388888888888in"}
 &lt;p&gt;&lt;/p&gt;
 &lt;script&gt;
 var b = document.querySelector(&quot;#myButton&quot;);
-b.addEventListener(&apos;click&apos;, function(evt) {
+b.addEventListener('click', function(evt) {
 alert(&quot;Button clicked&quot;);
 });
 &lt;/script&gt;
@@ -8903,11 +8898,11 @@ height="2.0909722222222222in"}
 &lt;p&gt;&lt;/p&gt;
 &lt;script&gt;
 var b = document.querySelector(&quot;#myButton&quot;);
-b.addEventListener(&apos;click&apos;, processClick);
+b.addEventListener('click', processClick);
 function processClick(evt) {
 alert(&quot;Button clicked, event listener removed, try to click on the
 button again: nothing will happen anymore!&quot;);
-b.removeEventListener(&apos;click&apos;, processClick);
+b.removeEventListener('click', processClick);
 }
 &lt;/script&gt;
 &lt;/body&gt;
@@ -9126,10 +9121,10 @@ height="2.0701388888888888in"}
 &lt;head&gt;
 &lt;meta charset=&quot;utf-8&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example1 of the &apos;load&apos; event&lt;/title&gt;
+&lt;title&gt;Example1 of the 'load' event&lt;/title&gt;
 &lt;/head&gt;
-&lt;body onload=&apos;init();&apos;&gt;
-&lt;p&gt;This page uses &lt;code&gt;&lt;body onload=&apos;init();&apos;&gt;&lt;/code&gt; in
+&lt;body onload='init();'&gt;
+&lt;p&gt;This page uses &lt;code&gt;&lt;body onload='init();'&gt;&lt;/code&gt; in
   the JS code to execute the init function ONLY WHEN THE PAGE HAS BEEN
   LOADED!&lt;/p&gt;
 &lt;p&gt;This is important as very often we cannot do important things
@@ -9155,8 +9150,8 @@ color:red;
 
 ```
 function init() {
-var status = document.querySelector(&apos;#pageStatus&apos;);
-status.innerHTML = &apos;LOADED!&apos;;
+var status = document.querySelector('#pageStatus');
+status.innerHTML = 'LOADED!';
 // start working!
 // &hellip;.
 }
@@ -9176,7 +9171,7 @@ height="2.0701388888888888in"}
 &lt;head&gt;
 &lt;meta charset=&quot;utf-8&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example 2 of the &apos;load&apos; event&lt;/title&gt;
+&lt;title&gt;Example 2 of the 'load' event&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;p&gt;This page uses &lt;code&gt;window.onload = init;&lt;/code&gt; in the JS
@@ -9206,8 +9201,8 @@ color:red;
 ```
 window.onload = init;
 function init() {
-var status = document.querySelector(&apos;#pageStatus&apos;);
-status.innerHTML = &apos;LOADED!&apos;;
+var status = document.querySelector('#pageStatus');
+status.innerHTML = 'LOADED!';
 // start working!
 // &hellip;.
 }
@@ -9233,7 +9228,7 @@ height="2.0631944444444446in"}
 &lt;head&gt;
 &lt;meta charset=&quot;utf-8&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example1 of the &apos;resize&apos; event&lt;/title&gt;
+&lt;title&gt;Example1 of the 'resize' event&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;p&gt;This page uses &lt;code&gt;window.onresize = resize;&lt;/code&gt; in the JS
@@ -9261,11 +9256,11 @@ window.onload = resize;
 window.onresize = resize;
 function resize(evt) {
 console.log(&quot;resize&quot;);
-var pageSizeSpan = document.querySelector(&apos;#pageSize&apos;);
+var pageSizeSpan = document.querySelector('#pageSize');
 pageSizeSpan.innerHTML = &quot;Width: &quot; + window.innerWidth + &quot; Height:
   &quot; + window.innerHeight;
 // screen size
-var screenSizeSpan = document.querySelector(&apos;#screenSize&apos;);
+var screenSizeSpan = document.querySelector('#screenSize');
 screenSizeSpan.innerHTML = &quot;Width: &quot; + screen.width + &quot; Height: &quot; +
   screen.height;
 }
@@ -9284,7 +9279,7 @@ height="2.0701388888888888in"}
 &lt;head&gt;
 &lt;meta charset=&quot;utf-8&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example of the &apos;scroll&apos; event&lt;/title&gt;
+&lt;title&gt;Example of the 'scroll' event&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&quot;progress&quot;&gt;
@@ -9352,7 +9347,7 @@ Then it is possible to test which key has been pressed or released, like
 this:
 
 ```
-1.  window.addEventListener(&apos;keydown&apos;, function(event) {
+1.  window.addEventListener('keydown', function(event) {
 2.     if (**event.keyCode === 37**) {
 3.       //left arrow was pressed
 4.     }
@@ -9400,7 +9395,7 @@ height="2.0631944444444446in"}
 &lt;head&gt;
 &lt;meta charset=&quot;utf-8&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example of the &apos;keyup&apos; and &apos;keydown&apos; events on the window
+&lt;title&gt;Example of the 'keyup' and 'keydown' events on the window
   object&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
@@ -9416,16 +9411,16 @@ height="2.0631944444444446in"}
 window.onkeyup = processKeyUp;
 window.onkeydown = processKeyDown;
 /&ast; or we could have written:
-window.addEventListener(&apos;keyup&apos;, processKeyUp);
-window.addEventListener(&apos;keydown&apos;, processKeyDown);
+window.addEventListener('keyup', processKeyUp);
+window.addEventListener('keydown', processKeyDown);
 &ast;/
 function processKeyUp(evt) {
-var keys = document.querySelector(&apos;#keys&apos;);
+var keys = document.querySelector('#keys');
 keys.innerHTML += &quot;keyup: &quot; + evt.key + &quot; code: &quot; + evt.keyCode +
   &quot;&lt;br&gt;&quot;;
 }
 function processKeyDown(evt) {
-var keys = document.querySelector(&apos;#keys&apos;);
+var keys = document.querySelector('#keys');
 keys.innerHTML += &quot;keydown: &quot; + evt.key + &quot; code: &quot; + evt.keyCode +
 &quot;&lt;br&gt;&quot;;
 }
@@ -9453,7 +9448,7 @@ height="2.0770833333333334in"}
 &lt;head&gt;
 &lt;meta charset=&quot;utf-8&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example of the &apos;keypress&apos; event on the window object, awith
+&lt;title&gt;Example of the 'keypress' event on the window object, awith
   shift, meta and alt&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
@@ -9469,10 +9464,10 @@ height="2.0770833333333334in"}
 ```
 window.onkeydown = processKeyDown;
 /&ast; or we could have written:
-window.addEventListener(&apos;keypress&apos;, processKeyPress);
+window.addEventListener('keypress', processKeyPress);
 &ast;/
 function processKeyDown(evt) {
-var keys = document.querySelector(&apos;#keys&apos;);
+var keys = document.querySelector('#keys');
 keys.innerHTML += &quot;keypress: &quot; + evt.key +
 &quot; code: &quot; + evt.keyCode + &quot; Modifiers : &quot;;
 var modifiers = &quot;&quot;;
@@ -9636,7 +9631,7 @@ height="2.5652777777777778in"}
 &lt;body&gt;
 &lt;p&gt;Press some keys on your keyboard and see the corresponding evt.key
   and evt.code values. If you are not using a QWERTY keyboard, notice that
-  the values might be different. This is because an &apos;a&apos; on an AZERTY
+  the values might be different. This is because an 'a' on an AZERTY
   keyboard, will correspond to the KeyQ code on the reference
   keyboard.&lt;/p&gt;
 &lt;p&gt; You typed:&lt;/p&gt;
@@ -9684,10 +9679,10 @@ The example below is about listening to mouseup and mousedown events
 (when a user presses or releases any mouse button):
 
 ```
-canvas.addEventListener(&apos;mousedown&apos;, function (evt) {
+canvas.addEventListener('mousedown', function (evt) {
    // do something with the mousedown event
 });
-canvas.addEventListener(&apos;mouseup&apos;, function (evt) {
+canvas.addEventListener('mouseup', function (evt) {
    // do something with the mouseup event
 });
 ```
@@ -9754,7 +9749,7 @@ margin:20px;
 ```
 window.onclick = processClick;
 function processClick(evt) {
-var clicks = document.querySelector(&apos;#clicks&apos;);
+var clicks = document.querySelector('#clicks');
 var target = evt.target.id;
 if(target === &quot;&quot;) {
 clicks.innerHTML += &quot;You clicked on the window, not on a particular
@@ -9849,13 +9844,13 @@ background:#ddd;
 <h5>JS:</h5>
 
 ```
-var m = &lbrack;&apos;client&apos;,&apos;page&apos;,&apos;screen&apos;&rbrack;; // mods
+var m = &lbrack;'client','page','screen'&rbrack;; // mods
 &dollar;(document).mousemove(function(e){
 for(var i=0; i&lt;3; i++){
-&dollar;(&apos;#&apos;+m&lbrack;i&rbrack;).text((e&lbrack;m&lbrack;i&rbrack;+&apos;X&apos;&rbrack;)+&apos; &apos;+ (e&lbrack;m&lbrack;i&rbrack;+&apos;Y&apos;&rbrack;));
+&dollar;('#'+m&lbrack;i&rbrack;).text((e&lbrack;m&lbrack;i&rbrack;+'X'&rbrack;)+' '+ (e&lbrack;m&lbrack;i&rbrack;+'Y'&rbrack;));
 }
-&dollar;(&apos;#scrollTop&apos;).text(
-&dollar;(&apos;html, body&apos;).scrollTop()
+&dollar;('#scrollTop').text(
+&dollar;('html, body').scrollTop()
 );
 });
 ```
@@ -9878,7 +9873,7 @@ height="2.0631944444444446in"}
 &lt;body&gt;
 &lt;h1&gt;Please move the mouse on this window!&quot;&lt;/h1&gt;
 &lt;div id=&quot;mousePositions&quot;&gt;&lt;/div&gt;
-&lt;p&gt;Yep! The above values are the same when we&apos;re listening on the
+&lt;p&gt;Yep! The above values are the same when we're listening on the
   window and we did not scrolled the page!&lt;/p&gt;
 &lt;div id=&quot;mouseScreenPositions&quot;&gt;&lt;/div&gt;
 &lt;/body&gt;
@@ -9890,14 +9885,14 @@ height="2.0631944444444446in"}
 ```
 window.onmousemove = processMouseMouve;
 function processMouseMouve(evt) {
-var mousePositions = document.querySelector(&apos;#mousePositions&apos;);
+var mousePositions = document.querySelector('#mousePositions');
 mousePositions.innerHTML = &quot;clientX: &quot; + evt.clientX +
 &quot; clientY: &quot; + evt.clientY + &quot;&lt;br&gt;&quot; +
 &quot; pageX : &quot; + evt.pageX +
 &quot; pageY : &quot; + evt.pageY +
 &quot;&lt;br&gt;&quot;;
 var mouseScreenPositions =
-  document.querySelector(&apos;#mouseScreenPositions&apos;);
+  document.querySelector('#mouseScreenPositions');
 mouseScreenPositions.innerHTML = &quot;screenX: &quot; + evt.screenX +
 &quot; screenY: &quot; + evt.screenY +
 &quot;&lt;br&gt;&quot;;
@@ -9925,8 +9920,8 @@ height="2.0722222222222224in"}
 &lt;body&gt;
 &lt;h1&gt;Please move the mouse on the grey canvas below!&lt;/h1&gt;
 &lt;p&gt;The mouse position is not correct (try to move the cursor at the
-  top left corner of the cavas: it should be 0,0 but it isn&apos;t. And if you
-  scroll the page it&apos;s worse). clientX and clientY cannot be used &quot;as
+  top left corner of the cavas: it should be 0,0 but it isn't. And if you
+  scroll the page it's worse). clientX and clientY cannot be used &quot;as
   is&quot;.&lt;/p&gt;
 &lt;canvas id=&quot;myCanvas&quot; width=300 height=50&gt;&lt;/canvas&gt;
 &lt;div id=&quot;mousePositions&quot;&gt;&lt;/div&gt;
@@ -9954,11 +9949,11 @@ height:2000px;
 window.onload = init;
 function init() {
 // page has been loaded
-canvas = document.querySelector(&apos;#myCanvas&apos;);
-canvas.addEventListener(&apos;mousemove&apos;, processMouseMouve)
+canvas = document.querySelector('#myCanvas');
+canvas.addEventListener('mousemove', processMouseMouve)
 }
 function processMouseMouve(evt) {
-var mousePositions = document.querySelector(&apos;#mousePositions&apos;);
+var mousePositions = document.querySelector('#mousePositions');
 mousePositions.innerHTML = &quot;mouse pos X: &quot; + evt.clientX +
 &quot; mouse pos Y: &quot; + evt.clientY +
 &quot;&lt;br&gt;&quot;
@@ -9988,7 +9983,7 @@ height="2.9541666666666666in"}
 &lt;/head&gt;
 &lt;body&gt;
 &lt;h1&gt;Please move the mouse on the grey canvas below!&lt;/h1&gt;
-&lt;p&gt;You&apos;ll see that there is a no more a problem: (0, 0) is now at the
+&lt;p&gt;You'll see that there is a no more a problem: (0, 0) is now at the
   top left corner of the canvas, even if we scroll the page!&lt;/p&gt;
 &lt;canvas id=&quot;myCanvas&quot; width=300 height=50&gt;&lt;/canvas&gt;
 &lt;div id=&quot;mousePositions&quot;&gt;&lt;/div&gt;
@@ -10015,11 +10010,11 @@ height:2000px;
 ```
 function init() {
 // page has been loaded
-canvas = document.querySelector(&apos;#myCanvas&apos;);
-canvas.addEventListener(&apos;mousemove&apos;, processMouseMouve)
+canvas = document.querySelector('#myCanvas');
+canvas.addEventListener('mousemove', processMouseMouve)
 }
 function processMouseMouve(evt) {
-var mousePositions = document.querySelector(&apos;#mousePositions&apos;);
+var mousePositions = document.querySelector('#mousePositions');
 var rect = evt.target.getBoundingClientRect()
 var mouseX = evt.clientX - rect.left;
 var mouseY = evt.clientY - rect.top;
@@ -10033,7 +10028,7 @@ mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
 
 ```
 function processMouseMouve(evt) {
-    var mousePositions = document.querySelector(&apos;#mousePositions&apos;);
+    var mousePositions = document.querySelector('#mousePositions');
     // adjust mouse position relative to the canvas
 **    var rect = evt.target.getBoundingClientRect()**
 **    var mouseX = evt.clientX - rect.left;**
@@ -10061,7 +10056,7 @@ height="2.3618055555555557in"}
 &lt;/head&gt;
 &lt;body&gt;
 &lt;h1&gt;Please click and drag the div below.&lt;/h1&gt;
-&lt;div id=&quot;dragMe&quot; class=&apos;draggable&apos;&gt;Drag me!&lt;/div&gt;
+&lt;div id=&quot;dragMe&quot; class='draggable'&gt;Drag me!&lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 ```
@@ -10079,7 +10074,7 @@ background-color:#666;
 color:white;
 padding:10px 12px;
 cursor:move;
-position:absolute; /&ast; important (all position that&apos;s not &apos;static&apos;) &ast;/
+position:absolute; /&ast; important (all position that's not 'static') &ast;/
 }
 ```
 
@@ -10093,7 +10088,7 @@ var selected = null; // element to be moved
 var oldMouseX, oldMouseY; // Stores x & y coordinates of the mouse pointer
 var elemX, elemY;
 function init() {
-document.querySelector(&apos;.draggable&apos;).onmousedown = function (evt) {
+document.querySelector('.draggable').onmousedown = function (evt) {
 dragInit(evt);
 };
 }
@@ -10130,8 +10125,8 @@ elemX += dx;
 elemY += dy;
 // change the pos on screen of the element
 // by modifying its CSS left/top properties
-selected.style.left = elemX + &apos;px&apos;;
-selected.style.top = elemY + &apos;px&apos;;
+selected.style.left = elemX + 'px';
+selected.style.top = elemY + 'px';
 }
 // Destroy the object when we are done
 function stopMovingElem() {
@@ -10241,7 +10236,7 @@ divs.forEach(function(d) {
 var div1 = document.querySelector(&quot;#div1&quot;);
 addContextMenu(div1);
 // Clicking anywhere on the window toggle the menu off
-window.addEventListener(&apos;click&apos;, toggleMenuOff);
+window.addEventListener('click', toggleMenuOff);
 }
 function addContextMenu(elem) {
 elem.addEventListener(&quot;contextmenu&quot;, function(e) {
@@ -10289,11 +10284,11 @@ menu.style.top = clickCoordsY + &quot;px&quot;;
 }
 // Actions called when a menu item is choosen
 function menuItem1() {
-console.log(&apos;learn&apos;);
+console.log('learn');
 toggleMenuOff();
 }
 function menuItem2() {
-console.log(&apos;clear&apos;);
+console.log('clear');
 toggleMenuOff();
 }
 ```
@@ -10332,7 +10327,7 @@ height="2.4854166666666666in"}
 &lt;title&gt;Simple input field validation&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;h1&gt;Simple input field validation using the &apos;input&apos; event&lt;/h1&gt;
+&lt;h1&gt;Simple input field validation using the 'input' event&lt;/h1&gt;
 &lt;p&gt;Just type a name in the input field and see what happens!&lt;/p&gt;
 &lt;label&gt;
 &lt;span&gt;Name (required):&lt;/span&gt;
@@ -10356,13 +10351,13 @@ function validateName(field) {
 // this is the input field text content
 var name = field.value;
 // get the output div
-var output = document.querySelector(&apos;#nameTyped&apos;);
+var output = document.querySelector('#nameTyped');
 // display the value typed in the div
 output.innerHTML = &quot;Valid name: &quot; + name;
 // You can do validation here, set the input field to
 // invalid is the name contains forbidden characters
 // or is too short
-// for example, let&apos;s forbid names with length &lt; 5 chars
+// for example, let's forbid names with length &lt; 5 chars
 if(name.length &lt; 5) {
 output.innerHTML = &quot;This name is too short (at least 5 chars)&quot;;
 }
@@ -10385,7 +10380,7 @@ height="2.4784722222222224in"}
 &lt;title&gt;Simple input field validation using keyup events&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;h1&gt;Simple input field validation using the &apos;input&apos; event&lt;/h1&gt;
+&lt;h1&gt;Simple input field validation using the 'input' event&lt;/h1&gt;
 &lt;p&gt;Just type a name in the input field and see what happens! &lt;span
   style=&quot;color:red&quot;&gt; TRY TO TYPE A &quot;!&quot; too&lt;/span&gt;&lt;/p&gt;
 &lt;label&gt;
@@ -10410,13 +10405,13 @@ function validateName(evt) {
 // this is the input field text content
 var key = evt.key;
 // get the output div
-var output = document.querySelector(&apos;#keyTyped&apos;);
+var output = document.querySelector('#keyTyped');
 // display the value typed in the div
 output.innerHTML = &quot;Valid key: &quot; + key;
 // You can do validation here, set the input field to
 // invalid is the name contains forbidden characters
 // or is too short
-// for example, let&apos;s forbid names with length &lt; 5 chars
+// for example, let's forbid names with length &lt; 5 chars
 if(key === &quot;!&quot;) {
 output.innerHTML = &quot;This key is forbidden!&quot;;
 // remove the forbidden char
@@ -10454,7 +10449,7 @@ height="2.451388888888889in"}
 &lt;/head&gt;
 &lt;body&gt;
 &lt;h1&gt;Simple &lt;code&gt;&lt;input type=range&gt;&lt;/code&gt; field validation
-  using the &apos;input&apos; event&lt;/h1&gt;
+  using the 'input' event&lt;/h1&gt;
 &lt;p&gt;Just move the slider&lt;/p&gt;
 &lt;label&gt;
 1 &lt;input type=&quot;range&quot;
@@ -10477,7 +10472,7 @@ function doSomething(evt) {
 // this is the slider value
 var val = evt.target.value;
 // get the output div
-var output = document.querySelector(&apos;#sliderValue&apos;);
+var output = document.querySelector('#sliderValue');
 // display the value typed in the div
 output.innerHTML = &quot;Value selected: &quot; + val;
 ```
@@ -10490,70 +10485,49 @@ height="2.4923611111111112in"}
 
 <h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;JavaScript number input use&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;Simple &lt;code&gt;&lt;input type=number&gt;&lt;/code&gt; field validation
 using the &apos;input&apos; event&lt;/h1&gt;
-
 &lt;p&gt;type a number or use the small vertical arrows&lt;/p&gt;
-
 &lt;label&gt;
+```
 
 Type a number:
 
+```
 &lt;input type=&quot;number&quot;
-
 min=1
-
 max=12
-
 step=0.1
-
 oninput = &quot;doSomething(event)&quot;&gt;
-
 &lt;/label&gt;
-
 &lt;p&gt;
-
 &lt;span id=&quot;numberValue&quot;&gt;&lt;/span&gt;
-
 &lt;/p&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 <h5>JS:</h5>
 
+```
 function doSomething(evt) {
-
 // this is the slider value
-
 var val = evt.target.value;
-
 // get the output div
-
 var output = document.querySelector(&apos;#numberValue&apos;);
-
 // display the value typed in the div
-
 output.innerHTML = &quot;Value selected: &quot; + val;
-
 }
+```
 
 <h4>Example #4: choose a color and do something</h4>
 
@@ -10562,61 +10536,40 @@ height="2.0520833333333335in"}
 
 <h5>HTML:</h5>
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&quot;utf-8&quot;&gt;
-
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-
 &lt;title&gt;JavaScript color chooser use&lt;/title&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt;Simple &lt;code&gt;&lt;input type=color&gt;&lt;/code&gt; use&lt;/h1&gt;
-
 &lt;p&gt;Pick a color to change the background color of the page&lt;/p&gt;
-
 &lt;label&gt;
-
 &lt;input type=&quot;color&quot;
-
 onchange = &quot;changePageBackgroundColor(this.value);&quot;&gt;
-
 &lt;!&#45;- we could have used oninput= in the previous line &#45;-&gt;
-
 &lt;/label&gt;
-
 &lt;p&gt;
-
 &lt;span id=&quot;choosedColor&quot;&gt;&lt;/span&gt;
-
 &lt;/p&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 <h5>JS:</h5>
 
+```
 function changePageBackgroundColor(color) {
-
 document.body.style.backgroundColor = color;
-
 // get the output div
-
 var output = document.querySelector(&apos;#choosedColor&apos;);
-
 // display the value typed in the div
-
 output.innerHTML = &quot;Color selected: &quot; + color;
-
 }
+```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-10">2.4.10 Reference tables</h3>
