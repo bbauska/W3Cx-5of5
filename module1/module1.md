@@ -10,7 +10,7 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ module1.md in W3Cx-5of5-JS.0x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Module 1: Introduction to JavaScript</h2>
-<h3>1.0 Introduction - Video introduction</h3>
+<h3>1.0 Introduction - Video introduction (1:46)</h3>
 
 > Hello everyone, welcome to the wonderful world of JavaScript! In this
 > module, after giving a brief history of JavaScript and Web browsers,
@@ -40,16 +40,24 @@
 <h3>What you will learn in Module 1</h3>
 
 If you thought that a Web browser could only display HTML documents, you were mistaken! ;)
-Under the hood, an HTML document is nearly always associated with two other standard languages of the Web: CSS and JavaScript. Before looking at the guts of JavaScript, we will introduce you to the basics and play with many examples.
+
+Under the hood, an HTML document is nearly always associated with two other standard languages of the Web: 
+CSS and JavaScript. Before looking at the guts of JavaScript, we will introduce you to the basics and play 
+with many examples.
 We will also have a first look at the browser devtools, and discover how JavaScript is useful.
 <ul>
 <li>First we will briefly discuss the roles of HTML, CSS and JavaScript, and how they work together.</li><br>
-<li>We will show examples of what can be done with JavaScript: a showcase of very small examples through to impressively complex ones.</li><br>
-<li>Then we will look at a dozen different - very small - examples of typical uses of JavaScript. This time, we will explain the examples :-)</li><br>
-<li>Finally we will learn how to use the browser devtools, a powerful, built-in set of tools that represent the Swiss army knife of any Web developer. Without the devtools, you will not be able to debug your code, find errors, print traces of what a JavaScript program is doing etc.</li>
+<li>We will show examples of what can be done with JavaScript: a showcase of very small examples through 
+  to impressively complex ones.</li><br>
+<li>Then we will look at a dozen different - very small - examples of typical uses of JavaScript. This 
+  time, we will explain the examples :-)</li><br>
+<li>Finally we will learn how to use the browser devtools, a powerful, built-in set of tools that 
+  represent the Swiss army knife of any Web developer. Without the devtools, you will not be able 
+  to debug your code, find errors, print traces of what a JavaScript program is doing etc.</li>
 </ul>
 
-<b>A word of caution</b>: you will not learn JavaScript in full detail in this course! This is an introductory course designed to help you understand the basic concepts of the language.
+<b>A word of caution</b>: you will not learn JavaScript in full detail in this course! This is an 
+introductory course designed to help you understand the basic concepts of the language.
 
 <hr>
 
