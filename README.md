@@ -1201,7 +1201,8 @@ time):
 
 <h5>HTML:</h5>
 
-<pre><code><body>
+<pre><code>
+<body>
   <h1>A Tale of Two Cities</h1>
   <p>
   It was the best of times, it was the worst of times, . . . .
@@ -1211,14 +1212,14 @@ time):
   . . . it is a far, far better rest
   that I go to than I have ever known.
   </p>
-</body></pre></code>
+</body>
+</pre></code>
 
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
 
-A Tale of Two Cities
-
 <blockquote>
+A Tale of Two Cities
   It was the best of times, it was the worst of times . . . .
   . . .
   . . . it is a far, far better rest
@@ -1237,7 +1238,7 @@ Here is another, more generic example:
 <h4>Notes:</h4>
 <ul>
   <li>Remember that the first line of your HTML5 page should start
-    by &lt;!DOCTYPE html&gt;. CodePen does not force you to add a DOCTYPE on
+    by <!DOCTYPE html>. CodePen does not force you to add a DOCTYPE on
     CodePen, but be assured that you have to specify the DOCTYPE in all
     your Web documents.</li>
   <li>You can modify the source code in CodePen, and see the results in
@@ -1350,7 +1351,9 @@ the example from the course, just copy and paste the code in the HTML
 part on JSBin, and you see the result instantly. This is very practical
 because then you can modify the content, you can change the different
 values, the different elements... You can type your own text or your own
-HTML elements and attributes, and so on. You can also save your work
+HTML elements and attributes, and so on. 
+
+You can also save your work
 using the &quot;Save snapshot&quot; menu, and if you created an account, it&apos;s
 completely free. And you will be able to find your work the next time.
 You can share the URL; you can share the Web addresses of your work with friends. 
@@ -1497,7 +1500,7 @@ we presented earlier:
   <body>
    <h1>My home page</h1>
    <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
-professor at the University of Côte d&apos;Azur, in France, and I&apos;m also
+professor at the University of Côte d&apos;Azur, in France, and I'm also
 the author of three W3Cx MOOCS.</p>
    </body>
 </html>
@@ -1634,7 +1637,7 @@ its attributes, and thus there is no need for other content.  So if you
 see something like this:
 
 ```
-> <img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;/>
+> <img src="https://goo.gl/pVxY0e" alt="Floating Flower"/>
 ```
 
 &hellip; then you should know that the slash at the end of the open tag is
@@ -1649,7 +1652,7 @@ be removed entirely, this will still be [valid
 HTML5](https://w3c.github.io/html/syntax.html#void-elements).
 
 ```
-> &lt;img src=&quot;https://goo.gl/pVxY0e&quot; alt=&quot;Floating Flower&quot;>
+> <img src="https://goo.gl/pVxY0e" alt="Floating Flower">
 ```
 
 These elements, without a &quot;/&quot; at the end, are called &quot;void
@@ -1672,8 +1675,8 @@ used the width attribute of the &lt;img&gt; tag in order to constrain
 the width of the image:
 
 ```
-> <img src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;
->      width=200 alt=&quot;Michel Buffa plays rock&roll&quot;>
+> <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
+>      width=200 alt="Michel Buffa plays rock&roll">
 ```
 
 As you might guess, the &lt;img&gt; tag also has a height attribute, as well
@@ -1698,9 +1701,9 @@ add a height attribute, and see the result:
 
 ```
 <img
-  src=&quot;https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg&quot;
+  src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
 width=200
-alt=&quot;Michel Buffa plays rock and roll&quot;>
+alt="Michel Buffa plays rock and roll">
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1850,7 +1853,6 @@ on ...
   title="Example: HTML, head and body"
   alt="Example: HTML, head and body." />
 </p>
-<!-- ![](./images/image059.png){width="6.0in" height="3.3788462379702535in"} -->
 
 I&apos;m just going to copy and paste some examples here, and you saw that
 the look and feel of the document changed. And it&apos;s, now, using
@@ -1976,7 +1978,7 @@ with an &apos;id&apos; attribute, or grouped with a class of other elements by
 setting the &apos;class&apos; attribute.
 
 ```
-1.  <p id=&quot;paragraph-1&quot; class=&quot;regular-paragraphs&quot;>
+1.  <p id="paragraph-1" class="regular-paragraphs">
 2.  Call me Ishmael . . .
 3.  </p>
 ```
@@ -2036,8 +2038,8 @@ using a &lt;link&gt; tag in the HTML part of the document:</p>
 1.  <head>
 2.  <title>Your first HTML page</title>
 3.  <meta charset="utf-8"/>
-4.  <b><link href="https://fonts.googleapis.com/css?family=Caveat"</b>
-5.  <b>rel="stylesheet"></b>
+4.  **<link href="https://fonts.googleapis.com/css?family=Caveat"**
+5.  **rel="stylesheet">**
 6.  </head>
 ```
 
@@ -2059,7 +2061,7 @@ paragraphs in the HTML element:</p>
 ```
 1.  ...
 2.  <p class="funny">I also play electric guitar and love
-    coding WebAudio applications&hellip;</p>
+    coding WebAudio applications...</p>
 3.  ...
 4.  <p class="funny">Music, Movies, Video Games, Traveling, Family, etc.</p>
 ```
@@ -2901,16 +2903,16 @@ Then, looking at the JavaScript code of the example (click the JS button
 on the CodePen example), we see:
 
 ```
-1.  functionPlot(<b>{</b>
-2.  <b>target: '#myFunction',</b>
-3.  <b>data: [{</b>
-4.  <b>fn: 'sin(x)',</b>
-5.  <b>color: 'red'</b>
-6.  <b>}],</b>
-7.  <b>grid: true,</b>
-8.  <b>yAxis:,</b>
-9.  <b>xAxis:,</b>
-10. <b>}</b>);
+1.  functionPlot(**{**
+2.  **target: '#myFunction',**
+3.  **data: [{**
+4.  **fn: 'sin(x)',**
+5.  **color: 'red'**
+6.  **}],**
+7.  **grid: true,**
+8.  **yAxis:,**
+9.  **xAxis:,**
+10. **}**);
 ```
 
 <p>Ok, the syntax looks strange if you are not used to JavaScript, but I
@@ -2975,16 +2977,16 @@ you tweaked). They are in bold in the source code we saw earlier:
 
 ```
 1.  {
-2.    <b>target</b>: '#myFunction',
-3.    <b>data</b>: [{
+2.    **target**: '#myFunction',
+3.    **data**: [{
 4.      fn: 'sin(x)',
 5.      color: 'red'
 6.    }],
-7.    <b>grid</b>: true,
-8.    <b>yAxis</b>: {
+7.    **grid**: true,
+8.    **yAxis**: {
 9.      domain: [-1, 1]
 10.   },
-11.   <b>xAxis</b>: {
+11.   **xAxis**: {
 12.     domain: [0, 2*Math.PI]
 13.   }
 14. }
@@ -3055,7 +3057,7 @@ are also objects.
 
 <pre><code>
 1.  xAxis: {
-2.  domain: [0, 2&ast;Math.PI]
+2.  domain: [0, 2*Math.PI]
 3.  }
 </code></pre>
 
@@ -3243,14 +3245,14 @@ element:</p>
 <p><b>It listens to click events</b> in order to call
 the changeTitle() function when we click on the button:</p>
 
-<pre><code>1.  <button <b>onclick="changeTitle();</b>">Click me to change the
+<pre><code>1.  <button **onclick="changeTitle();**">Click me to change the
     title of the page</button></code></pre>
 
 <p>And it executes the whole action (changing the title text) in<b> a
 function</b> (a block of code that is executed only when we call it by
 adding a parenthesis after its name, followed by a semi colon):</p>
 
-<pre><code><b>function changeTitle()</b> {
+<pre><code>**function changeTitle()** {
 var title = document.querySelector("#mainTitle");
 title.innerHTML = "This new title has been changed from JavaScript!";
 }</code></pre>
@@ -3275,9 +3277,9 @@ property values of this HTML element.</b></p>
 ```
 function changeTitleCSSStyle() {
 var title = document.querySelector("#mainTitle");
-<b>title.style.color = 'black';</b>
-<b>title.style.backgroundColor = "yellow";</b>
-<b>title.style.border = "5px dashed red";</b>
+**title.style.color = 'black';**
+**title.style.backgroundColor = "yellow";**
+**title.style.border = "5px dashed red";**
 }
 ```
 
@@ -3466,7 +3468,7 @@ Typically:
 <script>
   var x = 2;
   // show a message in the body of the html document
-  document.body.innerHTML += "<b>JavaScript code executed. The value of the variable x is: " + x + "</b>";
+  document.body.innerHTML += "<b>JavaScript code executed. The value of the variable x is: " + x + "**";
   // also print a message in the devtool console
   console.log("JavaScript code executed");
 </script>
@@ -3499,15 +3501,15 @@ a button is clicked:
 
 <pre><code>
 <head>
-<b><script></b>
-<b>function addSomeText() {</b>
-<b>// append a message in the body of the html document</b>
-<b>document.body.innerHTML += "<br>Function executed!";</b>
-<b>}</b>
-<b></script></b>
+**<script>**
+**function addSomeText() {**
+**// append a message in the body of the html document**
+**document.body.innerHTML += "<br>Function executed!";**
+**}**
+**</script>**
 </head>
 <body>
-<button <b>onclick="addSomeText();"</b>>Click me to call a JavaScript function that will add
+<button **onclick="addSomeText();"**Click me to call a JavaScript function that will add
 some content to this document
 </button>
 </body>
@@ -3547,7 +3549,7 @@ A typical example:
 1.  <head>
 2.    ...
 3.    <link rel="stylesheet" href="css/style.css">
-4.    <b><script src="js/script.js"></script></b>
+4.    **<script src="js/script.js"></script>**
 5.  </head>
 ```
 
@@ -3574,10 +3576,10 @@ A typical example:
 1.  <head>
 2.    ...
 3.    <link rel="stylesheet" href="css/style.css">
-4.    <b><script src="js/script1.js"></script></b>
-5.    <b><script src="js/script2.js"></script></b>
-6.    <b><script src="js/anotherOne.js"></script></b>
-7.    <b>...</b>
+4.    **<script src="js/script1.js"></script>**
+5.    **<script src="js/script2.js"></script>**
+6.    **<script src="js/anotherOne.js"></script>**
+7.    **...**
 8.  </head>
 </code></pre>
 
@@ -3610,12 +3612,12 @@ In this example, we have just one CSS file and one JavaScript file:
 1.  ...
 2.  <head>
 3.  &hellip;
-4.  <b><link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;></b>
-5.  <b><script src=&quot;js/script.js&quot;></script></b>
+4.  **<link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;>**
+5.  **<script src=&quot;js/script.js&quot;></script>**
 6.  </head>
 7.  <body>
 8.  <h1>Example 3: JavaScript and CSS in local files!</h1>
-9.  <button <b>onclick=&quot;addSomeText();</b>&quot;>Click me to call a
+9.  <button **onclick=&quot;addSomeText();**&quot;>Click me to call a
     JavaScript function that will add some content to this
     document</button>
 10.   </body>
@@ -4289,7 +4291,7 @@ let thisIsAVariable;
 let and_this_too; // but **does not respect the usual naming convention**
 let mix12three;
 // invalid!
-let 2three4five; // <b>can't start with a digit!</b>
+let 2three4five; // **can't start with a digit!**
 let a = 1
 let v1, v2, v3 = 'hello', v4 = 4, v5;
 // Beware with lowercase / uppercase
