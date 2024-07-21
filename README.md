@@ -633,6 +633,7 @@ technologies are built is a great way to build your expertise.
   style="width:10%"
   title="GitHub Octocat logo"
   alt="GitHub Octocat logo." />
+  
 If you&apos;re looking to an easy way to dive into this standardization processes, check out which 
 <a href="https://github.com/search?q=org%3Aw3c+label%3A%22good+first+issue%22+state%3Aopen&type=Issues">
 issues in the W3C GitHub repositories have been marked as &quot;good first issue&quot;</a> and
@@ -1201,8 +1202,7 @@ time):
 
 <h5>HTML:</h5>
 
-<pre><code>
-<body>
+<code><body>
   <h1>A Tale of Two Cities</h1>
   <p>
   It was the best of times, it was the worst of times, . . . .
@@ -1212,8 +1212,7 @@ time):
   . . . it is a far, far better rest
   that I go to than I have ever known.
   </p>
-</body>
-</pre></code>
+</body></code>
 
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
@@ -2011,7 +2010,7 @@ Let&apos;s look at a modified version of Michel Buffa&apos;s home page example:
 <p>The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
 in our case it&apos;s the second h2 element:</p>
 
-<pre><code>1.  <h2 **id="hobbyTitle"**>My Hobbies</h2></code></pre>
+<code>1.  <h2 **id="hobbyTitle"**>My Hobbies</h2></code>
 
 <h5>And here is the CSS rule:</h5>
 
@@ -3055,11 +3054,11 @@ Notice that between the name of the properties and the value there is a
 If we look at the values of the xAxis and yAxis properties, they
 are also objects.
 
-<pre><code>
+<code>
 1.  xAxis: {
 2.  domain: [0, 2*Math.PI]
 3.  }
-</code></pre>
+</code>
 
 The data object is even more complicated:
 
@@ -3268,18 +3267,20 @@ adding a parenthesis after its name, followed by a semi colon):</p>
 <!-- ![](./images/image096.png){width="6.5in" height="3.071527777777778in"} -->
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN">CodePen: Interactivity between JS &amp; HTML</a></h6>
 
+[<img src="[https://codepen.io/w3devcampus/pen/bgwVvN]" width="50"/>](./images/image115.png)
+
 <p>The second example is nearly the same except that we changed the name of
 the function, and instead of using the DOM API to update the text
 content of the main title, <b>we use its style property to change its
 look and feel. Using the style property is a way of altering the CSS
 property values of this HTML element.</b></p>
 
-<pre><code>function changeTitleCSSStyle() {
+<code>function changeTitleCSSStyle() {
   var title = document.querySelector("#mainTitle");
   **title.style.color = 'black';**
   **title.style.backgroundColor = "yellow";**
   **title.style.border = "5px dashed red";**
-}</code></pre>
+}</code>
 
 title is in reality what we call &quot;an object&quot; and style is a property
 of the title object. The style is an object as well and has attributes
@@ -11610,14 +11611,14 @@ This example shows some of the things we can do:
   value="Michel"> <button onclick="resetName();">Reset (click to
   empty the input field)</button></p>
 <p>Pick a color: <input id="color" type="color"
-  value=&apos;#FF0000&apos;><button onclick="setToGreen();">Set color chooser
+  value='#FF0000'><button onclick="setToGreen();">Set color chooser
   to green</button></p>
 <p>In the next example, click on the input field and use the small 
   vertical arrows to increase the value. Notice that the numbers go 1 by 1
   and that the maximum value is 20. Then click the button and do the same
   thing!</p>
 <p>Pick a number between 0 and 20: <input id="number"
-  type="number" min=0 max=20 step = 1 value=&apos;10&apos;><button
+  type="number" min=0 max=20 step = 1 value='10'><button
   onclick="changeStep();">Change step and max attribute values
   </button></p>
 <p>Click the next image to change its url and size:</p>
@@ -11628,7 +11629,7 @@ This example shows some of the things we can do:
 </html>
 ```
 
-<h4>JS
+<h5>JS:</h5>
 
 ```
 function resetName() {
