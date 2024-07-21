@@ -3439,7 +3439,8 @@ functions... then you can use some functionalities that come from the "paper.js"
 You need to read the documentation to learn how to use it, but here is an example: a set of
 squares, animated squares, that follow the mouse.
 <!------------------------------------------------------------------------------------------------>
-<video for 1.3.3 above>
+
+<!-- <video for 1.3.3 above> -->
 <h4>JavaScript code can be located in different places</h4>
 
 1.  In your HTML code between &lt;script&gt; and &lt;/script&gt; tag
