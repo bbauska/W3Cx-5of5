@@ -975,12 +975,10 @@ your source code, and  its value is UTF-8.</b>
 
 <h4><b>Example 1</b>:</h4>
 
-```
-<head>
-  <meta charset="utf-8"/>
+<pre>&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;/&gt;
   ...
-</head>
-```
+&lt;/head&gt;</pre>
 
 <h4>Example 2: Primary language declaration</h4>
 
@@ -993,18 +991,17 @@ tag</b>. Again you will learn how to do this during the course.  You will
 also learn how to change the language, where necessary, for parts of
 your document that are in a different language.
 
-<h5><b>Check #2: The HTML tag has a lang attribute which correctly indicates the language of your content.</b></h5>
+<h5><b>Check #2: The HTML tag has a lang attribute which correctly indicates 
+the language of your content.</b></h5>
 
 <h5><b>Example 2</b>: This indicates that the page is in French.</h5>
 
-```
-<!doctype html>
-<html lang="fr">
-  <head>
-  ...
-```
+<pre>&lt;!doctype html&gt;
+&lt;html lang="fr"&gt;
+  &lt;head&gt;
+  ...</pre>
 
-<h5>Example 3: Cultural bias</h5>
+<h5><b>Example 3</b>: Cultural bias</h5>
 
 People around the world don&apos;t always understand cultural references
 that you are familiar with, for example the concept of a &apos;home run&apos; in
@@ -1202,7 +1199,7 @@ time):
 
 <h5>HTML:</h5>
 
-<code><body>
+<pre><code><body>
   <h1>A Tale of Two Cities</h1>
   <p>
   It was the best of times, it was the worst of times, . . . .
@@ -1212,7 +1209,7 @@ time):
   . . . it is a far, far better rest
   that I go to than I have ever known.
   </p>
-</body></code>
+</body></pre></code>
 
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
