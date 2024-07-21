@@ -3461,19 +3461,20 @@ Here are some examples:
 
 Typically:
 
-<pre><code>
-<body>
-...
-<script>
-  var x = 2;
-  // show a message in the body of the html document
-  document.body.innerHTML += "<b>JavaScript code executed. The value of the variable x is: " + x + "**";
-  // also print a message in the devtool console
-  console.log("JavaScript code executed");
-</script>
-...
-</body>
-</code></pre>
+<pre>
+1.  &lt;body&gt;
+2.    ...
+3.    &lt;script&gt;
+4.      var x = 2;
+5.      // show a message in the body of the html document
+6.      document.body.innerHTML += "&lt;b&gt;JavaScript code executed. The value of the variable x is: 
+          "+ x + "&lt;/b&gt;";
+7.      // also print a message in the devtool console
+8.      console.log("JavaScript code executed");
+9.    &lt;/script&gt;
+10.   ...
+11. &lt;/body&gt;
+</pre>
 
 <h4>Here is this first example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3498,23 +3499,23 @@ the &lt;head&gt;..&lt;/head&gt; section of an HTML page.
 This time, we placed a JavaScript function that is invoked (called) when
 a button is clicked:
 
-<pre><code>
-<head>
-**<script>**
-**function addSomeText() {**
-**// append a message in the body of the html document**
-**document.body.innerHTML += "<br>Function executed!";**
-**}**
-**</script>**
-</head>
-<body>
-<button **onclick="addSomeText();"**Click me to call a JavaScript function that will add
+<pre>
+&lt;head&gt;
+<b>&lt;script&gt;</b>
+<b>function addSomeText() {</b>
+<b>// append a message in the body of the html document</b>
+<b>document.body.innerHTML += "<br>Function executed!";</b>
+<b>}</b>
+<b>&lt;/script&gt;</b>
+&lt;/head&gt;
+&lt;body&gt;
+&lt;button <b>onclick="addSomeText();"</b>Click me to call a JavaScript function that will add
 some content to this document
-</button>
-</body>
-</code></pre>
+&lt;/button&gt;
+&lt;/body&gt;
+</pre>
 
-Here is this second example on CodePen:
+<h4>Here is this second example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 120. example 2: js in the .html file, in head (94) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
