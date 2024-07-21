@@ -1199,17 +1199,17 @@ time):
 
 <h5>HTML:</h5>
 
-<pre><code><body>
-  <h1>A Tale of Two Cities</h1>
-  <p>
+<pre><code>&lt;body&gt;
+  &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
+  &lt;p&gt;
   It was the best of times, it was the worst of times, . . . .
-  </p>
+  &lt;/p&gt;
   . . .
-  <p>
+  &lt;p&gt;
   . . . it is a far, far better rest
   that I go to than I have ever known.
-  </p>
-</body></pre></code>
+  &lt;/p&gt;
+&lt;/body&gt;</pre></code>
 
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
@@ -1670,10 +1670,8 @@ inserted in your Web page, and in that example we
 used the width attribute of the &lt;img&gt; tag in order to constrain
 the width of the image:
 
-```
-> <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
->      width=200 alt="Michel Buffa plays rock&roll">
-```
+<pre>&gt; &lt;img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
+>      width=200 alt="Michel Buffa plays rock&roll"&gt;</pre>
 
 As you might guess, the &lt;img&gt; tag also has a height attribute, as well
 as others. Different HTML tags share some common attributes that we&apos;ll
@@ -1695,13 +1693,10 @@ add a height attribute, and see the result:
   alt="CodePen: pbs.twing profile image." />
 </p>
 
-```
-<img
-  src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
-width=200
-alt="Michel Buffa plays rock and roll">
-```
-
+<pre>&lt;img
+  src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg" 
+    width=200 
+    alt="Michel Buffa plays rock and roll"&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. your first html page (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1922,7 +1917,7 @@ in the CSS part, etc.):
 example, you see the CSS rules that have been applied to the HTML
 document. Let&apos;s look at the first one:</p>
 
-```
+<pre>
 1.  h1 {
 2.    color:red;
 3.    background-color:lightGreen;
@@ -1931,7 +1926,7 @@ document. Let&apos;s look at the first one:</p>
 6.    border-radius: 15px;
 7.    text-align: center;
 8.  }
-```
+</pre>
 
 This rule turns all the h1s in the document into red text, centered
 horizontally, on a light green background, with a violet border of 12
@@ -1955,11 +1950,11 @@ brown (second rule).
 
 The third rule uses what is called &quot;a multiple selector&quot;:
 
-```
+<pre>
 1.  p, h1, h2 {
 2.    font-family: cursive
 3.  }
-```
+</pre>
 
 This one says that all p, h1 and h2 uses a cursive font character. The
 &quot;,&quot; means &quot;and also&quot;.
@@ -1973,11 +1968,11 @@ Basically, any given element on your Web page can be identified uniquely
 with an &apos;id&apos; attribute, or grouped with a class of other elements by
 setting the &apos;class&apos; attribute.
 
-```
-1.  <p id="paragraph-1" class="regular-paragraphs">
+<pre>
+1.  &lt;p id="paragraph-1" class="regular-paragraphs"&gt;
 2.    Call me Ishmael . . .
-3.  </p>
-```
+3.  &lt;/p&gt;
+</pre>
 
 The paragraph above has a unique identifier: the id attribute whose
 value is &quot;paragraph-1&quot; and is part of a class of
@@ -2007,7 +2002,7 @@ Let&apos;s look at a modified version of Michel Buffa&apos;s home page example:
 <p>The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
 in our case it&apos;s the second h2 element:</p>
 
-<code>1.  <h2 **id="hobbyTitle"**>My Hobbies</h2></code>
+<pre>1.  &lt;h2 <b>id="hobbyTitle"</b>&gt;My Hobbies&lt;/h2&gt;</pre>
 
 <h5>And here is the CSS rule:</h5>
 
@@ -2028,31 +2023,37 @@ the Google font service
 able to use it in a font-family CSS property, we included its definition
 using a &lt;link&gt; tag in the HTML part of the document:</p>
 
-<pre>1.  <head>
-2.    <title>Your first HTML page</title>
-3.    <meta charset="utf-8"/>
-4.    <b><link href="https://fonts.googleapis.com/css?family=Caveat"</b>
-5.    <b>rel="stylesheet"></b>
-6.  </head></pre>
+<pre>
+1.  &lt;head&gt;
+2.    &lt;title&gt;Your first HTML page&lt;/title&gt;
+3.    &lt;meta charset="utf-8"/&gt;
+4.    <b>&lt;link href="https://fonts.googleapis.com/css?family=Caveat"</b>
+5.    <b>rel="stylesheet"&gt;</b>
+6.  &lt;/head&gt;
+</pre>
 
 <p>The last rule targets all elements that have an
 attribute class=&quot;funny&quot;. Notice they can be different elements, we can
 have a p and an h3 element that have the class=&quot;funny&quot; attribute:</p>
 
-<pre>1.  .funny {
+<pre>
+1.  .funny {
 2.    color:purple;
 3.    font-family: 'caveat';
 4.    font-size:40px;
-5.  }</pre>
+5.  }
+</pre>
 
 <p>This rule changes the color, font family and size of two out of three
 paragraphs in the HTML element:</p>
 
-<pre>1.  ...
-2.  <p class="funny">I also play electric guitar and love
-      coding WebAudio applications...</p>
+<pre>
+1.  ...
+2.  &lt;p class="funny"&gt;I also play electric guitar and love
+      coding WebAudio applications...&lt;/p&gt;
 3.    ...
-4.  <p class="funny">Music, Movies, Video Games, Traveling, Family, etc.</p></pre>
+4.  &lt;p class="funny">Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;
+</pre>
 
 There are many, many, many different CSS properties in existence, and
 many different ways to select elements. We recommend that you follow the
@@ -2875,10 +2876,10 @@ mouse wheel to zoom in/out the function plot.</p>
 <p>Two lines in the HTML code that correspond to the inclusion in the
 document of some external JavaScript code:</p>
 
-```
-1.  <script src="https://d3js.org/d3.v3.min.js"></script>
-2.  <script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
-```
+<pre>
+1.  &lt;script src="https://d3js.org/d3.v3.min.js"&gt;&lt;/script&gt;
+2.  &lt;script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;&lt;/script&gt;
+</pre>
 
 <p>We will examine this soon in a later section of the course, but, in
 brief, it means that we will use the <a href="https://d3js.org/">d3js plotting
@@ -2891,18 +2892,18 @@ account of a person named &quot;mauriciopoppe&quot;, the repository is named
 Then, looking at the JavaScript code of the example (click the JS button
 on the CodePen example), we see:
 
-```
-1.  functionPlot(**{**
-2.  **target: '#myFunction',**
-3.  **data: [{**
-4.  **fn: 'sin(x)',**
-5.  **color: 'red'**
-6.  **}],**
-7.  **grid: true,**
-8.  **yAxis:,**
-9.  **xAxis:,**
-10. **}**);
-```
+<pre>
+1.  functionPlot(<b>{</b>
+2.  <b>target: '#myFunction',</b>
+3.  <b>data: &lbrack;{&lt;/b>
+4.  <b>fn: 'sin(x)',</b>
+5.  <b>color: 'red'</b>
+6.  <b>}&rbrack;,</b>
+7.  <b>grid: true,</b>
+8.  <b>yAxis:,</b>
+9.  <b>xAxis:,</b>
+10. <b>}</b>);
+</pre>
 
 <p>Ok, the syntax looks strange if you are not used to JavaScript, but I
 bet that you guessed that the function plotted is &quot;sin(x)&quot;, that the
@@ -2937,9 +2938,9 @@ color of the curve is &quot;red&quot;, that the range of the x values is &lbrack
 
 <p>You can think of this code in this way:</p>
 
-```
+<pre>
 1.  functionPlot(...);
-```
+</pre>
 
 <!-- page 79 -->
 
