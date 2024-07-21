@@ -3703,13 +3703,25 @@ With my Mac, I can use command "alt + I". So the thing we will going to use
 the most is the console. A console loads problems or errors.
 So, if I can clear the messages from here and this is the place where I will see
 the different error messages I've got in my code.
-
-<image126> pg 97
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 126.  (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image126.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 Here is an example in JsBin. So, you can click here to see the console or
 it’s the same thing you can get here.
-
-<image127> pg97
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 127.  (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image127.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 If I type something here: console.log("hello"). So this is the instruction
 you will use the most for printing error messages in the dev toolconsole.
@@ -3719,10 +3731,22 @@ in console: "hello".
 This just a comfortable way to display error messages. If I make some errors, 
 here I've got a script that will display, as soon the page is loaded,
 "Some JavaScript code has been executed". 
-<image128> pg98
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 128.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image128.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 If I run the code, here, it displays "Some JavaScript code has been executed". 
-<image129> pg98
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 129.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image129.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 If there is a mistake, if I make an error here,
 for example, I write console with two "l". I can see, in red, some messages:
@@ -3732,7 +3756,13 @@ When you use some online tools like JsBin or CodePen, and so on, it's a bit diff
 debug your code because you are debugging at the same time the code of the tool itself that
 is written in JavaScript too. So each each these tools comes with a way to
 run your code in what we decode ‘standalone mode’ or ‘debug mode’.
- <image130>pg99
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 130.  (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image130.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 With JsBin, I click on the small black arrow, here.
 And if I open the built-in browser console, I can see the error message.
@@ -3740,14 +3770,26 @@ And if I open the built-in browser console, I can see the error message.
 And here, if I click on the link on the right, it will just show the line where my program
 made a mistake display, so, as an error. So here, I can see that console
 needs only one "l", I can fix that.
-<image131> pg100
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 131.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image131.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Another interested thing is that when you use "console.log", you can use it to display
 some variable values. So, if I declare a variable named x with a value of 10,
 I can use «console.log" to display the value of x, using the "+" operator.
 So in that case, if I run my code it will help me by displaying the value
 of different variables when “console.log” is executed.
-<image132> pg100
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 132.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image132.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 With CodePen, another tool we use a lot in the course, you've got the debug mode.
 Just save your work and click on "change view mode" we’ve got "debug mode" here.
@@ -3938,8 +3980,13 @@ then we will do the same thing using the CodePen online editor, then,
 using a regular source code editor and .html, .css and .js files.
 
 <b>Here is what the resulting Web page will look like:</b>
-
-![](./images/image137.png)  <!-- {width="5.0in" height="3.0480774278215224in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 137.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image137.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
 https://codepen.io/w3devcampus/pen/bqGboZ
 
@@ -4213,7 +4260,7 @@ example, and type myNumber2 in the devtool console, it will display 34
 > var myNumber1, myNumber2 = 34, myNumber3;
 undefined
 
-> // Or with the ES6 syntax you can also use &quot;let&quot;
+> // Or with the ES6 syntax you can also use "let"
 undefined
  
 > let x=1, y=3, z=12;
@@ -4224,6 +4271,7 @@ undefined
  
 > z;
 12
+
 > myNumber2;
 34
  
@@ -4233,21 +4281,33 @@ undefined
 
 Below is an image that explains how you can try JavaScript code in the
 devtools console:
-<image139.jpeg>
-![Display JS variable in the console devtools, type some instructions,
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image139.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![Display JS variable in the console devtools, type some instructions,
 press return. For example type var x=2; then press the enter key; then
 type x; it will display its value
 &quot;2&quot;](./images/image109.jpeg){width="5.0in"
-height="2.112402668416448in"}
+height="2.112402668416448in"} -->
 
 If you try to use a variable that has never been declared, you get an
 error message:
-
-![If you type k; followed by the enter key in the devtool console, and
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 140.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image140.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![If you type k; followed by the enter key in the devtool console, and
 if k has not been defined, then an error message is displayed:
 &quot;uncaught referenceError: k is not
 defined&hellip;](./images/image110.jpeg){width="6.729166666666667in" height="1.3895297462817149in"}
-<image140.png>
+<image140.png> -->
 
 <h4>Name conventions for variables</h4>
 
@@ -4300,9 +4360,16 @@ var TIME_LIMIT;
 const MAX_GRADE = 20;
 ```
 
-![Constants in the devtool console. We see the difference between var
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image141.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![Constants in the devtool console. We see the difference between var
 and const. The code executed is the one from the above
-example](./images/image111.jpeg){width="6.510416666666667in" height="2.3413331146106735in"}
+example](./images/image111.jpeg){width="6.510416666666667in" height="2.3413331146106735in"} -->
 
 <h4>Summary</h4>
 
@@ -4402,9 +4469,15 @@ Global variables are variables declared outside of functions. They can
 be used anywhere in the code.
 
 <h4>Here is an example:</h4>
-
-![](./images/image112.png){width="6.5in"
-height="2.323611111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image142.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image112.png){width="6.5in"
+height="2.323611111111111in"} -->
 
 https://codepen.io/w3devcampus/pen/WjMMLZ
 
@@ -4428,18 +4501,30 @@ JavaScript 6 / ES6. See examples at the end of this section.
 
 Example of a local variable declared in a function, that is NOT local to
 the block, but to the whole function:
-
-![](./images/image113.png){width="6.5in"
-height="2.357638888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image143.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image113.png){width="6.5in"
+height="2.357638888888889in"} -->
 
 https://codepen.io/w3devcampus/pen/RVMOGx
 
 Here is another example that shows the differences between global and
 local variables, and highlights the &quot;masking&quot; of global variables by
 local variables when they share the same name.
-
-![](./images/image114.png){width="6.5in"
-height="3.3743055555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image144.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image114.png){width="6.5in"
+height="3.3743055555555554in"} -->
 
 https://codepen.io/w3devcampus/pen/oWEEmN
 
@@ -4461,14 +4546,26 @@ JavaScript 6 or above.</b>
 
 Here is an example that shows what happens when you forget to use var or
 let while declaring a local variable:
-
-![](./images/image115.png){width="6.5in" height="3.941666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image145.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image115.png){width="6.5in" height="3.941666666666667in"} -->
 
 https://codepen.io/w3devcampus/pen/rmJJbo
-
-![Declaring a variable without var in a function makes it
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image146.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![Declaring a variable without var in a function makes it
 global](./images/image116.jpeg){width="6.375in"
-height="1.2871139545056869in"}
+height="1.2871139545056869in"} -->
 
 <h5>2) Since 2015 and ES2015, there are new scopes, with the let keyword</h5>
 
@@ -4486,8 +4583,14 @@ in another block that contains the current block).</b>
 
 Example of a local variable declared with the let keyword. Its scope is
 the block:
-
-![](./images/image117.png){width="6.5in" height="2.46875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 147.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image147.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image117.png){width="6.5in" height="2.46875in"} -->
 
 https://codepen.io/w3devcampus/pen/VbXNPz
 
@@ -4570,6 +4673,13 @@ Well, there are multiple possibilities:
 
 What we call &quot;primitive data types&quot;: for example a number, a string,
 etc. ex:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image148.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
 ```
 var x = 3; var name = "Buffa";![a set of playing
@@ -4620,12 +4730,19 @@ or function)
 
 We will use it in lots of examples in the next three sections.
 
-<image149.jpeg>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image149.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- <image149.jpeg>
 ![dynamic typing. You can use the typeof operator to see the &quot;dynamic
 type of a variable&quot;. For example, type let n=3; then typeof n, it will
 display &quot;number&quot;. Then type n=&quot;toto&quot;; and typeof n; this time it
 displays &quot;string&quot;](./images/image119.jpeg){width="5.0in"
-height="2.5648020559930007in"}
+height="2.5648020559930007in"} -->
 
 This operator is not often use in JavaScript programs, but it&apos;s useful
 for us, for explaining the data types.
@@ -4793,20 +4910,12 @@ Any operation with Infinity gives Infinity as a result:
 26. "number"
 ```
 
-```{=html}
-<!-- -->
-```
-
 ```
 1.  > Infinity - Infinity;
 2.  NaN
 3.   
 4.  > -Infinity + Infinity;
 5.  NaN
-```
-
-```{=html}
-<!-- -->
 ```
 
 ```
@@ -4862,11 +4971,17 @@ floating point numbers is that 0.1 + 0.2 does not equal 0.3. 
 > 0.1 + 0.2;
 0.30000000000000004
 ```
-
-![devtool console showing that 0.1 + 0.2 is not equal to 0.3 but to
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 150.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image150.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![devtool console showing that 0.1 + 0.2 is not equal to 0.3 but to
 0.30000000000000004
 ](./images/image120.jpeg){width="6.635416666666667in"
-height="1.5729166666666667in"}
+height="1.5729166666666667in"}  -->
 
 Second, an integer has 2&#94;52 relevant bits, so the biggest integer
 is 2&#94;53. There is one bit that determines the sign of the number, so
@@ -4917,8 +5032,15 @@ precedence.   
 For example, this is an expression: (3 + 2). And the expression (3 + 2)
 &ast; 4, which equals 20, depends on the expression within the parentheses.
 
-![operators](./images/image121.png){width="2.0833333333333335in"
-height="1.2291666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image151.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![operators](./images/image121.png){width="2.0833333333333335in"
+height="1.2291666666666667in"} -->
 
 In JavaScript, expressions can evaluate to four types, which
 are: numbers, strings, booleans, and objects. For example, an expression
@@ -4956,10 +5078,16 @@ with double and closed with simple quotes
 VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
 
 <h5>Image from the devtool console, from the above example:</h5>
-
-![Snapshot of a devtool console: do not mix simple and double
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image152.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![Snapshot of a devtool console: do not mix simple and double
 quotes](./images/image122.jpeg){width="6.583333333333333in"
-height="2.4791666666666665in"}
+height="2.4791666666666665in"} -->
 
 ##### There are many reasons to use simple quotes when possible:
 
@@ -5142,12 +5270,19 @@ NaN
 
 #### The above example is shown in the devtools console:
 
-![Devtool console showing var s = &apos;1&apos;; s = 3 &ast; s; typeof s;
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image153.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![Devtool console showing var s = &apos;1&apos;; s = 3 &ast; s; typeof s;
 &quot;number&quot; s 3 var s = &apos;1&apos;; s++; typeof s; &quot;number&quot; s 2 var s =
 &quot;100&quot;; typeof s; &quot;string&quot; s = s &ast; 1; 100 typeof s; &quot;number&quot; var d
 = &apos;101 dalmatiens&apos;; undefined d &ast; 1
 NaN](./images/image123.jpeg){width="3.4791666666666665in"
-height="5.458333333333333in"}
+height="5.458333333333333in"} -->
 
 #### How to convert a Number into a String
 
@@ -5457,7 +5592,7 @@ Functions always return a value:
 
 -   Implicitly, in which case the return value is undefined.
 
-#### Declaring a function {#declaring-a-function .unnumbered}
+#### Declaring a function
 
 ```
 1.  function sum(a, b) {
@@ -5466,7 +5601,7 @@ Functions always return a value:
 4.  }
 ```
 
-#### Calling a function {#calling-a-function .unnumbered}
+#### Calling a function
 
 ```
 1.  var result = sum(1, 2);
@@ -5475,7 +5610,7 @@ Functions always return a value:
 4.  > 3
 ```
 
-#### Function parameters {#function-parameters .unnumbered}
+#### Function parameters
 
 If parameters are omitted during the call, JavaScript gives them the
 value undefined:
@@ -5485,7 +5620,7 @@ value undefined:
 2.  NaN
 ```
 
-#### Functions with a variable number of parameters {#functions-with-a-variable-number-of-parameters .unnumbered}
+#### Functions with a variable number of parameters
 
 An array named &quot;arguments&quot; is created automatically in each function,
 it contains all the call parameters of the function:
@@ -5516,7 +5651,7 @@ it contains all the call parameters of the function:
 7.  // returns [1, 2, 3, 4, true, "Michel Buffa"]
 ```
 
-#### Example of the sum with a variable number of arguments {#example-of-the-sum-with-a-variable-number-of-arguments .unnumbered}
+#### Example of the sum with a variable number of arguments
 
 ```
 1.  function newSum() {
@@ -5564,9 +5699,15 @@ console and console.log(&hellip;)!
 
 Let&apos;s check that some parts of the code you wrote are executed
 correctly.
-
-![](./images/image124.png){width="6.5in"
-height="2.748611111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image154.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image124.png){width="6.5in"
+height="2.748611111111111in"} -->
 
 Normally, when the button is clicked, we should call
 the addXToThePage() function, which in turn should display the value of
@@ -5575,53 +5716,95 @@ the variable x inside an HTML paragraph.
 Let&apos;s check if the function is really executed. We need to add
 a console.log(&quot;In the addXToThePage function&quot;); as the first
 instruction of the function:
-
-![](./images/image125.png){width="6.5in" height="3.18125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image155.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image125.png){width="6.5in" height="3.18125in"} -->
 
 And let&apos;s execute this with the devtool console open (use F12 on
 Windows, or Cmd-Alt-i on a Mac, or control-shift-i). First, as the
 provided example is located on CodePen, an online IDE, it&apos;s better to
 execute it in &quot;debug mode&quot;. The online IDE will just display a page
 (see snapshot below) with the code running:
-
-![](./images/image126.png){width="6.5in"
-height="3.270138888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image156.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!--![](./images/image126.png){width="6.5in" 
+height="3.270138888888889in"} -->
 
 This action opens a new tab with only your code running in it (not the
 whole codepen IDE + your code!). Open the devtool console (F12 or
 control-shift-i or cmd-alt-i on Mac), and you should see this:
-
-![](./images/image127.png){width="6.5in"
-height="3.1631944444444446in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image157.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!--![](./images/image127.png){width="6.5in"
+height="3.1631944444444446in"} -->
 
 Now, press the button! An error message appears:
-
-![Error message in the devtool
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image158.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![Error message in the devtool
 console](./images/image128.jpeg){width="5.90625in"
-height="0.9583333333333334in"}
+height="0.9583333333333334in"} -->
 
 Apparently the function name is wrong, addXToToThePage does not exist.
 We can check the source code by clicking on the YNbvoX:40 link on the
 right:
-
-![Source code that fired the
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image159.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![Source code that fired the
 error](./images/image129.jpeg){width="6.541666666666667in"
-height="1.771887576552931in"}
+height="1.771887576552931in"} -->
 
 Ok, so our first error was that we typed the wrong name in
 the onclick=&quot;&hellip;&quot;, the name we used : AddXToToThePage has &quot;ToTo&quot;
 instead of &quot;To&quot;. Let&apos;s fix that now and try again:
-
-![](./images/image130.png){width="6.191674321959755in"
-height="3.027040682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 160.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image160.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!--![](./images/image130.png){width="6.191674321959755in"
+height="3.027040682414698in"} -->
 
 After we&apos;ve changed the name of the function to the correct one, let&apos;s
 go in debug mode, open the devtool console and click the button. Here is
 what we get:
-
-![console.log message displayed in the console, as well as another
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 161.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image161.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!--![console.log message displayed in the console, as well as another
 error](./images/image131.jpeg){width="6.208333333333333in"
-height="4.520716316710411in"}
+height="4.520716316710411in"} -->
 
 Ok, you understand the principle&hellip; by using console.log(&hellip;) with a
 string message as parameter, you can make the message appear in the
@@ -5633,9 +5816,9 @@ should be ok now:
 
 You can click on the button now&hellip;.
 
-#### Going further with console.log {#going-further-with-console.log .unnumbered}
+#### Going further with console.log
 
-#### Displaying variable values {#displaying-variable-values .unnumbered}
+#### Displaying variable values
 
 Instead of just displaying pure string messages, you can also use the
 &quot;+&quot; operator to concatenate variable values to the pure character
@@ -5650,10 +5833,16 @@ Example :
 ```
 
 We typed this code in the devtool console to check what it does:
-
-![Type js code into the
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 162.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image162.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![Type js code into the
 console](./images/image132.jpeg){width="6.114583333333333in"
-height="1.4788757655293088in"}
+height="1.4788757655293088in"} -->
 
 You can use as many &quot;+&quot; as you like, the part right after the &quot;+&quot;
 will be turned into a string if the part in front is a string&hellip;
@@ -5672,10 +5861,16 @@ calculations:
 ```
 
 Result:
-
-![Expression displayed using
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 163.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image163.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![Expression displayed using
 console.log](./images/image133.jpeg){width="7.416666666666667in"
-height="3.0416666666666665in"}
+height="3.0416666666666665in"} -->
 
 You can use any operator (+, -, /, &ast;, etc.), you are not limited to
 using the &quot;+&quot; operator.
@@ -5715,8 +5910,14 @@ use):
 
 Just click the button to build the HTML table dynamically. You should
 see this:
-
-![](./images/image134.png){width="3.90625in" height="2.71875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 164.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image164.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image134.png){width="3.90625in" height="2.71875in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-4">1.6.4 Modifying CSS styles on the fly</h3>
@@ -5729,19 +5930,36 @@ what can be done.
 #### Examples
 
 #### Example #1: change common properties (color, border, background color)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 165.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image165.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image135.png){width="6.5in"
+height="2.2583333333333333in"} -->
 
-![](./images/image135.png){width="6.5in"
-height="2.2583333333333333in"}
+#### Example #2: change the background image property using an external image
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 166.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image166.jpeg?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image136.png){width="6.5in"
+height="2.354861111111111in"} -->
 
-
-#### Example #2: change the background image property using an external image {#example-2-change-the-background-image-property-using-an-external-image .unnumbered}
-
-![](./images/image136.png){width="6.5in"
-height="2.354861111111111in"}
-
-#### Example #3: Use the background image as a sprite sheet - animate Mario! {#example-3-use-the-background-image-as-a-sprite-sheet---animate-mario .unnumbered}
-
-![](./images/image137.png){width="6.5in" height="5.2125in"}
+#### Example #3: Use the background image as a sprite sheet - animate Mario!
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 167.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image167.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image137.png){width="6.5in" height="5.2125in"} -->
 
 Notice how the CSS properties change when we use them from JavaScript:
 
@@ -5776,9 +5994,15 @@ study some of the most useful events in even greater depth.
 ### Examples
 
 #### Example #1: use input events on an HTML input field
-
-![](./images/image138.png){width="6.5in"
-height="2.1347222222222224in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image168.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image138.png){width="6.5in"
+height="2.1347222222222224in"} -->
 
 #### Example #2: listen to mouse events in an HTML5 canvas
 
@@ -5794,15 +6018,35 @@ In this JS introductory course, we use HTML5 canvas to draw curves, to
 make a small game, etc. Small and diverse examples for illustrating some
 JavaScript data structures such as Arrays or Objects are going to be
 presented.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image169.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image139.png){width="6.5in" height="4.117361111111111in"}Example #3: a paint program - click and drag mouse, then release
+-->
 
-#### ![](./images/image139.png){width="6.5in" height="4.117361111111111in"}Example #3: a paint program - click and drag mouse, then release {#example-3-a-paint-program---click-and-drag-mouse-then-release .unnumbered}
-
-![](./images/image140.png){width="6.5in" height="5.08125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image170.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image140.png){width="6.5in" height="5.08125in"} -->
 
 #### Example #4: move a monster in an HTML5 canvas using left and right arrow keys {#example-4-move-a-monster-in-an-html5-canvas-using-left-and-right-arrow-keys .unnumbered}
-
-![](./images/image141.png){width="6.5in"
-height="4.159027777777778in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 171.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image171.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image141.png){width="6.5in"
+height="4.159027777777778in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-6">1.6.6 Using built-in HTML5 APIs</h3>
@@ -5838,9 +6082,14 @@ to try[ the WebCam Toy](https://webcamtoy.com/) demo!
 
 Click on the piano keyboard. Use the different buttons, sliders, etc.
 This example uses the WebAudio API in order to synthesize sounds.
-
-![](./images/image142.png){width="6.5in"
-height="4.813194444444444in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image172.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image142.png){width="6.5in" height="4.813194444444444in"} -->
 
 <h5>HTML:</h5>
 
@@ -5870,9 +6119,14 @@ is pretty easy to use and very powerful. Here is an example that
 plots f(x) = x&#94;2, then f(x) = sin(x) and finally a mix of
 fours functions : f(x) = x&#94;2 (in red), f(x) = 3&ast;x (in green), f(x) =
 cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)
-
-![](./images/image143.png){width="6.5in"
-height="5.102083333333334in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 173.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image173.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image143.png){width="6.5in" height="5.102083333333334in"} -->
 
 Here is another much simpler example, please edit the code (click on
 &quot;edit on codepen&quot;) and change the function for something like f(x) =
@@ -5880,9 +6134,14 @@ x&#94;3 and look at the result (don&apos;t forget to change
 the xRange and yRange values). If you have trouble, [look
 here](https://codepen.io/w3devcampus/pen/MJMYNb) for a solution.
 
-![](./images/image144.png){width="6.5in"
-height="3.0569444444444445in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image174.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image144.png){width="6.5in" height="3.0569444444444445in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-8">1.6.8 Working with remote data</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5895,17 +6154,28 @@ Let's see a few examples on how to work with remote data.
 
 This example downloads and displays a list of users in a table
 (see [remote data](https://jsonplaceholder.typicode.com/users)):
-
-![](./images/image145.png){width="6.5in" height="4.909722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image175.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image145.png){width="6.5in" height="4.909722222222222in"} -->
 
 <h4>Example #2: load and decode remote sounds for use in a video game</h4>
 
 This example just shows how to use the HowlerJS external library to load
 remote sounds, decode them and play them as samples in memory (useful
 for video games):
-
-### ![](./images/image146.png){width="6.5in" height="3.25in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 176.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image176.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ### ![](./images/image146.png){width="6.5in" height="3.25in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1-1">2.1.1 Video introduction - Module 2</h3>
@@ -6878,9 +7148,14 @@ only a watch (default case).
 To finish up this section, here is a complete example (to run it: click
 on the &quot;edit on codepen&quot; label and once in codepen, open the devtool
 console to see the outputs of this program):
-
-![](./images/image147.png){width="6.5in"
-height="2.0659722222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image177.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image147.png){width="6.5in" height="2.0659722222222223in"} -->
 
 <h5>HTML:</h5>
 
@@ -7080,8 +7355,14 @@ Example from the video
 
 -   [Example on CodePen](https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012)
 
-<h4>![A loop in the sky](./images/image148.jpeg)</h4>
-<!-- 2.6" width -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image178.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- <h4>![A loop in the sky](./images/image148.jpeg)</h4> <!-- 2.6" width --> -->
 
 <h4>Loops</h4>
 
@@ -7406,8 +7687,14 @@ post your comments/observations/questions or share your creations.
     For working with input fields, look at section 1.4 from the first
     module, the math function plotter example used input fields. Or look
     at the section about DOM in this module.
-
-![quizz](./images/image149.jpeg){width="1.25in" height="0.9375in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image179.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![quizz](./images/image149.jpeg){width="1.25in" height="0.9375in"} -->
 
 -   Try to make a quiz using the DOM and buttons, checkboxes, etc.
 
@@ -7457,9 +7744,14 @@ declaration. Semicolons are used to separate executable JavaScript
 statements, and a function declaration is not an executable statement.
 
 Here is an example:
-
-![](./images/image150.png){width="6.5in"
-height="2.0659722222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image180.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image150.png){width="6.5in" height="2.0659722222222223in"} -->
 
 <h5>HTML:</h5>
 
@@ -7501,9 +7793,14 @@ A JavaScript function can also be defined using an expression that can
 be stored in a variable. Then, the variable can be used as a function:
 
 Here is a typical example:
-
-![](./images/image151.png){width="6.5in"
-height="2.272222222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 181.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image181.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image151.png){width="6.5in" height="2.272222222222222in"} -->
 
 <h5>HTML:</h5>
 
@@ -7563,9 +7860,14 @@ All the examples of event listeners that you&apos;ve seen used callback
 functions. Here is another one that registers mouse click listeners on
 the window object (the window objects represent the whole HTML
 document):
-
-![](./images/image152.png){width="6.5in"
-height="2.588888888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 182.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image182.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image152.png){width="6.5in" height="2.588888888888889in"} -->
 
 <h5>HTML:</h5>
 
@@ -7616,9 +7918,14 @@ Adding interactivity to a Web application can be achieved by using only
 CSS, such as by using the :hover pseudo CSS class.
 
 For example:
-
-![](./images/image153.png){width="6.5in"
-height="2.0861111111111112in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image183.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image153.png){width="6.5in" height="2.0861111111111112in"} -->
 
 <h5>HTML:</h5>
 
@@ -7667,9 +7974,14 @@ ones that correspond to the type of event &quot;they listen to&quot;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 #### Live coding video: adding an event listener to a document
-
-![](./images/image154.png){width="6.5in"
-height="5.139583333333333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image184.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image154.png){width="6.5in" height="5.139583333333333in"} -->
 
 Hello. Let&apos;s see how events work in JavaScript. In this video, I will
 show you how to add a simple event listener for detecting clicks or mouse moves,
@@ -7812,9 +8124,14 @@ on a web document will be processed by this event handler):
 ```
 
 <h4>Try it below by clicking anywhere on the document:</h4>
-
-![](./images/image155.png){width="6.5in"
-height="2.0770833333333334in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image185.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image155.png){width="6.5in" height="2.0770833333333334in"} -->
 
 <h5>HTML:</h5>
 
@@ -7888,9 +8205,14 @@ we can listen to specific DOM elements.
 
 For example, here is how we can listen to clicks on a specific button
 (whereas clicks on the rest of the document will be ignored).
-
-![](./images/image156.png){width="6.5in"
-height="2.0701388888888888in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image186.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image156.png){width="6.5in" height="2.0701388888888888in"} -->
 
 <h5>HTML:</h5>
 
@@ -7935,9 +8257,14 @@ to events on it.
 Instead of using b.addEventListener(&apos;click&apos;, callback), it&apos;s possible
 to use an onclick=&apos;doSomething();&apos; attribute directly in the HTML tag
 of the element:
-
-![](./images/image157.png){width="6.5in"
-height="2.104861111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image187.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image157.png){width="6.5in" height="2.104861111111111in"} -->
 
 <h5>HTML:</h5>
 
@@ -7986,9 +8313,14 @@ When we click on the button, we execute the processClick(evt) callback
 function, and inside we remove the listener we previously registered.
 Consequence: if we click on the button again, nothing happens as there
 is no longer a click event listener attached to it.
-
-![](./images/image158.png){width="6.5in"
-height="2.0909722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image188.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image158.png){width="6.5in" height="2.0909722222222222in"} -->
 
 <h5>HTML:</h5>
 
@@ -8084,10 +8416,14 @@ common types of events in detail.
 ### Reference table
 
 The most useful common properties are:
-
-![](./images/image159.png){width="6.5in"
-height="2.5520833333333335in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image189.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image159.png){width="6.5in" height="2.5520833333333335in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-4">2.4.4 Page lifecycle events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8196,9 +8532,14 @@ DOM is ready.
 
 There are many other events related to the page life cycle. The most
 useful ones for an introduction course are shown below:
-
-![](./images/image160.png){width="6.5in"
-height="2.029166666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 190.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image190.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image160.png){width="6.5in" height="2.029166666666667in"} -->
 
 <h4>Page event properties</h4>
 
@@ -8215,9 +8556,14 @@ canvas size, for example).
 #### Example 1: wait until the page is loaded (when the DOM is ready) before doing something
 
 This first variant that uses <body onload=&quot;init();&quot;>
-
-![](./images/image161.png){width="6.5in"
-height="2.0701388888888888in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image191.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image161.png){width="6.5in" height="2.0701388888888888in"} -->
 
 <h5>HTML:</h5>
 
@@ -8265,9 +8611,14 @@ status.innerHTML = 'LOADED!';
 
 This second variant: using window.onload = init; in the JavaScript
 code&hellip;
-
-![](./images/image162.png){width="6.5in"
-height="2.0701388888888888in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image192.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image162.png){width="6.5in" height="2.0701388888888888in"} -->
 
 <h5>HTML:</h5>
 
@@ -8322,9 +8673,14 @@ the resize() callback function.
 The window.innerWidth and window.innerHeight properties are used to
 display the updated size of the window. We also
 use screen.width and screen.height to display the screen size.
-
-![](./images/image163.png){width="6.5in"
-height="2.0631944444444446in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 193.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image193.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image163.png){width="6.5in" height="2.0631944444444446in"} -->
 
 <h5>HTML:</h5>
 
@@ -8373,9 +8729,14 @@ screenSizeSpan.innerHTML = &quot;Width: &quot; + screen.width + &quot; Height: &
 ```
 
 <h4>Example 3: do something as the page is being scrolled up or down</h4>
-
-![](./images/image164.png){width="6.5in"
-height="2.0701388888888888in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 194.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image194.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image164.png){width="6.5in" height="2.0701388888888888in"} -->
 
 <h5>HTML:</h5>
 
@@ -8473,9 +8834,14 @@ which real keyboard keys, so here are some handy pointers:
 <h4>The different key events</h4>
 
 <h4>Event types related to keyboard</h4>
-
-![](./images/image165.png){width="6.5in"
-height="1.2861111111111112in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image195.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image165.png){width="6.5in" height="1.2861111111111112in"} -->
 
 <h4>keyboardEvent properties
 
@@ -8484,14 +8850,24 @@ the world. However, we do not recommend that you use them if you are
 targeting modern browsers. keyCode has a more powerful/easy to use
 replacement called code (not yet supported by all browsers), that comes
 with a new key property (see the following pages of the course).
-
-![](./images/image166.png){width="6.5in"
-height="1.7333333333333334in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image196.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image166.png){width="6.5in" height="1.7333333333333334in"} -->
 
 <h4>Example #1: use keyup and keydown on the window object</h4>
-
-![](./images/image167.png){width="6.5in"
-height="2.0631944444444446in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image197.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image167.png){width="6.5in" height="2.0631944444444446in"} -->
 
 <h4>HTML:</h4>
 
@@ -8542,9 +8918,14 @@ on [CodePen](https://codepen.io/).
 <h4>Example #3: detect a combination of keys + modifier keys (shift, ctrl, alt)</h4>
 
 Try to type shift-a for example, ctrl-shift-b or alt-f&hellip;
-
-![](./images/image168.png){width="6.5in"
-height="2.0770833333333334in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image198.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image168.png){width="6.5in" height="2.0770833333333334in"} -->
 
 <h5>HTML:</h5>
 
@@ -8630,38 +9011,64 @@ page](https://en.wikipedia.org/wiki/Keyboard_layout)!
 
 <h4>[QWERTY](https://en.wikipedia.org/wiki/QWERTY) layout, used in US, GB, etc.</h4>
 
-![QWERTY keyboard
-layout](./images/image169.png){width="5.208333333333333in"
-height="1.7395833333333333in"}
-
-![AZERTY keyboard
-layout](./images/image170.png){width="5.208333333333333in"
-height="1.6041666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image199.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![QWERTY keyboard layout](./images/image169.png){width="5.208333333333333in" height="1.7395833333333333in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image200.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![AZERTY keyboard layout](./images/image170.png){width="5.208333333333333in" height="1.6041666666666667in"} -->
 
 <h4>In addition, [QWERTZ](https://en.wikipedia.org/wiki/QWERTZ) keyboards are in use in Germany and other European countries, and [DVORAK](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout) is another alternative to QWERTY:</h4>
 
 DVORAK:
-
-![DVORAK layout
-keyboard](./images/image171.png){width="5.208333333333333in"
-height="1.6041666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image201.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![DVORAK layout keyboard](./images/image171.png){width="5.208333333333333in" height="1.6041666666666667in"} -->
 
 QWERTZ:
-
-![QWERTZ layout
-keyboard](./images/image172.png){width="5.208333333333333in"
-height="1.7395833333333333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image202.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![QWERTZ layout keyboard](./images/image172.png){width="5.208333333333333in" height="1.7395833333333333in"} -->
 
 <h4>Saudi Arabic keyboard layout (see more [Arabic keyboards](https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards)):</h4>
-
-![Saoudian Arabic keyboard
-layout](./images/image173.jpeg){width="6.5in"
-height="2.478125546806649in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image203.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![Saoudian Arabic keyboard layout](./images/image173.jpeg){width="6.5in" height="2.478125546806649in"} -->
 
 <h4>[Bangla National (Jatiyo) keyboard](https://en.wikipedia.org/wiki/Bengali_input_methods#Bangla_Jatiyo):</h4>
-
-![Bangladesh keyboard layout](./images/image174.png){width="6.5in"
-height="2.4452384076990374in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image204.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![Bangladesh keyboard layout](./images/image174.png){width="6.5in" height="2.4452384076990374in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-7">2.4.7 Key and code properties</h3>
@@ -8712,8 +9119,14 @@ the world, as well as their [reference
 keyboard](https://www.w3.org/TR/uievents-code/#code-value-tables). For
 instance here is their reference keyboard for the alphanumerical part:
 
-![Reference alphanumeric
-keyboard](./images/image175.png){width="6.5in" height="2.2425in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image205.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![Reference alphanumeric keyboard](./images/image175.png){width="6.5in" height="2.2425in"} -->
 
 Also, please read through [the examples given in the
 specification](https://w3c.github.io/uievents/#code-examples). They show
@@ -8721,9 +9134,14 @@ very clearly what happens when the user presses various types of keys,
 both for code and key.
 
 ### Example that displays the key and code values with your current keyboard
-
-![](./images/image176.png){width="6.5in"
-height="2.5652777777777778in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image206.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image176.png){width="6.5in" height="2.5652777777777778in"} -->
 
 <h5>HTML:</h5>
 
@@ -8801,21 +9219,36 @@ listen to.
 #### Mouse events
 
 <h4>Event types related to mouse</h4>
-
-![](./images/image177.png){width="6.5in"
-height="3.6798611111111112in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image207.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image177.png){width="6.5in" height="3.6798611111111112in"} -->
 
 <h4>MouseEvent properties</h4>
-
-![](./images/image178.png){width="6.5in"
-height="4.127083333333333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 208.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image208.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image178.png){width="6.5in" height="4.127083333333333in"} -->
 
 <h4>Examples</h4>
 
 <h4>Example #1: detect a click on an element</h4>
-
-![](./images/image179.png){width="6.5in"
-height="2.0631944444444446in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 209.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image209.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image179.png){width="6.5in" height="2.0631944444444446in"} -->
 
 <h5>HTML:</h5>
 
@@ -8877,9 +9310,14 @@ the properties again; notice how pageX/pageY change, since they are
 relative to the top of the page, even if they are not visible. Click on
 the codePen label on top right and run this example! It does not work
 when embedded in this page!
-
-![](./images/image180.png){width="6.5in"
-height="2.0701388888888888in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image210.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image180.png){width="6.5in" height="2.0701388888888888in"} -->
 
 <h5>HTML:</h5>
 
@@ -8962,9 +9400,14 @@ for(var i=0; i<3; i++){
 ```
 
 <h4>Example #3: detect a mousemove event and get the mouse position relative to the page</h4>
-
-![](./images/image181.png){width="6.5in"
-height="2.0631944444444446in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 211.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image211.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image181.png){width="6.5in" height="2.0631944444444446in"} -->
 
 <h5>HTML:</h5>
 
