@@ -3898,7 +3898,7 @@ press <b>F12</b>. You should see:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 134. snapshot of a javascript console view (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image135.jpeg?raw=true"
+<img src="./images/image134.jpeg?raw=true"
   style="width:50%"
   title="Snapshot of a JavaScript console view"
   alt="Snapshot of a JavaScript console view." />
@@ -3926,8 +3926,7 @@ And if we run it standalone and use the dev. tool console:
   title="View of the JavaScript console (showing the line that caused the error"
   alt="View of the JavaScript console (showing the line that caused the error." />
 </p>
-<!-- ![View of the JavaScript console (showing the line that caused the error)](./images/image106.jpeg){width="5.0in" -->
-height="2.508445975503062in"}
+<!-- (./images/image106.jpeg){width="5.0in" height="2.508445975503062in"} -->
 
 And if we click on the line number to the right, the dev. tool shows the
 source code centered on the line that caused the error:
@@ -3981,19 +3980,26 @@ using a regular source code editor and .html, .css and .js files.
 
 <b>Here is what the resulting Web page will look like:</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 137.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 137. codepen: interactive function plotter (107) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image137.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: Interactive Function Plotter"
+  alt="CodePen: Interactive Function Plotter." />
 
-https://codepen.io/w3devcampus/pen/bqGboZ
-
+<h6 align="center">
+<a href="https://codepen.io/w3devcampus/pen/bqGboZ">Demo (CodePen)</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 Using CodePen (6:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<image138>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 138a.  (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image138a.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- pages 108-112 to be filled from class -->
+
 In the video, at 3:19, there are some mistakes in the HTML code:
 
 1.  This line uses a wrong value for the for attribute (it should be the
@@ -4021,19 +4027,46 @@ In case you have a hard time to follow the video, [here is the full
 example](https://codepen.io/w3devcampus/pen/bqGboZ) (this link points to
 the example from the previous course page).
 
+Hi!
+<p>We're going to work from an example we already saw in the course: the math function 
+plotter. In this version, you can see that we added some input fields for changing 
+the color of the curve, for changing the range of the x values, changing interactively 
+the functions we are going to plot, and so on.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 139a.  (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image139a.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- pages 108-112 to be filled from class plus more I'm sure -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-3">1.4.3 Using Sublime Text (4:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 1xx.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image138.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+  
+Let's start from the very basic example we saw earlier on the course. We saw that, the function is located in a "div". And we just added a "section" tag from HTML5, just to identify the part of the document where the function is plotted.
+
+Later on, we'll add another "section" about the input fields and the different controls. You also have a <body onload="plot();", that means that when the page is loaded, we execute a JavaScript function named "plot()", that is located here. And it uses the "functionPlot()" function from the external library we use. This one. And it takes a set of parameters that are located at the beginning of the JavaScript part. That will indicate, within the target property, the "id" of the div where we are going to plot the function. In the data property is the function itself: "sin(x)" and its color: red. What can we do to improve this? 
+<!-- 2 (two) images side-by-side -->
+
 
 Now, I&apos;m going to show you how we can do the same application using
 files and a regular source code editor, and working on your local hard
-disk.
-
-I&apos;m going first to create a directory for storing the files on my
-desktop.
-
-&quot;Math plotter app&quot; and I will work inside.
-
+disk. I&apos;m going first to create a directory for storing the files on my
+desktop. &quot;Math plotter app&quot; and I will work inside.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 1xx.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image138.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 In this folder, I will create a subfolder named &quot;js&quot; for the js files
 and a subfolder named &quot;css&quot; for the CSS files, and the HTML file will
 lie in the current directory.
@@ -4282,12 +4315,12 @@ undefined
 Below is an image that explains how you can try JavaScript code in the
 devtools console:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 139. devtools console example (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image139.jpeg?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Devtools console example"
+  alt="Devtools console example." />
 <!-- ![Display JS variable in the console devtools, type some instructions,
 press return. For example type var x=2; then press the enter key; then
 type x; it will display its value
@@ -4297,18 +4330,19 @@ height="2.112402668416448in"} -->
 If you try to use a variable that has never been declared, you get an
 error message:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 140.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 140. error message: undeclared type error (120) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image140.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Error Message: Undeclared type error"
+  alt="Error Message: Undeclared type error." />
+<!-- image141.jpeg is a bit taller -->
 <!-- ![If you type k; followed by the enter key in the devtool console, and
 if k has not been defined, then an error message is displayed:
 &quot;uncaught referenceError: k is not
 defined&hellip;](./images/image110.jpeg){width="6.729166666666667in" height="1.3895297462817149in"}
-<image140.png> -->
 
+<!-- end of 1.5.1 JS variables and values from previous lesson 4 years back-->
 <h4>Name conventions for variables</h4>
 
 The JavaScript community has some conventions about naming variables:
@@ -4361,12 +4395,12 @@ const MAX_GRADE = 20;
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 141. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (121) ~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image141.jpeg?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Comparison between var: TIME_LIMIT and constant: MAX_GRADE."
+  alt="Comparison between var: TIME_LIMIT and constant: MAX_GRADE." />
 <!-- ![Constants in the devtool console. We see the difference between var
 and const. The code executed is the one from the above
 example](./images/image111.jpeg){width="6.510416666666667in" height="2.3413331146106735in"} -->
@@ -4434,7 +4468,7 @@ But, if I declare a local variable, it's no more local to the whole
 function in which it is defined, but it's local to the block of
 instructions that is defined by an opening brace and a closing brace.
 
-So, if I try to use this variable here, that is defined in the block,
+If I try to use this variable here, that is defined in the block,
 outside of the block but inside of the function, the "a"..., the value
 of the variable "a" here, will not be the value of the local variable
 here, because this one does not exist, it's not usable here. It will be
@@ -4470,16 +4504,15 @@ be used anywhere in the code.
 
 <h4>Here is an example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image142.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image112.png){width="6.5in"
-height="2.323611111111111in"} -->
-
-https://codepen.io/w3devcampus/pen/WjMMLZ
+<!-- ![](./images/image112.png){width="6.5in" height="2.323611111111111in"} -->
+<h6 align="center">
+<a href="https://codepen.io/w3devcampus/pen/WjMMLZ">Demo (CodePen)</a></h6>
 
 <h5>1.2) Local scope / local variable (also called function scope)</h5>
 
@@ -4502,7 +4535,7 @@ JavaScript 6 / ES6. See examples at the end of this section.
 Example of a local variable declared in a function, that is NOT local to
 the block, but to the whole function:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image143.png?raw=true"
   style="width:50%"
@@ -4517,7 +4550,7 @@ Here is another example that shows the differences between global and
 local variables, and highlights the &quot;masking&quot; of global variables by
 local variables when they share the same name.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image144.png?raw=true"
   style="width:50%"
@@ -4547,7 +4580,7 @@ JavaScript 6 or above.</b>
 Here is an example that shows what happens when you forget to use var or
 let while declaring a local variable:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image145.png?raw=true"
   style="width:50%"
@@ -4557,7 +4590,7 @@ let while declaring a local variable:
 
 https://codepen.io/w3devcampus/pen/rmJJbo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image146.png?raw=true"
   style="width:50%"
@@ -4584,7 +4617,7 @@ in another block that contains the current block).</b>
 Example of a local variable declared with the let keyword. Its scope is
 the block:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 147.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 147.  (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image147.png?raw=true"
   style="width:50%"
@@ -4674,7 +4707,7 @@ Well, there are multiple possibilities:
 What we call &quot;primitive data types&quot;: for example a number, a string,
 etc. ex:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image148.png?raw=true"
   style="width:50%"
@@ -4731,7 +4764,7 @@ or function)
 We will use it in lots of examples in the next three sections.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image149.jpeg?raw=true"
   style="width:50%"
@@ -4750,61 +4783,95 @@ for us, for explaining the data types.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-4">1.5.4 Numbers</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 150. numbers 1 thu 9, then 0, twice (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image150.png?raw=true"
+  style="width:25%"
+  title="Numbers 1 thu 9, then 0, twice"
+  alt="Numbers 1 thu 9, then 0, twice." />
+  
 <h4>Number values can be:</h4>
 
--   <b>Integer</b>: 1, 4, 274929
+<ul>
+  <li><b>Integer</b>: 1, 4, 274929</li>
+</ul>
 
-Type 343 in the devtool console, and after you press the Enter key,  the
- corresponding value (343) will be displayed.
+<p>Type 343 in the devtool console, and after you press the Enter key,  the
+ corresponding value (343) will be displayed.</p>
 
--   <b>Signed integer</b>: -17
+<ul>
+  <li><b>Signed integer</b>: -17</li>
+  <li><b>Decimal</b>: 3.46, -466.8770</li>
+</ul>
 
--   <b>Decimal</b>: 3.46, -466.8770
-
-Examples of integer and decimals:
+<p>Examples of integer and decimals:</p>
 
 ```
-> var n=1;
+var n=1;
 undefined
 > typeof n;
 "number"
+
 > n=1234;
 1234
+
 > typeof n;
 "number"
+
 > n=1.23;
 1.23
+
 > typeof n;
 "number"
+
 > typeof 123;
 "number"
--   <b>Scientific notation</b>: 3.46e4, 5.3e+6, 5344000e-5
+```
+
+<ul>
+  <li><b>Scientific notation</b>: 3.46e4, 5.3e+6, 5344000e-5</li>
+</ul>
+
+```
 3.46e4 equals 3.46 x 10&#94;4 equals 34600
-Examples:
+```
+
+<h4>Examples:</h4>
+
+```
 > 1e1;
 10
+
 > 1e+1;
 10
+
 > 2e+3;
 2000
+
 > typeof 2e+3;
 "number"
+
 > 2e-3;
 0.002
+
 > 123.456E-3;
 0.123456
+
 > typeof 2e-3;
 "number"
 ```
 
--   <b>Octal</b>: 010
+<ul>
+  <li><b>Octal</b>: 010</li>
+</ul>
 
 <b>Be careful with this, don&apos;t start an integer with 0 (zero),
 JavaScript will understand it as an octal value.</b>
 
-010 equals 8 which means 1 &ast; 8&#94;1 + 0 &ast; 8&#94;0
+<pre><code>010 equals 8 which means 1 * 8^1 + 0 * 8^0</code></pre>
 
-The number 0456 means 4 &ast; 8&#94;2 + 5 &ast; 8&#94;1 + 6 &ast; 8&#94;0
+<pre><code>The number 0456 means 4 * 8^2 + 5 * 8^1 + 6 * 8^0</code></pre>
 
 <b>Question 1</b>: What&apos;s the result, as an integer, of the
 operation: 24 - 024?
@@ -4818,12 +4885,14 @@ you type 098 followed by the Enter key?
 <b>Explanation 2</b>: 9 and 8 don&apos;t exist in base 8 (only 0 to 7), so the
 typed number will be considered as an integer.
 
--   <b>Hexadecimal</b>: 0xF3
+<ul>
+  <li><b>Hexadecimal</b>: 0xF3</li>
+</ul>
 
-0xFF equals 255, 0xF3 means 15 &ast; 16&#94;1 + 3 &ast; 16&#94;0 and the resulting
-value is 243
+<pre><code>0xFF equals 255, 0xF3 means 15 * 16^1 + 3 * 16^0 and the resulting
+value is 243</code></pre>
 
-Examples of octal and hexadecimal data types:
+<h4>Examples of octal and hexadecimal data types:</h4>
 
 ```
 > var n3 = 0377;
@@ -4854,13 +4923,13 @@ undefined
 255
 ```
 
--   <b>Special values</b>:
+<h5><b>Special values</b>:</h5>
 
-    -   +Infinity
-
-    -   -Infinity
-
-    -   NaN (Not a Number)
+<ul>
+  <li>+Infinity</li>
+  <li>-Infinity</li>
+  <li>NaN (Not a Number)</li>
+</ul>
 
 The value Infinity (or +Infinity) represents all number values greater
 than 1.79769313486231570e+308 and -Infinity represents values smaller
@@ -4908,14 +4977,11 @@ Any operation with Infinity gives Infinity as a result:
 24.  
 25. > typeof i;
 26. "number"
-```
-
-```
-1.  > Infinity - Infinity;
-2.  NaN
-3.   
-4.  > -Infinity + Infinity;
-5.  NaN
+27.  > Infinity - Infinity;
+28.  NaN
+29.   
+30.  > -Infinity + Infinity;
+31.  NaN
 ```
 
 ```
@@ -4934,7 +5000,7 @@ Any operation with Infinity gives Infinity as a result:
 
 <h4>Examples with NaN:</h4>
 
-NaN is a special value and its type is &quot;Number&quot;!
+<p>NaN is a special value and its type is &quot;Number&quot;!</p>
 
 ```
 1.  > typeof NaN;
@@ -4944,10 +5010,15 @@ NaN is a special value and its type is &quot;Number&quot;!
 5.  undefined
 6.   
 7.  > a;
-8.  NaN > 
-  var a = 10 &ast; "f";
-  undefined > a;
-  NaN > 1 + 2 + a;
+8.  NaN 
+
+> var a = 10 &ast; "f";
+  undefined
+  
+> a;
+  NaN 
+  
+> 1 + 2 + a;
   NaN
 ```
 
@@ -4972,9 +5043,9 @@ floating point numbers is that 0.1 + 0.2 does not equal 0.3. 
 0.30000000000000004
 ```
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 150.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (135) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image150.jpeg?raw=true"
+<img src="./images/image151.jpeg?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5033,10 +5104,10 @@ For example, this is an expression: (3 + 2). And the expression (3 + 2)
 &ast; 4, which equals 20, depends on the expression within the parentheses.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image151.png?raw=true"
-  style="width:50%"
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image152.png?raw=true"
+  style="width:25%"
   title=""
   alt="." />
 <!-- ![operators](./images/image121.png){width="2.0833333333333335in"
@@ -5079,9 +5150,9 @@ VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
 
 <h5>Image from the devtool console, from the above example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (144) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image152.jpeg?raw=true"
+<img src="./images/image154.jpeg?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5271,9 +5342,9 @@ NaN
 #### The above example is shown in the devtools console:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image153.jpeg?raw=true"
+<img src="./images/image155.jpeg?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5700,9 +5771,9 @@ console and console.log(&hellip;)!
 Let&apos;s check that some parts of the code you wrote are executed
 correctly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image154.jpeg?raw=true"
+<img src="./images/image156.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5717,9 +5788,9 @@ Let&apos;s check if the function is really executed. We need to add
 a console.log(&quot;In the addXToThePage function&quot;); as the first
 instruction of the function:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image155.jpeg?raw=true"
+<img src="./images/image157.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5731,9 +5802,9 @@ provided example is located on CodePen, an online IDE, it&apos;s better to
 execute it in &quot;debug mode&quot;. The online IDE will just display a page
 (see snapshot below) with the code running:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image156.png?raw=true"
+<img src="./images/image158.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5744,9 +5815,9 @@ This action opens a new tab with only your code running in it (not the
 whole codepen IDE + your code!). Open the devtool console (F12 or
 control-shift-i or cmd-alt-i on Mac), and you should see this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image157.png?raw=true"
+<img src="./images/image159.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5755,9 +5826,9 @@ height="3.1631944444444446in"} -->
 
 Now, press the button! An error message appears:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 160.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image158.png?raw=true"
+<img src="./images/image160.jpeg?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5769,9 +5840,9 @@ Apparently the function name is wrong, addXToToThePage does not exist.
 We can check the source code by clicking on the YNbvoX:40 link on the
 right:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 161.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image159.png?raw=true"
+<img src="./images/image161.jpeg?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5783,9 +5854,9 @@ Ok, so our first error was that we typed the wrong name in
 the onclick=&quot;&hellip;&quot;, the name we used : AddXToToThePage has &quot;ToTo&quot;
 instead of &quot;To&quot;. Let&apos;s fix that now and try again:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 160.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 162.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160.png?raw=true"
+<img src="./images/image162.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5796,15 +5867,19 @@ After we&apos;ve changed the name of the function to the correct one, let&apos;s
 go in debug mode, open the devtool console and click the button. Here is
 what we get:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 161.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 164.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image161.jpeg?raw=true"
+<img src="./images/image164.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 <!--![console.log message displayed in the console, as well as another
 error](./images/image131.jpeg){width="6.208333333333333in"
 height="4.520716316710411in"} -->
+
+You can click on the button now . . .
+
+Going further with console.log
 
 Ok, you understand the principle&hellip; by using console.log(&hellip;) with a
 string message as parameter, you can make the message appear in the
@@ -5834,9 +5909,9 @@ Example :
 
 We typed this code in the devtool console to check what it does:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 162.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 165.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image162.jpeg?raw=true"
+<img src="./images/image165.jpeg?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5862,9 +5937,9 @@ calculations:
 
 Result:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 163.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 166.  (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image163.jpeg?raw=true"
+<img src="./images/image166.jpeg?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5908,17 +5983,23 @@ use):
 
 4.  etc.
 
-Just click the button to build the HTML table dynamically. You should
-see this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 164.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 167.  (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image164.png?raw=true"
+<img src="./images/image167.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 <!-- ![](./images/image134.png){width="3.90625in" height="2.71875in"} -->
-
+Just click the button to build the HTML table dynamically. You should
+see this:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image168.png?raw=true"
+  style="width:25%"
+  title=""
+  alt="." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-4">1.6.4 Modifying CSS styles on the fly</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5931,9 +6012,9 @@ what can be done.
 
 #### Example #1: change common properties (color, border, background color)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 165.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image165.jpeg?raw=true"
+<img src="./images/image169.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5942,9 +6023,9 @@ height="2.2583333333333333in"} -->
 
 #### Example #2: change the background image property using an external image
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 166.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image166.jpeg?raw=true"
+<img src="./images/image168.jpeg?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5953,9 +6034,9 @@ height="2.354861111111111in"} -->
 
 #### Example #3: Use the background image as a sprite sheet - animate Mario!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 167.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image167.png?raw=true"
+<img src="./images/image169.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5995,9 +6076,9 @@ study some of the most useful events in even greater depth.
 
 #### Example #1: use input events on an HTML input field
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image168.png?raw=true"
+<img src="./images/image170.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
