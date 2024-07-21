@@ -2894,14 +2894,14 @@ on the CodePen example), we see:
 
 <pre>
 1.  functionPlot(<b>{</b>
-2.  <b>target: '#myFunction',</b>
-3.  <b>data: &lbrack;{&lt;/b>
-4.  <b>fn: 'sin(x)',</b>
-5.  <b>color: 'red'</b>
-6.  <b>}&rbrack;,</b>
-7.  <b>grid: true,</b>
-8.  <b>yAxis:,</b>
-9.  <b>xAxis:,</b>
+2.    <b>target: '#myFunction',</b>
+3.    <b>data: &lbrack;{&lt;</b>
+4.      <b>fn: 'sin(x)',</b>
+5.      <b>color: 'red'</b>
+6.    <b>}&rbrack;,</b>
+7.    <b>grid: true,</b>
+8.      <b>yAxis:,</b>
+9.      <b>xAxis:,</b>
 10. <b>}</b>);
 </pre>
 
@@ -2938,9 +2938,7 @@ color of the curve is &quot;red&quot;, that the range of the x values is &lbrack
 
 <p>You can think of this code in this way:</p>
 
-<pre>
-1.  functionPlot(...);
-</pre>
+<pre>1.  functionPlot(...);</pre>
 
 <!-- page 79 -->
 
@@ -2965,22 +2963,22 @@ for the x and y values, with or without a grid, etc.
 Let&apos;s have a look at the parameters we used in our example (the ones
 you tweaked). They are in bold in the source code we saw earlier:
 
-```
+<pre>
 1.  {
-2.    **target**: '#myFunction',
-3.    **data**: [{
+2.    <b>target</b>: '#myFunction',
+3.    <b>data</b>: &lbrack;{
 4.      fn: 'sin(x)',
 5.      color: 'red'
-6.    }],
-7.    **grid**: true,
-8.    **yAxis**: {
-9.      domain: [-1, 1]
+6.    }&rbrack;,
+7.    <b>grid</b>: true,
+8.    <b>yAxis</b>: {
+9.      domain: &lbrack;-1, 1&rbrack;
 10.   },
-11.   **xAxis**: {
-12.     domain: [0, 2*Math.PI]
+11.   <b>xAxis</b>: {
+12.     domain: &lbrack;0, 2&ast;Math.PI&rbrack;
 13.   }
 14. }
-```
+</pre>
 
 <h4>JavaScript object</h4>
 
@@ -2993,12 +2991,12 @@ much detail.
 A JavaScript object can be defined by two braces with a set of
 properties/values inside, separated by a comma. Here is a simple object:
 
-```
+<pre>
 1.  {
 2.    givenName: "Michel",
 3.    familyName: "Buffa"
 4.  }
-```
+</pre>
 
 We use the &quot;:&quot; separator between the property name and its value. We
 use a comma between two properties, and we omit the comma after the last
@@ -3047,18 +3045,18 @@ are also objects.
 
 <code>
 1.  xAxis: {
-2.  domain: [0, 2*Math.PI]
+2.  domain: &lbrack;0, 2&ast;Math.PI&rbrack;
 3.  }
 </code>
 
 The data object is even more complicated:
 
-```
-1.  data: [{
-2.  fn: 'sin(x)',
-3.  color: 'red'
-4.  }],
-```
+<pre>
+1.  data: &lbrack;{
+2.    fn: 'sin(x)',
+3.    color: 'red'
+4.  }&rbrack;,
+</pre>
 
 Instead of containing another object like xAxis or yAxis, it contains
 another sort of object, but inside brackets! <b>In JavaScript, brackets
@@ -3074,8 +3072,8 @@ properties:
 try to plot an additional function in our example. We will add f(x) =
 cos(x) to our example, with a different color:
 
-```
-1.  data: [
+<pre>
+1.  data: &lbrack;
 2.    {
 3.      fn: 'sin(x)',  // First function
 4.      color: 'red'
@@ -3084,8 +3082,8 @@ cos(x) to our example, with a different color:
 7.      fn: 'cos(x)',  // second function
 8.      color: 'blue'
 9.    }
-10. ]
-```
+10. &rbrack;
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 107.  (82) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3225,27 +3223,31 @@ syntax as CSS to select elements in the document. In our case,
 &quot;#mainTitle&quot; is a selector value that means &quot;the element whose id is
 equal to mainTitle&quot;.</p>
 
-<pre><code>var title = document.querySelector("#mainTitle");</code></pre>
+<pre>var title = document.querySelector("#mainTitle");</pre>
 
 <p>It uses <b>the DOM API</b> to change the HTML content of the selected
 element:</p>
 
-<pre><code>title.innerHTML = "This new title has been changed from JavaScript!";</code></pre>
+<pre>title.innerHTML = "This new title has been changed from JavaScript!";</pre>
 
 <p><b>It listens to click events</b> in order to call
 the changeTitle() function when we click on the button:</p>
 
-<pre><code>1.  <button **onclick="changeTitle();**">Click me to change the
-    title of the page</button></code></pre>
+<pre>
+1.  &lt;button <b>onclick="changeTitle();</b>"&gt;Click me to change the
+    title of the page&lt;/button&gt;
+</pre>
 
 <p>And it executes the whole action (changing the title text) in<b> a
 function</b> (a block of code that is executed only when we call it by
 adding a parenthesis after its name, followed by a semi colon):</p>
 
-<pre><code>**function changeTitle()** {
+<pre>
+<b>function changeTitle()</b> {
   var title = document.querySelector("#mainTitle");
   title.innerHTML = "This new title has been changed from JavaScript!";
-}</code></pre>
+}
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 115. example of interactivity between javascript & html (86) ~~~~~~~~~~~~~~~-->
