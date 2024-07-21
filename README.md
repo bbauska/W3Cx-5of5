@@ -3366,6 +3366,8 @@ A variable is a location in the memory of the computer where we are going to
 store some values.
 And the variable has a name and it's declared using the "var" keyword.
 There are others possibilities we will see later.
+
+<image goes here>
 Here we've got the variable called "x" that has the value of 2.
 And, we use some strange instruction "document.body.innerHTML"
 for adding to the body of the document some HTML code.
@@ -3373,6 +3375,8 @@ So "document.body" corresponds in JavaScript to the body element of the document
 and the "innerHTML" property corresponds to its HTML content.
 By doing this, we are adding a bold element JavaScript code executing
 the value of the variable x=2 and we display the value of the x variable in bold.
+
+<image goes here>
 This is the result of the execution of this code.
 And this code is not in a function, so it's executed as soon as the page is 
 rendered. When the browser
@@ -3380,6 +3384,8 @@ receives this document, it will first display the "h1" then display this paragra
 then executes this code.
 It will define the variable x, assign the value "2" to it, and then add this string,
 with the value of "x" inside, to the body of the document.
+
+<image goes here>
 And finally, we display in the dev tool console: "console.log("JavaScript code executed")".
 We can open it by clicking on the console button in CodePen, or we can also open the
 devtools using the "F12" key or "ctrl+alt+i" or "cmd+alt+i" on a Mac.
@@ -3466,14 +3472,14 @@ Typically:
 </body>
 </code></pre>
 
-Here is this first example on CodePen:
+<h4>Here is this first example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 119.  (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 119. example: js in the .html file (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image119.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Example: JS in the .html file"
+  alt="Example: JS in the .html file." />
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY">CodePen: JS in HTML</a></h6>
 
@@ -3507,12 +3513,12 @@ some content to this document
 
 Here is this second example on CodePen:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 120.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 120. example 2: js in the .html file, in head (94) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image120.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Example 2: JS in the .html file, but this time in head"
+  alt="Example 2: JS in the .html file, but this time in head." />
 </p>
 <!-- ![](./images/image100.png){width="6.5in" height="3.1881944444444446in"} -->
 
@@ -3598,37 +3604,32 @@ In this example, we have just one CSS file and one JavaScript file:
 
 <h5>Contents of the index.html file:</h5>
 
-```
+<pre>
 1.  ...
 2.  <head>
-3.  &hellip;
-4.  **<link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;>**
-5.  **<script src=&quot;js/script.js&quot;></script>**
+3.    ...
+4.    <b><link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;></b>
+5.    <b><script src=&quot;js/script.js&quot;></script></b>
 6.  </head>
 7.  <body>
-8.  <h1>Example 3: JavaScript and CSS in local files!</h1>
-9.  <button **onclick=&quot;addSomeText();**&quot;>Click me to call a
-    JavaScript function that will add some content to this
-    document</button>
-10.   </body>
-11. </html>
-```
+8.    <h1>Example 3: JavaScript and CSS in local files!</h1>
+9.    <button <b>onclick="addSomeText();</b>">Click me to call a
+        JavaScript function that will add some content to this
+        document</button>
+10. </body>
+11. </html></pre>
 
 Content of the js/script.js file (JavaScript file):
 
-```
-1.  function addSomeText() {
-2.  document.body.innerHTML += &quot;<p>Function executed!</p>&quot;;
-3.  }
-```
+<pre>1.  function addSomeText() {
+2.    document.body.innerHTML += "<p>Function executed!</p>";
+3.  }</pre>
 
 Content of the style.css file:
 
-```
-1.  p {
-2.  color:green;
-3.  }
-```
+<pre>1.  p {
+2.    color:green;
+3.  }</pre>
 
 How to run this example:
 
@@ -3647,9 +3648,7 @@ How to run this example:
 External JavaScript libraries (they are just big JS files) can be also
 referenced with a full URL, like in this example:
 
-```
-1.  <script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;></script>
-```
+<pre>1.  <script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;></script></pre>
 
 Here, we just included in our HTML document the
 excellent [paperJS](http://paperjs.org/) library that can be used to
