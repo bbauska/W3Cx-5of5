@@ -43,59 +43,59 @@ output:
 <h3>Course Information</h3>
 
 <blockquote>
-  <h4><a href="#cha-01">a01. Welcome to JavaScript Introduction</a></h4>
-  <h4><a href="#cha-02">a02. Course forums</a></h4>
-  <h4><a href="#cha-03">a03. Course tools</a></h4>
-  <h4><a href="#cha-04">a04. Why accessibility is important</a></h4>
-  <h4><a href="#cha-05">a05. Why internationalization is important</a></h4>
-  <h4><a href="#cha-06">a06. About W3C and the Web</a></h4>
+  <h4><a href="#cha-1">a1. Welcome to JavaScript Introduction</a></h4>
+  <h4><a href="#cha-2">a2. Course forums</a></h4>
+  <h4><a href="#cha-3">a3. Course tools</a></h4>
+  <h4><a href="#cha-4">a4. Why accessibility is important</a></h4>
+  <h4><a href="#cha-5">a5. Why internationalization is important</a></h4>
+  <h4><a href="#cha-6">a6. About W3C and the Web</a></h4>
 </blockquote>
 
 <h3>Module 1: Introduction to JavaScript</h3>
 <blockquote>
-  <h4><a href="#ch1-01">1.01 Intro Module 1: Introduction to JavaScript</a></h4>
-  <h4><a href="#ch1-02">1.02 JavaScript, HTML and CSS</a></h4>
-  <h4><a href="#ch1-03">1.03 JavaScript Overview</a></h4>
-  <h4><a href="#ch1-04">1.04 Your first HTML/CSS/JS page</a></h4>
-  <h4><a href="#ch1-05">1.05 Variables, values, functions, operators and expressions</a></h4>
-  <h4><a href="#ch1-06">1.06 Simple JavaScript examples to play with</a></h4>
+  <h4><a href="#ch1-1">1.1 Intro Module 1: Introduction to JavaScript</a></h4>
+  <h4><a href="#ch1-2">1.2 JavaScript, HTML and CSS</a></h4>
+  <h4><a href="#ch1-3">1.3 JavaScript Overview</a></h4>
+  <h4><a href="#ch1-4">1.4 Your first HTML/CSS/JS page</a></h4>
+  <h4><a href="#ch1-5">1.5 Variables, values, functions, operators and expressions</a></h4>
+  <h4><a href="#ch1-6">1.6 Simple JavaScript examples to play with</a></h4>
 </blockquote>
 
 <h3>Module 2: Adding Interactivity to HTML Documents</h3>
 <blockquote>
-  <h4><a href="#ch2-01">2.01 Intro Module 2: Adding Interactivity to HTML Documents</a></h4>
-  <h4><a href="#ch2-02">2.02 Conditional Statements, Loops and Logical Operators</a></h4>
-  <h4><a href="#ch2-03">2.03 Functions and Callbacks</a></h4>
-  <h4><a href="#ch2-04">2.04 Handling events</a></h4>
-  <h4><a href="#ch2-05">2.05 The DOM API</a></h4>
-  <h4><a href="#ch2-06">2.06 Let's write a small game</a></h4>
+  <h4><a href="#ch2-1">2.1 Intro Module 2: Adding Interactivity to HTML Documents</a></h4>
+  <h4><a href="#ch2-2">2.2 Conditional Statements, Loops and Logical Operators</a></h4>
+  <h4><a href="#ch2-3">2.3 Functions and Callbacks</a></h4>
+  <h4><a href="#ch2-4">2.4 Handling events</a></h4>
+  <h4><a href="#ch2-5">2.5 The DOM API</a></h4>
+  <h4><a href="#ch2-6">2.6 Let's write a small game</a></h4>
 </blockquote>
 
 <h3>Module 3: Playing with HTML5 APIs</h3>
 <blockquote>
-  <h4><a href="#ch3-01">3.01 Intro Module 3: Playing with HTML5 APIs</a></h4>
-  <h4><a href="#ch3-02">3.02 Arrays and Iterators</a></h4>
-  <h4><a href="#ch3-03">3.03 HTML5 Multimedia and JavaScript</a></h4>
-  <h4><a href="#ch3-04">3.04 Displaying a map with the Geolocation API</a></h4>
-  <h4><a href="#ch3-05">3.05 Playing sound samples and music</a></h4>
+  <h4><a href="#ch3-1">3.1 Intro Module 3: Playing with HTML5 APIs</a></h4>
+  <h4><a href="#ch3-2">3.2 Arrays and Iterators</a></h4>
+  <h4><a href="#ch3-3">3.3 HTML5 Multimedia and JavaScript</a></h4>
+  <h4><a href="#ch3-4">3.4 Displaying a map with the Geolocation API</a></h4>
+  <h4><a href="#ch3-5">3.5 Playing sound samples and music</a></h4>
 </blockquote>
 
 <h3>Module 4: Structuring Data</h3>
 <blockquote>
-  <h4><a href="#ch4-01">4.01 Intro Module 4: Structuring Data</a></h4>
-  <h4><a href="#ch4-01">4.02 Objects: properties and methods</a></h4>
-  <h4><a href="#ch4-01">4.03 Creating multiple objects</a></h4>
-  <h4><a href="#ch4-01">4.04 Organizing the code in separate files</a></h4>
+  <h4><a href="#ch4-1">4.1 Intro Module 4: Structuring Data</a></h4>
+  <h4><a href="#ch4-2">4.2 Objects: properties and methods</a></h4>
+  <h4><a href="#ch4-3">4.3 Creating multiple objects</a></h4>
+  <h4><a href="#ch4-4">4.4 Organizing the code in separate files</a></h4>
 </blockquote>
 
 <h3>Module 5: Working with Forms</h3>
 <blockquote>
-  <h4><a href="#ch5-01">5.01 Intro Module 5: Working with Forms</a></h4>
-  <h4><a href="#ch5-01">5.02 Built-in JavaScript Objects</a></h4>
-  <h4><a href="#ch5-01">5.03 HTML5 tables, forms and input fields</a></h4>
-  <h4><a href="#ch5-01">5.04 The JSON notation</a></h4>
-  <h4><a href="#ch5-01">5.05 A small application</a></h4>
-  <h4><a href="#ch5-01">5.06 Where to from here?</a></h4>
+  <h4><a href="#ch5-1">5.1 Intro Module 5: Working with Forms</a></h4>
+  <h4><a href="#ch5-2">5.2 Built-in JavaScript Objects</a></h4>
+  <h4><a href="#ch5-3">5.3 HTML5 tables, forms and input fields</a></h4>
+  <h4><a href="#ch5-4">5.4 The JSON notation</a></h4>
+  <h4><a href="#ch5-5">5.5 A small application</a></h4>
+  <h4><a href="#ch5-6">5.6 Where to from here?</a></h4>
 </blockquote>
 
 <a href="https://github.com/bbauska/W3Cx-5of5-Introduction-JavaScript.git" 
@@ -1063,7 +1063,7 @@ internationalization problems with your page, this checker explains what
 they are and what to do about it.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-01">1.01 Introduction - Module 1: Intro to JavaScript (1:46)</h3>
+<h3 id="ch1-1">1.1 Introduction - Module 1: Intro to JavaScript (1:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hello everyone, welcome to the wonderful world of JavaScript!
@@ -1093,7 +1093,7 @@ interactive graphic tool that will use many different features from
 JavaScript, HTML and CSS. Let's start having fun with JavaScript, now
 :-)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-02">1.02 Module 1 outline</h3>
+<h3 id="ch1-2">1.2 Module 1 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 If you thought that a Web browser could only display HTML documents, you
 were mistaken! ;)
@@ -1891,12 +1891,12 @@ looks and feels. You can have a Web page without CSS, but it would be
 very difficult to make it look the way you want with just HTML. This is
 why almost every Web page is a combination of HTML and CSS.
 
-### CSS • /si-ɛs-ɛs/ • *noun *
+<h4>CSS • /si-ɛs-ɛs/ • noun </h4>
 
 Stands for &quot;<b>C</b>ascading <b>S</b>tyle <b>S</b>heets&quot;. A style sheet
 language for describing how to display an HTML document.
 
-### Let&apos;s look at an example!
+<h4>Let&apos;s look at an example!</h4>
 
 Let&apos;s take the (ridiculous) Michel Buffa home page again:
 
@@ -1924,12 +1924,12 @@ document. Let&apos;s look at the first one:</p>
 
 ```
 1.  h1 {
-2.  color:red;
-3.  background-color:lightGreen;
-4.  border:12px solid violet;
-5.  padding: 5px;   
-6.  border-radius: 15px;
-7.  text-align: center;
+2.    color:red;
+3.    background-color:lightGreen;
+4.    border:12px solid violet;
+5.    padding: 5px;   
+6.    border-radius: 15px;
+7.    text-align: center;
 8.  }
 ```
 
@@ -1957,7 +1957,7 @@ The third rule uses what is called &quot;a multiple selector&quot;:
 
 ```
 1.  p, h1, h2 {
-2.  font-family: cursive
+2.    font-family: cursive
 3.  }
 ```
 
@@ -1975,7 +1975,7 @@ setting the &apos;class&apos; attribute.
 
 ```
 1.  <p id="paragraph-1" class="regular-paragraphs">
-2.  Call me Ishmael . . .
+2.    Call me Ishmael . . .
 3.  </p>
 ```
 
@@ -2011,13 +2011,11 @@ in our case it&apos;s the second h2 element:</p>
 
 <h5>And here is the CSS rule:</h5>
 
-```
-1.  **#hobbyTitle** {
+<pre>1.  <b>#hobbyTitle</b> {
 2.    font-family: 'caveat';
 3.    font-size:40px;
 4.    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-5.  }
-```
+5.  }</pre>
 
 <p><b>Line 1</b> uses the &quot;#&quot; character in the selector, meaning that we&apos;re
 going to select an element by its id attribute. In this case, the
@@ -2030,43 +2028,37 @@ the Google font service
 able to use it in a font-family CSS property, we included its definition
 using a &lt;link&gt; tag in the HTML part of the document:</p>
 
-```
-1.  <head>
-2.  <title>Your first HTML page</title>
-3.  <meta charset="utf-8"/>
-4.  **<link href="https://fonts.googleapis.com/css?family=Caveat"**
-5.  **rel="stylesheet">**
-6.  </head>
-```
+<pre>1.  <head>
+2.    <title>Your first HTML page</title>
+3.    <meta charset="utf-8"/>
+4.    <b><link href="https://fonts.googleapis.com/css?family=Caveat"</b>
+5.    <b>rel="stylesheet"></b>
+6.  </head></pre>
 
 <p>The last rule targets all elements that have an
 attribute class=&quot;funny&quot;. Notice they can be different elements, we can
 have a p and an h3 element that have the class=&quot;funny&quot; attribute:</p>
 
-```
-1.  .funny {
-2.  color:purple;
-3.  font-family: 'caveat';
-4.  font-size:40px;
-5.  }
-```
+<pre>1.  .funny {
+2.    color:purple;
+3.    font-family: 'caveat';
+4.    font-size:40px;
+5.  }</pre>
 
 <p>This rule changes the color, font family and size of two out of three
 paragraphs in the HTML element:</p>
 
-```
-1.  ...
+<pre>1.  ...
 2.  <p class="funny">I also play electric guitar and love
-    coding WebAudio applications...</p>
-3.  ...
-4.  <p class="funny">Music, Movies, Video Games, Traveling, Family, etc.</p>
-```
+      coding WebAudio applications...</p>
+3.    ...
+4.  <p class="funny">Music, Movies, Video Games, Traveling, Family, etc.</p></pre>
 
 There are many, many, many different CSS properties in existence, and
 many different ways to select elements. We recommend that you follow the
-W3Cx [CSS Basics](https://www.edx.org/course/css-basics) and [HTML5&CSS
-Fundamentals](https://www.edx.org/course/html5-and-css-fundamentals) courses
-to learn more about CSS and about HTML5 basics.
+W3Cx <a href="https://www.edx.org/course/css-basics">CSS Basics</a> and 
+<a href="https://www.edx.org/course/html5-and-css-fundamentals">HTML5&CSS
+Fundamentals</a> courses to learn more about CSS and about HTML5 basics.
 
 <h5>Where can we put the CSS rules: in the HTML file? in another file?</h5>
 
@@ -2105,7 +2097,8 @@ rules in a &quot;CSS tab&quot; in the online editor, and it hides all the
 as [Plunker](https://plnkr.co/) or [AWS Cloud9](https://c9.io/) that
 enable you to manage files in the cloud).
 
-### Live coding video: mixing HTML and CSS (3:49)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch1-2-6">1.2.6 Live coding video: mixing HTML and CSS (3:49)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 66. example codepen: update css rule (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2210,7 +2203,7 @@ To sum up, you can have your CSS in external file or inside the HTML
 file using the &quot;style&quot; element.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-6">1.2.6 JavaScript is the &quot;interactive glue&quot; (4:22)</h3>
+<h3 id="ch1-2-7">1.2.7 JavaScript is the &quot;interactive glue&quot; (4:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hello, your Web browser can only understand three different languages
 when you ask for a Web page to be rendered in the browser.
@@ -2361,7 +2354,7 @@ can interact with the HTML content and the CSS styles of a Web document.
 Finally, note that, in these examples, the JavaScript code is located in
 the HTML of the document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-7">1.2.7 JavaScript history</h3>
+<h3 id="ch1-2-8">1.2.8 JavaScript history</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 JavaScript remains the most commonly used programming language with
 67.7% of developers employing it in 2020 (see this 
@@ -2601,7 +2594,7 @@ before, runtime. The most popular JavaScript engines are:
     timeline](https://blog.risingstack.com/history-of-javascript-on-a-timeline/)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-8">1.2.8 Discussion and project</h3>
+<h3 id="ch1-2-9">1.2.9 Discussion and project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.</p>
@@ -5752,7 +5745,7 @@ how they work. We are just giving you &quot;a taste&quot; of JavaScript. There
 will be no graded exercises about them.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-1">1.6.2 The devtool console</h3>
+<h3 id="ch1-6-2">1.6.2 The devtool console</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Using the console.log(&hellip;) instruction, you can <b>write messages to the
@@ -6257,7 +6250,7 @@ for video games):
 <!-- ### ![](./images/image146.png){width="6.5in" height="3.25in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1-1">2.1.1 Video introduction - Module 2</h3>
+<h3 id="ch2-1">2.1 Video introduction - Module 2</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hey everyone!
@@ -6291,22 +6284,17 @@ And let other students enjoy your creation :D
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1-2">2.1.2 Module 2 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>What you will learn in Module 2:</p>
 
-What you will learn in Module 2:
-
--   Conditional statements and logical operators: if&hellip;then&hellip;else,
-    etc.
-
--   Loops: iterate on collections, do things repeatedly
-
--   Events: detect keys, mouse clicks or moves, window resize events,
-    etc.
-
--   DOM: interact with the content of the HTML page (by selecting
-    elements, modifying them, adding and removing new ones)
-
--   HTML5 canvas: learn how to draw and animate simple shapes
-
+<ul>
+  <li>Conditional statements and logical operators: if&hellip;then&hellip;else,
+    etc.</li>
+  <li>Loops: iterate on collections, do things repeatedly</li>
+  <li>Events: detect keys, mouse clicks or moves, window resize events, etc.</li>
+  <li>DOM: interact with the content of the HTML page (by selecting
+    elements, modifying them, adding and removing new ones)</li>
+  <li>HTML5 canvas: learn how to draw and animate simple shapes</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-1">2.2.1 Boolean values and logical operators</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6439,18 +6427,18 @@ And thrust me, it&apos;s much better to use the triple equals operator, it
 will avoid you many errors like considering a string as a number, and so
 on.
 
-### Source code of the example shown in the video {#source-code-of-the-example-shown-in-the-video .unnumbered}
+<h4>Source code of the example shown in the video</h4>
 
-[This example is available on
-CodePen](https://codepen.io/w3devcampus/pen/pPmqwq?editors=0012)
+<p><a href="https://codepen.io/w3devcampus/pen/pPmqwq?editors=0012">This example is available on
+CodePen</a></p>
 
-Before talking about how your JavaScript program can make decisions,
+<p>Before talking about how your JavaScript program can make decisions,
 such as &quot;<b>if this condition is fulfilled then I&apos;ll do this, otherwise
-I&apos;ll do that&hellip;</b>&quot;, we need to define a few more concepts.
+I&apos;ll do that&hellip;</b>&quot;, we need to define a few more concepts.</p>
 
 Let&apos;s tart with &quot;boolean values&quot; and &quot;logical operators&quot;.
 
-### Boolean values {#boolean-values .unnumbered}
+<h4>Boolean values</h4>
 
 The <b>boolean</b> type represents a logical entity having two
 values: true and false.
@@ -6470,11 +6458,11 @@ it becomes a string variable:
 1.  var b = 'true'; // b is not a boolean but a string
 ```
 
-#### Undefined and null values {#undefined-and-null-values .unnumbered}
+<h4>Undefined and null values</h4>
 
-<b>Undefined</b>
+<h4>Undefined</h4>
 
-undefined is returned when a variable has not been assigned:
+<p>undefined is returned when a variable has not been assigned:</p>
 
 ```
 1.  var foo;
@@ -6520,7 +6508,7 @@ a ReferenceError will be raised. But the typeof operator will return
 5.  'undefined'
 ```
 
-### Logical operators {#logical-operators .unnumbered}
+<h4>Logical operators</h4>
 
 The logical operators are: 
 
@@ -6558,11 +6546,11 @@ The logical operators are: 
 11. !!b; //true
 ```
 
- In an expression with logical operators, as shown in <b>lines
+In an expression with logical operators, as shown in <b>lines
 8 </b>and<b> 11</b> of the previous example, non-boolean values are
 implicitly converted to boolean.
 
-### Lazy evaluation or short-circuit evaluation {#lazy-evaluation-or-short-circuit-evaluation .unnumbered}
+<h4>Lazy evaluation or short-circuit evaluation</h4>
 
 Logical expressions are evaluated from left to right. JavaScript uses a
 mechanism known as &quot;short-circuit evaluation&quot; to prevent the second,
@@ -6595,7 +6583,7 @@ Examples:
 16. }
 ```
 
-### Implicit conversions of non boolean values in expressions {#implicit-conversions-of-non-boolean-values-in-expressions .unnumbered}
+<h4>Implicit conversions of non boolean values in expressions</h4>
 
 Used with logical operators or within statements, <b>non-boolean values
 are implicitly converted to booleans</b>.  
@@ -6643,12 +6631,9 @@ JavaScript](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript
 real value affected is not true false, it&apos;s one of the operands, that
 can be seen as true/false.</b>
 
-```
-1.  **var boo2 = (0/0) || 43.2 ;**
-```
+<pre>1.  <b>var boo2 = (0/0) || 43.2 ;</b></pre>
 
- boo2 equals 43.2 because the expression 0/0 equals NaN, which is
-evaluated as false.
+boo2 equals 43.2 because the expression 0/0 equals NaN, which is evaluated as false.
 
 <b>Question:</b>
 
@@ -6671,7 +6656,7 @@ the value 3 is not assigned to the var myNumber. In the last
 line, myNumber is evaluated as false, then the value 2 is given to the
 variable myNumber.
 
-### Comparison operators {#comparison-operators .unnumbered}
+<h4>Comparison operators</h4>
 
 -   Equal <b>==</b>
 
@@ -6689,7 +6674,7 @@ variable myNumber.
 
 -   Strict not equal <b>!==</b>
 
-#### What is the difference between <b>==</b> and === in JavaScript? {#what-is-the-difference-between-and-in-javascript .unnumbered}
+<h4>What is the difference between <b>==</b> and === in JavaScript?</h4>
 
 <h5>Equal (==)</h5>
 
@@ -6743,7 +6728,7 @@ Here are interesting articles:
 -   [Equality comparisons and
     sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 
-### Specific case of NaN {#specific-case-of-nan .unnumbered}
+<h4>Specific case of NaN</h4>
 
 As we have already seen, JavaScript has some special values. One of them
 is NaN: "Not-a-Number". 
@@ -6920,10 +6905,9 @@ brackets, and use the day as an index.
 
 And this works too and it&apos;s only two lines of code.
 
-### Example from the video {#example-from-the-video .unnumbered}
+<h4>Example from the video</h4>
 
-[CodePen example from the
-video](https://codepen.io/w3devcampus/pen/jmoJRZ)
+<p><a href="https://codepen.io/w3devcampus/pen/jmoJRZ">CodePen example from the video</a></p>
 
 JavaScript source code is a set of statements. There are a couple of
 different statement types. We have already seen one of them, the
@@ -6951,12 +6935,12 @@ Statements are generally executed sequentially from top to bottom of the
 script. However, this flow can be modified by statements such as
 conditional statements and iteration statements.
 
-### The block statement {#the-block-statement .unnumbered}
+<h4>The block statement</h4>
 
 The block statement is a simple statement which allows us to group a set
 of statements wrapped in curly braces. 
 
-### Block statement: {#block-statement .unnumbered}
+<h4>Block statement:</h4>
 
 ```
 1.  {
@@ -6969,7 +6953,7 @@ of statements wrapped in curly braces. 
 The block statement is used by other statements such as the if-statement
 or for-statement. We will see these statements below.
 
-### Conditional statements {#conditional-statements-1 .unnumbered}
+<h4>Conditional statements</h4>
 
 All the examples for this section are in this codepen (to run it: click
 on the &quot;edit on CodePen&quot; label, and once in CodePen, open the devtool
@@ -6981,13 +6965,13 @@ commented - please remove comments and try to understand the results).
 <b>Conditional statements are used to execute a unit of code</b>
 <b>only if a condition is evaluated as true.</b>
 
-### The if statement {#the-if-statement .unnumbered}
+<h4>The if statement</h4>
 
 <b>Syntax:</b>
 
-```**if** ( Expression ) Statement **else** Statement
-**if** ( Expression ) Statement
-**The expression may include:**```
+<pre><b>if</b> ( Expression ) Statement <b>else</b> Statement
+<b>if</b> ( Expression ) Statement
+<b>The expression may include:</b></pre>
 
 -   logical operators ( <b>! && &vert;&vert;</b> )
 
@@ -6996,27 +6980,25 @@ commented - please remove comments and try to understand the results).
 
 -   any values or expressions which can be converted to boolean
 
-#### Example #1: if-statement {#example-1-if-statement .unnumbered}
+<h4>Example #1: if-statement</h4>
 
-```
-1.  var num = 10;
-2.  **if** (num === 10) **{**
+<pre>1.  var num = 10;
+2.  <b>if</b> (num === 10) <b>{</b>
 3.  num = 20;
-4.  **}**
-5.  // num equals 20
-```
+4.  <b>}</b>
+5.  // num equals 20</pre>
 
 <h4>Example #2: if-else statement</h4>
 
-```
+<pre>
 1.  var num = 10;
-2.  **if** (num >; 10) **{**
+2.  <b>if</b> (num >; 10) <b>{</b>
 3.  num = 20;
-4.  **}** **else** **{**
+4.  <b>}</b> <b>else</b> <b>{</b>
 5.  num = 0;
-6.  **}**
+6.  <b>}</b>
 7.  // num equals 0
-```
+</pre>
 
 **Reminder:**
 
@@ -7037,7 +7019,7 @@ The following values will evaluate to false:
 **All other values, including all objects, evaluate to true when passed
 to a conditional statement.**
 
-#### The if-then-else ternary operator
+<h4>The if-then-else ternary operator</h4>
 
 This ternary operator is a shortcut version of if&hellip;then&hellip;else.
 
@@ -7071,7 +7053,7 @@ statements that involve a very obvious block of instructions for the
 &quot;then&quot; and the &quot;else&quot;. Usually this syntax is much harder to read
 for beginners.
 
-#### Curly braces
+<h4>Curly braces</h4>
 
 Should we use them in if-then-else statements? There are examples
 without curly braces on the Web: what does this mean?
@@ -7256,8 +7238,8 @@ console to see the outputs.
 <h5>JS:</h5>
 
 ```
-/&ast;CONDITIONAL STATEMENTS&ast;/
-/&ast;3 examples which are equivalent&ast;/
+/*CONDITIONAL STATEMENTS*/
+/*3 examples which are equivalent*/
 //try to change foo value
 var foo=1;
 //var foo=2;
@@ -7366,9 +7348,7 @@ will finish the execution of the loop and execute the console.log that
 is here. So, look at the devtool console:
 
 we executed the loop for i = 0 to i = 19. After the last display of the
-value,
-
-we incremented i, the condition was false, i is 20 now, and we printed
+value, we incremented i, the condition was false, i is 20 now, and we printed
 its value.
 
 Ok, the last sort of loop statements you can use are called &quot;for&quot;
@@ -7405,10 +7385,8 @@ In this case we counted to the final value and included it.
 
 We can also increment the loop 2 by 2.
 
-In that case (let me clear and execute again), we run the loop with a
-value of i = 0, i=2,
-
-i=4, i=6, the condition is no more true, we exit from the loop.
+In that case (let me clear and execute again), we run the loop with a value of 
+i = 0, i=2, i=4, i=6, the condition is no more true, we exit from the loop.
 
 We can also iterate on the elements of an array.
 
@@ -7421,8 +7399,7 @@ Let&apos;s make a &quot;for&quot; loop, and the final value&hellip; the number o
 we are going to iterate is the number of elements in the array. It&apos;s
 given by the &quot;length&quot; property of the array.
 
-What we did: we executed the loop from i = 0, to i = 1, 2, 3, 4, 5, 6,
-7!
+What we did: we executed the loop from i = 0, to i = 1, 2, 3, 4, 5, 6, 7!
 
 This is the value of &quot;daysOfWeek.length&quot;, and we incremented the i
 variable at the end.
@@ -7432,8 +7409,7 @@ with the index equal to i, inside the loop.
 
 Example from the video
 
--   [Example on CodePen](https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012)
-
+<a href="https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012">Example on CodePen</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7448,8 +7424,8 @@ Example from the video
 A loop is used to run the same block of code several times while a
 condition is satisfied.
 
-If you have trouble with loops, the online
-tool [slowmoJS](https://toolness.github.io/slowmo-js/) can be really
+If you have trouble with loops, the online tool 
+<a href="https://toolness.github.io/slowmo-js/">slowmoJS</a> can be really
 useful: you just have to copy and paste an example into it to run it
 step by step and see how your program executes loops.
 
@@ -7467,15 +7443,13 @@ statement.
 
 Typical example of a while statement:
 
-```
-1.  var i = 1, j = 1;
+<pre>1.  var i = 1, j = 1;
 2.   
-3.  **while ( i < 4 ) {**
+3.  <b>while ( i < 4 ) {</b>
 4.      j += i;
 5.      i += 1; 
-6.  **}**
-7.  &hellip;
-```
+6.  <b>}</b>
+7.  &hellip;</pre>
 
 The block inside the while (**lines 4 and 5**) will be executed three
 times:
@@ -7522,8 +7496,8 @@ Of course, if the condition never evaluates to false, the block will be
 executed infinitely until the machine crashes&hellip; a test like while (i
 > 0) { &hellip;..} will never stop and will eat all the CPU.
 
-Try this example now
-with [slowmoJS](https://toolness.github.io/slowmo-js/?code=var%20i%20%3D%201%2C%20j%20%3D%201%3B%0A%20%0Awhile%20(%20i%20%3C%204%20)%20%7B%0A%20%20%20%20j%20%3D%20j%20%2B%20i%3B%0A%20%20%20%20i%20%3D%20i%20%2B%201%3B%20%0A%7D&filterrange=65-65)!
+Try this example now with 
+<a href="https://toolness.github.io/slowmo-js/?code=var%20i%20%3D%201%2C%20j%20%3D%201%3B%0A%20%0Awhile%20(%20i%20%3C%204%20)%20%7B%0A%20%20%20%20j%20%3D%20j%20%2B%20i%3B%0A%20%20%20%20i%20%3D%20i%20%2B%201%3B%20%0A%7D&filterrange=65-65">slowmoJS</a>!
 
 <h4>The do-while statement</h4>
 
@@ -7637,7 +7611,7 @@ keys) of the object.
 We will see further examples of this statement in module 4, which is
 devoted to the study of JavaScript objects.
 
-### &lbrack;ADVANCED&rbrack; Other statements
+<h4>&lbrack;ADVANCED&rbrack; Other statements</h4>
 
 <h4>The continue statement</h4>
 
