@@ -3572,16 +3572,14 @@ A typical example:
 
 <h5>Example that uses more than one JavaScript file:</h5>
 
-<pre><code>
-1.  <head>
+<pre>1.  &lt;head&gt;
 2.    ...
-3.    <link rel="stylesheet" href="css/style.css">
-4.    **<script src="js/script1.js"></script>**
-5.    **<script src="js/script2.js"></script>**
-6.    **<script src="js/anotherOne.js"></script>**
-7.    **...**
-8.  </head>
-</code></pre>
+3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
+4.    <b>&lt;script src="js/script1.js"&gt;&lt;/script&gt;</b>
+5.    <b>&lt;script src="js/script2.js"&gt;&lt;/script&gt;</b>
+6.    <b>&lt;script src="js/anotherOne.js"&gt;&lt;/script&gt;</b>
+7.    <b>...</b>
+8.  &lt;/head&gt;</pre>
 
 <h4>A typical HTML/CSS/JS project folder structure, when working with external local files</h4>
 
@@ -3610,23 +3608,23 @@ In this example, we have just one CSS file and one JavaScript file:
 
 <pre>
 1.  ...
-2.  <head>
+2.  &lt;head&gt;
 3.    ...
-4.    <b><link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;></b>
-5.    <b><script src=&quot;js/script.js&quot;></script></b>
-6.  </head>
-7.  <body>
-8.    <h1>Example 3: JavaScript and CSS in local files!</h1>
-9.    <button <b>onclick="addSomeText();</b>">Click me to call a
+4.    <b>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;</b>
+5.    <b>&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;</b>
+6.  &lt;/head&gt;
+7.  &lt;body&gt;
+8.    &lt;h1&gt;Example 3: JavaScript and CSS in local files!&lt;/h1&gt;
+9.    &lt;button <b>onclick="addSomeText();</b>">Click me to call a
         JavaScript function that will add some content to this
-        document</button>
-10. </body>
-11. </html></pre>
+        document&lt;/button&gt;
+10. &lt;/body&gt;
+11. &lt;/html&gt;</pre>
 
 Content of the js/script.js file (JavaScript file):
 
 <pre>1.  function addSomeText() {
-2.    document.body.innerHTML += "<p>Function executed!</p>";
+2.    document.body.innerHTML += "&lt;p&gt;Function executed!&lt;/p&gt;";
 3.  }</pre>
 
 Content of the style.css file:
@@ -3652,7 +3650,7 @@ How to run this example:
 External JavaScript libraries (they are just big JS files) can be also
 referenced with a full URL, like in this example:
 
-<pre>1.  <script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;></script></pre>
+<pre>1.  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;&gt;&lt;/script&gt;</pre>
 
 Here, we just included in our HTML document the
 excellent [paperJS](http://paperjs.org/) library that can be used to
@@ -4776,7 +4774,6 @@ for us, for explaining the data types.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-4">1.5.4 Numbers</h3>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 150. numbers 1 thu 9, then 0, twice (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -5990,7 +5987,7 @@ see this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image168.png?raw=true"
+<img src="./image168.png?raw=true"
   style="width:25%"
   title=""
   alt="." />
@@ -10627,17 +10624,29 @@ So, we&apos;ve decided to focus on only 20% of the DOM API and on the
 selector API (for selecting elements in the DOM). These are the most
 useful parts and it will give you enough knowledge to solve nearly every
 problem where you need to manipulate the DOM.
-
-![image of a warning sign with a big exclamation
-mark](./images/image198.png){width="3.0in"
-height="2.6492804024496936in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image198.png?raw=true"
+  style="width:30%"
+  title=" "
+  alt="Image of a warning sign with a big exclamation mark." />
+</p>
+<!-- ![image of a warning sign with a big exclamation mark](./images/image198.png){width="3.0in" height="2.6492804024496936in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-3">2.5.3 Accessing HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image199.png?raw=true"
+  style="width:50%"
+  title=" "
+  alt="." />
+</p>
 
-![](./images/image199.png){width="5.75in"
-height="4.474276027996501in"}
+<!-- ![](./images/image199.png){width="5.75in" height="4.474276027996501in"} -->
 
 Hi!
 
@@ -10769,9 +10778,14 @@ Any CSS  selector can be passed as a parameter for these methods.
 Looking for an element in the whole document (the whole HTML page): call
 the querySelector method (or querySelectorAll) on the document object,
 that corresponds to the whole DOM tree of your web page:
-
-![](./images/image200.png){width="5.0in"
-height="2.983974190726159in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image200.png?raw=true"
+  style="width:50%"
+  title=" "
+  alt="." />
+</p>
 
 <h5>HTML:</h5>
 
@@ -10921,9 +10935,14 @@ CSS basics, and HTML5 and CSS fundamentals courses
 from [W3Cx](https://www.edx.org/school/w3cx).
 
 <h4>**Example #1: get all &lt;li&gt; directly in a &lt;ul&gt; of class nav**</h4>
-
-![](./images/image201.png){width="6.5in"
-height="3.803472222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image201.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt="." />
+</p>
 
 <h5>HTML:</h5>
 
@@ -11023,7 +11042,6 @@ located inside an element of a given id
   title=" "
   alt="." />
 </p>
-<!-- ![](./images/image202.png){width="6.5in" height="4.35625in"} -->
 
 <h5>HTML:</h5>
 
@@ -11307,16 +11325,8 @@ about CSS):
 -   text-align (centered, etc.)
 
 Here are some examples:
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image204.png?raw=true"
-  style="width:65%"
-  title=" "
-  alt="." />
-</p>
 
-### Using the ClassList interface to change more than one CSS property simultaneously {#using-the-classlist-interface-to-change-more-than-one-css-property-simultaneously .unnumbered}
+### Using the ClassList interface to change more than one CSS property simultaneously
 
 ### External resources: {#external-resources-2 .unnumbered}
 
@@ -11362,7 +11372,7 @@ collection of class names:
 16. div.classList.toggle(&apos;foo&apos;); // class set to <div class=&quot;&quot;/>
 ```
 
-### Another example: add and remove multiple CSS properties in a list of checkboxes {#another-example-add-and-remove-multiple-css-properties-in-a-list-of-checkboxes .unnumbered}
+<h5>Another example: add and remove multiple CSS properties in a list of checkboxes</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11377,7 +11387,7 @@ when the &lt;input type=&quot;checkbox&quot;&gt; elements have been checked, i
 order to give the parent &lt;li&gt; a background color, a border, and to
 change the text color, we use a CSS class named &quot;checked&quot;:
 
-### CSS code:
+<h5>CSS code:</h5>
 
 ```
 1.  .checked {
@@ -11390,7 +11400,7 @@ the classList.add(CSS_class) and classList.remove(CSS_class) methods on
 the <li> elements:
 ```
 
-### JavaScript code:
+<h5>JavaScript code:</h5>
 
 ```
 1.  function displayListOfCheckedItems() {
@@ -11440,7 +11450,7 @@ we&apos;ve seen, and perhaps introduce a few new things&hellip;
 
 Properties that can be used to change the value of selected DOM node
 
-### Using the innerHTML property {#using-the-innerhtml-property .unnumbered}
+<h4>Using the innerHTML property</h4>
 
 This property is useful when you want to change all the children of a
 given element. It can be used to modify the text content of an element,
@@ -11463,16 +11473,8 @@ use the textContent property to read the text content or to modify it.
 There are subtle differences that can be seen in the above example
 (click the &apos;edit on CodePen&quot; part on the top left, and once in
 codePen, open the devtool console):
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image206.png?raw=true"
-  style="width:65%"
-  title=" "
-  alt="." />
-</p>
 
-HTML
+<h4>HTML:</h4>
 
 <pre><code>
 1.  <!DOCTYPE html>
@@ -11490,7 +11492,7 @@ HTML
 13. </html>
 </code></pre>
 
-JS
+<h4>JS:</h4>
 
 ```
 1.  window.onload = init;
@@ -11510,7 +11512,7 @@ JS
 15. }
 ```
 
-### Extract from the HTML code:
+<h4>Extract from the HTML code:</h4>
 
 ```
 <p id="first">first paragraph</p>
