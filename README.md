@@ -5216,9 +5216,9 @@ Usually these tags represent an element that is completely described by
 its attributes, and thus there is no need for other content.  So if you
 see something like this:
 
-```
-> <img src="https://goo.gl/pVxY0e" alt="Floating Flower"/>
-```
+<pre>
+&lt;img src="https://goo.gl/pVxY0e" alt="Floating Flower"/&gt;
+</pre>
 
 &hellip; then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won&apos;t see any other
@@ -5231,9 +5231,9 @@ The &lt;img&gt; tag is one of them, the &quot;/&quot; at the end is optional 
 be removed entirely, this will still be [valid
 HTML5](https://w3c.github.io/html/syntax.html#void-elements).
 
-```
-> <img src="https://goo.gl/pVxY0e" alt="Floating Flower">
-```
+<pre>
+&lt;img src="https://goo.gl/pVxY0e" alt="Floating Flower"&gt;
+</pre>
 
 These elements, without a &quot;/&quot; at the end, are called &quot;void
 elements&quot;. They are : area, base, br, col, embed, hr, img, input, link,
@@ -7129,13 +7129,13 @@ offers many advantages:
 
 A typical example:
 
-```
-1.  <head>
+<pre>
+1.  &lt;head&gt;
 2.    ...
-3.    <link rel="stylesheet" href="css/style.css">
-4.    **<script src="js/script.js"></script>**
-5.  </head>
-```
+3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
+4.    <b>&lt;script src="js/script.js"&gt;&lt;/script&gt;</b>
+5.  &lt;/head&gt;
+</pre>
 
 <b>To use an external JavaScript file:</b>
 
@@ -7416,21 +7416,21 @@ able to type any JavaScript command.
 Let&apos;s look at this example below (or online as a [JS
 Bin)](http://jsbin.com/moqimuz/edit?html,console,output):
 
-```
-<!DOCTYPE html>
-<html lang=&quot;en>
-<head>
-<meta charset=utf-8 />
-<title>Web Audio API</title>
-<script>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&gt;
+&lt;head&gt;
+&lt;meta charset=utf-8 /&gt;
+&lt;title&gt;Web Audio API&lt;/title&gt;
+&lt;script&gt;
 console.log(&quot;Some JavaScript code has been executed&quot;);
-</script>
-</head>
-<body>
-<h1>JavaScript debugging using the dev tool console</h1>
-</body>
-</html>
-```
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1>JavaScript debugging using the dev tool console&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
 The simplest way to add JavaScript code in an HTML page is to use
 the &lt;script&gt;&hellip;&lt;/script&gt; element.
@@ -7911,10 +7911,12 @@ error message:
   title="Error Message: Undeclared type error"
   alt="Error Message: Undeclared type error." />
 <!-- image141.jpeg is a bit taller -->
+
 <!-- ![If you type k; followed by the enter key in the devtool console, and
 if k has not been defined, then an error message is displayed:
 &quot;uncaught referenceError: k is not
 defined&hellip;](./images/image110.jpeg){width="6.729166666666667in" height="1.3895297462817149in"}
+-->
 
 <!-- end of 1.5.1 JS variables and values from previous lesson 4 years back-->
 <h4>Name conventions for variables</h4>
@@ -7929,11 +7931,11 @@ The JavaScript community has some conventions about naming variables:
 
 <h4>Example:</h4>
 
-```
+<pre>
 var myModel;
 // ES2015 syntax
 let michelBuffaAge = 51;
-```
+</pre>
 
 Most JavaScript examples you will find are written in the camelCase
 format. For harmony in the code source, it is a good idea to keep this
@@ -7962,11 +7964,11 @@ error will be raised if you try to change their value in the future.
 
 <h4>Example:</h4>
 
-```
+<pre>
 var TIME_LIMIT;
 // ES2015 Syntax
 const MAX_GRADE = 20;
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 141. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (121) ~~~~~~~~~~~-->
@@ -7984,19 +7986,20 @@ example](./images/image111.jpeg){width="6.510416666666667in" height="2.341333114
 Here are a set of examples (using the let keyword, but they would also
 work with var):
 
-```
+<pre>
 let a;
 let thisIsAVariable;
-let and_this_too; // but **does not respect the usual naming convention**
+let and_this_too; // but <b>does not respect the usual naming convention</b>
 let mix12three;
 // invalid!
-let 2three4five; // **can't start with a digit!**
+let 2three4five; // <b>can't start with a digit!</b>
 let a = 1
 let v1, v2, v3 = 'hello', v4 = 4, v5;
 // Beware with lowercase / uppercase
 let case_matters = 'lower';
 let CASE_MATTERS = 'upper';
-```
+</pre>
+
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Scope of JS variables (4:19)</h3>
