@@ -1,17 +1,78 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of W3Cx-5of5-JS.0x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of W3Cx-5of5-JS.0x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
   <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico"/>
-  <meta name="description" content="JavaScript Introduction">
-  <meta name="author" content="W3Cx/bbauska">
-  <link rel="stylesheet" href="/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+  <!-- viewport and seo -->
+  <meta name="author" content="Brian Bauska">
+  <meta name="title" content="W3Cx-5of5-JS.0x">
+  <meta name="description" content="Introduction to JavaScript - 
+    during this course, you will learn: Simplified HTML5 tags, and how to use microdata; 
+    Play with audio and video tags; Use the Webcam; Draw and animate Web graphics; Discover 
+    HTML5 form features; Test basic APIs; Practice coding techniques.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name=”robots” content="index, follow">
+
   <title>W3Cx-5of5-JS.0x</title>
+  <link rel="canonical" href="https://w3cx-5of5.bauska.org">
+  <link rel="stylesheet" href="./css/styles.min.css">
+<!--  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css"> -->
+</head>
+
+<body>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--  <script src="/js/highlight.min.js"></script> -->
+<!--  <script>hljs.highlightAll();</script> -->
+<!--  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script> -->
+  <script>
+  <!-- get the button -->
+  var mybutton = document.getElementById("myBtn");
+
+  <!-- when the user scrolls down 10px from the top of the document, show the "Top" button -->
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or to top of -->
+  <!-- menu button (2120 on other example) -->
+  function topFunction() {
+    document.body.scrollTop = 625;
+    document.documentElement.scrollTop = 625;
+  }
+</script>
+
+<h1 style="text-align:center;">W3Cx Introduction to JavaScript</h1>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/w3c-logo.webp"
+  title="W3C logo"
+  alt="W3C logo."
+  style="width:17.5%;" />
+
+<h2 style="text-align:center;">W3Cx-5of5-JS.0x - Introduction to JavaScript</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. W3Cx-5of5-JS.0x logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image001.webp"
+  title="W3Cx JS.0x logo"
+  alt="W3Cx JS.0x logo."
+  style="width:35%;" />
+
+<h2><strong>Course Information</strong></h2>
 
 </head>
 
