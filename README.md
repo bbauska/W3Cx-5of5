@@ -2971,7 +2971,7 @@ parameter to the functionPlot(&hellip;) call are in bold.</p>
 <!--~~~~~~~~~~~~~~~~~~ 106. grid with x-axis, y-axis, origin, & target (80) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image106.gif?raw=true"
-  style="width:60%"
+  style="width:80%"
   title="Coordplane: Grid with x-axis, y-axis, origin &amp; target"
   alt="Coordplane: Grid with x-axis, y-axis, origin &amp; target." />
 </p>
@@ -2995,20 +2995,16 @@ Notice that between the name of the properties and the value there is a
 <p>If we look at the values of the xAxis and yAxis properties, they
 are also objects.</p>
 
-<code>
-1.  xAxis: {
+<pre>1.  xAxis: {
 2.  domain: &lbrack;0, 2&ast;Math.PI&rbrack;
-3.  }
-</code>
+3.  }</pre>
 
 <p>The data object is even more complicated:</p>
 
-<pre>
-1.  data: &lbrack;{
+<pre>1.  data: &lbrack;{
 2.    fn: 'sin(x)',
 3.    color: 'red'
-4.  }&rbrack;,
-</pre>
+4.  }&rbrack;,</pre>
 
 <p>Instead of containing another object like xAxis or yAxis, it contains
 another sort of object, but inside brackets! <b>In JavaScript, brackets
@@ -3025,8 +3021,7 @@ properties:</p>
 try to plot an additional function in our example. We will add f(x) =
 cos(x) to our example, with a different color:</p>
 
-<pre>
-1.  data: &lbrack;
+<pre>1.  data: &lbrack;
 2.    {
 3.      fn: 'sin(x)',  // First function
 4.      color: 'red'
@@ -3035,8 +3030,7 @@ cos(x) to our example, with a different color:</p>
 7.      fn: 'cos(x)',  // second function
 8.      color: 'blue'
 9.    }
-10. &rbrack;
-</pre>
+10. &rbrack;</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 107.  (82) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3191,12 +3185,10 @@ the changeTitle() function when we click on the button:</p>
 function</b> (a block of code that is executed only when we call it by
 adding a parenthesis after its name, followed by a semi colon):</p>
 
-<pre>
-<b>function changeTitle()</b> {
+<pre><b>function changeTitle()</b> {
   var title = document.querySelector("#mainTitle");
   title.innerHTML = "This new title has been changed from JavaScript!";
-}
-</pre>
+}</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 115. example of interactivity between javascript & html (86) ~~~~~~~~~~~~~~~-->
@@ -3214,14 +3206,12 @@ content of the main title, <b>we use its style property to change its
 look and feel. Using the style property is a way of altering the CSS
 property values of this HTML element.</b></p>
 
-<pre>
-function changeTitleCSSStyle() {
+<pre>function changeTitleCSSStyle() {
   var title = document.querySelector("#mainTitle");
   <b>title.style.color = 'black';</b>
   <b>title.style.backgroundColor = "yellow";</b>
   <b>title.style.border = "5px dashed red";</b>
-}
-</pre>
+}</pre>
 
 <p>title is in reality what we call &quot;an object&quot; and style is a property
 of the title object. The style is an object as well and has attributes
@@ -3299,46 +3289,46 @@ famous rock bands:</p>
 <p align="center" width="100%">
 <img src="./images/image118.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Where to put JavaScript code"
+  alt="Where to put JavaScript code." />
 </p>
 <!------------------------------------------------------------------------------------------------>
-Welcome!
+<p>Welcome!<br>
 In this video, we will just look at the different locations where we can put 
-JavaScript code.
-The first place where you can put JavaScript code is inside an HTML document,
-using the <script> and </script> tags.
-We've prepared an example, it's called the "Example 1" in the page,
-that shows how we can display the value of a variable.
-A variable is a location in the memory of the computer where we are going to 
-store some values.
-And the variable has a name and it's declared using the "var" keyword.
-There are others possibilities we will see later.
+JavaScript code. The first place where you can put JavaScript code is inside an 
+HTML document, using the &lt;script&gt; and &lt;/script&gt; tags. We've prepared 
+an example, it's called the "Example 1" in the page, that shows how we can display 
+the value of a variable. A variable is a location in the memory of the computer 
+where we are going to store some values. And the variable has a name and it's 
+declared using the "var" keyword. There are others possibilities we will see later.</p>
 
 <image goes here>
-Here we've got the variable called "x" that has the value of 2.
+
+<p>Here we've got the variable called "x" that has the value of 2.
 And, we use some strange instruction "document.body.innerHTML"
 for adding to the body of the document some HTML code.
 So "document.body" corresponds in JavaScript to the body element of the document,
 and the "innerHTML" property corresponds to its HTML content.
 By doing this, we are adding a bold element JavaScript code executing
-the value of the variable x=2 and we display the value of the x variable in bold.
+the value of the variable x=2 and we display the value of the x variable in bold.</p>
 
 <image goes here>
-This is the result of the execution of this code.
-And this code is not in a function, so it's executed as soon as the page is 
-rendered. When the browser
+
+<p>This is the result of the execution of this code. And this code is not in a 
+function, so it's executed as soon as the page is rendered. When the browser
 receives this document, it will first display the "h1" then display this paragraph,
-then executes this code.
-It will define the variable x, assign the value "2" to it, and then add this string,
-with the value of "x" inside, to the body of the document.
+then executes this code. It will define the variable x, assign the value "2" to it, 
+and then add this string, with the value of "x" inside, to the body of the document.</p>
 
 <image goes here>
-And finally, we display in the dev tool console: "console.log("JavaScript code executed")".
+
+<p>And finally, we display in the dev tool console: "console.log("JavaScript code executed")".
 We can open it by clicking on the console button in CodePen, or we can also open the
 devtools using the "F12" key or "ctrl+alt+i" or "cmd+alt+i" on a Mac.
 And you see that the "console.log" message has been displayed in the devtool console
 of your browser.
+
+
 Here, notice that we use the "script" element directly into the body of the document.
 Another possibility is to a put this code in the head of the document.
 It's also common practice because it separates clearly the JavaScript
@@ -3361,12 +3351,10 @@ I prepared for you an example you can download - it's called "Example_3.zip".
 I click on it, download it, unpack it, and inside this element, I've got an HTML file.
 And I open it with my Sublime Text editor.
 And what i've got here, is that you can see in the HTML header in that case but you can
-also put this in the body if you like,
-we included a "script.js" file located under the "js" directory.
-I can open also this file.
-I can see that I just display the message called "Function executed"
-and a function "addSomeText" directly in the script.
-When is this executed?
+also put this in the body if you like, we included a "script.js" file located under the "js" directory.
+
+I can open also this file. I can see that I just display the message called "Function executed"
+and a function "addSomeText" directly in the script. When is this executed?
 It's executed when we click on a button.
 Let's have the button "onclick" call the function "addSomeText".
 Let's execute this, here is the result: "Click me to call a JavaScript function that will
@@ -3388,17 +3376,17 @@ squares, animated squares, that follow the mouse.
 <!-- <video for 1.3.3 above> -->
 <h4>JavaScript code can be located in different places</h4>
 
-1.  In your HTML code between &lt;script&gt; and &lt;/script&gt; tag
-
-2.  In local files, usually ending with the .js suffix (i.e: in
+<ol>
+  <li>In your HTML code between &lt;script&gt; and &lt;/script&gt; tag</li>
+  <li>In local files, usually ending with the .js suffix (i.e: in
     a script.js file), and included using, for example, a syntax such
-    as: &lt;script src=&quot;style.js&quot;&gt;&lt;/script&gt; tag
-
-3.  In external files located on the Web, using their URLs, also using
+    as: &lt;script src=&quot;style.js&quot;&gt;&lt;/script&gt; tag</li>
+  <li>In external files located on the Web, using their URLs, also using
     the &lt;script
-    src=&quot;https://www.aserver.com/&hellip;./js/script.js&quot;&gt;&lt;/script&gt; tag
+    src=&quot;https://www.aserver.com/&hellip;./js/script.js&quot;&gt;&lt;/script&gt; tag</li>
+</ol>
 
-Here are some examples:
+<p>Here are some examples:</p>
 
 <h4>Example #1: the JavaScript code is included in an HTML file using the &lt;script&gt;&hellip;&lt;/script&gt; tag</h4>
 
@@ -3406,20 +3394,18 @@ Here are some examples:
 
 Typically:
 
-<pre>
-1.  &lt;body&gt;
+<pre>1.  &lt;body&gt;
 2.    ...
 3.    &lt;script&gt;
 4.      var x = 2;
 5.      // show a message in the body of the html document
-6.      document.body.innerHTML += "&lt;b&gt;JavaScript code executed. The value of the variable x is: 
-          "+ x + "&lt;/b&gt;";
+6.      document.body.innerHTML += "<b>JavaScript code executed. The value of the variable x is: 
+          "+ x + "</b>";
 7.      // also print a message in the devtool console
 8.      console.log("JavaScript code executed");
 9.    &lt;/script&gt;
 10.   ...
-11. &lt;/body&gt;
-</pre>
+11. &lt;/body&gt;</pre>
 
 <h4>Here is this first example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3444,8 +3430,7 @@ the &lt;head&gt;..&lt;/head&gt; section of an HTML page.
 This time, we placed a JavaScript function that is invoked (called) when
 a button is clicked:
 
-<pre>
-&lt;head&gt;
+<pre>&lt;head&gt;
 <b>&lt;script&gt;</b>
 <b>function addSomeText() {</b>
 <b>// append a message in the body of the html document</b>
@@ -3457,8 +3442,7 @@ a button is clicked:
 &lt;button <b>onclick="addSomeText();"</b>Click me to call a JavaScript function that will add
 some content to this document
 &lt;/button&gt;
-&lt;/body&gt;
-</pre>
+&lt;/body&gt;</pre>
 
 <h4>Here is this second example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3489,13 +3473,11 @@ offers many advantages:
 
 A typical example:
 
-```
-1.  <head>
+<pre>1.  &lt;head&gt;
 2.    ...
-3.    <link rel="stylesheet" href="css/style.css">
-4.    <b><script src="js/script.js"></script></b>
-5.  </head>
-```
+3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
+4.    <b>&lt;script src="js/script.js"&gt;&lt;/script&gt;</b>
+5.  &lt;/head&gt;</pre>
 
 <b>To use an external JavaScript file:</b>
 
@@ -3516,16 +3498,14 @@ A typical example:
 
 <h5>Example that uses more than one JavaScript file:</h5>
 
-<pre>
-1.  &lt;head&gt;
+<pre>1.  &lt;head&gt;
 2.    ...
 3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
 4.    <b>&lt;script src="js/script1.js"&gt;&lt;/script&gt;</b>
 5.    <b>&lt;script src="js/script2.js"&gt;&lt;/script&gt;</b>
 6.    <b>&lt;script src="js/anotherOne.js"&gt;&lt;/script&gt;</b>
 7.    <b>...</b>
-8.  &lt;/head&gt;
-</pre>
+8.  &lt;/head&gt;</pre>
 
 <h4>A typical HTML/CSS/JS project folder structure, when working with external local files</h4>
 
@@ -3552,8 +3532,7 @@ JavaScript files in a js subfolder.
 
 <h5>Contents of the index.html file:</h5>
 
-<pre>
-1.  ...
+<pre>1.  ...
 2.  &lt;head&gt;
 3.    ...
 4.    <b>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;</b>
@@ -3565,24 +3544,19 @@ JavaScript files in a js subfolder.
         JavaScript function that will add some content to this
         document&lt;/button&gt;
 10. &lt;/body&gt;
-11. &lt;/html&gt;
-</pre>
+11. &lt;/html&gt;</pre>
 
 Content of the js/script.js file (JavaScript file):
 
-<pre>
-1.  function addSomeText() {
+<pre>1.  function addSomeText() {
 2.    document.body.innerHTML += "&lt;p&gt;Function executed!&lt;/p&gt;";
-3.  }
-</pre>
+3.  }</pre>
 
 <p>Content of the style.css file:</p>
 
-<pre>
-1.  p {
+<pre>1.  p {
 2.    color:green;
-3.  }
-</pre>
+3.  }</pre>
 
 <p>How to run this example:</p>
 
@@ -3600,9 +3574,7 @@ Content of the js/script.js file (JavaScript file):
 <p>External JavaScript libraries (they are just big JS files) can be also
 referenced with a full URL, like in this example:</p>
 
-<pre>
-1.  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;&gt;&lt;/script&gt;
-</pre>
+<pre>1.  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;&gt;&lt;/script&gt;</pre>
 
 <p>Here, we just included in our HTML document the
 excellent <a href="http://paperjs.org/">paperJS</a> library that can be used to
@@ -3616,7 +3588,7 @@ made by others is really common when working on JavaScript projects.</p>
 <p>Here is a running example that uses the paperJS library, included using
 an external URL:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 124.  (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. paperjs library example (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image124.png?raw=true"
   style="width:65%"
@@ -3645,7 +3617,7 @@ the most is the console. A console loads problems or errors.
 So, if I can clear the messages from here and this is the place where I will see
 the different error messages I've got in my code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 126.  (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 126. jsbin example (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image126.png?raw=true"
   style="width:65%"
@@ -3656,7 +3628,7 @@ the different error messages I've got in my code.</p>
 <p>Here is an example in JsBin. So, you can click here to see the console or
 it’s the same thing you can get here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 127.  (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 127. console.log 'hello' (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image127.png?raw=true"
   style="width:65%"
