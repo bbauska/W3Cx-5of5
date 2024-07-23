@@ -262,30 +262,30 @@ free, open source, multi-platform editor by Microsoft.</p>
 
 <h4>Free of charge:</h4>
 
--   [Atom source](https://atom.io/) code editor (note that Visual Studio
-    code is based on Atom).
-
--   [Brackets source](http://brackets.io/) code editor.
-
--   [NotePad++](https://notepad-plus-plus.org/) (Windows only)
-
--   [NetBeans](https://netbeans.org/) and [Eclipse](https://eclipse.org/):
+<ul>
+  <li><a href="https://atom.io/">Atom source</a> code editor (note that Visual Studio
+    code is based on Atom).</li>
+  <li><a href="http://brackets.io/">Brackets source</a> code editor.</li>
+  <li><a href="https://notepad-plus-plus.org/">NotePad++</a> (Windows only)</li>
+  <li><a href="https://netbeans.org/">NetBeans</a> and <a href="https://eclipse.org/">Eclipse</a>:
     very powerful IDEs (integrated development environments), but
     heavier than all the &quot;lightweight&quot; source editors that
     we&apos;ve talked about so far. More dedicated to &quot;mid-size/large-size
     projects&quot;, more for pro developers that are also looking for good
-    support for server-side languages such as Java, Python, PHP, etc.
+    support for server-side languages such as Java, Python, PHP, etc.</li>
+</ul>
 
 <h4>Not free of charge:</h4>
 
--   [IDEs by JetBrains.com](https://www.jetbrains.com/) have a very good
+<ul>
+  <li><a href="https://www.jetbrains.com/">IDEs by JetBrains.com</a> have a very good
     reputation and can be obtained for free if you are an academic
     customer (student or teacher).
-    The [WebStorm](https://www.jetbrains.com/webstorm) IDE is a very
-    good mid-weight tool for developing HTML/CSS/JS/NodeJS code.
-
--   [BBedit](https://www.barebones.com/products/bbedit/) (for Macs):
-    source code editor for mac with support for Web languages.
+    The <a href="https://www.jetbrains.com/webstorm">WebStorm</a> IDE is a very
+    good mid-weight tool for developing HTML/CSS/JS/NodeJS code.</li>
+  <li><a href="https://www.barebones.com/products/bbedit/">BBedit</a> (for Macs):
+    source code editor for mac with support for Web languages.</li>
+</ul>
 
 <h4>Online editors/IDEs</h4>
 
@@ -458,29 +458,28 @@ instructor will indicate other tools in module 1 of the course.</p>
 
 <h4>Browser compatibility</h4>
 
-The term browser compatibility refers to the ability of a given Web site
-to appear fully functional on the browsers available in the market.
+<p>The term browser compatibility refers to the ability of a given Web site
+to appear fully functional on the browsers available in the market.</p>
 
-The most powerful aspect of the Web is what makes it so challenging to
+<p>The most powerful aspect of the Web is what makes it so challenging to
 build for: its universality. When you create a Web site, you're writing
 code that needs to be understood by many different browsers on different
-devices and operating systems!
+devices and operating systems!</p>
 
-To make the Web evolve in a sane and sustainable way for both users and
+<p>To make the Web evolve in a sane and sustainable way for both users and
 developers, browser vendors work together to standardize new features,
-whether it's a new [HTML
-element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS
-property](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index),
-or [JavaScript API](https://developer.mozilla.org/en-US/docs/Web/API).
-But different vendors have different priorities, resources, and release
+whether it's a new <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">
+HTML element</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index">
+CSS property</a>, or <a href="https://developer.mozilla.org/en-US/docs/Web/API">
+JavaScript API</a>. But different vendors have different priorities, resources, and release
 cycles --- so it's very unlikely that a new feature will land on all the
 major browsers at once. As a Web developer, this is something you must
-consider if you're relying on a feature to build your site.
+consider if you're relying on a feature to build your site.</p>
 
-We are then providing references to the browser support of HTML5
-features presented in this course using 2 resources: [Can I
-Use](https://caniuse.com/) and [Mozilla Developer Network (MDN) Web
-Docs](https://developer.mozilla.org/en-US/).
+<p>We are then providing references to the browser support of HTML5
+features presented in this course using 2 resources: 
+<a href="https://caniuse.com/">Can I Use</a> and 
+<a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network (MDN) Web Docs</a>.</p>
 
 <h4>Can I use</h4>
 
@@ -565,29 +564,29 @@ as RSS/Atom feeds and http headers.</p>
 
 <h4>Link Checker</h4>
 
-The <a href="https://validator.w3.org/checklink">W3C Link Checker</a> looks for
+<p>The <a href="https://validator.w3.org/checklink">W3C Link Checker</a> looks for
 issues in links, anchors and referenced objects in a Web page, CSS style
 sheet, or recursively on a whole Web site. For best results, it is
 recommended to first ensure that the documents checked use valid 
 <a href="https://validator.w3.org/">HTML Markup</a> and 
-<a href="https://jigsaw.w3.org/css-validator/">CSS</a>.
+<a href="https://jigsaw.w3.org/css-validator/">CSS</a>.</p>
 
 <h4>Internationalization Checker</h4>
 
-The <a href="https://validator.w3.org/i18n-checker/">W3C Internationalization Checker</a> 
+<p>The <a href="https://validator.w3.org/i18n-checker/">W3C Internationalization Checker</a> 
 provides information about various internationalization-related aspects of your page,
 including the HTTP headers that affect it. It also reports a number of
-issues and offers advice about how to resolve them.
+issues and offers advice about how to resolve them.</p>
 
 <h4>W3C cheatsheet</h4>
 
-The <a href="https://www.w3.org/2009/cheatsheet/">W3C cheatsheet</a> provides quick
+<p>The <a href="https://www.w3.org/2009/cheatsheet/">W3C cheatsheet</a> provides quick
 access to useful information from a variety of specifications published
 by W3C. It aims at giving in a very compact and mobile-friendly format a
 compilation of useful knowledge extracted from W3C specifications,
 completed by summaries of guidelines developed at W3C, in particular Web
 accessibility guidelines, the Mobile Web Best Practices, and a number of
-internationalization tips.
+internationalization tips.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. W3Cx cheatsheet (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -597,32 +596,30 @@ internationalization tips.
   alt="W3Cx cheatsheet." />
 </p>
 
-Its main feature is a lookup search box,
-where one can start typing a keyword and get a list of matching
-properties/elements/ attributes/functions in the above-mentioned
-specifications, and further details on those when selecting the one of
-interest.
+<p>Its main feature is a lookup search box, where one can start typing a keyword 
+and get a list of matching properties/elements/ attributes/functions in the 
+above-mentioned specifications, and further details on those when selecting 
+the one of interest.</p>
 
-The W3C cheatsheet is only available as a <a href="https://dev.w3.org/2009/cheatsheet/doc/">
-pure Web application</a>.
+<p>The W3C cheatsheet is only available as a <a href="https://dev.w3.org/2009/cheatsheet/doc/">
+pure Web application</a>.</p>
 
 <h4>Help build the Web Platform!</h4>
 
-Most of the technologies you use when developing Web applications and
+<p>Most of the technologies you use when developing Web applications and
 Web sites are designed and standardized in W3C in a completely open and
-transparent process.
+transparent process.</p>
 
-In fact, all W3C specifications are developed in public <a href="https://github.com/w3c/">
+<p>In fact, all W3C specifications are developed in public <a href="https://github.com/w3c/">
 GitHub repositories</a>, so if you are familiar with GitHub, you already know 
 how to contribute to W3C specifications! This is all about raising issues 
-(with feedback and suggestions) and/or bringing pull requests to fix identified issues.
+(with feedback and suggestions) and/or bringing pull requests to fix identified issues.</p>
 
 <h4>Contribute</h4>
 
-Contributing to this standardization process might be a bit scary or
+<p>Contributing to this standardization process might be a bit scary or
 hard to approach at first, but understanding at a deeper level how these
-technologies are built is a great way to build your expertise.
-
+technologies are built is a great way to build your expertise.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. github octocat logo (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -638,13 +635,13 @@ see if you find anything where you think you would be ready to help.</p>
 
 <h4>First steps in Web accessibility</h4>
 
-As steward of global Web standards, W3C&apos;s mission is to safeguard the
+<p>As steward of global Web standards, W3C&apos;s mission is to safeguard the
 openness, accessibility, and freedom of the World Wide Web from a
-technical perspective.
+technical perspective.</p>
 
-W3C&apos;s primary activity is to develop protocols and guidelines that
+<p>W3C&apos;s primary activity is to develop protocols and guidelines that
 ensure long-term growth for the Web. The widely adopted Web standards
-define key parts of what actually makes the World Wide Web work.
+define key parts of what actually makes the World Wide Web work.</p>
 
 <h4>Shape the future</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -660,17 +657,16 @@ W3C Web Platform Community Incubator Group</a> was built as an easy place
 to get started to provide feedback on new proposals or bring brand-new
 proposals for consideration.</p>
 
-Happy Web building!
+<p>Happy Web building!</p>
 
 <h4>What is W3C?</h4>
 
-As steward of global Web standards, W3C&apos;s mission is to safeguard the
+<p>As steward of global Web standards, W3C&apos;s mission is to safeguard the
 openness, accessibility, and freedom of the World Wide Web from a
-technical perspective.
-
-W3C&apos;s primary activity is to develop protocols and guidelines that
+technical perspective.</p>
+<p>W3C&apos;s primary activity is to develop protocols and guidelines that
 ensure long-term growth for the Web. The widely adopted Web standards
-define key parts of what actually makes the World Wide Web work.
+define key parts of what actually makes the World Wide Web work.</p>
 
 <h4>A few history bits</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -684,30 +680,30 @@ define key parts of what actually makes the World Wide Web work.
 
 <h6 align="center"><i><b>Tim Berners-Lee at his desk in CERN, 1994</b></i></h6>
 
-<a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> wrote
+<p><a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> wrote
 a <a href="https://www.w3.org/History/1989/proposal.html">proposal</a> in 1989 for
 a system called the World Wide Web. He then created the first Web
 browser, server, and Web page. He wrote the first specifications for
-URLs, HTTP, and HTML.
+URLs, HTTP, and HTML.</p>
 
-In October 1994, Tim Berners-Lee founded the World Wide Web Consortium
+<p>In October 1994, Tim Berners-Lee founded the World Wide Web Consortium
 (W3C) at the Massachusetts Institute of Technology, Laboratory for
 Computer Science &lbrack;MIT/LCS&rbrack; in collaboration
 with <a href="https://home.cern/">CERN</a>, where the Web originated (see
 information on the <a href="https://www.w3.org/Daemon/">original CERN Server</a>),
 with support from DARPA and the <a href="https://ec.europa.eu/index_en.htm">
-European Commission</a>.
+European Commission</a>.</p>
 
-In April 1995, <a href="https://www.inria.fr/">Inria</a> became the first European
+<p>In April 1995, <a href="https://www.inria.fr/">Inria</a> became the first European
 W3C host, followed by <a href="https://www.keio.ac.jp/">Keio University of
 Japan</a>(Shonan Fujisawa Campus) in Asia in 1996. In 2003, 
 <a href="https://www.ercim.eu/">ERCIM</a> took over the role of 
 European W3C Host from Inria. In 2013, W3C announced <a href="https://ev.buaa.edu.cn/">Beihang
-University</a> as the fourth Host.
+University</a> as the fourth Host.</p>
 
-As of January 2023, W3C is a public-interest non-profit organization
+<p>As of January 2023, W3C is a public-interest non-profit organization
 incorporated in the United States of America, led by a Board of
-Directors and employing a global staff across the globe
+Directors and employing a global staff across the globe</p>
 
 <h4>A few figures</h4>
 
@@ -735,11 +731,11 @@ As of July 2023, W3C:
 
 <h4>W3C&apos;s core values</h4>
 
-Committed to core values of an open Web that promotes innovation,
+<p>Committed to core values of an open Web that promotes innovation,
 neutrality, and interoperability, W3C and its community are setting the
 vision and standards for the Web, ensuring the building blocks of the
 Web are open, accessible, secure, international and have been developed
-via the collaboration of global technical experts.
+via the collaboration of global technical experts.</p>
 
 <h4>The Web is amazing!</h4>
 
@@ -767,85 +763,78 @@ this article</a> for more details about the difference between Internet and the
   alt="Tim Berners-Lee invented the WEB &amp; DARPA invented the Internet." />
 First photo: Tim Berners-Lee is on the left wearing a black shirt that 
 says "I didn't invent the Internet" and Vint Cerf on the right wearing a black 
-shirt that says "I did not invent shit. DARPA did.". Second photo: Both facing backwards, 
-Tim Berners-Lee is on the left wearing a black shirt that says "I invented the Web" 
-and Vint Cerf on the right incorrectly wearing a black shirt that says "I invented the Internet".</p>
+shirt that says "I did not invent shit. DARPA did.". Second photo: Both facing 
+backwards, Tim Berners-Lee is on the left wearing a black shirt that says "I 
+invented the Web" and Vint Cerf on the right incorrectly wearing a black shirt 
+that says "I invented the Internet".</p>
 
-The W3C community is passionate about creating free and open Web
+<p>The W3C community is passionate about creating free and open Web
 standards. The next video, created in partnership with Microsoft,
 explains why standards are important to maintain a royalty-free, Open
-Web Platform, as well as to help shape the Web of the future.
+Web Platform, as well as to help shape the Web of the future.</p>
 
 <h4 id="chb-04">Why accessibility is important</h4>
 
-The power of the Web is in its universality. Access by everyone
+<p>The power of the Web is in its universality. Access by everyone
 regardless of disability is an essential aspect.
-<b>Tim Berners-Lee, W3C Director and inventor of the World Wide Web</b>
-
-When websites and web tools are properly designed and coded, people with
+<b>Tim Berners-Lee, W3C Director and inventor of the World Wide Web</b></p>
+<p>When websites and web tools are properly designed and coded, people with
 disabilities can use them. However, currently many sites and tools are
 developed with accessibility barriers that make them difficult or
-impossible for some people to use.
-
-<b>Accessibility is essential for developers and organizations that want
+impossible for some people to use.</p>
+<p><b>Accessibility is essential for developers and organizations that want
 to create high-quality websites and web tools, and not exclude people
-from using their products and services.</b>
-
-Making the web accessible benefits people <b>with</b> and
+from using their products and services.</b></p>
+<p>Making the web accessible benefits people <b>with</b> and
 <b>without</b> disabilities, businesses, and society. Accessibility is an
-important aspect of diversity, equity, and inclusion (DEI).
-
+important aspect of diversity, equity, and inclusion (DEI).</p>
 <p><a href="https://www.w3.org/WAI/videos/standards-and-benefits/">
 Video Introduction to Web Accessibility and W3C Standards</a> is a 4-minute video 
 with descriptive transcript and subtitles in over 20 languages.</p>
 
 <h4>Who is impacted?</h4>
 
-Web accessibility addresses all disabilities, including hearing,
+<p>Web accessibility addresses all disabilities, including hearing,
 learning and cognitive, neurological, physical, speech, and visual
-disabilities. Some examples of Web accessibility features include:
+disabilities. Some examples of Web accessibility features include:</p>
 
--   <b>Captions</b> on audio and multimedia content for people who are hard
-    of hearing;
-
--   <b>Clear and consistent layout</b> for people with learning and
-    cognitive disabilities;
-
--   <b>Keyboard support</b> for people with physical disabilities and do
-    not use a mouse;
-
--   <b>Text alternatives</b> for people with visual disabilities and using
-    screen readers;
+<ul>
+  <li><b>Captions</b> on audio and multimedia content for people who are hard
+    of hearing;</li>
+  <li><b>Clear and consistent layout</b> for people with learning and
+    cognitive disabilities;</li>
+  <li><b>Keyboard support</b> for people with physical disabilities and do
+    not use a mouse;</li>
+  <li><b>Text alternatives</b> for people with visual disabilities and using
+    screen readers;</li>
+</ul>
 
 <h4>Web accessibility benefits people with and <b>without</b> disabilities</h4>
 
-Web accessibility features also benefit many more users, such as:
+<p>Web accessibility features also benefit many more users, such as:</p>
 
--   People with temporary situational limitations, such as a broken arm;
+<ul>
+  <li>People with temporary situational limitations, such as a broken arm;</li>
+  <li>People using mobile devices, televisions, and other access channels;</li>
+  <li>People using older computers, with low bandwidth, and other limitations;</li>
+  <li>People who are new to computers, to the Web, or to your own website;</li>
+  <li>People who are not fluent in the language of your particular website;</li>
+</ul>
 
--   People using mobile devices, televisions, and other access channels;
-
--   People using older computers, with low bandwidth, and other
-    limitations;
-
--   People who are new to computers, to the Web, or to your own website;
-
--   People who are not fluent in the language of your particular
-    website;
-
-The Web is an increasingly important resource in many aspects of life:
+<p>The Web is an increasingly important resource in many aspects of life:
 education, employment, government, commerce, health care, recreation,
 and more. When Web pages, Web technologies, Web tools, or Web
 applications are badly designed, they can create barriers that exclude
-people from using the Web. More information is available in the [W3C
-Accessibility](https://www.w3.org/standards/webdesign/accessibility) overview.
+people from using the Web. More information is available in the 
+<a href="https://www.w3.org/standards/webdesign/accessibility">
+W3C Accessibility</a> overview.</p>
 
 <h4>First steps in Web accessibility</h4>
 
-There are many simple Web accessibility improvements that you can
+<p>There are many simple Web accessibility improvements that you can
 implement and check right away, even when you are new to this topic. Two
 example excerpts are provided below on this page but you can find more
-tips and information from W3C/WAI:
+tips and information from W3C/WAI:</p>
 
 <ul>
   <li><a href="https://www.w3.org/WAI/gettingstarted/tips/">
@@ -856,15 +845,15 @@ tips and information from W3C/WAI:
 
 <h4>Example 1: page title</h4>
 
-Good page titles are particularly important for orientation --- to help
+<p>Good page titles are particularly important for orientation --- to help
 people know where they are and move between pages open in their browser.
 The first thing screen readers say when the user goes to a different Web
 page is the page title. In the Web page markup, they are the &lt;title&gt;
-within the &lt;head&gt;.
+within the &lt;head&gt;.</p>
 
-*Check #1*: There is a title that adequately and briefly describes the
+<p><i>Check #1</i>: There is a title that adequately and briefly describes the
 content of a page, and that it distinguishes the page from other Web
-pages.
+pages.</p>
 
 <h5><b>Example</b>:</h5>
 
@@ -878,19 +867,19 @@ pages.
 
 <h4>Example 2: image text alternatives (&quot;alt text&quot;)</h4>
 
-Text alternatives (&quot;alt text&quot;) are a primary way of making visual
+<p>Text alternatives (&quot;alt text&quot;) are a primary way of making visual
 information accessible, because they can be rendered through any sensory
 modality (for example, visual, auditory or tactile) to match the needs
 of the user. Providing text alternatives allows the information to be
 rendered in a variety of ways by a variety of user agents. For example,
 a person who cannot see a picture can have the text alternative read
-aloud using synthesized speech.
+aloud using synthesized speech.</p>
 
 <h4><b>Check #2: Every image has </b>alt<b> with appropriate alternative text.</b></h4>
 
-<b>Example</b>: See the W3C logo below. It contains a link that points to
+<p><b>Example</b>: See the W3C logo below. It contains a link that points to
 the W3C Web site. The text alternative is going to be a brief
-description of the link target.
+description of the link target.</p>
 
 <pre>
 &lt;a href="https://w3.org"&gt;
@@ -900,16 +889,16 @@ description of the link target.
 
 <h4 id="chb-05">b5. Why internationalization is important</h4>
 
-Access to the Web for all has been a fundamental concern and goal of the
+<p>Access to the Web for all has been a fundamental concern and goal of the
 W3C since the beginning. It is easy to overlook the needs of people from
 cultures different to your own, or who use different languages or
 writing systems, but you have to ensure that any content or application
 that you design or develop is ready to support the international
-features that they will need.
+features that they will need.</p>
 
-&apos;Internationalization&apos; is sometimes abbreviated to &apos;i18n&apos; in
+<p>&apos;Internationalization&apos; is sometimes abbreviated to &apos;i18n&apos; in
 English, because there are 18 characters between the &apos;i&apos; and the
-&apos;n&apos;.
+&apos;n&apos;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 29. W3C Internationalization Activity logo (23) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
@@ -922,13 +911,13 @@ works with W3C working groups and liaises with other organizations to make
 it possible to use Web technologies with different languages, scripts, and 
 cultures.</p>
 
-During this course you will learn about some basic internationalization
+<p>During this course you will learn about some basic internationalization
 features, such as character encoding and language declarations. If you
 don&apos;t use those features you will create barriers for people from
 different cultures who are trying to access your content. This is
 important even if you think you are only designing for a specific
 community -- communities are made up of diverse individuals, and the Web
-stretches worldwide.
+stretches worldwide.</p>
 
 <h4>Unicode</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -939,7 +928,7 @@ stretches worldwide.
   title="Unicode symbols snapshot"
   alt="Unicode symbols snapshot." />
 Text in a computer or on the Web is composed of characters. 
-*Characters* represent letters of the alphabet, punctuation, or other
+<i>Characters</i> represent letters of the alphabet, punctuation, or other
 symbols.</p>
 <p>Unicode is a universal character set, ie. a standard that defines, in
 one place, all the characters needed for writing languages in use on
@@ -955,20 +944,20 @@ character you are likely to meet. This greatly simplifies things.</p>
 
 <h4>Essential steps in Web i18n</h4>
 
-You find below three examples (and checks!) to help you to ensure that
+<p>You find below three examples (and checks!) to help you to ensure that
 your Web page works for people around the world, and to make it work
 differently for different cultures, where needed. Let&apos;s meet the words
-&apos;charset&apos; and &apos;lang&apos;, soon to become your favorite markup ;)
+&apos;charset&apos; and &apos;lang&apos;, soon to become your favorite markup ;)</p>
 
 <h4>Example 1: Character encoding declaration</h4>
 
-A character encoding declaration is <b>vital to ensure that the text in
+<p>A character encoding declaration is <b>vital to ensure that the text in
 your page is recognized by browsers around the world</b>, and not garbled.
 You will learn more about what this is, and how to use it as you work
-through the course.  For now, just ensure that it&apos;s always there.
+through the course.  For now, just ensure that it&apos;s always there.</p>
 
-<b>Check #1: There is a character encoding declaration near the start of
-your source code, and  its value is UTF-8.</b>
+<p><b>Check #1: There is a character encoding declaration near the start of
+your source code, and  its value is UTF-8.</b></p>
 
 <h4><b>Example 1</b>:</h4>
 
@@ -979,14 +968,14 @@ your source code, and  its value is UTF-8.</b>
 
 <h4>Example 2: Primary language declaration</h4>
 
-For a wide variety of reasons, it&apos;s important for a browser to know
+<p>For a wide variety of reasons, it&apos;s important for a browser to know
 what language your page is written in, including font selection,
 text-to-speech conversion, spell-checking, hyphenation and automated
 line breaking, text transforms, automated translation, and more. <b>You
 should always indicate the primary language of your page in the &lt;html&gt;
 tag</b>. Again you will learn how to do this during the course.  You will
 also learn how to change the language, where necessary, for parts of
-your document that are in a different language.
+your document that are in a different language.</p>
 
 <h5><b>Check #2: The HTML tag has a lang attribute which correctly indicates 
 the language of your content.</b></h5>
@@ -1000,7 +989,7 @@ the language of your content.</b></h5>
 
 <h5><b>Example 3</b>: Cultural bias</h5>
 
-People around the world don&apos;t always understand cultural references
+<p>People around the world don&apos;t always understand cultural references
 that you are familiar with, for example the concept of a &apos;home run&apos; in
 baseball, or a particular type of food. You should be careful when using
 examples to illustrate ideas. Also, people in other cultures don&apos;t
@@ -1010,17 +999,17 @@ of the world, and photos of people in a group may not be representative
 of populations elsewhere.  When creating forms for capturing personal
 details, you will quickly find that your assumptions about how personal
 names and addresses work are very different from those of people from
-other cultures.
+other cultures.</p>
 
-<b>Check #3: If your content will be seen by people from diverse
+<p><b>Check #3: If your content will be seen by people from diverse
 cultures, check that your cultural references will be recognized and
-that there is no inappropriate cultural bias.</b>
+that there is no inappropriate cultural bias.</b></p>
 
 <h4>Don&apos;t worry!</h4>
 
-The following 7 quick tips summarize some important concepts of
+<p>The following 7 quick tips summarize some important concepts of
 international Web design. They will become more meaningful as you work
-through the course, so come back and review this page at the end.
+through the course, so come back and review this page at the end.</p>
 
 1.  <b>Encoding</b>: use the UTF-8 (Unicode) character encoding for
     content, databases, etc. Always declare the encoding.
@@ -1047,18 +1036,16 @@ through the course, so come back and review this page at the end.
     people from diverse cultures, check for translatability and
     inappropriate cultural bias.
 
-You will find more quick tips on the [Internationalization quick
-tips](https://www.w3.org/International/quicktips/) page. Remember that
-these tips do not constitute complete guidelines.
+<p>You will find more quick tips on the <a href="https://www.w3.org/International/quicktips/">
+Internationalization quick tips</a> page. Remember that these tips do not constitute 
+complete guidelines.</p>
 
 <h4>Internationalization checker</h4>
 
-When you start creating Web pages, you can also run them through the
-W3C&apos;s [Internationalization
-Checker](https://validator.w3.org/i18n-checker/).  If there are
-internationalization problems with your page, this checker explains what
-they are and what to do about it.
-
+<p>When you start creating Web pages, you can also run them through the
+W3C&apos;s <a href="https://validator.w3.org/i18n-checker/">Internationalization
+Checker</a>.  If there are internationalization problems with your page, this 
+checker explains what they are and what to do about it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-1">1.1 Introduction - Module 1: Intro to JavaScript (1:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1982,7 +1969,7 @@ attribute id=&quot;hobbyTitle&quot;.</p>
 
 <p>In that case, we use a funny char font called &apos;caveat&apos; we took from
 the Google font service
-(see [fonts.google.com](https://fonts.google.com/)), and in order to be
+(see <a href="https://fonts.google.com/">fonts.google.com</a>), and in order to be
 able to use it in a font-family CSS property, we included its definition
 using a &lt;link&gt; tag in the HTML part of the document:</p>
 
@@ -2058,8 +2045,8 @@ open this example in Plunker</a>)</p>
 Note that when you use an online IDE, you usually type/paste the CSS
 rules in a &quot;CSS tab&quot; in the online editor, and it hides all the
 &quot;plumbing&quot; for you (except the more complete ones such
-as [Plunker](https://plnkr.co/) or [AWS Cloud9](https://c9.io/) that
-enable you to manage files in the cloud).
+as <a href="https://plnkr.co/">Plunker</a> or <a href="https://c9.io/">
+AWS Cloud9</a> that enable you to manage files in the cloud).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-6">1.2.6 Live coding video: mixing HTML and CSS (3:49)</h3>
@@ -2359,12 +2346,12 @@ Maps and eBay.</p>
 </p>
 
 JavaScript was born in 1995 as part of the work of Brendan Eich&apos;s team
-at [Netscape](https://en.wikipedia.org/wiki/Netscape) (the ancestor
-of [Mozilla](https://www.mozilla.org/)). At that time, Netscape (a
+at <a href="https://en.wikipedia.org/wiki/Netscape">Netscape</a> (the ancestor
+of <a href="https://www.mozilla.org/">Mozilla</a>). At that time, Netscape (a
 hero), in association with Sun MicroSystems (another hero), provided
-popular server and client-oriented solutions ([Netscape
-Navigator](https://en.wikipedia.org/wiki/Netscape_Navigator), ancestor
-of [Firefox](https://en.wikipedia.org/wiki/Firefox)) which depended on
+popular server and client-oriented solutions (
+<a href="https://en.wikipedia.org/wiki/Netscape_Navigator">Netscape Navigator</a>, ancestor
+of <a href="https://en.wikipedia.org/wiki/Firefox">Firefox</a>) which depended on
 Java. (Sun Microsystems, the company that created the Java programming
 language, no longer exists, having been bought by Oracle Corporation in
 2009.)
@@ -2544,19 +2531,20 @@ programming.</p>
 means that the code is converted into a machine language at, or just
 before, runtime. The most popular JavaScript engines are:</p>
 
--   [SpiderMonkey](https://spidermonkey.dev/) (included in Mozilla Firefox)
-
--   [JavaScriptCore](https://developer.apple.com/reference/javascriptcore) (included
-    in Apple Safari)
-
--   [Chrome V8](https://developers.google.com/v8/) (included in Google
-    Chrome, in the Node.js server)
+<ul>
+  <li><a href="https://spidermonkey.dev/">SpiderMonkey</a> (included in Mozilla Firefox)</li>
+  <li><a href="https://developer.apple.com/reference/javascriptcore">
+    JavaScriptCore</a> (included in Apple Safari)</li>
+  <li><a href="https://developers.google.com/v8/">
+    Chrome V8</a> (included in Google Chrome, in the Node.js server)</li>
+</ul>
 
 <h4>External resources</h4>
 
--   [History of JavaScript on a
-    timeline](https://blog.risingstack.com/history-of-javascript-on-a-timeline/)
-
+<ul>
+  <li><a href="https://blog.risingstack.com/history-of-javascript-on-a-timeline/">
+    History of JavaScript on a timeline</a></li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-9">1.2.9 Discussion and project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2652,6 +2640,8 @@ here.</p>
   title=""
   alt="." />
 </p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ">CodePen</a></h6>
+
 <p>Okay, we can just look at the HTML part and zoom in a little bit.
 What do we see? We can see that it uses 2 libraries here between
 &lt;script&gt; and &lt;/script&gt; elements. This is how we can insert in the
@@ -2659,7 +2649,7 @@ document an external JavaScript file. In that case, it&apos;s a remote
 JavaScript file because we are downloading it using http. It uses this
 &quot;d3js&quot; JavaScript library that is located at &quot;d3js.org&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 98. js data driven documents (d3) library (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 98. js data driven documents (d3) library (72) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.png?raw=true"
   style="width:40%"
@@ -2862,8 +2852,8 @@ on the CodePen example), we see:</p>
 5.      <b>color: 'red'</b>
 6.    <b>}&rbrack;,</b>
 7.    <b>grid: true,</b>
-8.      <b>yAxis:,</b>
-9.      <b>xAxis:,</b>
+8.      <b>yAxis:{domain: &lbrack;-1, 1&rbrack;},</b>
+9.      <b>xAxis:{domain: &lbrack;0, 2&ast;Math.PI&rbrack;}</b>
 10. <b>}</b>);
 </pre>
 
@@ -3011,7 +3001,7 @@ are also objects.</p>
 3.  }
 </code>
 
-The data object is even more complicated:
+<p>The data object is even more complicated:</p>
 
 <pre>
 1.  data: &lbrack;{
@@ -3056,7 +3046,6 @@ cos(x) to our example, with a different color:</p>
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image094.png){width="6.5in" height="3.18125in"} -->
 <!-- page 82 -->
 
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KWPyeX">CodePen: JS Graph, #2</a></h6>
@@ -3480,7 +3469,6 @@ some content to this document
   title="Example 2: JS in the .html file, but this time in head"
   alt="Example 2: JS in the .html file, but this time in head." />
 </p>
-<!-- ![](./images/image100.png){width="6.5in" height="3.1881944444444446in"} -->
 
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/apBMYJ">
 CodePen: Plotting Functions in JS</a></h6>
@@ -3505,7 +3493,7 @@ A typical example:
 1.  <head>
 2.    ...
 3.    <link rel="stylesheet" href="css/style.css">
-4.    **<script src="js/script.js"></script>**
+4.    <b><script src="js/script.js"></script></b>
 5.  </head>
 ```
 
@@ -3528,16 +3516,16 @@ A typical example:
 
 <h5>Example that uses more than one JavaScript file:</h5>
 
-<pre><code>
-1.  <head>
+<pre>
+1.  &lt;head&gt;
 2.    ...
-3.    <link rel="stylesheet" href="css/style.css">
-4.    **<script src="js/script1.js"></script>**
-5.    **<script src="js/script2.js"></script>**
-6.    **<script src="js/anotherOne.js"></script>**
-7.    **...**
-8.  </head>
-</code></pre>
+3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
+4.    <b>&lt;script src="js/script1.js"&gt;&lt;/script&gt;</b>
+5.    <b>&lt;script src="js/script2.js"&gt;&lt;/script&gt;</b>
+6.    <b>&lt;script src="js/anotherOne.js"&gt;&lt;/script&gt;</b>
+7.    <b>...</b>
+8.  &lt;/head&gt;
+</pre>
 
 <h4>A typical HTML/CSS/JS project folder structure, when working with external local files</h4>
 
@@ -3552,7 +3540,7 @@ JavaScript files in a js subfolder.
   alt="A typical HTML/CSS/JS project folder structure." />
 </p>
 
-In this example, we have just one CSS file and one JavaScript file:
+<p>In this example, we have just one CSS file and one JavaScript file:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 122. a typical html/css/js project folder, folder expanded (96) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3566,62 +3554,67 @@ In this example, we have just one CSS file and one JavaScript file:
 
 <pre>
 1.  ...
-2.  <head>
+2.  &lt;head&gt;
 3.    ...
-4.    <b><link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;></b>
-5.    <b><script src=&quot;js/script.js&quot;></script></b>
-6.  </head>
-7.  <body>
-8.    <h1>Example 3: JavaScript and CSS in local files!</h1>
-9.    <button <b>onclick="addSomeText();</b>">Click me to call a
+4.    <b>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;</b>
+5.    <b>&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;</b>
+6.  &lt;/head&gt;
+7.  &lt;body&gt;
+8.    &lt;h1&gt;Example 3: JavaScript and CSS in local files!&lt;/h1&gt;
+9.    &lt;button &lt;b&gt;onclick="addSomeText();&lt;/b&gt;"&gt;Click me to call a
         JavaScript function that will add some content to this
-        document</button>
-10. </body>
-11. </html></pre>
+        document&lt;/button&gt;
+10. &lt;/body&gt;
+11. &lt;/html&gt;
+</pre>
 
 Content of the js/script.js file (JavaScript file):
 
-<pre>1.  function addSomeText() {
-2.    document.body.innerHTML += "<p>Function executed!</p>";
-3.  }</pre>
+<pre>
+1.  function addSomeText() {
+2.    document.body.innerHTML += "&lt;p&gt;Function executed!&lt;/p&gt;";
+3.  }
+</pre>
 
-Content of the style.css file:
+<p>Content of the style.css file:</p>
 
-<pre>1.  p {
+<pre>
+1.  p {
 2.    color:green;
-3.  }</pre>
+3.  }
+</pre>
 
-How to run this example:
+<p>How to run this example:</p>
 
-1.  Download the zip file of this
-    project: [Example_3.zip](https://courses.edx.org/assets/courseware/v1/cd559ef3ce2c06e05cc68ef7cdef9a16/asset-v1:W3Cx+JS.0x+2T2022+type@asset+block/Example_3.zip)
-
-2.  Unzip/unarchive it somewhere
-
-3.  Double click the index.html file, this will open your Web browser
-    and load the index.html file.
-
-4.  Click on the button in the page
+<ol>
+  <li>Download the zip file of this project: 
+    <a href="https://courses.edx.org/assets/courseware/v1/cd559ef3ce2c06e05cc68ef7cdef9a16/asset-v1:W3Cx+JS.0x+2T2022+type@asset+block/Example_3.zip">Example_3.zip</a></li>
+  <li>Unzip/unarchive it somewhere</li>
+  <li>Double click the index.html file, this will open your Web browser
+    and load the index.html file.</li>
+  <li>Click on the button in the page</li>
+</ol>
 
 <h4>Example #3: use external references to JavaScript files/libraries located on the Web</h4>
 
-External JavaScript libraries (they are just big JS files) can be also
-referenced with a full URL, like in this example:
+<p>External JavaScript libraries (they are just big JS files) can be also
+referenced with a full URL, like in this example:</p>
 
-<pre>1.  <script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;></script></pre>
+<pre>
+1.  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;&gt;&lt;/script&gt;
+</pre>
 
-Here, we just included in our HTML document the
-excellent [paperJS](http://paperjs.org/) library that can be used to
+<p>Here, we just included in our HTML document the
+excellent <a href="http://paperjs.org/">paperJS</a> library that can be used to
 make fancy animations in the HTML canvas element - we will use it later
-in the course. 
+in the course.</p>
 
-Once the library is included, the JavaScript code you will write can
+<p>Once the library is included, the JavaScript code you will write can
 call functions located in this library. This &quot;reuse existing&quot; work
-made by others is really common when working on JavaScript projects.
+made by others is really common when working on JavaScript projects.</p>
 
-Here is a running example that uses the paperJS library, included using
-an external URL:
-
+<p>Here is a running example that uses the paperJS library, included using
+an external URL:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 124.  (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3634,25 +3627,23 @@ an external URL:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 125. how to debug javascript (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 125. how to debug javascript (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image125.png?raw=true"
   style="width:65%"
   title="How to debug JavaScript"
   alt="How to debug JavaScript." />
 </p>
-
-<!------------------------------------------------------------------------------------------------>
-Hi, every programmer will make errors. So is very important that you learn how to debug
+<p>Hi, every programmer will make errors. So is very important that you learn how to debug
 your JavaScript programs, how to see your errors, how to write messages
-for debugging, tracing what is going on, etc.
+for debugging, tracing what is going on, etc.</p>
 
-Every browser comes with a very powerful set of tools called the devtools.
+<p>Every browser comes with a very powerful set of tools called the devtools.</p>
 
-With my Mac, I can use command "alt + I". So the thing we will going to use
+<p>With my Mac, I can use command "alt + I". So the thing we will going to use
 the most is the console. A console loads problems or errors.
 So, if I can clear the messages from here and this is the place where I will see
-the different error messages I've got in my code.
+the different error messages I've got in my code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 126.  (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3662,8 +3653,8 @@ the different error messages I've got in my code.
   alt="." />
 </p>
 
-Here is an example in JsBin. So, you can click here to see the console or
-it’s the same thing you can get here.
+<p>Here is an example in JsBin. So, you can click here to see the console or
+it’s the same thing you can get here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 127.  (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3673,14 +3664,14 @@ it’s the same thing you can get here.
   alt="." />
 </p>
 
-If I type something here: console.log("hello"). So this is the instruction
+<p>If I type something here: console.log("hello"). So this is the instruction
 you will use the most for printing error messages in the dev toolconsole.
 If I execute it, it prints "hello", and I can see also in the browser built 
-in console: "hello".
+in console: "hello".</p>
 
-This just a comfortable way to display error messages. If I make some errors, 
+<p>This just a comfortable way to display error messages. If I make some errors, 
 here I've got a script that will display, as soon the page is loaded,
-"Some JavaScript code has been executed". 
+"Some JavaScript code has been executed".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 128.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3689,7 +3680,7 @@ here I've got a script that will display, as soon the page is loaded,
   title=""
   alt="." />
 </p>
-If I run the code, here, it displays "Some JavaScript code has been executed". 
+<p>If I run the code, here, it displays "Some JavaScript code has been executed".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 129.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3698,14 +3689,14 @@ If I run the code, here, it displays "Some JavaScript code has been executed".
   title=""
   alt="." />
 
-If there is a mistake, if I make an error here,
+<p>If there is a mistake, if I make an error here,
 for example, I write console with two "l". I can see, in red, some messages:
- "consolle is not defined", bla, bla, bla...
+ "consolle is not defined", bla, bla, bla...</p>
  
-When you use some online tools like JsBin or CodePen, and so on, it's a bit difficult to
+<p>When you use some online tools like JsBin or CodePen, and so on, it's a bit difficult to
 debug your code because you are debugging at the same time the code of the tool itself that
 is written in JavaScript too. So each each these tools comes with a way to
-run your code in what we decode ‘standalone mode’ or ‘debug mode’.
+run your code in what we decode ‘standalone mode’ or ‘debug mode’.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 130.  (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3714,12 +3705,12 @@ run your code in what we decode ‘standalone mode’ or ‘debug mode’.
   title=""
   alt="." />
 
-With JsBin, I click on the small black arrow, here.
-And if I open the built-in browser console, I can see the error message.
+<p>With JsBin, I click on the small black arrow, here.
+And if I open the built-in browser console, I can see the error message.</p>
 
-And here, if I click on the link on the right, it will just show the line where my program
+<p>And here, if I click on the link on the right, it will just show the line where my program
 made a mistake display, so, as an error. So here, I can see that console
-needs only one "l", I can fix that.
+needs only one "l", I can fix that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 131.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3787,49 +3778,49 @@ your own (use the console.log(string) JavaScript function in the
 JavaScript code embedded in your html page). In the console, you will be
 able to type any JavaScript command.
 
-Let&apos;s look at this example below (or online as a [JS
-Bin)](http://jsbin.com/moqimuz/edit?html,console,output):
+<p>Let&apos;s look at this example below (or online as a 
+<a href="http://jsbin.com/moqimuz/edit?html,console,output">JS Bin)</a>:</p>
 
-```
-<!DOCTYPE html>
-<html lang=&quot;en>
-<head>
-<meta charset=utf-8 />
-<title>Web Audio API</title>
-<script>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&gt;
+&lt;head&gt;
+&lt;meta charset=utf-8 /&gt;
+&lt;title&gt;Web Audio API&lt;/title&gt;
+&lt;script&gt;
 console.log(&quot;Some JavaScript code has been executed&quot;);
-</script>
-</head>
-<body>
-<h1>JavaScript debugging using the dev tool console</h1>
-</body>
-</html>
-```
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;JavaScript debugging using the dev tool console&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
-The simplest way to add JavaScript code in an HTML page is to use
-the &lt;script&gt;&hellip;&lt;/script&gt; element.
+<p>The simplest way to add JavaScript code in an HTML page is to use
+the &lt;script&gt;&hellip;&lt;/script&gt; element.</p>
 
-<b>The code in this example is executed sequentially when the page is
+<p><b>The code in this example is executed sequentially when the page is
 loaded</b>: the JavaScript code is executed before the browser could see
 the rest of the page (as the &lt;script&gt;&lt;/script&gt; is located before
-the &lt;body&gt;).
+the &lt;body&gt;).</p>
 
-The H1 element, for example, does not exist in the Document Object
+<p>The H1 element, for example, does not exist in the Document Object
 Model, and has not yet been displayed when the JavaScript code is
 executed. If we move the &lt;script&gt;&lt;/script&gt; at the end of the
 document, then the H1 would have been built before the JavaScript code
-is executed.
+is executed.</p>
 
-The only line of code we have is console.log(&quot;Some JavaScript code has
-been executed&quot;);
+<p>The only line of code we have is console.log(&quot;Some JavaScript code has
+been executed&quot;);</p>
 
-This means &quot;display in the JavaScript console the message&hellip;&quot;. If we
+<p>This means &quot;display in the JavaScript console the message&hellip;&quot;. If we
 open the console tab provided by jsbin.com in a dedicated tab (that
 redirects all console.log() messages), and re-execute the page (just
 type a space at the end of a line to re-render the page and display the
 message in the console), we see the message in the console tab, as well
 as in the dev. tools console. This is illustrated by the image below
-(or [online](https://jsbin.com/moqimuz/edit?html,console,output)):
+(or <a href="https://jsbin.com/moqimuz/edit?html,console,output">online</a>):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 133. snapshot of a javascript console view (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4363,10 +4354,10 @@ work with var):
 ```
 let a;
 let thisIsAVariable;
-let and_this_too; // but **does not respect the usual naming convention**
+let and_this_too; // but <b>does not respect the usual naming convention</b>
 let mix12three;
 // invalid!
-let 2three4five; // **can't start with a digit!**
+let 2three4five; // <b>can't start with a digit!</b>
 let a = 1
 let v1, v2, v3 = 'hello', v4 = 4, v5;
 // Beware with lowercase / uppercase
@@ -5498,8 +5489,8 @@ the index value followed by &quot;&rbrack;&quot;, as shown in these examples:
 ```
 1.  var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday', 'Saturday', 'Sunday'];
 2.  undefined
-3.  daysOfWeek.**length**
-4.  **7**
+3.  daysOfWeek.<b>length</b>
+4.  <b>7</b>
 ```
 
 Indeed, there are seven days in a week and the daysOfWeek array
@@ -5515,21 +5506,21 @@ If you want to add a new element at the end of an array, use the index
 equal to the length of the array
 
 ```
-1.  **
+1.  <b>
     var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 
-	  'Thursday', 'Friday';, 'Saturday'];**
-2.  **undefined**
-3.  **daysOfWeek.length**
-4.  **6**
-5.  **daysOfWeek[6]**
-6.  **undefined**
-7.  **// NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is
-    0 // last 6-1 = 5**
-8.  > daysOfWeek**[6] = 'Sunday'**
-9.  **"Sunday"**
-10. **daysOfWeek.length**
-11. **7**
-12. **// Sunday, the 7th day of week is at index 6 !**
+	  'Thursday', 'Friday';, 'Saturday'];</b>
+2.  <b>undefined</b>
+3.  <b>daysOfWeek.length</b>
+4.  <b>6</b>
+5.  <b>daysOfWeek[6]</b>
+6.  <b>undefined</b>
+7.  <b>// NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is
+    0 // last 6-1 = 5</b>
+8.  > daysOfWeek<b>[6] = 'Sunday'</b>
+9.  <b>"Sunday"</b>
+10. <b>daysOfWeek.length</b>
+11. <b>7</b>
+12. <b>// Sunday, the 7th day of week is at index 6 !</b>
 ```
 
 #### Arrays are JavaScript objects!
@@ -5538,8 +5529,8 @@ Well, this is not so important for the moment, but look:
 
 ```
 1.  > var a = [];
-2.  > **typeof a;**
-3.  **"object"**
+2.  > <b>typeof a;</b>
+3.  <b>"object"</b>
 4.  > var a = [1,2,3];
 5.  > a
 6.  [1, 2, 3]
@@ -5565,7 +5556,7 @@ the moment, let&apos;s focus on the most useful features&hellip;
 2.  undefined
 3.  > daysOfWeek.length
 4.  6
-5.  **> daysOfWeek.push('Sunday');**
+5.  <b>> daysOfWeek.push('Sunday');</b>
 6.  7
 7.  > daysOfWeek
 8.  ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
@@ -5853,8 +5844,8 @@ Example :
 ```
 1.  var x = 2;
 2.   
-3.  console.log(**"The value of x is " + x + " and it';s ok like
-    that."**);
+3.  console.log(<b>"The value of x is " + x + " and it';s ok like
+    that."</b>);
 ```
 
 We typed this code in the devtool console to check what it does:
@@ -6935,7 +6926,7 @@ commented - please remove comments and try to understand the results).
 -   logical operators ( <b>! && &vert;&vert;</b> )
 
 -   comparison operators
-    ( <b>==</b>, **===**, **>**, **>=**, **&lt;**, **&lt;=** )
+    ( <b>==</b>, <b>===</b>, <b>></b>, <b>>=</b>, <b>&lt;</b>, <b>&lt;=</b> )
 
 -   any values or expressions which can be converted to boolean
 
@@ -6959,24 +6950,24 @@ commented - please remove comments and try to understand the results).
 7.  // num equals 0
 </pre>
 
-**Reminder:**
+<b>Reminder:</b>
 
 The following values will evaluate to false:
 
--   **false**
+-   <b>false</b>
 
--   **undefined**
+-   <b>undefined</b>
 
--   **null**
+-   <b>null</b>
 
--   **0**
+-   <b>0</b>
 
--   **NaN**
+-   <b>NaN</b>
 
--   **&quot;&quot;** (empty string)
+-   <b>&quot;&quot;</b> (empty string)
 
-**All other values, including all objects, evaluate to true when passed
-to a conditional statement.**
+<b>All other values, including all objects, evaluate to true when passed
+to a conditional statement.</b>
 
 <h4>The if-then-else ternary operator</h4>
 
@@ -6994,7 +6985,7 @@ to a conditional statement.**
 7.  }
 </pre>
 
-**Explanation**: You can replace this &quot;if-then-else&quot; statement with
+<b>Explanation</b>: You can replace this &quot;if-then-else&quot; statement with
 the ternary operator that uses a syntax with &quot;?&quot; and &quot;:&quot;
 
 <pre>
@@ -7003,7 +6994,7 @@ the ternary operator that uses a syntax with &quot;?&quot; and &quot;:&quot;
 3.  max = (min &tl; 10)? min+10 : min;
 </pre>
 
-**Line 3** can be read as if (min &lt; 10) then max = min+10, else max =
+<b>Line 3</b> can be read as if (min &lt; 10) then max = min+10, else max =
 min. The &quot;then&quot; part is after the &quot;?&quot; and the &quot;else&quot; part is after
 the &quot;:&quot; part.
 
@@ -7019,7 +7010,7 @@ without curly braces on the Web: what does this mean?
 
 Here are two versions of the same code.
 
-**Version 1: **no curly braces
+<b>Version 1: </b>no curly braces
 
 <pre>
 1.  <b>if</b> (a &gt; 2)
@@ -7028,7 +7019,7 @@ Here are two versions of the same code.
 4.      result = 'a is not bigger than 2';
 </pre>
 
-**Version 2: **with curly braces for delimiting the &quot;then&quot; and
+<b>Version 2: </b>with curly braces for delimiting the &quot;then&quot; and
 &quot;else&quot; blocks
 
 <pre>
@@ -7049,8 +7040,8 @@ pressing the enter key. And you can add some extra lines of code without
 worrying about adding curly braces because you broke the &quot;1 line
 statement rule&quot;).
 
-**So it is strongly recommended that you always use if-statements**
-**enclosed in curly braces. **
+<b>So it is strongly recommended that you always use if-statements</b>
+<b>enclosed in curly braces. </b>
 
 Of course, one-line if-statements like this :
 
@@ -7061,12 +7052,12 @@ Of course, one-line if-statements like this :
 &hellip;are really fast to write, but if you want to add a second statement
 later it will become more time consuming.
 
-**Conclusion: always use curly braces!**
+<b>Conclusion: always use curly braces!</b>
 
 #### The switch statement
 
 In order to avoid having a series of ifs and elses, it is possible to
-use a **switch** statement. 
+use a <b>switch</b> statement. 
 
 The syntax of the switch statement is:
 
@@ -11038,7 +11029,7 @@ Extract from the source code:
 <h5>HTML:</h5>
 
 ```
-<button onclick=&quot;**displayListOfCheckedItems();**&quot;>
+<button onclick=&quot;<b>displayListOfCheckedItems();</b>&quot;>
     Show Checked items
 1.  </button>
 2.  <br>
@@ -11065,10 +11056,10 @@ Extract from the source code:
 JavaScript code: we select all elements of type input that have an
 attribute checked equal to true, and located inside an element whose id
 is &quot;fruits&quot;. Notice the use of document.querySelectorAll, for
-selecting more than one element (**line 6**), then, we iterate on the
-list (**line 8**) and concatenate to the string
+selecting more than one element (<b>line 6</b>), then, we iterate on the
+list (<b>line 8</b>) and concatenate to the string
 variable listOfSelectedValues the value of each element (located in
-its value attribute). This is done in **line 9**.
+its value attribute). This is done in <b>line 9</b>.
 
 <b>Lines 9-12</b> use the parentNode property of the selected nodes in
 order to change the color of the &lt;li&gt; (parents of &lt;input&gt; elements
@@ -11110,10 +11101,10 @@ by this list:
 <h5>HTML code:</h5>
 
 ```
-1.  <button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);**&quot;>Change
+1.  <button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);<b>&quot;>Change
     backgrounds of p under a given element known by id</button>
 2.  <br>
-3.  <div <b>id=&quot;firstDiv&quot;**>
+3.  <div <b>id=&quot;firstDiv&quot;</b>>
 4.  <p>First paragraph.</p>
 5.  <p>Second paragraph.</p>
 6.  </div>
@@ -11294,7 +11285,7 @@ collection of class names:
 
 ```
 1.  var elem= document.querySelector(&quot;#id1&quot;);
-2.  var allClasses = elem.<b>classList**;
+2.  var allClasses = elem.<b>classList</b>;
 ```
 
 <h4>The classList API
@@ -11377,11 +11368,11 @@ list.forEach(function(elm) {
 >
 > elm.checked = false;
 >
-> <b>// remove CSS decoration**
+> <b>// remove CSS decoration</b>
 >
-> <b>var liParent = elm.parentNode;**
+> <b>var liParent = elm.parentNode;</b>
 >
-> <b>liParent.classList.remove(&quot;checked&quot;);**
+> <b>liParent.classList.remove(&quot;checked&quot;);</b>
 12. });
 13. }
 ```
@@ -11406,7 +11397,7 @@ or to insert a whole set of HTML elements inside another one.
 
 <pre><code>var elem = document.querySelector('#myElem');
 elem.innerHTML = 'Hello '; // replace content by Hello
-elem.innerHTML += '**Michel Buffa**', // append at the end
+elem.innerHTML += '<b>Michel Buffa</b>', // append at the end
 // Michel Buffa in bold
 elem.innerHTML = 'Welcome' + elem.innerHTML; // insert Welcome
 // at the beginning
