@@ -1179,7 +1179,7 @@ time):</p>
 
 <h5>HTML:</h5>
 
-<pre><code>&lt;body&gt;
+<pre>&lt;body&gt;
   &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
   &lt;p&gt;
   It was the best of times, it was the worst of times, . . . .
@@ -1189,7 +1189,7 @@ time):</p>
   . . . it is a far, far better rest
   that I go to than I have ever known.
   &lt;/p&gt;
-&lt;/body&gt;</pre></code>
+&lt;/body&gt;</pre>
 
 If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:
@@ -1584,9 +1584,9 @@ tags. Usually these tags represent an element that is completely described by
 its attributes, and thus there is no need for other content.  So if you see 
 something like this:</p>
 
-```
-> <img src="https://goo.gl/pVxY0e" alt="Floating Flower"/>
-```
+<pre>
+&lt; &lt;img src="https://goo.gl/pVxY0e" alt="Floating Flower"/&gt;
+</pre>
 
 <p>&hellip; then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won&apos;t see any other
@@ -4213,10 +4213,10 @@ just give the name of the variable.</b>
 
 <h4>Example:</h4>
 
-```
+<pre>
 var myVar;
 let x;
-```
+</pre>
 
 The first letter of a variable can only be &quot;&dollar;&quot;, &quot;&lowbar;&quot;, &quot;a&quot; to
 &quot;z&quot;, or &quot;A&quot; to &quot;Z&quot;. The other characters in a name must be any of
@@ -4238,12 +4238,12 @@ called &quot;the assignment operator&quot;. 
 (notice at <b>line 4</b> one way to introduce comments in your code: start
 a line with &quot;//&quot;!)
 
-```
+<pre>
 var myValue;
 myValue = 78;
 // With the ES2015 syntax. BTW, lines staring with // are comments!
 let myNumber = 1.34;
-```
+</pre>
 
 At <b>line 2</b>, we are not saying that &quot;myValue&quot; and &quot;78&quot; are the
 same, we&apos;re saying &quot;hey, I want to store the value 78, and I&apos;m
@@ -4260,11 +4260,11 @@ comma. Always end each instruction line with a semi colon.
 
 <h4>Example:</h4>
 
-```
+<pre>
 var myNumber1, myNumber2 = 34, myNumber3;
 // Or with the ES2015 syntax, you can also use &quot;let&quot;
 let x = 1, y = 3, z = 12;
-```
+</pre>
 
 <h4>Try the devtool console - you can type code in there too!</h4>
 
@@ -11196,7 +11196,7 @@ Other examples that use more complex selectors:
 13. var p = div.querySelector(&quot;p&quot;);
 ```
 
-### Accessing HTML elements with the DOM API (old fashioned) {#accessing-html-elements-with-the-dom-api-old-fashioned .unnumbered}
+### Accessing HTML elements with the DOM API (old fashioned)
 
 These methods are from the DOM API and can all be replaced by the
 querySelector and querySelectorAll methods that we&apos;ve discussed. They
@@ -11328,14 +11328,14 @@ object and by providing a set of methods to manipulate its content.
 The classList property applies to an HTML element, and returns a
 collection of class names:
 
-```
+<pre>
 1.  var elem= document.querySelector(&quot;#id1&quot;);
 2.  var allClasses = elem.<b>classList</b>;
-```
+</pre>
 
 <h4>The classList API
 
-```
+<pre>
 3.  The list of methods usable on a classList object are add(),
     remove(), toggle() and contains().
 4.  // By default, start without a class in the div: <div class=&quot;&quot;/>
@@ -11352,7 +11352,7 @@ collection of class names:
 15. div.classList.toggle(&apos;foo&apos;); // class set to <div
     class=&quot;foo&quot;/>
 16. div.classList.toggle(&apos;foo&apos;); // class set to <div class=&quot;&quot;/>
-```
+</pre>
 
 ### Another example: add and remove multiple CSS properties in a list of checkboxes {#another-example-add-and-remove-multiple-css-properties-in-a-list-of-checkboxes .unnumbered}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11432,7 +11432,7 @@ we&apos;ve seen, and perhaps introduce a few new things&hellip;
 
 Properties that can be used to change the value of selected DOM node
 
-### Using the innerHTML property {#using-the-innerhtml-property .unnumbered}
+### Using the innerHTML property
 
 This property is useful when you want to change all the children of a
 given element. It can be used to modify the text content of an element,
@@ -11440,13 +11440,15 @@ or to insert a whole set of HTML elements inside another one.
 
 <b>Typical use:</b>
 
-<pre><code>var elem = document.querySelector('#myElem');
+<pre>
+var elem = document.querySelector('#myElem');
 elem.innerHTML = 'Hello '; // replace content by Hello
 elem.innerHTML += '<b>Michel Buffa</b>', // append at the end
 // Michel Buffa in bold
 elem.innerHTML = 'Welcome' + elem.innerHTML; // insert Welcome
 // at the beginning
-elem.innerHTML = ''; // empty the elem</code></pre>
+elem.innerHTML = ''; // empty the elem
+</pre>
 
 <h4>Using the textContent property
 
@@ -11464,27 +11466,27 @@ codePen, open the devtool console):
   alt="." />
 </p>
 
-HTML
+<h5>HTML:</h5>
 
-<pre><code>
-1.  <!DOCTYPE html>
-2.    <html lang=&quot;en&quot;>
-3.    <head>
-4.      <meta charset=&quot;utf-8&quot;>
-5.      <meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-6.      <title>Modifying content of selected DOM nodes</title>
-7.    </head>
-8.    <body>
-9.      <h1>Open the console and look at the JavaScript code!</h1>
-10.     <p id=&quot;first&quot;>first paragraph</p>
-11.     <p id=&quot;second&quot;><em>second</em> paragraph</p>
-12.   </body>
-13. </html>
-</code></pre>
+<pre>
+1.  &lt;!DOCTYPE html&gt;
+2.    &lt;html lang=&quot;en&quot;&gt;
+3.    &lt;head&gt;
+4.      &lt;meta charset=&quot;utf-8&quot;&gt;
+5.      &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+6.      &lt;title&gt;Modifying content of selected DOM nodes&lt;/title&gt;
+7.    &lt;/head&gt;
+8.    &lt;body&gt;
+9.      &lt;h1&gt;Open the console and look at the JavaScript code!&lt;/h1&gt;
+10.     &lt;p id=&quot;first&quot;&gt;first paragraph&lt;/p&gt;
+11.     &lt;p id=&quot;second&quot;&gt;&lt;em&gt;second&lt;/em&gt; paragraph&lt;/p&gt;
+12.   &lt;/body&gt;
+13. &lt;/html&gt;
+</pre>
 
 JS
 
-```
+<pre>
 1.  window.onload = init;
 2.  function init() {
 3.  // DOM is ready
@@ -11500,14 +11502,14 @@ JS
 13. console.log(secondP.textContent);
 14. console.log(secondP.innerHTML);
 15. }
-```
+</pre>
 
 ### Extract from the HTML code:
 
-```
-<p id="first">first paragraph</p>
-<p id="second"><em>second</em> paragraph</p>
-```
+<pre>
+&lt;p id="first"&gt;first paragraph&lt;/p&gt;
+&lt;p id="second"&gt;&lt;em&gt;second&lt;/em&gt; paragraph&lt;/p&gt;
+</pre>
 
 JavaScript code: the comments after lines that start
 with console.log correspond to what is printed in the devtool debug
@@ -11519,7 +11521,7 @@ it. However, when we modify the textContent value, it also replaces the
 text decoration (the &lt;em&gt; is removed), this is done at <b>lines
 16-20</b>.
 
-```
+<pre>
 1.  window.onload = init;
 2.   
 3.  function init() {
@@ -11543,7 +11545,7 @@ text decoration (the &lt;em&gt; is removed), this is done at <b>lines
 19.    console.log(secondP.innerHTML);   // "Hello I&apos;m the second
 20.                                      // paragraph"
 21. }
-```
+</pre>
 
 ### Changing the attributes of selected elements
 
@@ -11563,41 +11565,41 @@ This example shows some of the things we can do:
 
 <h5>HTML:</h5>
 
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>Modifying content of selected DOM nodes</title>
-</head>
-<body>
-<h1>Try these</h1>
-<p>What is your name: <input type="text" id="name"
-  value="Michel"> <button onclick="resetName();">Reset (click to
-  empty the input field)</button></p>
-<p>Pick a color: <input id="color" type="color"
-  value='#FF0000'><button onclick="setToGreen();">Set color chooser
-  to green</button></p>
-<p>In the next example, click on the input field and use the small 
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;meta name="viewport" content="width=device-width"&gt;
+&lt;title&gt;Modifying content of selected DOM nodes&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Try these&lt;/h1&gt;
+&lt;p&gt;What is your name: &lt;input type="text" id="name"
+  value="Michel"&gt; &lt;button onclick="resetName();"&gt;Reset (click to
+  empty the input field)&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;Pick a color: &lt;input id="color" type="color"
+  value='#FF0000'&gt;&lt;button onclick="setToGreen();"&gt;Set color chooser
+  to green&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;In the next example, click on the input field and use the small 
   vertical arrows to increase the value. Notice that the numbers go 1 by 1
   and that the maximum value is 20. Then click the button and do the same
-  thing!</p>
-<p>Pick a number between 0 and 20: <input id="number"
-  type="number" min=0 max=20 step = 1 value='10'><button
-  onclick="changeStep();">Change step and max attribute values
-  </button></p>
-<p>Click the next image to change its url and size:</p>
-<img
+  thing!&lt;/p&gt;
+&lt;p&gt;Pick a number between 0 and 20: &lt;input id="number"
+  type="number" min=0 max=20 step = 1 value='10'&gt;&lt;button
+  onclick="changeStep();"&gt;Change step and max attribute values
+  &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;Click the next image to change its url and size:&lt;/p&gt;
+&lt;img
   src="https://www.paris-web.fr/2013/assets_c/2013/08/michel-buffa-thumb-143x143-372.jpg"
-  onclick="changeAndResize(this)" alt="Michel Buffa">
-</body>
-</html>
-```
+  onclick="changeAndResize(this)" alt="Michel Buffa"&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 function resetName() {
 var inputField = document.querySelector("#name");
 inputField.value = "";
@@ -11617,7 +11619,7 @@ img.src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.
 img.width=250;
 img.style.border = "4px solid red";
 }
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-6">2.5.6 Adding new elements to the DOM</h3>
@@ -11628,26 +11630,26 @@ To add a new element to the HTML DOM, you must create the element
 
 #### Example:
 
-```
-<!DOCTYPE html>
-<html>
-<body>
-<h2>JavaScript HTML DOM</h2>
-<p>Add a new HTML Element.</p>
-<div id="div1">
-<p id="p1">This is a paragraph.</p>
-<p id="p2">This is another paragraph.</p>
-</div>
-<script>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+&lt;h2&gt;JavaScript HTML DOM&lt;/h2&gt;
+&lt;p&gt;Add a new HTML Element.&lt;/p&gt;
+&lt;div id="div1"&gt;
+&lt;p id="p1"&gt;This is a paragraph.&lt;/p&gt;
+&lt;p id="p2"&gt;This is another paragraph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;script&gt;
 const para = document.createElement("p");
 const node = document.createTextNode("This is new.");
 para.appendChild(node);
 const element = document.getElementById("div1");
 element.appendChild(para);
-</script>
-</body>
-</html>
-```
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
