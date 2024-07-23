@@ -682,16 +682,15 @@ define key parts of what actually makes the World Wide Web work.</p>
 
 <p><a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> wrote
 a <a href="https://www.w3.org/History/1989/proposal.html">proposal</a> in 1989 for
-a system called the World Wide Web. He then created the first Web
-browser, server, and Web page. He wrote the first specifications for
-URLs, HTTP, and HTML.</p>
+a system called the World Wide Web. He then created the first Web browser, server, 
+and Web page. He wrote the first specifications for URLs, HTTP, and HTML.</p>
 
 <p>In October 1994, Tim Berners-Lee founded the World Wide Web Consortium
-(W3C) at the Massachusetts Institute of Technology, Laboratory for
-Computer Science &lbrack;MIT/LCS&rbrack; in collaboration
-with <a href="https://home.cern/">CERN</a>, where the Web originated (see
-information on the <a href="https://www.w3.org/Daemon/">original CERN Server</a>),
-with support from DARPA and the <a href="https://ec.europa.eu/index_en.htm">
+(W3C) at the Massachusetts Institute of Technology, Laboratory for Computer 
+Science &lbrack;MIT/LCS&rbrack; in collaboration with 
+<a href="https://home.cern/">CERN</a>, where the Web originated (see information 
+on the <a href="https://www.w3.org/Daemon/">original CERN Server</a>), with 
+support from DARPA and the <a href="https://ec.europa.eu/index_en.htm">
 European Commission</a>.</p>
 
 <p>In April 1995, <a href="https://www.inria.fr/">Inria</a> became the first European
@@ -2317,12 +2316,12 @@ Maps and eBay.</p>
 <!--~~~~~~~~~~~~~ 83/84. photo brandan eich, creator of js, netscape js book (63) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image083.jpeg?raw=true"
-  style="width:35%"
+  style="width:45%"
   title="Photo of Brandan Eich, creator of JavaScript"
   alt="Photo of Brandan Eich, creator of JavaScript." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./images/image084.jpeg?raw=true"
-  style="width:35%"
+  style="width:45%"
   title="Cover page of the Netscape JavaScript 1.2 book"
   alt="Cover page of the Netscape JavaScript 1.2 book." />
 </p>
@@ -2330,12 +2329,12 @@ Maps and eBay.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 85/86. year 1995, netscape logo (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image085.jpeg?raw=true"
-  style="width:35%"
+  style="width:45%"
   title="Year 1995"
   alt="Year 1995." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./images/image086.png?raw=true"
-  style="width:35%"
+  style="width:45%"
   title="Netscape logo"
   alt="Netscape logo." />
 </p>
@@ -2574,43 +2573,45 @@ post your comments/observations/questions or share your creations.</p>
   alt="The Best Way to Learn JavaScript." />
 </p>
 
-<p>What it the best method for learning JavaScript?</p>
-
-<p>When you are a complete beginner, I will recommend to look at examples,
-tweak them, change small things, try to understand how the syntax looks
-like. Even without deep explanations, without reading a book, or
+<p>What it the best method for learning Web Development?</p>
+<p>Take a look at one of my websites; <a href="https://Web-Programming.bauska.org">'Web Programming with JavaScript and Python'</a></p>
+<p>Now, what it the best method for learning JavaScript?</p>
+<p>When you are a complete beginner, I will recommend to look at examples, 
+tweak them, change small things, try to understand what the syntax looks 
+like. Even without deep explanations, without reading a book, or 
 studying in details the different concepts of language, you can learn a
 lot.</p>
+<p>To learn everything, a great start is W3Cx. Google it. I have.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 94. the best way to learn javascript (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 94. html for myfunction; simple plotting function (70) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image094.png?raw=true"
   style="width:50%"
-  title="The Best Way to Learn JavaScript"
-  alt="The Best Way to Learn JavaScript." />
+  title="HTML for a simple plotting function"
+  alt="HTML for a simple plotting function." />
 </p>
 
 <p>In this section, I propose that you look at a small example without
 understanding the details, and try to tweak it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 95.  (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 95. css for myfunction plot diagram (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image095.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CSS for myFunction; a simple plot function"
+  alt="CSS for myFunction; a simple plot function." />
 </p>
 
 <p>Here is the example we provide. It&apos;s just an example that draws, that
 plots, a mathematical function. You can use the mouse wheel to zoom in,
 zoom out, and you can look at the HTML code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 96.  (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 96. function of sin(x) with 2 times pi from -1 to 1 (71) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image096.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Example functionPlot; myFunction of sin(x) in red with x axis of 2 times pi and y axis of minus 1 to 1"
+  alt="Example functionPlot; myFunction of sin(x) in red with x axis of 2 times pi and y axis of minus 1 to 1." />
 </p>
 
 <p>There is only very few CSS
@@ -2628,12 +2629,12 @@ way is to click on &quot;Edit on CodePen&quot; label here, it will open the code
 in the CodePen.io online editor. And&hellip; just look at the HTML part
 here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 97.  (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 97. codepen example, plotting function library; d3js.org (72) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image097.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen Example; Plotting function library; d3js.org"
+  alt="CodePen Example; Plotting function library; d3js.org." />
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ">CodePen</a></h6>
 
@@ -2648,8 +2649,8 @@ JavaScript file because we are downloading it using http. It uses this
 <p align="center" width="100%">
 <img src="./images/image098.png?raw=true"
   style="width:40%"
-  title=""
-  alt="." />
+  title="JS data driven documents (d3) library"
+  alt="JS data driven documents (d3) library." />
 </p>
 
 <p>You can open this in another tab and you will see the documentation and the Web
@@ -2660,47 +2661,47 @@ data.</p>
 <p>Let&apos;s go back to our example, so you can just tweak the different
 elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 99.  (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 99. html, css and js; plotting functions using function plot library (73) ~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image099.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="HTML, CSS and JS; plotting functions using the function plot library"
+  alt="HTML, CSS and JS; plotting functions using the function plot library." />
 </p>
-<p>If I want to plot a cosinus instead of a sinus, I don't need
+<p>If I want to plot a cosine instead of a sine, I don't need
 to understand the whole syntax here, but I guess that by just typing
 &quot;cos&quot; here, it will do something. And indeed, I have just drawn a
-cosinus. If I change this for &quot;green&quot;, it changes the color. If I
+cosine. If I change this from red to &quot;green&quot;, it changes the color. If I
 change the grid, that is by default &quot;true&quot;, if I say &quot;false&quot;, I
 don&apos;t have a grid anymore. Okay let&apos;s put it back. And I&apos;ve got some
-&quot;xAxis&quot; domain: &quot;-1, +1&quot;. If I change that for &quot;-10, +10&quot;, I can
-see the result. It&apos;s more interesting, if you change this for the x
-values&hellip; instead of going from PI to 2 PI.</p>
+&quot;xAxis&quot; domain: &quot;-1, +1&quot;. If I change that for &quot;-10, 
++10&quot;, I can see the result. It&apos;s more interesting, if you change this 
+for the x values&hellip; instead of going from PI to 2 PI.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 100.  (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 100. plotting functions in js using function plot library, #2 (73) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image100.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="HTML, CSS and JS; plotting functions using the function plot library, #2"
+  alt="HTML, CSS and JS; plotting functions using the function plot library, #2." />
 </p>
 
-<p>I went from 0 to 10 PI. I can see the result here, and so on&hellip; Now that you tweak the example,
-you can try to understand what is going on. Okay, this thing is a name
-followed by a parenthesis. an open parenthesis with a closing
-parenthesis. It&apos;s a function call. When you&apos;ve got something like
-that, in JavaScript, function parenthesis with something in the middle,
-it&apos;s called a &quot;function call&quot;. We&apos;re going to call a function, that,
-in this case, we haven't written, so it&apos;s coming from one of the
-external libraries. In that case, it&apos;s the &quot;function-plot&quot; library. What is inside? There
-are the parameters.</p>
+<p>I went from 0 to 10 PI. I can see the result here, and so on&hellip; Now 
+that you tweak the example, you can try to understand what is going on. Okay, 
+this thing is a name followed by a parenthesis. An open parenthesis with a closing
+parenthesis. It&apos;s a function call. When you&apos;ve got something like that, 
+in JavaScript, function parenthesis with something in the middle, it&apos;s called 
+a &quot;function call&quot;. We&apos;re going to call a function, that, in this 
+case, we haven't written, so it&apos;s coming from one of the external libraries. 
+In that case, it&apos;s the &quot;function-plot&quot; library. What is inside? 
+There are the parameters.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 101.  (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 101. variable parameters for plotting functions in js (74) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image101.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Variable parameters for plotting functions in JS"
+  alt="Variable parameters for plotting functions in JS." />
 </p>
 
 <p>And I can use an external name. I can declare that,
@@ -2722,25 +2723,25 @@ and closing brackets, it&apos;s like that&hellip; That will define arrays of
 things in JavaScript. And an array of things is a list of enumerable elements. In that case,
 the domain has two elements: the minimum value and the maximum value.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 102.  (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 102. additional plotting function; sine in pink (75) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Additional plotting function; sine in pink"
+  alt="Additional plotting function; sine in pink." />
 </p>
 
-<p>And here you can see that the data that are plotted, the cosinus
+<p>And here you can see that the data that is plotted, the cosine
 function, is also an array. If I use the comma and I introduce a second
-element here. For example, the sinus function, and if I change the
+element here. For example, the sine function, and if I change the
 color, let&apos;s make it pink&hellip;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 103.  (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 103. more plotting functions in js using function plot library (75) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="More plotting function examples in JS using D3 function plot library"
+  alt="More plotting function examples in JS using D3 function plot library." />
 </p>
 
 <p>Look at the result: I&apos;ve got 2 different
@@ -2752,12 +2753,12 @@ the values, we see the x square function that is a bit better, and if we
 just plot it for x=0 to x=2&hellip; &hellip;In that case, I've got another scale
 for looking at the functions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 104.  (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 104. still more plotting functions in js using function plot library (76) ~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image104.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Still more plotting functions in JS using the D3 function plot library"
+  alt="Still more plotting functions in JS using the D3 function plot library." />
 </p>
 
 <p>In this first example, you saw how to use an external library, what is
@@ -2809,14 +2810,14 @@ button) and try to guess where the function is specified, where the
 range for the x and y values is set, etc. Notice that you can use your
 mouse wheel to zoom in/out the function plot.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. use javascript graph d3.js (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 105. learn javascript graphs d3.js (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image105.png?raw=true"
   style="width:50%"
-  title=" "
-  alt="." />
+  title="Learn JavaScript graphs d3.js"
+  alt="Learn JavaScript graphs d3.js." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ">CodePen: JS Graph</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ">CodePen: D3 JS Graph</a></h6>
 
 <p>By looking at this example (HTML and JS code), you note a few things:</p>
 
@@ -2833,8 +2834,8 @@ brief, it means that we will use the <a href="https://d3js.org/">d3js plotting
 library</a> and another from github (a famous
 repository for open source contributions), and located in the github
 account of a person named &quot;mauriciopoppe&quot;, the repository is named
-&quot;function plot&quot; (<a href="https://mauriciopoppe.github.io/function-plot/">
-&quot;function plot JavaScript library&quot;</a>).</p>
+&quot;functionPlot&quot; (<a href="https://mauriciopoppe.github.io/function-plot/">
+&quot;functionPlot JavaScript library&quot;</a>).</p>
 
 <p>Then, looking at the JavaScript code of the example (click the JS button
 on the CodePen example), we see:</p>
@@ -2963,7 +2964,7 @@ parameter to the functionPlot(&hellip;) call are in bold.</p>
     be plotted. We talk about this in greater detail below.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 106. grid with x-axis, y-axis, origin, & target (80) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 106. grid with x-axis, y-axis, origin & target (80) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image106.gif?raw=true"
   style="width:80%"
@@ -3022,27 +3023,27 @@ cos(x) to our example, with a different color:</p>
 4.      color: 'red'
 5.    },
 6.    {
-7.      fn: 'cos(x)',  // second function
+7.      fn: 'cos(x)',  // Second function
 8.      color: 'blue'
 9.    }
 10. &rbrack;</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 107.  (82) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. codepen: js graph, #2 (82) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image107.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: JS Graph, #2"
+  alt="CodePen: JS Graph, #2." />
 </p>
 <!-- page 82 -->
 
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KWPyeX">CodePen: JS Graph, #2</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KWPyeX">CodePen: D3 JS Graph, #2</a></h6>
 
 <h4>Conclusion</h4>
 
-<p>Just by looking at one example, and without going into the boring
-details, you saw:</p>
+<p>Just by looking at one example, and without going into the boring details, 
+you saw:</p>
 
 <ul>
   <li>How to plot a function using a third party library and how to
@@ -3059,38 +3060,39 @@ details, you saw:</p>
 the most common ones.</p>
 <p>First, you can change dynamically the content of a Web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 108/109.  (82) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 108/109. my home page before & after title change (82) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image108.png?raw=true"
-  style="width:35%"
-  title=""
-  alt="." />
+  style="width:45%"
+  title="My home page. Before JS title change"
+  alt="My home page. Before JS title change." />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./images/image109.png?raw=true"
-  style="width:35%"
-  title=""
-  alt="." />
+  style="width:45%"
+  title="My home page. This new title has been changed from JavaScript!"
+  alt="My home page. This new title has been changed from JavaScript!" />
 </p>
 
 <p>Here I&apos;ve got a Web page, I click on the button and I change the
 content of the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110.  (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~ 110. My home page. example of interactivity between JS and the HTML content (83) ~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image110.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="My home page. This is an example of interactivity between JS and the HTML content of a document"
+  alt="My home page. This is an example of interactivity between JS and the HTML content of a document." />
 </p>
 
 <p>Another thing we can do is to change dynamically the CSS style of some
 part of the document. I click on the button and I change the style of the title.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 111.  (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. example; where am i? (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image111.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Example 'Where am I?'"
+  alt="Example 'Where am I?'" />
 </p>
 
 <p>You can also use, from your JavaScript code, different objects, methods and 
@@ -3104,12 +3106,12 @@ current latitude and longitude.</p>
 and it displays the map centered on the current position and also displays the 
 surface address. Here we go. I&apos;m located near Antibes in the south of France.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 112.  (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 112. example; databases and tables (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image112.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Example; using databases and tables in JS"
+  alt="Example; using databases and tables in JS." />
 </p>
 
 <p>You can also work with remote data. So in this code, I&apos;m just sending
@@ -3118,12 +3120,12 @@ users... and once I get this list of users, I just use the HTML table
 JavaScript API for building dynamically tables. And I use this API to
 display the data that just came from a remote server.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 113.  (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 113. table lookup members of the beatles (84) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image113.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Example table lookup for members (old and newer) of the Beatles"
+  alt="Example table lookup for members (old and newer) of the Beatles." />
 </p>
 
 <p>There is another example, that uses another database, another online database, 
@@ -3138,15 +3140,15 @@ were the most typical uses of JavaScript Web sites.</p>
 <p>We have already seen three examples in previous parts of this week&apos;s
 course material.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 114. update html using javascript (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 114. change html using javascript (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image114.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Change the HTML main title using JS"
+  alt="Change the HTML main title using JS." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE">CodePen: JS &amp; HTML</a></h6>
-
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE">CodePen: Change HTML using JS</a></h6>
+ 
 <p>This first example used <b>the selector API</b> for selecting a particular
 element in the document (the main title) and <b><i>the DOM API</i></b> for
 modifying its content.</p>
@@ -3193,7 +3195,8 @@ adding a parenthesis after its name, followed by a semi colon):</p>
   title="Example of interactivity between javascript &amp; html"
   alt="Example of interactivity between javascript &amp; html." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN">CodePen: Interactivity between JS &amp; HTML</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN">
+CodePen: Interactivity between JS &amp; HTML</a></h6>
 
 <p>The second example is nearly the same except that we changed the name of
 the function, and instead of using the DOM API to update the text
@@ -3251,8 +3254,8 @@ security reasons it cannot be run inside this course page</b>).</p>
 <p align="center" width="100%">
 <img src="./images/image116.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen example; Geolocation mapping"
+  alt="CodePen example; Geolocation mapping." />
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE">
 CodePen: Geolocation Mapping</a></h6>
@@ -3268,15 +3271,15 @@ years ago).</p>
 <p>Here is an example that will display the current and past members of
 famous rock bands:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 117. codepen example, band name (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 117. codepen example, lookup band members (88) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image117.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen Example; Database lookup band members"
+  alt="CodePen Example; Database lookup band members." />
 </p>
 
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJwpKq">CodePen: Database Lookup</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJwpKq">CodePen: Database Lookup Band Members</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-3">1.3.3 Where to put JavaScript code (7:13)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3287,7 +3290,6 @@ famous rock bands:</p>
   title="Where to put JavaScript code"
   alt="Where to put JavaScript code." />
 </p>
-<!------------------------------------------------------------------------------------------------>
 <p>Welcome!<br>
 In this video, we will just look at the different locations where we can put 
 JavaScript code. The first place where you can put JavaScript code is inside an 
@@ -3296,8 +3298,14 @@ an example, it's called the "Example 1" in the page, that shows how we can displ
 the value of a variable. A variable is a location in the memory of the computer 
 where we are going to store some values. And the variable has a name and it's 
 declared using the "var" keyword. There are others possibilities we will see later.</p>
-
-<image goes here>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 119. example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image118.png?raw=true"
+  style="width:65%"
+  title="Example 1; JavaScript in the HTML file"
+  alt="Example 1; JavaScript in the HTML file." />
+</p>
 
 <p>Here we've got the variable called "x" that has the value of 2.
 And, we use some strange instruction "document.body.innerHTML"
@@ -3307,7 +3315,15 @@ and the "innerHTML" property corresponds to its HTML content.
 By doing this, we are adding a bold element JavaScript code executing
 the value of the variable x=2 and we display the value of the x variable in bold.</p>
 
-<image goes here>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 120. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image118.png?raw=true"
+  style="width:65%"
+  title="Result of execution Example 1; JavaScript in the HTML file"
+  alt="Result of execution Example 1; JavaScript in the HTML file." />
+</p>
+
 
 <p>This is the result of the execution of this code. And this code is not in a 
 function, so it's executed as soon as the page is rendered. When the browser
@@ -3315,28 +3331,28 @@ receives this document, it will first display the "h1" then display this paragra
 then executes this code. It will define the variable x, assign the value "2" to it, 
 and then add this string, with the value of "x" inside, to the body of the document.</p>
 
-<image goes here>
-
 <p>And finally, we display in the dev tool console: "console.log("JavaScript code executed")".
 We can open it by clicking on the console button in CodePen, or we can also open the
 devtools using the "F12" key or "ctrl+alt+i" or "cmd+alt+i" on a Mac.
 And you see that the "console.log" message has been displayed in the devtool console
 of your browser.
 
-
-Here, notice that we use the "script" element directly into the body of the document.
+<p>Here, notice that we use the "script" element directly into the body of the document.
 Another possibility is to a put this code in the head of the document.
 It's also common practice because it separates clearly the JavaScript
 code from the HTML body of the document.
 In that case, the result is the same, except that the JavaScript code is displayed
-before the rest of the page.
-Here we defined the variable x, we added it to the body of the document ,
+before the rest of the page.</p>
+
+
+<p>Here we defined the variable x, we added it to the body of the document,
 and later on we display the body, where the browser renders the body of the document.
-Okay, what is better?
-It depends on your application.
+Okay, what is better? It depends on your application.
 For the moment, just stay with knowing that you can put scripts in the body
-or in the head of a document.
-Another possibility is to use an external JavaScript file.
+or in the head of a document.</p>
+
+
+<p>Another possibility is to use an external JavaScript file.
 In that case, the same way we showed you how to use an external file for storing the CSS code,
 we can use the "script" tag with the "src" attribute
 to include in the HTML document an external JavaScript file.
@@ -3345,10 +3361,12 @@ In that example, we are including 3 different JavaScript files sequentially.
 I prepared for you an example you can download - it's called "Example_3.zip".
 I click on it, download it, unpack it, and inside this element, I've got an HTML file.
 And I open it with my Sublime Text editor.
-And what i've got here, is that you can see in the HTML header in that case but you can
-also put this in the body if you like, we included a "script.js" file located under the "js" directory.
+And what I've got here, is that you can see in the HTML header in that case but you can
+also put this in the body if you like, we included a "script.js" file located under 
+the "js" directory.
 
-I can open also this file. I can see that I just display the message called "Function executed"
+<image>
+I can also open this file. I can see that I display the message called "Function executed"
 and a function "addSomeText" directly in the script. When is this executed?
 It's executed when we click on a button.
 Let's have the button "onclick" call the function "addSomeText".
@@ -3361,11 +3379,11 @@ so you can have plenty of funny things you can do.
 Things like that, or things like this…
 Just to be able to use what this library proposes, you need to include the library.
 If you read the documentation, they will tell that you what you need to include...
-Okay -let's me open it in CodePen- ...you need to include this JavaScript file.
-And once you included this JavaScript file... a bit the same way we used the external library for plotting
-functions... then you can use some functionalities that come from the "paper.js" library.
-You need to read the documentation to learn how to use it, but here is an example: a set of
-squares, animated squares, that follow the mouse.
+Okay -let's open it in CodePen- ...you need to include this JavaScript file.
+And once you included this JavaScript file... a bit the same way we used the external 
+library for plotting functions... then you can use some functionalities that come 
+from the "paper.js" library. You need to read the documentation to learn how to use 
+it, but here is an example: a set of squares, animated squares, that follow the mouse.
 <!------------------------------------------------------------------------------------------------>
 
 <!-- <video for 1.3.3 above> -->
