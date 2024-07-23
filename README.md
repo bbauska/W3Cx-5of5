@@ -1699,13 +1699,13 @@ element.</p>
   alt="Example: HTML, head and body." />
 </p>
 
-In the &lt;head&gt;, usually, we specify the title: &quot;First HTML page&quot;. And
+<p>In the &lt;head&gt;, usually, we specify the title: &quot;First HTML page&quot;. And
 this title is what will be displayed when you put the cursor on a tab in
 your browser. Then, it is a good practice to indicate the language:
 &quot;lang=en&quot; (English). Like that, you will be better indexed by search
 engines. And then in the body of the document, we will add some really
 visible content. I start with the very common element, a very common
-tag.
+tag.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 56. example: html, head and body (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1715,20 +1715,20 @@ tag.
   alt="Example: HTML, head and body." />
 </p>
 
-The tag is the notation between &lt; and &gt; signs and the element is the
+<p>The tag is the notation between &lt; and &gt; signs and the element is the
 conceptual thing - like, I'm writing a heading. &quot;This is my first
 page&quot;. This is a heading 1, and you&apos;ve got 6 levels for typing titles.
 And also very common, is a paragraph: &lt;p&gt;, &lt;/p&gt;, I typed the opening
 and closing tags. And I enter &quot;this is a paragraph&quot;. I write a
 subheading h2: &quot;My hobbies are:&quot;. Ok, you see that the size of
 headings <b>is</b> different here. And if, in the paragraph, if I go to the
-next line, this doesn&apos;t have an effect here.
+next line, this doesn&apos;t have an effect here.</p>
 
-The only return to the next line I can do is, either write another
+<p>The only return to the next line I can do is, either write another
 paragraph inside the paragraph, or I can use another tag that is useful
 just for going to the next line without letting some space between
 paragraphs, it&apos;s called &lt;br&gt;. And &lt;br&gt; in that case, I can go to
-the next line.
+the next line.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 57. example: html, head and body (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1738,11 +1738,11 @@ the next line.
   alt="Example: HTML, head and body." />
 </p>
 
-If I want to enumerate my hobbies, a very common practice is to use
+<p>If I want to enumerate my hobbies, a very common practice is to use
 lists. In HTML, you&apos;ve got an <b>unnumbered list</b> that are composed of
 list items. For example: &quot;I play guitar&quot;, &quot;I code video games&quot;.
 These are my hobbies. &quot;I like movies&quot;, etc. If I want, instead of an
-unnumbered list, a numbered list, I can use an order list.
+unnumbered list, a numbered list, I can use an order list.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 58. example: html, head and body (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1752,40 +1752,39 @@ unnumbered list, a numbered list, I can use an order list.
   alt="Example: HTML, head and body." />
 </p>
 
-With &lt;ol&gt; instead of &lt;ul&gt;. In that case, you can see numbers.
+<p>With &lt;ol&gt; instead of &lt;ul&gt;. In that case, you can see numbers.
 Another very common element is the &quot;img&quot; tag that is useful for
 inserting an image in your Web page. The tag &quot;img /&quot; is a self-closing
 element, so you don&apos;t have an opening tag and a closing tag. And you
 will use different attributes for specifying the size of the image. For
 example, I want an image of 100 pixels width. You can indicate a
 description of an image, and this is a good practice. I&apos;m going to
-insert a picture of Leonardo Di Caprio in this example.
+insert a picture of Leonardo Di Caprio in this example.</p>
 
-And you&apos;ve got other different attributes that will not be detailed
+<p>And you&apos;ve got other different attributes that will not be detailed
 this time but I recommend you to follow the HTML5 intro. <b>C</b>ourse
 <b>a</b>nd the other course about HTML5 provided by the W3Cx. In order to
 indicate which <b>image,</b> I want in this page, I need to use the &quot;src&quot;
-attribute that will take as a value the URL of the image.
+attribute that will take as a value the URL of the image.</p>
 
-For this example, I&apos;m using the images.google.com for finding an image
+<p>For this example, I&apos;m using the images.google.com for finding an image
 of Leonardo. I pick an image of Leonardo. I display the image and
 <b>I've</b> got the URL, here, in the address bar. I just copy and
-<b>paste</b> it and <b>I've</b> got Leonardo Di Caprio in my document.
-
+<b>paste</b> it and <b>I've</b> got Leonardo Di Caprio in my document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-5">1.2.5 CSS is for style (1:34)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hi!
+<h4>Hi!</h4>
 
-In this short video, I will show you quickly the principle of CSS.
+<p>In this short video, I will show you quickly the principle of CSS.</p>
 
-I recommend you however to follow the CSS Basics course from W3Cx if you
-want to learn this technology more deeply.
+<p>I recommend you however to follow the CSS Basics course from W3Cx if you
+want to learn this technology more deeply.</p>
 
-HTML is for structure. CSS is another language, by W3C, that it&apos;s
+<p>HTML is for structure. CSS is another language, by W3C, that it&apos;s
 useful for specifying the look and feel of these elements. How do they
 fit together...How many spaces between them...What color to use, and so
-on ...
+on ...</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 59. example: html, head and body (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1795,10 +1794,9 @@ on ...
   alt="Example: HTML, head and body." />
 </p>
 
-I&apos;m just going to copy and paste some examples here, and you saw that
+<p>I&apos;m just going to copy and paste some examples here, and you saw that
 the look and feel of the document changed. And it&apos;s, now, using
-shadows, borders, background colors, different character fonts and so
-on.
+shadows, borders, background colors, different character fonts and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. example: html, head and body (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1808,15 +1806,15 @@ on.
   alt="Example: HTML, head and body." />
 </p>
 
-The CSS file, here, is just using what we call "rules". A rule is a
+<p>The CSS file, here, is just using what we call "rules". A rule is a
 selector, so this means for all &quot;h1&quot; elements in the page, I want to
-apply these properties.
+apply these properties.</p>
 
-And each property has a name 'color', and a value 'red'. So, you
+<p>And each property has a name 'color', and a value 'red'. So, you
 indicate, for each different elements you selected (the &quot;h1&quot;, the
 &quot;h2&quot;, the &quot;p&quot; the paragraph, for the image). You then indicate what
 you want to change. For example, for the image in the document, you
-indicate a box-shadow.
+indicate a box-shadow.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. css: cascade style sheet (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1826,32 +1824,32 @@ indicate a box-shadow.
   alt="CSS: Cascade Style Sheet." />
 </p>
 
-CSS, or <b>C</b>ascading <b>S</b>tyle <b>S</b>heets, is a style sheet language
+<p>CSS, or <b>C</b>ascading <b>S</b>tyle <b>S</b>heets, is a style sheet language
 used to describe the way an HTML or XML document should look to a user.
 CSS is where you specify the color, size, spacing, font and other visual
-aspects of the content that you create in your markup language document.
+aspects of the content that you create in your markup language document.</p>
 
-Usually, you see CSS used alongside HTML to describe the way a Web page
+<p>Usually, you see CSS used alongside HTML to describe the way a Web page
 looks and feels. You can have a Web page without CSS, but it would be
 very difficult to make it look the way you want with just HTML. This is
-why almost every Web page is a combination of HTML and CSS.
+why almost every Web page is a combination of HTML and CSS.</p>
 
 <h4>CSS • /si-ɛs-ɛs/ • noun </h4>
 
-Stands for &quot;<b>C</b>ascading <b>S</b>tyle <b>S</b>heets&quot;. A style sheet
-language for describing how to display an HTML document.
+<p>Stands for &quot;<b>C</b>ascading <b>S</b>tyle <b>S</b>heets&quot;. A style sheet
+language for describing how to display an HTML document.</p>
 
 <h4>Let&apos;s look at an example!</h4>
 
-Let&apos;s take the (ridiculous) Michel Buffa home page again:
+<p>Let&apos;s take the (ridiculous) Michel Buffa home page again:</p>
 
-Notice the use of some HTML tags: h1, img, p, body etc.
+<p>Notice the use of some HTML tags: h1, img, p, body etc.</p>
 
-Now, we can add some &quot;CSS rules&quot; to the HTML, and see that the
+<p>Now, we can add some &quot;CSS rules&quot; to the HTML, and see that the
 appearance of the resulting HTML page rendering is rather different
 (click on the HMTL/CSS buttons to see alternatively the HTML or the CSS
 code, remember you can always make changes to the code: change the color
-in the CSS part, etc.):
+in the CSS part, etc.):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. codepen: my home page (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
