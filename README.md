@@ -3905,14 +3905,76 @@ using a regular source code editor and .html, .css and .js files.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 Using CodePen (6:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 138a.  (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 138.  (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image138a.png?raw=true"
+<img src="./images/image138.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 <!-- pages 108-112 to be filled from class -->
-
+Hi!
+We're going to work from an example we already saw in the course: the math function plotter.
+In this version, you can see that we added some input fields for changing the color
+of the curve, for changing the range of the x values, changing interactively
+the functions we are going to plot, and so on.
+Let's start from the very basic example we saw earlier on the course.
+We saw that, the function is located in a "div".
+And we just added a "section" tag from HTML5, just to identify the part
+of the document where the function is plotted.
+Later on, we'll add another "section" about the input fields and the different controls.
+You've got also a <body onload="plot();>", that means that when the page is loaded,
+we execute a JavaScript function named "plot()", that is located here.
+And it uses the "functionPlot()" function from the external library we use.
+This one.
+And it takes a set of parameters that are located at the beginning of the JavaScript part.
+That will indicate, within the target property, the "id" of the div where we are going to plot the function.
+In the data property is the function itself: "sin(x)" and its color: red.
+What can we do to improve this?
+At first, we can add some CSS code to make this nicer.
+I'm going to change the view with CodePen.
+Let's resize that, and let's work on the CSS part: "Maximize CSS Editor".
+What I can do, is that I can indicate that the div that contains this function
+wil have a rounded border, some shadows and so on.
+Now it's rounded, you can have add some shadows, height, margin and so on.
+Let's me just copy and paste some code I’ve prepared.
+Here we are.
+Now, what I've got, is a nicer presentation of the function itself.
+Now, I'm going to add a section that will contain the different controllers
+that are input fields from HTML5.
+Let's do it. I add a section called "plotSettings" that will contains all these controllers.
+Let's start for example with a controller for the color.
+Here we go.
+What we added here is a label color value and the color input field from HTML5.
+If I click here, it asks for a color.
+And we can also add an event listener: "onchange="plot(); ».
+That means: "when the color has been selected, call the plot() function".
+And you remember that this function is the one that plots the mathematical function, here.
+The plot function is here.
+What we are going to do in this change color function?
+It changes the property of the parameters here.
+Let's add some code for that...
+How can we get the value of the color from JavaScript before plotting the function?
+We are going to use the selector API: "document.querySelector(...)" for the input field whose id is "color".
+The value, here, is the color itself.
+What we do is that we are going do use the color for changing this, here.
+So "parameters.data"... it's an array.
+0 is the first index, the first element that corresponds to the part that I highlight now.
+.color=color
+If I change the color, this line is executed and the color changes.
+We can use the same principles with other input fields.
+Let me just copy and paste some code I prepared,
+that will add all these different controllers.
+Now I've got all the different controllers,
+and if you look at them, they all have an "onchange" or "oninput" event listener.
+Now, we’ve got 2 sections, 2 HTML sections:
+one with an "id="plotSettings"" that corresponds to the different input fields.
+And one with an "id="plot"" that corresponds to the function itself (the drawing here).
+If I want to have a nice look and feel, what I can do is to share the same borders
+and shadow properties from CSS,
+put the first section with the different input fields on the left and the plot on the right.
+Let me just cut and paste some CSS rules here, that will factorize the common properties
+for both sections in a section selector.
+OK, so what I've got now, is that I've got a nice balanced view of the whole application.
 In the video, at 3:19, there are some mistakes in the HTML code:
 
 1.  This line uses a wrong value for the for attribute (it should be the
@@ -3927,18 +3989,17 @@ In the video, at 3:19, there are some mistakes in the HTML code:
 <end of 1.4.2 video transcript>
 <h4>CodePen example with the starting code used in the video</h4>
 
-If you want to code while watching the video, [please open this
-CodePen.](https://codepen.io/w3devcampus/pen/GmbpzZ) It contains the
-source code of the example we started coding from. 
+<p>If you want to code while watching the video, 
+<a href="https://codepen.io/w3devcampus/pen/GmbpzZ">please open this CodePen</a>. 
+It contains the source code of the example we started coding from.</p>
 
-And [here is the same
-version](https://codepen.io/w3devcampus/pen/PjomvR?editors=1000#0) with
-the polyfill for the &lt;input type=&quot;color&quot;&gt; input field, not yet
-supported by Safari.
+<p>And <a href="https://codepen.io/w3devcampus/pen/PjomvR?editors=1000#0">
+here is the same version</a> with the polyfill for the &lt;input type=&quot;color&quot;&gt; 
+input field, not yet supported by Safari.</p>
 
-In case you have a hard time to follow the video, [here is the full
-example](https://codepen.io/w3devcampus/pen/bqGboZ) (this link points to
-the example from the previous course page).
+<p>In case you have a hard time to follow the video, 
+<a href="https://codepen.io/w3devcampus/pen/bqGboZ">here is the full example</a> 
+(this link points to the example from the previous course page).
 
 Hi!
 <p>We're going to work from an example we already saw in the course: the math function 
@@ -3963,9 +4024,21 @@ the functions we are going to plot, and so on.</p>
   title=""
   alt="." />
   
-Let's start from the very basic example we saw earlier on the course. We saw that, the function is located in a "div". And we just added a "section" tag from HTML5, just to identify the part of the document where the function is plotted.
+Let's start from the very basic example we saw earlier on the course. 
+We saw that, the function is located in a "div". And we just added a 
+"section" tag from HTML5, just to identify the part of the document 
+where the function is plotted.
 
-Later on, we'll add another "section" about the input fields and the different controls. You also have a <body onload="plot();", that means that when the page is loaded, we execute a JavaScript function named "plot()", that is located here. And it uses the "functionPlot()" function from the external library we use. This one. And it takes a set of parameters that are located at the beginning of the JavaScript part. That will indicate, within the target property, the "id" of the div where we are going to plot the function. In the data property is the function itself: "sin(x)" and its color: red. What can we do to improve this? 
+Later on, we'll add another "section" about the input fields and the 
+different controls. You also have a <body onload="plot();", that 
+means that when the page is loaded, we execute a JavaScript function 
+named "plot()", that is located here. And it uses the "functionPlot()" 
+function from the external library we use. This one. And it takes a 
+set of parameters that are located at the beginning of the JavaScript 
+part. That will indicate, within the target property, the "id" of the 
+div where we are going to plot the function. In the data property is 
+the function itself: "sin(x)" and its color: red. What can we do to 
+improve this? 
 <!-- 2 (two) images side-by-side -->
 
 
