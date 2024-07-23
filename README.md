@@ -695,11 +695,11 @@ with support from DARPA and the <a href="https://ec.europa.eu/index_en.htm">
 European Commission</a>.</p>
 
 <p>In April 1995, <a href="https://www.inria.fr/">Inria</a> became the first European
-W3C host, followed by <a href="https://www.keio.ac.jp/">Keio University of
-Japan</a>(Shonan Fujisawa Campus) in Asia in 1996. In 2003, 
+W3C host, followed by <a href="https://www.keio.ac.jp/">
+Keio University of Japan</a>(Shonan Fujisawa Campus) in Asia in 1996. In 2003, 
 <a href="https://www.ercim.eu/">ERCIM</a> took over the role of 
-European W3C Host from Inria. In 2013, W3C announced <a href="https://ev.buaa.edu.cn/">Beihang
-University</a> as the fourth Host.</p>
+European W3C Host from Inria. In 2013, W3C announced <a href="https://ev.buaa.edu.cn/">
+Beihang University</a> as the fourth Host.</p>
 
 <p>As of January 2023, W3C is a public-interest non-profit organization
 incorporated in the United States of America, led by a Board of
@@ -741,8 +741,8 @@ via the collaboration of global technical experts.</p>
 
 <h5>Level 2 headings may be created by course providers in the future.</h5>
 
-<p>People often use the words &quot;Internet&quot; and &quot;Web&quot; interchangeably, but
-this usage is technically incorrect.</p>
+<p>People often use the words &quot;Internet&quot; and &quot;Web&quot; interchangeably, 
+but this usage is technically incorrect.</p>
 
 <p>The Web is an application of the Internet. The Web is the most popular
 way of accessing the Internet, but other applications of the Internet
@@ -992,14 +992,15 @@ the language of your content.</b></h5>
 <p>People around the world don&apos;t always understand cultural references
 that you are familiar with, for example the concept of a &apos;home run&apos; in
 baseball, or a particular type of food. You should be careful when using
-examples to illustrate ideas. Also, people in other cultures don&apos;t
-necessarily identify with pictures that you would recognize, for
-example, hand gestures can have quite unexpected meanings in other parts
-of the world, and photos of people in a group may not be representative
-of populations elsewhere.  When creating forms for capturing personal
-details, you will quickly find that your assumptions about how personal
-names and addresses work are very different from those of people from
-other cultures.</p>
+examples to illustrate ideas.</p>
+
+<p>Also, people in other cultures don&apos;t necessarily identify with 
+pictures that you would recognize, for example, hand gestures can have 
+quite unexpected meanings in other parts of the world, and photos of people 
+in a group may not be representative of populations elsewhere.  When creating 
+forms for capturing personal details, you will quickly find that your 
+assumptions about how personal names and addresses work are very different 
+from those of people from other cultures.</p>
 
 <p><b>Check #3: If your content will be seen by people from diverse
 cultures, check that your cultural references will be recognized and
@@ -1007,34 +1008,30 @@ that there is no inappropriate cultural bias.</b></p>
 
 <h4>Don&apos;t worry!</h4>
 
-<p>The following 7 quick tips summarize some important concepts of
-international Web design. They will become more meaningful as you work
-through the course, so come back and review this page at the end.</p>
+<p>The following 7 quick tips summarize some important concepts of international 
+Web design. They will become more meaningful as you work through the course, so 
+come back and review this page at the end.</p>
 
-1.  <b>Encoding</b>: use the UTF-8 (Unicode) character encoding for
-    content, databases, etc. Always declare the encoding.
-
-2.  <b>Language</b>: declare the language of documents and indicate
-    internal language changes.
-
-3.  <b>Navigation</b>: on each page include clearly visible navigation to
-    localized pages or sites, using the target language.
-
-4.  <b>Escapes</b>: use characters rather than escapes (e.g. &#xE1; &#225;
-    or &aacute;) whenever you can.
-
-5.  <b>Forms</b>: use UTF-8 on both form and server. Support local formats
-    of names/addresses, times/dates, etc.
-
-6.  <b>Localizable styling</b>: use CSS styling for the presentational
+<ol>
+  <li><b>Encoding</b>: use the UTF-8 (Unicode) character encoding for
+    content, databases, etc. Always declare the encoding.</li>
+  <li><b>Language</b>: declare the language of documents and indicate
+    internal language changes.</li>
+  <li><b>Navigation</b>: on each page include clearly visible navigation to
+    localized pages or sites, using the target language.</li>
+  <li><b>Escapes</b>: use characters rather than escapes (e.g. &#xE1; &#225;
+    or &aacute;) whenever you can.</li>
+  <li><b>Forms</b>: use UTF-8 on both form and server. Support local formats
+    of names/addresses, times/dates, etc.</li>
+  <li><b>Localizable styling</b>: use CSS styling for the presentational
     aspects of your page. So that it&apos;s easy to adapt content to suit
     the typographic needs of the audience, keep a clear separation
     between styling and semantic content, and don&apos;t use
-    &apos;presentational&apos; markup.
-
-7.  <b>Images, animations & examples</b>: if your content will be seen by
+    &apos;presentational&apos; markup.</li>
+  <li><b>Images, animations & examples</b>: if your content will be seen by
     people from diverse cultures, check for translatability and
-    inappropriate cultural bias.
+    inappropriate cultural bias.</li>
+</ol>
 
 <p>You will find more quick tips on the <a href="https://www.w3.org/International/quicktips/">
 Internationalization quick tips</a> page. Remember that these tips do not constitute 
@@ -1079,14 +1076,14 @@ JavaScript, HTML and CSS. Let's start having fun with JavaScript, now
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2">1.2 Module 1 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-If you thought that a Web browser could only display HTML documents, you
-were mistaken! ;)
+<p>If you thought that a Web browser could only display HTML documents, you
+were mistaken! ;)</p>
 
-Behind the scenes, an HTML document is nearly always associated with two
+<p>Behind the scenes, an HTML document is nearly always associated with two
 other standard languages of the Web: CSS and JavaScript. Before looking
 at the guts of JavaScript, we introduce the basics and play with many
 examples. We will also have a first look at the browser devtools, and
-discover how JavaScript is useful.
+discover how JavaScript is useful.</p>
 
 <ul>
   <li>First, let&apos;s briefly discuss the roles of HTML, CSS and JavaScript,
@@ -1191,8 +1188,8 @@ time):</p>
   &lt;/p&gt;
 &lt;/body&gt;</pre>
 
-If you eliminated everything in between the angle brackets from the
-text, for most purposes it would still read the same:
+<p>If you eliminated everything in between the angle brackets from the
+text, for most purposes it would still read the same:</p>
 
 <blockquote>
 A Tale of Two Cities
