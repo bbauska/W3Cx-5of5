@@ -441,22 +441,20 @@ valuable approach):
 
 <h4>JavaScript debuggers</h4>
 
-Here is a selection of tools to help debug JavaScript code. The
-instructor will indicate other tools in module 1 of the course.
+<p>Here is a selection of tools to help debug JavaScript code. The
+instructor will indicate other tools in module 1 of the course.</p>
 
--   [Firefox JS
-    debugger](https://developer.mozilla.org/en-US/docs/Tools/Debugger) (debugger
-    shipped inside Firefox) - all other browsers have integrated
-    debuggers as well.
-
--   [JS Lint](https://www.jslint.com/)  - The JavaScript Code Quality
-    Tool
-
--   [CodeBeautify](https://codebeautify.org/jsvalidate)  - JavaScript
-    Validator
-
--   Check also other[ JavaScript debugging
-    tools](https://jqueryhouse.com/best-javascript-debugging-tools/)
+<ul>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Tools/Debugger">
+    Firefox JS debugger</a> (debugger shipped inside Firefox) - all other 
+	browsers have integrated debuggers as well.</li>
+  <li><a href="https://www.jslint.com/">JS Lint</a> - The JavaScript Code 
+    Quality Tool
+  <li><a href="https://codebeautify.org/jsvalidate">
+    CodeBeautify</a> - JavaScript Validator
+  <li><Check also other <a href="https://jqueryhouse.com/best-javascript-debugging-tools/">
+    JavaScript debugging tools</a></li>
+</ul>
 
 <h4>Browser compatibility</h4>
 
@@ -543,16 +541,15 @@ W3C Developers tools</a> site.</p>
 
 <h4>W3C Validator</h4>
 
-The <a href="https://validator.w3.org/">W3C validator</a> checks the 
+<p>The <a href="https://validator.w3.org/">W3C validator</a> checks the 
 <a href="https://validator.w3.org/docs/help.html#validation_basics">markup validity</a> of
-various Web document formats, such as HTML.
+various Web document formats, such as HTML.</p>
 
 <h4>CSS Validator</h4>
 
-The <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a> checks
+<p>The <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a> checks
 Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
-stylesheets.
-
+stylesheets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 23. laptop showing unicorn validator (15) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
@@ -658,8 +655,8 @@ define key parts of what actually makes the World Wide Web work.
   title="W3Cx JS logo"
   alt="W3Cx JS.0x logo." />
 Another approach is to go and bring
-feedback on ideas for future technologies: the [W3C Web Platform
-Community Incubator Group](https://wicg.io/) was built as an easy place
+feedback on ideas for future technologies: the <a href="https://wicg.io/">
+W3C Web Platform Community Incubator Group</a> was built as an easy place 
 to get started to provide feedback on new proposals or bring brand-new
 proposals for consideration.</p>
 
@@ -677,7 +674,7 @@ define key parts of what actually makes the World Wide Web work.
 
 <h4>A few history bits</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 27. tim berners-lee at his desk in cern, switzerland (17) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 27. tim berners-lee at his desk in cern, switzerland (18) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image027.jpeg?raw=true"
   style="width:20%"
@@ -685,10 +682,10 @@ define key parts of what actually makes the World Wide Web work.
   alt="Tim Berners-Lee at his desk in CERN, Switzerland 1994." />
 </p>
 
-<h6><i><b>Tim Berners-Lee at his desk in CERN, 1994</b></i></h6>
+<h6 align="center"><i><b>Tim Berners-Lee at his desk in CERN, 1994</b></i></h6>
 
-[Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) wrote
-a [proposal](https://www.w3.org/History/1989/proposal.html) in 1989 for
+<a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> wrote
+a <a href="https://www.w3.org/History/1989/proposal.html">proposal</a> in 1989 for
 a system called the World Wide Web. He then created the first Web
 browser, server, and Web page. He wrote the first specifications for
 URLs, HTTP, and HTML.
@@ -696,17 +693,17 @@ URLs, HTTP, and HTML.
 In October 1994, Tim Berners-Lee founded the World Wide Web Consortium
 (W3C) at the Massachusetts Institute of Technology, Laboratory for
 Computer Science &lbrack;MIT/LCS&rbrack; in collaboration
-with [CERN](https://home.cern/), where the Web originated (see
-information on the [original CERN Server](https://www.w3.org/Daemon/)),
-with support from DARPA and the [European
-Commission](https://ec.europa.eu/index_en.htm).
+with <a href="https://home.cern/">CERN</a>, where the Web originated (see
+information on the <a href="https://www.w3.org/Daemon/">original CERN Server</a>),
+with support from DARPA and the <a href="https://ec.europa.eu/index_en.htm">
+European Commission</a>.
 
-In April 1995, [Inria](https://www.inria.fr/) became the first European
-W3C host, followed by [Keio University of
-Japan](https://www.keio.ac.jp/) (Shonan Fujisawa Campus) in Asia in
-1996. In 2003, [ERCIM](https://www.ercim.eu/) took over the role of
-European W3C Host from Inria. In 2013, W3C announced [Beihang
-University](https://ev.buaa.edu.cn/) as the fourth Host.
+In April 1995, <a href="https://www.inria.fr/">Inria</a> became the first European
+W3C host, followed by <a href="https://www.keio.ac.jp/">Keio University of
+Japan</a>(Shonan Fujisawa Campus) in Asia in 1996. In 2003, 
+<a href="https://www.ercim.eu/">ERCIM</a> took over the role of 
+European W3C Host from Inria. In 2013, W3C announced <a href="https://ev.buaa.edu.cn/">Beihang
+University</a> as the fourth Host.
 
 As of January 2023, W3C is a public-interest non-profit organization
 incorporated in the United States of America, led by a Board of
@@ -765,7 +762,7 @@ this article</a> for more details about the difference between Internet and the
 <!--~~~~~~~~~~~~~~~~~ 28. tim berners-lee & fake vint cert on the right (17) ~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
 <img src="./images/image028.jpeg?raw=true"
-  style="width:20%"
+  style="width:30%"
   title="Tim Berners-Lee invented the WEB &amp; DARPA invented the Internet"
   alt="Tim Berners-Lee invented the WEB &amp; DARPA invented the Internet." />
 First photo: Tim Berners-Lee is on the left wearing a black shirt that 
@@ -871,13 +868,13 @@ pages.
 
 <h5><b>Example</b>:</h5>
 
-```
-<head>
+<pre>
+&lt;head&gt;
   ...
-  <title>Web Accessibility Initiative (WAI) - home page</title>
+  &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
   ...
-</head>
-```
+&lt;/head&gt;
+</pre>
 
 <h4>Example 2: image text alternatives (&quot;alt text&quot;)</h4>
 
@@ -895,11 +892,11 @@ aloud using synthesized speech.
 the W3C Web site. The text alternative is going to be a brief
 description of the link target.
 
-```
-<a href="https://w3.org">
-  <img src="https://w3.org/Icons/w3c_home.png" width="72" height="48" alt="W3C Web site">
-</a>
-```
+<pre>
+&lt;a href="https://w3.org"&gt;
+  &lt;img src="https://w3.org/Icons/w3c_home.png" width="72" height="48" alt="W3C Web site"&gt;
+&lt;/a&gt;
+</pre>
 
 <h4 id="chb-05">b5. Why internationalization is important</h4>
 
@@ -1066,32 +1063,32 @@ they are and what to do about it.
 <h3 id="ch1-1">1.1 Introduction - Module 1: Intro to JavaScript (1:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hello everyone, welcome to the wonderful world of JavaScript!
+<p>Hello everyone, welcome to the wonderful world of JavaScript!</p>
 
-In this module, after giving a brief history of JavaScript and Web
+<p>In this module, after giving a brief history of JavaScript and Web
 browsers, we will explain how HTML, CSS and JavaScript are related to
 one another. We will see JavaScript in action through numerous
 interactive examples. We have made sure that all examples can be run
-directly in the course's Web pages.
+directly in the course's Web pages.</p>
 
-Hey, we're teaching Web technologies, after all! We will do that
+<p>Hey, we're teaching Web technologies, after all! We will do that
 throughout the course, as you will be asked to change some code, tweak
 this or that example, even if the code details are not fully explained
 at first. Because, this is how we recommend beginners to learn
 JavaScript: first look at examples, then tweak some code and see the
 results of the changes. You will certainly encounter error messages, but
 no worries, as I will teach you how to debug JavaScript code using your
-browser's devtool console.
+browser's devtool console.</p>
 
-In this first module, you will also learn about JavaScript variables,
+<p>In this first module, you will also learn about JavaScript variables,
 operators and expressions, and have a first lesson about functions,
-objects, arrays and strings.
+objects, arrays and strings.</p>
 
-These are the basic concepts of JavaScript and are shared by many other
+<p>These are the basic concepts of JavaScript and are shared by many other
 programming languages. We'll then develop together, and step by step, an
 interactive graphic tool that will use many different features from
 JavaScript, HTML and CSS. Let's start having fun with JavaScript, now
-:-)
+:-)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2">1.2 Module 1 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1104,27 +1101,25 @@ at the guts of JavaScript, we introduce the basics and play with many
 examples. We will also have a first look at the browser devtools, and
 discover how JavaScript is useful.
 
--   First, let&apos;s briefly discuss the roles of HTML, CSS and JavaScript,
-    and how they work together.
-
--   We show examples of what can be done with JavaScript: a showcase of
-    very small examples through to impressively complex ones.
-
--   Then we look at a dozen different - very small - examples of typical
-    uses of JavaScript.
-
--   Finally, we learn how to use the browser devtools, a powerful,
+<ul>
+  <li>First, let&apos;s briefly discuss the roles of HTML, CSS and JavaScript,
+    and how they work together.</li>
+  <li>We show examples of what can be done with JavaScript: a showcase of
+    very small examples through to impressively complex ones.</li>
+  <li>Then we look at a dozen different - very small - examples of typical
+    uses of JavaScript.</li>
+  <li>Finally, we learn how to use the browser devtools, a powerful,
     built-in set of tools that represent the Swiss army knife of any Web
     developer. Without the devtools, you would not be able to debug your
     code, find errors, print traces of what a JavaScript program is
-    doing etc.
+    doing etc.</li>
+</ul>
 
-<b>A word of caution</b>: you will not learn JavaScript in full detail in
+<p><b>A word of caution</b>: you will not learn JavaScript in full detail in
 this course! This is an introductory course designed to help
-you understand the basic concepts of the language.
-
+you understand the basic concepts of the language.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-0">1.2.0 HTML is for structure</h3>
+<h3 id="ch1-2-1">1.2.1 HTML is for structure</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The &quot;<b>H</b>yper <b>T</b>ext&quot; part: links!</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1148,12 +1143,12 @@ incorporate hyperlinks into a text document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 32. illustration of hypertext documents (27) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image032.png?raw=true"
-  style="width:40%"
+  style="width:50%"
   title="Illustration of hypertext documents"
   alt="Illustration of hypertext documents." />
 </p>
 
-He envisioned a technology that would facilitate thoroughly
+<p>He envisioned a technology that would facilitate thoroughly
 interconnected documents. He wanted authors to be able to connect an
 idea in one document to the source of the idea in another, or connect a
 statement with the data that backs up that statement. Traditionally this
@@ -1161,31 +1156,30 @@ kind of thing was done with footnotes and bibliographies, which can be
 cumbersome. This information should be easily transferable from one
 place to another, so that in reading one document, it is easy to access
 everything related (linked) to it. Tim Berners-Lee imagined a &quot;Web&quot; of
-interconnected documents.
+interconnected documents.</p>
 
-He used the metaphor of a Web to emphasize the importance of connections
+<p>He used the metaphor of a Web to emphasize the importance of connections
 between documents. It was not just a long list of details, but rather a
 sea of information stretching out in all directions. This sea of
-information was navigated by a new tool called a &quot;browser&quot;.
+information was navigated by a new tool called a &quot;browser&quot;.</p>
 
 <h4>The &quot;Markup&quot; part: elements, tags and attributes!</h4>
 
-The &quot;M&quot; in HTML stands for &quot;Markup&quot;, but what does Markup really
-mean?  Essentially it means to annotate a document with extra
-information: things like where different sections and paragraphs begin
-and end, which part is the title, which things should be emphasized and
-so on.
+<p>The &quot;M&quot; in HTML stands for &quot;Markup&quot;, but what does Markup 
+really mean?  Essentially it means to annotate a document with extra information: 
+things like where different sections and paragraphs begin and end, which part is 
+the title, which things should be emphasized and so on.</p>
 
-There are many ways to markup a document, but HTML borrows a technique
+<p>There are many ways to markup a document, but HTML borrows a technique
 from an ancestor language, SGML 
 (<a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language">Standard Generalized Markup 
 Language</a>), which uses angle brackets (&quot;&lt;&quot; and &quot;&gt;&quot;) 
 to separate the annotations from the regular text.  In HTML these annotations 
-are called &quot;tags&quot;.
+are called &quot;tags&quot;.</p>
 
-For example, consider the following chunk of HTML code (note: you can
+<p>For example, consider the following chunk of HTML code (note: you can
 edit the source code and see the resulting Web page updating in real
-time):
+time):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 33. codepen a tale of two cities (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1194,8 +1188,7 @@ time):
   title="Codepen: A Tale of Two Cities"
   alt="Codepen: A Tale of Two Cities." />
 </p>
-
-<p><a href="https://codepen.io/w3devcampus/pen/PWqYxG">CodePen: A Tale of Two Cities</a></p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PWqYxG">CodePen: A Tale of Two Cities</a></h6>
 
 <h5>HTML:</h5>
 
@@ -1222,19 +1215,19 @@ A Tale of Two Cities
   that I go to than I have ever known.
 </blockquote>
 
-Once you know that everything in angle brackets is &quot;meta-information&quot;,
+<p>Once you know that everything in angle brackets is &quot;meta-information&quot;,
 it gives you a lot of flexibility. You can put a lot of different things
 in between those brackets without any of it showing up (directly) in
 your finished document. And though you don&apos;t usually see directly
 what&apos;s in those angle brackets, they can often have a big effect on how
-your Web page looks, as well as how it responds and interacts with you.
+your Web page looks, as well as how it responds and interacts with you.</p>
 
-Here is another, more generic example:
+<p>Here is another, more generic example:</p>
 
 <h4>Notes:</h4>
 <ul>
   <li>Remember that the first line of your HTML5 page should start
-    by <!DOCTYPE html>. CodePen does not force you to add a DOCTYPE on
+    by &lt;!DOCTYPE html&gt;. CodePen does not force you to add a DOCTYPE on
     CodePen, but be assured that you have to specify the DOCTYPE in all
     your Web documents.</li>
   <li>You can modify the source code in CodePen, and see the results in
@@ -1248,56 +1241,30 @@ Here is another, more generic example:
   title="CodePen: Who Am I?"
   alt="CodePen: Who Am I?" />
 </p>
-
-<h6><a href="https://codepen.io/w3devcampus/pen/egNOLj">CodePen: Who Am I?</a></h6>
-
-<h5>HTML:</h5>
-
-```
-1.  <!DOCTYPE html>
-2.  <html lang=&quot;en&quot;>
-3.  <head>
-4.  <title>Your first HTML page</title>
-5.  <meta charset="utf-8"/>
-6.  </head>
-7.  <body>
-8.  <h1>My home page</h1>
-9.  <h2>Who am I?</h2>
-10. <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
-    professor at the University of Nice, in France, and I&apos;m also the
-    author of two MOOCS about HTML5 on W3Cx.</p>
-11. <p>I also play electric guitar and love coding WebAudio
-    applications&hellip;</p>
-12. <img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg" width=200
-13. alt="Michel Buffa plays rock and roll">
-14. <h2>My Hobbies</h2>
-15. Music, Movies, Video Games, Travelling, Family, etc.
-16. </body>
-17. </html>
-```
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/egNOLj">CodePen: Who Am I?</a></h6>
 
 <h4>Try it out!</h4>
 
-It&apos;s time to write your first HTML code :-)
+<p>It&apos;s time to write your first HTML code :-)</p>
 
-You can use a source code editor like <a href="https://www.sublimetext.com/">Sublime Text</a>, 
+<p>You can use a source code editor like <a href="https://www.sublimetext.com/">Sublime Text</a>, 
 <a href="https://atom.io/">Atom</a>,<a href="http://brackets.io/">brackets</a> or
 any lightweight text editor. You can also use more &quot;professional&quot;
 tools such as <a href="https://code.visualstudio.com/">Visual Studio Code</a>, 
 <a href="https://netbeans.org/">NetBeans</a>, <a href="https://eclipse.org/downloads/">Eclipse</a>
 <a href="https://eclipse.org/downloads/WebStorm">WebStorm</a>, 
-<a href="https://www.jetbrains.com/webstorm">jetbrains, etc.
+<a href="https://www.jetbrains.com/webstorm">jetbrains, etc.</p>
 
-To try out the simple examples from this course, I&apos;d suggest using an
+<p>To try out the simple examples from this course, I&apos;d suggest using an
 online IDE such as <a href="https://jsbin.com/">JSBin</a>, 
-<a href="https://codepen.io/">CodePen</a>, <a href="https://plnkr.co/">Plunker</a>, etc.
+<a href="https://codepen.io/">CodePen</a>, <a href="https://plnkr.co/">Plunker</a>, etc.</p>
 
-During the course, we will show you how to test out simple code snippets
+<p>During the course, we will show you how to test out simple code snippets
 in online IDEs, but we will also teach you how to organize your code
-with folders and files.
+with folders and files.</p>
 
-The next lesson shows how you can use JSBin, CodePen, and SublimeText in
-order to test the HTML code provided earlier in this section.
+<p>The next lesson shows how you can use JSBin, CodePen, and SublimeText in
+order to test the HTML code provided earlier in this section.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-1">1.2.1 Live coding video: using the course&apos;s tools (6:25)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1309,15 +1276,15 @@ order to test the HTML code provided earlier in this section.
   alt="JSBin live coding." />
 </p>
 
-In this lesson, I will show you how to try and tweak the HTML example
-from the Web page, the one from the course.
+<p>In this lesson, I will show you how to try and tweak the HTML example
+from the Web page, the one from the course.</p>
 
-I propose first to show you two online tools that are very practical for
+<p>I propose first to show you two online tools that are very practical for
 editing some HTML, CSS and JavaScript code, and seeing in real time the
-result of your modifications.
+result of your modifications.</p>
 
-In the second time, I will show you how to use the regular source code
-editor for editing HTML5 files directly on your hard disk.
+<p>In the second time, I will show you how to use the regular source code
+editor for editing HTML5 files directly on your hard disk.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 36. jsbin template and my home page (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1342,20 +1309,20 @@ you will open a new tab with your browser and you go to <a href="http://jsbin.co
   alt="JSBin, My Home Page and Who Am I?" />
 </p>
 
-For the moment, we are going to use only HTML code. If you want to try
+<p>For the moment, we are going to use only HTML code. If you want to try
 the example from the course, just copy and paste the code in the HTML
 part on JSBin, and you see the result instantly. This is very practical
 because then you can modify the content, you can change the different
 values, the different elements... You can type your own text or your own
-HTML elements and attributes, and so on. 
+HTML elements and attributes, and so on.</p>
 
-You can also save your work
+<p>You can also save your work
 using the &quot;Save snapshot&quot; menu, and if you created an account, it&apos;s
 completely free. And you will be able to find your work the next time.
 You can share the URL; you can share the Web addresses of your work with friends. 
 They won&apos;t to be able to break what you&apos;ve done because it will be 
 create a new version or clone your own work so that your friends can work on 
-what you&apos;ve done.
+what you&apos;ve done.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. codepen.io has search engine (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1365,10 +1332,10 @@ what you&apos;ve done.
   alt="CodePen.io has search engine." />
 </p>
 
-The other online tool, that is very practical, is codepen.io. This one
+<p>The other online tool, that is very practical, is codepen.io. This one
 is maybe nicer but I think that JSBin is more practical for typing code.
 This one is interesting because it&apos;s got a search engine, and you can
-look for existing examples made by others.
+look for existing examples made by others.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. codepen.io, my home page (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1378,9 +1345,9 @@ look for existing examples made by others.
   alt="CodePen.io, My Home Page." />
 </p>
 
-I just typed &quot;button », and here I can see an example that create
+<p>I just typed &quot;button », and here I can see an example that create
 buttons. I can see the HTML code; CSS code and I can learn by looking at
-these examples.
+these examples.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1390,12 +1357,12 @@ these examples.
   alt="." />
 </p>
 
-In our case, if you want to create a new example, you just open
+<p>In our case, if you want to create a new example, you just open
 codepen.io, you click on the &quot;New Pen&quot; button and you copy the HTML
 code in the HTML part on the editor, and you see the result. Don&apos;t
 forget to save to create an account also. And here, you can download the
 result for editing that offline if you would like using the &quot;export&quot;
-option (bottom right of screen in 'edit CodePen' mode).
+option (bottom right of screen in 'edit CodePen' mode).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. codepen, export to zip file (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1405,11 +1372,11 @@ option (bottom right of screen in 'edit CodePen' mode).
   alt="CodePen, export to zip file." />
 </p>
 
-&quot;Export.zip&quot;. With CodePen, I&apos;ve got a zip file and in the zip
+<p>&quot;Export.zip&quot;. With CodePen, I&apos;ve got a zip file and in the zip
 file, I&apos;ve got index.html here. And if I look at the source, it&apos;s
-exactly the source from the example.
+exactly the source from the example.</p>
 
-With JSBin, you can also download your result: &quot;Download&quot;. And in that
+<p>With JSBin, you can also download your result: &quot;Download&quot;. And in that
 case, the name of HTML file will be built using the name of your example
 in the address bar of your browser. But if you click on it, you've got
 the same result. You've got an HTML file that is local in your hard disk
@@ -1417,13 +1384,13 @@ that you can edit later on. You can see that the source code is nearly
 the same. The only difference is some comments that have been inserted
 at the top of the file. And if you want to create this example locally
 on your hard disk, I recommend to install some source code editor. In
-the course, we propose different ones.
+the course, we propose different ones.</p>
 
-The one I use is &quot;Sublime Text&quot;. You go to SublimeText.com Web site.
+<p>The one I use is &quot;Sublime Text&quot;. You go to SublimeText.com Web site.
 You download, it&apos;s free. You can also buy an enhanced version but the
 free version is ok. You download it. And once it&apos;s installed, you can
 work with it locally. I&apos;m going to show you how to do that. What I
-recommend is that you create a directory somewhere.
+recommend is that you create a directory somewhere.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 43. live web development using sublime (36) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1433,13 +1400,13 @@ recommend is that you create a directory somewhere.
   alt="Live web development using Sublime." />
 </p>
 
-Here, I&apos;m creating a directory on my desktop... so, a new directory:
+<p>Here, I&apos;m creating a directory on my desktop... so, a new directory:
 &quot;Example 1&quot;. And inside that directory, I will create the HTML file. I
 use the &quot;New file&quot; option from Sublime Text. I copy and paste the
 code. I use &quot;Save as&quot; and i will save the page as index.html file...
 you can name it as you like. &quot;index&quot; is very common for the main page
 of Web site. I then go to the desktop to the « Example 1&quot; directory and
-i save the file.
+i save the file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 44. sublime example opened in browser (36) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1449,12 +1416,12 @@ i save the file.
   alt="Sublime example opened in browser." />
 </p>
 
-And from Sublime Text, you can use the right click &quot;Open in browser&quot;
+<p>And from Sublime Text, you can use the right click &quot;Open in browser&quot;
 and you can see the result. If I change the code here, my home page
 &quot;Hello W3Cx students&quot; and I want to see the result, I just save 'CTRL
 s' or command s on my Mac. I do &quot;Open in the browser&quot; or I can just
 reload the page, and I can see that I change the content of the HTML
-file.
+file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. jsbin, hello w3cx students (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1464,45 +1431,45 @@ file.
   alt="JSBin, Hello W3Cx students." />
 </p>
 
-This is how you can work. Or you can also directly open an example you
+<p>This is how you can work. Or you can also directly open an example you
 downloaded from JSBin or from CodePen. My download directory, I can find
 back the file that I downloaded when I was working with CodePen.io. And
 here, I have got HTML file. This is the code I prototyped, I tested
-first using an online environment.
+first using an online environment.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-2">1.2.2 HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-If you are sitting at a coffee shop next to a table of Web developers,
+<p>If you are sitting at a coffee shop next to a table of Web developers,
 you will probably often hear these three words: &quot;Elements&quot;, &quot;Tags&quot;
 and &quot;Attributes&quot;.
 
-&quot;Elements&quot; are the pieces themselves, i.e. a paragraph is an element,
+<p>&quot;Elements&quot; are the pieces themselves, i.e. a paragraph is an element,
 a header is an element, even the body is an element. Most elements can
 contain other elements, as the body element would contain header
 elements, paragraph elements, in fact pretty much all of the visible
 elements of the Document Object Model (that developers refer to as the
-&quot;DOM&quot;).
+&quot;DOM&quot;).</p>
 
-As an example, let&apos;s look at a simplified version of the last HTML code
-we presented earlier:
+<p>As an example, let&apos;s look at a simplified version of the last HTML code
+we presented earlier:</p>
 
-```
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-   <title>Your first HTML page</title>
-   <meta charset="utf-8"/>
-  </head>
-  <body>
-   <h1>My home page</h1>
-   <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+   &lt;title&gt;Your first HTML page&lt;/title&gt;
+   &lt;meta charset="utf-8"/&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+   &lt;h1&gt;My home page&lt;/h1&gt;
+   &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
 professor at the University of Côte d&apos;Azur, in France, and I'm also
-the author of three W3Cx MOOCS.</p>
-   </body>
-</html>
-```
+the author of three W3Cx MOOCS.&lt;/p&gt;
+   &lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
-Click the red circle next to HTML to unfold this HTML document structure
+<p>Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. html, red circle in jsbin (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1513,10 +1480,10 @@ Click the red circle next to HTML to unfold this HTML document structure
   alt="HTML, red circle in JSBin." />
 </p>
 
-Consider the figure above. It contains a single html element. It turns
+<p>Consider the figure above. It contains a single html element. It turns
 out this includes within it the entire content of your html file. If you
 click on the &quot;html&quot; red node, you&apos;ll find that it contains two
-components, a head and a body.
+components, a head and a body.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. html tree structure (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1526,13 +1493,13 @@ components, a head and a body.
   alt="HTML tree structure." />
 </p>
 
-Clicking on each of those will reveal their respective contents. This
+<p>Clicking on each of those will reveal their respective contents. This
 structure is what we computer scientists call a &quot;tree&quot;. Any given
 element (except for the outermost &quot;html&quot; element) is wholly contained
 inside another element, referred to as the &quot;parent&quot; element. Not
 surprisingly, the elements contained within a given element are its
 &quot;child&quot; elements. And, yes, children of a common parent are often
-referred to as &quot;siblings&quot;.
+referred to as &quot;siblings&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. html, with head & body (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1542,7 +1509,7 @@ referred to as &quot;siblings&quot;.
   alt="HTML, with head & body." />
 </p>
 
-Thus, in the example above, the top element is the html element, which
+<p>Thus, in the example above, the top element is the html element, which
 contains just two elements, the head and body.  The head element
 contains a title element and the body contains an h1 element and
 a p element.  In a more typical example, the body would contain many
@@ -1551,11 +1518,10 @@ more children, but for our purpose this is enough. p is for
 some space before the next element is displayed in the final HTML page
 rendering), h1 means &quot;heading level 1&quot;, and will be rendered by
 default in bold with a bigger char size than any other text element,
-etc.
+etc.</p>
 
 That may be a great picture, but how do we represent such a structure in
-a text file?  Well, that&apos;s where &quot;tags&quot; come in.
-
+a text file?  Well, that&apos;s where &quot;tags&quot; come in.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-3">1.2.3 HTML tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1573,22 +1539,22 @@ a text file?  Well, that&apos;s where &quot;tags&quot; come in.
 <h3>&lt;b&gt;</h3>
 </p>
 
-&quot;Tags&quot; are what we use to organize a text file (which is just a long
+<p>&quot;Tags&quot; are what we use to organize a text file (which is just a long
 string of characters) such that it represents a tree of elements that
 make up the html document. Tags are not the elements themselves, rather
 they&apos;re the bits of text you use to tell the computer where an element
 begins and ends. When you &quot;mark up&quot; a document, you generally don&apos;t
 want those extra notes that are not really part of the text to be
-presented to the reader.
+presented to the reader.</p>
 
-HTML borrows a technique from another language, SGML, to provide an easy
+<p>HTML borrows a technique from another language, SGML, to provide an easy
 way for a computer to determine which parts are &quot;MarkUp&quot; and which
 parts are the content. By using &quot;&lt;&quot; and &quot;&gt;&quot; as a kind of
 parentheses, HTML can indicate the beginning and end of a tag, i.e. the
 presence of &quot;&lt;&quot; tells the browser &quot;this next bit is markup, pay
-attention&quot;.
+attention&quot;.</p>
 
-Whatever that tag (or &quot;open tag&quot;) does, it applies to the content
+<p>Whatever that tag (or &quot;open tag&quot;) does, it applies to the content
 following the tag. Unless you want that to be the entire rest of the
 document, you need to indicate when to stop using that tag and do
 something else, so &quot;&lt;&quot; and &quot;&gt;&quot; are used again. Since elements are
@@ -1597,23 +1563,23 @@ distinguish between the end of the current tag and the beginning of a
 new tag (representing a nested element). This is done by adding a &quot;/&quot;
 right after the &quot;&lt;&quot; to indicated that it&apos;s a &quot;close tag&quot;. To
 indicate the beginning and end of a paragraph (indicated by the single
-letter &quot;p&quot;) you end up with something like this:
+letter &quot;p&quot;) you end up with something like this:</p>
 
-```
-> <p>This is my first paragraph!</p>
-```
+<pre>
+&gt; &lt;p&gt;This is my first paragraph!&lt;/p&gt;
+</pre>
 
-The browser sees the letters &quot;&lt;p&gt;&quot; and decides &quot;A new paragraph is
+<p>The browser sees the letters &quot;&lt;p&gt;&quot; and decides &quot;A new paragraph is
 starting; I&apos;d better start a new line and maybe indent it&quot;. Then when
 it sees &quot;&lt;/p&gt;&quot; it knows that the paragraph it was working on is
 finished, so it should break the line there before going on to whatever
-is next.
+is next.</p>
 
-For example, the &quot;&lt;em&gt;&quot; tag is used for element that
+<p>For example, the &quot;&lt;em&gt;&quot; tag is used for element that
 needs <b>Em</b>phasis.  The  &quot;&lt;&quot; and &quot;&gt;&quot; indicate that this is a tag,
 and the &quot;little bits of text&quot; in between tell us what kind of tag it
 is.  To completely describe the element, it needs an open and close
-tag, and everything in between the tags is the contents of the element:
+tag, and everything in between the tags is the contents of the element:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. diagram of an element (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1623,67 +1589,63 @@ tag, and everything in between the tags is the contents of the element:
   alt="Diagram of an element." />
 </p>
 
-Most tags have open and close versions, but there are a few strange
+<p>Most tags have open and close versions, but there are a few strange
 ones.  For more info, we strongly recommend that you follow the
-W3Cx [HTML5&CSS
-Fundamentals](https://www.edx.org/course/html5-and-css-fundamentals) course,
-but we generally refer to the strange ones as &quot;self closing&quot; tags.  
-Usually these tags represent an element that is completely described by
-its attributes, and thus there is no need for other content.  So if you
-see something like this:
+W3Cx <a href="https://www.edx.org/course/html5-and-css-fundamentals">HTML5&CSS Fundamentals</a> 
+course, but we generally refer to the strange ones as &quot;self closing&quot; 
+tags. Usually these tags represent an element that is completely described by
+its attributes, and thus there is no need for other content.  So if you see 
+something like this:</p>
 
 ```
 > <img src="https://goo.gl/pVxY0e" alt="Floating Flower"/>
 ```
 
-&hellip; then you should know that the slash at the end of the open tag is
+<p>&hellip; then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won&apos;t see any other
 indication that this element is now complete. There are also a few tags
 that don&apos;t even use the &quot;/&quot; at the end, they just don&apos;t have any
 close tag at all.  This works because all of the information this tag
-needs is declared in an &quot;attribute&quot;.
+needs is declared in an &quot;attribute&quot;.</p>
 
-The &lt;img&gt; tag is one of them, the &quot;/&quot; at the end is optional and can
-be removed entirely, this will still be [valid
-HTML5](https://w3c.github.io/html/syntax.html#void-elements).
+<p>The &lt;img&gt; tag is one of them, the &quot;/&quot; at the end is optional and can
+be removed entirely, this will still be 
+<a href="https://w3c.github.io/html/syntax.html#void-elements">valid HTML5</a>.</p>
 
-```
-> <img src="https://goo.gl/pVxY0e" alt="Floating Flower">
-```
+<pre>
+&gt; &lt;img src="https://goo.gl/pVxY0e" alt="Floating Flower"&gt;
+</pre>
 
-These elements, without a &quot;/&quot; at the end, are called &quot;void
+<p>These elements, without a &quot;/&quot; at the end, are called &quot;void
 elements&quot;. They are : area, base, br, col, embed, hr, img, input, link,
-menuitem, meta, param, source, track, wbr.
-
+menuitem, meta, param, source, track, wbr.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-4">1.2.4 HTML attributes (6:01)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Most of what you can learn about HTML attributes is presented 
+<a href="https://www.edx.org/school/w3cx">in the three W3Cx MOOCs about HTML5</a> 
+(fundamentals, coding essentials, and advanced techniques), but we can introduce 
+the idea briefly in this JavaScript course. Basically, a given element on your
+Web page can be distinguished by any number of unique or common attributes. For 
+example, we&apos;ve already seen how an image can be inserted in your Web page, 
+and in that example we used the width attribute of the &lt;img&gt; tag in order 
+to constrain the width of the image:</p>
 
-Most of what you can learn about HTML attributes is presented [in the
-three W3Cx MOOCs about
-HTML5](https://www.edx.org/school/w3cx) (fundamentals, coding
-essentials, and advanced techniques), but we can introduce the idea
-briefly in this JavaScript course. Basically, a given element on your
-Web page can be distinguished by any number of unique or common
-attributes. For example, we&apos;ve already seen how an image can be
-inserted in your Web page, and in that example we
-used the width attribute of the &lt;img&gt; tag in order to constrain
-the width of the image:
+<pre>
+&gt; &lt;img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
+&gt;   width=200 alt="Michel Buffa plays rock&roll"&gt;
+</pre>
 
-<pre>&gt; &lt;img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
->      width=200 alt="Michel Buffa plays rock&roll"&gt;</pre>
-
-As you might guess, the &lt;img&gt; tag also has a height attribute, as well
-as others. Different HTML tags share some common attributes that we&apos;ll
-meet in the next section, which are particularly useful when coupled
-with CSS (id and class) for applying graphic styles (color, shadow,
-etc.), but can also have specific attributes (for example:
-the src attribute can be found in
+<p>As you might guess, the &lt;img&gt; tag also has a height attribute, as well as 
+others. Different HTML tags share some common attributes that we&apos;ll meet 
+in the next section, which are particularly useful when coupled with CSS (id 
+and class) for applying graphic styles (color, shadow, etc.), but can also 
+have specific attributes (for example: the src attribute can be found in 
 the &lt;video&gt;, &lt;audio&gt;, &lt;img&gt; tags but not on a &lt;p&gt; or on
-an &lt;h1&gt; tag!)
+an &lt;h1&gt; tag!)</p>
 
-Try changing the value of the width attribute in the example below, or
-add a height attribute, and see the result:
+<p>Try changing the value of the width attribute in the example below, or
+add a height attribute, and see the result:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 51. codepen: pbs twing profile image (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1693,10 +1655,12 @@ add a height attribute, and see the result:
   alt="CodePen: pbs.twing profile image." />
 </p>
 
-<pre>&lt;img
+<pre>
+&lt;img
   src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg" 
-    width=200 
-    alt="Michel Buffa plays rock and roll"&gt;</pre>
+  width=200 
+  alt="Michel Buffa plays rock and roll"&gt;
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. your first html page (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1706,14 +1670,14 @@ add a height attribute, and see the result:
   alt="Your first HTML page." />
 </p>
 
-In this lesson, I will show you how to create from scratch an HTML page
+<p>In this lesson, I will show you how to create from scratch an HTML page
 using some of the most common HTML tags. I will use an online tool for
 doing that. Like that, you will see some live preview of what I&apos;m
 doing. I&apos;m using &quot;jsbin.com&quot;, and I will work on the HTML part of the
 editor, and you will see in the output part the results of what I&apos;m
 doing. <b>JSBin</b> created for me a first template. Most common HTML5
 starts with &lt;!DOCTYPE html&gt;, that tells the browser that the file is
-going to render will be an HTML5 file.
+going to render will be an HTML5 file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 53. example: html, head and body (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1723,13 +1687,12 @@ going to render will be an HTML5 file.
   alt=""Example: HTML, head and body." />
 </p>
 
-Then, you&apos;ve got a first element that is called &lt;html&gt; and you&apos;ve
+<p>Then, you&apos;ve got a first element that is called &lt;html&gt; and you&apos;ve
 got the closing corresponding element that is &lt;/html&gt;. It&apos;s a common
 way with markup languages to have opening and closing tags. And as you
 saw earlier in the course, when you&apos;ve got such elements, they will
 have children. In the HTML tag, we will have a head element and a body
-element.
-
+element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. jsbin example; template (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2503,7 +2466,7 @@ Read this blog post about all these naming incongruities!</a><br>
 At the beginning, ES2015 was referred to as ES6 and before that,
 Harmony. Moving forward, ES suffixed with the year of the latest
 approved standard is the naming convention. The next version was
-called&hellip; ES2016, etc.!<br clear="left"/>
+called&hellip; ES2016, etc.!<br clear="left"/></p>
 
 <p>Browser vendors do not wait that ECMA standardizes a version as they
 start implementing it during the standardization process, which can take
@@ -2550,36 +2513,36 @@ relevant for an intro course</b>.</p>
 <h4>Is JavaScript an important language to learn? What about Java, PHP, C#, 
 Python, Ruby and all the others?</h4>
 
-JavaScript is the only programming language you can run in your browser.
+<p>JavaScript is the only programming language you can run in your browser.
 Without JavaScript there would be no games, no fancy dynamic HTML forms,
-no interactive maps, no Gmail, no YouTube, no Twitch TV, no Netflix&hellip;.
+no interactive maps, no Gmail, no YouTube, no Twitch TV, no Netflix&hellip;.</p>
 
-JavaScript is integrated into nearly every popular Web browser and is
+<p>JavaScript is integrated into nearly every popular Web browser and is
 probably the most frequently used language in the world. More than 90%
-of Web documents now use JavaScript too.
+of Web documents now use JavaScript too.</p>
 
-Every computer, smartphone, and tablet uses JavaScript many times a day
+<p>Every computer, smartphone, and tablet uses JavaScript many times a day
 within the browser and even as native code! Indeed, some applications
 are compiled from their JavaScript/HTML/CSS version into &quot;classic&quot;
 applications that can be run without a browser. This compilation step
 can give an extra performance boost, the NetFlix application, or Office
-365 are such applications.
+365 are such applications.</p>
 
-In the beginning, JavaScript was invented to work not only on the client
+<p>In the beginning, JavaScript was invented to work not only on the client
 side (in Web browsers) but also on the server side (on the Netscape HTTP
-Web server back in 1995).
+Web server back in 1995).</p>
 
-In recent years this trend has returned, thanks to the appearance of the
+<p>In recent years this trend has returned, thanks to the appearance of the
 Node.js server/JavaScript interpreter. It&apos;s common to see JavaScript
 applications running on a remote Web server. Mastering JavaScript basics
 is highly recommended before trying to learn JavaScript server-side
-programming.
+programming.</p>
 
 <h4>JavaScript is an interpreted language</h4>
 
-JavaScript is an interpreted (or just-in-time compiled) language, which
+<p>JavaScript is an interpreted (or just-in-time compiled) language, which
 means that the code is converted into a machine language at, or just
-before, runtime. The most popular JavaScript engines are:
+before, runtime. The most popular JavaScript engines are:</p>
 
 -   [SpiderMonkey](https://spidermonkey.dev/) (included in Mozilla Firefox)
 
@@ -2628,13 +2591,13 @@ post your comments/observations/questions or share your creations.</p>
   alt="The Best Way to Learn JavaScript." />
 </p>
 
-What it the best method for learning JavaScript?
+<p>What it the best method for learning JavaScript?</p>
 
-When you are a complete beginner, I will recommend to look at examples,
+<p>When you are a complete beginner, I will recommend to look at examples,
 tweak them, change small things, try to understand how the syntax looks
 like. Even without deep explanations, without reading a book, or
 studying in details the different concepts of language, you can learn a
-lot.
+lot.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 94. the best way to learn javascript (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2644,8 +2607,8 @@ lot.
   alt="The Best Way to Learn JavaScript." />
 </p>
 
-In this section, I propose that you look at a small example without
-understanding the details, and try to tweak it.
+<p>In this section, I propose that you look at a small example without
+understanding the details, and try to tweak it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 95.  (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2654,9 +2617,10 @@ understanding the details, and try to tweak it.
   title=""
   alt="." />
 </p>
-Here is the example we provide. It&apos;s just an example that draws, that
+
+<p>Here is the example we provide. It&apos;s just an example that draws, that
 plots, a mathematical function. You can use the mouse wheel to zoom in,
-zoom out, and you can look at the HTML code. 
+zoom out, and you can look at the HTML code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 96.  (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2666,20 +2630,20 @@ zoom out, and you can look at the HTML code.
   alt="." />
 </p>
 
-There is only very few CSS
+<p>There is only very few CSS
 and very few lines of JavaScript. How can we do the such a complex
 result? Complex thing drawing the grid with axes, with labels, with a
-curve, and interact with the mouse.
+curve, and interact with the mouse.</p>
 
-With only 10 lines of code: it&apos;s because we are using what we call an
+<p>With only 10 lines of code: it&apos;s because we are using what we call an
 external JavaScript library. Actually, we are using 2 of them here.
 Because, this one: the &quot;function-plot&quot; JavaScript library, is using
-internally another one you must include also in the document.
+internally another one you must include also in the document.</p>
 
-What I propose is that we will start looking at this example. The best
+<p>What I propose is that we will start looking at this example. The best
 way is to click on &quot;Edit on CodePen&quot; label here, it will open the code
 in the CodePen.io online editor. And&hellip; just look at the HTML part
-here. 
+here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 97.  (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2688,12 +2652,12 @@ here.
   title=""
   alt="." />
 </p>
-Okay, we can just look at the HTML part and zoom in a little bit.
+<p>Okay, we can just look at the HTML part and zoom in a little bit.
 What do we see? We can see that it uses 2 libraries here between
 &lt;script&gt; and &lt;/script&gt; elements. This is how we can insert in the
 document an external JavaScript file. In that case, it&apos;s a remote
 JavaScript file because we are downloading it using http. It uses this
-&quot;d3js&quot; JavaScript library that is located at &quot;d3js.org&quot;. 
+&quot;d3js&quot; JavaScript library that is located at &quot;d3js.org&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 98. js data driven documents (d3) library (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2703,13 +2667,13 @@ JavaScript file because we are downloading it using http. It uses this
   alt="." />
 </p>
 
-You can open this in another tab and you will see the documentation and the Web
+<p>You can open this in another tab and you will see the documentation and the Web
 site, the homepage of the Web site, for the &quot;d3js&quot; library. By the way
 &quot;d3js&quot;is one of the most popular JavaScript libraries for visualizing
-data.
+data.</p>
 
-Let&apos;s go back to our example, so you can just tweak the different
-elements. 
+<p>Let&apos;s go back to our example, so you can just tweak the different
+elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 99.  (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2718,7 +2682,7 @@ elements.
   title=""
   alt="." />
 </p>
-If I want to plot a cosinus instead of a sinus, I don't need
+<p>If I want to plot a cosinus instead of a sinus, I don't need
 to understand the whole syntax here, but I guess that by just typing
 &quot;cos&quot; here, it will do something. And indeed, I have just drawn a
 cosinus. If I change this for &quot;green&quot;, it changes the color. If I
@@ -2726,8 +2690,7 @@ change the grid, that is by default &quot;true&quot;, if I say &quot;false&quot;
 don&apos;t have a grid anymore. Okay let&apos;s put it back. And I&apos;ve got some
 &quot;xAxis&quot; domain: &quot;-1, +1&quot;. If I change that for &quot;-10, +10&quot;, I can
 see the result. It&apos;s more interesting, if you change this for the x
-values&hellip; instead of going from PI to 2 PI. 
-
+values&hellip; instead of going from PI to 2 PI.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 100.  (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2737,7 +2700,7 @@ values&hellip; instead of going from PI to 2 PI.
   alt="." />
 </p>
 
-I went from 0 to 10 PI. I can see the result here, and so on&hellip; Now that you tweak the example,
+<p>I went from 0 to 10 PI. I can see the result here, and so on&hellip; Now that you tweak the example,
 you can try to understand what is going on. Okay, this thing is a name
 followed by a parenthesis. an open parenthesis with a closing
 parenthesis. It&apos;s a function call. When you&apos;ve got something like
@@ -2745,8 +2708,7 @@ that, in JavaScript, function parenthesis with something in the middle,
 it&apos;s called a &quot;function call&quot;. We&apos;re going to call a function, that,
 in this case, we haven't written, so it&apos;s coming from one of the
 external libraries. In that case, it&apos;s the &quot;function-plot&quot; library. What is inside? There
-are the parameters. 
-
+are the parameters.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 101.  (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2756,7 +2718,7 @@ are the parameters.
   alt="." />
 </p>
 
-And I can use an external name. I can declare that,
+<p>And I can use an external name. I can declare that,
 here, it&apos;s equivalent. You see that it works the same here, but I've
 just separated the two things. If I put directly this thing inside here,
 like it was before, it still works. Okay, so what is this syntax? In
@@ -2767,13 +2729,13 @@ function, color, grid. And the values are after a column characters. The
 target is my function. The data is this thing. The grid is true, and so
 on&hellip; You separate the different properties of the object using a comma
 and sometimes, you can have some properties that in turn, have a value
-that is an object.
+that is an object.</p>
 
-The xAxis property is equal to an object that has a property domain,
+<p>The xAxis property is equal to an object that has a property domain,
 that has for values: &quot;-1, 1&quot;. And when you&apos;ve got brackets, opening
 and closing brackets, it&apos;s like that&hellip; That will define arrays of
 things in JavaScript. And an array of things is a list of enumerable elements. In that case,
-the domain has two elements: the minimum value and the maximum value.
+the domain has two elements: the minimum value and the maximum value.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 102.  (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2783,10 +2745,10 @@ the domain has two elements: the minimum value and the maximum value.
   alt="." />
 </p>
 
-And here you can see that the data that are plotted, the cosinus
+<p>And here you can see that the data that are plotted, the cosinus
 function, is also an array. If I use the comma and I introduce a second
 element here. For example, the sinus function, and if I change the
-color, let&apos;s make it pink&hellip; 
+color, let&apos;s make it pink&hellip;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 103.  (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2796,14 +2758,14 @@ color, let&apos;s make it pink&hellip;
   alt="." />
 </p>
 
-Look at the result: I&apos;ve got 2 different
+<p>Look at the result: I&apos;ve got 2 different
 functions that have been plotted in my graph. I can, instead of using
 this, I can maybe plot x2 (x square 2), like this, okay. It should work.
 Ok, we can see a little bit of it here. Maybe we will change the domain,
 so instead of stopping at 1, we go to 10. Here we go! And if we look at
 the values, we see the x square function that is a bit better, and if we
 just plot it for x=0 to x=2&hellip; &hellip;In that case, I've got another scale
-for looking at the functions.
+for looking at the functions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 104.  (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2813,11 +2775,11 @@ for looking at the functions.
   alt="." />
 </p>
 
-In this first example, you saw how to use an external library, what is
+<p>In this first example, you saw how to use an external library, what is
 the syntax to call a function, and how we can define objects in
 JavaScript by using a set of properties and values, separated by a
 comma. And we also had a first encounter with what we call arrays, that
-are elements separated by commas inside brackets. 
+are elements separated by commas inside brackets.</p>
 
 <h4>FIRST: learn by looking at and tweaking the code in the examples</h4>
 <!-- page 76 -->
@@ -2889,8 +2851,8 @@ account of a person named &quot;mauriciopoppe&quot;, the repository is named
 &quot;function plot&quot; (<a href="https://mauriciopoppe.github.io/function-plot/">
 &quot;function plot JavaScript library&quot;</a>).</p>
 
-Then, looking at the JavaScript code of the example (click the JS button
-on the CodePen example), we see:
+<p>Then, looking at the JavaScript code of the example (click the JS button
+on the CodePen example), we see:</p>
 
 <pre>
 1.  functionPlot(<b>{</b>
@@ -2955,13 +2917,13 @@ name tells us.</p>
 
 <h4>Function parameters</h4>
 
-The &quot;thing&quot; between parentheses is what we call &quot;the parameters of
+<p>The &quot;thing&quot; between parentheses is what we call &quot;the parameters of
 the function&quot;: the data we pass to the function so that it can plot
 different math functions, with different colors, with different ranges
-for the x and y values, with or without a grid, etc.
+for the x and y values, with or without a grid, etc.</p>
 
-Let&apos;s have a look at the parameters we used in our example (the ones
-you tweaked). They are in bold in the source code we saw earlier:
+<p>Let&apos;s have a look at the parameters we used in our example (the ones
+you tweaked). They are in bold in the source code we saw earlier:</p>
 
 <pre>
 1.  {
@@ -2982,14 +2944,14 @@ you tweaked). They are in bold in the source code we saw earlier:
 
 <h4>JavaScript object</h4>
 
-In JavaScript you can have simple values like: 2, 5, &quot;hello&quot;,
+<p>In JavaScript you can have simple values like: 2, 5, &quot;hello&quot;,
 &quot;3.14&quot;, and you may also encounter more &quot;structured&quot; values that we
 call &quot;objects&quot;. In Module 3 we will address JavaScript objects, but
 for the moment we will just present them through examples, without too
-much detail.
+much detail.</p>
 
-A JavaScript object can be defined by two braces with a set of
-properties/values inside, separated by a comma. Here is a simple object:
+<p>A JavaScript object can be defined by two braces with a set of
+properties/values inside, separated by a comma. Here is a simple object:</p>
 
 <pre>
 1.  {
@@ -2998,12 +2960,12 @@ properties/values inside, separated by a comma. Here is a simple object:
 4.  }
 </pre>
 
-We use the &quot;:&quot; separator between the property name and its value. We
+<p>We use the &quot;:&quot; separator between the property name and its value. We
 use a comma between two properties, and we omit the comma after the last
-property (or before the ending brace).
+property (or before the ending brace).</p>
 
-In our examples, the properties of the object that is passed as a
-parameter to the functionPlot(&hellip;) call are in bold.
+<p>In our examples, the properties of the object that is passed as a
+parameter to the functionPlot(&hellip;) call are in bold.</p>
 
 <h4>They are respectively:</h4>
 
@@ -3034,14 +2996,14 @@ parameter to the functionPlot(&hellip;) call are in bold.
     values&hellip;</li>
 </ul>
 
-Notice that after each property (color, grid, etc.) there is a &quot;,&quot;.
+<p>Notice that after each property (color, grid, etc.) there is a &quot;,&quot;.
 Notice that between the name of the properties and the value there is a
-&quot;:&quot;, etc&hellip;
+&quot;:&quot;, etc&hellip;</p>
 
 <h4><b>Embedded objects</b></h4>
 
-If we look at the values of the xAxis and yAxis properties, they
-are also objects.
+<p>If we look at the values of the xAxis and yAxis properties, they
+are also objects.</p>
 
 <code>
 1.  xAxis: {
@@ -3058,19 +3020,20 @@ The data object is even more complicated:
 4.  }&rbrack;,
 </pre>
 
-Instead of containing another object like xAxis or yAxis, it contains
+<p>Instead of containing another object like xAxis or yAxis, it contains
 another sort of object, but inside brackets! <b>In JavaScript, brackets
 are used to create arrays</b> of &quot;things&quot; (multiple, enumerable things).
 In this example, the array contains one single object that has two
-properties:
+properties:</p>
 
--   fn: the value of the function to be plotted, in this case sin(x),
+<ul>
+  <li>fn: the value of the function to be plotted, in this case sin(x),</li>
+  <li>color: the color of the curve</li>
+</ul>
 
--   color: the color of the curve
-
-<b>In arrays, the different elements are separated by commas.</b> Let&apos;s
+<p><b>In arrays, the different elements are separated by commas.</b> Let&apos;s
 try to plot an additional function in our example. We will add f(x) =
-cos(x) to our example, with a different color:
+cos(x) to our example, with a different color:</p>
 
 <pre>
 1.  data: &lbrack;
@@ -3141,8 +3104,8 @@ content of the page.</p>
   alt="." />
 </p>
 
-Another thing we can do is to change dynamically the CSS style of some
-part of the document. I click on the button and I change the style of the title.
+<p>Another thing we can do is to change dynamically the CSS style of some
+part of the document. I click on the button and I change the style of the title.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 111.  (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3171,11 +3134,11 @@ surface address. Here we go. I&apos;m located near Antibes in the south of Franc
   alt="." />
 </p>
 
-You can also work with remote data. So in this code, I&apos;m just sending
+<p>You can also work with remote data. So in this code, I&apos;m just sending
 what we call an Ajax request to a remote server to get a list of
 users... and once I get this list of users, I just use the HTML table
 JavaScript API for building dynamically tables. And I use this API to
-display the data that just came from a remote server. 
+display the data that just came from a remote server.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 113.  (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3185,18 +3148,17 @@ display the data that just came from a remote server.
   alt="." />
 </p>
 
-There is another example, that uses another database, another online database, 
+<p>There is another example, that uses another database, another online database, 
 for getting the members of a rock band. So, I type &quot;The Beatles&quot;. I 
 got from the remote server the list of the members of The Beatles. So, these
-were the most typical uses of JavaScript Web sites.
+were the most typical uses of JavaScript Web sites.</p>
 
 <h4>What can be done with JavaScript:</h4>
 
 <h4>1) Interact with the HTML and CSS content of a document, respond to events</h4>
 
-We have already seen three examples in previous parts of this week&apos;s
-course material.
-
+<p>We have already seen three examples in previous parts of this week&apos;s
+course material.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 114. update html using javascript (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3205,8 +3167,6 @@ course material.
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image095.png){width="6.5in" height="2.9611111111111112in"} -->
-
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE">CodePen: JS &amp; HTML</a></h6>
 
 <p>This first example used <b>the selector API</b> for selecting a particular
@@ -3257,10 +3217,7 @@ adding a parenthesis after its name, followed by a semi colon):</p>
   title="Example of interactivity between javascript &amp; html"
   alt="Example of interactivity between javascript &amp; html." />
 </p>
-<!-- ![](./images/image096.png){width="6.5in" height="3.071527777777778in"} -->
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN">CodePen: Interactivity between JS &amp; HTML</a></h6>
-
-[<img src="[https://codepen.io/w3devcampus/pen/bgwVvN]" width="50"/>](./images/image115.png)
 
 <p>The second example is nearly the same except that we changed the name of
 the function, and instead of using the DOM API to update the text
@@ -3268,61 +3225,61 @@ content of the main title, <b>we use its style property to change its
 look and feel. Using the style property is a way of altering the CSS
 property values of this HTML element.</b></p>
 
-<code>function changeTitleCSSStyle() {
+<pre>
+function changeTitleCSSStyle() {
   var title = document.querySelector("#mainTitle");
-  **title.style.color = 'black';**
-  **title.style.backgroundColor = "yellow";**
-  **title.style.border = "5px dashed red";**
-}</code>
+  <b>title.style.color = 'black';</b>
+  <b>title.style.backgroundColor = "yellow";</b>
+  <b>title.style.border = "5px dashed red";</b>
+}
+</pre>
 
-title is in reality what we call &quot;an object&quot; and style is a property
+<p>title is in reality what we call &quot;an object&quot; and style is a property
 of the title object. The style is an object as well and has attributes
 that correspond to the different CSS properties we set. For
 example, style.color returns the color that element has set on it. By
 calling title.style.color = &quot;yellow&quot;; you can apply the style change
-dynamically.
+dynamically.</p>
 
-Some of you may be wondering what happens when the CSS property being
+<p>Some of you may be wondering what happens when the CSS property being
 set has a hyphen. The syntax has to be different here, because, for
 example, if you write title.style.background-color, JavaScript will try
 to subtract color from the title.style.background notation, which is not
 what you want to happen. To stop this problem from occurring, all the
 CSS properties are written out in CamelCase: the CSS
 name background-color becomes backgroundColor, text-size becomes textSize, 
-border-color becomes borderColor etc.
+border-color becomes borderColor etc.</p>
 
-Don&apos;t worry, we will return to this later in this course, these first
-examples are just here as an introduction.
+<p>Don&apos;t worry, we will return to this later in this course, these first
+examples are just here as an introduction.</p>
 
-The third example (outlined in the previous section), which showed how
+<p>The third example (outlined in the previous section), which showed how
 to plot math functions, illustrated that with a few lines of code you
-can reuse code from others (a third party JavaScript library).
+can reuse code from others (a third party JavaScript library).</p>
 
 <h4>2) Use numerous APIs in addition to the DOM and selector APIs: multimedia, 
 drawing, animating, geolocation, webcam, etc.</h4>
 
-Your browser comes with a lot of different &quot;libraries&quot; that are called
+<p>Your browser comes with a lot of different &quot;libraries&quot; that are called
 &quot;standards APIs&quot; for &quot;application programming interfaces&quot;. Such APIs
 are &quot;W3C standards&quot; and are present in all Web browsers that follow
 the Web Standards. You will have APIs for manipulating multimedia (audio
 and video), geolocation (getting the longitude and latitude),
 orientation (on mobile devices), accessing the webcam or the microphone,
 etc. In a later section we will provide a set of examples that use some
-of the most useful APIs provided by your Web browser.
+of the most useful APIs provided by your Web browser.</p>
 
-Example of an HTML page that embeds an interactive OpenStreet Map (<b>you
+<p>Example of an HTML page that embeds an interactive OpenStreet Map (<b>you
 need to click the CodePen logo on top right to run this example. For
-security reasons it cannot be run inside this course page</b>).
-
+security reasons it cannot be run inside this course page</b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 116.  (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 116. codepen example, geolocation mapping (87) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image116.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image097.png){width="6.5in" height="2.0819444444444444in"} -->
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE">
 CodePen: Geolocation Mapping</a></h6>
 
@@ -3337,14 +3294,13 @@ years ago).</p>
 <p>Here is an example that will display the current and past members of
 famous rock bands:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 117. codepen example, band name (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 117. codepen example, band name (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image117.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
 </p>
-<!-- ![](./images/image098.png){width="6.5in" height="2.9611111111111112in"} -->
 
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJwpKq">CodePen: Database Lookup</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7024,28 +6980,28 @@ to a conditional statement.**
 
 <h4>The if-then-else ternary operator</h4>
 
-This ternary operator is a shortcut version of if&hellip;then&hellip;else.
+<p>This ternary operator is a shortcut version of if&hellip;then&hellip;else.</p>
 
-Let&apos;s look at this code example:
+<p>Let&apos;s look at this code example:</p>
 
-```
+<pre>
 1.  var max;
 2.  var min = 2;
-3.  if (min < 10) {
+3.  if (min &tl; 10) {
 4.  max = min + 10;
 5.  } else {
 6.  max = min;
 7.  }
-```
+</pre>
 
 **Explanation**: You can replace this &quot;if-then-else&quot; statement with
 the ternary operator that uses a syntax with &quot;?&quot; and &quot;:&quot;
 
-```
+<pre>
 1.  var max;
 2.  var min;
-3.  max = (min < 10)? min+10 : min;
-```
+3.  max = (min &tl; 10)? min+10 : min;
+</pre>
 
 **Line 3** can be read as if (min &lt; 10) then max = min+10, else max =
 min. The &quot;then&quot; part is after the &quot;?&quot; and the &quot;else&quot; part is after
@@ -7065,23 +7021,23 @@ Here are two versions of the same code.
 
 **Version 1: **no curly braces
 
-```
-1.  **if** (a > 2)
+<pre>
+1.  <b>if</b> (a &gt; 2)
 2.      result = 'a is bigger than 2';
-3.  **else**
+3.  <b>else</b>
 4.      result = 'a is not bigger than 2';
-```
+</pre>
 
 **Version 2: **with curly braces for delimiting the &quot;then&quot; and
 &quot;else&quot; blocks
 
-```
-1.  **if** (a > 2) **{**
+<pre>
+1.  <b>if</b> (a &gt; 2) <b>{</b>
 2.  result = 'a is bigger than 2';
-3.  **} else {**
+3.  <b>} else {</b>
 4.  result = 'a is not bigger than 2';
-5.  **}**
-```
+5.  <b>}</b>
+</pre>
 
 Version 1 and version 2 are equivalent. Indeed, version 1 is correct:
 you can omit curly braces if the &quot;then&quot; or &quot;else&quot; blocks are made of
