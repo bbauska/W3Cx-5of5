@@ -6238,7 +6238,6 @@ function circRectsOverlap(x0, y0, w0, h0, cx, cy, r) {
 }   
 ```
 
-
 ```javascript
 function moveAllBalls(ballArray) {
     // iterate on all balls in array
@@ -6263,6 +6262,7 @@ function testCollisionWithPlayer(b, index) {
     }
 }
 ```
+
 Line 3: Look at the iterator;  this time instead of just one parameter (the current element), we've added a second 
 optional parameter that will be the index of the current element, starting from zero.
 
@@ -6291,6 +6291,7 @@ function drawNumberOfBallsAlive(balls) {
     ctx.restore();
 }
 ```
+
 This function is called by the mainLoop:
 
 ```javascript
@@ -6318,7 +6319,6 @@ Let's use some other techniques that we've learnt in this module: some input fie
 We will use these input fields to indicate the number of balls we want, the max speed we would like, the color and size of the player, etc.
 
 New version:
-
 
 ```html
 <!DOCTYPE html>
@@ -6359,7 +6359,6 @@ New version:
 </html>
 ```
 
-
 ```css
 #myCanvas {
   border: 1px solid black;
@@ -6370,8 +6369,6 @@ New version:
   float:left;
 }
 ```
-
-
 
 ```javascript
 // useful to have them as global variables
