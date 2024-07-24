@@ -2,7 +2,7 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ module1.md in W3Cx-5of5-JS.0x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Module 1: Introduction to JavaScript</h2>
-<h3>1.0 Introduction - Video introduction (1:46)</h3>
+<h3>1.1.1 Introduction - Video introduction (1:46)</h3>
 
 > Hello everyone, welcome to the wonderful world of JavaScript! In this
 > module, after giving a brief history of JavaScript and Web browsers,
@@ -28,7 +28,7 @@
 
 <hr>
 
-<h2 id="ch1-01">1.01 Introduction to JavaScript - Outline</h2>
+<h2 id="ch1-01">1.1.2 Introduction to JavaScript - Outline</h2>
 
 <h3>What you will learn in Module 1</h3>
 
