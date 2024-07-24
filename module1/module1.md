@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<!--  <title>W3Cx-5of5-JS.0x</title> -->
-  <meta charset="utf-8"/>
-</head>
-<body>
-  <h1>Video introduction - Module 1</h1>
-
+<h1>Video introduction - Module 1</h1>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ module1.md in W3Cx-5of5-JS.0x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Module 1: Introduction to JavaScript</h2>
@@ -68,25 +60,41 @@ introductory course designed to help you understand the basic concepts of the la
 
 <h4>The "Hyper Text" part: links!</h4>
 
-A fundamental key to the World Wide Web is the concept of "hypertext".  Hypertext is built on the idea of linking information together, not unlike using footnotes, but far easier and more flexible. The idea is to "mark up" your document with links and define how to break it down into different segments (chapters, sections, paragraphs, tables, figures, etc.)
+A fundamental key to the World Wide Web is the concept of "hypertext".  Hypertext is built on the idea of linking information together, 
+not unlike using footnotes, but far easier and more flexible. The idea is to "mark up" your document with links and define how to break 
+it down into different segments (chapters, sections, paragraphs, tables, figures, etc.)
 
-That's why, in 1989, Tim Berners-Lee began to create a definition of HTML: Hypertext Markup Language, to provide a simple, uniform way to incorporate hyperlinks into a text document.
+That's why, in 1989, Tim Berners-Lee began to create a definition of HTML: Hypertext Markup Language, to provide a simple, uniform way 
+to incorporate hyperlinks into a text document.
 
-A fundamental key to the World Wide Web is the concept of "hypertext".  Hypertext is built on the idea of linking information together, not unlike using footnotes, but far easier and more flexible. The idea is to "mark up" your document with links and define how to break it down into different segments (chapters, sections, paragraphs, tables, figures, etc.)
+A fundamental key to the World Wide Web is the concept of "hypertext".  Hypertext is built on the idea of linking information together, 
+not unlike using footnotes, but far easier and more flexible. The idea is to "mark up" your document with links and define how to break 
+it down into different segments (chapters, sections, paragraphs, tables, figures, etc.)
 
-That's why, in 1989, Tim Berners-Lee began to create a definition of HTML: Hypertext Markup Language, to provide a simple, uniform way to incorporate hyperlinks into a text document.
+That's why, in 1989, Tim Berners-Lee began to create a definition of HTML: Hypertext Markup Language, to provide a simple, uniform way 
+to incorporate hyperlinks into a text document.
 
-He envisioned a technology that would facilitate thoroughly interconnected documents. He wanted authors to be able to connect an idea in one document to the source of the idea in another, or connect a statement with the data that backs up that statement. Traditionally this kind of thing was done with footnotes and bibliographies, which can be cumbersome. This information should be easily transferable from one place to another, so that in reading one document, it is easy to access everything related (linked) to it. Tim Berners-Lee imagined a "Web" of interconnected documents.
+He envisioned a technology that would facilitate thoroughly interconnected documents. He wanted authors to be able to connect an idea 
+in one document to the source of the idea in another, or connect a statement with the data that backs up that statement. Traditionally 
+this kind of thing was done with footnotes and bibliographies, which can be cumbersome. This information should be easily transferable 
+from one place to another, so that in reading one document, it is easy to access everything related (linked) to it. Tim Berners-Lee 
+imagined a "Web" of interconnected documents.
 
-He used the metaphor of a Web to emphasize the importance of connections between documents. It was not just a long list of details, but rather a sea of information stretching out in all directions. This sea of information was navigated by a new tool called a "browser".
+He used the metaphor of a Web to emphasize the importance of connections between documents. It was not just a long list of details, 
+but rather a sea of information stretching out in all directions. This sea of information was navigated by a new tool called a "browser".
 
-The "Markup" part : elements, tags and attributes!
+The "Markup" part: elements, tags and attributes!
 
-So the "M" in HTML stands for "Markup", but what does Markup really mean?  Essentially it means to annotate a document with extra information: things like where different sections and paragraphs begin and end, which part is the title, which things should be emphasized and so on.
+So the "M" in HTML stands for "Markup", but what does Markup really mean?  Essentially it means to annotate a document with extra 
+information: things like where different sections and paragraphs begin and end, which part is the title, which things should be 
+emphasized and so on.
 
-There are many ways to markup a document, but HTML borrows a technique from an ancestor language, SGML (Standard Generalized Markup Language), which uses angle brackets ("<" and ">") to separate the annotations from the regular text.  In HTML these annotations are called "tags".
+There are many ways to markup a document, but HTML borrows a technique from an ancestor language, SGML (Standard Generalized 
+Markup Language), which uses angle brackets ("<" and ">") to separate the annotations from the regular text.  In HTML these 
+annotations are called "tags".
 
-For example, consider the following chunk of HTML code (note: you can edit the source code and see the resulting Web page updating in real time):
+For example, consider the following chunk of HTML code (note: you can edit the source code and see the resulting Web page 
+updating in real time):
 
 ```html
 <body>
