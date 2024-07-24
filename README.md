@@ -18,21 +18,22 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of W3Cx-5of5-JS.0x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
 <img src="./images/w3cx-logo.jpg?raw=true"
   style="width:35%"
   align="center"
   title="W3Cx logo"
   alt="W3Cx logo." />
-
+</p>
 <h3 align="center">W3Cx-5of5-JS.0x - JavaScript Introduction</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. W3Cx-5of5-JS.0x logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
   style="width:65%"
-  align="center"
   title="W3Cx JS logo"
   alt="W3Cx JS.0x logo." />
-
+</p>
 <p id="table-of-contents"></p>
 
 <h2><a href="#table-of-contents">Table of Contents - W3Cx-5of5-JS.0x - JavaScript Introduction</a></h2>
@@ -138,8 +139,8 @@ animated images, and much more.</p>
 
 <p>This course is designed for anyone who is comfortable with programming
 concepts. No prerequisites are required though we encourage you to
-follow these two other W3Cx courses: <a href="https://www.edx.org/course/html5-and-css-fundamentals">
-HTML5 and CSS Fundamentals</a> and <a href="https://www.edx.org/course/css-basics">CSS Basics</a>.</p>
+follow these two other W3Cx courses: <a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank" rel="noopener noreferrer">
+HTML5 and CSS Fundamentals</a> and <a href="https://www.edx.org/course/css-basics" target="_blank" rel="noopener noreferrer">CSS Basics</a>.</p>
 
 <h4>During this course, you will learn:</h4>
 
@@ -152,10 +153,10 @@ HTML5 and CSS Fundamentals</a> and <a href="https://www.edx.org/course/css-bas
 </ul>
 
 <p>You will make good use of your JavaScript skills in the other 2 W3Cx
-courses included in the <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer">
+courses included in the <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" target="_blank" rel="noopener noreferrer">
 &quot;Front-End Web Developer&quot; W3Cx Professional Certificate</a> program: 
-<a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">
-HTML5 Coding Essentials and Best Practices</a> and <a href="https://www.edx.org/course/html5-apps-and-games">HTML5
+<a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" target="_blank" rel="noopener noreferrer">
+HTML5 Coding Essentials and Best Practices</a> and <a href="https://www.edx.org/course/html5-apps-and-games" target="_blank" rel="noopener noreferrer">HTML5
 Apps and Games</a>.</p>
 
 <p>In the meantime, have fun in this course!</p>
@@ -165,13 +166,14 @@ industry leaders and/or top universities to build and enhance critical
 professional skills needed to succeed in today&apos;s most in-demand fields.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 02. banner image for the fewd professional certificate program (05) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
   style="width:40%"
   align="center"
   title="Banner image  for the FEWD professional certificate program"
   alt="Banner image for the FEWD professional certificate program." />
-
-<p>W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer">
+</p>
+<p>W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" target="_blank" rel="noopener noreferrer">
 &quot;Front-End Web Developer&quot; (FEWD) Professional Certificate</a> where
 you will learn all of the necessary skills needed to build interactive
 and responsive user experiences on the Web. This program will deepen
@@ -181,12 +183,12 @@ HTML5, CSS and JavaScript.</p>
 <h4>The W3C FEWD program is composed of 5 courses:</h4>
 
 <ol>
-  <li><a href="https://www.edx.org/course/css-basics"><b>CSS Basics</b></a></li>
-  <li><a href="https://www.edx.org/course/html5-and-css-fundamentals"><b>HTML5 and CSS Fundamentals</b></a></li>
-  <li><a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">
+  <li><a href="https://www.edx.org/course/css-basics" target="_blank" rel="noopener noreferrer"><b>CSS Basics</b></a></li>
+  <li><a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank" rel="noopener noreferrer"><b>HTML5 and CSS Fundamentals</b></a></li>
+  <li><a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" target="_blank" rel="noopener noreferrer">
     <b>HTML5 Coding Essentials and Best Practices</b></a></li>
-  <li><a href="https://www.edx.org/course/html5-apps-and-games"><b>HTML5 Apps and Games</b></a></li>
-  <li><b>This course</b>: <a href="https://www.edx.org/course/javascript-introduction">
+  <li><a href="https://www.edx.org/course/html5-apps-and-games" target="_blank" rel="noopener noreferrer"><b>HTML5 Apps and Games</b></a></li>
+  <li><b>This course</b>: <a href="https://www.edx.org/course/javascript-introduction" target="_blank" rel="noopener noreferrer">
     <b>JavaScript Introduction</b></a></li>
 </ol>
 
@@ -224,7 +226,7 @@ you prefer. However, there are some in particular that we recommend.</p>
   align="left" width="25%"
   title="Sublime text logo"
   alt="Sublime text logo."
-<a href="https://www.sublimetext.com/">Sublime Text</a> is a very powerful, 
+<a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer">Sublime Text</a> is a very powerful, 
 multi-platform source code editor, it&apos;s semi-free (you can use it without 
 paying, it will pop up a dialog asking you to buy it once in a while, but not 
 very often). Sublime text supports hundreds of plugins to enhance its features.</p>
@@ -234,8 +236,7 @@ very often). Sublime text supports hundreds of plugins to enhance its features.<
 <img src="./images/image004.jpeg?raw=true"
   style="width:40%"
   title="Snapshot of Sublime Text editing an html/css/js project"
-  alt="Snapshot of Sublime Text editing an html/css/js project." />
-</p>
+  alt="Snapshot of Sublime Text editing an html/css/js project." /></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. vs code logo (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
@@ -243,7 +244,7 @@ very often). Sublime text supports hundreds of plugins to enhance its features.<
   style="width:5%"
   title="VS Code logo"
   alt="VS Code logo." />
-<a href="https://code.visualstudio.com/">Visual Studio Code</a> is a
+<a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Visual Studio Code</a> is a
 free, open source, multi-platform editor by Microsoft.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 06. snapshot of visual studio code editing an html/css/js project (07) ~~~~~~~~~~-->
@@ -259,27 +260,31 @@ free, open source, multi-platform editor by Microsoft.</p>
 <h4>Free of charge:</h4>
 
 <ul>
-  <li><a href="https://atom.io/">Atom source</a> code editor (note that Visual Studio
-    code is based on Atom).</li>
-  <li><a href="http://brackets.io/">Brackets source</a> code editor.</li>
-  <li><a href="https://notepad-plus-plus.org/">NotePad++</a> (Windows only)</li>
-  <li><a href="https://netbeans.org/">NetBeans</a> and <a href="https://eclipse.org/">Eclipse</a>:
-    very powerful IDEs (integrated development environments), but
-    heavier than all the &quot;lightweight&quot; source editors that
-    we&apos;ve talked about so far. More dedicated to &quot;mid-size/large-size
-    projects&quot;, more for pro developers that are also looking for good
-    support for server-side languages such as Java, Python, PHP, etc.</li>
+  <li><a href="https://atom.io/" target="_blank" rel="noopener noreferrer">
+    Atom source</a> code editor (note that Visual Studio code is based on Atom).</li>
+  <li><a href="http://brackets.io/" target="_blank" rel="noopener noreferrer">
+    Brackets source</a> code editor.</li>
+  <li><a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener noreferrer">
+    NotePad++</a> (Windows only)</li>
+  <li><a href="https://netbeans.org/" target="_blank" rel="noopener noreferrer">
+    NetBeans</a> and <a href="https://eclipse.org/" target="_blank" 
+	rel="noopener noreferrer">Eclipse</a>: very powerful IDEs (integrated 
+	development environments), but heavier than all the &quot;lightweight&quot; 
+	source editors that we&apos;ve talked about so far. More dedicated to 
+	&quot;mid-size/large-size projects&quot;, more for pro developers that are 
+	also looking for good support for server-side languages such as Java, Python, 
+	PHP, etc.</li>
 </ul>
 
 <h4>Not free of charge:</h4>
 
 <ul>
-  <li><a href="https://www.jetbrains.com/">IDEs by JetBrains.com</a> have a very good
+  <li><a href="https://www.jetbrains.com/" target="_blank" rel="noopener noreferrer">IDEs by JetBrains.com</a> have a very good
     reputation and can be obtained for free if you are an academic
     customer (student or teacher).
-    The <a href="https://www.jetbrains.com/webstorm">WebStorm</a> IDE is a very
+    The <a href="https://www.jetbrains.com/webstorm" target="_blank" rel="noopener noreferrer">WebStorm</a> IDE is a very
     good mid-weight tool for developing HTML/CSS/JS/NodeJS code.</li>
-  <li><a href="https://www.barebones.com/products/bbedit/">BBedit</a> (for Macs):
+  <li><a href="https://www.barebones.com/products/bbedit/" target="_blank" rel="noopener noreferrer">BBedit</a> (for Macs):
     source code editor for mac with support for Web languages.</li>
 </ul>
 
@@ -293,17 +298,17 @@ free, open source, multi-platform editor by Microsoft.</p>
   style="width:5%"
   title="JSBin logo"
   alt="JSBin logo." />
-<a href="https://jsbin.com/">JS Bin</a> is an open-source
-collaborative Web development debugging tool. Most of the examples you
-will find in this course are either on JSBin or on CodePen.</p>
+<a href="https://jsbin.com/" target="_blank" rel="noopener noreferrer">
+JS Bin</a> is an open-source collaborative Web development debugging tool. Most 
+of the examples you will find in this course are either on JSBin or on CodePen.</p>
 
 <p>Tutorials can be found on the Web (such as 
-<a href="https://www.youtube.com/playlist?list=PLXmT1r4krsTooRDWOrIu23P3SEZ3luIUq">these
-ones</a>) or on YouTube. The tool is really simple: just open the link to the
-provided examples, look at the code, look at the result, etc. And you
-can modify the examples as you like, you can also modify / clone / save
-/ share them. Keep in mind that it&apos;s always better to be logged in
-(it&apos;s free) if you do not want to lose your work.</p>
+<a href="https://www.youtube.com/playlist?list=PLXmT1r4krsTooRDWOrIu23P3SEZ3luIUq" 
+target="_blank" rel="noopener noreferrer">these ones</a>) or on YouTube. The tool 
+is really simple: just open the link to the provided examples, look at the code, 
+look at the result, etc. And you can modify the examples as you like, you can 
+also modify / clone / save / share them. Keep in mind that it&apos;s always better 
+to be logged in (it&apos;s free) if you do not want to lose your work.</p>
 
 <p>In our opinion, JSBin is the best online IDE for &quot;live coding&quot;: typing
 and seeing what you are doing in real time, monitoring error messages in
@@ -324,19 +329,21 @@ for the live coding videos.</p>
   style="width:5%"
   title="CodePen logo"
   alt="CodePen logo." />
-<a href="https://codepen.io/">CodePen</a> is similar to JSBin except that its 
-Web site includes a search engine, which is very useful for finding out what 
-others have developed. Looking for a nice HTML5/CSS button style? Just search 
-for &quot;button&quot;, etc. It&apos;s also easier for us to embed HTML/CSS/JS 
-examples in this course with CodePen than with other online IDEs; this is why so 
-many &quot;pens&quot; are embedded in the course pages.</p>
+<a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">
+CodePen</a> is similar to JSBin except that its Web site includes a search engine, 
+which is very useful for finding out what others have developed. Looking for a nice 
+HTML5/CSS button style? Just search for &quot;button&quot;, etc. It&apos;s also 
+easier for us to embed HTML/CSS/JS examples in this course with CodePen than with 
+other online IDEs; this is why so many &quot;pens&quot; are embedded in the course 
+pages.</p>
 
 <p>This is a great service to get you started quickly as it doesn&apos;t
 require you to download anything and you can access it, along with your
 saved projects from any Web browser. Here&apos;s an article which will be
 of-interest if you use CodePen: 
-<a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen">
-Things you can do with CodePen</a> &lbrack;Brent Miller, February 6, 2019&rbrack;.</p>
+<a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen" 
+target="_blank" rel="noopener noreferrer">Things you can do with CodePen</a> 
+&lbrack;Brent Miller, February 6, 2019&rbrack;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 10. snapshot of a 'button' codepen example (09) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -352,8 +359,9 @@ Things you can do with CodePen</a> &lbrack;Brent Miller, February 6, 2019&rbrac
   style="width:5%"
   title="Plunker logo"
   alt="Plunker logo." />
-<a href="https://plnkr.co/">Plunker</a> allows us to work online with separate 
-files. So, when we have no choice but to use separate files, we might use this tool.</p>
+<a href="https://plnkr.co/" target="_blank" rel="noopener noreferrer">Plunker</a> 
+allows us to work online with separate files. So, when we have no choice but to 
+use separate files, we might use this tool.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 12. snapshot of a plunker example (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -369,11 +377,11 @@ files. So, when we have no choice but to use separate files, we might use this t
   style="width:5%"
   title="Liveweave logo"
   alt="Liveweave logo." />
-<a href="https://liveweave.com/">LiveWeave</a> is great for writing
-CSS code or for embedding SVG Graphics in an HTML document, as it
-includes online wizards and interactive editors. We use it when we have
-problems with CSS shadows, CSS colors or gradients, or when we want to
-include an SVG arrow in a document.</p>
+<a href="https://liveweave.com/" target="_blank" rel="noopener noreferrer">
+LiveWeave</a> is great for writing CSS code or for embedding SVG Graphics in 
+an HTML document, as it includes online wizards and interactive editors. We 
+use it when we have problems with CSS shadows, CSS colors or gradients, or 
+when we want to include an SVG arrow in a document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 14. liveweave code editor example (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -397,22 +405,23 @@ include an SVG arrow in a document.</p>
   style="width:5%"
   title="jsFiddle logo"
   alt="jsFiddle logo." />
-<a href="https://jsfiddle.net/">JSFiddle</a> is very similar to JSBin and CodePen 
-in terms of features.</p>
+<a href="https://jsfiddle.net/" target="_blank" rel="noopener noreferrer">
+JSFiddle</a> is very similar to JSBin and CodePen in terms of features.</p>
 
 <h4>Other tools</h4>
 
 <p>There are many other online IDEs and new ones appear each year. If you want a real, 
 heavyweight online IDE that has nearly all the features offered by 
 &quot;big IDEs&quot; such as Eclipse, NetBeans and WebStorm, take a look at the 
-<a href="https://c9.io/">Cloud9 IDE</a>. It&apos;s free and will enable you to 
+<a href="https://c9.io/" target="_blank" rel="noopener noreferrer">Cloud9 IDE</a>. It&apos;s free and will enable you to 
 develop huge projects, that can include many files, it supports uploaded assets 
 such as images, videos and sound files.  Furthermore, like Google Docs, it will 
 support multiple users working at the same time on the same project, even on the 
 same file. It&apos;s a real collaborative environment.</p>
 
 <p>Michel Buffa, author of this course, developed a whole multitrack audio
-player this way. This application is <a href="https://mainline.i3s.unice.fr/">
+player this way. This application is <a href="https://mainline.i3s.unice.fr/" 
+target="_blank" rel="noopener noreferrer">
 available online</a>. (See also screenshots below:)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. multitrack audio player (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -441,14 +450,16 @@ valuable approach):</p>
 instructor will indicate other tools in module 1 of the course.</p>
 
 <ul>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Tools/Debugger">
+  <li><a href="https://developer.mozilla.org/en-US/docs/Tools/Debugger" 
+    target="_blank" rel="noopener noreferrer">
     Firefox JS debugger</a> (debugger shipped inside Firefox) - all other 
 	browsers have integrated debuggers as well.</li>
-  <li><a href="https://www.jslint.com/">JS Lint</a> - The JavaScript Code 
-    Quality Tool
-  <li><a href="https://codebeautify.org/jsvalidate">
+  <li><a href="https://www.jslint.com/" target="_blank" rel="noopener noreferrer">
+    JS Lint</a> - The JavaScript Code Quality Tool
+  <li><a href="https://codebeautify.org/jsvalidate" target="_blank" rel="noopener noreferrer">
     CodeBeautify</a> - JavaScript Validator
-  <li><Check also other <a href="https://jqueryhouse.com/best-javascript-debugging-tools/">
+  <li>Check also other <a href="https://jqueryhouse.com/best-javascript-debugging-tools/" 
+    target="_blank" rel="noopener noreferrer">
     JavaScript debugging tools</a></li>
 </ul>
 
@@ -464,25 +475,31 @@ devices and operating systems!</p>
 
 <p>To make the Web evolve in a sane and sustainable way for both users and
 developers, browser vendors work together to standardize new features,
-whether it's a new <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">
-HTML element</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index">
-CSS property</a>, or <a href="https://developer.mozilla.org/en-US/docs/Web/API">
-JavaScript API</a>. But different vendors have different priorities, resources, and release
+whether it's a new 
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" 
+target="_blank" rel="noopener noreferrer">HTML element</a>, 
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index" 
+target="_blank" rel="noopener noreferrer">CSS property</a>, or 
+<a href="https://developer.mozilla.org/en-US/docs/Web/API" 
+target="_blank" rel="noopener noreferrer">JavaScript API</a>. 
+But different vendors have different priorities, resources, and release
 cycles --- so it's very unlikely that a new feature will land on all the
 major browsers at once. As a Web developer, this is something you must
 consider if you're relying on a feature to build your site.</p>
 
 <p>We are then providing references to the browser support of HTML5
 features presented in this course using 2 resources: 
-<a href="https://caniuse.com/">Can I Use</a> and 
-<a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network (MDN) Web Docs</a>.</p>
+<a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer">
+Can I Use</a> and 
+<a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">
+Mozilla Developer Network (MDN) Web Docs</a>.</p>
 
 <h4>Can I use</h4>
 
-<p><a href="https://caniuse.com/">Can I Use</a> provides up-to-date tables for support
-of front-end Web technologies on desktop and mobile Web browsers. Below
-is a snapshot of what information is given by CanIUse when searching for
-&quot;CSS3 colors&quot;.</p>
+<p><a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer">
+Can I Use</a> provides up-to-date tables for support of front-end Web technologies 
+on desktop and mobile Web browsers. Below is a snapshot of what information is 
+given by CanIUse when searching for &quot;CSS3 colors&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 19. example of a caniuse browser support table (using css3) colors (14) ~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -507,7 +524,7 @@ is a snapshot of what information is given by CanIUse when searching for
 </p>
 
 <p>To help developers make these decisions consciously rather than accidentally, 
-<a href="https://developer.mozilla.org/">MDN Web Docs</a> provides browser 
+<a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a> provides browser 
 compatibility tables in its documentation pages, so that when looking up a 
 feature you're considering for your project, you know exactly which browsers 
 will support it.</p>
@@ -515,9 +532,9 @@ will support it.</p>
 <h4>External resources</h4>
 
 <ul>
-  <li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/">
+  <li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/" target="_blank" rel="noopener noreferrer">
   MDN browser compatibility data: Taking the guesswork out of web compatibility</a></li>
-  <li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/">
+  <li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/" target="_blank" rel="noopener noreferrer">
   Caniuse and MDN compatibility data collaboration</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -528,21 +545,21 @@ will support it.</p>
   title="W3C Developers logo"
   alt="W3C Developers logo." />
 For over 20 years, the W3C has been developing and
-hosting and <a href="https://w3c.github.io/developers/"><b>open source tools</b></a> used
+hosting and <a href="https://w3c.github.io/developers/" target="_blank" rel="noopener noreferrer"><b>open source tools</b></a> used
 every day by <b>millions of Web developers and Web designers</b>. All the
 tools listed below are Web-based, and are available as downloadable
-sources or as free services on the <a href="https://w3c.github.io/developers/tools/">
+sources or as free services on the <a href="https://w3c.github.io/developers/tools/" target="_blank" rel="noopener noreferrer">
 W3C Developers tools</a> site.</p>
 
 <h4>W3C Validator</h4>
 
-<p>The <a href="https://validator.w3.org/">W3C validator</a> checks the 
-<a href="https://validator.w3.org/docs/help.html#validation_basics">markup validity</a> of
+<p>The <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">W3C validator</a> checks the 
+<a href="https://validator.w3.org/docs/help.html#validation_basics" target="_blank" rel="noopener noreferrer">markup validity</a> of
 various Web document formats, such as HTML.</p>
 
 <h4>CSS Validator</h4>
 
-<p>The <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a> checks
+<p>The <a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener noreferrer">CSS validator</a> checks
 Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
 stylesheets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -552,7 +569,7 @@ stylesheets.</p>
   style="width:20%"
   title="Laptop showing unicorn validator"
   alt="Laptop showing unicorn validator." />
-<a href="https://validator.w3.org/unicorn/">Unicorn</a> is W3C&apos;s unified
+<a href="https://validator.w3.org/unicorn/" target="_blank" rel="noopener noreferrer">Unicorn</a> is W3C&apos;s unified
 validator, which helps people improve the quality of their Web pages by
 performing a variety of checks. Unicorn gathers the results of the
 popular HTML and CSS validators, as well as other useful services, such
@@ -560,23 +577,23 @@ as RSS/Atom feeds and http headers.</p>
 
 <h4>Link Checker</h4>
 
-<p>The <a href="https://validator.w3.org/checklink">W3C Link Checker</a> looks for
+<p>The <a href="https://validator.w3.org/checklink" target="_blank" rel="noopener noreferrer">W3C Link Checker</a> looks for
 issues in links, anchors and referenced objects in a Web page, CSS style
 sheet, or recursively on a whole Web site. For best results, it is
 recommended to first ensure that the documents checked use valid 
-<a href="https://validator.w3.org/">HTML Markup</a> and 
-<a href="https://jigsaw.w3.org/css-validator/">CSS</a>.</p>
+<a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">HTML Markup</a> and 
+<a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener noreferrer">CSS</a>.</p>
 
 <h4>Internationalization Checker</h4>
 
-<p>The <a href="https://validator.w3.org/i18n-checker/">W3C Internationalization Checker</a> 
+<p>The <a href="https://validator.w3.org/i18n-checker/" target="_blank" rel="noopener noreferrer">W3C Internationalization Checker</a> 
 provides information about various internationalization-related aspects of your page,
 including the HTTP headers that affect it. It also reports a number of
 issues and offers advice about how to resolve them.</p>
 
 <h4>W3C cheatsheet</h4>
 
-<p>The <a href="https://www.w3.org/2009/cheatsheet/">W3C cheatsheet</a> provides quick
+<p>The <a href="https://www.w3.org/2009/cheatsheet/" target="_blank" rel="noopener noreferrer">W3C cheatsheet</a> provides quick
 access to useful information from a variety of specifications published
 by W3C. It aims at giving in a very compact and mobile-friendly format a
 compilation of useful knowledge extracted from W3C specifications,
@@ -597,7 +614,7 @@ and get a list of matching properties/elements/ attributes/functions in the
 above-mentioned specifications, and further details on those when selecting 
 the one of interest.</p>
 
-<p>The W3C cheatsheet is only available as a <a href="https://dev.w3.org/2009/cheatsheet/doc/">
+<p>The W3C cheatsheet is only available as a <a href="https://dev.w3.org/2009/cheatsheet/doc/" target="_blank" rel="noopener noreferrer">
 pure Web application</a>.</p>
 
 <h4>Help build the Web Platform!</h4>
@@ -606,7 +623,7 @@ pure Web application</a>.</p>
 Web sites are designed and standardized in W3C in a completely open and
 transparent process.</p>
 
-<p>In fact, all W3C specifications are developed in public <a href="https://github.com/w3c/">
+<p>In fact, all W3C specifications are developed in public <a href="https://github.com/w3c/" target="_blank" rel="noopener noreferrer">
 GitHub repositories</a>, so if you are familiar with GitHub, you already know 
 how to contribute to W3C specifications! This is all about raising issues 
 (with feedback and suggestions) and/or bringing pull requests to fix identified issues.</p>
@@ -624,7 +641,7 @@ technologies are built is a great way to build your expertise.</p>
   title="GitHub Octocat logo"
   alt="GitHub Octocat logo." />
 If you&apos;re looking to an easy way to dive into this standardization processes, check out which 
-<a href="https://github.com/search?q=org%3Aw3c+label%3A%22good+first+issue%22+state%3Aopen&type=Issues">
+<a href="https://github.com/search?q=org%3Aw3c+label%3A%22good+first+issue%22+state%3Aopen&type=Issues" target="_blank" rel="noopener noreferrer">
 issues in the W3C GitHub repositories have been marked as &quot;good first issue&quot;</a> and
 see if you find anything where you think you would be ready to help.</p>
 
@@ -647,7 +664,7 @@ define key parts of what actually makes the World Wide Web work.</p>
   title="W3Cx JS logo"
   alt="W3Cx JS.0x logo." />
 Another approach is to go and bring
-feedback on ideas for future technologies: the <a href="https://wicg.io/">
+feedback on ideas for future technologies: the <a href="https://wicg.io/" target="_blank" rel="noopener noreferrer">
 W3C Web Platform Community Incubator Group</a> was built as an easy place 
 to get started to provide feedback on new proposals or bring brand-new
 proposals for consideration.</p>
@@ -675,24 +692,24 @@ define key parts of what actually makes the World Wide Web work.</p>
 
 <h6 align="center"><i><b>Tim Berners-Lee at his desk in CERN, 1994</b></i></h6>
 
-<p><a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> wrote
-a <a href="https://www.w3.org/History/1989/proposal.html">proposal</a> in 1989 for
+<p><a href="https://www.w3.org/People/Berners-Lee/" target="_blank" rel="noopener noreferrer">Tim Berners-Lee</a> wrote
+a <a href="https://www.w3.org/History/1989/proposal.html" target="_blank" rel="noopener noreferrer">proposal</a> in 1989 for
 a system called the World Wide Web. He then created the first Web browser, server, 
 and Web page. He wrote the first specifications for URLs, HTTP, and HTML.</p>
 
 <p>In October 1994, Tim Berners-Lee founded the World Wide Web Consortium
 (W3C) at the Massachusetts Institute of Technology, Laboratory for Computer 
 Science &lbrack;MIT/LCS&rbrack; in collaboration with 
-<a href="https://home.cern/">CERN</a>, where the Web originated (see information 
-on the <a href="https://www.w3.org/Daemon/">original CERN Server</a>), with 
-support from DARPA and the <a href="https://ec.europa.eu/index_en.htm">
+<a href="https://home.cern/" target="_blank" rel="noopener noreferrer">CERN</a>, where the Web originated (see information 
+on the <a href="https://www.w3.org/Daemon/" target="_blank" rel="noopener noreferrer">original CERN Server</a>), with 
+support from DARPA and the <a href="https://ec.europa.eu/index_en.htm" target="_blank" rel="noopener noreferrer">
 European Commission</a>.</p>
 
-<p>In April 1995, <a href="https://www.inria.fr/">Inria</a> became the first European
-W3C host, followed by <a href="https://www.keio.ac.jp/">
+<p>In April 1995, <a href="https://www.inria.fr/" target="_blank" rel="noopener noreferrer">Inria</a> became the first European
+W3C host, followed by <a href="https://www.keio.ac.jp/" target="_blank" rel="noopener noreferrer">
 Keio University of Japan</a>(Shonan Fujisawa Campus) in Asia in 1996. In 2003, 
 <a href="https://www.ercim.eu/">ERCIM</a> took over the role of 
-European W3C Host from Inria. In 2013, W3C announced <a href="https://ev.buaa.edu.cn/">
+European W3C Host from Inria. In 2013, W3C announced <a href="https://ev.buaa.edu.cn/" target="_blank" rel="noopener noreferrer">
 Beihang University</a> as the fourth Host.</p>
 
 <p>As of January 2023, W3C is a public-interest non-profit organization
@@ -704,22 +721,22 @@ Directors and employing a global staff across the globe.</p>
 As of July 2023, W3C:
 
 <ul>
-  <li>Is a <a href="https://www.w3.org/Consortium/Member/List">member</a>-driven
+  <li>Is a <a href="https://www.w3.org/Consortium/Member/List" target="_blank" rel="noopener noreferrer">member</a>-driven
     organization composed of over 360 companies, universities, start-ups, etc. from 
 	all over the world.</li>
-  <li>Holds 52 <a href="https://www.w3.org/groups/">technical groups</a>, including
+  <li>Holds 52 <a href="https://www.w3.org/groups/" target="_blank" rel="noopener noreferrer">technical groups</a>, including
     Working and Interest Groups where technical specifications are discussed and developed.</li>
-  <li>Published over 13585 <a href="https://www.w3.org/TR/">published technical reports</a>, 
+  <li>Published over 13585 <a href="https://www.w3.org/TR/" target="_blank" rel="noopener noreferrer">published technical reports</a>, 
   including 510 Web standards (or W3C Recommendations) - since January 1st,1995.</li>
-  <li>Runs a <a href="https://www.w3.org/Consortium/Translation/">translation program</a> 
+  <li>Runs a <a href="https://www.w3.org/Consortium/Translation/" target="_blank" rel="noopener noreferrer">translation program</a> 
     to foster the translation of its specifications: see the 
-	<a href="https://www.w3.org/Consortium/Translation/matrix.html">translation matrix</a> 
+	<a href="https://www.w3.org/Consortium/Translation/matrix.html" target="_blank" rel="noopener noreferrer">translation matrix</a> 
 	currently listing 312 available translations of W3C recommendations.</li>
-  <li>Hosts 143 <a href="https://www.w3.org/community/groups/">Community and Business
+  <li>Hosts 143 <a href="https://www.w3.org/community/groups/" target="_blank" rel="noopener noreferrer">Community and Business
     Groups</a>, where developers, designers, and anyone passionate about the Web 
 	have a place to hold discussions and publish ideas.</li>
   <li>Gathers over13860active participants constituting the W3C community.</li>
-  <li>Has a <a href="https://www.w3.org/People/">technical staff</a> composed of 46
+  <li>Has a <a href="https://www.w3.org/People/" target="_blank" rel="noopener noreferrer">technical staff</a> composed of 46
     people, spread on all five continents.</li>
 </ul>
 
@@ -740,11 +757,11 @@ but this usage is technically incorrect.</p>
 
 <p>The Web is an application of the Internet. The Web is the most popular
 way of accessing the Internet, but other applications of the Internet
-are <a href="https://en.wikipedia.org/wiki/Email">
-e-mail</a> and <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">
+are <a href="https://en.wikipedia.org/wiki/Email" target="_blank" rel="noopener noreferrer">
+e-mail</a> and <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" target="_blank" rel="noopener noreferrer">
 ftp</a> for example. One analogy equates the Internet to a road network where the
 Web is a car, the email is a bicycle, etc.  Read 
-<a href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335">
+<a href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335" target="_blank" rel="noopener noreferrer">
 this article</a> for more details about the difference between Internet and the Web.</p>
 
 <h4>Check also this reminder ;)</h4>
@@ -782,7 +799,7 @@ from using their products and services.</b></p>
 <p>Making the web accessible benefits people <b>with</b> and
 <b>without</b> disabilities, businesses, and society. Accessibility is an
 important aspect of diversity, equity, and inclusion (DEI).</p>
-<p><a href="https://www.w3.org/WAI/videos/standards-and-benefits/">
+<p><a href="https://www.w3.org/WAI/videos/standards-and-benefits/" target="_blank" rel="noopener noreferrer">
 Video Introduction to Web Accessibility and W3C Standards</a> is a 4-minute video 
 with descriptive transcript and subtitles in over 20 languages.</p>
 
@@ -820,7 +837,7 @@ education, employment, government, commerce, health care, recreation,
 and more. When Web pages, Web technologies, Web tools, or Web
 applications are badly designed, they can create barriers that exclude
 people from using the Web. More information is available in the 
-<a href="https://www.w3.org/standards/webdesign/accessibility">
+<a href="https://www.w3.org/standards/webdesign/accessibility" target="_blank" rel="noopener noreferrer">
 W3C Accessibility</a> overview.</p>
 
 <h4>First steps in Web accessibility</h4>
@@ -831,9 +848,9 @@ example excerpts are provided below on this page but you can find more
 tips and information from W3C/WAI:</p>
 
 <ul>
-  <li><a href="https://www.w3.org/WAI/gettingstarted/tips/">
+  <li><a href="https://www.w3.org/WAI/gettingstarted/tips/" target="_blank" rel="noopener noreferrer">
     Tips for Getting Started with Web Accessibility</a></li>
-  <li><a href="https://www.w3.org/WAI/eval/preliminary">
+  <li><a href="https://www.w3.org/WAI/eval/preliminary" target="_blank" rel="noopener noreferrer">
     Easy Checks - A First Review of Web Accessibility</a></li>
 </ul>
 
@@ -900,7 +917,7 @@ English, because there are 18 characters between the &apos;i&apos; and the
   style="width:10%"
   title="W3C Internationalization Activity logo"
   alt="W3C Internationalization Activity logo." />
-The <a href="https://www.w3.org/International/">W3C Internationalization Activity</a> 
+The <a href="https://www.w3.org/International/" target="_blank" rel="noopener noreferrer">W3C Internationalization Activity</a> 
 works with W3C working groups and liaises with other organizations to make 
 it possible to use Web technologies with different languages, scripts, and 
 cultures.</p>
@@ -931,7 +948,7 @@ encoded.</p>
 <p>As a content author or developer, It is important to clearly distinguish
 between the concepts of a character set versus a character encoding. You
 should nowadays always 
-<a href="https://www.w3.org/International/articles/definitions-characters/index.en#charsets">
+<a href="https://www.w3.org/International/articles/definitions-characters/index.en#charsets" target="_blank" rel="noopener noreferrer">
 choose the UTF-8 character encoding</a> for your content or data. This Unicode 
 encoding is a good choice because you can use a single encoding to handle any 
 character you are likely to meet. This greatly simplifies things.</p>
@@ -1027,14 +1044,14 @@ come back and review this page at the end.</p>
     inappropriate cultural bias.</li>
 </ol>
 
-<p>You will find more quick tips on the <a href="https://www.w3.org/International/quicktips/">
+<p>You will find more quick tips on the <a href="https://www.w3.org/International/quicktips/" target="_blank" rel="noopener noreferrer">
 Internationalization quick tips</a> page. Remember that these tips do not constitute 
 complete guidelines.</p>
 
 <h4>Internationalization checker</h4>
 
 <p>When you start creating Web pages, you can also run them through the
-W3C&apos;s <a href="https://validator.w3.org/i18n-checker/">Internationalization
+W3C&apos;s <a href="https://validator.w3.org/i18n-checker/" target="_blank" rel="noopener noreferrer">Internationalization
 Checker</a>.  If there are internationalization problems with your page, this 
 checker explains what they are and what to do about it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1150,7 +1167,7 @@ the title, which things should be emphasized and so on.</p>
 
 <p>There are many ways to markup a document, but HTML borrows a technique
 from an ancestor language, SGML 
-(<a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language">Standard Generalized Markup 
+(<a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language" target="_blank" rel="noopener noreferrer">Standard Generalized Markup 
 Language</a>), which uses angle brackets (&quot;&lt;&quot; and &quot;&gt;&quot;) 
 to separate the annotations from the regular text.  In HTML these annotations 
 are called &quot;tags&quot;.</p>
@@ -1166,7 +1183,7 @@ time):</p>
   title="Codepen: A Tale of Two Cities"
   alt="Codepen: A Tale of Two Cities." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PWqYxG">CodePen: A Tale of Two Cities</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PWqYxG" target="_blank" rel="noopener noreferrer">CodePen: A Tale of Two Cities</a></h6>
 
 <h5>HTML:</h5>
 
@@ -1219,23 +1236,23 @@ your Web page looks, as well as how it responds and interacts with you.</p>
   title="CodePen: Who Am I?"
   alt="CodePen: Who Am I?" />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/egNOLj">CodePen: Who Am I?</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/egNOLj" target="_blank" rel="noopener noreferrer">CodePen: Who Am I?</a></h6>
 
 <h4>Try it out!</h4>
 
 <p>It&apos;s time to write your first HTML code :-)</p>
 
-<p>You can use a source code editor like <a href="https://www.sublimetext.com/">Sublime Text</a>, 
-<a href="https://atom.io/">Atom</a>,<a href="http://brackets.io/">brackets</a> or
+<p>You can use a source code editor like <a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer">Sublime Text</a>, 
+<a href="https://atom.io/">Atom</a>,<a href="http://brackets.io/" target="_blank" rel="noopener noreferrer">brackets</a> or
 any lightweight text editor. You can also use more &quot;professional&quot;
-tools such as <a href="https://code.visualstudio.com/">Visual Studio Code</a>, 
-<a href="https://netbeans.org/">NetBeans</a>, <a href="https://eclipse.org/downloads/">Eclipse</a>
-<a href="https://eclipse.org/downloads/WebStorm">WebStorm</a>, 
-<a href="https://www.jetbrains.com/webstorm">jetbrains, etc.</p>
+tools such as <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Visual Studio Code</a>, 
+<a href="https://netbeans.org/" target="_blank" rel="noopener noreferrer">NetBeans</a>, <a href="https://eclipse.org/downloads/" target="_blank" rel="noopener noreferrer">Eclipse</a>
+<a href="https://eclipse.org/downloads/WebStorm" target="_blank" rel="noopener noreferrer">WebStorm</a>, 
+<a href="https://www.jetbrains.com/webstorm" target="_blank" rel="noopener noreferrer">jetbrains, etc.</p>
 
 <p>To try out the simple examples from this course, I&apos;d suggest using an
 online IDE such as <a href="https://jsbin.com/">JSBin</a>, 
-<a href="https://codepen.io/">CodePen</a>, <a href="https://plnkr.co/">Plunker</a>, etc.</p>
+<a href="https://codepen.io/">CodePen</a>, <a href="https://plnkr.co/" target="_blank" rel="noopener noreferrer">Plunker</a>, etc.</p>
 
 <p>During the course, we will show you how to test out simple code snippets
 in online IDEs, but we will also teach you how to organize your code
@@ -1273,7 +1290,7 @@ editor for editing HTML5 files directly on your hard disk.</p>
 </p>
 
 <p>In order to use the JSBin.com tool, that is the first one I recommend,
-you will open a new tab with your browser and you go to <a href="http://jsbin.com">JSBin</a>.</p>
+you will open a new tab with your browser and you go to <a href="http://jsbin.com" target="_blank" rel="noopener noreferrer">JSBin</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 37/38. jsbin create my home page, who am i? (32) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1323,16 +1340,16 @@ look for existing examples made by others.</p>
   alt="CodePen.io, My Home Page." />
 </p>
 
-<p>I just typed &quot;button », and here I can see an example that create
+<p>I just typed &quot;button&quot;, and here I can see an example that create
 buttons. I can see the HTML code; CSS code and I can learn by looking at
 these examples.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. my home page, who am i? (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image041.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="My Home Page, Who am I?"
+  alt="My Home Page, Who am I?" />
 </p>
 
 <p>In our case, if you want to create a new example, you just open
@@ -1398,8 +1415,7 @@ i save the file.</p>
 and you can see the result. If I change the code here, my home page
 &quot;Hello W3Cx students&quot; and I want to see the result, I just save 'CTRL
 s' or command s on my Mac. I do &quot;Open in the browser&quot; or I can just
-reload the page, and I can see that I change the content of the HTML
-file.</p>
+reload the page, and I can see that I changed the content of the HTML file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. jsbin, hello w3cx students (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1569,7 +1585,7 @@ tag, and everything in between the tags is the contents of the element:</p>
 
 <p>Most tags have open and close versions, but there are a few strange
 ones.  For more info, we strongly recommend that you follow the
-W3Cx <a href="https://www.edx.org/course/html5-and-css-fundamentals">HTML5&CSS Fundamentals</a> 
+W3Cx <a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank" rel="noopener noreferrer">HTML5&CSS Fundamentals</a> 
 course, but we generally refer to the strange ones as &quot;self closing&quot; 
 tags. Usually these tags represent an element that is completely described by
 its attributes, and thus there is no need for other content.  So if you see 
@@ -1588,7 +1604,7 @@ needs is declared in an &quot;attribute&quot;.</p>
 
 <p>The &lt;img&gt; tag is one of them, the &quot;/&quot; at the end is optional and can
 be removed entirely, this will still be 
-<a href="https://w3c.github.io/html/syntax.html#void-elements">valid HTML5</a>.</p>
+<a href="https://w3c.github.io/html/syntax.html#void-elements" target="_blank" rel="noopener noreferrer">valid HTML5</a>.</p>
 
 <pre>
 &gt; &lt;img src="https://goo.gl/pVxY0e" alt="Floating Flower"&gt;
@@ -1601,12 +1617,12 @@ menuitem, meta, param, source, track, wbr.</p>
 <h3 id="ch1-2-4">1.2.4 HTML attributes (6:01)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Most of what you can learn about HTML attributes is presented 
-<a href="https://www.edx.org/school/w3cx">in the three W3Cx MOOCs about HTML5</a> 
-(fundamentals, coding essentials, and advanced techniques), but we can introduce 
-the idea briefly in this JavaScript course. Basically, a given element on your
-Web page can be distinguished by any number of unique or common attributes. For 
-example, we&apos;ve already seen how an image can be inserted in your Web page, 
-and in that example we used the width attribute of the &lt;img&gt; tag in order 
+<a href="https://www.edx.org/school/w3cx" target="_blank" rel="noopener noreferrer">
+in the three W3Cx MOOCs about HTML5</a> (fundamentals, coding essentials, and advanced 
+techniques), but we can introduce the idea briefly in this JavaScript course. Basically, 
+a given element on your Web page can be distinguished by any number of unique or common 
+attributes. For example, we&apos;ve already seen how an image can be inserted in your 
+Web page, and in that example we used the width attribute of the &lt;img&gt; tag in order 
 to constrain the width of the image:</p>
 
 <pre>
@@ -1846,7 +1862,7 @@ in the CSS part, etc.):</p>
   alt="Example CodePen: My Home Page." />
 </p>
 
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GrJpXO">CodePen: My Home Page</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GrJpXO" target="_blank" rel="noopener noreferrer">CodePen: My Home Page</a></h6>
 
 <p>If you click on the CSS button on the top left of the previous codepen
 example, you see the CSS rules that have been applied to the HTML
@@ -1930,7 +1946,7 @@ Best practice is to name these things to increase clarity, consistency and brevi
   alt="Example CodePen: Update CSS Rules." />
 </p>
 
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLGWQJ">CodePen: Update CSS Rule</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLGWQJ" target="_blank" rel="noopener noreferrer">CodePen: Update CSS Rule</a></h6>
 
 <p>The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
 in our case it&apos;s the second h2 element:</p>
@@ -1952,7 +1968,7 @@ attribute id=&quot;hobbyTitle&quot;.</p>
 
 <p>In that case, we use a funny char font called &apos;caveat&apos; we took from
 the Google font service
-(see <a href="https://fonts.google.com/">fonts.google.com</a>), and in order to be
+(see <a href="https://fonts.google.com/" target="_blank" rel="noopener noreferrer">fonts.google.com</a>), and in order to be
 able to use it in a font-family CSS property, we included its definition
 using a &lt;link&gt; tag in the HTML part of the document:</p>
 
@@ -1990,8 +2006,8 @@ paragraphs in the HTML element:</p>
 
 <p>There are many, many, many different CSS properties in existence, and
 many different ways to select elements. We recommend that you follow the
-W3Cx <a href="https://www.edx.org/course/css-basics">CSS Basics</a> and 
-<a href="https://www.edx.org/course/html5-and-css-fundamentals">HTML5&CSS
+W3Cx <a href="https://www.edx.org/course/css-basics" target="_blank" rel="noopener noreferrer">CSS Basics</a> and 
+<a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank" rel="noopener noreferrer">HTML5&CSS
 Fundamentals</a> courses to learn more about CSS and about HTML5 basics.</p>
 
 <h5>Where can we put the CSS rules: in the HTML file? in another file?</h5>
@@ -2010,11 +2026,11 @@ this example:</p>
   alt="Example CodePen: Update CSS Rules." />
 </p>
 
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygNOxv">CodePen: Update CSS Rule</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygNOxv" target="_blank" rel="noopener noreferrer">CodePen: Update CSS Rule</a></h6>
 
 <p>This is OK if you do not have too many CSS rules. In general it&apos;s
 better to put the CSS rules in one or more separate .css files, like
-this (<a href="https://plnkr.co/edit/vedmaDmnfiJzoiLPrInG?p=preview">
+this (<a href="https://plnkr.co/edit/vedmaDmnfiJzoiLPrInG?p=preview" target="_blank" rel="noopener noreferrer">
 open this example in Plunker</a>)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 65. snapshot of a code editor showing a separte css file (56) ~~~~~~~~~~~~~~~-->
@@ -2028,7 +2044,7 @@ open this example in Plunker</a>)</p>
 <p>Note that when you use an online IDE, you usually type/paste the CSS
 rules in a &quot;CSS tab&quot; in the online editor, and it hides all the
 &quot;plumbing&quot; for you (except the more complete ones such
-as <a href="https://plnkr.co/">Plunker</a> or <a href="https://c9.io/">
+as <a href="https://plnkr.co/" target="_blank" rel="noopener noreferrer">Plunker</a> or <a href="https://c9.io/" target="_blank" rel="noopener noreferrer">
 AWS Cloud9</a> that enable you to manage files in the cloud).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-6">1.2.6 Live coding video: mixing HTML and CSS (3:49)</h3>
@@ -2266,7 +2282,7 @@ examples:</p>
   title="Example: index.html: update heading using JavaScript"
   alt="Example: index.html: update heading using JavaScript." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE">CodePen: Use JS to Modify CSS</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE" target="_blank" rel="noopener noreferrer">CodePen: Use JS to Modify CSS</a></h6>
 
 <p>Example #2: push another button to modify the CSS style (color, background-color, 
 border) of a paragraph in the page.</p>
@@ -2278,7 +2294,7 @@ border) of a paragraph in the page.</p>
   title="Example: javascript: update button to modify CSS style"
   alt="Example: javascript: update button to modify CSS style." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN">CodePen</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 
 <p>We have a closer look at how these examples work in the subsequent parts
 of the course. These examples are just here to show you how JavaScript
@@ -2290,7 +2306,7 @@ the HTML of the document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 JavaScript remains the most commonly used programming language with
 67.7% of developers employing it in 2020 (see this 
-<a href="https://insights.stackoverflow.com/survey/2020#most-popular-technologies">
+<a href="https://insights.stackoverflow.com/survey/2020#most-popular-technologies" target="_blank" rel="noopener noreferrer">
 survey&apos;s results</a>).
 
 <h4>How and why JavaScript was created</h4>
@@ -2327,12 +2343,12 @@ Maps and eBay.</p>
 </p>
 
 <p>JavaScript was born in 1995 as part of the work of Brendan Eich&apos;s team
-at <a href="https://en.wikipedia.org/wiki/Netscape">Netscape</a> (the ancestor
-of <a href="https://www.mozilla.org/">Mozilla</a>). At that time, Netscape (a
+at <a href="https://en.wikipedia.org/wiki/Netscape" target="_blank" rel="noopener noreferrer">Netscape</a> (the ancestor
+of <a href="https://www.mozilla.org/" target="_blank" rel="noopener noreferrer">Mozilla</a>). At that time, Netscape (a
 hero), in association with Sun MicroSystems (another hero), provided
 popular server and client-oriented solutions (
-<a href="https://en.wikipedia.org/wiki/Netscape_Navigator">Netscape Navigator</a>, ancestor
-of <a href="https://en.wikipedia.org/wiki/Firefox">Firefox</a>) which depended on
+<a href="https://en.wikipedia.org/wiki/Netscape_Navigator" target="_blank" rel="noopener noreferrer">Netscape Navigator</a>, ancestor
+of <a href="https://en.wikipedia.org/wiki/Firefox" target="_blank" rel="noopener noreferrer">Firefox</a>) which depended on
 Java. (Sun Microsystems, the company that created the Java programming
 language, no longer exists, having been bought by Oracle Corporation in
 2009.)</p>
@@ -2344,7 +2360,7 @@ language, no longer exists, having been bought by Oracle Corporation in
   title="dotJS 2017 - Brandan Eich - A Brief History of JavaScript"
   alt="dotJS 2017 - Brandan Eich - A Brief History of JavaScript." />
 </p>
-<h6 align="left"><a href="https://www.youtube.com/watch?v=aX3ZABCdC38">dotJS 2017 - Brandan Eich - A Brief History of JavaScript</a></h6>
+<h6 align="left"><a href="https://www.youtube.com/watch?v=aX3ZABCdC38" target="_blank" rel="noopener noreferrer">dotJS 2017 - Brandan Eich - A Brief History of JavaScript</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. sun microsystems logo (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
@@ -2364,7 +2380,7 @@ these two languages is their names. If you are coming to this
 course from Java, leave the Java thinking behind!</p>
 
 <p>JavaScript quickly became a success following its first appearance in 
-<a href="http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/">
+<a href="http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/" target="_blank" rel="noopener noreferrer">
 Netscape Navigator 2 in March 1996</a>, and it was quickly integrated into other 
 popular browsers. Microsoft also created its own version named JScript (and shipped 
 it with Internet Explorer 3 in 1996 -- It was a dud).</p>
@@ -2398,8 +2414,8 @@ did NOT exist at this time!</b></p>
   title="ecma"
   alt="ECMA." />
 Towards the end of 1996, JavaScript was standardized
-by <a href="https://en.wikipedia.org/wiki/Ecma_International">ECMA</a> as
-the <a href="https://en.wikipedia.org/wiki/ECMAScript">EcmaScript</a> standard. 
+by <a href="https://en.wikipedia.org/wiki/Ecma_International" target="_blank" rel="noopener noreferrer">ECMA</a> as
+the <a href="https://en.wikipedia.org/wiki/ECMAScript" target="_blank" rel="noopener noreferrer">EcmaScript</a> standard. 
 <b>So no matter whether you see it called JavaScript or EcmaScript, don&apos;t
 worry, it&apos;s the same thing.</b> EcmaScript has continued to be released
 right up to the present day. MS still didn't play ball.</p>
@@ -2428,7 +2444,7 @@ versions of the language. In June 2015, ECMA International approved the
 6th edition of the language. The name, ES2015, was used because the
 latest version of JavaScript is identified as the 2015 version of
 ECMAScript (the alternative name for JavaScript). 
-<a href="https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning">
+<a href="https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning" target="_blank" rel="noopener noreferrer">
 Read this blog post about all these naming incongruities!</a><br>
 At the beginning, ES2015 was referred to as ES6 and before that,
 Harmony. Moving forward, ES suffixed with the year of the latest
@@ -2456,7 +2472,7 @@ it takes time for browser vendors to follow the standards!</p>
 <p>There is no easy-to-read table of current browser global support, but
 caniuse.com can be used to check feature by feature which browsers
 support them. For example, 
-<a href="https://caniuse.com/mdn-javascript_classes_private_class_fields">
+<a href="https://caniuse.com/mdn-javascript_classes_private_class_fields" target="_blank" rel="noopener noreferrer">
 this link shows the support for the new &quot;javascript private class 
 fields&quot; feature</a>.</p>
 
@@ -2470,7 +2486,7 @@ won&apos;t be implemented before some months.</p>
 <p>First of all, this is an introductory course! Not all features of
 JavaScript need to be covered, in particular the ones that you cannot
 run in your browser without using advanced tools (there are tools, such
-as <a href="https://babeljs.io/">Babel</a>, that can turn ESxxxx source code into
+as <a href="https://babeljs.io/" target="_blank" rel="noopener noreferrer">Babel</a>, that can turn ESxxxx source code into
 ES5 code that can be run in nearly any browser, but they are tricky to
 use and not for beginners).</p>
 
@@ -2512,17 +2528,17 @@ means that the code is converted into a machine language at, or just
 before, runtime. The most popular JavaScript engines are:</p>
 
 <ul>
-  <li><a href="https://spidermonkey.dev/">SpiderMonkey</a> (included in Mozilla Firefox)</li>
-  <li><a href="https://developer.apple.com/reference/javascriptcore">
+  <li><a href="https://spidermonkey.dev/" target="_blank" rel="noopener noreferrer">SpiderMonkey</a> (included in Mozilla Firefox)</li>
+  <li><a href="https://developer.apple.com/reference/javascriptcore" target="_blank" rel="noopener noreferrer">
     JavaScriptCore</a> (included in Apple Safari)</li>
-  <li><a href="https://developers.google.com/v8/">
+  <li><a href="https://developers.google.com/v8/" target="_blank" rel="noopener noreferrer">
     Chrome V8</a> (included in Google Chrome, in the Node.js server)</li>
 </ul>
 
 <h4>External resources</h4>
 
 <ul>
-  <li><a href="https://blog.risingstack.com/history-of-javascript-on-a-timeline/">
+  <li><a href="https://blog.risingstack.com/history-of-javascript-on-a-timeline/" target="_blank" rel="noopener noreferrer">
     History of JavaScript on a timeline</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2560,7 +2576,7 @@ post your comments/observations/questions or share your creations.</p>
 </p>
 
 <p>What it the best method for learning Web Development?</p>
-<p>Take a look at one of my websites; <a href="https://Web-Programming.bauska.org">
+<p>Take a look at one of my websites; <a href="https://Web-Programming.bauska.org" target="_blank" rel="noopener noreferrer">
 'Web Programming with JavaScript and Python'</a>.</p>
 <p>Now, what it the best method for learning JavaScript?</p>
 <p>When you are a complete beginner, I will recommend to look at examples, tweak 
@@ -2622,7 +2638,7 @@ here.</p>
   title="CodePen Example; Plotting function library; d3js.org"
   alt="CodePen Example; Plotting function library; d3js.org." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ">CodePen; D3 Plotting</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ" target="_blank" rel="noopener noreferrer">CodePen; D3 Plotting</a></h6>
 
 <p>Okay, we can just look at the HTML part and zoom in a little bit. What do we 
 see? We can see that it uses 2 libraries here between &lt;script&gt; and 
@@ -2801,7 +2817,7 @@ mouse wheel to zoom in/out the function plot.</p>
   title="Learn JavaScript graphs d3.js"
   alt="Learn JavaScript graphs d3.js." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ">CodePen: D3 JS Graph</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ" target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph</a></h6>
 
 <p>By looking at this example (HTML and JS code), you note a few things:</p>
 
@@ -2814,11 +2830,11 @@ document of some external JavaScript code:</p>
 </pre>
 
 <p>We will examine this soon in a later section of the course, but, in
-brief, it means that we will use the <a href="https://d3js.org/">d3js plotting
+brief, it means that we will use the <a href="https://d3js.org/" target="_blank" rel="noopener noreferrer">d3js plotting
 library</a> and another from github (a famous
 repository for open source contributions), and located in the github
 account of a person named &quot;mauriciopoppe&quot;, the repository is named
-&quot;functionPlot&quot; (<a href="https://mauriciopoppe.github.io/function-plot/">
+&quot;functionPlot&quot; (<a href="https://mauriciopoppe.github.io/function-plot/" target="_blank" rel="noopener noreferrer">
 &quot;functionPlot JavaScript library&quot;</a>).</p>
 
 <p>Then, looking at the JavaScript code of the example (click the JS button
@@ -2860,7 +2876,7 @@ color of the curve is &quot;red&quot;, that the range of the x values is &lbrack
     right of the embedded example, then change  the code. Normally you
     should see the results of your modifications as soon as you stop
     typing (we call this &quot;live coding&quot;). 
-	(Here is <a href="https://codepen.io/w3devcampus/pen/dvpEPZ">an example of what
+	(Here is <a href="https://codepen.io/w3devcampus/pen/dvpEPZ" target="_blank" rel="noopener noreferrer">an example of what
     you can obtain</a> as a result).</li>
 </ul>
 
@@ -3022,7 +3038,7 @@ cos(x) to our example, with a different color:</p>
 </p>
 <!-- page 82 -->
 
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KWPyeX">CodePen: D3 JS Graph, #2</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KWPyeX" target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph, #2</a></h6>
 
 <h4>Conclusion</h4>
 
@@ -3131,7 +3147,7 @@ course material.</p>
   title="Change the HTML main title using JS"
   alt="Change the HTML main title using JS." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE">CodePen: Change HTML using JS</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE" target="_blank" rel="noopener noreferrer">CodePen: Change HTML using JS</a></h6>
  
 <p>This first example used <b>the selector API</b> for selecting a particular
 element in the document (the main title) and <b><i>the DOM API</i></b> for
@@ -3172,12 +3188,13 @@ adding a parenthesis after its name, followed by a semi colon):</p>
 }</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 115. example of interactivity between javascript & html (86) ~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
 <img src="./images/image115.png?raw=true"
-  align="center"
   style="width:65%"
   title="Example of interactivity between javascript &amp; html"
   alt="Example of interactivity between javascript &amp; html." />
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN">
+</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN" target="_blank" rel="noopener noreferrer">
 CodePen: Interactivity between JS &amp; HTML</a></h6>
 
 <p>The second example is nearly the same except that we changed the name of
@@ -3232,12 +3249,14 @@ need to click the CodePen logo on top right to run this example. For
 security reasons it cannot be run inside this course page</b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 116. codepen example, geolocation mapping (87) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
 <img src="./images/image116.png?raw=true"
   style="width:65%"
   align="center"
   title="CodePen example; Geolocation mapping"
   alt="CodePen example; Geolocation mapping." />
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE">
+</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE" target="_blank" rel="noopener noreferrer">
 CodePen: Geolocation Mapping</a></h6>
 
 <h4>3) work with remote data / speak with a remote HTTP Web server</h4>
@@ -3259,7 +3278,7 @@ famous rock bands:</p>
   alt="CodePen Example; Database lookup band members." />
 </p>
 
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJwpKq">CodePen: Database Lookup Band Members</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJwpKq" target="_blank" rel="noopener noreferrer">CodePen: Database Lookup Band Members</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-3">1.3.3 Where to put JavaScript code (7:13)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3388,7 +3407,7 @@ Typically:
 4.      var x = 2;
 5.      // show a message in the body of the html document
 6.      document.body.innerHTML += "<b>JavaScript code executed. The value of the variable x is: 
-          "+ x + "</b>";
+          "+ x + </b>"";
 7.      // also print a message in the devtool console
 8.      console.log("JavaScript code executed");
 9.    &lt;/script&gt;
@@ -3404,32 +3423,32 @@ Typically:
   title="Example: JS in the .html file"
   alt="Example: JS in the .html file." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY">CodePen: JS in HTML</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY" target="_blank" rel="noopener noreferrer">CodePen: JS in HTML</a></h6>
 
-Old JavaScript examples may use a type attribute:
+<p>Old JavaScript examples may use a type attribute:
 &lt;script <b>type=&quot;text/javascript&quot;</b>&gt;.
-<b>The type attribute is now obsolete and should be ignored.</b>
+<b>The type attribute is now obsolete and should be ignored.</b></p>
 
 <h4>Second variant: in the &lt;head&gt;&hellip;&lt;/head&gt; of the document</h4>
 
-In this example, the &lt;script&gt;&hellip;&lt;/script&gt; element is placed in
-the &lt;head&gt;..&lt;/head&gt; section of an HTML page.
+<p>In this example, the &lt;script&gt;&hellip;&lt;/script&gt; element is placed in
+the &lt;head&gt;..&lt;/head&gt; section of an HTML page.</p>
 
-This time, we placed a JavaScript function that is invoked (called) when
-a button is clicked:
+<p>This time, we placed a JavaScript function that is invoked (called) when
+a button is clicked:</p>
 
 <pre>&lt;head&gt;
-<b>&lt;script&gt;</b>
-<b>function addSomeText() {</b>
-<b>// append a message in the body of the html document</b>
-<b>document.body.innerHTML += "<br>Function executed!";</b>
-<b>}</b>
-<b>&lt;/script&gt;</b>
+  <b>&lt;script&gt;</b>
+    <b>function addSomeText() {</b>
+      <b>// append a message in the body of the html document</b>
+      <b>document.body.innerHTML += "<br>Function executed!";</b>
+    <b>}</b>
+  <b>&lt;/script&gt;</b>
 &lt;/head&gt;
 &lt;body&gt;
-&lt;button <b>onclick="addSomeText();"</b>Click me to call a JavaScript function that will add
-some content to this document
-&lt;/button&gt;
+  &lt;button <b>onclick="addSomeText();"</b>Click me to call a JavaScript function that will add
+    some content to this document
+  &lt;/button&gt;
 &lt;/body&gt;</pre>
 
 <h4>Here is this second example on CodePen:</h4>
@@ -3442,7 +3461,7 @@ some content to this document
   alt="Example 2: JS in the .html file, but this time in head." />
 </p>
 
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/apBMYJ">
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/apBMYJ" target="_blank" rel="noopener noreferrer">
 CodePen: Plotting Functions in JS</a></h6>
 
 <h4>Example #2: put the JavaScript code in local .js files</h4>
@@ -3534,7 +3553,7 @@ JavaScript files in a js subfolder.
 10. &lt;/body&gt;
 11. &lt;/html&gt;</pre>
 
-Content of the js/script.js file (JavaScript file):
+<p>Content of the js/script.js file (JavaScript file):</p>
 
 <pre>1.  function addSomeText() {
 2.    document.body.innerHTML += "&lt;p&gt;Function executed!&lt;/p&gt;";
@@ -3550,7 +3569,7 @@ Content of the js/script.js file (JavaScript file):
 
 <ol>
   <li>Download the zip file of this project: 
-    <a href="https://courses.edx.org/assets/courseware/v1/cd559ef3ce2c06e05cc68ef7cdef9a16/asset-v1:W3Cx+JS.0x+2T2022+type@asset+block/Example_3.zip">Example_3.zip</a></li>
+    <a href="https://courses.edx.org/assets/courseware/v1/cd559ef3ce2c06e05cc68ef7cdef9a16/asset-v1:W3Cx+JS.0x+2T2022+type@asset+block/Example_3.zip" target="_blank" rel="noopener noreferrer">Example_3.zip</a></li>
   <li>Unzip/unarchive it somewhere</li>
   <li>Double click the index.html file, this will open your Web browser
     and load the index.html file.</li>
@@ -3565,7 +3584,7 @@ referenced with a full URL, like in this example:</p>
 <pre>1.  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;&gt;&lt;/script&gt;</pre>
 
 <p>Here, we just included in our HTML document the
-excellent <a href="http://paperjs.org/">paperJS</a> library that can be used to
+excellent <a href="http://paperjs.org/" target="_blank" rel="noopener noreferrer">paperJS</a> library that can be used to
 make fancy animations in the HTML canvas element - we will use it later
 in the course.</p>
 
@@ -3583,7 +3602,7 @@ an external URL:</p>
   title=""
   alt="." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VPmNWg">CodePen: Example paperJS</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VPmNWg" target="_blank" rel="noopener noreferrer">CodePen: Example paperJS</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3737,7 +3756,7 @@ JavaScript code embedded in your html page). In the console, you will be
 able to type any JavaScript command.
 
 <p>Let&apos;s look at this example below (or online as a 
-<a href="http://jsbin.com/moqimuz/edit?html,console,output">JS Bin)</a>:</p>
+<a href="http://jsbin.com/moqimuz/edit?html,console,output" target="_blank" rel="noopener noreferrer">JS Bin)</a>:</p>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -3778,7 +3797,7 @@ redirects all console.log() messages), and re-execute the page (just
 type a space at the end of a line to re-render the page and display the
 message in the console), we see the message in the console tab, as well
 as in the dev. tools console. This is illustrated by the image below
-(or <a href="https://jsbin.com/moqimuz/edit?html,console,output">online</a>):</p>
+(or <a href="https://jsbin.com/moqimuz/edit?html,console,output" target="_blank" rel="noopener noreferrer">online</a>):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 133. snapshot of a javascript console view (103) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3842,35 +3861,59 @@ browsers, since they differ from one another in the way they work
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-5">1.3.5 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Here is the discussion forum for this part of the course. Please either post your 
+comments/observations/questions or share your creations.</p>
+
+<h4>Suggested topics</h4>
+<ul>
+  <li>Which source code editor(s) do you use?</li>
+  <li>If you use a source code editor that supports plugins/extension modules, 
+    which one do you recommend? Please share your experience with us in the forum!</li>
+</ul>
+
+<h4>Optional projects</h4>
+<ul>
+  <li>Share your versions of the examples from the course with improvements and 
+    changes!</li>
+  <li>We are pretty sure that you can do something better with the "rock band member 
+    example". Share your best work(s) ;)</li>
+  <li>Try to experiment further our "best way to learn JavaScript" and try to tweak 
+    an example of your own that uses the  paperJS library. Start from a simple 
+	example from the paperJS Web site, modify it and share it in the forum. You 
+	can look at the example from the course if you want to include paperJS in a 
+	shareable CodePen example (we use a version of paperJS located on a Content 
+	Delivery Network, a "CDN", no need to download it, and it's very easy to use 
+	it in online IDEs such as CodePen, JSBin, etc.).</li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-1">1.4.1 Creating an HTML/CSS/JS project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Let&apos;s create a small HTML/CSS/JS project together.</p>
 
-Let&apos;s create a small HTML/CSS/JS project together.
-
-It&apos;s time for you (and me) to create a small HTML/CSS/JS project, step
+<p>It&apos;s time for you (and me) to create a small HTML/CSS/JS project, step
 by step, following some best practices. We will do this using different
 tools: source code editors + files but also two online IDEs (JsBin.com
 and CodePen.io). We will see how to write/debug the code and also how to
 migrate a project prototyped with online tools to a project you can run
-and edit on your hard drive using regular source code editors.
+and edit on your hard drive using regular source code editors.</p>
 
-Many things we use in this example may be new to you. Don&apos;t worry. We
+<p>Many things we use in this example may be new to you. Don&apos;t worry. We
 will cover them either later on this week or over the following weeks.
 It&apos;s time to throw you in the deep end of the JavaScript world, getting
 you to write code, and look at examples etc. And from time to time, we
 will take a break and have a &quot;real&quot;, &quot;academic&quot;, look at the
 concepts of the language you have been using. We think this is the best
-way for you to learn!
+way for you to learn!</p>
 
 <h4>Topic</h4>
 
-We will write a small, interactive HTML page that will use some HTML
+<p>We will write a small, interactive HTML page that will use some HTML
 input fields for indicating the name of a math function we&apos;d like to
-plot, the ranges for the x and y values, the color of the curve etc.
+plot, the ranges for the x and y values, the color of the curve etc.</p>
 
-We will first write this application online, using the JsBin.com editor,
+<p>We will first write this application online, using the JsBin.com editor,
 then we will do the same thing using the CodePen online editor, then,
-using a regular source code editor and .html, .css and .js files.
+using a regular source code editor and .html, .css and .js files.</p>
 
 <h4><b>Here is what the resulting Web page will look like:</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3882,7 +3925,8 @@ using a regular source code editor and .html, .css and .js files.
   alt="CodePen: Interactive Function Plotter." />
 
 <h6 align="center">
-<a href="https://codepen.io/w3devcampus/pen/bqGboZ">Demo (CodePen: Interactive Function Plotter)</a></h6>
+<a href="https://codepen.io/w3devcampus/pen/bqGboZ" target="_blank" rel="noopener noreferrer">
+Demo (CodePen: Interactive Function Plotter)</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 Using CodePen (6:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3894,73 +3938,85 @@ using a regular source code editor and .html, .css and .js files.
   alt="." />
 </p>
 <!-- pages 108-112 to be filled from class -->
-Hi!
-We're going to work from an example we already saw in the course: the math function plotter.
+
+<p>Hi!</p>
+<p>We're going to work from an example we already saw in the course: the math function plotter.
 In this version, you can see that we added some input fields for changing the color
 of the curve, for changing the range of the x values, changing interactively
-the functions we are going to plot, and so on.
-Let's start from the very basic example we saw earlier on the course.
+the functions we are going to plot, and so on.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image139.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+
+<p>Let's start from the very basic example we saw earlier on the course.
 We saw that, the function is located in a "div".
 And we just added a "section" tag from HTML5, just to identify the part
-of the document where the function is plotted.
-Later on, we'll add another "section" about the input fields and the different controls.
+of the document where the function is plotted.</p>
+
+<p>Later on, we'll add another "section" about the input fields and the different controls.
 You've got also a <body onload="plot();>", that means that when the page is loaded,
 we execute a JavaScript function named "plot()", that is located here.
 And it uses the "functionPlot()" function from the external library we use.
-This one.
-And it takes a set of parameters that are located at the beginning of the JavaScript 
+This one. And it takes a set of parameters that are located at the beginning of the JavaScript 
 part. That will indicate, within the target property, the "id" of the div where we 
 are going to plot the function. In the data property is the function itself: "sin(x)" 
-and its color: red. What can we do to improve this? At first, we can add some 
+and its color: red. What can we do to improve this?</p>
+
+<2 images side-by-side>
+<p>At first, we can add some 
 CSS code to make this nicer. I'm going to change the view with CodePen. Let's 
 resize that, and let's work on the CSS part: "Maximize CSS Editor". What I can 
 do, is that I can indicate that the div that contains this function wil have a 
 rounded border, some shadows and so on. Now it's rounded, you can have add some 
 shadows, height, margin and so on. Let's me just copy and paste some code I’ve 
 prepared. Here we are. Now, what I've got, is a nicer presentation of the function 
-itself. Now, I'm going to add a section that will contain the different controllers 
+itself.</p>
+<image>
+
+<p>Now, I'm going to add a section that will contain the different controllers 
 that are input fields from HTML5. Let's do it. I add a section called "plotSettings" 
 that will contains all these controllers. Let's start for example with a controller 
 for the color. Here we go. What we added here is a label color value and the color 
-input field from HTML5. If I click here, it asks for a color. 
+input field from HTML5. If I click here, it asks for a color. And we can also add 
+an event listener: "onchange="plot();. That means: "when the color has been selected, 
+call the plot() function". And you remember that this function is the one that plots 
+the mathematical function, here. The plot function is here.</p>
 
-And we can also add an event listener: "onchange="plot();. That means: "when the 
-color has been selected, call the plot() function". And you remember that this 
-function is the one that plots the mathematical function, here. The plot function 
-is here. What we are going to do in this change color function? It changes the 
+<image>
+<p>What we are going to do in this change color function? It changes the 
 property of the parameters here. Let's add some code for that... How can we get 
 the value of the color from JavaScript before plotting the function? We are going 
 to use the selector API: "document.querySelector(...)" for the input field whose 
-id is "color". The value, here, is the color itself. What we do is that we are 
-going do use the color for changing this, here. So "parameters.data"... it's an 
-array. 0 is the first index, the first element that corresponds to the part that 
-I highlight now. 
-.color=color
+id is "color". 
+<h4>The value, here, is the color itself.</h4>
 
-If I change the color, this line is executed and the color changes. We can use 
+<p>What we do is that we are going do use the color for changing this, here. So 
+"parameters.data"... it's an array. 0 is the first index, the first element that 
+corresponds to the part that I highlight now. .color=color
+
+<p>If I change the color, this line is executed and the color changes. We can use 
 the same principles with other input fields. Let me just copy and paste some code 
-I prepared, that will add all these different controllers.
-Now I've got all the different controllers,
-and if you look at them, they all have an "onchange" or "oninput" event listener.
-Now, we’ve got 2 sections, 2 HTML sections:
-one with an "id="plotSettings"" that corresponds to the different input fields.
-And one with an "id="plot"" that corresponds to the function itself (the drawing here).
+I prepared, that will add all these different controllers.</p>
+<image>
+
+<p>Now I've got all the different controllers, and if you look at them, they all 
+have an "onchange" or "oninput" event listener. Now, we’ve got 2 sections, 2 HTML 
+sections: one with an "id="plotSettings"" that corresponds to the different input fields.</p>
+
+<p>And one with an "id="plot"" that corresponds to the function itself (the drawing here).
 If I want to have a nice look and feel, what I can do is to share the same borders
-and shadow properties from CSS,
-put the first section with the different input fields on the left and the plot on the right.
-Let me just cut and paste some CSS rules here, that will factorize the common properties
-for both sections in a section selector.
-OK, so what I've got now, is that I've got a nice balanced view of the whole application.
-In the video, at 3:19, there are some mistakes in the HTML code:
+and shadow properties from CSS, put the first section with the different input 
+fields on the left and the plot on the right.</p>
 
-1.  This line uses a wrong value for the for attribute (it should be the
-    same value as the id attribute of the input
-    field): &lt;label <b>for=&quot;yMax&quot;</b>&gt;Color: &lt;/label&gt; value:
-    &hellip; should be: &lt;label <b>for=&quot;color&quot;</b>&gt;Color value: &lt;/label&gt;
-    &hellip;
-
-2.  Improvement in the code could be to replace all empty
-    paragraphs &lt;p&gt;&lt;/p&gt; by line breaks &lt;br&gt; or by a single &lt;p&gt;.
+<image>
+<p>Let me just cut and paste some CSS rules here, that will factorize the common 
+properties for both sections in a section selector. OK, so what I've got now, is 
+that I've got a nice balanced view of the whole application.</p>
 
 <end of 1.4.2 video transcript>
 
@@ -3968,15 +4024,15 @@ In the video, at 3:19, there are some mistakes in the HTML code:
 <h4>CodePen example with the starting code used in the video</h4>
 
 <p>If you want to code while watching the video, 
-<a href="https://codepen.io/w3devcampus/pen/GmbpzZ">please open this CodePen</a>. 
+<a href="https://codepen.io/w3devcampus/pen/GmbpzZ" target="_blank" rel="noopener noreferrer">please open this CodePen</a>. 
 It contains the source code of the example we started coding from.</p>
 
-<p>And <a href="https://codepen.io/w3devcampus/pen/PjomvR?editors=1000#0">
+<p>And <a href="https://codepen.io/w3devcampus/pen/PjomvR?editors=1000#0" target="_blank" rel="noopener noreferrer">
 here is the same version</a> with the polyfill for the &lt;input type=&quot;color&quot;&gt; 
 input field, not yet supported by Safari.</p>
 
 <p>In case you have a hard time to follow the video, 
-<a href="https://codepen.io/w3devcampus/pen/bqGboZ">here is the full example</a> 
+<a href="https://codepen.io/w3devcampus/pen/bqGboZ" target="_blank" rel="noopener noreferrer">here is the full example</a> 
 (this link points to the example from the previous course page).
 
 Hi!
@@ -3985,7 +4041,7 @@ plotter. In this version, you can see that we added some input fields for changi
 the color of the curve, for changing the range of the x values, changing interactively 
 the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 139a.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image139a.png?raw=true"
   style="width:50%"
@@ -4001,24 +4057,6 @@ the functions we are going to plot, and so on.</p>
   style="width:50%"
   title=""
   alt="." />
-  
-Let's start from the very basic example we saw earlier on the course. 
-We saw that, the function is located in a "div". And we just added a 
-"section" tag from HTML5, just to identify the part of the document 
-where the function is plotted.
-
-Later on, we'll add another "section" about the input fields and the 
-different controls. You also have a <body onload="plot();", that 
-means that when the page is loaded, we execute a JavaScript function 
-named "plot()", that is located here. And it uses the "functionPlot()" 
-function from the external library we use. This one. And it takes a 
-set of parameters that are located at the beginning of the JavaScript 
-part. That will indicate, within the target property, the "id" of the 
-div where we are going to plot the function. In the data property is 
-the function itself: "sin(x)" and its color: red. What can we do to 
-improve this? 
-<!-- 2 (two) images side-by-side -->
-
 
 Now, I&apos;m going to show you how we can do the same application using
 files and a regular source code editor, and working on your local hard
@@ -4031,53 +4069,47 @@ desktop. &quot;Math plotter app&quot; and I will work inside.
   style="width:50%"
   title=""
   alt="." />
-In this folder, I will create a subfolder named &quot;js&quot; for the js files
+  
+<p>In this folder, I will create a subfolder named &quot;js&quot; for the js files
 and a subfolder named &quot;css&quot; for the CSS files, and the HTML file will
-lie in the current directory.
+lie in the current directory.</p>
 
-With Sublime Text, I can open this folder, the one I just created.
+<image>
+<p>With Sublime Text, I can open this folder, the one I just created. And I can start 
+saving the current file as &quot;index.html&quot;. I will copy the HTML, CSS and 
+JavaScript source code from the previous example. I just took the previous application.</p>
 
-And I can start saving the current file as &quot;index.html&quot;.
+<image>
+<p>And I will copy it in the index.html file. I create a &quot;style.css&quot; 
+and a &quot;script.js&quot; file for holding the JavasCript and CSS files. I 
+copy the source code from the js part of the previous example. I create a new 
+file with the CSS code.</p>
 
-I will copy the HTML, CSS and JavaScript source code from the previous
-example.
+<image>
 
-I just took the previous application.
+<p>&quot;Save as&quot; ... I include the JavaScript code :&lt;script
+src=&quot;js/script.js&quot;&gt;</p>
+<p>Remember that the script tag has always a closing tag at this end.</p>
 
-And I will copy it in the index.html file.
+<image>
+<p>It is not an auto-closing tag. And I use a &quot;link&quot; tag for importing 
+the CSS file.</p>
 
-I create a &quot;style.css&quot; and a &quot;script.js&quot; file for holding the
-JavasCript and CSS files.
+<images>
 
-I copy the source code from the js part of the previous example.
+<p>I can check that my files are located at the right place and now I can &quot;Open 
+in Browser&quot;. Another way to do what we&apos;ve done manually would have been 
+to use the &quot;Export&quot; button from CodePen.</p>
 
-I create a new file with the CSS code.
-
-&quot;Save as&quot; ... I include the JavaScript code :&lt;script
-src=&quot;js/script.js&quot;&gt;
-
-Remember that the script tag has always a closing tag at this end.
-
-It is not an auto-closing tag.
-
-And I use a &quot;link&quot; tag for importing the CSS file.
-
-I can check that my files are located at the right place and now I can
-&quot;Open in Browser&quot;.
-
-Another way to do what we&apos;ve done manually would have been to use the
-&quot;Export&quot; button from CodePen.
-
-It will download a zip file, that will contain the whole architecture,
+<p>It will download a zip file, that will contain the whole architecture,
 the whole folder and subfolder I've already prepared for you. And it
 will also make the HTML file for you, that will include the JavaScript,
 but in the end, instead of at the beginning of the source file, like
-what I did manually.
+what I did manually.</p>
 
-Using generated code can be useful, but most of the time for a big
+<p>Using generated code can be useful, but most of the time for a big
 project or a serious project, you will use a source code editor like
-Sublime Text.
-
+Sublime Text.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-1">1.5.1 JS variables and values (5:28)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4331,25 +4363,24 @@ format. For harmony in the code source, it is a good idea to keep this
 convention. Sometimes, you will see the snake_case naming convention,
 which separates each word of a variable with an underscore.
 
-Here&apos;s an interesting article: [CamelCase vs underscores: Scientific
-showdown](https://whatheco.de/2011/02/10/camelcase-vs-underscores-scientific-showdown/) 
+<p>Here&apos;s an interesting article: 
+<a href="https://whatheco.de/2011/02/10/camelcase-vs-underscores-scientific-showdown/">
+CamelCase vs underscores: Scientific showdown</a>.</p>
 
 <h4>Constants</h4>
 
-Constants are variables that cannot be modified after a value has been set.
+<p>Constants are variables that cannot be modified after a value has been set.</p>
 
-<b>The naming convention is to use uppercase letters with underscores.</b>
+<p><b>The naming convention is to use uppercase letters with underscores.</b></p>
 
-<b>Example: var TIME_LIMIT = 50;</b>
-
-With JavaScript 5, constants were declared as normal variables, using
+<p><b>Example: var TIME_LIMIT = 50;</b></p>
+<p>With JavaScript 5, constants were declared as normal variables, using
 the <b>var</b> keyword, and there were no verifications by the JavaScript
 interpreter forbidding you to modify them after you assigned a value to
-them.
-
-With ES2015/2016 it is recommended that you use the
+them.</p>
+<p>With ES2015/2016 it is recommended that you use the
 keyword <b>const</b> instead of <b>var</b> to declare them. This means that an
-error will be raised if you try to change their value in the future.
+error will be raised if you try to change their value in the future.</p>
 
 <h4>Example:</h4>
 
@@ -4475,7 +4506,7 @@ be used anywhere in the code.
   alt="." />
 <!-- ![](./images/image112.png){width="6.5in" height="2.323611111111111in"} -->
 <h6 align="center">
-<a href="https://codepen.io/w3devcampus/pen/WjMMLZ">Demo (CodePen)</a></h6>
+<a href="https://codepen.io/w3devcampus/pen/WjMMLZ" target="_blank" rel="noopener noreferrer">Demo (CodePen)</a></h6>
 
 <h5>1.2) Local scope / local variable (also called function scope)</h5>
 
@@ -4679,7 +4710,7 @@ etc. ex:
 
 <pre>
 var x = 3; var name = "Buffa";
-<a href="">a set of playing cards</a>
+<a href="" target="_blank" rel="noopener noreferrer">a set of playing cards</a>
 ](./images/image118.png){width="2.0833333333333335in" height="1.25in"}
 </pre>
 
@@ -4983,7 +5014,7 @@ Infinity
   
 &gt; 1 + 2 + a;
   NaN
-```
+</pre>
 
 <h4>&lbrack;ADVANCED&rbrack; Optional explanations about numbers</h4>
 
@@ -6399,7 +6430,7 @@ on.
 
 <h4>Source code of the example shown in the video</h4>
 
-<p><a href="https://codepen.io/w3devcampus/pen/pPmqwq?editors=0012">This example is available on
+<p><a href="https://codepen.io/w3devcampus/pen/pPmqwq?editors=0012" target="_blank" rel="noopener noreferrer">This example is available on
 CodePen</a></p>
 
 <p>Before talking about how your JavaScript program can make decisions,
@@ -6877,7 +6908,7 @@ And this works too and it&apos;s only two lines of code.
 
 <h4>Example from the video</h4>
 
-<p><a href="https://codepen.io/w3devcampus/pen/jmoJRZ">CodePen example from the video</a></p>
+<p><a href="https://codepen.io/w3devcampus/pen/jmoJRZ" target="_blank" rel="noopener noreferrer">CodePen example from the video</a></p>
 
 JavaScript source code is a set of statements. There are a couple of
 different statement types. We have already seen one of them, the
@@ -7379,7 +7410,7 @@ with the index equal to i, inside the loop.
 
 Example from the video
 
-<a href="https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012">Example on CodePen</a>
+<a href="https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012" target="_blank" rel="noopener noreferrer">Example on CodePen</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7395,7 +7426,7 @@ A loop is used to run the same block of code several times while a
 condition is satisfied.
 
 If you have trouble with loops, the online tool 
-<a href="https://toolness.github.io/slowmo-js/">slowmoJS</a> can be really
+<a href="https://toolness.github.io/slowmo-js/" target="_blank" rel="noopener noreferrer">slowmoJS</a> can be really
 useful: you just have to copy and paste an example into it to run it
 step by step and see how your program executes loops.
 
@@ -7467,7 +7498,8 @@ executed infinitely until the machine crashes&hellip; a test like while (i
 > 0) { &hellip;..} will never stop and will eat all the CPU.
 
 Try this example now with 
-<a href="https://toolness.github.io/slowmo-js/?code=var%20i%20%3D%201%2C%20j%20%3D%201%3B%0A%20%0Awhile%20(%20i%20%3C%204%20)%20%7B%0A%20%20%20%20j%20%3D%20j%20%2B%20i%3B%0A%20%20%20%20i%20%3D%20i%20%2B%201%3B%20%0A%7D&filterrange=65-65">slowmoJS</a>!
+<a href="https://toolness.github.io/slowmo-js/?code=var%20i%20%3D%201%2C%20j%20%3D%201%3B%0A%20%0Awhile%20(%20i%20%3C%204%20)%20%7B%0A%20%20%20%20j%20%3D%20j%20%2B%20i%3B%0A%20%20%20%20i%20%3D%20i%20%2B%201%3B%20%0A%7D&filterrange=65-65" target="_blank" rel="noopener noreferrer">
+slowmoJS</a>!
 
 <h4>The do-while statement</h4>
 
@@ -8822,7 +8854,7 @@ body {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This has been a bit of a nightmare for years, as different browsers have
 had different ways of handling key events and key codes (
-<a href="https://unixpapa.com/js/key.html">read this</a> if you are fond of 
+<a href="https://unixpapa.com/js/key.html" target="_blank" rel="noopener noreferrer">read this</a> if you are fond of 
 JavaScript archeology). Fortunately it&apos;s much better today, and we are able 
 to rely on methods that should work on any browser.</p>
 
@@ -8844,10 +8876,10 @@ left arrow. It might be difficult to know which codes represent
 which real keyboard keys, so here are some handy pointers:</p>
 
 <ul>
-  <li>Try key codes with this <a href="http://www.asquare.net/javascript/tests/KeyCode.html">
+  <li>Try key codes with this <a href="http://www.asquare.net/javascript/tests/KeyCode.html" target="_blank" rel="noopener noreferrer">
     interactive example</a>.</li>
   <li>And find a list of keyCodes (taken from this CSS Tricks 
-    <a href="https://css-tricks.com/snippets/javascript/javascript-keycodes/#keycode-values">
+    <a href="https://css-tricks.com/snippets/javascript/javascript-keycodes/#keycode-values" target="_blank" rel="noopener noreferrer">
 	article</a>).</li>
 </ul>
 
