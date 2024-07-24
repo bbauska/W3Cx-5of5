@@ -5,6 +5,7 @@ date created: "7/07/2024 Sun 12+pm"
 date last editted: "7/16/2024 Tue 6+pm"
 date last editted: "7/19/2024 Fri 6+pm"
 date last editted: "7/20/2024 Sat 5+am"
+date last editted: "7/23/2024 Tue 7+pm"
 
 output: 
   markdown:
@@ -17,22 +18,20 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of W3Cx-5of5-JS.0x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
 <img src="./images/w3cx-logo.jpg?raw=true"
   style="width:35%"
+  align="center"
   title="W3Cx logo"
   alt="W3Cx logo." />
-</p>
 
 <h3 align="center">W3Cx-5of5-JS.0x - JavaScript Introduction</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. W3Cx-5of5-JS.0x logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
   style="width:65%"
+  align="center"
   title="W3Cx JS logo"
   alt="W3Cx JS.0x logo." />
-</p>
 
 <p id="table-of-contents"></p>
 
@@ -166,12 +165,11 @@ industry leaders and/or top universities to build and enhance critical
 professional skills needed to succeed in today&apos;s most in-demand fields.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 02. banner image for the fewd professional certificate program (05) ~~~~~~~~~~~~-->
-<p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
   style="width:40%"
+  align="center"
   title="Banner image  for the FEWD professional certificate program"
   alt="Banner image for the FEWD professional certificate program." />
-</p>
 
 <p>W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer">
 &quot;Front-End Web Developer&quot; (FEWD) Professional Certificate</a> where
@@ -220,11 +218,12 @@ CSS and JavaScript files. For this course, you are free to use whichever
 you prefer. However, there are some in particular that we recommend.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. sublime text logo (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="left" width="25%">
+<p align="left" width="100%">
 <img src="./images/image003.png?raw=true"
   style="width:5%"
+  align="left" width="25%"
   title="Sublime text logo"
-  alt="Sublime text logo." />
+  alt="Sublime text logo."
 <a href="https://www.sublimetext.com/">Sublime Text</a> is a very powerful, 
 multi-platform source code editor, it&apos;s semi-free (you can use it without 
 paying, it will pop up a dialog asking you to buy it once in a while, but not 
@@ -1577,7 +1576,7 @@ its attributes, and thus there is no need for other content.  So if you see
 something like this:</p>
 
 <pre>
-&lt; &lt;img src="https://goo.gl/pVxY0e" alt="Floating Flower"/&gt;
+&gt; &lt;img src="https://goo.gl/pVxY0e" alt="Floating Flower"/&gt;
 </pre>
 
 <p>&hellip; then you should know that the slash at the end of the open tag is
@@ -1696,8 +1695,7 @@ this title is what will be displayed when you put the cursor on a tab in
 your browser. Then, it is a good practice to indicate the language:
 &quot;lang=en&quot; (English). Like that, you will be better indexed by search
 engines. And then in the body of the document, we will add some really
-visible content. I start with the very common element, a very common
-tag.</p>
+visible content. I start with the very common element, a very common tag.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 56. example: html, head and body (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1716,11 +1714,10 @@ subheading h2: &quot;My hobbies are:&quot;. Ok, you see that the size of
 headings <b>is</b> different here. And if, in the paragraph, if I go to the
 next line, this doesn&apos;t have an effect here.</p>
 
-<p>The only return to the next line I can do is, either write another
-paragraph inside the paragraph, or I can use another tag that is useful
-just for going to the next line without letting some space between
-paragraphs, it&apos;s called &lt;br&gt;. And &lt;br&gt; in that case, I can go to
-the next line.</p>
+<p>The only return to the next line I can do is, either write another paragraph 
+inside the paragraph, or I can use another tag that is useful just for going to 
+the next line without letting some space between paragraphs, it&apos;s called 
+&lt;br&gt;. And &lt;br&gt; in that case, I can go to the next line.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 57. example: html, head and body (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1730,11 +1727,11 @@ the next line.</p>
   alt="Example: HTML, head and body." />
 </p>
 
-<p>If I want to enumerate my hobbies, a very common practice is to use
-lists. In HTML, you&apos;ve got an <b>unnumbered list</b> that are composed of
-list items. For example: &quot;I play guitar&quot;, &quot;I code video games&quot;.
-These are my hobbies. &quot;I like movies&quot;, etc. If I want, instead of an
-unnumbered list, a numbered list, I can use an order list.</p>
+<p>If I want to enumerate my hobbies, a very common practice is to use lists. In 
+HTML, you&apos;ve got an <b>unnumbered list</b> that are composed of list items. 
+For example: &quot;I play guitar&quot;, &quot;I code video games&quot;. These are 
+my hobbies. &quot;I like movies&quot;, etc. If I want, instead of an unnumbered 
+list, a numbered list, I can use an order list.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 58. example: html, head and body (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3175,12 +3172,11 @@ adding a parenthesis after its name, followed by a semi colon):</p>
 }</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 115. example of interactivity between javascript & html (86) ~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
 <img src="./images/image115.png?raw=true"
+  align="center"
   style="width:65%"
   title="Example of interactivity between javascript &amp; html"
   alt="Example of interactivity between javascript &amp; html." />
-</p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN">
 CodePen: Interactivity between JS &amp; HTML</a></h6>
 
@@ -3236,12 +3232,11 @@ need to click the CodePen logo on top right to run this example. For
 security reasons it cannot be run inside this course page</b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 116. codepen example, geolocation mapping (87) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
 <img src="./images/image116.png?raw=true"
   style="width:65%"
+  align="center"
   title="CodePen example; Geolocation mapping"
   alt="CodePen example; Geolocation mapping." />
-</p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE">
 CodePen: Geolocation Mapping</a></h6>
 
@@ -3710,8 +3705,6 @@ I save. I can run the result: "Open in browser". I click, it does nothing. I ope
 the dev tool console and I see where the problem is and I can click on the link on 
 the right and it shows the line with the error.
 
-<!------------------------------------------------------------------------------------------------>
-
 Let&apos;s introduce what is debugging.
 
 <h4>You will make errors!</h4>
@@ -3750,14 +3743,14 @@ able to type any JavaScript command.
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&gt;
 &lt;head&gt;
-&lt;meta charset=utf-8 /&gt;
-&lt;title&gt;Web Audio API&lt;/title&gt;
-&lt;script&gt;
-console.log(&quot;Some JavaScript code has been executed&quot;);
-&lt;/script&gt;
+  &lt;meta charset=utf-8 /&gt;
+  &lt;title&gt;Web Audio API&lt;/title&gt;
+  &lt;script&gt;
+    console.log(&quot;Some JavaScript code has been executed&quot;);
+  &lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;h1&gt;JavaScript debugging using the dev tool console&lt;/h1&gt;
+  &lt;h1&gt;JavaScript debugging using the dev tool console&lt;/h1&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -3787,14 +3780,13 @@ message in the console), we see the message in the console tab, as well
 as in the dev. tools console. This is illustrated by the image below
 (or <a href="https://jsbin.com/moqimuz/edit?html,console,output">online</a>):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 133. snapshot of a javascript console view (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 133. snapshot of a javascript console view (103) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image133.jpeg?raw=true"
   style="width:50%"
   title="Snapshot of a JavaScript console view"
   alt="Snapshot of a JavaScript console view." />
 </p>
-<!-- [Snapshot of a JavaScript console view (#1)](./images/image104.jpeg){width="5.0in" height="2.65625in"} -->
 
 It is also possible to use the &quot;real dev. tool console&quot;, and for this,
 I recommend running the application in a single window, not in the Js
@@ -3809,7 +3801,6 @@ press <b>F12</b>. You should see:
   title="Snapshot of a JavaScript console view"
   alt="Snapshot of a JavaScript console view." />
 </p>
-<!-- ![View of the JavaScript console](./images/image105.jpeg){width="5.0in" height="4.2333902012248465in"} -->
 
 Ok, now, let&apos;s make an error:
 change console.log() into conso<b>lll</b>e.log(). Let&apos;s see what happens:
@@ -3821,7 +3812,6 @@ change console.log() into conso<b>lll</b>e.log(). Let&apos;s see what happens
   title="View of the JavaScript console showing an eror"
   alt="View of the JavaScript console showing an eror." />
 </p>
-<!-- ![View of the javascript console showing an error](./images/image8.jpeg){width="5.0in" height="4.207420166229221in"} -->
 
 And if we run it standalone and use the dev. tool console:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3832,7 +3822,6 @@ And if we run it standalone and use the dev. tool console:
   title="View of the JavaScript console (showing the line that caused the error"
   alt="View of the JavaScript console (showing the line that caused the error." />
 </p>
-<!-- (./images/image106.jpeg){width="5.0in" height="2.508445975503062in"} -->
 
 And if we click on the line number to the right, the dev. tool shows the
 source code centered on the line that caused the error:
@@ -3844,7 +3833,6 @@ source code centered on the line that caused the error:
   title="View of the JavaScript console"
   alt="View of the JavaScript console." />
 </p>
-<!-- ![View of the JavaScript console](./images/image107.jpeg){width="5.0in" height="4.199669728783902in"} -->
 
 Without such tools, debugging JavaScript code is impossible. So you need
 to look at some basic tutorials on how to use the dev. tools of your
@@ -3884,7 +3872,7 @@ We will first write this application online, using the JsBin.com editor,
 then we will do the same thing using the CodePen online editor, then,
 using a regular source code editor and .html, .css and .js files.
 
-<b>Here is what the resulting Web page will look like:</b>
+<h4><b>Here is what the resulting Web page will look like:</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 137. codepen: interactive function plotter (107) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3894,7 +3882,7 @@ using a regular source code editor and .html, .css and .js files.
   alt="CodePen: Interactive Function Plotter." />
 
 <h6 align="center">
-<a href="https://codepen.io/w3devcampus/pen/bqGboZ">Demo (CodePen)</a></h6>
+<a href="https://codepen.io/w3devcampus/pen/bqGboZ">Demo (CodePen: Interactive Function Plotter)</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 Using CodePen (6:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3904,6 +3892,7 @@ using a regular source code editor and .html, .css and .js files.
   style="width:50%"
   title=""
   alt="." />
+</p>
 <!-- pages 108-112 to be filled from class -->
 Hi!
 We're going to work from an example we already saw in the course: the math function plotter.
@@ -3919,44 +3908,38 @@ You've got also a <body onload="plot();>", that means that when the page is load
 we execute a JavaScript function named "plot()", that is located here.
 And it uses the "functionPlot()" function from the external library we use.
 This one.
-And it takes a set of parameters that are located at the beginning of the JavaScript part.
-That will indicate, within the target property, the "id" of the div where we are going to plot the function.
-In the data property is the function itself: "sin(x)" and its color: red.
-What can we do to improve this?
-At first, we can add some CSS code to make this nicer.
-I'm going to change the view with CodePen.
-Let's resize that, and let's work on the CSS part: "Maximize CSS Editor".
-What I can do, is that I can indicate that the div that contains this function
-wil have a rounded border, some shadows and so on.
-Now it's rounded, you can have add some shadows, height, margin and so on.
-Let's me just copy and paste some code I’ve prepared.
-Here we are.
-Now, what I've got, is a nicer presentation of the function itself.
-Now, I'm going to add a section that will contain the different controllers
-that are input fields from HTML5.
-Let's do it. I add a section called "plotSettings" that will contains all these controllers.
-Let's start for example with a controller for the color.
-Here we go.
-What we added here is a label color value and the color input field from HTML5.
-If I click here, it asks for a color.
-And we can also add an event listener: "onchange="plot(); ».
-That means: "when the color has been selected, call the plot() function".
-And you remember that this function is the one that plots the mathematical function, here.
-The plot function is here.
-What we are going to do in this change color function?
-It changes the property of the parameters here.
-Let's add some code for that...
-How can we get the value of the color from JavaScript before plotting the function?
-We are going to use the selector API: "document.querySelector(...)" for the input field whose id is "color".
-The value, here, is the color itself.
-What we do is that we are going do use the color for changing this, here.
-So "parameters.data"... it's an array.
-0 is the first index, the first element that corresponds to the part that I highlight now.
+And it takes a set of parameters that are located at the beginning of the JavaScript 
+part. That will indicate, within the target property, the "id" of the div where we 
+are going to plot the function. In the data property is the function itself: "sin(x)" 
+and its color: red. What can we do to improve this? At first, we can add some 
+CSS code to make this nicer. I'm going to change the view with CodePen. Let's 
+resize that, and let's work on the CSS part: "Maximize CSS Editor". What I can 
+do, is that I can indicate that the div that contains this function wil have a 
+rounded border, some shadows and so on. Now it's rounded, you can have add some 
+shadows, height, margin and so on. Let's me just copy and paste some code I’ve 
+prepared. Here we are. Now, what I've got, is a nicer presentation of the function 
+itself. Now, I'm going to add a section that will contain the different controllers 
+that are input fields from HTML5. Let's do it. I add a section called "plotSettings" 
+that will contains all these controllers. Let's start for example with a controller 
+for the color. Here we go. What we added here is a label color value and the color 
+input field from HTML5. If I click here, it asks for a color. 
+
+And we can also add an event listener: "onchange="plot();. That means: "when the 
+color has been selected, call the plot() function". And you remember that this 
+function is the one that plots the mathematical function, here. The plot function 
+is here. What we are going to do in this change color function? It changes the 
+property of the parameters here. Let's add some code for that... How can we get 
+the value of the color from JavaScript before plotting the function? We are going 
+to use the selector API: "document.querySelector(...)" for the input field whose 
+id is "color". The value, here, is the color itself. What we do is that we are 
+going do use the color for changing this, here. So "parameters.data"... it's an 
+array. 0 is the first index, the first element that corresponds to the part that 
+I highlight now. 
 .color=color
-If I change the color, this line is executed and the color changes.
-We can use the same principles with other input fields.
-Let me just copy and paste some code I prepared,
-that will add all these different controllers.
+
+If I change the color, this line is executed and the color changes. We can use 
+the same principles with other input fields. Let me just copy and paste some code 
+I prepared, that will add all these different controllers.
 Now I've got all the different controllers,
 and if you look at them, they all have an "onchange" or "oninput" event listener.
 Now, we’ve got 2 sections, 2 HTML sections:
@@ -3980,6 +3963,8 @@ In the video, at 3:19, there are some mistakes in the HTML code:
     paragraphs &lt;p&gt;&lt;/p&gt; by line breaks &lt;br&gt; or by a single &lt;p&gt;.
 
 <end of 1.4.2 video transcript>
+
+
 <h4>CodePen example with the starting code used in the video</h4>
 
 <p>If you want to code while watching the video, 
@@ -4000,7 +3985,7 @@ plotter. In this version, you can see that we added some input fields for changi
 the color of the curve, for changing the range of the x values, changing interactively 
 the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 139a.  (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 139a.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image139a.png?raw=true"
   style="width:50%"
@@ -4010,7 +3995,7 @@ the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-3">1.4.3 Using Sublime Text (4:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 1xx.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 1xx.  (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image138.png?raw=true"
   style="width:50%"
@@ -4268,28 +4253,28 @@ If we copy and paste the variable declarations from the previous
 example, and type myNumber2 in the devtool console, it will display 34
 (while myNumber1 will have an undefined value):
 
-```
-> var myNumber1, myNumber2 = 34, myNumber3;
+<pre>
+&gt; var myNumber1, myNumber2 = 34, myNumber3;
 undefined
 
-> // Or with the ES6 syntax you can also use "let"
+&gt; // Or with the ES6 syntax you can also use "let"
 undefined
  
-> let x=1, y=3, z=12;
+&gt; let x=1, y=3, z=12;
 
 undefined
-> x;
+&gt; x;
 1
  
-> z;
+&gt; z;
 12
 
-> myNumber2;
+&gt; myNumber2;
 34
  
-> myNumber1;
+&gt; myNumber1;
 undefined
-```
+</pre>
 
 Below is an image that explains how you can try JavaScript code in the
 devtools console:
@@ -4326,7 +4311,8 @@ defined&hellip;](./images/image110.jpeg){width="6.729166666666667in" height="1.3
 
 The JavaScript community has some conventions about naming variables:
 
--   <b>The camelCase notation is
+<ul>
+  <li><b>The camelCase notation is
     preferred</b>: mySpaceShip, sumOfAllGrades, etc.
 
 -   <b>For a variable, the first letter is lowercase and each first
@@ -4334,11 +4320,11 @@ The JavaScript community has some conventions about naming variables:
 
 <h4>Example:</h4>
 
-```
+<pre>
 var myModel;
 // ES2015 syntax
 let michelBuffaAge = 51;
-```
+</pre>
 
 Most JavaScript examples you will find are written in the camelCase
 format. For harmony in the code source, it is a good idea to keep this
@@ -4367,12 +4353,11 @@ error will be raised if you try to change their value in the future.
 
 <h4>Example:</h4>
 
-```
+<pre>
 var TIME_LIMIT;
 // ES2015 Syntax
 const MAX_GRADE = 20;
-```
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 141. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (121) ~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4389,7 +4374,7 @@ example](./images/image111.jpeg){width="6.510416666666667in" height="2.341333114
 Here are a set of examples (using the let keyword, but they would also
 work with var):
 
-```
+<pre>
 let a;
 let thisIsAVariable;
 let and_this_too; // but <b>does not respect the usual naming convention</b>
@@ -4401,8 +4386,7 @@ let v1, v2, v3 = 'hello', v4 = 4, v5;
 // Beware with lowercase / uppercase
 let case_matters = 'lower';
 let CASE_MATTERS = 'upper';
-```
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Scope of JS variables (4:19)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4693,11 +4677,11 @@ etc. ex:
   title=""
   alt="." />
 
-```
-var x = 3; var name = "Buffa";![a set of playing
-  cards](./images/image118.png){width="2.0833333333333335in"
-  height="1.25in"}
-```
+<pre>
+var x = 3; var name = "Buffa";
+<a href="">a set of playing cards</a>
+](./images/image118.png){width="2.0833333333333335in" height="1.25in"}
+</pre>
 
 1.  Objects (everything that is not a  &quot;primitive data type&quot; is an
     object):
@@ -11654,3 +11638,4 @@ element.appendChild(para);
 <!-- last editted 7/16/2024 6:25pm -->
 <!-- last editted 7/19/2024 6:00pm -->
 <!-- last editted 7/20/2024 5:49am -->
+<!-- last editted 7/23/2024 7:17pm -->
