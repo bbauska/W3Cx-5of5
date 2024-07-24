@@ -5447,7 +5447,8 @@ There are other events related to the mouse:
 * `mousedown`: fired when a mouse button is pressed.
 * `mouseup`: fired when a mouse button is released.
 * `mouseclick`: fired after a mousedown and a mouseup have occured.
-* `mousemove`: fired while the mouse moves over the element. Each time the mouse moves, a new event is fired, unlike with mouseover or mouseenter, where only one event is fired.
+* `mousemove`: fired while the mouse moves over the element. Each time the mouse moves, a new event is fired, unlike with
+mouseover or mouseenter, where only one event is fired.
 
 #### The tricky part: getting the position of the mouse relative to the canvas
 
@@ -5457,7 +5458,9 @@ that correspond to the mouse coordinates: `clientX` and `clientY`.
 > However, these are what we call "viewport coordinates". Instead of being relative to the canvas itself, they are relative to the 
 > viewport (the visible part of the page).
 
-Most of the time you need to work with the mouse position relative to the canvas, not to the viewport, so you must convert the coordinates between the viewport and the canvas. This will take into account the position of the canvas in the viewport, and the CSS properties that may affect the canvas position (margin, etc.).
+Most of the time you need to work with the mouse position relative to the canvas, not to the viewport, so you must convert 
+the coordinates between the viewport and the canvas. This will take into account the position of the canvas in the viewport, 
+and the CSS properties that may affect the canvas position (margin, etc.).
 
 Fortunately, there is a method for getting the position and size of any element in the viewport: `getBoundingClientRect()`.
 
@@ -5689,7 +5692,8 @@ window.onload = function init() {
 
 # Moving a player with the mouse
 
-This time, we've added a mousemove event listener to the canvas in the init function, and reused the trick that you saw in the previous section to get the correct mouse position:
+This time, we've added a mousemove event listener to the canvas in the init function, and reused the trick that you saw 
+in the previous section to get the correct mouse position:
 
 Working example:
 
@@ -6215,7 +6219,9 @@ function drawFilledCircle(c) {
 
 First, if you're into game programming, we have a full section about collision detection in week 2 of the W3Cx HTML5 Apps and Games advanced course.
 
-We have a player that is a rectangle and other objects that are circles. This is cool, as it allows us to find a short function that tests if a circle collides with a rectangle whose sides are aligned to the X-axis and Y-axis. (we implemented this after reading this Thread at StackOverflow):
+We have a player that is a rectangle and other objects that are circles. This is cool, as it allows us to find a 
+short function that tests if a circle collides with a rectangle whose sides are aligned to the X-axis and Y-axis. 
+(we implemented this after reading this Thread at StackOverflow):
 https://stackoverflow.com/questions/401847/circle-rectangle-collision-detection-intersection
 
 
@@ -6257,13 +6263,18 @@ function testCollisionWithPlayer(b, index) {
     }
 }
 ```
-Line 3: Look at the iterator;  this time instead of just one parameter (the current element), we've added a second optional parameter that will be the index of the current element, starting from zero.
+Line 3: Look at the iterator;  this time instead of just one parameter (the current element), we've added a second 
+optional parameter that will be the index of the current element, starting from zero.
 
-Line 10: for each ball in the array, we will call `testCollisionWithPlayer(b, index);` that will check if there is a collision between the ball b and the player. We also pass the index of the ball. If a collision occurs, we will have to remove the ball from the array, and for that, we will need its index in the array.
+Line 10: for each ball in the array, we will call `testCollisionWithPlayer(b, index);` that will check if there is 
+a collision between the ball b and the player. We also pass the index of the ball. If a collision occurs, we will 
+have to remove the ball from the array, and for that, we will need its index in the array.
 
-Line 15 is the collision test, and if it is true (collision with the player), then the ball dies and we remove it from the array using the splice method you can use on arrays.
+Line 15 is the collision test, and if it is true (collision with the player), then the ball dies and we remove it 
+from the array using the splice method you can use on arrays.
 
-Line 22: here it is, we remove the current ball in the array using `balls.splice(position, numberOfElementsToRemove)`. The positon is given by index, and the number of balls to remove is one.
+Line 22: here it is, we remove the current ball in the array using `balls.splice(position, numberOfElementsToRemove)`. 
+The positon is given by index, and the number of balls to remove is one.
 
 We've also added a function for displaying the number of balls in the array while we are playing. When this number reaches zero, we display "You Win!":
 
@@ -6756,11 +6767,13 @@ Suggested topics
 
 * First, do not forget to share your creations in the forum!
 * Do you know about jQuery or equivalent libraries that were developed to try to make the DOM easier to manipulate? Some people do not recommend using them now - why is this?
-* Some of things seen during this week, such as the document.querySelector method, do not work on old versions of Internet Explorer, for example. How can we make them work on these old browsers?
+* Some of things seen during this week, such as the document.querySelector method, do not work on old versions of Internet
+  Explorer, for example. How can we make them work on these old browsers?
 
 Optional project
 
-The game is not completely finished, as you may have noticed :-) So, try to make "levels": when all good balls have been eaten, let's restart automatically, but this time with one more ball in the initial set!
+The game is not completely finished, as you may have noticed :-) So, try to make "levels": when all good balls have been eaten, 
+let's restart automatically, but this time with one more ball in the initial set!
 
 
 
