@@ -24,10 +24,11 @@
 > beginners to learn JavaScript: first look at examples, then tweak some
 > code and see the results of the changes. You will certainly encounter
 > error messages, but no worries, as I will teach you how to debug
-> JavaScript code using your browser’s devtool console. In this first
-> module, you will also learn about JavaScript variables, operators and
-> expressions, and have a first lesson about functions, objects, arrays
-> and strings. These are the basic concepts of JavaScript and are shared
+> JavaScript code using your browser’s devtool console.
+> 
+> In this first module, you will also learn about JavaScript variables,
+> operators and expressions, and have a first lesson about functions, objects,
+> arrays and strings. These are the basic concepts of JavaScript and are shared
 > by many other programming languages. We’ll then develop together, and
 > step by step, an interactive graphic tool that will use many different
 > features from JavaScript, HTML and CSS. Let’s start having fun with
