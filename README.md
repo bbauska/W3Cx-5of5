@@ -110,35 +110,32 @@ designers. JavaScript lets you add interactive features to your Web
 sites, including dynamically updated content, controlled multimedia,
 animated images, and much more.</p>
 
--   In <b>Module 1</b>, we present the basics of JavaScript by the way of
+<ul>
+  <li>In <b>Module 1</b>, we present the basics of JavaScript by the way of
     many examples. We also show how to use the browser devtools, a
     powerful, built-in set of tools that represent the Swiss army knife
-    of any Web developer.
-
--   In <b>Module 2</b>, you&apos;ll learn about conditional statements, logical
+    of any Web developer.</li>
+  <li>In <b>Module 2</b>, you&apos;ll learn about conditional statements, logical
     operators, loops and how to detect events. We will introduce the DOM
     API and the selector API (for selecting elements in the DOM). At the
     end of this module, armed with this new knowledge, we&apos;ll write a
-    small game together.
-
--   <b>Module 3</b> is more &quot;project oriented&quot;, and less focused on
+    small game together.</li>
+  <li><b>Module 3</b> is more &quot;project oriented&quot;, and less focused on
     fundamental concepts. Discover the audio and video APIs, and other
     cool HTML5 APIs. You will play with sound samples and music, and
     this is going to be useful to put a music background and/or sound
-    effects to the game you started to develop in Module 2!
-
--   <b>Module 4</b> is about structuring data with a focus on JavaScript
+    effects to the game you started to develop in Module 2!</li>
+  <li><b>Module 4</b> is about structuring data with a focus on JavaScript
     Object Oriented Programming. As with many other programming
     languages, JavaScript objects can be compared to real-life objects.
     Learn how to create your own classes and multiples objects from the
     same class. And experiment it all by doing one or more optional
-    projects!
-
--   <b>Module 5</b> is the last module of the course! Let&apos;s enhance
+    projects!</li>
+  <li><b>Module 5</b> is the last module of the course! Let&apos;s enhance
     interactivity of past projects by adding forms. To put into
     practice, let&apos;s develop a mini contact manager that load/save its
-    data using the JSON format.
-
+    data using the JSON format.</li>
+</ul>
 
 <p>This course is designed for anyone who is comfortable with programming
 concepts. No prerequisites are required though we encourage you to
@@ -406,18 +403,18 @@ in terms of features.</p>
 
 <h4>Other tools</h4>
 
-There are many other online IDEs and new ones appear each year. If you want a real, 
+<p>There are many other online IDEs and new ones appear each year. If you want a real, 
 heavyweight online IDE that has nearly all the features offered by 
 &quot;big IDEs&quot; such as Eclipse, NetBeans and WebStorm, take a look at the 
 <a href="https://c9.io/">Cloud9 IDE</a>. It&apos;s free and will enable you to 
 develop huge projects, that can include many files, it supports uploaded assets 
 such as images, videos and sound files.  Furthermore, like Google Docs, it will 
 support multiple users working at the same time on the same project, even on the 
-same file. It&apos;s a real collaborative environment.
+same file. It&apos;s a real collaborative environment.</p>
 
-Michel Buffa, author of this course, developed a whole multitrack audio
+<p>Michel Buffa, author of this course, developed a whole multitrack audio
 player this way. This application is <a href="https://mainline.i3s.unice.fr/">
-available online</a>. (See also screenshots below:)
+available online</a>. (See also screenshots below:)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. multitrack audio player (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -427,9 +424,9 @@ available online</a>. (See also screenshots below:)
   alt="Multitrack audio player." />
 </p>
 
-100% of the development was done in a Web browser, by Michel Buffa and
+<p>100% of the development was done in a Web browser, by Michel Buffa and
 two friends, using the c9.io (Cloud 9) IDE (to see if online IDEs were a
-valuable approach):
+valuable approach):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. c9 ide, example (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -627,7 +624,6 @@ technologies are built is a great way to build your expertise.</p>
   style="width:10%"
   title="GitHub Octocat logo"
   alt="GitHub Octocat logo." />
-  
 If you&apos;re looking to an easy way to dive into this standardization processes, check out which 
 <a href="https://github.com/search?q=org%3Aw3c+label%3A%22good+first+issue%22+state%3Aopen&type=Issues">
 issues in the W3C GitHub repositories have been marked as &quot;good first issue&quot;</a> and
@@ -702,7 +698,7 @@ Beihang University</a> as the fourth Host.</p>
 
 <p>As of January 2023, W3C is a public-interest non-profit organization
 incorporated in the United States of America, led by a Board of
-Directors and employing a global staff across the globe</p>
+Directors and employing a global staff across the globe.</p>
 
 <h4>A few figures</h4>
 
@@ -1424,7 +1420,7 @@ first using an online environment.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>If you are sitting at a coffee shop next to a table of Web developers,
 you will probably often hear these three words: &quot;Elements&quot;, &quot;Tags&quot;
-and &quot;Attributes&quot;.
+and &quot;Attributes&quot;.</p>
 
 <p>&quot;Elements&quot; are the pieces themselves, i.e. a paragraph is an element,
 a header is an element, even the body is an element. Most elements can
@@ -1453,7 +1449,7 @@ the author of three W3Cx MOOCS.&lt;/p&gt;
 </pre>
 
 <p>Click the red circle next to HTML to unfold this HTML document structure
-(we can also say &quot;see its DOM structure&quot;):
+(we can also say &quot;see its DOM structure&quot;):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. html, red circle in jsbin (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1503,7 +1499,7 @@ rendering), h1 means &quot;heading level 1&quot;, and will be rendered by
 default in bold with a bigger char size than any other text element,
 etc.</p>
 
-That may be a great picture, but how do we represent such a structure in
+<p>That may be a great picture, but how do we represent such a structure in
 a text file?  Well, that&apos;s where &quot;tags&quot; come in.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-3">1.2.3 HTML tags</h3>
@@ -1773,10 +1769,8 @@ of Leonardo. I pick an image of Leonardo. I display the image and
 <h4>Hi!</h4>
 
 <p>In this short video, I will show you quickly the principle of CSS.</p>
-
 <p>I recommend you however to follow the CSS Basics course from W3Cx if you
 want to learn this technology more deeply.</p>
-
 <p>HTML is for structure. CSS is another language, by W3C, that it&apos;s
 useful for specifying the look and feel of these elements. How do they
 fit together...How many spaces between them...What color to use, and so
@@ -1872,27 +1866,27 @@ document. Let&apos;s look at the first one:</p>
 8.  }
 </pre>
 
-This rule turns all the h1s in the document into red text, centered
+<p>This rule turns all the h1s in the document into red text, centered
 horizontally, on a light green background, with a violet border of 12
 pixels (a solid border, not a dashed one), and this border has rounded
-corners made of arcs of a circle whose radius is 15 pixels.
+corners made of arcs of a circle whose radius is 15 pixels.</p>
 
-The part before the opening brace (<b>line 1</b>) is the &quot;CSS selector&quot;,
+<p>The part before the opening brace (<b>line 1</b>) is the &quot;CSS selector&quot;,
 it indicates the elements that have their properties changed according
-to what is inside the braces.
+to what is inside the braces.</p>
 
-The part inside the braces is a set of properties and values that are
-useful for setting the look and feel of the selected elements.
+<p>The part inside the braces is a set of properties and values that are
+useful for setting the look and feel of the selected elements.</p>
 
-<b>Line 2</b> for example, says that all h1s is colored in red.
+<p><b>Line 2</b> for example, says that all h1s is colored in red.</p>
 
 <h4>CSS rules are applied in sequence</h4>
 
-After the previous rule is applied, then the second rule is taken into
+<p>After the previous rule is applied, then the second rule is taken into
 account, then the next, etc. In this way, you can see that all h2s is in
-brown (second rule).
+brown (second rule).</p>
 
-The third rule uses what is called &quot;a multiple selector&quot;:
+<p>The third rule uses what is called &quot;a multiple selector&quot;:</p>
 
 <pre>
 1.  p, h1, h2 {
@@ -1900,17 +1894,17 @@ The third rule uses what is called &quot;a multiple selector&quot;:
 3.  }
 </pre>
 
-This one says that all p, h1 and h2 uses a cursive font character. The
-&quot;,&quot; means &quot;and also&quot;.
+<p>This one says that all p, h1 and h2 uses a cursive font character. The
+&quot;,&quot; means &quot;and also&quot;.</p>
 
-This is also how we indicate in the last rule that images and paragraphs
-should be moved to the right 50 pixels (property margin-left: 50px).
+<p>This is also how we indicate in the last rule that images and paragraphs
+should be moved to the right 50 pixels (property margin-left: 50px).</p>
 
 <h4>The id and class attributes</h4>
 
-Basically, any given element on your Web page can be identified uniquely
+<p>Basically, any given element on your Web page can be identified uniquely
 with an &apos;id&apos; attribute, or grouped with a class of other elements by
-setting the &apos;class&apos; attribute.
+setting the &apos;class&apos; attribute.</p>
 
 <pre>
 1.  &lt;p id="paragraph-1" class="regular-paragraphs"&gt;
@@ -1918,20 +1912,18 @@ setting the &apos;class&apos; attribute.
 3.  &lt;/p&gt;
 </pre>
 
-The paragraph above has a unique identifier: the id attribute whose
-value is &quot;paragraph-1&quot; and is part of a class of
-&quot;regular-paragraphs&quot;. The letters inside the quotes have no meaning to
-the computer, they just need to be consistent. They are actually
-strings. 
+<p>The paragraph above has a unique identifier: the id attribute whose value is 
+&quot;paragraph-1&quot; and is part of a class of &quot;regular-paragraphs&quot;. 
+The letters inside the quotes have no meaning to the computer, they just need to 
+be consistent. They are actually strings.</p>
 
-Again, the fact that the computer does not care what we put in those
-strings (except for some restrictions) means we can use them to convey
-meaning to a human developer. I could just as easily have
-said id=&apos;x&apos; and class=&apos;y&apos;, but anyone looking at that would have no
-hint what the significance of x and y are. Best practice is to name
-these things to increase clarity, consistency and brevity.
+<p>Again, the fact that the computer does not care what we put in those strings 
+(except for some restrictions) means we can use them to convey meaning to a human 
+developer. I could just as easily have said id=&apos;x&apos; and class=&apos;y&apos;, 
+but anyone looking at that would have no hint what the significance of x and y are. 
+Best practice is to name these things to increase clarity, consistency and brevity.</p>
 
-Let&apos;s look at a modified version of Michel Buffa&apos;s home page example:
+<p>Let&apos;s look at a modified version of Michel Buffa&apos;s home page example:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 63. example codepen: update css rule (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1999,19 +1991,19 @@ paragraphs in the HTML element:</p>
 4.  &lt;p class="funny">Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;
 </pre>
 
-There are many, many, many different CSS properties in existence, and
+<p>There are many, many, many different CSS properties in existence, and
 many different ways to select elements. We recommend that you follow the
 W3Cx <a href="https://www.edx.org/course/css-basics">CSS Basics</a> and 
 <a href="https://www.edx.org/course/html5-and-css-fundamentals">HTML5&CSS
-Fundamentals</a> courses to learn more about CSS and about HTML5 basics.
+Fundamentals</a> courses to learn more about CSS and about HTML5 basics.</p>
 
 <h5>Where can we put the CSS rules: in the HTML file? in another file?</h5>
 
-You can do both! 
+<p>You can do both!</p>
 
-You can embed the CSS rules between a &lt;style&gt;&hellip;&lt;/style&gt; tag,
+<p>You can embed the CSS rules between a &lt;style&gt;&hellip;&lt;/style&gt; tag,
 located inside the &lt;head&gt;&hellip;&lt;/head&gt; of the HTML documents, like in
-this example:
+this example:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 64. example codepen: update css rule (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2036,12 +2028,11 @@ open this example in Plunker</a>)</p>
   alt="Snapshot of a code editor showing a separate CSS file." />
 </p>
 
-Note that when you use an online IDE, you usually type/paste the CSS
+<p>Note that when you use an online IDE, you usually type/paste the CSS
 rules in a &quot;CSS tab&quot; in the online editor, and it hides all the
 &quot;plumbing&quot; for you (except the more complete ones such
 as <a href="https://plnkr.co/">Plunker</a> or <a href="https://c9.io/">
-AWS Cloud9</a> that enable you to manage files in the cloud).
-
+AWS Cloud9</a> that enable you to manage files in the cloud).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-6">1.2.6 Live coding video: mixing HTML and CSS (3:49)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2053,9 +2044,9 @@ AWS Cloud9</a> that enable you to manage files in the cloud).
   alt="Example CodePen: Update CSS Rules." />
 </p>
 
-In this lesson, I will show you how you can include CSS in your HTML
+<p>In this lesson, I will show you how you can include CSS in your HTML
 file, because we used online tools that hide, in a way, the location of
-the different languages.
+the different languages.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 67. example codepen: update css rule (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2065,11 +2056,11 @@ the different languages.
   alt="Example CodePen: Update CSS Rules." />
 </p>
 
-If you take this example we described in the previous video, and if I
+<p>If you take this example we described in the previous video, and if I
 export it using CodePen...and if I look at the zip file that has been
 downloaded, you can see CSS file are located in the subdirectory and in
 a .css file. This is a common way for organizing source code when you
-make a project with HTML and CSS.
+make a project with HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 68/69. example source code: my home page (58) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2083,10 +2074,10 @@ make a project with HTML and CSS.
   alt="Example source code: My Home Page." />
 </p>
 
-And if we open the &quot;index.html&quot; file, you can see that, what is really
+<p>And if we open the &quot;index.html&quot; file, you can see that, what is really
 going on if we look at the source code. Actually, in order to include
 CSS file in an HTML file, we use the &quot;link&quot; tag with the attribute
-&quot;rel = &quot;stylesheet&quot; and &quot;href&quot; = the name of the file.
+&quot;rel = &quot;stylesheet&quot; and &quot;href&quot; = the name of the file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 70. codepen: link to css stylesheet (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2096,10 +2087,10 @@ CSS file in an HTML file, we use the &quot;link&quot; tag with the attribute
   alt="CodePen: Link to external CSS Stylesheet." />
 </p>
 
-Here, it means the &quot;style.css&quot; file located in the &quot;css&quot;
+<p>Here, it means the &quot;style.css&quot; file located in the &quot;css&quot;
 subdirectory. If I open this project with Sublime Text ... I go to the
 directory I&apos;ve just downloaded, and if I open the directory, I can see
-my hierarchy, here. The &quot;index.html&quot; file that includes the .css file.
+my hierarchy, here. The &quot;index.html&quot; file that includes the .css file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. codepen: example style.css (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2109,13 +2100,13 @@ my hierarchy, here. The &quot;index.html&quot; file that includes the .css file.
   alt="CodePen: Example style.css." />
 </p>
 
-And if I open the &quot;style.css&quot;. I can see the CSS content here. And
+<p>And if I open the &quot;style.css&quot;. I can see the CSS content here. And
 it&apos;s interesting to use a real source code editor because you&apos;ve got
 auto-completion on the name of the properties: "background-color&quot;. You
 can use also some wizard for indicating or choosing the colors. If I
 take this color, it will give me directly the value and so on. You can
 edit your CSS, edit your HTML and when you save the result, you can open
-directly in your browser the file and see the result.
+directly in your browser the file and see the result.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 72. example codepen: change css background-color (59) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2125,12 +2116,12 @@ directly in your browser the file and see the result.
   alt="Example CodePen: Update CSS Rules." />
 </p>
 
-Here, I change the background-color of the heading 1. You can also use
-directly in your HTML, the CSS rules. In that case, instead of using the
-&quot;link&quot; element, you use the &quot;style&quot; element. &lt;style&gt;, &lt;/style&gt;,
-and like that you can directly include, in the HTML file, the style.
-I&apos;ve got &quot;h1&quot; CSS rule, that will indicate how the &quot;h1&quot; will be
-rendered and I&apos;m no more including an external file.
+<p>Here, I change the background-color of the heading 1. You can also use directly 
+in your HTML, the CSS rules. In that case, instead of using the &quot;link&quot; 
+element, you use the &quot;style&quot; element. &lt;style&gt;, &lt;/style&gt;,
+and like that you can directly include, in the HTML file, the style. I&apos;ve 
+got &quot;h1&quot; CSS rule, that will indicate how the &quot;h1&quot; will be
+rendered and I&apos;m no more including an external file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 73. example codepen: index.html (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2140,18 +2131,17 @@ rendered and I&apos;m no more including an external file.
   alt="Example CodePen: Update CSS Rules." />
 </p>
 
-If I save this and &quot;Open in the Browser&quot;, I&apos;ve got the same result
+<p>If I save this and &quot;Open in the Browser&quot;, I&apos;ve got the same result
 here for the &quot;h1&quot;. And if I look at the source code, I will see
-directly in the HTML, the CSS rule.
+directly in the HTML, the CSS rule.</p>
 
-To sum up, you can have your CSS in external file or inside the HTML
-file using the &quot;style&quot; element.
-
+<p>To sum up, you can have your CSS in external file or inside the HTML
+file using the &quot;style&quot; element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-7">1.2.7 JavaScript is the &quot;interactive glue&quot; (4:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hello, your Web browser can only understand three different languages
-when you ask for a Web page to be rendered in the browser.
+<p>Hello, your Web browser can only understand three different languages
+when you ask for a Web page to be rendered in the browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 74. example: edx studio; using 3rd party js libraries (60) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2161,16 +2151,16 @@ when you ask for a Web page to be rendered in the browser.
   alt="Example: edx studio; using 3rd party JS libraries." />
 </p>
 
-Let&apos;s take this document for example. We type the URL here, and the
+<p>Let&apos;s take this document for example. We type the URL here, and the
 document arrives from a remote machine. And this document is a HTML
 source code that has been interpreted and rendered to give you a
-nice-looking document.
+nice-looking document.</p>
 
-In this HTML, you can have CSS rules for specifying the look and feel of
+<p>In this HTML, you can have CSS rules for specifying the look and feel of
 the document as we saw in the previous example. But you can also have
 Javascript code and Javascript when its run inside the browser can act
 as a glue between HTML and CSS. We will use Javascript to provide
-interactivity to the documents.
+interactivity to the documents.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 75/76. example: codepen; using javascript (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2185,7 +2175,7 @@ interactivity to the documents.
   alt="Example: CodePen; using JavaScript, after change." />
 </p>
 
-In this example, the first one on this page, I can click to change the
+<p>In this example, the first one on this page, I can click to change the
 content of the document. We modify what we call the document object
 model. It&apos;s exactly the set of elements that compose the page. When I
 click, I change the content of the heading. That was previously equal to
@@ -2193,14 +2183,14 @@ click, I change the content of the heading. That was previously equal to
 button), this is how in Javascript we can indicate that we are going to
 do something when you click on it. In that case, it means call the
 function named &quot;<b>changeTitle</b>&quot; and the function is here defined
-between &lt;script&gt; and &lt;/script&gt; elements.
+between &lt;script&gt; and &lt;/script&gt; elements.</p>
 
-In this example, the Javascript lies inside the HTML file and the
+<p>In this example, the Javascript lies inside the HTML file and the
 function is a piece of code that can be run on different conditions. A
 click on the button executes these two lines of code here. 1st use:
 interact with the document object model, interact with the HTML elements
 of the page, add new ones, modify some existing ones, remove some
-elements.
+elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 77/78. example: codepen; using javascript, #2 (60) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2215,14 +2205,14 @@ elements.
   alt="Example: CodePen; using JavaScript, after change #2." />
 </p>
 
-It can be also use for interactive for the CSS styles of the page. In
+<p>It can be also use for interactive for the CSS styles of the page. In
 this example, I click on the button. And instead of modifying the
 content of the page, I just change the look and feel. I change the CSS
 style of the heading. If we look at the code quickly without going into
 details: when I click on the button &quot;button onclick&quot;, I call the
-&quot;<b>changeTitleCSSStyle</b>&quot; function.
+&quot;<b>changeTitleCSSStyle</b>&quot; function.</p>
 
-In this function will use the &quot;style&quot; attribute of some elements that
+<p>In this function will use the &quot;style&quot; attribute of some elements that
 correspond to the heading 1 and it will indicate that we want the text
 to be black, the background color to be yellow and the border to be 5 px
 wide, dashed and colored in red. This was just an example. What we can
@@ -2231,7 +2221,7 @@ work with remote data, upload and download data from a remote server. We
 can use it for making multimedia players, for writing video games, for
 making music, for building tables on the fly to display some dynamic
 data that you came after, for example, we enter some text in the search
-form, etc.
+form, etc.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 79. example: index.html: update heading using javascript (61) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2241,14 +2231,14 @@ form, etc.
   alt="Example: index.html: update heading using JavaScript." />
 </p>
 
-During week 1, we will see other examples with different sort of
+<p>During week 1, we will see other examples with different sort of
 applications of JavaScript. And, we will first give some explanations
 about variables, functions, some basics events handling: how to detect a
 click? how to debug the code? What tools we're going to uses for writing
 Javascript code, and so on. JavaScript is the third of the &quot;magic
 trio&quot;: HTML5/CSS/JavaScript. It is the only programming language a
 browser can run (without installing any plugins or extensions), and
-it&apos;s a real standard of the Web (even if not standardized by the W3C).
+it&apos;s a real standard of the Web (even if not standardized by the W3C).</p>
 
 <h4>Why do we call it &quot;the interactive glue between HTML and CSS&quot;?</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2260,11 +2250,11 @@ it&apos;s a real standard of the Web (even if not standardized by the W3C).
   alt="JavaScript is the perfect glue." />
 </p>
 
-Actually, this description does not do justice to JavaScript, which can
+<p>Actually, this description does not do justice to JavaScript, which can
 do far more than just act as glue. JavaScript can be run outside of the
 browser (on a nodeJS interpreter on a remote server, or in scripts run
 by the operating system), but for this intro course, we focus on
-&quot;JavaScript&quot; in the browser.
+&quot;JavaScript&quot; in the browser.</p>
 
 <p>In the browser, JavaScript lies between HTML and CSS and will be used
 together with these two languages. Let&apos;s take a look at two small
@@ -2281,8 +2271,8 @@ examples:</p>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE">CodePen: Use JS to Modify CSS</a></h6>
 
-<p>Example #2: push another button to modify the CSS style (color,
-background-color, border) of a paragraph in the page.</p>
+<p>Example #2: push another button to modify the CSS style (color, background-color, 
+border) of a paragraph in the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 82. example: javascript: update button to modify css style (62) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2339,7 +2329,7 @@ Maps and eBay.</p>
   alt="Netscape logo." />
 </p>
 
-JavaScript was born in 1995 as part of the work of Brendan Eich&apos;s team
+<p>JavaScript was born in 1995 as part of the work of Brendan Eich&apos;s team
 at <a href="https://en.wikipedia.org/wiki/Netscape">Netscape</a> (the ancestor
 of <a href="https://www.mozilla.org/">Mozilla</a>). At that time, Netscape (a
 hero), in association with Sun MicroSystems (another hero), provided
@@ -2348,7 +2338,7 @@ popular server and client-oriented solutions (
 of <a href="https://en.wikipedia.org/wiki/Firefox">Firefox</a>) which depended on
 Java. (Sun Microsystems, the company that created the Java programming
 language, no longer exists, having been bought by Oracle Corporation in
-2009.)
+2009.)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 87. snapshot; dotjs 2017 - brandan eich - history of js (64) ~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -2358,7 +2348,6 @@ language, no longer exists, having been bought by Oracle Corporation in
   alt="dotJS 2017 - Brandan Eich - A Brief History of JavaScript." />
 </p>
 <h6 align="left"><a href="https://www.youtube.com/watch?v=aX3ZABCdC38">dotJS 2017 - Brandan Eich - A Brief History of JavaScript</a></h6>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. sun microsystems logo (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
@@ -2379,9 +2368,9 @@ course from Java, leave the Java thinking behind!</p>
 
 <p>JavaScript quickly became a success following its first appearance in 
 <a href="http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/">
-Netscape Navigator 2 in March 1996</a>, and it was quickly integrated into other popular browsers. Microsoft also
-created its own version named JScript (and shipped it with Internet Explorer 3 
-in 1996 -- It was a dud).</p>
+Netscape Navigator 2 in March 1996</a>, and it was quickly integrated into other 
+popular browsers. Microsoft also created its own version named JScript (and shipped 
+it with Internet Explorer 3 in 1996 -- It was a dud).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 89. snapshot of a web page in netscape navigator 2 (65) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2574,14 +2563,14 @@ post your comments/observations/questions or share your creations.</p>
 </p>
 
 <p>What it the best method for learning Web Development?</p>
-<p>Take a look at one of my websites; <a href="https://Web-Programming.bauska.org">'Web Programming with JavaScript and Python'</a></p>
+<p>Take a look at one of my websites; <a href="https://Web-Programming.bauska.org">
+'Web Programming with JavaScript and Python'</a>.</p>
 <p>Now, what it the best method for learning JavaScript?</p>
-<p>When you are a complete beginner, I will recommend to look at examples, 
-tweak them, change small things, try to understand what the syntax looks 
-like. Even without deep explanations, without reading a book, or 
-studying in details the different concepts of language, you can learn a
-lot.</p>
-<p>To learn everything, a great start is W3Cx. Google it. I have.</p>
+<p>When you are a complete beginner, I will recommend to look at examples, tweak 
+them, change small things, try to understand what the syntax looks like. Even 
+without deep explanations, without reading a book, or studying in details the 
+different concepts of language, you can learn a lot.</p>
+<p>To learn everything, a great start is W3Cx. Google it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 94. html for myfunction; simple plotting function (70) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2636,14 +2625,14 @@ here.</p>
   title="CodePen Example; Plotting function library; d3js.org"
   alt="CodePen Example; Plotting function library; d3js.org." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ">CodePen</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ">CodePen; D3 Plotting</a></h6>
 
-<p>Okay, we can just look at the HTML part and zoom in a little bit.
-What do we see? We can see that it uses 2 libraries here between
-&lt;script&gt; and &lt;/script&gt; elements. This is how we can insert in the
-document an external JavaScript file. In that case, it&apos;s a remote
-JavaScript file because we are downloading it using http. It uses this
-&quot;d3js&quot; JavaScript library that is located at &quot;d3js.org&quot;.</p>
+<p>Okay, we can just look at the HTML part and zoom in a little bit. What do we 
+see? We can see that it uses 2 libraries here between &lt;script&gt; and 
+&lt;/script&gt; elements. This is how we can insert in the document an external 
+JavaScript file. In that case, it&apos;s a remote JavaScript file because we are 
+downloading it using http. It uses this &quot;d3js&quot; JavaScript library that 
+is located at &quot;d3js.org&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 98. js data driven documents (d3) library (72) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2704,24 +2693,22 @@ There are the parameters.</p>
   alt="Variable parameters for plotting functions in JS." />
 </p>
 
-<p>And I can use an external name. I can declare that,
-here, it&apos;s equivalent. You see that it works the same here, but I've
-just separated the two things. If I put directly this thing inside here,
-like it was before, it still works. Okay, so what is this syntax? In
-JavaScript, when you've got braces like that, opening braces and closing
-braces, it's called an object. And inside an object, you&apos;ve got
-properties and values. The properties have names: target, data,
-function, color, grid. And the values are after a column characters. The
-target is my function. The data is this thing. The grid is true, and so
-on&hellip; You separate the different properties of the object using a comma
-and sometimes, you can have some properties that in turn, have a value
-that is an object.</p>
+<p>And I can use an external name. I can declare that, here, it&apos;s equivalent. 
+You see that it works the same here, but I've just separated the two things. If 
+I put directly this thing inside here, like it was before, it still works. Okay, 
+so what is this syntax? In JavaScript, when you've got braces like that, opening 
+braces and closing braces, it's called an object. And inside an object, you&apos;ve 
+got properties and values. The properties have names: target, data, function, 
+color, grid. And the values are after a column characters. The target is my 
+function. The data is this thing. The grid is true, and so on&hellip; You separate 
+the different properties of the object using a comma and sometimes, you can have 
+some properties that in turn, have a value that is an object.</p>
 
-<p>The xAxis property is equal to an object that has a property domain,
-that has for values: &quot;-1, 1&quot;. And when you&apos;ve got brackets, opening
-and closing brackets, it&apos;s like that&hellip; That will define arrays of
-things in JavaScript. And an array of things is a list of enumerable elements. In that case,
-the domain has two elements: the minimum value and the maximum value.</p>
+<p>The xAxis property is equal to an object that has a property domain, that has 
+for values: &quot;-1, 1&quot;. And when you&apos;ve got brackets, opening and 
+closing brackets, it&apos;s like that&hellip; That will define arrays of things 
+in JavaScript. And an array of things is a list of enumerable elements. In that 
+case, the domain has two elements: the minimum value and the maximum value.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 102. additional plotting function; sine in pink (75) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2797,9 +2784,9 @@ the whole thing.</p>
 <h4>SECOND: take some time to carefully read the sections titled &quot;What 
 you&apos;ve learnt / let&apos;s detail &hellip;.&quot;</h4>
 
-<p>During the course, we provide extra &quot;reference pages&quot; that detail some
-important parts of the language. For example, in a later section, we
-explain the concepts of &quot;variables&quot;, &quot;values&quot;, &quot;operators&quot;,
+<p>During the course, we provide extra &quot;reference pages&quot; that detail 
+some important parts of the language. For example, in a later section, we explain 
+the concepts of &quot;variables&quot;, &quot;values&quot;, &quot;operators&quot;,
 &quot;output&quot;, etc.</p>
 
 <h4>Here is an example - we provide some clues, but it&apos;s your job to tweak it!</h4>
@@ -3186,7 +3173,6 @@ adding a parenthesis after its name, followed by a semi colon):</p>
   var title = document.querySelector("#mainTitle");
   title.innerHTML = "This new title has been changed from JavaScript!";
 }</pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 115. example of interactivity between javascript & html (86) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3218,13 +3204,12 @@ example, style.color returns the color that element has set on it. By
 calling title.style.color = &quot;yellow&quot;; you can apply the style change
 dynamically.</p>
 
-<p>Some of you may be wondering what happens when the CSS property being
-set has a hyphen. The syntax has to be different here, because, for
-example, if you write title.style.background-color, JavaScript will try
-to subtract color from the title.style.background notation, which is not
-what you want to happen. To stop this problem from occurring, all the
-CSS properties are written out in CamelCase: the CSS
-name background-color becomes backgroundColor, text-size becomes textSize, 
+<p>Some of you may be wondering what happens when the CSS property being set has 
+a hyphen. The syntax has to be different here, because, for example, if you write 
+title.style.background-color, JavaScript will try to subtract color from the 
+title.style.background notation, which is not what you want to happen. To stop 
+this problem from occurring, all the CSS properties are written out in CamelCase: 
+the CSS name background-color becomes backgroundColor, text-size becomes textSize, 
 border-color becomes borderColor etc.</p>
 
 <p>Don&apos;t worry, we will return to this later in this course, these first
@@ -3238,13 +3223,13 @@ can reuse code from others (a third party JavaScript library).</p>
 drawing, animating, geolocation, webcam, etc.</h4>
 
 <p>Your browser comes with a lot of different &quot;libraries&quot; that are called
-&quot;standards APIs&quot; for &quot;application programming interfaces&quot;. Such APIs
-are &quot;W3C standards&quot; and are present in all Web browsers that follow
-the Web Standards. You will have APIs for manipulating multimedia (audio
-and video), geolocation (getting the longitude and latitude),
-orientation (on mobile devices), accessing the webcam or the microphone,
-etc. In a later section we will provide a set of examples that use some
-of the most useful APIs provided by your Web browser.</p>
+&quot;standards APIs&quot; for &quot;application programming interfaces&quot;. 
+Such APIs are &quot;W3C standards&quot; and are present in all Web browsers that 
+follow the Web Standards. You will have APIs for manipulating multimedia (audio
+and video), geolocation (getting the longitude and latitude), orientation (on 
+mobile devices), accessing the webcam or the microphone, etc. In a later section 
+we will provide a set of examples that use some of the most useful APIs provided 
+by your Web browser.</p>
 
 <p>Example of an HTML page that embeds an interactive OpenStreet Map (<b>you
 need to click the CodePen logo on top right to run this example. For
@@ -3307,14 +3292,12 @@ declared using the "var" keyword. There are others possibilities we will see lat
   alt="Example 1; JavaScript in the HTML file." />
 </p>
 
-<p>Here we've got the variable called "x" that has the value of 2.
-And, we use some strange instruction "document.body.innerHTML"
-for adding to the body of the document some HTML code.
-So "document.body" corresponds in JavaScript to the body element of the document,
-and the "innerHTML" property corresponds to its HTML content.
-By doing this, we are adding a bold element JavaScript code executing
+<p>Here we've got the variable called "x" that has the value of 2. And, we use 
+some strange instruction "document.body.innerHTML" for adding to the body of the 
+document some HTML code. So "document.body" corresponds in JavaScript to the body 
+element of the document, and the "innerHTML" property corresponds to its HTML 
+content. By doing this, we are adding a bold element JavaScript code executing 
 the value of the variable x=2 and we display the value of the x variable in bold.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 120. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3331,39 +3314,36 @@ receives this document, it will first display the "h1" then display this paragra
 then executes this code. It will define the variable x, assign the value "2" to it, 
 and then add this string, with the value of "x" inside, to the body of the document.</p>
 
-<p>And finally, we display in the dev tool console: "console.log("JavaScript code executed")".
-We can open it by clicking on the console button in CodePen, or we can also open the
-devtools using the "F12" key or "ctrl+alt+i" or "cmd+alt+i" on a Mac.
-And you see that the "console.log" message has been displayed in the devtool console
-of your browser.
+<p>And finally, we display in the dev tool console: "console.log("JavaScript code 
+executed")". We can open it by clicking on the console button in CodePen, or we 
+can also open the devtools using the "F12" key or "ctrl+alt+i" or "cmd+alt+i" on 
+a Mac. And you see that the "console.log" message has been displayed in the devtool 
+console of your browser.</p>
 
-<p>Here, notice that we use the "script" element directly into the body of the document.
-Another possibility is to a put this code in the head of the document.
-It's also common practice because it separates clearly the JavaScript
-code from the HTML body of the document.
-In that case, the result is the same, except that the JavaScript code is displayed
-before the rest of the page.</p>
-
-
-<p>Here we defined the variable x, we added it to the body of the document,
-and later on we display the body, where the browser renders the body of the document.
-Okay, what is better? It depends on your application.
-For the moment, just stay with knowing that you can put scripts in the body
-or in the head of a document.</p>
+<p>Here, notice that we use the "script" element directly into the body of the 
+document. Another possibility is to a put this code in the head of the document.
+It's also common practice because it separates clearly the JavaScript code from 
+the HTML body of the document. In that case, the result is the same, except that 
+the JavaScript code is displayed before the rest of the page.</p>
 
 
-<p>Another possibility is to use an external JavaScript file.
-In that case, the same way we showed you how to use an external file for storing the CSS code,
-we can use the "script" tag with the "src" attribute
-to include in the HTML document an external JavaScript file.
-Notice than we can include more than one JavaScript file if we like, like this.
-In that example, we are including 3 different JavaScript files sequentially.
-I prepared for you an example you can download - it's called "Example_3.zip".
-I click on it, download it, unpack it, and inside this element, I've got an HTML file.
-And I open it with my Sublime Text editor.
-And what I've got here, is that you can see in the HTML header in that case but you can
-also put this in the body if you like, we included a "script.js" file located under 
-the "js" directory.
+<p>Here we defined the variable x, we added it to the body of the document, and 
+later on we display the body, where the browser renders the body of the document. 
+Okay, what is better? It depends on your application. For the moment, just stay 
+with knowing that you can put scripts in the body or in the head of a document.</p>
+
+
+<p>Another possibility is to use an external JavaScript file. In that case, the 
+same way we showed you how to use an external file for storing the CSS code, we 
+can use the "script" tag with the "src" attribute to include in the HTML document 
+an external JavaScript file. Notice than we can include more than one JavaScript 
+file if we like, like this. In that example, we are including 3 different JavaScript 
+files sequentially. I prepared for you an example you can download - it's called 
+"Example_3.zip". I click on it, download it, unpack it, and inside this element, 
+I've got an HTML file. And I open it with my Sublime Text editor. And what I've 
+got here, is that you can see in the HTML header in that case but you can also 
+put this in the body if you like, we included a "script.js" file located under 
+the "js" directory.</p>
 
 <image>
 I can also open this file. I can see that I display the message called "Function executed"
@@ -4893,34 +4873,34 @@ value is 243</code></pre>
 
 <h4>Examples of octal and hexadecimal data types:</h4>
 
-```
-> var n3 = 0377;
+<pre>
+&gt; var n3 = 0377;
 undefined
  
-> typeof n3;
+&gt; typeof n3;
 "number"
  
-> n3;
+&gt; n3;
 255
  
-> var n4 = 0x00;
+&gt; var n4 = 0x00;
 undefined
  
-> typeof n4;
+&gt; typeof n4;
 "number"
  
-> n4;
+&gt; n4;
 0
  
-> var n5 = 0xFF;
+&gt; var n5 = 0xFF;
 undefined
  
-> typeof n5;
+&gt; typeof n5;
 "number"
  
-> n5;
+&gt; n5;
 255
-```
+</pre>
 
 <h5><b>Special values</b>:</h5>
 
@@ -4937,87 +4917,87 @@ than -1.79769313486231570e+308.
 Finally, Nan represents <b>not-a-number</b> values, for example if you try
 to divide 0 by 0 (type 0/0 in the devtool console).
 
-```
-> 0 / 0;
+<pre>
+&gt; 0 / 0;
 NaN
  
-> 3 / 0;
+&gt; 3 / 0;
 Infinity
-```
+</pre>
 
 <h4>Examples:</h4>
 
-Any operation with Infinity gives Infinity as a result:
+<p>Any operation with Infinity gives Infinity as a result:</p>
 
-```
-1.  > Infinity;
-2.  Infinity
+<pre>
+1.   &gt; Infinity;
+2.   Infinity
 3.   
-4.  > typeof Infinity;
-5.  "number"
+4.   &gt; typeof Infinity;
+5.   "number"
 6.   
-7.  > 1e309;
-8.  Infinity
+7.   &gt; 1e309;
+8.   Infinity
 9.   
-10. > 1e308;
-11. 1e+308
+10.  &gt; 1e308;
+11.  1e+308
 12.  
-13. > var a = 6 / 0;
-14. undefined
+13.  &gt; var a = 6 / 0;
+14.  undefined
 15.  
-16. > a;
-17. Infinity
+16.  &gt; a;
+17.  Infinity
 18.  
-19. > var i = -Infinity;
-20. undefined
+19.  &gt; var i = -Infinity;
+20.  undefined
 21.  
-22. > i;
-23. -Infinity
+22.  &gt; i;
+23.  -Infinity
 24.  
-25. > typeof i;
-26. "number"
-27.  > Infinity - Infinity;
+25.  &gt; typeof i;
+26.  "number"
+27.  &gt; Infinity - Infinity;
 28.  NaN
 29.   
-30.  > -Infinity + Infinity;
+30.  &gt; -Infinity + Infinity;
 31.  NaN
-```
+</pre>
 
-```
-1.  > Infinity - 20;
+<pre>
+1.  &gt; Infinity - 20;
 2.  Infinity
 3.   
-4.  > -Infinity &ast; 3;
+4.  &gt; -Infinity &ast; 3;
 5.  -Infinity
 6.   
-7.  > Infinity / 2;
+7.  &gt; Infinity / 2;
 8.  Infinity
 9.   
-10. > Infinity - 9999999999999;
+10. &gt; Infinity - 9999999999999;
 11. Infinity
-```
+</pre>
 
 <h4>Examples with NaN:</h4>
 
 <p>NaN is a special value and its type is &quot;Number&quot;!</p>
 
-```
-1.  > typeof NaN;
+<pre>
+1.  &gt; typeof NaN;
 2.  "number"
 3.   
-4.  > var a = NaN;
+4.  &gt; var a = NaN;
 5.  undefined
 6.   
-7.  > a;
+7.  &gt; a;
 8.  NaN 
 
-> var a = 10 &ast; "f";
+&gt; var a = 10 &ast; "f";
   undefined
   
-> a;
+&gt; a;
   NaN 
   
-> 1 + 2 + a;
+&gt; 1 + 2 + a;
   NaN
 ```
 
@@ -5037,10 +5017,10 @@ But there are approximation errors that are well-known in float
 calculations. One common example of errors due to the approximation of
 floating point numbers is that 0.1 + 0.2 does not equal 0.3. 
 
-```
-> 0.1 + 0.2;
+<pre>
+&gt; 0.1 + 0.2;
 0.30000000000000004
-```
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (135) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5066,7 +5046,6 @@ Wikipedia](https://en.wikipedia.org/wiki/IEEE_floating_point).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-5">1.5.5 JS operators and expressions</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <b>An expression</b> is a small piece of code used to produce a value.
 
 For example, the expression 3 + 5 produces the value 8, and the
@@ -5080,18 +5059,18 @@ prefixed or suffixed.
 
 <h5>Unary operator example:</h5>
 
-```
+<pre>
 typeof 'world';
-```
+</pre>
 
 A binary operator is applied to two different expressions, and is both
 prefixed and suffixed.
 
 <h5>Binary operator example:</h5>
 
-```
+<pre>
 var x = 45 / 32;
-```
+</pre>
 
 <h5>The division operator is binary</h5>
 
@@ -5131,19 +5110,19 @@ string - this is not a convention, but a recommendation.
 And finally, you cannot start a string with a single and end with a
 double quotes, or the opposite.
 
-```
-> "Hello World";
+<pre>
+&gt; "Hello World";
 "Hello World"
  
-> "JavaScript Course";
+&gt; "JavaScript Course";
 "JavaScript Course"
  
-> 'With simple quotes';
+&gt; 'With simple quotes';
 "With simple quotes"
  
-> "Do not mix double and simple quotes'; // here we opened the string
+&gt; "Do not mix double and simple quotes'; // here we opened the string
 with double and closed with simple quotes
-```
+</pre>
 
 VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
 
@@ -5278,23 +5257,22 @@ and it allows you to concatenate strings.
 The shorthand assignment operator (+=) can also be used to concatenate
 strings.
 
-```
+<pre>
 //the assignment operator (+=)
 var s1 = 'one';
 var s2 = 'two';
 s1+= s2; // or directly s1+='two'
 s1;
 //returns 'onetwo'
-#### The method concat() {#the-method-concat .unnumbered}
-Another way to concatenate strings is the method concat().
+&lt;h4&gt;The method concat()&lt;/h4&gt;
+&lt;p&gt;Another way to concatenate strings is the method concat().&lt;/p&gt;
 //the 'concat' method
 var s1 = 'one';
 var s2 ='two';
 var s = s1.concat(s2);
 s;
 //returns 'onetwo'
-All the methods shown above can be used with a variable number of
-arguments:
+&lt;p&gt;All the methods shown above can be used with a variable number of arguments:&lt;/p&gt;
 var s1 = 'Hello';
 s1 = s1 + ' World' + ' JavaScript';
 var s2 = 'Hello';
@@ -5302,7 +5280,7 @@ s2+= ' World' + ' JavaScript';
 var s3 = 'Hello';
 s3.concat(' World' , ' JavaScript' );
 //s1,s2 and s3 return 'Hello World JavaScript'
-```
+</pre>
 
 #### Converting strings
 
@@ -8706,17 +8684,17 @@ code&hellip;
 
 <h5>CSS:</h5>
 
-```
+<pre>
 #pageStatus {
 border:1px solid red;
 padding: 2px;
 color:red;
 }
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 window.onload = init;
 function init() {
 var status = document.querySelector('#pageStatus');
@@ -8724,7 +8702,7 @@ status.innerHTML = 'LOADED!';
 // start working!
 // &hellip;.
 }
-```
+</pre>
 
 <h4>Example 2: detect a resize of the window</h4>
 
@@ -8749,45 +8727,45 @@ use screen.width and screen.height to display the screen size.
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>Example1 of the 'resize' event</title>
+  <meta charset=&quot;utf-8&quot;>
+  <meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
+  <title>Example1 of the 'resize' event</title>
 </head>
 <body>
-<p>This page uses <code>window.onresize = resize;</code> in the JS
-  code to execute the resize function. Try to change the size of your
-  window now!</p>
-<p>Curent page size: <span id=&quot;pageSize&quot;></span></p>
-<p>Screen size: <span id=&quot;screenSize&quot;></span></p>
+  <p>This page uses <code>window.onresize = resize;</code> in the JS
+    code to execute the resize function. Try to change the size of your
+    window now!</p>
+  <p>Curent page size: <span id=&quot;pageSize&quot;></span></p>
+  <p>Screen size: <span id=&quot;screenSize&quot;></span></p>
 </body>
 </html>
 ```
 
 <h5>CSS:</h5>
 
-```
+<pre>
 border:1px solid red;
 padding: 2px;
 color:red;
 }
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 window.onload = resize;
 window.onresize = resize;
 function resize(evt) {
-console.log(&quot;resize&quot;);
-var pageSizeSpan = document.querySelector('#pageSize');
-pageSizeSpan.innerHTML = &quot;Width: &quot; + window.innerWidth + &quot; Height:
-  &quot; + window.innerHeight;
+  console.log(&quot;resize&quot;);
+  var pageSizeSpan = document.querySelector('#pageSize');
+  pageSizeSpan.innerHTML = &quot;Width: &quot; + window.innerWidth + &quot; Height:
+    &quot; + window.innerHeight;
 // screen size
 var screenSizeSpan = document.querySelector('#screenSize');
-screenSizeSpan.innerHTML = &quot;Width: &quot; + screen.width + &quot; Height: &quot; +
-  screen.height;
+  screenSizeSpan.innerHTML = &quot;Width: &quot; + screen.width + &quot; Height: &quot; +
+    screen.height;
 }
-```
+</pre>
 
 <h4>Example 3: do something as the page is being scrolled up or down</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8822,75 +8800,72 @@ code (body is 2000px height, for example)&hellip;</p>
 
 <h5>CSS:</h5>
 
-```
+<pre>
 .progress {
-border: 1px solid blue;
-width: 100px;
-position: fixed;
-top: 10px; right: 10px;
+  border: 1px solid blue;
+  width: 100px;
+  position: fixed;
+  top: 10px; right: 10px;
 }
-.progress > div {
-height: 12px;
-background: lightBlue;
-width: 0%;
-font-size:8px;
+.progress &lt; div {
+  height: 12px;
+  background: lightBlue;
+  width: 0%;
+  font-size:8px;
 }
 #text {
-margin-top:50px;
+  margin-top:50px;
 }
 body {
-height: 2000px;
+  height: 2000px;
 }
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
-window.onload = init;
-var progressBar;
-function init() {
-progressBar = document.querySelector(&quot;.progress div&quot;);
-window.addEventListener(&quot;scroll&quot;, function() {
-var max = document.body.scrollHeight - window.innerHeight;
-var percent = (window.pageYOffset / max) &ast; 100;
-progressBar.style.width = percent + &quot;%&quot;;
-});
-}
-```
-
+<pre>window.onload = init;
+  var progressBar;
+    function init() {
+    progressBar = document.querySelector(&quot;.progress div&quot;);
+  window.addEventListener(&quot;scroll&quot;, function() {
+    var max = document.body.scrollHeight - window.innerHeight;
+    var percent = (window.pageYOffset / max) &ast; 100;
+    progressBar.style.width = percent + &quot;%&quot;;
+  });
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-5">2.4.5 Key events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>This has been a bit of a nightmare for years, as different browsers have
+had different ways of handling key events and key codes (
+<a href="https://unixpapa.com/js/key.html">read this</a> if you are fond of 
+JavaScript archeology). Fortunately it&apos;s much better today, and we are able 
+to rely on methods that should work on any browser.</p>
 
-This has been a bit of a nightmare for years, as different browsers have
-had different ways of handling key events and key codes ([read
-this](https://unixpapa.com/js/key.html) if you are fond of JavaScript
-archeology). Fortunately it&apos;s much better today, and we are able to
-rely on methods that should work on any browser.
+<p>When you listen to keyboard related events (keydown, keyup or keypressed), the 
+event parameter passed to the listener function will contain the code of the key 
+that fired the event. Then it is possible to test which key has been pressed or 
+released, like this:</p>
 
-When you listen to keyboard related events
-(keydown, keyup or keypressed), the event parameter passed to the
-listener function will contain the code of the key that fired the event.
-Then it is possible to test which key has been pressed or released, like
-this:
-
-```
+<pre>
 1.  window.addEventListener('keydown', function(event) {
-2.     if (**event.keyCode === 37**) {
+2.     if (<b>event.keyCode === 37</b>) {
 3.       //left arrow was pressed
 4.     }
 5.  });
-```
+</pre>
 
-At **line 2**, the value &quot;37&quot; is the key code that corresponds to the
+<p>At <b>line 2</b>, the value &quot;37&quot; is the key code that corresponds to the
 left arrow. It might be difficult to know which codes represent
-which real keyboard keys, so here are some handy pointers:
+which real keyboard keys, so here are some handy pointers:</p>
 
--   Try key codes with this [interactive
-    example](http://www.asquare.net/javascript/tests/KeyCode.html).
-
--   And find a list of keyCodes (taken from this CSS
-    Tricks [article](https://css-tricks.com/snippets/javascript/javascript-keycodes/#keycode-values)).
+<ul>
+  <li>Try key codes with this <a href="http://www.asquare.net/javascript/tests/KeyCode.html">
+    interactive example</a>.</li>
+  <li>And find a list of keyCodes (taken from this CSS Tricks 
+    <a href="https://css-tricks.com/snippets/javascript/javascript-keycodes/#keycode-values">
+	article</a>).</li>
+</ul>
 
 <h4>The different key events</h4>
 
@@ -8930,7 +8905,7 @@ with a new key property (see the following pages of the course).
   alt="." />
 <!-- ![](./images/image167.png){width="6.5in" height="2.0631944444444446in"} -->
 
-<h4>HTML:</h4>
+<h5>HTML:</h5>
 
 ```
 <!DOCTYPE html>
@@ -8948,7 +8923,7 @@ with a new key property (see the following pages of the course).
 </html>
 ```
 
-<h4>JS:</h4>
+<h5>JS:</h5>
 
 ```
 window.onkeyup = processKeyUp;
@@ -9239,7 +9214,7 @@ specification.
 Please note that the W3C has also published a sibling specification
 describing the values for the key property.
 
-### Current browser support {#current-browser-support .unnumbered}
+### Current browser support
 
 -   [CanIUse table for key](https://caniuse.com/#feat=keyboardevent-key)
 
@@ -10038,8 +10013,7 @@ evt.target.value = name.substring(0, name.length-1);
 
 Note that HTML5 forms and the multiple facets of form and input field
 validation are covered in depth in the W3C [HTML5 Coding Essentials and
-Best
-Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) course,
+Best Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) course,
 which dedicates a whole week to this topic.
 
 <h4>Example #2: do something while a slider is being moved</h4>
@@ -10110,7 +10084,7 @@ using the &apos;input&apos; event</h1>
 <label>
 ```
 
-Type a number:
+<h5>Type a number:</h5>
 
 ```
 <input type=&quot;number&quot;
@@ -10290,7 +10264,7 @@ each domain you will see the most useful event types and their
 properties. In the following course pages, we will show  examples that
 use most of the events displayed in these tables.
 
-<h4>Event object
+<h4>Event object</h4>
 
 Most useful common properties:
 
@@ -10308,7 +10282,7 @@ Most useful common methods:
                       flow
 
 
-<h4>Page
+<h4>Page</h4>
 
 <h4>Events related to the page lifecycle</h4>
 
@@ -10422,7 +10396,7 @@ canvas size, for example).
   detail          Returns a number that indicates how many times the
                   mouse was clicked
 
-<h4>Forms
+<h4>Forms</h4>
 
 <h4>Events related to forms</h4>
 
@@ -10461,7 +10435,7 @@ the part dealing with form events.
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
 
-### Suggested topics {#suggested-topics-1 .unnumbered}
+### Suggested topics
 
 -   Did you know the differences between clientX, pageX, etc. when
     dealing with mousemove events? Did you know the method we showed for
@@ -10471,7 +10445,7 @@ post your comments/observations/questions or share your creations.
 -   Did you know the different keyboard layouts, and
     the code and key event properties?
 
-### Optional project {#optional-project-1 .unnumbered}
+### Optional project
 
 ![times](./images/image193.jpeg){width="2.0833333333333335in"
 height="1.3854166666666667in"}
@@ -10489,7 +10463,6 @@ height="1.3854166666666667in"}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-1">2.5.1 Introducing the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 When a user clicks on a link or enters a URL in the address of your Web
 browser, it downloads the page's HTML text and builds up a model of the
 document's structure called the DOM (Document Object Model). This model
@@ -10615,7 +10588,6 @@ will find this option in all modern browsers&apos; devtool consoles:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-2">2.5.2 A warning about the DOM API</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 The DOM and the DOM API can be cumbersome and complicated. There are
 many methods and properties for manipulating the DOM tree, that are not
 &quot;very JavaScript&quot;. There are historical reasons for this: the DOM
@@ -10640,7 +10612,6 @@ height="2.6492804024496936in"}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-3">2.5.3 Accessing HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 ![](./images/image199.png){width="5.75in"
 height="4.474276027996501in"}
 
@@ -10978,7 +10949,7 @@ height="3.803472222222222in"}
 }
 ```
 
-<h4>Source code extracts:
+<h4>Source code extracts:</h4>
 
 <h5>HTML:</h5>:
 
@@ -11191,7 +11162,7 @@ paragraphs (*line 6*).
 7.  }
 ```
 
-Other examples that use more complex selectors:
+<h5>Other examples that use more complex selectors:</h5>
 
 ```
 1.  // all elements li in ul elements in an element of id=nav
@@ -11250,8 +11221,7 @@ Notice that identifier, tagName and className must be of type String.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-4">2.5.4 Changing the style of selected HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<h4>The style attribute
+<h5>The style attribute</h5>
 
 How to modify an HTML element&apos;s CSS properties from JavaScript?
 
@@ -11346,7 +11316,7 @@ collection of class names:
 2.  var allClasses = elem.<b>classList</b>;
 </pre>
 
-<h4>The classList API
+<h5>The classList API</h5>
 
 <pre>
 3.  The list of methods usable on a classList object are add(),
@@ -11367,7 +11337,7 @@ collection of class names:
 16. div.classList.toggle(&apos;foo&apos;); // class set to <div class=&quot;&quot;/>
 </pre>
 
-### Another example: add and remove multiple CSS properties in a list of checkboxes {#another-example-add-and-remove-multiple-css-properties-in-a-list-of-checkboxes .unnumbered}
+### Another example: add and remove multiple CSS properties in a list of checkboxes
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11382,7 +11352,7 @@ when the &lt;input type=&quot;checkbox&quot;&gt; elements have been checked, i
 order to give the parent &lt;li&gt; a background color, a border, and to
 change the text color, we use a CSS class named &quot;checked&quot;:
 
-### CSS code:
+<h5>CSS code:</h5>
 
 ```
 1.  .checked {
@@ -11395,7 +11365,7 @@ the classList.add(CSS_class) and classList.remove(CSS_class) methods on
 the <li> elements:
 ```
 
-### JavaScript code:
+<h5>JavaScript code:</h5>
 
 ```
 1.  function displayListOfCheckedItems() {
@@ -11445,7 +11415,7 @@ we&apos;ve seen, and perhaps introduce a few new things&hellip;
 
 Properties that can be used to change the value of selected DOM node
 
-### Using the innerHTML property
+<h4>Using the innerHTML property</h4>
 
 This property is useful when you want to change all the children of a
 given element. It can be used to modify the text content of an element,
@@ -11463,7 +11433,7 @@ elem.innerHTML = 'Welcome' + elem.innerHTML; // insert Welcome
 elem.innerHTML = ''; // empty the elem
 </pre>
 
-<h4>Using the textContent property
+<h4>Using the textContent property</h4>
 
 It&apos;s also possible, with selected nodes/elements that contain text, to
 use the textContent property to read the text content or to modify it.
@@ -11497,7 +11467,7 @@ codePen, open the devtool console):
 13. &lt;/html&gt;
 </pre>
 
-JS
+<h5>JS:</h5>
 
 <pre>
 1.  window.onload = init;
@@ -11517,7 +11487,7 @@ JS
 15. }
 </pre>
 
-### Extract from the HTML code:
+<h5>Extract from the HTML code:</h5>
 
 <pre>
 &lt;p id="first"&gt;first paragraph&lt;/p&gt;
