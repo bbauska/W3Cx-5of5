@@ -6663,7 +6663,8 @@ function drawFilledCircle(c) {
 
 #### Explanations
 
-HTML code: this time we've used an oninput in each input field, and an onchange attribute on the <select> HTML drop down menu:
+HTML code: this time we've used an oninput in each input field, and an onchange 
+attribute on the <select> HTML drop down menu:
 
 
 ```javascript
@@ -6692,7 +6693,9 @@ HTML code: this time we've used an oninput in each input field, and an onchange 
    <p></p>
 </div>
 ```
-JavaScript code: we've added some new variables in order to get closer to a real game with a goal, levels, game over menu and so on.
+
+JavaScript code: we've added some new variables in order to get closer to a real game 
+with a goal, levels, game over menu and so on.
 
 
 ```javascript
@@ -6726,7 +6729,9 @@ function changeBallSpeed(coef) {
   globalSpeedMutiplier = coef;
 }
 ```
-Each time we change the number of balls in the game, or the color of the balls you need to eat, we need to restart the game. 
+
+Each time we change the number of balls in the game, or the color of the balls you 
+need to eat, we need to restart the game. 
 
 Here is the `startGame(nb_balls)` function:
 
@@ -6755,19 +6760,23 @@ function countNumberOfGoodBalls(balls, colorToEat) {
   return nb;                   // return this number to the caller
 }
 ```
+
 #### Module 2: Adding interactivity to HTML documents   2.6 Let's write a small game   Discussion topics and project
 
 # Discussion topics and project
 
-Here is the discussion forum for this part of the course. Please either post your comments/observations/questions or share your creations.
+Here is the discussion forum for this part of the course. Please either post your 
+comments/observations/questions or share your creations.
 
 See below for suggested topics of discussion and an optional project.
 
 Suggested topics
 
 * First, do not forget to share your creations in the forum!
-* Do you know about jQuery or equivalent libraries that were developed to try to make the DOM easier to manipulate? Some people do not recommend using them now - why is this?
-* Some of things seen during this week, such as the document.querySelector method, do not work on old versions of Internet
+* Do you know about jQuery or equivalent libraries that were developed to try to 
+  make the DOM easier to manipulate? Some people do not recommend using them now - why is this?
+* Some of things seen during this week, such as the document.querySelector method, 
+  do not work on old versions of Internet
   Explorer, for example. How can we make them work on these old browsers?
 
 Optional project
