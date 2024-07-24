@@ -6606,9 +6606,8 @@ function drawFilledCircle(c) {
 
 #### Explanations
 
-HTML code: this time we've used an oninput in each input field, and an onchange 
-attribute on the <select> HTML drop down menu:
-
+<p>HTML code: this time we've used an oninput in each input field, and an onchange 
+attribute on the &lt;select&gt; HTML drop down menu:</p>
 
 ```javascript
 <div id="controls">
@@ -6628,8 +6627,7 @@ attribute on the <select> HTML drop down menu:
       <option value='green'>green</option>
    </select>
    <p></p>
- 
-   <label for="nbBalls">Change ball speed: </label>
+    <label for="nbBalls">Change ball speed: </label>
    - <input type="range" value='1'
             min=0.1 max=3 step=0.1
             oninput="changeBallSpeed(this.value);"> +
@@ -6637,9 +6635,8 @@ attribute on the <select> HTML drop down menu:
 </div>
 ```
 
-JavaScript code: we've added some new variables in order to get closer to a real game 
-with a goal, levels, game over menu and so on.
-
+<p>JavaScript code: we've added some new variables in order to get closer to a real game 
+with a goal, levels, game over menu and so on.</p>
 
 ```javascript
 var initialNumberOfBalls;       // number of balls at the beginning
@@ -6651,33 +6648,28 @@ var wrongBallsEaten = goodBallsEaten = 0;   //number of good/bad balls
 var numberOfGoodBalls;          // number of good balls in the set
 ```
 
-And here are the callback functions called when you use the input fields:
-
+<p>And here are the callback functions called when you use the input fields:</p>
 
 ```javascript
 function changeNbBalls(nb) {
   startGame(nb);
 }
- 
 function changeColorToEat(color) {
   colorToEat = color;
   startGame(initialNumberOfBalls);
 }
- 
 function changePlayerColor(color) {
   player.color = color;
 }
- 
 function changeBallSpeed(coef) {
   globalSpeedMutiplier = coef;
 }
 ```
 
-Each time we change the number of balls in the game, or the color of the balls you 
-need to eat, we need to restart the game. 
+<p>Each time we change the number of balls in the game, or the color of the balls you 
+need to eat, we need to restart the game.</p>
 
-Here is the `startGame(nb_balls)` function:
-
+<p>Here is the `startGame(nb_balls)` function:</p>
 
 ```javascript
 function startGame(nb) {
@@ -6690,8 +6682,7 @@ function startGame(nb) {
 }
 ```
 
-... and here is the function that counts the number of good balls in the newly created set of balls:
-
+<p>... and here is the function that counts the number of good balls in the newly created set of balls:</p>
 
 ```javascript
 function countNumberOfGoodBalls(balls, colorToEat) {
@@ -6706,14 +6697,14 @@ function countNumberOfGoodBalls(balls, colorToEat) {
 
 #### Module 2: Adding interactivity to HTML documents   2.6 Let's write a small game   Discussion topics and project
 
-# Discussion topics and project
+### Discussion topics and project
 
-Here is the discussion forum for this part of the course. Please either post your 
-comments/observations/questions or share your creations.
+<p>Here is the discussion forum for this part of the course. Please either post your 
+comments/observations/questions or share your creations.</p>
 
-See below for suggested topics of discussion and an optional project.
+<p>See below for suggested topics of discussion and an optional project.</p>
 
-Suggested topics
+<h4>Suggested topics</h4>
 
 * First, do not forget to share your creations in the forum!
 * Do you know about jQuery or equivalent libraries that were developed to try to 
@@ -6722,10 +6713,10 @@ Suggested topics
   do not work on old versions of Internet
   Explorer, for example. How can we make them work on these old browsers?
 
-Optional project
+<h4>Optional project</h4>
 
-The game is not completely finished, as you may have noticed :-) So, try to make "levels": when all good balls have been eaten, 
-let's restart automatically, but this time with one more ball in the initial set!
+<p>The game is not completely finished, as you may have noticed :-) So, try to make "levels": when all good balls have been eaten, 
+let's restart automatically, but this time with one more ball in the initial set!</p>
 
 
 
