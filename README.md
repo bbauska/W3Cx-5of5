@@ -2294,7 +2294,8 @@ border) of a paragraph in the page.</p>
   title="Example: javascript: update button to modify CSS style"
   alt="Example: javascript: update button to modify CSS style." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN" 
+target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 
 <p>We have a closer look at how these examples work in the subsequent parts
 of the course. These examples are just here to show you how JavaScript
@@ -2304,10 +2305,10 @@ the HTML of the document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-8">1.2.8 JavaScript history</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-JavaScript remains the most commonly used programming language with
+<p>JavaScript remains the most commonly used programming language with
 67.7% of developers employing it in 2020 (see this 
-<a href="https://insights.stackoverflow.com/survey/2020#most-popular-technologies" target="_blank" rel="noopener noreferrer">
-survey&apos;s results</a>).
+<a href="https://insights.stackoverflow.com/survey/2020#most-popular-technologies" 
+target="_blank" rel="noopener noreferrer">survey&apos;s results</a>).</p>
 
 <h4>How and why JavaScript was created</h4>
 
@@ -2343,15 +2344,16 @@ Maps and eBay.</p>
 </p>
 
 <p>JavaScript was born in 1995 as part of the work of Brendan Eich&apos;s team
-at <a href="https://en.wikipedia.org/wiki/Netscape" target="_blank" rel="noopener noreferrer">Netscape</a> (the ancestor
-of <a href="https://www.mozilla.org/" target="_blank" rel="noopener noreferrer">Mozilla</a>). At that time, Netscape (a
-hero), in association with Sun MicroSystems (another hero), provided
-popular server and client-oriented solutions (
-<a href="https://en.wikipedia.org/wiki/Netscape_Navigator" target="_blank" rel="noopener noreferrer">Netscape Navigator</a>, ancestor
-of <a href="https://en.wikipedia.org/wiki/Firefox" target="_blank" rel="noopener noreferrer">Firefox</a>) which depended on
-Java. (Sun Microsystems, the company that created the Java programming
-language, no longer exists, having been bought by Oracle Corporation in
-2009.)</p>
+at <a href="https://en.wikipedia.org/wiki/Netscape" target="_blank" rel="noopener noreferrer">
+Netscape</a> (the ancestor of <a href="https://www.mozilla.org/" 
+target="_blank" rel="noopener noreferrer">Mozilla</a>). At that time, Netscape 
+(a hero), in association with Sun MicroSystems (another hero), provided popular 
+server and client-oriented solutions (<a href="https://en.wikipedia.org/wiki/Netscape_Navigator" 
+target="_blank" rel="noopener noreferrer">Netscape Navigator</a>, ancestor of 
+<a href="https://en.wikipedia.org/wiki/Firefox" target="_blank" rel="noopener noreferrer">
+Firefox</a>) which depended on Java. (Sun Microsystems, the company that created 
+the Java programming language, no longer exists, having been bought by Oracle 
+Corporation in 2009.)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 87. snapshot; dotjs 2017 - brandan eich - history of js (64) ~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -2360,7 +2362,9 @@ language, no longer exists, having been bought by Oracle Corporation in
   title="dotJS 2017 - Brandan Eich - A Brief History of JavaScript"
   alt="dotJS 2017 - Brandan Eich - A Brief History of JavaScript." />
 </p>
-<h6 align="left"><a href="https://www.youtube.com/watch?v=aX3ZABCdC38" target="_blank" rel="noopener noreferrer">dotJS 2017 - Brandan Eich - A Brief History of JavaScript</a></h6>
+<h6 align="left"><a href="https://www.youtube.com/watch?v=aX3ZABCdC38" 
+target="_blank" rel="noopener noreferrer">dotJS 2017 - Brandan Eich - 
+A Brief History of JavaScript</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. sun microsystems logo (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
@@ -2393,7 +2397,7 @@ it with Internet Explorer 3 in 1996 -- It was a dud).</p>
   alt="Snapshot of a web page in Netscape Navigator 2." />
 </p>
 
-<p><b>Netscape Navigator 2 in 1996, with big buttons and plain HTML pages. 
+<p align="center"><b>Netscape Navigator 2 in 1996, with big buttons and plain HTML pages. 
 CSS did NOT exist at that time!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 90. snapshot of a web page in internet explorer (65) ~~~~~~~~~~~~~~~~~~~-->
@@ -2404,7 +2408,7 @@ CSS did NOT exist at that time!</b></p>
   alt="Snapshot of a web page in IE 3." />
 </p>
 
-<p><b>Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
+<p align="center"><b>Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
 did NOT exist at this time!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. ecma logo (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3930,20 +3934,20 @@ Demo (CodePen: Interactive Function Plotter)</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 Using CodePen (6:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 138.  (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 138. codepen:  (107) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image138.png?raw=true"
   style="width:50%"
   title=""
-  alt="." />
+  alt="CodePen: ." />
 </p>
 <!-- pages 108-112 to be filled from class -->
 
 <p>Hi!</p>
-<p>We're going to work from an example we already saw in the course: the math function plotter.
-In this version, you can see that we added some input fields for changing the color
-of the curve, for changing the range of the x values, changing interactively
-the functions we are going to plot, and so on.</p>
+<p>We're going to work from an example we already saw in the course: the math 
+function plotter. In this version, you can see that we added some input fields 
+for changing the color of the curve, for changing the range of the x values, 
+changing interactively the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4801,60 +4805,60 @@ for us, for explaining the data types.
 
 <p>Examples of integer and decimals:</p>
 
-```
+<pre>
 var n=1;
 undefined
-> typeof n;
+&gt; typeof n;
 "number"
 
-> n=1234;
+&gt; n=1234;
 1234
 
-> typeof n;
+&gt; typeof n;
 "number"
 
-> n=1.23;
+&gt; n=1.23;
 1.23
 
-> typeof n;
+&gt; typeof n;
 "number"
 
-> typeof 123;
+&gt; typeof 123;
 "number"
-```
+</pre>
 
 <ul>
   <li><b>Scientific notation</b>: 3.46e4, 5.3e+6, 5344000e-5</li>
 </ul>
 
-```
+<pre>
 3.46e4 equals 3.46 x 10&#94;4 equals 34600
-```
+</pre>
 
 <h4>Examples:</h4>
 
-```
-> 1e1;
+<pre>
+&gt; 1e1;
 10
 
-> 1e+1;
+&gt; 1e+1;
 10
 
-> 2e+3;
+&gt; 2e+3;
 2000
 
-> typeof 2e+3;
+&gt; typeof 2e+3;
 "number"
 
-> 2e-3;
+&gt; 2e-3;
 0.002
 
-> 123.456E-3;
+&gt; 123.456E-3;
 0.123456
 
-> typeof 2e-3;
+&gt; typeof 2e-3;
 "number"
-```
+</pre>
 
 <ul>
   <li><b>Octal</b>: 010</li>
@@ -5055,8 +5059,9 @@ the smallest signed integer is -2&#94;53.
 <b>Note</b>: Some arithmetic functions use only numbers with a 32-bit
 format. Larger numbers will be converted&hellip;
 
-For more information about floating point numbers, [follow this link at
-Wikipedia](https://en.wikipedia.org/wiki/IEEE_floating_point).
+For more information about floating point numbers, 
+<a href="https://en.wikipedia.org/wiki/IEEE_floating_point">
+follow this link at Wikipedia</a>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-5">1.5.5 JS operators and expressions</h3>
@@ -5256,7 +5261,7 @@ two.
 The operator (+) used with strings is called the concatenation operator,
 and it allows you to concatenate strings.
 
-```
+<pre>
 1.  //the operator (+)
 2.  var s1 = 'one';
 3.  var s2= 'two';
@@ -5265,12 +5270,12 @@ and it allows you to concatenate strings.
 6.  // returns 'onetwo'
 7.  typeof s;
 8.  //'string'
-```
+</pre>
 
-#### The shorthand assignment operator (+=)
+<h4>The shorthand assignment operator (+=)</h4>
 
-The shorthand assignment operator (+=) can also be used to concatenate
-strings.
+<p>The shorthand assignment operator (+=) can also be used to concatenate
+strings.</p>
 
 <pre>
 //the assignment operator (+=)
@@ -5297,42 +5302,41 @@ s3.concat(' World' , ' JavaScript' );
 //s1,s2 and s3 return 'Hello World JavaScript'
 </pre>
 
-#### Converting strings
+<h4>Converting strings</h4>
 
 A String number in an arithmetic expression is converted to Number,
 unless the formula is a pure addition.
 
-```
-> var s = '1'; s = 3 &ast; s; typeof s;
+<pre>
+&gt; var s = '1'; s = 3 &ast; s; typeof s;
 "number"
  
-> s;
+&gt; s;
 3
  
-> var s = '1'; s++; typeof s;
+&gt; var s = '1'; s++; typeof s;
 "number"
  
-> s;
+&gt; s;
 2
  
-> var s = "100"; typeof s;
+&gt; var s = "100"; typeof s;
 "string"
  
-> s = s &ast; 1;
+&gt; s = s &ast; 1;
 100
  
-> typeof s;
+&gt; typeof s;
 "number"
  
-> var d = "101 dalmatians";
+&gt; var d = "101 dalmatians";
 undefined
  
-> d &ast; 1;
+&gt; d &ast; 1;
 NaN
-```
+</pre>
 
-#### The above example is shown in the devtools console:
-
+<h4>The above example is shown in the devtools console:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5353,7 +5357,7 @@ There is trick for converting a Number into a String: we concatenate
 with an empty string, at the beginning of expression (type this in the
 devtools):
 
-```
+<pre>
 var n = 1;
 typeof n;
 // returns "number"
@@ -5361,32 +5365,32 @@ n = "" + n;
 // returns "1"
 typeof n;
 // returns "string"
-```
+</pre>
 
 #### Special character: the &quot;&#92;&#92;&quot;
 The &#92;&#92; is useful for &quot;escaping&quot; special characters. Here are a few
 examples:
 
-```
+<pre>
 var s = 'I don't know';
 var s = "I don't know"; // here the &#92; is useless
 var s = "I don't know";  // same result as previous line
 var s = '"Hello", he said.'; // ok, double quotes inside single one will be displayed
 var s = "&#92;"Hello&#92;", he said."; // double quotes inside double quotes need to be escaped
-```
+</pre>
 
 #### Escaping the escape! Use a double &quot;&#92;&quot;
 
-```
+<pre>
 var s = "1&#92;&#92;2"; s;
 // returns "1&#92;2"
-```
+</pre>
 
 #### Special characters starting with &quot;&#92;&quot;
 
 ##### &quot;&#92;n&quot; for &quot;next line&quot;:
 
-```
+<pre>
 var s = '&#92;n1&#92;n2&#92;n3&#92;n';
 s
 // returns "
@@ -5394,27 +5398,26 @@ s
 2
 3
 "
-```
+</pre>
 
 ##### &quot;&#92;r&quot; for &quot;carriage return&quot;:
 
-```
+<pre>
 var s = '1&#92;r2';
 var s = '1&#92;n&#92;r2';
 var s = '1&#92;r&#92;n2';
 // the three previous lines give :
 "1
 2"
-```
+</pre>
 
 <h5>&quot;&#92;t&quot; for &quot;insert a tabulation&quot;:</h5>
 
-```
+<pre>
 var s = "1&#92;t2"
 // s is equal to
 "1 2"
-```
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-9">1.5.9 Objects (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5435,7 +5438,7 @@ object. With the object var p = {givenName:&apos;Michel&apos;, familyName:
 &apos;Buffa&apos;}, we can access the properties the same way,
 with: p.givenName and p.familyName.
 
-#### Take a look at some common objects and properties!
+<h4>Take a look at some common objects and properties!</h4>
 
 Open your devtool console (F12 or ctrl-alt-i or cmd-alt-i on Mac), go to
 the console tab and type &quot;window&quot; followed by a &quot;.&quot;, normally you
@@ -5453,16 +5456,16 @@ type window.location, etc.
 We will study these objects later, but for the moment, just play with
 objects :-)
 
-```
-> window.innerHeight
+<pre>
+&gt; window.innerHeight
 217
-> window.innerWidth
+&gt; window.innerWidth
 1704
-> navigator.vendor
+&gt; navigator.vendor
 "Google Inc."
-```
+</pre>
 
-#### You can define your own objects
+<h4>You can define your own objects</h4>
 
 There are many ways to create your own JavaScript objects. For the
 moment, let&apos;s stick to the simplest one, &quot;singleton objects&quot;, and for
@@ -5503,16 +5506,16 @@ Accessing an object&apos;s properties: we use the operator &quot;.&quot;
 Arrays are a special datatype. You declare arrays using brackets, like
 this:
 
-```
-var daysOfWeek = [];
-```
+<pre>
+var daysOfWeek = &lbrack;&rbrack;;
+</pre>
 
 You can fill them at declaration time:
 
-```
-1.  var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-2.  var gradesInMaths = [12, 7, 14, 18, 9, 11];
-```
+<pre>
+1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
+2.  var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;
+</pre>
 
 #### Elements in an array can be accessed using <b>indexes</b>
 
@@ -5522,27 +5525,27 @@ Each element in an array has an index. <b>The first element&apos;s index is
 To access an element, you use the array variable and &quot;&lbrack;&quot; followed by
 the index value followed by &quot;&rbrack;&quot;, as shown in these examples:
 
-```
-1.  var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+<pre>
+1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
 2.  undefined
-3.  daysOfWeek[0]
+3.  daysOfWeek&lbrack;0&rbrack;
 4.  "Monday"
-5.  daysOfWeek[1]
+5.  daysOfWeek&lback;1&rbrack;
 6.  "Tuesday"
-7.  daysOfWeek[2]
+7.  daysOfWeek&lbrack;2&rbrack;
 8.  "Wednesday"
 9.  daysOfWeek.length
 10. 7
-```
+</pre>
 
 #### Use the length property of an array to know its length
 
-```
-1.  var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday', 'Saturday', 'Sunday'];
+<pre>
+1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday', 'Saturday', 'Sunday'&rbrack;;
 2.  undefined
 3.  daysOfWeek.<b>length</b>
 4.  <b>7</b>
-```
+</pre>
 
 Indeed, there are seven days in a week and the daysOfWeek array
 has seven elements, indexed from <b>0</b> to <b>daysOfWeek.length -1</b>
@@ -5556,70 +5559,68 @@ you learn how to iterate on an array&apos;s elements (Week 2).</b>
 If you want to add a new element at the end of an array, use the index
 equal to the length of the array
 
-```
-1.  <b>
-    var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 
-	  'Thursday', 'Friday';, 'Saturday'];</b>
+<pre>
+1.  <b>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
+	  'Thursday', 'Friday';, 'Saturday'&rbrack;;</b>
 2.  <b>undefined</b>
 3.  <b>daysOfWeek.length</b>
 4.  <b>6</b>
-5.  <b>daysOfWeek[6]</b>
+5.  <b>daysOfWeek&lbrack;6&rbrack;</b>
 6.  <b>undefined</b>
 7.  <b>// NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is
     0 // last 6-1 = 5</b>
-8.  > daysOfWeek<b>[6] = 'Sunday'</b>
+8.  &gt; daysOfWeek<b>&lbrack;6&rbrack; = 'Sunday'</b>
 9.  <b>"Sunday"</b>
 10. <b>daysOfWeek.length</b>
 11. <b>7</b>
 12. <b>// Sunday, the 7th day of week is at index 6 !</b>
-```
+</pre>
 
-#### Arrays are JavaScript objects!
+<h4>Arrays are JavaScript objects!</h4>
 
-Well, this is not so important for the moment, but look:
+<p>Well, this is not so important for the moment, but look:</p>
 
-```
-1.  > var a = [];
-2.  > <b>typeof a;</b>
+<pre>
+1.  &gt; var a = &lbrack;&rbrack;;
+2.  &gt; <b>typeof a;</b>
 3.  <b>"object"</b>
-4.  > var a = [1,2,3];
-5.  > a
-6.  [1, 2, 3]
-7.  > a[0]
+4.  &gt; var a = &lbrack;1,2,3&rbrack;;
+5.  &gt; a
+6.  &lbrack;1, 2, 3&rbrack;
+7.  &gt; a&lbrack;0&rbrack;
 8.  1
-9.  > a[1]
+9.  &gt; a&lbrack;1&rbrack;
 10. 2
-```
+</pre>
 
 And indeed, when you write daysOfWeek.length, you are using the array as
 an object, and you are using the length property of array objects.
 
-#### Add an element at the end of an array using the push method
+<h4>Add an element at the end of an array using the push method</h4>
 
 Since arrays are objects, we can do much more with them - in particular,
 they have more properties and more methods than the push method. You
 will learn more about this in a later lesson (Arrays part 2), but for
 the moment, let&apos;s focus on the most useful features&hellip;
 
-```
-1.  >
-    var daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+<pre>
+1.  &gt; var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'&rbrack;;
 2.  undefined
-3.  > daysOfWeek.length
+3.  &gt; daysOfWeek.length
 4.  6
-5.  <b>> daysOfWeek.push('Sunday');</b>
+5.  <b>daysOfWeek.push('Sunday');</b>
 6.  7
-7.  > daysOfWeek
-8.  ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-9.  > daysOfWeek.length
+7.  &gt; daysOfWeek
+8.  &lbrack;"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"&rbrack;
+9.  &gt; daysOfWeek.length
 10. 7
-```
+</pre>
 
-#### Arrays and Strings
+<h4>Arrays and Strings</h4>
 
-Strings are arrays of characters! 
+<p>Strings are arrays of characters!</p>
 
-Consequence:
+<h4>Consequence:</h4>
 
 1.  They are objects too! 
 2.  They have a length property,
@@ -5627,18 +5628,17 @@ Consequence:
 
 Examples:
 
-```
-1.  > var s = 'one';
-2.  > s[0]
+<pre>
+1.  &gt; var s = 'one';
+2.  &gt; s&lbrack;0&rbrack;
 3.  "o"
-4.  > s[1];
+4.  &gt; s&lbrack;1&rbrack;;
 5.  "n"
-6.  > s[2];
+6.  &gt; s&lbrack;2&rbrack;;
 7.  "e"
-8.  > s.length;
+8.  &gt; s.length;
 9.  3
-```
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-11">1.5.11 Functions (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5976,33 +5976,33 @@ use):
 4.  etc.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 167.  (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 167. contact list (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image167.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![](./images/image134.png){width="3.90625in" height="2.71875in"} -->
-Just click the button to build the HTML table dynamically. You should
-see this:
+  title="Contact list"
+  alt="Contact list." />
+</p>
+
+<p>Just click the button to build the HTML table dynamically. You should
+see this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 168. dynamic contact list; given name, family name (62) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image168.png?raw=true"
   style="width:25%"
-  title=""
-  alt="." />
+  title="Dynamic contact list; given name, family name"
+  alt="Dynamic contact list; given name, family name." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-4">1.6.4 Modifying CSS styles on the fly</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-We&apos;ve already seen some examples in which we modify the style of some
+<p>We&apos;ve already seen some examples in which we modify the style of some
 parts of a document using JavaScript. Here we show another example of
-what can be done.
+what can be done.</p>
 
-#### Examples
+<h4>Examples</h4>
 
-#### Example #1: change common properties (color, border, background color)
+<h4>Example #1: change common properties (color, border, background color)</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6010,10 +6010,8 @@ what can be done.
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image135.png){width="6.5in"
-height="2.2583333333333333in"} -->
 
-#### Example #2: change the background image property using an external image
+<h4>Example #2: change the background image property using an external image</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6021,10 +6019,8 @@ height="2.2583333333333333in"} -->
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image136.png){width="6.5in"
-height="2.354861111111111in"} -->
 
-#### Example #3: Use the background image as a sprite sheet - animate Mario!
+<h4>Example #3: Use the background image as a sprite sheet - animate Mario!</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6032,41 +6028,36 @@ height="2.354861111111111in"} -->
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image137.png){width="6.5in" height="5.2125in"} -->
 
-Notice how the CSS properties change when we use them from JavaScript:
+<p>Notice how the CSS properties change when we use them from JavaScript:</p>
 
--   background-color (CSS) becomes backgroundColor (JS)
+<ul>
+  <li>background-color (CSS) becomes backgroundColor (JS)</li>
+  <li>margin-left (CSS) becomes marginLeft (JS)</li>
+  <li>etc.</li>
+</ul>
 
--   margin-left (CSS) becomes marginLeft (JS)
-
--   etc.
-
-And the positions, widths and heights are always string values. In our
+<p>And the positions, widths and heights are always string values. In our
 example we used pixel units and a percentage, so we need to add the
 &quot;px&quot; and &quot;%&quot; character(s) when we manipulate these properties from
-JavaScript.
-
+JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-5">1.6.5 Adding interactivity with events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-With JavaScript, you can react to user interactions (keyboard, mouse,
+<p>With JavaScript, you can react to user interactions (keyboard, mouse,
 gamepad), to changes in the lifecycle of your document (page has just
 loaded or resized, screen has been rotated on a mobile device), or to be
 notified when a long process has been completed (loading a large image
-or sound from the network).
-
-We&apos;ve already seen how we can make a &lt;button&gt; react to a mouse click
-with &lt;button onclick=&quot;&hellip;&quot;&gt;Click me&lt;/button&gt;
-
-Below, we outline some extra examples. In the next course module, we
+or sound from the network).</p>
+<p>We&apos;ve already seen how we can make a &lt;button&gt; react to a mouse click
+with &lt;button onclick=&quot;&hellip;&quot;&gt;Click me&lt;/button&gt;</p>
+<p>Below, we outline some extra examples. In the next course module, we
 will go into detail about events, and in the following modules, we will
-study some of the most useful events in even greater depth.
+study some of the most useful events in even greater depth.</p>
 
-### Examples
+<h4>Examples</h4>
 
-#### Example #1: use input events on an HTML input field
+<h4>Example #1: use input events on an HTML input field</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6077,20 +6068,19 @@ study some of the most useful events in even greater depth.
 <!-- ![](./images/image138.png){width="6.5in"
 height="2.1347222222222224in"} -->
 
-#### Example #2: listen to mouse events in an HTML5 canvas
+<h4>Example #2: listen to mouse events in an HTML5 canvas</h4>
 
-The HTML5 canvas is useful for drawing and animating at 60
-frames/second. Very detailed tutorials are provided in the W3C [HTML5
-Coding Essentials and Best
-Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) course,
-while the W3Cx [HTML5 Apps and
-Games](https://www.edx.org/course/html5-apps-and-games) MOOC addresses
-how to write video games using the canvas 2D API.
+<p>The HTML5 canvas is useful for drawing and animating at 60
+frames/second. Very detailed tutorials are provided in the W3C 
+<a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">
+HTML5 Coding Essentials and Best Practices</a> course, while the W3Cx 
+<a href="https://www.edx.org/course/html5-apps-and-games">HTML5 Apps and Games</a> 
+MOOC addresses how to write video games using the canvas 2D API.</p>
 
-In this JS introductory course, we use HTML5 canvas to draw curves, to
+<p>In this JS introductory course, we use HTML5 canvas to draw curves, to
 make a small game, etc. Small and diverse examples for illustrating some
 JavaScript data structures such as Arrays or Objects are going to be
-presented.
+presented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6098,8 +6088,6 @@ presented.
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image139.png){width="6.5in" height="4.117361111111111in"}Example #3: a paint program - click and drag mouse, then release
--->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6108,9 +6096,8 @@ presented.
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image140.png){width="6.5in" height="5.08125in"} -->
 
-#### Example #4: move a monster in an HTML5 canvas using left and right arrow keys {#example-4-move-a-monster-in-an-html5-canvas-using-left-and-right-arrow-keys .unnumbered}
+<h4>Example #4: move a monster in an HTML5 canvas using left and right arrow keys</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 171.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6118,43 +6105,41 @@ presented.
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image141.png){width="6.5in"
-height="4.159027777777778in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-6">1.6.6 Using built-in HTML5 APIs</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Your browser comes with a lot of standard W3C APIs. By standard, we mean
+<p>Your browser comes with a lot of standard W3C APIs. By standard, we mean
 &quot;parts of HTML5&quot; or real Web standards that will still work in 10
 years. In contrast to &quot;industry standards&quot;, W3C standards are meant to
 be supported by browsers for years to come. These standards are a joint
 effort by the industry, the community, and W3C to develop stable,
-reliable standards.
+reliable standards.</p>
 
-The following example uses some of these APIs, simply to &quot;show the
+<p>The following example uses some of these APIs, simply to &quot;show the
 possibilities&quot;. Others will be discussed later on in the course, or in
-other W3Cx courses.
+other W3Cx courses.</p>
 
-### Examples
+<h4>Examples</h4>
 
-#### Example #1: using the WebCam
+<h4>Example #1: using the WebCam</h4>
 
-<b>CLICK ON THE TOP RIGHT OF THE BELOW WINDOW (on the &quot;Codepen&quot; logo)
+<p><b>CLICK ON THE TOP RIGHT OF THE BELOW WINDOW (on the &quot;Codepen&quot; logo)
 to see this example running</b>. Due to security restrictions, the webcam
-image cannot be seen in this embedded example anymore.
+image cannot be seen in this embedded example anymore.</p>
 
-Look at the JavaScript tab! The [W3Cx HTML5 Coding Essentials and Best
-Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) course
-provides many other examples that use the webcam.
+<p>Look at the JavaScript tab! The 
+<a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">
+W3Cx HTML5 Coding Essentials and Best Practices</a> course provides many other 
+examples that use the webcam.</p>
 
-If you want to spend some time having fun with the WebCam, don&apos;t forget
-to try[ the WebCam Toy](https://webcamtoy.com/) demo!
+<p>If you want to spend some time having fun with the WebCam, don&apos;t forget
+to try <a href="https://webcamtoy.com/">the WebCam Toy</a> demo!</p>
 
-#### Example #2: using the WebAudio API to build a small synthetizer {#example-2-using-the-webaudio-api-to-build-a-small-synthetizer .unnumbered}
+<h4>Example #2: using the WebAudio API to build a small synthetizer</h4>
 
-Click on the piano keyboard. Use the different buttons, sliders, etc.
-This example uses the WebAudio API in order to synthesize sounds.
+<p>Click on the piano keyboard. Use the different buttons, sliders, etc.
+This example uses the WebAudio API in order to synthesize sounds.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
