@@ -3323,9 +3323,9 @@ element of the document, and the "innerHTML" property corresponds to its HTML
 content. By doing this, we are adding a bold element JavaScript code executing 
 the value of the variable x=2 and we display the value of the x variable in bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 120. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 120b. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image120.png?raw=true"
+<img src="./images/image120b.png?raw=true"
   style="width:65%"
   title="Result of execution Example 1; JavaScript in the HTML file"
   alt="Result of execution Example 1; JavaScript in the HTML file." />
@@ -3424,12 +3424,12 @@ Typically:
 
 <h4>Here is this first example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 121. example: js in the .html file (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 120. example 1: js in the .html file (92) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image121.png?raw=true"
+<img src="./images/image120.png?raw=true"
   style="width:65%"
-  title="Example: JS in the .html file"
-  alt="Example: JS in the .html file." />
+  title="Example 1: JS in the .html file"
+  alt="Example 1: JS in the .html file." />
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY" 
 target="_blank" rel="noopener noreferrer">CodePen: JS in HTML</a></h6>
@@ -3604,18 +3604,18 @@ made by others is really common when working on JavaScript projects.</p>
 <p>Here is a running example that uses the paperJS library, included using
 an external URL:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. paperjs library example (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 124. example 4: use an external js file (99) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image124.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Example 4: use an external JS file"
+  alt="Example 4: use an external JS file." />
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VPmNWg" target="_blank" rel="noopener noreferrer">CodePen: Example paperJS</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 125. how to debug javascript (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 125. how to debug javascript (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image125.png?raw=true"
   style="width:65%"
