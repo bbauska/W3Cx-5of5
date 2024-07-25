@@ -3305,7 +3305,7 @@ declared using the "var" keyword. There are others possibilities we will see lat
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 119. example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image118.png?raw=true"
+<img src="./images/image119.png?raw=true"
   style="width:65%"
   title="Example 1; JavaScript in the HTML file"
   alt="Example 1; JavaScript in the HTML file." />
@@ -3318,9 +3318,9 @@ element of the document, and the "innerHTML" property corresponds to its HTML
 content. By doing this, we are adding a bold element JavaScript code executing 
 the value of the variable x=2 and we display the value of the x variable in bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 120. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 119. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image118.png?raw=true"
+<img src="./images/image119.png?raw=true"
   style="width:65%"
   title="Result of execution Example 1; JavaScript in the HTML file"
   alt="Result of execution Example 1; JavaScript in the HTML file." />
@@ -3383,7 +3383,6 @@ And once you included this JavaScript file... a bit the same way we used the ext
 library for plotting functions... then you can use some functionalities that come 
 from the "paper.js" library. You need to read the documentation to learn how to use 
 it, but here is an example: a set of squares, animated squares, that follow the mouse.
-<!------------------------------------------------------------------------------------------------>
 
 <!-- <video for 1.3.3 above> -->
 <h4>JavaScript code can be located in different places</h4>
@@ -3421,9 +3420,9 @@ Typically:
 
 <h4>Here is this first example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 119. example: js in the .html file (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 120. example: js in the .html file (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image119.png?raw=true"
+<img src="./images/image120.png?raw=true"
   style="width:65%"
   title="Example: JS in the .html file"
   alt="Example: JS in the .html file." />
@@ -3458,9 +3457,9 @@ a button is clicked:</p>
 
 <h4>Here is this second example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 120. example 2: js in the .html file, in head (94) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 121. example 2: js in the .html file, in head (94) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image120.png?raw=true"
+<img src="./images/image121.png?raw=true"
   style="width:65%"
   title="Example 2: JS in the .html file, but this time in head"
   alt="Example 2: JS in the .html file, but this time in head." />
@@ -3524,9 +3523,9 @@ A typical example:
 It is good practice to locate CSS files in a css subfolder, and
 JavaScript files in a js subfolder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 121. a typical html/css/js project folder structure (95) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 122. a typical html/css/js project folder structure (95) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image121.jpeg?raw=true"
+<img src="./images/image122.jpeg?raw=true"
   style="width:50%"
   title="A typical HTML/CSS/JS project folder structure"
   alt="A typical HTML/CSS/JS project folder structure." />
@@ -3534,9 +3533,9 @@ JavaScript files in a js subfolder.
 
 <p>In this example, we have just one CSS file and one JavaScript file:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 122. a typical html/css/js project folder, folder expanded (96) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 123. a typical html/css/js project folder, folder expanded (96) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122.jpeg?raw=true"
+<img src="./images/image123.jpeg?raw=true"
   style="width:50%"
   title="A typical HTML/CSS/JS project folder, folder expanded"
   alt="A typical HTML/CSS/JS project folder, folder expanded." />
@@ -3629,23 +3628,23 @@ the most is the console. A console loads problems or errors.
 So, if I can clear the messages from here and this is the place where I will see
 the different error messages I've got in my code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 126. jsbin example (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 126. jsbin example test console (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image126.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="JSBin example; test console"
+  alt="JSBin example; test console." />
 </p>
 
 <p>Here is an example in JsBin. So, you can click here to see the console or
 it’s the same thing you can get here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 127. console.log 'hello' (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 127. console.log 'hello' (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image127.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="console.log 'hello'"
+  alt="console.log 'hello'." />
 </p>
 
 <p>If I type something here: console.log("hello"). So this is the instruction
@@ -3657,21 +3656,21 @@ in console: "hello".</p>
 here I've got a script that will display, as soon the page is loaded,
 "Some JavaScript code has been executed".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 128.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 128. jsbin; console.log error check (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image128.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="JSBin; console.log error check"
+  alt="JSBin; console.log error check." />
 </p>
 <p>If I run the code, here, it displays "Some JavaScript code has been executed".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 129.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 129. jsbin; error check on console.log (98) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image129.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="JSBin; error check on console.log"
+  alt="JSBin; error check on console.log." />
 
 <p>If there is a mistake, if I make an error here,
 for example, I write console with two "l". I can see, in red, some messages:
@@ -3682,12 +3681,12 @@ debug your code because you are debugging at the same time the code of the tool 
 is written in JavaScript too. So each each these tools comes with a way to
 run your code in what we decode ‘standalone mode’ or ‘debug mode’.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 130.  (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 130. js debugging using the devtools console (99) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image130.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="JavaScript debugging using the devtools console"
+  alt="JavaScript debugging using the devtools console." />
 
 <p>With JsBin, I click on the small black arrow, here.
 And if I open the built-in browser console, I can see the error message.</p>
@@ -3696,25 +3695,25 @@ And if I open the built-in browser console, I can see the error message.</p>
 made a mistake display, so, as an error. So here, I can see that console
 needs only one "l", I can fix that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 131.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 131. jsbin; error check in console (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image131.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="JSBin; Error check in console"
+  alt="JSBin; Error check in console." />
 
-Another interested thing is that when you use "console.log", you can use it to display
+<p>Another interested thing is that when you use "console.log", you can use it to display
 some variable values. So, if I declare a variable named x with a value of 10,
 I can use «console.log" to display the value of x, using the "+" operator.
 So in that case, if I run my code it will help me by displaying the value
-of different variables when “console.log” is executed.
+of different variables when “console.log” is executed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 132.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. codepen; debug mode (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image132.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen; Debug Mode"
+  alt="CodePen; Debug Mode." />
 
 With CodePen, another tool we use a lot in the course, you've got the debug mode.
 Just save your work and click on "change view mode" we’ve got "debug mode" here.
@@ -3935,12 +3934,12 @@ Demo (CodePen: Interactive Function Plotter)</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 Using CodePen (6:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 138. codepen:  (107) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 138. codepen: interactive function plotter (107) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image138.png?raw=true"
   style="width:50%"
-  title=""
-  alt="CodePen: ." />
+  title="CodePen: Interactive Function Plotter"
+  alt="CodePen: Interactive Function Plotter." />
 </p>
 <!-- pages 108-112 to be filled from class -->
 
@@ -3950,12 +3949,12 @@ function plotter. In this version, you can see that we added some input fields
 for changing the color of the curve, for changing the range of the x values, 
 changing interactively the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 139. codepen; plotting functions with d3js.org (107) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image139.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen; PLotting Functions with d3js.org"
+  alt="CodePen; PLotting Functions with d3js.org." />
 </p>
 
 <p>Let's start from the very basic example we saw earlier on the course.
