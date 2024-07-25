@@ -1296,11 +1296,12 @@ you will open a new tab with your browser and you go to <a href="http://jsbin.co
 <!--~~~~~~~~~~~~~~~~~~~~ 37/38. jsbin create my home page, who am i? (32) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image037.png?raw=true"
-  style="width:35%"
+  style="width:45%"
   title="JSBin live web site, My Home Page"
   alt="JSBin live web site, My Home Page." />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./images/image038.png?raw=true"
-  style="width:35%"
+  style="width:45%"
   title="JSBin, My Home Page and Who Am I?"
   alt="JSBin, My Home Page and Who Am I?" />
 </p>
@@ -2079,11 +2080,12 @@ make a project with HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~ 68/69. example source code: my home page (58) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image068.png?raw=true"
-  style="width:35%"
+  style="width:45%"
   title="Example Web Page: My Home Page"
   alt="Example Web Page: My Home Page." />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./images/image069.png?raw=true"
-  style="width:35%"
+  style="width:45%"
   title="Example source code: My Home Page"
   alt="Example source code: My Home Page." />
 </p>
@@ -5348,14 +5350,12 @@ type window.location, etc.</p>
 <p>We will study these objects later, but for the moment, just play with
 objects :-)</p>
 
-<pre>
-&gt; window.innerHeight
+<pre>&gt; window.innerHeight
 217
 &gt; window.innerWidth
 1704
 &gt; navigator.vendor
-"Google Inc."
-</pre>
+"Google Inc."</pre>
 
 <h4>You can define your own objects</h4>
 
@@ -5394,16 +5394,12 @@ Accessing an object&apos;s properties: we use the operator &quot;.&quot;
 <p>Arrays are a special datatype. You declare arrays using brackets, like
 this:</p>
 
-<pre>
-var daysOfWeek = &lbrack;&rbrack;;
-</pre>
+<pre>var daysOfWeek = &lbrack;&rbrack;;</pre>
 
 <p>You can fill them at declaration time:</p>
 
-<pre>
-1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
-2.  var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;
-</pre>
+<pre>1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
+2.  var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;</pre>
 
 <h4>Elements in an array can be accessed using <b>indexes</b>></h4>
 
@@ -5413,8 +5409,7 @@ var daysOfWeek = &lbrack;&rbrack;;
 <p>To access an element, you use the array variable and &quot;&lbrack;&quot; followed by
 the index value followed by &quot;&rbrack;&quot;, as shown in these examples:</p>
 
-<pre>
-1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
+<pre>1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
 2.  undefined
 3.  daysOfWeek&lbrack;0&rbrack;
 4.  "Monday"
@@ -5423,8 +5418,7 @@ the index value followed by &quot;&rbrack;&quot;, as shown in these examples:<
 7.  daysOfWeek&lbrack;2&rbrack;
 8.  "Wednesday"
 9.  daysOfWeek.length
-10. 7
-</pre>
+10. 7</pre>
 
 #### Use the length property of an array to know its length
 
@@ -5447,8 +5441,7 @@ you learn how to iterate on an array&apos;s elements (Week 2).</b>
 If you want to add a new element at the end of an array, use the index
 equal to the length of the array
 
-<pre>
-1.  <b>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
+<pre>1.  <b>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
 	  'Thursday', 'Friday';, 'Saturday'&rbrack;;</b>
 2.  <b>undefined</b>
 3.  <b>daysOfWeek.length</b>
@@ -5461,15 +5454,13 @@ equal to the length of the array
 9.  <b>"Sunday"</b>
 10. <b>daysOfWeek.length</b>
 11. <b>7</b>
-12. <b>// Sunday, the 7th day of week is at index 6 !</b>
-</pre>
+12. <b>// Sunday, the 7th day of week is at index 6 !</b></pre>
 
 <h4>Arrays are JavaScript objects!</h4>
 
 <p>Well, this is not so important for the moment, but look:</p>
 
-<pre>
-1.  &gt; var a = &lbrack;&rbrack;;
+<pre>1.  &gt; var a = &lbrack;&rbrack;;
 2.  &gt; <b>typeof a;</b>
 3.  <b>"object"</b>
 4.  &gt; var a = &lbrack;1,2,3&rbrack;;
@@ -5478,8 +5469,7 @@ equal to the length of the array
 7.  &gt; a&lbrack;0&rbrack;
 8.  1
 9.  &gt; a&lbrack;1&rbrack;
-10. 2
-</pre>
+10. 2</pre>
 
 And indeed, when you write daysOfWeek.length, you are using the array as
 an object, and you are using the length property of array objects.
@@ -5491,8 +5481,7 @@ they have more properties and more methods than the push method. You
 will learn more about this in a later lesson (Arrays part 2), but for
 the moment, let&apos;s focus on the most useful features&hellip;
 
-<pre>
-1.  &gt; var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'&rbrack;;
+<pre>1.  &gt; var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'&rbrack;;
 2.  undefined
 3.  &gt; daysOfWeek.length
 4.  6
@@ -5501,8 +5490,7 @@ the moment, let&apos;s focus on the most useful features&hellip;
 7.  &gt; daysOfWeek
 8.  &lbrack;"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"&rbrack;
 9.  &gt; daysOfWeek.length
-10. 7
-</pre>
+10. 7</pre>
 
 <h4>Arrays and Strings</h4>
 
@@ -5516,8 +5504,7 @@ the moment, let&apos;s focus on the most useful features&hellip;
 
 Examples:
 
-<pre>
-1.  &gt; var s = 'one';
+<pre>1.  &gt; var s = 'one';
 2.  &gt; s&lbrack;0&rbrack;
 3.  "o"
 4.  &gt; s&lbrack;1&rbrack;;
@@ -5525,8 +5512,7 @@ Examples:
 6.  &gt; s&lbrack;2&rbrack;;
 7.  "e"
 8.  &gt; s.length;
-9.  3
-</pre>
+9.  3</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-11">1.5.11 Functions (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5554,71 +5540,51 @@ Functions always return a value:
 
 #### Calling a function
 
-```
+<pre>
 1.  var result = sum(1, 2);
 2.  //result is equal to 3
 3.  console.log(result)
-4.  > 3
-```
+4.  &gt; 3
+</pre>
 
-#### Function parameters
+<h4>Function parameters</h4>
 
-If parameters are omitted during the call, JavaScript gives them the
-value undefined:
+<p>If parameters are omitted during the call, JavaScript gives them the
+value undefined:</p>
 
-```
-1.  > sum(1)
-2.  NaN
-```
+<pre>1.  &gt; sum(1)
+2.  NaN</pre>
 
-#### Functions with a variable number of parameters
+<h4>Functions with a variable number of parameters</h4>
 
 An array named &quot;arguments&quot; is created automatically in each function,
 it contains all the call parameters of the function:
 
-```
-1.  function f() {
-```{=html}
-
-```
-<!-- -->
-```
-
-```
-1.     return arguments;
-```
-
-```{=html}
-<!-- -->
-```
-
-```
+<pre>1.  function f() {
+1.    return arguments;
 1.  }
 2.  &hellip;
 3.  f();
-4.  // returns []
+4.  // returns &lbrack;&rbrack;
 5.  &hellip;
 6.  f( 1, 2, 3, 4, true, ';Michel Buffa';);
-7.  // returns [1, 2, 3, 4, true, "Michel Buffa"]
-```
+7.  // returns &lbrack;1, 2, 3, 4, true, "Michel Buffa"&rbrack;</pre>
 
-#### Example of the sum with a variable number of arguments
+<h4>Example of the sum with a variable number of arguments</h4>
 
-```
-1.  function newSum() {
+<pre>1.  function newSum() {
 2.      var i, res = 0;
 3.      var numberOfParameters = arguments.length;
-4.      for (i = 0; i < numberOfParameters; i++) {
-5.         res += arguments[i];
+4.      for (i = 0; i &lt; numberOfParameters; i++) {
+5.         res += arguments&lbrack;i&rbrack;;
 6.      }
 7.      return res;
 8.  }
 9.  &hellip;
-10. >>> newSum(1, 1, 1);
+10. &gt;&gt;&gt; newSum(1, 1, 1);
 11. 3
-12. >>> newSum(1, 2, 3, 4);
-13. 10
-```
+12. &gt;&gt;&gt; newSum(1, 2, 3, 4);
+13. 10</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-1">1.6.1 Introduction</h3>
@@ -5646,19 +5612,18 @@ happens when you click on it.
 It can be very difficult to spot your error without using the devtool
 console and console.log(&hellip;)!
 
-#### Example
+<h4>Example</h4>
 
 Let&apos;s check that some parts of the code you wrote are executed
 correctly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 156. button click me to display the value of the x var (153) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image156.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![](./images/image124.png){width="6.5in"
-height="2.748611111111111in"} -->
+  title="Button click me to display the value of the x variable"
+  alt="Button click me to display the value of the x variable." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/YNbvgP">CodePen</a></p>
 
 Normally, when the button is clicked, we should call
 the addXToThePage() function, which in turn should display the value of
@@ -5668,7 +5633,7 @@ Let&apos;s check if the function is really executed. We need to add
 a console.log(&quot;In the addXToThePage function&quot;); as the first
 instruction of the function:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image157.png?raw=true"
   style="width:50%"
