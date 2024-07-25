@@ -102,7 +102,7 @@ output:
 <a href="https://github.com/bbauska/W3Cx-5of5-Introduction-JavaScript.git" 
 target="_blank" rel="noopener noreferrer">Introduction JavaScript - git</a>
 
-<h2 id="outline">Course Outline:</h2>
+<h2 id="cha-1">a1. Course Outline:</h2>
 
 <h3>js.0x-w3cx - W3Cx-5of5-JS.0x JavaScript Introduction</h3>
 
@@ -289,7 +289,7 @@ free, open source, multi-platform editor by Microsoft.</p>
     source code editor for mac with support for Web languages.</li>
 </ul>
 
-<h4>Online editors/IDEs</h4>
+<h4 id="cha-3">a3. Online editors/IDEs</h4>
 
 <p>To help you practice for the duration of the course, you will use the following tools:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -585,7 +585,7 @@ recommended to first ensure that the documents checked use valid 
 <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">HTML Markup</a> and 
 <a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener noreferrer">CSS</a>.</p>
 
-<h4>Internationalization Checker</h4>
+<h4 id="cha-5">Internationalization Checker</h4>
 
 <p>The <a href="https://validator.w3.org/i18n-checker/" target="_blank" rel="noopener noreferrer">W3C Internationalization Checker</a> 
 provides information about various internationalization-related aspects of your page,
@@ -646,7 +646,7 @@ If you&apos;re looking to an easy way to dive into this standardization processe
 issues in the W3C GitHub repositories have been marked as &quot;good first issue&quot;</a> and
 see if you find anything where you think you would be ready to help.</p>
 
-<h4>First steps in Web accessibility</h4>
+<h4 id="cha-4">a4. First steps in Web accessibility</h4>
 
 <p>As steward of global Web standards, W3C&apos;s mission is to safeguard the
 openness, accessibility, and freedom of the World Wide Web from a
@@ -785,7 +785,7 @@ standards. The next video, created in partnership with Microsoft,
 explains why standards are important to maintain a royalty-free, Open
 Web Platform, as well as to help shape the Web of the future.</p>
 
-<h4 id="chb-04">Why accessibility is important</h4>
+<h4 id="cha-4">a4. Why accessibility is important</h4>
 
 <p>The power of the Web is in its universality. Access by everyone
 regardless of disability is an essential aspect.
@@ -899,7 +899,7 @@ description of the link target.</p>
 &lt;/a&gt;
 </pre>
 
-<h4 id="chb-05">b5. Why internationalization is important</h4>
+<h4 id="cha-5">a5. Why internationalization is important</h4>
 
 <p>Access to the Web for all has been a fundamental concern and goal of the
 W3C since the beginning. It is easy to overlook the needs of people from
@@ -1115,7 +1115,7 @@ discover how JavaScript is useful.</p>
 this course! This is an introductory course designed to help
 you understand the basic concepts of the language.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-1">1.2.1 HTML is for structure</h3>
+<h3 id="ch1-2-0">1.2.0 HTML is for structure</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The &quot;<b>H</b>yper <b>T</b>ext&quot; part: links!</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2440,7 +2440,7 @@ time, the stable version supported by all major browsers deployed on
 computers and smartphones was <b>EcmaScript version 5 from 2010</b>, but in
 2015, a new version known first as EcmaScript 6 or ES 2015 came out with
 lots of new features (classes, etc.). Since then, every year a new
-version is published, with some adjustments/novelties.  The latest
+version is published, with some adjustments/novelties. The latest
 official version is ES2021.<br>
 <b>Back in 2015, ES2015 was a pseudonym for the 6th version of the
 JavaScript</b> programming language to be approved by ECMA International,
@@ -2477,7 +2477,8 @@ it takes time for browser vendors to follow the standards!</p>
 <p>There is no easy-to-read table of current browser global support, but
 caniuse.com can be used to check feature by feature which browsers
 support them. For example, 
-<a href="https://caniuse.com/mdn-javascript_classes_private_class_fields" target="_blank" rel="noopener noreferrer">
+<a href="https://caniuse.com/mdn-javascript_classes_private_class_fields" 
+target="_blank" rel="noopener noreferrer">
 this link shows the support for the new &quot;javascript private class 
 fields&quot; feature</a>.</p>
 
@@ -2555,7 +2556,7 @@ before, runtime. The most popular JavaScript engines are:</p>
 <p>Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.</p>
 
-<h4>Suggested topics</h4>
+<h4 id="cha-2">a2. Suggested topics</h4>
 
 <ul>
   <li>Did you know about JavaScript history? Do you have stories to share?</li>
@@ -3153,7 +3154,8 @@ course material.</p>
   title="Change the HTML main title using JS"
   alt="Change the HTML main title using JS." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE" target="_blank" rel="noopener noreferrer">CodePen: Change HTML using JS</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE" 
+target="_blank" rel="noopener noreferrer">CodePen: Change HTML using JS</a></h6>
  
 <p>This first example used <b>the selector API</b> for selecting a particular
 element in the document (the main title) and <b><i>the DOM API</i></b> for
@@ -3200,7 +3202,8 @@ adding a parenthesis after its name, followed by a semi colon):</p>
   title="Example of interactivity between javascript &amp; html"
   alt="Example of interactivity between javascript &amp; html." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN" target="_blank" rel="noopener noreferrer">
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN" 
+target="_blank" rel="noopener noreferrer">
 CodePen: Interactivity between JS &amp; HTML</a></h6>
 
 <p>The second example is nearly the same except that we changed the name of
@@ -3304,13 +3307,14 @@ the value of a variable. A variable is a location in the memory of the computer
 where we are going to store some values. And the variable has a name and it's 
 declared using the "var" keyword. There are others possibilities we will see later.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 119. example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 119. example 1; js in the html file (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image119.png?raw=true"
   style="width:65%"
   title="Example 1; JavaScript in the HTML file"
   alt="Example 1; JavaScript in the HTML file." />
 </p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY" target="_blank" rel="noopener noreferrer">CodePen: Example 1: JS in the .html file</a></h6>
 
 <p>Here we've got the variable called "x" that has the value of 2. And, we use 
 some strange instruction "document.body.innerHTML" for adding to the body of the 
@@ -3319,14 +3323,13 @@ element of the document, and the "innerHTML" property corresponds to its HTML
 content. By doing this, we are adding a bold element JavaScript code executing 
 the value of the variable x=2 and we display the value of the x variable in bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 119. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 120. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image119.png?raw=true"
+<img src="./images/image120.png?raw=true"
   style="width:65%"
   title="Result of execution Example 1; JavaScript in the HTML file"
   alt="Result of execution Example 1; JavaScript in the HTML file." />
 </p>
-
 
 <p>This is the result of the execution of this code. And this code is not in a 
 function, so it's executed as soon as the page is rendered. When the browser
@@ -3421,14 +3424,15 @@ Typically:
 
 <h4>Here is this first example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 120. example: js in the .html file (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 121. example: js in the .html file (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image120.png?raw=true"
+<img src="./images/image121.png?raw=true"
   style="width:65%"
   title="Example: JS in the .html file"
   alt="Example: JS in the .html file." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY" target="_blank" rel="noopener noreferrer">CodePen: JS in HTML</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY" 
+target="_blank" rel="noopener noreferrer">CodePen: JS in HTML</a></h6>
 
 <p>Old JavaScript examples may use a type attribute:
 &lt;script <b>type=&quot;text/javascript&quot;</b>&gt;.
@@ -3458,7 +3462,7 @@ a button is clicked:</p>
 
 <h4>Here is this second example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 121. example 2: js in the .html file, in head (94) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 121. example 2: js in the .html file, in head (93) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image121.png?raw=true"
   style="width:65%"
@@ -4046,9 +4050,9 @@ plotter. In this version, you can see that we added some input fields for changi
 the color of the curve, for changing the range of the x values, changing interactively 
 the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 140.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image139.png?raw=true"
+<img src="./images/image140.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4056,9 +4060,9 @@ the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-3">1.4.3 Using Sublime Text (4:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 1xx.  (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image138.png?raw=true"
+<img src="./images/image141.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4068,9 +4072,9 @@ files and a regular source code editor, and working on your local hard
 disk. I&apos;m going first to create a directory for storing the files on my
 desktop. &quot;Math plotter app&quot; and I will work inside.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 1xx.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image138.png?raw=true"
+<img src="./images/image142.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
