@@ -2533,8 +2533,10 @@ means that the code is converted into a machine language at, or just
 before, runtime. The most popular JavaScript engines are:</p>
 
 <ul>
-  <li><a href="https://spidermonkey.dev/" target="_blank" rel="noopener noreferrer">SpiderMonkey</a> (included in Mozilla Firefox)</li>
-  <li><a href="https://developer.apple.com/reference/javascriptcore" target="_blank" rel="noopener noreferrer">
+  <li><a href="https://spidermonkey.dev/" target="_blank" rel="noopener noreferrer">
+    SpiderMonkey</a> (included in Mozilla Firefox)</li>
+  <li><a href="https://developer.apple.com/reference/javascriptcore" 
+    target="_blank" rel="noopener noreferrer">
     JavaScriptCore</a> (included in Apple Safari)</li>
   <li><a href="https://developers.google.com/v8/" target="_blank" rel="noopener noreferrer">
     Chrome V8</a> (included in Google Chrome, in the Node.js server)</li>
@@ -2543,7 +2545,8 @@ before, runtime. The most popular JavaScript engines are:</p>
 <h4>External resources</h4>
 
 <ul>
-  <li><a href="https://blog.risingstack.com/history-of-javascript-on-a-timeline/" target="_blank" rel="noopener noreferrer">
+  <li><a href="https://blog.risingstack.com/history-of-javascript-on-a-timeline/" 
+    target="_blank" rel="noopener noreferrer">
     History of JavaScript on a timeline</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2581,7 +2584,8 @@ post your comments/observations/questions or share your creations.</p>
 </p>
 
 <p>What it the best method for learning Web Development?</p>
-<p>Take a look at one of my websites; <a href="https://Web-Programming.bauska.org" target="_blank" rel="noopener noreferrer">
+<p>Take a look at one of my websites; <a href="https://Web-Programming.bauska.org" 
+target="_blank" rel="noopener noreferrer">
 'Web Programming with JavaScript and Python'</a>.</p>
 <p>Now, what it the best method for learning JavaScript?</p>
 <p>When you are a complete beginner, I will recommend to look at examples, tweak 
@@ -2617,24 +2621,24 @@ zoom out, and you can look at the HTML code.</p>
 <p align="center" width="100%">
 <img src="./images/image096.png?raw=true"
   style="width:50%"
-  title="Example functionPlot; myFunction of sin(x) in red with x axis of 2 times pi and y axis of minus 1 to 1"
-  alt="Example functionPlot; myFunction of sin(x) in red with x axis of 2 times pi and y axis of minus 1 to 1." />
+  title="Example functionPlot; myFunction of sin(x) in red with x axis of 2 times 
+    pi and y axis of minus 1 to 1"
+  alt="Example functionPlot; myFunction of sin(x) in red with x axis of 2 times 
+    pi and y axis of minus 1 to 1." />
 </p>
 
-<p>There is only very few CSS
-and very few lines of JavaScript. How can we do the such a complex
-result? Complex thing drawing the grid with axes, with labels, with a
-curve, and interact with the mouse.</p>
+<p>There is only very few CSS and very few lines of JavaScript. How can we do 
+the such a complex result? Complex thing drawing the grid with axes, with labels, 
+with a curve, and interact with the mouse.</p>
 
 <p>With only 10 lines of code: it&apos;s because we are using what we call an
-external JavaScript library. Actually, we are using 2 of them here.
-Because, this one: the &quot;function-plot&quot; JavaScript library, is using
-internally another one you must include also in the document.</p>
+external JavaScript library. Actually, we are using 2 of them here. Because, 
+this one: the &quot;function-plot&quot; JavaScript library, is using internally 
+another one you must include also in the document.</p>
 
-<p>What I propose is that we will start looking at this example. The best
-way is to click on &quot;Edit on CodePen&quot; label here, it will open the code
-in the CodePen.io online editor. And&hellip; just look at the HTML part
-here.</p>
+<p>What I propose is that we will start looking at this example. The best way is 
+to click on &quot;Edit on CodePen&quot; label here, it will open the code in the 
+CodePen.io online editor. And&hellip; just look at the HTML part here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 97. codepen example, plotting function library; d3js.org (72) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2643,7 +2647,8 @@ here.</p>
   title="CodePen Example; Plotting function library; d3js.org"
   alt="CodePen Example; Plotting function library; d3js.org." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ" target="_blank" rel="noopener noreferrer">CodePen; D3 Plotting</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ" 
+target="_blank" rel="noopener noreferrer">CodePen; D3 Plotting</a></h6>
 
 <p>Okay, we can just look at the HTML part and zoom in a little bit. What do we 
 see? We can see that it uses 2 libraries here between &lt;script&gt; and 
@@ -2675,15 +2680,15 @@ elements.</p>
   title="HTML, CSS and JS; plotting functions using the function plot library"
   alt="HTML, CSS and JS; plotting functions using the function plot library." />
 </p>
-<p>If I want to plot a cosine instead of a sine, I don't need
-to understand the whole syntax here, but I guess that by just typing
-&quot;cos&quot; here, it will do something. And indeed, I have just drawn a
-cosine. If I change this from red to &quot;green&quot;, it changes the color. If I
-change the grid, that is by default &quot;true&quot;, if I say &quot;false&quot;, I
-don&apos;t have a grid anymore. Okay let&apos;s put it back. And I&apos;ve got some
-&quot;xAxis&quot; domain: &quot;-1, +1&quot;. If I change that for &quot;-10, 
-+10&quot;, I can see the result. It&apos;s more interesting, if you change this 
-for the x values&hellip; instead of going from PI to 2 PI.</p>
+<p>If I want to plot a cosine instead of a sine, I don't need to understand the 
+whole syntax here, but I guess that by just typing &quot;cos&quot; here, it will 
+do something. And indeed, I have just drawn a cosine. If I change this from red 
+to &quot;green&quot;, it changes the color. If I change the grid, that is by 
+default &quot;true&quot;, if I say &quot;false&quot;, I don&apos;t have a grid 
+anymore. Okay let&apos;s put it back. And I&apos;ve got some &quot;xAxis&quot; 
+domain: &quot;-1, +1&quot;. If I change that for &quot;-10, +10&quot;, I can see 
+the result. It&apos;s more interesting, if you change this for the x values&hellip; 
+instead of going from PI to 2 PI.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 100. plotting functions in js using function plot library, #2 (73) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2736,10 +2741,10 @@ case, the domain has two elements: the minimum value and the maximum value.</p>
   alt="Additional plotting function; sine in pink." />
 </p>
 
-<p>And here you can see that the data that is plotted, the cosine
-function, is also an array. If I use the comma and I introduce a second
-element here. For example, the sine function, and if I change the
-color, let&apos;s make it pink&hellip;</p>
+<p>And here you can see that the data that is plotted, the cosine function, is 
+also an array. If I use the comma and I introduce a second element here. For 
+example, the sine function, and if I change the color, let&apos;s make it 
+pink&hellip;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 103. more plotting functions in js using function plot library (75) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2750,13 +2755,12 @@ color, let&apos;s make it pink&hellip;</p>
 </p>
 
 <p>Look at the result: I&apos;ve got 2 different
-functions that have been plotted in my graph. I can, instead of using
-this, I can maybe plot x2 (x square 2), like this, okay. It should work.
-Ok, we can see a little bit of it here. Maybe we will change the domain,
-so instead of stopping at 1, we go to 10. Here we go! And if we look at
-the values, we see the x square function that is a bit better, and if we
-just plot it for x=0 to x=2&hellip; &hellip;In that case, I've got another scale
-for looking at the functions.</p>
+functions that have been plotted in my graph. I can, instead of using this, I 
+can maybe plot x2 (x square 2), like this, okay. It should work. Ok, we can see 
+a little bit of it here. Maybe we will change the domain, so instead of stopping 
+at 1, we go to 10. Here we go! And if we look at the values, we see the x square 
+function that is a bit better, and if we just plot it for x=0 to x=2&hellip; 
+&hellip;In that case, I've got another scale for looking at the functions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 104. still more plotting functions in js using function plot library (76) ~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2766,13 +2770,14 @@ for looking at the functions.</p>
   alt="Still more plotting functions in JS using the D3 function plot library." />
 </p>
 
-<p>In this first example, you saw how to use an external library, what is
-the syntax to call a function, and how we can define objects in
-JavaScript by using a set of properties and values, separated by a
-comma. And we also had a first encounter with what we call arrays, that
-are elements separated by commas inside brackets.</p>
+<p>In this first example, you saw how to use an external library, what is the 
+syntax to call a function, and how we can define objects in JavaScript by using 
+a set of properties and values, separated by a comma. And we also had a first 
+encounter with what we call arrays, that are elements separated by commas inside 
+brackets.</p>
 
 <h4>FIRST: learn by looking at and tweaking the code in the examples</h4>
+
 <!-- page 76 -->
 <p>Well, there is no definitive answer to this question, but I&apos;d recommend
 firstly looking at small examples, tweaking them and trying to guess
@@ -2809,11 +2814,10 @@ the concepts of &quot;variables&quot;, &quot;values&quot;, &quot;operators&quot;
 
 <h4>Here is an example - we provide some clues, but it&apos;s your job to tweak it!</h4>
 
-<p>Here is an example that uses an external JavaScript library useful for
-plotting math functions. Look at the JavaScript code (click on the JS
-button) and try to guess where the function is specified, where the
-range for the x and y values is set, etc. Notice that you can use your
-mouse wheel to zoom in/out the function plot.</p>
+<p>Here is an example that uses an external JavaScript library useful for plotting 
+math functions. Look at the JavaScript code (click on the JS button) and try to 
+guess where the function is specified, where the range for the x and y values is 
+set, etc. Notice that you can use your mouse wheel to zoom in/out the function plot.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 105. learn javascript graphs d3.js (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2822,7 +2826,8 @@ mouse wheel to zoom in/out the function plot.</p>
   title="Learn JavaScript graphs d3.js"
   alt="Learn JavaScript graphs d3.js." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ" target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ" 
+target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph</a></h6>
 
 <p>By looking at this example (HTML and JS code), you note a few things:</p>
 
@@ -2835,11 +2840,13 @@ document of some external JavaScript code:</p>
 </pre>
 
 <p>We will examine this soon in a later section of the course, but, in
-brief, it means that we will use the <a href="https://d3js.org/" target="_blank" rel="noopener noreferrer">d3js plotting
-library</a> and another from github (a famous
-repository for open source contributions), and located in the github
-account of a person named &quot;mauriciopoppe&quot;, the repository is named
-&quot;functionPlot&quot; (<a href="https://mauriciopoppe.github.io/function-plot/" target="_blank" rel="noopener noreferrer">
+brief, it means that we will use the <a href="https://d3js.org/" 
+target="_blank" rel="noopener noreferrer">d3js plotting library</a> 
+and another from github (a famous repository for open source contributions), 
+and located in the github account of a person named &quot;mauriciopoppe&quot;, 
+the repository is named &quot;functionPlot&quot; (
+<a href="https://mauriciopoppe.github.io/function-plot/" 
+target="_blank" rel="noopener noreferrer">
 &quot;functionPlot JavaScript library&quot;</a>).</p>
 
 <p>Then, looking at the JavaScript code of the example (click the JS button
@@ -2858,10 +2865,10 @@ on the CodePen example), we see:</p>
 10. <b>}</b>);
 </pre>
 
-<p>Ok, the syntax looks strange if you are not used to JavaScript, but I
-bet that you guessed that the function plotted is &quot;sin(x)&quot;, that the
-color of the curve is &quot;red&quot;, that the range of the x values is &lbrack;0,
-2&ast;PI&rbrack;, and the range of the y values is &lbrack;-1, 1&rbrack;.</p>
+<p>Ok, the syntax looks strange if you are not used to JavaScript, but I bet that 
+you guessed that the function plotted is &quot;sin(x)&quot;, that the color of the 
+curve is &quot;red&quot;, that the range of the x values is &lbrack;0, 2&ast;PI&rbrack;, 
+and the range of the y values is &lbrack;-1, 1&rbrack;.</p>
 
 <h4><b>Your job:</b></h4>
 
@@ -2874,15 +2881,14 @@ color of the curve is &quot;red&quot;, that the range of the x values is &lbrack
 <h4>To do this:</h4>
 
 <ul>
-  <li>Edit directly the JS code in the embedded example, after a
-    few seconds, you should see the updated result in the &quot;Results&quot;
-    tab,</li>
+  <li>Edit directly the JS code in the embedded example, after a few seconds, 
+    you should see the updated result in the &quot;Results&quot; tab,</li>
   <li>&hellip;or just click on the &quot;Edit on CodePen&quot; title on the top
-    right of the embedded example, then change  the code. Normally you
-    should see the results of your modifications as soon as you stop
-    typing (we call this &quot;live coding&quot;). 
-	(Here is <a href="https://codepen.io/w3devcampus/pen/dvpEPZ" target="_blank" rel="noopener noreferrer">an example of what
-    you can obtain</a> as a result).</li>
+    right of the embedded example, then change  the code. Normally you should 
+	see the results of your modifications as soon as you stop typing (we call 
+	this &quot;live coding&quot;). (Here is 
+	<a href="https://codepen.io/w3devcampus/pen/dvpEPZ" target="_blank" rel="noopener noreferrer">
+	an example of what you can obtain</a> as a result).</li>
 </ul>
 
 <h4>What can you guess from this example?</h4>
@@ -2894,7 +2900,6 @@ color of the curve is &quot;red&quot;, that the range of the x values is &lbrack
 <pre>1.  functionPlot(...);</pre>
 
 <!-- page 79 -->
-
 <p>Where the &quot;&hellip;&quot; corresponds to some sort of parameter. When you see a
 name followed by two parentheses (maybe with something in between)
 followed by a &quot;;&quot;, this is &quot;<b>a function call</b>&quot;.</p>
@@ -2916,8 +2921,7 @@ for the x and y values, with or without a grid, etc.</p>
 <p>Let&apos;s have a look at the parameters we used in our example (the ones
 you tweaked). They are in bold in the source code we saw earlier:</p>
 
-<pre>
-1.  {
+<pre>1.  {
 2.    <b>target</b>: '#myFunction',
 3.    <b>data</b>: &lbrack;{
 4.      fn: 'sin(x)',
@@ -2930,8 +2934,7 @@ you tweaked). They are in bold in the source code we saw earlier:</p>
 11.   <b>xAxis</b>: {
 12.     domain: &lbrack;0, 2&ast;Math.PI&rbrack;
 13.   }
-14. }
-</pre>
+14. }</pre>
 
 <h4>JavaScript object</h4>
 
@@ -2944,12 +2947,10 @@ much detail.</p>
 <p>A JavaScript object can be defined by two braces with a set of
 properties/values inside, separated by a comma. Here is a simple object:</p>
 
-<pre>
-1.  {
+<pre>1.  {
 2.    givenName: "Michel",
 3.    familyName: "Buffa"
-4.  }
-</pre>
+4.  }</pre>
 
 <p>We use the &quot;:&quot; separator between the property name and its value. We
 use a comma between two properties, and we omit the comma after the last
