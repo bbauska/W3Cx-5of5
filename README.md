@@ -6,6 +6,7 @@ date last editted: "7/16/2024 Tue 6+pm"
 date last editted: "7/19/2024 Fri 6+pm"
 date last editted: "7/20/2024 Sat 5+am"
 date last editted: "7/23/2024 Tue 7+pm"
+date last editted: "7/24/2024 Wed 5+pm"
 
 output: 
   markdown:
@@ -4047,7 +4048,7 @@ the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image139a.png?raw=true"
+<img src="./images/image139.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4186,111 +4187,104 @@ my recommendation: use "myFastCar1", "myFastCar2", etc.
 Also, you should not use JavaScript reserved words such as &quot;var&quot;,
 &quot;let&quot;, &quot;if&quot;, &quot;for&quot;, &quot;function&quot;, etc.
 
-So, var function = 2; will raise an error, I can show that to you in the
-devtool console, this raises an error.
+<p>So, var function = 2; will raise an error, I can show that to you in the
+devtool console, this raises an error.</p>
 
-This also raises an error.
+<p>This also raises an error.</p>
 
-That's all for the moment about the variables.
+<p>That's all for the moment about the variables.</p>
 
-We will next talk about variable values and variable scopes, and you
+<p>We will next talk about variable values and variable scopes, and you
 will see that there is a small difference between "var" and "let" when
-you declare variables.
+you declare variables.</p>
 
-<video above for 1.5.1>
+<!-- video above for 1.5.1 -->
 <!------------------------------------------------------------------------------------------------>
-In most of the examples seen earlier, we&apos;ve used the concept of
+<p>In most of the examples seen earlier, we&apos;ve used the concept of
 &quot;variable&quot;, and we have used them to &quot;store values&quot;. It&apos;s time to
-take a break and talk about them :-)
+take a break and talk about them :-)</p>
 
 <h4>Variables</h4>
 
-In order to remember a value, programming languages share the concept of
+<p>In order to remember a value, programming languages share the concept of
 &quot;variables&quot;. When you write programs, you will need to store values in
 the computer&apos;s memory. By saving these values in &quot;variables&quot;, by
 giving them a &quot;name&quot; (we call it an identifier), you can reuse
-them later for display, for computations, etc.
+them later for display, for computations, etc.</p>
 
 <h4>Create (declaring) a variable</h4>
 
-With JavaScript versions &lt; 5 (prior to 2015), there was a single way to
+<p>With JavaScript versions &lt; 5 (prior to 2015), there was a single way to
 create (we say &quot;declare&quot;) a variable: using the <b>var</b> keyword. But
 with the subsequent versions (called ES2015/ES2016 or JavaScript 6/7),
 we can also use the keyword <b>let</b> (this has some subtle differences,
 which we&apos;ll explain later in the course when we will talk about
-&quot;functions&quot;).
+&quot;functions&quot;).</p>
 
-JavaScript is <b>weakly typed</b>. Each variable is declared with the
+<p>JavaScript is <b>weakly typed</b>. Each variable is declared with the
 keyword <b>var</b> or <b>let</b>. So you are not required to specify the type
 of variable you are creating. <b>After the keyword &quot;var&quot; and a space,
-just give the name of the variable.</b>
+just give the name of the variable.</b></p>
 
 <h4>Example:</h4>
 
-<pre>
-var myVar;
-let x;
-</pre>
+<pre>var myVar;
+let x;</pre>
 
-The first letter of a variable can only be &quot;&dollar;&quot;, &quot;&lowbar;&quot;, &quot;a&quot; to
+<p>The first letter of a variable can only be &quot;&dollar;&quot;, &quot;&lowbar;&quot;, &quot;a&quot; to
 &quot;z&quot;, or &quot;A&quot; to &quot;Z&quot;. The other characters in a name must be any of
 these, or numeric digits. The name is case sensitive. So variables
-&quot;myVar&quot; and &quot;MyVar&quot; are different variables.
+&quot;myVar&quot; and &quot;MyVar&quot; are different variables.</p>
 
-There are some reserved names that you can&apos;t use as a variable
+<p>There are some reserved names that you can&apos;t use as a variable
 name: boolean, if, delete, var, function, etc. as they are reserved
-words of the JavaScript language.
+words of the JavaScript language.</p>
 
 <h4>Give a value to a variable (<b>assign</b> a value to a variable)</h4>
 
-A value can be assigned to a declared variable, or even directly in the
+<p>A value can be assigned to a declared variable, or even directly in the
 variable declaration. For this, we use the equal character, also
-called &quot;the assignment operator&quot;. 
+called &quot;the assignment operator&quot;.</p>
 
 <h4>Example:</h4>
 
-(notice at <b>line 4</b> one way to introduce comments in your code: start
-a line with &quot;//&quot;!)
+<p>(notice at <b>line 4</b> one way to introduce comments in your code: start
+a line with &quot;//&quot;!)</p>
 
-<pre>
-var myValue;
+<pre>var myValue;
 myValue = 78;
 // With the ES2015 syntax. BTW, lines staring with // are comments!
-let myNumber = 1.34;
-</pre>
+let myNumber = 1.34;</pre>
 
-At <b>line 2</b>, we are not saying that &quot;myValue&quot; and &quot;78&quot; are the
+<p>At <b>line 2</b>, we are not saying that &quot;myValue&quot; and &quot;78&quot; are the
 same, we&apos;re saying &quot;hey, I want to store the value 78, and I&apos;m
 putting it in a variable whose name is &quot;myValue&quot;. It&apos;s like giving an
-id to a location somewhere in the memory of the computer.
+id to a location somewhere in the memory of the computer.</p>
 
-Using the id &quot;myValue&quot;, we store 78 into a memory location identified
+<p>Using the id &quot;myValue&quot;, we store 78 into a memory location identified
 by the name &quot;myValue&quot;: a variable, or if you prefer, a value that can
 vary over time if we assign a new value to the variable &quot;myValue&quot; (for
-example by executing myValue = 5;).
+example by executing myValue = 5;).</p>
 
-You can also declare many variables at once by separating them with a
-comma. Always end each instruction line with a semi colon.
+<p>You can also declare many variables at once by separating them with a
+comma. Always end each instruction line with a semi colon.</p>
 
 <h4>Example:</h4>
 
-<pre>
-var myNumber1, myNumber2 = 34, myNumber3;
+<pre>var myNumber1, myNumber2 = 34, myNumber3;
 // Or with the ES2015 syntax, you can also use &quot;let&quot;
-let x = 1, y = 3, z = 12;
-</pre>
+let x = 1, y = 3, z = 12;</pre>
 
 <h4>Try the devtool console - you can type code in there too!</h4>
 
-<b>Reminder</b>: you can always open the devtool console using F12 on
-windows, or ctrl-shift i, or cmd-alt-i on other computers.
+<p><b>Reminder</b>: you can always open the devtool console using F12 on
+windows, or ctrl-shift i, or cmd-alt-i on other computers.</p>
 
-If we copy and paste the variable declarations from the previous
+<p>If we copy and paste the variable declarations from the previous
 example, and type myNumber2 in the devtool console, it will display 34
-(while myNumber1 will have an undefined value):
+(while myNumber1 will have an undefined value):</p>
 
-<pre>
-&gt; var myNumber1, myNumber2 = 34, myNumber3;
+<pre>&gt; var myNumber1, myNumber2 = 34, myNumber3;
 undefined
 
 &gt; // Or with the ES6 syntax you can also use "let"
@@ -4309,11 +4303,10 @@ undefined
 34
  
 &gt; myNumber1;
-undefined
-</pre>
+undefined</pre>
 
-Below is an image that explains how you can try JavaScript code in the
-devtools console:
+<p>Below is an image that explains how you can try JavaScript code in the
+devtools console:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 139. devtools console example (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4321,14 +4314,9 @@ devtools console:
   style="width:50%"
   title="Devtools console example"
   alt="Devtools console example." />
-<!-- ![Display JS variable in the console devtools, type some instructions,
-press return. For example type var x=2; then press the enter key; then
-type x; it will display its value
-&quot;2&quot;](./images/image109.jpeg){width="5.0in"
-height="2.112402668416448in"} -->
 
-If you try to use a variable that has never been declared, you get an
-error message:
+<p>If you try to use a variable that has never been declared, you get an
+error message:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 140. error message: undeclared type error (120) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4336,13 +4324,7 @@ error message:
   style="width:50%"
   title="Error Message: Undeclared type error"
   alt="Error Message: Undeclared type error." />
-<!-- image141.jpeg is a bit taller -->
-<!-- ![If you type k; followed by the enter key in the devtool console, and
-if k has not been defined, then an error message is displayed:
-&quot;uncaught referenceError: k is not
-defined&hellip;](./images/image110.jpeg){width="6.729166666666667in" height="1.3895297462817149in"}
 
-<!-- end of 1.5.1 JS variables and values from previous lesson 4 years back-->
 <h4>Name conventions for variables</h4>
 
 The JavaScript community has some conventions about naming variables:
@@ -4350,22 +4332,20 @@ The JavaScript community has some conventions about naming variables:
 <ul>
   <li><b>The camelCase notation is
     preferred</b>: mySpaceShip, sumOfAllGrades, etc.
-
--   <b>For a variable, the first letter is lowercase and each first
-    letter of each word is capitalized</b>. Example: var myVariableName
+  <li><b>For a variable, the first letter is lowercase and each first
+    letter of each word is capitalized</b>. Example: var myVariableName</li>
+</ul>
 
 <h4>Example:</h4>
 
-<pre>
-var myModel;
+<pre>var myModel;
 // ES2015 syntax
-let michelBuffaAge = 51;
-</pre>
+let michelBuffaAge = 51;</pre>
 
-Most JavaScript examples you will find are written in the camelCase
+<p>Most JavaScript examples you will find are written in the camelCase
 format. For harmony in the code source, it is a good idea to keep this
 convention. Sometimes, you will see the snake_case naming convention,
-which separates each word of a variable with an underscore.
+which separates each word of a variable with an underscore.</p>
 
 <p>Here&apos;s an interesting article: 
 <a href="https://whatheco.de/2011/02/10/camelcase-vs-underscores-scientific-showdown/">
@@ -4374,7 +4354,6 @@ CamelCase vs underscores: Scientific showdown</a>.</p>
 <h4>Constants</h4>
 
 <p>Constants are variables that cannot be modified after a value has been set.</p>
-
 <p><b>The naming convention is to use uppercase letters with underscores.</b></p>
 
 <p><b>Example: var TIME_LIMIT = 50;</b></p>
@@ -4388,11 +4367,9 @@ error will be raised if you try to change their value in the future.</p>
 
 <h4>Example:</h4>
 
-<pre>
-var TIME_LIMIT;
+<pre>var TIME_LIMIT;
 // ES2015 Syntax
-const MAX_GRADE = 20;
-</pre>
+const MAX_GRADE = 20;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 141. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (121) ~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4400,17 +4377,13 @@ const MAX_GRADE = 20;
   style="width:50%"
   title="Comparison between var: TIME_LIMIT and constant: MAX_GRADE."
   alt="Comparison between var: TIME_LIMIT and constant: MAX_GRADE." />
-<!-- ![Constants in the devtool console. We see the difference between var
-and const. The code executed is the one from the above
-example](./images/image111.jpeg){width="6.510416666666667in" height="2.3413331146106735in"} -->
 
 <h4>Summary</h4>
 
-Here are a set of examples (using the let keyword, but they would also
-work with var):
+<p>Here are a set of examples (using the let keyword, but they would also
+work with var):</p>
 
-<pre>
-let a;
+<pre>let a;
 let thisIsAVariable;
 let and_this_too; // but <b>does not respect the usual naming convention</b>
 let mix12three;
@@ -4420,8 +4393,7 @@ let a = 1
 let v1, v2, v3 = 'hello', v4 = 4, v5;
 // Beware with lowercase / uppercase
 let case_matters = 'lower';
-let CASE_MATTERS = 'upper';
-</pre>
+let CASE_MATTERS = 'upper';</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Scope of JS variables (4:19)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4502,13 +4474,12 @@ be used anywhere in the code.
 
 <h4>Here is an example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 142. global scoping of variable (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image142.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![](./images/image112.png){width="6.5in" height="2.323611111111111in"} -->
+  title="Global scoping of variables"
+  alt="Global scoping of variables." />
 <h6 align="center">
 <a href="https://codepen.io/w3devcampus/pen/WjMMLZ" target="_blank" rel="noopener noreferrer">Demo (CodePen)</a></h6>
 
@@ -4533,31 +4504,27 @@ JavaScript 6 / ES6. See examples at the end of this section.
 Example of a local variable declared in a function, that is NOT local to
 the block, but to the whole function:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 143. global and local variables (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image143.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![](./images/image113.png){width="6.5in"
-height="2.357638888888889in"} -->
+  title="Global and local variables"
+  alt="Global and local variables." />
 
-https://codepen.io/w3devcampus/pen/RVMOGx
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/RVMOGx">CodePen</a></p>
 
-Here is another example that shows the differences between global and
+<p>Here is another example that shows the differences between global and
 local variables, and highlights the &quot;masking&quot; of global variables by
-local variables when they share the same name.
+local variables when they share the same name.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 144. variables; global and local (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image144.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![](./images/image114.png){width="6.5in"
-height="3.3743055555555554in"} -->
+  title="Variables; global and local"
+  alt="Variables; global and local." />
 
-https://codepen.io/w3devcampus/pen/oWEEmN
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/oWEEmN">CodePen</a></p>
 
 <h5>1.3) Never declare a variable without the keyword var!</h5>
 
@@ -4578,147 +4545,137 @@ JavaScript 6 or above.</b>
 Here is an example that shows what happens when you forget to use var or
 let while declaring a local variable:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 145. local and global variable scoping (126) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image145.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![](./images/image115.png){width="6.5in" height="3.941666666666667in"} -->
+  title="Local and global variable scoping"
+  alt="Local and global variable scoping." />
 
-https://codepen.io/w3devcampus/pen/rmJJbo
+<p><a href="https://codepen.io/w3devcampus/pen/rmJJbo">CodePen</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~ 146. declaring a variable without var in function make it global (126) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image146.png?raw=true"
+<img src="./images/image146.jpeg?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![Declaring a variable without var in a function makes it
-global](./images/image116.jpeg){width="6.375in"
-height="1.2871139545056869in"} -->
+  title="Declaring a variable without var in function make it global"
+  alt="Declaring a variable without var in function make it global." />
 
 <h5>2) Since 2015 and ES2015, there are new scopes, with the let keyword</h5>
 
-<b>Modern JavaScript has the let keyword for declaring variables, and
-the const keyword for declaring constants.</b>
+<p><b>Modern JavaScript has the let keyword for declaring variables, and
+the const keyword for declaring constants.</b></p>
 
-<b>Modern JavaScript has two scopes:</b> <b>1) a global scope</b> for
+<p><b>Modern JavaScript has two scopes:</b> <b>1) a global scope</b> for
 declaring global variables, and<b> 2) a block scope</b> for declaring
 variables between { and }. This is similar to what we find in many other
-programming languages such as Java, C# etc.
+programming languages such as Java, C# etc.</p>
 
-Furthermore, like in most programming languages, inside a block, <b>a
+<p>Furthermore, like in most programming languages, inside a block, <b>a
 local variable masks other variables located in higher scopes (global or
-in another block that contains the current block).</b>
+in another block that contains the current block).</b></p>
 
-Example of a local variable declared with the let keyword. Its scope is
-the block:
+<p>Example of a local variable declared with the let keyword. Its scope is
+the block:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 147.  (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 147. if block is true, let a=4 (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image147.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![](./images/image117.png){width="6.5in" height="2.46875in"} -->
+  title="if block is true, let a=4"
+  alt="if block is true, let a=4." />
 
-https://codepen.io/w3devcampus/pen/VbXNPz
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/VbXNPz">CodePen</a></p>
 
 <h5>3) Recommended way to declare variables: var or let?</h5>
 
-Well, all modern browsers support the let and const keywords, however,
-you might find lots of examples that still use the var keyword&hellip;
+<p>Well, all modern browsers support the let and const keywords, however,
+you might find lots of examples that still use the var keyword&hellip;</p>
 
-<b>Anyway, we highly recommend to use let and const instead of var, for
-declaring variables and constants!</b>
-
+<p><b>Anyway, we highly recommend to use let and const instead of var, for
+declaring variables and constants!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-3">1.5.3 JS data types (5:27)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Hi!</p>
 
-Hi!
+<p>Let's talk about JavaScript data types.</p>
 
-Let's talk about JavaScript data types.
+<p>The data type of variable is the kind of value you can give to this
+variable.</p>
 
-The data type of variable is the kind of value you can give to this
-variable.
-
-With JavaScript, there are many possibilities: even if when you declare
+<p>With JavaScript, there are many possibilities: even if when you declare
 a variable, you don't type if data type: "var x=10", the value you give
 to this variable will help JavaScript figure out the data type of this
-variable.
+variable.</p>
 
-And there is an operator named "typeof" that you can use for visualizing
-
+<p>And there is an operator named "typeof" that you can use for visualizing
 the internal data table of variable. So "var x=10", this corresponds to
 a number. If I give to "x" a string value like my name, then the type of
 "x" will be "string". It changed its internal type on the fly, we call
 this "dynamic typing". What kind of data types can we get? String,
 number, we've got also boolean value: "var x = true" or "x = false"
-corresponds to a boolean value: "typeof x"... boolean.
+corresponds to a boolean value: "typeof x"... boolean.</p>
 
-And I can say "if (x)" then... do something... "console.log("it's
+<p>And I can say "if (x)" then... do something... "console.log("it's
 true!!!")" and the boolean data types is useful for "if" statements or
-some other statements that will test boolean value.
+some other statements that will test boolean value.</p>
 
-In that case, it printed "it's true!!!" because "x" was "true".
+<p>In that case, it printed "it's true!!!" because "x" was "true".</p>
 
-If I give to "x" the value "false", then if I execute this code, it will
-do nothing because "x" is false.
+<p>If I give to "x" the value "false", then if I execute this code, it will
+do nothing because "x" is false.</p>
 
-We've got also some special values&hellip; but "typeof y": undefined.
+<p>We've got also some special values&hellip; but "typeof y": undefined.</p>
 
-I can test if y is undefined then ....And in that case, you can test if
-a variable is defined or not.
+<p>I can test if y is undefined then ....And in that case, you can test if
+a variable is defined or not.</p>
 
-There is a special data type called "null" that corresponds to "no
-value".
+<p>There is a special data type called "null" that corresponds to "no
+value".</p>
 
-The difference with the null defined variable is that the variable that
-has the value of null is still defined.
+<p>The difference with the null defined variable is that the variable that
+has the value of null is still defined.</p>
 
-Like "y" is not defined here... but if I say "z = null" then "z" is
-defined.
+<p>Like "y" is not defined here... but if I say "z = null" then "z" is
+defined.</p>
 
-Ok, this has not been printed because "z" was not undefined. OK, another
+<p>Ok, this has not been printed because "z" was not undefined. OK, another
 common value we give to variable is object. An object is something like
 this: property, value. And if I look at the type of "person", it will
 say: object. And object is a structured variable, I can use the "."
-operator to check the value of some property.
+operator to check the value of some property.</p>
 
-So "person.familyName" will print the value "Buffa" .... "person.name"
+<p>So "person.familyName" will print the value "Buffa" .... "person.name"
 will print my given name. There is a particular case for arrays. Arrays
 are defined using "brackets". If I define an array with two names of
 days in a week: Monday and Tuesday, then, its type is also &quot;object&quot;.
 There is no type that is called &quot;array&quot;. Arrays are objects in
 JavaScript. To sum up, we've got: number, string, Boolean, undefined,
-and null and object.
+and null and object.</p>
 
-Nothing else. And the "typeof" operator can be used to display the type
-of an object.
+<p>Nothing else. And the "typeof" operator can be used to display the type
+of an object.</p>
 <!------------------------------------------------------------------------------------------------>
 <h4>What kind of values can we assign to a variable?</h4>
 
-Well, there are multiple possibilities:
+<p>Well, there are multiple possibilities:</p>
 
-What we call &quot;primitive data types&quot;: for example a number, a string,
-etc. ex:
+<p>What we call &quot;primitive data types&quot;: for example a number, a string,
+etc. ex:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 148. red cards depicting primitive data types (129) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image148.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Red cards depicting primitive data types"
+  alt="Red cards depicting primitive data types." />
 
-<pre>
-var x = 3; var name = "Buffa";
+<pre>var x = 3; var name = "Buffa";
 <a href="" target="_blank" rel="noopener noreferrer">a set of playing cards</a>
-](./images/image118.png){width="2.0833333333333335in" height="1.25in"}
-</pre>
+](./images/image118.png){width="2.0833333333333335in" height="1.25in"}</pre>
 
-1.  Objects (everything that is not a  &quot;primitive data type&quot; is an
+1.  Objects (everything that is not a &quot;primitive data type&quot; is an
     object):
     var michel =
 
@@ -4727,62 +4684,52 @@ var x = 3; var name = "Buffa";
 
 <h4>JavaScript has a small set of primitive data types</h4>
 
--   <b>number</b>: 1,2,105,3.14 &hellip;
+<ul>
+  <li><b>number</b>: 1,2,105,3.14 &hellip;</li>
+  <li><b>string</b>: &apos;a&apos;, &quot;one&quot;, &apos;two&apos; , 
+    &apos;World Wide Web&apos; &hellip;</li>
+  <li><b>boolean</b>: true / false</li>
+  <li><b>undefined</b>: absent or unknown value</li>
+  <li><b>null</b>: special keyword, meaning no value or empty. The difference
+    from undefined is that when a variable is null, it is still defined.</li>
+</ul>
 
--   <b>string</b>: &apos;a&apos;, &quot;one&quot;, &apos;two&apos; , &apos;World Wide Web&apos; &hellip;
+<p>These are the simplest forms of data we can use in programming.</p>
 
--   <b>boolean</b>: true / false
-
--   <b>undefined</b>: absent or unknown value
-
--   <b>null</b>: special keyword, meaning no value or empty. The difference
-    from undefined is that when a variable is null, it is still defined.
-
-These are the simplest forms of data we can use in programming.
-
-Anything that is not listed above is <b>an object </b>(JavaScript objects
-are covered later in Module 3)<b>.</b> 
+<p>Anything that is not listed above is <b>an object </b>(JavaScript objects
+are covered later in Module 3).</p>
 
 <b>You said JavaScript does not have types for variables?</b>
 
-No! I said that JavaScript is weakly typed; you do not declare the type
+<p>No! I said that JavaScript is weakly typed; you do not declare the type
 of variable. In some other languages (Java language syntax, for
 instance) instead of var x=2; or let name=&quot;Buffa&quot;; you would write int
 x=2; or String name = &quot;Buffa&quot;;, with the datatype explicit in the
-variable declaration.
+variable declaration.</p>
 
 <h4>Knowing the type of a JavaScript variable: the typeof operator</h4>
 
-The next section of the course talks about &quot;operators&quot; but there is
+<p>The next section of the course talks about &quot;operators&quot; but there is
 one that is better introduced in this section: the <b>typeof</b> operator,
 that is useful for knowing the type of a variable depending in its value
 (possible values: number, string, boolean, undefined, object,
-or function)
+or function)</p>
 
-We will use it in lots of examples in the next three sections.
-
+<p>We will use it in lots of examples in the next three sections.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~ 149. dynamic typing. use typeof operator to see dynamic type of variable (130) ~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image149.jpeg?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- <image149.jpeg>
-![dynamic typing. You can use the typeof operator to see the &quot;dynamic
-type of a variable&quot;. For example, type let n=3; then typeof n, it will
-display &quot;number&quot;. Then type n=&quot;toto&quot;; and typeof n; this time it
-displays &quot;string&quot;](./images/image119.jpeg){width="5.0in"
-height="2.5648020559930007in"} -->
+  title="Dynamic typing. You can use the typeof operator to see the dynamic type of a variable"
+  alt="Dynamic typing. You can use the typeof operator to see the dynamic type of a variable." />
 
-This operator is not often use in JavaScript programs, but it&apos;s useful
-for us, for explaining the data types.
-
+<p>This operator is not often use in JavaScript programs, but it&apos;s useful
+for us, for explaining the data types.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-4">1.5.4 Numbers</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 150. numbers 1 thu 9, then 0, twice (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 150. numbers 1 thu 9, then 0, twice (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image150.png?raw=true"
   style="width:25%"
@@ -4795,7 +4742,7 @@ for us, for explaining the data types.
   <li><b>Integer</b>: 1, 4, 274929</li>
 </ul>
 
-<p>Type 343 in the devtool console, and after you press the Enter key,  the
+<p>Type 343 in the devtool console, and after you press the Enter key, the
  corresponding value (343) will be displayed.</p>
 
 <ul>
@@ -4805,8 +4752,7 @@ for us, for explaining the data types.
 
 <p>Examples of integer and decimals:</p>
 
-<pre>
-var n=1;
+<pre>var n=1;
 undefined
 &gt; typeof n;
 "number"
@@ -4824,21 +4770,17 @@ undefined
 "number"
 
 &gt; typeof 123;
-"number"
-</pre>
+"number"</pre>
 
 <ul>
   <li><b>Scientific notation</b>: 3.46e4, 5.3e+6, 5344000e-5</li>
 </ul>
 
-<pre>
-3.46e4 equals 3.46 x 10&#94;4 equals 34600
-</pre>
+<pre>3.46e4 equals 3.46 x 10&#94;4 equals 34600</pre>
 
 <h4>Examples:</h4>
 
-<pre>
-&gt; 1e1;
+<pre>&gt; 1e1;
 10
 
 &gt; 1e+1;
@@ -4857,31 +4799,30 @@ undefined
 0.123456
 
 &gt; typeof 2e-3;
-"number"
-</pre>
+"number"</pre>
 
 <ul>
   <li><b>Octal</b>: 010</li>
 </ul>
 
-<b>Be careful with this, don&apos;t start an integer with 0 (zero),
-JavaScript will understand it as an octal value.</b>
+<p><b>Be careful with this, don&apos;t start an integer with 0 (zero),
+JavaScript will understand it as an octal value.</b></p>
 
 <pre><code>010 equals 8 which means 1 * 8^1 + 0 * 8^0</code></pre>
 
 <pre><code>The number 0456 means 4 * 8^2 + 5 * 8^1 + 6 * 8^0</code></pre>
 
-<b>Question 1</b>: What&apos;s the result, as an integer, of the
-operation: 24 - 024?
+<p><b>Question 1</b>: What&apos;s the result, as an integer, of the
+operation: 24 - 024?</p>
 
-<b>Explanation 1</b>: 24 is an integer which equals 24 but 024 is an octal
-value which equals 20.
+<p><b>Explanation 1</b>: 24 is an integer which equals 24 but 024 is an octal
+value which equals 20.</p>
 
-<b>Question 2</b>: Which value will be displayed in the devtool console if
-you type 098 followed by the Enter key?
+<p><b>Question 2</b>: Which value will be displayed in the devtool console if
+you type 098 followed by the Enter key?</p>
 
-<b>Explanation 2</b>: 9 and 8 don&apos;t exist in base 8 (only 0 to 7), so the
-typed number will be considered as an integer.
+<p><b>Explanation 2</b>: 9 and 8 don&apos;t exist in base 8 (only 0 to 7), so the
+typed number will be considered as an integer.</p>
 
 <ul>
   <li><b>Hexadecimal</b>: 0xF3</li>
@@ -4892,8 +4833,7 @@ value is 243</code></pre>
 
 <h4>Examples of octal and hexadecimal data types:</h4>
 
-<pre>
-&gt; var n3 = 0377;
+<pre>&gt; var n3 = 0377;
 undefined
  
 &gt; typeof n3;
@@ -4918,8 +4858,7 @@ undefined
 "number"
  
 &gt; n5;
-255
-</pre>
+255</pre>
 
 <h5><b>Special values</b>:</h5>
 
@@ -4929,27 +4868,24 @@ undefined
   <li>NaN (Not a Number)</li>
 </ul>
 
-The value Infinity (or +Infinity) represents all number values greater
+<p>The value Infinity (or +Infinity) represents all number values greater
 than 1.79769313486231570e+308 and -Infinity represents values smaller
-than -1.79769313486231570e+308.
+than -1.79769313486231570e+308.</p>
 
-Finally, Nan represents <b>not-a-number</b> values, for example if you try
-to divide 0 by 0 (type 0/0 in the devtool console).
+<p>Finally, Nan represents <b>not-a-number</b> values, for example if you try
+to divide 0 by 0 (type 0/0 in the devtool console).</p>
 
-<pre>
-&gt; 0 / 0;
+<pre>&gt; 0 / 0;
 NaN
  
 &gt; 3 / 0;
-Infinity
-</pre>
+Infinity</pre>
 
 <h4>Examples:</h4>
 
 <p>Any operation with Infinity gives Infinity as a result:</p>
 
-<pre>
-1.   &gt; Infinity;
+<pre>1.   &gt; Infinity;
 2.   Infinity
 3.   
 4.   &gt; typeof Infinity;
@@ -4979,11 +4915,9 @@ Infinity
 28.  NaN
 29.   
 30.  &gt; -Infinity + Infinity;
-31.  NaN
-</pre>
+31.  NaN</pre>
 
-<pre>
-1.  &gt; Infinity - 20;
+<pre>1.  &gt; Infinity - 20;
 2.  Infinity
 3.   
 4.  &gt; -Infinity &ast; 3;
@@ -4993,15 +4927,13 @@ Infinity
 8.  Infinity
 9.   
 10. &gt; Infinity - 9999999999999;
-11. Infinity
-</pre>
+11. Infinity</pre>
 
 <h4>Examples with NaN:</h4>
 
 <p>NaN is a special value and its type is &quot;Number&quot;!</p>
 
-<pre>
-1.  &gt; typeof NaN;
+<pre>1.  &gt; typeof NaN;
 2.  "number"
 3.   
 4.  &gt; var a = NaN;
@@ -5017,13 +4949,12 @@ Infinity
   NaN 
   
 &gt; 1 + 2 + a;
-  NaN
-</pre>
+  NaN</pre>
 
 <h4>&lbrack;ADVANCED&rbrack; Optional explanations about numbers</h4>
 
-In JavaScript, numbers are represented with a double-precision 64-bit
-format (IEEE 754). These 64 bits are used with this table:
+<p>In JavaScript, numbers are represented with a double-precision 64-bit
+format (IEEE 754). These 64 bits are used with this table:</p>
 
 | Total bits |   Sign  | Exponent | Significant |
 |------------|---------|----------|-------------|
@@ -5031,107 +4962,89 @@ format (IEEE 754). These 64 bits are used with this table:
 
 <h5>What does it mean?</h5>
 
-First, each number is represented as a float. For example, 1 equals 1.0.
+<p>First, each number is represented as a float. For example, 1 equals 1.0.
 But there are approximation errors that are well-known in float
 calculations. One common example of errors due to the approximation of
-floating point numbers is that 0.1 + 0.2 does not equal 0.3. 
+floating point numbers is that 0.1 + 0.2 does not equal 0.3.</p>
 
-<pre>
-&gt; 0.1 + 0.2;
-0.30000000000000004
-</pre>
+<pre>&gt; 0.1 + 0.2;
+0.30000000000000004</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (135) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 151. devtools console showing 0.1+0.2 is not equal to 0.3 (135) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image151.jpeg?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![devtool console showing that 0.1 + 0.2 is not equal to 0.3 but to
-0.30000000000000004
-](./images/image120.jpeg){width="6.635416666666667in"
-height="1.5729166666666667in"}  -->
+  title="Devtools console showing 0.1 + 0.2 is not equal to 0.3 but to 0.300000000000004"
+  alt="Devtools console showing 0.1 + 0.2 is not equal to 0.3 but to 0.300000000000004." />
 
-Second, an integer has 2&#94;52 relevant bits, so the biggest integer
+<p>Second, an integer has 2&#94;52 relevant bits, so the biggest integer
 is 2&#94;53. There is one bit that determines the sign of the number, so
-the smallest signed integer is -2&#94;53.
+the smallest signed integer is -2&#94;53.</p>
 
-<b>Note</b>: Some arithmetic functions use only numbers with a 32-bit
-format. Larger numbers will be converted&hellip;
+<p><b>Note</b>: Some arithmetic functions use only numbers with a 32-bit
+format. Larger numbers will be converted&hellip;</p>
 
-For more information about floating point numbers, 
+<p>For more information about floating point numbers, 
 <a href="https://en.wikipedia.org/wiki/IEEE_floating_point">
-follow this link at Wikipedia</a>.
-
+follow this link at Wikipedia</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-5">1.5.5 JS operators and expressions</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>An expression</b> is a small piece of code used to produce a value.
 
-For example, the expression 3 + 5 produces the value 8, and the
+<p>For example, the expression 3 + 5 produces the value 8, and the
 value 11 alone is also an expression. Within an expression, we can find
 values, variables, operators, and expressions. The first two have been
-already described above, so all that&apos;s left are <b>operators</b>.
+already described above, so all that&apos;s left are <b>operators</b>.</p>
 
-In JavaScript, <b>an operator</b> can be unary or binary (plus one ternary
+<p>In JavaScript, <b>an operator</b> can be unary or binary (plus one ternary
 operator). A unary operator is applied to one expression. It can be
-prefixed or suffixed.
+prefixed or suffixed.</p>
 
 <h5>Unary operator example:</h5>
 
-<pre>
-typeof 'world';
-</pre>
+<pre>typeof 'world';</pre>
 
-A binary operator is applied to two different expressions, and is both
-prefixed and suffixed.
+<p>A binary operator is applied to two different expressions, and is both 
+prefixed and suffixed.</p>
 
 <h5>Binary operator example:</h5>
 
-<pre>
-var x = 45 / 32;
-</pre>
+<pre>var x = 45 / 32;</pre>
 
 <h5>The division operator is binary</h5>
 
-Within an expression, we can also use parentheses to force the execution
+<p>Within an expression, we can also use parentheses to force the execution
 of the expression inside. Parentheses can be used to indicate
-precedence.   
+precedence.</p>
 
-For example, this is an expression: (3 + 2). And the expression (3 + 2)
-&ast; 4, which equals 20, depends on the expression within the parentheses.
-
+<p>For example, this is an expression: (3 + 2). And the expression (3 + 2)
+&ast; 4, which equals 20, depends on the expression within the parentheses.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 152. operators (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image152.png?raw=true"
   style="width:25%"
-  title=""
-  alt="." />
-<!-- ![operators](./images/image121.png){width="2.0833333333333335in"
-height="1.2291666666666667in"} -->
+  title="Operators"
+  alt="Operators." />
 
-In JavaScript, expressions can evaluate to four types, which
-are: numbers, strings, booleans, and objects. For example, an expression
-with the operator - will evaluate to a number. But an expression with
-the operator + can evaluate to a number or a string (for addition or
-concatenation).
-
+<p>In JavaScript, expressions can evaluate to four types, which are: numbers, 
+strings, booleans, and objects. For example, an expression with the operator - 
+will evaluate to a number. But an expression with the operator + can evaluate 
+to a number or a string (for addition or concatenation).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-6">1.5.6 Strings (part 1) (4:12)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-To declare or manipulate strings you must write them with <b>single
+<p>To declare or manipulate strings you must write them with <b>single
 quotes &apos; or double quotes &quot;</b> around them. Single quotes or double
 quotes are both accepted, and there is no difference between them in
 JavaScript. However, the community prefers to use single quote for
-string - this is not a convention, but a recommendation.
+string - this is not a convention, but a recommendation.</p>
 
-And finally, you cannot start a string with a single and end with a
-double quotes, or the opposite.
+<p>And finally, you cannot start a string with a single and end with a
+double quotes, or the opposite.</p>
 
-<pre>
-&gt; "Hello World";
+<pre>&gt; "Hello World";
 "Hello World"
  
 &gt; "JavaScript Course";
@@ -5141,32 +5054,27 @@ double quotes, or the opposite.
 "With simple quotes"
  
 &gt; "Do not mix double and simple quotes'; // here we opened the string
-with double and closed with simple quotes
-</pre>
+with double and closed with simple quotes</pre>
 
-VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
+<p>VM24763:1 Uncaught SyntaxError: Invalid or unexpected token</p>
 
 <h5>Image from the devtool console, from the above example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (144) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~ 154. snapshot of a devtools console; do not mix simple and double quotes (144) ~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image154.jpeg?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![Snapshot of a devtool console: do not mix simple and double
-quotes](./images/image122.jpeg){width="6.583333333333333in"
-height="2.4791666666666665in"} -->
+  title="Snapshot of a devtools console error; do not mix simple and double quotes"
+  alt="Snapshot of a devtools console error; do not mix simple and double quotes." />
 
-##### There are many reasons to use simple quotes when possible:
+<h5>There are many reasons to use simple quotes when possible:</h5>
 
-1.  Double quotes are used in HTML
-
-2.  You must hold the Shift key to type &quot;
-
-3.  Single quotes are easier to read and to type
-
-4.  To output HTML in JavaScript, single quotes are more useful
+<ol type="1">
+  <li>Double quotes are used in HTML</li>
+  <li>You must hold the Shift key to type &quot;</li>
+  <li>Single quotes are easier to read and to type</li>
+  <li>To output HTML in JavaScript, single quotes are more useful</li>
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-7">1.5.7 Strings (part 2)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5174,111 +5082,105 @@ height="2.4791666666666665in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-8">1.5.8 String operators (6:44)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Strings can be defined using double quotes, or simple quotes.</p>
 
-Strings can be defined using double quotes, or simple quotes.
+<p>Don&apos;t mix double and single quotes, it&apos;s not going to work.</p>
 
-Don&apos;t mix double and single quotes, it&apos;s not going to work.
+<p>You can mix them, but inside a string defined with simple quotes, you
+can use &quot;hello my name is Michel...&quot;.</p>
 
-You can mix them, but inside a string defined with simple quotes, you
-can use &quot;hello my name is Michel...&quot;.
+<p>This works because I used double quotes inside a string defined with
+simple quotes.</p>
 
-This works because I used double quotes inside a string defined with
-simple quotes.
+<p>I can do the reverse: use simple quotes inside a string defined with
+double quotes.</p>
 
-I can do the reverse: use simple quotes inside a string defined with
-double quotes.
+<p>But if I wanted to use the simple quote like for &quot;I&apos;m your teacher&quot;,
+you see that the color changes because this is not correct.</p>
 
-But if I wanted to use the simple quote like for &quot;I&apos;m your teacher&quot;,
-you see that the color changes because this is not correct.
+<p>In that case you must use the antislash (&#92;)...</p>
 
-So, in that case you must use the antislash (&#92;)...
-
-Like this&hellip; you escape the simple quote that confuses the JavaScript
+<p>Like this&hellip; you escape the simple quote that confuses the JavaScript
 interpreter, and you can, in that case, display simple quotes inside a
 string that has been defined using simple quotes. So, the &#92; character
-is also useful for printing special characters.
+is also useful for printing special characters.</p>
 
-For "s1 = My&#92;n" ... it means &quot;go to the next line&quot;&hellip;
-
+<p>For "s1 = My&#92;n" ... it means &quot;go to the next line&quot;&hellip;
 if I print "s1 = My&#92;&#92;nName&#92;&#92;Is&#92;&#92;Michel". You saw the carriage return
-here, I came to the next line. .
+here, I came to the next line. .</p>
 
-Ok, let me fix it by adding &#92;&#92;n
+<p>Ok, let me fix it by adding &#92;&#92;n</p>
 
-In that case each word is on a different line. You can use also &#92;&#92;t for
-inserting a tab, and &#92;&#92;&#92;&#92; for displaying the &#92;&#92; character itself.
+<p>In that case each word is on a different line. You can use also &#92;&#92;t for
+inserting a tab, and &#92;&#92;&#92;&#92; for displaying the &#92;&#92; character itself.</p>
 
-In that case, you can display the &#92;&#92; character itself using double
-antislash.
+<p>In that case, you can display the &#92;&#92; character itself using double
+antislash.</p>
 
-Ok, let&apos;s talk about string operators. So the "+" operator is the most
+<p>Ok, let&apos;s talk about string operators. So the "+" operator is the most
 common one, it&apos;s useful for concatenating values to any string. Let&apos;s
-look at one example.
+look at one example.</p>
 
-If I say &apos;my name is&apos; + &apos;Michel Buffa', then you see that the result
+<p>If I say &apos;my name is&apos; + &apos;Michel Buffa', then you see that the result
 here is the concatenation of the string 'my name is' and the string
 'Michel Buffa'. You can also use variables of different types, that will
 be converted to strings, if some parts of the + operator, some sides of
-the operator, are strings.
+the operator, are strings.</p>
 
-Ok. If I try&hellip;
+<p>Ok. If I try&hellip;</p>
 
-You see that the value of s is the concatenation of the string &quot;value
+<p>You see that the value of s is the concatenation of the string &quot;value
 of x &quot; and the number value of x (that was 10), has been converted and
-concatenated to it.
+concatenated to it.</p>
 
-There are also some ways to convert variables to strings.
+<p>There are also some ways to convert variables to strings.</p>
 
-x here, is a number, but x = &quot;&quot; + 10; in that case,
-
+<p>x here, is a number, but x = &quot;&quot; + 10; in that case,
 x is a string. So, you can also concatenate string values... so s1 =
 &quot;one&quot;, s2 = &quot;two&quot;, if I concatenate these values here, s is equal to
-the concatenation of s1 and s2.
+the concatenation of s1 and s2.</p>
 
-There is also an assignment operator called += that can be very useful
+<p>There is also an assignment operator called += that can be very useful
 when concatenating values to a string. Like var s=Hello; s+=&quot;My
-friend&quot;, you give a value of s=&quot;Hello my Friend&quot;.
+friend&quot;, you give a value of s=&quot;Hello my Friend&quot;.</p>
 
-The += means s = s+something, so it adds to the end of s. I can also use
+<p>The += means s = s+something, so it adds to the end of s. I can also use
 strings in mathematical operations, and they can be converted
-automatically. So I&apos;ve got s2 that is 10.
+automatically. So I&apos;ve got s2 that is 10.</p>
 
-s2 is a string, and if I do s2=s2 &ast; 2; in that case, s2 has been
-converted automatically.
+<p>s2 is a string, and if I do s2=s2 &ast; 2; in that case, s2 has been
+converted automatically.</p>
 
-The value &quot;10&quot; as a string became 10 as a number. And s2 now is a
+<p>The value &quot;10&quot; as a string became 10 as a number. And s2 now is a
 number that is worth twice its previous value. If I try to use a string
 that is not a number, not a value that can be converted to a number,
 like &quot;hello&quot;&hellip; in that case -if do the same operation- I the result
 is NaN that means &quot;Not a Number&quot;, you cannot convert &quot;hello&quot; to a
 number that can be used in a mathematical expression or multiplied by
-two.
-<!------------------------------------------------------------------------------------------------>
-#### Introduction to string operators
+two.</p>
 
-#### The concatenation operator (+)
+<h4>Introduction to string operators</h4>
+
+<h4>The concatenation operator (+)</h4>
 
 The operator (+) used with strings is called the concatenation operator,
 and it allows you to concatenate strings.
 
-<pre>
-1.  //the operator (+)
+<pre>1.  //the operator (+)
 2.  var s1 = 'one';
 3.  var s2= 'two';
 4.  var s = s1 + s2;
 5.  s;
 6.  // returns 'onetwo'
 7.  typeof s;
-8.  //'string'
-</pre>
+8.  //'string'</pre>
 
 <h4>The shorthand assignment operator (+=)</h4>
 
 <p>The shorthand assignment operator (+=) can also be used to concatenate
 strings.</p>
 
-<pre>
-//the assignment operator (+=)
+<pre>//the assignment operator (+=)
 var s1 = 'one';
 var s2 = 'two';
 s1+= s2; // or directly s1+='two'
@@ -5299,16 +5201,14 @@ var s2 = 'Hello';
 s2+= ' World' + ' JavaScript';
 var s3 = 'Hello';
 s3.concat(' World' , ' JavaScript' );
-//s1,s2 and s3 return 'Hello World JavaScript'
-</pre>
+//s1,s2 and s3 return 'Hello World JavaScript'</pre>
 
 <h4>Converting strings</h4>
 
-A String number in an arithmetic expression is converted to Number,
-unless the formula is a pure addition.
+<p>A String number in an arithmetic expression is converted to Number,
+unless the formula is a pure addition.</p>
 
-<pre>
-&gt; var s = '1'; s = 3 &ast; s; typeof s;
+<pre>&gt; var s = '1'; s = 3 &ast; s; typeof s;
 "number"
  
 &gt; s;
@@ -5333,102 +5233,90 @@ unless the formula is a pure addition.
 undefined
  
 &gt; d &ast; 1;
-NaN
-</pre>
+NaN</pre>
 
 <h4>The above example is shown in the devtools console:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 155. devtools console (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image155.jpeg?raw=true"
-  style="width:50%"
-  title=""
-  alt="." />
+  style="width:35%"
+  title="Devtools console"
+  alt="Devtools console." />
 <!-- ![Devtool console showing var s = &apos;1&apos;; s = 3 &ast; s; typeof s;
 &quot;number&quot; s 3 var s = &apos;1&apos;; s++; typeof s; &quot;number&quot; s 2 var s =
 &quot;100&quot;; typeof s; &quot;string&quot; s = s &ast; 1; 100 typeof s; &quot;number&quot; var d
 = &apos;101 dalmatiens&apos;; undefined d &ast; 1
 NaN](./images/image123.jpeg){width="3.4791666666666665in"
-height="5.458333333333333in"} -->
+height="5.458333333333333in"} 
+-->
 
-#### How to convert a Number into a String
+<h4>How to convert a Number into a String</h4>
 
-There is trick for converting a Number into a String: we concatenate
+<p>There is trick for converting a Number into a String: we concatenate
 with an empty string, at the beginning of expression (type this in the
-devtools):
+devtools):</p>
 
-<pre>
-var n = 1;
+<pre>var n = 1;
 typeof n;
 // returns "number"
 n = "" + n;
 // returns "1"
 typeof n;
-// returns "string"
-</pre>
+// returns "string"</pre>
 
-#### Special character: the &quot;&#92;&#92;&quot;
-The &#92;&#92; is useful for &quot;escaping&quot; special characters. Here are a few
-examples:
+<h4>Special character: the &quot;&#92;&#92;&quot;</h4>
+<p>The &#92;&#92; is useful for &quot;escaping&quot; special characters. Here are a few
+examples:</p>
 
-<pre>
-var s = 'I don't know';
+<pre>var s = 'I don't know';
 var s = "I don't know"; // here the &#92; is useless
 var s = "I don't know";  // same result as previous line
 var s = '"Hello", he said.'; // ok, double quotes inside single one will be displayed
-var s = "&#92;"Hello&#92;", he said."; // double quotes inside double quotes need to be escaped
-</pre>
+var s = "&#92;"Hello&#92;", he said."; // double quotes inside double quotes need to be escaped</pre>
 
-#### Escaping the escape! Use a double &quot;&#92;&quot;
+<h4>Escaping the escape! Use a double &quot;&#92;&quot;</h4>
 
-<pre>
-var s = "1&#92;&#92;2"; s;
-// returns "1&#92;2"
-</pre>
+<pre>var s = "1&#92;&#92;2"; s;
+// returns "1&#92;2"</pre>
 
-#### Special characters starting with &quot;&#92;&quot;
+<h4>Special characters starting with &quot;&#92;&quot;</h4>
 
-##### &quot;&#92;n&quot; for &quot;next line&quot;:
+<h5>&quot;&#92;n&quot; for &quot;next line&quot;:</h5>
 
-<pre>
-var s = '&#92;n1&#92;n2&#92;n3&#92;n';
+<pre>var s = '&#92;n1&#92;n2&#92;n3&#92;n';
 s
 // returns "
 1
 2
 3
-"
-</pre>
+"</pre>
 
-##### &quot;&#92;r&quot; for &quot;carriage return&quot;:
+<h5>&quot;&#92;r&quot; for &quot;carriage return&quot;:</h5>
 
-<pre>
-var s = '1&#92;r2';
+<pre>var s = '1&#92;r2';
 var s = '1&#92;n&#92;r2';
 var s = '1&#92;r&#92;n2';
 // the three previous lines give :
 "1
-2"
-</pre>
+2"</pre>
 
 <h5>&quot;&#92;t&quot; for &quot;insert a tabulation&quot;:</h5>
 
-<pre>
-var s = "1&#92;t2"
+<pre>var s = "1&#92;t2"
 // s is equal to
-"1 2"
-</pre>
+"1 2"</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-9">1.5.9 Objects (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-We have already encountered objects in different examples. You can
-easily recognize these objects:
+<p>We have already encountered objects in different examples. You can
+easily recognize these objects:</p>
 
-They are declared using &quot;{&quot; and &quot;}&quot;, such as in var p = ,
+<p>They are declared using &quot;{&quot; and &quot;}&quot;, such as in var p = ,
 givenName and familyName are called &quot;properties&quot;
-and Michel and Buffa are their respective values.
+and Michel and Buffa are their respective values.</p>
 
-We are using the &quot;.&quot; operator to access their properties or methods.
+<p>We are using the &quot;.&quot; operator to access their properties or methods.
 Example : daysOfTheWeek.length (arrays are objects too - special ones,
 but objects), or document.body or window.innerWidth (try typing that in
 the devtool console). There are plenty of predefined objects in
@@ -5436,25 +5324,25 @@ JavaScript (window, document, navigator, etc.). We have also
 used console.log(&hellip;), and indeed console is a predefined JavaScript
 object. With the object var p = {givenName:&apos;Michel&apos;, familyName:
 &apos;Buffa&apos;}, we can access the properties the same way,
-with: p.givenName and p.familyName.
+with: p.givenName and p.familyName.</p>
 
 <h4>Take a look at some common objects and properties!</h4>
 
-Open your devtool console (F12 or ctrl-alt-i or cmd-alt-i on Mac), go to
+<p>Open your devtool console (F12 or ctrl-alt-i or cmd-alt-i on Mac), go to
 the console tab and type &quot;window&quot; followed by a &quot;.&quot;, normally you
 should see an auto-completion menu. Start typing &quot;inne&quot; and you should
-see some possible completions.
+see some possible completions.</p>
 
-Try looking at the values of the size of the current browser window
+<p>Try looking at the values of the size of the current browser window
 (type window.innerWidth followed by the &quot;enter/return&quot; key,
-type window.innerHeight, etc.).
+type window.innerHeight, etc.).</p>
 
-Try looking at the vendor of your browser: type &quot;navigator.vendor&quot;,
+<p>Try looking at the vendor of your browser: type &quot;navigator.vendor&quot;,
 try looking at the current URL displayed in your window:
-type window.location, etc.
+type window.location, etc.</p>
 
-We will study these objects later, but for the moment, just play with
-objects :-)
+<p>We will study these objects later, but for the moment, just play with
+objects :-)</p>
 
 <pre>
 &gt; window.innerHeight
@@ -5473,57 +5361,53 @@ now all you need to know is that they can have properties that hold
 values. We will return to objects in Week 4 and cover them in further
 detail.
 
-```
-var student1 = {
+<pre>var student1 = {
     fullName:'John Doe',
     age: 23,
     city: 'New York',
     ssn: "11-22-33-44" // no comma at the end of the last property
-}                      // declaration
-```
+}                      // declaration</pre>
 
 Accessing an object&apos;s properties: we use the operator &quot;.&quot;
 
-```
-> student1.ssn
+<pre>&gt; student1.ssn
 "11-22-33-44"
-> student1.age
+&gt; student1.age
 23
-> student1
-[object Object] {
+&gt; student1
+&lbrack;object Object&rbrack; {
     age: 23,
     city: "New York",
     fullName: "John Doe",
     ssn: "11-22-33-44"
-}
-```
+}</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-10">1.5.10 Arrays (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-#### Definition: arrays are containers with indexes
+<h4>Definition: arrays are containers with indexes</h4>
 
-Arrays are a special datatype. You declare arrays using brackets, like
-this:
+<p>Arrays are a special datatype. You declare arrays using brackets, like
+this:</p>
 
 <pre>
 var daysOfWeek = &lbrack;&rbrack;;
 </pre>
 
-You can fill them at declaration time:
+<p>You can fill them at declaration time:</p>
 
 <pre>
 1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
 2.  var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;
 </pre>
 
-#### Elements in an array can be accessed using <b>indexes</b>
+<h4>Elements in an array can be accessed using <b>indexes</b>></h4>
 
-Each element in an array has an index. <b>The first element&apos;s index is
-0</b>, the second element&apos;s index is 1 etc.
+<p>Each element in an array has an index. <b>The first element&apos;s index is
+0</b>, the second element&apos;s index is 1 etc.</p>
 
-To access an element, you use the array variable and &quot;&lbrack;&quot; followed by
-the index value followed by &quot;&rbrack;&quot;, as shown in these examples:
+<p>To access an element, you use the array variable and &quot;&lbrack;&quot; followed by
+the index value followed by &quot;&rbrack;&quot;, as shown in these examples:</p>
 
 <pre>
 1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
@@ -11656,3 +11540,4 @@ element.appendChild(para);
 <!-- last editted 7/19/2024 6:00pm -->
 <!-- last editted 7/20/2024 5:49am -->
 <!-- last editted 7/23/2024 7:17pm -->
+<!-- last editted 7/24/2024 5:34pm -->
