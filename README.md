@@ -5075,48 +5075,32 @@ with double and closed with simple quotes</pre>
   <li>To output HTML in JavaScript, single quotes are more useful</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-7">1.5.7 Strings (part 2)</h3>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-8">1.5.8 String operators (6:44)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Strings can be defined using double quotes, or simple quotes.</p>
-
-<p>Don&apos;t mix double and single quotes, it&apos;s not going to work.</p>
-
-<p>You can mix them, but inside a string defined with simple quotes, you
-can use &quot;hello my name is Michel...&quot;.</p>
-
-<p>This works because I used double quotes inside a string defined with
-simple quotes.</p>
-
-<p>I can do the reverse: use simple quotes inside a string defined with
-double quotes.</p>
+<p>Strings can be defined using double quotes, or simple quotes. Don&apos;t mix 
+double and single quotes, it&apos;s not going to work.
+You can mix them, but inside a string defined with simple quotes, you can use 
+&quot;hello my name is Michel...&quot;. This works because I used double quotes 
+inside a string defined with simple quotes. I can do the reverse: use simple quotes 
+inside a string defined with double quotes.</p>
 
 <p>But if I wanted to use the simple quote like for &quot;I&apos;m your teacher&quot;,
-you see that the color changes because this is not correct.</p>
-
-<p>In that case you must use the antislash (&#92;)...</p>
-
-<p>Like this&hellip; you escape the simple quote that confuses the JavaScript
+you see that the color changes because this is not correct.
+In that case you must use the antislash (&#92;)...
+Like this&hellip; you escape the simple quote that confuses the JavaScript
 interpreter, and you can, in that case, display simple quotes inside a
-string that has been defined using simple quotes. So, the &#92; character
-is also useful for printing special characters.</p>
+string that has been defined using simple quotes.</p>
 
-<p>For "s1 = My&#92;n" ... it means &quot;go to the next line&quot;&hellip;
+<p>The &#92; character is also useful for printing special characters.
+For "s1 = My&#92;n" ... it means &quot;go to the next line&quot;&hellip;
 if I print "s1 = My&#92;&#92;nName&#92;&#92;Is&#92;&#92;Michel". You saw the carriage return
-here, I came to the next line. .</p>
-
-<p>Ok, let me fix it by adding &#92;&#92;n</p>
-
-<p>In that case each word is on a different line. You can use also &#92;&#92;t for
-inserting a tab, and &#92;&#92;&#92;&#92; for displaying the &#92;&#92; character itself.</p>
-
-<p>In that case, you can display the &#92;&#92; character itself using double
+here, I came to the next line. Ok, let me fix it by adding &#92;&#92;n<br>
+In that case each word is on a different line. You can use also &#92;&#92;t for
+inserting a tab, and &#92;&#92;&#92;&#92; for displaying the &#92;&#92; character itself.
+In that case, you can display the &#92;&#92; character itself using double
 antislash.</p>
 
-<p>Ok, let&apos;s talk about string operators. So the "+" operator is the most
+<p>Let&apos;s talk about string operators. So the "+" operator is the most
 common one, it&apos;s useful for concatenating values to any string. Let&apos;s
 look at one example.</p>
 
@@ -5126,129 +5110,136 @@ here is the concatenation of the string 'my name is' and the string
 be converted to strings, if some parts of the + operator, some sides of
 the operator, are strings.</p>
 
-<p>Ok. If I try&hellip;</p>
-
 <p>You see that the value of s is the concatenation of the string &quot;value
 of x &quot; and the number value of x (that was 10), has been converted and
 concatenated to it.</p>
 
-<p>There are also some ways to convert variables to strings.</p>
-
-<p>x here, is a number, but x = &quot;&quot; + 10; in that case,
+<p>There are also some ways to convert variables to strings.
+x here, is a number, but x = &quot;&quot; + 10; in that case,
 x is a string. So, you can also concatenate string values... so s1 =
 &quot;one&quot;, s2 = &quot;two&quot;, if I concatenate these values here, s is equal to
 the concatenation of s1 and s2.</p>
 
 <p>There is also an assignment operator called += that can be very useful
 when concatenating values to a string. Like var s=Hello; s+=&quot;My
-friend&quot;, you give a value of s=&quot;Hello my Friend&quot;.</p>
-
-<p>The += means s = s+something, so it adds to the end of s. I can also use
+friend&quot;, you give a value of s=&quot;Hello my Friend&quot;.<br>
+The += means s = s+something, so it adds to the end of s. I can also use
 strings in mathematical operations, and they can be converted
-automatically. So I&apos;ve got s2 that is 10.</p>
+automatically. So I&apos;ve got s2 that is 10. s2 is a string, and if I do 
+s2=s2 &ast; 2; in that case, s2 has been converted automatically.
+The value &quot;10&quot; as a string became 10 as a number. And s2 now is a
+number that is worth twice its previous value.</p>
 
-<p>s2 is a string, and if I do s2=s2 &ast; 2; in that case, s2 has been
-converted automatically.</p>
-
-<p>The value &quot;10&quot; as a string became 10 as a number. And s2 now is a
-number that is worth twice its previous value. If I try to use a string
-that is not a number, not a value that can be converted to a number,
-like &quot;hello&quot;&hellip; in that case -if do the same operation- I the result
-is NaN that means &quot;Not a Number&quot;, you cannot convert &quot;hello&quot; to a
-number that can be used in a mathematical expression or multiplied by
+<p>If I try to use a string that is not a number, not a value that can be converted 
+to a number, like &quot;hello&quot;&hellip; in that case - if do the same operation - 
+the result is NaN that means &quot;Not a Number&quot;, you cannot convert 
+&quot;hello&quot; to a number that can be used in a mathematical expression or multiplied by
 two.</p>
+<!-- end of video transcript -->
 
 <h4>Introduction to string operators</h4>
 
 <h4>The concatenation operator (+)</h4>
 
-The operator (+) used with strings is called the concatenation operator,
-and it allows you to concatenate strings.
+<p>The operator (+) used with strings is called the concatenation operator,
+and it allows you to concatenate strings.</p>
 
-<pre>1.  //the operator (+)
+<pre>
+1.  //the operator (+)
 2.  var s1 = 'one';
 3.  var s2= 'two';
 4.  var s = s1 + s2;
-5.  s;
-6.  // returns 'onetwo'
-7.  typeof s;
-8.  //'string'</pre>
+5. 
+6.  s;
+7.  // returns 'onetwo'
+8.
+9.  typeof s;
+10. //'string'
+</pre>
 
 <h4>The shorthand assignment operator (+=)</h4>
 
 <p>The shorthand assignment operator (+=) can also be used to concatenate
 strings.</p>
 
-<pre>//the assignment operator (+=)
-var s1 = 'one';
-var s2 = 'two';
-s1+= s2; // or directly s1+='two'
-s1;
-//returns 'onetwo'
-&lt;h4&gt;The method concat()&lt;/h4&gt;
-&lt;p&gt;Another way to concatenate strings is the method concat().&lt;/p&gt;
+<pre>
+1.  //the assignment operator (+=)
+2.  var s1 = 'one';
+3.  var s2 = 'two';
+4.  s1+= s2; // or directly s1+='two'
+5.  s1;
+6.  //returns 'onetwo'
+</pre>
+
+<h4>The method concat()</h4>
+
+<p>Another way to concatenate strings is the method concat():</p>
+
+<pre>
 //the 'concat' method
 var s1 = 'one';
 var s2 ='two';
 var s = s1.concat(s2);
 s;
 //returns 'onetwo'
-&lt;p&gt;All the methods shown above can be used with a variable number of arguments:&lt;/p&gt;
-var s1 = 'Hello';
-s1 = s1 + ' World' + ' JavaScript';
-var s2 = 'Hello';
-s2+= ' World' + ' JavaScript';
-var s3 = 'Hello';
-s3.concat(' World' , ' JavaScript' );
-//s1,s2 and s3 return 'Hello World JavaScript'</pre>
+</pre>
+
+<p>All the methods shown above can be used with a variable number of arguments:</p>
+<pre>
+1. var s1 = 'Hello';
+2. s1 = s1 + ' World' + ' JavaScript';
+3.  
+4. var s2 = 'Hello';
+5. s2+= ' World ' + ' JavaScript';
+6.
+7. var s3 = 'Hello';
+8. s3.concat(' World' , ' JavaScript' );
+9. 
+10. //s1,s2 and s3 return 'Hello World JavaScript'
+</pre>
 
 <h4>Converting strings</h4>
 
 <p>A String number in an arithmetic expression is converted to Number,
 unless the formula is a pure addition.</p>
 
-<pre>&gt; var s = '1'; s = 3 &ast; s; typeof s;
-"number"
- 
-&gt; s;
-3
- 
-&gt; var s = '1'; s++; typeof s;
-"number"
- 
-&gt; s;
-2
- 
-&gt; var s = "100"; typeof s;
-"string"
- 
-&gt; s = s &ast; 1;
-100
- 
-&gt; typeof s;
-"number"
- 
-&gt; var d = "101 dalmatians";
-undefined
- 
-&gt; d &ast; 1;
-NaN</pre>
+<pre>
+1.  &gt; var s = '1'; s = 3 &ast; s; typeof s;
+2.  "number"
+3.  
+4.  &gt; s;
+5.  3
+6.  
+7.  &gt; var s = '1'; s++; typeof s;
+8.  "number"
+9.
+10. &gt; s;
+11. 2
+12.
+13. &gt; var s = "100"; typeof s;
+14. "string"
+15.
+16. &gt; s = s &ast; 1;
+17. 100
+18. 
+19. &gt; typeof s;
+20. "number"
+21. 
+22. &gt; var d = "101 dalmatians";
+23. Undefined
+24. 
+25. &gt; d &ast; 1;
+26. NaN
+</pre>
 
 <h4>The above example is shown in the devtools console:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 155. devtools console (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image155.jpeg?raw=true"
-  style="width:35%"
+  style="width:25%"
   title="Devtools console"
   alt="Devtools console." />
-<!-- ![Devtool console showing var s = &apos;1&apos;; s = 3 &ast; s; typeof s;
-&quot;number&quot; s 3 var s = &apos;1&apos;; s++; typeof s; &quot;number&quot; s 2 var s =
-&quot;100&quot;; typeof s; &quot;string&quot; s = s &ast; 1; 100 typeof s; &quot;number&quot; var d
-= &apos;101 dalmatiens&apos;; undefined d &ast; 1
-NaN](./images/image123.jpeg){width="3.4791666666666665in"
-height="5.458333333333333in"} 
--->
 
 <h4>How to convert a Number into a String</h4>
 
@@ -5283,30 +5274,36 @@ var s = "&#92;"Hello&#92;", he said."; // double quotes inside double quotes 
 
 <h5>&quot;&#92;n&quot; for &quot;next line&quot;:</h5>
 
-<pre>var s = '&#92;n1&#92;n2&#92;n3&#92;n';
+<pre>
+var s = '&#92;n1&#92;n2&#92;n3&#92;n';
 s
 // returns "
 1
 2
 3
-"</pre>
+"
+</pre>
 
 <h5>&quot;&#92;r&quot; for &quot;carriage return&quot;:</h5>
 
-<pre>var s = '1&#92;r2';
+<pre>
+var s = '1&#92;r2';
 var s = '1&#92;n&#92;r2';
 var s = '1&#92;r&#92;n2';
 // the three previous lines give :
 "1
-2"</pre>
+2"
+</pre>
 
 <h5>&quot;&#92;t&quot; for &quot;insert a tabulation&quot;:</h5>
 
-<pre>var s = "1&#92;t2"
+<pre>
+var s = "1&#92;t2"
 // s is equal to
-"1 2"</pre>
+"1 2"
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-9">1.5.9 Objects (part 1)</h3>
+<h3 id="ch1-5-9">1.5.9 Objects, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>We have already encountered objects in different examples. You can
 easily recognize these objects:</p>
@@ -5343,20 +5340,22 @@ type window.location, etc.</p>
 <p>We will study these objects later, but for the moment, just play with
 objects :-)</p>
 
-<pre>&gt; window.innerHeight
+<pre>
+&gt; window.innerHeight
 217
 &gt; window.innerWidth
 1704
 &gt; navigator.vendor
-"Google Inc."</pre>
+"Google Inc."
+</pre>
 
 <h4>You can define your own objects</h4>
 
-There are many ways to create your own JavaScript objects. For the
+<p>There are many ways to create your own JavaScript objects. For the
 moment, let&apos;s stick to the simplest one, &quot;singleton objects&quot;, and for
 now all you need to know is that they can have properties that hold
 values. We will return to objects in Week 4 and cover them in further
-detail.
+detail.</p>
 
 <pre>var student1 = {
     fullName:'John Doe',
