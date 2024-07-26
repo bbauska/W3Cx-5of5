@@ -5357,12 +5357,14 @@ now all you need to know is that they can have properties that hold
 values. We will return to objects in Week 4 and cover them in further
 detail.</p>
 
-<pre>var student1 = {
+<pre>
+var student1 = {
     fullName:'John Doe',
     age: 23,
     city: 'New York',
     ssn: "11-22-33-44" // no comma at the end of the last property
-}                      // declaration</pre>
+}                      // declaration
+</pre>
 
 Accessing an object&apos;s properties: we use the operator &quot;.&quot;
 
@@ -6119,131 +6121,87 @@ And let other students enjoy your creation :D
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-1">2.2.1 Boolean values and logical operators</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Live coding video: boolean value, if&hellip;else statement and comparison
 operators
 
+<!-- image goes here -->
+
 Comparison operators and the if, else statements.
 
-First, let&apos;s look at some code&hellip;
-
-We&apos;ve got a &quot;JavaScriptCourse&quot; variable that we&apos;re gonna set to
-true, it&apos;s a boolean variable.
-
-And we&apos;re gonna see how this variable can be tested in a &quot;if&quot;
-statement.
-
-In order to use the &quot;if&quot; statement, we type &quot;if&quot;, followed by
-parentheses, and by a block of instructions, that will be executed only if what is between
-the parentheses here, is true.
+First, let&apos;s look at some code&hellip; We&apos;ve got a 
+&quot;JavaScriptCourse&quot; variable that we&apos;re gonna set to true, it&apos;s 
+a boolean variable. And we&apos;re gonna see how this variable can be tested in a 
+&quot;if&quot; statement. In order to use the &quot;if&quot; statement, we type 
+&quot;if&quot;, followed by parentheses, and by a block of instructions, that will 
+be executed only if what is between the parentheses here, is true.
 
 I&apos;m gonna put this variable that we set to true, and add an instruction
-inside.
-
-We can see in the console that the instruction in the block has been
+inside. We can see in the console that the instruction in the block has been
 executed, and &quot;This is a JavaScript course&quot; has been printed to the
-console log.
-
-This is because when the thing we test -the expression we test between
-the parentheses-is true, the block of instructions that follows the
+console log. This is because when the thing we test -the expression we test 
+between the parentheses-is true, the block of instructions that follows the
 &quot;if&quot; statement, is executed.
 
 If I set the variable to false and run the example again, then nothing
 is executed because the expression is false and the block of
 instructions is completely avoided.
-
 We can improve this example using an else statement.
-
 &quot;This is NOT a JavaScript course!&quot; I run it again.
-
 And the thing that is executed is the else block of instructions &quot;This
 is NOT a JavaScript course!&quot;.
 
 If I set it back to true, you can see that it&apos;s a bit like a switch. It
-prints: &quot;This is a JavaScript course!&quot;
+prints: &quot;This is a JavaScript course!&quot; Ok, let&apos;s see now comparison 
+operators. They are: less than, more than, less or equals to, more or equals to,
+equals equals (that means &quot;equals&quot;), not equals (that means &quot;different&quot;), 
+and a different version of these last two operators, that are called strict equals 
+and strict not equals operators. And they are written === and !== . These last two 
+syntaxes are preferred because they will avoid you a lot of errors.
 
-Ok, let&apos;s see now comparison operators.
-
-They are: less than, more than, less or equals to, more or equals to,
-equals equals (that means &quot;equals&quot;), not equals (that means
-&quot;different&quot;), and a different version of these last two operators,
-that are called strict equals and strict not equals operators.
-
-And they are written === and !== .
-
-These last two syntaxes are preferred because they will avoid you a lot
-of errors.
-
-I will show the differences in a minute, but consider these last with
-the three equals (===) and not equals equals (==), to be the ones you
-must use.
-
-Let&apos;s see some code now...
-
-I declared the variable &quot;age&quot; with a value of 1, and I added some
-if&hellip; else statements.
-
-If &quot;age&quot; is less than 2, print &quot;I&apos;m a baby&quot;, and you can see that
-this has been executed, because the variable is 1, 1 is less than 2. It&apos;s been
-executed...
-
+I will show the differences in a minute, but consider these last with the three 
+equals (===) and not equals equals (==), to be the ones you must use. Let&apos;s 
+see some code now... I declared the variable &quot;age&quot; with a value of 1, 
+and I added some if&hellip; else statements. If &quot;age&quot; is less than 2, 
+print &quot;I&apos;m a baby&quot;, and you can see that this has been executed, 
+because the variable is 1, 1 is less than 2. It&apos;s been executed...
 I can add some &quot;else&hellip;if&quot; statements.
 
-If age is 10, then in that case I&apos;ll go to the else statement and I
-will test again if in this case, age is less than 18.
-
-I&apos;ll print &quot;I&apos;m a child&quot;.
-
-And this works too. Only the second case has been executed.
+If age is 10, then in that case I&apos;ll go to the else statement and I will 
+test again if in this case, age is less than 18. I&apos;ll print &quot;I&apos;m 
+a child&quot;. And this works too. Only the second case has been executed.
 
 The &quot;if&quot; block of instructions has been ignored, and the second &quot;if&quot;
 block of instructions has been executed.
-
 I can chain the &quot;else&hellip;if&quot; statements like that.
-
 And you can notice that I added at the end only an &quot;else&quot; statement,
 without an &quot;if&quot; behind.
-
 This means: &quot;when all the other cases are false, please come here!&quot;.
-
 If I set my age to be 70, then in that case, all the tests will be
 false, and I will execute the block of instructions that is just after the last &quot;else&quot;,
 and it prints &quot;I&apos;m old&quot;.
 
 I can also try&hellip; if the variable has some exact value using the ==
-operator.
-
-If I set the variable to be 72, then this test is true and it prints
+operator. If I set the variable to be 72, then this test is true and it prints
 &quot;I&apos;m 72&quot; in the devtool console.
-
 We can also use more than one test at once using logical operators.
-
 The double ampersand (&&) here is the AND operator.
-
 This will be true only is age is more than 12 and less than 14.
 
 If I set the variable to 13, it will print &quot;I&apos;m a young teenager&quot;
 because both tests here, > 12 and &lt; 14, are true.
-
 I can use also the OR operator.
-
 In that case, it will be true if one of the two are true.
-
 Let&apos;s try with age = 8.
-
 With age equals to 8, this is false, age > 12, but age &lt; 14 is true,
 it prints &quot;I&apos;m a young teenager&quot;.
 
 Finally, let&apos;s have a look at the === operator.
-
 If I set the age to be &quot;72&quot;, but as a string, like this... it
 prints... let me clear the devtool console and execute it again... it prints &quot;I&apos;m 72&quot;
 because the age variable, that is a string, has been converted
 implicitly to a number.
-
 If I use the triple equal sign, then it does not print anymore &quot;I&apos;m
 72&quot; because age, as a string, has not been converted to a number.
-
 And thrust me, it&apos;s much better to use the triple equals operator, it
 will avoid you many errors like considering a string as a number, and so
 on.
@@ -6257,31 +6215,32 @@ CodePen</a></p>
 such as &quot;<b>if this condition is fulfilled then I&apos;ll do this, otherwise
 I&apos;ll do that&hellip;</b>&quot;, we need to define a few more concepts.</p>
 
-Let&apos;s tart with &quot;boolean values&quot; and &quot;logical operators&quot;.
+Let&apos;s start with &quot;boolean values&quot; and &quot;logical operators&quot;.
 
 <h4>Boolean values</h4>
 
-The <b>boolean</b> type represents a logical entity having two
-values: true and false.
+The <b>boolean</b> type represents a logical entity having two values: true and false.
 
 Use of the keywords true and false:
 
-<pre>1.  var b = true; 
-2.   
-3.  var b = false;</pre>
+<pre>
+1.  var b = true; 
+2.  var b = false;
+</pre>
 
 A boolean variable should not be enclosed in quotation marks, otherwise
 it becomes a string variable:
 
-<pre>1.  var b = 'true'; // b is not a boolean but a string</pre>
+<pre>1. var b = 'true'; // b is not a boolean but a string</pre>
 
 <h4>Undefined and null values</h4>
 
-<h4>Undefined</h4>
+<h5>Undefined</h5>
 
 <p>undefined is returned when a variable has not been assigned:</p>
 
-<pre>1.  var foo;
+<pre>
+1.  var foo;
 2.  &gt; foo
 3.  undefined
 4.   
@@ -6291,7 +6250,8 @@ it becomes a string variable:
 8.  &gt; if (foo === undefined) {
 9.      console.log('The variable foo has no value and is undefined');
 10. }
-11. 'The variable foo has no value and is undefined'</pre>
+11. 'The variable foo has no value and is undefined'
+</pre>
 
 The above example shows how we can test whether a variable has a value
 (<b>line 8</b> uses a conditional statement).
@@ -6299,11 +6259,13 @@ The above example shows how we can test whether a variable has a value
 The keyword &quot;<b>undefined</b>&quot; is part of the JavaScript language, so you
 can assign the undefined value to a variable:
 
-<pre>1.  &gt; var foo = undefined; // equivalent to var foo; without giving any value
+<pre>
+1.  &gt; var foo = undefined; // equivalent to var foo; without giving any value
 2.  undefined
 3.   
 4.  &gt; foo;
-5.  undefined</pre>
+5.  undefined
+</pre>
 
 var foo; and var foo = undefined; are equivalent but we recommend that
 you use the first version to declare the variable (it is shorter, and
@@ -6313,39 +6275,38 @@ If you try to access a variable that has not been declared before,
 a ReferenceError will be raised. But the typeof operator will return
 &quot;undefined&quot;:
 
-<pre>1.  &gt; bar;
+<pre>
+1.  &gt; bar;
 2.  ReferenceError
 3.   
 4.  &gt; typeof bar;
-5.  'undefined'</pre>
+5.  'undefined'
+</pre>
 
 <h4>Logical operators</h4>
 
-The logical operators are: 
+<h4>The logical operators are:</h4>
+
+<ul>
+  <li><b>&&</b> (AND)<br>
+    usage example:<br>
+	if ((x &gt; 0) && (x &lt; 10)) {
+      console.log(&apos;x is strictly positive and less than 10&apos;);
+    }</li>
+  <li><b>&vert;&vert;</b> (OR)<br>
+    usage example: if ((x &gt; 0) &vert;&vert; (x == -5)) {
+      console.log(&apos;x is positive or equal to -5&apos;);
+    }</li>
+  <li><b>!</b> (NOT)<br>
+    usage example: if (!(x &gt; 0)) {
+      console.log(&apos;x is not positive (x is less or equal to 0&apos;);
+    }</li>
+  <li><b>&&</b>, &vert;&vert; operators are binary, ! is unary.</li>
+</ul>
 
 
--   <b>&&</b> (AND)  
-    usage example : <b>if ((x &gt; 0) && (x &lt; 10)) {</b>
-    <b>                 console.log(&apos;x is strictly positive and less
-    than 10&apos;);</b>
-    <b>             }</b>
-
--   <b>&vert;&vert;</b> (OR)
-    usage  example : <b>if ((x &gt; 0) &vert;&vert; (x == -5)) { </b>
-    <b>                 console.log(&apos;x is positive or equal to
-    -5&apos;); </b>
-    <b>             }</b>
-
--   <b>!</b> (NOT)
-    usage example : <b>if (!(x &gt; 0)) { </b>
-    <b>                 console.log(&apos;x is not positive (x is less or
-    equal to 0&apos;); </b>
-    <b>             }</b>
-
--   <b>&&</b>, <b>&vert;&vert;</b> operators are binary, <b>!</b> is unary. 
-
-
-<pre>1.  var b = !true; 
+<pre>
+1.  var b = !true; 
 2.  b; //false
 3.   
 4.  var b = !!true;
@@ -6355,7 +6316,8 @@ The logical operators are: 
 8.  !b;   false // implicit conversion of "one" to a boolean value
 9.   
 10. var b = "one"; // implicit conversion of "one" to a boolean value
-11. !!b; //true</pre>
+11. !!b; //true
+</pre>
 
 <p>In an expression with logical operators, as shown in <b>lines
 8 </b>and<b> 11</b> of the previous example, non-boolean values are
@@ -6381,17 +6343,17 @@ third, and nth conditions from being tested in certain cases:</p>
 2.  var c = 6;
 3.   
 4.  if ((b === 5) &vert;&vert; (b === 6))  { //the second part is never tested
-5.      console.log('b is equal to 5 or equal to 6');
+5.    console.log('b is equal to 5 or equal to 6');
 6.  }
 7.   
 8.  if ((b === 5) && (c === 6)) {  // second part is evaluated
-9.      console.log('b  is equal to 5 and c is equal to 6');
+9.    console.log('b  is equal to 5 and c is equal to 6');
 10. }
 11.  
 12. if ((b === 15) && (c === 6)) {  // second part is never evaluated
-13.     console.log('b  is equal to 5 and c is equal to 6');
+13.   console.log('b  is equal to 5 and c is equal to 6');
 14. } else {
-15.     console.log('b not equal to 15 or c not equal to 6');
+15.   console.log('b not equal to 15 or c not equal to 6');
 16. }
 </pre>
 
@@ -6414,8 +6376,7 @@ are implicitly converted to booleans</b>.</p>
 <b>Everything else is evaluated as true!</b>
 
 <pre>
-1.  var boo = 'hello' && 'world'; // boo is equal to 'world' that
-    is 'true'.
+1.  var boo = 'hello' && 'world'; // boo is equal to 'world' that is 'true'.
 </pre>
 
 In the above example, &apos;hello&apos; && &apos;world&apos; is evaluated as true but
@@ -6427,11 +6388,12 @@ paragraph. If we do : if (boo) then&hellip;. we will enter the if statement.
 The rule is that both && and &vert;&vert; result in the value of (exactly) one
 of their operands:
 
--   A && B returns the value A if A can be coerced into false;
-    otherwise, it returns B.
-
--   A &vert;&vert; B returns the value A if A can be coerced into true;
-    otherwise, it returns B.
+<ul>
+  <li>A && B returns the value A if A can be coerced into false;
+    otherwise, it returns B.</li>
+  <li>A &vert;&vert; B returns the value A if A can be coerced into true;
+    otherwise, it returns B.</li>
+</ul>
 
 External resource: <a href="https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript">
 The && and &vert;&vert; Operators in JavaScript</a>
@@ -6466,21 +6428,16 @@ variable myNumber.
 
 <h4>Comparison operators</h4>
 
--   Equal <b>==</b>
-
--   Not equal <b>!=</b>
-
--   Greater than <b>></b>
-
--   Greater than or equal <b>>=</b>
-
--   Less than <b>&lt;</b>
-
--   Less than or equal to <b>&lt;=</b>
-
--   Strict equal <b>===</b>
-
--   Strict not equal <b>!==</b>
+<ul>
+  <li>Equal <b>==</b></li>
+  <li>Not equal <b>!=</b></li>
+  <li>Greater than <b>&gt;</b></li>
+  <li>Greater than or equal <b>&gt;=</b></li>
+  <li>Less than <b>&lt;</b></li>
+  <li>Less than or equal to <b>&lt;=</b></li>
+  <li>Strict equal <b>===</b></li>
+  <li>Strict not equal <b>!==</b></li>
+</ul>
 
 <h4>What is the difference between <b>==</b> and === in JavaScript?</h4>
 
@@ -6501,10 +6458,10 @@ have the same value.
 Some examples :
 
 <pre>
-1 == 1 ;
+1 == 1;
 //true
  
-1 == 2 ;
+1 == 2;
 //false
  
 /* Here, the interpreter will try to convert the string '1'
@@ -6512,7 +6469,6 @@ into a number before doing the comparison */
  
 1 == '1';
 //true :
- 
  
 //with strict equal, no conversion:
  
@@ -6522,27 +6478,28 @@ into a number before doing the comparison */
 //false
 </pre>
 
-<b>Depending on the context, generally strict equal (or strict not
-equal) is preferred. </b>
+<p>Depending on the context, generally strict equal (or strict not
+equal) is preferred.</p>
 
-<b>[Best practice for beginners]{.underline}: always use === or !== for
-comparisons.</b>
+<p><b>Best practice for beginners: always use === or !== for comparisons.</b></p>
 
-Here are interesting articles:
+<h5>Here are interesting articles:</h5>
 
--   [Why you should use strict
-    equal](https://www.impressivewebs.com/why-use-triple-equals-javascipt/)
-
--   [Equality comparisons and
-    sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+<ul>
+  <li><a href="https://www.impressivewebs.com/why-use-triple-equals-javascipt/">Why you should use strict
+    equal</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness">Equality comparisons and
+    sameness</a></li>
+</ul>
 
 <h4>Specific case of NaN</h4>
 
 As we have already seen, JavaScript has some special values. One of them
 is NaN: "Not-a-Number". 
 
+<h5>NaN has this special property:</h5>
+
 <pre>
-NaN has this special property : 
 NaN == NaN;
 // false
  
@@ -6550,11 +6507,13 @@ NaN === NaN;
 // false
 </pre>
 
-<b> Nan is equal to nothing - not even to itself!</b>  But you do have a
-function to check the NaN value:  isNaN(expr) 
+<p><b>Nan is equal to nothing - not even to itself!</b>. But you do have a
+function to check the NaN value: isNaN(expr).</p>
 
--   isNaN: returns true if the argument coerces to NaN, and otherwise
-    returns false.
+<ul>
+  <li>isNaN: returns true if the argument coerces to NaN, and otherwise
+    returns false.</li>
+</ul>
 
 <pre>
 isNaN(NaN);
@@ -6570,12 +6529,13 @@ isNaN('foo');
 // true
 </pre>
 
-&quot;A reliable way for ECMAScript code to test if a value X is a NaN, is
+<p>&quot;A reliable way for ECMAScript code to test if a value X is a NaN, is
 an expression of the form X !== X. The result will be true if, and only
-if, X is a NaN. &quot; (see
-the [isNan documentation](https://www.ecma-international.org/ecma-262/5.1/#sec-15.1.2.4)).
+if, X is a NaN. &quot; (see the 
+<a href="https://www.ecma-international.org/ecma-262/5.1/#sec-15.1.2.4">
+isNan documentation</a>).</p>
 
-<b>A complete example with isNaN: </b>
+<h5><b>A complete example with isNaN:</b></h5>
 
 <pre>
 var num =0/0;
@@ -6599,61 +6559,50 @@ num;
 //returns 0 in this three cases
 </pre>
 
-Of course 0/0 rarely happens, but there are other cases where NaN can
-appear, for example:
+<p>Of course 0/0 rarely happens, but there are other cases where NaN can
+appear, for example:</p>
 
--   parseInt(&apos;foo&apos;);  returns NaN   //parseInt tries to convert a
-    String to a Number 
-
--   Math.sqrt(-1); return NaN 
-
+<ul>
+  <li>parseInt(&apos;foo&apos;);  returns NaN   //parseInt tries to convert a
+    String to a Number</li>
+  <li>Math.sqrt(-1); return NaN</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-2">2.2.2 Conditional statements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Live coding video: switch statement</p>
+<!-- image goes here -->
 
 Hi! Let&apos;s have a look at the switch statement.
 
 I prepared a small example in which we take a day number between 0 and
 6, 0 for Monday, 1 for Tuesday, and so on...
-
 And to pick a random number that is an integer, we used a formula like
-this,
+this, that uses a predefined object called Math.
 
-that uses a predefined object called Math.
-
-So, Math.random() returns a number between 0 and 1, 6 multiplied by
+Math.random() returns a number between 0 and 1, 6 multiplied by
 this, will give a number between 0 and 7, and we just return the rounded
 nearest integer.
-
 When we execute this, &quot;picked day number&hellip;&quot; you see that it takes
 some random values each time we execute.
-
 If I clear the console and execute this, it will pick a number.
 
 And then, here is a first version that uses &quot;if statements&quot; that is a
 bit naïve.
-
 It says: if day equals 0, then print Monday; if day equals 1 ... ; and
-so on.
-
-Why is it naïve?
-
+so on. Why is it naïve?
 Because we&apos;re going to execute all the tests and we all know that only
 one of them will be true.
 
 Instead of multiplying series the tests, a better version is to use
 &quot;if&hellip; else&quot; statements, like this&hellip; so if day equals 0, then print
 Monday, else if day equals 1, print Tuesday&hellip;
-
 In that case, we&apos;re gonna test just until we find the day, and all the
 else will be ignored.
 
 A much better version uses a switch.
-
 When you&apos;ve got to make multiple tests, it might be more interesting to
-use a switch.
-
-So, switch(day). Then you test with the different possible values, using
+use a switch. switch(day). Then you test with the different possible values, using
 the &quot;case&quot; keyword.
 
 &quot;case 0&quot;: that means that &quot;if day equals 0, then execute
@@ -6678,37 +6627,27 @@ For example, if I want to print &quot;This is a week day, we go to work!&quot;,
 when we&apos;ve got Monday, Tuesday&hellip; any day of the week! And if I want
 to print &quot;Week end!&quot; for Saturday and Sunday, then I can regroup cases
 like that.
-
 You see case 0, case 1, case 2, case 3, case 4&hellip; and then just use a
 break after we executed the block of instructions that is related to all
 these five cases.
-
 Doing this, we will print &quot;Week Day&hellip;&quot; only if the day has a 
 value of 0, 1, 2, 3 or 4, and we will print &quot;Week end!&quot; if it has a
 value of 5 or 6.
-
 Be careful because I saw this error a lot of time with beginners: you
 must use &quot;case&quot; only with a value after it, not an expression!
-
 This thing here case &quot;day greater or equal than 0&quot; or &quot;day less than
 4&quot; is not valid.
 
 You cannot use an expression here, after the case.
-
 This is not going to work.
-
 Avoid!
-
 This&hellip; error!
-
 And finally, there is a better solution to the problem I've illustrated.
-
 It&apos;s not to use any if or any switch&hellip;but use an array!
 
 If we&apos;ve got an array that contains all the string values for the
 days of the week, we can just do a console.log&hellip; daysOfTheWeek&hellip; 
 brackets, and use the day as an index.
-
 And this works too and it&apos;s only two lines of code.
 
 <h4>Example from the video</h4>
@@ -6773,46 +6712,47 @@ commented - please remove comments and try to understand the results).
 <b>if</b> ( Expression ) Statement
 <b>The expression may include:</b></pre>
 
--   logical operators ( <b>! && &vert;&vert;</b> )
-
--   comparison operators
-    ( <b>==</b>, <b>===</b>, <b>></b>, <b>>=</b>, <b>&lt;</b>, <b>&lt;=</b> )
-
--   any values or expressions which can be converted to boolean
+<ul>
+  <li>logical operators ( <b>! && &vert;&vert;</b> )</li>
+  <li>comparison operators
+    ( <b>==</b>, <b>===</b>, <b>></b>, <b>>=</b>, <b>&lt;</b>, <b>&lt;=</b> )
+  <li>any values or expressions which can be converted to boolean</li>
+</ul>
 
 <h4>Example #1: if-statement</h4>
 
-<pre>1.  var num = 10;
-2.  <b>if</b> (num === 10) <b>{</b>
-3.  num = 20;
-4.  <b>}</b>
-5.  // num equals 20</pre>
+<pre>
+1.  var num = 10;
+2.  if (num === 10) {
+3.    num = 20;
+4.  }
+5.  // num equals 20
+</pre>
 
 <h4>Example #2: if-else statement</h4>
 
-<pre>1.  var num = 10;
-2.  <b>if</b> (num >; 10) <b>{</b>
-3.  num = 20;
-4.  <b>}</b> <b>else</b> <b>{</b>
-5.  num = 0;
-6.  <b>}</b>
-7.  // num equals 0</pre>
+<pre>
+1.  var num = 10;
+2.  if (num &gt;; 10) {
+3.    num = 20;
+4.  } else {
+5.    num = 0;
+6.  }
+7.  // num equals 0
+</pre>
 
-<b>Reminder:</b>
+<h5>Reminder:</h5>
 
-The following values will evaluate to false:
+<p>The following values will evaluate to false:</p>
 
--   <b>false</b>
-
--   <b>undefined</b>
-
--   <b>null</b>
-
--   <b>0</b>
-
--   <b>NaN</b>
-
--   <b>&quot;&quot;</b> (empty string)
+<ul>
+  <li><b>false</b></li>
+  <li><b>undefined</b></li>
+  <li><b>null</b></li>
+  <li><b>0</b></li>
+  <li><b>NaN</b></li>
+  <li><b>&quot;&quot;</b> (empty string)</li>
+</ul>
 
 <b>All other values, including all objects, evaluate to true when passed
 to a conditional statement.</b>
@@ -6823,20 +6763,24 @@ to a conditional statement.</b>
 
 <p>Let&apos;s look at this code example:</p>
 
-<pre>1.  var max;
+<pre>
+1.  var max;
 2.  var min = 2;
-3.  if (min &tl; 10) {
-4.  max = min + 10;
+3.  if (min &lt; 10) {
+4.    max = min + 10;
 5.  } else {
-6.  max = min;
-7.  }</pre>
+6.    max = min;
+7.  }
+</pre>
 
 <b>Explanation</b>: You can replace this &quot;if-then-else&quot; statement with
 the ternary operator that uses a syntax with &quot;?&quot; and &quot;:&quot;
 
-<pre>1.  var max;
+<pre>
+1.  var max;
 2.  var min;
-3.  max = (min &tl; 10)? min+10 : min;</pre>
+3.  max = (min &lt; 10)? min+10 : min;
+</pre>
 
 <b>Line 3</b> can be read as if (min &lt; 10) then max = min+10, else max =
 min. The &quot;then&quot; part is after the &quot;?&quot; and the &quot;else&quot; part is after
@@ -6856,18 +6800,21 @@ Here are two versions of the same code.
 
 <b>Version 1: </b>no curly braces
 
-<pre>1.  <b>if</b> (a &gt; 2)
-2.      result = 'a is bigger than 2';
+<pre>
+1.  <b>if</b> (a &gt; 2)
+2.    result = 'a is bigger than 2';
 3.  <b>else</b>
-4.      result = 'a is not bigger than 2';</pre>
+4.    result = 'a is not bigger than 2';
+</pre>
 
 <b>Version 2: </b>with curly braces for delimiting the &quot;then&quot; and
 &quot;else&quot; blocks
 
-<pre>1.  <b>if</b> (a &gt; 2) <b>{</b>
-2.  result = 'a is bigger than 2';
+<pre>
+1.  <b>if</b> (a &gt; 2) <b>{</b>
+2.    result = 'a is bigger than 2';
 3.  <b>} else {</b>
-4.  result = 'a is not bigger than 2';
+4.    result = 'a is not bigger than 2';
 5.  <b>}</b></pre>
 
 Version 1 and version 2 are equivalent. Indeed, version 1 is correct:
@@ -6901,24 +6848,24 @@ The syntax of the switch statement is:
 
 <pre>
 <b>switch</b> (expression) <b>{</b>
-    <b>case</b> value1:
-        statement
-        <b>break</b>;       // break can be omitted in that case
+  <b>case</b> value1:
+    statement
+    <b>break</b>;    // break can be omitted in that case
                      // the second test case will be executed
                      // most of the time we add a break; at the end
                      // of a &quot;case&quot;
  
-    <b>case</b> value2:
-        statement
-        <b>break</b>;
+  <b>case</b> value2:
+    statement
+    <b>break</b>;
 
-    <b>case</b> value3:
-        statement
-        <b>break</b>;
+  <b>case</b> value3:
+    statement
+    <b>break</b>;
  
-    <b>default</b>:         // if no case tested true
-        statement
-        <b>break</b>;
+  <b>default</b>:    // if no case tested true
+    statement
+    <b>break</b>;
 }
 </pre>
 
