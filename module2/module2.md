@@ -4349,6 +4349,7 @@ And here is a reminder of best practice when using the canvas:
 5. **For each function that will change the context (color, line width, coordinate system, etc.), start by saving the context, and end by restoring it**.
 
 #### Example 1: some drawing examples (wireframe and filled rectangle, filled circle, filled text, changing colors)
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -4426,13 +4427,11 @@ window.onload = function init() {
 </html>
 ```
 
-
 ```css
 canvas {
   border: 1px solid black;
 }
 ```
-
 
 ```javascript
 // useful to have them as global variables
