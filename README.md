@@ -1593,9 +1593,7 @@ tags. Usually these tags represent an element that is completely described by
 its attributes, and thus there is no need for other content.  So if you see 
 something like this:</p>
 
-<pre>
-&gt; &lt;img src="https://goo.gl/pVxY0e" alt="Floating Flower"/&gt;
-</pre>
+<pre>&gt; &lt;img src="https://goo.gl/pVxY0e" alt="Floating Flower"/&gt;</pre>
 
 <p>&hellip; then you should know that the slash at the end of the open tag is
 sort of a shorthand for a close tag, so you won&apos;t see any other
@@ -1608,9 +1606,7 @@ needs is declared in an &quot;attribute&quot;.</p>
 be removed entirely, this will still be 
 <a href="https://w3c.github.io/html/syntax.html#void-elements" target="_blank" rel="noopener noreferrer">valid HTML5</a>.</p>
 
-<pre>
-&gt; &lt;img src="https://goo.gl/pVxY0e" alt="Floating Flower"&gt;
-</pre>
+<pre>&gt; &lt;img src="https://goo.gl/pVxY0e" alt="Floating Flower"&gt;</pre>
 
 <p>These elements, without a &quot;/&quot; at the end, are called &quot;void
 elements&quot;. They are : area, base, br, col, embed, hr, img, input, link,
@@ -1627,10 +1623,8 @@ attributes. For example, we&apos;ve already seen how an image can be inserted in
 Web page, and in that example we used the width attribute of the &lt;img&gt; tag in order 
 to constrain the width of the image:</p>
 
-<pre>
-&gt; &lt;img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
-&gt;   width=200 alt="Michel Buffa plays rock&roll"&gt;
-</pre>
+<pre>&gt; &lt;img src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg"
+&gt;   width=200 alt="Michel Buffa plays rock&roll"&gt;</pre>
 
 <p>As you might guess, the &lt;img&gt; tag also has a height attribute, as well as 
 others. Different HTML tags share some common attributes that we&apos;ll meet 
@@ -1651,12 +1645,10 @@ add a height attribute, and see the result:</p>
   alt="CodePen: pbs.twing profile image." />
 </p>
 
-<pre>
-&lt;img
+<pre>&lt;img
   src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg" 
   width=200 
-  alt="Michel Buffa plays rock and roll"&gt;
-</pre>
+  alt="Michel Buffa plays rock and roll"&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. your first html page (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1870,16 +1862,14 @@ in the CSS part, etc.):</p>
 example, you see the CSS rules that have been applied to the HTML
 document. Let&apos;s look at the first one:</p>
 
-<pre>
-1.  h1 {
+<pre>1.  h1 {
 2.    color:red;
 3.    background-color:lightGreen;
 4.    border:12px solid violet;
 5.    padding: 5px;   
 6.    border-radius: 15px;
 7.    text-align: center;
-8.  }
-</pre>
+8.  }</pre>
 
 <p>This rule turns all the h1s in the document into red text, centered
 horizontally, on a light green background, with a violet border of 12
@@ -1903,11 +1893,9 @@ brown (second rule).</p>
 
 <p>The third rule uses what is called &quot;a multiple selector&quot;:</p>
 
-<pre>
-1.  p, h1, h2 {
+<pre>1.  p, h1, h2 {
 2.    font-family: cursive
-3.  }
-</pre>
+3.  }</pre>
 
 <p>This one says that all p, h1 and h2 uses a cursive font character. The
 &quot;,&quot; means &quot;and also&quot;.</p>
@@ -1921,11 +1909,9 @@ should be moved to the right 50 pixels (property margin-left: 50px).</p>
 with an &apos;id&apos; attribute, or grouped with a class of other elements by
 setting the &apos;class&apos; attribute.</p>
 
-<pre>
-1.  &lt;p id="paragraph-1" class="regular-paragraphs"&gt;
+<pre>1.  &lt;p id="paragraph-1" class="regular-paragraphs"&gt;
 2.    Call me Ishmael . . .
-3.  &lt;/p&gt;
-</pre>
+3.  &lt;/p&gt;</pre>
 
 <p>The paragraph above has a unique identifier: the id attribute whose value is 
 &quot;paragraph-1&quot; and is part of a class of &quot;regular-paragraphs&quot;. 
@@ -1974,37 +1960,31 @@ the Google font service
 able to use it in a font-family CSS property, we included its definition
 using a &lt;link&gt; tag in the HTML part of the document:</p>
 
-<pre>
-1.  &lt;head&gt;
+<pre>1.  &lt;head&gt;
 2.    &lt;title&gt;Your first HTML page&lt;/title&gt;
 3.    &lt;meta charset="utf-8"/&gt;
 4.    <b>&lt;link href="https://fonts.googleapis.com/css?family=Caveat"</b>
 5.    <b>rel="stylesheet"&gt;</b>
-6.  &lt;/head&gt;
-</pre>
+6.  &lt;/head&gt;</pre>
 
 <p>The last rule targets all elements that have an
 attribute class=&quot;funny&quot;. Notice they can be different elements, we can
 have a p and an h3 element that have the class=&quot;funny&quot; attribute:</p>
 
-<pre>
-1.  .funny {
+<pre>1.  .funny {
 2.    color:purple;
 3.    font-family: 'caveat';
 4.    font-size:40px;
-5.  }
-</pre>
+5.  }</pre>
 
 <p>This rule changes the color, font family and size of two out of three
 paragraphs in the HTML element:</p>
 
-<pre>
-1.  ...
+<pre>1.  ...
 2.  &lt;p class="funny"&gt;I also play electric guitar and love
       coding WebAudio applications...&lt;/p&gt;
 3.    ...
-4.  &lt;p class="funny">Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;
-</pre>
+4.  &lt;p class="funny">Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;</pre>
 
 <p>There are many, many, many different CSS properties in existence, and
 many different ways to select elements. We recommend that you follow the
@@ -2837,10 +2817,8 @@ target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph</a></h6>
 <p>Two lines in the HTML code that correspond to the inclusion in the
 document of some external JavaScript code:</p>
 
-<pre>
-1.  &lt;script src="https://d3js.org/d3.v3.min.js"&gt;&lt;/script&gt;
-2.  &lt;script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;&lt;/script&gt;
-</pre>
+<pre>1.  &lt;script src="https://d3js.org/d3.v3.min.js"&gt;&lt;/script&gt;
+2.  &lt;script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;&lt;/script&gt;</pre>
 
 <p>We will examine this soon in a later section of the course, but, in
 brief, it means that we will use the <a href="https://d3js.org/" 
@@ -2855,8 +2833,7 @@ target="_blank" rel="noopener noreferrer">
 <p>Then, looking at the JavaScript code of the example (click the JS button
 on the CodePen example), we see:</p>
 
-<pre>
-1.  functionPlot(<b>{</b>
+<pre>1.  functionPlot(<b>{</b>
 2.    <b>target: '#myFunction',</b>
 3.    <b>data: &lbrack;{&lt;</b>
 4.      <b>fn: 'sin(x)',</b>
@@ -2865,8 +2842,7 @@ on the CodePen example), we see:</p>
 7.    <b>grid: true,</b>
 8.      <b>yAxis:{domain: &lbrack;-1, 1&rbrack;},</b>
 9.      <b>xAxis:{domain: &lbrack;0, 2&ast;Math.PI&rbrack;}</b>
-10. <b>}</b>);
-</pre>
+10. <b>}</b>);</pre>
 
 <p>Ok, the syntax looks strange if you are not used to JavaScript, but I bet that 
 you guessed that the function plotted is &quot;sin(x)&quot;, that the color of the 
@@ -3183,10 +3159,8 @@ element:</p>
 <p><b>It listens to click events</b> in order to call
 the changeTitle() function when we click on the button:</p>
 
-<pre>
-1.  &lt;button <b>onclick="changeTitle();</b>"&gt;Click me to change the
-    title of the page&lt;/button&gt;
-</pre>
+<pre>1.  &lt;button <b>onclick="changeTitle();</b>"&gt;Click me to change the
+    title of the page&lt;/button&gt;</pre>
 
 <p>And it executes the whole action (changing the title text) in<b> a
 function</b> (a block of code that is executed only when we call it by
@@ -3769,8 +3743,7 @@ able to type any JavaScript command.
 <p>Let&apos;s look at this example below (or online as a 
 <a href="http://jsbin.com/moqimuz/edit?html,console,output" target="_blank" rel="noopener noreferrer">JS Bin)</a>:</p>
 
-<pre>
-&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&gt;
 &lt;head&gt;
   &lt;meta charset=utf-8 /&gt;
@@ -3782,8 +3755,7 @@ able to type any JavaScript command.
 &lt;body&gt;
   &lt;h1&gt;JavaScript debugging using the dev tool console&lt;/h1&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 <p>The simplest way to add JavaScript code in an HTML page is to use
 the &lt;script&gt;&hellip;&lt;/script&gt; element.</p>
@@ -4814,9 +4786,9 @@ undefined
 <p><b>Be careful with this, don&apos;t start an integer with 0 (zero),
 JavaScript will understand it as an octal value.</b></p>
 
-<pre><code>010 equals 8 which means 1 * 8^1 + 0 * 8^0</code></pre>
+<pre>010 equals 8 which means 1 * 8^1 + 0 * 8^0</pre>
 
-<pre><code>The number 0456 means 4 * 8^2 + 5 * 8^1 + 6 * 8^0</code></pre>
+<pre>The number 0456 means 4 * 8^2 + 5 * 8^1 + 6 * 8^0</pre>
 
 <p><b>Question 1</b>: What&apos;s the result, as an integer, of the
 operation: 24 - 024?</p>
@@ -4834,8 +4806,8 @@ typed number will be considered as an integer.</p>
   <li><b>Hexadecimal</b>: 0xF3</li>
 </ul>
 
-<pre><code>0xFF equals 255, 0xF3 means 15 * 16^1 + 3 * 16^0 and the resulting
-value is 243</code></pre>
+<pre>0xFF equals 255, 0xF3 means 15 * 16^1 + 3 * 16^0 and the resulting
+value is 243</pre>
 
 <h4>Examples of octal and hexadecimal data types:</h4>
 
@@ -5422,12 +5394,10 @@ the index value followed by &quot;&rbrack;&quot;, as shown in these examples:<
 
 #### Use the length property of an array to know its length
 
-<pre>
-1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday', 'Saturday', 'Sunday'&rbrack;;
+<pre>1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday', 'Saturday', 'Sunday'&rbrack;;
 2.  undefined
 3.  daysOfWeek.<b>length</b>
-4.  <b>7</b>
-</pre>
+4.  <b>7</b></pre>
 
 Indeed, there are seven days in a week and the daysOfWeek array
 has seven elements, indexed from <b>0</b> to <b>daysOfWeek.length -1</b>
@@ -5531,21 +5501,17 @@ Functions always return a value:
 
 #### Declaring a function
 
-```
-1.  function sum(a, b) {
+<pre>1.  function sum(a, b) {
 2.      var c = a + b;
 3.      return c;
-4.  }
-```
+4.  }</pre>
 
 #### Calling a function
 
-<pre>
-1.  var result = sum(1, 2);
+<pre>1.  var result = sum(1, 2);
 2.  //result is equal to 3
 3.  console.log(result)
-4.  &gt; 3
-</pre>
+4.  &gt; 3</pre>
 
 <h4>Function parameters</h4>
 
@@ -5745,12 +5711,10 @@ Instead of just displaying pure string messages, you can also use the
 strings.
 Example :
 
-```
-1.  var x = 2;
+<pre>1.  var x = 2;
 2.   
 3.  console.log(<b>"The value of x is " + x + " and it';s ok like
-    that."</b>);
-```
+    that."</b>);</pre>
 
 We typed this code in the devtool console to check what it does:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5770,15 +5734,13 @@ will be turned into a string if the part in front is a string&hellip;
 You can also use parentheses in order to display results of simple
 calculations:
 
-```
-1.  var x = 2;
+<pre>1.  var x = 2;
 2.  var y = 4;
 3.  console.log("x = " + x);
 4.  console.log("y = " + y);
 5.   
 6.  console.log("The value of (x+y) is " + (x+y) + " and it';s ok
-    like that.");
-```
+    like that.");</pre>
 
 Result:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6284,18 +6246,14 @@ values: true and false.
 
 Use of the keywords true and false:
 
-```
-1.  var b = true; 
+<pre>1.  var b = true; 
 2.   
-3.  var b = false;
-```
+3.  var b = false;</pre>
 
 A boolean variable should not be enclosed in quotation marks, otherwise
 it becomes a string variable:
 
-```
-1.  var b = 'true'; // b is not a boolean but a string
-```
+<pre>1.  var b = 'true'; // b is not a boolean but a string</pre>
 
 <h4>Undefined and null values</h4>
 
@@ -6303,19 +6261,17 @@ it becomes a string variable:
 
 <p>undefined is returned when a variable has not been assigned:</p>
 
-```
-1.  var foo;
-2.  > foo
+<pre>1.  var foo;
+2.  &gt; foo
 3.  undefined
 4.   
-5.  > typeof foo;
+5.  &gt; typeof foo;
 6.  'undefined'
 7.   
-8.  >if (foo === undefined) {
+8.  &gt; if (foo === undefined) {
 9.      console.log('The variable foo has no value and is undefined');
 10. }
-11. 'The variable foo has no value and is undefined'
-```
+11. 'The variable foo has no value and is undefined'</pre>
 
 The above example shows how we can test whether a variable has a value
 (<b>line 8</b> uses a conditional statement).
@@ -6323,13 +6279,11 @@ The above example shows how we can test whether a variable has a value
 The keyword &quot;<b>undefined</b>&quot; is part of the JavaScript language, so you
 can assign the undefined value to a variable:
 
-```
-1.  > var foo = undefined; // equivalent to var foo; without giving any value
+<pre>1.  &gt; var foo = undefined; // equivalent to var foo; without giving any value
 2.  undefined
 3.   
-4.  > foo;
-5.  undefined
-```
+4.  &gt; foo;
+5.  undefined</pre>
 
 var foo; and var foo = undefined; are equivalent but we recommend that
 you use the first version to declare the variable (it is shorter, and
@@ -6339,40 +6293,39 @@ If you try to access a variable that has not been declared before,
 a ReferenceError will be raised. But the typeof operator will return
 &quot;undefined&quot;:
 
-```
-1.  > bar;
+<pre>1.  &gt; bar;
 2.  ReferenceError
 3.   
-4.  > typeof bar;
-5.  'undefined'
-```
+4.  &gt; typeof bar;
+5.  'undefined'</pre>
 
 <h4>Logical operators</h4>
 
 The logical operators are: 
 
+
 -   <b>&&</b> (AND)  
-    usage example : <b>if ((x  > 0) && (x &lt; 10)) {</b>
+    usage example : <b>if ((x &gt; 0) && (x &lt; 10)) {</b>
     <b>                 console.log(&apos;x is strictly positive and less
     than 10&apos;);</b>
     <b>             }</b>
 
 -   <b>&vert;&vert;</b> (OR)
-    usage  example : <b>if ((x  > 0) &vert;&vert; (x == -5)) { </b>
+    usage  example : <b>if ((x &gt; 0) &vert;&vert; (x == -5)) { </b>
     <b>                 console.log(&apos;x is positive or equal to
     -5&apos;); </b>
     <b>             }</b>
 
 -   <b>!</b> (NOT)
-    usage example : <b>if (!(x  > 0)) { </b>
+    usage example : <b>if (!(x &gt; 0)) { </b>
     <b>                 console.log(&apos;x is not positive (x is less or
     equal to 0&apos;); </b>
     <b>             }</b>
 
 -   <b>&&</b>, <b>&vert;&vert;</b> operators are binary, <b>!</b> is unary. 
 
-```
-1.  var b = !true; 
+
+<pre>1.  var b = !true; 
 2.  b; //false
 3.   
 4.  var b = !!true;
@@ -6382,28 +6335,28 @@ The logical operators are: 
 8.  !b;   false // implicit conversion of "one" to a boolean value
 9.   
 10. var b = "one"; // implicit conversion of "one" to a boolean value
-11. !!b; //true
-```
+11. !!b; //true</pre>
 
-In an expression with logical operators, as shown in <b>lines
+<p>In an expression with logical operators, as shown in <b>lines
 8 </b>and<b> 11</b> of the previous example, non-boolean values are
-implicitly converted to boolean.
+implicitly converted to boolean.</p>
 
 <h4>Lazy evaluation or short-circuit evaluation</h4>
 
-Logical expressions are evaluated from left to right. JavaScript uses a
+<p>Logical expressions are evaluated from left to right. JavaScript uses a
 mechanism known as &quot;short-circuit evaluation&quot; to prevent the second,
-third, and nth conditions from being tested in certain cases: 
+third, and nth conditions from being tested in certain cases:</p>
 
--   false && something (an expression)  is always false, and the part to
-    the right of && operator is not tested.
+<ul>
+  <li>false && something (an expression)  is always false, and the part to
+    the right of && operator is not tested.</li>
+  <li>true &vert;&vert; something (an expression) is evaluated to true, and the
+    part to the right of the &vert;&vert; operator is not tested.</li>
+<ul>
 
--   true &vert;&vert; something (an expression) is evaluated to true, and the
-    part to the right of the &vert;&vert; operator is not tested.
+<p>Examples:</p>
 
-Examples:
-
-```
+<pre>
 1.  var b = 5;
 2.  var c = 6;
 3.   
@@ -6420,33 +6373,30 @@ Examples:
 14. } else {
 15.     console.log('b not equal to 15 or c not equal to 6');
 16. }
-```
+</pre>
 
 <h4>Implicit conversions of non boolean values in expressions</h4>
 
-Used with logical operators or within statements, <b>non-boolean values
-are implicitly converted to booleans</b>.  
+<p>Used with logical operators or within statements, <b>non-boolean values
+are implicitly converted to booleans</b>.</p>
 
 <b>All the following values are evaluated as false :</b>
 
--   <b>false</b>
-
--   <b>undefined</b>
-
--   <b>null</b>
-
--   <b>0</b>
-
--   <b>NaN</b>
-
--   <b>the empty string &apos;&apos;</b>
+<ul>
+  <li><b>false</b></li>
+  <li><b>undefined</b></li>
+  <li><b>null</b></li>
+  <li><b>0</b></li>
+  <li><b>NaN</b></li>
+  <li><b>the empty string &apos;&apos;</b></li>
+</ul>
 
 <b>Everything else is evaluated as true!</b>
 
-```
+<pre>
 1.  var boo = 'hello' && 'world'; // boo is equal to 'world' that
     is 'true'.
-```
+</pre>
 
 In the above example, &apos;hello&apos; && &apos;world&apos; is evaluated as true but
 will return a value! Indeed, boo will equal &apos;world&apos; because
@@ -6463,8 +6413,8 @@ of their operands:
 -   A &vert;&vert; B returns the value A if A can be coerced into true;
     otherwise, it returns B.
 
-External resource: [The && and &vert;&vert; Operators in
-JavaScript](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript)
+External resource: <a href="https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript">
+The && and &vert;&vert; Operators in JavaScript</a>
 
 <b>TO SUM UP: it works &quot;normally&quot; if you just think true/false, but the
 real value affected is not true false, it&apos;s one of the operands, that
@@ -6472,14 +6422,13 @@ can be seen as true/false.</b>
 
 <pre>1.  <b>var boo2 = (0/0) || 43.2 ;</b></pre>
 
-boo2 equals 43.2 because the expression 0/0 equals NaN, which is evaluated as false.
+<p>boo2 equals 43.2 because the expression 0/0 equals NaN, which is evaluated as false.</p>
 
 <b>Question:</b>
 
-What is the value of the variable myNumber after the execution of this
-code? 
+<p>What is the value of the variable myNumber after the execution of this code?</p>
 
-```
+<pre>
 var myNumber = !1;
  
 if(myNumber == null){
@@ -6487,7 +6436,7 @@ if(myNumber == null){
 }
  
 myNumber = myNumber || 2;
-```
+</pre>
 
 <b>Explanation</b>: after the first line, myNumber equals false. In
 the if statement, at <b>line 3</b>, false does not equal null. Therefore,
@@ -6531,7 +6480,7 @@ have the same value.
 
 Some examples :
 
-```
+<pre>
 1 == 1 ;
 //true
  
@@ -6551,7 +6500,7 @@ into a number before doing the comparison */
 //true
 1 === '1';
 //false
-```
+</pre>
 
 <b>Depending on the context, generally strict equal (or strict not
 equal) is preferred. </b>
@@ -6572,14 +6521,14 @@ Here are interesting articles:
 As we have already seen, JavaScript has some special values. One of them
 is NaN: "Not-a-Number". 
 
-```
+<pre>
 NaN has this special property : 
 NaN == NaN;
 // false
  
 NaN === NaN;
 // false
-```
+</pre>
 
 <b> Nan is equal to nothing - not even to itself!</b>  But you do have a
 function to check the NaN value:  isNaN(expr) 
@@ -6587,7 +6536,7 @@ function to check the NaN value:  isNaN(expr) 
 -   isNaN: returns true if the argument coerces to NaN, and otherwise
     returns false.
 
-```
+<pre>
 isNaN(NaN);
 // true
  
@@ -6599,7 +6548,7 @@ isNaN(12);
  
 isNaN('foo');
 // true
-```
+</pre>
 
 &quot;A reliable way for ECMAScript code to test if a value X is a NaN, is
 an expression of the form X !== X. The result will be true if, and only
@@ -6608,7 +6557,7 @@ the [isNan documentation](https://www.ecma-international.org/ecma-262/5.1/#sec
 
 <b>A complete example with isNaN: </b>
 
-```
+<pre>
 var num =0/0;
  
 if(isNaN(num)){
@@ -6621,14 +6570,14 @@ var num = isNaN(num) ? 0 : num
 var num = num || 0;
  
 /*
-   <=> num = NaN || 0
+   &lt;=&gt; num = NaN || 0
  
-   <=> num = false || 0
+   &lt;=&gt; num = false || 0
 */
  
 num;
 //returns 0 in this three cases
-```
+</pre>
 
 Of course 0/0 rarely happens, but there are other cases where NaN can
 appear, for example:
@@ -6700,9 +6649,7 @@ So you can see that the 3 different versions with the naive if, the
 if-else statement and the switch, give the same result.
 
 Be careful because sometimes, if you forget to use a &quot;break&quot;, you can
-enter
-
-different case statements.
+enter different case statements.
 
 You can make errors if you don&apos;t know what to break keyword means, but
 it can also be useful to regroup cases.
@@ -6716,7 +6663,7 @@ You see case 0, case 1, case 2, case 3, case 4&hellip; and then just use a
 break after we executed the block of instructions that is related to all
 these five cases.
 
-So doing this, we will print &quot;Week Day&hellip;&quot; only if the day has a
+Doing this, we will print &quot;Week Day&hellip;&quot; only if the day has a 
 value of 0, 1, 2, 3 or 4, and we will print &quot;Week end!&quot; if it has a
 value of 5 or 6.
 
@@ -6738,7 +6685,7 @@ And finally, there is a better solution to the problem I've illustrated.
 
 It&apos;s not to use any if or any switch&hellip;but use an array!
 
-So, if we&apos;ve got an array that contains all the string values for the
+If we&apos;ve got an array that contains all the string values for the
 days of the week, we can just do a console.log&hellip; daysOfTheWeek&hellip; 
 brackets, and use the day as an index.
 
@@ -6752,18 +6699,14 @@ JavaScript source code is a set of statements. There are a couple of
 different statement types. We have already seen one of them, the
 variable statement:
 
-```
-1.  var myVar = 'hello ' + 'world';
-```
+<pre>1.  var myVar = 'hello ' + 'world';</pre>
 
 We&apos;ve also seen the expression statement:
 
-```
-1.  3 + 4;
+<pre>1.  3 + 4;
 2.  // more often like this
 3.  var x = (3 + 4);
-4.  var y = (5 + x);
-```
+4.  var y = (5 + x);</pre>
 
 A statement closes with a semicolon, but we will see later that missing
 semicolons are automatically inserted (for readability reasons, we
@@ -6781,13 +6724,11 @@ of statements wrapped in curly braces. 
 
 <h4>Block statement:</h4>
 
-```
-1.  {
+<pre>1.  {
 2.  var i = 0;
 3.  var result = false;
 4.  console.log('i = ' + i);
-5.  }
-```
+5.  }</pre>
 
 The block statement is used by other statements such as the if-statement
 or for-statement. We will see these statements below.
@@ -6829,15 +6770,13 @@ commented - please remove comments and try to understand the results).
 
 <h4>Example #2: if-else statement</h4>
 
-<pre>
-1.  var num = 10;
+<pre>1.  var num = 10;
 2.  <b>if</b> (num >; 10) <b>{</b>
 3.  num = 20;
 4.  <b>}</b> <b>else</b> <b>{</b>
 5.  num = 0;
 6.  <b>}</b>
-7.  // num equals 0
-</pre>
+7.  // num equals 0</pre>
 
 <b>Reminder:</b>
 
@@ -6864,24 +6803,20 @@ to a conditional statement.</b>
 
 <p>Let&apos;s look at this code example:</p>
 
-<pre>
-1.  var max;
+<pre>1.  var max;
 2.  var min = 2;
 3.  if (min &tl; 10) {
 4.  max = min + 10;
 5.  } else {
 6.  max = min;
-7.  }
-</pre>
+7.  }</pre>
 
 <b>Explanation</b>: You can replace this &quot;if-then-else&quot; statement with
 the ternary operator that uses a syntax with &quot;?&quot; and &quot;:&quot;
 
-<pre>
-1.  var max;
+<pre>1.  var max;
 2.  var min;
-3.  max = (min &tl; 10)? min+10 : min;
-</pre>
+3.  max = (min &tl; 10)? min+10 : min;</pre>
 
 <b>Line 3</b> can be read as if (min &lt; 10) then max = min+10, else max =
 min. The &quot;then&quot; part is after the &quot;?&quot; and the &quot;else&quot; part is after
@@ -6901,23 +6836,19 @@ Here are two versions of the same code.
 
 <b>Version 1: </b>no curly braces
 
-<pre>
-1.  <b>if</b> (a &gt; 2)
+<pre>1.  <b>if</b> (a &gt; 2)
 2.      result = 'a is bigger than 2';
 3.  <b>else</b>
-4.      result = 'a is not bigger than 2';
-</pre>
+4.      result = 'a is not bigger than 2';</pre>
 
 <b>Version 2: </b>with curly braces for delimiting the &quot;then&quot; and
 &quot;else&quot; blocks
 
-<pre>
-1.  <b>if</b> (a &gt; 2) <b>{</b>
+<pre>1.  <b>if</b> (a &gt; 2) <b>{</b>
 2.  result = 'a is bigger than 2';
 3.  <b>} else {</b>
 4.  result = 'a is not bigger than 2';
-5.  <b>}</b>
-</pre>
+5.  <b>}</b></pre>
 
 Version 1 and version 2 are equivalent. Indeed, version 1 is correct:
 you can omit curly braces if the &quot;then&quot; or &quot;else&quot; blocks are made of
@@ -6934,76 +6865,74 @@ statement rule&quot;).
 
 Of course, one-line if-statements like this :
 
-```
-1.  if (true) doSomething();
-```
+<pre>1.  if (true) doSomething();</pre>
 
 &hellip;are really fast to write, but if you want to add a second statement
 later it will become more time consuming.
 
 <b>Conclusion: always use curly braces!</b>
 
-#### The switch statement
+<h4>The switch statement</h4>
 
 In order to avoid having a series of ifs and elses, it is possible to
 use a <b>switch</b> statement. 
 
 The syntax of the switch statement is:
 
-```
-**switch** (expression) **{**
-    **case** value1:
+<pre>
+<b>switch</b> (expression) <b>{</b>
+    <b>case</b> value1:
         statement
-        **break**;       // break can be omitted in that case
+        <b>break</b>;       // break can be omitted in that case
                      // the second test case will be executed
                      // most of the time we add a break; at the end
                      // of a &quot;case&quot;
  
-    **case** value2:
+    <b>case</b> value2:
         statement
-        **break**;
+        <b>break</b>;
 
-    **case** value3:
+    <b>case</b> value3:
         statement
-        **break**;
+        <b>break</b>;
  
-    **default**:         // if no case tested true
+    <b>default</b>:         // if no case tested true
         statement
-        **break**;
+        <b>break</b>;
 }
-```
+</pre>
 
 If the value of an expression equals one of the cases (the equality
-operator evaluated is** ===**), all the statements next to this case
-block are executed sequentially until the keyword **break** is reached.
+operator evaluated is<b> ===</b>), all the statements next to this case
+block are executed sequentially until the keyword <b>break</b> is reached.
 
 <h4>Example #1: a common switch/case/default example</h4>
 
-```
+<pre>
 var gear = '';
  
-**switch** (cloudColor) **{**
-    **case** 'green':
+<b>switch</b> (cloudColor) <b>{</b>
+    <b>case</b> 'green':
         gear = 'spacesuit';
         break;
  
-    **case** 'black':
+    <b>case</b> 'black':
         gear = 'boots';
-        **break**;
+        <b>break</b>;
  
-    **case** 'grey':
+    <b>case</b> 'grey':
         gear = 'umbrella';
-        **break**;
+        <b>break</b>;
  
-    **case** 'white':
+    <b>case</b> 'white':
         gear = 'jacket';
-        **break**;
+        <b>break</b>;
  
-    **default**:
+    <b>default</b>:
         gear = 'watch';
-        **break**; // useless if in the last case
-**}** // end of the switch statement
-```
+        <b>break</b>; // useless if in the last case
+<b>}</b> // end of the switch statement
+</pre>
 
 In this example, if the clouds are grey, then my gear will be just an
 umbrella. If they are white, I&apos;ll wear only a jacket, if they are black
@@ -7015,7 +6944,7 @@ executed!
 
 <h4>Example 2#: a switch without &quot;breaks&quot; at the end of each case</h4>
 
-```
+<pre>
 var gear = '';
 
 **switch** (cloudColor) **{**
@@ -7035,7 +6964,7 @@ var gear = '';
     **default**:
         gear += 'watch';
 **}** // end of the switch statement
-```
+</pre>
 
 **Explanation**: if the clouds are black, then my gear will be &apos;boots,
 umbrella, jacket, watch&apos;. If the clouds are green, my gear is a
@@ -7059,7 +6988,7 @@ console to see the outputs of this program):
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -7072,11 +7001,11 @@ And do not forget to open the devtool
 console to see the outputs.
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 /*CONDITIONAL STATEMENTS*/
 /*3 examples which are equivalent*/
 //try to change foo value
@@ -7113,7 +7042,7 @@ bar3 ='something';
 console.log('example1,&#92;n bar1 >> ' + bar1);
 console.log('example2,&#92;n bar2 >> ' + bar2);
 console.log('example3,&#92;n bar3 >> ' + bar3);
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-3">2.2.3 Loop statements</h3>
@@ -7348,7 +7277,7 @@ syntax is different:
 
 Typical example:
 
-```
+<pre>
 1.  var i = 0;
 2.   
 3.  **do {**
@@ -7357,7 +7286,7 @@ Typical example:
 6.  **} while(i < 20);**
 7.   
 8.  console.log('Value of i after the do-while statement: ' + i);
-```
+</pre>
 
 The **do-while statement executes the content of the loop once before
 checking the condition of the while**, whereas a **while statement will
@@ -7387,21 +7316,21 @@ condition is omitted, it is replaced by true (infinite loop).
 
 Typical example (counting from 0 to 10):
 
-```
+<pre>
 1.  for (var i = 0; i <= 10; i++) {
 2.    console.log('i = ' + i);
 3.  }
-```
+</pre>
 
 We can have more than one instruction in the &quot;initialization part&quot;
 (var i = 0), and more than one instruction in the &quot;incrementation
 part&quot; (i++). Here is another example:
 
-```
+<pre>
 1.  for (**var i = 1, j = 1;** i <= 10;** i++, j+=2**) {
 2.  console.log('i = ' + i + ' j = ' + j);
 3.  }
-```
+</pre>
 
 In this example, two variables are defined and assigned within the
 initialization expression. Before each execution of the block statement,
@@ -7420,13 +7349,13 @@ array, which is also an object). 
 
 Its syntax is:
 
-```
+<pre>
 1.  for ( variable in expression ) statement
-```
+</pre>
 
 Typical example:
 
-```
+<pre>
 1.  var michel = {              // michel is an object
 2.      familyName:'Buffa',     // familyName, givenName, age
 3.                              // are its properties
@@ -7442,7 +7371,7 @@ Typical example:
 13.     console.log(michel[property]);  // michel['givenName']  same 
 14.                                     // as michel.givenName
 15. **}**
-```
+</pre>
 
 Before each execution of the block statement, the variable named
 &quot;property&quot; is assigned with the name of one of the properties (the
@@ -7461,15 +7390,15 @@ statement is that the loop continues.
 
 Syntax:
 
-```
+<pre>
 1.  continue [label]
-```
+</pre>
 
 The label is optional.
 
 Typical example:
 
-```
+<pre>
 for(var i = 1, k = 0; i < 5; i++) {
     if (i === 3) {
         continue;
@@ -7479,7 +7408,7 @@ for(var i = 1, k = 0; i < 5; i++) {
     console.log('k += ' + (2*i));
 }
 console.log('Final k value:' + k)
-```
+</pre>
 
 Copy and paste this example in your devtool console, but first, try to
 guess what the value of k will be!
@@ -7494,13 +7423,13 @@ statement.
 
 Syntax:
 
-```
+<pre>
 1.  break [label]
-```
+</pre>
 
 Typical example:
 
-```
+<pre>
 var tab = ['michel', 'john', 'donald', 'paul']; // johh at
 index = 1
  
@@ -7523,7 +7452,7 @@ function isNameInTheArray(name, theArray) {
  
 // Execute the function
 isNameInTheArray('john', tab);
-```
+</pre>
 
 Copy and paste in the devtool console. You&apos;ll see that the function
 that compares each element in the array passed as the second parameter
@@ -7620,17 +7549,17 @@ There are two ways to declare a function.
 
 We&apos;ve already seen that functions can be declared using this syntax:
 
-```
+<pre>
 1.  function functionName(parameters) {
 2.  // code to be executed
 3.  }
-```
+</pre>
 
 A function declared this way can be called like this:
 
-```
+<pre>
 1.  functionName(parameters);
-```
+</pre>
 
 Notice that we do not add a semicolon at the end of a function
 declaration. Semicolons are used to separate executable JavaScript
@@ -7648,7 +7577,7 @@ Here is an example:
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!doctype html>
 <html>
 <head lang=&quot;en&quot;>
@@ -7658,11 +7587,11 @@ Here is an example:
 <body>
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 function sum(a, b) {
 // this function returns a result
 return (a + b);
@@ -7675,7 +7604,7 @@ var result = sum(3, 4);
 displayInPage(&quot;Result: &quot;, result);
 // we could have written this
 displayInPage(&quot;Result: &quot;, sum(10, 15));
-```
+</pre>
 
 In the above example, the sum function returns a value, and
 the displayInPage function does not return anything.
@@ -7697,7 +7626,7 @@ Here is a typical example:
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!doctype html>
 <html>
 <head lang=&quot;en&quot;>
@@ -7707,11 +7636,11 @@ Here is a typical example:
 <body>
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 var sum = function(a, b) {
 return (a + b);
 };
@@ -7723,7 +7652,7 @@ var result = sum(3, 4);
 displayInPage(&quot;Result: &quot;, result);
 // we could have written this
 displayInPage(&quot;Result: &quot;, sum(10, 15));
-```
+</pre>
 
 Notice how the sum and displayInPage functions have been declared. We
 used a variable to store the function expression, then we can call the
@@ -7764,7 +7693,7 @@ document):
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!doctype html>
 <html>
 <head lang=&quot;en&quot;>
@@ -7775,11 +7704,11 @@ document):
 <p>Click in the page!</p>
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 // Add a click event listener on the whole document
 // the processClick function is a callback:
 // a function called by the browser when a click event
@@ -7793,7 +7722,7 @@ argument of the addEventListener function
 window.addEventListener('click', function(evt) {
 document.body.innerHTML += &quot;Button clicked version 2<br>&quot;;
 });
-```
+</pre>
 
 In this case, the processClick function is passed as a parameter to
 the addEventListener method/function.
@@ -7822,7 +7751,7 @@ For example:
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -7833,16 +7762,16 @@ For example:
 <button>Put the mouse cursor over me</button>
 </body>
 </html>
-```
+</pre>
 
 <h5>CSS:</h5>
 
-```
+<pre>
 button:hover {
 color:red;
 border:2px solid;
 }
-```
+</pre>
 
 However, firing a specific action when the button is clicked, knowing
 which mouse button has been used, computing the (x, y) mouse pointer
@@ -8008,13 +7937,13 @@ Here is one possible syntax for registering an event listener that
 listens to &quot;click&quot; events on any part of the window (clicks anywhere
 on a web document will be processed by this event handler):
 
-```
+<pre>
 <script>
     addEventListener('click', function(evt) {
         document.body.innerHTML += 'Button clicked!';
     });
 </script>
-```
+</pre>
 
 <h4>Try it below by clicking anywhere on the document:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8028,7 +7957,7 @@ on a web document will be processed by this event handler):
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -8044,23 +7973,23 @@ document.body.innerHTML += &quot;Button clicked!<br>&quot;;
 <p>Click anywhere on this page</p>
 </body>
 </html>
-```
+</pre>
 
 The addEventListener function is one possible syntax for registering a
 function to be called when a given type of event occurs.
 
-```
+<pre>
 1.  addEventListener(type_of_event, callback_function)
-```
+</pre>
 
 In the example below, the type of event is a &apos;click&apos;, and the callback
 function is the part in bold:
 
-```
+<pre>
 1.  function(evt) {
 2.     console.log(&quot;Button clicked!&quot;);
 3.  }
-```
+</pre>
 
 When this function is small (a few lines of code), it&apos;s common practice
 to put its body as the second parameter of
@@ -8068,19 +7997,19 @@ the addEventListener function.
 
 In other words, this:
 
-```
+<pre>
 1.  <script>
 2.  addEventListener('click', **function(evt) {**
 3.      **document.body.innerHTML += 'Button clicked!';**
 4.  **}**);
 5.  </script>
-```
+</pre>
 
 &hellip; is the same as this (the function called when a click occurs has
 its body &quot;outside&quot; of the addEventListener parameters, and we use its
 name as the second parameter):
 
-```
+<pre>
 1.  <script>
 2.  addEventListener('click',** processClick**);
 3.  
@@ -8088,7 +8017,7 @@ name as the second parameter):
 5.      console.log(&quot;Button clicked!&quot;);
 6.  }
 7.  </script>
-```
+</pre>
 
 #### Adding an event listener to specific HTML elements
 
@@ -8109,7 +8038,7 @@ For example, here is how we can listen to clicks on a specific button
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -8127,7 +8056,7 @@ alert(&quot;Button clicked&quot;);
 </script>
 </body>
 </html>
-```
+</pre>
 
 In this example, instead of using the addEventListener method directly,
 we used it on a DOM object (the button):
@@ -8161,7 +8090,7 @@ of the element:
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -8178,14 +8107,14 @@ alert(&quot;Button clicked&quot;);
 me!</button>
 </body>
 </html>
-```
+</pre>
 
 This syntax:
 
-```
+<pre>
 1.  <button id=&quot;myButton&quot; **onclick=&quot;processClick(event);**&quot;>Click
     me!</button>
-```
+</pre>
 
 &hellip; is ok when you only need a single event listener to click events
 for this button, as there can be only one onclick attribute per element.
@@ -8217,7 +8146,7 @@ is no longer a click event listener attached to it.
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -8238,7 +8167,7 @@ b.removeEventListener('click', processClick);
 </script>
 </body>
 </html>
-```
+</pre>
 
 Note that to remove an event listener, you should have added it with its
 named function, so that we can pass it to
@@ -8252,11 +8181,11 @@ The event object is the only parameter passed to event listeners.
 
 Typical example:
 
-```
+<pre>
 1.  function processClick(**evt**) {
 2.      alert(&quot;Button clicked!&quot;);
 3.  }
-```
+</pre>
 
 Each event listener has a single parameter that is  a &quot;DOM event
 object&quot;. It has various properties and methods that can be very useful.
@@ -8460,7 +8389,7 @@ This first variant that uses <body onload=&quot;init();&quot;>
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -8479,28 +8408,28 @@ This first variant that uses <body onload=&quot;init();&quot;>
   YET</span></p>
 </body>
 </html>
-```
+</pre>
 
 <h5>CSS:</h5>
 
-```
+<pre>
 #pageStatus {
 border:1px solid red;
 padding: 2px;
 color:red;
 }
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 function init() {
 var status = document.querySelector('#pageStatus');
 status.innerHTML = 'LOADED!';
 // start working!
 // &hellip;.
 }
-```
+</pre>
 
 This second variant: using window.onload = init; in the JavaScript
 code&hellip;
@@ -8515,7 +8444,7 @@ code&hellip;
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -8534,7 +8463,7 @@ code&hellip;
   YET</span></p>
 </body>
 </html>
-```
+</pre>
 
 <h5>CSS:</h5>
 
@@ -8577,7 +8506,7 @@ use screen.width and screen.height to display the screen size.
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -8593,7 +8522,7 @@ use screen.width and screen.height to display the screen size.
   <p>Screen size: <span id=&quot;screenSize&quot;></span></p>
 </body>
 </html>
-```
+</pre>
 
 <h5>CSS:</h5>
 
@@ -8633,7 +8562,7 @@ var screenSizeSpan = document.querySelector('#screenSize');
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -8650,7 +8579,7 @@ the percentage of scroll. Look also at the CSS
 code (body is 2000px height, for example)&hellip;</p>
 </body>
 </html>
-```
+</pre>
 
 <h5>CSS:</h5>
 
@@ -8761,7 +8690,7 @@ with a new key property (see the following pages of the course).
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -8775,11 +8704,11 @@ with a new key property (see the following pages of the course).
 <div id=&quot;keys&quot;></div>
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 window.onkeyup = processKeyUp;
 window.onkeydown = processKeyDown;
 /&ast; or we could have written:
@@ -8796,7 +8725,7 @@ var keys = document.querySelector('#keys');
 keys.innerHTML += &quot;keydown: &quot; + evt.key + &quot; code: &quot; + evt.keyCode +
 &quot;<br>&quot;;
 }
-```
+</pre>
 
 <h4>Example #2: see  keypress on the window object</h4>
 
@@ -8819,7 +8748,7 @@ Try to type shift-a for example, ctrl-shift-b or alt-f&hellip;
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -8834,11 +8763,11 @@ Try to type shift-a for example, ctrl-shift-b or alt-f&hellip;
 <div id=&quot;keys&quot;></div>
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 window.onkeydown = processKeyDown;
 /&ast; or we could have written:
 window.addEventListener('keypress', processKeyPress);
@@ -8858,7 +8787,7 @@ if(modifiers === &quot;&quot;)
 modifiers = &quot;NONE&quot;;
 keys.innerHTML += modifiers + &quot;<br>&quot;;
 }
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-6">2.4.6 Dealing with different keyboard layouts</h3>
@@ -9035,7 +8964,7 @@ both for code and key.
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9051,16 +8980,16 @@ both for code and key.
 <p> You typed:</p>
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 window.onkeydown = function(evt) {
 document.body.innerHTML += &quot;key = &quot; + evt.key + &quot;<br>&quot;;
 document.body.innerHTML += &quot;code = &quot; + evt.code + &quot;<br><br>&quot;;
 }
-```
+</pre>
 
 I encourage you to take a look and get at least an overview of this
 specification.
@@ -9092,14 +9021,14 @@ the event occurs.
 The example below is about listening to mouseup and mousedown events
 (when a user presses or releases any mouse button):
 
-```
+<pre>
 canvas.addEventListener('mousedown', function (evt) {
    // do something with the mousedown event
 });
 canvas.addEventListener('mouseup', function (evt) {
    // do something with the mouseup event
 });
-```
+</pre>
 
 The event received by the listener function will be used for getting the
 button number or the coordinates of the mouse cursor. Before looking at
@@ -9142,7 +9071,7 @@ listen to.
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9158,11 +9087,11 @@ listen to.
 <div id=&quot;clicks&quot;></div>
 </body>
 </html>
-```
+</pre>
 
 <h5>CSS:</h5>
 
-```
+<pre>
 #myDiv {
 color:red;
 background-color: pink;
@@ -9171,11 +9100,11 @@ height:100px;
 text-align:center;
 margin:20px;
 }
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 window.onclick = processClick;
 function processClick(evt) {
 var clicks = document.querySelector('#clicks');
@@ -9189,7 +9118,7 @@ clicks.innerHTML += &quot;Element clicked id: &quot; + target + &quot;<br>&quot;
 evt.stopPropagation(); // try commenting it and click on the button or
 div
 }
-```
+</pre>
 
 <h4>Example #2: see the differences between clientX/clientY and pageX/pageY</h4>
 
@@ -9211,7 +9140,7 @@ when embedded in this page!
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9249,11 +9178,11 @@ when embedded in this page!
 </table>
 </body>
 </html>
-```
+</pre>
 
 <h5>CSS:</h5>
 
-```
+<pre>
 body{
 height:4000px;
 font-family:Arial,&quot;Helvetica Neue&quot;,Helvetica,sans-serif;
@@ -9273,11 +9202,11 @@ padding:3px 10px;
 table tr:first-child{
 background:#ddd;
 }
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 var m = ['client','page','screen']; // mods
 &dollar;(document).mousemove(function(e){
 for(var i=0; i<3; i++){
@@ -9287,7 +9216,7 @@ for(var i=0; i<3; i++){
 &dollar;('html, body').scrollTop()
 );
 });
-```
+</pre>
 
 <h4>Example #3: detect a mousemove event and get the mouse position relative to the page</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9301,7 +9230,7 @@ for(var i=0; i<3; i++){
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9317,11 +9246,11 @@ for(var i=0; i<3; i++){
 <div id=&quot;mouseScreenPositions&quot;></div>
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 window.onmousemove = processMouseMouve;
 function processMouseMouve(evt) {
 var mousePositions = document.querySelector('#mousePositions');
@@ -9336,7 +9265,7 @@ mouseScreenPositions.innerHTML = &quot;screenX: &quot; + evt.screenX +
 &quot; screenY: &quot; + evt.screenY +
 &quot;<br>&quot;;
 }
-```
+</pre>
 
 <h4>Example #4: detect a mousemove and get the mouse position relative to the element that fired the event</h4>
 
@@ -9348,7 +9277,7 @@ height="2.0722222222222224in"}
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9367,11 +9296,11 @@ height="2.0722222222222224in"}
 <div id=&quot;mouseScreenPositions&quot;></div>
 </body>
 </html>
-```
+</pre>
 
 <h5>CSS:</h5>
 
-```
+<pre>
 canvas {
 border:4px solid;
 margin-left:20px;
@@ -9380,11 +9309,11 @@ background-color:lightGrey;
 body {
 height:2000px;
 }
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 window.onload = init;
 function init() {
 // page has been loaded
@@ -9397,7 +9326,7 @@ mousePositions.innerHTML = &quot;mouse pos X: &quot; + evt.clientX +
 &quot; mouse pos Y: &quot; + evt.clientY +
 &quot;<br>&quot;
 }
-```
+</pre>
 
 Here is another version that uses clientX/clientY and
 the e.target.getBoundingClientRect() method that returns the bounding
@@ -9412,7 +9341,7 @@ height="2.9541666666666666in"}
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9429,11 +9358,11 @@ height="2.9541666666666666in"}
 <div id=&quot;mouseScreenPositions&quot;></div>
 </body>
 </html>
-```
+</pre>
 
 <h5>CSS:</h5>
 
-```
+<pre>
 canvas {
 border:4px solid;
 margin-left:20px;
@@ -9442,11 +9371,11 @@ background-color:lightGrey;
 body {
 height:2000px;
 }
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 function init() {
 // page has been loaded
 canvas = document.querySelector('#myCanvas');
@@ -9461,11 +9390,11 @@ mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
 &quot; mouse pos Y: &quot; + mouseY +
 &quot;<br>&quot;
 }
-```
+</pre>
 
 <h5>JavaScript source code extract:</h5>
 
-```
+<pre>
 function processMouseMouve(evt) {
     var mousePositions = document.querySelector('#mousePositions');
     // adjust mouse position relative to the canvas
@@ -9476,7 +9405,7 @@ function processMouseMouve(evt) {
                                &quot; mouse pos Y: &quot; + mouseY +
                                &quot;<br>&quot;
 }
-```
+</pre>
 
 <h4>Example #5: combine mouseup, mousedown, mousemove to implement a click and drag behavior</h4>
 
@@ -9485,7 +9414,7 @@ height="2.3618055555555557in"}
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9498,11 +9427,11 @@ height="2.3618055555555557in"}
 <div id=&quot;dragMe&quot; class='draggable'>Drag me!</div>
 </body>
 </html>
-```
+</pre>
 
 <h5>CSS:</h5>
 
-```
+<pre>
 body {
 padding:10px
 }
@@ -9515,11 +9444,11 @@ padding:10px 12px;
 cursor:move;
 position:absolute; /&ast; important (all position that's not 'static') &ast;/
 }
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 window.onmousemove = moveElem;
 window.onmouseup = stopMovingElem;
 window.onload = init;
@@ -9571,14 +9500,14 @@ selected.style.top = elemY + 'px';
 function stopMovingElem() {
 selected = null;
 }
-```
+</pre>
 
 ![](./images/image185.png){width="6.5in"
 height="2.7958333333333334in"}
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9608,11 +9537,11 @@ Close
 <div id=&quot;div2&quot; class=&quot;div&quot;>Another Div without a context menu</div>
 </body>
 </html>
-```
+</pre>
 
 <h5>CSS:</h5>
 
-```
+<pre>
 /&ast; CONTEXT MENU &ast;/
 /&ast; context menu &ast;/
 .context-menu {
@@ -9655,11 +9584,11 @@ height:100px;
 background-color:green;
 height:100px;
 }
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 window.onload = init;
 var menu, menuIsVisible;
 function init() {
@@ -9730,7 +9659,7 @@ function menuItem2() {
 console.log('clear');
 toggleMenuOff();
 }
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-9">2.4.9 Form and input field events</h3>
@@ -9757,7 +9686,7 @@ height="2.4854166666666666in"}
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9781,11 +9710,11 @@ oninput = &quot;validateName(this)&quot;>
 </p>
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 function validateName(field) {
 // this is the input field text content
 var name = field.value;
@@ -9801,7 +9730,7 @@ if(name.length < 5) {
 output.innerHTML = &quot;This name is too short (at least 5 chars)&quot;;
 }
 }
-```
+</pre>
 
 <h4>Second variant: using the &apos;keyup&apos; event:</h4>
 
@@ -9810,7 +9739,7 @@ height="2.4784722222222224in"}
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9835,11 +9764,11 @@ onkeyup = &quot;validateName(event)&quot;>
 </p>
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 function validateName(evt) {
 // this is the input field text content
 var key = evt.key;
@@ -9863,7 +9792,7 @@ var name = evt.target.value;
 evt.target.value = name.substring(0, name.length-1);
 }
 }
-```
+</pre>
 
 Note that HTML5 forms and the multiple facets of form and input field
 validation are covered in depth in the W3C [HTML5 Coding Essentials and
@@ -9877,7 +9806,7 @@ height="2.451388888888889in"}
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9901,11 +9830,11 @@ oninput = &quot;doSomething(event)&quot;> 12
 </p>
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 function doSomething(evt) {
 // this is the slider value
 var val = evt.target.value;
@@ -9913,7 +9842,7 @@ var val = evt.target.value;
 var output = document.querySelector('#sliderValue');
 // display the value typed in the div
 output.innerHTML = &quot;Value selected: &quot; + val;
-```
+</pre>
 
 <h4>Example #3: detect value changes in a number input field</h4>
 
@@ -9923,7 +9852,7 @@ height="2.4923611111111112in"}
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9936,11 +9865,11 @@ height="2.4923611111111112in"}
 using the &apos;input&apos; event</h1>
 <p>type a number or use the small vertical arrows</p>
 <label>
-```
+</pre>
 
 <h5>Type a number:</h5>
 
-```
+<pre>
 <input type=&quot;number&quot;
 min=1
 max=12
@@ -9952,11 +9881,11 @@ oninput = &quot;doSomething(event)&quot;>
 </p>
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 function doSomething(evt) {
 // this is the slider value
 var val = evt.target.value;
@@ -9965,7 +9894,7 @@ var output = document.querySelector(&apos;#numberValue&apos;);
 // display the value typed in the div
 output.innerHTML = &quot;Value selected: &quot; + val;
 }
-```
+</pre>
 
 <h4>Example #4: choose a color and do something</h4>
 
@@ -9974,7 +9903,7 @@ height="2.0520833333333335in"}
 
 <h5>HTML:</h5>
 
-```
+<pre>
 <!DOCTYPE html>
 <html lang=&quot;en&quot;>
 <head>
@@ -9995,11 +9924,11 @@ onchange = &quot;changePageBackgroundColor(this.value);&quot;>
 </p>
 </body>
 </html>
-```
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 function changePageBackgroundColor(color) {
 document.body.style.backgroundColor = color;
 // get the output div
@@ -10007,7 +9936,7 @@ var output = document.querySelector(&apos;#choosedColor&apos;);
 // display the value typed in the div
 output.innerHTML = &quot;Color selected: &quot; + color;
 }
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-10">2.4.10 Reference tables</h3>
@@ -10048,11 +9977,11 @@ really bad practice and causes a host of problems during development.
 
 <h4>**Method #2: attach an event handler to an HTML element in JavaScript**</h4>
 
-```
+<pre>
 1.  document.getElementById(&apos;someDiv&apos;).**onclick **= function() {
 2.  alert(&apos;clicked!&apos;);
 3.  }
-```
+</pre>
 
 This method is fine, but  you will not be able to attach
 multiple **listener** functions. If you need to do this, use the version
@@ -10060,11 +9989,11 @@ shown below.
 
 <h4>**Method #3: register a callback to the event listener with the addEventListener method (preferred  method)**</h4>
 
-```
+<pre>
 1.  document.getElementById(&apos;someDiv&apos;).**addEventListener**(&apos;click&apos;, function() {
 2.  alert(&apos;clicked!&apos;);
 3.  }, false);
-```
+</pre>
 
 Note that the third parameter describes whether the **callback** has to
 be called during the captured phase. This is not important for now, just
@@ -10078,11 +10007,11 @@ When you create an **event listener** and attach it to an element, the
 listener will create an **event object** to describe what happened. This
 object is provided as a parameter of the **callback function**:
 
-```
+<pre>
 1.  element.addEventListener(&apos;click&apos;, function(**event**) {
 2.  **// now you can use event object inside the callback**
 3.  }, false);
-```
+</pre>
 
 Depending on the type of event you are listening to, you will consult
 different properties from the event object in order to obtain useful
@@ -10356,7 +10285,7 @@ the Document Object Model (developers call it the &quot;DOM&quot;).
 Let&apos;s take, for example, a simplified version of the last HTML code we
 showed you:
 
-```
+<pre>
 <!DOCTYPE html&gt;
 <html lang=&quot;en&quot;&gt;
     <head&gt;
@@ -10372,7 +10301,7 @@ of two other W3CX MOOCS.
         </p&gt;
     </body&gt;
 </html&gt;
-```
+</pre>
 
 Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):
@@ -10585,12 +10514,12 @@ requesting the DOM, like jQuery introduced ages ago.
 
 Any CSS  selector can be passed as a parameter for these methods.
 
--   While **querySelector(selector)** will return the first element in
+-   While <b>querySelector(selector)</b> will return the first element in
     the DOM that matches the selector (and you will be able to work with
     it directly),
 
--   **querySelectorAll(selector) returns a collection of HTML elements
-    corresponding to all elements matching the selector**. To process
+-   <b>querySelectorAll(selector) returns a collection of HTML elements
+    corresponding to all elements matching the selector</b>. To process
     the results, it will be necessary to loop over each of the elements
     in the collection.
 
@@ -10670,12 +10599,12 @@ img.width = 100;
 }
 ```
 
-**Source code from the above example:**
+<b>Source code from the above example:</b>
 
-**HTML part**: we have two buttons that will call a JavaScript function
-(**lines 2 and 6**) where we will manipulate the DOM), and we have four
-images, the first one with an id equal to &quot;img1&quot; (**lines 11, 14, 16
-and 18**). 
+<b>HTML part</b>: we have two buttons that will call a JavaScript function
+(<b>lines 2 and 6</b>) where we will manipulate the DOM), and we have four
+images, the first one with an id equal to &quot;img1&quot; (<b>lines 11, 14, 16
+and 18</b>). 
 
 ```
 1.  &hellip;
@@ -10700,11 +10629,11 @@ and 18**). 
 20. &hellip;
 ```
 
-**JavaScript part**: the init function is executed as soon as the page
+<b>JavaScript part</b>: the init function is executed as soon as the page
 is loaded (and the DOM is ready), in this function we add a shadow and
-margins to all images (**lines 3-21**). The two other functions are
-called when one of the HTML buttons is clicked (**line 23 and line
-31**).
+margins to all images (<b>lines 3-21</b>). The two other functions are
+called when one of the HTML buttons is clicked (<b>line 23 and line
+31</b>).
 
 ```
 1.  window.onload = init; // run init once the page is loaded
@@ -10750,7 +10679,7 @@ you are not familiar with their syntax, we recommend that you follow the
 CSS basics, and HTML5 and CSS fundamentals courses
 from [W3Cx](https://www.edx.org/school/w3cx).
 
-<h4>**Example #1: get all &lt;li&gt; directly in a &lt;ul&gt; of class nav**</h4>
+<h4><b>Example #1: get all &lt;li&gt; directly in a &lt;ul&gt; of class nav</b></h4>
 
 ![](./images/image201.png){width="6.5in"
 height="3.803472222222222in"}
@@ -10968,7 +10897,7 @@ by this list:
 11. });
 12. document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
 13. }
-```
+</pre>
 
 <h4>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10983,7 +10912,7 @@ by this list:
 
 <h5>HTML code:</h5>
 
-```
+<pre>
 1.  <button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);<b>&quot;>Change
     backgrounds of p under a given element known by id</button>
 2.  <br>
@@ -10991,7 +10920,7 @@ by this list:
 4.  <p>First paragraph.</p>
 5.  <p>Second paragraph.</p>
 6.  </div>
-```
+</pre>
 
 JavaScript code: we build a CSS selector using the id passed as a
 parameter. In this example, the id is &apos;firstDiv&apos;, the id of the div
@@ -11006,7 +10935,7 @@ alternative method to using the forEach method used in previous
 examples) (*lines 5-7*), and we change the background of all selected
 paragraphs (*line 6*).
 
-```
+</pre>
 1.  function changeBackGroundOfPs(id) {
 2.  var paragraphs = document.querySelectorAll(&quot;#&quot; + id + &quot; p&quot;);
 3.  // Another way to iterate on all elements in a collection
@@ -11014,11 +10943,11 @@ paragraphs (*line 6*).
 5.  paragraphs[i].style.backgroundColor = &quot;lightGreen&quot;;
 6.  }
 7.  }
-```
+</pre>
 
 <h5>Other examples that use more complex selectors:</h5>
 
-```
+</pre>
 1.  // all elements li in ul elements in an element of id=nav
 2.  var el = document.querySelector(&apos;#nav ul li&apos;);
 3.  // all li in a ul, but only even elements
@@ -11032,7 +10961,7 @@ paragraphs (*line 6*).
 11. // first p in a div
 12. var div = document.getElementById(&quot;bar&quot;);
 13. var p = div.querySelector(&quot;p&quot;);
-```
+</pre>
 
 ### Accessing HTML elements with the DOM API (old fashioned)
 
@@ -11085,12 +11014,12 @@ the style attribute.
 
 <h5>Typical use:</h5>
 
-```
+</pre>
 // select the paragraph with id = &quot;paragraph1&quot;
 var p = document.querySelector(&apos;#paragraph1&apos;);
 // change its color
 p.style.color = &apos;red&apos;;
-```
+</pre>
 
 <b>Warning</b>: with the style attribute, you can modify (or read) any CSS
 property, but be careful: the syntax changes a little due to the fact
@@ -11208,7 +11137,7 @@ change the text color, we use a CSS class named &quot;checked&quot;:
 
 <h5>CSS code:</h5>
 
-```
+</pre>
 1.  .checked {
 2.  border: 2px dashed #000;
 3.  background-color: green;
@@ -11217,17 +11146,17 @@ change the text color, we use a CSS class named &quot;checked&quot;:
 &hellip; and
 the classList.add(CSS_class) and classList.remove(CSS_class) methods on
 the <li> elements:
-```
+</pre>
 
 <h5>JavaScript code:</h5>
 
-```
+</pre>
 1.  function displayListOfCheckedItems() {
 2.  // all inputs that have been checked
 3.  var listOfSelectedValues=&quot;&quot;;
 4.  var list = document.querySelectorAll(&quot;#fruits input:checked&quot;);
 5.  list.forEach(function(elm) {
-```
+</pre>
 
     -   listOfSelectedValues += elm.value + &quot; &quot;;
 
@@ -11239,7 +11168,7 @@ the <li> elements:
 
     -   <b>liParent.classList.add(&quot;checked&quot;);</b>
 
-```
+</pre>
 });
 document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
 }
@@ -11257,7 +11186,7 @@ list.forEach(function(elm) {
 > <b>liParent.classList.remove(&quot;checked&quot;);</b>
 12. });
 13. }
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-5">2.5.5 Modifying selected HTML elements</h3>
