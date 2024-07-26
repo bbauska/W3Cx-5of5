@@ -2824,8 +2824,10 @@ target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph</a></h6>
 <p>Two lines in the HTML code that correspond to the inclusion in the
 document of some external JavaScript code:</p>
 
-<pre>1.  &lt;script src="https://d3js.org/d3.v3.min.js"&gt;&lt;/script&gt;
-2.  &lt;script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;&lt;/script&gt;</pre>
+<pre>
+1.  &lt;script src="https://d3js.org/d3.v3.min.js"&gt;&lt;/script&gt;
+2.  &lt;script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;&lt;/script&gt;
+</pre>
 
 <p>We will examine this soon in a later section of the course, but, in
 brief, it means that we will use the <a href="https://d3js.org/" 
@@ -2840,7 +2842,8 @@ target="_blank" rel="noopener noreferrer">
 <p>Then, looking at the JavaScript code of the example (click the JS button
 on the CodePen example), we see:</p>
 
-<pre>1.  functionPlot(<b>{</b>
+<pre>
+1.  functionPlot(<b>{</b>
 2.    <b>target: '#myFunction',</b>
 3.    <b>data: &lbrack;{&lt;</b>
 4.      <b>fn: 'sin(x)',</b>
@@ -2849,7 +2852,8 @@ on the CodePen example), we see:</p>
 7.    <b>grid: true,</b>
 8.      <b>yAxis:{domain: &lbrack;-1, 1&rbrack;},</b>
 9.      <b>xAxis:{domain: &lbrack;0, 2&ast;Math.PI&rbrack;}</b>
-10. <b>}</b>);</pre>
+10. <b>}</b>);
+</pre>
 
 <p>Ok, the syntax looks strange if you are not used to JavaScript, but I bet that 
 you guessed that the function plotted is &quot;sin(x)&quot;, that the color of the 
@@ -2883,7 +2887,7 @@ and the range of the y values is &lbrack;-1, 1&rbrack;.</p>
 
 <p>You can think of this code in this way:</p>
 
-<pre>1.  functionPlot(...);</pre>
+<pre>1. functionPlot(...);</pre>
 
 <!-- page 79 -->
 <p>Where the &quot;&hellip;&quot; corresponds to some sort of parameter. When you see a
@@ -2907,7 +2911,8 @@ for the x and y values, with or without a grid, etc.</p>
 <p>Let&apos;s have a look at the parameters we used in our example (the ones
 you tweaked). They are in bold in the source code we saw earlier:</p>
 
-<pre>1.  {
+<pre>
+1.  {
 2.    <b>target</b>: '#myFunction',
 3.    <b>data</b>: &lbrack;{
 4.      fn: 'sin(x)',
@@ -2920,7 +2925,8 @@ you tweaked). They are in bold in the source code we saw earlier:</p>
 11.   <b>xAxis</b>: {
 12.     domain: &lbrack;0, 2&ast;Math.PI&rbrack;
 13.   }
-14. }</pre>
+14. }
+</pre>
 
 <h4>JavaScript object</h4>
 
@@ -2933,10 +2939,12 @@ much detail.</p>
 <p>A JavaScript object can be defined by two braces with a set of
 properties/values inside, separated by a comma. Here is a simple object:</p>
 
-<pre>1.  {
+<pre>
+1.  {
 2.    givenName: "Michel",
 3.    familyName: "Buffa"
-4.  }</pre>
+4.  }
+</pre>
 
 <p>We use the &quot;:&quot; separator between the property name and its value. We
 use a comma between two properties, and we omit the comma after the last
@@ -2983,16 +2991,20 @@ Notice that between the name of the properties and the value there is a
 <p>If we look at the values of the xAxis and yAxis properties, they
 are also objects.</p>
 
-<pre>1.  xAxis: {
-2.  domain: &lbrack;0, 2&ast;Math.PI&rbrack;
-3.  }</pre>
+<pre>
+1.  xAxis: {
+2.    domain: &lbrack;0, 2&ast;Math.PI&rbrack;
+3.  }
+</pre>
 
 <p>The data object is even more complicated:</p>
 
-<pre>1.  data: &lbrack;{
+<pre>
+1.  data: &lbrack;{
 2.    fn: 'sin(x)',
 3.    color: 'red'
-4.  }&rbrack;,</pre>
+4.  }&rbrack;,
+</pre>
 
 <p>Instead of containing another object like xAxis or yAxis, it contains
 another sort of object, but inside brackets! <b>In JavaScript, brackets
@@ -3539,7 +3551,7 @@ JavaScript files in a js subfolder.
 6.  &lt;/head&gt;
 7.  &lt;body&gt;
 8.    &lt;h1&gt;Example 3: JavaScript and CSS in local files!&lt;/h1&gt;
-9.    &lt;button <b>onclick="addSomeText();&lt;/b&gt;"&gt;Click me to call a
+9.    &lt;button <b>onclick="addSomeText()</b>"&gt;Click me to call a
         JavaScript function that will add some content to this
         document&lt;/button&gt;
 10. &lt;/body&gt;
