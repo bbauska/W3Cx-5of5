@@ -1884,7 +1884,7 @@ to what is inside the braces.</p>
 <p>The part inside the braces is a set of properties and values that are
 useful for setting the look and feel of the selected elements.</p>
 
-<p><b>Line 2</b> for example, says that all h1s is colored in red.</p>
+<p><b>Line 2</b> for example, says that all h1s are colored in red.</p>
 
 <h4>CSS rules are applied in sequence</h4>
 
@@ -1940,15 +1940,19 @@ Best practice is to name these things to increase clarity, consistency and brevi
 <p>The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
 in our case it&apos;s the second h2 element:</p>
 
-<pre>1.  &lt;h2 <b>id="hobbyTitle"</b>&gt;My Hobbies&lt;/h2&gt;</pre>
+<pre>
+1.  &lt;h2 <b>id="hobbyTitle"</b>&gt;My Hobbies&lt;/h2&gt;
+</pre>
 
 <h5>And here is the CSS rule:</h5>
 
-<pre>1.  <b>#hobbyTitle</b> {
+<pre>
+1.  <b>#hobbyTitle</b> {
 2.    font-family: 'caveat';
 3.    font-size:40px;
 4.    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-5.  }</pre>
+5.  }
+</pre>
 
 <p><b>Line 1</b> uses the &quot;#&quot; character in the selector, meaning that we&apos;re
 going to select an element by its id attribute. In this case, the
@@ -1961,12 +1965,14 @@ the Google font service
 able to use it in a font-family CSS property, we included its definition
 using a &lt;link&gt; tag in the HTML part of the document:</p>
 
-<pre>1.  &lt;head&gt;
+<pre>
+1.  &lt;head&gt;
 2.    &lt;title&gt;Your first HTML page&lt;/title&gt;
 3.    &lt;meta charset="utf-8"/&gt;
 4.    <b>&lt;link href="https://fonts.googleapis.com/css?family=Caveat"</b>
 5.    <b>rel="stylesheet"&gt;</b>
-6.  &lt;/head&gt;</pre>
+6.  &lt;/head&gt;
+</pre>
 
 <p>The last rule targets all elements that have an
 attribute class=&quot;funny&quot;. Notice they can be different elements, we can
@@ -3533,7 +3539,7 @@ JavaScript files in a js subfolder.
 6.  &lt;/head&gt;
 7.  &lt;body&gt;
 8.    &lt;h1&gt;Example 3: JavaScript and CSS in local files!&lt;/h1&gt;
-9.    &lt;button &lt;b&gt;onclick="addSomeText();&lt;/b&gt;"&gt;Click me to call a
+9.    &lt;button <b>onclick="addSomeText();&lt;/b&gt;"&gt;Click me to call a
         JavaScript function that will add some content to this
         document&lt;/button&gt;
 10. &lt;/body&gt;
@@ -3744,7 +3750,8 @@ able to type any JavaScript command.
 <p>Let&apos;s look at this example below (or online as a 
 <a href="http://jsbin.com/moqimuz/edit?html,console,output" target="_blank" rel="noopener noreferrer">JS Bin)</a>:</p>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&gt;
 &lt;head&gt;
   &lt;meta charset=utf-8 /&gt;
@@ -3756,7 +3763,8 @@ able to type any JavaScript command.
 &lt;body&gt;
   &lt;h1&gt;JavaScript debugging using the dev tool console&lt;/h1&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <p>The simplest way to add JavaScript code in an HTML page is to use
 the &lt;script&gt;&hellip;&lt;/script&gt; element.</p>
@@ -6915,7 +6923,7 @@ var gear = '';
 <b>switch</b> (cloudColor) <b>{</b>
     <b>case</b> 'green':
         gear = 'spacesuit';
-        break;
+        <b>break;</b>
  
     <b>case</b> 'black':
         gear = 'boots';
@@ -6948,26 +6956,26 @@ executed!
 <pre>
 var gear = '';
 
-**switch** (cloudColor) **{**
-    **case** 'green':
+<b>switch</b> (cloudColor) <b>{</b>
+    <b>case</b> 'green':
         gear += 'spacesuit';
-        **break**;
+        <b>break</b>;
  
-    **case** 'black':
+    <b>case</b> 'black':
         gear += 'boots, ';
  
-    **case** 'grey':
+    <b>case</b> 'grey':
         gear += 'umbrella, ';
  
-    **case** 'white':
+    <b>case</b> 'white':
         gear += 'jacket, ';
  
-    **default**:
+    <b>default</b>:
         gear += 'watch';
-**}** // end of the switch statement
+<b>}</b> // end of the switch statement
 </pre>
 
-**Explanation**: if the clouds are black, then my gear will be &apos;boots,
+<b>Explanation</b>: if the clouds are black, then my gear will be &apos;boots,
 umbrella, jacket, watch&apos;. If the clouds are green, my gear is a
 spacesuit (because of the break keyword, other cases will not be
 tested). If the cloud color is not in the listed colors, then my gear is
@@ -7200,12 +7208,12 @@ step by step and see how your program executes loops.
 
 <h4>The while statement</h4>
 
-With a **while** statement, a block of code is executed repeatedly while
+With a <b>while</b> statement, a block of code is executed repeatedly while
 the specified condition is satisfied (evaluates to true).
 
 <h4>Syntax:</h4>
 
-**while ( condition ) statement**
+<b>while ( condition ) statement</b>
 
 The condition is an expression, and the statement can be a block
 statement.
@@ -7220,23 +7228,23 @@ Typical example of a while statement:
 6.  <b>}</b>
 7.  &hellip;</pre>
 
-The block inside the while (**lines 4 and 5**) will be executed three
+The block inside the while (<b>lines 4 and 5</b>) will be executed three
 times:
 
--   **Line 1** initializes i with a value of 1.
+-   <b>Line 1</b> initializes i with a value of 1.
 
--   We enter the while statement at **line 3**. Is the value
+-   We enter the while statement at <b>line 3</b>. Is the value
     of i strictly less than 4?
 
 -   Yes, the variable i is equal to 1, we enter the statement inside
     the while.
 
--   **Run 1:**
+-   <b>Run 1:</b>
 
-    -   We execute **line 4**: j += i; (equivalent to j = j + i).
-        As j was set to 1 at **line 1**, j is now equal to 2.
+    -   We execute <b>line 4</b>: j += i; (equivalent to j = j + i).
+        As j was set to 1 at <b>line 1</b>, j is now equal to 2.
 
-    -   We execute **line 5** and increment i by one. The variable i is
+    -   We execute <b>line 5</b> and increment i by one. The variable i is
         now equal to 2.
 
     -    We go back to the while at **line 3**. Is i < 4? Yes, we
@@ -8719,12 +8727,12 @@ window.addEventListener('keydown', processKeyDown);
 function processKeyUp(evt) {
 var keys = document.querySelector('#keys');
 keys.innerHTML += &quot;keyup: &quot; + evt.key + &quot; code: &quot; + evt.keyCode +
-  &quot;<br>&quot;;
+  &quot;&lt;br&gt;&quot;;
 }
 function processKeyDown(evt) {
 var keys = document.querySelector('#keys');
 keys.innerHTML += &quot;keydown: &quot; + evt.key + &quot; code: &quot; + evt.keyCode +
-&quot;<br>&quot;;
+&quot;&lt;br&gt;&quot;;
 }
 </pre>
 
@@ -8739,9 +8747,9 @@ on [CodePen](https://codepen.io/).
 
 Try to type shift-a for example, ctrl-shift-b or alt-f&hellip;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image198.png?raw=true"
+<img src="./images/image206.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8750,20 +8758,20 @@ Try to type shift-a for example, ctrl-shift-b or alt-f&hellip;
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>Example of the 'keypress' event on the window object, awith
-  shift, meta and alt</title>
-</head>
-<body>
-<p>Please type some keys and see what happens. Try typing key
-  modifiers at the same time: shift, alt, control</p>
-<div id=&quot;keys&quot;></div>
-</body>
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;Example of the 'keypress' event on the window object, awith
+  shift, meta and alt&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;Please type some keys and see what happens. Try typing key
+  modifiers at the same time: shift, alt, control&lt;/p&gt;
+&lt;div id=&quot;keys&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -8832,17 +8840,17 @@ page](https://en.wikipedia.org/wiki/Keyboard_layout)!
 <h4>[QWERTY](https://en.wikipedia.org/wiki/QWERTY) layout, used in US, GB, etc.</h4>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image199.png?raw=true"
+<img src="./images/image207.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 <!-- ![QWERTY keyboard layout](./images/image169.png){width="5.208333333333333in" height="1.7395833333333333in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 208.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image200.png?raw=true"
+<img src="./images/image208.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8852,9 +8860,9 @@ page](https://en.wikipedia.org/wiki/Keyboard_layout)!
 
 DVORAK:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 209.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image201.png?raw=true"
+<img src="./images/image209.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8862,9 +8870,9 @@ DVORAK:
 
 QWERTZ:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image202.png?raw=true"
+<img src="./images/image210.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8872,9 +8880,9 @@ QWERTZ:
 
 <h4>Saudi Arabic keyboard layout (see more [Arabic keyboards](https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards)):</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 211.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image203.png?raw=true"
+<img src="./images/image211.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8882,9 +8890,9 @@ QWERTZ:
 
 <h4>[Bangla National (Jatiyo) keyboard](https://en.wikipedia.org/wiki/Bengali_input_methods#Bangla_Jatiyo):</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image204.png?raw=true"
+<img src="./images/image212.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9272,31 +9280,36 @@ mouseScreenPositions.innerHTML = &quot;screenX: &quot; + evt.screenX +
 
 Here is a first version that does not work well due to a naive use of
 clientX/PageX and clientY/pageY mouse event properties:
-
-![](./images/image182.png){width="6.5in"
-height="2.0722222222222224in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image212.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<!-- ![](./images/image182.png){width="6.5in" height="2.0722222222222224in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>mousemove events relative to page</title>
-</head>
-<body>
-<h1>Please move the mouse on the grey canvas below!</h1>
-<p>The mouse position is not correct (try to move the cursor at the
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;mousemove events relative to page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Please move the mouse on the grey canvas below!&lt;/h1&gt;
+&lt;p&gt;The mouse position is not correct (try to move the cursor at the
   top left corner of the cavas: it should be 0,0 but it isn't. And if you
   scroll the page it's worse). clientX and clientY cannot be used &quot;as
-  is&quot;.</p>
-<canvas id=&quot;myCanvas&quot; width=300 height=50></canvas>
-<div id=&quot;mousePositions&quot;></div>
-<div id=&quot;mouseScreenPositions&quot;></div>
-</body>
-</html>
+  is&quot;.&lt;/p&gt;
+&lt;canvas id=&quot;myCanvas&quot; width=300 height=50&gt;&lt;/canvas&gt;
+&lt;div id=&quot;mousePositions&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;mouseScreenPositions&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>CSS:</h5>
@@ -10275,7 +10288,7 @@ directly as it is implicit: window.document is the same as document. 
 So by using this object, we can access and manipulate our page from
 JavaScript as a structured document.
 
-### Reminder from Module 1: HTML and the DOM
+<h4>Reminder from Module 1: HTML and the DOM</h4>
 
 &apos;Elements&apos; are the pieces themselves, i.e., a paragraph, a header,
 and even the body are elements. Most elements can contain other
@@ -10287,21 +10300,21 @@ Let&apos;s take, for example, a simplified version of the last HTML code we
 showed you:
 
 <pre>
-<!DOCTYPE html&gt;
-<html lang=&quot;en&quot;&gt;
-    <head&gt;
-        <title&gt;Your first HTML page</title&gt;
-        <meta charset=&quot;utf-8&quot;&gt;
-    </head&gt;
-    <body&gt;
-        <h1&gt;My home page</h1&gt;
-        <p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa,
-I&apos;m a professor at the University of Côte d&apos;Azur, in France,
-and I&apos;m also the author
-of two other W3CX MOOCS.
-        </p&gt;
-    </body&gt;
-</html&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Your first HTML page&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;My home page&lt;/h1&gt;
+    &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa,
+      I&apos;m a professor at the University of Côte d&apos;Azur, in France,
+      and I&apos;m also the author
+      of two other W3CX MOOCS.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 Click the red circle next to HTML to unfold this HTML document structure
@@ -10535,40 +10548,40 @@ height="2.983974190726159in"}
 
 <h5>HTML:</h5>
 
-```
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>querySelector and querySelector example 1</title>
-</head>
-<body>
-<button onclick=&quot;addBorderToFirstImage();&quot;>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
 Add a border to the first image
-</button>
-<br>
-<button onclick=&quot;resizeAllImages();&quot;>
+&lt;/button&gt;
+&lt;br&gt;
+&lt;button onclick=&quot;resizeAllImages();&quot;&gt;
 Resize all images
-</button>
-<br>
-<p>Click one of the buttons above!</p>
-<img src=&quot;https://mainline.i3s.unice.fr/mooc/Ntvj5rq.png&quot;
+&lt;/button&gt;
+&lt;br&gt;
+&lt;p&gt;Click one of the buttons above!&lt;/p&gt;
+&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/Ntvj5rq.png&quot;
 id=&quot;img1&quot;
-width=200 alt=&quot;image #1&quot;>
-<img src=&quot;https://mainline.i3s.unice.fr/mooc/yiU59oi.gif&quot;
-width=200 alt=&quot;image #2&quot;>
-<img src=&quot;https://mainline.i3s.unice.fr/mooc/6FstYbc.jpg&quot;
-width=200 alt=&quot;image #3&quot;>
-<img src=&quot;https://mainline.i3s.unice.fr/mooc/L97CyS4.png&quot;
-width=200 alt=&quot;image #4&quot;>
-</body>
-</html>
-```
+width=200 alt=&quot;image #1&quot;&gt;
+&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/yiU59oi.gif&quot;
+width=200 alt=&quot;image #2&quot;&gt;
+&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/6FstYbc.jpg&quot;
+width=200 alt=&quot;image #3&quot;&gt;
+&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/L97CyS4.png&quot;
+width=200 alt=&quot;image #4&quot;&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 window.onload = init;
 function init() {
 // we&apos;re sure that the DOM is ready
@@ -10598,7 +10611,7 @@ listImages.forEach(function(img) {
 img.width = 100;
 });
 }
-```
+</pre>
 
 <b>Source code from the above example:</b>
 
@@ -10607,28 +10620,28 @@ img.width = 100;
 images, the first one with an id equal to &quot;img1&quot; (<b>lines 11, 14, 16
 and 18</b>). 
 
-```
+<pre>
 1.  &hellip;
-2.  <button onclick=&quot;addBorderToFirstImage();&quot;>
+2.  &lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
 3.  Add a border to the first image
-4.  </button>
-5.  <br>
-6.  <button onclick=&quot;resizeAllImages();&quot;>
+4.  &lt;/button&gt;
+5.  &lt;br&gt;
+6.  &lt;button onclick=&quot;resizeAllImages();&quot;&gt;
 7.  Resize all images
-8.  </button>
-9.  <br>
-10. <p>Click one of the buttons above!</p>
-11. <img src=&quot;https://i.imgur.com/Ntvj5rq.png&quot;
+8.  &lt;/button&gt;
+9.  &lt;br&gt;
+10. &lt;p&gt;Click one of the buttons above!&lt;/p&gt;
+11. &lt;img src=&quot;https://i.imgur.com/Ntvj5rq.png&quot;
 12. id=&quot;img1&quot;
-13. width=200>
-14. <img src=&quot;https://i.imgur.com/yiU59oi.gif&quot;
-15. width=200>
-16. <img src=&quot;https://i.imgur.com/6FstYbc.jpg&quot;
-17. width=200>
-18. <img src=&quot;https://i.imgur.com/L97CyS4.png&quot;
-19. width=200>
+13. width=200&gt;
+14. &lt;img src=&quot;https://i.imgur.com/yiU59oi.gif&quot;
+15. width=200&gt;
+16. &lt;img src=&quot;https://i.imgur.com/6FstYbc.jpg&quot;
+17. width=200&gt;
+18. &lt;img src=&quot;https://i.imgur.com/L97CyS4.png&quot;
+19. width=200&gt;
 20. &hellip;
-```
+</pre>
 
 <b>JavaScript part</b>: the init function is executed as soon as the page
 is loaded (and the DOM is ready), in this function we add a shadow and
@@ -10636,7 +10649,7 @@ margins to all images (<b>lines 3-21</b>). The two other functions are
 called when one of the HTML buttons is clicked (<b>line 23 and line
 31</b>).
 
-```
+<pre>
 1.  window.onload = init; // run init once the page is loaded
 2.  function init() {
 3.  // we&apos;re sure that the DOM is ready
@@ -10671,7 +10684,7 @@ img.style.margin = &quot;10px&quot;;
 img.width = 100;
 24. });
 25. }
-```
+</pre>
 
 <h4>Miscellanous examples of use of querySelector(CSSSelector) and querySelectorAll(CSSselector)</h4>
 
@@ -10687,38 +10700,38 @@ height="3.803472222222222in"}
 
 <h5>HTML:</h5>
 
-```
-1.  <!DOCTYPE html>
-2.  <html lang=&quot;en&quot;>
-3.  <head>
-4.  <meta charset=&quot;utf-8&quot;>
-5.  <meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-6.  <title>querySelector and querySelector example 1</title>
-7.  </head>
-8.  <body>
-9.  <button onclick=&quot;firstLiClassRedInUl();&quot;>Select first li of
-    class red and color it in red</button>
-10. <br>
-11. <button onclick=&quot;allLisInUlOfClassNav();&quot;>Underline All li in a
-    ul of class nav</button>
-12. <ul class=&quot;nav&quot;>
-13. <li>Home</li>
-14. <li class=&quot;red&quot;>Products</li>
-15. <li>About</li>
-16. </ul>
+<pre>
+1.  &lt;!DOCTYPE html&gt;
+2.  &lt;html lang=&quot;en&quot;&gt;
+3.  &lt;head&gt;
+4.  &lt;meta charset=&quot;utf-8&quot;&gt;
+5.  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+6.  &lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
+7.  &lt;/head&gt;
+8.  &lt;body&gt;
+9.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
+    class red and color it in red&lt;/button&gt;
+10. &lt;br&gt;
+11. &lt;button onclick=&quot;allLisInUlOfClassNav();&quot;&gt;Underline All li in a
+    ul of class nav&lt;/button&gt;
+12. &lt;ul class=&quot;nav&quot;&gt;
+13. &lt;li&gt;Home&lt;/li&gt;
+14. &lt;li class=&quot;red&quot;&gt;Products&lt;/li&gt;
+15. &lt;li&gt;About&lt;/li&gt;
+16. &lt;/ul&gt;
 17. Another list:
-18. <ul>
-19. <li>Apple</li>
-20. <li class=&quot;red&quot;>Cherries</li>
-21. <li>Oranges</li>
-22. </ul>
-23. </body>
-24. </html>
-```
+18. &lt;ul&gt;
+19. &lt;li&gt;Apple&lt;/li&gt;
+20. &lt;li class=&quot;red&quot;&gt;Cherries&lt;/li&gt;
+21. &lt;li&gt;Oranges&lt;/li&gt;
+22. &lt;/ul&gt;
+23. &lt;/body&gt;
+24. &lt;/html&gt;
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 1.  function firstLiClassRedInUl() {
 2.  // first li of class=&quot;red&quot; in a ul
 3.  var elm = document.querySelector(&quot;ul li.red&quot;);
@@ -10726,39 +10739,39 @@ height="3.803472222222222in"}
 5.  }
 6.  function allLisInUlOfClassNav() {
 7.  // get all li directly in a ul of class nav
-8.  var list = document.querySelectorAll(&quot;ul.nav > li&quot;);
+8.  var list = document.querySelectorAll(&quot;ul.nav &gt; li&quot;);
 9.  list.forEach(function(elm) {
 10. elm.style.textDecoration = &quot;underline&quot;;
 11. })
 }
-```
+</pre>
 
 <h4>Source code extracts:</h4>
 
 <h5>HTML:</h5>:
 
-```
-1.  <button onclick=&quot;firstLiClassRedInUl();&quot;>Select first li of
-    class red and color it in red</button>
-2.  <br>
-3.  <button onclick=&quot;allLisInUlOfClassNav();&quot;>Underline All li in a
-    ul of class nav</button>
-4.  <ul class=&quot;nav&quot;>
-5.  <li>Home</li>
-6.  <li class=&quot;red&quot;>Products</li>
-7.  <li>About</li>
-8.  </ul>
+<pre>
+1.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
+    class red and color it in red&lt;/button&gt;
+2.  &lt;br&gt;
+3.  &lt;button onclick=&quot;allLisInUlOfClassNav();&quot;&gt;Underline All li in a
+    ul of class nav&lt;/button&gt;
+4.  &lt;ul class=&quot;nav&quot;&gt;
+5.  &lt;li&gt;Home&lt;/li&gt;
+6.  &lt;li class=&quot;red&quot;&gt;Products&lt;/li&gt;
+7.  &lt;li&gt;About&lt;/li&gt;
+8.  &lt;/ul&gt;
 9.  Another list:
-10. <ul>
-11. <li>Apple</li>
-12. <li class=&quot;red&quot;>Cherries</li>
-13. <li>Oranges</li>
-14. </ul>
-```
+10. &lt;ul&gt;
+11. &lt;li&gt;Apple&lt;/li&gt;
+12. &lt;li class=&quot;red&quot;&gt;Cherries&lt;/li&gt;
+13. &lt;li&gt;Oranges&lt;/li&gt;
+14. &lt;/ul&gt;
+</pre>
 
 <h5>JavaScript code:</h5>
 
-```
+<pre>
 1.  function firstLiClassRedInUl() {
 2.  // first li of class=&quot;red&quot; in a ul
 3.  var elm = document.querySelector(&quot;ul li.red&quot;);
@@ -10766,15 +10779,15 @@ height="3.803472222222222in"}
 5.  }
 6.  function allLisInUlOfClassNav() {
 7.  // get all li directly in a ul of class nav
-8.  var list = document.querySelectorAll(&quot;ul.nav > li&quot;);
+8.  var list = document.querySelectorAll(&quot;ul.nav &gt; li&quot;);
 9.  list.forEach(function(elm) {
 10. elm.style.textDecoration = &quot;underline&quot;;
 11. })
 12. }
-```
+</pre>
 
-Example #2: display all checked &lt;input type=&quot;checkbox&quot;&gt; elements
-located inside an element of a given id
+<h5>Example #2: display all checked &lt;input type=&quot;checkbox&quot;&gt; elements
+located inside an element of a given id.</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10787,42 +10800,42 @@ located inside an element of a given id
 
 <h5>HTML:</h5>
 
-```
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>querySelector and querySelector example 1</title>
-</head>
-<body>
-<button onclick=&quot;displayListOfCheckedItems();&quot;>Show Checked
-  items</button>
-<br>
-<ul id=&quot;fruits&quot;>
-<li>
-<input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;>Apples
-</li>
-<li>
-<input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;button onclick=&quot;displayListOfCheckedItems();&quot;&gt;Show Checked
+  items&lt;/button&gt;
+&lt;br&gt;
+&lt;ul id=&quot;fruits&quot;&gt;
+&lt;li&gt;
+&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;&gt;Apples
+&lt;/li&gt;
+&lt;li&gt;
+&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;&gt;
 Oranges
-</li>
-<li>
-<input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;>
+&lt;/li&gt;
+&lt;li&gt;
+&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;&gt;
 Bananas
-</li>
-<li>
-<input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;>
+&lt;/li&gt;
+&lt;li&gt;
+&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;&gt;
 Grapes
-</li>
-</ul>
-</body>
-</html>
-```
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
 <h5>JS:</h5>
 
-```
+<pre>
 function displayListOfCheckedItems() {
 // all inputs that have been checked
 var listOfSelectedValues=&quot;&quot;;
@@ -10837,34 +10850,34 @@ elm.parentNode.style.color = &apos;green&apos;;
 document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
 }
 Extract from the source code:
-```
+<pre>
 
 <h5>HTML:</h5>
 
-```
-<button onclick=&quot;<b>displayListOfCheckedItems();</b>&quot;>
+<pre>
+&lt;button onclick=&quot;<b>displayListOfCheckedItems();</b>&quot;&gt;
     Show Checked items
-1.  </button>
-2.  <br>
-3.  <ul id=&quot;fruits&quot;>
-4.  <li>
-5.  <input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;>
+1.  &lt;/button&gt;
+2.  &lt;br&gt;
+3.  &lt;ul id=&quot;fruits&quot;&gt;
+4.  &lt;li&gt;
+5.  &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;&gt;
 6.  Apples
-7.  </li>
-8.  <li>
-9.  <input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;>
+7.  &lt;/li&gt;
+8.  &lt;li&gt;
+9.  &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;&gt;
 10. Oranges
-11. </li>
-12. <li>
-13. <input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;>
+11. &lt;/li&gt;
+12. &lt;li&gt;
+13. &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;&gt;
 14. Bananas
-15. </li>
-16. <li>
-17. <input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;>
+15. &lt;/li&gt;
+16. &lt;li&gt;
+17. &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;&gt;
 18. Grapes
-19. </li>
-20. </ul>
-```
+19. &lt;/li&gt;
+20. &lt;/ul&gt;
+</pre>
 
 JavaScript code: we select all elements of type input that have an
 attribute checked equal to true, and located inside an element whose id
@@ -10884,7 +10897,7 @@ from the &lt;input&gt; child we selected, we use elm.parentNode.
 Finally, at the end of the document, <b>line 14</b> adds a message followed
 by this list:
 
-```
+<pre>
 1.  function displayListOfCheckedItems() {
 2.  // all inputs that have been checked
 3.  var listOfSelectedValues=&quot;&quot;;
