@@ -3980,8 +3980,8 @@ changing interactively the functions we are going to plot, and so on.</p>
 <p align="center" width="100%">
 <img src="./images/image139.png?raw=true"
   style="width:50%"
-  title="CodePen; PLotting Functions with d3js.org"
-  alt="CodePen; PLotting Functions with d3js.org." />
+  title="CodePen; Plotting Functions with d3js.org"
+  alt="CodePen; Plotting Functions with d3js.org." />
 </p>
 
 <p>Let's start from the very basic example we saw earlier on the course.
@@ -3997,17 +3997,35 @@ This one. And it takes a set of parameters that are located at the beginning of 
 part. That will indicate, within the target property, the "id" of the div where we 
 are going to plot the function. In the data property is the function itself: "sin(x)" 
 and its color: red. What can we do to improve this?</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 140a/140b. codepen; plotting functions with d3js.org (107) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image140a.png?raw=true"
+  style="width:45%"
+  title=""
+  alt="." />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./images/image140b.png?raw=true"
+  style="width:45%"
+  title=""
+  alt="." />
+</p>
 
-<2 images side-by-side>
-<p>At first, we can add some 
-CSS code to make this nicer. I'm going to change the view with CodePen. Let's 
-resize that, and let's work on the CSS part: "Maximize CSS Editor". What I can 
-do, is that I can indicate that the div that contains this function wil have a 
-rounded border, some shadows and so on. Now it's rounded, you can have add some 
-shadows, height, margin and so on. Let's me just copy and paste some code I’ve 
-prepared. Here we are. Now, what I've got, is a nicer presentation of the function 
-itself.</p>
-<image>
+<p>At first, we can add some CSS code to make this nicer. I'm going to change 
+the view with CodePen. Let's resize that, and let's work on the CSS part: "Maximize 
+CSS Editor". What I can do, is that I can indicate that the div that contains this 
+function wil have a rounded border, some shadows and so on. Now it's rounded, you 
+can have add some shadows, height, margin and so on. Let's me just copy and paste 
+some code I’ve prepared. Here we are. Now, what I've got, is a nicer presentation 
+of the function itself.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 140.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image141.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
 
 <p>Now, I'm going to add a section that will contain the different controllers 
 that are input fields from HTML5. Let's do it. I add a section called "plotSettings" 
@@ -4018,7 +4036,15 @@ an event listener: "onchange="plot();. That means: "when the color has been sele
 call the plot() function". And you remember that this function is the one that plots 
 the mathematical function, here. The plot function is here.</p>
 
-<image>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 141.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image141.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+
 <p>What we are going to do in this change color function? It changes the 
 property of the parameters here. Let's add some code for that... How can we get 
 the value of the color from JavaScript before plotting the function? We are going 
@@ -4033,7 +4059,14 @@ corresponds to the part that I highlight now. .color=color
 <p>If I change the color, this line is executed and the color changes. We can use 
 the same principles with other input fields. Let me just copy and paste some code 
 I prepared, that will add all these different controllers.</p>
-<image>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 142.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image142.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
 
 <p>Now I've got all the different controllers, and if you look at them, they all 
 have an "onchange" or "oninput" event listener. Now, we’ve got 2 sections, 2 HTML 
@@ -4044,12 +4077,20 @@ If I want to have a nice look and feel, what I can do is to share the same borde
 and shadow properties from CSS, put the first section with the different input 
 fields on the left and the plot on the right.</p>
 
-<image>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 143.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image143.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+
 <p>Let me just cut and paste some CSS rules here, that will factorize the common 
 properties for both sections in a section selector. OK, so what I've got now, is 
 that I've got a nice balanced view of the whole application.</p>
 
-<end of 1.4.2 video transcript>
+<!-- end of 1.4.2 video transcript -->
 
 <h4>CodePen example with the starting code used in the video</h4>
 
@@ -4070,9 +4111,9 @@ plotter. In this version, you can see that we added some input fields for changi
 the color of the curve, for changing the range of the x values, changing interactively 
 the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 140.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image140.png?raw=true"
+<img src="./images/image144.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4080,9 +4121,9 @@ the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-3">1.4.3 Using Sublime Text (4:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image141.png?raw=true"
+<img src="./images/image145.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4092,9 +4133,9 @@ files and a regular source code editor, and working on your local hard
 disk. I&apos;m going first to create a directory for storing the files on my
 desktop. &quot;Math plotter app&quot; and I will work inside.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image142.png?raw=true"
+<img src="./images/image146.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4103,27 +4144,63 @@ desktop. &quot;Math plotter app&quot; and I will work inside.</p>
 and a subfolder named &quot;css&quot; for the CSS files, and the HTML file will
 lie in the current directory.</p>
 
-<!-- image -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 147.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image147.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+
 <p>With Sublime Text, I can open this folder, the one I just created. And I can start 
 saving the current file as &quot;index.html&quot;. I will copy the HTML, CSS and 
 JavaScript source code from the previous example. I just took the previous application.</p>
 
-<!-- image -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 148.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image148.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
 <p>And I will copy it in the index.html file. I create a &quot;style.css&quot; 
 and a &quot;script.js&quot; file for holding the JavasCript and CSS files. I 
 copy the source code from the js part of the previous example. I create a new 
 file with the CSS code.</p>
 
-<!-- image -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 149.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image149.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
 <p>&quot;Save as&quot; ... I include the JavaScript code :&lt;script
 src=&quot;js/script.js&quot;&gt;</p>
 <p>Remember that the script tag has always a closing tag at this end.</p>
 
-<!-- image -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 150.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image150.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
 <p>It is not an auto-closing tag. And I use a &quot;link&quot; tag for importing 
 the CSS file.</p>
 
-<!-- image -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 151.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image151.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
 <p>I can check that my files are located at the right place and now I can &quot;Open 
 in Browser&quot;. Another way to do what we&apos;ve done manually would have been 
 to use the &quot;Export&quot; button from CodePen.</p>
@@ -4141,9 +4218,9 @@ Sublime Text.</p>
 <h3 id="ch1-5-1">1.5.1 JS variables and values (5:28)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 1xx.  (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image1xx.png?raw=true"
+<img src="./images/image152.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4311,9 +4388,9 @@ example, and type myNumber2 in the devtool console, it will display 34
 <p>Below is an image that explains how you can try JavaScript code in the
 devtools console:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 139. devtools console example (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 153. devtools console example (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image139.jpeg?raw=true"
+<img src="./images/image153.png?raw=true"
   style="width:50%"
   title="Devtools console example"
   alt="Devtools console example." />
@@ -4321,9 +4398,9 @@ devtools console:</p>
 <p>If you try to use a variable that has never been declared, you get an
 error message:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 140. error message: undeclared type error (120) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 154. error message: undeclared type error (120) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image140.png?raw=true"
+<img src="./images/image154.png?raw=true"
   style="width:50%"
   title="Error Message: Undeclared type error"
   alt="Error Message: Undeclared type error." />
@@ -4381,9 +4458,9 @@ var TIME_LIMIT;
 const MAX_GRADE = 20;
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~ 141. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (121) ~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 155. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (121) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image141.jpeg?raw=true"
+<img src="./images/image155.png?raw=true"
   style="width:50%"
   title="Comparison between var: TIME_LIMIT and constant: MAX_GRADE."
   alt="Comparison between var: TIME_LIMIT and constant: MAX_GRADE." />
@@ -4487,9 +4564,9 @@ be used anywhere in the code.</p>
 
 <h4>Here is an example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 142. global scoping of variable (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 156. global scoping of variable (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image142.png?raw=true"
+<img src="./images/image156.png?raw=true"
   style="width:50%"
   title="Global scoping of variables"
   alt="Global scoping of variables." />
@@ -4517,9 +4594,9 @@ JavaScript 6 / ES6. See examples at the end of this section.</p>
 <p>Example of a local variable declared in a function, that is NOT local to
 the block, but to the whole function:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 143. global and local variables (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 157. global and local variables (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image143.png?raw=true"
+<img src="./images/image157.png?raw=true"
   style="width:50%"
   title="Global and local variables"
   alt="Global and local variables." />
@@ -4529,9 +4606,9 @@ the block, but to the whole function:</p>
 local variables, and highlights the &quot;masking&quot; of global variables by
 local variables when they share the same name.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 144. variables; global and local (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 160. variables; global and local (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image144.png?raw=true"
+<img src="./images/image160.png?raw=true"
   style="width:50%"
   title="Variables; global and local"
   alt="Variables; global and local." />
@@ -4557,18 +4634,18 @@ JavaScript 6 or above.</b></p>
 <p>Here is an example that shows what happens when you forget to use var or
 let while declaring a local variable:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 145. local and global variable scoping (126) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 158. local and global variable scoping (126) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image145.png?raw=true"
+<img src="./images/image158.png?raw=true"
   style="width:50%"
   title="Local and global variable scoping"
   alt="Local and global variable scoping." />
 
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/rmJJbo">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~ 146. declaring a variable without var in function make it global (126) ~~~~~~~~~~~-->
+<!--~~~~~~~~~ 159. declaring a variable without var in function make it global (126) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image146.jpeg?raw=true"
+<img src="./images/image159.png?raw=true"
   style="width:50%"
   title="Declaring a variable without var in function make it global"
   alt="Declaring a variable without var in function make it global." />
@@ -4590,9 +4667,9 @@ in another block that contains the current block).</b></p>
 <p>Example of a local variable declared with the let keyword. Its scope is
 the block:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 147. if block is true, let a=4 (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 160. if block is true, let a=4 (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image147.png?raw=true"
+<img src="./images/image160.png?raw=true"
   style="width:50%"
   title="if block is true, let a=4"
   alt="if block is true, let a=4." />
@@ -4609,7 +4686,13 @@ declaring variables and constants!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-3">1.5.3 JS data types (5:27)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- new image here -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163. js data types (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image163.png?raw=true"
+  style="width:50%"
+  title="JavaScript data types"
+  alt="JavaScript data types." />
+</p>
 
 <p>Let's talk about JavaScript data types. The data type of variable is the 
 kind of value you can give to this variable. With JavaScript, there are many 
@@ -4665,16 +4748,17 @@ of an object.</p>
 <p>Well, there are multiple possibilities: What we call &quot;primitive data types&quot;: 
 for example a number, a string, etc. ex: var x = 3; var name = "Buffa";</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 148. red cards depicting primitive data types (129) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 164. red cards depicting primitive data types (129) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image148.png?raw=true"
+<img src="./images/image164.png?raw=true"
   style="width:30%"
   title="Red cards depicting primitive data types"
   alt="Red cards depicting primitive data types." />
 
-<pre>var x = 3; var name = "Buffa";
+<pre>
+var x = 3; var name = "Buffa";
 <a href="" target="_blank" rel="noopener noreferrer">a set of playing cards</a>
-](./images/image118.png){width="2.0833333333333335in" height="1.25in"}</pre>
+</pre>
 
 <p>Objects (everything that is not a &quot;primitive data type&quot; is an
 object):</p>
@@ -4721,9 +4805,9 @@ or function)</p>
 
 <p>We will use it in lots of examples in the next three sections.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 149. dynamic typing. use typeof operator to see dynamic type of variable (130) ~~~~~~-->
+<!--~~~~~~ 165. dynamic typing. use typeof operator to see dynamic type of variable (130) ~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image149.jpeg?raw=true"
+<img src="./images/image165.jpg?raw=true"
   style="width:50%"
   title="Dynamic typing. You can use the typeof operator to see the dynamic type of a variable"
   alt="Dynamic typing. You can use the typeof operator to see the dynamic type of a variable." />
@@ -4733,9 +4817,9 @@ for us, for explaining the data types.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-4">1.5.4 Numbers</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 150. numbers 1 thu 9, then 0, twice (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 166. numbers 1 thu 9, then 0, twice (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image150.png?raw=true"
+<img src="./images/image166.png?raw=true"
   style="width:25%"
   title="Numbers 1 thu 9, then 0, twice"
   alt="Numbers 1 thu 9, then 0, twice." />
@@ -4974,9 +5058,9 @@ floating point numbers is that 0.1 + 0.2 does not equal 0.3.</p>
 <pre>&gt; 0.1 + 0.2;
 0.30000000000000004</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~ 151. devtools console showing 0.1+0.2 is not equal to 0.3 (135) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 167. devtools console showing 0.1+0.2 is not equal to 0.3 (135) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image151.jpeg?raw=true"
+<img src="./images/image167.png?raw=true"
   style="width:50%"
   title="Devtools console showing 0.1 + 0.2 is not equal to 0.3 but to 0.300000000000004"
   alt="Devtools console showing 0.1 + 0.2 is not equal to 0.3 but to 0.300000000000004." />
@@ -5025,9 +5109,9 @@ precedence.</p>
 <p>For example, this is an expression: (3 + 2). And the expression (3 + 2)
 &ast; 4, which equals 20, depends on the expression within the parentheses.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 152. operators (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168. operators (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image152.png?raw=true"
+<img src="./images/image168.png?raw=true"
   style="width:25%"
   title="Operators"
   alt="Operators." />
@@ -5064,9 +5148,9 @@ with double and closed with simple quotes</pre>
 
 <h5>Image from the devtool console, from the above example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 154. snapshot of a devtools console; do not mix simple and double quotes (144) ~~~~~~-->
+<!--~~~~~~ 169. snapshot of a devtools console; do not mix simple and double quotes (144) ~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image154.jpeg?raw=true"
+<img src="./images/image169.png?raw=true"
   style="width:50%"
   title="Snapshot of a devtools console error; do not mix simple and double quotes"
   alt="Snapshot of a devtools console error; do not mix simple and double quotes." />
@@ -5239,9 +5323,9 @@ unless the formula is a pure addition.</p>
 
 <h4>The above example is shown in the devtools console:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 155. devtools console (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. devtools console (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image155.jpeg?raw=true"
+<img src="./images/image170.png?raw=true"
   style="width:25%"
   title="Devtools console"
   alt="Devtools console." />
@@ -5534,7 +5618,6 @@ Examples:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-11">1.5.11 Functions (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <h4>Definition of a function</h4>
 
 <p>A function allows you to group code, give it a name and be able to
@@ -5637,9 +5720,9 @@ console and console.log(&hellip;)!</p>
 <p>Let&apos;s check that some parts of the code you wrote are executed
 correctly.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 156. button click me to display the value of the x var (153) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 171. button click me to display the value of the x var (153) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image156.png?raw=true"
+<img src="./images/image171.png?raw=true"
   style="width:50%"
   title="Button click me to display the value of the x variable"
   alt="Button click me to display the value of the x variable." />
@@ -5653,9 +5736,9 @@ HTML paragraph.</p>
 a console.log(&quot;In the addXToThePage function&quot;); as the first
 instruction of the function:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image157.png?raw=true"
+<img src="./images/image172.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5666,9 +5749,9 @@ provided example is located on CodePen, an online IDE, it&apos;s better to
 execute it in &quot;debug mode&quot;. The online IDE will just display a page
 (see snapshot below) with the code running:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 173.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image158.png?raw=true"
+<img src="./images/image173.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5677,7 +5760,7 @@ execute it in &quot;debug mode&quot;. The online IDE will just display a page
 whole codepen IDE + your code!). Open the devtool console (F12 or
 control-shift-i or cmd-alt-i on Mac), and you should see this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image159.png?raw=true"
   style="width:50%"
@@ -5686,9 +5769,9 @@ control-shift-i or cmd-alt-i on Mac), and you should see this:</p>
 
 <p>Now, press the button! An error message appears:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 160. error message in the devtool console (158) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 175. error message in the devtool console (158) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160.jpeg?raw=true"
+<img src="./images/image175.png?raw=true"
   style="width:50%"
   title="Error message in the devtool console"
   alt="Error message in the devtool console." />
@@ -5697,9 +5780,9 @@ control-shift-i or cmd-alt-i on Mac), and you should see this:</p>
 We can check the source code by clicking on the YNbvoX:40 link on the
 right:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 161. source code that fired the error (158) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 176. source code that fired the error (158) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image161.jpeg?raw=true"
+<img src="./images/image176.png?raw=true"
   style="width:50%"
   title="Source code that fired the error"
   alt="Source code that fired the error." />
@@ -5708,9 +5791,9 @@ right:</p>
 the onclick=&quot;&hellip;&quot;, the name we used : AddXToToThePage has &quot;ToTo&quot;
 instead of &quot;To&quot;. Let&apos;s fix that now and try again:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 162.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image162.png?raw=true"
+<img src="./images/image177.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5719,9 +5802,9 @@ instead of &quot;To&quot;. Let&apos;s fix that now and try again:</p>
 go in debug mode, open the devtool console and click the button. Here is
 what we get:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 164.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image164.png?raw=true"
+<img src="./images/image178.png?raw=true"
   style="width:50%"
   title="console.log message displayed in the console, as well as another error"
   alt="console.log message displayed in the console, as well as another error." />
@@ -5759,9 +5842,9 @@ strings.</p>
 
 <p>We typed this code in the devtool console to check what it does:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 165.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image165.jpeg?raw=true"
+<img src="./images/image179.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5785,9 +5868,9 @@ calculations:
 
 Result:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 166.  (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image166.jpeg?raw=true"
+<img src="./images/image180.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5832,9 +5915,9 @@ use):
 4.  etc.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 167. contact list (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 181. contact list (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image167.png?raw=true"
+<img src="./images/image181.png?raw=true"
   style="width:50%"
   title="Contact list"
   alt="Contact list." />
@@ -5843,9 +5926,9 @@ use):
 <p>Just click the button to build the HTML table dynamically. You should
 see this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 168. dynamic contact list; given name, family name (62) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 182. dynamic contact list; given name, family name (162) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image168.png?raw=true"
+<img src="./images/image182.png?raw=true"
   style="width:25%"
   title="Dynamic contact list; given name, family name"
   alt="Dynamic contact list; given name, family name." />
@@ -5860,27 +5943,27 @@ what can be done.</p>
 
 <h4>Example #1: change common properties (color, border, background color)</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image169.png?raw=true"
+<img src="./images/image183.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 
 <h4>Example #2: change the background image property using an external image</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image168.jpeg?raw=true"
+<img src="./images/image184.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 
 <h4>Example #3: Use the background image as a sprite sheet - animate Mario!</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image169.png?raw=true"
+<img src="./images/image185.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5915,9 +5998,9 @@ study some of the most useful events in even greater depth.</p>
 
 <h4>Example #1: use input events on an HTML input field</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image170.png?raw=true"
+<img src="./images/image186.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5938,26 +6021,26 @@ make a small game, etc. Small and diverse examples for illustrating some
 JavaScript data structures such as Arrays or Objects are going to be
 presented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image169.png?raw=true"
+<img src="./images/image187.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image170.png?raw=true"
+<img src="./images/image188.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 
 <h4>Example #4: move a monster in an HTML5 canvas using left and right arrow keys</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 171.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image171.png?raw=true"
+<img src="./images/image189.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5997,9 +6080,9 @@ to try <a href="https://webcamtoy.com/">the WebCam Toy</a> demo!</p>
 <p>Click on the piano keyboard. Use the different buttons, sliders, etc.
 This example uses the WebAudio API in order to synthesize sounds.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 190.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image172.png?raw=true"
+<img src="./images/image190.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -6034,9 +6117,9 @@ plots f(x) = x&#94;2, then f(x) = sin(x) and finally a mix of
 fours functions : f(x) = x&#94;2 (in red), f(x) = 3&ast;x (in green), f(x) =
 cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 173.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image173.png?raw=true"
+<img src="./images/image191.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -6049,9 +6132,9 @@ the xRange and yRange values). If you have trouble, [look
 here](https://codepen.io/w3devcampus/pen/MJMYNb) for a solution.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image174.png?raw=true"
+<img src="./images/image192.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -6069,9 +6152,9 @@ Let's see a few examples on how to work with remote data.
 This example downloads and displays a list of users in a table
 (see [remote data](https://jsonplaceholder.typicode.com/users)):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 193.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image175.png?raw=true"
+<img src="./images/image193.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -6083,9 +6166,9 @@ This example just shows how to use the HowlerJS external library to load
 remote sounds, decode them and play them as samples in memory (useful
 for video games):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 176.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 194.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image176.png?raw=true"
+<img src="./images/image194.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -6964,9 +7047,9 @@ To finish up this section, here is a complete example (to run it: click
 on the &quot;edit on codepen&quot; label and once in codepen, open the devtool
 console to see the outputs of this program):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image177.png?raw=true"
+<img src="./images/image195.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7165,9 +7248,9 @@ Example from the video
 
 <a href="https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012" target="_blank" rel="noopener noreferrer">Example on CodePen</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image178.png?raw=true"
+<img src="./images/image196.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7496,9 +7579,9 @@ post your comments/observations/questions or share your creations.
     module, the math function plotter example used input fields. Or look
     at the section about DOM in this module.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image179.png?raw=true"
+<img src="./images/image197.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7553,9 +7636,9 @@ statements, and a function declaration is not an executable statement.
 
 Here is an example:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image180.png?raw=true"
+<img src="./images/image198.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7602,9 +7685,9 @@ be stored in a variable. Then, the variable can be used as a function:
 
 Here is a typical example:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 181.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image181.png?raw=true"
+<img src="./images/image199.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7669,9 +7752,9 @@ functions. Here is another one that registers mouse click listeners on
 the window object (the window objects represent the whole HTML
 document):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 182.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image182.png?raw=true"
+<img src="./images/image200.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7727,9 +7810,9 @@ CSS, such as by using the :hover pseudo CSS class.
 
 For example:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image183.png?raw=true"
+<img src="./images/image201.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7738,16 +7821,16 @@ For example:
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<title>Mouse over</title>
-<meta charset=&quot;utf-8&quot;/>
-</head>
-<body>
-<button>Put the mouse cursor over me</button>
-</body>
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Mouse over&lt;/title&gt;
+&lt;meta charset=&quot;utf-8&quot;/&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;button&gt;Put the mouse cursor over me&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>CSS:</h5>
@@ -7781,15 +7864,14 @@ ones that correspond to the type of event &quot;they listen to&quot;.
 <h3 id="ch2-4-2">2.4.2 Adding and removing event listeners</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-#### Live coding video: adding an event listener to a document
+<h4>Live coding video: adding an event listener to a document</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image184.png?raw=true"
+<img src="./images/image202.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image154.png){width="6.5in" height="5.139583333333333in"} -->
 
 Hello. Let&apos;s see how events work in JavaScript. In this video, I will
 show you how to add a simple event listener for detecting clicks or mouse moves,
@@ -7811,11 +7893,11 @@ JavaScript, when the length of the callback (source code) is small, you
 can directly add the callback inside the parenthesis of the AddEventListener
 call.
 
-So, let&apos;s see this example&hellip; I&apos;m going to comment the first example,
+Let&apos;s see this example&hellip; I&apos;m going to comment the first example,
 and this time, instead of just adding as an argument the name of the
 callback, we directly put the body of the callback.
 
-<so a function&hellip; and we don&apos;t have to indicate a name: it&apos;s an
+XXso a function&hellip; and we don&apos;t have to indicate a name: it&apos;s an
 anonymous function, an anonymous callback. So, when we click on the
 page, we will execute this callback that is located exactly as the
 second argument.
@@ -7924,41 +8006,40 @@ listens to &quot;click&quot; events on any part of the window (clicks anywhere
 on a web document will be processed by this event handler):
 
 <pre>
-<script>
+&lt;script&gt;
     addEventListener('click', function(evt) {
         document.body.innerHTML += 'Button clicked!';
     });
-</script>
+&lt;/script&gt;
 </pre>
 
 <h4>Try it below by clicking anywhere on the document:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image185.png?raw=true"
+<img src="./images/image203.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image155.png){width="6.5in" height="2.0770833333333334in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<title>First example of an event listener</title>
-<meta charset=&quot;utf-8&quot;>
-<script>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;First example of an event listener&lt;/title&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;script&gt;
 addEventListener('click', function(evt) {
-document.body.innerHTML += &quot;Button clicked!<br>&quot;;
+document.body.innerHTML += &quot;Button clicked!&lt;br&gt;&quot;;
 });
-</script>
-</head>
-<body>
-<p>Click anywhere on this page</p>
-</body>
-</html>
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;Click anywhere on this page&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 The addEventListener function is one possible syntax for registering a
@@ -7978,17 +8059,16 @@ function is the part in bold:
 </pre>
 
 When this function is small (a few lines of code), it&apos;s common practice
-to put its body as the second parameter of
-the addEventListener function.
+to put its body as the second parameter of the addEventListener function.
 
 In other words, this:
 
 <pre>
-1.  <script>
-2.  addEventListener('click', **function(evt) {**
-3.      **document.body.innerHTML += 'Button clicked!';**
-4.  **}**);
-5.  </script>
+1.  &lt;script&gt;
+2.  addEventListener('click', <b>function(evt) {</b>
+3.      <b>document.body.innerHTML += 'Button clicked!';</b>
+4.  <b>}</b>);
+5.  &lt;/script&gt;
 </pre>
 
 &hellip; is the same as this (the function called when a click occurs has
@@ -7996,13 +8076,13 @@ its body &quot;outside&quot; of the addEventListener parameters, and we use it
 name as the second parameter):
 
 <pre>
-1.  <script>
-2.  addEventListener('click',** processClick**);
+1.  &lt;script&gt;
+2.  addEventListener('click',<b> processClick</b>);
 3.  
-4.  function** processClick**(evt) {
+4.  function<b> processClick</b>(evt) {
 5.      console.log(&quot;Button clicked!&quot;);
 6.  }
-7.  </script>
+7.  &lt;/script&gt;
 </pre>
 
 #### Adding an event listener to specific HTML elements
@@ -8014,34 +8094,33 @@ we can listen to specific DOM elements.
 For example, here is how we can listen to clicks on a specific button
 (whereas clicks on the rest of the document will be ignored).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image186.png?raw=true"
+<img src="./images/image204.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image156.png){width="6.5in" height="2.0701388888888888in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<title>Second example of an event listener</title>
-<meta charset=&quot;utf-8&quot;>
-</head>
-<body>
-<button id=&quot;myButton&quot;>Click me!</button>
-<p></p>
-<script>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Second example of an event listener&lt;/title&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;button id=&quot;myButton&quot;&gt;Click me!&lt;/button&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;script&gt;
 var b = document.querySelector(&quot;#myButton&quot;);
 b.addEventListener('click', function(evt) {
 alert(&quot;Button clicked&quot;);
 });
-</script>
-</body>
-</html>
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 In this example, instead of using the addEventListener method directly,
@@ -8066,32 +8145,31 @@ Instead of using b.addEventListener(&apos;click&apos;, callback), it&apos;s pos
 to use an onclick=&apos;doSomething();&apos; attribute directly in the HTML tag
 of the element:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image187.png?raw=true"
+<img src="./images/image205.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image157.png){width="6.5in" height="2.104861111111111in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<title>Third example of an event listener</title>
-<meta charset=&quot;utf-8&quot;>
-<script>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Third example of an event listener&lt;/title&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;script&gt;
 function processClick(evt) {
 alert(&quot;Button clicked&quot;);
 };
-</script>
-</head>
-<body>
-<button id=&quot;myButton&quot; onclick=&quot;processClick(event);&quot;>Click me!</button>
-</body>
-</html>
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;button id=&quot;myButton&quot; onclick=&quot;processClick(event);&quot;&gt;Click me!&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 This syntax:
@@ -8120,27 +8198,26 @@ function, and inside we remove the listener we previously registered.
 Consequence: if we click on the button again, nothing happens as there
 is no longer a click event listener attached to it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image188.png?raw=true"
+<img src="./images/image206.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image158.png){width="6.5in" height="2.0909722222222222in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<title>Removing an event listener</title>
-<meta charset=&quot;utf-8&quot;>
-</head>
-<body>
-<button id=&quot;myButton&quot;>Click me, this will work only once!</button>
-<p></p>
-<script>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Removing an event listener&lt;/title&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;button id=&quot;myButton&quot;&gt;Click me, this will work only once!&lt;/button&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;script&gt;
 var b = document.querySelector(&quot;#myButton&quot;);
 b.addEventListener('click', processClick);
 function processClick(evt) {
@@ -8148,9 +8225,9 @@ alert(&quot;Button clicked, event listener removed, try to click on the
 button again: nothing will happen anymore!&quot;);
 b.removeEventListener('click', processClick);
 }
-</script>
-</body>
-</html>
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 Note that to remove an event listener, you should have added it with its
@@ -8223,18 +8300,15 @@ common types of events in detail.
 
 The most useful common properties are:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image189.png?raw=true"
+<img src="./images/image207.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image159.png){width="6.5in" height="2.5520833333333335in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-4">2.4.4 Page lifecycle events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Hi!
 
 This time let&apos;s talk about the event object, and we&apos;ll start looking
 at different types of events.
