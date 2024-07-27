@@ -974,10 +974,12 @@ your source code, and  its value is UTF-8.</b></p>
 
 <h4><b>Example 1</b>:</h4>
 
-<pre>&lt;head&gt;
+<pre>
+&lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;/&gt;
   ...
-&lt;/head&gt;</pre>
+&lt;/head&gt;
+</pre>
 
 <h4>Example 2: Primary language declaration</h4>
 
@@ -995,10 +997,12 @@ the language of your content.</b></h5>
 
 <h5><b>Example 2</b>: This indicates that the page is in French.</h5>
 
-<pre>&lt;!doctype html&gt;
+<pre>
+&lt;!doctype html&gt;
 &lt;html lang="fr"&gt;
   &lt;head&gt;
-  ...</pre>
+  ...
+</pre>
 
 <h5><b>Example 3</b>: Cultural bias</h5>
 
@@ -1189,7 +1193,8 @@ time):</p>
 
 <h5>HTML:</h5>
 
-<pre>&lt;body&gt;
+<pre>
+&lt;body&gt;
   &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
   &lt;p&gt;
   It was the best of times, it was the worst of times, . . . .
@@ -1199,7 +1204,8 @@ time):</p>
   . . . it is a far, far better rest
   that I go to than I have ever known.
   &lt;/p&gt;
-&lt;/body&gt;</pre>
+&lt;/body&gt;
+</pre>
 
 <p>If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:</p>
@@ -1562,9 +1568,7 @@ right after the &quot;&lt;&quot; to indicated that it&apos;s a &quot;close tag&q
 indicate the beginning and end of a paragraph (indicated by the single
 letter &quot;p&quot;) you end up with something like this:</p>
 
-<pre>
-&gt; &lt;p&gt;This is my first paragraph!&lt;/p&gt;
-</pre>
+<pre>&gt; &lt;p&gt;This is my first paragraph!&lt;/p&gt;</pre>
 
 <p>The browser sees the letters &quot;&lt;p&gt;&quot; and decides &quot;A new paragraph is
 starting; I&apos;d better start a new line and maybe indent it&quot;. Then when
@@ -1863,14 +1867,16 @@ in the CSS part, etc.):</p>
 example, you see the CSS rules that have been applied to the HTML
 document. Let&apos;s look at the first one:</p>
 
-<pre>1.  h1 {
+<pre>
+1.  h1 {
 2.    color:red;
 3.    background-color:lightGreen;
 4.    border:12px solid violet;
 5.    padding: 5px;   
 6.    border-radius: 15px;
 7.    text-align: center;
-8.  }</pre>
+8.  }
+</pre>
 
 <p>This rule turns all the h1s in the document into red text, centered
 horizontally, on a light green background, with a violet border of 12
@@ -1894,9 +1900,11 @@ brown (second rule).</p>
 
 <p>The third rule uses what is called &quot;a multiple selector&quot;:</p>
 
-<pre>1.  p, h1, h2 {
+<pre>
+1.  p, h1, h2 {
 2.    font-family: cursive
-3.  }</pre>
+3.  }
+</pre>
 
 <p>This one says that all p, h1 and h2 uses a cursive font character. The
 &quot;,&quot; means &quot;and also&quot;.</p>
@@ -1910,9 +1918,11 @@ should be moved to the right 50 pixels (property margin-left: 50px).</p>
 with an &apos;id&apos; attribute, or grouped with a class of other elements by
 setting the &apos;class&apos; attribute.</p>
 
-<pre>1.  &lt;p id="paragraph-1" class="regular-paragraphs"&gt;
+<pre>
+1.  &lt;p id="paragraph-1" class="regular-paragraphs"&gt;
 2.    Call me Ishmael . . .
-3.  &lt;/p&gt;</pre>
+3.  &lt;/p&gt;
+</pre>
 
 <p>The paragraph above has a unique identifier: the id attribute whose value is 
 &quot;paragraph-1&quot; and is part of a class of &quot;regular-paragraphs&quot;. 
@@ -1940,9 +1950,7 @@ Best practice is to name these things to increase clarity, consistency and brevi
 <p>The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
 in our case it&apos;s the second h2 element:</p>
 
-<pre>
-1.  &lt;h2 <b>id="hobbyTitle"</b>&gt;My Hobbies&lt;/h2&gt;
-</pre>
+<pre>1.  &lt;h2 <b>id="hobbyTitle"</b>&gt;My Hobbies&lt;/h2&gt;</pre>
 
 <h5>And here is the CSS rule:</h5>
 
@@ -1978,20 +1986,24 @@ using a &lt;link&gt; tag in the HTML part of the document:</p>
 attribute class=&quot;funny&quot;. Notice they can be different elements, we can
 have a p and an h3 element that have the class=&quot;funny&quot; attribute:</p>
 
-<pre>1.  .funny {
+<pre>
+1.  .funny {
 2.    color:purple;
 3.    font-family: 'caveat';
 4.    font-size:40px;
-5.  }</pre>
+5.  }
+</pre>
 
 <p>This rule changes the color, font family and size of two out of three
 paragraphs in the HTML element:</p>
 
-<pre>1.  ...
+<pre>
+1.  ...
 2.  &lt;p class="funny"&gt;I also play electric guitar and love
       coding WebAudio applications...&lt;/p&gt;
 3.    ...
-4.  &lt;p class="funny">Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;</pre>
+4.  &lt;p class="funny">Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;
+</pre>
 
 <p>There are many, many, many different CSS properties in existence, and
 many different ways to select elements. We recommend that you follow the
@@ -3021,7 +3033,8 @@ properties:</p>
 try to plot an additional function in our example. We will add f(x) =
 cos(x) to our example, with a different color:</p>
 
-<pre>1.  data: &lbrack;
+<pre>
+1.  data: &lbrack;
 2.    {
 3.      fn: 'sin(x)',  // First function
 4.      color: 'red'
@@ -3030,8 +3043,8 @@ cos(x) to our example, with a different color:</p>
 7.      fn: 'cos(x)',  // Second function
 8.      color: 'blue'
 9.    }
-10. &rbrack;</pre>
-
+10. &rbrack;
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. codepen: js graph, #2 (82) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3185,10 +3198,12 @@ the changeTitle() function when we click on the button:</p>
 function</b> (a block of code that is executed only when we call it by
 adding a parenthesis after its name, followed by a semi colon):</p>
 
-<pre><b>function changeTitle()</b> {
+<pre>
+<b>function changeTitle()</b> {
   var title = document.querySelector("#mainTitle");
   title.innerHTML = "This new title has been changed from JavaScript!";
-}</pre>
+}
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 115. example of interactivity between javascript & html (86) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3207,12 +3222,14 @@ content of the main title, <b>we use its style property to change its
 look and feel. Using the style property is a way of altering the CSS
 property values of this HTML element.</b></p>
 
-<pre>function changeTitleCSSStyle() {
+<pre>
+function changeTitleCSSStyle() {
   var title = document.querySelector("#mainTitle");
   <b>title.style.color = 'black';</b>
   <b>title.style.backgroundColor = "yellow";</b>
   <b>title.style.border = "5px dashed red";</b>
-}</pre>
+}
+</pre>
 
 <p>title is in reality what we call &quot;an object&quot; and style is a property
 of the title object. The style is an object as well and has attributes
@@ -3404,7 +3421,8 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 
 Typically:
 
-<pre>1.  &lt;body&gt;
+<pre>
+1.  &lt;body&gt;
 2.    ...
 3.    &lt;script&gt;
 4.      var x = 2;
@@ -3415,7 +3433,8 @@ Typically:
 8.      console.log("JavaScript code executed");
 9.    &lt;/script&gt;
 10.   ...
-11. &lt;/body&gt;</pre>
+11. &lt;/body&gt;
+</pre>
 
 <h4>Here is this first example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3441,7 +3460,8 @@ the &lt;head&gt;..&lt;/head&gt; section of an HTML page.</p>
 <p>This time, we placed a JavaScript function that is invoked (called) when
 a button is clicked:</p>
 
-<pre>&lt;head&gt;
+<pre>
+&lt;head&gt;
   <b>&lt;script&gt;</b>
     <b>function addSomeText() {</b>
       <b>// append a message in the body of the html document</b>
@@ -3453,7 +3473,8 @@ a button is clicked:</p>
   &lt;button <b>onclick="addSomeText();"</b>Click me to call a JavaScript function that will add
     some content to this document
   &lt;/button&gt;
-&lt;/body&gt;</pre>
+&lt;/body&gt;
+</pre>
 
 <h4>Here is this second example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3484,11 +3505,13 @@ offers many advantages:
 
 A typical example:
 
-<pre>1.  &lt;head&gt;
+<pre>
+1.  &lt;head&gt;
 2.    ...
 3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
 4.    <b>&lt;script src="js/script.js"&gt;&lt;/script&gt;</b>
-5.  &lt;/head&gt;</pre>
+5.  &lt;/head&gt;
+</pre>
 
 <b>To use an external JavaScript file:</b>
 
@@ -3509,14 +3532,16 @@ A typical example:
 
 <h5>Example that uses more than one JavaScript file:</h5>
 
-<pre>1.  &lt;head&gt;
+<pre>
+1.  &lt;head&gt;
 2.    ...
 3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
 4.    <b>&lt;script src="js/script1.js"&gt;&lt;/script&gt;</b>
 5.    <b>&lt;script src="js/script2.js"&gt;&lt;/script&gt;</b>
 6.    <b>&lt;script src="js/anotherOne.js"&gt;&lt;/script&gt;</b>
 7.    <b>...</b>
-8.  &lt;/head&gt;</pre>
+8.  &lt;/head&gt;
+</pre>
 
 <h4>A typical HTML/CSS/JS project folder structure, when working with external local files</h4>
 
@@ -3543,7 +3568,8 @@ JavaScript files in a js subfolder.
 
 <h5>Contents of the index.html file:</h5>
 
-<pre>1.  ...
+<pre>
+1.  ...
 2.  &lt;head&gt;
 3.    ...
 4.    <b>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;</b>
@@ -3555,13 +3581,16 @@ JavaScript files in a js subfolder.
         JavaScript function that will add some content to this
         document&lt;/button&gt;
 10. &lt;/body&gt;
-11. &lt;/html&gt;</pre>
+11. &lt;/html&gt;
+</pre>
 
 <p>Content of the js/script.js file (JavaScript file):</p>
 
-<pre>1.  function addSomeText() {
+<pre>
+1.  function addSomeText() {
 2.    document.body.innerHTML += "&lt;p&gt;Function executed!&lt;/p&gt;";
-3.  }</pre>
+3.  }
+</pre>
 
 <p>Content of the style.css file:</p>
 
@@ -4500,8 +4529,7 @@ the block, but to the whole function:</p>
   style="width:50%"
   title="Global and local variables"
   alt="Global and local variables." />
-
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/RVMOGx">CodePen</a></p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/RVMOGx">CodePen</a></h6>
 
 <p>Here is another example that shows the differences between global and
 local variables, and highlights the &quot;masking&quot; of global variables by
@@ -4514,7 +4542,7 @@ local variables when they share the same name.</p>
   title="Variables; global and local"
   alt="Variables; global and local." />
 
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/oWEEmN">CodePen</a></p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/oWEEmN">CodePen</a></h6>
 
 <h5>1.3) Never declare a variable without the keyword var!</h5>
 
@@ -4542,7 +4570,7 @@ let while declaring a local variable:</p>
   title="Local and global variable scoping"
   alt="Local and global variable scoping." />
 
-<p><a href="https://codepen.io/w3devcampus/pen/rmJJbo">CodePen</a></p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/rmJJbo">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 146. declaring a variable without var in function make it global (126) ~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4575,7 +4603,7 @@ the block:</p>
   title="if block is true, let a=4"
   alt="if block is true, let a=4." />
 
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/VbXNPz">CodePen</a></p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VbXNPz">CodePen</a></h6>
 
 <h5>3) Recommended way to declare variables: var or let?</h5>
 
@@ -5594,7 +5622,7 @@ correctly.
   style="width:50%"
   title="Button click me to display the value of the x variable"
   alt="Button click me to display the value of the x variable." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/YNbvgP">CodePen</a></p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/YNbvgP">CodePen</a></h6>
 
 Normally, when the button is clicked, we should call
 the addXToThePage() function, which in turn should display the value of
@@ -6191,8 +6219,8 @@ on.
 
 <h4>Source code of the example shown in the video</h4>
 
-<p><a href="https://codepen.io/w3devcampus/pen/pPmqwq?editors=0012" target="_blank" rel="noopener noreferrer">This example is available on
-CodePen</a></p>
+<h6><a href="https://codepen.io/w3devcampus/pen/pPmqwq?editors=0012" target="_blank" rel="noopener noreferrer">This example is available on
+CodePen</a></h6>
 
 <p>Before talking about how your JavaScript program can make decisions,
 such as &quot;<b>if this condition is fulfilled then I&apos;ll do this, otherwise
@@ -6635,7 +6663,7 @@ And this works too and it&apos;s only two lines of code.
 
 <h4>Example from the video</h4>
 
-<p><a href="https://codepen.io/w3devcampus/pen/jmoJRZ" target="_blank" rel="noopener noreferrer">CodePen example from the video</a></p>
+<h6><a href="https://codepen.io/w3devcampus/pen/jmoJRZ" target="_blank" rel="noopener noreferrer">CodePen example from the video</a></h6>
 
 JavaScript source code is a set of statements. There are a couple of
 different statement types. We have already seen one of them, the
@@ -8053,8 +8081,7 @@ alert(&quot;Button clicked&quot;);
 </script>
 </head>
 <body>
-<button id=&quot;myButton&quot; onclick=&quot;processClick(event);&quot;>Click
-me!</button>
+<button id=&quot;myButton&quot; onclick=&quot;processClick(event);&quot;>Click me!</button>
 </body>
 </html>
 </pre>
@@ -8062,8 +8089,7 @@ me!</button>
 This syntax:
 
 <pre>
-1.  <button id=&quot;myButton&quot; **onclick=&quot;processClick(event);**&quot;>Click
-    me!</button>
+1.  &lt;button id=&quot;myButton&quot; <b>onclick=&quot;processClick(event);</b>&quot;&gt;Click me!&lt;/button&gt;
 </pre>
 
 &hellip; is ok when you only need a single event listener to click events
@@ -8132,7 +8158,7 @@ The event object is the only parameter passed to event listeners.
 Typical example:
 
 <pre>
-1.  function processClick(**evt**) {
+1.  function processClick(<b>evt</b>) {
 2.      alert(&quot;Button clicked!&quot;);
 3.  }
 </pre>
@@ -8292,18 +8318,19 @@ element.
 In the next sections, for each kind of event, we&apos;ll detail the
 different properties and provide examples that show how to use them.
 
-#### Online example used in the above video
+<h4>Online example used in the above video</h4>
 
--   [Example on
-    CodePen](https://codepen.io/w3devcampus/pen/XgrveY?editors=0001)
+<ul>
+  <li><a href="https://codepen.io/w3devcampus/pen/XgrveY?editors=0001">Example on CodePen</a></li>
+</ul>
 
-The page lifecycle events detect when the page is loaded and when the
-DOM is ready.
+<p>The page lifecycle events detect when the page is loaded and when the
+DOM is ready.</p>
 
-#### Events related to the page lifecycle
+<h4>Events related to the page lifecycle</h4>
 
-There are many other events related to the page life cycle. The most
-useful ones for an introduction course are shown below:
+<p>There are many other events related to the page life cycle. The most
+useful ones for an introduction course are shown below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 190.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8325,9 +8352,9 @@ resized too when the window was resized), and then you do something
 (redraw a graphic in an HTML canvas that takes into account the new
 canvas size, for example).
 
-#### Example 1: wait until the page is loaded (when the DOM is ready) before doing something
+<h4>Example 1: wait until the page is loaded (when the DOM is ready) before doing something</h4>
 
-This first variant that uses <body onload=&quot;init();&quot;>
+<p>This first variant that uses &lt;body onload=&quot;init();&quot;&gt;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8340,24 +8367,24 @@ This first variant that uses <body onload=&quot;init();&quot;>
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>Example1 of the 'load' event</title>
-</head>
-<body onload='init();'>
-<p>This page uses <code><body onload='init();'></code> in
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;Example1 of the 'load' event&lt;/title&gt;
+&lt;/head&gt;
+&lt;body onload='init();'&gt;
+&lt;p&gt;This page uses &lt;code&gt;&lt;body onload='init();'&gt;&lt;/code&gt; in
   the JS code to execute the init function ONLY WHEN THE PAGE HAS BEEN
-  LOADED!</p>
-<p>This is important as very often we cannot do important things
+  LOADED!&lt;/p&gt;
+&lt;p&gt;This is important as very often we cannot do important things
   before the DOM is ready (all HTML elements have been created and can be
-  manipulated from JavaScript).</p>
-<p>PAGE STATUS: <span id=&quot;pageStatus&quot;>NOT LOADED
-  YET</span></p>
-</body>
-</html>
+  manipulated from JavaScript).&lt;/p&gt;
+&lt;p&gt;PAGE STATUS: &lt;span id=&quot;pageStatus&quot;&gt;NOT LOADED
+  YET&lt;/span&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>CSS:</h5>
