@@ -5109,7 +5109,7 @@ precedence.</p>
 <p>For example, this is an expression: (3 + 2). And the expression (3 + 2)
 &ast; 4, which equals 20, depends on the expression within the parentheses.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168. operators (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168. operators (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image168.png?raw=true"
   style="width:25%"
@@ -5121,8 +5121,236 @@ strings, booleans, and objects. For example, an expression with the operator 
 will evaluate to a number. But an expression with the operator + can evaluate 
 to a number or a string (for addition or concatenation).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-6">1.5.6 Strings (part 1) (4:12)</h3>
+1.5.6 Number Operators (4:12)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Live coding video: number operators</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image169.png?raw=true"
+  style="width:50%"
+  title="Operators"
+  alt="Operators." />
+<p>Welcome to a short video about JavaScript number operators. The different 
+operators you can use in numerical mathematical expressions are:<br>
+ " + ", " - ", " / ", " * " and modulo, the percent sign (" % ").</p>
+
+<p>You can use these operators in what we call mathematical expressions. An 
+expression is something where you use "12 * 20". And you got a result. You 
+can assign this to a variable: "var x =12 * 20" You can see that you can group 
+different values or ….like this. And then, you can start building some more 
+complex expressions. You've got the "*“ operator for multiplying, "/" for 
+dividing, "+" and "–" for addition and subtraction.</p>
+
+<p>There’s also an operator called modulo for example: "22 % 20". We display 
+the rest of the division "22 % 20". "42 % 20" will display the same value. You 
+can also regroup expressions within parentheses like: "var z = (12*20)/(x+10)".</p>
+
+<p>This will work. It will first compute what is within the parentheses, then use 
+the result for the final computation.</p>
+
+<p>Nothing special to say here, but there are strange operators that are we called 
+the prefix and suffix increment operators. So, if I declare variable "x" that 
+has the value of "10". And if I display it, but I use “–- “ at this end, this 
+will display the value of “x” and after that, it will decrement the value of 
+"x" It will remove 1 from "x ". This is equivalent to writing: "var x= 10" … 
+"console.log(x)"… and "x = x –1".</p>
+
+<p>As you saw, it's longer to type all these instructions, but if I do just "console.log(x--)", 
+it will do the same thing. It will display the current value of “x", but its final 
+value is one less that. You can also post increment or post decrement values: 
+" console.log(++x)". You remember that "x" was equal to "8". In that case, it will 
+display "9" because "x" will be first incremented by one then displayed. If I 
+display the value of "x" it’ss "9"...  Z= ++x ... "z" will be "9 +1"… "10".</p>
+
+<p>And "x" will be 10 because it's been incremented. This is equivalent to "x= x+1 
+... Z= x". That's all we can say about number operators, nothing special. It's 
+the same syntax you can find in the Java programming language or in c#, Python, 
+or Ruby.</p>
+
+<end of 1.5.5 transcript>
+
+<p>The following arithmetic operators are binary:<br>
++, - , /, *, % (modulo)</p>
+
+<p>Example: 7 % 5 equals 2, which is the remainder of the integer division of 7 by 5</p>
+
+<p>Note: (7 / 5 = 5 * 1 + 2 ).</p>
+
+<h4>And there are also unary operators:</h4>
+
+<h5>++, --, - (the opposite of a number)</h5>
+
+<p>++ and -- operators increment or decrement the value of a variable. They can be 
+both prefixed or suffixed, which have different effects:</p>
+<ul>
+  <li>Suffixed ++ adds one to the value of the variable, then returns the old value.</li>
+  <li>Prefixed ++ also adds one to the value, but returns the new value. Both of 
+    these must be used with variables.</li>
+</ul>
+
+<p>Examples typed in the devtool console of a browser</p>
+
+<h4>Example #1: simple operator use</h4>
+
+<pre>
+1	&gt; 1 + 2;
+2	3
+3	
+4	&gt; var a = 1;
+5	undefined
+6	
+7	&gt; var b = 2;
+8	undefined
+9	
+10	&gt; a + 1;
+11	2
+12	
+13	&gt; b + 2;
+14	4
+15	
+16	&gt; a + b;
+17	3
+18	
+19	&gt; var c = a + b;
+20	undefined
+21	
+22	&gt; c;
+23	3
+</pre>
+
+<h4>Example #2: more operators</h4>
+
+<pre>
+1.	&gt; 1 + 2;
+2.	3
+3.	
+4.	&gt; 99.99 - 11;
+5.	88.99
+6.	
+7.	&gt; 2 * 3;
+8.	6
+9.	
+10.	&gt; 6 / 4;
+11.	1.5
+</pre>
+
+<h4>Example #3: pre and post increments</h4>
+
+<pre>
+1.	&gt; var m = 0;
+2.	Undefined
+3.	
+4.	&gt; m;
+5.	0
+6.	
+7.	&gt; // regular use of the + operator
+8.	m = m + 1;
+9.	1
+10.	
+11.	&gt; m;
+12.	1
+13.	
+14.	&gt; m = m + 1;
+15.	2
+16.	
+17.	&gt; m;
+18.	2
+19.	
+20.	&gt; // post increment
+21.	m++;
+22.	2
+23.	
+24.	&gt; m;
+25.	3
+26.	&gt; console.log(m++); // will display 3 but after that m is incremented
+27.	3
+28.	
+29.	&gt; m;
+30.	4
+</pre>
+
+<h4>Below is snapshot with explanations:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. example console log (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image170.png?raw=true"
+  style="width:50%"
+  title="Example console log"
+  alt="Example console log." />
+  
+<h4>Example #4: other versions of post and pre increments</h4>
+
+<pre>
+1.	&gt; var a = 123; var b = a++;
+2	Undefined
+3	
+4	&gt; b;
+5	123
+6	
+7	&gt; a;
+8	124
+9	
+10	&gt; var a = 123; var b = ++a;
+11	Undefined
+12	
+13	&gt; b;
+14	124
+15	
+16	&gt; a;
+17	124
+18	
+19	&gt; var a = 123; var b = a--;
+20	undefined
+21	
+22	&gt; b;
+23	123
+24	
+25	&gt; a;
+26	122
+</pre>
+
+<h4>Example #5: short variant that mixes assignment and execution of an operator</h4>
+<p>Binary operators can be used with a shorter syntax when we want to assign the resulting 
+value to a variable at the same time.<br>
+Code below (try it in the devtool console of your browser):</p>
+
+<pre>
+1	&gt; var a = 10;
+2	&gt; a *= 5; // equivalent to a = a * 5;
+3	&gt; console.log(a);
+4	&gt; 50
+</pre>
+
+<h4>Example #6: more with pre operators +=, -=, *=, /=</h4>
+<p>There are good chances you will encounter such code:</p>
+
+<pre>
+1.	&gt; var a = 5;
+2.	Undefined
+3.	
+4.	&gt; a += 3 // equivalent to a = a + 3;
+5.	8
+6.	
+7.	&gt; a -= 2; // equivalent to a = a - 2;
+8.	6
+9.	
+10.	&gt; a *= 10; // equivalent to a = a * 10;
+11.	60
+12.	
+13.	&gt; a /= 5; // equivalent to a = a / 5;
+14.	12
+15.	
+16.	&gt; a %= 2; // equivalent to a = a % 2;
+17.	0
+18.	
+19.	&gt; // this is normal, as it is even
+</pre>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch1-5-7">1.5.7 Strings, part 1</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h4>General use</h4>
+
 <p>To declare or manipulate strings you must write them with <b>single
 quotes &apos; or double quotes &quot;</b> around them. Single quotes or double
 quotes are both accepted, and there is no difference between them in
@@ -5132,28 +5360,29 @@ string - this is not a convention, but a recommendation.</p>
 <p>And finally, you cannot start a string with a single and end with a
 double quotes, or the opposite.</p>
 
-<pre>&gt; "Hello World";
-"Hello World"
- 
-&gt; "JavaScript Course";
-"JavaScript Course"
- 
-&gt; 'With simple quotes';
-"With simple quotes"
- 
-&gt; "Do not mix double and simple quotes'; // here we opened the string
-with double and closed with simple quotes</pre>
-
-<p>VM24763:1 Uncaught SyntaxError: Invalid or unexpected token</p>
+<pre>
+1.  &gt; "Hello World";
+2.  "Hello World"
+3.   
+4.  &gt; "JavaScript Course";
+5.  "JavaScript Course"
+6. 
+7.  &gt; 'With simple quotes';
+8.  "With simple quotes"
+9.  
+10. &gt; "Do not mix double and simple quotes'; // here we opened the string
+with double and closed with simple quotes
+11. VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
+</pre>
 
 <h5>Image from the devtool console, from the above example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 169. snapshot of a devtools console; do not mix simple and double quotes (144) ~~~~~~-->
+<!--~~~~~~~~~ 171. error - devtools console; do not mix simple and double quotes (145) ~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image169.png?raw=true"
+<img src="./images/image171.png?raw=true"
   style="width:50%"
-  title="Snapshot of a devtools console error; do not mix simple and double quotes"
-  alt="Snapshot of a devtools console error; do not mix simple and double quotes." />
+  title="Error; devtools console error; do not mix simple and double quotes"
+  alt="Error; devtools console error; do not mix simple and double quotes." />
 
 <h5>There are many reasons to use simple quotes when possible:</h5>
 
@@ -5164,8 +5393,17 @@ with double and closed with simple quotes</pre>
   <li>To output HTML in JavaScript, single quotes are more useful</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-8">1.5.8 String operators (6:44)</h3>
+<h3 id="ch1-5-8">1.5.8 String operators, part 2 (6:44)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Live coding video: string and string operators</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~ 172. snapshot of a devtools console; do not mix simple and double quotes (145) ~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image172.png?raw=true"
+  style="width:50%"
+  title="Snapshot of a devtools console error; do not mix simple and double quotes"
+  alt="Snapshot of a devtools console error; do not mix simple and double quotes." />
+
 <p>Strings can be defined using double quotes, or simple quotes. Don&apos;t mix 
 double and single quotes, it&apos;s not going to work.
 You can mix them, but inside a string defined with simple quotes, you can use 
@@ -5224,6 +5462,7 @@ to a number, like &quot;hello&quot;&hellip; in that case - if do the same operat
 the result is NaN that means &quot;Not a Number&quot;, you cannot convert 
 &quot;hello&quot; to a number that can be used in a mathematical expression or multiplied by
 two.</p>
+
 <!-- end of video transcript -->
 
 <h4>Introduction to string operators</h4>
@@ -5323,12 +5562,12 @@ unless the formula is a pure addition.</p>
 
 <h4>The above example is shown in the devtools console:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. devtools console (148) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image170.png?raw=true"
+<!--~~~~~~~~~~~~ 173. devtools console; how to convert a number into a string (149) ~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image173.png?raw=true"
   style="width:25%"
-  title="Devtools console"
-  alt="Devtools console." />
+  title="Devtools console; how to convert a number into a string"
+  alt="Devtools console; how to convert a number into a string." />
 
 <h4>How to convert a Number into a String</h4>
 
@@ -5361,8 +5600,10 @@ var s = "&#92;"Hello&#92;", he said."; // double quotes inside double quotes 
 
 <h4>Escaping the escape! Use a double &quot;&#92;&quot;</h4>
 
-<pre>var s = "1&#92;&#92;2"; s;
-// returns "1&#92;2"</pre>
+<pre>
+var s = "1&#92;&#92;2"; s;
+// returns "1&#92;2"
+</pre>
 
 <h4>Special characters starting with &quot;&#92;&quot;</h4>
 
@@ -5476,7 +5717,7 @@ var student1 = {
 }
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-10">1.5.10 Arrays (part 1)</h3>
+<h3 id="ch1-5-10">1.5.10 Arrays, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Definition: arrays are containers with indexes</h4>
 
@@ -5487,8 +5728,10 @@ this:</p>
 
 <p>You can fill them at declaration time:</p>
 
-<pre>1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
-2.  var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;</pre>
+<pre>
+1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
+2.  var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;
+</pre>
 
 <h4>Elements in an array can be accessed using <b>indexes</b>></h4>
 
@@ -5616,7 +5859,7 @@ Examples:
 9.  3
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-11">1.5.11 Functions (part 1)</h3>
+<h3 id="ch1-5-11">1.5.11 Functions, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Definition of a function</h4>
 
@@ -5720,9 +5963,9 @@ console and console.log(&hellip;)!</p>
 <p>Let&apos;s check that some parts of the code you wrote are executed
 correctly.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 171. button click me to display the value of the x var (153) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 174. button click me to display the value of the x var (156) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image171.png?raw=true"
+<img src="./images/image174.png?raw=true"
   style="width:50%"
   title="Button click me to display the value of the x variable"
   alt="Button click me to display the value of the x variable." />
@@ -5736,12 +5979,13 @@ HTML paragraph.</p>
 a console.log(&quot;In the addXToThePage function&quot;); as the first
 instruction of the function:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image172.png?raw=true"
+<img src="./images/image175.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/YNbvoX">CodePen</a></h6>
 
 <p>And let&apos;s execute this with the devtool console open (use F12 on
 Windows, or Cmd-Alt-i on a Mac, or control-shift-i). First, as the
@@ -5749,29 +5993,29 @@ provided example is located on CodePen, an online IDE, it&apos;s better to
 execute it in &quot;debug mode&quot;. The online IDE will just display a page
 (see snapshot below) with the code running:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 173.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176. select debug mode (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image173.png?raw=true"
+<img src="./images/image176.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Select Debug mode"
+  alt="Select Debug mode." />
 
 <p>This action opens a new tab with only your code running in it (not the
 whole codepen IDE + your code!). Open the devtool console (F12 or
 control-shift-i or cmd-alt-i on Mac), and you should see this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 177. console debug (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image159.png?raw=true"
+<img src="./images/image177.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Console debug"
+  alt="Console debug." />
 
 <p>Now, press the button! An error message appears:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 175. error message in the devtool console (158) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 178. error message in the devtool console (158) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image175.png?raw=true"
+<img src="./images/image178.jpg?raw=true"
   style="width:50%"
   title="Error message in the devtool console"
   alt="Error message in the devtool console." />
@@ -5780,9 +6024,9 @@ control-shift-i or cmd-alt-i on Mac), and you should see this:</p>
 We can check the source code by clicking on the YNbvoX:40 link on the
 right:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 176. source code that fired the error (158) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 179. source code that fired the error (158) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image176.png?raw=true"
+<img src="./images/image179.png?raw=true"
   style="width:50%"
   title="Source code that fired the error"
   alt="Source code that fired the error." />
@@ -5791,9 +6035,9 @@ right:</p>
 the onclick=&quot;&hellip;&quot;, the name we used : AddXToToThePage has &quot;ToTo&quot;
 instead of &quot;To&quot;. Let&apos;s fix that now and try again:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 180. this time we entered the addxtothepage function! (159) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image177.png?raw=true"
+<img src="./images/image180.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -5802,16 +6046,12 @@ instead of &quot;To&quot;. Let&apos;s fix that now and try again:</p>
 go in debug mode, open the devtool console and click the button. Here is
 what we get:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 181. codepen; click me to display the value of the x variable (159) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image178.png?raw=true"
+<img src="./images/image181.png?raw=true"
   style="width:50%"
-  title="console.log message displayed in the console, as well as another error"
-  alt="console.log message displayed in the console, as well as another error." />
-
-<p>You can click on the button now . . .</p>
-
-<p>Going further with console.log</p>
+  title="CodePen; click me to display the value of the x variable"
+  alt="CodePen; click me to display the value of the x variable." />
 
 <p>Ok, you understand the principle&hellip; by using console.log(&hellip;) with a
 string message as parameter, you can make the message appear in the
@@ -5820,6 +6060,13 @@ error at least to this point&hellip;</p>
 
 <p>Let&apos;s fix this &quot;X&quot;! We&apos;ll replace it with an &quot;x&quot; and everything
 should be ok now:</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 182. codepen; write messages to the devtool console (159) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image183.png?raw=true"
+  style="width:50%"
+  title="CodePen; Write messages to the devtool console"
+  alt="CodePen; Write messages to the devtool console." />
 
 <p>You can click on the button now&hellip;.</p>
 
@@ -5842,93 +6089,82 @@ strings.</p>
 
 <p>We typed this code in the devtool console to check what it does:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 183. type javascript code into the console (160) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image179.png?raw=true"
+<img src="./images/image183.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![Type js code into the
-console](./images/image132.jpeg){width="6.114583333333333in"
-height="1.4788757655293088in"} -->
+  title="Type JavaScript code into the console"
+  alt="Type JavaScript code into the console." />
 
-You can use as many &quot;+&quot; as you like, the part right after the &quot;+&quot;
-will be turned into a string if the part in front is a string&hellip;
+<p>You can use as many &quot;+&quot; as you like, the part right after the &quot;+&quot;
+will be turned into a string if the part in front is a string&hellip;</p>
 
-You can also use parentheses in order to display results of simple
-calculations:
+<p>You can also use parentheses in order to display results of simple
+calculations:</p>
 
-<pre>1.  var x = 2;
+<pre>
+1.  var x = 2;
 2.  var y = 4;
 3.  console.log("x = " + x);
 4.  console.log("y = " + y);
 5.   
-6.  console.log("The value of (x+y) is " + (x+y) + " and it';s ok
-    like that.");</pre>
+6.  console.log("The value of (x+y) is " + (x+y) + " and it';s ok like that.");
+</pre>
 
-Result:
+<p>Result:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 184. expression displayed using console.log (161) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image180.png?raw=true"
+<img src="./images/image184.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![Expression displayed using
-console.log](./images/image133.jpeg){width="7.416666666666667in"
-height="3.0416666666666665in"} -->
+  title="Expression displayed using console.log"
+  alt="Expression displayed using console.log." />
 
-You can use any operator (+, -, /, &ast;, etc.), you are not limited to
-using the &quot;+&quot; operator.
-
-And of course, you can use such code in your programs, not only in the
-devtool console :-)
-
+<p>You can use any operator (+, -, /, &ast;, etc.), you are not limited to
+using the &quot;+&quot; operator. And of course, you can use such code in 
+your programs, not only in the devtool console :-)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-3">1.6.3 Modifying an HTML document</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Don&apos;t worry if we do not explain all the details of this example. In
+<p>Don&apos;t worry if we do not explain all the details of this example. In
 the first module, we&apos;re giving you &quot;a taste&quot; of what we can do with
 JavaScript. Over the following modules, we&apos;ll delve deeper into the
-details&hellip; 
+details&hellip;</p>
 
-We&apos;ve already seen some examples that modify the content of the
+<p>We&apos;ve already seen some examples that modify the content of the
 document <b>dynamically</b>. We changed a title by clicking on a button, we
-displayed the value of a variable named x in the previous section, etc.
+displayed the value of a variable named x in the previous section, etc.</p>
 
-The browser comes with some very powerful APIs (Application Programming
+<p>The browser comes with some very powerful APIs (Application Programming
 Interfaces - a set of predefined objects/functions/variables you can
-use):
+use):</p>
 
-1.  &quot;The selection API&quot; is used for &quot;selecting elements in the
-    document&quot;. It uses the same syntax as CSS selectors. 
-
-2.  The &quot;DOM API&quot; for &quot;Document Object Model&quot; API. When we
+<ol>
+  <li>&quot;The selection API&quot; is used for &quot;selecting elements in the
+    document&quot;. It uses the same syntax as CSS selectors.</li>
+  <li>The &quot;DOM API&quot; for &quot;Document Object Model&quot; API. When we
     used document.body.innerHTML += &quot;&lt;p&gt;The value of x is &quot; + x +
     &quot;&lt;/p&gt;&quot;; in a previous example, we used the DOM API for adding
-    content to the body of the page (page = document).
-
-3.  Another API is called the HTML Table JavaScript API, and is useful
-    for building tables on the fly.
-
-4.  etc.
-
+    content to the body of the page (page = document).</li>
+  <li>Another API is called the HTML Table JavaScript API, and is useful for 
+    building tables on the fly.</li>
+  <li>etc.</li>
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 181. contact list (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185. contact list (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image181.png?raw=true"
+<img src="./images/image185.png?raw=true"
   style="width:50%"
   title="Contact list"
   alt="Contact list." />
-</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pRmZqY">CodePen</a></h6>
 
 <p>Just click the button to build the HTML table dynamically. You should
 see this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 182. dynamic contact list; given name, family name (162) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 186. dynamic contact list; given name, family name (162) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image182.png?raw=true"
+<img src="./images/image186.png?raw=true"
   style="width:25%"
   title="Dynamic contact list; given name, family name"
   alt="Dynamic contact list; given name, family name." />
@@ -5943,30 +6179,33 @@ what can be done.</p>
 
 <h4>Example #1: change common properties (color, border, background color)</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 187. change common properties  (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image183.png?raw=true"
+<img src="./images/image187.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Change common properties"
+  alt="Change common properties." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/rjgQgN">CodePen</a></h6>
 
 <h4>Example #2: change the background image property using an external image</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 188. change the background image (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image184.png?raw=true"
+<img src="./images/image188.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Change the background image property using an external image"
+  alt="Change the background image property using an external image." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/MJdzMM">CodePen</a></h6>
 
 <h4>Example #3: Use the background image as a sprite sheet - animate Mario!</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 189. use the background image as a sprite sheet (164) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image185.png?raw=true"
+<img src="./images/image189.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Use the background image as a sprite sheet"
+  alt="Use the background image as a sprite sheet." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygWGBd">CodePen</a></h6>
 
 <p>Notice how the CSS properties change when we use them from JavaScript:</p>
 
@@ -5998,14 +6237,13 @@ study some of the most useful events in even greater depth.</p>
 
 <h4>Example #1: use input events on an HTML input field</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 190. use input events on an html input field (165) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image186.png?raw=true"
+<img src="./images/image190.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![](./images/image138.png){width="6.5in"
-height="2.1347222222222224in"} -->
+  title="Use input events on an HTML input field"
+  alt="Use input events on an HTML input field." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/jyoXGN">CodePen</a></h6>
 
 <h4>Example #2: listen to mouse events in an HTML5 canvas</h4>
 
@@ -6021,30 +6259,33 @@ make a small game, etc. Small and diverse examples for illustrating some
 JavaScript data structures such as Arrays or Objects are going to be
 presented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 191. listen to mouse events in an html5 canvas (166) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image187.png?raw=true"
+<img src="./images/image191.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-
+  title="Listen to mouse events in an HTML5 canvas"
+  alt="Listen to mouse events in an HTML5 canvas." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/QdRzJw">CodePen</a></h6>
+  
+<h4>Example #3: a paint program - click and drag mouse, then release</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 192. a paint program - click and drag mouse (166) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image188.png?raw=true"
+<img src="./images/image192.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="A paint program - click and drag mouse"
+  alt="A paint program - click and drag mouse." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VPOqJG">CodePen</a></h6>
 
 <h4>Example #4: move a monster in an HTML5 canvas using left and right arrow keys</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 193. move a monster in an html5 canvas (167) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image189.png?raw=true"
+<img src="./images/image193.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-
+  title="Move a monster in an HTML5 canvas"
+  alt="Move a monster in an HTML5 canvas." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygWZEP">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-6">1.6.6 Using built-in HTML5 APIs</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6071,6 +6312,15 @@ image cannot be seen in this embedded example anymore.</p>
 <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">
 W3Cx HTML5 Coding Essentials and Best Practices</a> course provides many other 
 examples that use the webcam.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~ 194. codepen; example webcam (168) ~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image194.png?raw=true"
+  style="width:50%"
+  title="CodePen; Example Webcam"
+  alt="CodePen; Example Webcam." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLNwqx">CodePen</a></h6>
+
 
 <p>If you want to spend some time having fun with the WebCam, don&apos;t forget
 to try <a href="https://webcamtoy.com/">the WebCam Toy</a> demo!</p>
@@ -6080,12 +6330,13 @@ to try <a href="https://webcamtoy.com/">the WebCam Toy</a> demo!</p>
 <p>Click on the piano keyboard. Use the different buttons, sliders, etc.
 This example uses the WebAudio API in order to synthesize sounds.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 198. codepen; force-directed draggable graph (170) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~ 195. codepen; using the webaudio api to build a small sythesizer (168) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image198.png?raw=true"
+<img src="./images/image195.png?raw=true"
   style="width:50%"
-  title="CodePen; A force-directed draggable graph using circles as nodes"
-  alt="CodePen; A force-directed draggable graph using circles as nodes." />
+  title="CodePen; Using the WebAudio API to build a small sythesizer"
+  alt="CodePen; Using the WebAudio API to build a small sythesizer." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/oBRVgv">CodePen</a></h6>
 
 <h5>HTML:</h5>
 
@@ -6105,7 +6356,8 @@ objects, through to visualizing data and much more.</p>
 <p>We provide some examples below, but feel free to look on the Web for
 other external libraries.</p>
 
-<h4>Example #1: plot mathematical functions using the [function plot JavaScript library](https://mauriciopoppe.github.io/function-plot/)</h4>
+<h4>Example #1: plot mathematical functions using the 
+<a href="https://mauriciopoppe.github.io/function-plot/">function plot JavaScript library</a></h4>
 
 <p>There are numerous libraries for plotting math functions, but this one
 is pretty easy to use and very powerful. Here is an example that
@@ -6113,12 +6365,13 @@ plots f(x) = x&#94;2, then f(x) = sin(x) and finally a mix of
 fours functions : f(x) = x&#94;2 (in red), f(x) = 3&ast;x (in green), f(x) =
 cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 199. codepen; chiptune music with webaudio (171) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 196. codepen; plot mathematical functions (169) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image199.png?raw=true"
+<img src="./images/image196.png?raw=true"
   style="width:50%"
-  title="CodePen; Chiptune music with WebAudio"
-  alt="CodePen; Chiptune music with WebAudio." />
+  title="CodePen; "
+  alt="CodePen; ." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/jyjEob">CodePen</a></h6>
 
 <p>Here is another much simpler example, please edit the code (click on
 &quot;edit on codepen&quot;) and change the function for something like f(x) =
@@ -6127,31 +6380,92 @@ the xRange and yRange values). If you have trouble, 
 <a href="https://codepen.io/w3devcampus/pen/MJMYNb">
 look here</a> for a solution.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (172) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 197. plot force directed graph using d3.js (170) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image197.png?raw=true"
+  style="width:50%"
+  title="Plot force directed graph using d3.js"
+  alt="Plot force directed graph using d3.js." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/NdVJvy">CodePen</a></h6>
+
+<h4>Example #2: plot a force directed graph using the d3.js JavaScript library</h4>
+<p>Try to click and drag nodes... All the graphics, animation and force repulsion, 
+is done using the very powerful d3.js plotting library. Look at the HTML source 
+code to see how we included this library in our HTML page. Look at the JS part; 
+it seems complicated, but hey! I guess you can make your own graph with your own 
+colors and your own node labels, without mastering JavaScript ;-) The beauty of 
+this language is that you can find so many examples on the Web that you can easily 
+learn by copying and pasting, tweaking code you haven't even written, etc. Go to 
+codepen.io and use the search button for "d3" and you will find plenty of examples 
+that use that library.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 198. codepen; force-directed draggable graph (170) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image198.png?raw=true"
+  style="width:50%"
+  title="CodePen; A force-directed draggable graph"
+  alt="CodePen; A force-directed draggable graph." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/Bpgypq">CodePen</a></h6>
+
+<h4>Example #3: play chiptune songs using the chiptune.js library</h4>
+
+<p>I really like this example, as it takes me back to my youth playing games 
+on the Commodore 64, the Nintendo NES console, etc. In that prehistoric age, 
+there weren't a lot of kilobytes available in the memory, and most sounds were 
+synthesized, not audio samples. The audio resolution in the past was lower than 
+it is today. Audio chips utilized simpler DSP algorithms with less accuracy, 
+and the sample rate was not the familiar 44.1 kHz that we are accustomed to now. 
+Musicians used tools called "mod players/editors" for creating the music score 
+(you can try a re-creation on the browser of a mod editor to see how it looked 
+in the late 80's).</p>
+
+<p>To try the example below, click on "load demo song", then on the play button. 
+If you want to try other compatible songs, look for any .mod, .it, .xm song on 
+the Web and drag and drop it into the example page. A good resource for such 
+files is The Mod Archive, you can download plenty of chiptune files from there.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 199. codepen; chiptune - load demo song (171) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image199.png?raw=true"
+  style="width:50%"
+  title="CodePen; Chiptune music with WebAudio"
+  alt="CodePen; Chiptune music with WebAudio." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GrbgMB">CodePen</a></h6>
+
+<h4>Example #4: animate a sprite in an HTML5 canvas using the sprite.js library</h4>
+
+<p>This is just a small example of the use of the sprite.js library, which makes 
+it easier to animate sprites (sub images from a big image called a "sprite sheet") 
+in an HTML5 canvas. We will see how to use the HTML5 canvas later on in this course. 
+The example is just here to illustrate what can be done using external libraries.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 200. codepen; animate a green spite (172) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image200.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen; Animate a green sprite"
+  alt="CodePen; Animate a green sprite." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/dNBPQm">CodePen</a></h6>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-8">1.6.8 Working with remote data</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Let's see a few examples on how to work with remote data.
+<p>Let's see a few examples on how to work with remote data.</p>
 
 <h4>Examples</h4>
 
 <h5>Example #1: use remote structured data</h5>
 
-This example downloads and displays a list of users in a table
-(see [remote data](https://jsonplaceholder.typicode.com/users)):
+<p>This example downloads and displays a list of users in a table
+(see <a href="https://jsonplaceholder.typicode.com/users">remote data</a>):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 201. codepen; use remote structured data (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image201.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: Use remote structured data"
+  alt="CodePen: Use remote structured data." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/xgoZdg">CodePen</a></h6>
 
 <h4>Example #2: load and decode remote sounds for use in a video game</h4>
 
@@ -6159,50 +6473,41 @@ This example just shows how to use the HowlerJS external library to load
 remote sounds, decode them and play them as samples in memory (useful
 for video games):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 202. CodePen: Load and decode remote sounds for use in a video game (173) ~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image202.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-
+  title="CodePen: Load and decode remote sounds for use in a video game"
+  alt="CodePen: Load and decode remote sounds for use in a video game." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/BWbNQG">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1">2.1.1 Video introduction - Module 2</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 203. learn how to handle events (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image203.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 
-In this module, you will learn how to handle events (using a keyboard, a
+<p>In this module, you will learn how to handle events (using a keyboard, a
 mouse, or a game pad), detect which button has been pressed, what is the
-position of the mouse pointer, what key has been pressed, etc.
+position of the mouse pointer, what key has been pressed, etc.</p>
 
-You will discover the DOM API, as this is the standard application
+<p>You will discover the DOM API, as this is the standard application
 programming interface that will be used for interactive with the content
-of an HTML document.
+of an HTML document.</p>
 
-In addition, we will introduce some new fundamental JavaScript bricks,
+<p>In addition, we will introduce some new fundamental JavaScript bricks,
 such as conditional statements, logical operators (if, then, else), and
-loops.
+loops. How to display multiple rows in a table, how to draw multiples graphical
+objects on the screen.</p>
 
-How to display multiple rows in a table, how to draw multiples graphical
-objects on the screen.
-
-Finally, we will write together a small JavaScript game using the HTML5
-canvas API.
-
-Animating and drawing shapes at 60 frames/second is a lot of fun, and
+<p>Finally, we will write together a small JavaScript game using the HTML5
+canvas API. Animating and drawing shapes at 60 frames/second is a lot of fun, and
 we'll make you play with the most of the language elements seen so far.
-
 And please, as I like video game, don&apos;t forget to share your project in
-the forum.
-
-And let other students enjoy your creation :D
-
+the forum. And let other students enjoy your creation :D</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1-2">2.1.2 Module 2 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
