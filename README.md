@@ -4117,81 +4117,57 @@ Sublime Text.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-1">1.5.1 JS variables and values (5:28)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 1xx.  (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image1xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
-Hi!
-
-In JavaScript, a variable is a container for a value.
-
-And a value can be many things: a number, or a string, an object or a
-complex function.
+In JavaScript, a variable is a container for a value. And a value can be many 
+things: a number, or a string, an object or a complex function.
 
 With variables, the value in the container can change, and to use a
-variable you first have to declare it.
+variable you first have to declare it. Let's see some examples! You can declare 
+a variable using the keyword &quot;var&quot;, and followed by the name of the 
+variable, or you can also use the keyword &quot;let&quot;, that came with ES6, 
+with JavaScript version 6.
 
-Let's see some examples!
+Before ES6, you could only use &quot;var&quot;. There are small differences that 
+I will explain later, but for the moment you can use &quot;var&quot; or you can 
+use &quot;let&quot;. Once a variable is declared, you must initialize the variable, 
+this is where you give it a value. And this is done by using the equal sign. As 
+you can see, the console.log will display in the console the value of the variable 
+&quot;myName&quot;. 
 
-You can declare a variable using the keyword &quot;var&quot;, and followed by
-the name of the variable, or you can also use the keyword &quot;let&quot;, that
-came with ES6, with JavaScript version 6.
-
-Before ES6, you could only use &quot;var&quot;.
-
-There are small differences that I will explain later, but for the
-moment you can use &quot;var&quot; or you can use &quot;let&quot;.
-
-Once a variable is declared, you must initialize the variable, this is
-where you give it a value.
-
-And this is done by using the equal sign.
-
-As you can see, the console.log will display in the console the value of
-the variable &quot;myName&quot;.
-
-You can also initialize and declare a variable at the same time.
-
-You see, I declare a variable called myDog and I gave it a name: Rex.
-
-Also, you can use these variables in instructions, in expressions like:
-&quot;the name of my dog is&quot;.
-
+You can also initialize and declare a variable at the same time. You see, I 
+declare a variable called myDog and I gave it a name: Rex. Also, you can use 
+these variables in instructions, in expressions like: &quot;the name of my dog is&quot;.
 You can use the "+" operator for concatenating strings, because "myDog"
-is a string, and in that case you will see: &quot;the name of my dog is&quot;
-...
-
-followed by the value of the "myDog" variable.
+is a string, and in that case you will see: &quot;the name of my dog is&quot; 
+...followed by the value of the "myDog" variable.
 
 There are also naming rules and conventions for variables. You can give
 to variables names like "x", "y", "z". If they are just single, one-word
-names, you use lowercase.
+names, you use lowercase. But the convention, when you start using composed 
+words, is to use the &quot;lower camel case&quot; syntax. If your variable 
+name is made of two or more words, write the first one in lowercase, and 
+capitalize every other words. Example: "myFastCar", &quot;my&quot; is lowercase, 
+&quot;Fast&quot; and &quot;Car&quot; are capitalized. Also, variables are case 
+sensitive: do not mix a variable name in lower case and in uppercase. For example, 
+if I give to the small "x" a value of "2", and to big "X" a value of "4", and if 
+I display the value of big "X", then the JavaScript interpreter will know that 
+big "X" is different than small "x".
 
-But the convention, when you start using composed words, is to use the
-&quot;lower camel case&quot; syntax.
-
-If your variable name is made of two or more words, write the first one
-in lowercase, and capitalize every other words.
-
-Example: "myFastCar", &quot;my&quot; is lowercase, &quot;Fast&quot; and &quot;Car&quot; are
-capitalized.
-
-Also, variables are case sensitive: do not mix a variable name in lower
-case and in uppercase.
-
-For example, if I give to the small "x" a value of "2", and to big "X" a
-value of "4", and if I display the value of big "X", then the JavaScript
-interpreter will know that big "X" is different than small "x".
-
-If you need to use different names like if I've got two fast cars, just,
-my recommendation: use "myFastCar1", "myFastCar2", etc.
-
-Also, you should not use JavaScript reserved words such as &quot;var&quot;,
-&quot;let&quot;, &quot;if&quot;, &quot;for&quot;, &quot;function&quot;, etc.
+<p>If you need to use different names like if I've got two fast cars, just, my 
+recommendation: use "myFastCar1", "myFastCar2", etc. Also, you should not use 
+JavaScript reserved words such as &quot;var&quot;, &quot;let&quot;, &quot;if&quot;, 
+&quot;for&quot;, &quot;function&quot;, etc.</p>
 
 <p>So, var function = 2; will raise an error, I can show that to you in the
-devtool console, this raises an error.</p>
-
-<p>This also raises an error.</p>
-
-<p>That's all for the moment about the variables.</p>
+devtool console, this raises an error. This also raises an error. That's all 
+for the moment about the variables.</p>
 
 <p>We will next talk about variable values and variable scopes, and you
 will see that there is a small difference between "var" and "let" when
@@ -4227,8 +4203,10 @@ just give the name of the variable.</b></p>
 
 <h4>Example:</h4>
 
-<pre>var myVar;
-let x;</pre>
+<pre>
+var myVar;
+let x;
+</pre>
 
 <p>The first letter of a variable can only be &quot;&dollar;&quot;, &quot;&lowbar;&quot;, &quot;a&quot; to
 &quot;z&quot;, or &quot;A&quot; to &quot;Z&quot;. The other characters in a name must be any of
@@ -4250,10 +4228,13 @@ called &quot;the assignment operator&quot;.</p>
 <p>(notice at <b>line 4</b> one way to introduce comments in your code: start
 a line with &quot;//&quot;!)</p>
 
-<pre>var myValue;
-myValue = 78;
-// With the ES2015 syntax. BTW, lines staring with // are comments!
-let myNumber = 1.34;</pre>
+<pre>
+1. var myValue;
+2. myValue = 78;
+3. // With the ES2015 syntax. BTW, lines staring with 
+4. // are comments!
+5. let myNumber = 1.34;
+</pre>
 
 <p>At <b>line 2</b>, we are not saying that &quot;myValue&quot; and &quot;78&quot; are the
 same, we&apos;re saying &quot;hey, I want to store the value 78, and I&apos;m
@@ -4270,9 +4251,12 @@ comma. Always end each instruction line with a semi colon.</p>
 
 <h4>Example:</h4>
 
-<pre>var myNumber1, myNumber2 = 34, myNumber3;
-// Or with the ES2015 syntax, you can also use &quot;let&quot;
-let x = 1, y = 3, z = 12;</pre>
+<pre>
+1. var myNumber1, myNumber2 = 34, myNumber3;
+2. 
+3. // Or with the ES2015 syntax, you can also use &quot;let&quot;
+4. let x = 1, y = 3, z = 12;
+</pre>
 
 <h4>Try the devtool console - you can type code in there too!</h4>
 
@@ -4283,26 +4267,23 @@ windows, or ctrl-shift i, or cmd-alt-i on other computers.</p>
 example, and type myNumber2 in the devtool console, it will display 34
 (while myNumber1 will have an undefined value):</p>
 
-<pre>&gt; var myNumber1, myNumber2 = 34, myNumber3;
-undefined
-
-&gt; // Or with the ES6 syntax you can also use "let"
-undefined
- 
-&gt; let x=1, y=3, z=12;
-
-undefined
-&gt; x;
-1
- 
-&gt; z;
-12
-
-&gt; myNumber2;
-34
- 
-&gt; myNumber1;
-undefined</pre>
+<pre>
+1.  var myNumber1, myNumber2 = 34, myNumber3;
+2.  undefined
+3.  // Or with the ES6 syntax you can also use "let"
+4.  undefined
+5.  let x=1, y=3, z=12;
+6.  undefined
+7.  x;
+8.  1
+9.  z
+10. 12
+11. myNumber2;
+12. 34
+13. 
+14. myNumber1;
+15. undefined
+</pre>
 
 <p>Below is an image that explains how you can try JavaScript code in the
 devtools console:</p>
@@ -4324,22 +4305,25 @@ error message:</p>
   title="Error Message: Undeclared type error"
   alt="Error Message: Undeclared type error." />
 
+<!-- next section is from lesson 4 years back in 2020 I believe -->
+
 <h4>Name conventions for variables</h4>
 
-The JavaScript community has some conventions about naming variables:
+<p>The JavaScript community has some conventions about naming variables:</p>
 
 <ul>
-  <li><b>The camelCase notation is
-    preferred</b>: mySpaceShip, sumOfAllGrades, etc.
+  <li><b>The camelCase notation is preferred</b>: mySpaceShip, sumOfAllGrades, etc.</li>
   <li><b>For a variable, the first letter is lowercase and each first
     letter of each word is capitalized</b>. Example: var myVariableName</li>
 </ul>
 
 <h4>Example:</h4>
 
-<pre>var myModel;
+<pre>
+var myModel;
 // ES2015 syntax
-let michelBuffaAge = 51;</pre>
+let michelBuffaAge = 51;
+</pre>
 
 <p>Most JavaScript examples you will find are written in the camelCase
 format. For harmony in the code source, it is a good idea to keep this
@@ -4356,19 +4340,23 @@ CamelCase vs underscores: Scientific showdown</a>.</p>
 <p><b>The naming convention is to use uppercase letters with underscores.</b></p>
 
 <p><b>Example: var TIME_LIMIT = 50;</b></p>
+
 <p>With JavaScript 5, constants were declared as normal variables, using
 the <b>var</b> keyword, and there were no verifications by the JavaScript
 interpreter forbidding you to modify them after you assigned a value to
 them.</p>
+
 <p>With ES2015/2016 it is recommended that you use the
 keyword <b>const</b> instead of <b>var</b> to declare them. This means that an
 error will be raised if you try to change their value in the future.</p>
 
 <h4>Example:</h4>
 
-<pre>var TIME_LIMIT;
+<pre>
+var TIME_LIMIT;
 // ES2015 Syntax
-const MAX_GRADE = 20;</pre>
+const MAX_GRADE = 20;
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 141. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (121) ~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4382,7 +4370,8 @@ const MAX_GRADE = 20;</pre>
 <p>Here are a set of examples (using the let keyword, but they would also
 work with var):</p>
 
-<pre>let a;
+<pre>
+let a;
 let thisIsAVariable;
 let and_this_too; // but <b>does not respect the usual naming convention</b>
 let mix12three;
@@ -4392,12 +4381,12 @@ let a = 1
 let v1, v2, v3 = 'hello', v4 = 4, v5;
 // Beware with lowercase / uppercase
 let case_matters = 'lower';
-let CASE_MATTERS = 'upper';</pre>
+let CASE_MATTERS = 'upper';
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Scope of JS variables (4:19)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Hi!
+<!-- new image goes here -->
 
 Let's talk about &quot;variable scopes&quot;. The scope of a variable
 corresponds to the locations in your code where you can use this
@@ -4443,7 +4432,7 @@ of the variable "a" here, will not be the value of the local variable
 here, because this one does not exist, it's not usable here. It will be
 the global variable &quot;a&quot; that will be used.
 
-So this is why the printed value here, when I execute "f" is &quot;1&quot; and
+This is why the printed value here, when I execute "f" is &quot;1&quot; and
 not &quot;4&quot;.
 
 If the variable was named "b" and if I tried to display it, then... I've
@@ -4451,25 +4440,27 @@ got an error: &quot;b is not defined&quot;. Remember that if I used &quot;var&qu
 that case it works, because &quot;var&quot; will define a variable local to the
 whole function, not just to the block of instructions.
 
+<!-- end of video transcript 1.5.2 -->
+
 <h4>Scope of JavaScript variables</h4>
 
-<h4>1)  JavaScript 5 / ES5 scopes, with the var keyword</h4>
+<h4>1) JavaScript 5 / ES5 scopes, with the var keyword</h4>
 
-<b>JavaScript 5 / ES5 has the var keyword for declaring variables.</b>
+<h5>JavaScript 5 / ES5 has the var keyword for declaring variables.</h5>
 
-<b>JavaScript 5 / ES5 has two scopes:</b> <b>1) a global scope</b> for
+<p><b>JavaScript 5 / ES5 has two scopes:</b> <b>1) a global scope</b> for
 declaring global variables, and<b> 2) a function scope</b> for declaring
-variables that are local to a function.
+variables that are local to a function.</p>
 
-Furthermore, like in most programming languages, inside a function, <b>a
-local variable masks a global variable that has the same name.</b>
+<p>Furthermore, like in most programming languages, inside a function, <b>a
+local variable masks a global variable that has the same name.</b></p>
 
-See examples below.
+<p>See examples below.</p>
 
 <h5>1.1) Global scope / global variable</h5>
 
-Global variables are variables declared outside of functions. They can
-be used anywhere in the code.
+<p>Global variables are variables declared outside of functions. They can
+be used anywhere in the code.</p>
 
 <h4>Here is an example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4484,24 +4475,24 @@ be used anywhere in the code.
 
 <h5>1.2) Local scope / local variable (also called function scope)</h5>
 
-Variables declared with the keyword var in a function, are said to
+<p>Variables declared with the keyword var in a function, are said to
 be &quot;local to the function&quot;. They &quot;mask&quot; any global variable that may
-have the same name.
+have the same name.</p>
 
-<b>When a variable is declared in a function, we also call it simply &quot;a
+<p><b>When a variable is declared in a function, we also call it simply &quot;a
 local variable&quot;</b>, as opposed to &quot;a global variable&quot;. <b>In JavaScript
 5 (and this is not common in programming languages), local variables
 are local to the function.</b> They can be used anywhere inside the
-function.
+function.</p>
 
-Most programming languages have local variables that are limited to the
+<p>Most programming languages have local variables that are limited to the
 block of instructions between &apos;{&apos; and &apos;}&apos; that contains the variable
 declaration. We call these variables &quot;block variables&quot;. This is the
 case with variables declared with the let keyword  introduced by
-JavaScript 6 / ES6. See examples at the end of this section.
+JavaScript 6 / ES6. See examples at the end of this section.</p>
 
-Example of a local variable declared in a function, that is NOT local to
-the block, but to the whole function:
+<p>Example of a local variable declared in a function, that is NOT local to
+the block, but to the whole function:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 143. global and local variables (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4527,22 +4518,22 @@ local variables when they share the same name.</p>
 
 <h5>1.3) Never declare a variable without the keyword var!</h5>
 
-JavaScript is sometimes an overly permissive language. We can make
+<p>JavaScript is sometimes an overly permissive language. We can make
 stupid errors that turn out to be very hard to detect. One such error
 occurs when we forgot to use the var keyword while declaring a local
-variable.
+variable.</p>
 
-In JavaScript 5 / ES5, a variable declared in a function without
-the var keyword, makes it a global variable.
+<p>In JavaScript 5 / ES5, a variable declared in a function without
+the var keyword, makes it a global variable.</p>
 
-<b>BEST PRACTICE: in JavaScript 5 / ES5, always use the keyword var when
-declaring a global or a local variable.</b>
+<p><b>BEST PRACTICE: in JavaScript 5 / ES5, always use the keyword var when
+declaring a global or a local variable.</b></p>
 
-<b>Better: use the keyword let if you target browsers that support
-JavaScript 6 or above.</b>
+<p><b>Better: use the keyword let if you target browsers that support
+JavaScript 6 or above.</b></p>
 
-Here is an example that shows what happens when you forget to use var or
-let while declaring a local variable:
+<p>Here is an example that shows what happens when you forget to use var or
+let while declaring a local variable:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 145. local and global variable scoping (126) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4596,17 +4587,13 @@ declaring variables and constants!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-3">1.5.3 JS data types (5:27)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Hi!</p>
+<!-- new image here -->
 
-<p>Let's talk about JavaScript data types.</p>
-
-<p>The data type of variable is the kind of value you can give to this
-variable.</p>
-
-<p>With JavaScript, there are many possibilities: even if when you declare
-a variable, you don't type if data type: "var x=10", the value you give
-to this variable will help JavaScript figure out the data type of this
-variable.</p>
+<p>Let's talk about JavaScript data types. The data type of variable is the 
+kind of value you can give to this variable. With JavaScript, there are many 
+possibilities: even if when you declare a variable, you don't type if data type: 
+"var x=10", the value you give to this variable will help JavaScript figure out 
+the data type of this variable.</p>
 
 <p>And there is an operator named "typeof" that you can use for visualizing
 the internal data table of variable. So "var x=10", this corresponds to
@@ -4620,23 +4607,17 @@ corresponds to a boolean value: "typeof x"... boolean.</p>
 true!!!")" and the boolean data types is useful for "if" statements or
 some other statements that will test boolean value.</p>
 
-<p>In that case, it printed "it's true!!!" because "x" was "true".</p>
-
-<p>If I give to "x" the value "false", then if I execute this code, it will
-do nothing because "x" is false.</p>
-
-<p>We've got also some special values&hellip; but "typeof y": undefined.</p>
-
-<p>I can test if y is undefined then ....And in that case, you can test if
+<p>In that case, it printed "it's true!!!" because "x" was "true".
+If I give to "x" the value "false", then if I execute this code, it will
+do nothing because "x" is false.
+We've got also some special values&hellip; but "typeof y": undefined.
+I can test if y is undefined then ....And in that case, you can test if
 a variable is defined or not.</p>
 
 <p>There is a special data type called "null" that corresponds to "no
-value".</p>
-
-<p>The difference with the null defined variable is that the variable that
-has the value of null is still defined.</p>
-
-<p>Like "y" is not defined here... but if I say "z = null" then "z" is
+value". The difference with the null defined variable is that the variable that
+has the value of null is still defined.
+Like "y" is not defined here... but if I say "z = null" then "z" is
 defined.</p>
 
 <p>Ok, this has not been printed because "z" was not undefined. OK, another
@@ -4645,7 +4626,7 @@ this: property, value. And if I look at the type of "person", it will
 say: object. And object is a structured variable, I can use the "."
 operator to check the value of some property.</p>
 
-<p>So "person.familyName" will print the value "Buffa" .... "person.name"
+<p>So, "person.familyName" will print the value "Buffa" .... "person.name"
 will print my given name. There is a particular case for arrays. Arrays
 are defined using "brackets". If I define an array with two names of
 days in a week: Monday and Tuesday, then, its type is also &quot;object&quot;.
@@ -4655,18 +4636,17 @@ and null and object.</p>
 
 <p>Nothing else. And the "typeof" operator can be used to display the type
 of an object.</p>
+<!-- end of video transcript 1.5.3 -->
 <!------------------------------------------------------------------------------------------------>
 <h4>What kind of values can we assign to a variable?</h4>
 
-<p>Well, there are multiple possibilities:</p>
-
-<p>What we call &quot;primitive data types&quot;: for example a number, a string,
-etc. ex:</p>
+<p>Well, there are multiple possibilities: What we call &quot;primitive data types&quot;: 
+for example a number, a string, etc. ex: var x = 3; var name = "Buffa";</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 148. red cards depicting primitive data types (129) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image148.png?raw=true"
-  style="width:50%"
+  style="width:30%"
   title="Red cards depicting primitive data types"
   alt="Red cards depicting primitive data types." />
 
@@ -4674,12 +4654,15 @@ etc. ex:</p>
 <a href="" target="_blank" rel="noopener noreferrer">a set of playing cards</a>
 ](./images/image118.png){width="2.0833333333333335in" height="1.25in"}</pre>
 
-1.  Objects (everything that is not a &quot;primitive data type&quot; is an
-    object):
-    var michel =
+<p>Objects (everything that is not a &quot;primitive data type&quot; is an
+object):</p>
 
-    -   There is a set of &quot;predefined objects&quot; in JavaScript (arrays,
-        functions, etc). We will come back on these later in the course.
+<pre>
+var michel = {firstName:'Michel', lastName:'Buffa'};
+</pre>
+
+<p>There is a set of &quot;predefined objects&quot; in JavaScript (arrays,
+functions, etc). We will come back on these later in the course.</p>
 
 <h4>JavaScript has a small set of primitive data types</h4>
 
