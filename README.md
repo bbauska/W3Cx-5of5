@@ -6080,65 +6080,59 @@ to try <a href="https://webcamtoy.com/">the WebCam Toy</a> demo!</p>
 <p>Click on the piano keyboard. Use the different buttons, sliders, etc.
 This example uses the WebAudio API in order to synthesize sounds.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 190.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 198. codepen; force-directed draggable graph (170) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image190.png?raw=true"
+<img src="./images/image198.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![](./images/image142.png){width="6.5in" height="4.813194444444444in"} -->
+  title="CodePen; A force-directed draggable graph using circles as nodes"
+  alt="CodePen; A force-directed draggable graph using circles as nodes." />
 
 <h5>HTML:</h5>
 
-I Hope you enjoy this pen, it was a lot of fun to make.
-
+<p>I Hope you enjoy this pen, it was a lot of fun to make.
 Both mouse and keyboard is supported. However, make sure you click onto
-the preview window before using keyboard.
-
+the preview window before using keyboard.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-7">1.6.7 Using third-party JS APIs/libraries</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Thousands of JavaScript libraries exist. Their purposes range from
-making it easier to plot a math function,
-playing [chiptune](https://fr.wikipedia.org/wiki/Chiptune) music,
-animating objects, through to visualizing data and much more.
+<p>Thousands of JavaScript libraries exist. Their purposes range from making it 
+easier to plot a math function, playing 
+<a href="https://fr.wikipedia.org/wiki/Chiptune">chiptune</a> music, animating 
+objects, through to visualizing data and much more.</p>
 
 <h4>Examples</h4>
 
-We provide some examples below, but feel free to look on the Web for
-other external libraries.
+<p>We provide some examples below, but feel free to look on the Web for
+other external libraries.</p>
 
 <h4>Example #1: plot mathematical functions using the [function plot JavaScript library](https://mauriciopoppe.github.io/function-plot/)</h4>
 
-There are numerous libraries for plotting math functions, but this one
+<p>There are numerous libraries for plotting math functions, but this one
 is pretty easy to use and very powerful. Here is an example that
 plots f(x) = x&#94;2, then f(x) = sin(x) and finally a mix of
 fours functions : f(x) = x&#94;2 (in red), f(x) = 3&ast;x (in green), f(x) =
-cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)
+cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 199. codepen; chiptune music with webaudio (171) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image191.png?raw=true"
+<img src="./images/image199.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![](./images/image143.png){width="6.5in" height="5.102083333333334in"} -->
+  title="CodePen; Chiptune music with WebAudio"
+  alt="CodePen; Chiptune music with WebAudio." />
 
-Here is another much simpler example, please edit the code (click on
+<p>Here is another much simpler example, please edit the code (click on
 &quot;edit on codepen&quot;) and change the function for something like f(x) =
 x&#94;3 and look at the result (don&apos;t forget to change
-the xRange and yRange values). If you have trouble, [look
-here](https://codepen.io/w3devcampus/pen/MJMYNb) for a solution.
-
+the xRange and yRange values). If you have trouble, 
+<a href="https://codepen.io/w3devcampus/pen/MJMYNb">
+look here</a> for a solution.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (172) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image192.png?raw=true"
+<img src="./images/image200.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image144.png){width="6.5in" height="3.0569444444444445in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-8">1.6.8 Working with remote data</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6152,13 +6146,12 @@ Let's see a few examples on how to work with remote data.
 This example downloads and displays a list of users in a table
 (see [remote data](https://jsonplaceholder.typicode.com/users)):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 193.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image193.png?raw=true"
+<img src="./images/image201.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image145.png){width="6.5in" height="4.909722222222222in"} -->
 
 <h4>Example #2: load and decode remote sounds for use in a video game</h4>
 
@@ -6166,19 +6159,23 @@ This example just shows how to use the HowlerJS external library to load
 remote sounds, decode them and play them as samples in memory (useful
 for video games):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 194.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image194.png?raw=true"
+<img src="./images/image202.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ### ![](./images/image146.png){width="6.5in" height="3.25in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1">2.1 Video introduction - Module 2</h3>
+<h3 id="ch2-1">2.1.1 Video introduction - Module 2</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Hey everyone!
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image203.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
 In this module, you will learn how to handle events (using a keyboard, a
 mouse, or a game pad), detect which button has been pressed, what is the
