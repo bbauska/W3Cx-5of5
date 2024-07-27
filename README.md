@@ -5258,23 +5258,28 @@ unless the formula is a pure addition.</p>
 with an empty string, at the beginning of expression (type this in the
 devtools):</p>
 
-<pre>var n = 1;
+<pre>
+var n = 1;
 typeof n;
 // returns "number"
 n = "" + n;
 // returns "1"
 typeof n;
-// returns "string"</pre>
+// returns "string"
+</pre>
 
 <h4>Special character: the &quot;&#92;&#92;&quot;</h4>
+
 <p>The &#92;&#92; is useful for &quot;escaping&quot; special characters. Here are a few
 examples:</p>
 
-<pre>var s = 'I don't know';
+<pre>
+var s = 'I don't know';
 var s = "I don't know"; // here the &#92; is useless
 var s = "I don't know";  // same result as previous line
 var s = '"Hello", he said.'; // ok, double quotes inside single one will be displayed
-var s = "&#92;"Hello&#92;", he said."; // double quotes inside double quotes need to be escaped</pre>
+var s = "&#92;"Hello&#92;", he said."; // double quotes inside double quotes need to be escaped
+</pre>
 
 <h4>Escaping the escape! Use a double &quot;&#92;&quot;</h4>
 
@@ -5377,9 +5382,10 @@ var student1 = {
 }                      // declaration
 </pre>
 
-Accessing an object&apos;s properties: we use the operator &quot;.&quot;
+<p>Accessing an object&apos;s properties: we use the operator &quot;.&quot;</p>
 
-<pre>&gt; student1.ssn
+<pre>
+&gt; student1.ssn
 "11-22-33-44"
 &gt; student1.age
 23
@@ -5389,8 +5395,8 @@ Accessing an object&apos;s properties: we use the operator &quot;.&quot;
     city: "New York",
     fullName: "John Doe",
     ssn: "11-22-33-44"
-}</pre>
-
+}
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-10">1.5.10 Arrays (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5414,7 +5420,8 @@ this:</p>
 <p>To access an element, you use the array variable and &quot;&lbrack;&quot; followed by
 the index value followed by &quot;&rbrack;&quot;, as shown in these examples:</p>
 
-<pre>1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
+<pre>
+1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
 2.  undefined
 3.  daysOfWeek&lbrack;0&rbrack;
 4.  "Monday"
@@ -5423,28 +5430,32 @@ the index value followed by &quot;&rbrack;&quot;, as shown in these examples:<
 7.  daysOfWeek&lbrack;2&rbrack;
 8.  "Wednesday"
 9.  daysOfWeek.length
-10. 7</pre>
+10. 7
+</pre>
 
-#### Use the length property of an array to know its length
+<h4>Use the length property of an array to know its length</h4>
 
-<pre>1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday', 'Saturday', 'Sunday'&rbrack;;
+<pre>
+1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday', 'Saturday', 'Sunday'&rbrack;;
 2.  undefined
 3.  daysOfWeek.<b>length</b>
-4.  <b>7</b></pre>
+4.  <b>7</b>
+</pre>
 
-Indeed, there are seven days in a week and the daysOfWeek array
-has seven elements, indexed from <b>0</b> to <b>daysOfWeek.length -1</b>
+<p>Indeed, there are seven days in a week and the daysOfWeek array
+has seven elements, indexed from <b>0</b> to <b>daysOfWeek.length -1</b></p>
 
-<b>This way of enumerating all elements (from 0 to the length of the
+<p><b>This way of enumerating all elements (from 0 to the length of the
 array -1) is very, very common, and will prove to be very useful when
-you learn how to iterate on an array&apos;s elements (Week 2).</b>
+you learn how to iterate on an array&apos;s elements (Week 2).</b></p>
 
-#### You can add elements to an array using a new index
+<h4>You can add elements to an array using a new index</h4>
 
-If you want to add a new element at the end of an array, use the index
-equal to the length of the array
+<p>If you want to add a new element at the end of an array, use the index
+equal to the length of the array.</p>
 
-<pre>1.  <b>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
+<pre>
+1.  <b>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
 	  'Thursday', 'Friday';, 'Saturday'&rbrack;;</b>
 2.  <b>undefined</b>
 3.  <b>daysOfWeek.length</b>
@@ -5457,13 +5468,15 @@ equal to the length of the array
 9.  <b>"Sunday"</b>
 10. <b>daysOfWeek.length</b>
 11. <b>7</b>
-12. <b>// Sunday, the 7th day of week is at index 6 !</b></pre>
+12. <b>// Sunday, the 7th day of week is at index 6 !</b>
+</pre>
 
 <h4>Arrays are JavaScript objects!</h4>
 
 <p>Well, this is not so important for the moment, but look:</p>
 
-<pre>1.  &gt; var a = &lbrack;&rbrack;;
+<pre>
+1.  &gt; var a = &lbrack;&rbrack;;
 2.  &gt; <b>typeof a;</b>
 3.  <b>"object"</b>
 4.  &gt; var a = &lbrack;1,2,3&rbrack;;
@@ -5472,19 +5485,21 @@ equal to the length of the array
 7.  &gt; a&lbrack;0&rbrack;
 8.  1
 9.  &gt; a&lbrack;1&rbrack;
-10. 2</pre>
+10. 2
+</pre>
 
-And indeed, when you write daysOfWeek.length, you are using the array as
-an object, and you are using the length property of array objects.
+<p>And indeed, when you write daysOfWeek.length, you are using the array as
+an object, and you are using the length property of array objects.</p>
 
 <h4>Add an element at the end of an array using the push method</h4>
 
-Since arrays are objects, we can do much more with them - in particular,
+<p>Since arrays are objects, we can do much more with them - in particular,
 they have more properties and more methods than the push method. You
 will learn more about this in a later lesson (Arrays part 2), but for
-the moment, let&apos;s focus on the most useful features&hellip;
+the moment, let&apos;s focus on the most useful features&hellip;</p>
 
-<pre>1.  &gt; var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'&rbrack;;
+<pre>
+1.  &gt; var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'&rbrack;;
 2.  undefined
 3.  &gt; daysOfWeek.length
 4.  6
@@ -5493,7 +5508,8 @@ the moment, let&apos;s focus on the most useful features&hellip;
 7.  &gt; daysOfWeek
 8.  &lbrack;"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"&rbrack;
 9.  &gt; daysOfWeek.length
-10. 7</pre>
+10. 7
+</pre>
 
 <h4>Arrays and Strings</h4>
 
@@ -5501,13 +5517,17 @@ the moment, let&apos;s focus on the most useful features&hellip;
 
 <h4>Consequence:</h4>
 
-1.  They are objects too! 
-2.  They have a length property,
-3.  Each individual character can be accessed using an index.
+<!-- 1,2,3 -->
+<ol>
+  <li>They are objects too!</li>
+  <li>They have a length property,</li>
+  <li>Each individual character can be accessed using an index.</li>
+</ol>
 
 Examples:
 
-<pre>1.  &gt; var s = 'one';
+<pre>
+1.  &gt; var s = 'one';
 2.  &gt; s&lbrack;0&rbrack;
 3.  "o"
 4.  &gt; s&lbrack;1&rbrack;;
@@ -5515,51 +5535,60 @@ Examples:
 6.  &gt; s&lbrack;2&rbrack;;
 7.  "e"
 8.  &gt; s.length;
-9.  3</pre>
+9.  3
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-11">1.5.11 Functions (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-#### Definition of a function
+<h4>Definition of a function</h4>
 
-A function allows you to group code, give it a name and be able to
-execute it by calling it by name.
+<p>A function allows you to group code, give it a name and be able to
+execute it by calling it by name.</p>
 
-Functions always return a value:
+<p>Functions always return a value:</p>
 
--   Explicitly, using the keyword return followed by the value (<b>line
-    3</b> of the next example),
+<ul>
+  <li>Explicitly, using the keyword return followed by the value (<b>line
+    3</b> of the next example),</h4>
+  <li>Implicitly, in which case the return value is undefined.</li>
+</ul>
 
--   Implicitly, in which case the return value is undefined.
+<h4>Declaring a function</h4>
 
-#### Declaring a function
-
-<pre>1.  function sum(a, b) {
+<pre>
+1.  function sum(a, b) {
 2.      var c = a + b;
 3.      return c;
-4.  }</pre>
+4.  }
+</pre>
 
-#### Calling a function
+<h4>Calling a function</h4>
 
-<pre>1.  var result = sum(1, 2);
+<pre>
+1.  var result = sum(1, 2);
 2.  //result is equal to 3
 3.  console.log(result)
-4.  &gt; 3</pre>
+4.  &gt; 3
+</pre>
 
 <h4>Function parameters</h4>
 
 <p>If parameters are omitted during the call, JavaScript gives them the
 value undefined:</p>
 
-<pre>1.  &gt; sum(1)
-2.  NaN</pre>
+<pre>
+1.  &gt; sum(1)
+2.  NaN
+</pre>
 
 <h4>Functions with a variable number of parameters</h4>
 
-An array named &quot;arguments&quot; is created automatically in each function,
-it contains all the call parameters of the function:
+<p>An array named &quot;arguments&quot; is created automatically in each function,
+it contains all the call parameters of the function:</p>
 
-<pre>1.  function f() {
+<pre>
+1.  function f() {
 1.    return arguments;
 1.  }
 2.  &hellip;
@@ -5567,11 +5596,13 @@ it contains all the call parameters of the function:
 4.  // returns &lbrack;&rbrack;
 5.  &hellip;
 6.  f( 1, 2, 3, 4, true, ';Michel Buffa';);
-7.  // returns &lbrack;1, 2, 3, 4, true, "Michel Buffa"&rbrack;</pre>
+7.  // returns &lbrack;1, 2, 3, 4, true, "Michel Buffa"&rbrack;
+</pre>
 
 <h4>Example of the sum with a variable number of arguments</h4>
 
-<pre>1.  function newSum() {
+<pre>
+1.  function newSum() {
 2.      var i, res = 0;
 3.      var numberOfParameters = arguments.length;
 4.      for (i = 0; i &lt; numberOfParameters; i++) {
@@ -5583,38 +5614,34 @@ it contains all the call parameters of the function:
 10. &gt;&gt;&gt; newSum(1, 1, 1);
 11. 3
 12. &gt;&gt;&gt; newSum(1, 2, 3, 4);
-13. 10</pre>
-
+13. 10
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-1">1.6.1 Introduction</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>This section does not detail the examples presented. Some of them are
+studied later in the course, some won&apos;t.</p>
 
-This section does not detail the examples presented. Some of them are
-studied later in the course, some won&apos;t.
-
-The examples are just here to bring some fun whilst making you play with
+<p>The examples are just here to bring some fun whilst making you play with
 some various uses of JavaScript. You are invited to look at their source
 code, and to tweak the examples. Do not worry if you don&apos;t understand
 how they work. We are just giving you &quot;a taste&quot; of JavaScript. There
-will be no graded exercises about them.
-
+will be no graded exercises about them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-2">1.6.2 The devtool console</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Using the console.log(&hellip;) instruction, you can <b>write messages to the
+devtool console</b> of your browser. This is a common way to debug your code!</p>
 
-Using the console.log(&hellip;) instruction, you can <b>write messages to the
-devtool console</b> of your browser. This is a common way to debug your
-code!
-
-For example, let&apos;s say you added a button to your Web page, but nothing
+<p>For example, let&apos;s say you added a button to your Web page, but nothing
 happens when you click on it.
 It can be very difficult to spot your error without using the devtool
-console and console.log(&hellip;)!
+console and console.log(&hellip;)!</p>
 
 <h4>Example</h4>
 
-Let&apos;s check that some parts of the code you wrote are executed
-correctly.
+<p>Let&apos;s check that some parts of the code you wrote are executed
+correctly.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 156. button click me to display the value of the x var (153) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5624,13 +5651,13 @@ correctly.
   alt="Button click me to display the value of the x variable." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/YNbvgP">CodePen</a></h6>
 
-Normally, when the button is clicked, we should call
-the addXToThePage() function, which in turn should display the value of
-the variable x inside an HTML paragraph.
+<p>Normally, when the button is clicked, we should call the addXToThePage() 
+function, which in turn should display the value of the variable x inside an 
+HTML paragraph.</p>
 
-Let&apos;s check if the function is really executed. We need to add
+<p>Let&apos;s check if the function is really executed. We need to add
 a console.log(&quot;In the addXToThePage function&quot;); as the first
-instruction of the function:
+instruction of the function:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5638,13 +5665,12 @@ instruction of the function:
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image125.png){width="6.5in" height="3.18125in"} -->
 
-And let&apos;s execute this with the devtool console open (use F12 on
+<p>And let&apos;s execute this with the devtool console open (use F12 on
 Windows, or Cmd-Alt-i on a Mac, or control-shift-i). First, as the
 provided example is located on CodePen, an online IDE, it&apos;s better to
 execute it in &quot;debug mode&quot;. The online IDE will just display a page
-(see snapshot below) with the code running:
+(see snapshot below) with the code running:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5652,12 +5678,10 @@ execute it in &quot;debug mode&quot;. The online IDE will just display a page
   style="width:50%"
   title=""
   alt="." />
-<!--![](./images/image126.png){width="6.5in" 
-height="3.270138888888889in"} -->
 
-This action opens a new tab with only your code running in it (not the
+<p>This action opens a new tab with only your code running in it (not the
 whole codepen IDE + your code!). Open the devtool console (F12 or
-control-shift-i or cmd-alt-i on Mac), and you should see this:
+control-shift-i or cmd-alt-i on Mac), and you should see this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5665,38 +5689,30 @@ control-shift-i or cmd-alt-i on Mac), and you should see this:
   style="width:50%"
   title=""
   alt="." />
-<!--![](./images/image127.png){width="6.5in"
-height="3.1631944444444446in"} -->
 
-Now, press the button! An error message appears:
+<p>Now, press the button! An error message appears:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 160.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 160. error message in the devtool console (158) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image160.jpeg?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![Error message in the devtool
-console](./images/image128.jpeg){width="5.90625in"
-height="0.9583333333333334in"} -->
+  title="Error message in the devtool console"
+  alt="Error message in the devtool console." />
 
-Apparently the function name is wrong, addXToToThePage does not exist.
+<p>Apparently the function name is wrong, addXToToThePage does not exist.
 We can check the source code by clicking on the YNbvoX:40 link on the
-right:
+right:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 161.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 161. source code that fired the error (158) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image161.jpeg?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![Source code that fired the
-error](./images/image129.jpeg){width="6.541666666666667in"
-height="1.771887576552931in"} -->
+  title="Source code that fired the error"
+  alt="Source code that fired the error." />
 
-Ok, so our first error was that we typed the wrong name in
+<p>Ok, so our first error was that we typed the wrong name in
 the onclick=&quot;&hellip;&quot;, the name we used : AddXToToThePage has &quot;ToTo&quot;
-instead of &quot;To&quot;. Let&apos;s fix that now and try again:
+instead of &quot;To&quot;. Let&apos;s fix that now and try again:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 162.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5704,52 +5720,50 @@ instead of &quot;To&quot;. Let&apos;s fix that now and try again:
   style="width:50%"
   title=""
   alt="." />
-<!--![](./images/image130.png){width="6.191674321959755in"
-height="3.027040682414698in"} -->
 
-After we&apos;ve changed the name of the function to the correct one, let&apos;s
+<p>After we&apos;ve changed the name of the function to the correct one, let&apos;s
 go in debug mode, open the devtool console and click the button. Here is
-what we get:
+what we get:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 164.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image164.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!--![console.log message displayed in the console, as well as another
-error](./images/image131.jpeg){width="6.208333333333333in"
-height="4.520716316710411in"} -->
+  title="console.log message displayed in the console, as well as another error"
+  alt="console.log message displayed in the console, as well as another error." />
 
-You can click on the button now . . .
+<p>You can click on the button now . . .</p>
 
-Going further with console.log
+<p>Going further with console.log</p>
 
-Ok, you understand the principle&hellip; by using console.log(&hellip;) with a
+<p>Ok, you understand the principle&hellip; by using console.log(&hellip;) with a
 string message as parameter, you can make the message appear in the
 devtool console, confirming that you have executed your code without
-error at least to this point&hellip;
+error at least to this point&hellip;</p>
 
-Let&apos;s fix this &quot;X&quot;! We&apos;ll replace it with an &quot;x&quot; and everything
-should be ok now:
+<p>Let&apos;s fix this &quot;X&quot;! We&apos;ll replace it with an &quot;x&quot; and everything
+should be ok now:</p>
 
-You can click on the button now&hellip;.
+<p>You can click on the button now&hellip;.</p>
 
-#### Going further with console.log
+<h4>Going further with console.log</h4>
 
-#### Displaying variable values
+<h4>Displaying variable values</h4>
 
-Instead of just displaying pure string messages, you can also use the
+<p>Instead of just displaying pure string messages, you can also use the
 &quot;+&quot; operator to concatenate variable values to the pure character
-strings.
-Example :
+strings.</p>
 
-<pre>1.  var x = 2;
+<h4>Example:</h4>
+
+<pre>
+1.  var x = 2;
 2.   
 3.  console.log(<b>"The value of x is " + x + " and it';s ok like
-    that."</b>);</pre>
+    that."</b>);
+</pre>
 
-We typed this code in the devtool console to check what it does:
+<p>We typed this code in the devtool console to check what it does:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 165.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
