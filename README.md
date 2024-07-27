@@ -5109,7 +5109,7 @@ precedence.</p>
 <p>For example, this is an expression: (3 + 2). And the expression (3 + 2)
 &ast; 4, which equals 20, depends on the expression within the parentheses.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168. operators (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168. operators (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image168.png?raw=true"
   style="width:25%"
@@ -5121,16 +5121,16 @@ strings, booleans, and objects. For example, an expression with the operator 
 will evaluate to a number. But an expression with the operator + can evaluate 
 to a number or a string (for addition or concatenation).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-1.5.6 Number Operators (4:12)
+<h3 id="ch1-5-6">1.5.6 Number Operators (4:12)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: number operators</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 169. codepen: number operators (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image169.png?raw=true"
   style="width:50%"
-  title="Operators"
-  alt="Operators." />
+  title="CodePen: Number operators"
+  alt="CodePen: Number operators." />
 <p>Welcome to a short video about JavaScript number operators. The different 
 operators you can use in numerical mathematical expressions are:<br>
  " + ", " - ", " / ", " * " and modulo, the percent sign (" % ").</p>
@@ -5275,7 +5275,7 @@ both prefixed or suffixed, which have different effects:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. example console log (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image170.png?raw=true"
-  style="width:50%"
+  style="width:30%"
   title="Example console log"
   alt="Example console log." />
   
@@ -5979,12 +5979,12 @@ HTML paragraph.</p>
 a console.log(&quot;In the addXToThePage function&quot;); as the first
 instruction of the function:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 175. write messages to the devtools console (157) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image175.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Write messages to the devtools console"
+  alt="Write messages to the devtools console." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/YNbvoX">CodePen</a></h6>
 
 <p>And let&apos;s execute this with the devtool console open (use F12 on
@@ -6039,8 +6039,8 @@ instead of &quot;To&quot;. Let&apos;s fix that now and try again:</p>
 <p align="center" width="100%">
 <img src="./images/image180.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="This time we entered the addXToToThePage function"
+  alt="This time we entered the addXToToThePage function." />
 
 <p>After we&apos;ve changed the name of the function to the correct one, let&apos;s
 go in debug mode, open the devtool console and click the button. Here is
@@ -6063,7 +6063,7 @@ should be ok now:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 182. codepen; write messages to the devtool console (159) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image183.png?raw=true"
+<img src="./images/image182.png?raw=true"
   style="width:50%"
   title="CodePen; Write messages to the devtool console"
   alt="CodePen; Write messages to the devtool console." />
@@ -6313,7 +6313,7 @@ image cannot be seen in this embedded example anymore.</p>
 W3Cx HTML5 Coding Essentials and Best Practices</a> course provides many other 
 examples that use the webcam.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~ 194. codepen; example webcam (168) ~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 194. codepen; example webcam (168) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image194.png?raw=true"
   style="width:50%"
@@ -6369,8 +6369,8 @@ cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)</p>
 <p align="center" width="100%">
 <img src="./images/image196.png?raw=true"
   style="width:50%"
-  title="CodePen; "
-  alt="CodePen; ." />
+  title="CodePen; Plot mathematical functions"
+  alt="CodePen; Plot mathematical functions." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/jyjEob">CodePen</a></h6>
 
 <p>Here is another much simpler example, please edit the code (click on
