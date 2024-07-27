@@ -4458,9 +4458,9 @@ var TIME_LIMIT;
 const MAX_GRADE = 20;
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~ 155. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (121) ~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 155. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (124) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image155.png?raw=true"
+<img src="./images/image155.jpg?raw=true"
   style="width:50%"
   title="Comparison between var: TIME_LIMIT and constant: MAX_GRADE."
   alt="Comparison between var: TIME_LIMIT and constant: MAX_GRADE." />
@@ -4486,7 +4486,13 @@ let CASE_MATTERS = 'upper';
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Scope of JS variables (4:19)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- new image goes here -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156. scope of js variables (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image156.png?raw=true"
+  style="width:50%"
+  title="Scope of JavaScript variables"
+  alt="Scope of JavaScript variables." />
 
 <p>Let's talk about &quot;variable scopes&quot;. The scope of a variable
 corresponds to the locations in your code where you can use this
@@ -4564,9 +4570,9 @@ be used anywhere in the code.</p>
 
 <h4>Here is an example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 156. global scoping of variable (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 157. global scoping of variable (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image156.png?raw=true"
+<img src="./images/image157.png?raw=true"
   style="width:50%"
   title="Global scoping of variables"
   alt="Global scoping of variables." />
@@ -4594,9 +4600,9 @@ JavaScript 6 / ES6. See examples at the end of this section.</p>
 <p>Example of a local variable declared in a function, that is NOT local to
 the block, but to the whole function:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 157. global and local variables (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 158. global and local variables (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image157.png?raw=true"
+<img src="./images/image158.png?raw=true"
   style="width:50%"
   title="Global and local variables"
   alt="Global and local variables." />
@@ -4643,9 +4649,9 @@ let while declaring a local variable:</p>
 
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/rmJJbo">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~ 159. declaring a variable without var in function make it global (126) ~~~~~~~~~~~-->
+<!--~~~~~~~~~ 160. declaring a variable without var in function make it global (126) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image159.png?raw=true"
+<img src="./images/image160.jpeg?raw=true"
   style="width:50%"
   title="Declaring a variable without var in function make it global"
   alt="Declaring a variable without var in function make it global." />
