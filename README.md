@@ -3744,49 +3744,49 @@ of different variables when “console.log” is executed.</p>
   title="CodePen; Debug Mode"
   alt="CodePen; Debug Mode." />
 
-With CodePen, another tool we use a lot in the course, you've got the debug mode.
+<p>With CodePen, another tool we use a lot in the course, you've got the debug mode.
 Just save your work and click on "change view mode" we’ve got "debug mode" here.
 And you can also open the console. If you click on the console button here,
 you can have a console here, and see what is going on. CodePen does not display
-the error messages, so is better for debugging to click on the "debug mode", here.
+the error messages, so is better for debugging to click on the "debug mode", here.</p>
 
-You've got the page in standalone mode, and you can open the dev tool console.
+<p>You've got the page in standalone mode, and you can open the dev tool console.
 With local files, I’ve got another example here with HTML code that uses it some JavaScript
 code from a "script.js" file. If I make an error here, an error in the name console,
 I save. I can run the result: "Open in browser". I click, it does nothing. I open 
 the dev tool console and I see where the problem is and I can click on the link on 
-the right and it shows the line with the error.
+the right and it shows the line with the error.</p>
 
-Let&apos;s introduce what is debugging.
+<p>Let&apos;s introduce what is debugging.</p>
 
 <h4>You will make errors!</h4>
 
-When you are developing a Web Application that contains JavaScript code,
-you will make errors. 
+<p>When you are developing a Web Application that contains JavaScript code,
+you will make errors.</p>
 
 <h4>Repeat after me: &quot;I WILL MAKE ERRORS!&quot; ; &quot;I WILL MAKE ERRORS!&quot;</h4>
 
-There will be error messages, and you will need to print messages for
+<p>There will be error messages, and you will need to print messages for
 debugging your code. We will see more advanced debugging techniques at
 different points in this course, but for the moment, let&apos;s see the
 basics of JavaScript debugging: seeing error messages in the devtool
-console, or in the &quot;console tab&quot; of your source code editor.
+console, or in the &quot;console tab&quot; of your source code editor.</p>
 
-We will not look at the JavaScript syntax here, but more at &quot;JavaScript
-in the browser&quot;, how it works, how to start writing code, etc.
+<p>We will not look at the JavaScript syntax here, but more at &quot;JavaScript
+in the browser&quot;, how it works, how to start writing code, etc.</p>
 
-First of all, you need to find a way to debug your code and see errors.
-If your work does not produce any results, you need to know why!
+<p>First of all, you need to find a way to debug your code and see errors.
+If your work does not produce any results, you need to know why!</p>
 
 <h4>Your Swiss army knife: your browser devtools, especially the devtool console!</h4>
 
-For this you will use <b>the dev. tools of your
+<p>For this you will use <b>the dev. tools of your
 browser</b>. Press <b>F12</b> (or ctrl-shift-i) in Windows
 or <b>cmd-option-i</b> in MacOS to open the dev. tools, then go to the
 console tab: <b>this is where errors will be displayed</b>, or messages of
 your own (use the console.log(string) JavaScript function in the
 JavaScript code embedded in your html page). In the console, you will be
-able to type any JavaScript command.
+able to type any JavaScript command.</p>
 
 <p>Let&apos;s look at this example below (or online as a 
 <a href="http://jsbin.com/moqimuz/edit?html,console,output" target="_blank" rel="noopener noreferrer">JS Bin)</a>:</p>
@@ -3840,11 +3840,11 @@ as in the dev. tools console. This is illustrated by the image below
   alt="Snapshot of a JavaScript console view." />
 </p>
 
-It is also possible to use the &quot;real dev. tool console&quot;, and for this,
+<p>It is also possible to use the &quot;real dev. tool console&quot;, and for this,
 I recommend running the application in a single window, not in the Js
 Bin editor. Press the black arrow on the top right of the output
 window - this will render the page as a standalone Web page, then
-press <b>F12</b>. You should see:
+press <b>F12</b>. You should see:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 134. snapshot of a javascript console view (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3854,8 +3854,8 @@ press <b>F12</b>. You should see:
   alt="Snapshot of a JavaScript console view." />
 </p>
 
-Ok, now, let&apos;s make an error:
-change console.log() into conso<b>lll</b>e.log(). Let&apos;s see what happens:
+<p>Ok, now, let&apos;s make an error: change console.log() into conso<b>lll</b>e.log(). 
+Let&apos;s see what happens:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 008. view of the javascript console showing an eror (104) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3865,7 +3865,7 @@ change console.log() into conso<b>lll</b>e.log(). Let&apos;s see what happens
   alt="View of the JavaScript console showing an eror." />
 </p>
 
-And if we run it standalone and use the dev. tool console:
+<p>And if we run it standalone and use the dev. tool console:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~ 135. View of the JavaScript console (showing the line that caused the error (104) ~~~~~-->
 <p align="center" width="100%">
@@ -3875,8 +3875,8 @@ And if we run it standalone and use the dev. tool console:
   alt="View of the JavaScript console (showing the line that caused the error." />
 </p>
 
-And if we click on the line number to the right, the dev. tool shows the
-source code centered on the line that caused the error:
+<p>And if we click on the line number to the right, the dev. tool shows the
+source code centered on the line that caused the error:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 136. view of the javascript console (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3886,11 +3886,10 @@ source code centered on the line that caused the error:
   alt="View of the JavaScript console." />
 </p>
 
-Without such tools, debugging JavaScript code is impossible. So you need
+<p>Without such tools, debugging JavaScript code is impossible. So you need
 to look at some basic tutorials on how to use the dev. tools of your
 browsers, since they differ from one another in the way they work
-- although the principles remain the same.
-
+- although the principles remain the same.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-5">1.3.5 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3972,7 +3971,6 @@ Demo (CodePen: Interactive Function Plotter)</a></h6>
 </p>
 <!-- pages 108-112 to be filled from class -->
 
-<p>Hi!</p>
 <p>We're going to work from an example we already saw in the course: the math 
 function plotter. In this version, you can see that we added some input fields 
 for changing the color of the curve, for changing the range of the x values, 
@@ -4053,7 +4051,6 @@ that I've got a nice balanced view of the whole application.</p>
 
 <end of 1.4.2 video transcript>
 
-
 <h4>CodePen example with the starting code used in the video</h4>
 
 <p>If you want to code while watching the video, 
@@ -4068,7 +4065,6 @@ input field, not yet supported by Safari.</p>
 <a href="https://codepen.io/w3devcampus/pen/bqGboZ" target="_blank" rel="noopener noreferrer">here is the full example</a> 
 (this link points to the example from the previous course page).
 
-Hi!
 <p>We're going to work from an example we already saw in the course: the math function 
 plotter. In this version, you can see that we added some input fields for changing 
 the color of the curve, for changing the range of the x values, changing interactively 
@@ -4091,10 +4087,10 @@ the functions we are going to plot, and so on.</p>
   title=""
   alt="." />
 
-Now, I&apos;m going to show you how we can do the same application using
+<p>Now, I&apos;m going to show you how we can do the same application using
 files and a regular source code editor, and working on your local hard
 disk. I&apos;m going first to create a directory for storing the files on my
-desktop. &quot;Math plotter app&quot; and I will work inside.
+desktop. &quot;Math plotter app&quot; and I will work inside.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4107,29 +4103,27 @@ desktop. &quot;Math plotter app&quot; and I will work inside.
 and a subfolder named &quot;css&quot; for the CSS files, and the HTML file will
 lie in the current directory.</p>
 
-<image>
+<!-- image -->
 <p>With Sublime Text, I can open this folder, the one I just created. And I can start 
 saving the current file as &quot;index.html&quot;. I will copy the HTML, CSS and 
 JavaScript source code from the previous example. I just took the previous application.</p>
 
-<image>
+<!-- image -->
 <p>And I will copy it in the index.html file. I create a &quot;style.css&quot; 
 and a &quot;script.js&quot; file for holding the JavasCript and CSS files. I 
 copy the source code from the js part of the previous example. I create a new 
 file with the CSS code.</p>
 
-<image>
-
+<!-- image -->
 <p>&quot;Save as&quot; ... I include the JavaScript code :&lt;script
 src=&quot;js/script.js&quot;&gt;</p>
 <p>Remember that the script tag has always a closing tag at this end.</p>
 
-<image>
+<!-- image -->
 <p>It is not an auto-closing tag. And I use a &quot;link&quot; tag for importing 
 the CSS file.</p>
 
-<images>
-
+<!-- image -->
 <p>I can check that my files are located at the right place and now I can &quot;Open 
 in Browser&quot;. Another way to do what we&apos;ve done manually would have been 
 to use the &quot;Export&quot; button from CodePen.</p>
@@ -4154,30 +4148,30 @@ Sublime Text.</p>
   title=""
   alt="." />
 
-In JavaScript, a variable is a container for a value. And a value can be many 
-things: a number, or a string, an object or a complex function.
+<p>In JavaScript, a variable is a container for a value. And a value can be many 
+things: a number, or a string, an object or a complex function.</p>
 
-With variables, the value in the container can change, and to use a
+<p>With variables, the value in the container can change, and to use a
 variable you first have to declare it. Let's see some examples! You can declare 
 a variable using the keyword &quot;var&quot;, and followed by the name of the 
 variable, or you can also use the keyword &quot;let&quot;, that came with ES6, 
-with JavaScript version 6.
+with JavaScript version 6.</p>
 
-Before ES6, you could only use &quot;var&quot;. There are small differences that 
+<p>Before ES6, you could only use &quot;var&quot;. There are small differences that 
 I will explain later, but for the moment you can use &quot;var&quot; or you can 
 use &quot;let&quot;. Once a variable is declared, you must initialize the variable, 
 this is where you give it a value. And this is done by using the equal sign. As 
 you can see, the console.log will display in the console the value of the variable 
-&quot;myName&quot;. 
+&quot;myName&quot;.</p>
 
-You can also initialize and declare a variable at the same time. You see, I 
+<p>You can also initialize and declare a variable at the same time. You see, I 
 declare a variable called myDog and I gave it a name: Rex. Also, you can use 
 these variables in instructions, in expressions like: &quot;the name of my dog is&quot;.
 You can use the "+" operator for concatenating strings, because "myDog"
 is a string, and in that case you will see: &quot;the name of my dog is&quot; 
-...followed by the value of the "myDog" variable.
+...followed by the value of the "myDog" variable.</p>
 
-There are also naming rules and conventions for variables. You can give
+<p>There are also naming rules and conventions for variables. You can give
 to variables names like "x", "y", "z". If they are just single, one-word
 names, you use lowercase. But the convention, when you start using composed 
 words, is to use the &quot;lower camel case&quot; syntax. If your variable 
@@ -4187,7 +4181,7 @@ capitalize every other words. Example: "myFastCar", &quot;my&quot; is lowercase,
 sensitive: do not mix a variable name in lower case and in uppercase. For example, 
 if I give to the small "x" a value of "2", and to big "X" a value of "4", and if 
 I display the value of big "X", then the JavaScript interpreter will know that 
-big "X" is different than small "x".
+big "X" is different than small "x".</p>
 
 <p>If you need to use different names like if I've got two fast cars, just, my 
 recommendation: use "myFastCar1", "myFastCar2", etc. Also, you should not use 
@@ -4417,57 +4411,57 @@ let CASE_MATTERS = 'upper';
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-- new image goes here -->
 
-Let's talk about &quot;variable scopes&quot;. The scope of a variable
+<p>Let's talk about &quot;variable scopes&quot;. The scope of a variable
 corresponds to the locations in your code where you can use this
-variable.
+variable.</p>
 
-When you define&hellip; when you declare a variable outside of any
+<p>When you define&hellip; when you declare a variable outside of any
 functions, it's usable anywhere in your code. It's considered as a
 &quot;global variable&quot;: it belongs to the &quot;global scope&quot;. So, the x
-variable here, can be used inside a function.
+variable here, can be used inside a function.</p>
 
-The console.log inside f1... if I execute f1... will display the value
+<p>The console.log inside f1... if I execute f1... will display the value
 "1" because the variable here is &quot;global&quot;. If I've got another
 function... f2, that declares another variable y, and if I try to
 display this value from outside of the function, then it does not
 work...I've got an error: y is not defined. So, you've got &quot;local
 variables&quot;, and &quot;global variables&quot;. In the case of local variables,
 when a variable has the same name as a global variable, then the most
-local one wins.
+local one wins.</p>
 
-If I try to display inside F2 the value of x, it will be the closest
+<p>If I try to display inside F2 the value of x, it will be the closest
 variable -the local one- that will be displayed. If I execute f2, then
 it will display &quot;x = 2&quot;, it's the value of the local one that is taken
 into account, not the value of the global one. We call this &quot;masking&quot;.
 The same&hellip; if I pass a parameter to a function, and if this parameter
 has the same name as a global variable, then it acts as a local
 variable, and it's the value of the local parameter that is taken into
-account.
+account.</p>
 
-This x here, is not the global one: it's the one I passed as a parameter
+<p>This x here, is not the global one: it's the one I passed as a parameter
 that has the value 10. Ok. So now, there are some little variations when
 I use &quot;let&quot; instead of &quot;var&quot;. Ok, let's see some examples. So, with
 JavaScript 6, I can use &quot;let&quot; instead of &quot;var&quot;. The global scope
 does not change. If I declare a global variable, it can be used
-anywhere.
+anywhere.</p>
 
-But, if I declare a local variable, it's no more local to the whole
+<p>But, if I declare a local variable, it's no more local to the whole
 function in which it is defined, but it's local to the block of
-instructions that is defined by an opening brace and a closing brace.
+instructions that is defined by an opening brace and a closing brace.</p>
 
-If I try to use this variable here, that is defined in the block,
+<p>If I try to use this variable here, that is defined in the block,
 outside of the block but inside of the function, the "a"..., the value
 of the variable "a" here, will not be the value of the local variable
 here, because this one does not exist, it's not usable here. It will be
-the global variable &quot;a&quot; that will be used.
+the global variable &quot;a&quot; that will be used.</p>
 
-This is why the printed value here, when I execute "f" is &quot;1&quot; and
-not &quot;4&quot;.
+<p>This is why the printed value here, when I execute "f" is &quot;1&quot; and
+not &quot;4&quot;.</p>
 
-If the variable was named "b" and if I tried to display it, then... I've
+<p>If the variable was named "b" and if I tried to display it, then... I've
 got an error: &quot;b is not defined&quot;. Remember that if I used &quot;var&quot; in
 that case it works, because &quot;var&quot; will define a variable local to the
-whole function, not just to the block of instructions.
+whole function, not just to the block of instructions.</p>
 
 <!-- end of video transcript 1.5.2 -->
 
