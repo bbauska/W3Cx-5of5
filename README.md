@@ -270,12 +270,12 @@ free, open source, multi-platform editor by Microsoft.</p>
     NotePad++</a> (Windows only)</li>
   <li><a href="https://netbeans.org/" target="_blank" rel="noopener noreferrer">
     NetBeans</a> and <a href="https://eclipse.org/" target="_blank" 
-	rel="noopener noreferrer">Eclipse</a>: very powerful IDEs (integrated 
-	development environments), but heavier than all the &quot;lightweight&quot; 
-	source editors that we&apos;ve talked about so far. More dedicated to 
-	&quot;mid-size/large-size projects&quot;, more for pro developers that are 
-	also looking for good support for server-side languages such as Java, Python, 
-	PHP, etc.</li>
+  rel="noopener noreferrer">Eclipse</a>: very powerful IDEs (integrated 
+  development environments), but heavier than all the &quot;lightweight&quot; 
+  source editors that we&apos;ve talked about so far. More dedicated to 
+  &quot;mid-size/large-size projects&quot;, more for pro developers that are 
+  also looking for good support for server-side languages such as Java, Python, 
+  PHP, etc.</li>
 </ul>
 
 <h4>Not free of charge:</h4>
@@ -455,7 +455,7 @@ instructor will indicate other tools in module 1 of the course.</p>
   <li><a href="https://developer.mozilla.org/en-US/docs/Tools/Debugger" 
     target="_blank" rel="noopener noreferrer">
     Firefox JS debugger</a> (debugger shipped inside Firefox) - all other 
-	browsers have integrated debuggers as well.</li>
+  browsers have integrated debuggers as well.</li>
   <li><a href="https://www.jslint.com/" target="_blank" rel="noopener noreferrer">
     JS Lint</a> - The JavaScript Code Quality Tool
   <li><a href="https://codebeautify.org/jsvalidate" target="_blank" rel="noopener noreferrer">
@@ -725,18 +725,18 @@ As of July 2023, W3C:
 <ul>
   <li>Is a <a href="https://www.w3.org/Consortium/Member/List" target="_blank" rel="noopener noreferrer">member</a>-driven
     organization composed of over 360 companies, universities, start-ups, etc. from 
-	all over the world.</li>
+  all over the world.</li>
   <li>Holds 52 <a href="https://www.w3.org/groups/" target="_blank" rel="noopener noreferrer">technical groups</a>, including
     Working and Interest Groups where technical specifications are discussed and developed.</li>
   <li>Published over 13585 <a href="https://www.w3.org/TR/" target="_blank" rel="noopener noreferrer">published technical reports</a>, 
   including 510 Web standards (or W3C Recommendations) - since January 1st,1995.</li>
   <li>Runs a <a href="https://www.w3.org/Consortium/Translation/" target="_blank" rel="noopener noreferrer">translation program</a> 
     to foster the translation of its specifications: see the 
-	<a href="https://www.w3.org/Consortium/Translation/matrix.html" target="_blank" rel="noopener noreferrer">translation matrix</a> 
-	currently listing 312 available translations of W3C recommendations.</li>
+  <a href="https://www.w3.org/Consortium/Translation/matrix.html" target="_blank" rel="noopener noreferrer">translation matrix</a> 
+  currently listing 312 available translations of W3C recommendations.</li>
   <li>Hosts 143 <a href="https://www.w3.org/community/groups/" target="_blank" rel="noopener noreferrer">Community and Business
     Groups</a>, where developers, designers, and anyone passionate about the Web 
-	have a place to hold discussions and publish ideas.</li>
+  have a place to hold discussions and publish ideas.</li>
   <li>Gathers over13860active participants constituting the W3C community.</li>
   <li>Has a <a href="https://www.w3.org/People/" target="_blank" rel="noopener noreferrer">technical staff</a> composed of 46
     people, spread on all five continents.</li>
@@ -1868,14 +1868,14 @@ example, you see the CSS rules that have been applied to the HTML
 document. Let&apos;s look at the first one:</p>
 
 <pre>
-1.  h1 {
-2.    color:red;
-3.    background-color:lightGreen;
-4.    border:12px solid violet;
-5.    padding: 5px;   
-6.    border-radius: 15px;
-7.    text-align: center;
-8.  }
+1. h1 {
+2.   color:red;
+3.   background-color:lightGreen;
+4.   border:12px solid violet;
+5.   padding: 5px;   
+6.   border-radius: 15px;
+7.   text-align: center;
+8. }
 </pre>
 
 <p>This rule turns all the h1s in the document into red text, centered
@@ -1919,9 +1919,9 @@ with an &apos;id&apos; attribute, or grouped with a class of other elements by
 setting the &apos;class&apos; attribute.</p>
 
 <pre>
-1.  &lt;p id="paragraph-1" class="regular-paragraphs"&gt;
-2.    Call me Ishmael . . .
-3.  &lt;/p&gt;
+1. &lt;p id="paragraph-1" class="regular-paragraphs"&gt;
+2.   Call me Ishmael . . .
+3. &lt;/p&gt;
 </pre>
 
 <p>The paragraph above has a unique identifier: the id attribute whose value is 
@@ -1950,16 +1950,16 @@ Best practice is to name these things to increase clarity, consistency and brevi
 <p>The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
 in our case it&apos;s the second h2 element:</p>
 
-<pre>1.  &lt;h2 <b>id="hobbyTitle"</b>&gt;My Hobbies&lt;/h2&gt;</pre>
+<pre>1. &lt;h2 <b>id="hobbyTitle"</b>&gt;My Hobbies&lt;/h2&gt;</pre>
 
 <h5>And here is the CSS rule:</h5>
 
 <pre>
-1.  <b>#hobbyTitle</b> {
-2.    font-family: 'caveat';
-3.    font-size:40px;
-4.    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-5.  }
+1. <b>#hobbyTitle</b> {
+2.   font-family: 'caveat';
+3.   font-size:40px;
+4.   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+5. }
 </pre>
 
 <p><b>Line 1</b> uses the &quot;#&quot; character in the selector, meaning that we&apos;re
@@ -1974,12 +1974,12 @@ able to use it in a font-family CSS property, we included its definition
 using a &lt;link&gt; tag in the HTML part of the document:</p>
 
 <pre>
-1.  &lt;head&gt;
-2.    &lt;title&gt;Your first HTML page&lt;/title&gt;
-3.    &lt;meta charset="utf-8"/&gt;
-4.    <b>&lt;link href="https://fonts.googleapis.com/css?family=Caveat"</b>
-5.    <b>rel="stylesheet"&gt;</b>
-6.  &lt;/head&gt;
+1. &lt;head&gt;
+2.   &lt;title&gt;Your first HTML page&lt;/title&gt;
+3.   &lt;meta charset="utf-8"/&gt;
+4.   <b>&lt;link href="https://fonts.googleapis.com/css?family=Caveat"</b>
+5.   <b>rel="stylesheet"&gt;</b>
+6. &lt;/head&gt;
 </pre>
 
 <p>The last rule targets all elements that have an
@@ -1987,22 +1987,22 @@ attribute class=&quot;funny&quot;. Notice they can be different elements, we ca
 have a p and an h3 element that have the class=&quot;funny&quot; attribute:</p>
 
 <pre>
-1.  .funny {
-2.    color:purple;
-3.    font-family: 'caveat';
-4.    font-size:40px;
-5.  }
+1. .funny {
+2.   color:purple;
+3.   font-family: 'caveat';
+4.   font-size:40px;
+5. }
 </pre>
 
 <p>This rule changes the color, font family and size of two out of three
 paragraphs in the HTML element:</p>
 
 <pre>
-1.  ...
-2.  &lt;p class="funny"&gt;I also play electric guitar and love
-      coding WebAudio applications...&lt;/p&gt;
-3.    ...
-4.  &lt;p class="funny">Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;
+1. ...
+2. &lt;p class="funny"&gt;I also play electric guitar and love
+     coding WebAudio applications...&lt;/p&gt;
+3.   ...
+4. &lt;p class="funny">Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;
 </pre>
 
 <p>There are many, many, many different CSS properties in existence, and
@@ -2572,7 +2572,7 @@ post your comments/observations/questions or share your creations.</p>
 <ul>
   <li>Try to make a simple home page and add some interactivity to it, adapting 
     the examples provided in the course (change the HTML content by clicking on 
-	a button, change the CSS style of some parts of the document).</li>
+  a button, change the CSS style of some parts of the document).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-1">1.3.1 The best way to learn JavaScript (8:42)</h3>
@@ -2837,8 +2837,8 @@ target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph</a></h6>
 document of some external JavaScript code:</p>
 
 <pre>
-1.  &lt;script src="https://d3js.org/d3.v3.min.js"&gt;&lt;/script&gt;
-2.  &lt;script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;&lt;/script&gt;
+1. &lt;script src="https://d3js.org/d3.v3.min.js"&gt;&lt;/script&gt;
+2. &lt;script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;&lt;/script&gt;
 </pre>
 
 <p>We will examine this soon in a later section of the course, but, in
@@ -2854,8 +2854,7 @@ target="_blank" rel="noopener noreferrer">
 <p>Then, looking at the JavaScript code of the example (click the JS button
 on the CodePen example), we see:</p>
 
-<pre>
-1.  functionPlot(<b>{</b>
+<pre>1.  functionPlot(<b>{</b>
 2.    <b>target: '#myFunction',</b>
 3.    <b>data: &lbrack;{&lt;</b>
 4.      <b>fn: 'sin(x)',</b>
@@ -2887,10 +2886,10 @@ and the range of the y values is &lbrack;-1, 1&rbrack;.</p>
     you should see the updated result in the &quot;Results&quot; tab,</li>
   <li>&hellip;or just click on the &quot;Edit on CodePen&quot; title on the top
     right of the embedded example, then change  the code. Normally you should 
-	see the results of your modifications as soon as you stop typing (we call 
-	this &quot;live coding&quot;). (Here is 
-	<a href="https://codepen.io/w3devcampus/pen/dvpEPZ" target="_blank" rel="noopener noreferrer">
-	an example of what you can obtain</a> as a result).</li>
+  see the results of your modifications as soon as you stop typing (we call 
+  this &quot;live coding&quot;). (Here is 
+  <a href="https://codepen.io/w3devcampus/pen/dvpEPZ" target="_blank" rel="noopener noreferrer">
+  an example of what you can obtain</a> as a result).</li>
 </ul>
 
 <h4>What can you guess from this example?</h4>
@@ -3911,11 +3910,11 @@ comments/observations/questions or share your creations.</p>
     example". Share your best work(s) ;)</li>
   <li>Try to experiment further our "best way to learn JavaScript" and try to tweak 
     an example of your own that uses the  paperJS library. Start from a simple 
-	example from the paperJS Web site, modify it and share it in the forum. You 
-	can look at the example from the course if you want to include paperJS in a 
-	shareable CodePen example (we use a version of paperJS located on a Content 
-	Delivery Network, a "CDN", no need to download it, and it's very easy to use 
-	it in online IDEs such as CodePen, JSBin, etc.).</li>
+  example from the paperJS Web site, modify it and share it in the forum. You 
+  can look at the example from the course if you want to include paperJS in a 
+  shareable CodePen example (we use a version of paperJS located on a Content 
+  Delivery Network, a "CDN", no need to download it, and it's very easy to use 
+  it in online IDEs such as CodePen, JSBin, etc.).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-1">1.4.1 Creating an HTML/CSS/JS project</h3>
@@ -5030,8 +5029,7 @@ Infinity</pre>
 
 <p>NaN is a special value and its type is &quot;Number&quot;!</p>
 
-<pre>
-1.  &gt; typeof NaN;
+<pre>1.  &gt; typeof NaN;
 2.  "number"
 3.   
 4.  &gt; var a = NaN;
@@ -5047,8 +5045,7 @@ Infinity</pre>
 14. NaN 
 15.  
 16. &gt; 1 + 2 + a;
-17. NaN
-</pre>
+17. NaN</pre>
 
 <h4>&lbrack;ADVANCED&rbrack; Optional explanations about numbers</h4>
 
@@ -5204,82 +5201,77 @@ both prefixed or suffixed, which have different effects:</p>
 
 <h4>Example #1: simple operator use</h4>
 
-<pre>
-1	&gt; 1 + 2;
-2	3
-3	
-4	&gt; var a = 1;
-5	undefined
-6	
-7	&gt; var b = 2;
-8	undefined
-9	
-10	&gt; a + 1;
-11	2
-12	
-13	&gt; b + 2;
-14	4
-15	
-16	&gt; a + b;
-17	3
-18	
-19	&gt; var c = a + b;
-20	undefined
-21	
-22	&gt; c;
-23	3
-</pre>
+<pre>1.  &gt; 1 + 2;
+2.  3
+3.  
+4.  &gt; var a = 1;
+5.  undefined
+6.  
+7.  &gt; var b = 2;
+8.  undefined
+9.  
+10.  &gt; a + 1;
+11.  2
+12.  
+13.  &gt; b + 2;
+14.  4
+15.  
+16.  &gt; a + b;
+17.  3
+18.  
+19.  &gt; var c = a + b;
+20.  undefined
+21.  
+22.  &gt; c;
+23.  3</pre>
 
 <h4>Example #2: more operators</h4>
 
-<pre>
-1.	&gt; 1 + 2;
-2.	3
-3.	
-4.	&gt; 99.99 - 11;
-5.	88.99
-6.	
-7.	&gt; 2 * 3;
-8.	6
-9.	
-10.	&gt; 6 / 4;
-11.	1.5
-</pre>
+<pre>1.  &gt; 1 + 2;
+2.  3
+3.  
+4.  &gt; 99.99 - 11;
+5.  88.99
+6.  
+7.  &gt; 2 * 3;
+8.  6
+9.  
+10.  &gt; 6 / 4;
+11.  1.5</pre>
 
 <h4>Example #3: pre and post increments</h4>
 
 <pre>
-1.	&gt; var m = 0;
-2.	Undefined
-3.	
-4.	&gt; m;
-5.	0
-6.	
-7.	&gt; // regular use of the + operator
-8.	m = m + 1;
-9.	1
-10.	
-11.	&gt; m;
-12.	1
-13.	
-14.	&gt; m = m + 1;
-15.	2
-16.	
-17.	&gt; m;
-18.	2
-19.	
-20.	&gt; // post increment
-21.	m++;
-22.	2
-23.	
-24.	&gt; m;
-25.	3
-26.	&gt; console.log(m++); // will display 3 but after that m is incremented
-27.	3
-28.	
-29.	&gt; m;
-30.	4
-</pre>
+1.  &gt; var m = 0;
+2.  Undefined
+3.
+4.  &gt; m;
+5.  0
+6.  
+7.  &gt; // regular use of the + operator
+8.  m = m + 1;
+9.  1
+10.  
+11.  &gt; m;
+12.  1
+13.  
+14.  &gt; m = m + 1;
+15.  2
+16.  
+17.  &gt; m;
+18.  2
+19.  
+20.  &gt; // post increment
+21.  m++;
+22.  2
+23.  
+24.  &gt; m;
+25.  3
+26.  &gt; console.log(m++); // will display 3 but after that m is incremented
+27.  3
+28.  
+29.  &gt; m;
+30.  4</pre>
 
 <h4>Below is snapshot with explanations:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5293,32 +5285,32 @@ both prefixed or suffixed, which have different effects:</p>
 <h4>Example #4: other versions of post and pre increments</h4>
 
 <pre>
-1.	&gt; var a = 123; var b = a++;
-2	Undefined
-3	
-4	&gt; b;
-5	123
-6	
-7	&gt; a;
-8	124
-9	
-10	&gt; var a = 123; var b = ++a;
-11	Undefined
-12	
-13	&gt; b;
-14	124
-15	
-16	&gt; a;
-17	124
-18	
-19	&gt; var a = 123; var b = a--;
-20	undefined
-21	
-22	&gt; b;
-23	123
-24	
-25	&gt; a;
-26	122
+1.  &gt; var a = 123; var b = a++;
+2  Undefined
+3  
+4  &gt; b;
+5  123
+6  
+7  &gt; a;
+8  124
+9  
+10  &gt; var a = 123; var b = ++a;
+11  Undefined
+12  
+13  &gt; b;
+14  124
+15  
+16  &gt; a;
+17  124
+18  
+19  &gt; var a = 123; var b = a--;
+20  undefined
+21  
+22  &gt; b;
+23  123
+24  
+25  &gt; a;
+26  122
 </pre>
 
 <h4>Example #5: short variant that mixes assignment and execution of an operator</h4>
@@ -5328,10 +5320,10 @@ value to a variable at the same time.<br>
 Code below (try it in the devtool console of your browser):</p>
 
 <pre>
-1	&gt; var a = 10;
-2	&gt; a *= 5; // equivalent to a = a * 5;
-3	&gt; console.log(a);
-4	&gt; 50
+1  &gt; var a = 10;
+2  &gt; a *= 5; // equivalent to a = a * 5;
+3  &gt; console.log(a);
+4  &gt; 50
 </pre>
 
 <h4>Example #6: more with pre operators +=, -=, *=, /=</h4>
@@ -5339,25 +5331,25 @@ Code below (try it in the devtool console of your browser):</p>
 <p>There are good chances you will encounter such code:</p>
 
 <pre>
-1.	&gt; var a = 5;
-2.	Undefined
-3.	
-4.	&gt; a += 3 // equivalent to a = a + 3;
-5.	8
-6.	
-7.	&gt; a -= 2; // equivalent to a = a - 2;
-8.	6
-9.	
-10.	&gt; a *= 10; // equivalent to a = a * 10;
-11.	60
-12.	
-13.	&gt; a /= 5; // equivalent to a = a / 5;
-14.	12
-15.	
-16.	&gt; a %= 2; // equivalent to a = a % 2;
-17.	0
-18.	
-19.	&gt; // this is normal, as it is even
+1.  &gt; var a = 5;
+2.  Undefined
+3.  
+4.  &gt; a += 3 // equivalent to a = a + 3;
+5.  8
+6.  
+7.  &gt; a -= 2; // equivalent to a = a - 2;
+8.  6
+9.  
+10.  &gt; a *= 10; // equivalent to a = a * 10;
+11.  60
+12.  
+13.  &gt; a /= 5; // equivalent to a = a / 5;
+14.  12
+15.  
+16.  &gt; a %= 2; // equivalent to a = a % 2;
+17.  0
+18.  
+19.  &gt; // this is normal, as it is even
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-7">1.5.7 Strings, part 1</h3>
@@ -5790,7 +5782,7 @@ equal to the length of the array.</p>
 
 <pre>
 1.  <b>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
-	  'Thursday', 'Friday';, 'Saturday'&rbrack;;</b>
+    'Thursday', 'Friday';, 'Saturday'&rbrack;;</b>
 2.  <b>undefined</b>
 3.  <b>daysOfWeek.length</b>
 4.  <b>6</b>
@@ -6708,7 +6700,7 @@ a ReferenceError will be raised. But the typeof operator will return
 <ul>
   <li><b>&&</b> (AND)<br>
     usage example:<br>
-	if ((x &gt; 0) && (x &lt; 10)) {
+  if ((x &gt; 0) && (x &lt; 10)) {
       console.log(&apos;x is strictly positive and less than 10&apos;);
     }</li>
   <li><b>&vert;&vert;</b> (OR)<br>
@@ -8972,7 +8964,7 @@ which real keyboard keys, so here are some handy pointers:</p>
     interactive example</a>.</li>
   <li>And find a list of keyCodes (taken from this CSS Tricks 
     <a href="https://css-tricks.com/snippets/javascript/javascript-keycodes/#keycode-values" target="_blank" rel="noopener noreferrer">
-	article</a>).</li>
+  article</a>).</li>
 </ul>
 
 <h4>The different key events</h4>
@@ -11241,13 +11233,13 @@ by this list:
 <h5>HTML code:</h5>
 
 <pre>
-1.  <button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);<b>&quot;>Change
-    backgrounds of p under a given element known by id</button>
-2.  <br>
-3.  <div <b>id=&quot;firstDiv&quot;</b>>
-4.  <p>First paragraph.</p>
-5.  <p>Second paragraph.</p>
-6.  </div>
+1.  &lt;button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);</b>&quot;&gt;Change
+    backgrounds of p under a given element known by id&lt;/button&gt;
+2.  &lt;br&gt;
+3.  &lt;div <b>id=&quot;firstDiv&quot;</b>&gt;
+4.  &lt;p&gt;First paragraph.&lt;/p&gt;
+5.  &lt;p&gt;Second paragraph.&lt;/p&gt;
+6.  &lt;/div&gt;
 </pre>
 
 JavaScript code: we build a CSS selector using the id passed as a
@@ -11267,7 +11259,7 @@ paragraphs (*line 6*).
 1.  function changeBackGroundOfPs(id) {
 2.  var paragraphs = document.querySelectorAll(&quot;#&quot; + id + &quot; p&quot;);
 3.  // Another way to iterate on all elements in a collection
-4.  for (var i = 0; i < paragraphs.length; i++ ) {
+4.  for (var i = 0; i &lt; paragraphs.length; i++ ) {
 5.  paragraphs[i].style.backgroundColor = &quot;lightGreen&quot;;
 6.  }
 7.  }
@@ -11281,7 +11273,7 @@ paragraphs (*line 6*).
 3.  // all li in a ul, but only even elements
 4.  var els = document.querySelectorAll(&apos;ul li:nth-child(even)&apos;);
 5.  // all td directly in tr in a form of class test
-6.  var els = document.querySelectorAll(&apos;form.test > tr > td&apos;);
+6.  var els = document.querySelectorAll(&apos;form.test &gt; tr &gt; td&apos;);
 7.  // all paragraphs of class warning or error
 8.  querySelectorAll(&quot;p.warning, p.error&quot;);
 9.  // first element of id=foo or id=bar
@@ -11432,20 +11424,20 @@ collection of class names:
 <pre>
 3.  The list of methods usable on a classList object are add(),
     remove(), toggle() and contains().
-4.  // By default, start without a class in the div: <div class=&quot;&quot;/>
+4.  // By default, start without a class in the div: &lt;div class=&quot;&quot;/&gt;
 5.  // Set &quot;foo&quot; as the class by adding it to the classList
-6.  div.classList.add(&apos;foo&apos;); // now <div class=&quot;foo&quot;/>
+6.  div.classList.add(&apos;foo&apos;); // now &lt;div class=&quot;foo&quot;/&gt;
 7.  // Check that the classList contains the class &quot;foo&quot;
 8.  div.classList.contains(&apos;foo&apos;); // returns true
 9.  // Remove the class &quot;foo&quot; from the list
-10. div.classList.remove(&apos;foo&apos;); // now <div class=&quot;&quot;/>
+10. div.classList.remove(&apos;foo&apos;); // now &lt;div class=&quot;&quot;/&gt;
 11. // Check if classList contains the class &quot;foo&quot;
 12. div.classList.contains(&apos;foo&apos;); // returns false: &quot;foo&quot; is gone
 13. // Check if class contains the class &quot;foo&quot;,
 14. // If it does, &quot;foo&quot; is removed, if it doesn&apos;t, it&apos;s added
-15. div.classList.toggle(&apos;foo&apos;); // class set to <div
-    class=&quot;foo&quot;/>
-16. div.classList.toggle(&apos;foo&apos;); // class set to <div class=&quot;&quot;/>
+15. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div
+    class=&quot;foo&quot;/&gt;
+16. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div class=&quot;&quot;/&gt;
 </pre>
 
 ### Another example: add and remove multiple CSS properties in a list of checkboxes
@@ -11473,7 +11465,7 @@ change the text color, we use a CSS class named &quot;checked&quot;:
 5.  }
 &hellip; and
 the classList.add(CSS_class) and classList.remove(CSS_class) methods on
-the <li> elements:
+the &lt;li&gt; elements:
 </pre>
 
 <h5>JavaScript code:</h5>
