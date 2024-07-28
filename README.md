@@ -1820,7 +1820,7 @@ indicate a box-shadow.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. css: cascade style sheet (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image060.png?raw=true"
+<img src="./images/image061.png?raw=true"
   style="width:50%"
   title="CSS: Cascade Style Sheet"
   alt="CSS: Cascade Style Sheet." />
@@ -3335,9 +3335,9 @@ element of the document, and the "innerHTML" property corresponds to its HTML
 content. By doing this, we are adding a bold element JavaScript code executing 
 the value of the variable x=2 and we display the value of the x variable in bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 120b. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 119b. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image120b.png?raw=true"
+<img src="./images/image119b.png?raw=true"
   style="width:65%"
   title="Result of execution Example 1; JavaScript in the HTML file"
   alt="Result of execution Example 1; JavaScript in the HTML file." />
@@ -3646,7 +3646,7 @@ an external URL:</p>
   title="How to debug JavaScript"
   alt="How to debug JavaScript." />
 </p>
-<p>Hi, every programmer will make errors. So is very important that you learn how to debug
+<p>Hi, every programmer will make errors. It is very important that you learn how to debug
 your JavaScript programs, how to see your errors, how to write messages
 for debugging, tracing what is going on, etc.</p>
 
@@ -3701,14 +3701,14 @@ here I've got a script that will display, as soon the page is loaded,
   title="JSBin; error check on console.log"
   alt="JSBin; error check on console.log." />
 
-<p>If there is a mistake, if I make an error here,
-for example, I write console with two "l". I can see, in red, some messages:
- "consolle is not defined", bla, bla, bla...</p>
+<p>If there is a mistake, if I make an error here, for example, I write console 
+with two "l". I can see, in red, some messages: 
+"consolle is not defined", bla, bla, bla...</p>
  
-<p>When you use some online tools like JsBin or CodePen, and so on, it's a bit difficult to
-debug your code because you are debugging at the same time the code of the tool itself that
-is written in JavaScript too. So each each these tools comes with a way to
-run your code in what we decode ‘standalone mode’ or ‘debug mode’.</p>
+<p>When you use some online tools like JsBin or CodePen, and so on, it's a bit 
+difficult to debug your code because you are debugging at the same time the code 
+of the tool itself that is written in JavaScript too. Each these tools comes with 
+a way to run your code in what we decode ‘standalone mode’ or ‘debug mode’.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 130. js debugging using the devtools console (99) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3717,12 +3717,12 @@ run your code in what we decode ‘standalone mode’ or ‘debug mode’.</p>
   title="JavaScript debugging using the devtools console"
   alt="JavaScript debugging using the devtools console." />
 
-<p>With JsBin, I click on the small black arrow, here.
-And if I open the built-in browser console, I can see the error message.</p>
+<p>With JsBin, I click on the small black arrow, here. And if I open the built-in 
+browser console, I can see the error message.</p>
 
-<p>And here, if I click on the link on the right, it will just show the line where my program
-made a mistake display, so, as an error. So here, I can see that console
-needs only one "l", I can fix that.</p>
+<p>And here, if I click on the link on the right, it will just show the line 
+where my program made a mistake display, as an error. Here, I can see 
+that console needs only one "l", I can fix that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 131. jsbin; error check in console (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3731,11 +3731,11 @@ needs only one "l", I can fix that.</p>
   title="JSBin; Error check in console"
   alt="JSBin; Error check in console." />
 
-<p>Another interested thing is that when you use "console.log", you can use it to display
-some variable values. So, if I declare a variable named x with a value of 10,
-I can use «console.log" to display the value of x, using the "+" operator.
-So in that case, if I run my code it will help me by displaying the value
-of different variables when “console.log” is executed.</p>
+<p>Another interested thing is that when you use "console.log", you can use it 
+to display some variable values. If I declare a variable named x with a value 
+of 10, I can use «console.log" to display the value of x, using the "+" operator.
+In that case, if I run my code it will help me by displaying the value of different 
+variables when “console.log” is executed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. codepen; debug mode (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3886,7 +3886,7 @@ source code centered on the line that caused the error:</p>
   alt="View of the JavaScript console." />
 </p>
 
-<p>Without such tools, debugging JavaScript code is impossible. So you need
+<p>Without such tools, debugging JavaScript code is impossible. You need
 to look at some basic tutorials on how to use the dev. tools of your
 browsers, since they differ from one another in the way they work
 - although the principles remain the same.</p>
@@ -4035,7 +4035,6 @@ input field from HTML5. If I click here, it asks for a color. And we can also ad
 an event listener: "onchange="plot();. That means: "when the color has been selected, 
 call the plot() function". And you remember that this function is the one that plots 
 the mathematical function, here. The plot function is here.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 141.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4049,12 +4048,13 @@ the mathematical function, here. The plot function is here.</p>
 property of the parameters here. Let's add some code for that... How can we get 
 the value of the color from JavaScript before plotting the function? We are going 
 to use the selector API: "document.querySelector(...)" for the input field whose 
-id is "color". 
+id is "color".</p>
+
 <h4>The value, here, is the color itself.</h4>
 
 <p>What we do is that we are going do use the color for changing this, here. So 
 "parameters.data"... it's an array. 0 is the first index, the first element that 
-corresponds to the part that I highlight now. .color=color
+corresponds to the part that I highlight now. .color=color</p>
 
 <p>If I change the color, this line is executed and the color changes. We can use 
 the same principles with other input fields. Let me just copy and paste some code 
@@ -4087,7 +4087,7 @@ fields on the left and the plot on the right.</p>
 </p>
 
 <p>Let me just cut and paste some CSS rules here, that will factorize the common 
-properties for both sections in a section selector. OK, so what I've got now, is 
+properties for both sections in a section selector. OK, what I've got now, is 
 that I've got a nice balanced view of the whole application.</p>
 
 <!-- end of 1.4.2 video transcript -->
@@ -4121,7 +4121,7 @@ the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-3">1.4.3 Using Sublime Text (4:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image145.png?raw=true"
   style="width:50%"
@@ -4133,7 +4133,7 @@ files and a regular source code editor, and working on your local hard
 disk. I&apos;m going first to create a directory for storing the files on my
 desktop. &quot;Math plotter app&quot; and I will work inside.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image146.png?raw=true"
   style="width:50%"
@@ -4145,7 +4145,7 @@ and a subfolder named &quot;css&quot; for the CSS files, and the HTML file will
 lie in the current directory.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 147.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 147.  (116) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image147.png?raw=true"
   style="width:50%"
@@ -4158,7 +4158,7 @@ saving the current file as &quot;index.html&quot;. I will copy the HTML, CSS and
 JavaScript source code from the previous example. I just took the previous application.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 148.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 148.  (116) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image148.png?raw=true"
   style="width:50%"
@@ -4169,9 +4169,8 @@ JavaScript source code from the previous example. I just took the previous appli
 and a &quot;script.js&quot; file for holding the JavasCript and CSS files. I 
 copy the source code from the js part of the previous example. I create a new 
 file with the CSS code.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 149.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 149.  (117) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image149.png?raw=true"
   style="width:50%"
@@ -4181,9 +4180,8 @@ file with the CSS code.</p>
 <p>&quot;Save as&quot; ... I include the JavaScript code :&lt;script
 src=&quot;js/script.js&quot;&gt;</p>
 <p>Remember that the script tag has always a closing tag at this end.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 150.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 150.  (117) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image150.png?raw=true"
   style="width:50%"
@@ -4192,9 +4190,8 @@ src=&quot;js/script.js&quot;&gt;</p>
 </p>
 <p>It is not an auto-closing tag. And I use a &quot;link&quot; tag for importing 
 the CSS file.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 151.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 151.  (118) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image151.png?raw=true"
   style="width:50%"
@@ -4217,6 +4214,7 @@ Sublime Text.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-1">1.5.1 JS variables and values (5:28)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+Live coding video: JavaScript variables
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4276,8 +4274,8 @@ you declare variables.</p>
 <!-- video above for 1.5.1 -->
 <!------------------------------------------------------------------------------------------------>
 <p>In most of the examples seen earlier, we&apos;ve used the concept of
-&quot;variable&quot;, and we have used them to &quot;store values&quot;. It&apos;s time to
-take a break and talk about them :-)</p>
+&quot;variable&quot;, and we have used them to &quot;store values&quot;. 
+It&apos;s time to take a break and talk about them :-)</p>
 
 <h4>Variables</h4>
 
@@ -4297,7 +4295,7 @@ which we&apos;ll explain later in the course when we will talk about
 &quot;functions&quot;).</p>
 
 <p>JavaScript is <b>weakly typed</b>. Each variable is declared with the
-keyword <b>var</b> or <b>let</b>. So you are not required to specify the type
+keyword <b>var</b> or <b>let</b>. You are not required to specify the type
 of variable you are creating. <b>After the keyword &quot;var&quot; and a space,
 just give the name of the variable.</b></p>
 
@@ -4308,9 +4306,10 @@ var myVar;
 let x;
 </pre>
 
-<p>The first letter of a variable can only be &quot;&dollar;&quot;, &quot;&lowbar;&quot;, &quot;a&quot; to
-&quot;z&quot;, or &quot;A&quot; to &quot;Z&quot;. The other characters in a name must be any of
-these, or numeric digits. The name is case sensitive. So variables
+<p>The first letter of a variable can only be &quot;&dollar;&quot;, 
+&quot;&lowbar;&quot;, &quot;a&quot; to &quot;z&quot;, or &quot;A&quot; 
+to &quot;Z&quot;. The other characters in a name must be any of
+these, or numeric digits. The name is case sensitive. Variables
 &quot;myVar&quot; and &quot;MyVar&quot; are different variables.</p>
 
 <p>There are some reserved names that you can&apos;t use as a variable
@@ -4522,8 +4521,8 @@ variable, and it's the value of the local parameter that is taken into
 account.</p>
 
 <p>This x here, is not the global one: it's the one I passed as a parameter
-that has the value 10. Ok. So now, there are some little variations when
-I use &quot;let&quot; instead of &quot;var&quot;. Ok, let's see some examples. So, with
+that has the value 10. Now, there are some little variations when
+I use &quot;let&quot; instead of &quot;var&quot;. Let's see some examples. With
 JavaScript 6, I can use &quot;let&quot; instead of &quot;var&quot;. The global scope
 does not change. If I declare a global variable, it can be used
 anywhere.</p>
@@ -4763,7 +4762,7 @@ for example a number, a string, etc. ex: var x = 3; var name = "Buffa";</p>
 
 <pre>
 var x = 3; var name = "Buffa";
-<a href="" target="_blank" rel="noopener noreferrer">a set of playing cards</a>
+&lt;a href="" target="_blank" rel="noopener noreferrer"&gt;a set of playing cards&lt;/a&gt;
 </pre>
 
 <p>Objects (everything that is not a &quot;primitive data type&quot; is an
@@ -4915,7 +4914,7 @@ value which equals 20.</p>
 <p><b>Question 2</b>: Which value will be displayed in the devtool console if
 you type 098 followed by the Enter key?</p>
 
-<p><b>Explanation 2</b>: 9 and 8 don&apos;t exist in base 8 (only 0 to 7), so the
+<p><b>Explanation 2</b>: 9 and 8 don&apos;t exist in base 8 (only 0 to 7), the
 typed number will be considered as an integer.</p>
 
 <ul>
@@ -4979,7 +4978,8 @@ Infinity</pre>
 
 <p>Any operation with Infinity gives Infinity as a result:</p>
 
-<pre>1.   &gt; Infinity;
+<pre>
+1.   &gt; Infinity;
 2.   Infinity
 3.   
 4.   &gt; typeof Infinity;
@@ -5009,9 +5009,11 @@ Infinity</pre>
 28.  NaN
 29.   
 30.  &gt; -Infinity + Infinity;
-31.  NaN</pre>
+31.  NaN
+</pre>
 
-<pre>1.  &gt; Infinity - 20;
+<pre>
+1.  &gt; Infinity - 20;
 2.  Infinity
 3.   
 4.  &gt; -Infinity &ast; 3;
@@ -5021,13 +5023,15 @@ Infinity</pre>
 8.  Infinity
 9.   
 10. &gt; Infinity - 9999999999999;
-11. Infinity</pre>
+11. Infinity
+</pre>
 
 <h4>Examples with NaN:</h4>
 
 <p>NaN is a special value and its type is &quot;Number&quot;!</p>
 
-<pre>1.  &gt; typeof NaN;
+<pre>
+1.  &gt; typeof NaN;
 2.  "number"
 3.   
 4.  &gt; var a = NaN;
@@ -5035,15 +5039,16 @@ Infinity</pre>
 6.   
 7.  &gt; a;
 8.  NaN 
-
-&gt; var a = 10 &ast; "f";
-  undefined
-  
-&gt; a;
-  NaN 
-  
-&gt; 1 + 2 + a;
-  NaN</pre>
+9.
+10. &gt; var a = 10 &ast; "f";
+11. undefined
+12.  
+13. &gt; a;
+14. NaN 
+15.  
+16. &gt; 1 + 2 + a;
+17. NaN
+</pre>
 
 <h4>&lbrack;ADVANCED&rbrack; Optional explanations about numbers</h4>
 
@@ -5071,7 +5076,7 @@ floating point numbers is that 0.1 + 0.2 does not equal 0.3.</p>
   title="Devtools console showing 0.1 + 0.2 is not equal to 0.3 but to 0.300000000000004"
   alt="Devtools console showing 0.1 + 0.2 is not equal to 0.3 but to 0.300000000000004." />
 
-<p>Second, an integer has 2&#94;52 relevant bits, so the biggest integer
+<p>Second, an integer has 2&#94;52 relevant bits, the biggest integer
 is 2&#94;53. There is one bit that determines the sign of the number, so
 the smallest signed integer is -2&#94;53.</p>
 
@@ -5089,7 +5094,7 @@ follow this link at Wikipedia</a>.</p>
 <p>For example, the expression 3 + 5 produces the value 8, and the
 value 11 alone is also an expression. Within an expression, we can find
 values, variables, operators, and expressions. The first two have been
-already described above, so all that&apos;s left are <b>operators</b>.</p>
+already described above, all that&apos;s left are <b>operators</b>.</p>
 
 <p>In JavaScript, <b>an operator</b> can be unary or binary (plus one ternary
 operator). A unary operator is applied to one expression. It can be
@@ -5317,6 +5322,7 @@ both prefixed or suffixed, which have different effects:</p>
 </pre>
 
 <h4>Example #5: short variant that mixes assignment and execution of an operator</h4>
+
 <p>Binary operators can be used with a shorter syntax when we want to assign the resulting 
 value to a variable at the same time.<br>
 Code below (try it in the devtool console of your browser):</p>
@@ -5329,6 +5335,7 @@ Code below (try it in the devtool console of your browser):</p>
 </pre>
 
 <h4>Example #6: more with pre operators +=, -=, *=, /=</h4>
+
 <p>There are good chances you will encounter such code:</p>
 
 <pre>
@@ -5433,7 +5440,7 @@ inserting a tab, and &#92;&#92;&#92;&#92; for displaying the &#92;&#92; characte
 In that case, you can display the &#92;&#92; character itself using double
 antislash.</p>
 
-<p>Let&apos;s talk about string operators. So the "+" operator is the most
+<p>Let&apos;s talk about string operators. The "+" operator is the most
 common one, it&apos;s useful for concatenating values to any string. Let&apos;s
 look at one example.</p>
 
@@ -5449,16 +5456,16 @@ concatenated to it.</p>
 
 <p>There are also some ways to convert variables to strings.
 x here, is a number, but x = &quot;&quot; + 10; in that case,
-x is a string. So, you can also concatenate string values... so s1 =
+x is a string. You can also concatenate string values... s1 =
 &quot;one&quot;, s2 = &quot;two&quot;, if I concatenate these values here, s is equal to
 the concatenation of s1 and s2.</p>
 
 <p>There is also an assignment operator called += that can be very useful
 when concatenating values to a string. Like var s=Hello; s+=&quot;My
 friend&quot;, you give a value of s=&quot;Hello my Friend&quot;.<br>
-The += means s = s+something, so it adds to the end of s. I can also use
+The += means s = s+something, it adds to the end of s. I can also use
 strings in mathematical operations, and they can be converted
-automatically. So I&apos;ve got s2 that is 10. s2 is a string, and if I do 
+automatically. I&apos;ve got s2 that is 10. s2 is a string, and if I do 
 s2=s2 &ast; 2; in that case, s2 has been converted automatically.
 The value &quot;10&quot; as a string became 10 as a number. And s2 now is a
 number that is worth twice its previous value.</p>
@@ -6037,7 +6044,7 @@ right:</p>
   title="Source code that fired the error"
   alt="Source code that fired the error." />
 
-<p>Ok, so our first error was that we typed the wrong name in
+<p>Our first error was that we typed the wrong name in
 the onclick=&quot;&hellip;&quot;, the name we used : AddXToToThePage has &quot;ToTo&quot;
 instead of &quot;To&quot;. Let&apos;s fix that now and try again:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6452,7 +6459,6 @@ The example is just here to illustrate what can be done using external libraries
   title="CodePen; Animate a green sprite"
   alt="CodePen; Animate a green sprite." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/dNBPQm">CodePen</a></h6>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-8">1.6.8 Working with remote data</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6475,9 +6481,9 @@ The example is just here to illustrate what can be done using external libraries
 
 <h4>Example #2: load and decode remote sounds for use in a video game</h4>
 
-This example just shows how to use the HowlerJS external library to load
+<p>This example just shows how to use the HowlerJS external library to load
 remote sounds, decode them and play them as samples in memory (useful
-for video games):
+for video games):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 202. CodePen: Load and decode remote sounds for use in a video game (173) ~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6489,12 +6495,14 @@ for video games):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1">2.1.1 Video introduction - Module 2</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Video: Introduction to Module 2</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 203. learn how to handle events (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image203.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Learn how to handle events"
+  alt="Learn how to handle events." />
 
 <p>In this module, you will learn how to handle events (using a keyboard, a
 mouse, or a game pad), detect which button has been pressed, what is the
@@ -6531,8 +6539,8 @@ the forum. And let other students enjoy your creation :D</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-1">2.2.1 Boolean values and logical operators</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Live coding video: boolean value, if&hellip;else statement and comparison
-operators
+<p>Live coding video: boolean value, if&hellip;else statement and comparison
+operators</p>
 
 <!-- image goes here -->
 
@@ -7020,11 +7028,11 @@ console.log(&apos;Monday&apos;).
 
 The break here means &quot;ignore all the other cases&quot;.
 
-So, when you put a break after each case, it&apos;s a bit like the
+When you put a break after each case, it&apos;s a bit like the
 &quot;if&hellip;else&quot; example we saw earlier: only one block of instructions
 will be executed here...
 
-So you can see that the 3 different versions with the naive if, the
+You can see that the 3 different versions with the naive if, the
 if-else statement and the switch, give the same result.
 
 Be careful because sometimes, if you forget to use a &quot;break&quot;, you can
@@ -7183,8 +7191,8 @@ to a conditional statement.</b>
 7.  }
 </pre>
 
-<b>Explanation</b>: You can replace this &quot;if-then-else&quot; statement with
-the ternary operator that uses a syntax with &quot;?&quot; and &quot;:&quot;
+<p><b>Explanation</b>: You can replace this &quot;if-then-else&quot; statement with
+the ternary operator that uses a syntax with &quot;?&quot; and &quot;:&quot;</p>
 
 <pre>
 1.  var max;
@@ -7192,23 +7200,23 @@ the ternary operator that uses a syntax with &quot;?&quot; and &quot;:&quot;
 3.  max = (min &lt; 10)? min+10 : min;
 </pre>
 
-<b>Line 3</b> can be read as if (min &lt; 10) then max = min+10, else max =
+<p><b>Line 3</b> can be read as if (min &lt; 10) then max = min+10, else max =
 min. The &quot;then&quot; part is after the &quot;?&quot; and the &quot;else&quot; part is after
-the &quot;:&quot; part.
+the &quot;:&quot; part.</p>
 
-This &quot;short&quot; version is not recommended except for very simple
+<p>This &quot;short&quot; version is not recommended except for very simple
 statements that involve a very obvious block of instructions for the
 &quot;then&quot; and the &quot;else&quot;. Usually this syntax is much harder to read
-for beginners.
+for beginners.</p>
 
 <h4>Curly braces</h4>
 
-Should we use them in if-then-else statements? There are examples
-without curly braces on the Web: what does this mean?
+<p>Should we use them in if-then-else statements? There are examples
+without curly braces on the Web: what does this mean?</p>
 
-Here are two versions of the same code.
+<p>Here are two versions of the same code.</p>
 
-<b>Version 1: </b>no curly braces
+<p><b>Version 1: </b>no curly braces</p>
 
 <pre>
 1.  <b>if</b> (a &gt; 2)
@@ -7217,44 +7225,45 @@ Here are two versions of the same code.
 4.    result = 'a is not bigger than 2';
 </pre>
 
-<b>Version 2: </b>with curly braces for delimiting the &quot;then&quot; and
-&quot;else&quot; blocks
+<p><b>Version 2: </b>with curly braces for delimiting the &quot;then&quot; and
+&quot;else&quot; blocks.</p>
 
 <pre>
 1.  <b>if</b> (a &gt; 2) <b>{</b>
 2.    result = 'a is bigger than 2';
 3.  <b>} else {</b>
 4.    result = 'a is not bigger than 2';
-5.  <b>}</b></pre>
+5.  <b>}</b>
+</pre>
 
-Version 1 and version 2 are equivalent. Indeed, version 1 is correct:
+<p>Version 1 and version 2 are equivalent. Indeed, version 1 is correct:
 you can omit curly braces if the &quot;then&quot; or &quot;else&quot; blocks are made of
-only one statement (one line of code).
+only one statement (one line of code).</p>
 
-But version 2 is cleaner and more readable, and, in particular, it is
+<p>But version 2 is cleaner and more readable, and, in particular, it is
 much better for maintainability (because you can add a statement just by
 pressing the enter key. And you can add some extra lines of code without
 worrying about adding curly braces because you broke the &quot;1 line
-statement rule&quot;).
+statement rule&quot;).</p>
 
-<b>So it is strongly recommended that you always use if-statements</b>
-<b>enclosed in curly braces. </b>
+<p><b>It is strongly recommended that you always use if-statements</b>
+<b>enclosed in curly braces.</b></p>
 
-Of course, one-line if-statements like this :
+<p>Of course, one-line if-statements like this:</p>
 
 <pre>1.  if (true) doSomething();</pre>
 
-&hellip;are really fast to write, but if you want to add a second statement
-later it will become more time consuming.
+<p>&hellip;are really fast to write, but if you want to add a second statement
+later it will become more time consuming.</p>
 
-<b>Conclusion: always use curly braces!</b>
+<p><b>Conclusion: always use curly braces!</b></p>
 
 <h4>The switch statement</h4>
 
-In order to avoid having a series of ifs and elses, it is possible to
-use a <b>switch</b> statement. 
+<p>In order to avoid having a series of ifs and elses, it is possible to
+use a <b>switch</b> statement.</p>
 
-The syntax of the switch statement is:
+<h4>The syntax of the switch statement is:</h4>
 
 <pre>
 <b>switch</b> (expression) <b>{</b>
@@ -7279,7 +7288,7 @@ The syntax of the switch statement is:
 }
 </pre>
 
-If the value of an expression equals one of the cases (the equality
+<p>If the value of an expression equals one of the cases (the equality
 operator evaluated is<b> ===</b>), all the statements next to this case
 block are executed sequentially until the keyword <b>break</b> is reached.
 
@@ -7311,13 +7320,13 @@ var gear = '';
 <b>}</b> // end of the switch statement
 </pre>
 
-In this example, if the clouds are grey, then my gear will be just an
+<p>In this example, if the clouds are grey, then my gear will be just an
 umbrella. If they are white, I&apos;ll wear only a jacket, if they are black
 I&apos;ll be nude with just boots (!), and if they are green I&apos;ll get a
 spacesuit. And if the cloud color is none of these, then I&apos;ll only wear
-a watch. The presence of the **break** keyword at the end of the
+a watch. The presence of the </b>break</b> keyword at the end of the
 different cases make the choices 100% exclusive. Only one case can be
-executed!
+executed!</p>
 
 <h4>Example 2#: a switch without &quot;breaks&quot; at the end of each case</h4>
 
@@ -7343,17 +7352,17 @@ var gear = '';
 <b>}</b> // end of the switch statement
 </pre>
 
-<b>Explanation</b>: if the clouds are black, then my gear will be &apos;boots,
+<p><b>Explanation</b>: if the clouds are black, then my gear will be &apos;boots,
 umbrella, jacket, watch&apos;. If the clouds are green, my gear is a
 spacesuit (because of the break keyword, other cases will not be
 tested). If the cloud color is not in the listed colors, then my gear is
-only a watch (default case).
+only a watch (default case).</p>
 
 <h4>Example #3: three ways to do condition statements</h4>
 
-To finish up this section, here is a complete example (to run it: click
+<p>To finish up this section, here is a complete example (to run it: click
 on the &quot;edit on codepen&quot; label and once in codepen, open the devtool
-console to see the outputs of this program):
+console to see the outputs of this program):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7366,18 +7375,18 @@ console to see the outputs of this program):
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<title>3 ways to do conditional statements</title>
-<meta charset=&quot;utf-8&quot;/>
-</head>
-<body>
-Look at the js code from this example!
-And do not forget to open the devtool
-console to see the outputs.
-</body>
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;title&gt;3 ways to do conditional statements&lt;/title&gt;
+  &lt;meta charset=&quot;utf-8&quot;/&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  Look at the js code from this example!
+  And do not forget to open the devtool
+  console to see the outputs.
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -7420,141 +7429,106 @@ console.log('example1,&#92;n bar1 >> ' + bar1);
 console.log('example2,&#92;n bar2 >> ' + bar2);
 console.log('example3,&#92;n bar3 >> ' + bar3);
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-3">2.2.3 Loop statements</h3>
+<h3 id="ch2-2-3">2.2.3 Loop statements (mm:ss)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Hi!
-
-Let&apos;s talk about loop statements.
-
+<p>Let&apos;s talk about loop statements.
 There are different loop statements in JavaScript.
-
 One is the &quot;while&quot; loop statement.
-
 It starts with some initializations, you give some values to some
 variables, then you use the keyword &quot;while&quot; followed by an expression
 that you will test.
-
 It will be evaluated as &quot;true&quot; or &quot;false&quot;.
-
 When this expression is false, you continue after the block of
-instructions
+instructions that is inside the loop.</p>
 
-that is inside the loop.
-
-So, let&apos;s start with an example. We&apos;ve got here some initialization:
+<p>Let&apos;s start with an example. We&apos;ve got here some initialization:
 &quot;var n = 1, m = 1;&quot;.
-
 We&apos;ve got the keyword &quot;while&quot; followed by the condition, &quot;n less
 than 4&quot;, followed by a block of instructions that will be executed as
 long as the condition is evaluated as true.
-
-So, with n = 1, n is less than 4, we execute the block of instructions.
-
+With n = 1, n is less than 4, we execute the block of instructions.
 Inside the block, n is incremented, n += 1, then n = 2, it&apos;s still less
 than 4, we continue, n = 3, it&apos;s still less than 4, we continue, n = 4,
 then the condition is false: 4 is not strictly less than 4, and we
-continue after the loop and the console.log is executed.
+continue after the loop and the console.log is executed.</p>
 
-Let&apos;s have a look at the execution of this program. So, while it&apos;s
+<p>Let&apos;s have a look at the execution of this program. So, while it&apos;s
 executed, it prints in the body of the loop console.log, it prints n =
 1, this is the initial value, n = 2, n = 3&hellip; when n = 4 the condition
 is no more true and we go at the next instruction after the block of
 instructions of the loop.
-
 Inside the loop, we also incremented the variable m by adding the
 consecutive values of n.
-
 And m had a starting value of one.
+1 + 1 + 2 + 3 + 4 &hellip;. the final result is 10 as you can see.</p>
 
-1 + 1 + 2 + 3 + 4 &hellip;. the final result is 10 as you can see.
-
-The second kind of loops you can use are called the &quot;do&hellip;while&quot;
+<p>The second kind of loops you can use are called the &quot;do&hellip;while&quot;
 loops.
-
 They are very similar to the while loops except that the first execution
 of the block of instructions does not depend on any condition.
-
 The condition of the loop is at the end, after the keyword &quot;while&quot;.
+Do something&hellip; while the condition is true&hellip;</p>
 
-Do something&hellip; while the condition is true&hellip;
-
-Let&apos;s look at this example: we&apos;ve got a variable i that has a value of
+<p>Let&apos;s look at this example: we&apos;ve got a variable i that has a value of
 zero, and we increment it in the loop, but before incrementing it we
-print its value.
+print its value.</p>
 
-The final condition is &quot;i strictly less than 20&quot;.
-
-So we are going to execute this for 0, 1, 2... and when i++ will give a
+<p>The final condition is &quot;i strictly less than 20&quot;.
+We are going to execute this for 0, 1, 2... and when i++ will give a
 value to i that is 20, then the condition will be no more true, and we
 will finish the execution of the loop and execute the console.log that
 is here. So, look at the devtool console:
-
-we executed the loop for i = 0 to i = 19. After the last display of the
+We executed the loop for i = 0 to i = 19. After the last display of the
 value, we incremented i, the condition was false, i is 20 now, and we printed
-its value.
+its value.</p>
 
-Ok, the last sort of loop statements you can use are called &quot;for&quot;
+<p>Ok, the last sort of loop statements you can use are called &quot;for&quot;
 loops.
-
 The syntax is like that: &quot;for&quot; followed by parenthesis, followed by a
 block of instructions.
-
 And in the parenthesis you&apos;ve got three different parts separated by
-semicolons.
+semicolons.</p>
 
-The first part is the initialization part, then the &quot;condition ». As
+<p>The first part is the initialization part, then the &quot;condition ». As
 long as the condition is true, the block of instructions will be
 evaluated. And there is something called the &quot;final expression&quot;: it&apos;s
 a set of instructions that will be executed like if they were located at
-the very end of the loop, as the last instruction.
+the very end of the loop, as the last instruction.</p>
 
-So usually we increment some variables, or decrement some variables that
+<p>Usually we increment some variables, or decrement some variables that
 will make, after a certain number of executions of the loop, the
 condition false.
-
-So let&apos;s try a small example: we are going to count one by one from an
+Let&apos;s try a small example: we are going to count one by one from an
 initial value to an end value.
-
 You see: I counted from 0 to 5, not included, because of the &quot;less
 than&quot; operator here.
-
 I counted for i equals 0, 1, 2, 3, 4&hellip; then, when i is equal to 5 the
-condition is no more true and we exit the loop.
+condition is no more true and we exit the loop.</p>
 
-We can also use less than or equal to.
-
+<p>We can also use less than or equal to.
 In this case we counted to the final value and included it.
-
 We can also increment the loop 2 by 2.
-
 In that case (let me clear and execute again), we run the loop with a value of 
 i = 0, i=2, i=4, i=6, the condition is no more true, we exit from the loop.
-
 We can also iterate on the elements of an array.
+This is very common.</p>
 
-This is very common.
-
-We&apos;ve got an array here called &quot;daysOfTheWeek&quot; and we are going to
+<p>We&apos;ve got an array here called &quot;daysOfTheWeek&quot; and we are going to
 enumerate all the elements inside.
-
 Let&apos;s make a &quot;for&quot; loop, and the final value&hellip; the number of times
 we are going to iterate is the number of elements in the array. It&apos;s
 given by the &quot;length&quot; property of the array.
-
 What we did: we executed the loop from i = 0, to i = 1, 2, 3, 4, 5, 6, 7!
-
 This is the value of &quot;daysOfWeek.length&quot;, and we incremented the i
 variable at the end.
-
 We did this for i = 0, 1, 2, 3, 4, 5, 6 and we displayed the element
-with the index equal to i, inside the loop.
+with the index equal to i, inside the loop.</p>
 
-Example from the video
+<h4>Example from the video</h4>
 
-<a href="https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012" target="_blank" rel="noopener noreferrer">Example on CodePen</a>
+<p><a href="https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012" 
+target="_blank" rel="noopener noreferrer">Example on CodePen</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7566,171 +7540,163 @@ Example from the video
 
 <h4>Loops</h4>
 
-A loop is used to run the same block of code several times while a
-condition is satisfied.
+<p>A loop is used to run the same block of code several times while a
+condition is satisfied.</p>
 
-If you have trouble with loops, the online tool 
+<p>If you have trouble with loops, the online tool 
 <a href="https://toolness.github.io/slowmo-js/" target="_blank" rel="noopener noreferrer">slowmoJS</a> can be really
 useful: you just have to copy and paste an example into it to run it
-step by step and see how your program executes loops.
+step by step and see how your program executes loops.</p>
 
 <h4>The while statement</h4>
 
-With a <b>while</b> statement, a block of code is executed repeatedly while
-the specified condition is satisfied (evaluates to true).
+<p>With a <b>while</b> statement, a block of code is executed repeatedly while
+the specified condition is satisfied (evaluates to true).</p>
 
 <h4>Syntax:</h4>
 
-<b>while ( condition ) statement</b>
+<p><b>while ( condition ) statement</b></p>
 
-The condition is an expression, and the statement can be a block
-statement.
+<p>The condition is an expression, and the statement can be a block
+statement.</p>
 
-Typical example of a while statement:
+<p>Typical example of a while statement:</p>
 
-<pre>1.  var i = 1, j = 1;
+<pre>
+1.  var i = 1, j = 1;
 2.   
 3.  <b>while ( i < 4 ) {</b>
-4.      j += i;
-5.      i += 1; 
+4.    j += i;
+5.    i += 1; 
 6.  <b>}</b>
-7.  &hellip;</pre>
+7.  &hellip;
+</pre>
 
-The block inside the while (<b>lines 4 and 5</b>) will be executed three
-times:
+<p>The block inside the while (<b>lines 4 and 5</b>) will be executed three
+times:</p>
 
--   <b>Line 1</b> initializes i with a value of 1.
-
--   We enter the while statement at <b>line 3</b>. Is the value
-    of i strictly less than 4?
-
--   Yes, the variable i is equal to 1, we enter the statement inside
-    the while.
-
--   <b>Run 1:</b>
-
-    -   We execute <b>line 4</b>: j += i; (equivalent to j = j + i).
-        As j was set to 1 at <b>line 1</b>, j is now equal to 2.
-
-    -   We execute <b>line 5</b> and increment i by one. The variable i is
-        now equal to 2.
-
-    -    We go back to the while at **line 3**. Is i < 4? Yes, we
-        execute lines 3 and 4 again.
-
--   **Run 2:**
-
-    -   Now at the end of **line 5**, j is equal to &quot;old j value&quot; +
+<ul>
+  <li><b>Line 1</b> initializes i with a value of 1.</li>
+  <li>We enter the while statement at <b>line 3</b>. Is the value
+    of i strictly less than 4?</li>
+  <li>Yes, the variable i is equal to 1, we enter the statement inside
+    the while.</li>
+  <li><b>Run 1:</b></li>
+  <li>We execute <b>line 4</b>: j += i; (equivalent to j = j + i).
+        As j was set to 1 at <b>line 1</b>, j is now equal to 2.</li>
+  <li>We execute <b>line 5</b> and increment i by one. The variable i is
+        now equal to 2.</li>
+  <li>We go back to the while at <b>line 3</b>. Is i < 4? Yes, we
+        execute lines 3 and 4 again.</li>
+  <li><b>Run 2:</b></li>
+  <li>Now at the end of <b>line 5</b>, j is equal to &quot;old j value&quot; +
         &quot;new i value&quot;, so j = 2 + 2 = 4, i has been incremented and is
-        now equal to 3.
-
-    -   We go back to the while at **line 3**. Is i < 4? Yes, we
-        execute lines 3 and 4 again.
-
--   **Run 3:**
-
-    -   Now at the end of** line 5**, j is equal to &quot;old j value&quot; +
+        now equal to 3.</li>
+  <li>We go back to the while at <b>line 3</b>. Is i < 4? Yes, we
+        execute lines 3 and 4 again.</li>
+  <li><b>Run 3:</b></li>
+  <li>Now at the end of<b> line 5</b>, j is equal to &quot;old j value&quot; +
         &quot;new i value&quot;, so j = 4 + 3 = 7, i has been incremented and is
-        now equal to 4.
-
-    -   We go back to the while at **line 3**. Is i < 4? No! The value
+        now equal to 4.</li>
+  <li>We go back to the while at <b>line 3</b>. Is i < 4? No! The value
         of i is now 4, which is not less than 4. We continue
-        the execution of the program at line 7 with i = 4 and j = 7.
+        the execution of the program at line 7 with i = 4 and j = 7.</li>
+</ul>
 
-Of course, if the condition never evaluates to false, the block will be
+<p>Of course, if the condition never evaluates to false, the block will be
 executed infinitely until the machine crashes&hellip; a test like while (i
-> 0) { &hellip;..} will never stop and will eat all the CPU.
+&gt; 0) { &hellip;..} will never stop and will eat all the CPU.</p>
 
-Try this example now with 
+<p>Try this example now with 
 <a href="https://toolness.github.io/slowmo-js/?code=var%20i%20%3D%201%2C%20j%20%3D%201%3B%0A%20%0Awhile%20(%20i%20%3C%204%20)%20%7B%0A%20%20%20%20j%20%3D%20j%20%2B%20i%3B%0A%20%20%20%20i%20%3D%20i%20%2B%201%3B%20%0A%7D&filterrange=65-65" target="_blank" rel="noopener noreferrer">
-slowmoJS</a>!
+slowmoJS</a>!</p>
 
 <h4>The do-while statement</h4>
 
-The do-while statement is very similar to the while statement, but its
-syntax is different:
+<p>The do-while statement is very similar to the while statement, but its
+syntax is different:</p>
 
-**do statement while ( condition )**
+<h4><b>do statement while ( condition )</b></h4>
 
-Typical example:
+<h4>Typical example:</h4>
 
 <pre>
 1.  var i = 0;
 2.   
-3.  **do {**
-4.  **    console.log('i = ' + i);**
-5.      i++;
-6.  **} while(i < 20);**
+3.  <b>do {</b>
+4.    <b>console.log('i = ' + i);</b>
+5.      i++;
+6.  <b>} while(i &lt; 20);</b>
 7.   
 8.  console.log('Value of i after the do-while statement: ' + i);
 </pre>
 
-The **do-while statement executes the content of the loop once before
-checking the condition of the while**, whereas a **while statement will
-check the condition first before executing the content**.
+<p><p>The <b>do-while statement executes the content of the loop once before
+checking the condition of the while</b>, whereas a <b>while statement will
+check the condition first before executing the content</b>.</p>
 
-A do-while is used for a block of code that must be executed at least
+<p>A do-while is used for a block of code that must be executed at least
 once.These situations tend to be relatively rare, thus the simple
-while-statement is more commonly used. 
+while-statement is more commonly used.</p>
 
-If you want to &quot;see&quot; the difference, [look at the &quot;do-while&quot;
-statement with
-slowmoJS](https://toolness.github.io/slowmo-js/?code=var%20condition%3D%20false%3B%0Avar%20foo%20%3D%200%3B%0Ado%7B%0A%20foo%2B%2B%3B%0A%7D%20while(condition%20%3D%3D%20true)%3B%0A%0Afoo%3B&filterrange=80-80) and [the
-&quot;while&quot; statement
-slowmoJS](https://toolness.github.io/slowmo-js/?code=var%20condition%3D%20false%3B%0Avar%20foo%20%3D%200%3B%0Awhile(condition%20%3D%3D%20true)%3B%20%7b%0Afoo%2B%2B%0A%7d%0A%0Afoo%3B&filterrange=68-68). 
+<p>If you want to &quot;see&quot; the difference, 
+<a href="https://toolness.github.io/slowmo-js/?code=var%20condition%3D%20false%3B%0Avar%20foo%20%3D%200%3B%0Ado%7B%0A%20foo%2B%2B%3B%0A%7D%20while(condition%20%3D%3D%20true)%3B%0A%0Afoo%3B&filterrange=80-80">look at the &quot;do-while&quot;
+statement with slowmoJS</a> and 
+<a href="https://toolness.github.io/slowmo-js/?code=var%20condition%3D%20false%3B%0Avar%20foo%20%3D%200%3B%0Awhile(condition%20%3D%3D%20true)%3B%20%7b%0Afoo%2B%2B%0A%7d%0A%0Afoo%3B&filterrange=68-68">the &quot;while&quot; statement
+slowmoJS</a>.</p>
 
 <h4>The for statement</h4>
 
-This statement adds some things to the while and do-while statements: an
-initialization expression and an incrementing expression.
+<p>This statement adds some things to the while and do-while statements: an
+initialization expression and an incrementing expression.</p>
 
-Its syntax is:
+<h4>Its syntax is:</h4>
 
-**for (initialization; condition; incrementation) statement**
+<p><b>for (initialization; condition; incrementation) statement</b></p>
 
-The three expressions within the parentheses are optional. If the
-condition is omitted, it is replaced by true (infinite loop).
+<p>The three expressions within the parentheses are optional. If the
+condition is omitted, it is replaced by true (infinite loop).</p>
 
-Typical example (counting from 0 to 10):
+<h4>Typical example (counting from 0 to 10):</h4>
 
 <pre>
-1.  for (var i = 0; i <= 10; i++) {
+1.  for (var i = 0; i &lt;= 10; i++) {
 2.    console.log('i = ' + i);
 3.  }
 </pre>
 
-We can have more than one instruction in the &quot;initialization part&quot;
+<p>We can have more than one instruction in the &quot;initialization part&quot;
 (var i = 0), and more than one instruction in the &quot;incrementation
-part&quot; (i++). Here is another example:
+part&quot; (i++). Here is another example:</p>
 
 <pre>
-1.  for (**var i = 1, j = 1;** i <= 10;** i++, j+=2**) {
+1.  for (<b>var i = 1, j = 1;</b> i <= 10;<b> i++, j+=2</b>) {
 2.  console.log('i = ' + i + ' j = ' + j);
 3.  }
 </pre>
 
-In this example, two variables are defined and assigned within the
+<p>In this example, two variables are defined and assigned within the
 initialization expression. Before each execution of the block statement,
 the condition is checked; here we need i <=10. After each execution of
 the block statement, the incremental expression is executed to increment
-the variables i by 1 and j by 2.
+the variables i by 1 and j by 2.</p>
 
-Open the devtool console of your browser and copy and paste the above
-code, or [look at the slowmoJS
-execution](https://toolness.github.io/slowmo-js/?code=for%20(var%20i%20%3D%201%2C%20j%20%3D%201%3B%20i%20%3C%3D%2010%3B%20i%2B%2B%2C%20j%2B%3D2)%20%7B%0A%20%20%20%20console.log(%27i%20%3D%20%27%20%2B%20i%20%2B%20%27%20j%20%3D%20%27%20%2B%20j)%3B%0A%7D&filterrange=0-89).
+<p>Open the devtool console of your browser and copy and paste the above
+code, or <a href="https://toolness.github.io/slowmo-js/?code=for%20(var%20i%20%3D%201%2C%20j%20%3D%201%3B%20i%20%3C%3D%2010%3B%20i%2B%2B%2C%20j%2B%3D2)%20%7B%0A%20%20%20%20console.log(%27i%20%3D%20%27%20%2B%20i%20%2B%20%27%20j%20%3D%20%27%20%2B%20j)%3B%0A%7D&filterrange=0-89">
+look at the slowmoJS execution</a>.</p>
 
 <h4>The for-in statement</h4>
 
-The for-in statement is used to iterate through an object (or through an
-array, which is also an object). 
+<p>The for-in statement is used to iterate through an object (or through an
+array, which is also an object).</p>
 
-Its syntax is:
+<h4>Its syntax is:</h4>
 
 <pre>
 1.  for ( variable in expression ) statement
 </pre>
 
-Typical example:
+<p>Typical example:</p>
 
 <pre>
 1.  var michel = {              // michel is an object
@@ -7740,43 +7706,42 @@ Typical example:
 5.      age: 51
 6.  }
 7.   
-8.  **for(var property in michel) {**   // the for-in will
+8.  <b>for(var property in michel) {</b>   // the for-in will
 9.                                  // enumerate properties
 10.     console.log(property);      // will print &quot;familyName&quot;,
 11.                                 // &quot;givenName&quot;,
 12.                                 // &quot;age&quot;
 13.     console.log(michel[property]);  // michel['givenName']  same 
 14.                                     // as michel.givenName
-15. **}**
+15. <b>}</b>
 </pre>
 
-Before each execution of the block statement, the variable named
+<p>Before each execution of the block statement, the variable named
 &quot;property&quot; is assigned with the name of one of the properties (the
 keys) of the object.
-
 We will see further examples of this statement in module 4, which is
-devoted to the study of JavaScript objects.
+devoted to the study of JavaScript objects.</p>
 
 <h4>&lbrack;ADVANCED&rbrack; Other statements</h4>
 
 <h4>The continue statement</h4>
 
-The continue statement is used to stop the execution of a block and
+<p>The continue statement is used to stop the execution of a block and
 start the next iteration of the loop. The difference from the &quot;break&quot;
-statement is that the loop continues.
+statement is that the loop continues.</p>
 
-Syntax:
+<h4>Syntax:</h4>
 
 <pre>
-1.  continue [label]
+1.  continue &lbrack;label&rbrack;
 </pre>
 
-The label is optional.
+<p>The label is optional.</p>
 
-Typical example:
+<h4>Typical example:</h4>
 
 <pre>
-for(var i = 1, k = 0; i < 5; i++) {
+for(var i = 1, k = 0; i &lt; 5; i++) {
     if (i === 3) {
         continue;
     }
@@ -7787,33 +7752,33 @@ for(var i = 1, k = 0; i < 5; i++) {
 console.log('Final k value:' + k)
 </pre>
 
-Copy and paste this example in your devtool console, but first, try to
-guess what the value of k will be!
+<p>Copy and paste this example in your devtool console, but first, try to
+guess what the value of k will be!</p>
 
-Hint: **lines 2-4** mean that **line 6** will never be executed for i =
-3. That means that i&ast;2 will only be added to k for i = 1, 2 and 4&hellip;
+<p>Hint: <b>lines 2-4</b> mean that <b>line 6</b> will never be executed for i =
+3. That means that i&ast;2 will only be added to k for i = 1, 2 and 4&hellip;</p>
 
 <h4>The break statement</h4>
 
-The break statement is used to stop an iteration, a switch or a labelled
-statement.
+<p>The break statement is used to stop an iteration, a switch or a labelled
+statement.</p>
 
-Syntax:
+<h4>Syntax:</h4>
 
 <pre>
-1.  break [label]
+1.  break &lbrack;label&rbrack;
 </pre>
 
-Typical example:
+<h4>Typical example:</h4>
 
 <pre>
-var tab = ['michel', 'john', 'donald', 'paul']; // johh at
+1. var tab = &lbrack;'michel', 'john', 'donald', 'paul'&rbrack;; // johh at
 index = 1
  
 function isNameInTheArray(name, theArray) {
     console.log("Number of elements in the array :
 " + theArray.length);
-    for(var i=0; i < theArray.length; i++) {
+    for(var i=0; i &lt; theArray.length; i++) {
         console.log('comparing with element in the array at pos
 ' + i);
  
@@ -7831,61 +7796,60 @@ function isNameInTheArray(name, theArray) {
 isNameInTheArray('john', tab);
 </pre>
 
-Copy and paste in the devtool console. You&apos;ll see that the function
+<p>Copy and paste in the devtool console. You&apos;ll see that the function
 that compares each element in the array passed as the second parameter
 with the name &apos;john&apos;, will stop looping after &apos;john&apos; has been found
-at index = 1.
+at index = 1.</p>
 
-<h4>**Detailed explanations:**</h4>
+<h4><b>Detailed explanations:</b></h4>
 
--   **Line 20** executes the function
-
--   **Line 6**: The for statement loops on all existing indexes in
-    the tab, from 0 to tab.length
-
--   **Line 9**: if the condition is true, we enter the block and
-    execute** lines 10-12**
-
--   The break statement at **line 12** will exit from the loop, it
-    &quot;breaks&quot; the loop.
-
--   The different console.log(&hellip;) will never display the message
+<ul>
+  <li><b>Line 20</b> executes the function</li>
+  <li><b>Line 6</b>: The for statement loops on all existing indexes in
+    the tab, from 0 to tab.length</li>
+  <li><b>Line 9</b>: if the condition is true, we enter the block and
+    execute<b> lines 10-12</b></li>
+  <li>The break statement at <b>line 12</b> will exit from the loop, it
+    &quot;breaks&quot; the loop.</li>
+  <li>The different console.log(&hellip;) will never display the message
     &quot;comparing with elements&hellip;&quot; with indexes greater than 1: the
-    loop exists when &apos;john&apos; is found at index 1 (i equal to 1).
-
+    loop exists when &apos;john&apos; is found at index 1 (i equal to 1).</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-4">2.2.4 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Here is the discussion forum for this part of the course. Please either
+post your comments/observations/questions or share your creations.</p>
 
-Here is the discussion forum for this part of the course. Please either
-post your comments/observations/questions or share your creations.
+<h4>Suggested topic of discussion:</h4>
 
-#### Suggested topic of discussion:
+<ul>
+  <li>Did you know about the === and !== operators we recommend you to
+    use?</li>
+</ul>
 
--   Did you know about the === and !== operators we recommend you to
-    use?
+<h4>Optional projects:</h4>
 
-#### Optional projects:
-
--   If not allergic to High School math, please write a piece of code
+<ul>
+  <li>If not allergic to High School math, please write a piece of code
     that solves second degree equations. You pass the a, b, c parameters
     of: ax^2^ + bx + c, and the solve function will compute delta =
     b^2^ - 4a&ast;c. Test the sign of delta, and if it&apos;s equal to zero,
     then display (in the console, or better, in the page) the roots of
-    the equation.
-
--   Try to write a small program that asks you to guess a number. It
+    the equation.</li>
+  <li>Try to write a small program that asks you to guess a number. It
     will choose randomly a number, and will ask you to enter a value in
     an input field. Then it will display &quot;too small&quot; or &quot;too big&quot;,
-    until you find the number.
+    until you find the number.</li>
+</ul>
     
-    **Hint**: use the Math.random and Math.round methods, such as in let
-    randomNumber = Math.round(Math.random() &ast; 10); to get a random
-    value between 0 and 10.
-    
-    For working with input fields, look at section 1.4 from the first
-    module, the math function plotter example used input fields. Or look
-    at the section about DOM in this module.
+<p><b>Hint</b>: use the Math.random and Math.round methods, such as in let
+randomNumber = Math.round(Math.random() &ast; 10); to get a random
+value between 0 and 10.</p>
+
+<p>For working with input fields, look at section 1.4 from the first
+module, the math function plotter example used input fields. Or look
+at the section about DOM in this module.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7895,36 +7859,32 @@ post your comments/observations/questions or share your creations.
   alt="." />
 <!-- ![quizz](./images/image149.jpeg){width="1.25in" height="0.9375in"} -->
 
--   Try to make a quiz using the DOM and buttons, checkboxes, etc.
-
--   Display a question, for example &quot;Which actor played in Titanic?&quot;,
+<ul>
+  <li>Try to make a quiz using the DOM and buttons, checkboxes, etc.</li>
+  <li>Display a question, for example &quot;Which actor played in Titanic?&quot;,
     and display two or three buttons (&quot;Leonardo Di Caprio&quot;,
     &quot;Christian Bale&quot;, &quot;Nicolas Cage&quot;). Then, when the user presses a
     button, you must check the answer and display the next question,
-    etc.
-
--   Use CSS with an image background for the buttons.
-
--   Or use images with click listeners - we saw this in the section
-    about the DOM and events.
-
--   A bit more challenging: use checkboxes instead of a set of buttons
+    etc.</li>
+  <li>Use CSS with an image background for the buttons.</li>
+  <li>Or use images with click listeners - we saw this in the section
+    about the DOM and events.</li>
+  <li>A bit more challenging: use checkboxes instead of a set of buttons
     (we&apos;ve done an example close to this in the section that presented
-    the DOM).
-
+    the DOM).</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3-1">2.3.1 Functions and callbacks</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Let&apos;s see how to declare a function and a callback.</p>
 
-Let&apos;s see how to declare a function and a callback.
+<h4>Functions</h4>
 
-#### Functions
-
-There are two ways to declare a function.
+<p>There are two ways to declare a function.</p>
 
 <h4>1) Standard function declaration</h4>
 
-We&apos;ve already seen that functions can be declared using this syntax:
+<p>We&apos;ve already seen that functions can be declared using this syntax:</p>
 
 <pre>
 1.  function functionName(parameters) {
@@ -7932,17 +7892,17 @@ We&apos;ve already seen that functions can be declared using this syntax:
 3.  }
 </pre>
 
-A function declared this way can be called like this:
+<p>A function declared this way can be called like this:</p>
 
 <pre>
 1.  functionName(parameters);
 </pre>
 
-Notice that we do not add a semicolon at the end of a function
+<p>Notice that we do not add a semicolon at the end of a function
 declaration. Semicolons are used to separate executable JavaScript
-statements, and a function declaration is not an executable statement.
+statements, and a function declaration is not an executable statement.</p>
 
-Here is an example:
+<h4>Here is an example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7955,15 +7915,15 @@ Here is an example:
 <h5>HTML:</h5>
 
 <pre>
-<!doctype html>
-<html>
-<head lang=&quot;en&quot;>
-<title>Functions declaration - Part 1</title>
-<meta charset=&quot;utf-8&quot;>
-</head>
-<body>
-</body>
-</html>
+&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head lang=&quot;en&quot;&gt;
+&lt;title&gt;Functions declaration - Part 1&lt;/title&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -7975,7 +7935,7 @@ return (a + b);
 }
 function displayInPage(message, value) {
 // this function does not return anything
-document.body.innerHTML += message + value + &quot;<br>&quot;;
+document.body.innerHTML += message + value + &quot;&lt;br&gt;&quot;;
 }
 var result = sum(3, 4);
 displayInPage(&quot;Result: &quot;, result);
@@ -8004,15 +7964,15 @@ Here is a typical example:
 <h5>HTML:</h5>
 
 <pre>
-<!doctype html>
-<html>
-<head lang=&quot;en&quot;>
-<title>Function expressions - Part 2</title>
-<meta charset=&quot;utf-8&quot;>
-</head>
-<body>
-</body>
-</html>
+&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head lang=&quot;en&quot;&gt;
+&lt;title&gt;Function expressions - Part 2&lt;/title&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -8023,7 +7983,7 @@ return (a + b);
 };
 var displayInPage = function(message, value) {
 // this function does not return anything
-document.body.innerHTML += message + value + &quot;<br>&quot;;
+document.body.innerHTML += message + value + &quot;&lt;br&gt;&quot;;
 };
 var result = sum(3, 4);
 displayInPage(&quot;Result: &quot;, result);
@@ -8052,7 +8012,7 @@ functions. In this case they are called &quot;callbacks&quot;.
 Indeed, as functions are first-class objects, we can pass a function as
 an argument, as a parameter to another function and later execute that
 passed-in function or even return it to be executed later. When we do
-this, we talk about **callback functions** in JavaScript: a function
+this, we talk about <b>callback functions</b> in JavaScript: a function
 passed to another function, and executed inside the function we called.
 
 All the examples of event listeners that you&apos;ve seen used callback
@@ -8071,16 +8031,16 @@ document):
 <h5>HTML:</h5>
 
 <pre>
-<!doctype html>
-<html>
-<head lang=&quot;en&quot;>
-<title>Callback functions</title>
-<meta charset=&quot;utf-8&quot;>
-</head>
-<body>
-<p>Click in the page!</p>
-</body>
-</html>
+&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head lang=&quot;en&quot;&gt;
+&lt;title&gt;Callback functions&lt;/title&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;Click in the page!&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -8092,12 +8052,12 @@ document):
 // is detected
 window.addEventListener('click', processClick);
 function processClick(event) {
-document.body.innerHTML += &quot;Button clicked<br>&quot;;
+document.body.innerHTML += &quot;Button clicked&lt;br&gt;&quot;;
 }
 // We could have written this, with the body of the callback as an
 argument of the addEventListener function
 window.addEventListener('click', function(evt) {
-document.body.innerHTML += &quot;Button clicked version 2<br>&quot;;
+document.body.innerHTML += &quot;Button clicked version 2&lt;br&gt;&quot;;
 });
 </pre>
 
@@ -8105,7 +8065,7 @@ In this case, the processClick function is passed as a parameter to
 the addEventListener method/function.
 
 Callback functions are derived from a programming paradigm known
-as **functional programming**. They are very, very common in JavaScript.
+as <b>functional programming</b>. They are very, very common in JavaScript.
 We&apos;ll use them a lot in the next section of the course, called
 &quot;Handling events&quot;.
 
@@ -8160,8 +8120,8 @@ and many other interactions create what are called &quot;events&quot;.  The
 timing and order of events cannot be predicted in advance. We say that
 &quot;event processing&quot; is asynchronous. Web browsers detect events as they
 occur, and may pass them to JavaScript code. They do this by allowing
-you to register functions as **event listeners**, also
-called **handlers** or **callbacks** for specific events.
+you to register functions as <b>event listeners</b>, also
+called <b>handlers</b> or <b>callbacks</b> for specific events.
 
 Each time an event occurs, the browser puts it in a &quot;queue of events&quot;.
 
@@ -8206,14 +8166,12 @@ and this time, instead of just adding as an argument the name of the
 callback, we directly put the body of the callback.
 
 XXso a function&hellip; and we don&apos;t have to indicate a name: it&apos;s an
-anonymous function, an anonymous callback. So, when we click on the
+anonymous function, an anonymous callback. When we click on the
 page, we will execute this callback that is located exactly as the
 second argument.
 
 If I click on the page, you can see that it works again.
-
 And this syntax is very common!
-
 Notice the parenthesis, followed by a semicolon at the end, because this
 is just like a parameter.
 
@@ -8568,22 +8526,22 @@ etc.
 The event object contains some important properties and methods that are
 common to all types of events:
 
--   **evt.type**: the name of the event
+-   <b>evt.type</b>: the name of the event
 
--   **evt.target:** for example, is the HTML element that has fired the
+-   <b>evt.target:</b> for example, is the HTML element that has fired the
     event. In our previous examples with the click listeners on a
-    button, **evt.target** in the event listener is the button itself.
+    button, <b>evt.target</b> in the event listener is the button itself.
 
--   **evt.stopPropagation()**: will not propagate the event to all other
+-   <b>evt.stopPropagation()</b>: will not propagate the event to all other
     elements that listen to it. If several elements are registered for a
     click event - for example, you have a click listener on a button and
     on the window (the whole page). If you click on the button, and if
     in its click event listener you call evt.stopPropagation(); then the
     click event listener on the window object will never be called.
 
--   **evt.preventDefault()**: the default browser behavior will not be
+-   <b>evt.preventDefault()</b>: the default browser behavior will not be
     executed. For example, in a &apos;contextmenu&apos; event listener attached
-    to an object, if you call **evt.preventDefault()**, instead of
+    to an object, if you call <b>evt.preventDefault()</b>, instead of
     having the right click default context menu of your browser
     displayed, you&apos;ll be able to display your own context menu,
     like [in this
@@ -8592,12 +8550,12 @@ common to all types of events:
 It also contains properties that are associated with the type of the
 event, for example:
 
--   **evt.button**: the mouse button that has been used in the case of a
+-   <b>evt.button</b>: the mouse button that has been used in the case of a
     mouse event listener
 
--   **evt.keyCode**: the code of the key that has been used
+-   <b>evt.keyCode</b>: the code of the key that has been used
 
--   **evt.pageX**: coordinate of the mouse relative to the page
+-   <b>evt.pageX</b>: coordinate of the mouse relative to the page
 
 -   etc.
 
@@ -9179,21 +9137,19 @@ Extract from the &quot;[Internationalize your keyboard
 controls](https://hacks.mozilla.org/2017/03/internationalize-your-keyboard-controls/)&quot;
 article on MDN:
 
-**&quot;Recently I came across two lovely new graphical demos, and in both
-cases, the controls would not work on my French **[*AZERTY
-keyboard*](https://en.wikipedia.org/wiki/AZERTY)**.**
+<b>&quot;Recently I came across two lovely new graphical demos, and in both
+cases, the controls would not work on my French <b><a href="https://en.wikipedia.org/wiki/AZERTY">
+<i>AZERTY keyboard</i></a>.</b>
 
-**There was the wonderful WebGL 2 technological demo **[*After The
-Flood*](https://www.youtube.com/watch?v=TT7ugKuUMv0/)**, and the very
-cute **[*Alpaca
-Peck*](https://codepen.io/shshaw/full/apwMwM/)**. **[*Shaw*](https://codepen.io/shshaw/)** was
+There was the wonderful WebGL 2 technological demo <a href="https://www.youtube.com/watch?v=TT7ugKuUMv0/">
+<i>After The Flood</i></a>, and the very cute <a href="https://codepen.io/shshaw/full/apwMwM/"><i>Alpaca 
+Peck</i></a>. <a href="https://codepen.io/shshaw/"><i>Shaw</i> was
 nice enough to fix the latter when I told him about the issue. It turns
-out the Web browser actually exposes a useful API for this.&quot;**
+out the Web browser actually exposes a useful API for this.&quot;
 
-### One keyboard, many layouts
+<h4>One keyboard, many layouts</h4>
 
-For details, see [Wikipedia's keyboard layout
-page](https://en.wikipedia.org/wiki/Keyboard_layout)!
+For details, see [Wikipedia's keyboard layout page](https://en.wikipedia.org/wiki/Keyboard_layout)!
 
 <h4>[QWERTY](https://en.wikipedia.org/wiki/QWERTY) layout, used in US, GB, etc.</h4>
 
@@ -9273,17 +9229,17 @@ is what keyCode should have been. The value of the code property
 corresponds to a code that is more readable than the value of the
 old keyCode property.
 
--   **key: **when the pressed key is a printable character, you get the
+-   **key: </b>when the pressed key is a printable character, you get the
     character in string form. When the pressed key is not a printable
     character (for example: Backspace, Control, but also Enter or Tab
     which actually are printable characters), you get a multi-character
     descriptive string, like &apos;Backspace&apos;, &apos;Control&apos;, &apos;Enter&apos;,
     &apos;Tab&apos;.
 
--   **code**: Gives you the physical key that was pressed, in string
+-   **code</b>: Gives you the physical key that was pressed, in string
     form. This means it's totally independent of the keyboard layout
     that is being used. So let's say the user presses the Q key on a
-    QWERTY keyboard. **Then event.code gives you &apos;KeyQ&apos;
+    QWERTY keyboard. </b>Then event.code gives you &apos;KeyQ&apos;
     while event.key gives you &apos;q&apos;.
     
     But when an AZERTY keyboard user presses the A key, he also gets
@@ -9378,8 +9334,8 @@ describing the values for the key property.
 <b><i>Important note*: Remember that many people do not use the mouse and
 rely on the keyboard to interact with the Web. This requires keyboard
 access to all functionality, including form controls, input, and other
-user interface components (**[*learn
-more*](https://www.w3.org/WAI/intro/people-use-web/principles#operable)**).**
+user interface components (</b>[*learn
+more*](https://www.w3.org/WAI/intro/people-use-web/principles#operable)**).</b>
 
 Detecting mouse events in a canvas is quite straightforward: you add an
 event listener to the canvas, and the browser invokes that listener when
@@ -9770,9 +9726,9 @@ mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
 function processMouseMouve(evt) {
     var mousePositions = document.querySelector('#mousePositions');
     // adjust mouse position relative to the canvas
-**    var rect = evt.target.getBoundingClientRect()**
-**    var mouseX = evt.clientX - rect.left;**
-**    var mouseY = evt.clientY - rect.top;**
+**    var rect = evt.target.getBoundingClientRect()</b>
+**    var mouseX = evt.clientX - rect.left;</b>
+**    var mouseY = evt.clientY - rect.top;</b>
     mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
                                &quot; mouse pos Y: &quot; + mouseY +
                                &quot;<br>&quot;
@@ -10322,52 +10278,52 @@ output.innerHTML = &quot;Color selected: &quot; + color;
 mouse](./images/image192.jpeg){width="2.8333333333333335in"
 height="2.8333333333333335in"}
 
-There is no input or output in JavaScript. We treat **events** caused by
+There is no input or output in JavaScript. We treat **events</b> caused by
 user actions as inputs, and we manipulate the DOM structure as
 output. Usually in a JavaScript application, we will get info such as
 the key strokes, the mouse button clicks and the mouse position, and we
 will refer to these variables when determining what action to perform.
 
 In any case, the events are called DOM events, and we use the DOM APIs
-to create **event handlers**.
+to create **event handlers</b>.
 
 <h4>How to listen to events {#how-to-listen-to-events .unnumbered}
 
 There are three ways to manage events in the DOM structure. You could
 attach an event inline in your HTML code like this:
 
-<h4>**Method #1: declare an event handler in the HTML code**</h4>
+<h4>**Method #1: declare an event handler in the HTML code</b></h4>
 
-<div id=&quot;someDiv&quot; **onclick**=&quot;alert(&apos;clicked!&apos;)&quot;> content of
+<div id=&quot;someDiv&quot; **onclick</b>=&quot;alert(&apos;clicked!&apos;)&quot;> content of
 the div </div>
 
 This method is very easy to use, but it is not the recommended way to
 handle events. Indeed, although it currently works,
-it is **deprecated** (will probably be abandoned in the future). Mixing
+it is **deprecated</b> (will probably be abandoned in the future). Mixing
 &apos;visual layer&apos; (HTML) and &apos;logic layer&apos; (JavaScript) in one place is
 really bad practice and causes a host of problems during development.
 
-<h4>**Method #2: attach an event handler to an HTML element in JavaScript**</h4>
+<h4>**Method #2: attach an event handler to an HTML element in JavaScript</b></h4>
 
 <pre>
-1.  document.getElementById(&apos;someDiv&apos;).**onclick **= function() {
+1.  document.getElementById(&apos;someDiv&apos;).**onclick </b>= function() {
 2.  alert(&apos;clicked!&apos;);
 3.  }
 </pre>
 
 This method is fine, but  you will not be able to attach
-multiple **listener** functions. If you need to do this, use the version
+multiple **listener</b> functions. If you need to do this, use the version
 shown below.
 
-<h4>**Method #3: register a callback to the event listener with the addEventListener method (preferred  method)**</h4>
+<h4>**Method #3: register a callback to the event listener with the addEventListener method (preferred  method)</b></h4>
 
 <pre>
-1.  document.getElementById(&apos;someDiv&apos;).**addEventListener**(&apos;click&apos;, function() {
+1.  document.getElementById(&apos;someDiv&apos;).**addEventListener</b>(&apos;click&apos;, function() {
 2.  alert(&apos;clicked!&apos;);
 3.  }, false);
 </pre>
 
-Note that the third parameter describes whether the **callback** has to
+Note that the third parameter describes whether the <b>callback</b> has to
 be called during the captured phase. This is not important for now, just
 set it to false or ignore it (you can even pass only two parameters to
 the addEventListener function call and do not set this boolean parameter
@@ -10375,13 +10331,13 @@ at all).
 
 <h4>Details of the DOM event are passed to the event listener function</h4>
 
-When you create an **event listener** and attach it to an element, the
-listener will create an **event object** to describe what happened. This
-object is provided as a parameter of the **callback function**:
+When you create an <b>event listener</b> and attach it to an element, the
+listener will create an </b>event object</b> to describe what happened. This
+object is provided as a parameter of the <b>callback function</b>:
 
 <pre>
-1.  element.addEventListener(&apos;click&apos;, function(**event**) {
-2.  **// now you can use event object inside the callback**
+1.  element.addEventListener(&apos;click&apos;, function(</b>event</b>) {
+2.  <b>// now you can use event object inside the callback</b>
 3.  }, false);
 </pre>
 
@@ -10625,7 +10581,7 @@ is used to render the HTML page on the screen.
 
 The DOM is a standard  that describes how a document must be
 manipulated. It defines a "language- and platform neutral interface".
-So, **every browser offers the same JavaScript DOM API**.
+So, </b>every browser offers the same JavaScript DOM API</b>.
 
 The DOM API is a programming interface the JavaScript programmer can use
 to modify the HTML content or the CSS style of HTML elements on the fly.
@@ -10708,10 +10664,10 @@ etc.
 There are different types of nodes, but don&apos;t worry - the most useful
 ones are highlighted in bold.
 
--   **Element (example: &lt;ul&gt;&lt;/ul&gt;)**
+-   <b>Element (example: &lt;ul&gt;&lt;/ul&gt;)</b>
 
--   **Text (example: &lt;p&gt;the text within the element p is a node of
-    type text&lt;/p&gt;)**
+-   </b>Text (example: &lt;p&gt;the text within the element p is a node of
+    type text&lt;/p&gt;)</b>
 
 -   Document, DocumentFragment, DocumentType (example: &lt;!doctype
     html&gt; for html5), Comment (example: &lt;!&#45;- left column &#45;-&gt;),
@@ -10864,19 +10820,19 @@ possibilities.
 Extract from [HTML5 selectors API -- It's like a Swiss Army Knife for
 the
 DOM](https://www.webdirections.org/blog/html5-selectors-api-its-like-a-swiss-army-knife-for-the-dom/) :
-&quot;**One of the many reasons for the success of JavaScript libraries
-like **[*jQuery*](https://jquery.org/)** and **[*Prototype*](http://prototypejs.org/)**,
+&quot;</b>One of the many reasons for the success of JavaScript libraries
+like <b>[*jQuery*](https://jquery.org/)</b> and </b>[*Prototype*](http://prototypejs.org/)</b>,
 on top of their easing the pain of cross-browser development was how
 they made working with the DOM far less painful than it had previously
 been, and indeed how it was with the standard DOM. Being able to use
 arbitrary CSS selector notation to get matching elements from a document
 made the standard DOM methods seem antiquated, or at the very least, far
-too much like hard work.**
+too much like hard work.</b>
 
-**Luckily, the standards and browser developers took notice. The W3C
+<b>Luckily, the standards and browser developers took notice. The W3C
 developed the Selectors API, a way of easily accessing elements in the
 DOM using standard CSS selector concepts, and browser developers have
-baked these into all modern browsers, way back to IE8.**&quot;
+baked these into all modern browsers, way back to IE8.</b>&quot;
 
 <h4>The querySelector(CSSSelector) and querySelectorAll(CSSSelector) methods</h4>
 
