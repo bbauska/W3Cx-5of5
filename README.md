@@ -4900,9 +4900,9 @@ undefined
 <p><b>Be careful with this, don&apos;t start an integer with 0 (zero),
 JavaScript will understand it as an octal value.</b></p>
 
-<pre>010 equals 8 which means 1 * 8^1 + 0 * 8^0</pre>
+<pre>010 equals 8 which means 1 &ast; 8^1 + 0 &ast; 8^0</pre>
 
-<pre>The number 0456 means 4 * 8^2 + 5 * 8^1 + 6 * 8^0</pre>
+<pre>The number 0456 means 4 &ast; 8^2 + 5 &ast; 8^1 + 6 &ast; 8^0</pre>
 
 <p><b>Question 1</b>: What&apos;s the result, as an integer, of the
 operation: 24 - 024?</p>
@@ -4920,7 +4920,7 @@ typed number will be considered as an integer.</p>
   <li><b>Hexadecimal</b>: 0xF3</li>
 </ul>
 
-<pre>0xFF equals 255, 0xF3 means 15 * 16^1 + 3 * 16^0 and the resulting
+<pre>0xFF equals 255, 0xF3 means 15 &ast; 16^1 + 3 &ast; 16^0 and the resulting
 value is 243</pre>
 
 <h4>Examples of octal and hexadecimal data types:</h4>
@@ -5147,12 +5147,12 @@ operators you can use in numerical mathematical expressions are:<br>
 expression is something where you use "12 * 20". And you got a result. You 
 can assign this to a variable: "var x =12 * 20" You can see that you can group 
 different values or ….like this. And then, you can start building some more 
-complex expressions. You've got the "*“ operator for multiplying, "/" for 
+complex expressions. You've got the "&ast;“ operator for multiplying, "/" for 
 dividing, "+" and "–" for addition and subtraction.</p>
 
 <p>There’s also an operator called modulo for example: "22 % 20". We display 
 the rest of the division "22 % 20". "42 % 20" will display the same value. You 
-can also regroup expressions within parentheses like: "var z = (12*20)/(x+10)".</p>
+can also regroup expressions within parentheses like: "var z = (12&ast;20)/(x+10)".</p>
 
 <p>This will work. It will first compute what is within the parentheses, then use 
 the result for the final computation.</p>
@@ -5179,11 +5179,11 @@ or Ruby.</p>
 <end of 1.5.5 transcript>
 
 <p>The following arithmetic operators are binary:<br>
-+, - , /, *, % (modulo)</p>
++, - , /, &ast;, % (modulo)</p>
 
 <p>Example: 7 % 5 equals 2, which is the remainder of the integer division of 7 by 5</p>
 
-<p>Note: (7 / 5 = 5 * 1 + 2 ).</p>
+<p>Note: (7 / 5 = 5 &ast; 1 + 2 ).</p>
 
 <h4>And there are also unary operators:</h4>
 
@@ -5233,7 +5233,7 @@ both prefixed or suffixed, which have different effects:</p>
 4.  &gt; 99.99 - 11;
 5.  88.99
 6.  
-7.  &gt; 2 * 3;
+7.  &gt; 2 &ast; 3;
 8.  6
 9.  
 10.  &gt; 6 / 4;
@@ -5321,7 +5321,7 @@ Code below (try it in the devtool console of your browser):</p>
 
 <pre>
 1  &gt; var a = 10;
-2  &gt; a *= 5; // equivalent to a = a * 5;
+2  &gt; a &ast;= 5; // equivalent to a = a &ast; 5;
 3  &gt; console.log(a);
 4  &gt; 50
 </pre>
@@ -5340,7 +5340,7 @@ Code below (try it in the devtool console of your browser):</p>
 7.  &gt; a -= 2; // equivalent to a = a - 2;
 8.  6
 9.  
-10.  &gt; a *= 10; // equivalent to a = a * 10;
+10.  &gt; a &ast;= 10; // equivalent to a = a &ast; 10;
 11.  60
 12.  
 13.  &gt; a /= 5; // equivalent to a = a / 5;
@@ -7739,7 +7739,7 @@ for(var i = 1, k = 0; i &lt; 5; i++) {
   }
  
   k += 2&ast;i;
-  console.log('k += ' + (2*i));
+  console.log('k += ' + (2&ast;i));
 }
   console.log('Final k value:' + k)
 </pre>
@@ -9318,7 +9318,7 @@ describing the values for the key property.
 <h3 id="ch2-4-8">2.4.8 Mouse events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-<b><i>Important note*: Remember that many people do not use the mouse and
+<b><i>Important note</i>: Remember that many people do not use the mouse and
 rely on the keyboard to interact with the Web. This requires keyboard
 access to all functionality, including form controls, input, and other
 user interface components (</b>[<i>learn more</i>](https://www.w3.org/WAI/intro/people-use-web/principles#operable)).
@@ -10892,7 +10892,7 @@ Extract from [HTML5 selectors API -- It's like a Swiss Army Knife for
 the
 DOM](https://www.webdirections.org/blog/html5-selectors-api-its-like-a-swiss-army-knife-for-the-dom/) :
 &quot;</b>One of the many reasons for the success of JavaScript libraries
-like <b>[*jQuery*](https://jquery.org/)</b> and </b>[*Prototype*](http://prototypejs.org/)</b>,
+like <b>[<i>jQuery</i>](https://jquery.org/)</b> and </b>[<i>Prototype</i>](http://prototypejs.org/)</b>,
 on top of their easing the pain of cross-browser development was how
 they made working with the DOM far less painful than it had previously
 been, and indeed how it was with the standard DOM. Being able to use
@@ -11333,16 +11333,16 @@ by this list:
 
 JavaScript code: we build a CSS selector using the id passed as a
 parameter. In this example, the id is &apos;firstDiv&apos;, the id of the div
-at *line 3* in the above code.
+at <i>line 3</i> in the above code.
 
-So, the variable CSS selector at *line 2* in the JavaScript code below
+So, the variable CSS selector at <i>line 2</i> in the JavaScript code below
 will have a value equal to &quot;#firstDiv p&quot;, that means: select
 all &lt;p&gt; under an element whose id is &quot;firstDiv&quot;.
 The paragraphs variable is a list that contains the paragraphs selected.
 Then we iterate on this list (this time using a for loop, which is an
 alternative method to using the forEach method used in previous
-examples) (*lines 5-7*), and we change the background of all selected
-paragraphs (*line 6*).
+examples) (<i>lines 5-7</i>), and we change the background of all selected
+paragraphs (<i>line 6</i>).
 
 <pre>
 1.  function changeBackGroundOfPs(id) {
