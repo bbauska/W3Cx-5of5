@@ -8,7 +8,7 @@ date last editted: "7/20/2024 Sat 5+am"
 date last editted: "7/23/2024 Tue 7+pm"
 date last editted: "7/24/2024 Wed 5+pm"
 date last editted: "7/26/2024 Fri 10+am"
-
+date last editted: "7/29/2024 Mon 4+pm"
 output: 
   markdown:
     with some style
@@ -7395,25 +7395,25 @@ var foo=1;
 var bar1,bar2,bar3;
 //example 1
 if(foo===1){
-bar1='one';
+  bar1='one';
 }
 else if(foo===2){
-bar1='two';
+  bar1='two';
 }
 else{
-bar1='something';
+  bar1='something';
 }
 //example 2
-bar2 = (foo===1)?'one':(foo===2)?'two':'something';
+  bar2 = (foo===1)?'one':(foo===2)?'two':'something';
 //example 3
 switch(foo){
 case 1 :
-bar3='one';
-break;
+  bar3='one';
+  break;
 case 2 :
-bar3 ='two';
-break;
-default:
+  bar3 ='two';
+  break;
+  default:
 bar3 ='something';
 }
 //now we print results :
@@ -7734,14 +7734,14 @@ statement is that the loop continues.</p>
 
 <pre>
 for(var i = 1, k = 0; i &lt; 5; i++) {
-    if (i === 3) {
-        continue;
-    }
+  if (i === 3) {
+    continue;
+  }
  
-    k += 2&ast;i;
-    console.log('k += ' + (2*i));
+  k += 2&ast;i;
+  console.log('k += ' + (2*i));
 }
-console.log('Final k value:' + k)
+  console.log('Final k value:' + k)
 </pre>
 
 <p>Copy and paste this example in your devtool console, but first, try to
@@ -7757,31 +7757,27 @@ statement.</p>
 
 <h4>Syntax:</h4>
 
-<pre>
-1.  break &lbrack;label&rbrack;
-</pre>
+<pre>1.  break &lbrack;label&rbrack;</pre>
 
 <h4>Typical example:</h4>
 
 <pre>
-1. var tab = &lbrack;'michel', 'john', 'donald', 'paul'&rbrack;; // johh at
+var tab = &lbrack;'michel', 'john', 'donald', 'paul'&rbrack;; // johh at
 index = 1
  
 function isNameInTheArray(name, theArray) {
-    console.log("Number of elements in the array :
-" + theArray.length);
-    for(var i=0; i &lt; theArray.length; i++) {
-        console.log('comparing with element in the array at pos
-' + i);
+  console.log("Number of elements in the array : " + theArray.length);
+  for(var i=0; i &lt; theArray.length; i++) {
+    console.log('comparing with element in the array at pos ' + i);
  
-        if(theArray[i] === name) {
-           console.log('the name ' + name +
-                       ' is in the array at pos: ' + i);
-           break;
-        } else {
-           console.log(name + ' is not at pos ' + i);
-        }
+    if(theArray[i] === name) {
+      console.log('the name ' + name +
+                  ' is in the array at pos: ' + i);
+      break;
+    } else {
+      console.log(name + ' is not at pos ' + i);
     }
+  }
 }
  
 // Execute the function
@@ -7816,8 +7812,7 @@ post your comments/observations/questions or share your creations.</p>
 <h4>Suggested topic of discussion:</h4>
 
 <ul>
-  <li>Did you know about the === and !== operators we recommend you to
-    use?</li>
+  <li>Did you know about the === and !== operators we recommend you to use?</li>
 </ul>
 
 <h4>Optional projects:</h4>
@@ -7999,7 +7994,7 @@ manipulated like any other object/value in JavaScript.
 This means that functions can also be used as parameters to other
 functions. In this case they are called &quot;callbacks&quot;.
 
-#### Callbacks
+<h4>Callbacks</h4>
 
 Indeed, as functions are first-class objects, we can pass a function as
 an argument, as a parameter to another function and later execute that
@@ -8343,7 +8338,7 @@ name as the second parameter):
 7.  &lt;/script&gt;
 </pre>
 
-#### Adding an event listener to specific HTML elements
+<h4>Adding an event listener to specific HTML elements
 
 Instead of listening to event on the whole document
 (using addEventListener is the same as using window.addEventListener),
@@ -8762,24 +8757,24 @@ code&hellip;
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>Example 2 of the 'load' event</title>
-</head>
-<body>
-<p>This page uses <code>window.onload = init;</code> in the JS
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;Example 2 of the 'load' event&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;This page uses &lt;code&gt;window.onload = init;&lt;/code&gt; in the JS
   code to execute the init function ONLY WHEN THE PAGE HAS BEEN
-  LOADED!</p>
-<p>This is important as very often we cannot do important things
+  LOADED!&lt;/p&gt;
+&lt;p&gt;This is important as very often we cannot do important things
   before the DOM is ready (all HTML elements have been created and can be
-  manipulated from JavaScript).</p>
-<p>PAGE STATUS: <span id=&quot;pageStatus&quot;>NOT LOADED
-  YET</span></p>
-</body>
-</html>
+  manipulated from JavaScript).&lt;/p&gt;
+&lt;p&gt;PAGE STATUS: &lt;span id=&quot;pageStatus&quot;&gt;NOT LOADED
+  YET&lt;/span&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>CSS:</h5>
@@ -8824,21 +8819,21 @@ use screen.width and screen.height to display the screen size.
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-  <meta charset=&quot;utf-8&quot;>
-  <meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-  <title>Example1 of the 'resize' event</title>
-</head>
-<body>
-  <p>This page uses <code>window.onresize = resize;</code> in the JS
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+  &lt;title&gt;Example1 of the 'resize' event&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;This page uses &lt;code&gt;window.onresize = resize;&lt;/code&gt; in the JS
     code to execute the resize function. Try to change the size of your
-    window now!</p>
-  <p>Curent page size: <span id=&quot;pageSize&quot;></span></p>
-  <p>Screen size: <span id=&quot;screenSize&quot;></span></p>
-</body>
-</html>
+    window now!&lt;/p&gt;
+  &lt;p&gt;Curent page size: &lt;span id=&quot;pageSize&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;p&gt;Screen size: &lt;span id=&quot;screenSize&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>CSS:</h5>
@@ -8880,22 +8875,22 @@ var screenSizeSpan = document.querySelector('#screenSize');
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>Example of the 'scroll' event</title>
-</head>
-<body>
-<div class=&quot;progress&quot;>
-<div>Percentage</div>
-</div>
-<p id=&quot;text&quot;>Scroll me and the progress bar on the right will show
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;Example of the 'scroll' event&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;progress&quot;&gt;
+&lt;div&gt;Percentage&lt;/div&gt;
+&lt;/div&gt;
+&lt;p id=&quot;text&quot;&gt;Scroll me and the progress bar on the right will show
 the percentage of scroll. Look also at the CSS
-code (body is 2000px height, for example)&hellip;</p>
-</body>
-</html>
+code (body is 2000px height, for example)&hellip;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>CSS:</h5>
@@ -9008,19 +9003,19 @@ with a new key property (see the following pages of the course).
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>Example of the 'keyup' and 'keydown' events on the window
-  object</title>
-</head>
-<body>
-<p>Please type some keys and see what happens</p>
-<div id=&quot;keys&quot;></div>
-</body>
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;Example of the 'keyup' and 'keydown' events on the window
+  object&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;Please type some keys and see what happens&lt;/p&gt;
+&lt;div id=&quot;keys&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -9221,14 +9216,14 @@ is what keyCode should have been. The value of the code property
 corresponds to a code that is more readable than the value of the
 old keyCode property.
 
--   **key: </b>when the pressed key is a printable character, you get the
+-   <b>key: </b>when the pressed key is a printable character, you get the
     character in string form. When the pressed key is not a printable
     character (for example: Backspace, Control, but also Enter or Tab
     which actually are printable characters), you get a multi-character
     descriptive string, like &apos;Backspace&apos;, &apos;Control&apos;, &apos;Enter&apos;,
     &apos;Tab&apos;.
 
--   **code</b>: Gives you the physical key that was pressed, in string
+-   <b>code</b>: Gives you the physical key that was pressed, in string
     form. This means it's totally independent of the keyboard layout
     that is being used. So let's say the user presses the Q key on a
     QWERTY keyboard. </b>Then event.code gives you &apos;KeyQ&apos;
@@ -9239,10 +9234,10 @@ old keyCode property.
     because the A key on a AZERTY keyboard is at the same location as
     the Q key on a QWERTY keyboard.
     
-    **As for numbers, the top digit bar yields values like &apos;Digit1&apos;,
+    <b>As for numbers, the top digit bar yields values like &apos;Digit1&apos;</b>,
     while the numeric pad yields values like &apos;Numpad1&apos;.
 
-### List of codes, the reference keyboard
+<h4>List of codes, the reference keyboard</h4>
 
 There's no existing keyboard with all the possible keys. That's why the
 W3C published [a specification just for
@@ -9280,21 +9275,21 @@ both for code and key.
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<title>key and keyCode</title>
-<meta charset=&quot;utf-8&quot;/>
-</head>
-<body>
-<p>Press some keys on your keyboard and see the corresponding evt.key
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;key and keyCode&lt;/title&gt;
+&lt;meta charset=&quot;utf-8&quot;/&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;Press some keys on your keyboard and see the corresponding evt.key
   and evt.code values. If you are not using a QWERTY keyboard, notice that
   the values might be different. This is because an 'a' on an AZERTY
   keyboard, will correspond to the KeyQ code on the reference
-  keyboard.</p>
-<p> You typed:</p>
-</body>
-</html>
+  keyboard.&lt;/p&gt;
+&lt;p&gt; You typed:&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -9326,8 +9321,7 @@ describing the values for the key property.
 <b><i>Important note*: Remember that many people do not use the mouse and
 rely on the keyboard to interact with the Web. This requires keyboard
 access to all functionality, including form controls, input, and other
-user interface components (</b>[*learn
-more*](https://www.w3.org/WAI/intro/people-use-web/principles#operable)**).</b>
+user interface components (</b>[<i>learn more</i>](https://www.w3.org/WAI/intro/people-use-web/principles#operable)).
 
 Detecting mouse events in a canvas is quite straightforward: you add an
 event listener to the canvas, and the browser invokes that listener when
@@ -9350,7 +9344,7 @@ button number or the coordinates of the mouse cursor. Before looking at
 different examples, let&apos;s look at the different event types we can
 listen to.
 
-#### Mouse events
+<h4>Mouse events
 
 <h4>Event types related to mouse</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9387,21 +9381,21 @@ listen to.
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>detect mouse clicks on elements</title>
-</head>
-<body>
-<button id=&quot;button1&quot;
-  onclick=&quot;processClick(event)&quot;>Button1</button>
-<div id=&quot;myDiv&quot; onclick=&quot;processClick(event)&quot;>Click also on this
-  div!</div>
-<div id=&quot;clicks&quot;></div>
-</body>
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;detect mouse clicks on elements&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;button id=&quot;button1&quot;
+  onclick=&quot;processClick(event)&quot;&gt;Button1&lt;/button&gt;
+&lt;div id=&quot;myDiv&quot; onclick=&quot;processClick(event)&quot;&gt;Click also on this
+  div!&lt;/div&gt;
+&lt;div id=&quot;clicks&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>CSS:</h5>
@@ -9456,43 +9450,43 @@ when embedded in this page!
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<script
-  src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;></script>
-<meta charset=utf-8 />
-<title>client - page - screen</title>
-</head>
-<body>
-<table>
-<tr>
-<td>Mouse position inside:</td>
-<td>X &nbsp;&nbsp;&nbsp; Y</td>
-</tr>
-<tr>
-<td>- client:</td>
-<td id=&quot;client&quot;></td>
-<td>Client Viewport</td>
-</tr>
-<tr>
-<td>- page:</td>
-<td id=&quot;page&quot;></td>
-<td>Document Page (scroll down to see the difference)</td>
-</tr>
-<tr>
-<td>(scrollTop:</td>
-<td id=&quot;scrollTop&quot;></td>
-<td>Scroll top [pageY-clientY] )</td>
-</tr>
-<tr>
-<td>- screen:</td>
-<td id=&quot;screen&quot;></td>
-<td>Screen</td>
-</tr>
-</table>
-</body>
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;script
+  src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;meta charset=utf-8 /&gt;
+&lt;title&gt;client - page - screen&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;Mouse position inside:&lt;/td&gt;
+&lt;td&gt;X &nbsp;&nbsp;&nbsp; Y&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- client:&lt;/td&gt;
+&lt;td id=&quot;client&quot;&gt;&lt;/td&gt;
+&lt;td&gt;Client Viewport&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- page:&lt;/td&gt;
+&lt;td id=&quot;page&quot;&gt;&lt;/td&gt;
+&lt;td&gt;Document Page (scroll down to see the difference)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(scrollTop:&lt;/td&gt;
+&lt;td id=&quot;scrollTop&quot;&gt;&lt;/td&gt;
+&lt;td&gt;Scroll top [pageY-clientY] )&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- screen:&lt;/td&gt;
+&lt;td id=&quot;screen&quot;&gt;&lt;/td&gt;
+&lt;td&gt;Screen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>CSS:</h5>
@@ -9546,21 +9540,21 @@ for(var i=0; i<3; i++){
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>mousemove events relative to page</title>
-</head>
-<body>
-<h1>Please move the mouse on this window!&quot;</h1>
-<div id=&quot;mousePositions&quot;></div>
-<p>Yep! The above values are the same when we're listening on the
-  window and we did not scrolled the page!</p>
-<div id=&quot;mouseScreenPositions&quot;></div>
-</body>
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;mousemove events relative to page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Please move the mouse on this window!&quot;&lt;/h1&gt;
+&lt;div id=&quot;mousePositions&quot;&gt;&lt;/div&gt;
+&lt;p&gt;Yep! The above values are the same when we're listening on the
+  window and we did not scrolled the page!&lt;/p&gt;
+&lt;div id=&quot;mouseScreenPositions&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -9655,29 +9649,34 @@ value has top, left, width, and height properties that describe this
 rectangle. We can use the top and left properties along
 with evt.clientX and evt.clientY to fix the mouse position and to get a
 real position relative to the top left corner of the canvas:
-
-![](./images/image183.png){width="6.5in"
-height="2.9541666666666666in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 213.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image213.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image183.png){width="6.5in" height="2.9541666666666666in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>mousemove events relative to page</title>
-</head>
-<body>
-<h1>Please move the mouse on the grey canvas below!</h1>
-<p>You'll see that there is a no more a problem: (0, 0) is now at the
-  top left corner of the canvas, even if we scroll the page!</p>
-<canvas id=&quot;myCanvas&quot; width=300 height=50></canvas>
-<div id=&quot;mousePositions&quot;></div>
-<div id=&quot;mouseScreenPositions&quot;></div>
-</body>
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;mousemove events relative to page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Please move the mouse on the grey canvas below!&lt;/h1&gt;
+&lt;p&gt;You'll see that there is a no more a problem: (0, 0) is now at the
+  top left corner of the canvas, even if we scroll the page!&lt;/p&gt;
+&lt;canvas id=&quot;myCanvas&quot; width=300 height=50&gt;&lt;/canvas&gt;
+&lt;div id=&quot;mousePositions&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;mouseScreenPositions&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>CSS:</h5>
@@ -9718,9 +9717,9 @@ mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
 function processMouseMouve(evt) {
     var mousePositions = document.querySelector('#mousePositions');
     // adjust mouse position relative to the canvas
-**    var rect = evt.target.getBoundingClientRect()</b>
-**    var mouseX = evt.clientX - rect.left;</b>
-**    var mouseY = evt.clientY - rect.top;</b>
+<b>    var rect = evt.target.getBoundingClientRect()</b>
+<b>    var mouseX = evt.clientX - rect.left;</b>
+<b>    var mouseY = evt.clientY - rect.top;</b>
     mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
                                &quot; mouse pos Y: &quot; + mouseY +
                                &quot;<br>&quot;
@@ -9728,25 +9727,30 @@ function processMouseMouve(evt) {
 </pre>
 
 <h4>Example #5: combine mouseup, mousedown, mousemove to implement a click and drag behavior</h4>
-
-![](./images/image184.png){width="6.5in"
-height="2.3618055555555557in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 214.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image214.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image184.png){width="6.5in" height="2.3618055555555557in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>mousemove events relative to page</title>
-</head>
-<body>
-<h1>Please click and drag the div below.</h1>
-<div id=&quot;dragMe&quot; class='draggable'>Drag me!</div>
-</body>
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;mousemove events relative to page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Please click and drag the div below.&lt;/h1&gt;
+&lt;div id=&quot;dragMe&quot; class='draggable'&gt;Drag me!&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>CSS:</h5>
@@ -9821,42 +9825,47 @@ function stopMovingElem() {
 selected = null;
 }
 </pre>
-
-![](./images/image185.png){width="6.5in"
-height="2.7958333333333334in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 215.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image215.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image185.png){width="6.5in" height="2.7958333333333334in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<title>Example of right click context menu in pure JS</title>
-</head>
-<body>
-<div>
-<nav id=&quot;context-menu&quot; class=&quot;context-menu&quot;>
-<ul class=&quot;context-menu&lowbar;&lowbar;items&quot;>
-<li class=&quot;context-menu&lowbar;&lowbar;item&quot; id=&quot;context-menu-learn&quot;
-  onclick=&quot;menuItem1();&quot;>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Example of right click context menu in pure JS&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div&gt;
+&lt;nav id=&quot;context-menu&quot; class=&quot;context-menu&quot;&gt;
+&lt;ul class=&quot;context-menu&lowbar;&lowbar;items&quot;&gt;
+&lt;li class=&quot;context-menu&lowbar;&lowbar;item&quot; id=&quot;context-menu-learn&quot;
+  onclick=&quot;menuItem1();&quot;&gt;
 Learn
-</li>
-<li class=&quot;context-menu&lowbar;&lowbar;item&quot; onclick=&quot;menuItem2();&quot;>
+&lt;/li&gt;
+&lt;li class=&quot;context-menu&lowbar;&lowbar;item&quot; onclick=&quot;menuItem2();&quot;&gt;
 Clear
-</li>
-<li class=&quot;context-menu&lowbar;&lowbar;item&quot; onclick=&quot;toggleMenuOff();&quot;>
+&lt;/li&gt;
+&lt;li class=&quot;context-menu&lowbar;&lowbar;item&quot; onclick=&quot;toggleMenuOff();&quot;&gt;
 Close
-</li>
-</ul>
-</nav>
-</div>
-<p>Try to right click on this div:</p>
-<div id=&quot;div1&quot; class=&quot;div&quot;>A Div with a context menu</div>
-<p> This one does not have a context menu attached, try also a right click: </p>
-<div id=&quot;div2&quot; class=&quot;div&quot;>Another Div without a context menu</div>
-</body>
-</html>
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+&lt;p&gt;Try to right click on this div:&lt;/p&gt;
+&lt;div id=&quot;div1&quot; class=&quot;div&quot;&gt;A Div with a context menu&lt;/div&gt;
+&lt;p&gt; This one does not have a context menu attached, try also a right click: &lt;/p&gt;
+&lt;div id=&quot;div2&quot; class=&quot;div&quot;&gt;Another Div without a context menu&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>CSS:</h5>
@@ -9985,12 +9994,17 @@ toggleMenuOff();
 <h3 id="ch2-4-9">2.4.9 Form and input field events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-#### Events related to forms
+<h4>Events related to forms
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 216.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image216.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image186.png){width="6.5in" height="2.6506944444444445in"} -->
 
-![](./images/image186.png){width="6.5in"
-height="2.6506944444444445in"}
-
-#### FormEvent properties
+<h4>FormEvent properties
 
 There are no particular properties that need to be mentioned here.
 Usually, on a form event listener, we check the content of the different
@@ -10000,36 +10014,41 @@ the course that deals with form events.
 <h4>Example #1: validating on the fly as the user types in a text input field</h4>
 
 First variant: using the &apos;input&apos; event:
-
-![](./images/image187.png){width="6.5in"
-height="2.4854166666666666in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 217.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image217.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image187.png){width="6.5in" height="2.4854166666666666in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>Simple input field validation</title>
-</head>
-<body>
-<h1>Simple input field validation using the 'input' event</h1>
-<p>Just type a name in the input field and see what happens!</p>
-<label>
-<span>Name (required):</span>
-<input type=&quot;text&quot;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;Simple input field validation&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Simple input field validation using the 'input' event&lt;/h1&gt;
+&lt;p&gt;Just type a name in the input field and see what happens!&lt;/p&gt;
+&lt;label&gt;
+&lt;span&gt;Name (required):&lt;/span&gt;
+&lt;input type=&quot;text&quot;
 name=&quot;nom&quot;
 maxlength=&quot;32&quot;
 required
-oninput = &quot;validateName(this)&quot;>
-</label>
-<p>
-<span id=&quot;nameTyped&quot;></span>
-</p>
-</body>
-</html>
+oninput = &quot;validateName(this)&quot;&gt;
+&lt;/label&gt;
+&lt;p&gt;
+&lt;span id=&quot;nameTyped&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -10053,37 +10072,42 @@ output.innerHTML = &quot;This name is too short (at least 5 chars)&quot;;
 </pre>
 
 <h4>Second variant: using the &apos;keyup&apos; event:</h4>
-
-![](./images/image188.png){width="6.5in"
-height="2.4784722222222224in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 218.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image218.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image188.png){width="6.5in" height="2.4784722222222224in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>Simple input field validation using keyup events</title>
-</head>
-<body>
-<h1>Simple input field validation using the 'input' event</h1>
-<p>Just type a name in the input field and see what happens! <span
-  style=&quot;color:red&quot;> TRY TO TYPE A &quot;!&quot; too</span></p>
-<label>
-<span>Name (required):</span>
-<input type=&quot;text&quot;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;Simple input field validation using keyup events&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Simple input field validation using the 'input' event&lt;/h1&gt;
+&lt;p&gt;Just type a name in the input field and see what happens! &lt;span
+  style=&quot;color:red&quot;&gt; TRY TO TYPE A &quot;!&quot; too&lt;/span&gt;&lt;/p&gt;
+&lt;label&gt;
+&lt;span&gt;Name (required):&lt;/span&gt;
+&lt;input type=&quot;text&quot;
 name=&quot;nom&quot;
 maxlength=&quot;32&quot;
 required
-onkeyup = &quot;validateName(event)&quot;>
-</label>
-<p>
-<span id=&quot;keyTyped&quot;></span>
-</p>
-</body>
-</html>
+onkeyup = &quot;validateName(event)&quot;&gt;
+&lt;/label&gt;
+&lt;p&gt;
+&lt;span id=&quot;keyTyped&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -10120,36 +10144,41 @@ Best Practices](https://www.edx.org/course/html5-coding-essentials-and-best-prac
 which dedicates a whole week to this topic.
 
 <h4>Example #2: do something while a slider is being moved</h4>
-
-![](./images/image189.png){width="6.5in"
-height="2.451388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 219.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image219.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image189.png){width="6.5in" height="2.451388888888889in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>JavaScript slider use</title>
-</head>
-<body>
-<h1>Simple <code><input type=range></code> field validation
-  using the 'input' event</h1>
-<p>Just move the slider</p>
-<label>
-1 <input type=&quot;range&quot;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;JavaScript slider use&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Simple &lt;code&gt;&lt;input type=range&gt;&lt;/code&gt; field validation
+  using the 'input' event&lt;/h1&gt;
+&lt;p&gt;Just move the slider&lt;/p&gt;
+&lt;label&gt;
+1 &lt;input type=&quot;range&quot;
 min=1
 max=12
 step=0.1
-oninput = &quot;doSomething(event)&quot;> 12
-</label>
-<p>
-<span id=&quot;sliderValue&quot;></span>
-</p>
-</body>
-</html>
+oninput = &quot;doSomething(event)&quot;&gt; 12
+&lt;/label&gt;
+&lt;p&gt;
+&lt;span id=&quot;sliderValue&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -10165,42 +10194,46 @@ output.innerHTML = &quot;Value selected: &quot; + val;
 </pre>
 
 <h4>Example #3: detect value changes in a number input field</h4>
-
-
-}![](./images/image190.png){width="6.5in"
-height="2.4923611111111112in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 220.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image220.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- (./images/image190.png){width="6.5in" height="2.4923611111111112in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>JavaScript number input use</title>
-</head>
-<body>
-<h1>Simple <code><input type=number></code> field validation
-using the &apos;input&apos; event</h1>
-<p>type a number or use the small vertical arrows</p>
-<label>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;JavaScript number input use&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Simple &lt;code&gt;&lt;input type=number&gt;&lt;/code&gt; field validation
+using the &apos;input&apos; event&lt;/h1&gt;
+&lt;p&gt;type a number or use the small vertical arrows&lt;/p&gt;
+&lt;label&gt;
 </pre>
 
 <h5>Type a number:</h5>
 
 <pre>
-<input type=&quot;number&quot;
+&lt;input type=&quot;number&quot;
 min=1
 max=12
 step=0.1
-oninput = &quot;doSomething(event)&quot;>
-</label>
-<p>
-<span id=&quot;numberValue&quot;></span>
-</p>
-</body>
-</html>
+oninput = &quot;doSomething(event)&quot;&gt;
+&lt;/label&gt;
+&lt;p&gt;
+&lt;span id=&quot;numberValue&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -10217,33 +10250,38 @@ output.innerHTML = &quot;Value selected: &quot; + val;
 </pre>
 
 <h4>Example #4: choose a color and do something</h4>
-
-![](./images/image191.png){width="6.5in"
-height="2.0520833333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 221.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image221.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image191.png){width="6.5in" height="2.0520833333333335in"} -->
 
 <h5>HTML:</h5>
 
 <pre>
-<!DOCTYPE html>
-<html lang=&quot;en&quot;>
-<head>
-<meta charset=&quot;utf-8&quot;>
-<meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;>
-<title>JavaScript color chooser use</title>
-</head>
-<body>
-<h1>Simple <code><input type=color></code> use</h1>
-<p>Pick a color to change the background color of the page</p>
-<label>
-<input type=&quot;color&quot;
-onchange = &quot;changePageBackgroundColor(this.value);&quot;>
-<!&#45;- we could have used oninput= in the previous line &#45;->
-</label>
-<p>
-<span id=&quot;choosedColor&quot;></span>
-</p>
-</body>
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;title&gt;JavaScript color chooser use&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Simple &lt;code&gt;&lt;input type=color&gt;&lt;/code&gt; use&lt;/h1&gt;
+&lt;p&gt;Pick a color to change the background color of the page&lt;/p&gt;
+&lt;label&gt;
+&lt;input type=&quot;color&quot;
+onchange = &quot;changePageBackgroundColor(this.value);&quot;&gt;
+&lt;!&#45;- we could have used oninput= in the previous line &#45;-&gt;
+&lt;/label&gt;
+&lt;p&gt;
+&lt;span id=&quot;choosedColor&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 <h5>JS:</h5>
@@ -10262,55 +10300,62 @@ output.innerHTML = &quot;Color selected: &quot; + color;
 <h3 id="ch2-4-10">2.4.10 Reference tables</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-#### Quick summary of event management in JavaScript
+<h4>Quick summary of event management in JavaScript
 
 <h5>HTML5 events:</h5>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 222.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image222.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![picture of keyboard an mouse]
+(./images/image192.jpeg){width="2.8333333333333335in" height="2.8333333333333335in"} -->
 
-![picture of keyboard an
-mouse](./images/image192.jpeg){width="2.8333333333333335in"
-height="2.8333333333333335in"}
-
-There is no input or output in JavaScript. We treat **events</b> caused by
+There is no input or output in JavaScript. We treat <b>events</b> caused by
 user actions as inputs, and we manipulate the DOM structure as
 output. Usually in a JavaScript application, we will get info such as
 the key strokes, the mouse button clicks and the mouse position, and we
 will refer to these variables when determining what action to perform.
 
 In any case, the events are called DOM events, and we use the DOM APIs
-to create **event handlers</b>.
+to create <b>event handlers</b>.
 
 <h4>How to listen to events {#how-to-listen-to-events .unnumbered}
 
 There are three ways to manage events in the DOM structure. You could
 attach an event inline in your HTML code like this:
 
-<h4>**Method #1: declare an event handler in the HTML code</b></h4>
+<h4><b>Method #1: declare an event handler in the HTML code</b></h4>
 
-<div id=&quot;someDiv&quot; **onclick</b>=&quot;alert(&apos;clicked!&apos;)&quot;> content of
-the div </div>
+<pre>
+&lt;div id=&quot;someDiv&quot; <b>onclick</b>=&quot;alert(&apos;clicked!&apos;)&quot;&gt; content of
+  the div &lt;/div&gt;
+</pre>
 
 This method is very easy to use, but it is not the recommended way to
 handle events. Indeed, although it currently works,
-it is **deprecated</b> (will probably be abandoned in the future). Mixing
+it is <b>deprecated</b> (will probably be abandoned in the future). Mixing
 &apos;visual layer&apos; (HTML) and &apos;logic layer&apos; (JavaScript) in one place is
 really bad practice and causes a host of problems during development.
 
-<h4>**Method #2: attach an event handler to an HTML element in JavaScript</b></h4>
+<h4><b>Method #2: attach an event handler to an HTML element in JavaScript</b></h4>
 
 <pre>
-1.  document.getElementById(&apos;someDiv&apos;).**onclick </b>= function() {
+1.  document.getElementById(&apos;someDiv&apos;).<b>onclick </b>= function() {
 2.  alert(&apos;clicked!&apos;);
 3.  }
 </pre>
 
 This method is fine, but  you will not be able to attach
-multiple **listener</b> functions. If you need to do this, use the version
+multiple <b>listener</b> functions. If you need to do this, use the version
 shown below.
 
-<h4>**Method #3: register a callback to the event listener with the addEventListener method (preferred  method)</b></h4>
+<h4><b>Method #3: register a callback to the event listener with the addEventListener method (preferred  method)</b></h4>
 
 <pre>
-1.  document.getElementById(&apos;someDiv&apos;).**addEventListener</b>(&apos;click&apos;, function() {
+1.  document.getElementById(&apos;someDiv&apos;).<b>addEventListener</b>(&apos;click&apos;, function() {
 2.  alert(&apos;clicked!&apos;);
 3.  }, false);
 </pre>
@@ -10329,7 +10374,7 @@ object is provided as a parameter of the <b>callback function</b>:
 
 <pre>
 1.  element.addEventListener(&apos;click&apos;, function(</b>event</b>) {
-2.  <b>// now you can use event object inside the callback</b>
+2.    <b>// now you can use event object inside the callback</b>
 3.  }, false);
 </pre>
 
@@ -10342,7 +10387,7 @@ clicked?&quot;, etc.
 In the following lessons, we will remind you how to deal with the
 keyboard and the mouse.
 
-### Further reading
+<h4>Further reading</h4>
 
 In method 1 (above), we mentioned that &quot;mixing &apos;visual layer&apos; (HTML)
 and &apos;logic layer&apos; (JavaScript) &hellip; is bad practice&quot;, and this is
@@ -10359,7 +10404,7 @@ references useful:
 -   [Software Architecture and the Art of Separation of
     Concerns ](https://medium.com/@alliecohen_Tech/software-architecture-and-the-art-of-separation-of-concerns-1bd780cb8f2a)
 
-### Reference tables for events and properties/methods
+<h4>Reference tables for events and properties/methods</h4>
 
 These tables are provided as a reference. They are a compilation of the
 most common event types sorted by domain (key, mouse, forms, etc.). For
@@ -10538,7 +10583,7 @@ the part dealing with form events.
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
 
-### Suggested topics
+<h4>Suggested topics</h4>
 
 -   Did you know the differences between clientX, pageX, etc. when
     dealing with mousemove events? Did you know the method we showed for
@@ -10548,10 +10593,15 @@ post your comments/observations/questions or share your creations.
 -   Did you know the different keyboard layouts, and
     the code and key event properties?
 
-### Optional project
-
-![times](./images/image193.jpeg){width="2.0833333333333335in"
-height="1.3854166666666667in"}
+<h4>Optional project</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 223.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image223.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![times](./images/image193.jpeg){width="2.0833333333333335in" height="1.3854166666666667in"} -->
 
 -   Try to write a small game that will display a word taken from an
     array, randomly, and you will have to type the letters of this word
@@ -10625,9 +10675,14 @@ showed you:
 
 Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):
-
-![](./images/image194.png){width="5.75in"
-height="2.4793799212598424in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 224.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image224.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image194.png){width="5.75in" height="2.4793799212598424in"} -->
 
 Consider the figure above.  It contains a single html element.  It turns
 out this includes within it the entire content of your html file.  If
@@ -10670,24 +10725,39 @@ ones are highlighted in bold.
 You can explore the DOM with the devtool console. This time we used
 Firefox for exploring the DOM, as it proposes a good structured view of
 the DOM and of its properties/methods:
-
-![](./images/image195.png){width="6.5in"
-height="4.077083333333333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 225.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image225.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image195.png){width="6.5in"height="4.077083333333333in"} -->
 
 If you scroll down the right panel of the devtool console, as in the
 above screenshot, you will be able to look at all the properties, all
 the methods, all the event listeners:
-
-![](./images/image196.png){width="5.75in"
-height="5.867334864391951in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 226.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image226.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image196.png){width="5.75in" height="5.867334864391951in"} -->
 
 You can also use the &quot;DOM inspector&quot; to locate a particular element
 with the mouse: click the target icon and click on  the element on the
 page that you want to inspect, this time with Google Chrome, but you
 will find this option in all modern browsers&apos; devtool consoles:
-
-![](./images/image197.png){width="6.0in" height="3.775in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 227.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image227.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image197.png){width="6.0in" height="3.775in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-2">2.5.2 A warning about the DOM API</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10707,16 +10777,25 @@ So, we&apos;ve decided to focus on only 20% of the DOM API and on the
 selector API (for selecting elements in the DOM). These are the most
 useful parts and it will give you enough knowledge to solve nearly every
 problem where you need to manipulate the DOM.
-
-![image of a warning sign with a big exclamation
-mark](./images/image198.png){width="3.0in"
-height="2.6492804024496936in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 228.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image228.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![image of a warning sign with a big exclamation mark]
+(./images/image198.png){width="3.0in" height="2.6492804024496936in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-3">2.5.3 Accessing HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](./images/image199.png){width="5.75in"
-height="4.474276027996501in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 229.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image229.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image199.png){width="5.75in" height="4.474276027996501in"} -->
 
 Hi!
 
@@ -10848,9 +10927,14 @@ Any CSS  selector can be passed as a parameter for these methods.
 Looking for an element in the whole document (the whole HTML page): call
 the querySelector method (or querySelectorAll) on the document object,
 that corresponds to the whole DOM tree of your web page:
-
-![](./images/image200.png){width="5.0in"
-height="2.983974190726159in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 230.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image230.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- (./images/image200.png){width="5.0in" height="2.983974190726159in"} -->
 
 <h5>HTML:</h5>
 
@@ -11000,9 +11084,14 @@ CSS basics, and HTML5 and CSS fundamentals courses
 from [W3Cx](https://www.edx.org/school/w3cx).
 
 <h4><b>Example #1: get all &lt;li&gt; directly in a &lt;ul&gt; of class nav</b></h4>
-
-![](./images/image201.png){width="6.5in"
-height="3.803472222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 231.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image231.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- ![](./images/image201.png){width="6.5in" height="3.803472222222222in"} -->
 
 <h5>HTML:</h5>
 
@@ -11095,9 +11184,9 @@ height="3.803472222222222in"}
 <h5>Example #2: display all checked &lt;input type=&quot;checkbox&quot;&gt; elements
 located inside an element of a given id.</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 232.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image202.png?raw=true"
+<img src="./images/image232.png?raw=true"
   style="width:65%"
   title=" "
   alt="." />
@@ -11156,7 +11245,7 @@ elm.parentNode.style.color = &apos;green&apos;;
 document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
 }
 Extract from the source code:
-<pre>
+</pre>
 
 <h5>HTML:</h5>
 
@@ -11221,9 +11310,9 @@ by this list:
 
 <h4>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image203.png?raw=true"
+<img src="./images/image233.png?raw=true"
   style="width:65%"
   title=" "
   alt="." />
@@ -11255,7 +11344,7 @@ alternative method to using the forEach method used in previous
 examples) (*lines 5-7*), and we change the background of all selected
 paragraphs (*line 6*).
 
-</pre>
+<pre>
 1.  function changeBackGroundOfPs(id) {
 2.  var paragraphs = document.querySelectorAll(&quot;#&quot; + id + &quot; p&quot;);
 3.  // Another way to iterate on all elements in a collection
@@ -11267,7 +11356,7 @@ paragraphs (*line 6*).
 
 <h5>Other examples that use more complex selectors:</h5>
 
-</pre>
+<pre>
 1.  // all elements li in ul elements in an element of id=nav
 2.  var el = document.querySelector(&apos;#nav ul li&apos;);
 3.  // all li in a ul, but only even elements
@@ -11334,7 +11423,7 @@ the style attribute.
 
 <h5>Typical use:</h5>
 
-</pre>
+<pre>
 // select the paragraph with id = &quot;paragraph1&quot;
 var p = document.querySelector(&apos;#paragraph1&apos;);
 // change its color
@@ -11386,9 +11475,9 @@ about CSS):
 
 Here are some examples:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image204.png?raw=true"
+<img src="./images/image234.png?raw=true"
   style="width:65%"
   title=" "
   alt="." />
@@ -11442,9 +11531,9 @@ collection of class names:
 
 ### Another example: add and remove multiple CSS properties in a list of checkboxes
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image205.png?raw=true"
+<img src="./images/image235.png?raw=true"
   style="width:65%"
   title=" "
   alt="." />
@@ -11457,7 +11546,7 @@ change the text color, we use a CSS class named &quot;checked&quot;:
 
 <h5>CSS code:</h5>
 
-</pre>
+<pre>
 1.  .checked {
 2.  border: 2px dashed #000;
 3.  background-color: green;
@@ -11470,7 +11559,7 @@ the &lt;li&gt; elements:
 
 <h5>JavaScript code:</h5>
 
-</pre>
+<pre>
 1.  function displayListOfCheckedItems() {
 2.  // all inputs that have been checked
 3.  var listOfSelectedValues=&quot;&quot;;
@@ -11488,7 +11577,7 @@ the &lt;li&gt; elements:
 
     -   <b>liParent.classList.add(&quot;checked&quot;);</b>
 
-</pre>
+<pre>
 });
 document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
 }
@@ -11544,9 +11633,9 @@ There are subtle differences that can be seen in the above example
 (click the &apos;edit on CodePen&quot; part on the top left, and once in
 codePen, open the devtool console):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image206.png?raw=true"
+<img src="./images/image236.png?raw=true"
   style="width:65%"
   title=" "
   alt="." />
@@ -11641,9 +11730,9 @@ field, etc.
 
 This example shows some of the things we can do:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 237.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image207.png?raw=true"
+<img src="./images/image237.png?raw=true"
   style="width:50%"
   title=" "
   alt="." />
@@ -11714,7 +11803,7 @@ img.style.border = "4px solid red";
 To add a new element to the HTML DOM, you must create the element
 (element node) first, and then append it to an existing element.
 
-#### Example:
+<h4>Example:</h4>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -11739,9 +11828,9 @@ element.appendChild(para);
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 208.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image208.png?raw=true"
+<img src="./images/image238.png?raw=true"
   style="width:30%"
   title=" "
   alt="." />
@@ -11760,3 +11849,4 @@ element.appendChild(para);
 <!-- last editted 7/23/2024 7:17pm -->
 <!-- last editted 7/24/2024 5:34pm -->
 <!-- last editted 7/26/2024 10:16am -->
+<!-- last editted 7/29/2024 4:22pm -->
