@@ -8059,9 +8059,8 @@ We&apos;ll use them a lot in the next section of the course, called
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-1">2.4.1 Introduction</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Adding interactivity to a Web application can be achieved by using only
-CSS, such as by using the :hover pseudo CSS class.
+<p>Adding interactivity to a Web application can be achieved by using only
+CSS, such as by using the :hover pseudo CSS class.</p>
 
 For example:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8152,15 +8151,13 @@ Let&apos;s see this example&hellip; I&apos;m going to comment the first example,
 and this time, instead of just adding as an argument the name of the
 callback, we directly put the body of the callback.
 
-XXso a function&hellip; and we don&apos;t have to indicate a name: it&apos;s an
+A function&hellip; and we don&apos;t have to indicate a name: it&apos;s an
 anonymous function, an anonymous callback. When we click on the
 page, we will execute this callback that is located exactly as the
 second argument.
 
-If I click on the page, you can see that it works again.
-And this syntax is very common!
-Notice the parenthesis, followed by a semicolon at the end, because this
-is just like a parameter.
+If I click on the page, you can see that it works again. And this syntax is very common!
+Notice the parenthesis, followed by a semicolon at the end, because this is just like a parameter.
 
 It&apos;s an anonymous callback function, that is the second argument.
 Finally, there is a first syntax, that uses the the object that will
@@ -8178,7 +8175,7 @@ if I click, it works.
 In this video, I will show you how to add an event listener to an html
 element, and not to the whole document, like in the previous video.
 
-So, let&apos;s try with a button. One of the easiest way to detect a click
+Let&apos;s try with a button. One of the easiest way to detect a click
 on a button is to use the onclick = name of the function, name of the callback that will
 process the function.
 
@@ -8392,11 +8389,11 @@ Every DOM object has an addEventListener method. Once you get a
 reference of  any HMTL element from JavaScript, you can start listening
 to events on it.
 
-### An alternative method for adding an event listener to an HTML element: use an &quot;on&quot; attribute (ex: onclick = &quot;&hellip;.&quot;)
+<h4>An alternative method for adding an event listener to an HTML element: use an &quot;on&quot; attribute (ex: onclick = &quot;&hellip;.&quot;)</h4>
 
-Instead of using b.addEventListener(&apos;click&apos;, callback), it&apos;s possible
+<p>Instead of using b.addEventListener(&apos;click&apos;, callback), it&apos;s possible
 to use an onclick=&apos;doSomething();&apos; attribute directly in the HTML tag
-of the element:
+of the element:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11722,7 +11719,7 @@ text decoration (the &lt;em&gt; is removed), this is done at <b>lines
 21. }
 </pre>
 
-### Changing the attributes of selected elements
+<h4>Changing the attributes of selected elements</h4>
 
 It&apos;s very common to modify the attributes of selected elements: the
 width of an image, CSS style with the style attribute, value of an input
@@ -11734,75 +11731,66 @@ This example shows some of the things we can do:
 <p align="center" width="100%">
 <img src="./images/image237.png?raw=true"
   style="width:50%"
-  title=" "
-  alt="." />
+  title="https://codepen.io/w3devcampus/pen/RpdjwE"
+  alt="https://codepen.io/w3devcampus/pen/RpdjwE." />
 </p>
 
-<h5>HTML:</h5>
-
-<pre>
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8"&gt;
-&lt;meta name="viewport" content="width=device-width"&gt;
-&lt;title&gt;Modifying content of selected DOM nodes&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Try these&lt;/h1&gt;
-&lt;p&gt;What is your name: &lt;input type="text" id="name"
-  value="Michel"&gt; &lt;button onclick="resetName();"&gt;Reset (click to
-  empty the input field)&lt;/button&gt;&lt;/p&gt;
-&lt;p&gt;Pick a color: &lt;input id="color" type="color"
-  value='#FF0000'&gt;&lt;button onclick="setToGreen();"&gt;Set color chooser
-  to green&lt;/button&gt;&lt;/p&gt;
-&lt;p&gt;In the next example, click on the input field and use the small 
-  vertical arrows to increase the value. Notice that the numbers go 1 by 1
-  and that the maximum value is 20. Then click the button and do the same
-  thing!&lt;/p&gt;
-&lt;p&gt;Pick a number between 0 and 20: &lt;input id="number"
-  type="number" min=0 max=20 step = 1 value='10'&gt;&lt;button
-  onclick="changeStep();"&gt;Change step and max attribute values
-  &lt;/button&gt;&lt;/p&gt;
-&lt;p&gt;Click the next image to change its url and size:&lt;/p&gt;
-&lt;img
-  src="https://www.paris-web.fr/2013/assets_c/2013/08/michel-buffa-thumb-143x143-372.jpg"
-  onclick="changeAndResize(this)" alt="Michel Buffa"&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>
-function resetName() {
-var inputField = document.querySelector("#name");
-inputField.value = "";
-}
-function setToGreen() {
-var colorChooser = document.querySelector("#color");
-colorChooser.value = "#00FF00";
-}
-function changeStep() {
-var number = document.querySelector("#number");
-number.value = 10;
-number.step = "0.1";
-number.max = 11;
-}
-function changeAndResize(img) {
-img.src="https://pbs.twimg.com/profile_images/110455194/n666194627_2302_400x400.jpg";
-img.width=250;
-img.style.border = "4px solid red";
-}
-</pre>
-
+<p><a href="https://codepen.io/w3devcampus/pen/RpdjwE">CodePen (Modifying DOM Nodes with textContent and innerHTML</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-6">2.5.6 Adding new elements to the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>The DOM API comes with a set of methods you can use on DOM elements.</p>
 
-To add a new element to the HTML DOM, you must create the element
-(element node) first, and then append it to an existing element.
+<p>In general, to add new nodes to the DOM we follow these steps:</p>
 
+<ol>
+  <li>Create a new element by calling the createElement() method, using a syntax like:</li>
+</ol>
+
+<pre>1  var elm = document.createElement(name_of_the_element).</pre>
+
+<h5>Examples:</h5>
+
+<pre>
+1  var li = document.createElement('li');
+2  var img = document.createElement('img'); etc.
+</pre>
+
+<ol start="2">
+  <li>Set some attributes / values  / styles for this element.</li>
+</ol>
+
+<h5>Examples:</h5>
+
+<pre>
+1  var li = document.createElement('li');
+2  var img = document.createElement('img'); etc.
+</pre>
+
+<ol start="2">
+  <li>Set some attributes / values  / styles for this element.</li>
+</ol>
+
+<h5>Examples: </h5>
+
+<pre>
+1  li.innerHTML = '<b>This is a new list item in bold!</b>'; // can add HTML in it
+2  li.textContent = 'Another new list item';
+3  li.style.color = 'green'; // green text
+4  img.src = "https://..../myImage.jpg"; // url of the image
+5  img.width = 200;
+</pre>
+
+Add the newly created element to another element in the DOM, using append(), appendChild(), insertBefore() or the innerHTML property
+
+Examples:
+var ul = document.querySelector('#myList');
+ul.append(li); // insert at the end, appendChild() could also be used (old)
+ul.prepend(li); // insert at the beginning
+ul.insertBefore(li, another_element_child_of_ul);// insert in the middle
+document.body.append(img); // adds the image at the end of the document
+
+Example #1: use of the createElement(), append() methods and of the textContent attribute
 <h4>Example:</h4>
 
 <pre>
