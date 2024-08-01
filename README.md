@@ -9,6 +9,8 @@ date last editted: "7/23/2024 Tue 7+pm"
 date last editted: "7/24/2024 Wed 5+pm"
 date last editted: "7/26/2024 Fri 10+am"
 date last editted: "7/29/2024 Mon 4+pm"
+date last editted: "7/31/2024 Wed 7+pm"
+
 output: 
   markdown:
     with some style
@@ -4018,7 +4020,7 @@ can have add some shadows, height, margin and so on. Let's me just copy and past
 some code I’ve prepared. Here we are. Now, what I've got, is a nicer presentation 
 of the function itself.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 140.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 141.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image141.png?raw=true"
   style="width:50%"
@@ -4035,9 +4037,9 @@ an event listener: "onchange="plot();. That means: "when the color has been sele
 call the plot() function". And you remember that this function is the one that plots 
 the mathematical function, here. The plot function is here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 141.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 142.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image141.png?raw=true"
+<img src="./images/image142.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4059,9 +4061,9 @@ corresponds to the part that I highlight now. .color=color</p>
 the same principles with other input fields. Let me just copy and paste some code 
 I prepared, that will add all these different controllers.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 142.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 143.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image142.png?raw=true"
+<img src="./images/image143.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4077,9 +4079,9 @@ and shadow properties from CSS, put the first section with the different input
 fields on the left and the plot on the right.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 143.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 144.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image143.png?raw=true"
+<img src="./images/image144.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4483,7 +4485,6 @@ let CASE_MATTERS = 'upper';
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Scope of JS variables (4:19)</h3>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156. scope of js variables (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5206,7 +5207,7 @@ both prefixed or suffixed, which have different effects:</p>
 3.  
 4.  &gt; var a = 1;
 5.  undefined
-6.  
+6.
 7.  &gt; var b = 2;
 8.  undefined
 9.  
@@ -6534,112 +6535,111 @@ the forum. And let other students enjoy your creation :D</p>
 <p>Live coding video: boolean value, if&hellip;else statement and comparison
 operators</p>
 
-<!-- image goes here -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image204.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
-Comparison operators and the if, else statements.
+<p>Comparison operators and the if, else statements.</p>
 
-First, let&apos;s look at some code&hellip; We&apos;ve got a 
+<p>First, let&apos;s look at some code&hellip; We&apos;ve got a 
 &quot;JavaScriptCourse&quot; variable that we&apos;re gonna set to true, it&apos;s 
 a boolean variable. And we&apos;re gonna see how this variable can be tested in a 
 &quot;if&quot; statement. In order to use the &quot;if&quot; statement, we type 
 &quot;if&quot;, followed by parentheses, and by a block of instructions, that will 
-be executed only if what is between the parentheses here, is true.
+be executed only if what is between the parentheses here, is true.</p>
 
-I&apos;m gonna put this variable that we set to true, and add an instruction
+<p>I&apos;m gonna put this variable that we set to true, and add an instruction
 inside. We can see in the console that the instruction in the block has been
 executed, and &quot;This is a JavaScript course&quot; has been printed to the
 console log. This is because when the thing we test -the expression we test 
 between the parentheses-is true, the block of instructions that follows the
-&quot;if&quot; statement, is executed.
+&quot;if&quot; statement, is executed.</p>
 
-If I set the variable to false and run the example again, then nothing
-is executed because the expression is false and the block of
-instructions is completely avoided.
-We can improve this example using an else statement.
-&quot;This is NOT a JavaScript course!&quot; I run it again.
-And the thing that is executed is the else block of instructions &quot;This
-is NOT a JavaScript course!&quot;.
+<p>If I set the variable to false and run the example again, then nothing is 
+executed because the expression is false and the block of instructions is 
+completely avoided. We can improve this example using an else statement.
+&quot;This is NOT a JavaScript course!&quot; I run it again. And the thing 
+that is executed is the else block of instructions &quot;This is NOT a 
+JavaScript course!&quot;.</p>
 
-If I set it back to true, you can see that it&apos;s a bit like a switch. It
+<p>If I set it back to true, you can see that it&apos;s a bit like a switch. It
 prints: &quot;This is a JavaScript course!&quot; Ok, let&apos;s see now comparison 
 operators. They are: less than, more than, less or equals to, more or equals to,
 equals equals (that means &quot;equals&quot;), not equals (that means &quot;different&quot;), 
 and a different version of these last two operators, that are called strict equals 
 and strict not equals operators. And they are written === and !== . These last two 
-syntaxes are preferred because they will avoid you a lot of errors.
+syntaxes are preferred because they will avoid you a lot of errors.</p>
 
-I will show the differences in a minute, but consider these last with the three 
+<p>I will show the differences in a minute, but consider these last with the three 
 equals (===) and not equals equals (==), to be the ones you must use. Let&apos;s 
 see some code now... I declared the variable &quot;age&quot; with a value of 1, 
 and I added some if&hellip; else statements. If &quot;age&quot; is less than 2, 
 print &quot;I&apos;m a baby&quot;, and you can see that this has been executed, 
 because the variable is 1, 1 is less than 2. It&apos;s been executed...
-I can add some &quot;else&hellip;if&quot; statements.
+I can add some &quot;else&hellip;if&quot; statements.</p>
 
-If age is 10, then in that case I&apos;ll go to the else statement and I will 
+<p>If age is 10, then in that case I&apos;ll go to the else statement and I will 
 test again if in this case, age is less than 18. I&apos;ll print &quot;I&apos;m 
-a child&quot;. And this works too. Only the second case has been executed.
+a child&quot;. And this works too. Only the second case has been executed.</p>
 
-The &quot;if&quot; block of instructions has been ignored, and the second &quot;if&quot;
-block of instructions has been executed.
-I can chain the &quot;else&hellip;if&quot; statements like that.
-And you can notice that I added at the end only an &quot;else&quot; statement,
-without an &quot;if&quot; behind.
-This means: &quot;when all the other cases are false, please come here!&quot;.
-If I set my age to be 70, then in that case, all the tests will be
-false, and I will execute the block of instructions that is just after the last &quot;else&quot;,
-and it prints &quot;I&apos;m old&quot;.
+<p>The &quot;if&quot; block of instructions has been ignored, and the second &quot;if&quot;
+block of instructions has been executed. I can chain the &quot;else&hellip;if&quot; 
+statements like that. And you can notice that I added at the end only an 
+&quot;else&quot; statement, without an &quot;if&quot; behind. This means: 
+&quot;when all the other cases are false, please come here!&quot;. If I set my 
+age to be 70, then in that case, all the tests will be false, and I will execute 
+the block of instructions that is just after the last &quot;else&quot;, and it 
+prints &quot;I&apos;m old&quot;.</p>
 
-I can also try&hellip; if the variable has some exact value using the ==
-operator. If I set the variable to be 72, then this test is true and it prints
-&quot;I&apos;m 72&quot; in the devtool console.
-We can also use more than one test at once using logical operators.
-The double ampersand (&&) here is the AND operator.
-This will be true only is age is more than 12 and less than 14.
+<p>I can also try&hellip; if the variable has some exact value using the ==
+operator. If I set the variable to be 72, then this test is true and it prints 
+&quot;I&apos;m 72&quot; in the devtool console. We can also use more than one 
+test at once using logical operators. The double ampersand (&&) here is the AND 
+operator. This will be true only is age is more than 12 and less than 14.</p>
 
-If I set the variable to 13, it will print &quot;I&apos;m a young teenager&quot;
-because both tests here, > 12 and &lt; 14, are true.
-I can use also the OR operator.
-In that case, it will be true if one of the two are true.
-Let&apos;s try with age = 8.
-With age equals to 8, this is false, age > 12, but age &lt; 14 is true,
-it prints &quot;I&apos;m a young teenager&quot;.
+<p>If I set the variable to 13, it will print &quot;I&apos;m a young teenager&quot;
+because both tests here, > 12 and &lt; 14, are true. I can use also the OR operator.
+In that case, it will be true if one of the two are true. Let&apos;s try with age = 8.
+With age equals to 8, this is false, age > 12, but age &lt; 14 is true, it prints 
+&quot;I&apos;m a young teenager&quot;.</p>
 
-Finally, let&apos;s have a look at the === operator.
-If I set the age to be &quot;72&quot;, but as a string, like this... it
-prints... let me clear the devtool console and execute it again... it prints &quot;I&apos;m 72&quot;
-because the age variable, that is a string, has been converted
-implicitly to a number.
-If I use the triple equal sign, then it does not print anymore &quot;I&apos;m
-72&quot; because age, as a string, has not been converted to a number.
-And thrust me, it&apos;s much better to use the triple equals operator, it
-will avoid you many errors like considering a string as a number, and so
-on.
+<p>Finally, let&apos;s have a look at the === operator. If I set the age to be &quot;72&quot;, 
+but as a string, like this... it prints... let me clear the devtool console and 
+execute it again... it prints &quot;I&apos;m 72&quot; because the age variable, 
+that is a string, has been converted implicitly to a number. If I use the triple 
+equal sign, then it does not print anymore &quot;I&apos;m 72&quot; because age, as 
+a string, has not been converted to a number. And thrust me, it&apos;s much better to 
+use the triple equals operator, it will avoid you many errors like considering a string 
+as a number, and so on.</p>
 
 <h4>Source code of the example shown in the video</h4>
 
-<h6><a href="https://codepen.io/w3devcampus/pen/pPmqwq?editors=0012" target="_blank" rel="noopener noreferrer">This example is available on
-CodePen</a></h6>
+<h6><a href="https://codepen.io/w3devcampus/pen/pPmqwq?editors=0012" 
+target="_blank" rel="noopener noreferrer">This example is available on CodePen</a></h6>
 
 <p>Before talking about how your JavaScript program can make decisions,
 such as &quot;<b>if this condition is fulfilled then I&apos;ll do this, otherwise
 I&apos;ll do that&hellip;</b>&quot;, we need to define a few more concepts.</p>
 
-Let&apos;s start with &quot;boolean values&quot; and &quot;logical operators&quot;.
+<p>Let&apos;s start with &quot;boolean values&quot; and &quot;logical operators&quot;.</p>
 
 <h4>Boolean values</h4>
 
-The <b>boolean</b> type represents a logical entity having two values: true and false.
+<p>The <b>boolean</b> type represents a logical entity having two values: true and false.</p>
 
-Use of the keywords true and false:
+<p>Use of the keywords true and false:</p>
 
 <pre>
 1.  var b = true; 
 2.  var b = false;
 </pre>
 
-A boolean variable should not be enclosed in quotation marks, otherwise
-it becomes a string variable:
+<p>A boolean variable should not be enclosed in quotation marks, otherwise
+it becomes a string variable:</p>
 
 <pre>1. var b = 'true'; // b is not a boolean but a string</pre>
 
@@ -6663,11 +6663,11 @@ it becomes a string variable:
 11. 'The variable foo has no value and is undefined'
 </pre>
 
-The above example shows how we can test whether a variable has a value
-(<b>line 8</b> uses a conditional statement).
+<p>The above example shows how we can test whether a variable has a value
+(<b>line 8</b> uses a conditional statement).</p>
 
-The keyword &quot;<b>undefined</b>&quot; is part of the JavaScript language, so you
-can assign the undefined value to a variable:
+<p>The keyword &quot;<b>undefined</b>&quot; is part of the JavaScript language, so you
+can assign the undefined value to a variable:</p>
 
 <pre>
 1.  &gt; var foo = undefined; // equivalent to var foo; without giving any value
@@ -6677,13 +6677,13 @@ can assign the undefined value to a variable:
 5.  undefined
 </pre>
 
-var foo; and var foo = undefined; are equivalent but we recommend that
+<p>var foo; and var foo = undefined; are equivalent but we recommend that
 you use the first version to declare the variable (it is shorter, and
-that reduces the code).
+that reduces the code).</p>
 
-If you try to access a variable that has not been declared before,
+<p>If you try to access a variable that has not been declared before,
 a ReferenceError will be raised. But the typeof operator will return
-&quot;undefined&quot;:
+&quot;undefined&quot;:</p>
 
 <pre>
 1.  &gt; bar;
@@ -6713,7 +6713,6 @@ a ReferenceError will be raised. But the typeof operator will return
     }</li>
   <li><b>&&</b>, &vert;&vert; operators are binary, ! is unary.</li>
 </ul>
-
 
 <pre>
 1.  var b = !true; 
@@ -6789,14 +6788,14 @@ are implicitly converted to booleans</b>.</p>
 1.  var boo = 'hello' && 'world'; // boo is equal to 'world' that is 'true'.
 </pre>
 
-In the above example, &apos;hello&apos; && &apos;world&apos; is evaluated as true but
+<p>In the above example, &apos;hello&apos; && &apos;world&apos; is evaluated as true but
 will return a value! Indeed, boo will equal &apos;world&apos; because
 &apos;hello&apos; is a string value that is evaluated as true. And &apos;world&apos; is
 in also true as it&apos;s not one of the value cited in the previous
-paragraph. If we do : if (boo) then&hellip;. we will enter the if statement.
+paragraph. If we do : if (boo) then&hellip;. we will enter the if statement.</p>
 
-The rule is that both && and &vert;&vert; result in the value of (exactly) one
-of their operands:
+<p>The rule is that both && and &vert;&vert; result in the value of (exactly) one
+of their operands:</p>
 
 <ul>
   <li>A && B returns the value A if A can be coerced into false;
@@ -6805,18 +6804,18 @@ of their operands:
     otherwise, it returns B.</li>
 </ul>
 
-External resource: <a href="https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript">
-The && and &vert;&vert; Operators in JavaScript</a>
+<p>External resource: <a href="https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript">
+The && and &vert;&vert; Operators in JavaScript</a></p>
 
-<b>TO SUM UP: it works &quot;normally&quot; if you just think true/false, but the
+<p><b>TO SUM UP: it works &quot;normally&quot; if you just think true/false, but the
 real value affected is not true false, it&apos;s one of the operands, that
-can be seen as true/false.</b>
+can be seen as true/false.</b></p>
 
 <pre>1.  <b>var boo2 = (0/0) || 43.2 ;</b></pre>
 
 <p>boo2 equals 43.2 because the expression 0/0 equals NaN, which is evaluated as false.</p>
 
-<b>Question:</b>
+<p><b>Question:</b></p>
 
 <p>What is the value of the variable myNumber after the execution of this code?</p>
 
@@ -6830,11 +6829,11 @@ if(myNumber == null){
 myNumber = myNumber || 2;
 </pre>
 
-<b>Explanation</b>: after the first line, myNumber equals false. In
+<p><b>Explanation</b>: after the first line, myNumber equals false. In
 the if statement, at <b>line 3</b>, false does not equal null. Therefore,
 the value 3 is not assigned to the var myNumber. In the last
 line, myNumber is evaluated as false, then the value 2 is given to the
-variable myNumber.
+variable myNumber.</p>
 
 <h4>Comparison operators</h4>
 
@@ -6853,19 +6852,19 @@ variable myNumber.
 
 <h5>Equal (==)</h5>
 
-Returns true if the operands are strictly equal <b>with type
-conversion</b>.
+<p>Returns true if the operands are strictly equal <b>with type
+conversion</b>.</p>
 
 <h5>Strict equal (===)</h5>
 
-Returns true if the operands are strictly equal <b>with no type
-conversion</b>.
+<p>Returns true if the operands are strictly equal <b>with no type
+conversion</b>.</p>
 
-The triple-equals operator never does type coercion. It returns true if
+<p>The triple-equals operator never does type coercion. It returns true if
 both operands reference the same object, or in the case of value types,
-have the same value.
+have the same value.</p>
 
-Some examples :
+<p>Some examples:</p>
 
 <pre>
 1 == 1;
@@ -6904,8 +6903,8 @@ equal) is preferred.</p>
 
 <h4>Specific case of NaN</h4>
 
-As we have already seen, JavaScript has some special values. One of them
-is NaN: "Not-a-Number". 
+<p>As we have already seen, JavaScript has some special values. One of them
+is NaN: "Not-a-Number".</p>
 
 <h5>NaN has this special property:</h5>
 
@@ -6981,59 +6980,64 @@ appear, for example:</p>
 <h3 id="ch2-2-2">2.2.2 Conditional statements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: switch statement</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <!-- image goes here -->
 
-Hi! Let&apos;s have a look at the switch statement.
+<p>Hi! Let&apos;s have a look at the switch statement.</p>
 
-I prepared a small example in which we take a day number between 0 and
+<p>I prepared a small example in which we take a day number between 0 and
 6, 0 for Monday, 1 for Tuesday, and so on...
 And to pick a random number that is an integer, we used a formula like
-this, that uses a predefined object called Math.
+this, that uses a predefined object called Math.</p>
 
-Math.random() returns a number between 0 and 1, 6 multiplied by
+<p>Math.random() returns a number between 0 and 1, 6 multiplied by
 this, will give a number between 0 and 7, and we just return the rounded
 nearest integer.
 When we execute this, &quot;picked day number&hellip;&quot; you see that it takes
 some random values each time we execute.
-If I clear the console and execute this, it will pick a number.
+If I clear the console and execute this, it will pick a number.</p>
 
-And then, here is a first version that uses &quot;if statements&quot; that is a
+<p>And then, here is a first version that uses &quot;if statements&quot; that is a
 bit naïve.
 It says: if day equals 0, then print Monday; if day equals 1 ... ; and
 so on. Why is it naïve?
 Because we&apos;re going to execute all the tests and we all know that only
-one of them will be true.
+one of them will be true.</p>
 
-Instead of multiplying series the tests, a better version is to use
+<p>Instead of multiplying series the tests, a better version is to use
 &quot;if&hellip; else&quot; statements, like this&hellip; so if day equals 0, then print
 Monday, else if day equals 1, print Tuesday&hellip;
 In that case, we&apos;re gonna test just until we find the day, and all the
-else will be ignored.
+else will be ignored.</p>
 
-A much better version uses a switch.
+<p>A much better version uses a switch.
 When you&apos;ve got to make multiple tests, it might be more interesting to
 use a switch. switch(day). Then you test with the different possible values, using
-the &quot;case&quot; keyword.
+the &quot;case&quot; keyword.</p>
 
-&quot;case 0&quot;: that means that &quot;if day equals 0, then execute
-console.log(&apos;Monday&apos;).
+<p>&quot;case 0&quot;: that means that &quot;if day equals 0, then execute
+console.log(&apos;Monday&apos;).</p>
 
-The break here means &quot;ignore all the other cases&quot;.
-
+<p>The break here means &quot;ignore all the other cases&quot;.
 When you put a break after each case, it&apos;s a bit like the
 &quot;if&hellip;else&quot; example we saw earlier: only one block of instructions
-will be executed here...
+will be executed here...</p>
 
-You can see that the 3 different versions with the naive if, the
-if-else statement and the switch, give the same result.
+<p>You can see that the 3 different versions with the naive if, the
+if-else statement and the switch, give the same result.</p>
 
-Be careful because sometimes, if you forget to use a &quot;break&quot;, you can
+<p>Be careful because sometimes, if you forget to use a &quot;break&quot;, you can
 enter different case statements.
-
 You can make errors if you don&apos;t know what to break keyword means, but
-it can also be useful to regroup cases.
+it can also be useful to regroup cases.</p>
 
-For example, if I want to print &quot;This is a week day, we go to work!&quot;,
+<p>For example, if I want to print &quot;This is a week day, we go to work!&quot;,
 when we&apos;ve got Monday, Tuesday&hellip; any day of the week! And if I want
 to print &quot;Week end!&quot; for Saturday and Sunday, then I can regroup cases
 like that.
@@ -7042,31 +7046,28 @@ break after we executed the block of instructions that is related to all
 these five cases.
 Doing this, we will print &quot;Week Day&hellip;&quot; only if the day has a 
 value of 0, 1, 2, 3 or 4, and we will print &quot;Week end!&quot; if it has a
-value of 5 or 6.
-Be careful because I saw this error a lot of time with beginners: you
+value of 5 or 6.</p>
+
+<p>Be careful because I saw this error a lot of time with beginners: you
 must use &quot;case&quot; only with a value after it, not an expression!
 This thing here case &quot;day greater or equal than 0&quot; or &quot;day less than
-4&quot; is not valid.
+4&quot; is not valid. You cannot use an expression here, after the case.
+This is not going to work. Avoid! This&hellip; error!</p>
 
-You cannot use an expression here, after the case.
-This is not going to work.
-Avoid!
-This&hellip; error!
-And finally, there is a better solution to the problem I've illustrated.
+<p>And finally, there is a better solution to the problem I've illustrated.
 It&apos;s not to use any if or any switch&hellip;but use an array!
-
 If we&apos;ve got an array that contains all the string values for the
 days of the week, we can just do a console.log&hellip; daysOfTheWeek&hellip; 
 brackets, and use the day as an index.
-And this works too and it&apos;s only two lines of code.
+And this works too and it&apos;s only two lines of code.</p>
 
 <h4>Example from the video</h4>
 
 <h6><a href="https://codepen.io/w3devcampus/pen/jmoJRZ" target="_blank" rel="noopener noreferrer">CodePen example from the video</a></h6>
 
-JavaScript source code is a set of statements. There are a couple of
+<p>JavaScript source code is a set of statements. There are a couple of
 different statement types. We have already seen one of them, the
-variable statement:
+variable statement:</p>
 
 <pre>1.  var myVar = 'hello ' + 'world';</pre>
 
@@ -11838,3 +11839,5 @@ element.appendChild(para);
 <!-- last editted 7/24/2024 5:34pm -->
 <!-- last editted 7/26/2024 10:16am -->
 <!-- last editted 7/29/2024 4:22pm -->
+<!-- last editted 7/31/2024 7:38pm -->
+
