@@ -3420,7 +3420,7 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 
 <h4>First variant: in the &lt;body&gt;..&lt;/body&gt; of the HTML document</h4>
 
-Typically:
+<p>Typically:</p>
 
 <pre>
 1.  &lt;body&gt;
@@ -3898,6 +3898,7 @@ browsers, since they differ from one another in the way they work
 comments/observations/questions or share your creations.</p>
 
 <h4>Suggested topics</h4>
+
 <ul>
   <li>Which source code editor(s) do you use?</li>
   <li>If you use a source code editor that supports plugins/extension modules, 
@@ -3905,6 +3906,7 @@ comments/observations/questions or share your creations.</p>
 </ul>
 
 <h4>Optional projects</h4>
+
 <ul>
   <li>Share your versions of the examples from the course with improvements and 
     changes!</li>
@@ -6395,6 +6397,7 @@ look here</a> for a solution.</p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/NdVJvy">CodePen</a></h6>
 
 <h4>Example #2: plot a force directed graph using the d3.js JavaScript library</h4>
+
 <p>Try to click and drag nodes... All the graphics, animation and force repulsion, 
 is done using the very powerful d3.js plotting library. Look at the HTML source 
 code to see how we included this library in our HTML page. Look at the JS part; 
@@ -8097,28 +8100,25 @@ border:2px solid;
 }
 </pre>
 
-However, firing a specific action when the button is clicked, knowing
+<p>However, firing a specific action when the button is clicked, knowing
 which mouse button has been used, computing the (x, y) mouse pointer
 position in the button system coordinate, or executing more complex
-tasks can only be done through JavaScript.
+tasks can only be done through JavaScript.</p>
 
-With JavaScript, a button click, a move of the mouse, a resized window,
-and many other interactions create what are called &quot;events&quot;.  The
+<p>With JavaScript, a button click, a move of the mouse, a resized window,
+and many other interactions create what are called &quot;events&quot;. The
 timing and order of events cannot be predicted in advance. We say that
 &quot;event processing&quot; is asynchronous. Web browsers detect events as they
 occur, and may pass them to JavaScript code. They do this by allowing
 you to register functions as <b>event listeners</b>, also
-called <b>handlers</b> or <b>callbacks</b> for specific events.
+called <b>handlers</b> or <b>callbacks</b> for specific events.</p>
 
-Each time an event occurs, the browser puts it in a &quot;queue of events&quot;.
-
+<p>Each time an event occurs, the browser puts it in a &quot;queue of events&quot;. 
 Then the browser looks at a list of &quot;Event Listeners&quot; and calls the
-ones that correspond to the type of event &quot;they listen to&quot;.
-
+ones that correspond to the type of event &quot;they listen to&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-2">2.4.2 Adding and removing event listeners</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <h4>Live coding video: adding an event listener to a document</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8128,18 +8128,17 @@ ones that correspond to the type of event &quot;they listen to&quot;.
   title=""
   alt="." />
 
-Hello. Let&apos;s see how events work in JavaScript. In this video, I will
+<p>Hello. Let&apos;s see how events work in JavaScript. In this video, I will
 show you how to add a simple event listener for detecting clicks or mouse moves,
-and we will start with the simplest example.
+and we will start with the simplest example.</p>
 
-It's listening for events that will occur anywhere on the Web page.
+<p>It's listening for events that will occur anywhere on the Web page.</p>
 
 When we add an event listener to the whole page, the syntax is this one:
 you can type &quot;AddEventListener&quot;, followed by the name of the event.
 
 Here we are going to listen to mouse clicks. And then indicate the
 reference of the callback function that will process the event.
-
 Let&apos;s write this callback&hellip;and let&apos;s try it! I clicked on the page
 anywhere, and an alert message appeared.
 
@@ -8231,30 +8230,24 @@ You must understand that when you execute document.querySelector,
 the button must exist in the page and must has been rendered.
 
 We say that &quot;the DOM of the page must be ready&quot;.
-
 When an HTML page is rendered, it&apos;s sequential, it goes from top to
 bottom, so in that case, the button is created, added to the DOM, then the
 script is executed, and document.querySelector will return a reference on the button.
 
-If I move this script tag before the button, in that case, it&apos;s not
+<p>If I move this script tag before the button, in that case, it&apos;s not
 going to work because the b variable here will correspond to nothing,
 it will be null because there is not yet a button in the DOM.
-
 And if we look at the devtool console, we see
-
 &quot;cannot read property addEventListener of null&quot;.
-
 This occurs at this line, we try to run addEventListener on a variable
-that is null.
-
-So, be very careful, do not try to select an HTML element when the DOM
-is not yet ready.
+that is null. Be very careful, do not try to select an HTML element when the DOM
+is not yet ready.</p>
 
 <h4>Event listeners: a typical example</h4>
 
-Here is one possible syntax for registering an event listener that
+<p>Here is one possible syntax for registering an event listener that
 listens to &quot;click&quot; events on any part of the window (clicks anywhere
-on a web document will be processed by this event handler):
+on a web document will be processed by this event handler):</p>
 
 <pre>
 &lt;script&gt;
@@ -8300,8 +8293,8 @@ function to be called when a given type of event occurs.
 1.  addEventListener(type_of_event, callback_function)
 </pre>
 
-In the example below, the type of event is a &apos;click&apos;, and the callback
-function is the part in bold:
+<p>In the example below, the type of event is a &apos;click&apos;, and the callback
+function is the part in bold:</p>
 
 <pre>
 1.  function(evt) {
@@ -8309,10 +8302,10 @@ function is the part in bold:
 3.  }
 </pre>
 
-When this function is small (a few lines of code), it&apos;s common practice
-to put its body as the second parameter of the addEventListener function.
+<p>When this function is small (a few lines of code), it&apos;s common practice
+to put its body as the second parameter of the addEventListener function.</p>
 
-In other words, this:
+<p>In other words, this:</p>
 
 <pre>
 1.  &lt;script&gt;
@@ -8322,9 +8315,9 @@ In other words, this:
 5.  &lt;/script&gt;
 </pre>
 
-&hellip; is the same as this (the function called when a click occurs has
+<p>&hellip; is the same as this (the function called when a click occurs has
 its body &quot;outside&quot; of the addEventListener parameters, and we use its
-name as the second parameter):
+name as the second parameter):</p>
 
 <pre>
 1.  &lt;script&gt;
@@ -8336,14 +8329,12 @@ name as the second parameter):
 7.  &lt;/script&gt;
 </pre>
 
-<h4>Adding an event listener to specific HTML elements
+<h4>Adding an event listener to specific HTML elements</h4>
 
-Instead of listening to event on the whole document
-(using addEventListener is the same as using window.addEventListener),
-we can listen to specific DOM elements.
-
-For example, here is how we can listen to clicks on a specific button
-(whereas clicks on the rest of the document will be ignored).
+<p>Instead of listening to event on the whole document (using addEventListener 
+is the same as using window.addEventListener), we can listen to specific DOM 
+elements. For example, here is how we can listen to clicks on a specific button 
+(whereas clicks on the rest of the document will be ignored).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8374,23 +8365,24 @@ alert(&quot;Button clicked&quot;);
 &lt;/html&gt;
 </pre>
 
-In this example, instead of using the addEventListener method directly,
-we used it on a DOM object (the button):
+<p>In this example, instead of using the addEventListener method directly,
+we used it on a DOM object (the button):</p>
 
-1.  Get a reference of the HTML element that can fire the events you
+<ol>
+  <li>Get a reference of the HTML element that can fire the events you
     want to detect. This is done using the DOM API that we&apos;ll cover in
     detail later in this Module. In this example we used one of the most
-    common/useful methods: var b =
-    document.querySelector(&quot;#myButton&quot;);
+    common/useful methods: var b = document.querySelector(&quot;#myButton&quot;);</li>
+  <li>Call the addEventListener method on this object. In the example: 
+    b.addEventListener(&apos;click&apos;, callback)</li>
+</ol>
 
-2.  Call the addEventListener method on this object. In the
-    example: b.addEventListener(&apos;click&apos;, callback)
-
-Every DOM object has an addEventListener method. Once you get a
+<p>Every DOM object has an addEventListener method. Once you get a
 reference of  any HMTL element from JavaScript, you can start listening
-to events on it.
+to events on it.</p>
 
-<h4>An alternative method for adding an event listener to an HTML element: use an &quot;on&quot; attribute (ex: onclick = &quot;&hellip;.&quot;)</h4>
+<h4>An alternative method for adding an event listener to an HTML element: use an &quot;on&quot; 
+attribute (ex: onclick = &quot;&hellip;.&quot;)</h4>
 
 <p>Instead of using b.addEventListener(&apos;click&apos;, callback), it&apos;s possible
 to use an onclick=&apos;doSomething();&apos; attribute directly in the HTML tag
@@ -8423,31 +8415,30 @@ alert(&quot;Button clicked&quot;);
 &lt;/html&gt;
 </pre>
 
-This syntax:
+<p>This syntax:</p>
 
 <pre>
 1.  &lt;button id=&quot;myButton&quot; <b>onclick=&quot;processClick(event);</b>&quot;&gt;Click me!&lt;/button&gt;
 </pre>
 
-&hellip; is ok when you only need a single event listener to click events
+<p>&hellip; is ok when you only need a single event listener to click events
 for this button, as there can be only one onclick attribute per element.
-
 Using the b.addEventListener(&apos;click&apos;, callback) syntax,  you can
 register more than one event listener. You&apos;ll need rarely to do this,
-so in my opinion it&apos;s fine to choose whichever syntax you like.
+so in my opinion it&apos;s fine to choose whichever syntax you like.</p>
 
-Remember that for big projects, it&apos;s always better to separate the
+<p>Remember that for big projects, it&apos;s always better to separate the
 HTML, CSS and JavaScript code. In this case, I&apos;d recommend that you put
 all your event listener definitions in a separate JavaScript file, and
 use the addEventListener syntax in preference to the &quot;on&quot; attributes
-syntax.
+syntax.</p>
 
-### Removing event listeners
+<h4>Removing event listeners</h4>
 
-When we click on the button, we execute the processClick(evt) callback
+<p>When we click on the button, we execute the processClick(evt) callback
 function, and inside we remove the listener we previously registered.
 Consequence: if we click on the button again, nothing happens as there
-is no longer a click event listener attached to it.
+is no longer a click event listener attached to it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8481,17 +8472,14 @@ b.removeEventListener('click', processClick);
 &lt;/html&gt;
 </pre>
 
-Note that to remove an event listener, you should have added it with its
-named function, so that we can pass it to
-both addEventListener and removeEventListener.
-
+<p>Note that to remove an event listener, you should have added it with its named 
+function, so that we can pass it to both addEventListener and removeEventListener.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-3">2.4.3 The event object</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>The event object is the only parameter passed to event listeners.</p>
 
-The event object is the only parameter passed to event listeners.
-
-Typical example:
+<p>Typical example:</p>
 
 <pre>
 1.  function processClick(<b>evt</b>) {
@@ -8529,8 +8517,7 @@ common to all types of events:
     to an object, if you call <b>evt.preventDefault()</b>, instead of
     having the right click default context menu of your browser
     displayed, you&apos;ll be able to display your own context menu,
-    like [in this
-    example](https://jsbin.com/kuyorac/edit?html,css,js,console,output).
+    like <a href="https://jsbin.com/kuyorac/edit?html,css,js,console,output">in this example</a>.
 
 It also contains properties that are associated with the type of the
 event, for example:
@@ -8547,9 +8534,9 @@ event, for example:
 In the subsequent sections of this course we will look at the most
 common types of events in detail.
 
-### Reference table
+<h4>Reference table</h4>
 
-The most useful common properties are:
+<p>The most useful common properties are:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8972,7 +8959,7 @@ which real keyboard keys, so here are some handy pointers:</p>
   alt="." />
 <!-- ![](./images/image165.png){width="6.5in" height="1.2861111111111112in"} -->
 
-<h4>keyboardEvent properties
+<h4>keyboardEvent properties</h4>
 
 These are legacy properties, still used by many JavaScript code around
 the world. However, we do not recommend that you use them if you are
@@ -9155,9 +9142,11 @@ For details, see [Wikipedia's keyboard layout page](https://en.wikipedia.org/wi
   alt="." />
 <!-- ![AZERTY keyboard layout](./images/image170.png){width="5.208333333333333in" height="1.6041666666666667in"} -->
 
-<h4>In addition, [QWERTZ](https://en.wikipedia.org/wiki/QWERTZ) keyboards are in use in Germany and other European countries, and [DVORAK](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout) is another alternative to QWERTY:</h4>
+<h4>In addition, <a href="https://en.wikipedia.org/wiki/QWERTZ">QWERTZ</a> keyboards are in use in Germany 
+and other European countries, and <a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout">DVORAK</a> is another 
+alternative to QWERTY:</h4>
 
-DVORAK:
+<h5>DVORAK:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 209.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9167,7 +9156,7 @@ DVORAK:
   alt="." />
 <!-- ![DVORAK layout keyboard](./images/image171.png){width="5.208333333333333in" height="1.6041666666666667in"} -->
 
-QWERTZ:
+<h5>QWERTZ:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9177,7 +9166,7 @@ QWERTZ:
   alt="." />
 <!-- ![QWERTZ layout keyboard](./images/image172.png){width="5.208333333333333in" height="1.7395833333333333in"} -->
 
-<h4>Saudi Arabic keyboard layout (see more [Arabic keyboards](https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards)):</h4>
+<h4>Saudi Arabic keyboard layout (see more <a href="https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards">Arabic keyboards</a>):</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 211.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9187,7 +9176,7 @@ QWERTZ:
   alt="." />
 <!-- ![Saoudian Arabic keyboard layout](./images/image173.jpeg){width="6.5in" height="2.478125546806649in"} -->
 
-<h4>[Bangla National (Jatiyo) keyboard](https://en.wikipedia.org/wiki/Bengali_input_methods#Bangla_Jatiyo):</h4>
+<h4><a href="">Bangla National (Jatiyo) keyboard</a>:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9200,52 +9189,45 @@ QWERTZ:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-7">2.4.7 Key and code properties</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>key and code are new recommended properties you can use with modern browsers.</p>
 
-key and code are new recommended properties you can use with modern
-browsers.
+<p>You may have noticed that in some examples from the previous course page about 
+key events, we used event.key in order to display the character that has been typed. 
+The key property has been introduced with a new W3C API called UI Events (or DOM level 
+3 events), that has been discussed since 2000.  All major browsers have implemented 
+this very practical key property. It comes with another property named code, which
+is what keyCode should have been. The value of the code property corresponds to a code 
+that is more readable than the value of the old keyCode property.</p>
 
-You may have noticed that in some examples from the previous course page
-about key events, we used event.key in order to display the character
-that has been typed. The key property has been introduced with a new W3C
-API called UI Events (or DOM level 3 events), that has been discussed
-since 2000.  All major browsers have implemented this very
-practical key property. It comes with another property named code, which
-is what keyCode should have been. The value of the code property
-corresponds to a code that is more readable than the value of the
-old keyCode property.
-
--   <b>key: </b>when the pressed key is a printable character, you get the
+<ul>
+  <li><b>key: </b>when the pressed key is a printable character, you get the
     character in string form. When the pressed key is not a printable
     character (for example: Backspace, Control, but also Enter or Tab
     which actually are printable characters), you get a multi-character
     descriptive string, like &apos;Backspace&apos;, &apos;Control&apos;, &apos;Enter&apos;,
-    &apos;Tab&apos;.
-
--   <b>code</b>: Gives you the physical key that was pressed, in string
+    &apos;Tab&apos;.</li>
+  <li><b>code</b>: Gives you the physical key that was pressed, in string 
     form. This means it's totally independent of the keyboard layout
     that is being used. So let's say the user presses the Q key on a
     QWERTY keyboard. </b>Then event.code gives you &apos;KeyQ&apos;
-    while event.key gives you &apos;q&apos;.
-    
-    But when an AZERTY keyboard user presses the A key, he also gets
-    &apos;KeyQ&apos; as event.code, yet event.key contains &apos;a&apos;. This happens
-    because the A key on a AZERTY keyboard is at the same location as
-    the Q key on a QWERTY keyboard.
-    
-    <b>As for numbers, the top digit bar yields values like &apos;Digit1&apos;</b>,
-    while the numeric pad yields values like &apos;Numpad1&apos;.
+    while event.key gives you &apos;q&apos;.</li>
+</ul>
+
+<p>But when an AZERTY keyboard user presses the A key, he also gets 
+&apos;KeyQ&apos; as event.code, yet event.key contains &apos;a&apos;. This happens 
+because the A key on a AZERTY keyboard is at the same location as 
+the Q key on a QWERTY keyboard.</p>
+
+<p><b>As for numbers, the top digit bar yields values like &apos;Digit1&apos;</b>,
+    while the numeric pad yields values like &apos;Numpad1&apos;.</p>
 
 <h4>List of codes, the reference keyboard</h4>
 
-There's no existing keyboard with all the possible keys. That's why the
-W3C published [a specification just for
-this](https://www.w3.org/TR/uievents-code/). You can read about
-the [existing mechanical
-layouts](https://www.w3.org/TR/uievents-code/#keyboard-layout) around
-the world, as well as their [reference
-keyboard](https://www.w3.org/TR/uievents-code/#code-value-tables). For
-instance here is their reference keyboard for the alphanumerical part:
-
+<p>There's no existing keyboard with all the possible keys. That's why the
+W3C published <a href="https://www.w3.org/TR/uievents-code/">a specification just for
+this</a>. You can read about the <a href="https://www.w3.org/TR/uievents-code/#keyboard-layout">existing mechanical
+layouts</a> around the world, as well as their <a href="https://www.w3.org/TR/uievents-code/#code-value-tables">reference
+keyboard</a>. For instance here is their reference keyboard for the alphanumerical part:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9294,39 +9276,38 @@ both for code and key.
 
 <pre>
 window.onkeydown = function(evt) {
-document.body.innerHTML += &quot;key = &quot; + evt.key + &quot;<br>&quot;;
-document.body.innerHTML += &quot;code = &quot; + evt.code + &quot;<br><br>&quot;;
+  document.body.innerHTML += &quot;key = &quot; + evt.key + &quot;&lt;br&gt;&quot;;
+  document.body.innerHTML += &quot;code = &quot; + evt.code + &quot;&lt;br&gt;&lt;br&gt;&quot;;
 }
 </pre>
 
-I encourage you to take a look and get at least an overview of this
-specification.
+<p>I encourage you to take a look and get at least an overview of this
+specification.</p>
 
-Please note that the W3C has also published a sibling specification
-describing the values for the key property.
+<p>Please note that the W3C has also published a sibling specification
+describing the values for the key property.</p>
 
-### Current browser support
+<h4>Current browser support</h4>
 
--   [CanIUse table for key](https://caniuse.com/#feat=keyboardevent-key)
-
--   [CanIUse table
-    F-for code](https://caniuse.com/#feat=keyboardevent-code)
-
+<ul>
+  <li><a href="https://caniuse.com/#feat=keyboardevent-key">CanIUse table for key</a></li>
+  <li><a href="https://caniuse.com/#feat=keyboardevent-code">CanIUse table F-for code</a></li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-8">2.4.8 Mouse events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<b><i>Important note</i>: Remember that many people do not use the mouse and
+<p><b><i>Important note</i>: Remember that many people do not use the mouse and
 rely on the keyboard to interact with the Web. This requires keyboard
 access to all functionality, including form controls, input, and other
-user interface components (</b>[<i>learn more</i>](https://www.w3.org/WAI/intro/people-use-web/principles#operable)).
+user interface components (</b><a href="https://www.w3.org/WAI/intro/people-use-web/principles#operable">
+<i>learn more</i>).</p>
 
-Detecting mouse events in a canvas is quite straightforward: you add an
+<p>Detecting mouse events in a canvas is quite straightforward: you add an
 event listener to the canvas, and the browser invokes that listener when
-the event occurs.
+the event occurs.</p>
 
-The example below is about listening to mouseup and mousedown events
-(when a user presses or releases any mouse button):
+<p>The example below is about listening to mouseup and mousedown events
+(when a user presses or releases any mouse button):</p>
 
 <pre>
 canvas.addEventListener('mousedown', function (evt) {
@@ -9337,12 +9318,12 @@ canvas.addEventListener('mouseup', function (evt) {
 });
 </pre>
 
-The event received by the listener function will be used for getting the
+<p>The event received by the listener function will be used for getting the
 button number or the coordinates of the mouse cursor. Before looking at
 different examples, let&apos;s look at the different event types we can
-listen to.
+listen to.</p>
 
-<h4>Mouse events
+<h4>Mouse events</h4>
 
 <h4>Event types related to mouse</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9400,12 +9381,12 @@ listen to.
 
 <pre>
 #myDiv {
-color:red;
-background-color: pink;
-width:100px;
-height:100px;
-text-align:center;
-margin:20px;
+  color:red;
+  background-color: pink;
+  width:100px;
+  height:100px;
+  text-align:center;
+  margin:20px;
 }
 </pre>
 
@@ -9414,28 +9395,28 @@ margin:20px;
 <pre>
 window.onclick = processClick;
 function processClick(evt) {
-var clicks = document.querySelector('#clicks');
-var target = evt.target.id;
-if(target === &quot;&quot;) {
-clicks.innerHTML += &quot;You clicked on the window, not on a particular
-  element!<br>&quot;;
-} else {
-clicks.innerHTML += &quot;Element clicked id: &quot; + target + &quot;<br>&quot;;
-}
-evt.stopPropagation(); // try commenting it and click on the button or
-div
+  var clicks = document.querySelector('#clicks');
+  var target = evt.target.id;
+  if(target === &quot;&quot;) {
+    clicks.innerHTML += &quot;You clicked on the window, not on a particular
+      element!<br>&quot;;
+  } else {
+    clicks.innerHTML += &quot;Element clicked id: &quot; + target + &quot;<br>&quot;;
+  }
+  evt.stopPropagation(); // try commenting it and click on the button or
+  div
 }
 </pre>
 
 <h4>Example #2: see the differences between clientX/clientY and pageX/pageY</h4>
 
-The source code is not meant to be understood. It uses the jQuery lib.
+<p>The source code is not meant to be understood. It uses the jQuery lib.
 Please move the mouse pointer, and look at the different properties.
 Then scroll the page (the table at the top will not move), and look at
 the properties again; notice how pageX/pageY change, since they are
 relative to the top of the page, even if they are not visible. Click on
 the codePen label on top right and run this example! It does not work
-when embedded in this page!
+when embedded in this page!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9576,8 +9557,8 @@ mouseScreenPositions.innerHTML = &quot;screenX: &quot; + evt.screenX +
 
 <h4>Example #4: detect a mousemove and get the mouse position relative to the element that fired the event</h4>
 
-Here is a first version that does not work well due to a naive use of
-clientX/PageX and clientY/pageY mouse event properties:
+<p>Here is a first version that does not work well due to a naive use of
+clientX/PageX and clientY/pageY mouse event properties:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9640,13 +9621,13 @@ mousePositions.innerHTML = &quot;mouse pos X: &quot; + evt.clientX +
 }
 </pre>
 
-Here is another version that uses clientX/clientY and
+<p>Here is another version that uses clientX/clientY and
 the e.target.getBoundingClientRect() method that returns the bounding
 rectangle that contains the element that fired the event. The return
 value has top, left, width, and height properties that describe this
 rectangle. We can use the top and left properties along
 with evt.clientX and evt.clientY to fix the mouse position and to get a
-real position relative to the top left corner of the canvas:
+real position relative to the top left corner of the canvas:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 213.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9987,12 +9968,10 @@ console.log('clear');
 toggleMenuOff();
 }
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-9">2.4.9 Form and input field events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<h4>Events related to forms
+<h4>Events related to forms</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 216.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10002,7 +9981,7 @@ toggleMenuOff();
   alt="." />
 <!-- ![](./images/image186.png){width="6.5in" height="2.6506944444444445in"} -->
 
-<h4>FormEvent properties
+<h4>FormEvent properties</h4>
 
 There are no particular properties that need to be mentioned here.
 Usually, on a form event listener, we check the content of the different
@@ -10298,7 +10277,7 @@ output.innerHTML = &quot;Color selected: &quot; + color;
 <h3 id="ch2-4-10">2.4.10 Reference tables</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-<h4>Quick summary of event management in JavaScript
+<h4>Quick summary of event management in JavaScript</h4>
 
 <h5>HTML5 events:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10320,7 +10299,7 @@ will refer to these variables when determining what action to perform.
 In any case, the events are called DOM events, and we use the DOM APIs
 to create <b>event handlers</b>.
 
-<h4>How to listen to events {#how-to-listen-to-events .unnumbered}
+<h4>How to listen to events</h4>
 
 There are three ways to manage events in the DOM structure. You could
 attach an event inline in your HTML code like this:
@@ -11079,7 +11058,7 @@ img.width = 100;
 Here are some other examples that use more complicated CSS selectors. If
 you are not familiar with their syntax, we recommend that you follow the
 CSS basics, and HTML5 and CSS fundamentals courses
-from [W3Cx](https://www.edx.org/school/w3cx).
+from <a href="https://www.edx.org/school/w3cx">W3Cx</a>.
 
 <h4><b>Example #1: get all &lt;li&gt; directly in a &lt;ul&gt; of class nav</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11792,6 +11771,7 @@ ul.insertBefore(li, another_element_child_of_ul);// insert in the middle
 document.body.append(img); // adds the image at the end of the document
 
 Example #1: use of the createElement(), append() methods and of the textContent attribute
+
 <h4>Example:</h4>
 
 <pre>
