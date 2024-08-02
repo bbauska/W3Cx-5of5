@@ -10,6 +10,7 @@ date last editted: "7/24/2024 Wed 5+pm"
 date last editted: "7/26/2024 Fri 10+am"
 date last editted: "7/29/2024 Mon 4+pm"
 date last editted: "7/31/2024 Wed 7+pm"
+date last editted: "8/1/2024 Thu 8+pm"
 
 output: 
   markdown:
@@ -70,7 +71,7 @@ output:
   <h4><a href="#ch2-1">2.1 Intro Module 2: Adding Interactivity to HTML Documents</a></h4>
   <h4><a href="#ch2-2">2.2 Conditional Statements, Loops and Logical Operators</a></h4>
   <h4><a href="#ch2-3">2.3 Functions and Callbacks</a></h4>
-  <h4><a href="#ch2-4">2.4 Handling events</a></h4>
+  <h4><a href="#ch2-4">2.4 Handling Events</a></h4>
   <h4><a href="#ch2-5">2.5 The DOM API</a></h4>
   <h4><a href="#ch2-6">2.6 Let's write a small game</a></h4>
 </blockquote>
@@ -588,7 +589,7 @@ recommended to first ensure that the documents checked use valid 
 <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">HTML Markup</a> and 
 <a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener noreferrer">CSS</a>.</p>
 
-<h4 id="cha-5">Internationalization Checker</h4>
+<h4>Internationalization Checker</h4>
 
 <p>The <a href="https://validator.w3.org/i18n-checker/" target="_blank" rel="noopener noreferrer">W3C Internationalization Checker</a> 
 provides information about various internationalization-related aspects of your page,
@@ -649,7 +650,7 @@ If you&apos;re looking to an easy way to dive into this standardization processe
 issues in the W3C GitHub repositories have been marked as &quot;good first issue&quot;</a> and
 see if you find anything where you think you would be ready to help.</p>
 
-<h4 id="cha-4">a4. First steps in Web accessibility</h4>
+<h4">First steps in Web accessibility</h4>
 
 <p>As steward of global Web standards, W3C&apos;s mission is to safeguard the
 openness, accessibility, and freedom of the World Wide Web from a
@@ -675,7 +676,7 @@ proposals for consideration.</p>
 
 <p>Happy Web building!</p>
 
-<h4>What is W3C?</h4>
+<h4 id="cha-6">a6. About W3C and the Web</h4>
 
 <p>As steward of global Web standards, W3C&apos;s mission is to safeguard the
 openness, accessibility, and freedom of the World Wide Web from a
@@ -2577,7 +2578,7 @@ post your comments/observations/questions or share your creations.</p>
   a button, change the CSS style of some parts of the document).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-1">1.3.1 The best way to learn JavaScript (8:42)</h3>
+<h3 id="ch1-3">1.3 JavaScript Overview (the best way to learn JavaScript) (8:42)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 93. the best way to learn javascript (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3069,7 +3070,7 @@ you saw:</p>
     and arrays (we will discuss them as we move through the course).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-2">1.3.2 What can be done with JavaScript (2:23)</h3>
+<h3 id="ch1-3-1">1.3.1 What can be done with JavaScript (2:23)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Hello! What can be done with JavaScript? Let me show you some examples that are 
 the most common ones.</p>
@@ -3297,7 +3298,7 @@ famous rock bands:</p>
 
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJwpKq" target="_blank" rel="noopener noreferrer">CodePen: Database Lookup Band Members</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-3">1.3.3 Where to put JavaScript code (7:13)</h3>
+<h3 id="ch1-3-2">1.3.2 Where to put JavaScript code (7:13)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 118. where to put javascript code (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3627,7 +3628,7 @@ an external URL:</p>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VPmNWg" target="_blank" rel="noopener noreferrer">CodePen: Example paperJS</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
+<h3 id="ch1-3-3">1.3.3 How to debug JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 125. how to debug javascript (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3880,7 +3881,7 @@ to look at some basic tutorials on how to use the dev. tools of your
 browsers, since they differ from one another in the way they work
 - although the principles remain the same.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-5">1.3.5 Discussion and projects</h3>
+<h3 id="ch1-3-4">1.3.4 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is the discussion forum for this part of the course. Please either post your 
 comments/observations/questions or share your creations.</p>
@@ -3909,7 +3910,7 @@ comments/observations/questions or share your creations.</p>
   it in online IDEs such as CodePen, JSBin, etc.).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-1">1.4.1 Creating an HTML/CSS/JS project</h3>
+<h3 id="ch1-4">1.4 Your First HTML/CSS/JS project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Let&apos;s create a small HTML/CSS/JS project together.</p>
 
@@ -3951,7 +3952,7 @@ using a regular source code editor and .html, .css and .js files.</p>
 <a href="https://codepen.io/w3devcampus/pen/bqGboZ" target="_blank" rel="noopener noreferrer">
 Demo (CodePen: Interactive Function Plotter)</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-2">1.4.2 Using CodePen (6:46)</h3>
+<h3 id="ch1-4-1">1.4.1 Using CodePen (6:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 138. codepen: interactive function plotter (107) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4110,7 +4111,7 @@ the functions we are going to plot, and so on.</p>
   alt="." />
 <!-- pages 108-112 to be filled from class plus more I'm sure -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-3">1.4.3 Using Sublime Text (4:22)</h3>
+<h3 id="ch1-4-2">1.4.2 Using Sublime Text (4:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4203,7 +4204,7 @@ what I did manually.</p>
 project or a serious project, you will use a source code editor like
 Sublime Text.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-1">1.5.1 JS variables and values (5:28)</h3>
+<h3 id="ch1-5">1.5 JS variables and values (5:28)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Live coding video: JavaScript variables
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4467,7 +4468,7 @@ let case_matters = 'lower';
 let CASE_MATTERS = 'upper';
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-2">1.5.2 Scope of JS variables (4:19)</h3>
+<h3 id="ch1-5-1">1.5.1 Scope of JS variables (4:19)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156. scope of js variables (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4672,7 +4673,7 @@ you might find lots of examples that still use the var keyword&hellip;</p>
 <p><b>Anyway, we highly recommend to use let and const instead of var, for
 declaring variables and constants!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-3">1.5.3 JS data types (5:27)</h3>
+<h3 id="ch1-5-2">1.5.2 JS data types (5:27)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163. js data types (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4800,7 +4801,7 @@ or function)</p>
 <p>This operator is not often use in JavaScript programs, but it&apos;s useful
 for us, for explaining the data types.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-4">1.5.4 Numbers</h3>
+<h3 id="ch1-5-3">1.5.3 Numbers</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 166. numbers 1 thu 9, then 0, twice (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -5063,7 +5064,7 @@ format. Larger numbers will be converted&hellip;</p>
 <a href="https://en.wikipedia.org/wiki/IEEE_floating_point">
 follow this link at Wikipedia</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-5">1.5.5 JS operators and expressions</h3>
+<h3 id="ch1-5-4">1.5.4 JS operators and expressions</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>An expression</b> is a small piece of code used to produce a value.
 
@@ -5108,7 +5109,7 @@ strings, booleans, and objects. For example, an expression with the operator 
 will evaluate to a number. But an expression with the operator + can evaluate 
 to a number or a string (for addition or concatenation).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-6">1.5.6 Number Operators (4:12)</h3>
+<h3 id="ch1-5-5">1.5.5 Number Operators (4:12)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: number operators</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5327,7 +5328,7 @@ Code below (try it in the devtool console of your browser):</p>
 19.  &gt; // this is normal, as it is even
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-7">1.5.7 Strings, part 1</h3>
+<h3 id="ch1-5-6">1.5.6 Strings, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>General use</h4>
 
@@ -5372,7 +5373,7 @@ with double and closed with simple quotes
   <li>To output HTML in JavaScript, single quotes are more useful</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-8">1.5.8 String operators, part 2 (6:44)</h3>
+<h3 id="ch1-5-7">1.5.7 String operators, part 2 (6:44)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: string and string operators</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5607,7 +5608,7 @@ var s = '1&#92;r&#92;n2';
 "1 2"
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-9">1.5.9 Objects, part 1</h3>
+<h3 id="ch1-5-8">1.5.8 Objects, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>We have already encountered objects in different examples. You can
 easily recognize these objects:</p>
@@ -5683,7 +5684,7 @@ detail.</p>
 }
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-10">1.5.10 Arrays, part 1</h3>
+<h3 id="ch1-5-9">1.5.9 Arrays, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Definition: arrays are containers with indexes</h4>
 
@@ -5818,7 +5819,7 @@ Examples:
 9.  3
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-11">1.5.11 Functions, part 1</h3>
+<h3 id="ch1-5-10">1.5.10 Functions, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Definition of a function</h4>
 
@@ -5891,7 +5892,7 @@ it contains all the call parameters of the function:</p>
 13. 10
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-1">1.6.1 Introduction</h3>
+<h3 id="ch1-6">1.6 Simple JS Examples to play with</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This section does not detail the examples presented. Some of them are
 studied later in the course, some won&apos;t.</p>
@@ -5902,7 +5903,7 @@ code, and to tweak the examples. Do not worry if you don&apos;t understand
 how they work. We are just giving you &quot;a taste&quot; of JavaScript. There
 will be no graded exercises about them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-2">1.6.2 The devtool console</h3>
+<h3 id="ch1-6-1">1.6.1 The devtool console</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Using the console.log(&hellip;) instruction, you can <b>write messages to the
 devtool console</b> of your browser. This is a common way to debug your code!</p>
@@ -6076,7 +6077,7 @@ calculations:</p>
 using the &quot;+&quot; operator. And of course, you can use such code in 
 your programs, not only in the devtool console :-)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-3">1.6.3 Modifying an HTML document</h3>
+<h3 id="ch1-6-2">1.6.2 Modifying an HTML document</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Don&apos;t worry if we do not explain all the details of this example. In
 the first module, we&apos;re giving you &quot;a taste&quot; of what we can do with
@@ -6121,7 +6122,7 @@ see this:</p>
   title="Dynamic contact list; given name, family name"
   alt="Dynamic contact list; given name, family name." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-4">1.6.4 Modifying CSS styles on the fly</h3>
+<h3 id="ch1-6-3">1.6.3 Modifying CSS styles on the fly</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>We&apos;ve already seen some examples in which we modify the style of some
 parts of a document using JavaScript. Here we show another example of
@@ -6172,7 +6173,7 @@ example we used pixel units and a percentage, so we need to add the
 &quot;px&quot; and &quot;%&quot; character(s) when we manipulate these properties from
 JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-5">1.6.5 Adding interactivity with events</h3>
+<h3 id="ch1-6-4">1.6.4 Adding interactivity with events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>With JavaScript, you can react to user interactions (keyboard, mouse,
 gamepad), to changes in the lifecycle of your document (page has just
@@ -6239,7 +6240,7 @@ presented.</p>
   alt="Move a monster in an HTML5 canvas." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygWZEP">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-6">1.6.6 Using built-in HTML5 APIs</h3>
+<h3 id="ch1-6-5">1.6.5 Using built-in HTML5 APIs</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Your browser comes with a lot of standard W3C APIs. By standard, we mean
 &quot;parts of HTML5&quot; or real Web standards that will still work in 10
@@ -6296,7 +6297,7 @@ This example uses the WebAudio API in order to synthesize sounds.</p>
 Both mouse and keyboard is supported. However, make sure you click onto
 the preview window before using keyboard.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-7">1.6.7 Using third-party JS APIs/libraries</h3>
+<h3 id="ch1-6-6">1.6.6 Using third-party JS APIs/libraries</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Thousands of JavaScript libraries exist. Their purposes range from making it 
 easier to plot a math function, playing 
@@ -6400,7 +6401,7 @@ The example is just here to illustrate what can be done using external libraries
   alt="CodePen; Animate a green sprite." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/dNBPQm">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-8">1.6.8 Working with remote data</h3>
+<h3 id="ch1-6-7">1.6.7 Working with remote data</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Let's see a few examples on how to work with remote data.</p>
 
@@ -6433,7 +6434,7 @@ for video games):</p>
   alt="CodePen: Load and decode remote sounds for use in a video game." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/BWbNQG">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1">2.1.1 Video introduction - Module 2</h3>
+<h3 id="ch2-1">2.1 Adding Interactivity to JS Documents</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Video: Introduction to Module 2</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6463,7 +6464,7 @@ we'll make you play with the most of the language elements seen so far.
 And please, as I like video game, don&apos;t forget to share your project in
 the forum. And let other students enjoy your creation :D</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1-2">2.1.2 Module 2 outline</h3>
+<h3 id="ch2-1-1">2.1.1 Interactivity with JS</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>What you will learn in Module 2:</p>
 
@@ -6477,7 +6478,7 @@ the forum. And let other students enjoy your creation :D</p>
   <li>HTML5 canvas: learn how to draw and animate simple shapes</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-1">2.2.1 Boolean values and logical operators</h3>
+<h3 id="ch2-2-1">2.2 Conditional Statements, Loops and Logical Operators</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: boolean value, if&hellip;else statement and comparison
 operators</p>
@@ -7774,7 +7775,7 @@ at the section about DOM in this module.</p>
     the DOM).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-3-1">2.3.1 Functions and callbacks</h3>
+<h3 id="ch2-3">2.3 Functions and Callbacks</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Let&apos;s see how to declare a function and a callback.</p>
 
@@ -7961,7 +7962,7 @@ We&apos;ll use them a lot in the next section of the course, called
 &quot;Handling events&quot;.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-1">2.4.1 Introduction</h3>
+<h3 id="ch2-4">2.4 Handling Events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Adding interactivity to a Web application can be achieved by using only
 CSS, such as by using the :hover pseudo CSS class.</p>
@@ -8015,7 +8016,7 @@ called <b>handlers</b> or <b>callbacks</b> for specific events.</p>
 Then the browser looks at a list of &quot;Event Listeners&quot; and calls the
 ones that correspond to the type of event &quot;they listen to&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-2">2.4.2 Adding and removing event listeners</h3>
+<h3 id="ch2-4-1">2.4.1 Adding and removing event listeners</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Live coding video: adding an event listener to a document</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8234,27 +8235,6 @@ elements. For example, here is how we can listen to clicks on a specific button
   title=""
   alt="." />
 
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Second example of an event listener&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button id=&quot;myButton&quot;&gt;Click me!&lt;/button&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;script&gt;
-var b = document.querySelector(&quot;#myButton&quot;);
-b.addEventListener('click', function(evt) {
-alert(&quot;Button clicked&quot;);
-});
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
 <p>In this example, instead of using the addEventListener method directly,
 we used it on a DOM object (the button):</p>
 
@@ -8304,6 +8284,7 @@ alert(&quot;Button clicked&quot;);
 &lt;/html&gt;
 </pre>
 
+<!-- image goes here, pg 218 -->
 <p>This syntax:</p>
 
 <pre>1.  &lt;button id=&quot;myButton&quot; <b>onclick=&quot;processClick(event);</b>&quot;&gt;Click me!&lt;/button&gt;</pre>
@@ -8327,41 +8308,17 @@ function, and inside we remove the listener we previously registered.
 Consequence: if we click on the button again, nothing happens as there
 is no longer a click event listener attached to it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (218) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image206.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Removing an event listener&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button id=&quot;myButton&quot;&gt;Click me, this will work only once!&lt;/button&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;script&gt;
-var b = document.querySelector(&quot;#myButton&quot;);
-b.addEventListener('click', processClick);
-function processClick(evt) {
-alert(&quot;Button clicked, event listener removed, try to click on the
-button again: nothing will happen anymore!&quot;);
-b.removeEventListener('click', processClick);
-}
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
 <p>Note that to remove an event listener, you should have added it with its named 
 function, so that we can pass it to both addEventListener and removeEventListener.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-3">2.4.3 The event object</h3>
+<h3 id="ch2-4-3">2.4.3 The Event Object</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The event object is the only parameter passed to event listeners.</p>
 
@@ -8423,107 +8380,89 @@ common types of events in detail.
 
 <p>The most useful common properties are:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 207. most useful common properties & methods (220) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image207.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Most useful properties; type &amp; target; methods; preventDefault &amp; stopPropagation"
+  alt="Most useful properties; type &amp; target; methods; preventDefault &amp; stopPropagation." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-4">2.4.4 Page lifecycle events</h3>
+<h3 id="ch2-4-3">2.4.3 Page lifecycle events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-This time let&apos;s talk about the event object, and we&apos;ll start looking
-at different types of events.
-
-One of the events you will use is called the &apos;load&apos; event, and you can
+<image goes here>
+<p>This time let&apos;s talk about the event object, and we&apos;ll start looking
+at different types of events.</p>
+<image goes here>
+<p>One of the events you will use is called the &apos;load&apos; event, and you can
 apply it on the page using onload equal followed by the name of the
-callback.
+callback.</p>
 
-I usually call this callback &quot;init&quot; and this is a good practice:
+<p>I usually call this callback &quot;init&quot; and this is a good practice:
 always use a function that will be called when the page is loaded.
+I&apos;m adding a console.log message just to verify.</p>
 
-I&apos;m adding a console.log message just to verify.
-
-I open the console, and you can see that if I save the document and run
+<image goes here>
+<p>I open the console, and you can see that if I save the document and run
 again the example, or if I clear the console and execute it again, this
-callback is called when the page is loaded&hellip;
-
-that means &quot;when the DOM is ready&quot;.Then, from this function, I can
-call any other function, I can execute any kind of code, I will never
-have to wonder&hellip; to think: &quot;is the DOM ready?&quot;
-
-For example, to update this part of the page&hellip;
-
+callback is called when the page is loaded&hellip; that means &quot;when the 
+DOM is ready&quot;.Then, from this function, I can call any other function, 
+I can execute any kind of code, I will never have to wonder&hellip; to think: 
+&quot;is the DOM ready?&quot;</p>
+<image goes here>
+<p>For example, to update this part of the page&hellip;
 I use a span with an id attribute.
-
 I can locate the span&hellip; and like this&hellip; using the querySelector
 method and a CSS selector on the id&hellip; &quot;pageStatus&quot; is the id of the
 element&hellip;
-
 Then I can change the content of the page&hellip;
-
 If you look at what is happening when I execute the code, it says &quot;page
-loaded&quot;.
-
-So, this is a very good practice.
-
-I nearly always do this on my own softwares.
-
-Another variant is that instead of using the &quot;onload&quot; syntax, you can
+loaded&quot;. This is a very good practice.
+I nearly always do this on my own softwares.</p>
+<image goes here>
+<p>Another variant is that instead of using the &quot;onload&quot; syntax, you can
 just write window.load = init.
-
 This will produce the same result&hellip; onload&hellip; and in that case,
 instead of using body onload&hellip;you use window.onload.
-
 It&apos;s a bit better because you do not mix JavaScript and html, it&apos;s a
 better separation of the different parts of your Web application.
-
 You may notice that here I haven&apos;t typed the event argument.
-
 Every event callback will have an event object passed by the browser
 when the event is processed.
 
+<image goes here>
 And this event object can be used to guess what type of event has been
 fired, can be used to get the different properties of the event, such as
 the x and y positions of the mouse, the button that has been clicked,
-the target element that fired the event and so on&hellip;
+the target element that fired the event and so on&hellip;</p>
 
-If now, for example, I want to listen to events on a button&hellip; a bit in
+<p>If now, for example, I want to listen to events on a button&hellip; a bit in
 a similar way we presented in a previous example&hellip;
-
 I can add a listener in the init function&hellip;and in this listener, I
 can, for example, display the name of the button that has been used for
 clicking.
-
 Let&apos;s try it&hellip; here is the console, I clear it, then I click on the
 button, and it says it&apos;s button 0.
-
 You can also try different types of events, like detecting mouse moves.
-
 In that case, we are going to detect mouse moves on the button, and you
-can see in the console that it works.
-
+can see in the console that it works.</p>
 You can, for example, use the event objet to detect the x position of
-the mouse.
+the mouse.</p>
+<image goes here>
 
-There are different properties for getting the position of the mouse,
+<p>There are different properties for getting the position of the mouse,
 relative to top of the page, relative to the top of the viewport or
 relative to the the element that fired the event.
+This is detailed in the section about mouse events.</p>
 
-This is detailed in the section about mouse events.
-
-But here, I&apos;m just showing you one the most common property, that is
+<p>But here, I&apos;m just showing you one the most common property, that is
 called clientX: it gives the position of the cursor, relative to the top
-of the page.
+of the page. Just as an example of using the different properties of the event
+element.</p>
 
-Just as an example of using the different properties of the event
-element.
+<p>In the next sections, for each kind of event, we&apos;ll detail the
+different properties and provide examples that show how to use them.</p>
 
-In the next sections, for each kind of event, we&apos;ll detail the
-different properties and provide examples that show how to use them.
-
-<h4>Online example used in the above video</h4>
+<h4>Online example used in the above lesson video.</h4>
 
 <ul>
   <li><a href="https://codepen.io/w3devcampus/pen/XgrveY?editors=0001">Example on CodePen</a></li>
@@ -8537,12 +8476,12 @@ DOM is ready.</p>
 <p>There are many other events related to the page life cycle. The most
 useful ones for an introduction course are shown below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 190.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 190. load, resize and scroll events (225) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image190.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Load, Resize and Scroll events"
+  alt="Load, Resize and Scroll events." />
 <!-- ![](./images/image160.png){width="6.5in" height="2.029166666666667in"} -->
 
 <h4>Page event properties</h4>
@@ -11684,4 +11623,5 @@ element.appendChild(para);
 <!-- last editted 7/26/2024 10:16am -->
 <!-- last editted 7/29/2024 4:22pm -->
 <!-- last editted 7/31/2024 7:38pm -->
+<!-- last editted 8/1/2024 8:46pm -->
 
