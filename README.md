@@ -10124,7 +10124,7 @@ really bad practice and causes a host of problems during development.</p>
 
 <pre>
 1.  document.getElementById(&apos;someDiv&apos;).<b>onclick </b>= function() {
-2.  alert(&apos;clicked!&apos;);
+2.    alert(&apos;clicked!&apos;);
 3.  }
 </pre>
 
@@ -10136,7 +10136,7 @@ shown below.</p>
 
 <pre>
 1.  document.getElementById(&apos;someDiv&apos;).<b>addEventListener</b>(&apos;click&apos;, function() {
-2.  alert(&apos;clicked!&apos;);
+2.    alert(&apos;clicked!&apos;);
 3.  }, false);
 </pre>
 
@@ -10197,16 +10197,11 @@ use most of the events displayed in these tables.</p>
 
 <p>Most useful common properties:</p>
 
-<h4>type  Returns the name of the event</h4>
-<h4>target Returns the element that triggered the event</h4>
+<!-- image of type and target -->
 
 <p>Most useful common methods:</p>
 
-<ul>
-  <li>preventDefault() Cancels the event if it is cancelable, meaning that the
-    default action that belongs to the event will not occur</li>
-  <li>stopPropagation() Prevents further propagation of an event during event flow</li>
-</ul>
+<!-- image of preventDefault() & stopPropagation()  -->
 
 <h4>Page</h4>
 
@@ -10215,24 +10210,7 @@ use most of the events displayed in these tables.</p>
 <p>There are many other events related to the page life cycle. Below are
 the most useful ones for an intro course:</p>
 
-  load     This event occurs when an object has loaded (including all its
-           resources: images, etc.) This event is very useful when you want
-           to run JS code and be sure that the DOM is ready (in other
-           words, be sure that a document.getElementById(&hellip;) or
-           document.querySelector(&hellip;) will not raise an error because the
-           document has not been loaded and elements you are looking for
-           are not ready.
-
-  resize   The event occurs when the document view is resized. Usually we
-           get the new size of the window inside the event listener using
-           var w = window.innerWidth; and
-           var h = window.innerHeight;
-
-  scroll   The event occurs when an element&apos;s scrollbar is being scrolled.
-           Usually, in the scroll event listener, we use things such as:
-             var max = document.body.scrollHeight - innerHeight;
-            var percent = (pageYOffset / max);
-           &hellip;to know the percentage of the scroll in the page.
+<!-- image of load, resize, scroll -->
 
 <h4>Page event properties</h4>
 
@@ -10250,102 +10228,28 @@ canvas size, for example).
 
 <h4>Event types related to keyboard</h4>
 
-  keydown    The event occurs when the user is pressing a key
-
-  keyup      The event occurs when the user releases a key
-
-  keypress   The event occurs when the user presses a key (up and
-             release)
+<!-- image of keydown, keyup, and deprecated keypress -->
 
 <h4>keyboardEvent properties</h4>
 
-  keyCode    Returns the Unicode character code of the key that triggered
-             the onkeypress ,onkeydown or onkeyup event
-
-  shiftKey   Returns whether the &quot;shift&quot; key was pressed when the key
-             event was triggered
-
-  ctrlKey    Returns whether the &quot;ctrl&quot; key was pressed when the key
-             event was triggered
-
-  altKey     Returns whether the &quot;alt&quot; key was pressed when the key event
-             was triggered
+<!-- image of keyCode, shiftKey, ctrlKey, and altKey -->
 
 <h4>Mouse</h4>
 
 <h4>Event types related to mouse</h4>
 
-  click         The event occurs when the user clicks on an element
-                (presses a button and releases it)
-
-  dblclick      The event occurs when the user double-clicks on an element
-
-  mousedown     The event occurs when the user presses a key (up and
-                release)
-
-  mouseup       The event occurs when a user releases a mouse button over
-                an element
-
-  mousemove     The event occurs when the pointer is moving while it is
-                over an element
-
-  mouseenter    The event occurs when the pointer is moved onto an element
-
-  mouseleave    The event occurs when the pointer is moved out of an
-                element
-
-  mouseover     The event occurs when the pointer is moved onto an element,
-                or onto one of its children
-
-  contextmenu   The event occurs when the user right-clicks on an element
-                to open a context menu
+<!-- image of click, dblclick, mousedown, mouseup, mousemove, mouseenter, mouseleave, mouseover 
+& contextmenu -->
 
 <h4>MouseEvent properties</h4>
 
-  button          Returns which mouse button was pressed when the mouse
-                  event was triggered
-
-  clientX and     Returns the coordinates of the mouse pointer, relative
-  clientY         to the element coordinate system that triggered the
-                  event
-
-  pageX and pageY Returns the coordinates of the mouse pointer, relative
-                  to the document, when the mouse event was triggered
-
-  screenX and     Returns the coordinates of the mouse pointer, relative
-  screenY         to the screen, when an event was triggered
-
-  altKey,         Returns whether the &quot;alt, ctrl and shift&quot; key was
-  ctrlKey,        pressed when an event was triggered
-  shiftKey        
-
-  detail          Returns a number that indicates how many times the
-                  mouse was clicked
+<!-- image of button, clientX & clientY, pageX & pageY, screenX & screenY, altKey, ctrlKey, shiftKey, & detail  -->
 
 <h4>Forms</h4>
 
 <h4>Events related to forms</h4>
 
-  input    The event occurs when an element gets user input (e.g., a key
-           is typed on an input field, a slider is moved, etc.)
-
-  change   The event occurs when the content of a form element, the
-           selection, or the checked state have changed (for <input>,
-           <select>, and <textarea>). A change event listener on a
-           slider will generate an event when the drag/move ended, while
-           input events will be useful to do something as the slider is
-           being moved.
-
-  focus    The event occurs when an element gets focus (e.g., the user
-           clicks in an input field)
-
-  blur     The event occurs when an element loses focus (e.g., the user
-           clicks on another element)
-
-  select   The event occurs after the user selects some text (for
-           <input> and <textarea>)
-
-  submit   The event occurs when a form is submitted
+<!-- image of input, change, focus, blur, select & submit -->
 
 <h4>FormEvent properties</h4>
 
