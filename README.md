@@ -8169,22 +8169,22 @@ on a web document will be processed by this event handler):</p>
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;title&gt;First example of an event listener&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;script&gt;
-addEventListener('click', function(evt) {
-document.body.innerHTML += &quot;Button clicked!&lt;br&gt;&quot;;
-});
-&lt;/script&gt;
+  &lt;title&gt;First example of an event listener&lt;/title&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;script&gt;
+    addEventListener('click', function(evt) {
+      document.body.innerHTML += &quot;Button clicked!&lt;br&gt;&quot;;
+    });
+  &lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;p&gt;Click anywhere on this page&lt;/p&gt;
+  &lt;p&gt;Click anywhere on this page&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
 
-The addEventListener function is one possible syntax for registering a
-function to be called when a given type of event occurs.
+<p>The addEventListener function is one possible syntax for registering a
+function to be called when a given type of event occurs.</p>
 
 <pre>1.  addEventListener(type_of_event, callback_function)</pre>
 
@@ -8270,16 +8270,16 @@ of the element:</p>
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;title&gt;Third example of an event listener&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;script&gt;
-function processClick(evt) {
-alert(&quot;Button clicked&quot;);
-};
-&lt;/script&gt;
+  &lt;title&gt;Third example of an event listener&lt;/title&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;script&gt;
+    function processClick(evt) {
+      alert(&quot;Button clicked&quot;);
+    };
+  &lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;button id=&quot;myButton&quot; onclick=&quot;processClick(event);&quot;&gt;Click me!&lt;/button&gt;
+  &lt;button id=&quot;myButton&quot; onclick=&quot;processClick(event);&quot;&gt;Click me!&lt;/button&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -8287,7 +8287,7 @@ alert(&quot;Button clicked&quot;);
 <!-- image goes here, pg 218 -->
 <p>This syntax:</p>
 
-<pre>1.  &lt;button id=&quot;myButton&quot; <b>onclick=&quot;processClick(event);</b>&quot;&gt;Click me!&lt;/button&gt;</pre>
+<pre>1. &lt;button id=&quot;myButton&quot; <b>onclick=&quot;processClick(event);</b>&quot;&gt;Click me!&lt;/button&gt;</pre>
 
 <p>&hellip; is ok when you only need a single event listener to click events
 for this button, as there can be only one onclick attribute per element.
@@ -8329,52 +8329,50 @@ function, so that we can pass it to both addEventListener and removeEventList
 3.  }
 </pre>
 
-Each event listener has a single parameter that is  a &quot;DOM event
-object&quot;. It has various properties and methods that can be very useful.
+<p>Each event listener has a single parameter that is  a &quot;DOM event
+object&quot;. It has various properties and methods that can be very useful.</p>
 
-For example, with a &apos;keyup&apos;, &apos;keydown&apos; or &apos;keypress&apos; event, the
+<p>For example, with a &apos;keyup&apos;, &apos;keydown&apos; or &apos;keypress&apos; event, the
 event object contains the code of the key that has been
 pressed/released, with a &apos;mousemove&apos; listener we can get the relative
 position of the mouse in the DOM element that has generated the event,
-etc.
+etc.</p>
 
-The event object contains some important properties and methods that are
-common to all types of events:
+<p>The event object contains some important properties and methods that are
+common to all types of events:</p>
 
--   <b>evt.type</b>: the name of the event
-
--   <b>evt.target:</b> for example, is the HTML element that has fired the
+<ul>
+  <li><b>evt.type</b>: the name of the event</li>
+  <li><b>evt.target:</b> for example, is the HTML element that has fired the
     event. In our previous examples with the click listeners on a
-    button, <b>evt.target</b> in the event listener is the button itself.
-
--   <b>evt.stopPropagation()</b>: will not propagate the event to all other
+    button, <b>evt.target</b> in the event listener is the button itself.</li>
+  <li><b>evt.stopPropagation()</b>: will not propagate the event to all other
     elements that listen to it. If several elements are registered for a
     click event - for example, you have a click listener on a button and
     on the window (the whole page). If you click on the button, and if
     in its click event listener you call evt.stopPropagation(); then the
-    click event listener on the window object will never be called.
-
--   <b>evt.preventDefault()</b>: the default browser behavior will not be
+    click event listener on the window object will never be called.</li>
+  <li><b>evt.preventDefault()</b>: the default browser behavior will not be
     executed. For example, in a &apos;contextmenu&apos; event listener attached
     to an object, if you call <b>evt.preventDefault()</b>, instead of
     having the right click default context menu of your browser
     displayed, you&apos;ll be able to display your own context menu,
-    like <a href="https://jsbin.com/kuyorac/edit?html,css,js,console,output">in this example</a>.
+    like <a href="https://jsbin.com/kuyorac/edit?html,css,js,console,output">in this example</a>.</li>
+</ul>
 
-It also contains properties that are associated with the type of the
-event, for example:
+<p>It also contains properties that are associated with the type of the
+event, for example:</p>
 
--   <b>evt.button</b>: the mouse button that has been used in the case of a
-    mouse event listener
+<ul>
+  <li><b>evt.button</b>: the mouse button that has been used in the case of a
+    mouse event listener</li>
+  <li><b>evt.keyCode</b>: the code of the key that has been used</li>
+  <li><b>evt.pageX</b>: coordinate of the mouse relative to the page</li>
+  <li>etc.</li>
+</ul>
 
--   <b>evt.keyCode</b>: the code of the key that has been used
-
--   <b>evt.pageX</b>: coordinate of the mouse relative to the page
-
--   etc.
-
-In the subsequent sections of this course we will look at the most
-common types of events in detail.
+<p>In the subsequent sections of this course we will look at the most
+common types of events in detail.</p>
 
 <h4>Reference table</h4>
 
@@ -8389,7 +8387,8 @@ common types of events in detail.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-3">2.4.3 Page lifecycle events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<image goes here>
+<!-- image goes here -->
+
 <p>This time let&apos;s talk about the event object, and we&apos;ll start looking
 at different types of events.</p>
 <image goes here>
@@ -8401,13 +8400,14 @@ callback.</p>
 always use a function that will be called when the page is loaded.
 I&apos;m adding a console.log message just to verify.</p>
 
-<image goes here>
+<!-- image goes here -->
 <p>I open the console, and you can see that if I save the document and run
 again the example, or if I clear the console and execute it again, this
 callback is called when the page is loaded&hellip; that means &quot;when the 
 DOM is ready&quot;.Then, from this function, I can call any other function, 
 I can execute any kind of code, I will never have to wonder&hellip; to think: 
 &quot;is the DOM ready?&quot;</p>
+
 <image goes here>
 <p>For example, to update this part of the page&hellip;
 I use a span with an id attribute.
@@ -8418,7 +8418,8 @@ Then I can change the content of the page&hellip;
 If you look at what is happening when I execute the code, it says &quot;page
 loaded&quot;. This is a very good practice.
 I nearly always do this on my own softwares.</p>
-<image goes here>
+
+<!-- image goes here -->
 <p>Another variant is that instead of using the &quot;onload&quot; syntax, you can
 just write window.load = init.
 This will produce the same result&hellip; onload&hellip; and in that case,
@@ -8429,7 +8430,7 @@ You may notice that here I haven&apos;t typed the event argument.
 Every event callback will have an event object passed by the browser
 when the event is processed.
 
-<image goes here>
+<!-- image goes here -->
 And this event object can be used to guess what type of event has been
 fired, can be used to get the different properties of the event, such as
 the x and y positions of the mouse, the button that has been clicked,
@@ -8447,8 +8448,8 @@ In that case, we are going to detect mouse moves on the button, and you
 can see in the console that it works.</p>
 You can, for example, use the event objet to detect the x position of
 the mouse.</p>
-<image goes here>
 
+<!-- image goes here -->
 <p>There are different properties for getting the position of the mouse,
 relative to top of the page, relative to the top of the viewport or
 relative to the the element that fired the event.
@@ -8773,11 +8774,11 @@ which real keyboard keys, so here are some handy pointers:</p>
 
 <h4>keyboardEvent properties</h4>
 
-These are legacy properties, still used by many JavaScript code around
+<p>These are legacy properties, still used by many JavaScript code around
 the world. However, we do not recommend that you use them if you are
 targeting modern browsers. keyCode has a more powerful/easy to use
 replacement called code (not yet supported by all browsers), that comes
-with a new key property (see the following pages of the course).
+with a new key property (see the following pages of the course).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8843,7 +8844,7 @@ on [CodePen](https://codepen.io/).
 
 <h4>Example #3: detect a combination of keys + modifier keys (shift, ctrl, alt)</h4>
 
-Try to type shift-a for example, ctrl-shift-b or alt-f&hellip;
+<p>Try to type shift-a for example, ctrl-shift-b or alt-f&hellip;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8897,39 +8898,38 @@ keys.innerHTML += modifiers + &quot;<br>&quot;;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-6">2.4.6 Dealing with different keyboard layouts</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Please do not assume that each key is at the same location on the
+keyboard in every country!</p>
 
-Please do not assume that each key is at the same location on the
-keyboard in every country!
+<p>We&apos;ve shown how to detect keyup, keydown and keypress events using the
+DOM API, and how to use the keyCode property of the DOM event.</p>
 
-We&apos;ve shown how to detect keyup, keydown and keypress events using the
-DOM API, and how to use the keyCode property of the DOM event.
-
-Be careful when you use the key events in your application, as keyboard
+<p>Be careful when you use the key events in your application, as keyboard
 layouts vary from one country to another. Most first person shooter
 games (FPS) use three keys located on the top left of your keyboard to
 move your character. French AZERTY keyboards will use ZQSD for this (Z =
 up/move forward, Q and D are for left/right and S is for down/move
 backward), while US keyboards will use WASD, for example. So keep in
 mind that keys are not located at the same place on keyboards from
-different countries.
+different countries.</p>
 
-Extract from the &quot;[Internationalize your keyboard
-controls](https://hacks.mozilla.org/2017/03/internationalize-your-keyboard-controls/)&quot;
-article on MDN:
+</p>Extract from the &quot;
+<a href="https://hacks.mozilla.org/2017/03/internationalize-your-keyboard-controls/">
+Internationalize your keyboard controls</a>&quot; article on MDN:</p>
 
-<b>&quot;Recently I came across two lovely new graphical demos, and in both
+<p><b>&quot;Recently I came across two lovely new graphical demos, and in both
 cases, the controls would not work on my French <b><a href="https://en.wikipedia.org/wiki/AZERTY">
-<i>AZERTY keyboard</i></a>.</b>
+<i>AZERTY keyboard</i></a>.</b></p>
 
-There was the wonderful WebGL 2 technological demo <a href="https://www.youtube.com/watch?v=TT7ugKuUMv0/">
+<p>There was the wonderful WebGL 2 technological demo <a href="https://www.youtube.com/watch?v=TT7ugKuUMv0/">
 <i>After The Flood</i></a>, and the very cute <a href="https://codepen.io/shshaw/full/apwMwM/"><i>Alpaca 
 Peck</i></a>. <a href="https://codepen.io/shshaw/"><i>Shaw</i> was
 nice enough to fix the latter when I told him about the issue. It turns
-out the Web browser actually exposes a useful API for this.&quot;
+out the Web browser actually exposes a useful API for this.&quot;</p>
 
 <h4>One keyboard, many layouts</h4>
 
-For details, see [Wikipedia's keyboard layout page](https://en.wikipedia.org/wiki/Keyboard_layout)!
+<p>For details, see <a href="https://en.wikipedia.org/wiki/Keyboard_layout">Wikipedia's keyboard layout page</a>!</p>
 
 <h4>[QWERTY](https://en.wikipedia.org/wiki/QWERTY) layout, used in US, GB, etc.</h4>
 
@@ -9027,7 +9027,7 @@ because the A key on a AZERTY keyboard is at the same location as
 the Q key on a QWERTY keyboard.</p>
 
 <p><b>As for numbers, the top digit bar yields values like &apos;Digit1&apos;</b>,
-    while the numeric pad yields values like &apos;Numpad1&apos;.</p>
+while the numeric pad yields values like &apos;Numpad1&apos;.</p>
 
 <h4>List of codes, the reference keyboard</h4>
 
@@ -9045,12 +9045,11 @@ keyboard</a>. For instance here is their reference keyboard for the alphanumeric
   alt="." />
 <!-- ![Reference alphanumeric keyboard](./images/image175.png){width="6.5in" height="2.2425in"} -->
 
-Also, please read through [the examples given in the
-specification](https://w3c.github.io/uievents/#code-examples). They show
-very clearly what happens when the user presses various types of keys,
-both for code and key.
+<p>Also, please read through <a href="https://w3c.github.io/uievents/#code-examples">
+the examples given in the specification</a>. They show very clearly what happens when 
+the user presses various types of keys, both for code and key.</p>
 
-### Example that displays the key and code values with your current keyboard
+<h4>Example that displays the key and code values with your current keyboard</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9788,14 +9787,14 @@ toggleMenuOff();
 
 <h4>FormEvent properties</h4>
 
-There are no particular properties that need to be mentioned here.
+<p>There are no particular properties that need to be mentioned here.
 Usually, on a form event listener, we check the content of the different
 input fields, using their value property. See examples in the part of
-the course that deals with form events.
+the course that deals with form events.</p>
 
 <h4>Example #1: validating on the fly as the user types in a text input field</h4>
 
-First variant: using the &apos;input&apos; event:
+<p>First variant: using the &apos;input&apos; event:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 217.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9920,10 +9919,11 @@ evt.target.value = name.substring(0, name.length-1);
 }
 </pre>
 
-Note that HTML5 forms and the multiple facets of form and input field
-validation are covered in depth in the W3C [HTML5 Coding Essentials and
-Best Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) course,
-which dedicates a whole week to this topic.
+<p>Note that HTML5 forms and the multiple facets of form and input field
+validation are covered in depth in the W3C 
+<a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">
+HTML5 Coding Essentials and Best Practices</a> course, which dedicates a whole 
+week to this topic.</p>
 
 <h4>Example #2: do something while a slider is being moved</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10077,11 +10077,9 @@ var output = document.querySelector(&apos;#choosedColor&apos;);
 output.innerHTML = &quot;Color selected: &quot; + color;
 }
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-10">2.4.10 Reference tables</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <h4>Quick summary of event management in JavaScript</h4>
 
 <h5>HTML5 events:</h5>
@@ -10095,19 +10093,19 @@ output.innerHTML = &quot;Color selected: &quot; + color;
 <!-- ![picture of keyboard an mouse]
 (./images/image192.jpeg){width="2.8333333333333335in" height="2.8333333333333335in"} -->
 
-There is no input or output in JavaScript. We treat <b>events</b> caused by
+<p>There is no input or output in JavaScript. We treat <b>events</b> caused by
 user actions as inputs, and we manipulate the DOM structure as
 output. Usually in a JavaScript application, we will get info such as
 the key strokes, the mouse button clicks and the mouse position, and we
-will refer to these variables when determining what action to perform.
+will refer to these variables when determining what action to perform.</p>
 
-In any case, the events are called DOM events, and we use the DOM APIs
-to create <b>event handlers</b>.
+<p>In any case, the events are called DOM events, and we use the DOM APIs
+to create <b>event handlers</b>.</p>
 
 <h4>How to listen to events</h4>
 
-There are three ways to manage events in the DOM structure. You could
-attach an event inline in your HTML code like this:
+<p>There are three ways to manage events in the DOM structure. You could
+attach an event inline in your HTML code like this:</p>
 
 <h4><b>Method #1: declare an event handler in the HTML code</b></h4>
 
@@ -10116,11 +10114,11 @@ attach an event inline in your HTML code like this:
   the div &lt;/div&gt;
 </pre>
 
-This method is very easy to use, but it is not the recommended way to
+<p>This method is very easy to use, but it is not the recommended way to
 handle events. Indeed, although it currently works,
 it is <b>deprecated</b> (will probably be abandoned in the future). Mixing
 &apos;visual layer&apos; (HTML) and &apos;logic layer&apos; (JavaScript) in one place is
-really bad practice and causes a host of problems during development.
+really bad practice and causes a host of problems during development.</p>
 
 <h4><b>Method #2: attach an event handler to an HTML element in JavaScript</b></h4>
 
@@ -10130,9 +10128,9 @@ really bad practice and causes a host of problems during development.
 3.  }
 </pre>
 
-This method is fine, but  you will not be able to attach
+<p>This method is fine, but  you will not be able to attach
 multiple <b>listener</b> functions. If you need to do this, use the version
-shown below.
+shown below.</p>
 
 <h4><b>Method #3: register a callback to the event listener with the addEventListener method (preferred  method)</b></h4>
 
@@ -10142,17 +10140,17 @@ shown below.
 3.  }, false);
 </pre>
 
-Note that the third parameter describes whether the <b>callback</b> has to
+<p>Note that the third parameter describes whether the <b>callback</b> has to
 be called during the captured phase. This is not important for now, just
 set it to false or ignore it (you can even pass only two parameters to
 the addEventListener function call and do not set this boolean parameter
-at all).
+at all).</p>
 
 <h4>Details of the DOM event are passed to the event listener function</h4>
 
-When you create an <b>event listener</b> and attach it to an element, the
+<p>When you create an <b>event listener</b> and attach it to an element, the
 listener will create an </b>event object</b> to describe what happened. This
-object is provided as a parameter of the <b>callback function</b>:
+object is provided as a parameter of the <b>callback function</b>:</p>
 
 <pre>
 1.  element.addEventListener(&apos;click&apos;, function(</b>event</b>) {
@@ -10160,64 +10158,62 @@ object is provided as a parameter of the <b>callback function</b>:
 3.  }, false);
 </pre>
 
-Depending on the type of event you are listening to, you will consult
+<p>Depending on the type of event you are listening to, you will consult
 different properties from the event object in order to obtain useful
 information such as: &quot;which keys are pressed down?&quot;, &quot;what is the
 location of the mouse cursor?&quot;, &quot;which mouse button has been
-clicked?&quot;, etc.
+clicked?&quot;, etc.</p>
 
-In the following lessons, we will remind you how to deal with the
-keyboard and the mouse.
+<p>In the following lessons, we will remind you how to deal with the
+keyboard and the mouse.</p>
 
 <h4>Further reading</h4>
 
-In method 1 (above), we mentioned that &quot;mixing &apos;visual layer&apos; (HTML)
+<p>In method 1 (above), we mentioned that &quot;mixing &apos;visual layer&apos; (HTML)
 and &apos;logic layer&apos; (JavaScript) &hellip; is bad practice&quot;, and this is
 similarly reflected in many style features being deprecated in HTML5 and
 moved into CSS3. The management philosophy at play here is called &quot;the
 separation of concerns&quot; and applies in several ways to software
 development - at the code level, through to the management of staff.
 It&apos;s not part of the course, but professionals may find the following
-references useful:
+references useful:</p>
 
--   [Separation of concerns - Wikipedia, the free
-    encyclopedia](https://en.wikipedia.org/wiki/Separation_of_concerns)
-
--   [Software Architecture and the Art of Separation of
-    Concerns ](https://medium.com/@alliecohen_Tech/software-architecture-and-the-art-of-separation-of-concerns-1bd780cb8f2a)
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Separation_of_concerns">
+    Separation of concerns - Wikipedia, the free encyclopedia</a></li>
+  <li><a href="https://medium.com/@alliecohen_Tech/software-architecture-and-the-art-of-separation-of-concerns-1bd780cb8f2a">
+    Software Architecture and the Art of Separation of Concerns</a></li>
+</ul>
 
 <h4>Reference tables for events and properties/methods</h4>
 
-These tables are provided as a reference. They are a compilation of the
+<p>These tables are provided as a reference. They are a compilation of the
 most common event types sorted by domain (key, mouse, forms, etc.). For
 each domain you will see the most useful event types and their
 properties. In the following course pages, we will show  examples that
-use most of the events displayed in these tables.
+use most of the events displayed in these tables.</p>
 
 <h4>Event object</h4>
 
-Most useful common properties:
+<p>Most useful common properties:</p>
 
-  type       Returns the name of the event
+<h4>type  Returns the name of the event</h4>
+<h4>target Returns the element that triggered the event</h4>
 
-  target     Returns the element that triggered the event
+<p>Most useful common methods:</p>
 
-
-Most useful common methods:
-
-  preventDefault()    Cancels the event if it is cancelable, meaning that the
-                      default action that belongs to the event will not occur
-
-  stopPropagation()   Prevents further propagation of an event during event
-                      flow
-
+<ul>
+  <li>preventDefault() Cancels the event if it is cancelable, meaning that the
+    default action that belongs to the event will not occur</li>
+  <li>stopPropagation() Prevents further propagation of an event during event flow</li>
+</ul>
 
 <h4>Page</h4>
 
 <h4>Events related to the page lifecycle</h4>
 
-There are many other events related to the page life cycle. Below are
-the most useful ones for an intro course:
+<p>There are many other events related to the page life cycle. Below are
+the most useful ones for an intro course:</p>
 
   load     This event occurs when an object has loaded (including all its
            resources: images, etc.) This event is very useful when you want
@@ -10398,44 +10394,44 @@ post your comments/observations/questions or share your creations.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-1">2.5.1 Introducing the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-When a user clicks on a link or enters a URL in the address of your Web
+<p>When a user clicks on a link or enters a URL in the address of your Web
 browser, it downloads the page's HTML text and builds up a model of the
 document's structure called the DOM (Document Object Model). This model
-is used to render the HTML page on the screen.
+is used to render the HTML page on the screen.</p>
 
-The DOM is a standard  that describes how a document must be
+<p>The DOM is a standard  that describes how a document must be
 manipulated. It defines a "language- and platform neutral interface".
-So, </b>every browser offers the same JavaScript DOM API</b>.
+So, </b>every browser offers the same JavaScript DOM API</b>.</p>
 
-The DOM API is a programming interface the JavaScript programmer can use
-to modify the HTML content or the CSS style of HTML elements on the fly.
+<p>The DOM API is a programming interface the JavaScript programmer can use
+to modify the HTML content or the CSS style of HTML elements on the fly.</p>
 
-The DOM API provides the document object as a structured object, a group
+<p>The DOM API provides the document object as a structured object, a group
 of nodes represented as a tree. We saw this in Module 1 when we revised
-the basic principles of HTML .
+the basic principles of HTML.</p>
 
-The document object also exposes a large set of methods to access and
+<p>The document object also exposes a large set of methods to access and
 manipulate the structured document. Through the DOM, look for nodes
 (html elements that compose the page), move nodes, delete nodes, modify
-nodes (attributes, content), and also handle their associated events.
+nodes (attributes, content), and also handle their associated events.</p>
 
-In JavaScript, the DOM is accessible through the property document of
+<p>In JavaScript, the DOM is accessible through the property document of
 the global object window. We rarely manipulate the window object
-directly as it is implicit: window.document is the same as document. 
+directly as it is implicit: window.document is the same as document.</p>
 
-So by using this object, we can access and manipulate our page from
-JavaScript as a structured document.
+<p>So by using this object, we can access and manipulate our page from
+JavaScript as a structured document.</p>
 
 <h4>Reminder from Module 1: HTML and the DOM</h4>
 
-&apos;Elements&apos; are the pieces themselves, i.e., a paragraph, a header,
+<p>&apos;Elements&apos; are the pieces themselves, i.e., a paragraph, a header,
 and even the body are elements. Most elements can contain other
 elements - for example, the body element would contain header elements,
 paragraph elements, in fact pretty much all of the visible elements of
-the Document Object Model (developers call it the &quot;DOM&quot;).
+the Document Object Model (developers call it the &quot;DOM&quot;).</p>
 
-Let&apos;s take, for example, a simplified version of the last HTML code we
-showed you:
+<p>Let&apos;s take, for example, a simplified version of the last HTML code we
+showed you:</p>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -10455,8 +10451,8 @@ showed you:
 &lt;/html&gt;
 </pre>
 
-Click the red circle next to HTML to unfold this HTML document structure
-(we can also say &quot;see its DOM structure&quot;):
+<p>Click the red circle next to HTML to unfold this HTML document structure
+(we can also say &quot;see its DOM structure&quot;):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 224.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10466,7 +10462,7 @@ Click the red circle next to HTML to unfold this HTML document structure
   alt="." />
 <!-- ![](./images/image194.png){width="5.75in" height="2.4793799212598424in"} -->
 
-Consider the figure above.  It contains a single html element.  It turns
+<p>Consider the figure above.  It contains a single html element.  It turns
 out this includes within it the entire content of your html file.  If
 you click on the &quot;html&quot; red node, you&apos;ll find that it contains two
 components, a head and a body.  Clicking on each of these will reveal
@@ -10475,9 +10471,9 @@ scientists call a &quot;tree&quot;.  Any given element (except for the outermos
 &apos;html&apos; element) is wholly contained inside another element, referred
 to as the &quot;parent&quot; element.  Not surprisingly, the elements that a
 given element contains are its &quot;child&quot; elements.  And, yes, children
-of a common parent are often referred to as &quot;siblings&quot;.
+of a common parent are often referred to as &quot;siblings&quot;.</p>
 
-Thus, in the example above, the top element is the html element, which
+<p>Thus, in the example above, the top element is the html element, which
 contains just two elements, the head and body.  The head element
 contains a title element and the body contains an h1 element and
 a p element.  In a more typical example, the body would contain many
@@ -10486,27 +10482,27 @@ more children, but for our purposes this is enough. p is for
 some space before the next element is displayed in the final HTML page
 rendering), h1 means &quot;heading level 1&quot;, and will be rendered by
 default in bold with a bigger char size than any other text element,
-etc.
+etc.</p>
 
-### There are different types of nodes in the DOM
+<h4>There are different types of nodes in the DOM</h4>
 
-There are different types of nodes, but don&apos;t worry - the most useful
-ones are highlighted in bold.
+<p>There are different types of nodes, but don&apos;t worry - the most useful
+ones are highlighted in bold.</p>
 
--   <b>Element (example: &lt;ul&gt;&lt;/ul&gt;)</b>
-
--   </b>Text (example: &lt;p&gt;the text within the element p is a node of
-    type text&lt;/p&gt;)</b>
-
--   Document, DocumentFragment, DocumentType (example: &lt;!doctype
+<ul>
+  <li><b>Element (example: &lt;ul&gt;&lt;/ul&gt;)</b></li>
+  <li></b>Text (example: &lt;p&gt;the text within the element p is a node of
+    type text&lt;/p&gt;)</b></li>
+  <li>Document, DocumentFragment, DocumentType (example: &lt;!doctype
     html&gt; for html5), Comment (example: &lt;!&#45;- left column &#45;-&gt;),
-    ProcessingInstruction (example: &lt;?php echo &dollar;name ?&gt;)
+    ProcessingInstruction (example: &lt;?php echo &dollar;name ?&gt;)</li>
+</ul>
 
-### Exploring the DOM with the devtool console
+<h4>Exploring the DOM with the devtool console</h4>
 
-You can explore the DOM with the devtool console. This time we used
+<p>You can explore the DOM with the devtool console. This time we used
 Firefox for exploring the DOM, as it proposes a good structured view of
-the DOM and of its properties/methods:
+the DOM and of its properties/methods:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 225.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10516,9 +10512,9 @@ the DOM and of its properties/methods:
   alt="." />
 <!-- ![](./images/image195.png){width="6.5in"height="4.077083333333333in"} -->
 
-If you scroll down the right panel of the devtool console, as in the
+<p>If you scroll down the right panel of the devtool console, as in the
 above screenshot, you will be able to look at all the properties, all
-the methods, all the event listeners:
+the methods, all the event listeners:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 226.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10528,10 +10524,10 @@ the methods, all the event listeners:
   alt="." />
 <!-- ![](./images/image196.png){width="5.75in" height="5.867334864391951in"} -->
 
-You can also use the &quot;DOM inspector&quot; to locate a particular element
+<p>You can also use the &quot;DOM inspector&quot; to locate a particular element
 with the mouse: click the target icon and click on  the element on the
 page that you want to inspect, this time with Google Chrome, but you
-will find this option in all modern browsers&apos; devtool consoles:
+will find this option in all modern browsers&apos; devtool consoles:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 227.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10543,22 +10539,22 @@ will find this option in all modern browsers&apos; devtool consoles:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-2">2.5.2 A warning about the DOM API</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-The DOM and the DOM API can be cumbersome and complicated. There are
+<p>The DOM and the DOM API can be cumbersome and complicated. There are
 many methods and properties for manipulating the DOM tree, that are not
 &quot;very JavaScript&quot;. There are historical reasons for this: the DOM
 wasn't designed exclusively for JavaScript. Rather, it tries to define a
 language-neutral interface that can be used in other systems as well ---
 not just HTML but also XML, which is a generic data format with an
-HTML-like syntax.
+HTML-like syntax.</p>
 
-HTML5 made some additions that are not in the DOM API but which greatly
+<p>HTML5 made some additions that are not in the DOM API but which greatly
 help the JavaScript programmer (we&apos;ll see this in a minute with the
-&quot;selector API&quot;, for example).
+&quot;selector API&quot;, for example).</p>
 
-So, we&apos;ve decided to focus on only 20% of the DOM API and on the
+<p>So, we&apos;ve decided to focus on only 20% of the DOM API and on the
 selector API (for selecting elements in the DOM). These are the most
 useful parts and it will give you enough knowledge to solve nearly every
-problem where you need to manipulate the DOM.
+problem where you need to manipulate the DOM.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 228.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10579,98 +10575,80 @@ problem where you need to manipulate the DOM.
   alt="." />
 <!-- ![](./images/image199.png){width="5.75in" height="4.474276027996501in"} -->
 
-Hi!
+<p>This time, let&apos;s look a bit more in depth to the different methods for
+selecting elements in an HTML page, and then do something with these elements.</p>
 
-This time, let&apos;s look a bit more in depth to the different methods for
-selecting
-
-elements in an HTML page, and then do something with these elements.
-
-I prepared here an HTML document that contains two buttons that do
+<p>I prepared here an HTML document that contains two buttons that do
 nothing for the moment, and it contains also 4 images. Here are the
 images... They&apos;ve got an id: img1, img2, and so on. They&apos;ve got some
 URLs and a width. If we look at the JavaScript code I prepared, I added
 an init function that is called when the page is loaded. You remember
 from a previous video that we can do that using body onload=init. Or we
-can use (this is an alternative): window.onload=init.
+can use (this is an alternative): window.onload=init.</p>
 
-This is what I did here. When the page is loaded, we are going to first
+<p>This is what I did here. When the page is loaded, we are going to first
 check that the init function is executed. And it&apos;s executed after the
 page is loaded, after the DOM is ready.
-
 Then we will select all images, and set some CSS properties.
-
 I can have a look at the console, and if I just type anything, it
 executes again the example, and we see that the console.log in the init
-function has been executed.
+function has been executed.</p>
 
-That means that the load event listener has been defined correctly.
-
+<p>That means that the load event listener has been defined correctly.
 In order to select all the images, and not only one, we can use the
 query.SelectorAll method from the document object.
-
 I&apos;m using querySelectorAll and by just typing the name of an element,
-it will select all the elements, the html elements, of this type.
+it will select all the elements, the html elements, of this type.</p>
 
-Now, in order to iterate on the collection of elements, you can use the
+<p>Now, in order to iterate on the collection of elements, you can use the
 forEach iterator.
-
 This one will be detailed later but let&apos;s see now a very simple use of
-it.
+it. It takes a single argument that is a callback.
+Here I&apos;m using just a variable that corresponds to the current image.</p>
 
-It takes a single argument that is a callback.
-
-Here I&apos;m using just a variable that corresponds to the current image.
-
-You can name it as you like. In that case it&apos;s &quot;currentImage&quot;.
-
+<p>You can name it as you like. In that case it&apos;s &quot;currentImage&quot;.
 If I do currentImage.style.border&hellip; you see that when the page is
 executed, it will take each element from the list of images, and add to each image
 a border. Let&apos;s make it larger!
+You see, we added a border of 10 pixels width.</p>
 
-You see, we added a border of 10 pixels width.
-
-You can also add a margin. In that case I&apos;ve got the different images
+<p>You can also add a margin. In that case I&apos;ve got the different images
 with a margin of 10 pixels at top, left, right and bottom. Let&apos;s try to
 add a border only to the first image. When we click on the first button.
 If we look at the HTML code, we added an onlick event listener that will
 call addBorderToFirstImage, a callback defined in the JavaScript code.
 We can check that the listener works by adding a console.log and
-clicking on the button. It works!
+clicking on the button. It works!</p>
 
-How to select the first image? We use document.querySelector, and here I
+<p>How to select the first image? We use document.querySelector, and here I
 can use the id of the image&hellip; img1, and then use the style property of
-the object:
+the object:</p>
 
-img1.style&hellip;, and you see that if I click on the button, then it adds
+<p>img1.style&hellip;, and you see that if I click on the button, then it adds
 a border.
-
 I could have used just &quot;img&quot;, in order to select only the first
 element of type &quot;img&quot;.
-
 It&apos;s the same syntax I used for querySelectorAll, except that in that
-case it selects just the first one, and you&apos;ve got the same result.
+case it selects just the first one, and you&apos;ve got the same result.</p>
 
-If I want to resize all the images, I can, in that case, use CSS
-properties,
-
-or you can use the width attribute of the images. In order to select all
+<p>If I want to resize all the images, I can, in that case, use CSS
+properties, or you can use the width attribute of the images. In order to select all
 the images, I&apos;m going to use the same technique I used for adding a
 border to all the images earlier. I will first select all the images
 using querySelectorAll, then I will use the foreach iterator, and use
 the width attribute of each individual image, to set this attribute to a
 given value&hellip;so&hellip; if I click here&hellip;Oh! The images are only 10
-pixels&hellip; then maybe this is too small!
+pixels&hellip; then maybe this is too small!</p>
 
-Let&apos;s try 70 pixels&hellip;I click on the button and the images are
-resized!
+<p>Let&apos;s try 70 pixels&hellip;I click on the button and the images are
+resized!</p>
 
-I can click on the first button to add a border. You saw the different
-possibilities.
+<p>I can click on the first button to add a border. You saw the different
+possibilities.</p>
 
-### Accessing HTML elements with the selector API (recommended)
+<h4>Accessing HTML elements with the selector API (recommended)</h4>
 
-Extract from [HTML5 selectors API -- It's like a Swiss Army Knife for
+<p>Extract from [HTML5 selectors API -- It's like a Swiss Army Knife for
 the
 DOM](https://www.webdirections.org/blog/html5-selectors-api-its-like-a-swiss-army-knife-for-the-dom/) :
 &quot;</b>One of the many reasons for the success of JavaScript libraries
@@ -10680,20 +10658,20 @@ they made working with the DOM far less painful than it had previously
 been, and indeed how it was with the standard DOM. Being able to use
 arbitrary CSS selector notation to get matching elements from a document
 made the standard DOM methods seem antiquated, or at the very least, far
-too much like hard work.</b>
+too much like hard work.</b></p>
 
-<b>Luckily, the standards and browser developers took notice. The W3C
+<p><b>Luckily, the standards and browser developers took notice. The W3C
 developed the Selectors API, a way of easily accessing elements in the
 DOM using standard CSS selector concepts, and browser developers have
-baked these into all modern browsers, way back to IE8.</b>&quot;
+baked these into all modern browsers, way back to IE8.</b>&quot;</p>
 
 <h4>The querySelector(CSSSelector) and querySelectorAll(CSSSelector) methods</h4>
 
-Ah&hellip; these methods owe a lot to [jQuery](https://jquery.org/)! They
+<p>Ah&hellip; these methods owe a lot to <a href="https://jquery.org/">jQuery</a>! They
 introduce a way to use CSS selectors (including CSS3 selectors) for
-requesting the DOM, like jQuery introduced ages ago.
+requesting the DOM, like jQuery introduced ages ago.</p>
 
-Any CSS  selector can be passed as a parameter for these methods.
+<p>Any CSS  selector can be passed as a parameter for these methods.</p>
 
 -   While <b>querySelector(selector)</b> will return the first element in
     the DOM that matches the selector (and you will be able to work with
@@ -10706,9 +10684,9 @@ Any CSS  selector can be passed as a parameter for these methods.
 
 <h4>Typical use:</h4>
 
-Looking for an element in the whole document (the whole HTML page): call
+<p>Looking for an element in the whole document (the whole HTML page): call
 the querySelector method (or querySelectorAll) on the document object,
-that corresponds to the whole DOM tree of your web page:
+that corresponds to the whole DOM tree of your web page:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 230.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10785,12 +10763,12 @@ img.width = 100;
 }
 </pre>
 
-<b>Source code from the above example:</b>
+<p><b>Source code from the above example:</b></p>
 
-<b>HTML part</b>: we have two buttons that will call a JavaScript function
+<p><b>HTML part</b>: we have two buttons that will call a JavaScript function
 (<b>lines 2 and 6</b>) where we will manipulate the DOM), and we have four
 images, the first one with an id equal to &quot;img1&quot; (<b>lines 11, 14, 16
-and 18</b>). 
+and 18</b>).</p>
 
 <pre>
 1.  &hellip;
@@ -10815,11 +10793,11 @@ and 18</b>). 
 20. &hellip;
 </pre>
 
-<b>JavaScript part</b>: the init function is executed as soon as the page
+<p><b>JavaScript part</b>: the init function is executed as soon as the page
 is loaded (and the DOM is ready), in this function we add a shadow and
 margins to all images (<b>lines 3-21</b>). The two other functions are
 called when one of the HTML buttons is clicked (<b>line 23 and line
-31</b>).
+31</b>).</p>
 
 <pre>
 1.  window.onload = init; // run init once the page is loaded
@@ -10860,10 +10838,10 @@ img.width = 100;
 
 <h4>Miscellanous examples of use of querySelector(CSSSelector) and querySelectorAll(CSSselector)</h4>
 
-Here are some other examples that use more complicated CSS selectors. If
+<p>Here are some other examples that use more complicated CSS selectors. If
 you are not familiar with their syntax, we recommend that you follow the
 CSS basics, and HTML5 and CSS fundamentals courses
-from <a href="https://www.edx.org/school/w3cx">W3Cx</a>.
+from <a href="https://www.edx.org/school/w3cx">W3Cx</a>.</p>
 
 <h4><b>Example #1: get all &lt;li&gt; directly in a &lt;ul&gt; of class nav</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11056,23 +11034,23 @@ Extract from the source code:
 20. &lt;/ul&gt;
 </pre>
 
-JavaScript code: we select all elements of type input that have an
+<p>JavaScript code: we select all elements of type input that have an
 attribute checked equal to true, and located inside an element whose id
 is &quot;fruits&quot;. Notice the use of document.querySelectorAll, for
 selecting more than one element (<b>line 6</b>), then, we iterate on the
 list (<b>line 8</b>) and concatenate to the string
 variable listOfSelectedValues the value of each element (located in
-its value attribute). This is done in <b>line 9</b>.
+its value attribute). This is done in <b>line 9</b>.</p>
 
-<b>Lines 9-12</b> use the parentNode property of the selected nodes in
+<p><b>Lines 9-12</b> use the parentNode property of the selected nodes in
 order to change the color of the &lt;li&gt; (parents of &lt;input&gt; elements
 selected) in red. In the DOM tree, we selected input elements that
 are each a child of a &lt;li&gt; element. The text displayed: &quot;Apples&quot;,
 &quot;Oranges&quot; etc. belong to the &lt;li&gt; element. In order to access it
-from the &lt;input&gt; child we selected, we use elm.parentNode.
+from the &lt;input&gt; child we selected, we use elm.parentNode.</p>
 
-Finally, at the end of the document, <b>line 14</b> adds a message followed
-by this list:
+<p>Finally, at the end of the document, <b>line 14</b> adds a message followed
+by this list:</p>
 
 <pre>
 1.  function displayListOfCheckedItems() {
@@ -11113,18 +11091,18 @@ by this list:
 6.  &lt;/div&gt;
 </pre>
 
-JavaScript code: we build a CSS selector using the id passed as a
+<p>JavaScript code: we build a CSS selector using the id passed as a
 parameter. In this example, the id is &apos;firstDiv&apos;, the id of the div
-at <i>line 3</i> in the above code.
+at <i>line 3</i> in the above code.</p>
 
-So, the variable CSS selector at <i>line 2</i> in the JavaScript code below
+<p>The variable CSS selector at <i>line 2</i> in the JavaScript code below
 will have a value equal to &quot;#firstDiv p&quot;, that means: select
 all &lt;p&gt; under an element whose id is &quot;firstDiv&quot;.
 The paragraphs variable is a list that contains the paragraphs selected.
 Then we iterate on this list (this time using a for loop, which is an
 alternative method to using the forEach method used in previous
 examples) (<i>lines 5-7</i>), and we change the background of all selected
-paragraphs (<i>line 6</i>).
+paragraphs (<i>line 6</i>).</p>
 
 <pre>
 1.  function changeBackGroundOfPs(id) {
@@ -11154,54 +11132,53 @@ paragraphs (<i>line 6</i>).
 13. var p = div.querySelector(&quot;p&quot;);
 </pre>
 
-### Accessing HTML elements with the DOM API (old fashioned)
+<h4>Accessing HTML elements with the DOM API (old fashioned)</h4>
 
-These methods are from the DOM API and can all be replaced by the
+<p>These methods are from the DOM API and can all be replaced by the
 querySelector and querySelectorAll methods that we&apos;ve discussed. They
 are still used in many JavaScript applications, and are very simple to
-understand.
+understand.</p>
 
-From the document we can access the elements composing our Web page in a
-few ways:
+<p>From the document we can access the elements composing our Web page in a
+few ways:</p>
 
 -   <b>document.getElementById(identifier)</b> returns the element which
     has the id "identifier".
 
-This is equivalent to document.querySelector(&quot;#identifier&apos;); (just add
-a &#35; before the id when using a CSS selector). 
+<p>This is equivalent to document.querySelector(&quot;#identifier&apos;); (just add
+a &#35; before the id when using a CSS selector).</p>
 
-Example: var elm = document.getElementById(&apos;myDiv&apos;); is equivalent
-to document.querySelector(&apos;#myDiv&apos;);
+<p>Example: var elm = document.getElementById(&apos;myDiv&apos;); is equivalent
+to document.querySelector(&apos;#myDiv&apos;);</p>
 
 -   <b>document.getElementsByTagName(tagName) </b>returns a list of
     elements which are named "tagName".
 
-This is equivalent to document.querySelectorAll(tagName);
+<p>This is equivalent to document.querySelectorAll(tagName);</p>
 
-Example: var list = document.getElementByTagName(&apos;img&apos;); is equivalent
-to document.querySelector(&apos;img&apos;);
+<p>Example: var list = document.getElementByTagName(&apos;img&apos;); is equivalent
+to document.querySelector(&apos;img&apos;);</p>
 
 -   <b>document.getElementsByClassName(className)</b> returns a list of
     elements which have the class "className".
 
-This is equivalent to document.querySelectorAll(&apos;.className&apos;); 
+<p>This is equivalent to document.querySelectorAll(&apos;.className&apos;);</p>
 
-Example: var list = document.getElementByClassName(&apos;important&apos;); is
+<p>Example: var list = document.getElementByClassName(&apos;important&apos;); is
 equivalent to document.querySelector(&apos;.important&apos;); (just add a &apos;.&apos;
-before the class name when using a CSS selector). 
+before the class name when using a CSS selector).</p>
 
-Notice that identifier, tagName and className must be of type String.
-
+<p>Notice that identifier, tagName and className must be of type String.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-4">2.5.4 Changing the style of selected HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>The style attribute</h5>
 
-How to modify an HTML element&apos;s CSS properties from JavaScript?
+<p>How to modify an HTML element&apos;s CSS properties from JavaScript?</p>
 
-The most common way to modify the CSS style of one of several elements
+<p>The most common way to modify the CSS style of one of several elements
 you selected using the DOM or Selector API, is to use
-the style attribute.
+the style attribute.</p>
 
 <h5>Typical use:</h5>
 
@@ -11212,18 +11189,18 @@ var p = document.querySelector(&apos;#paragraph1&apos;);
 p.style.color = &apos;red&apos;;
 </pre>
 
-<b>Warning</b>: with the style attribute, you can modify (or read) any CSS
+<p><b>Warning</b>: with the style attribute, you can modify (or read) any CSS
 property, but be careful: the syntax changes a little due to the fact
 that in JavaScript the &quot;-&quot; is a math operator, while in CSS it is used
-to separate properties made of multiple words, such as background-color.
+to separate properties made of multiple words, such as background-color.</p>
 
-When using such properties from JavaScript, the rule is simple:
+<p>When using such properties from JavaScript, the rule is simple:</p>
 
 1.  Remove the &quot;-&quot; sign,
 
 2.  Capitalize the word after the &quot;-&quot; sign!
 
-Simple, isn&apos;t it?
+<p>Simple, isn&apos;t it?</p>
 
 <h4>Examples:</h4>
 
@@ -11233,9 +11210,9 @@ Simple, isn&apos;t it?
 
 -   etc.
 
-The most useful CSS properties (we do recommend that you follow the W3Cx
+<p>The most useful CSS properties (we do recommend that you follow the W3Cx
 courses CSS basics, CSS and HTML5 fundamentals from W3Cx to learn more
-about CSS):
+about CSS):</p>
 
 -   color: changing the color of the text content of selected
     element(s),
@@ -11265,9 +11242,9 @@ Here are some examples:
   alt="." />
 </p>
 
-### Using the ClassList interface to change more than one CSS property simultaneously {#using-the-classlist-interface-to-change-more-than-one-css-property-simultaneously .unnumbered}
+<h4>Using the ClassList interface to change more than one CSS property simultaneously</h4>
 
-### External resources: {#external-resources-2 .unnumbered}
+<h4>External resources:</h4>
 
 -   [The W3C specification about the classList DOM
     interface](https://www.w3.org/TR/dom/#dom-element-classlist)
@@ -11275,15 +11252,15 @@ Here are some examples:
 -   [An article from the Mozilla Developer&apos;s web
     site ](https://hacks.mozilla.org/2010/01/classlist-in-firefox-3-6/)
 
-Until now, to manipulate CSS classes of an HTML element was a bit
+<p>Until now, to manipulate CSS classes of an HTML element was a bit
 complex, both for verifying the presence of a class name in an element,
-and for adding or removing classes associated with a given element.
+and for adding or removing classes associated with a given element.</p>
 
-The ClassList interface simplifies it all by acting as a container
-object and by providing a set of methods to manipulate its content.
+<p>The ClassList interface simplifies it all by acting as a container
+object and by providing a set of methods to manipulate its content.</p>
 
-The classList property applies to an HTML element, and returns a
-collection of class names:
+<p>The classList property applies to an HTML element, and returns a
+collection of class names:</p>
 
 <pre>
 1.  var elem= document.querySelector(&quot;#id1&quot;);
@@ -11311,7 +11288,7 @@ collection of class names:
 16. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div class=&quot;&quot;/&gt;
 </pre>
 
-### Another example: add and remove multiple CSS properties in a list of checkboxes
+<h4>Another example: add and remove multiple CSS properties in a list of checkboxes</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11321,10 +11298,10 @@ collection of class names:
   alt="." />
 </p>
 
-This is a variation of an example from a previous section. This time,
+<p>This is a variation of an example from a previous section. This time,
 when the &lt;input type=&quot;checkbox&quot;&gt; elements have been checked, in
 order to give the parent &lt;li&gt; a background color, a border, and to
-change the text color, we use a CSS class named &quot;checked&quot;:
+change the text color, we use a CSS class named &quot;checked&quot;:</p>
 
 <h5>CSS code:</h5>
 
@@ -11380,18 +11357,17 @@ list.forEach(function(elm) {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-5">2.5.5 Modifying selected HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-We&apos;ve already seen many examples in which we selected one or more
+<p>We&apos;ve already seen many examples in which we selected one or more
 elements, and modified their content. Let&apos;s summarize all the methods
-we&apos;ve seen, and perhaps introduce a few new things&hellip;
+we&apos;ve seen, and perhaps introduce a few new things&hellip;</p>
 
-Properties that can be used to change the value of selected DOM node
+<p>Properties that can be used to change the value of selected DOM node.</p>
 
 <h4>Using the innerHTML property</h4>
 
-This property is useful when you want to change all the children of a
+<p>This property is useful when you want to change all the children of a
 given element. It can be used to modify the text content of an element,
-or to insert a whole set of HTML elements inside another one.
+or to insert a whole set of HTML elements inside another one.</p>
 
 <b>Typical use:</b>
 
@@ -11407,11 +11383,11 @@ elem.innerHTML = ''; // empty the elem
 
 <h4>Using the textContent property</h4>
 
-It&apos;s also possible, with selected nodes/elements that contain text, to
+<p>It&apos;s also possible, with selected nodes/elements that contain text, to
 use the textContent property to read the text content or to modify it.
 There are subtle differences that can be seen in the above example
 (click the &apos;edit on CodePen&quot; part on the top left, and once in
-codePen, open the devtool console):
+codePen, open the devtool console):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11466,7 +11442,7 @@ codePen, open the devtool console):
 &lt;p id="second"&gt;&lt;em&gt;second&lt;/em&gt; paragraph&lt;/p&gt;
 </pre>
 
-JavaScript code: the comments after lines that start
+<p>JavaScript code: the comments after lines that start
 with console.log correspond to what is printed in the devtool debug
 console. Notice the difference between the textNode value and
 the innerHTML property values at <b>lines 13-14</b>:
@@ -11474,7 +11450,7 @@ while textContent returns only the text inside the second
 paragraph, innerHTML also returns the &lt;em&gt;&hellip;&lt;/em&gt; that surrounds
 it. However, when we modify the textContent value, it also replaces the
 text decoration (the &lt;em&gt; is removed), this is done at <b>lines
-16-20</b>.
+16-20</b>.</p>
 
 <pre>
 1.  window.onload = init;
@@ -11504,11 +11480,11 @@ text decoration (the &lt;em&gt; is removed), this is done at <b>lines
 
 <h4>Changing the attributes of selected elements</h4>
 
-It&apos;s very common to modify the attributes of selected elements: the
+<p>It&apos;s very common to modify the attributes of selected elements: the
 width of an image, CSS style with the style attribute, value of an input
-field, etc.
+field, etc.</p>
 
-This example shows some of the things we can do:
+<p>This example shows some of the things we can do:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 237.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11564,7 +11540,8 @@ This example shows some of the things we can do:
 5  img.width = 200;
 </pre>
 
-Add the newly created element to another element in the DOM, using append(), appendChild(), insertBefore() or the innerHTML property
+Add the newly created element to another element in the DOM, 
+using append(), appendChild(), insertBefore() or the innerHTML property
 
 Examples:
 var ul = document.querySelector('#myList');
