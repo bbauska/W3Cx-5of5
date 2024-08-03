@@ -8407,8 +8407,13 @@ common types of events in detail.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-3">2.4.3 Page lifecycle events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- image goes here -->
-
+<!--~~~~~~~~~~~~~~~~~~~ 258.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image258.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+  
 <p>This time let&apos;s talk about the event object, and we&apos;ll start looking
 at different types of events.</p>
 <image goes here>
@@ -8419,16 +8424,26 @@ callback.</p>
 <p>I usually call this callback &quot;init&quot; and this is a good practice:
 always use a function that will be called when the page is loaded.
 I&apos;m adding a console.log message just to verify.</p>
-
-<!-- image goes here -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 259.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image259.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>I open the console, and you can see that if I save the document and run
 again the example, or if I clear the console and execute it again, this
 callback is called when the page is loaded&hellip; that means &quot;when the 
 DOM is ready&quot;.Then, from this function, I can call any other function, 
 I can execute any kind of code, I will never have to wonder&hellip; to think: 
 &quot;is the DOM ready?&quot;</p>
-
-<image goes here>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 260.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image260.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>For example, to update this part of the page&hellip;
 I use a span with an id attribute.
 I can locate the span&hellip; and like this&hellip; using the querySelector
@@ -8438,8 +8453,13 @@ Then I can change the content of the page&hellip;
 If you look at what is happening when I execute the code, it says &quot;page
 loaded&quot;. This is a very good practice.
 I nearly always do this on my own softwares.</p>
-
-<!-- image goes here -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 261.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image261.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>Another variant is that instead of using the &quot;onload&quot; syntax, you can
 just write window.load = init.
 This will produce the same result&hellip; onload&hellip; and in that case,
@@ -8449,8 +8469,14 @@ better separation of the different parts of your Web application.
 You may notice that here I haven&apos;t typed the event argument.
 Every event callback will have an event object passed by the browser
 when the event is processed.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 262.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image262.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
-<!-- image goes here -->
 And this event object can be used to guess what type of event has been
 fired, can be used to get the different properties of the event, such as
 the x and y positions of the mouse, the button that has been clicked,
@@ -8468,8 +8494,14 @@ In that case, we are going to detect mouse moves on the button, and you
 can see in the console that it works.</p>
 You can, for example, use the event objet to detect the x position of
 the mouse.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 263.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image263.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
-<!-- image goes here -->
 <p>There are different properties for getting the position of the mouse,
 relative to top of the page, relative to the top of the viewport or
 relative to the the element that fired the event.
@@ -8498,13 +8530,12 @@ DOM is ready.</p>
 <p>There are many other events related to the page life cycle. The most
 useful ones for an introduction course are shown below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 190. load, resize and scroll events (225) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 264. load, resize and scroll events (225) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image190.png?raw=true"
+<img src="./images/image264.png?raw=true"
   style="width:50%"
   title="Load, Resize and Scroll events"
   alt="Load, Resize and Scroll events." />
-<!-- ![](./images/image160.png){width="6.5in" height="2.029166666666667in"} -->
 
 <h4>Page event properties</h4>
 
@@ -8522,13 +8553,12 @@ canvas size, for example).
 
 <p>This first variant that uses &lt;body onload=&quot;init();&quot;&gt;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 265.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image191.png?raw=true"
+<img src="./images/image265.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image161.png){width="6.5in" height="2.0701388888888888in"} -->
 
 <h5>HTML:</h5>
 
@@ -8574,13 +8604,12 @@ status.innerHTML = 'LOADED!';
 This second variant: using window.onload = init; in the JavaScript
 code&hellip;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 266.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image192.png?raw=true"
+<img src="./images/image266.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image162.png){width="6.5in" height="2.0701388888888888in"} -->
 
 <h5>HTML:</h5>
 
@@ -8633,13 +8662,12 @@ The window.innerWidth and window.innerHeight properties are used to
 display the updated size of the window. We also
 use screen.width and screen.height to display the screen size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 193.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 267.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image193.png?raw=true"
+<img src="./images/image267.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image163.png){width="6.5in" height="2.0631944444444446in"} -->
 
 <h5>HTML:</h5>
 
@@ -8686,13 +8714,12 @@ var screenSizeSpan = document.querySelector('#screenSize');
 
 <h4>Example 3: do something as the page is being scrolled up or down</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 194.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 268.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image194.png?raw=true"
+<img src="./images/image268.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image164.png){width="6.5in" height="2.0701388888888888in"} -->
 
 <h5>HTML:</h5>
 
@@ -8785,13 +8812,12 @@ which real keyboard keys, so here are some handy pointers:</p>
 
 <h4>Event types related to keyboard</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 269.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image195.png?raw=true"
+<img src="./images/image269.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image165.png){width="6.5in" height="1.2861111111111112in"} -->
 
 <h4>keyboardEvent properties</h4>
 
@@ -8801,19 +8827,18 @@ targeting modern browsers. keyCode has a more powerful/easy to use
 replacement called code (not yet supported by all browsers), that comes
 with a new key property (see the following pages of the course).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 270.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image196.png?raw=true"
+<img src="./images/image270.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image166.png){width="6.5in" height="1.7333333333333334in"} -->
 
 <h4>Example #1: use keyup and keydown on the window object</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 271.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image197.png?raw=true"
+<img src="./images/image271.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8867,13 +8892,12 @@ on [CodePen](https://codepen.io/).
 
 <p>Try to type shift-a for example, ctrl-shift-b or alt-f&hellip;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 272.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image206.png?raw=true"
+<img src="./images/image272.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image168.png){width="6.5in" height="2.0770833333333334in"} -->
 
 <h5>HTML:</h5>
 
@@ -8955,17 +8979,17 @@ out the Web browser actually exposes a useful API for this.&quot;</p>
 <h4>[QWERTY](https://en.wikipedia.org/wiki/QWERTY) layout, used in US, GB, etc.</h4>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 273.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image207.png?raw=true"
+<img src="./images/image273.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 <!-- ![QWERTY keyboard layout](./images/image169.png){width="5.208333333333333in" height="1.7395833333333333in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 208.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 274.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image208.png?raw=true"
+<img src="./images/image274.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8977,9 +9001,9 @@ alternative to QWERTY:</h4>
 
 <h5>DVORAK:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 209.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 275.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image209.png?raw=true"
+<img src="./images/image275.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8987,9 +9011,9 @@ alternative to QWERTY:</h4>
 
 <h5>QWERTZ:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 276.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image210.png?raw=true"
+<img src="./images/image276.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8997,9 +9021,9 @@ alternative to QWERTY:</h4>
 
 <h4>Saudi Arabic keyboard layout (see more <a href="https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards">Arabic keyboards</a>):</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 211.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 277.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image211.png?raw=true"
+<img src="./images/image277.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9007,9 +9031,9 @@ alternative to QWERTY:</h4>
 
 <h4><a href="">Bangla National (Jatiyo) keyboard</a>:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 278.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image212.png?raw=true"
+<img src="./images/image278.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9058,9 +9082,9 @@ this</a>. You can read about the <a href="https://www.w3.org/TR/uievents-code/#
 layouts</a> around the world, as well as their <a href="https://www.w3.org/TR/uievents-code/#code-value-tables">reference
 keyboard</a>. For instance here is their reference keyboard for the alphanumerical part:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 279.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image205.png?raw=true"
+<img src="./images/image279.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9072,13 +9096,12 @@ the user presses various types of keys, both for code and key.</p>
 
 <h4>Example that displays the key and code values with your current keyboard</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 280.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image206.png?raw=true"
+<img src="./images/image280.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image176.png){width="6.5in" height="2.5652777777777778in"} -->
 
 <h5>HTML:</h5>
 
@@ -9152,9 +9175,9 @@ listen to.</p>
 
 <h4>Event types related to mouse</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 281.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image207.png?raw=true"
+<img src="./images/image281.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9162,9 +9185,9 @@ listen to.</p>
 
 <h4>MouseEvent properties</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 208.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 282.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image208.png?raw=true"
+<img src="./images/image282.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9174,9 +9197,9 @@ listen to.</p>
 
 <h4>Example #1: detect a click on an element</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 209.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 283.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image209.png?raw=true"
+<img src="./images/image283.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9243,9 +9266,9 @@ relative to the top of the page, even if they are not visible. Click on
 the codePen label on top right and run this example! It does not work
 when embedded in this page!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 284.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image210.png?raw=true"
+<img src="./images/image284.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9330,9 +9353,9 @@ for(var i=0; i<3; i++){
 
 <h4>Example #3: detect a mousemove event and get the mouse position relative to the page</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 211.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 285.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image211.png?raw=true"
+<img src="./images/image285.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
