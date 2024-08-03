@@ -6617,7 +6617,7 @@ because both tests here, > 12 and &lt; 14, are true.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 217. codepen;  (176) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image216.png?raw=true"
+<img src="./images/image217.png?raw=true"
   style="width:45%"
   title="CodePen; "
   alt="CodePen; ." />
@@ -6627,11 +6627,12 @@ but age &lt; 14 is true, it prints &quot;I&apos;m a young teenager&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 218/219. codepen;  (176) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image216.png?raw=true"
+<img src="./images/image218.png?raw=true"
   style="width:45%"
   title="CodePen; "
   alt="CodePen; ." />
-<img src="./images/image217.png?raw=true"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./images/image219.png?raw=true"
   style="width:45%"
   title="CodePen; "
   alt="CodePen; ." />
@@ -6999,9 +7000,9 @@ appear, for example:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: switch statement</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 220.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image220.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7009,9 +7010,9 @@ appear, for example:</p>
 
 <p>Hi! Let&apos;s have a look at the switch statement.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 221.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image221.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7020,9 +7021,9 @@ appear, for example:</p>
 And to pick a random number that is an integer, we used a formula like
 this, that uses a predefined object called Math.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 222.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image222.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7040,9 +7041,9 @@ so on. Why is it naïve?
 Because we&apos;re going to execute all the tests and we all know that only
 one of them will be true.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 223.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image223.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7052,9 +7053,9 @@ Monday, else if day equals 1, print Tuesday&hellip;
 In that case, we&apos;re gonna test just until we find the day, and all the
 else will be ignored.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 224.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image224.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7076,9 +7077,9 @@ enter different case statements.
 You can make errors if you don&apos;t know what to break keyword means, but
 it can also be useful to regroup cases.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 225. use switch to display days of the week (188) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image225.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7093,9 +7094,9 @@ Doing this, we will print &quot;Week Day&hellip;&quot; only if the day has a
 value of 0, 1, 2, 3 or 4, and we will print &quot;Week end!&quot; if it has a
 value of 5 or 6.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 226. use switch; week day & weekends (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image226.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7105,9 +7106,9 @@ This thing here case &quot;day greater or equal than 0&quot; or &quot;day less t
 4&quot; is not valid. You cannot use an expression here, after the case.
 This is not going to work. Avoid! This&hellip; error!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 227. example; use an array (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image227.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7396,88 +7397,33 @@ only a watch (default case).</p>
 on the &quot;edit on codepen&quot; label and once in codepen, open the devtool
 console to see the outputs of this program):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 228. look at js from this example, open devtools (195) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image195.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Look at JS from this example, open devtools"
+  alt="Look at JS from this example, open devtools." />
 
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;title&gt;3 ways to do conditional statements&lt;/title&gt;
-  &lt;meta charset=&quot;utf-8&quot;/&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  Look at the js code from this example!
-  And do not forget to open the devtool
-  console to see the outputs.
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>/*CONDITIONAL STATEMENTS*/
-/*3 examples which are equivalent*/
-//try to change foo value
-var foo=1;
-//var foo=2;
-//var foo=1000;
-//var foo=0;
-//var foo='1';
-var bar1,bar2,bar3;
-//example 1
-if(foo===1){
-  bar1='one';
-}
-else if(foo===2){
-  bar1='two';
-}
-else{
-  bar1='something';
-}
-//example 2
-  bar2 = (foo===1)?'one':(foo===2)?'two':'something';
-//example 3
-switch(foo){
-case 1 :
-  bar3='one';
-  break;
-case 2 :
-  bar3 ='two';
-  break;
-  default:
-bar3 ='something';
-}
-//now we print results :
-console.log('example1,&#92;n bar1 >> ' + bar1);
-console.log('example2,&#92;n bar2 >> ' + bar2);
-console.log('example3,&#92;n bar3 >> ' + bar3);
-</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-3">2.2.3 Loop statements (8:06)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: loop statements</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229. loop statements (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/imageXXX.png?raw=true"
+<img src="./images/image229.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Loop statements"
+  alt="Loop statements." />
 <p>Let&apos;s talk about loop statements.
 <p>There are different loop statements in JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 230. while loop, 1 to 3, and sum of sum (196) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/imageXXX.png?raw=true"
+<img src="./images/image230.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="While loop, 1 to 3, and sum of sum"
+  alt="While loop, 1 to 3, and sum of sum." />
 <p>One is the &quot;while&quot; loop statement. It starts with some initializations, 
 you give some values to some variables, then you use the keyword &quot;while&quot; 
 followed by an expression that you will test. It will be evaluated as &quot;true&quot; 
@@ -7495,13 +7441,13 @@ than 4, we continue, n = 3, it&apos;s still less than 4, we continue, n = 4,
 then the condition is false: 4 is not strictly less than 4, and we
 continue after the loop and the console.log is executed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231. while loop, n and m (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/imageXXX.png?raw=true"
+<img src="./images/image231.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<p>Let&apos;s have a look at the execution of this program. So, while it&apos;s
+  title="While loop, n and m"
+  alt="While loop, n and m." />
+<p>Let&apos;s have a look at the execution of this program. While it&apos;s
 executed, it prints in the body of the loop console.log, it prints n = 1, this 
 is the initial value, n = 2, n = 3&hellip; when n = 4 the condition is no more 
 true and we go at the next instruction after the block of instructions of the 
@@ -7509,12 +7455,12 @@ loop. Inside the loop, we also incremented the variable m by adding the consecut
 values of n. And m had a starting value of one. 1 + 1 + 2 + 3 + 4 &hellip;. the final 
 result is 10 as you can see.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 232. do while, 0 to less than 20 (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/imageXXX.png?raw=true"
+<img src="./images/image232.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Do while loop, 0 to less than 20"
+  alt="Do while loop, 0 to less than 20." />
 <p>The second kind of loops you can use are called the &quot;do&hellip;while&quot;
 loops.</p>
 <p>They are very similar to the while loops except that the first execution
@@ -7530,12 +7476,12 @@ value to i that is 20, then the condition will be no more true, and we
 will finish the execution of the loop and execute the console.log that
 is here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233. do while, 0 to under 20 (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/imageXXX.png?raw=true"
+<img src="./images/image233.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Do while loop, 0 thru 19 (under 20)"
+  alt="Do while loop, 0 thru 19 (under 20)." />
 
 <p>Look at the devtool console:</p>
 
@@ -7558,12 +7504,12 @@ the very end of the loop, as the last instruction.</p>
 will make, after a certain number of executions of the loop, the
 condition false.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234. for loop, 0 thru 4 (199) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/imageXXX.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="For loop, 0 thru 4"
+  alt="For loop, 0 thru 4." />
 <p>Let&apos;s try a small example: we are going to count one by one from an
 initial value to an end value.
 You see: I counted from 0 to 5, not included, because of the &quot;less
@@ -7571,32 +7517,32 @@ than&quot; operator here.
 I counted for i equals 0, 1, 2, 3, 4&hellip; then, when i is equal to 5 the
 condition is no more true and we exit the loop.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. for loop 0 thru 4 (199) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/imageXXX.png?raw=true"
+<img src="./images/image235.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<p>We can also use less than or equal to.
-In this case we counted to the final value and included it.</p>
+  title="For loop, 0 thru 4"
+  alt="For loop, 0 thru 4." />
+<p>We can also use less than or equal to. In this case we counted to the final 
+value and included it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. increment loop by 2 (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/imageXXX.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Increment loop by 2"
+  alt="Increment loop by 2." />
 
 <p>We can also increment the loop 2 by 2.
 In that case (let me clear and execute again), we run the loop with a value of 
-i = 0, i=2, i=4, i=6, the condition is no more true, we exit from the loop.
+i = 0, i=2, i=4, i=6, the condition is no more true, we exit from the loop.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 237. daysOfTheWeek array enumeration (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/imageXXX.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="daysOfTheWeek array enumeration; Monday thru Sunday"
+  alt="daysOfTheWeek array enumeration; Monday thru Sunday." />
 
 <p>We can also iterate on the elements of an array. This is very common.
 We&apos;ve got an array here called &quot;daysOfTheWeek&quot; and we are going to
@@ -7615,13 +7561,12 @@ with the index equal to i, inside the loop.</p>
 <p><a href="https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012" 
 target="_blank" rel="noopener noreferrer">Example on CodePen</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 196. a loop in the sky (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. a loop in the sky (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image196.png?raw=true"
+<img src="./images/image238.jpeg?raw=true"
   style="width:25%"
   title="A loop in the sky"
   alt="A loop in the sky." />
-<!-- <h4>![A loop in the sky](./images/image148.jpeg)</h4> <!-- 2.6" width --> -->
 
 <h4>Loops</h4>
 
@@ -7915,13 +7860,12 @@ value between 0 and 10.</p>
 module, the math function plotter example used input fields. Or look
 at the section about DOM in this module.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 197. quiz (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. quiz (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image197.png?raw=true"
+<img src="./images/image239.jpeg?raw=true"
   style="width:25%"
   title="Quiz"
   alt="Quiz." />
-<!-- ![quizz](./images/image149.jpeg){width="1.25in" height="0.9375in"} -->
 
 <ul>
   <li>Try to make a quiz using the DOM and buttons, checkboxes, etc.</li>
@@ -7965,9 +7909,9 @@ statements, and a function declaration is not an executable statement.</p>
 
 <h4>Here is an example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 240.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image198.png?raw=true"
+<img src="./images/image240.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
