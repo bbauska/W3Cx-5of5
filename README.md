@@ -9402,9 +9402,9 @@ mouseScreenPositions.innerHTML = &quot;screenX: &quot; + evt.screenX +
 <p>Here is a first version that does not work well due to a naive use of
 clientX/PageX and clientY/pageY mouse event properties:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 286.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image212.png?raw=true"
+<img src="./images/image286.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -9467,9 +9467,9 @@ rectangle. We can use the top and left properties along
 with evt.clientX and evt.clientY to fix the mouse position and to get a
 real position relative to the top left corner of the canvas:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 213.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 287.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image213.png?raw=true"
+<img src="./images/image287.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9540,9 +9540,9 @@ mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
 
 <h4>Example #5: combine mouseup, mousedown, mousemove to implement a click and drag behavior</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 214.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 288.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image214.png?raw=true"
+<img src="./images/image288.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9634,9 +9634,9 @@ selected = null;
 }
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 215.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 289.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image215.png?raw=true"
+<img src="./images/image289.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9799,9 +9799,9 @@ toggleMenuOff();
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Events related to forms</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 216.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 290.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image216.png?raw=true"
+<img src="./images/image290.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9817,7 +9817,7 @@ the course that deals with form events.</p>
 
 <p>First variant: using the &apos;input&apos; event:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 217.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 291.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image217.png?raw=true"
   style="width:50%"
@@ -9873,9 +9873,9 @@ output.innerHTML = &quot;This name is too short (at least 5 chars)&quot;;
 
 <h4>Second variant: using the &apos;keyup&apos; event:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 218.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 292.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image218.png?raw=true"
+<img src="./images/image292.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9943,9 +9943,9 @@ week to this topic.</p>
 
 <h4>Example #2: do something while a slider is being moved</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 219.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 293.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image219.png?raw=true"
+<img src="./images/image293.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -9990,9 +9990,9 @@ output.innerHTML = &quot;Value selected: &quot; + val;
 
 <h4>Example #3: detect value changes in a number input field</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 220.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 294.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image220.png?raw=true"
+<img src="./images/image294.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -10042,9 +10042,9 @@ output.innerHTML = &quot;Value selected: &quot; + val;
 
 <h4>Example #4: choose a color and do something</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 221.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 295.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image221.png?raw=true"
+<img src="./images/image295.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -10090,9 +10090,9 @@ output.innerHTML = &quot;Color selected: &quot; + color;
 
 <h5>HTML5 events:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 222.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 296.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image222.png?raw=true"
+<img src="./images/image296.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -10282,9 +10282,9 @@ post your comments/observations/questions or share your creations.</p>
 
 <h4>Optional project</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 223.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 297.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image223.png?raw=true"
+<img src="./images/image297.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -10362,9 +10362,9 @@ showed you:</p>
 <p>Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 224.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 298.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image224.png?raw=true"
+<img src="./images/image298.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -10411,9 +10411,9 @@ ones are highlighted in bold.</p>
 Firefox for exploring the DOM, as it proposes a good structured view of
 the DOM and of its properties/methods:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 225.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 299.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image225.png?raw=true"
+<img src="./images/image299.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -10422,9 +10422,9 @@ the DOM and of its properties/methods:</p>
 above screenshot, you will be able to look at all the properties, all
 the methods, all the event listeners:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 226.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 300.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image226.png?raw=true"
+<img src="./images/image300.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -10434,9 +10434,9 @@ with the mouse: click the target icon and click on  the element on the
 page that you want to inspect, this time with Google Chrome, but you
 will find this option in all modern browsers&apos; devtool consoles:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 227.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 301.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image227.png?raw=true"
+<img src="./images/image301.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
