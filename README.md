@@ -11,6 +11,7 @@ date last editted: "7/26/2024 Fri 10+am"
 date last editted: "7/29/2024 Mon 4+pm"
 date last editted: "7/31/2024 Wed 7+pm"
 date last editted: "8/1/2024 Thu 8+pm"
+date last editted: "8/2/2024 Fri 3+pm"
 
 output: 
   markdown:
@@ -6401,7 +6402,7 @@ The example is just here to illustrate what can be done using external libraries
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/dNBPQm" 
 target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-7">1.6.7 Working with remote data</h3>
+<h3 id="ch1-6-8">1.6.8 Working with remote data</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Let's see a few examples on how to work with remote data.</p>
 
@@ -6413,9 +6414,9 @@ target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 (see <a href="https://jsonplaceholder.typicode.com/users" 
  target="_blank" rel="noopener noreferrer">remote data</a>):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 201. codepen; use remote structured data (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 205. codepen; use remote structured data (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image201.png?raw=true"
+<img src="./images/image205.png?raw=true"
   style="width:50%"
   title="CodePen: Use remote structured data"
   alt="CodePen: Use remote structured data." />
@@ -6428,22 +6429,22 @@ target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 remote sounds, decode them and play them as samples in memory (useful
 for video games):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 202. CodePen: Load and decode remote sounds for use in a video game (173) ~~~~~~~~~-->
+<!--~~~~~~~~ 206. CodePen: Load and decode remote sounds for use in a video game (173) ~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image202.png?raw=true"
+<img src="./images/image206.png?raw=true"
   style="width:50%"
   title="CodePen: Load and decode remote sounds for use in a video game"
   alt="CodePen: Load and decode remote sounds for use in a video game." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/BWbNQG" 
 target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1">2.1 Adding Interactivity to JS Documents</h3>
+<h3 id="ch2-1-1">2.1.1 Adding Interactivity to JS Documents</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Video: Introduction to Module 2</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 203. learn how to handle events (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 207. learn how to handle events (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image203.png?raw=true"
+<img src="./images/image207.png?raw=true"
   style="width:50%"
   title="Learn how to handle events"
   alt="Learn how to handle events." />
@@ -6460,16 +6461,22 @@ of an HTML document.</p>
 such as conditional statements, logical operators (if, then, else), and
 loops. How to display multiple rows in a table, how to draw multiples graphical
 objects on the screen.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 208. university cote d'azur w3cx (173) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image208.png?raw=true"
+  style="width:50%"
+  title="University Cote d'azur W3Cx"
+  alt="University Cote d'azur W3Cx." />
 <p>Finally, we will write together a small JavaScript game using the HTML5
 canvas API. Animating and drawing shapes at 60 frames/second is a lot of fun, and
 we'll make you play with the most of the language elements seen so far.
 And please, as I like video game, don&apos;t forget to share your project in
 the forum. And let other students enjoy your creation :D</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1-1">2.1.1 Interactivity with JS</h3>
+<h3 id="ch2-1-2">2.1.2 Interactivity with JS</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>What you will learn in Module 2:</p>
+<p>What you will learn in Module 2: Interactivity with JavaScript</p>
 
 <ul>
   <li>Conditional statements and logical operators: if&hellip;then&hellip;else,
@@ -6481,18 +6488,17 @@ the forum. And let other students enjoy your creation :D</p>
   <li>HTML5 canvas: learn how to draw and animate simple shapes</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-1">2.2 Conditional Statements, Loops and Logical Operators</h3>
+<h3 id="ch2-2-1">2.2.1 Conditional Statements, Loops and Logical Operators (7:33)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: boolean value, if&hellip;else statement and comparison
 operators</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 209. codepen; comparison operators and the if, else stmts (174) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image204.png?raw=true"
+<img src="./images/image209.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen; Comparison Operators and the if, else statements"
+  alt="CodePen; Comparison Operators and the if, else statements." />
 
 <p>Comparison operators and the if, else statements.</p>
 
@@ -6502,7 +6508,14 @@ a boolean variable. And we&apos;re gonna see how this variable can be tested in 
 &quot;if&quot; statement. In order to use the &quot;if&quot; statement, we type 
 &quot;if&quot;, followed by parentheses, and by a block of instructions, that will 
 be executed only if what is between the parentheses here, is true.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 210. codepen; this is a javascript course (175) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image210.png?raw=true"
+  style="width:50%"
+  title="CodePen; This is a JavaScript course"
+  alt="CodePen; This is a JavaScript course." />
+  
 <p>I&apos;m gonna put this variable that we set to true, and add an instruction
 inside. We can see in the console that the instruction in the block has been
 executed, and &quot;This is a JavaScript course&quot; has been printed to the
@@ -6515,23 +6528,46 @@ executed because the expression is false and the block of instructions is
 completely avoided. We can improve this example using an else statement.
 &quot;This is NOT a JavaScript course!&quot; I run it again. And the thing 
 that is executed is the else block of instructions &quot;This is NOT a 
-JavaScript course!&quot;.</p>
+JavaScript course!&quot;. If I set it back to true, you can see that 
+it&apos;s a bit like a switch. It prints: &quot;This is a JavaScript 
+course!&quot;</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 211. codepen; comparison operators (175) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image211.png?raw=true"
+  style="width:50%"
+  title="CodePen; Comparison operators"
+  alt="CodePen; Comparison operators." />
 
-<p>If I set it back to true, you can see that it&apos;s a bit like a switch. It
-prints: &quot;This is a JavaScript course!&quot; Ok, let&apos;s see now comparison 
-operators. They are: less than, more than, less or equals to, more or equals to,
-equals equals (that means &quot;equals&quot;), not equals (that means &quot;different&quot;), 
-and a different version of these last two operators, that are called strict equals 
-and strict not equals operators. And they are written === and !== . These last two 
-syntaxes are preferred because they will avoid you a lot of errors.</p>
+<p>Ok, let&apos;s see now comparison operators. They are: less than, more than, 
+less or equals to, more or equals to, equals equals (that means &quot;equals&quot;), 
+not equals (that means &quot;different&quot;), and a different version of these last 
+two operators, that are called strict equals and strict not equals operators. And 
+they are written === and !== . These last two syntaxes are preferred because they 
+will avoid you a lot of errors.</p>
 
 <p>I will show the differences in a minute, but consider these last with the three 
-equals (===) and not equals equals (==), to be the ones you must use. Let&apos;s 
-see some code now... I declared the variable &quot;age&quot; with a value of 1, 
-and I added some if&hellip; else statements. If &quot;age&quot; is less than 2, 
-print &quot;I&apos;m a baby&quot;, and you can see that this has been executed, 
-because the variable is 1, 1 is less than 2. It&apos;s been executed...
+equals (===) and not equals equals (==), to be the ones you must use.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 212. codepen; comparison operators; baby, child, adult or old (176) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image212.png?raw=true"
+  style="width:50%"
+  title="CodePen; Comparison operators; baby, child, adult or old"
+  alt="CodePen; Comparison operators; baby, child, adult or old." />
+
+<p>Let&apos;s see some code now... I declared the variable &quot;age&quot; with 
+a value of 1, and I added some if&hellip; else statements. If &quot;age&quot; is 
+less than 2, print &quot;I&apos;m a baby&quot;, and you can see that this has been 
+executed, because the variable is 1, 1 is less than 2. It&apos;s been executed...
 I can add some &quot;else&hellip;if&quot; statements.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 213. codepen; comparison operators; baby, child, adult or old (176) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image213.png?raw=true"
+  style="width:50%"
+  title="CodePen; Comparison operators; baby, child, adult or old"
+  alt="CodePen; Comparison operators; baby, child, adult or old." />
 
 <p>If age is 10, then in that case I&apos;ll go to the else statement and I will 
 test again if in this case, age is less than 18. I&apos;ll print &quot;I&apos;m 
@@ -6541,22 +6577,65 @@ a child&quot;. And this works too. Only the second case has been executed.</p>
 block of instructions has been executed. I can chain the &quot;else&hellip;if&quot; 
 statements like that. And you can notice that I added at the end only an 
 &quot;else&quot; statement, without an &quot;if&quot; behind. This means: 
-&quot;when all the other cases are false, please come here!&quot;. If I set my 
-age to be 70, then in that case, all the tests will be false, and I will execute 
-the block of instructions that is just after the last &quot;else&quot;, and it 
-prints &quot;I&apos;m old&quot;.</p>
+&quot;when all the other cases are false, please come here!&quot;.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 214. codepen; comparison operators; baby, child, adult or old (176) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image214.png?raw=true"
+  style="width:50%"
+  title="CodePen; Comparison operators; baby, child, adult or old"
+  alt="CodePen; Comparison operators; baby, child, adult or old." />
+  
+<p>If I set my age to be 70, then in that case, all the tests will be false, and 
+I will execute the block of instructions that is just after the last &quot;else&quot;, 
+and it prints &quot;I&apos;m old&quot;.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 215. codepen; comparison operators; baby, child, adult or old (176) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image215.png?raw=true"
+  style="width:50%"
+  title="CodePen; Comparison operators; baby, child, adult or old"
+  alt="CodePen; Comparison operators; baby, child, adult or old." />
 
 <p>I can also try&hellip; if the variable has some exact value using the ==
 operator. If I set the variable to be 72, then this test is true and it prints 
-&quot;I&apos;m 72&quot; in the devtool console. We can also use more than one 
-test at once using logical operators. The double ampersand (&&) here is the AND 
-operator. This will be true only is age is more than 12 and less than 14.</p>
+&quot;I&apos;m 72&quot; in the devtool console.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 216. codepen;  (176) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image216.png?raw=true"
+  style="width:45%"
+  title="CodePen; "
+  alt="CodePen; ." />
 
-<p>If I set the variable to 13, it will print &quot;I&apos;m a young teenager&quot;
-because both tests here, > 12 and &lt; 14, are true. I can use also the OR operator.
-In that case, it will be true if one of the two are true. Let&apos;s try with age = 8.
-With age equals to 8, this is false, age > 12, but age &lt; 14 is true, it prints 
-&quot;I&apos;m a young teenager&quot;.</p>
+
+<p>We can also use more than one 
+test at once using logical operators. The double ampersand (&&) here is the AND 
+operator. This will be true only is age is more than 12 and less than 14.
+If I set the variable to 13, it will print &quot;I&apos;m a young teenager&quot;
+because both tests here, > 12 and &lt; 14, are true.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 217. codepen;  (176) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image216.png?raw=true"
+  style="width:45%"
+  title="CodePen; "
+  alt="CodePen; ." />
+<p>I can use also the OR operator. In that case, it will be true if one of the two 
+are true. Let&apos;s try with age = 8. With age equals to 8, this is false, age > 12, 
+but age &lt; 14 is true, it prints &quot;I&apos;m a young teenager&quot;.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 218/219. codepen;  (176) ~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image216.png?raw=true"
+  style="width:45%"
+  title="CodePen; "
+  alt="CodePen; ." />
+<img src="./images/image217.png?raw=true"
+  style="width:45%"
+  title="CodePen; "
+  alt="CodePen; ." />
+</p>
 
 <p>Finally, let&apos;s have a look at the === operator. If I set the age to be &quot;72&quot;, 
 but as a string, like this... it prints... let me clear the devtool console and 
@@ -6607,7 +6686,7 @@ it becomes a string variable:</p>
 6.  'undefined'
 7.   
 8.  &gt; if (foo === undefined) {
-9.      console.log('The variable foo has no value and is undefined');
+9.    console.log('The variable foo has no value and is undefined');
 10. }
 11. 'The variable foo has no value and is undefined'
 </pre>
@@ -6916,7 +6995,7 @@ appear, for example:</p>
   <li>Math.sqrt(-1); return NaN</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-2">2.2.2 Conditional statements</h3>
+<h3 id="ch2-2-2">2.2.2 Conditional statements (5:07)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: switch statement</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6929,12 +7008,24 @@ appear, for example:</p>
 <!-- image goes here -->
 
 <p>Hi! Let&apos;s have a look at the switch statement.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>I prepared a small example in which we take a day number between 0 and
 6, 0 for Monday, 1 for Tuesday, and so on...
 And to pick a random number that is an integer, we used a formula like
 this, that uses a predefined object called Math.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>Math.random() returns a number between 0 and 1, 6 multiplied by
 this, will give a number between 0 and 7, and we just return the rounded
 nearest integer.
@@ -6948,51 +7039,78 @@ It says: if day equals 0, then print Monday; if day equals 1 ... ; and
 so on. Why is it naïve?
 Because we&apos;re going to execute all the tests and we all know that only
 one of them will be true.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>Instead of multiplying series the tests, a better version is to use
 &quot;if&hellip; else&quot; statements, like this&hellip; so if day equals 0, then print
 Monday, else if day equals 1, print Tuesday&hellip;
 In that case, we&apos;re gonna test just until we find the day, and all the
 else will be ignored.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>A much better version uses a switch.
 When you&apos;ve got to make multiple tests, it might be more interesting to
 use a switch. switch(day). Then you test with the different possible values, using
-the &quot;case&quot; keyword.</p>
-
-<p>&quot;case 0&quot;: that means that &quot;if day equals 0, then execute
-console.log(&apos;Monday&apos;).</p>
-
-<p>The break here means &quot;ignore all the other cases&quot;.
-When you put a break after each case, it&apos;s a bit like the
+the &quot;case&quot; keyword.
+&quot;case 0&quot;: that means that &quot;if day equals 0, then execute
+console.log(&apos;Monday&apos;).
+The break here means &quot;ignore all the other cases&quot;.
+<p>When you put a break after each case, it&apos;s a bit like the
 &quot;if&hellip;else&quot; example we saw earlier: only one block of instructions
-will be executed here...</p>
-
-<p>You can see that the 3 different versions with the naive if, the
+will be executed here...
+You can see that the 3 different versions with the naive if, the
 if-else statement and the switch, give the same result.</p>
 
 <p>Be careful because sometimes, if you forget to use a &quot;break&quot;, you can
 enter different case statements.
 You can make errors if you don&apos;t know what to break keyword means, but
 it can also be useful to regroup cases.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>For example, if I want to print &quot;This is a week day, we go to work!&quot;,
 when we&apos;ve got Monday, Tuesday&hellip; any day of the week! And if I want
 to print &quot;Week end!&quot; for Saturday and Sunday, then I can regroup cases
-like that.
-You see case 0, case 1, case 2, case 3, case 4&hellip; and then just use a
+like that.</p>
+<p>You see case 0, case 1, case 2, case 3, case 4&hellip; and then just use a
 break after we executed the block of instructions that is related to all
 these five cases.
 Doing this, we will print &quot;Week Day&hellip;&quot; only if the day has a 
 value of 0, 1, 2, 3 or 4, and we will print &quot;Week end!&quot; if it has a
 value of 5 or 6.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>Be careful because I saw this error a lot of time with beginners: you
 must use &quot;case&quot; only with a value after it, not an expression!
 This thing here case &quot;day greater or equal than 0&quot; or &quot;day less than
 4&quot; is not valid. You cannot use an expression here, after the case.
 This is not going to work. Avoid! This&hellip; error!</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>And finally, there is a better solution to the problem I've illustrated.
 It&apos;s not to use any if or any switch&hellip;but use an array!
 If we&apos;ve got an array that contains all the string values for the
@@ -7010,26 +7128,27 @@ variable statement:</p>
 
 <pre>1.  var myVar = 'hello ' + 'world';</pre>
 
-We&apos;ve also seen the expression statement:
+<p>We&apos;ve also seen the expression statement:</p>
 
 <pre>1.  3 + 4;
-2.  // more often like this
-3.  var x = (3 + 4);
-4.  var y = (5 + x);</pre>
+2.
+3.  // more often like this
+4.  var x = (3 + 4);
+5.  var y = (5 + x);</pre>
 
-A statement closes with a semicolon, but we will see later that missing
+<p>A statement closes with a semicolon, but we will see later that missing
 semicolons are automatically inserted (for readability reasons, we
 highly recommend systematically adding a semicolon at the end of all
-statements).
+statements).</p>
 
-Statements are generally executed sequentially from top to bottom of the
+<p>Statements are generally executed sequentially from top to bottom of the
 script. However, this flow can be modified by statements such as
-conditional statements and iteration statements.
+conditional statements and iteration statements.</p>
 
 <h4>The block statement</h4>
 
-The block statement is a simple statement which allows us to group a set
-of statements wrapped in curly braces. 
+<p>The block statement is a simple statement which allows us to group a set
+of statements wrapped in curly braces.</p>
 
 <h4>Block statement:</h4>
 
@@ -7039,28 +7158,30 @@ of statements wrapped in curly braces. 
 4.  console.log('i = ' + i);
 5.  }</pre>
 
-The block statement is used by other statements such as the if-statement
-or for-statement. We will see these statements below.
+<p>The block statement is used by other statements such as the if-statement
+or for-statement. We will see these statements below.</p>
 
 <h4>Conditional statements</h4>
 
-All the examples for this section are in this codepen (to run it: click
+<p>All the examples for this section are in this codepen (to run it: click
 on the &quot;edit on CodePen&quot; label, and once in CodePen, open the devtool
-console to see the outputs of this program):
+console to see the outputs of this program):</p>
  
-(Please look, edit and try whatever you want. There are parts that are
-commented - please remove comments and try to understand the results).
+<p>(Please look, edit and try whatever you want. There are parts that are
+commented - please remove comments and try to understand the results).</p>
 
-<b>Conditional statements are used to execute a unit of code</b>
-<b>only if a condition is evaluated as true.</b>
+<p><b>Conditional statements are used to execute a unit of code</b>
+<b>only if a condition is evaluated as true.</b></p>
 
 <h4>The if statement</h4>
 
-<b>Syntax:</b>
+<h5><b>Syntax:</b></h5>
 
 <pre><b>if</b> ( Expression ) Statement <b>else</b> Statement
-<b>if</b> ( Expression ) Statement
-<b>The expression may include:</b></pre>
+<b>if</b> ( Expression ) Statement</pre>
+
+
+<h5><b>The expression may include:</b></h5>
 
 <ul>
   <li>logical operators ( <b>! && &vert;&vert;</b> )</li>
@@ -7102,8 +7223,8 @@ commented - please remove comments and try to understand the results).
   <li><b>&quot;&quot;</b> (empty string)</li>
 </ul>
 
-<b>All other values, including all objects, evaluate to true when passed
-to a conditional statement.</b>
+<p><b>All other values, including all objects, evaluate to true when passed
+to a conditional statement.</b></p>
 
 <h4>The if-then-else ternary operator</h4>
 
@@ -7191,26 +7312,23 @@ use a <b>switch</b> statement.</p>
 
 <h4>The syntax of the switch statement is:</h4>
 
-<pre><b>switch</b> (expression) <b>{</b>
-  <b>case</b> value1:
-    statement
-    <b>break</b>;    // break can be omitted in that case
-                     // the second test case will be executed
-                     // most of the time we add a break; at the end
-                     // of a &quot;case&quot;
- 
-  <b>case</b> value2:
-    statement
-    <b>break</b>;
-
-  <b>case</b> value3:
-    statement
-    <b>break</b>;
- 
-  <b>default</b>:    // if no case tested true
-    statement
-    <b>break</b>;
-}
+<pre>1. <b>switch</b> (expression) <b>{</b>
+2.    <b>case</b> value1:
+3.      Statement
+4.    <b>break</b>; // break can be omitted in that case
+5.                   // the second test case will be executed
+6.                   // most of the time we add a break; at the end
+7.                   // of a &quot;case&quot;
+8.    <b>case</b> value2:
+9.      Statement
+10.     <b>break</b>;
+11.   <b>case</b> value3:
+12.     Statement
+13.     <b>break</b>;
+14.   <b>default</b>:    // if no case tested true
+15.     Statement
+16.    <b>break</b>;
+17. }
 </pre>
 
 <p>If the value of an expression equals one of the cases (the equality
@@ -7219,29 +7337,25 @@ block are executed sequentially until the keyword <b>break</b> is reached.
 
 <h4>Example #1: a common switch/case/default example</h4>
 
-<pre>var gear = '';
- 
-<b>switch</b> (cloudColor) <b>{</b>
-    <b>case</b> 'green':
-        gear = 'spacesuit';
-        <b>break;</b>
- 
-    <b>case</b> 'black':
-        gear = 'boots';
-        <b>break</b>;
- 
-    <b>case</b> 'grey':
-        gear = 'umbrella';
-        <b>break</b>;
- 
-    <b>case</b> 'white':
-        gear = 'jacket';
-        <b>break</b>;
- 
-    <b>default</b>:
-        gear = 'watch';
-        <b>break</b>; // useless if in the last case
-<b>}</b> // end of the switch statement
+<pre>1.  var gear = '';
+2.   
+3.  <b>switch</b> (cloudColor) <b>{</b>
+4.    <b>case</b> 'green':
+5.      gear = 'spacesuit';
+6.      <b>break;</b>
+7.  <b>case</b> 'black':
+8.      gear = 'boots';
+9.      <b>break</b>;
+10. <b>case</b> 'grey':
+11.     gear = 'umbrella';
+12.     <b>break</b>;
+13. <b>case</b> 'white':
+14.     gear = 'jacket';
+15.     <b>break</b>;
+16. <b>default</b>:
+17.     gear = 'watch';
+18.     <b>break</b>; // useless if in the last case
+19. <b>}</b> // end of the switch statement
 </pre>
 
 <p>In this example, if the clouds are grey, then my gear will be just an
@@ -7254,25 +7368,20 @@ executed!</p>
 
 <h4>Example 2#: a switch without &quot;breaks&quot; at the end of each case</h4>
 
-<pre>var gear = '';
-
-<b>switch</b> (cloudColor) <b>{</b>
-    <b>case</b> 'green':
-        gear += 'spacesuit';
-        <b>break</b>;
- 
-    <b>case</b> 'black':
-        gear += 'boots, ';
- 
-    <b>case</b> 'grey':
-        gear += 'umbrella, ';
- 
-    <b>case</b> 'white':
-        gear += 'jacket, ';
- 
-    <b>default</b>:
-        gear += 'watch';
-<b>}</b> // end of the switch statement
+<pre>1.  var gear = '';
+2.  <b>switch</b> (cloudColor) <b>{</b>
+3.    <b>case</b> 'green':
+4.      gear += 'spacesuit';
+5.      <b>break</b>;
+6.    <b>case</b> 'black':
+7.      gear += 'boots, ';
+8.    <b>case</b> 'grey':
+9.      gear += 'umbrella, ';
+10.   <b>case</b> 'white':
+11.     gear += 'jacket, ';
+12.   <b>default</b>:
+13.     gear += 'watch';
+14. <b>}</b> // end of the switch statement
 </pre>
 
 <p><b>Explanation</b>: if the clouds are black, then my gear will be &apos;boots,
@@ -7293,7 +7402,6 @@ console to see the outputs of this program):</p>
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image147.png){width="6.5in" height="2.0659722222222223in"} -->
 
 <h5>HTML:</h5>
 
@@ -7351,64 +7459,93 @@ console.log('example2,&#92;n bar2 >> ' + bar2);
 console.log('example3,&#92;n bar3 >> ' + bar3);
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-2-3">2.2.3 Loop statements (mm:ss)</h3>
+<h3 id="ch2-2-3">2.2.3 Loop statements (8:06)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Live coding video: loop statements</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/imageXXX.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>Let&apos;s talk about loop statements.
-There are different loop statements in JavaScript.
-One is the &quot;while&quot; loop statement.
-It starts with some initializations, you give some values to some
-variables, then you use the keyword &quot;while&quot; followed by an expression
-that you will test.
-It will be evaluated as &quot;true&quot; or &quot;false&quot;.
-When this expression is false, you continue after the block of
-instructions that is inside the loop.</p>
+<p>There are different loop statements in JavaScript.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/imageXXX.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<p>One is the &quot;while&quot; loop statement. It starts with some initializations, 
+you give some values to some variables, then you use the keyword &quot;while&quot; 
+followed by an expression that you will test. It will be evaluated as &quot;true&quot; 
+or &quot;false&quot;.</p>
 
-<p>Let&apos;s start with an example. We&apos;ve got here some initialization:
-&quot;var n = 1, m = 1;&quot;.
-We&apos;ve got the keyword &quot;while&quot; followed by the condition, &quot;n less
-than 4&quot;, followed by a block of instructions that will be executed as
-long as the condition is evaluated as true.
-With n = 1, n is less than 4, we execute the block of instructions.
+<p>When this expression is false, you continue after the block of instructions that is 
+inside the loop. Let&apos;s start with an example. We&apos;ve got here some initialization:
+&quot;var n = 1, m = 1;&quot;. We&apos;ve got the keyword &quot;while&quot; followed by 
+the condition, &quot;n less than 4&quot;, followed by a block of instructions that will 
+be executed as long as the condition is evaluated as true.</p>
+
+<p>With n = 1, n is less than 4, we execute the block of instructions.
 Inside the block, n is incremented, n += 1, then n = 2, it&apos;s still less
 than 4, we continue, n = 3, it&apos;s still less than 4, we continue, n = 4,
 then the condition is false: 4 is not strictly less than 4, and we
 continue after the loop and the console.log is executed.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/imageXXX.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>Let&apos;s have a look at the execution of this program. So, while it&apos;s
-executed, it prints in the body of the loop console.log, it prints n =
-1, this is the initial value, n = 2, n = 3&hellip; when n = 4 the condition
-is no more true and we go at the next instruction after the block of
-instructions of the loop.
-Inside the loop, we also incremented the variable m by adding the
-consecutive values of n.
-And m had a starting value of one.
-1 + 1 + 2 + 3 + 4 &hellip;. the final result is 10 as you can see.</p>
-
+executed, it prints in the body of the loop console.log, it prints n = 1, this 
+is the initial value, n = 2, n = 3&hellip; when n = 4 the condition is no more 
+true and we go at the next instruction after the block of instructions of the 
+loop. Inside the loop, we also incremented the variable m by adding the consecutive 
+values of n. And m had a starting value of one. 1 + 1 + 2 + 3 + 4 &hellip;. the final 
+result is 10 as you can see.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/imageXXX.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>The second kind of loops you can use are called the &quot;do&hellip;while&quot;
-loops.
-They are very similar to the while loops except that the first execution
+loops.</p>
+<p>They are very similar to the while loops except that the first execution
 of the block of instructions does not depend on any condition.
 The condition of the loop is at the end, after the keyword &quot;while&quot;.
-Do something&hellip; while the condition is true&hellip;</p>
-
-<p>Let&apos;s look at this example: we&apos;ve got a variable i that has a value of
-zero, and we increment it in the loop, but before incrementing it we
-print its value.</p>
+Do something&hellip; while the condition is true&hellip; Let&apos;s look at this 
+example: we&apos;ve got a variable i that has a value of zero, and we increment it 
+in the loop, but before incrementing it we print its value.</p>
 
 <p>The final condition is &quot;i strictly less than 20&quot;.
 We are going to execute this for 0, 1, 2... and when i++ will give a
 value to i that is 20, then the condition will be no more true, and we
 will finish the execution of the loop and execute the console.log that
-is here. So, look at the devtool console:
-We executed the loop for i = 0 to i = 19. After the last display of the
+is here.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/imageXXX.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+
+<p>Look at the devtool console:</p>
+
+<p>We executed the loop for i = 0 to i = 19. After the last display of the
 value, we incremented i, the condition was false, i is 20 now, and we printed
 its value.</p>
 
-<p>Ok, the last sort of loop statements you can use are called &quot;for&quot;
-loops.
-The syntax is like that: &quot;for&quot; followed by parenthesis, followed by a
-block of instructions.
-And in the parenthesis you&apos;ve got three different parts separated by
+<p>The last sort of loop statements you can use are called &quot;for&quot;
+loops. The syntax is like that: &quot;for&quot; followed by parenthesis, followed by a
+block of instructions. And in the parenthesis you&apos;ve got three different parts separated by
 semicolons.</p>
 
 <p>The first part is the initialization part, then the &quot;condition ». As
@@ -7419,25 +7556,52 @@ the very end of the loop, as the last instruction.</p>
 
 <p>Usually we increment some variables, or decrement some variables that
 will make, after a certain number of executions of the loop, the
-condition false.
-Let&apos;s try a small example: we are going to count one by one from an
+condition false.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/imageXXX.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<p>Let&apos;s try a small example: we are going to count one by one from an
 initial value to an end value.
 You see: I counted from 0 to 5, not included, because of the &quot;less
 than&quot; operator here.
 I counted for i equals 0, 1, 2, 3, 4&hellip; then, when i is equal to 5 the
 condition is no more true and we exit the loop.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/imageXXX.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 <p>We can also use less than or equal to.
-In this case we counted to the final value and included it.
-We can also increment the loop 2 by 2.
+In this case we counted to the final value and included it.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/imageXXX.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+
+<p>We can also increment the loop 2 by 2.
 In that case (let me clear and execute again), we run the loop with a value of 
 i = 0, i=2, i=4, i=6, the condition is no more true, we exit from the loop.
-We can also iterate on the elements of an array.
-This is very common.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ XXX.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/imageXXX.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
-<p>We&apos;ve got an array here called &quot;daysOfTheWeek&quot; and we are going to
-enumerate all the elements inside.
-Let&apos;s make a &quot;for&quot; loop, and the final value&hellip; the number of times
+<p>We can also iterate on the elements of an array. This is very common.
+We&apos;ve got an array here called &quot;daysOfTheWeek&quot; and we are going to
+enumerate all the elements inside.</p>
+<p>Let&apos;s make a &quot;for&quot; loop, and the final value&hellip; the number of times
 we are going to iterate is the number of elements in the array. It&apos;s
 given by the &quot;length&quot; property of the array.
 What we did: we executed the loop from i = 0, to i = 1, 2, 3, 4, 5, 6, 7!
@@ -7451,12 +7615,12 @@ with the index equal to i, inside the loop.</p>
 <p><a href="https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012" 
 target="_blank" rel="noopener noreferrer">Example on CodePen</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 196. a loop in the sky (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
 <img src="./images/image196.png?raw=true"
-  style="width:50%"
-  title=""
-  alt="." />
+  style="width:25%"
+  title="A loop in the sky"
+  alt="A loop in the sky." />
 <!-- <h4>![A loop in the sky](./images/image148.jpeg)</h4> <!-- 2.6" width --> -->
 
 <h4>Loops</h4>
@@ -7541,13 +7705,11 @@ syntax is different:</p>
 <h4>Typical example:</h4>
 
 <pre>1.  var i = 0;
-2.   
-3.  <b>do {</b>
-4.    <b>console.log('i = ' + i);</b>
-5.      i++;
-6.  <b>} while(i &lt; 20);</b>
-7.   
-8.  console.log('Value of i after the do-while statement: ' + i);
+2.  <b>do {</b>
+3.    <b>console.log('i = ' + i);</b>
+4.      i++;
+5.  <b>} while(i &lt; 20);</b>
+6.  console.log('Value of i after the do-while statement: ' + i);
 </pre>
 
 <p><p>The <b>do-while statement executes the content of the loop once before
@@ -7652,15 +7814,14 @@ statement is that the loop continues.</p>
 
 <h4>Typical example:</h4>
 
-<pre>for(var i = 1, k = 0; i &lt; 5; i++) {
-  if (i === 3) {
-    continue;
-  }
- 
-  k += 2&ast;i;
-  console.log('k += ' + (2&ast;i));
-}
-  console.log('Final k value:' + k)
+<pre>1. for(var i = 1, k = 0; i &lt; 5; i++) {
+2.   if (i === 3) {
+3.     continue;
+4.   }
+5.   k += 2&ast;i;
+6.     console.log('k += ' + (2&ast;i));
+7. }
+8. console.log('Final k value:' + k)
 </pre>
 
 <p>Copy and paste this example in your devtool console, but first, try to
@@ -7676,30 +7837,28 @@ statement.</p>
 
 <h4>Syntax:</h4>
 
-<pre>1.  break &lbrack;label&rbrack;</pre>
+<pre>1. break &lbrack;label&rbrack;</pre>
 
 <h4>Typical example:</h4>
 
-<pre>var tab = &lbrack;'michel', 'john', 'donald', 'paul'&rbrack;; // johh at
-index = 1
- 
-function isNameInTheArray(name, theArray) {
-  console.log("Number of elements in the array : " + theArray.length);
-  for(var i=0; i &lt; theArray.length; i++) {
-    console.log('comparing with element in the array at pos ' + i);
- 
-    if(theArray[i] === name) {
-      console.log('the name ' + name +
-                  ' is in the array at pos: ' + i);
-      break;
-    } else {
-      console.log(name + ' is not at pos ' + i);
-    }
-  }
-}
- 
-// Execute the function
-isNameInTheArray('john', tab);
+<pre>1.  var tab = &lbrack;'michel', 'john', 'donald', 'paul'&rbrack;; // johh at index = 1
+2.  
+3.  function isNameInTheArray(name, theArray) {
+4.    console.log("Number of elements in the array : " + theArray.length);
+5.    for(var i=0; i &lt; theArray.length; i++) {
+6.      console.log('comparing with element in the array at pos ' + i);
+7.  
+8.      if(theArray[i] === name) {
+9.        console.log('the name ' + name +
+10.       ' is in the array at pos: ' + i);
+11.       break;
+12.     } else {
+13.       console.log(name + ' is not at pos ' + i);
+14.     }
+15.   }
+16. }
+17. // Execute the function
+18. isNameInTheArray('john', tab);
 </pre>
 
 <p>Copy and paste in the devtool console. You&apos;ll see that the function
@@ -7756,12 +7915,12 @@ value between 0 and 10.</p>
 module, the math function plotter example used input fields. Or look
 at the section about DOM in this module.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 197. quiz (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
 <img src="./images/image197.png?raw=true"
-  style="width:50%"
-  title=""
-  alt="." />
+  style="width:25%"
+  title="Quiz"
+  alt="Quiz." />
 <!-- ![quizz](./images/image149.jpeg){width="1.25in" height="0.9375in"} -->
 
 <ul>
@@ -7779,7 +7938,7 @@ at the section about DOM in this module.</p>
     the DOM).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-3">2.3 Functions and Callbacks</h3>
+<h3 id="ch2-3-1">2.3.1 Functions and Callbacks</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Let&apos;s see how to declare a function and a callback.</p>
 
@@ -7812,46 +7971,16 @@ statements, and a function declaration is not an executable statement.</p>
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image150.png){width="6.5in" height="2.0659722222222223in"} -->
 
-<h5>HTML:</h5>
-
-<pre>&lt;!doctype html&gt;
-&lt;html&gt;
-&lt;head lang=&quot;en&quot;&gt;
-&lt;title&gt;Functions declaration - Part 1&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>function sum(a, b) {
-// this function returns a result
-return (a + b);
-}
-function displayInPage(message, value) {
-// this function does not return anything
-document.body.innerHTML += message + value + &quot;&lt;br&gt;&quot;;
-}
-var result = sum(3, 4);
-displayInPage(&quot;Result: &quot;, result);
-// we could have written this
-displayInPage(&quot;Result: &quot;, sum(10, 15));
-</pre>
-
-In the above example, the sum function returns a value, and
-the displayInPage function does not return anything.
+<p>In the above example, the sum function returns a value, and
+the displayInPage function does not return anything.</p>
 
 <h4>2) Use a function expression</h4>
 
-A JavaScript function can also be defined using an expression that can
-be stored in a variable. Then, the variable can be used as a function:
+<p>A JavaScript function can also be defined using an expression that can
+be stored in a variable. Then, the variable can be used as a function:</p>
 
-Here is a typical example:
+<h4>Here is a typical example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7859,35 +7988,6 @@ Here is a typical example:
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image151.png){width="6.5in" height="2.272222222222222in"} -->
-
-<h5>HTML:</h5>
-
-<pre>&lt;!doctype html&gt;
-&lt;html&gt;
-&lt;head lang=&quot;en&quot;&gt;
-&lt;title&gt;Function expressions - Part 2&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>var sum = function(a, b) {
-return (a + b);
-};
-var displayInPage = function(message, value) {
-// this function does not return anything
-document.body.innerHTML += message + value + &quot;&lt;br&gt;&quot;;
-};
-var result = sum(3, 4);
-displayInPage(&quot;Result: &quot;, result);
-// we could have written this
-displayInPage(&quot;Result: &quot;, sum(10, 15));
-</pre>
 
 Notice how the sum and displayInPage functions have been declared. We
 used a variable to store the function expression, then we can call the
@@ -7924,84 +8024,29 @@ document):
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image152.png){width="6.5in" height="2.588888888888889in"} -->
-
-<h5>HTML:</h5>
-
-<pre>&lt;!doctype html&gt;
-&lt;html&gt;
-&lt;head lang=&quot;en&quot;&gt;
-&lt;title&gt;Callback functions&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;Click in the page!&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>// Add a click event listener on the whole document
-// the processClick function is a callback:
-// a function called by the browser when a click event
-// is detected
-window.addEventListener('click', processClick);
-function processClick(event) {
-document.body.innerHTML += &quot;Button clicked&lt;br&gt;&quot;;
-}
-// We could have written this, with the body of the callback as an
-argument of the addEventListener function
-window.addEventListener('click', function(evt) {
-document.body.innerHTML += &quot;Button clicked version 2&lt;br&gt;&quot;;
-});
-</pre>
 
 In this case, the processClick function is passed as a parameter to
 the addEventListener method/function.
 
-Callback functions are derived from a programming paradigm known
-as <b>functional programming</b>. They are very, very common in JavaScript.
+<p>Callback functions are derived from a programming paradigm known
+as <b>functional programming</b>. They are very common in JavaScript.
 We&apos;ll use them a lot in the next section of the course, called
-&quot;Handling events&quot;.
+&quot;Handling events&quot;.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4">2.4 Handling Events</h3>
+<h3 id="ch2-4-1">2.4.1 Handling Events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Adding interactivity to a Web application can be achieved by using only
 CSS, such as by using the :hover pseudo CSS class.</p>
 
-For example:
+<h4>For example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image201.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image153.png){width="6.5in" height="2.0861111111111112in"} -->
-
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Mouse over&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;/&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button&gt;Put the mouse cursor over me&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>CSS:</h5>
-
-<pre>button:hover {
-color:red;
-border:2px solid;
-}
-</pre>
 
 <p>However, firing a specific action when the button is clicked, knowing
 which mouse button has been used, computing the (x, y) mouse pointer
@@ -8020,7 +8065,7 @@ called <b>handlers</b> or <b>callbacks</b> for specific events.</p>
 Then the browser looks at a list of &quot;Event Listeners&quot; and calls the
 ones that correspond to the type of event &quot;they listen to&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-1">2.4.1 Adding and removing event listeners</h3>
+<h3 id="ch2-4-2">2.4.2 Adding and removing event listeners</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Live coding video: adding an event listener to a document</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8036,7 +8081,13 @@ show you how to add a simple event listener for detecting clicks or mouse moves,
 and we will start with the simplest example.</p>
 
 <p>It's listening for events that will occur anywhere on the Web page.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image202.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 When we add an event listener to the whole page, the syntax is this one:
 you can type &quot;AddEventListener&quot;, followed by the name of the event.
 
@@ -8049,7 +8100,13 @@ This is the first syntax, and there is a variant that is very common in
 JavaScript, when the length of the callback (source code) is small, you
 can directly add the callback inside the parenthesis of the AddEventListener
 call.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image202.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 Let&apos;s see this example&hellip; I&apos;m going to comment the first example,
 and this time, instead of just adding as an argument the name of the
 callback, we directly put the body of the callback.
@@ -8063,10 +8120,26 @@ If I click on the page, you can see that it works again. And this syntax is very
 Notice the parenthesis, followed by a semicolon at the end, because this is just like a parameter.
 
 It&apos;s an anonymous callback function, that is the second argument.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+
 Finally, there is a first syntax, that uses the the object that will
 fire the event. The window object is the whole document. We start with
 &quot;on&quot; followed by the name -in lowercase- of the event, and we assign
 to this property &quot;onclick&quot;, we assign directly the function.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
 We can directly type the anonymous function, like that. We add a
 semicolon because this is a an executable statement. And if I click&hellip; &hellip;it
@@ -8074,66 +8147,79 @@ works. Okay, or I could have used the same syntax we saw earlier, with a
 regular callback function with a name, and we just indicate onclick
 equal the name of the callback, like this, which is the same name&hellip; So
 if I click, it works.
+<h4>Online example used in the above lesson</h4>
 
-In this video, I will show you how to add an event listener to an html
-element, and not to the whole document, like in the previous video.
-
+<ul>
+  <li><a href="">Example on CodePen</a></li>
+</ul>
+<h3 id="ch2-4-2">2.4.2 cont'd; Adding and removing event listeners to HTML element</h3>
+<p>Live coding video: adding an event listener to a specific HTML element.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<p>In this video, I will show you how to add an event listener to an html
+element, and not to the whole document, like in the previous video.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 Let&apos;s try with a button. One of the easiest way to detect a click
 on a button is to use the onclick = name of the function, name of the callback that will
-process the function.
-
-In that case, we can locate the body of this callback anywhere in the
+process the function. In that case, we can locate the body of this callback anywhere in the
 script element.
 
 We can, for example, put the script element in the head element at the
 top of the html document.
-
 Let&apos;s try like that&hellip;
-
 In that case, you see, when I click, the processClick callback is
-called.
-
-I always add an argument here, that is not used in this example, 
+called. I always add an argument here, that is not used in this example, 
 but it will be the topic of a next video.
-
 Here, I&apos;using just the DOM API for adding some text to the document.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
-If you want to use the other syntax with addEventListener, you must take
-some precautions.
+<p>If you want to use the other syntax with addEventListener, you must take
+some precautions. You will need first to locate the element, so that you can manipulate it
+from JavaScript. For that, we usually add an id attribute so that we can identify the
+element. And then we use a script element.
+I&apos;m putting this one at the end of the document.</p>
 
-You will need first to locate the element, so that you can manipulate it
-from JavaScript.
-
-For that, we usually add an id attribute so that we can identify the
-element.
-
-And then we use a script element.
-
-I&apos;m putting this one at the end of the document.
-
-There is a good reason for that, that I will explain.
-
+<p>There is a good reason for that, that I will explain.
 And first, I get a reference on the element.
 For that, we use the selector API: it&apos;s a built-in feature that is in
 your browser, that is very useful for getting references on elements.
-document.querySelector is the name of the method we are going to use.
+document.querySelector is the name of the method we are going to use.</p>
 
-And then, we use a CSS3 selector.
-
+<p>And then, we use a CSS3 selector.
 Notice that the id I use is the same I used in the declaration of the
-html button.
-
-Once I've got the reference on the object, I can add the event listener.
-
+html button.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image2xx.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<p>Once I've got the reference on the object, I can add the event listener.
 Let&apos;s try it.
-
 I click on the button and I get an alert.
-
 You must understand that when you execute document.querySelector,
 the button must exist in the page and must has been rendered.
+We say that &quot;the DOM of the page must be ready&quot;.</p>
 
-We say that &quot;the DOM of the page must be ready&quot;.
-When an HTML page is rendered, it&apos;s sequential, it goes from top to
+<p>When an HTML page is rendered, it&apos;s sequential, it goes from top to
 bottom, so in that case, the button is created, added to the DOM, then the
 script is executed, and document.querySelector will return a reference on the button.
 
@@ -8146,17 +8232,22 @@ This occurs at this line, we try to run addEventListener on a variable
 that is null. Be very careful, do not try to select an HTML element when the DOM
 is not yet ready.</p>
 
+<h4>Online example used in the above lesson</h4>
+<ul>
+  <li><a href="">Example on CodePen</a></li>
+</ul>
+
 <h4>Event listeners: a typical example</h4>
 
 <p>Here is one possible syntax for registering an event listener that
 listens to &quot;click&quot; events on any part of the window (clicks anywhere
 on a web document will be processed by this event handler):</p>
 
-<pre>&lt;script&gt;
-    addEventListener('click', function(evt) {
-        document.body.innerHTML += 'Button clicked!';
-    });
-&lt;/script&gt;
+<pre>1. &lt;script&gt;
+2.   addEventListener('click', function(evt) {
+3.     document.body.innerHTML += 'Button clicked!';
+4.   });
+5. &lt;/script&gt;
 </pre>
 
 <h4>Try it below by clicking anywhere on the document:</h4>
@@ -8167,25 +8258,6 @@ on a web document will be processed by this event handler):</p>
   style="width:50%"
   title=""
   alt="." />
-
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;title&gt;First example of an event listener&lt;/title&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;script&gt;
-    addEventListener('click', function(evt) {
-      document.body.innerHTML += &quot;Button clicked!&lt;br&gt;&quot;;
-    });
-  &lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;p&gt;Click anywhere on this page&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
 
 <p>The addEventListener function is one possible syntax for registering a
 function to be called when a given type of event occurs.</p>
@@ -8217,12 +8289,11 @@ its body &quot;outside&quot; of the addEventListener parameters, and we use it
 name as the second parameter):</p>
 
 <pre>1.  &lt;script&gt;
-2.  addEventListener('click',<b> processClick</b>);
-3.  
-4.  function<b> processClick</b>(evt) {
-5.      console.log(&quot;Button clicked!&quot;);
-6.  }
-7.  &lt;/script&gt;
+2.    addEventListener('click',<b> processClick</b>);
+3.    function<b> processClick</b>(evt) {
+4.      console.log(&quot;Button clicked!&quot;);
+5.    }
+6.  &lt;/script&gt;
 </pre>
 
 <h4>Adding an event listener to specific HTML elements</h4>
