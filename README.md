@@ -7094,24 +7094,24 @@ Doing this, we will print &quot;Week Day&hellip;&quot; only if the day has a
 value of 0, 1, 2, 3 or 4, and we will print &quot;Week end!&quot; if it has a
 value of 5 or 6.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 226. use switch; week day & weekends (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 226. use switch; week day & weekends (189) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image226.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Use switch; week day and weekends"
+  alt="Use switch; week day and weekends." />
 <p>Be careful because I saw this error a lot of time with beginners: you
 must use &quot;case&quot; only with a value after it, not an expression!
 This thing here case &quot;day greater or equal than 0&quot; or &quot;day less than
 4&quot; is not valid. You cannot use an expression here, after the case.
 This is not going to work. Avoid! This&hellip; error!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 227. example; use an array (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227. example; use an array (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image227.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Example; use an array"
+  alt="Example; use an array." />
 <p>And finally, there is a better solution to the problem I've illustrated.
 It&apos;s not to use any if or any switch&hellip;but use an array!
 If we&apos;ve got an array that contains all the string values for the
@@ -7399,7 +7399,7 @@ console to see the outputs of this program):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 228. look at js from this example, open devtools (195) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image195.png?raw=true"
+<img src="./images/image228.png?raw=true"
   style="width:50%"
   title="Look at JS from this example, open devtools"
   alt="Look at JS from this example, open devtools." />
@@ -7926,9 +7926,9 @@ be stored in a variable. Then, the variable can be used as a function:</p>
 
 <h4>Here is a typical example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 241.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image199.png?raw=true"
+<img src="./images/image241.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7962,9 +7962,9 @@ functions. Here is another one that registers mouse click listeners on
 the window object (the window objects represent the whole HTML
 document):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 242.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image200.png?raw=true"
+<img src="./images/image242.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -7985,9 +7985,9 @@ CSS, such as by using the :hover pseudo CSS class.</p>
 
 <h4>For example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 243.  (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image201.png?raw=true"
+<img src="./images/image243.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8013,9 +8013,9 @@ ones that correspond to the type of event &quot;they listen to&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Live coding video: adding an event listener to a document</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 244.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image202.png?raw=true"
+<img src="./images/image244.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8026,9 +8026,9 @@ and we will start with the simplest example.</p>
 
 <p>It's listening for events that will occur anywhere on the Web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 245.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image202.png?raw=true"
+<img src="./images/image245.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8045,9 +8045,9 @@ JavaScript, when the length of the callback (source code) is small, you
 can directly add the callback inside the parenthesis of the AddEventListener
 call.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 246.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image202.png?raw=true"
+<img src="./images/image246.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8066,9 +8066,9 @@ Notice the parenthesis, followed by a semicolon at the end, because this is just
 It&apos;s an anonymous callback function, that is the second argument.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 247.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image247.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8078,9 +8078,9 @@ fire the event. The window object is the whole document. We start with
 &quot;on&quot; followed by the name -in lowercase- of the event, and we assign
 to this property &quot;onclick&quot;, we assign directly the function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 248.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image248.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8099,18 +8099,18 @@ if I click, it works.
 <h3 id="ch2-4-2">2.4.2 cont'd; Adding and removing event listeners to HTML element</h3>
 <p>Live coding video: adding an event listener to a specific HTML element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 249.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image249.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 <p>In this video, I will show you how to add an event listener to an html
 element, and not to the whole document, like in the previous video.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 250.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image250.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8127,9 +8127,9 @@ called. I always add an argument here, that is not used in this example,
 but it will be the topic of a next video.
 Here, I&apos;using just the DOM API for adding some text to the document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 251.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image251.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8150,9 +8150,9 @@ document.querySelector is the name of the method we are going to use.</p>
 Notice that the id I use is the same I used in the declaration of the
 html button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 2xx.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 252.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image2xx.png?raw=true"
+<img src="./images/image252.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8196,9 +8196,9 @@ on a web document will be processed by this event handler):</p>
 
 <h4>Try it below by clicking anywhere on the document:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 253.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image203.png?raw=true"
+<img src="./images/image253.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8247,9 +8247,9 @@ is the same as using window.addEventListener), we can listen to specific DOM
 elements. For example, here is how we can listen to clicks on a specific button 
 (whereas clicks on the rest of the document will be ignored).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 254.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image204.png?raw=true"
+<img src="./images/image254.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8277,9 +8277,9 @@ attribute (ex: onclick = &quot;&hellip;.&quot;)</h4>
 to use an onclick=&apos;doSomething();&apos; attribute directly in the HTML tag
 of the element:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 255.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image205.png?raw=true"
+<img src="./images/image255.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8327,9 +8327,9 @@ function, and inside we remove the listener we previously registered.
 Consequence: if we click on the button again, nothing happens as there
 is no longer a click event listener attached to it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (218) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 256.  (218) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image206.png?raw=true"
+<img src="./images/image256.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8398,9 +8398,9 @@ common types of events in detail.</p>
 
 <p>The most useful common properties are:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 207. most useful common properties & methods (220) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 257. most useful common properties & methods (220) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image207.png?raw=true"
+<img src="./images/image257.png?raw=true"
   style="width:50%"
   title="Most useful properties; type &amp; target; methods; preventDefault &amp; stopPropagation"
   alt="Most useful properties; type &amp; target; methods; preventDefault &amp; stopPropagation." />
