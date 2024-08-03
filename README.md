@@ -2,16 +2,7 @@
 title: "W3Cx-5of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
 author: "bbauska"
 date created: "7/07/2024 Sun 12+pm"
-date last editted: "7/16/2024 Tue 6+pm"
-date last editted: "7/19/2024 Fri 6+pm"
-date last editted: "7/20/2024 Sat 5+am"
-date last editted: "7/23/2024 Tue 7+pm"
-date last editted: "7/24/2024 Wed 5+pm"
-date last editted: "7/26/2024 Fri 10+am"
-date last editted: "7/29/2024 Mon 4+pm"
-date last editted: "7/31/2024 Wed 7+pm"
-date last editted: "8/1/2024 Thu 8+pm"
-date last editted: "8/2/2024 Fri 3+pm"
+date last editted: "8/3/2024 Sat 4+pm"
 
 output: 
   markdown:
@@ -61,47 +52,158 @@ output:
 <blockquote>
   <h4><a href="#ch1-1">1.1 Intro Module 1: Introduction to JavaScript</a></h4>
   <h4><a href="#ch1-2">1.2 JavaScript, HTML and CSS</a></h4>
+	<h5><a href="#ch1-2-1">1.2.1 HTML is for structure</a></h5>
+	<h5><a href="#ch1-2-2">1.2.2 Using course tools</a></h5>
+	<h5><a href="#ch1-2-3">1.2.3 HTML elements</a></h5>
+	<h5><a href="#ch1-2-4">1.2.4 HTML tags &amp; attributes</a></h5>
+	<h5><a href="#ch1-2-5">1.2.5 CSS is for style</a></h5>
+	<h5><a href="#ch1-2-6">1.2.6 Mixing HTML &amp; CSS</a></h5>
+	<h5><a href="#ch1-2-7">1.2.7 JavaScript is the 'interactive glue'</a></h5>
+	<h5><a href="#ch1-2-8">1.2.8 JavaScript history</a></h5>
+	<h5><a href="#ch1-2-9">1.2.9 Discussion and project</a></h5>
+	
   <h4><a href="#ch1-3">1.3 JavaScript Overview</a></h4>
+	<h5><a href="#ch1-3-1">1.3.1 What can be done with JavaScript?</a></h5>
+	<h5><a href="#ch1-3-2">1.3.2 Where to put JavaScript code?</a></h5>
+	<h5><a href="#ch1-3-3">1.3.3 How to debug JavaScript</a></h5>
+	<h5><a href="#ch1-3-4">1.3.4 Discussion and projects</a></h5>
+  
   <h4><a href="#ch1-4">1.4 Your first HTML/CSS/JS page</a></h4>
+	<h5><a href="#ch1-4-1">1.4.1 </a></h5>
+	<h5><a href="#ch1-4-2">1.4.2 </a></h5>
+	<h5><a href="#ch1-4-3">1.4.3 </a></h5>
+	<h5><a href="#ch1-4-4">1.4.4 </a></h5>
   <h4><a href="#ch1-5">1.5 Variables, values, functions, operators and expressions</a></h4>
+	<h5><a href="#ch1-5-1">1.5.1 </a></h5>
+	<h5><a href="#ch1-5-2">1.5.2 </a></h5>
+	<h5><a href="#ch1-5-3">1.5.3 </a></h5>
+	<h5><a href="#ch1-5-4">1.5.4 </a></h5>
   <h4><a href="#ch1-6">1.6 Simple JavaScript examples to play with</a></h4>
+	<h5><a href="#ch1-6-1">1.6.1 </a></h5>
+	<h5><a href="#ch1-6-2">1.6.2 </a></h5>
+	<h5><a href="#ch1-6-3">1.6.3 </a></h5>
+	<h5><a href="#ch1-6-4">1.6.4 </a></h5>
 </blockquote>
 
 <h3>Module 2: Adding Interactivity to HTML Documents</h3>
 <blockquote>
   <h4><a href="#ch2-1">2.1 Intro Module 2: Adding Interactivity to HTML Documents</a></h4>
+	<h5><a href="#ch2-1-1">2.1.1 </a></h5>
+	<h5><a href="#ch2-1-2">2.1.2 </a></h5>
+	<h5><a href="#ch2-1-3">2.1.3 </a></h5>
+	<h5><a href="#ch2-1-4">2.1.4 </a></h5>
   <h4><a href="#ch2-2">2.2 Conditional Statements, Loops and Logical Operators</a></h4>
+	<h5><a href="#ch2-2-1">2.2.1 </a></h5>
+	<h5><a href="#ch2-2-2">2.2.2 </a></h5>
+	<h5><a href="#ch2-2-3">2.2.3 </a></h5>
+	<h5><a href="#ch2-2-4">2.2.4 </a></h5>
   <h4><a href="#ch2-3">2.3 Functions and Callbacks</a></h4>
+	<h5><a href="#ch2-3-1">2.3.1 </a></h5>
+	<h5><a href="#ch2-3-2">2.3.2 </a></h5>
+	<h5><a href="#ch2-3-3">2.3.3 </a></h5>
+	<h5><a href="#ch2-3-4">2.3.4 </a></h5>
   <h4><a href="#ch2-4">2.4 Handling Events</a></h4>
+	<h5><a href="#ch2-4-1">2.4.1 </a></h5>
+	<h5><a href="#ch2-4-2">2.4.2 </a></h5>
+	<h5><a href="#ch2-4-3">2.4.3 </a></h5>
+	<h5><a href="#ch2-4-4">2.4.4 </a></h5>
   <h4><a href="#ch2-5">2.5 The DOM API</a></h4>
+	<h5><a href="#ch2-5-1">2.5.1 </a></h5>
+	<h5><a href="#ch2-5-2">2.5.2 </a></h5>
+	<h5><a href="#ch2-5-3">2.5.3 </a></h5>
+	<h5><a href="#ch2-5-4">2.5.4 </a></h5>
   <h4><a href="#ch2-6">2.6 Let's write a small game</a></h4>
+	<h5><a href="#ch2-6-1">2.6.1 </a></h5>
+	<h5><a href="#ch2-6-2">2.6.2 </a></h5>
+	<h5><a href="#ch2-6-3">2.6.3 </a></h5>
+	<h5><a href="#ch2-6-4">2.6.4 </a></h5>
 </blockquote>
 
 <h3>Module 3: Playing with HTML5 APIs</h3>
 <blockquote>
   <h4><a href="#ch3-1">3.1 Intro Module 3: Playing with HTML5 APIs</a></h4>
+	<h5><a href="#ch3-1-1">3.1.1 </a></h5>
+	<h5><a href="#ch3-1-2">3.1.2 </a></h5>
+	<h5><a href="#ch3-1-3">3.1.3 </a></h5>
+	<h5><a href="#ch3-1-4">3.1.4 </a></h5>
   <h4><a href="#ch3-2">3.2 Arrays and Iterators</a></h4>
+	<h5><a href="#ch3-2-1">3.2.1 </a></h5>
+	<h5><a href="#ch3-2-2">3.2.2 </a></h5>
+	<h5><a href="#ch3-2-3">3.2.3 </a></h5>
+	<h5><a href="#ch3-2-4">3.2.4 </a></h5>
   <h4><a href="#ch3-3">3.3 HTML5 Multimedia and JavaScript</a></h4>
+	<h5><a href="#ch3-3-1">3.3.1 </a></h5>
+	<h5><a href="#ch3-3-2">3.3.2 </a></h5>
+	<h5><a href="#ch3-3-3">3.3.3 </a></h5>
+	<h5><a href="#ch3-3-4">3.3.4 </a></h5>
   <h4><a href="#ch3-4">3.4 Displaying a map with the Geolocation API</a></h4>
+	<h5><a href="#ch3-4-1">3.4.1 </a></h5>
+	<h5><a href="#ch3-4-2">3.4.2 </a></h5>
+	<h5><a href="#ch3-4-3">3.4.3 </a></h5>
+	<h5><a href="#ch3-4-4">3.4.4 </a></h5>
   <h4><a href="#ch3-5">3.5 Playing sound samples and music</a></h4>
+	<h5><a href="#ch3-5-1">3.5.1 </a></h5>
+	<h5><a href="#ch3-5-2">3.5.2 </a></h5>
+	<h5><a href="#ch3-5-3">3.5.3 </a></h5>
+	<h5><a href="#ch3-5-4">3.5.4 </a></h5>
 </blockquote>
 
 <h3>Module 4: Structuring Data</h3>
 <blockquote>
   <h4><a href="#ch4-1">4.1 Intro Module 4: Structuring Data</a></h4>
+	<h5><a href="#ch4-1-1">4.1.1 </a></h5>
+	<h5><a href="#ch4-1-2">4.1.2 </a></h5>
+	<h5><a href="#ch4-1-3">4.1.3 </a></h5>
+	<h5><a href="#ch4-1-4">4.1.4 </a></h5>
   <h4><a href="#ch4-2">4.2 Objects: properties and methods</a></h4>
+	<h5><a href="#ch4-2-1">4.2.1 </a></h5>
+	<h5><a href="#ch4-2-2">4.2.2 </a></h5>
+	<h5><a href="#ch4-2-3">4.2.3 </a></h5>
+	<h5><a href="#ch4-2-4">4.2.4 </a></h5>
   <h4><a href="#ch4-3">4.3 Creating multiple objects</a></h4>
+	<h5><a href="#ch4-3-1">4.3.1 </a></h5>
+	<h5><a href="#ch4-3-2">4.3.2 </a></h5>
+	<h5><a href="#ch4-3-3">4.3.3 </a></h5>
+	<h5><a href="#ch4-3-4">4.3.4 </a></h5>
   <h4><a href="#ch4-4">4.4 Organizing the code in separate files</a></h4>
+	<h5><a href="#ch4-4-1">4.4.1 </a></h5>
+	<h5><a href="#ch4-4-2">4.4.2 </a></h5>
+	<h5><a href="#ch4-4-3">4.4.3 </a></h5>
+	<h5><a href="#ch4-4-4">4.4.4 </a></h5>
 </blockquote>
 
 <h3>Module 5: Working with Forms</h3>
 <blockquote>
   <h4><a href="#ch5-1">5.1 Intro Module 5: Working with Forms</a></h4>
+	<h5><a href="#ch5-1-1">5.1.1 </a></h5>
+	<h5><a href="#ch5-1-2">5.1.2 </a></h5>
+	<h5><a href="#ch5-1-3">5.1.3 </a></h5>
+	<h5><a href="#ch5-1-4">5.1.4 </a></h5>
   <h4><a href="#ch5-2">5.2 Built-in JavaScript Objects</a></h4>
+	<h5><a href="#ch5-2-1">5.2.1 </a></h5>
+	<h5><a href="#ch5-2-2">5.2.2 </a></h5>
+	<h5><a href="#ch5-2-3">5.2.3 </a></h5>
+	<h5><a href="#ch5-2-4">5.2.4 </a></h5>
   <h4><a href="#ch5-3">5.3 HTML5 tables, forms and input fields</a></h4>
+	<h5><a href="#ch5-3-1">5.3.1 </a></h5>
+	<h5><a href="#ch5-3-2">5.3.2 </a></h5>
+	<h5><a href="#ch5-3-3">5.3.3 </a></h5>
+	<h5><a href="#ch5-3-4">5.3.4 </a></h5>  
   <h4><a href="#ch5-4">5.4 The JSON notation</a></h4>
+	<h5><a href="#ch5-4-1">5.4.1 </a></h5>
+	<h5><a href="#ch5-4-2">5.4.2 </a></h5>
+	<h5><a href="#ch5-4-3">5.4.3 </a></h5>
+	<h5><a href="#ch5-4-4">5.4.4 </a></h5>  
   <h4><a href="#ch5-5">5.5 A small application</a></h4>
+	<h5><a href="#ch5-5-1">5.5.1 </a></h5>
+	<h5><a href="#ch5-5-2">5.5.2 </a></h5>
+	<h5><a href="#ch5-5-3">5.5.3 </a></h5>
+	<h5><a href="#ch5-5-4">5.5.4 </a></h5>  
   <h4><a href="#ch5-6">5.6 Where to from here?</a></h4>
+	<h5><a href="#ch5-6-1">5.6.1 </a></h5>
+	<h5><a href="#ch5-6-2">5.6.2 </a></h5>
+	<h5><a href="#ch5-6-3">5.6.3 </a></h5>
+	<h5><a href="#ch5-6-4">5.6.4 </a></h5>  
 </blockquote>
 
 <a href="https://github.com/bbauska/W3Cx-5of5-Introduction-JavaScript.git" 
@@ -11479,4 +11581,5 @@ document.body.append(img); // adds the image at the end of the document
 <!-- last editted 7/29/2024 4:22pm -->
 <!-- last editted 7/31/2024 7:38pm -->
 <!-- last editted 8/1/2024 8:46pm -->
+<!-- last editted 8/3/2024 4:34pm -->
 
