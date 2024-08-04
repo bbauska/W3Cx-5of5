@@ -976,8 +976,7 @@ pages.</p>
 
 <h5><b>Example</b>:</h5>
 
-<pre>
-&lt;head&gt;
+<pre>&lt;head&gt;
   ...
   &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
   ...
@@ -1000,8 +999,7 @@ aloud using synthesized speech.</p>
 the W3C Web site. The text alternative is going to be a brief
 description of the link target.</p>
 
-<pre>
-&lt;a href="https://w3.org"&gt;
+<pre>&lt;a href="https://w3.org"&gt;
   &lt;img src="https://w3.org/Icons/w3c_home.png" width="72" height="48" alt="W3C Web site"&gt;
 &lt;/a&gt;
 </pre>
@@ -1080,8 +1078,7 @@ your source code, and  its value is UTF-8.</b></p>
 
 <h4><b>Example 1</b>:</h4>
 
-<pre>
-&lt;head&gt;
+<pre>&lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;/&gt;
   ...
 &lt;/head&gt;
@@ -1103,8 +1100,7 @@ the language of your content.</b></h5>
 
 <h5><b>Example 2</b>: This indicates that the page is in French.</h5>
 
-<pre>
-&lt;!doctype html&gt;
+<pre>&lt;!doctype html&gt;
 &lt;html lang="fr"&gt;
   &lt;head&gt;
   ...
@@ -1299,8 +1295,7 @@ time):</p>
 
 <h5>HTML:</h5>
 
-<pre>
-&lt;body&gt;
+<pre>&lt;body&gt;
   &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
   &lt;p&gt;
   It was the best of times, it was the worst of times, . . . .
@@ -1562,8 +1557,7 @@ elements of the Document Object Model (that developers refer to as the
 <p>As an example, let&apos;s look at a simplified version of the last HTML code
 we presented earlier:</p>
 
-<pre>
-&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
   &lt;head&gt;
    &lt;title&gt;Your first HTML page&lt;/title&gt;
@@ -1973,8 +1967,7 @@ in the CSS part, etc.):</p>
 example, you see the CSS rules that have been applied to the HTML
 document. Let&apos;s look at the first one:</p>
 
-<pre>
-1. h1 {
+<pre>1. h1 {
 2.   color:red;
 3.   background-color:lightGreen;
 4.   border:12px solid violet;
@@ -2006,8 +1999,7 @@ brown (second rule).</p>
 
 <p>The third rule uses what is called &quot;a multiple selector&quot;:</p>
 
-<pre>
-1.  p, h1, h2 {
+<pre>1.  p, h1, h2 {
 2.    font-family: cursive
 3.  }
 </pre>
@@ -2024,8 +2016,7 @@ should be moved to the right 50 pixels (property margin-left: 50px).</p>
 with an &apos;id&apos; attribute, or grouped with a class of other elements by
 setting the &apos;class&apos; attribute.</p>
 
-<pre>
-1. &lt;p id="paragraph-1" class="regular-paragraphs"&gt;
+<pre>1. &lt;p id="paragraph-1" class="regular-paragraphs"&gt;
 2.   Call me Ishmael . . .
 3. &lt;/p&gt;
 </pre>
@@ -2060,8 +2051,7 @@ in our case it&apos;s the second h2 element:</p>
 
 <h5>And here is the CSS rule:</h5>
 
-<pre>
-1. <b>#hobbyTitle</b> {
+<pre>1. <b>#hobbyTitle</b> {
 2.   font-family: 'caveat';
 3.   font-size:40px;
 4.   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
@@ -2079,8 +2069,7 @@ the Google font service
 able to use it in a font-family CSS property, we included its definition
 using a &lt;link&gt; tag in the HTML part of the document:</p>
 
-<pre>
-1. &lt;head&gt;
+<pre>1. &lt;head&gt;
 2.   &lt;title&gt;Your first HTML page&lt;/title&gt;
 3.   &lt;meta charset="utf-8"/&gt;
 4.   <b>&lt;link href="https://fonts.googleapis.com/css?family=Caveat"</b>
@@ -2092,8 +2081,7 @@ using a &lt;link&gt; tag in the HTML part of the document:</p>
 attribute class=&quot;funny&quot;. Notice they can be different elements, we can
 have a p and an h3 element that have the class=&quot;funny&quot; attribute:</p>
 
-<pre>
-1. .funny {
+<pre>1. .funny {
 2.   color:purple;
 3.   font-family: 'caveat';
 4.   font-size:40px;
@@ -2103,8 +2091,7 @@ have a p and an h3 element that have the class=&quot;funny&quot; attribute
 <p>This rule changes the color, font family and size of two out of three
 paragraphs in the HTML element:</p>
 
-<pre>
-1. ...
+<pre>1. ...
 2. &lt;p class="funny"&gt;I also play electric guitar and love
      coding WebAudio applications...&lt;/p&gt;
 3.   ...
@@ -2942,8 +2929,7 @@ target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph</a></h6>
 <p>Two lines in the HTML code that correspond to the inclusion in the
 document of some external JavaScript code:</p>
 
-<pre>
-1. &lt;script src="https://d3js.org/d3.v3.min.js"&gt;&lt;/script&gt;
+<pre>1. &lt;script src="https://d3js.org/d3.v3.min.js"&gt;&lt;/script&gt;
 2. &lt;script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;&lt;/script&gt;
 </pre>
 
@@ -3028,8 +3014,7 @@ for the x and y values, with or without a grid, etc.</p>
 <p>Let&apos;s have a look at the parameters we used in our example (the ones
 you tweaked). They are in bold in the source code we saw earlier:</p>
 
-<pre>
-1.  {
+<pre>1.  {
 2.    <b>target</b>: '#myFunction',
 3.    <b>data</b>: &lbrack;{
 4.      fn: 'sin(x)',
@@ -3056,8 +3041,7 @@ much detail.</p>
 <p>A JavaScript object can be defined by two braces with a set of
 properties/values inside, separated by a comma. Here is a simple object:</p>
 
-<pre>
-1.  {
+<pre>1.  {
 2.    givenName: "Michel",
 3.    familyName: "Buffa"
 4.  }
@@ -7469,7 +7453,7 @@ a watch. The presence of the </b>break</b> keyword at the end of the
 different cases make the choices 100% exclusive. Only one case can be
 executed!</p>
 
-<h4>Example 2#: a switch without &quot;breaks&quot; at the end of each case</h4>
+<h4>Example #2: a switch without &quot;breaks&quot; at the end of each case</h4>
 
 <pre>1.  var gear = '';
 2.  <b>switch</b> (cloudColor) <b>{</b>
@@ -9329,8 +9313,7 @@ listen to.</p>
 
 <h5>CSS:</h5>
 
-<pre>
-#myDiv {
+<pre>#myDiv {
   color:red;
   background-color: pink;
   width:100px;
@@ -9342,8 +9325,7 @@ listen to.</p>
 
 <h5>JS:</h5>
 
-<pre>
-window.onclick = processClick;
+<pre>window.onclick = processClick;
 function processClick(evt) {
   var clicks = document.querySelector('#clicks');
   var target = evt.target.id;
@@ -10054,27 +10036,28 @@ week to this topic.</p>
 
 <h5>HTML:</h5>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;JavaScript slider use&lt;/title&gt;
-&lt;/head&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+    &lt;title&gt;JavaScript slider use&lt;/title&gt;
+  &lt;/head&gt;
 &lt;body&gt;
-&lt;h1&gt;Simple &lt;code&gt;&lt;input type=range&gt;&lt;/code&gt; field validation
-  using the 'input' event&lt;/h1&gt;
-&lt;p&gt;Just move the slider&lt;/p&gt;
-&lt;label&gt;
-1 &lt;input type=&quot;range&quot;
-min=1
-max=12
-step=0.1
-oninput = &quot;doSomething(event)&quot;&gt; 12
-&lt;/label&gt;
-&lt;p&gt;
-&lt;span id=&quot;sliderValue&quot;&gt;&lt;/span&gt;
-&lt;/p&gt;
+  &lt;h1&gt;Simple &lt;code&gt;&lt;input type=range&gt;&lt;/code&gt; field validation
+    using the 'input' event&lt;/h1&gt;
+  &lt;p&gt;Just move the slider&lt;/p&gt;
+  &lt;label&gt;
+    1 &lt;input type=&quot;range&quot;
+    min=1
+    max=12
+    step=0.1
+    oninput = &quot;doSomething(event)&quot;&gt; 12
+  &lt;/label&gt;
+  &lt;p&gt;
+    &lt;span id=&quot;sliderValue&quot;&gt;&lt;/span&gt;
+  &lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -10101,31 +10084,33 @@ output.innerHTML = &quot;Value selected: &quot; + val;
 
 <h5>HTML:</h5>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;JavaScript number input use&lt;/title&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+  &lt;title&gt;JavaScript number input use&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;h1&gt;Simple &lt;code&gt;&lt;input type=number&gt;&lt;/code&gt; field validation
-using the &apos;input&apos; event&lt;/h1&gt;
-&lt;p&gt;type a number or use the small vertical arrows&lt;/p&gt;
-&lt;label&gt;
+  &lt;h1&gt;Simple &lt;code&gt;&lt;input type=number&gt;&lt;/code&gt; field validation
+    using the &apos;input&apos; event&lt;/h1&gt;
+  &lt;p&gt;type a number or use the small vertical arrows&lt;/p&gt;
+  &lt;label&gt;
 </pre>
 
 <h5>Type a number:</h5>
 
-<pre>&lt;input type=&quot;number&quot;
-min=1
-max=12
-step=0.1
-oninput = &quot;doSomething(event)&quot;&gt;
-&lt;/label&gt;
-&lt;p&gt;
-&lt;span id=&quot;numberValue&quot;&gt;&lt;/span&gt;
-&lt;/p&gt;
+<pre>
+  &lt;input type=&quot;number&quot;
+    min=1
+    max=12
+    step=0.1
+    oninput = &quot;doSomething(event)&quot;&gt;
+  &lt;/label&gt;
+  &lt;p&gt;
+    &lt;span id=&quot;numberValue&quot;&gt;&lt;/span&gt;
+  &lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -10153,24 +10138,25 @@ output.innerHTML = &quot;Value selected: &quot; + val;
 
 <h5>HTML:</h5>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;JavaScript color chooser use&lt;/title&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+  &lt;title&gt;JavaScript color chooser use&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;h1&gt;Simple &lt;code&gt;&lt;input type=color&gt;&lt;/code&gt; use&lt;/h1&gt;
-&lt;p&gt;Pick a color to change the background color of the page&lt;/p&gt;
-&lt;label&gt;
-&lt;input type=&quot;color&quot;
-onchange = &quot;changePageBackgroundColor(this.value);&quot;&gt;
-&lt;!&#45;- we could have used oninput= in the previous line &#45;-&gt;
-&lt;/label&gt;
-&lt;p&gt;
-&lt;span id=&quot;choosedColor&quot;&gt;&lt;/span&gt;
-&lt;/p&gt;
+  &lt;h1&gt;Simple &lt;code&gt;&lt;input type=color&gt;&lt;/code&gt; use&lt;/h1&gt;
+  &lt;p&gt;Pick a color to change the background color of the page&lt;/p&gt;
+  &lt;label&gt;
+    &lt;input type=&quot;color&quot;
+    onchange = &quot;changePageBackgroundColor(this.value);&quot;&gt;
+    &lt;!&#45;- we could have used oninput= in the previous line &#45;-&gt;
+  &lt;/label&gt;
+  &lt;p&gt;
+    &lt;span id=&quot;choosedColor&quot;&gt;&lt;/span&gt;
+  &lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -10217,8 +10203,7 @@ attach an event inline in your HTML code like this:</p>
 
 <h4><b>Method #1: declare an event handler in the HTML code</b></h4>
 
-<pre>
-&lt;div id=&quot;someDiv&quot; <b>onclick</b>=&quot;alert(&apos;clicked!&apos;)&quot;&gt; content of
+<pre>&lt;div id=&quot;someDiv&quot; <b>onclick</b>=&quot;alert(&apos;clicked!&apos;)&quot;&gt; content of
   the div &lt;/div&gt;
 </pre>
 
@@ -10230,8 +10215,7 @@ really bad practice and causes a host of problems during development.</p>
 
 <h4><b>Method #2: attach an event handler to an HTML element in JavaScript</b></h4>
 
-<pre>
-1.  document.getElementById(&apos;someDiv&apos;).<b>onclick </b>= function() {
+<pre>1.  document.getElementById(&apos;someDiv&apos;).<b>onclick </b>= function() {
 2.    alert(&apos;clicked!&apos;);
 3.  }
 </pre>
@@ -10242,8 +10226,7 @@ shown below.</p>
 
 <h4><b>Method #3: register a callback to the event listener with the addEventListener method (preferred  method)</b></h4>
 
-<pre>
-1.  document.getElementById(&apos;someDiv&apos;).<b>addEventListener</b>(&apos;click&apos;, function() {
+<pre>1.  document.getElementById(&apos;someDiv&apos;).<b>addEventListener</b>(&apos;click&apos;, function() {
 2.    alert(&apos;clicked!&apos;);
 3.  }, false);
 </pre>
@@ -10260,8 +10243,7 @@ at all).</p>
 listener will create an </b>event object</b> to describe what happened. This
 object is provided as a parameter of the <b>callback function</b>:</p>
 
-<pre>
-1.  element.addEventListener(&apos;click&apos;, function(</b>event</b>) {
+<pre>1.  element.addEventListener(&apos;click&apos;, function(</b>event</b>) {
 2.    <b>// now you can use event object inside the callback</b>
 3.  }, false);
 </pre>
@@ -10701,29 +10683,29 @@ that corresponds to the whole DOM tree of your web page:</p>
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+  &lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
-Add a border to the first image
-&lt;/button&gt;
-&lt;br&gt;
-&lt;button onclick=&quot;resizeAllImages();&quot;&gt;
-Resize all images
-&lt;/button&gt;
-&lt;br&gt;
-&lt;p&gt;Click one of the buttons above!&lt;/p&gt;
-&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/Ntvj5rq.png&quot;
-id=&quot;img1&quot;
-width=200 alt=&quot;image #1&quot;&gt;
-&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/yiU59oi.gif&quot;
-width=200 alt=&quot;image #2&quot;&gt;
-&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/6FstYbc.jpg&quot;
-width=200 alt=&quot;image #3&quot;&gt;
-&lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/L97CyS4.png&quot;
-width=200 alt=&quot;image #4&quot;&gt;
+  &lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
+    Add a border to the first image
+  &lt;/button&gt;
+  &lt;br&gt;
+  &lt;button onclick=&quot;resizeAllImages();&quot;&gt;
+    Resize all images
+  &lt;/button&gt;
+  &lt;br&gt;
+  &lt;p&gt;Click one of the buttons above!&lt;/p&gt;
+  &lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/Ntvj5rq.png&quot;
+    id=&quot;img1&quot;
+    width=200 alt=&quot;image #1&quot;&gt;
+  &lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/yiU59oi.gif&quot;
+    width=200 alt=&quot;image #2&quot;&gt;
+  &lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/6FstYbc.jpg&quot;
+    width=200 alt=&quot;image #3&quot;&gt;
+  &lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/L97CyS4.png&quot;
+    width=200 alt=&quot;image #4&quot;&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -11173,8 +11155,7 @@ the style attribute.</p>
 
 <h5>Typical use:</h5>
 
-<pre>
-// select the paragraph with id = &quot;paragraph1&quot;
+<pre>// select the paragraph with id = &quot;paragraph1&quot;
 var p = document.querySelector(&apos;#paragraph1&apos;);
 // change its color
 p.style.color = &apos;red&apos;;
@@ -11251,15 +11232,13 @@ object and by providing a set of methods to manipulate its content.</p>
 <p>The classList property applies to an HTML element, and returns a
 collection of class names:</p>
 
-<pre>
-1.  var elem= document.querySelector(&quot;#id1&quot;);
+<pre>1.  var elem= document.querySelector(&quot;#id1&quot;);
 2.  var allClasses = elem.<b>classList</b>;
 </pre>
 
 <h5>The classList API</h5>
 
-<pre>
-3.  The list of methods usable on a classList object are add(),
+<pre>3.  The list of methods usable on a classList object are add(),
     remove(), toggle() and contains().
 4.  // By default, start without a class in the div: &lt;div class=&quot;&quot;/&gt;
 5.  // Set &quot;foo&quot; as the class by adding it to the classList
@@ -11294,8 +11273,7 @@ change the text color, we use a CSS class named &quot;checked&quot;:</p>
 
 <h5>CSS code:</h5>
 
-<pre>
-1.  .checked {
+<pre>1.  .checked {
 2.  border: 2px dashed #000;
 3.  background-color: green;
 4.  color:yellow;
@@ -11307,8 +11285,7 @@ the &lt;li&gt; elements:
 
 <h5>JavaScript code:</h5>
 
-<pre>
-1.  function displayListOfCheckedItems() {
+<pre>1.  function displayListOfCheckedItems() {
 2.    // all inputs that have been checked
 3.    var listOfSelectedValues=&quot;&quot;;
 4.    var list = document.querySelectorAll(&quot;#fruits input:checked&quot;);
@@ -11323,8 +11300,7 @@ the &lt;li&gt; elements:
 13. }
 </p>
 
-<pre>
-function reset() {
+<pre>function reset() {
   var list = document.querySelectorAll(&quot;#fruits input&quot;);
   list.forEach(function(elm) {
     &gt; // uncheck
@@ -11523,8 +11499,7 @@ using append(), appendChild(), insertBefore() or the innerHTML property.</p>
 
 <h4>Examples:</h4>
 
-<pre>
-var ul = document.querySelector('#myList');
+<pre>var ul = document.querySelector('#myList');
 ul.append(li); // insert at the end, appendChild() could also be used (old)
 ul.prepend(li); // insert at the beginning
 ul.insertBefore(li, another_element_child_of_ul);// insert in the middle
