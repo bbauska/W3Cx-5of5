@@ -9503,51 +9503,6 @@ CodePen: do something while a slider is being moved</a>.</p>
 <p align="center"><a href="https://codepen.io/w3devcampus/pen/LWvxeB">
 CodePen: detect value changes in a number field</a>.</p>
 
-<h5>HTML:</h5>
-
-<pre>
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-  &lt;title&gt;JavaScript number input use&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Simple &lt;code&gt;&lt;input type=number&gt;&lt;/code&gt; field validation
-    using the &apos;input&apos; event&lt;/h1&gt;
-  &lt;p&gt;type a number or use the small vertical arrows&lt;/p&gt;
-  &lt;label&gt;
-</pre>
-
-<h5>Type a number:</h5>
-
-<pre>
-  &lt;input type=&quot;number&quot;
-    min=1
-    max=12
-    step=0.1
-    oninput = &quot;doSomething(event)&quot;&gt;
-  &lt;/label&gt;
-  &lt;p&gt;
-    &lt;span id=&quot;numberValue&quot;&gt;&lt;/span&gt;
-  &lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>function doSomething(evt) {
-// this is the slider value
-var val = evt.target.value;
-// get the output div
-var output = document.querySelector(&apos;#numberValue&apos;);
-// display the value typed in the div
-output.innerHTML = &quot;Value selected: &quot; + val;
-}
-</pre>
-
 <h4>Example #4: choose a color and do something</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 299.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9556,42 +9511,9 @@ output.innerHTML = &quot;Value selected: &quot; + val;
   style="width:50%"
   title=""
   alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/gmygzV">
+CodePen: choose a color and do something</a>.</p>
 
-<h5>HTML:</h5>
-
-<pre>
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-  &lt;title&gt;JavaScript color chooser use&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Simple &lt;code&gt;&lt;input type=color&gt;&lt;/code&gt; use&lt;/h1&gt;
-  &lt;p&gt;Pick a color to change the background color of the page&lt;/p&gt;
-  &lt;label&gt;
-    &lt;input type=&quot;color&quot;
-    onchange = &quot;changePageBackgroundColor(this.value);&quot;&gt;
-    &lt;!&#45;- we could have used oninput= in the previous line &#45;-&gt;
-  &lt;/label&gt;
-  &lt;p&gt;
-    &lt;span id=&quot;choosedColor&quot;&gt;&lt;/span&gt;
-  &lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>function changePageBackgroundColor(color) {
-document.body.style.backgroundColor = color;
-// get the output div
-var output = document.querySelector(&apos;#choosedColor&apos;);
-// display the value typed in the div
-output.innerHTML = &quot;Color selected: &quot; + color;
-}
-</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-10">2.4.10 Reference tables</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9706,7 +9628,6 @@ use most of the events displayed in these tables.</p>
 <h4>Event object</h4>
 
 <p>Most useful common properties:</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 301. type and target (235) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9732,7 +9653,6 @@ use most of the events displayed in these tables.</p>
 
 <p>There are many other events related to the page life cycle. Below are
 the most useful ones for an intro course:</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 303. load, resize and scroll (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9765,7 +9685,6 @@ canvas size, for example).</p>
   title="keydown, keyup and keypress"
   alt="keydown, keyup and keypress." />
 </p>
-<!-- image of keydown, keyup, and deprecated keypress -->
 
 <h4>keyboardEvent properties</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9798,7 +9717,6 @@ canvas size, for example).</p>
   title="button, clientX/Y, pageX/Y, screenX/Y, Key and detail"
   alt="button, clientX/Y, pageX/Y, screenX/Y, Key and detail." />
 </p>
-<!-- image of button, clientX & clientY, pageX & pageY, screenX & screenY, altKey, ctrlKey, shiftKey, & detail  -->
 
 <h4>Forms</h4>
 
@@ -9855,6 +9773,8 @@ post your comments/observations/questions or share your creations.</p>
     graphics and animation, you can also imagine a graphic version of
     this game.</li>
 </ul>
+<p>For inspiration, check this cool game <a href="https://codepen.io/TKonan/pen/wvQgVJQ">
+"Typing Frenzy"</a> created by learner @AnthonyRKing (ARK)!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 310. codepen: typing frenzy (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9862,8 +9782,8 @@ post your comments/observations/questions or share your creations.</p>
   style="width:65%"
   title="CodePen: Typing Frenzy by ARK"
   alt="CodePen: Typing Frenzy by ARK." />
-
-<p align="center"><a href="https://codepen.io/TKonan/pen/wvQgVJQ">CodePen: Typing Frenzy</a></p>
+<p align="center"><a href="https://codepen.io/TKonan/pen/wvQgVJQ">
+CodePen: Typing Frenzy</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-1">2.5.1 Introducing the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9872,14 +9792,14 @@ browser, it downloads the page's HTML text and builds up a model of the
 document's structure called the DOM (Document Object Model). This model
 is used to render the HTML page on the screen.</p>
 
-<p>The DOM is a standard  that describes how a document must be
-manipulated. It defines a "language- and platform neutral interface".
-So, </b>every browser offers the same JavaScript DOM API</b>.</p>
+<p>The <b>DOM</b> is a standard that describes how a document must be manipulated. 
+It defines a "language- and platform neutral interface". So, </b>every browser 
+offers the same JavaScript DOM API</b>.</p>
 
 <p>The <b>DOM API</b> is a programming interface the JavaScript programmer can use
 to modify the HTML content or the CSS style of HTML elements on the fly.</p>
 
-<p>The DOM API provides the document object as a structured object, a group
+<p>The <b>DOM API</b> provides the document object as a structured object, a group
 of nodes represented as a tree. We saw this in Module 1 when we revised
 the basic principles of HTML.</p>
 
@@ -9932,6 +9852,7 @@ showed you:</p>
   style="width:50%"
   title="html and circle"
   alt="html and circle." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/BRNpYQ">html red circle</a>.</p>
 
 <p>Consider the figure above.  It contains a single html element.  It turns
 out this includes within it the entire content of your html file.  If
@@ -11122,5 +11043,4 @@ document.body.append(img); // adds the image at the end of the document
 <!-- last editted 8/1/2024 8:46pm -->
 <!-- last editted 8/3/2024 4:34pm -->
 <!-- last editted 8/5/2024 2:10pm -->
-
 
