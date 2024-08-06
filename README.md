@@ -7494,19 +7494,24 @@ executed!</p>
 <h4>Example #2: a switch without &quot;breaks&quot; at the end of each case</h4>
 
 <pre>1.  var gear = '';
-2.  <b>switch</b> (cloudColor) <b>{</b>
-3.    <b>case</b> 'green':
-4.      gear += 'spacesuit';
-5.      <b>break</b>;
-6.    <b>case</b> 'black':
-7.      gear += 'boots, ';
-8.    <b>case</b> 'grey':
-9.      gear += 'umbrella, ';
-10.   <b>case</b> 'white':
-11.     gear += 'jacket, ';
-12.   <b>default</b>:
-13.     gear += 'watch';
-14. <b>}</b> // end of the switch statement
+2. 
+3.  <b>switch</b> (cloudColor) <b>{</b>
+4.    <b>case</b> 'green':
+5.      gear += 'spacesuit';
+6.      <b>break</b>;
+7.
+8.    <b>case</b> 'black':
+9.      gear += 'boots, ';
+10.
+11.    <b>case</b> 'grey':
+12.      gear += 'umbrella, ';
+13.
+14.   <b>case</b> 'white':
+15.     gear += 'jacket, ';
+16.
+17.   <b>default</b>:
+18.     gear += 'watch';
+19. <b>}</b> // end of the switch statement
 </pre>
 
 <p><b>Explanation</b>: if the clouds are black, then my gear will be &apos;boots,
@@ -7521,19 +7526,20 @@ only a watch (default case).</p>
 on the &quot;edit on codepen&quot; label and once in codepen, open the devtool
 console to see the outputs of this program):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 228. look at js from this example, open devtools (195) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 228. look at js from this example, open devtools (188) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image228.png?raw=true"
   style="width:50%"
   title="Look at JS from this example, open devtools"
   alt="Look at JS from this example, open devtools." />
-
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/PpjPKy">
+CodePen: open devtools</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-3">2.2.3 Loop statements (8:06)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Live coding video: loop statements</p>
+<p>Live coding video: <b>loop</b> statements</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229. loop statements (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229. loop statements (188) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image229.png?raw=true"
   style="width:50%"
@@ -7542,20 +7548,20 @@ console to see the outputs of this program):</p>
 <p>Let&apos;s talk about loop statements.
 <p>There are different loop statements in JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 230. while loop, 1 to 3, and sum of sum (196) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 230. while loop, 1 to 3, and sum of sum (189) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image230.png?raw=true"
   style="width:50%"
   title="While loop, 1 to 3, and sum of sum"
   alt="While loop, 1 to 3, and sum of sum." />
-<p>One is the &quot;while&quot; loop statement. It starts with some initializations, 
+<p>One is the <b>&quot;while&quot; loop</b> statement. It starts with some initializations, 
 you give some values to some variables, then you use the keyword &quot;while&quot; 
 followed by an expression that you will test. It will be evaluated as &quot;true&quot; 
 or &quot;false&quot;.</p>
 
 <p>When this expression is false, you continue after the block of instructions that is 
 inside the loop. Let&apos;s start with an example. We&apos;ve got here some initialization:
-&quot;var n = 1, m = 1;&quot;. We&apos;ve got the keyword &quot;while&quot; followed by 
+&quot;var n = 1, m = 1;&quot;. We&apos;ve got the keyword <b>&quot;while&quot;</b> followed by 
 the condition, &quot;n less than 4&quot;, followed by a block of instructions that will 
 be executed as long as the condition is evaluated as true.</p>
 
@@ -7565,7 +7571,7 @@ than 4, we continue, n = 3, it&apos;s still less than 4, we continue, n = 4,
 then the condition is false: 4 is not strictly less than 4, and we
 continue after the loop and the console.log is executed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231. while loop, n and m (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231. while loop, n and m (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image231.png?raw=true"
   style="width:50%"
@@ -7579,13 +7585,13 @@ loop. Inside the loop, we also incremented the variable m by adding the consecut
 values of n. And m had a starting value of one. 1 + 1 + 2 + 3 + 4 &hellip;. the final 
 result is 10 as you can see.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 232. do while, 0 to less than 20 (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 232. do while, 0 to less than 20 (190) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image232.png?raw=true"
   style="width:50%"
   title="Do while loop, 0 to less than 20"
   alt="Do while loop, 0 to less than 20." />
-<p>The second kind of loops you can use are called the &quot;do&hellip;while&quot;
+<p>The second kind of loops you can use are called the <b>&quot;do&hellip;while&quot;</b>
 loops.</p>
 <p>They are very similar to the while loops except that the first execution
 of the block of instructions does not depend on any condition.
@@ -7600,7 +7606,7 @@ value to i that is 20, then the condition will be no more true, and we
 will finish the execution of the loop and execute the console.log that
 is here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233. do while, 0 to under 20 (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233. do while, 0 to under 20 (191) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image233.png?raw=true"
   style="width:50%"
@@ -7628,7 +7634,7 @@ the very end of the loop, as the last instruction.</p>
 will make, after a certain number of executions of the loop, the
 condition false.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234. for loop, 0 thru 4 (199) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234. for loop, 0 thru 4 (192) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/imageXXX.png?raw=true"
   style="width:50%"
@@ -7641,7 +7647,7 @@ than&quot; operator here.
 I counted for i equals 0, 1, 2, 3, 4&hellip; then, when i is equal to 5 the
 condition is no more true and we exit the loop.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. for loop 0 thru 4 (199) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. for loop 0 thru 4 (192) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image235.png?raw=true"
   style="width:50%"
@@ -7650,7 +7656,7 @@ condition is no more true and we exit the loop.</p>
 <p>We can also use less than or equal to. In this case we counted to the final 
 value and included it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. increment loop by 2 (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. increment loop by 2 (193) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image236.png?raw=true"
   style="width:50%"
@@ -7661,7 +7667,7 @@ value and included it.</p>
 In that case (let me clear and execute again), we run the loop with a value of 
 i = 0, i=2, i=4, i=6, the condition is no more true, we exit from the loop.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 237. daysOfTheWeek array enumeration (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 237. daysOfTheWeek array enumeration (193) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image237.png?raw=true"
   style="width:50%"
@@ -7669,23 +7675,23 @@ i = 0, i=2, i=4, i=6, the condition is no more true, we exit from the loop.</p>
   alt="daysOfTheWeek array enumeration; Monday thru Sunday." />
 
 <p>We can also iterate on the elements of an array. This is very common.
-We&apos;ve got an array here called &quot;daysOfTheWeek&quot; and we are going to
+We&apos;ve got an array here called <b>&quot;daysOfTheWeek&quot;</b> and we are going to
 enumerate all the elements inside.</p>
-<p>Let&apos;s make a &quot;for&quot; loop, and the final value&hellip; the number of times
+<p>Let&apos;s make a <b>&quot;for&quot;</b> loop, and the final value&hellip; the number of times
 we are going to iterate is the number of elements in the array. It&apos;s
-given by the &quot;length&quot; property of the array.
+given by the <b>&quot;length&quot;</b> property of the array.
 What we did: we executed the loop from i = 0, to i = 1, 2, 3, 4, 5, 6, 7!
-This is the value of &quot;daysOfWeek.length&quot;, and we incremented the i
+This is the value of <b>&quot;daysOfWeek.length&quot;</b>, and we incremented the i
 variable at the end.
 We did this for i = 0, 1, 2, 3, 4, 5, 6 and we displayed the element
-with the index equal to i, inside the loop.</p>
+with the index equal to i, inside the <b>loop</b>.</p>
 
-<h4>Example from the video</h4>
+<h4>Example from the lesson</h4>
 
 <p><a href="https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012" 
 target="_blank" rel="noopener noreferrer">Example on CodePen</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. a loop in the sky (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. a loop in the sky (194) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image238.jpeg?raw=true"
   style="width:25%"
@@ -7735,25 +7741,31 @@ times:</p>
   <li>Yes, the variable i is equal to 1, we enter the statement inside
     the while.</li>
   <li><b>Run 1:</b></li>
-  <li>We execute <b>line 4</b>: j += i; (equivalent to j = j + i).
+    <ul>
+      <li>We execute <b>line 4</b>: j += i; (equivalent to j = j + i).
         As j was set to 1 at <b>line 1</b>, j is now equal to 2.</li>
-  <li>We execute <b>line 5</b> and increment i by one. The variable i is
+      <li>We execute <b>line 5</b> and increment i by one. The variable i is
         now equal to 2.</li>
-  <li>We go back to the while at <b>line 3</b>. Is i < 4? Yes, we
+      <li>We go back to the while at <b>line 3</b>. Is i < 4? Yes, we
         execute lines 3 and 4 again.</li>
-  <li><b>Run 2:</b></li>
-  <li>Now at the end of <b>line 5</b>, j is equal to &quot;old j value&quot; +
+	</ul>
+    <li><b>Run 2:</b></li>
+	<ul>
+      <li>Now at the end of <b>line 5</b>, j is equal to &quot;old j value&quot; +
         &quot;new i value&quot;, so j = 2 + 2 = 4, i has been incremented and is
         now equal to 3.</li>
-  <li>We go back to the while at <b>line 3</b>. Is i < 4? Yes, we
+      <li>We go back to the while at <b>line 3</b>. Is i < 4? Yes, we
         execute lines 3 and 4 again.</li>
+	</ul>
   <li><b>Run 3:</b></li>
-  <li>Now at the end of<b> line 5</b>, j is equal to &quot;old j value&quot; +
+    <ul>
+      <li>Now at the end of<b> line 5</b>, j is equal to &quot;old j value&quot; +
         &quot;new i value&quot;, so j = 4 + 3 = 7, i has been incremented and is
         now equal to 4.</li>
-  <li>We go back to the while at <b>line 3</b>. Is i < 4? No! The value
+      <li>We go back to the while at <b>line 3</b>. Is i < 4? No! The value
         of i is now 4, which is not less than 4. We continue
         the execution of the program at line 7 with i = 4 and j = 7.</li>
+	</ul>
 </ul>
 
 <p>Of course, if the condition never evaluates to false, the block will be
@@ -7762,9 +7774,9 @@ executed infinitely until the machine crashes&hellip; a test like while (i
 
 <p>Try this example now with 
 <a href="https://toolness.github.io/slowmo-js/?code=var%20i%20%3D%201%2C%20j%20%3D%201%3B%0A%20%0Awhile%20(%20i%20%3C%204%20)%20%7B%0A%20%20%20%20j%20%3D%20j%20%2B%20i%3B%0A%20%20%20%20i%20%3D%20i%20%2B%201%3B%20%0A%7D&filterrange=65-65" target="_blank" rel="noopener noreferrer">
-slowmoJS</a>!</p>
+<b>slowmoJS</b></a>!</p>
 
-<h4>The do-while statement</h4>
+<h4>The <b>do-while</b> statement</h4>
 
 <p>The do-while statement is very similar to the while statement, but its
 syntax is different:</p>
@@ -7805,7 +7817,7 @@ initialization expression and an incrementing expression.</p>
 <p><b>for (initialization; condition; incrementation) statement</b></p>
 
 <p>The three expressions within the parentheses are optional. If the
-condition is omitted, it is replaced by true (infinite loop).</p>
+condition is omitted, it is replaced by <b>true</b> (infinite loop).</p>
 
 <h4>Typical example (counting from 0 to 10):</h4>
 
@@ -7825,22 +7837,22 @@ part&quot; (i++). Here is another example:</p>
 
 <p>In this example, two variables are defined and assigned within the
 initialization expression. Before each execution of the block statement,
-the condition is checked; here we need i <=10. After each execution of
+the condition is checked; here we need <b>i <=10</b>. After each execution of
 the block statement, the incremental expression is executed to increment
-the variables i by 1 and j by 2.</p>
+the variables <b>i</b> by 1 and <b>j</b> by 2.</p>
 
 <p>Open the devtool console of your browser and copy and paste the above
 code, or <a href="https://toolness.github.io/slowmo-js/?code=for%20(var%20i%20%3D%201%2C%20j%20%3D%201%3B%20i%20%3C%3D%2010%3B%20i%2B%2B%2C%20j%2B%3D2)%20%7B%0A%20%20%20%20console.log(%27i%20%3D%20%27%20%2B%20i%20%2B%20%27%20j%20%3D%20%27%20%2B%20j)%3B%0A%7D&filterrange=0-89" target="_blank" rel="noopener noreferrer">
 look at the slowmoJS execution</a>.</p>
 
-<h4>The for-in statement</h4>
+<h4>The <b>for-in</b> statement</h4>
 
 <p>The for-in statement is used to iterate through an object (or through an
 array, which is also an object).</p>
 
 <h4>Its syntax is:</h4>
 
-<pre>1.  for ( variable in expression ) statement</pre>
+<pre>1. for ( variable in expression ) statement</pre>
 
 <p>Typical example:</p>
 
@@ -7869,15 +7881,15 @@ devoted to the study of JavaScript objects.</p>
 
 <h4>&lbrack;ADVANCED&rbrack; Other statements</h4>
 
-<h4>The continue statement</h4>
+<h4>The <b>continue</b> statement</h4>
 
 <p>The continue statement is used to stop the execution of a block and
-start the next iteration of the loop. The difference from the &quot;break&quot;
+start the next iteration of the loop. The difference from the <b>&quot;break&quot;</b>
 statement is that the loop continues.</p>
 
 <h4>Syntax:</h4>
 
-<pre>1.  continue &lbrack;label&rbrack;</pre>
+<pre>1. continue &lbrack;label&rbrack;</pre>
 
 <p>The label is optional.</p>
 
@@ -7887,19 +7899,20 @@ statement is that the loop continues.</p>
 2.   if (i === 3) {
 3.     continue;
 4.   }
-5.   k += 2&ast;i;
-6.     console.log('k += ' + (2&ast;i));
-7. }
-8. console.log('Final k value:' + k)
+5.
+6.   k += 2&ast;i;
+7.     console.log('k += ' + (2&ast;i));
+8. }
+9. console.log('Final k value:' + k)
 </pre>
 
 <p>Copy and paste this example in your devtool console, but first, try to
-guess what the value of k will be!</p>
+guess what the value of <b>k</b> will be!</p>
 
 <p>Hint: <b>lines 2-4</b> mean that <b>line 6</b> will never be executed for i =
 3. That means that i&ast;2 will only be added to k for i = 1, 2 and 4&hellip;</p>
 
-<h4>The break statement</h4>
+<h4>The <b>break</b> statement</h4>
 
 <p>The break statement is used to stop an iteration, a switch or a labelled
 statement.</p>
@@ -7914,20 +7927,22 @@ statement.</p>
 2.  
 3.  function isNameInTheArray(name, theArray) {
 4.    console.log("Number of elements in the array : " + theArray.length);
-5.    for(var i=0; i &lt; theArray.length; i++) {
-6.      console.log('comparing with element in the array at pos ' + i);
-7.  
-8.      if(theArray[i] === name) {
-9.        console.log('the name ' + name +
-10.       ' is in the array at pos: ' + i);
-11.       break;
-12.     } else {
-13.       console.log(name + ' is not at pos ' + i);
-14.     }
-15.   }
-16. }
-17. // Execute the function
-18. isNameInTheArray('john', tab);
+5. 
+6.    for(var i=0; i &lt; theArray.length; i++) {
+7.      console.log('comparing with element in the array at pos ' + i);
+8.  
+9.      if(theArray[i] === name) {
+10.       console.log('the name ' + name +
+11.       ' is in the array at pos: ' + i);
+12.       break;
+13.     } else {
+14.       console.log(name + ' is not at pos ' + i);
+15.     }
+16.   }
+17. }
+18.
+19. // Execute the function
+20. isNameInTheArray('john', tab);
 </pre>
 
 <p>Copy and paste in the devtool console. You&apos;ll see that the function
@@ -7938,14 +7953,14 @@ at index = 1.</p>
 <h4><b>Detailed explanations:</b></h4>
 
 <ul>
-  <li><b>Line 20</b> executes the function</li>
-  <li><b>Line 6</b>: The for statement loops on all existing indexes in
-    the tab, from 0 to tab.length</li>
-  <li><b>Line 9</b>: if the condition is true, we enter the block and
+  <li><b><i>Line 20</i></b> executes the function</li>
+  <li><b><i>Line 6</i></b>: The <b>for</b> statement loops on all existing indexes in
+    the <b>tab</b>, from 0 to <b>tab.length</b></li>
+  <li><b><i>Line 9</i></b>: if the condition is true, we enter the block and
     execute<b> lines 10-12</b></li>
-  <li>The break statement at <b>line 12</b> will exit from the loop, it
+  <li>The <b>break</b> statement at <b>line 12</b> will exit from the loop, it
     &quot;breaks&quot; the loop.</li>
-  <li>The different console.log(&hellip;) will never display the message
+  <li>The different <b>console.log(&hellip;)</b> will never display the message
     &quot;comparing with elements&hellip;&quot; with indexes greater than 1: the
     loop exists when &apos;john&apos; is found at index 1 (i equal to 1).</li>
 </ul>
@@ -7976,15 +7991,15 @@ post your comments/observations/questions or share your creations.</p>
     until you find the number.</li>
 </ul>
     
-<p><b>Hint</b>: use the Math.random and Math.round methods, such as in let
-randomNumber = Math.round(Math.random() &ast; 10); to get a random
+<p><b>Hint</b>: use the <b>Math.random</b> and <b>Math.round</b> methods, such as in let
+<b>randomNumber = Math.round(Math.random() &ast; 10);</b> to get a random
 value between 0 and 10.</p>
 
 <p>For working with input fields, look at section 1.4 from the first
 module, the math function plotter example used input fields. Or look
 at the section about DOM in this module.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. quiz (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. quiz (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image239.jpeg?raw=true"
   style="width:25%"
@@ -8025,7 +8040,7 @@ at the section about DOM in this module.</p>
 
 <p>A function declared this way can be called like this:</p>
 
-<pre>1.  functionName(parameters);</pre>
+<pre>1. functionName(parameters);</pre>
 
 <p>Notice that we do not add a semicolon at the end of a function
 declaration. Semicolons are used to separate executable JavaScript
@@ -8033,88 +8048,95 @@ statements, and a function declaration is not an executable statement.</p>
 
 <h4>Here is an example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 240.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 240. codepen: sum function & displayinpage function (201) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image240.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: sum function & displayinpage function"
+  alt="CodePen: sum function & displayinpage function." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/jmoBRj">
+CodePen: sum and displayInPage functions</a>.</p>
 
-<p>In the above example, the sum function returns a value, and
-the displayInPage function does not return anything.</p>
+<p>In the above example, the <b>sum function</b> returns a value, and
+the <b>displayInPage function</b> does not return anything.</p>
 
 <h4>2) Use a function expression</h4>
 
-<p>A JavaScript function can also be defined using an expression that can
-be stored in a variable. Then, the variable can be used as a function:</p>
+<p>A JavaScript <b>function</b> can also be defined using an expression that can
+be stored in a variable. Then, the variable can be used as a <b>function</b>:</p>
 
 <h4>Here is a typical example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 241.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 241. codepen: sum and displayInPage (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image241.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: sum and displayInPage"
+  alt="CodePen: sum and displayInPage." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/qmGmWj">
+CodePen: displayInPage &amp; sum functions</a>.</p>
 
-Notice how the sum and displayInPage functions have been declared. We
+<p>Notice how the sum and displayInPage functions have been declared. We
 used a variable to store the function expression, then we can call the
 functions using the variable name. And we added a semicolon at the end,
 since we executed a JavaScript instruction, giving a value to a
-variable.
+variable.</p>
 
-The &quot;function expression&quot; is an &quot;anonymous function&quot;, a function
+<p>The &quot;function expression&quot; is an &quot;anonymous function&quot;, a function
 without a name, that represents a value that can be assigned to a
-variable. Then, the variable can be used to execute the function.
+variable. Then, the variable can be used to execute the function.</p>
 
-We say that functions are &quot;first class objects&quot; which can be
-manipulated like any other object/value in JavaScript.
+<p>We say that functions are &quot;first class objects&quot; which can be
+manipulated like any other object/value in JavaScript.</p>
 
-This means that functions can also be used as parameters to other
-functions. In this case they are called &quot;callbacks&quot;.
+<p>This means that functions can also be used as parameters to other
+functions. In this case they are called &quot;callbacks&quot;.</p>
 
 <h4>Callbacks</h4>
 
-Indeed, as functions are first-class objects, we can pass a function as
+<p>Indeed, as functions are first-class objects, we can pass a function as
 an argument, as a parameter to another function and later execute that
 passed-in function or even return it to be executed later. When we do
 this, we talk about <b>callback functions</b> in JavaScript: a function
-passed to another function, and executed inside the function we called.
+passed to another function, and executed inside the function we called.</p>
 
-All the examples of event listeners that you&apos;ve seen used callback
+<p>All the examples of event listeners that you&apos;ve seen used callback
 functions. Here is another one that registers mouse click listeners on
 the window object (the window objects represent the whole HTML
-document):
+document):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 242.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 242. codepen: processClick (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image242.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: processClick"
+  alt="CodePen: processClick." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/OmYmVr">
+CodePen: processClick function</a>.</p>
 
-In this case, the processClick function is passed as a parameter to
-the addEventListener method/function.
+<p>In this case, the processClick function is passed as a parameter to
+the addEventListener method/function.</p>
 
 <p>Callback functions are derived from a programming paradigm known
 as <b>functional programming</b>. They are very common in JavaScript.
 We&apos;ll use them a lot in the next section of the course, called
 &quot;Handling events&quot;.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-1">2.4.1 Intro: Handling Events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Adding interactivity to a Web application can be achieved by using only
-CSS, such as by using the :hover pseudo CSS class.</p>
+CSS, such as by using the <b>:hover</b> pseudo CSS class.</p>
 
 <h4>For example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 243.  (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 243. codepen: :hover (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image243.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: :hover"
+  alt="CodePen: :hover." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/gmvgxa">
+CodePen: :hover</a>.</p>
 
 <p>However, firing a specific action when the button is clicked, knowing
 which mouse button has been used, computing the (x, y) mouse pointer
@@ -8137,12 +8159,12 @@ ones that correspond to the type of event &quot;they listen to&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Live coding video: adding an event listener to a document</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 244.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 244. adding event listener to a document (204) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image244.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Adding event listener to a document"
+  alt="Adding event listener to a document." />
 
 <p>Hello. Let&apos;s see how events work in JavaScript. In this video, I will
 show you how to add a simple event listener for detecting clicks or mouse moves,
@@ -8150,136 +8172,131 @@ and we will start with the simplest example.</p>
 
 <p>It's listening for events that will occur anywhere on the Web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 245.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. listen to mouse clicks (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image245.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-When we add an event listener to the whole page, the syntax is this one:
-you can type &quot;AddEventListener&quot;, followed by the name of the event.
+  title="Listen to mouse clicks and add an event listener"
+  alt="Listen to mouse clicks and add an event listener." />
+<p>When we add an event listener to the whole page, the syntax is this one:
+you can type &quot;AddEventListener&quot;, followed by the name of the event.</p>
 
-Here we are going to listen to mouse clicks. And then indicate the
+<p>Here we are going to listen to mouse clicks. And then indicate the
 reference of the callback function that will process the event.
 Let&apos;s write this callback&hellip;and let&apos;s try it! I clicked on the page
-anywhere, and an alert message appeared.
+anywhere, and an alert message appeared.</p>
 
-This is the first syntax, and there is a variant that is very common in
+<p>This is the first syntax, and there is a variant that is very common in
 JavaScript, when the length of the callback (source code) is small, you
 can directly add the callback inside the parenthesis of the AddEventListener
-call.
+call.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 246.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 246. anonymous function, callback (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image246.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-Let&apos;s see this example&hellip; I&apos;m going to comment the first example,
+  title="anonymous function, callback"
+  alt="anonymous function, callback." />
+<p>Let&apos;s see this example&hellip; I&apos;m going to comment the first example,
 and this time, instead of just adding as an argument the name of the
-callback, we directly put the body of the callback.
+callback, we directly put the body of the callback.</p>
 
-A function&hellip; and we don&apos;t have to indicate a name: it&apos;s an
+<p>A function&hellip; and we don&apos;t have to indicate a name: it&apos;s an
 anonymous function, an anonymous callback. When we click on the
 page, we will execute this callback that is located exactly as the
-second argument.
+second argument.</p>
 
-If I click on the page, you can see that it works again. And this syntax is very common!
-Notice the parenthesis, followed by a semicolon at the end, because this is just like a parameter.
+<p>If I click on the page, you can see that it works again. And this syntax is very common!
+Notice the parenthesis, followed by a semicolon at the end, because this is just like a parameter.</p>
 
-It&apos;s an anonymous callback function, that is the second argument.
-
+<p>It&apos;s an anonymous callback function, that is the second argument.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 247.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 247. window.onclick = function(evt) (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image247.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="window.onclick = function(evt)"
+  alt="window.onclick = function(evt)." />
 
-Finally, there is a first syntax, that uses the the object that will
+<p>Finally, there is a first syntax, that uses the the object that will
 fire the event. The window object is the whole document. We start with
 &quot;on&quot; followed by the name -in lowercase- of the event, and we assign
-to this property &quot;onclick&quot;, we assign directly the function.
+to this property &quot;onclick&quot;, we assign directly the function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 248.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 248. anonymous function (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image248.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="anonymous function"
+  alt="anonymous function." />
 
-We can directly type the anonymous function, like that. We add a
+<p>We can directly type the anonymous function, like that. We add a
 semicolon because this is a an executable statement. And if I click&hellip; &hellip;it
 works. Okay, or I could have used the same syntax we saw earlier, with a
 regular callback function with a name, and we just indicate onclick
 equal the name of the callback, like this, which is the same name&hellip; So
-if I click, it works.
+if I click, it works.</p>
 <h4>Online example used in the above lesson</h4>
 
 <ul>
-  <li><a href="">Example on CodePen</a></li>
+  <li><a href="https://codepen.io/w3devcampus/pen/pwzXqb?editors=1000">Example on CodePen</a></li>
 </ul>
 <h3>2.4.2 cont'd; Adding and removing event listeners to HTML element</h3>
 <p>Live coding video: adding an event listener to a specific HTML element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 249.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 249. how to add an event listener to html element (207) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image249.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="How to add an event listener to html element"
+  alt="How to add an event listener to html element." />
 <p>In this video, I will show you how to add an event listener to an html
 element, and not to the whole document, like in the previous video.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 250.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 250. onclick = name of function (207) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image250.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-Let&apos;s try with a button. One of the easiest way to detect a click
+  title="CodePen: onclick = name of function"
+  alt="CodePen: onclick = name of function." />
+<p>Let&apos;s try with a button. One of the easiest way to detect a click
 on a button is to use the onclick = name of the function, name of the callback that will
 process the function. In that case, we can locate the body of this callback anywhere in the
-script element.
+script element.</p>
 
-We can, for example, put the script element in the head element at the
-top of the html document.
-Let&apos;s try like that&hellip;
-In that case, you see, when I click, the processClick callback is
-called. I always add an argument here, that is not used in this example, 
-but it will be the topic of a next video.
-Here, I&apos;using just the DOM API for adding some text to the document.
+<p>We can, for example, put the script element in the head element at the
+top of the html document. Let&apos;s try like that&hellip; In that case, you see, 
+when I click, the processClick callback is called. I always add an argument here, 
+that is not used in this example, but it will be the topic of a next video.
+Here, I&apos;using just the DOM API for adding some text to the document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 251.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 251. codepen: document.querySelector (208) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image251.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: document.querySelector"
+  alt="CodePen: document.querySelector." />
 
-<p>If you want to use the other syntax with addEventListener, you must take
-some precautions. You will need first to locate the element, so that you can manipulate it
-from JavaScript. For that, we usually add an id attribute so that we can identify the
-element. And then we use a script element.
-I&apos;m putting this one at the end of the document.</p>
+<p>If you want to use the other syntax with addEventListener, you must take some 
+precautions. You will need first to locate the element, so that you can manipulate 
+it from JavaScript. For that, we usually add an id attribute so that we can identify 
+the element. And then we use a script element. I&apos;m putting this one at the end 
+of the document.</p>
 
-<p>There is a good reason for that, that I will explain.
-And first, I get a reference on the element.
-For that, we use the selector API: it&apos;s a built-in feature that is in
-your browser, that is very useful for getting references on elements.
+<p>There is a good reason for that, that I will explain. And first, I get a reference 
+on the element. For that, we use the selector API: it&apos;s a built-in feature that 
+is in your browser, that is very useful for getting references on elements. 
 document.querySelector is the name of the method we are going to use.</p>
 
-<p>And then, we use a CSS3 selector.
-Notice that the id I use is the same I used in the declaration of the
-html button.</p>
+<p>And then, we use a CSS3 selector. Notice that the id I use is the same I used 
+in the declaration of the html button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 252.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 252. document.querySelector and addEventListener (209) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image252.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="document.querySelector and addEventListener"
+  alt="document.querySelector and addEventListener." />
 <p>Once I've got the reference on the object, I can add the event listener.
 Let&apos;s try it.
 I click on the button and I get an alert.
@@ -8289,7 +8306,7 @@ We say that &quot;the DOM of the page must be ready&quot;.</p>
 
 <p>When an HTML page is rendered, it&apos;s sequential, it goes from top to
 bottom, so in that case, the button is created, added to the DOM, then the
-script is executed, and document.querySelector will return a reference on the button.
+script is executed, and document.querySelector will return a reference on the button.</p>
 
 <p>If I move this script tag before the button, in that case, it&apos;s not
 going to work because the b variable here will correspond to nothing,
@@ -8320,24 +8337,25 @@ on a web document will be processed by this event handler):</p>
 
 <h4>Try it below by clicking anywhere on the document:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 253.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 253. codepen: addeventlistener function (210) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image253.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-
-<p>The addEventListener function is one possible syntax for registering a
+  title="CodePen: addEventListener function"
+  alt="CodePen: addEventListener function." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/peaeoZ">
+CodePen: addEventListener function</a>.</p>
+<p>The <b>addEventListener</b> function is one possible syntax for registering a
 function to be called when a given type of event occurs.</p>
 
-<pre>1.  addEventListener(type_of_event, callback_function)</pre>
+<pre>1. addEventListener(type_of_event, callback_function)</pre>
 
 <p>In the example below, the type of event is a &apos;click&apos;, and the callback
 function is the part in bold:</p>
 
-<pre>1.  function(evt) {
-2.     console.log(&quot;Button clicked!&quot;);
-3.  }
+<pre>1. function(evt) {
+2.    console.log(&quot;Button clicked!&quot;);
+3. }
 </pre>
 
 <p>When this function is small (a few lines of code), it&apos;s common practice
@@ -8371,7 +8389,7 @@ is the same as using window.addEventListener), we can listen to specific DOM
 elements. For example, here is how we can listen to clicks on a specific button 
 (whereas clicks on the rest of the document will be ignored).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 254.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 254.  (211) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image254.png?raw=true"
   style="width:50%"
@@ -8401,34 +8419,16 @@ attribute (ex: onclick = &quot;&hellip;.&quot;)</h4>
 to use an onclick=&apos;doSomething();&apos; attribute directly in the HTML tag
 of the element:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 255.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 255. codepen: processClick(event) (212) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image255.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: processClick(event)"
+  alt="CodePen: processClick(event)." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/aJqWZJ">
+CodePen: processClick(event) example</a>.</p>
 
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;title&gt;Third example of an event listener&lt;/title&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;script&gt;
-    function processClick(evt) {
-      alert(&quot;Button clicked&quot;);
-    };
-  &lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;button id=&quot;myButton&quot; onclick=&quot;processClick(event);&quot;&gt;Click me!&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<!-- image goes here, pg 218 -->
-<p>This syntax:</p>
+<h4>This syntax:</h4>
 
 <pre>1. &lt;button id=&quot;myButton&quot; <b>onclick=&quot;processClick(event);</b>&quot;&gt;Click me!&lt;/button&gt;</pre>
 
@@ -8451,12 +8451,14 @@ function, and inside we remove the listener we previously registered.
 Consequence: if we click on the button again, nothing happens as there
 is no longer a click event listener attached to it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 256.  (218) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 256. codepen: add and remove event listener (212) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image256.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: add and remove event listeners"
+  alt="CodePen: add and remove event listeners." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/PpRBxP">
+CodePen: add and remove event listeners example</a>.</p>
 
 <p>Note that to remove an event listener, you should have added it with its named 
 function, so that we can pass it to both addEventListener and removeEventListener.</p>
@@ -8540,6 +8542,7 @@ common types of events in detail.</p>
   
 <p>This time let&apos;s talk about the event object, and we&apos;ll start looking
 at different types of events.</p>
+
 <image goes here>
 <p>One of the events you will use is called the &apos;load&apos; event, and you can
 apply it on the page using onload equal followed by the name of the
@@ -8568,15 +8571,12 @@ I can execute any kind of code, I will never have to wonder&hellip; to think:
   style="width:50%"
   title=""
   alt="." />
-<p>For example, to update this part of the page&hellip;
-I use a span with an id attribute.
-I can locate the span&hellip; and like this&hellip; using the querySelector
+<p>For example, to update this part of the page&hellip; I use a span with an id 
+attribute. I can locate the span&hellip; and like this&hellip; using the querySelector
 method and a CSS selector on the id&hellip; &quot;pageStatus&quot; is the id of the
-element&hellip;
-Then I can change the content of the page&hellip;
-If you look at what is happening when I execute the code, it says &quot;page
-loaded&quot;. This is a very good practice.
-I nearly always do this on my own softwares.</p>
+element&hellip; Then I can change the content of the page&hellip; If you look at what 
+is happening when I execute the code, it says &quot;page loaded&quot;. This is a very 
+good practice. I nearly always do this on my own softwares.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 261.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
