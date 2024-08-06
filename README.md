@@ -1201,7 +1201,7 @@ W3C&apos;s <a href="https://validator.w3.org/i18n-checker/" target="_blank" rel
 Checker</a>.  If there are internationalization problems with your page, this 
 checker explains what they are and what to do about it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-1">1.1 Introduction - Module 1: Intro to JavaScript (1:46)</h3>
+<h3 id="ch1-1-1">1.1.1 Introduction - Module 1: Intro to JavaScript (1:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>Hello everyone, welcome to the wonderful world of JavaScript!</p>
@@ -1231,7 +1231,7 @@ interactive graphic tool that will use many different features from
 JavaScript, HTML and CSS. Let's start having fun with JavaScript, now
 :-)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2">1.2 Module 1 outline</h3>
+<h3 id="ch1-1-2">1.1.2 Module 1 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>If you thought that a Web browser could only display HTML documents, you
 were mistaken! ;)</p>
@@ -1260,7 +1260,7 @@ discover how JavaScript is useful.</p>
 this course! This is an introductory course designed to help
 you understand the basic concepts of the language.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-0">1.2.0 HTML is for structure</h3>
+<h3 id="ch1-2-1">1.2.1 HTML is for structure</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The &quot;<b>H</b>yper <b>T</b>ext&quot; part: links!</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1914,7 +1914,7 @@ of Leonardo. I pick an image of Leonardo. I display the image and
 <b>I've</b> got the URL, here, in the address bar. I just copy and
 <b>paste</b> it and <b>I've</b> got Leonardo Di Caprio in my document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-5">1.2.5 CSS is for style (1:34)</h3>
+<h3 id="ch1-2-2">1.2.2 CSS is for style (1:34)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Hi!</h4>
 
@@ -2284,7 +2284,7 @@ directly in the HTML, the CSS rule.</p>
 <p>To sum up, you can have your CSS in external file or inside the HTML
 file using the &quot;style&quot; element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-7">1.2.7 JavaScript is the &quot;interactive glue&quot; (4:22)</h3>
+<h3 id="ch1-2-3">1.2.3 JavaScript is the &quot;interactive glue&quot; (4:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Hello, your Web browser can only understand three different languages
 when you ask for a Web page to be rendered in the browser.</p>
@@ -2436,7 +2436,7 @@ can interact with the HTML content and the CSS styles of a Web document.
 Finally, note that, in these examples, the JavaScript code is located in
 the HTML of the document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-8">1.2.8 JavaScript history</h3>
+<h3 id="ch1-2-4">1.2.4 JavaScript history</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>JavaScript remains the most commonly used programming language with
 67.7% of developers employing it in 2020 (see this 
@@ -2683,7 +2683,7 @@ before, runtime. The most popular JavaScript engines are:</p>
     History of JavaScript on a timeline</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-2-9">1.2.9 Discussion and project</h3>
+<h3 id="ch1-2-5">1.2.5 Discussion and project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.</p>
@@ -2706,7 +2706,7 @@ post your comments/observations/questions or share your creations.</p>
   a button, change the CSS style of some parts of the document).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3">1.3 JavaScript Overview (the best way to learn JavaScript) (8:42)</h3>
+<h3 id="ch1-3-1">1.3.1 JavaScript Overview (the best way to learn JavaScript) (8:42)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 93. the best way to learn javascript (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3195,7 +3195,7 @@ you saw:</p>
     and arrays (we will discuss them as we move through the course).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-1">1.3.1 What can be done with JavaScript (2:23)</h3>
+<h3 id="ch1-3-2">1.3.2 What can be done with JavaScript (2:23)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Hello! What can be done with JavaScript? Let me show you some examples that are 
 the most common ones.</p>
@@ -3423,7 +3423,7 @@ famous rock bands:</p>
 
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJwpKq" target="_blank" rel="noopener noreferrer">CodePen: Database Lookup Band Members</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-2">1.3.2 Where to put JavaScript code (7:13)</h3>
+<h3 id="ch1-3-3">1.3.3 Where to put JavaScript code (7:13)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 118. where to put javascript code (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3750,7 +3750,7 @@ an external URL:</p>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VPmNWg" target="_blank" rel="noopener noreferrer">CodePen: Example paperJS</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-3">1.3.3 How to debug JavaScript</h3>
+<h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 125. how to debug javascript (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4003,7 +4003,7 @@ to look at some basic tutorials on how to use the dev. tools of your
 browsers, since they differ from one another in the way they work
 - although the principles remain the same.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-3-4">1.3.4 Discussion and projects</h3>
+<h3 id="ch1-3-5">1.3.5 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is the discussion forum for this part of the course. Please either post your 
 comments/observations/questions or share your creations.</p>
@@ -4032,7 +4032,7 @@ comments/observations/questions or share your creations.</p>
   it in online IDEs such as CodePen, JSBin, etc.).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4">1.4 Your First HTML/CSS/JS project</h3>
+<h3 id="ch1-4-1">1.4.1 Creating Your First HTML/CSS/JS project</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Let&apos;s create a small HTML/CSS/JS project together.</p>
 
@@ -4074,7 +4074,7 @@ using a regular source code editor and .html, .css and .js files.</p>
 <a href="https://codepen.io/w3devcampus/pen/bqGboZ" target="_blank" rel="noopener noreferrer">
 Demo (CodePen: Interactive Function Plotter)</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-1">1.4.1 Using CodePen (6:46)</h3>
+<h3 id="ch1-4-2">1.4.2 Using CodePen (6:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 138. codepen: interactive function plotter (107) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4233,7 +4233,7 @@ the functions we are going to plot, and so on.</p>
   alt="." />
 <!-- pages 108-112 to be filled from class plus more I'm sure -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-4-2">1.4.2 Using Sublime Text (4:22)</h3>
+<h3 id="ch1-4-3">1.4.3 Using Sublime Text (4:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4326,9 +4326,9 @@ what I did manually.</p>
 project or a serious project, you will use a source code editor like
 Sublime Text.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5">1.5 JS variables and values (5:28)</h3>
+<h3 id="ch1-5-1">1.5.1 JS variables and values (5:28)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Live coding video: JavaScript variables
+<p>Live coding lesson: JavaScript variables</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4590,7 +4590,7 @@ let case_matters = 'lower';
 let CASE_MATTERS = 'upper';
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-1">1.5.1 Scope of JS variables (4:19)</h3>
+<h3 id="ch1-5-2">1.5.2 Scope of JS variables (4:19)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156. scope of js variables (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4795,7 +4795,7 @@ you might find lots of examples that still use the var keyword&hellip;</p>
 <p><b>Anyway, we highly recommend to use let and const instead of var, for
 declaring variables and constants!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-2">1.5.2 JS data types (5:27)</h3>
+<h3 id="ch1-5-3">1.5.3 JS data types (5:27)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163. js data types (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4923,7 +4923,7 @@ or function)</p>
 <p>This operator is not often use in JavaScript programs, but it&apos;s useful
 for us, for explaining the data types.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-3">1.5.3 Numbers</h3>
+<h3 id="ch1-5-4">1.5.4 Numbers</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 166. numbers 1 thu 9, then 0, twice (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -5186,7 +5186,7 @@ format. Larger numbers will be converted&hellip;</p>
 <a href="https://en.wikipedia.org/wiki/IEEE_floating_point" target="_blank" rel="noopener noreferrer">
 follow this link at Wikipedia</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-4">1.5.4 JS operators and expressions</h3>
+<h3 id="ch1-5-5">1.5.5 JS operators and expressions</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <b>An expression</b> is a small piece of code used to produce a value.
 
@@ -5231,7 +5231,7 @@ strings, booleans, and objects. For example, an expression with the operator 
 will evaluate to a number. But an expression with the operator + can evaluate 
 to a number or a string (for addition or concatenation).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-5">1.5.5 Number Operators (4:12)</h3>
+<h3 id="ch1-5-6">1.5.6 Number Operators (4:12)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: number operators</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5450,7 +5450,7 @@ Code below (try it in the devtool console of your browser):</p>
 19.  &gt; // this is normal, as it is even
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-6">1.5.6 Strings, part 1</h3>
+<h3 id="ch1-5-7">1.5.7 Strings, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>General use</h4>
 
@@ -5495,7 +5495,7 @@ with double and closed with simple quotes
   <li>To output HTML in JavaScript, single quotes are more useful</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-7">1.5.7 String operators, part 2 (6:44)</h3>
+<h3 id="ch1-5-8">1.5.8 String operators, part 2 (6:44)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: string and string operators</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5730,7 +5730,7 @@ var s = '1&#92;r&#92;n2';
 "1 2"
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-8">1.5.8 Objects, part 1</h3>
+<h3 id="ch1-5-9">1.5.9 Objects, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>We have already encountered objects in different examples. You can
 easily recognize these objects:</p>
@@ -5806,7 +5806,7 @@ detail.</p>
 }
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-9">1.5.9 Arrays, part 1</h3>
+<h3 id="ch1-5-10">1.5.10 Arrays, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Definition: arrays are containers with indexes</h4>
 
@@ -5941,7 +5941,7 @@ Examples:
 9.  3
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-5-10">1.5.10 Functions, part 1</h3>
+<h3 id="ch1-5-11">1.5.11 Functions, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Definition of a function</h4>
 
@@ -6014,7 +6014,7 @@ it contains all the call parameters of the function:</p>
 13. 10
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6">1.6 Simple JS Examples to play with</h3>
+<h3 id="ch1-6-1">1.6.1 Intro: Simple JS Examples to play with</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This section does not detail the examples presented. Some of them are
 studied later in the course, some won&apos;t.</p>
@@ -6025,7 +6025,7 @@ code, and to tweak the examples. Do not worry if you don&apos;t understand
 how they work. We are just giving you &quot;a taste&quot; of JavaScript. There
 will be no graded exercises about them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-1">1.6.1 The devtool console</h3>
+<h3 id="ch1-6-2">1.6.2 The devtool console</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Using the console.log(&hellip;) instruction, you can <b>write messages to the
 devtool console</b> of your browser. This is a common way to debug your code!</p>
@@ -6199,7 +6199,7 @@ calculations:</p>
 using the &quot;+&quot; operator. And of course, you can use such code in 
 your programs, not only in the devtool console :-)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-2">1.6.2 Modifying an HTML document</h3>
+<h3 id="ch1-6-3">1.6.3 Modifying an HTML document</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Don&apos;t worry if we do not explain all the details of this example. In
 the first module, we&apos;re giving you &quot;a taste&quot; of what we can do with
@@ -6244,7 +6244,7 @@ see this:</p>
   title="Dynamic contact list; given name, family name"
   alt="Dynamic contact list; given name, family name." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-3">1.6.3 Modifying CSS styles on the fly</h3>
+<h3 id="ch1-6-4">1.6.4 Modifying CSS styles on the fly</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>We&apos;ve already seen some examples in which we modify the style of some
 parts of a document using JavaScript. Here we show another example of
@@ -6295,7 +6295,7 @@ example we used pixel units and a percentage, so we need to add the
 &quot;px&quot; and &quot;%&quot; character(s) when we manipulate these properties from
 JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-4">1.6.4 Adding interactivity with events</h3>
+<h3 id="ch1-6-5">1.6.5 Adding interactivity with events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>With JavaScript, you can react to user interactions (keyboard, mouse,
 gamepad), to changes in the lifecycle of your document (page has just
@@ -6362,7 +6362,7 @@ presented.</p>
   alt="Move a monster in an HTML5 canvas." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygWZEP" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-5">1.6.5 Using built-in HTML5 APIs</h3>
+<h3 id="ch1-6-6">1.6.6 Using built-in HTML5 APIs</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Your browser comes with a lot of standard W3C APIs. By standard, we mean
 &quot;parts of HTML5&quot; or real Web standards that will still work in 10
@@ -6418,7 +6418,7 @@ This example uses the WebAudio API in order to synthesize sounds.</p>
 Both mouse and keyboard is supported. However, make sure you click onto
 the preview window before using keyboard.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-6-6">1.6.6 Using third-party JS APIs/libraries</h3>
+<h3 id="ch1-6-7">1.6.7 Using third-party JS APIs/libraries</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Thousands of JavaScript libraries exist. Their purposes range from making it 
 easier to plot a math function, playing 
@@ -6562,9 +6562,9 @@ for video games):</p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/BWbNQG" 
 target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1-1">2.1.1 Adding Interactivity to JS Documents</h3>
+<h3 id="ch2-1-1">2.1.1 Intro Module 2: Adding Interactivity to JS Documents</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Video: Introduction to Module 2</p>
+<p>Lesson: Introduction to Module 2</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 207. learn how to handle events (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6598,7 +6598,7 @@ we'll make you play with the most of the language elements seen so far.
 And please, as I like video game, don&apos;t forget to share your project in
 the forum. And let other students enjoy your creation :D</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1-2">2.1.2 Interactivity with JS</h3>
+<h3 id="ch2-1-2">2.1.2 Outline: Interactivity with JS</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>What you will learn in Module 2: Interactivity with JavaScript</p>
 
@@ -7652,7 +7652,7 @@ value and included it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. increment loop by 2 (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/imageXXX.png?raw=true"
+<img src="./images/image236.png?raw=true"
   style="width:50%"
   title="Increment loop by 2"
   alt="Increment loop by 2." />
@@ -7663,7 +7663,7 @@ i = 0, i=2, i=4, i=6, the condition is no more true, we exit from the loop.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 237. daysOfTheWeek array enumeration (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/imageXXX.png?raw=true"
+<img src="./images/image237.png?raw=true"
   style="width:50%"
   title="daysOfTheWeek array enumeration; Monday thru Sunday"
   alt="daysOfTheWeek array enumeration; Monday thru Sunday." />
@@ -8102,7 +8102,7 @@ We&apos;ll use them a lot in the next section of the course, called
 &quot;Handling events&quot;.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-1">2.4.1 Handling Events</h3>
+<h3 id="ch2-4-1">2.4.1 Intro: Handling Events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Adding interactivity to a Web application can be achieved by using only
 CSS, such as by using the :hover pseudo CSS class.</p>
@@ -8133,7 +8133,7 @@ called <b>handlers</b> or <b>callbacks</b> for specific events.</p>
 Then the browser looks at a list of &quot;Event Listeners&quot; and calls the
 ones that correspond to the type of event &quot;they listen to&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-2">2.4.2 Adding and removing event listeners</h3>
+<h3 id="ch2-4-2">2.4.2 Adding and removing event listeners to a document</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Live coding video: adding an event listener to a document</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8220,7 +8220,7 @@ if I click, it works.
 <ul>
   <li><a href="">Example on CodePen</a></li>
 </ul>
-<h3 id="ch2-4-2">2.4.2 cont'd; Adding and removing event listeners to HTML element</h3>
+<h3>2.4.2 cont'd; Adding and removing event listeners to HTML element</h3>
 <p>Live coding video: adding an event listener to a specific HTML element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 249.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8529,7 +8529,7 @@ common types of events in detail.</p>
   title="Most useful properties; type &amp; target; methods; preventDefault &amp; stopPropagation"
   alt="Most useful properties; type &amp; target; methods; preventDefault &amp; stopPropagation." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-3">2.4.3 Page lifecycle events</h3>
+<h3 id="ch2-4-4">2.4.4 Page lifecycle events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 258.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9100,23 +9100,22 @@ out the Web browser actually exposes a useful API for this.&quot;</p>
 
 <p>For details, see <a href="https://en.wikipedia.org/wiki/Keyboard_layout">Wikipedia's keyboard layout page</a>!</p>
 
-<h4>[QWERTY](https://en.wikipedia.org/wiki/QWERTY) layout, used in US, GB, etc.</h4>
-
+<h4><a href="https://en.wikipedia.org/wiki/QWERTY">QWERTY</a> layout, used in US, GB, etc.</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 273.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 273. qwerty keyboard layout (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image273.png?raw=true"
   style="width:50%"
   title=""
-  alt="." />
+  alt="qwerty keyboard layout." />
 <!-- ![QWERTY keyboard layout](./images/image169.png){width="5.208333333333333in" height="1.7395833333333333in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 274.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 274. azerty keyboard layout (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image274.png?raw=true"
   style="width:50%"
   title=""
-  alt="." />
+  alt="azerty keyboard layout." />
 <!-- ![AZERTY keyboard layout](./images/image170.png){width="5.208333333333333in" height="1.6041666666666667in"} -->
 
 <h4>In addition, <a href="https://en.wikipedia.org/wiki/QWERTZ">QWERTZ</a> keyboards are in use in Germany 
@@ -9125,44 +9124,42 @@ alternative to QWERTY:</h4>
 
 <h5>DVORAK:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 275.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 275. dvorak layout keyboard (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image275.png?raw=true"
   style="width:50%"
   title=""
-  alt="." />
+  alt="dvorak layout keyboard." />
 <!-- ![DVORAK layout keyboard](./images/image171.png){width="5.208333333333333in" height="1.6041666666666667in"} -->
 
 <h5>QWERTZ:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 276.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 276. qwertz layout keyboard (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image276.png?raw=true"
   style="width:50%"
   title=""
-  alt="." />
+  alt="qwertz layout keyboard." />
 <!-- ![QWERTZ layout keyboard](./images/image172.png){width="5.208333333333333in" height="1.7395833333333333in"} -->
 
-<h4>Saudi Arabic keyboard layout (see more <a href="https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards">Arabic keyboards</a>):</h4>
+<h4>Saudi Arabic keyboard layout (see more <a href="https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards">
+Arabic keyboards</a>):</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 277.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 280. saoudian arabic keyboar layout (224) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image277.png?raw=true"
+<img src="./images/image280.jpeg?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![Saoudian Arabic keyboard layout](./images/image173.jpeg){width="6.5in" height="2.478125546806649in"} -->
+  title="Saoudian Arabic keyboard layout"
+  alt="Saoudian Arabic keyboard layout." />
 
-<h4><a href="">Bangla National (Jatiyo) keyboard</a>:</h4>
+<h4><a href="https://en.wikipedia.org/wiki/Bengali_input_methods#Bangla_Jatiyo">Bangla National (Jatiyo) keyboard</a>:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 278.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 281. Bangladesh keyboard layout (224) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image278.png?raw=true"
+<img src="./images/image281.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![Bangladesh keyboard layout](./images/image174.png){width="6.5in" height="2.4452384076990374in"} -->
-
+  title="Bangladesh keyboard layout"
+  alt="Bangladesh keyboard layout." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-7">2.4.7 Key and code properties</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9206,13 +9203,12 @@ this</a>. You can read about the <a href="https://www.w3.org/TR/uievents-code/#
 layouts</a> around the world, as well as their <a href="https://www.w3.org/TR/uievents-code/#code-value-tables">reference
 keyboard</a>. For instance here is their reference keyboard for the alphanumerical part:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 279.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image279.png?raw=true"
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 282. reference alphanumeric keyboard (225) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image282.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- ![Reference alphanumeric keyboard](./images/image175.png){width="6.5in" height="2.2425in"} -->
+  title="Reference alphanumeric keyboard"
+  alt="Reference alphanumeric keyboard." />
 
 <p>Also, please read through <a href="https://w3c.github.io/uievents/#code-examples">
 the examples given in the specification</a>. They show very clearly what happens when 
@@ -9220,39 +9216,14 @@ the user presses various types of keys, both for code and key.</p>
 
 <h4>Example that displays the key and code values with your current keyboard</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 280.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 283. codepen: display key and code values (225) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image280.png?raw=true"
+<img src="./images/image283.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;key and keyCode&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;/&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;Press some keys on your keyboard and see the corresponding evt.key
-  and evt.code values. If you are not using a QWERTY keyboard, notice that
-  the values might be different. This is because an 'a' on an AZERTY
-  keyboard, will correspond to the KeyQ code on the reference
-  keyboard.&lt;/p&gt;
-&lt;p&gt; You typed:&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>window.onkeydown = function(evt) {
-  document.body.innerHTML += &quot;key = &quot; + evt.key + &quot;&lt;br&gt;&quot;;
-  document.body.innerHTML += &quot;code = &quot; + evt.code + &quot;&lt;br&gt;&lt;br&gt;&quot;;
-}
-</pre>
+  title="CodePen: display key and code values"
+  alt="CodePen: display key and code values." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/GmYxNY">
+CodePen: display key and code values</a>.</p>
 
 <p>I encourage you to take a look and get at least an overview of this
 specification.</p>
@@ -9737,7 +9708,7 @@ Usually, on a form event listener, we check the content of the different
 input fields, using their value property. See examples in the course, in
 the part dealing with form events.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-4-11">2.4.11 Discussion and project</h3>
+<h3 id="ch2-4-11">2.4.11 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.</p>
@@ -9896,30 +9867,30 @@ ones are highlighted in bold.</p>
 Firefox for exploring the DOM, as it proposes a good structured view of
 the DOM and of its properties/methods:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 312.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 312. firefox devtool console (242) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image312.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Firefox devtool console"
+  alt="Firefox devtool console." />
 
 <p>If you scroll down the right panel of the devtool console, as in the
 above screenshot, you will be able to look at all the properties, all
 the methods, all the event listeners:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 313.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 313. w3cx js.0x javascript introduction (243) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image313.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="w3cx js.0x javascript introduction"
+  alt="w3cx js.0x javascript introduction." />
 
 <p>You can also use the &quot;DOM inspector&quot; to locate a particular element
 with the mouse: click the target icon and click on the element on the
 page that you want to inspect, this time with Google Chrome, but you
 will find this option in all modern browsers&apos; devtool consoles:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 314. DOM inspector (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 314. example: DOM inspector (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image314.png?raw=true"
   style="width:50%"
@@ -9940,12 +9911,12 @@ HTML-like syntax.</p>
 help the JavaScript programmer (we&apos;ll see this in a minute with the
 &quot;selector API&quot;, for example).</p>
 
-<p>So, we&apos;ve decided to focus on only 20% of the DOM API and on the
+<p>We&apos;ve decided to focus on only 20% of the DOM API and on the
 selector API (for selecting elements in the DOM). These are the most
 useful parts and it will give you enough knowledge to solve nearly every
 problem where you need to manipulate the DOM.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 315. exclamation mark in red triangle (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 315. exclamation mark in red triangle (244) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image315.png?raw=true"
   style="width:15%"
@@ -9958,70 +9929,73 @@ problem where you need to manipulate the DOM.</p>
 <p align="center" width="100%">
 <img src="./images/image316.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen Overview: Two buttons and four images"
+  alt="CodePen Overview: Two buttons and four images." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpdaxM">
+CodePen: two buttons and four images</a>.</p>
 
 <p>This time, let&apos;s look a bit more in depth to the different methods for
 selecting elements in an HTML page, and then do something with these elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 317.  (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 317. codepen: two buttons and four images (245) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image317.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: Two buttons defined"
+  alt="CodePen: Two buttons defined." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpdaxM">
+CodePen: two buttons and four images</a>.</p>
+
 <p>I prepared here an HTML document that contains two buttons that do
 nothing for the moment, and it contains also 4 images.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 318.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 318. codepen: four images defined (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image318.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: four images defined"
+  alt="CodePen: four images defined." />
 <p>Here are the images... They&apos;ve got an id: img1, img2, and so on. 
 They&apos;ve got some URLs and a width.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 319.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 319. function init() (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image319.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="function init()"
+  alt="function init()." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 320.  (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 320. window.onload=init; (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image320.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-
+  title="window onload = init"
+  alt="window onload = init." />
 
 <p>If we look at the JavaScript code I prepared, I added an <b>init</b> function 
 that is called when the page is loaded.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 321.  (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 321. html code onload and button definitions (247) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image321.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="html code onload and button definitions"
+  alt="html code onload and button definitions." />
 
-<p>You remember from a previous video that we can do that using body onload=init. Or we
-can use (this is an alternative): window.onload=init.</p>
+<p>You remember from a previous video that we can do that using <b>body onload=init</b>. Or we
+can use (this is an alternative): <b>window.onload=init</b>.</p>
 
 <p>This is what I did here. When the page is loaded, we are going to first
 check that the init function is executed. And it&apos;s executed after the
 page is loaded, after the DOM is ready.
 Then we will select all images, and set some CSS properties.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 322.  (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 322. function init() and console.log 'page loaded' (247) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image322.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="function init() and console.log 'page loaded, the dom is ready'"
+  alt="function init() and console.log 'page loaded, the dom is ready'." />
 
 <p>I can have a look at the console, and if I just type anything, it
 executes again the example, and we see that the console.log in the init
@@ -10039,39 +10013,38 @@ very simple use of it. It takes a single argument that is a callback. Here
 I&apos;m using just a variable that corresponds to the current image.
 You can name it as you like. In that case it&apos;s &quot;currentImage&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 323.  (248) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 323. currentImage.style.border example (248) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image323.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Select images using currentImage.style.border"
+  alt="Select images using currentImage.style.border." />
   
 <p>If I do <b>currentImage.style.border&hellip;</b> you see that when the page is
 executed, it will take each element from the list of images, and add to each image
 a border.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 324.  (248) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 324. red border added to images (248) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image324.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Add red border to images"
+  alt="Add red border to images." />
 
 <p>Let&apos;s make it larger! You see, we added a border of 10 pixels width.
 You can also add a margin. In that case I&apos;ve got the different images
 with a margin of 10 pixels at top, left, right and bottom.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 325/326.  (248) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 325/326. before/after border added to 1st image only (249) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image325.png?raw=true"
   style="width:45%"
-  title=""
-  alt="." />
+  title="Before border added to 1st image"
+  alt="Before border added to 1st image." />
 <img src="./images/image326.png?raw=true"
   style="width:45%"
-  title=""
-  alt="." />
+  title="After border added to 1st image"
+  alt="After border added to 1st image." />
 </p>
 
 <p>Let&apos;s try to add a border only to the first image. When we click on the first button.
@@ -10090,12 +10063,12 @@ element of type &quot;img&quot;. It&apos;s the same syntax I used for
 <b>querySelectorAll</b>, except that in that case it selects just the first one, 
 and you&apos;ve got the same result.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 327.  (248) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 327. new function resizeAllImages (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image327.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="New function: resizeAllImages"
+  alt="New function: resizeAllImages." />
 
 <p>If I want to resize all the images, I can, in that case, use CSS
 properties, or you can use the width attribute of the images. In order to select all
@@ -10154,148 +10127,93 @@ requesting the DOM, like jQuery introduced ages ago.</p>
 the querySelector method (or querySelectorAll) on the document object,
 that corresponds to the whole DOM tree of your web page:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 328.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 328. example; querySelector and querySelectorAll (251) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image328.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- (./images/image200.png){width="5.0in" height="2.983974190726159in"} -->
-
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-  &lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
-    Add a border to the first image
-  &lt;/button&gt;
-  &lt;br&gt;
-  &lt;button onclick=&quot;resizeAllImages();&quot;&gt;
-    Resize all images
-  &lt;/button&gt;
-  &lt;br&gt;
-  &lt;p&gt;Click one of the buttons above!&lt;/p&gt;
-  &lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/Ntvj5rq.png&quot;
-    id=&quot;img1&quot;
-    width=200 alt=&quot;image #1&quot;&gt;
-  &lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/yiU59oi.gif&quot;
-    width=200 alt=&quot;image #2&quot;&gt;
-  &lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/6FstYbc.jpg&quot;
-    width=200 alt=&quot;image #3&quot;&gt;
-  &lt;img src=&quot;https://mainline.i3s.unice.fr/mooc/L97CyS4.png&quot;
-    width=200 alt=&quot;image #4&quot;&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>window.onload = init;
-function init() {
-// we&apos;re sure that the DOM is ready
-// before querying it
-// add a shadow to all images
-// select all images
-var listImages = document.querySelectorAll(&quot;img&quot;);
-// change all their width to 100px
-listImages.forEach(function(img) {
-// img = current image
-img.style.boxShadow = &quot;5px 5px 15px 5px grey&quot;;
-img.style.margin = &quot;10px&quot;;
-});
-}
-function addBorderToFirstImage() {
-// select the first image with id = img1
-var img1 = document.querySelector(&apos;#img1&apos;);
-// Add a red border, 3px wide
-img1.style.border = &apos;3px solid red&apos;;
-}
-function resizeAllImages() {
-// select all images
-var listImages = document.querySelectorAll(&quot;img&quot;);
-// change all their width to 100px
-listImages.forEach(function(img) {
-// img = current image
-img.width = 100;
-});
-}
-</pre>
+  title="Example; querySelector and querySelectorAll"
+  alt="Example; querySelector and querySelectorAll." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpdaxM">
+CodePen Example: querySelector &amp; querySelectorAll</a>.</p>
 
 <p><b>Source code from the above example:</b></p>
 
 <p><b>HTML part</b>: we have two buttons that will call a JavaScript function
-(<b>lines 2 and 6</b>) where we will manipulate the DOM), and we have four
-images, the first one with an id equal to &quot;img1&quot; (<b>lines 11, 14, 16
-and 18</b>).</p>
+(<b><i>lines 2 and 6</i></b>) where we will manipulate the DOM), and we have four
+images, the first one with an id equal to &quot;img1&quot; (<b><i>lines 11, 14, 16
+and 18</i></b>).</p>
 
-<pre>1.  &hellip;
+<pre>
+1.  &hellip;
 2.  &lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
-3.  Add a border to the first image
+3.    Add a border to the first image
 4.  &lt;/button&gt;
 5.  &lt;br&gt;
 6.  &lt;button onclick=&quot;resizeAllImages();&quot;&gt;
-7.  Resize all images
+7.    Resize all images
 8.  &lt;/button&gt;
 9.  &lt;br&gt;
 10. &lt;p&gt;Click one of the buttons above!&lt;/p&gt;
 11. &lt;img src=&quot;https://i.imgur.com/Ntvj5rq.png&quot;
-12. id=&quot;img1&quot;
-13. width=200&gt;
+12.   id=&quot;img1&quot;
+13.   width=200&gt;
 14. &lt;img src=&quot;https://i.imgur.com/yiU59oi.gif&quot;
-15. width=200&gt;
+15.   width=200&gt;
 16. &lt;img src=&quot;https://i.imgur.com/6FstYbc.jpg&quot;
-17. width=200&gt;
+17.   width=200&gt;
 18. &lt;img src=&quot;https://i.imgur.com/L97CyS4.png&quot;
-19. width=200&gt;
+19.   width=200&gt;
 20. &hellip;
 </pre>
 
-<p><b>JavaScript part</b>: the init function is executed as soon as the page
+<p><b>JavaScript part</b>: the <b>init</b> function is executed as soon as the page
 is loaded (and the DOM is ready), in this function we add a shadow and
-margins to all images (<b>lines 3-21</b>). The two other functions are
-called when one of the HTML buttons is clicked (<b>line 23 and line
-31</b>).</p>
+margins to all images (<b><i>lines 3-21</i></b>). The two other functions are
+called when one of the HTML buttons is clicked (<b><i>line 23 and line
+31</i></b>).</p>
 
-<pre>1.  window.onload = init; // run init once the page is loaded
-2.  function init() {
-3.  // we&apos;re sure that the DOM is ready
-4.  // before querying it
-5.  // this function runs once the page is loaded
-6.  // add a shadow to all images
-7.  // select all images
-8.  var listImages = document.querySelectorAll(&quot;img&quot;);
-9.  // change all their width to 100px
-10. listImages.forEach(function(img) {
-// img = current image
-// add a shadow 5px left, 5 pixel down, 15px blur, 5px spread
-// grey
-img.style.boxShadow = &quot;5px 5px 15px 5px grey&quot;;
-// add a margin 10px on each side
-img.style.margin = &quot;10px&quot;;
-11. });
-12. }
-13. function addBorderToFirstImage() {
-14. // select the first image with id = img1
-15. var img1 = document.querySelector(&apos;#img1&apos;);
-16. // Add a red border, 3px wide
-17. img1.style.border = &apos;3px solid red&apos;;
-18. }
-19. function resizeAllImages() {
-20. // select all images
-21. var listImages = document.querySelectorAll(&quot;img&quot;);
-22. // change all their width to 100px
-23. listImages.forEach(function(img) {
-// img = current image, we resize it by changing its
-// width attribute
-img.width = 100;
-24. });
-25. }
+<pre>
+1.  window.onload = init; // run init once the page is loaded
+2.
+3.  function init() {
+4.    // we&apos;re sure that the DOM is ready
+5.    // before querying it
+6.    // this function runs once the page is loaded
+7.
+8.    // add a shadow to all images
+9.    // select all images
+10.   var listImages = document.querySelectorAll(&quot;img&quot;);
+11. 
+12.   // change all their width to 100px
+13.   listImages.forEach(function(img) {
+14.     // img = current image
+15.     // add a shadow 5px left, 5 pixel down, 15px blur, 5px spread
+16.     // grey
+17.     img.style.boxShadow = &quot;5px 5px 15px 5px grey&quot;;
+18.     // add a margin 10px on each side
+19.     img.style.margin = &quot;10px&quot;;
+20.   });
+21. }
+22. 
+23. function addBorderToFirstImage() {
+24.   // select the first image with id = img1
+25.   var img1 = document.querySelector(&apos;#img1&apos;);
+26. 
+27.   // Add a red border, 3px wide
+28.   img1.style.border = &apos;3px solid red&apos;;
+29. }
+30. 
+31. function resizeAllImages() {
+32.   // select all images
+33.   var listImages = document.querySelectorAll(&quot;img&quot;);
+34. 
+35.   // change all their width to 100px
+36.   listImages.forEach(function(img) {
+37.     // img = current image, we resize it by changing its
+38.     // width attribute
+39.     img.width = 100;
+40.   });
+41. }
 </pre>
 
 <h4>Miscellanous examples of use of querySelector(CSSSelector) and querySelectorAll(CSSselector)</h4>
@@ -10313,92 +10231,50 @@ from <a href="https://www.edx.org/school/w3cx">W3Cx</a>.</p>
   style="width:65%"
   title="CodePen Example; Get all li's in ul class"
   alt="CodePen Example; Get all li's in ul class." />
-
-<p><a href="https://codepen.io/w3devcampus/pen/evxQMr">CodePen</a>.</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/evxQMr">CodePen: get all li's within 
+a ul of class nav</a>.</p>
 
 <h5>HTML:</h5>
 
-<pre>1.  &lt;!DOCTYPE html&gt;
-2.  &lt;html lang=&quot;en&quot;&gt;
-3.  &lt;head&gt;
-4.  &lt;meta charset=&quot;utf-8&quot;&gt;
-5.  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-6.  &lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
-7.  &lt;/head&gt;
-8.  &lt;body&gt;
-9.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
+<pre>
+1.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
     class red and color it in red&lt;/button&gt;
-10. &lt;br&gt;
-11. &lt;button onclick=&quot;allLisInUlOfClassNav();&quot;&gt;Underline All li in a
+2.  &lt;br&gt;
+3.  &lt;button onclick=&quot;allLisInUlOfClassNav();&quot;&gt;Underline All li in a
     ul of class nav&lt;/button&gt;
-12. &lt;ul class=&quot;nav&quot;&gt;
-13. &lt;li&gt;Home&lt;/li&gt;
-14. &lt;li class=&quot;red&quot;&gt;Products&lt;/li&gt;
-15. &lt;li&gt;About&lt;/li&gt;
-16. &lt;/ul&gt;
-17. Another list:
-18. &lt;ul&gt;
-19. &lt;li&gt;Apple&lt;/li&gt;
-20. &lt;li class=&quot;red&quot;&gt;Cherries&lt;/li&gt;
-21. &lt;li&gt;Oranges&lt;/li&gt;
-22. &lt;/ul&gt;
-23. &lt;/body&gt;
-24. &lt;/html&gt;
+4. 
+5.  &lt;ul class=&quot;nav&quot;&gt;
+6.    &lt;li&gt;Home&lt;/li&gt;
+7.    &lt;li class=&quot;red&quot;&gt;Products&lt;/li&gt;
+8.    &lt;li&gt;About&lt;/li&gt;
+9.  &lt;/ul&gt;
+10. Another list:
+11. &lt;ul&gt;
+12.   &lt;li&gt;Apple&lt;/li&gt;
+13.   &lt;li class=&quot;red&quot;&gt;Cherries&lt;/li&gt;
+14.   &lt;li&gt;Oranges&lt;/li&gt;
+15. &lt;/ul&gt;
 </pre>
 
 <h5>JS:</h5>
 
 <pre>1.  function firstLiClassRedInUl() {
-2.  // first li of class=&quot;red&quot; in a ul
-3.  var elm = document.querySelector(&quot;ul li.red&quot;);
-4.  elm.style.color = &apos;red&apos;;
+2.    // first li of class=&quot;red&quot; in a ul
+3.    var elm = document.querySelector(&quot;ul li.red&quot;);
+4.    elm.style.color = &apos;red&apos;;
 5.  }
-6.  function allLisInUlOfClassNav() {
-7.  // get all li directly in a ul of class nav
-8.  var list = document.querySelectorAll(&quot;ul.nav &gt; li&quot;);
-9.  list.forEach(function(elm) {
-10. elm.style.textDecoration = &quot;underline&quot;;
-11. })
-}
+6. 
+7.  function allLisInUlOfClassNav() {
+8.    // get all li directly in a ul of class nav
+9.    var list = document.querySelectorAll(&quot;ul.nav &gt; li&quot;);
+10. 
+11.   list.forEach(function(elm) {
+12.     elm.style.textDecoration = &quot;underline&quot;;
+13.   })
+14. }
 </pre>
 
 <h4>Source code extracts:</h4>
-
-<h5>HTML:</h5>:
-
-<pre>1.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
-    class red and color it in red&lt;/button&gt;
-2.  &lt;br&gt;
-3.  &lt;button onclick=&quot;allLisInUlOfClassNav();&quot;&gt;Underline All li in a
-    ul of class nav&lt;/button&gt;
-4.  &lt;ul class=&quot;nav&quot;&gt;
-5.  &lt;li&gt;Home&lt;/li&gt;
-6.  &lt;li class=&quot;red&quot;&gt;Products&lt;/li&gt;
-7.  &lt;li&gt;About&lt;/li&gt;
-8.  &lt;/ul&gt;
-9.  Another list:
-10. &lt;ul&gt;
-11. &lt;li&gt;Apple&lt;/li&gt;
-12. &lt;li class=&quot;red&quot;&gt;Cherries&lt;/li&gt;
-13. &lt;li&gt;Oranges&lt;/li&gt;
-14. &lt;/ul&gt;
-</pre>
-
-<h5>JavaScript code:</h5>
-
-<pre>1.  function firstLiClassRedInUl() {
-2.  // first li of class=&quot;red&quot; in a ul
-3.  var elm = document.querySelector(&quot;ul li.red&quot;);
-4.  elm.style.color = &apos;red&apos;;
-5.  }
-6.  function allLisInUlOfClassNav() {
-7.  // get all li directly in a ul of class nav
-8.  var list = document.querySelectorAll(&quot;ul.nav &gt; li&quot;);
-9.  list.forEach(function(elm) {
-10. elm.style.textDecoration = &quot;underline&quot;;
-11. })
-12. }
-</pre>
 
 <h5>Example #2: display all checked &lt;input type=&quot;checkbox&quot;&gt; elements
 located inside an element of a given id.</h5>
@@ -10461,33 +10337,33 @@ elm.parentNode.style.color = &apos;green&apos;;
 });
 document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
 }
-Extract from the source code:
 </pre>
 
 <h5>HTML:</h5>
 
-<pre>&lt;button onclick=&quot;<b>displayListOfCheckedItems();</b>&quot;&gt;
-    Show Checked items
-1.  &lt;/button&gt;
-2.  &lt;br&gt;
-3.  &lt;ul id=&quot;fruits&quot;&gt;
-4.  &lt;li&gt;
-5.  &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;&gt;
-6.  Apples
-7.  &lt;/li&gt;
-8.  &lt;li&gt;
-9.  &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;&gt;
-10. Oranges
-11. &lt;/li&gt;
-12. &lt;li&gt;
-13. &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;&gt;
-14. Bananas
-15. &lt;/li&gt;
-16. &lt;li&gt;
-17. &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;&gt;
-18. Grapes
-19. &lt;/li&gt;
-20. &lt;/ul&gt;
+<pre>
+1.  &lt;button onclick=&quot;<b>displayListOfCheckedItems();</b>&quot;&gt;
+2.    Show Checked items
+3.  &lt;/button&gt;
+4.  &lt;br&gt;
+5.  &lt;ul id=&quot;fruits&quot;&gt;
+6.    &lt;li&gt;
+7.      &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;&gt;
+8.        Apples
+9.    &lt;/li&gt;
+10    &lt;li&gt;
+11.      &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;&gt;
+12.       Oranges
+13.   &lt;/li&gt;
+14.   &lt;li&gt;
+15.     &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;&gt;
+16.       Bananas
+17.   &lt;/li&gt;
+18.   &lt;li&gt;
+19.     &lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;&gt;
+20.       Grapes
+21.   &lt;/li&gt;
+22. &lt;/ul&gt;
 </pre>
 
 <p>JavaScript code: we select all elements of type input that have an
@@ -10511,16 +10387,18 @@ by this list:</p>
 <pre>1.  function displayListOfCheckedItems() {
 2.    // all inputs that have been checked
 3.    var listOfSelectedValues=&quot;&quot;;
-4.    var list = document.querySelectorAll(&quot;#fruits input:checked&quot;);
-5.    list.forEach(function(elm) {
-6.      listOfSelectedValues += elm.value + &quot; &quot;;
-7.      // Put the li in red.
-8.      // the li is the parent of the current input elem stored
-9.      // in the elm variable
-10.     elm.parentNode.style.color = &apos;green&apos;;
-11.   });
-12.   document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
-13. }
+4.
+5.    var list = document.querySelectorAll(&quot;#fruits input:checked&quot;);
+6.    list.forEach(function(elm) {
+7.      listOfSelectedValues += elm.value + &quot; &quot;;
+8.
+9.      // Put the li in red.
+10.      // the li is the parent of the current input elem stored
+11.      // in the elm variable
+12.     elm.parentNode.style.color = &apos;green&apos;;
+13.   });
+14.   document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
+15. }
 </pre>
 
 <h4>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id</h4>
