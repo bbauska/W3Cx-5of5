@@ -552,11 +552,12 @@ JSFiddle</a> is very similar to JSBin and CodePen in terms of features.</p>
 <p>There are many other online IDEs and new ones appear each year. If you want a real, 
 heavyweight online IDE that has nearly all the features offered by 
 &quot;big IDEs&quot; such as Eclipse, NetBeans and WebStorm, take a look at the 
-<a href="https://c9.io/" target="_blank" rel="noopener noreferrer">Cloud9 IDE</a>. It&apos;s free and will enable you to 
-develop huge projects, that can include many files, it supports uploaded assets 
-such as images, videos and sound files.  Furthermore, like Google Docs, it will 
-support multiple users working at the same time on the same project, even on the 
-same file. It&apos;s a real collaborative environment.</p>
+<a href="https://c9.io/" target="_blank" rel="noopener noreferrer">Cloud9 IDE</a>. 
+It&apos;s free and will enable you to develop huge projects, that can include many 
+files, it supports uploaded assets such as images, videos and sound files. 
+Furthermore, like Google Docs, it will support multiple users working at the same 
+time on the same project, even on the same file. It&apos;s a real collaborative 
+environment.</p>
 
 <p>Michel Buffa, author of this course, developed a whole multitrack audio
 player this way. This application is <a href="https://mainline.i3s.unice.fr/" 
@@ -663,18 +664,20 @@ given by CanIUse when searching for &quot;CSS3 colors&quot;.</p>
 </p>
 
 <p>To help developers make these decisions consciously rather than accidentally, 
-<a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a> provides browser 
-compatibility tables in its documentation pages, so that when looking up a 
-feature you're considering for your project, you know exactly which browsers 
-will support it.</p>
+<a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">
+MDN Web Docs</a> provides browser compatibility tables in its documentation pages, 
+so that when looking up a feature you're considering for your project, you know 
+exactly which browsers will support it.</p>
 
 <h4>External resources</h4>
 
 <ul>
-  <li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/" target="_blank" rel="noopener noreferrer">
-  MDN browser compatibility data: Taking the guesswork out of web compatibility</a></li>
-  <li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/" target="_blank" rel="noopener noreferrer">
-  Caniuse and MDN compatibility data collaboration</a></li>
+  <li><a href="https://hacks.mozilla.org/2018/02/mdn-browser-compatibility-data/" 
+    target="_blank" rel="noopener noreferrer">
+    MDN browser compatibility data: Taking the guesswork out of web compatibility</a></li>
+  <li><a href="https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/" 
+    target="_blank" rel="noopener noreferrer">
+    Caniuse and MDN compatibility data collaboration</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. w3c developers logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -684,22 +687,25 @@ will support it.</p>
   title="W3C Developers logo"
   alt="W3C Developers logo." />
 For over 20 years, the W3C has been developing and
-hosting and <a href="https://w3c.github.io/developers/" target="_blank" rel="noopener noreferrer"><b>open source tools</b></a> used
+hosting and <a href="https://w3c.github.io/developers/" 
+target="_blank" rel="noopener noreferrer"><b>open source tools</b></a> used
 every day by <b>millions of Web developers and Web designers</b>. All the
 tools listed below are Web-based, and are available as downloadable
-sources or as free services on the <a href="https://w3c.github.io/developers/tools/" target="_blank" rel="noopener noreferrer">
+sources or as free services on the <a href="https://w3c.github.io/developers/tools/" 
+target="_blank" rel="noopener noreferrer">
 W3C Developers tools</a> site.</p>
 
 <h4>W3C Validator</h4>
 
-<p>The <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">W3C validator</a> checks the 
-<a href="https://validator.w3.org/docs/help.html#validation_basics" target="_blank" rel="noopener noreferrer">markup validity</a> of
-various Web document formats, such as HTML.</p>
+<p>The <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">
+W3C validator</a> checks the <a href="https://validator.w3.org/docs/help.html#validation_basics" 
+target="_blank" rel="noopener noreferrer">markup validity</a> of various Web document formats, 
+such as HTML.</p>
 
 <h4>CSS Validator</h4>
 
-<p>The <a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener noreferrer">CSS validator</a> checks
-Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
+<p>The <a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener noreferrer">
+CSS validator</a> checks Cascading Style Sheets (CSS) and (X)HTML documents that use CSS
 stylesheets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 23. laptop showing unicorn validator (15) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -708,7 +714,8 @@ stylesheets.</p>
   style="width:20%"
   title="Laptop showing unicorn validator"
   alt="Laptop showing unicorn validator." />
-<a href="https://validator.w3.org/unicorn/" target="_blank" rel="noopener noreferrer">Unicorn</a> is W3C&apos;s unified
+<a href="https://validator.w3.org/unicorn/" target="_blank" rel="noopener noreferrer">
+Unicorn</a> is W3C&apos;s unified
 validator, which helps people improve the quality of their Web pages by
 performing a variety of checks. Unicorn gathers the results of the
 popular HTML and CSS validators, as well as other useful services, such
@@ -13178,7 +13185,7 @@ each element, use the "<b>forEach</b>" operator. If you need to jump over
 some elements, do some operations in the middle, stop the iteration,
 then go for the "<b>for</b>" loop.
 
-[&lt;end of video transcript 3.2.3&gt;]{.mark} done.
+&lt;end of video transcript 3.2.3&gt; done.
 
 <h5>Get the source code of the example shown in the video:</h5>
 
@@ -13737,7 +13744,7 @@ related to the video, and so on. Ok, this was just to show you some
 basics of using the JavaScript API of media elements such as the video
 audio player.
 
-<b>[&lt;end video transcript 3.3.2&gt;]{.mark} done!</b>
+<b>&lt;end video transcript 3.3.2&gt; done!</b>
 
 <b>Source code of the example from the video:</b>
 
@@ -14109,78 +14116,45 @@ height="1.603632983377078in"}
 
 Below is a piece of code for handling errors during video playback:
 
+<pre>
 1.  &#41;
-
 2.  
-
 3.  vid.addEventListener(&apos;error&apos;, function(evt) {
-
 4.  logEvent(evt,&apos;red&apos;);
-
 5.  }, false);
-
 6.  
-
 7.  &#41;
-
 8.  
-
 9.  function logEvent(evt, color) {
-
 10. switch (evt.type) {
-
 11. &#41;
-
 12. case &apos;error&apos;:
-
 13. var error = document.querySelector(&apos;video&apos;).error;
-
 14. 
-
 15. switch (error.code) {
-
 16. case error.MEDIA_ERR_ABORTED:
-
 17. note.innerHTML = &quot;fetching aborted at the user&apos;s request&quot;;
-
 18. break;
-
 19. case error.MEDIA_ERR_NETWORK:
-
 20. note.innerHTML = &quot;a network error caused the browser to stop
     fetching the media&quot;;
-
 21. break;
-
 22. case error.MEDIA_ERR_DECODE:
-
 23. note.innerHTML = &quot;an error occurred while decoding the media&quot;;
-
 24. break;
-
 25. case error.MEDIA_ERR_SRC_NOT_SUPPORTED:
-
 26. note.innerHTML = &quot;the media indicated by the src
-
 27. attribute was not suitable&quot;;
-
 28. break;
-
 29. default:
-
 30. note.innerHTML = &quot;an error occurred&quot;;
-
 31. break;
-
 32. }
-
 33. break;
-
 34. }
-
 35. &#41;
-
 36. }
+</pre>
 
 <h5>Example #3: how to display a percentage of buffering when using a slow connection</h5>
 
@@ -16117,27 +16091,19 @@ height="1.6137817147856517in"}
 
 <h5>JavaScript code extract:</h5>
 
+<pre>
 1.  // empty object with properties/methods
-
 2.  var darkVador = {};
-
 3.  
-
 4.  // add properties after darkVador has been created
-
 5.  darkVador.race = &apos;human&apos;;
-
 6.  darkVador.job = &apos;villain&apos;;
-
 7.  
-
 8.  // add some methods
-
 9.  darkVador.talk = function() {
-
 10. return &apos;come to the dark side, Luke!&apos; + this.breathe();
-
 11. };
+</pre>
 
 <b>Lines 5, 6 and 9</b>: we can add properties and methods after the object
 has been created empty at <b>line 2</b>.
@@ -16593,27 +16559,19 @@ Main changes:
 Here is the new version of the Hero &quot;template&quot;, this time with the ES6
 class syntax:
 
+<pre>
 1.  class Hero {
-
 2.  constructor(name, side) {
-
 3.  this.name = name; // property
-
 4.  this.side = side; // property
-
 5.  }
-
 6.  speak() { // method, no more &quot;function&quot;
-
 7.  return &quot;&lt;p&gt;My name is &quot; + this.name +
-
 8.  &quot;, I&apos;m with the &quot; + this.side + &quot;.&lt;/p&gt;&quot;;
-
 9.  }
-
 10. }
-
 11. var darkVador = new Hero(&quot;Dark Vador&quot;, &quot;empire&quot;);
+</pre>
 
 -   <b>Line 1</b>: a class is simply defined using the
     keyword class followed by the name of the class. Like for
@@ -17561,45 +17519,29 @@ modified.
 
 Other example:
 
+<pre>
 1.  &gt; var originalObject = {name:&apos;Michel&apos;};
-
 2.  undefined
-
 3.   
-
 4.  &gt; var copy = originalObject;
-
 5.  undefined
-
 6.   
-
 7.  &gt; copy.name;
-
 8.  &quot;Michel&quot;
-
 9.   
-
 10. &gt; copy.name = &apos;Dark Vador&apos;;
-
 11. &quot;Dark Vador&quot;
-
 12.  
-
 13. &gt; originalObject.name
-
 14. &quot;Dark Vador&quot;
-
 15.  
-
 16. // They are the same. originalObject and copy are two &quot;references&quot;
     of the same object in memory
-
 17. // If we change the name, we change the value in memory, but copy
     and originalObject &quot;point to&quot; the
-
 18. // same place, to the same object. They are just &quot;pointers&quot; or
     &quot;reference&quot; to the same object
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-2">5.2.2 Comparing two objects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -18377,9 +18319,9 @@ If I do this, it will... ok...I need to do this on the array so:
 tokens separated by space and will in turn build again a string with
 &apos;&#45;&#45;&#45;-&apos; between different tokens.
 
-[&lt;end of video transcript 5.2.8&gt;]{.mark}
+&lt;end of video transcript 5.2.8&gt;
 
-### Source code from the video example {#source-code-from-the-video-example .unnumbered}
+<h5>Source code from the video example</h5>
 
 -   The source code that corresponds to what has been showed in the
     video is available [in this
@@ -19203,34 +19145,22 @@ you create a row using the DOM API, you get a Row object:
 
 You can also access a row from the rows property of a table:
 
+<pre>
 1.  var t = document.createElement(&quot;table&quot;);
-
-
 1.  undefined
-
 2.  var r1 = t.insertRow(0);
-
 3.  undefined
-
 4.  r1.innerHTML=&quot;&lt;td&gt;Hello&lt;/td&gt;&quot;;
-
 5.  &quot;&lt;td&gt;Hello&lt;/td&gt;&quot;
-
 6.  var r2 = t.insertRow();
-
 7.  undefined
-
 8.  r2.innerHTML=&quot;&lt;td&gt;Hello 2&lt;/td&gt;&quot;;
-
 9.  &quot;&lt;td&gt;Hello 2&lt;/td&gt;&quot;
-
 10. var row1 = t.rows&lbrack;0&rbrack;;
-
 11. undefined
-
 12. row1;
-
 13. &lt;tr&gt;&lt;td&gt;Hello&lt;/td&gt;&lt;/tr&gt;
+</pre>
 
 Like all objects, a tableRow object has properties and methods. Here are
 the most useful ones:
@@ -19604,7 +19534,7 @@ small set of dates to choose from. All these things are explained in the
 course, take some time to read and look at all these examples. This is
 the end of this video good luck ... good work !
 
-[&lt;end video transcript 5.3.4&gt;]{.mark}
+&lt;end video transcript 5.3.4&gt;
 
 Source code from the example shown in the above video
 
@@ -20006,7 +19936,7 @@ also add some CSS to make it better, or I can define some &lt;td&gt; (table
 data) to make a nicer table. And I can display for example another
 property that will be the email of the person. That's it!
 
-[&lt;end video transcript 5.4.2&gt;]{.mark}
+&lt;end video transcript 5.4.2&gt;
 
 <h5>Source code from the above live coding video</h5>
 
