@@ -945,7 +945,8 @@ from using their products and services.</b></p>
 <p>Making the web accessible benefits people <b>with</b> and
 <b>without</b> disabilities, businesses, and society. Accessibility is an
 important aspect of diversity, equity, and inclusion (DEI).</p>
-<p><a href="https://www.w3.org/WAI/videos/standards-and-benefits/" target="_blank" rel="noopener noreferrer">
+<p><a href="https://www.w3.org/WAI/videos/standards-and-benefits/" target="_blank" 
+rel="noopener noreferrer">
 Video Introduction to Web Accessibility and W3C Standards</a> is a 4-minute video 
 with descriptive transcript and subtitles in over 20 languages.</p>
 
@@ -983,7 +984,8 @@ education, employment, government, commerce, health care, recreation,
 and more. When Web pages, Web technologies, Web tools, or Web
 applications are badly designed, they can create barriers that exclude
 people from using the Web. More information is available in the 
-<a href="https://www.w3.org/standards/webdesign/accessibility" target="_blank" rel="noopener noreferrer">
+<a href="https://www.w3.org/standards/webdesign/accessibility" 
+target="_blank" rel="noopener noreferrer">
 W3C Accessibility</a> overview.</p>
 
 <h4>First steps in Web accessibility</h4>
@@ -994,9 +996,11 @@ example excerpts are provided below on this page but you can find more
 tips and information from W3C/WAI:</p>
 
 <ul>
-  <li><a href="https://www.w3.org/WAI/gettingstarted/tips/" target="_blank" rel="noopener noreferrer">
+  <li><a href="https://www.w3.org/WAI/gettingstarted/tips/" 
+    target="_blank" rel="noopener noreferrer">
     Tips for Getting Started with Web Accessibility</a></li>
-  <li><a href="https://www.w3.org/WAI/eval/preliminary" target="_blank" rel="noopener noreferrer">
+  <li><a href="https://www.w3.org/WAI/eval/preliminary" 
+    target="_blank" rel="noopener noreferrer">
     Easy Checks - A First Review of Web Accessibility</a></li>
 </ul>
 
@@ -1014,11 +1018,11 @@ pages.</p>
 
 <h5>Example:</h5>
 
-<pre>&lt;head&gt;
-  ...
-  &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
-  ...
-&lt;/head&gt;
+<pre>1. &lt;head&gt;
+2.   ...
+3.   &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
+4.   ...
+5. &lt;/head&gt;
 </pre>
 
 <p><b>Example 2</b>: image text alternatives (&quot;alt text&quot;)</p>
@@ -4092,7 +4096,7 @@ changing interactively the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 139. codepen; plotting functions with d3js.org (107) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image139.png?raw=true"
+<img src="./images/image139.jpeg?raw=true"
   style="width:50%"
   title="CodePen; Plotting Functions with d3js.org"
   alt="CodePen; Plotting Functions with d3js.org." />
@@ -4112,14 +4116,14 @@ part. That will indicate, within the target property, the "id" of the div where 
 are going to plot the function. In the data property is the function itself: "sin(x)" 
 and its color: red. What can we do to improve this?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 140a/140b. codepen; plotting functions with d3js.org (107) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 140/141. codepen; plotting functions with d3js.org (107) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image140a.png?raw=true"
+<img src="./images/image140.png?raw=true"
   style="width:45%"
   title=""
   alt="." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/image140b.png?raw=true"
+<img src="./images/image141.png?raw=true"
   style="width:45%"
   title=""
   alt="." />
@@ -4133,9 +4137,9 @@ can have add some shadows, height, margin and so on. Let's me just copy and past
 some code I’ve prepared. Here we are. Now, what I've got, is a nicer presentation 
 of the function itself.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 141.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 142.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image141.png?raw=true"
+<img src="./images/image142.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4150,9 +4154,9 @@ an event listener: "onchange="plot();. That means: "when the color has been sele
 call the plot() function". And you remember that this function is the one that plots 
 the mathematical function, here. The plot function is here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 142.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 143.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image142.png?raw=true"
+<img src="./images/image143.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4174,9 +4178,9 @@ corresponds to the part that I highlight now. .color=color</p>
 the same principles with other input fields. Let me just copy and paste some code 
 I prepared, that will add all these different controllers.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 143.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 144.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image143.png?raw=true"
+<img src="./images/image144.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4192,9 +4196,9 @@ and shadow properties from CSS, put the first section with the different input
 fields on the left and the plot on the right.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 144.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 145.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image144.png?raw=true"
+<img src="./images/image145.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -6945,8 +6949,7 @@ paragraph. If we do : if (boo) then&hellip;. we will enter the if statement.</p>
 of their operands:</p>
 
 <ul>
-  <li>A && B returns the value A if A can be coerced into false;
-    otherwise, it returns B.</li>
+  <li>A && B returns the value A if A can be coerced into false; otherwise, it returns B.</li>
   <li>A &vert;&vert; B returns the value A if A can be coerced into true;
     otherwise, it returns B.</li>
 </ul>
@@ -7041,9 +7044,11 @@ equal) is preferred.</p>
 <h5>Here are interesting articles:</h5>
 
 <ul>
-  <li><a href="https://www.impressivewebs.com/why-use-triple-equals-javascipt/" target="_blank" rel="noopener noreferrer">
+  <li><a href="https://www.impressivewebs.com/why-use-triple-equals-javascipt/" 
+    target="_blank" rel="noopener noreferrer">
     Why you should use strict equal</a></li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness" target="_blank" rel="noopener noreferrer">
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness" 
+    target="_blank" rel="noopener noreferrer">
     Equality comparisons and sameness</a></li>
 </ul>
 
@@ -7061,12 +7066,11 @@ NaN === NaN;
 // false
 </pre>
 
-<p><b>Nan is equal to nothing - not even to itself!</b>. But you do have a
-function to check the NaN value: isNaN(expr).</p>
+<p><b>Nan is equal to nothing - not even to itself!</b>. But you do have a function to 
+check the NaN value: isNaN(expr).</p>
 
 <ul>
-  <li>isNaN: returns true if the argument coerces to NaN, and otherwise
-    returns false.</li>
+  <li>isNaN: returns true if the argument coerces to NaN, and otherwise returns false.</li>
 </ul>
 
 <pre>isNaN(NaN);
@@ -7083,10 +7087,10 @@ isNaN('foo');
 </pre>
 
 <p>&quot;A reliable way for ECMAScript code to test if a value X is a NaN, is
-an expression of the form X !== X. The result will be true if, and only
-if, X is a NaN. &quot; (see the 
-<a href="https://www.ecma-international.org/ecma-262/5.1/#sec-15.1.2.4" target="_blank" rel="noopener noreferrer">
-isNan documentation</a>).</p>
+an expression of the form X !== X. The result will be true if, and only if, X 
+is a NaN. &quot; (see the 
+<a href="https://www.ecma-international.org/ecma-262/5.1/#sec-15.1.2.4" 
+target="_blank" rel="noopener noreferrer">isNan documentation</a>).</p>
 
 <h5><b>A complete example with isNaN:</b></h5>
 
@@ -7111,12 +7115,10 @@ num;
 //returns 0 in this three cases
 </pre>
 
-<p>Of course 0/0 rarely happens, but there are other cases where NaN can
-appear, for example:</p>
+<p>Of course 0/0 rarely happens, but there are other cases where NaN can appear, for example:</p>
 
 <ul>
-  <li>parseInt(&apos;foo&apos;);  returns NaN   //parseInt tries to convert a
-    String to a Number</li>
+  <li>parseInt(&apos;foo&apos;);  returns NaN   //parseInt tries to convert a String to a Number</li>
   <li>Math.sqrt(-1); return NaN</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7140,10 +7142,9 @@ appear, for example:</p>
   style="width:50%"
   title=""
   alt="." />
-<p>I prepared a small example in which we take a day number between 0 and
-6, 0 for Monday, 1 for Tuesday, and so on...
-And to pick a random number that is an integer, we used a formula like
-this, that uses a predefined object called Math.</p>
+<p>I prepared a small example in which we take a day number between 0 and 6, 0 for 
+Monday, 1 for Tuesday, and so on... And to pick a random number that is an integer, 
+we used a formula like this, that uses a predefined object called Math.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 222.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7151,19 +7152,16 @@ this, that uses a predefined object called Math.</p>
   style="width:50%"
   title=""
   alt="." />
-<p>Math.random() returns a number between 0 and 1, 6 multiplied by
-this, will give a number between 0 and 7, and we just return the rounded
-nearest integer.
-When we execute this, &quot;picked day number&hellip;&quot; you see that it takes
-some random values each time we execute.
-If I clear the console and execute this, it will pick a number.</p>
+<p>Math.random() returns a number between 0 and 1, 6 multiplied by this, will give a 
+number between 0 and 7, and we just return the rounded nearest integer. When we 
+execute this, &quot;picked day number&hellip;&quot; you see that it takes some random 
+values each time we execute. If I clear the console and execute this, it will pick a 
+number.</p>
 
 <p>And then, here is a first version that uses &quot;if statements&quot; that is a
-bit naïve.
-It says: if day equals 0, then print Monday; if day equals 1 ... ; and
-so on. Why is it naïve?
-Because we&apos;re going to execute all the tests and we all know that only
-one of them will be true.</p>
+bit naïve. It says: if day equals 0, then print Monday; if day equals 1 ... ; and
+so on. Why is it naïve? Because we&apos;re going to execute all the tests and we 
+all know that only one of them will be true.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 223.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7183,23 +7181,21 @@ else will be ignored.</p>
   style="width:50%"
   title=""
   alt="." />
-<p>A much better version uses a switch.
-When you&apos;ve got to make multiple tests, it might be more interesting to
-use a switch. switch(day). Then you test with the different possible values, using
-the &quot;case&quot; keyword.
-&quot;case 0&quot;: that means that &quot;if day equals 0, then execute
-console.log(&apos;Monday&apos;).
-The break here means &quot;ignore all the other cases&quot;.
-<p>When you put a break after each case, it&apos;s a bit like the
-&quot;if&hellip;else&quot; example we saw earlier: only one block of instructions
-will be executed here...
-You can see that the 3 different versions with the naive if, the
-if-else statement and the switch, give the same result.</p>
+<p>A much better version uses a switch. When you&apos;ve got to make multiple 
+tests, it might be more interesting to use a switch. switch(day). Then you test 
+with the different possible values, using the &quot;case&quot; keyword. &quot;case 
+0&quot;: that means that &quot;if day equals 0, then execute 
+console.log(&apos;Monday&apos;). The break here means &quot;ignore all the other 
+cases&quot;.</p>
+
+<p>When you put a break after each case, it&apos;s a bit like the &quot;if&hellip;else&quot; 
+example we saw earlier: only one block of instructions will be executed here...You can see 
+that the 3 different versions with the naive if, the if-else statement and the switch, give 
+the same result.</p>
 
 <p>Be careful because sometimes, if you forget to use a &quot;break&quot;, you can
-enter different case statements.
-You can make errors if you don&apos;t know what to break keyword means, but
-it can also be useful to regroup cases.</p>
+enter different case statements. You can make errors if you don&apos;t know what to 
+break keyword means, but it can also be useful to regroup cases.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 225. use switch to display days of the week (188) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -12009,19 +12005,18 @@ height="1.8458420822397201in"}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-5">2.6.5 Moving a player with the mouse</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-This time, we&apos;ve added a mousemove event listener to the canvas in the
+<p>This time, we&apos;ve added a mousemove event listener to the canvas in the
 init function, and reused the trick that you saw in the previous
-section to get the correct mouse position:
+section to get the correct mouse position:</p>
 
-<h5>Working example:
+<h5>Working example:</h5>
 
 ![](./images/image357.png){width="5.0in"
 height="2.531516841644794in"}
 
-[<b>https://codepen.io/w3devcampus/pen/EWMBeR</b>](https://codepen.io/w3devcampus/pen/EWMBeR)
+<!-- <b>https://codepen.io/w3devcampus/pen/EWMBeR</b>(https://codepen.io/w3devcampus/pen/EWMBeR) -->
 
-<h5>Extract from the JavaScript source code:
+<h5>Extract from the JavaScript source code:</h5>
 
 <pre>
 1.  var mousePos;
@@ -12120,7 +12115,7 @@ height="2.5950853018372704in"}
 
 [<b>https://codepen.io/w3devcampus/pen/gmEVJG</b>](https://codepen.io/w3devcampus/pen/gmEVJG)
 
-<h5>How do we detect collisions? {#how-do-we-detect-collisions .unnumbered}
+<h5>How do we detect collisions?</h5>
 
 First, if you&apos;re into game programming, we have a full section about
 collision detection one of the W3Cx [HTML5 Apps and
@@ -12250,17 +12245,17 @@ going to use the DOM API to handle them.
 We use these input fields to indicate the number of balls we want, the
 max speed we would like, the color and size of the player, etc.
 
-<h5>New version:
+<h5>New version:</h5>
 
 ![](./images/image360.png){width="5.0in"
 height="3.509615048118985in"}
 
-[<b>https://codepen.io/w3devcampus/pen/RpOyRN</b>](https://codepen.io/w3devcampus/pen/RpOyRN)
+<!-- <b>https://codepen.io/w3devcampus/pen/RpOyRN</b>](https://codepen.io/w3devcampus/pen/RpOyRN) -->
 
-<h5>Explanations:
+<h5>Explanations:</h5>
 
-HTML code: this time we&apos;ve used an oninput in each input field, and an
-onchange attribute on the &lt;select&gt; HTML drop down menu:
+<p>HTML code: this time we&apos;ve used an oninput in each input field, and an
+onchange attribute on the &lt;select&gt; HTML drop down menu:</p>
 
 <pre>
 1.  &lt;div id=&quot;controls&quot;&gt;
@@ -12740,37 +12735,25 @@ We will see more methods in the other subsections of this page.
 We can add new elements using a new index, if you want to add a new
 element at the end, use the push method!
 
+<pre>
 1.  &gt; var a = &lbrack;1,2,"three"&rbrack;;
-
 2.  undefined
-
 3.  
-
 4.  &gt; a&lbrack;3&rbrack; = &apos;four&apos;;
-
 5.  &quot;four&quot;
-
 6.  
-
 7.  &gt; a;
-
 8.  &lbrack;1, 2, &quot;three&quot;, &quot;four&quot;&rbrack;
-
 9.  
-
 10. &gt; a&lbrack;a.length&rbrack; = &quot;five&quot;; // adding at the end
-
 11. &lbrack;1, 2, &quot;three&quot;, &quot;four&quot;, &quot;five&quot;&rbrack;
-
 12. 
-
 13. &gt; a.push(&quot;six&quot;); // but usually we prefer using the push method
     for adding
+14. &lbrack;1, 2, 3, &quot;four&quot;, &quot;five&quot;, &quot;six&quot;&rbrack;  // a new element at the end
+</pre>
 
-14. &lbrack;1, 2, 3, &quot;four&quot;, &quot;five&quot;, &quot;six&quot;&rbrack;  // a new element at the
-    end
-
-<b>When using indexes, be careful not to leave &quot;holes&quot; in the array:</b>
+<h5>When using indexes, be careful not to leave &quot;holes&quot; in the array:</h5>
 
 <pre>
 1.  &gt; a&lbrack;7&rbrack; = 'height';
@@ -12784,7 +12767,7 @@ This array is valid, but having a &lbrack;6&rbrack; equal to &quot;undefined&qu
 prone to errors. Be careful when using absolute indexes for adding
 elements. We recommend using the push method instead.
 
-<h5>Removing elements from an array {#removing-elements-from-an-array .unnumbered}
+<h5>Removing elements from an array</h5>
 
 The recommended method is to use the splice method:
 
@@ -12833,7 +12816,7 @@ The recommended method is to use the splice method:
 20. &lbrack;&quot;four&quot;, &quot;five&quot;, &quot;six&quot;&rbrack;
 </pre>
 
-<h5><b>Recommended method for removing the last element: the pop method!</b></h5>
+<h5>Recommended method for removing the last element: the pop method!</h5>
 
 <pre>
 1.  &gt; a
@@ -13208,19 +13191,15 @@ that can have one, two or three parameters:
 
 <h5>Typical use with only one parameter (the current element):</h5>
 
+<pre>
 1.  var a = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;&rbrack;;
-
 2.  
-
 3.  a.forEach(function(day) {
-
 4.  // day is the current element
-
 5.  document.body.innerHTML += day +
-
 6.  &quot;&lt;br&gt;&quot;; // will display Monday, Tuesday, Wednesday
-
 7.  })
+</pre>
 
 This is the most practical way to iterate on each individual element of
 a collection (array, string);
@@ -13950,7 +13929,7 @@ height="1.603632983377078in"}
 
 <https://codepen.io/w3devcampus/pen/jOBpbqP>
 
-<h5>Source code: {#source-code .unnumbered}
+<h5>Source code:</h5>
 
 <pre>
 1.  &lt;!DOCTYPE html&gt;
@@ -14051,7 +14030,7 @@ pages. Click on &quot;Edit on CodePen&quot; to run them.</b>
 ![](./images/image408.png){width="5.0in"
 height="1.6116447944007in"}
 
-[<b>https://codepen.io/w3devcampus/pen/OpYNBE</b>](https://codepen.io/w3devcampus/pen/OpYNBE)
+<!-- <b>https://codepen.io/w3devcampus/pen/OpYNBE</b>](https://codepen.io/w3devcampus/pen/OpYNBE) -->
 
 <h5>Second version that uses a new JavaScript syntax called &quot;promises&quot;:</h5>
 
@@ -14087,7 +14066,7 @@ Heilmann](https://christianheilmann.com/), and tuned by us ;).
 ![](./images/image410.png){width="5.0in"
 height="1.603632983377078in"}
 
-[<b>https://codepen.io/w3devcampus/pen/bGqjVWG</b>](https://codepen.io/w3devcampus/pen/bGqjVWG)
+<!-- <b>https://codepen.io/w3devcampus/pen/bGqjVWG</b>](https://codepen.io/w3devcampus/pen/bGqjVWG) -->
 
 Don&apos;t forget to click the JavaScript and CSS tabs of the CodePen in
 order to display the JavaScript code that creates the buttons on the
@@ -14414,7 +14393,7 @@ height="1.603632983377078in"}
 
 <h5>Source code extract:</h5>
 
-<h5>HTML part : {#html-part .unnumbered}
+<h5>HTML part:</h5>
 
 <pre>
 1.  &lt;html&gt;
@@ -14438,7 +14417,7 @@ height="1.603632983377078in"}
 -   <b>Line 10</b> is the &lt;div&gt; container that will be used to display
     the interactive map
 
-<h5>JavaScript part : {#javascript-part .unnumbered}
+<h5>JavaScript part:</h5>
 
 <pre>
 1.  function getLocation(e) {
@@ -14514,7 +14493,7 @@ Let&apos;s see some examples of use.
 
 <h5>Example #1: how to get a physical address from the longitude and latitude</h5>
 
-Google reverse geocoding example (screenshot only) :
+Google reverse geocoding example (screenshot only):
 
 ![](./images/image417.png){width="4.0in"
 height="3.261213910761155in"}
@@ -14541,69 +14520,69 @@ key, used at <b>line 6</b>).
 16. 
 17. // Called when the page is loaded
 18. function init() {
-19. displayCoords=document.getElementById(&quot;msg&quot;);
-20. myAddress = document.getElementById(&quot;address&quot;);
+19.   displayCoords=document.getElementById(&quot;msg&quot;);
+20.   myAddress = document.getElementById(&quot;address&quot;);
 21. 
-22. geocoder = new google.maps.Geocoder();
+22.   geocoder = new google.maps.Geocoder();
 23. 
-24. // In order to show something even before a user clicks on the button
-25. var latlng = new google.maps.LatLng(34.0144, -6.83);
+24.   // In order to show something even before a user clicks on the button
+25.   var latlng = new google.maps.LatLng(34.0144, -6.83);
 26. 
-27. var mapOptions = {
-28. zoom: 8,
-29. center: latlng,
-30. mapTypeId: &apos;roadmap&apos;
-31. }
-32. map = new google.maps.Map(document.getElementById(&apos;map_canvas&apos;), mapOptions);
+27.   var mapOptions = {
+28.     zoom: 8,
+29.     center: latlng,
+30.     mapTypeId: &apos;roadmap&apos;
+31.   }
+32.     map = new google.maps.Map(document.getElementById(&apos;map_canvas&apos;), mapOptions);
 33. } // end of init()
 34. 
 35. // Called when the button is clicked
 36. function getLocation() {
-37. if (navigator.geolocation) {
-38. navigator.geolocation.getCurrentPosition(showPosition);
-39. } else {
-40. displayCoords.innerHTML=&quot;Geolocation API not supported by your browser.&quot;;
-41. }
+37.   if (navigator.geolocation) {
+38.     navigator.geolocation.getCurrentPosition(showPosition);
+39.   } else {
+40.     displayCoords.innerHTML=&quot;Geolocation API not supported by your browser.&quot;;
+41.   }
 42. }
 43. 
 44. // Called when a position is available
 45. function showPosition(position) {
-46. displayCoords.innerHTML=&quot;Latitude: &quot; + position.coords.latitude +
-47. &quot;&lt;br /&gt;Longitude: &quot; + position.coords.longitude;
+46.   displayCoords.innerHTML=&quot;Latitude: &quot; + position.coords.latitude +
+47.   &quot;&lt;br /&gt;Longitude: &quot; + position.coords.longitude;
 48. 
-49. // Display the map
-50. showOnGoogleMap(new google.maps.LatLng(position.coords.latitude,
-51. position.coords.longitude));
+49.   // Display the map
+50.   showOnGoogleMap(new google.maps.LatLng(position.coords.latitude,
+51.   position.coords.longitude));
 52. }
 53. function showOnGoogleMap(latlng) {
-54. // Ask google geocoder for an address once we get a longitude and
-55. // a latitude. In fact, the reverse geocoder sends back an array of &quot;guesses&quot;
-56. // i.e. not just one address object, but several. Each entry in this array
-57. // has several properties such as street, city, etc. We use the &quot;formatted_address&quot;
-58. // one here, but it might be interesting to get the detailed properties in other
-59. // applications like a form with street, city, zip code etc.
-60. geocoder.geocode({&apos;latLng&apos;: latlng},reverseGeocoderSuccess);
+54.   // Ask google geocoder for an address once we get a longitude and
+55.   // a latitude. In fact, the reverse geocoder sends back an array of &quot;guesses&quot;
+56.   // i.e. not just one address object, but several. Each entry in this array
+57.   // has several properties such as street, city, etc. We use the &quot;formatted_address&quot;
+58.   // one here, but it might be interesting to get the detailed properties in other
+59.   // applications like a form with street, city, zip code etc.
+60.   geocoder.geocode({&apos;latLng&apos;: latlng},reverseGeocoderSuccess);
 61. 
 62. function reverseGeocoderSuccess(results, status) {
-63. if (status == google.maps.GeocoderStatus.OK) {
-64. if (results&lbrack;1&rbrack;) {
-65. map.setZoom(11);
-66. marker = new google.maps.Marker({
-67. position: latlng,
-68. map: map
-69. });
-70. infowindow.setContent(results&lbrack;1&rbrack;.formatted_address);
-71. infowindow.open(map, marker);
+63.   if (status == google.maps.GeocoderStatus.OK) {
+64.     if (results&lbrack;1&rbrack;) {
+65.       map.setZoom(11);
+66.       marker = new google.maps.Marker({
+67.         position: latlng,
+68.         map: map
+69.       });
+70.       infowindow.setContent(results&lbrack;1&rbrack;.formatted_address);
+71.       infowindow.open(map, marker);
 72. 
-73. // Display address as text in the page
-74. myAddress.innerHTML=&quot;Adress: &quot; + results&lbrack;0&rbrack;.formatted_address;
-75. } else {
-76. alert(&apos;No surface address found&apos;);
-77. }
-78. } else {
-79. alert(&apos;Geocoder failed due to: &apos; + status);
-80. }
-81. } // end of reverseGeocoderSuccess
+73.       // Display address as text in the page
+74.       myAddress.innerHTML=&quot;Adress: &quot; + results&lbrack;0&rbrack;.formatted_address;
+75.     } else {
+76.       alert(&apos;No surface address found&apos;);
+77.       }
+78.     } else {
+79.       alert(&apos;Geocoder failed due to: &apos; + status);
+80.     }
+81.   } // end of reverseGeocoderSuccess
 82. } // end of showOnGoogleMap
 83. &lt;/script&gt;
 84. &lt;/head&gt;
@@ -14620,13 +14599,13 @@ key, used at <b>line 6</b>).
 </pre>
 
 Gisgraphy (free service) reverse geocoding example (screenshot only,
-click on it to see [the demo on the Gisgraphy
-website](https://services.gisgraphy.com/static/leaflet/index.html)):
+click on it to see <a href="https://services.gisgraphy.com/static/leaflet/index.html">
+the demo on the Gisgraphy website</a>):
 
 <h5>Example #2: reverse geocoding + OpenStreetMap</h5>
 
-Important note: these examples below rely on an external [GitHub
-resource](https://github.com/perliedman/leaflet-control-geocoder). No
+Important note: these examples below rely on an external 
+<a href="https://github.com/perliedman/leaflet-control-geocoder">GitHub resource</a>. No
 related questions are asked in this module&apos;s exercises or final exam.
 
 Please, pan and zoom on the map and click. The longitude and latitude
@@ -14640,14 +14619,14 @@ height="1.6164534120734908in"}
 
 <h5>Example #3: shows the address on the map, from your current longitude and latitude</h5>
 
-Click on the Codepen logo on the top right to open [the example in
-Codepen](https://codepen.io/w3devcampus/pen/KKVXaRJ). Due to security
-reasons, it cannot run embedded in this page.
+Click on the Codepen logo on the top right to open 
+<a href="https://codepen.io/w3devcampus/pen/KKVXaRJ">the example in Codepen</a>. 
+Due to security reasons, it cannot run embedded in this page.
 
 ![](./images/image419.png){width="5.0in"
 height="1.6164534120734908in"}
 
-[<b>https://codepen.io/w3devcampus/pen/KKVXaRJ</b>](https://codepen.io/w3devcampus/pen/KKVXaRJ)
+<!-- <b>https://codepen.io/w3devcampus/pen/KKVXaRJ</b>](https://codepen.io/w3devcampus/pen/KKVXaRJ) -->
 
 <h5>Example #4: use of geolocation, map and reverse geocoder in an HTML form</h5>
 
@@ -14664,8 +14643,7 @@ reasons the embedded version cannot run in this page):
 ![](./images/image420.png){width="5.0in"
 height="1.6009612860892388in"}
 
-[<b>https://codepen.io/w3devcampus/pen/MWKEJqM</b>](https://codepen.io/w3devcampus/pen/MWKEJqM)
-
+<!-- [<b>https://codepen.io/w3devcampus/pen/MWKEJqM</b>](https://codepen.io/w3devcampus/pen/MWKEJqM) -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-4">3.4.4 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14684,9 +14662,8 @@ post your comments/observations/questions or share your creations.
     interactive maps. Please look for some of them and share your
     findings in the forum.
 
-![devtool console geolocation
-simulation](./images/image421.jpeg){width="4.0in"
-height="1.840310586176728in"}
+<!-- ![devtool console geolocation simulation](./images/image421.jpeg){width="4.0in"
+height="1.840310586176728in"} -->
 
 -   Can you recommend good tutorials about Google Map and about
     OpenStreetMap, the two main services that propose maps on the fly?
@@ -14712,35 +14689,33 @@ height="1.840310586176728in"}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-1">3.5.1 Background music (streamed)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p><b>Warning about the autoplay policy</b></p>
 
-<b>Warning about the autoplay policy</b>
+<p>Since 2018, most browsers have adopted <a href="https://developer.chrome.com/blog/autoplay/">
+the Autoplay Policy that prevents any Web page to start making music or playing 
+sounds without a user interaction</a>.</p>
 
-Since 2018, most browsers have adopted [the Autoplay Policy that
-prevents any Web page to start making music or playing sounds without a
-user interaction](https://developer.chrome.com/blog/autoplay/).
-
-For a user, it means that most examples from this course won&apos;t make
+<p>For a user, it means that most examples from this course won&apos;t make
 sounds until you interact with the application (i.e. clicking on the
 canvas for the game example). For a developer, if you use libraries such
 as Howler.js, there are good chances that you won&apos;t have to change your
-code. If you are programming with [the WebAudio
-API](https://www.w3.org/TR/webaudio/), then you&apos;ll need to resume the
-AudioContext after the first user interaction. 
+code. If you are programming with <a href="https://www.w3.org/TR/webaudio/">
+the WebAudio API</a>, then you&apos;ll need to resume the AudioContext after 
+the first user interaction.</p>
 
 <h4>Background music (streamed)</h4>
 
-In a previous section, we saw how we can add music to our Web page,
+<p>In a previous section, we saw how we can add music to our Web page,
 using the <b>&lt;audio&gt;&lt;/audio&gt;</b> element. We can even hide its GUI and
 control the play/pause of the music from JavaScript. Streaming music is
-perfect for providing a background atmosphere in a video game.
+perfect for providing a background atmosphere in a video game.</p>
 
 <h5>Here is one simple example of background music control from JavaScript:</h5>
 
 ![](./images/image422.png){width="5.0in"
 height="1.6089741907261592in"}
 
-<https://codepen.io/w3devcampus/pen/ZeNpyx>
-
+<!-- <https://codepen.io/w3devcampus/pen/ZeNpyx> -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-2">3.5.2 Sound effects using howler.js (4:10)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14763,10 +14738,8 @@ Here, the audio is streamed from a remote server, the same way with the
 video element, a video movie is streamed from a remote server.
 
 If you want to add background music to your game, you can use the audio
-player, but of course you will want to hide completely the buttons.
-
-If I remove the controls attribute. Then, I can completely hide the
-player.
+player, but of course you will want to hide completely the buttons. If I 
+remove the controls attribute. Then, I can completely hide the player.
 
 ![](./images/image425.png){width="5.0in"
 height="2.966346237970254in"}
@@ -14831,18 +14804,18 @@ clickable by default.
 
 &lt;video transcript above for 3.5.2&gt;
 
-Howler.js for using sound samples in memory.
+<h5>Howler.js for using sound samples in memory.</h5>
 
-If you want to play short sounds that can occur very rapidly, streamed
+<p>If you want to play short sounds that can occur very rapidly, streamed
 sound/music is not a good solution. This is where the WebAudio API, made
 by W3C and implemented by your browser, comes in handy. This API allows
 you to download and decode sound samples in memory, and play them on
 demand, using nearly zero CPU and with no delay when you play the sound
-(no buffering etc.).
+(no buffering etc.).</p>
 
-However, this API is a bit complicated to use for beginners. Fortunately
+<p>However, this API is a bit complicated to use for beginners. Fortunately
 there are several JavaScript libraries that simplify the use of the
-WebAudio API. [HowlerJS is one of these](https://howlerjs.com/).
+WebAudio API. <a href="https://howlerjs.com/">HowlerJS is one of these</a>.</p>
 
 <h5>Example that uses Howler.js to load a sound sample from a remote server, then 
 decode it in memory, and play it:</h5>
@@ -14875,10 +14848,11 @@ height="1.584935476815398in"}
 14. &lt;/html&gt;
 </pre>
 
--   *Line 4* indicates that we are using an external library.
-
--   *Line 12* declares a button, that is greyed by default and cannot be
-    clicked. his is done by including the disabled attribute.
+<ul>
+  <li><i>Line 4</i> indicates that we are using an external library.</li>
+  <li><i>Line 12</i>declares a button, that is greyed by default and cannot be
+    clicked. his is done by including the disabled attribute.</li>
+</ul>
 
 <h5>JavaScript code: {#javascript-code .unnumbered}
 
@@ -14900,7 +14874,7 @@ height="1.584935476815398in"}
 15. }
 </pre>
 
-The important part is located in *lines 8-12*: the Howler library is to
+The important part is located in <i>lines 8-12</i>: the Howler library is to
 be used like this: sound = new Howl({&#41;}); The part between the { and
 } is an object. The url&apos;s property is an array with at least one
 element: the URL of the sound we want to use, located on remote servers.
@@ -14911,13 +14885,13 @@ a decoded sound will use nearly zero cpu, which makes it good for
 games!).
 
 Finally, once the sound is decoded, the onload callback is executed. In
-other words, the function after onload: will be executed (at *lines
-10-12*). In this callback, we enable the button because the sound is
-ready to be played. 
+other words, the function after onload: will be executed (at <i>lines
+10-12</i>). In this callback, we enable the button because the sound is
+ready to be played.
 
 The playSound function can only be called when the button is enabled
 (when the sound sample has been loaded and decoded). In order to play a
-sound loaded by Howler.JS, we just call the play() method (*line18*).
+sound loaded by Howler.JS, we just call the play() method (<i>line18</i>).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-3">3.5.3 Adding music and sound effects</h3>
@@ -15516,20 +15490,18 @@ the property names!
 23. &quot;Saint-Exupery&quot;
 </pre>
 
-As you can see, if you look at <b>lines 7-10</b> and <b>13-16</b>,
-writing book.title or book&lbrack;&apos;title&apos;&rbrack; is equivalent!
+<p>As you can see, if you look at <b><i>lines 7-10</i></b> and <b><i>13-16</i></b>,
+writing book.title or book&lbrack;&apos;title&apos;&rbrack; is equivalent!</p>
 
-<b>In JavaScript, objects are arrays whose indexes are property names:
-please remember this!</b>
-
+<p><b>In JavaScript, objects are arrays whose indexes are property names:
+please remember this!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-3">4.2.3 Property declaration syntax</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p><b>Property names: different possibilities</b></p>
 
-<b>Property names: different possibilities</b>
-
-We can put single or double quotes around the name of the property, or
-nothing at all:
+<p>We can put single or double quotes around the name of the property, or
+nothing at all:</p>
 
 <pre>
 1.  var louis = {age: 40}; // WE DO THIS MOST OF THE TIME!
@@ -15539,28 +15511,28 @@ nothing at all:
 
 <h5>In some cases we have to put quotes around the property name</h5>
 
--   When it is a reserved word from JavaScript,
-
--   Or it contains spaces or special characters,
-
--   Or it begins with a number.
+<ul>
+  <li>When it is a reserved word from JavaScript,</li>
+  <li>Or it contains spaces or special characters,</li>
+  <li>Or it begins with a number.</li>
+</ul>
 
 <h5>Examples:</h5>
 
 <pre>
 1.  book.1stPublication = &apos;6 April 1943&apos;; // begins with a number
-// Throws a SyntaxError
+                                                    // Throws a SyntaxError
 2.  book&lbrack;&apos;1stPublication&apos;&rbrack; = &apos;6 April 1943&apos;; // OK
 3.  
 4.  book.date of publication = &apos;6 April 1943&apos;; // spaces not allowed!
-5.  book&lbrack;&apos;date of publication&apos;&rbrack; = &apos;6 April 1943&apos;; // allowed, but
-    avoid!
+5.  book&lbrack;&apos;date of publication&apos;&rbrack; = &apos;6 April 1943&apos;; 
+                                                        // allowed, but avoid!
 </pre>
 
 <h4>Another classic case where the name of a property is in a variable</h4>
 
-In this case it is necessary  to use the syntax with &apos;&lbrack;&apos; and &apos;&rbrack;&apos;
-&#41;
+<p>In this case it is necessary  to use the syntax with &apos;&lbrack;&apos; 
+and &apos;&rbrack;&apos; &#41;</p>
 
 <h5>Example:</h5>
 
@@ -17024,8 +16996,7 @@ We have built balls in order to fill the array of balls.
 
 <h5>OLD VERSION:</h5>
 
-<pre>
-1.  function createBalls(n) {
+<pre>1.  function createBalls(n) {
 2.  // empty array
 3.  let ballArray = &lbrack;&rbrack;;
 4.  
@@ -17057,8 +17028,7 @@ these lines with something like let b = new Ball(&#41;);
 
 **NEW VERSION**: using the new keyword and an ES6 class
 
-<pre>
-1.  function createBalls2(n) {
+<pre>1.  function createBalls2(n) {
 2.  // empty array
 3.  let ballArray = &lbrack;&rbrack;;
 4.  
@@ -17087,8 +17057,7 @@ manipulating the property names one by one, and we use the new keyword. 
 And here is the (so far, incomplete) ES6 class for Ball (continued in
 the next page of this course):
 
-<pre>
-1.  class Ball {
+<pre>1.  class Ball {
 2.    constructor(x, y, radius, color, speedX, speedY) {
 3.      this.x = x;            // properties
 4.      this.y = y;
@@ -17114,18 +17083,17 @@ balls will be able to draw and move themselves.
 
 Here&apos;s how we were drawing a ball in the previous version of the game:
 
-<pre>
-1.  function drawFilledCircle(**c**) {
+<pre>1.  function drawFilledCircle(<b>c</b>) {
 2.    // GOOD practice: save the context, use 2D trasnformations
 3.    ctx.save();
 4.  
 5.    // translate the coordinate system, draw relative to it
-6.    ctx.translate(**c.x, c.y**);
+6.    ctx.translate(<b>c.x, c.y</b>);
 7.  
-8.    ctx.fillStyle =** c.color;**
+8.    ctx.fillStyle =<b> c.color;</b>
 9.    // (0, 0) is the top left corner of the monster.
 10.   ctx.beginPath();
-11.   ctx.arc(0, 0,** c.radius**, 0, 2&#41;Math.PI);
+11.   ctx.arc(0, 0,<b> c.radius</b>, 0, 2&#41;Math.PI);
 12.   ctx.fill();
 13. 
 14.   // GOOD practice: restore the context
@@ -17135,8 +17103,7 @@ Here&apos;s how we were drawing a ball in the previous version of the game:
 
 And this how we were drawing and moving all the balls:
 
-<pre>
-1.  function drawAllBalls(ballArray) {
+<pre>1.  function drawAllBalls(ballArray) {
 2.      ballArray.forEach(function(b) {
 3.          drawFilledCircle(b);
 4.      });
@@ -17177,23 +17144,22 @@ in other projects.
 
 **New version** of the ES6 Ball class with draw and move methods:
 
-<pre>
-1.  class Ball {
+<pre>1.  class Ball {
 2.      constructor(x, y, radius, color, speedX, speedY) {
 3.          // see previous section for the code
 4.      }
 5.  
-6.      draw(**ctx**) { // Nearly the same as the old drawFilledCircle function
+6.      draw(<b>ctx</b>) { // Nearly the same as the old drawFilledCircle function
 7.          // BEST practice: save the context, use 2D transformations
 8.          ctx.save();
 9.  
 10.         // translate the coordinate system, draw relative to it
-11.         ctx.translate(**this.x, this.y**);
+11.         ctx.translate(<b>this.x, this.y</b>);
 12. 
-13.         ctx.fillStyle = **this.color;**
+13.         ctx.fillStyle = <b>this.color;</b>
 14.         // (0, 0) is the top left corner of the monster.
 15.         ctx.beginPath();
-16.         ctx.arc(0, 0, **this.radius**, 0, 2&#41;Math.PI);
+16.         ctx.arc(0, 0, <b>this.radius</b>, 0, 2&#41;Math.PI);
 17.         ctx.fill();
 18. 
 19.         // BEST practice: restore the context
@@ -17236,10 +17202,9 @@ previous section of this course.
 
 <h5>And here is how we can now move and draw ALL balls</h5>
 
-<pre>
-1.  function drawAllBalls2(ballArray) {
+<pre>1.  function drawAllBalls2(ballArray) {
 2.      ballArray.forEach(function(b) {
-3.         ** b.draw(ctx);**
+3.         <b> b.draw(ctx);</b>
 4.      });
 5.  }
 6.   
@@ -17247,7 +17212,7 @@ previous section of this course.
 8.      // iterate on all balls in array
 9.      balls.forEach(function(b, index) {
 10.         // b is the current ball in the array
-11.        ** b.move();**
+11.        <b> b.move();</b>
 12. 
 13.         testCollisionBallWithWalls(b);
 14. 
@@ -17423,8 +17388,7 @@ lastName:&apos;Buffa&apos;), this is what happens:
 
 Examples:
 
-<pre>
-1.  // Defining two variables
+<pre>1.  // Defining two variables
 2.  var x = 2; // the variable x contains the primitive datum 2
 3.  var y = { a: 2 } // The variable y references the object {a: 2}
 4.  
@@ -17449,8 +17413,7 @@ Of course, these rules also apply to the properties of objects.
 
 Example:
 
-<pre>
-1.  var driver = {
+<pre>1.  var driver = {
 2.      name: &apos;Jean&apos;
 3.  };
 4.  
@@ -17470,8 +17433,7 @@ copied into the argument.
 
 <h5>Example:</h5>
 
-<pre>
-1.  var x = 2;
+<pre>1.  var x = 2;
 2.  
 3.  function sum(a, b) {
 4.      a = a + b;
@@ -17490,8 +17452,7 @@ modified.
 
 <h5>Example 1:</h5>
 
-<pre>
-1.  var obj = { x: 2 }
+<pre>1.  var obj = { x: 2 }
 2.  
 3.  function add(a, b) {
 4.  a.x += b;
@@ -17503,8 +17464,7 @@ modified.
 
 <h5>Example 2:</h5>
 
-<pre>
-1.  var obj = { x: 2 };
+<pre>1.  var obj = { x: 2 };
 2.  
 3.  function addAndSet(a, b) {
 4.      var addition = a.x + b;
@@ -17519,8 +17479,7 @@ modified.
 
 Other example:
 
-<pre>
-1.  &gt; var originalObject = {name:&apos;Michel&apos;};
+<pre>1.  &gt; var originalObject = {name:&apos;Michel&apos;};
 2.  undefined
 3.   
 4.  &gt; var copy = originalObject;
@@ -17556,8 +17515,7 @@ Two objects of the same type, with the same property value, that look
 identical, will not be equal one to another if they don't have the same
 reference (if they point to different places in memory).
 
-<pre>
-1.  &gt; var originalObject = {name:&apos;Michel&apos;};
+<pre>1.  &gt; var originalObject = {name:&apos;Michel&apos;};
 2.  undefined
 3.   
 4.  &gt; var copy = originalObject;
@@ -17605,8 +17563,7 @@ You can switch back to using let, later.
 
 Let&apos;s see some examples:
 
-<pre>
-1.  &gt; var a = 1;
+<pre>1.  &gt; var a = 1;
 2.  undefined
 3.   
 4.  &gt; a;
@@ -17617,18 +17574,17 @@ Let&apos;s see some examples:
 9.   
 10. &gt; window&lbrack;&apos;a&apos;&rbrack;;
 11. 1
-12. &gt; **let z = 1;** // LET DOES NOT DEFINE properties of the window object
+12. &gt; <b>let z = 1;</b> // LET DOES NOT DEFINE properties of the window object
 13. undefined
-14. &gt; **window.z**
-15. **undefined**
+14. &gt; <b>window.z</b>
+15. <b>undefined</b>
 </pre>
 
 <p><b>a</b> and <b>window.a</b> are the same variable.<br>
 <b>navigator</b> and <b>window.navigator</b> are the same,<br>
 <b>document</b> and <b>window.document</b> are the same thing.</p>
 
-<pre>
-1.  &gt; document === window.document
+<pre>1.  &gt; document === window.document
 2.  true
 3.   
 4.  &gt; navigator === window.navigator
@@ -17637,8 +17593,7 @@ Let&apos;s see some examples:
 
 Predefined functions are methods from the global object window:
 
-<pre>
-1.  &gt; parseInt(&apos;10 little children&apos;);
+<pre>1.  &gt; parseInt(&apos;10 little children&apos;);
 2.  10
 3.   
 4.  &gt; window.parseInt(&apos;10 little children&apos;);
@@ -17708,8 +17663,7 @@ properties and methods from the special class named Object.
 
 These two lines are equivalent:
 
-<pre>
-1.  &gt; var o = {}; // creation of an empty object
+<pre>1.  &gt; var o = {}; // creation of an empty object
 2.  undefined
 3.   
 4.  &gt; var o = new Object(); // same thing as in line 1
@@ -17718,8 +17672,7 @@ These two lines are equivalent:
 
 <h5>The <b>toString</b> method inherited from Object by all objects</h5>
 
-<pre>
-1.  &gt; o.toString();
+<pre>1.  &gt; o.toString();
 2.  &quot;&lbrack;object Object&rbrack;&quot;
 3.   
 4.  &gt; o.name = &apos;Michel&apos;;
@@ -17740,12 +17693,11 @@ the Object.toString() method we find in the Java programming
 language: <b>when we try to &quot;display&quot; an object, it is transformed into
 a string by calling toString() implicitly</b>.</p>
 
-<pre>
-1.  &gt; alert(**t**);
+<pre>1.  &gt; alert(<b>t</b>);
 2.   
-3.  &gt; alert(**t.toString()**); **// same as previous line of code**
+3.  &gt; alert(<b>t.toString()</b>); <b>// same as previous line of code</b>
 4.   
-5.  &gt; &quot;An object into a string : &quot; **+ t **// same as **t.toString()**
+5.  &gt; &quot;An object into a string : &quot; <b>+ t </b>// same as <b>t.toString()</b>
 6.  &quot;The object as a String : 1, 2, 3&quot;
 </pre>
 
@@ -17757,8 +17709,7 @@ their toString() method.
 
 The <b>ValueOf</b> method returns the value of an object:
 
-<pre>
-1.  &gt; var t = &lbrack;1, 2, 3&rbrack;;
+<pre>1.  &gt; var t = &lbrack;1, 2, 3&rbrack;;
 2.  undefined
 3.   
 4.  &gt; t.valueOf()
@@ -17884,8 +17835,7 @@ on&#41;
 The Array class can be used for creating arrays (however, we
 recommend that you use the other methods presented instead):
 
-<pre>
-1.  &gt; **var a = new Array();** // **same as a = &lbrack;&rbrack;; use this instead!**
+<pre>1.  &gt; **var a = new Array();** // **same as a = &lbrack;&rbrack;; use this instead!**
 2.  undefined
 3.   
 4.  &gt; **var b = new Array(1, 2, 3);**
@@ -17898,8 +17848,7 @@ recommend that you use the other methods presented instead):
 Attention: if only one element, this corresponds to the initial size of
 the array.
 
-<pre>
-1.  &gt; var myArray = new Array(3);
+<pre>1.  &gt; var myArray = new Array(3);
 2.  undefined
 3.   
 4.  &gt; myArray;
@@ -17916,8 +17865,7 @@ the array.
 -   They have other built-in properties in addition to the ones
     inherited from Object (toString, valueOf)
 
-<pre>
-1.  &gt; var a = &lbrack;&rbrack;, o = {};
+<pre>1.  &gt; var a = &lbrack;&rbrack;, o = {};
 2.  undefined
 3.   
 4.  &gt; a.length; // a is an array
@@ -17929,8 +17877,7 @@ the array.
 
 Some horrible things we can do with arrays (TO AVOID!):
 
-<pre>
-1.  &gt; var a = &lbrack;1, 2&rbrack;;
+<pre>1.  &gt; var a = &lbrack;1, 2&rbrack;;
 2.  undefined
 3.   
 4.  &gt; typeof a
@@ -17965,8 +17912,7 @@ height="0.5576388888888889in"}
 If you give to the length property a value bigger than the number of
 elements in an array, it adds undefined elements to it:
 
-<pre>
-1.  &gt; var a = &lbrack;1, 2&rbrack;;
+<pre>1.  &gt; var a = &lbrack;1, 2&rbrack;;
 2.  undefined
 3.   
 4.  &gt; a.length = 5;
@@ -17979,8 +17925,7 @@ elements in an array, it adds undefined elements to it:
 If you give to the length property a value less than the array's number
 of elements, it reduces the size of the array:
 
-<pre>
-1.  &gt; var a = &lbrack;1, 2, 3&rbrack;;
+<pre>1.  &gt; var a = &lbrack;1, 2, 3&rbrack;;
 2.  undefined
 3.   
 4.  &gt; a.length = 2;
@@ -18019,8 +17964,7 @@ slice(), splice(), push()and pop()
 
 <h5>Typical uses of  push, pop, sort, join</h5>
 
-<pre>
-1.  &gt; var a = &lbrack;3, 5, 1, 7, &apos;test&apos;&rbrack;;
+<pre>1.  &gt; var a = &lbrack;3, 5, 1, 7, &apos;test&apos;&rbrack;;
 2.  undefined
 3.   
 4.  &gt; a.push(&apos;new&apos;) // appends at the end and returns the new length
@@ -18067,8 +18011,7 @@ Possible syntaxes:
 -   arr.slice(begin, end) // ELEMENT AT INDEX=end will not be included
     in the slice!
 
-<pre>
-1.  &gt; a;
+<pre>1.  &gt; a;
 2.  &lbrack;1, 3, 5, 7, &quot;test&quot;&rbrack;
 3.   
 4.  &gt; b = a.slice(1, 3); // elements of indexes = 1 and 2
@@ -18111,8 +18054,7 @@ elements, splice() will only remove elements from the array.
 
 <h5>Examples:</h5>
 
-<pre>
-1.  &gt; a;
+<pre>1.  &gt; a;
 2.  &lbrack;1, 3, 5, 7, &quot;test&quot;&rbrack;
 3.   
 4.  &gt; b = a.splice(1, 2, 100, 101, 102);
@@ -18135,8 +18077,7 @@ elements, splice() will only remove elements from the array.
 The Number class can be used to transform strings into numbers, but it is
 recommended that you use parseInt or parseFloat instead.
 
-<pre>
-1.  &gt; var n = Number(&apos;3.1416&apos;);
+<pre>1.  &gt; var n = Number(&apos;3.1416&apos;);
 2.  undefined
 3.   
 4.  &gt; n;
@@ -18164,8 +18105,7 @@ height="0.6041666666666666in"}
 Number has useful non-modifiable properties
 (constants): MAX_VALUE and MIN_VALUE:
 
-<pre>
-1.  &gt; Number.MAX_VALUE;
+<pre>1.  &gt; Number.MAX_VALUE;
 2.  1.7976931348623157e+308
 3.   
 4.  &gt; Number.MIN_VALUE;
@@ -18191,8 +18131,7 @@ Number has useful non-modifiable properties
     and display &quot;1010&quot;;</li>
 </ul>
 
-<pre>
-1.  &gt; var n = 123.456;
+<pre>1.  &gt; var n = 123.456;
 2.  123.456
 3.   
 4.  &gt; n.toFixed(1); // sets the number of digits for the decimal part
@@ -18330,8 +18269,7 @@ tokens separated by space and will in turn build again a string with
 The String class can be used to build new strings, but it's preferable
 to use the standard syntax:
 
-<pre>
-1.  &gt; var name = 'Michel'; // use this rather than using new String(...)
+<pre>1.  &gt; var name = 'Michel'; // use this rather than using new String(...)
 2.  undefined
 3.  
 4.  &gt;typeof name;
@@ -18346,8 +18284,7 @@ to use the standard syntax:
 
 <h5>Some reminders about strings: {#some-reminders-about-strings .unnumbered}
 
-<pre>
-1.  &gt; var name = 'Michel';
+<pre>1.  &gt; var name = 'Michel';
 2.  Undefined
 3.  name.length;
 4.  6
@@ -18390,8 +18327,7 @@ These methods are all inherited from the String class:
     an empty string if the index is out of bounds (less than 0 or
     greater than the length of the string).
 
-<pre>
-1.  &gt; var s = "I'm the Walrus";
+<pre>1.  &gt; var s = "I'm the Walrus";
 2.  Undefined
 3.  
 4.  var s1 = s.toUpperCase();
@@ -18425,8 +18361,7 @@ These methods are all inherited from the String class:
     the starting index when looking for the string value passed as
     parameter
 
-<pre>
-1.  &gt; s = &apos;wow wow wow!&apos;;
+<pre>1.  &gt; s = &apos;wow wow wow!&apos;;
 2.  &quot;wow wow wow!&quot;
 3.   
 4.  &gt; s.lastIndexOf(&apos;w&apos;);
@@ -18462,8 +18397,7 @@ These two methods are very similar. 
 
 <h5>Examples:</h5>
 
-<pre>
-1.  &gt; var s = &quot;My name is Bond! James Bond!&quot;;
+<pre>1.  &gt; var s = &quot;My name is Bond! James Bond!&quot;;
 2.  undefined
 3.   
 4.  &gt; s;
@@ -18500,8 +18434,7 @@ differences.
 Beginners: do not read what follows about slice and substring! There
 will be no related graded questions at the end of this chapter!
 
-<pre>
-1.  &gt; var s = &quot;My name is Bond! James Bond!&quot;;
+<pre>1.  &gt; var s = &quot;My name is Bond! James Bond!&quot;;
 2.  undefined
 3.   
 4.  &gt; s.slice(11, -1); // start from index = 11 to length-1, extract
@@ -18552,8 +18485,7 @@ with a few different behaviors</h4>
 The split method returns an array of strings, the parameter is a
 separator. The join method builds a string from an array of strings.
 
-<pre>
-1.  &gt; var s = &quot;My name is Bond! James Bond!&quot;;
+<pre>1.  &gt; var s = &quot;My name is Bond! James Bond!&quot;;
 2.  undefined
 3.   
 4.  &gt; s.split(&quot; &quot;);
@@ -18602,8 +18534,7 @@ separator. The join method builds a string from an array of strings.
 
 It's not possible to do var m = new Math();
 
-<pre>
-1.  &gt; var m = new Math();
+<pre>1.  &gt; var m = new Math();
 2.  VM5777:1 <b>Uncaught TypeError: Math is not a constructor</b>
 3.  at &lt;anonymous&gt;:1:9
 4.  (anonymous) @ VM5777:1
@@ -18616,8 +18547,7 @@ operator to access them.</b>
 
 Here are some examples:
 
-<pre>
-1.  Math.PI;
+<pre>1.  Math.PI;
 2.  3.141592653589793
 3.  Math.SQRT2;
 4.  1.4142135623730951
@@ -18635,8 +18565,7 @@ Math.random() returns a float value between 0 and 1.
 
 <h5>Examples: {#examples-15 .unnumbered}
 
-<pre>
-1.  Math.random();
+<pre>1.  Math.random();
 2.  0.6033316111663034
 3.  100 &#41; Math.random(); // between 0 and 100
 4.  11.780563288516422
@@ -18647,8 +18576,7 @@ Math.random() returns a float value between 0 and 1.
 
 <h5>And here is a utility function:</h5>
 
-<pre>
-1.  function getRandomValue(min, max) {
+<pre>1.  function getRandomValue(min, max) {
 2.  return ((max - min) &#42; Math.random()) + min;
 3.  }
 4.  getRandomValue(5, 10);
@@ -18665,8 +18593,7 @@ Math.random() returns a float value between 0 and 1.
     this value will return 1, if the value is below 0.5, Math.round will
     return 0:
 
-<pre>
-  1. Math.round(Math.random());
+<pre>  1. Math.round(Math.random());
   2. 1
   3. Math.round(Math.random());
   4. 0
@@ -18678,8 +18605,7 @@ Math.random() returns a float value between 0 and 1.
 
 <h5>Get the min and the max of two values with Math.min(a, b) and Math.max(a, b)</h5>
 
-<pre>
-1. Math.min(12, 4);
+<pre>1. Math.min(12, 4);
 2. 4
 3. Math.max(12, 4);
 4. 12
@@ -18687,8 +18613,7 @@ Math.random() returns a float value between 0 and 1.
 
 A useful function that restricts a value between  min and  max bounds:
 
-<pre>
-1.  function restrictValue(value, min, max) {
+<pre>1.  function restrictValue(value, min, max) {
 2.  return Math.min(Math.max(1, value), max);
 3.  }
 4.  restrictValue(40, 1, 20);
@@ -18701,8 +18626,7 @@ A useful function that restricts a value between  min and  max bounds:
 
 <h4>Math functions for arithmetical computations sin(), cos(), tan(), atan(), atan2(), pow(), sqrt()</h4>
 
-<pre>
-1.  Math.pow(2, 8); //2&#94;8
+<pre>1.  Math.pow(2, 8); //2&#94;8
 2.  256
 3.  Math.sqrt(9);
 4.  3
@@ -18734,8 +18658,7 @@ Let&apos;s see how to get a date by calling the Date constructor.
 <b>Note</b>: The return value is actually a Date object, which is displayed
 by calling toString() on this object.
 
-<pre>
-1.  var date = new Date();
+<pre>1.  var date = new Date();
 2.  undefined
 3.  date;
 4.  Wed Apr 12 2017 11:10:28 GMT+0200 (CEST)
@@ -18757,8 +18680,7 @@ encoded date passed as argument.
 
 <h4>Examples:</h4>
 
-<pre>
-1.  &gt; new Date(&apos;2017 04 28&apos;);
+<pre>1.  &gt; new Date(&apos;2017 04 28&apos;);
 2.  Fri Apr 28 2017 00:00:00 GMT+0200 (CEST)
 3.  
 4.  &gt; new Date(&apos;2017 1 2&apos;);
@@ -18775,8 +18697,7 @@ this order.
 
 <h4>Examples:</h4>
 
-<pre>
-1.  &gt; new Date(2017, 3, 16, 14, 43, 10, 120);
+<pre>1.  &gt; new Date(2017, 3, 16, 14, 43, 10, 120);
 2.  Sun Apr 16 2017 14:43:10 GMT+0200 (CEST)
 3.  
 4.  &gt; new Date(2017, 0, 10, 14);
@@ -18800,23 +18721,20 @@ this order.
 One can build the date with a Unix timestamp (number of milliseconds
 since 1970):
 
-<pre>
-1.  new Date(1199885822900);
+<pre>1.  new Date(1199885822900);
 2.  Wed Jan 09 2008 14:37:02 GMT+0100 (CET)
 </pre>
 
 Calling Date() without &quot;new&quot; returns the current date as a string. It
 does not matter if we pass parameters:
 
-<pre>
-1.  Date();
+<pre>1.  Date();
 2.  &quot;Sun Apr 16 2017 14:51:47 GMT+0200 (CEST)&quot;
 </pre>
 
 <h4>Useful methods</h4>
 
-<pre>
-1.  var d = new Date();
+<pre>1.  var d = new Date();
 2.  undefined
 3.  
 4.  d.toString();
@@ -18834,8 +18752,7 @@ does not matter if we pass parameters:
 
 <h5>Let&apos;s play with my birthday!</h5>
 
-<pre>
-1.  var d = new Date(1965, 3, 16); // Michel Buffa&apos;s birthday
+<pre>1.  var d = new Date(1965, 3, 16); // Michel Buffa&apos;s birthday
 2.  undefined
 3.  d.getDay(); // Sunday is 0
 4.  5
@@ -18847,8 +18764,7 @@ does not matter if we pass parameters:
 Let&apos;s write a small piece of code that will guess which days of the
 week Michel Buffa&apos;s birthday will occur, between 2017 and 2047:
 
-<pre>
-1.  var dayOfTheWeek = &lbrack;0,0,0,0,0,0,0&rbrack;;
+<pre>1.  var dayOfTheWeek = &lbrack;0,0,0,0,0,0,0&rbrack;;
 2.  for (var year = 2017; year &lt;= 2047; year++) {
 3.  dayOfTheWeek&lbrack;new Date(year, 4, 16).getDay()&rbrack;++;
 4.  }
@@ -18912,8 +18828,7 @@ accessible tables.
 
 <h5>Typical example: {#typical-example .unnumbered}
 
-<pre>
-1.  &lt;table&gt;
+<pre>1.  &lt;table&gt;
 2.  &lt;caption&gt;A typical HTML table&lt;/caption&gt;
 3.  &lt;tr&gt;
 4.  &lt;th scope=&quot;col&quot;&gt;Given Name&lt;/th&gt;
@@ -18951,8 +18866,7 @@ height="1.9636756342957131in"}
 
 <h5>This is a static table. You can look at the CSS code: {#this-is-a-static-table.-you-can-look-at-the-css-code .unnumbered}
 
-<pre>
-1.  table {
+<pre>1.  table {
 2.  width:100%;
 3.  border:1px solid;
 4.  }
@@ -19107,8 +19021,7 @@ completely covered the table JavaScript API.
 When you look for a table using the DOM API or the selector API, or when
 you create a table using the DOM API, you get a Table object:
 
-<pre>
-1.  var table = document.getElementById(&quot;myTable&quot;);
+<pre>1.  var table = document.getElementById(&quot;myTable&quot;);
 2.  var table = document.querySelector(&quot;#myTable&quot;);
 3.  var table = document.createElement(&quot;table&quot;); // creates a new table
 </pre>
@@ -19137,16 +19050,14 @@ will soon see another method for doing this.
 When you look for a row using the DOM API or the selector API, or when
 you create a row using the DOM API, you get a Row object:
 
-<pre>
-1.  var row1 = document.getElementById(&quot;row1&quot;);
+<pre>1.  var row1 = document.getElementById(&quot;row1&quot;);
 2.  var row1 = document.querySelector(&quot;#row1&quot;);
 3.  var newRow = document.createElement(&quot;row&quot;); // creates a new row
 </pre>
 
 You can also access a row from the rows property of a table:
 
-<pre>
-1.  var t = document.createElement(&quot;table&quot;);
+<pre>1.  var t = document.createElement(&quot;table&quot;);
 1.  undefined
 2.  var r1 = t.insertRow(0);
 3.  undefined
@@ -19181,8 +19092,7 @@ height="3.1052351268591427in"}
 
 <h5>Notice how we&apos;ve created the new row cells:</h5>
 
-<pre>
-1.  function insertRow() {
+<pre>1.  function insertRow() {
 2.  var table = document.querySelector(&quot;#myTable&quot;);
 3.  // without parameters, insert at the end,
 4.  // otherwise parameter = index where the row will be inserted
@@ -19283,8 +19193,7 @@ height="0.6105610236220472in"}
 
 <h5>Source code:</h5>
 
-<pre>
-1.  Bottom of Form
+<pre>1.  Bottom of Form
 2.  &lt;label for=&quot;first_name&quot;&gt;Your First Name&lt;/label&gt;
 3.  &lt;input id=&quot;first_name&quot; type=&quot;text&quot; name=&quot;fname&quot;/&gt;
 </pre>
@@ -19300,8 +19209,7 @@ readers](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_st
 
 <h5>Source code (with &lt;input&gt; inside the &lt;label&gt;):</h5>
 
-<pre>
-1.  &lt;label for=&quot;first_name&quot;&gt;&lt;span lang=en&quot;&gt;Your First
+<pre>1.  &lt;label for=&quot;first_name&quot;&gt;&lt;span lang=en&quot;&gt;Your First
     Name&lt;/span&gt;
 2.  &lt;input id=&quot;first_name&quot; type=&quot;text&quot; name=&quot;fname&quot;/&gt;
 3.  &lt;/label&gt;
@@ -19314,8 +19222,7 @@ height="0.9240923009623797in"}
 
 <h5>Source code:</h5>
 
-<pre>
-1.  Bottom of Form
+<pre>1.  Bottom of Form
 2.  &lt;label for=&quot;firstname&quot;&gt;First name:&lt;/label&gt;
 3.  &lt;input type=&quot;text&quot; name=&quot;firstname&quot; id=&quot;firstname&quot;&gt;&lt;br&gt;
 4.  &lt;label for=&quot;subscribe&quot;&gt;Subscribe to newsletter&lt;/label&gt;
@@ -19340,8 +19247,7 @@ rendered as a button.
 
 Source code for an example of &quot;Submit&quot; and &quot;Cancel&quot; buttons:
 
-<pre>
-1.  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+<pre>1.  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
 2.  &lt;button type=&quot;button&quot;&gt;Cancel&lt;/button&gt;
 3.  &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
 4.  &lt;input type=&quot;button&quot; value=&quot;Cancel&quot;&gt;
@@ -19357,8 +19263,7 @@ height="0.7708333333333334in"}
 
 <h5>Source code:</h5>
 
-<pre>
-1.  &lt;label for=&quot;address&quot;&gt;Enter your address:&lt;/label&gt;
+<pre>1.  &lt;label for=&quot;address&quot;&gt;Enter your address:&lt;/label&gt;
 2.  &lt;br&gt;
 3.  &lt;textarea id=&quot;address&quot; name=&quot;addresstext&quot;&gt;&lt;/textarea&gt;
 </pre>
@@ -19388,8 +19293,7 @@ height="1.71875in"}
 
 <h5>Source code:</h5>
 
-<pre>
-1.  &lt;fieldset&gt;
+<pre>1.  &lt;fieldset&gt;
 2.  &lt;legend&gt;Output format&lt;/legend&gt;
 3.  &lt;div&gt;
 4.  &lt;input type=&quot;radio&quot; name=&quot;format&quot; id=&quot;txt&quot; value=&quot;txt&quot; checked&gt;
@@ -19413,8 +19317,7 @@ height="1.3020833333333333in"}
 
 <h5>Source code:</h5>
 
-<pre>
-1.  &lt;fieldset&gt;
+<pre>1.  &lt;fieldset&gt;
 2.  &lt;legend&gt;I want to receive&lt;/legend&gt;
 3.  &lt;div&gt;
 4.  &lt;input type=&quot;checkbox&quot; name=&quot;newsletter&quot; id=&quot;check_1&quot;&gt;
@@ -19749,8 +19652,7 @@ lot like what <b>o.toString()</b> returns.
 
 Let&apos;s see some examples:
 
-<pre>
-1.  var x = 3;
+<pre>1.  var x = 3;
 2.  undefined
 3.  JSON.stringify(x);
 4.  &quot;3&quot;
@@ -19807,8 +19709,7 @@ JSON to JavaScript.
 Here is a first example that turns an object into JSON and back into a
 JavaScript object:
 
-<pre>
-1.  &gt; var metallica = {name:&apos;Metallica&apos;, albums:&lbrack;{name:&quot;Master of
+<pre>1.  &gt; var metallica = {name:&apos;Metallica&apos;, albums:&lbrack;{name:&quot;Master of
     Puppets&quot;, year:1986}, {name:&quot;Black Album&quot;, year:1991}&rbrack;};
 2.  Undefined
 3.  
@@ -19979,8 +19880,7 @@ height="2.8547003499562553in"}
 
 <h5>JavaScript source code extract:</h5>
 
-<pre>
-1.  function search() {
+<pre>1.  function search() {
 2.  var queryURL = &quot;https://jsonplaceholder.typicode.com/users&quot;;
 3.  
 4.  var xhr = new XMLHttpRequest();
@@ -20060,8 +19960,7 @@ https://codepen.io/w3devcampus/pen/xgoZdg
 
 <h4>JavaScript source code extract:</h4>
 
-<pre>
-1.  function search() {
+<pre>1.  function search() {
 2.  var queryURL = &quot;https://jsonplaceholder.typicode.com/users&quot;;
 3.  
 4.  fetch(queryURL)
@@ -20125,8 +20024,7 @@ applies to sessionStorage.
 
 <h4>Example:</h4>
 
-<pre>
-1.  // Using localStorage
+<pre>1.  // Using localStorage
 2.  
 3.  // store data
 4.  localStorage.lastName = &quot;Bunny&quot;;
@@ -20232,8 +20130,7 @@ This is a play project that you can easily improve:
 <b>Let&apos;s start with a simple skeleton (no GUI), beginning with
 the Contact class</b>
 
-<pre>
-1.  class Contact {
+<pre>1.  class Contact {
 2.  constructor(name, email) {
 3.  this.name = name;
 4.  this.email = email;
@@ -20244,8 +20141,7 @@ the Contact class</b>
 As you can see, a contact is just a name and an email. We will use the
 above class like this:
 
-<pre>
-1.  var c1 = new Contact(&quot;Jimi Hendrix&quot;, &quot;jimi@rip.com&quot;);
+<pre>1.  var c1 = new Contact(&quot;Jimi Hendrix&quot;, &quot;jimi@rip.com&quot;);
 2.  var c2 = new Contact(&quot;Robert
     Fripp&quot;, &quot;robert.fripp@kingcrimson.com&quot;);
 </pre>
@@ -20255,8 +20151,7 @@ example console.log(c1.name), console.log(c2.email), etc.
 
 <b>A minimal ContactManager class</b>
 
-<pre>
-1.  class ContactManager {
+<pre>1.  class ContactManager {
 2.  constructor() {
 3.  // when we build the contact manager, it
 4.  // has an empty list of contacts
@@ -20301,8 +20196,7 @@ example console.log(c1.name), console.log(c2.email), etc.
 
 We can use the contact manager like this:
 
-<pre>
-1.  var cm = new ContactManager();
+<pre>1.  var cm = new ContactManager();
 2.  var c1 = new Contact(&quot;Jimi Hendrix&quot;, &quot;jimi@rip.com&quot;);
 3.  var c2 = new Contact(&quot;Robert
     Fripp&quot;, &quot;robert.fripp@kingcrimson.com&quot;);
@@ -20334,8 +20228,7 @@ modules 2 or 3. Since our array contains objects, we must provide a
 callback for comparing two elements by name. Here is the code for the
 new sort() method we added to the ContactManager class:
 
-<pre>
-1.  sort() {
+<pre>1.  sort() {
 2.  // As our array contains objects, we need to pass as argument
 3.  // a method that can compare two contacts.
 4.  // we use a class method, which is similar to the distance(p1, p2)
@@ -20391,8 +20284,7 @@ the devtools</b>
 Here is the code we added to the ES6 class for saving the list of
 contacts in JSON:
 
-<pre>
-1.  class ContactManager {
+<pre>1.  class ContactManager {
 2.  constructor() {
 3.  // when we build the contact manager, it
 4.  // has an empty list of contacts
@@ -20449,8 +20341,7 @@ print the list of contacts (that displays a message &quot;LIST EMPTY!&quot;),
 then we load the contacts from LocalStorage and print the list again: it
 has been restored to its previous value.
 
-<pre>
-1.  class ContactManager {
+<pre>1.  class ContactManager {
 2.  constructor() {
 3.  // when we build the contact manager, it
 4.  // has an empty list of contacts
@@ -20485,47 +20376,48 @@ has been restored to its previous value.
 33. console.log(&quot;Do you notice: contacts have all been restored!&quot;);
 </pre>
 
-<b>Explanations</b>:
+<h5><b>Explanations</b>:</h5>
 
--   At* line 16*, we check if a previous version has been saved.
-
--   At *line 19*, we read the string value associated to the key named
+<ul>
+  <li>At <i>line 16</i>, we check if a previous version has been saved.</li>
+  <li>At <i>line 19</i>, we read the string value associated to the key named
     &quot;contacts&quot;, and use JSON.parse(&#41;) to turn it into a JavaScript
-    object we can work with.
-
--   *Lines 26-36* test the load/save/empty functionalities. You can try
+    object we can work with.</li>
+  <li><i>Lines 26-36</i> test the load/save/empty functionalities. You can try
     this yourself live: click on the CodePen label below, on the top
     right corner, and once in CodePen, open the CodePen console (or the
     read devtool console) to see the result of the execution of these
-    tests.
-
+    tests.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-3">5.5.3 Display contacts in an HTML5 table (part 3)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-We&apos;re going to reuse the code from this CodePen (example taken from a
+<p>We&apos;re going to reuse the code from this CodePen (example taken from a
 previous section of the course, the one about working with remote data),
-and adapt it to our needs:
+and adapt it to our needs:</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 525. codepen: XhR2 get a remote list of users' names and emails (502) ~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image525.png?raw=true"
+  style="width:50%"
+  title="CodePen: table list of contacts"
+  alt="CodePen: table list of contacts." />
+<a href="https://codepen.io/w3devcampus/pen/vmLMRN">
+CodePen: XhR2 - get a remote list of user's names and emails</a>.</p>
 
-![](./images/image525.png){width="5.0in"
-height="3.178418635170604in"}
-
-<https://codepen.io/w3devcampus/pen/vmLMRN>
-
-This time, we will first add some HTML to the contact manager example
+<p>This time, we will first add some HTML to the contact manager example
 (same as in the previous CodePen except that we&apos;ve renamed &quot;users&quot; as
-&quot;contacts&quot;):
+&quot;contacts&quot;):</p>
 
-<pre>
-1.  &lt;!DOCTYPE html&gt;
+<pre>1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.  &lt;head&gt;
-4.      &lt;title&gt;A contact manager, v3&lt;/title&gt;
-5.      &lt;meta charset=&quot;utf-8&quot;/&gt;
+4.    &lt;title&gt;A contact manager, v3&lt;/title&gt;
+5.    &lt;meta charset=&quot;utf-8&quot;/&gt;
 6.  &lt;/head&gt;
 7.  &lt;body&gt;
-8.      &lt;p&gt;List of contacts&lt;/p&gt;
-9.      <b>&lt;div id=&quot;contacts&quot;&gt;&lt;/div&gt;</b>
+8.    &lt;p&gt;List of contacts&lt;/p&gt;
+9.    <b>&lt;div id=&quot;contacts&quot;&gt;&lt;/div&gt;</b>
 10. &lt;/body&gt;
 11. &lt;/html&gt;
 </pre>
@@ -20535,8 +20427,7 @@ table with one row for each contact. We will keep the same minimal CSS
 for displaying table, row and cell borders (we encourage you to improve
 this):
 
-<pre>
-1.  table {
+<pre>1.  table {
 2.     margin-top: 20px;
 3.  }
 4.   
@@ -20549,60 +20440,57 @@ And here is the method we add in our ContactManager class; an
 adaptation of the function displayUsersAsATable(users) from the previous
 CodePen:
 
-<pre>
-1.  class ContactManager {
-2.      &#41;..
-3.      displayContactsAsATable(idOfContainer) {
-4.          // to empty the container that contains the results
-5.         let container = document.querySelector(&quot;#&quot; + idOfContainer);
-6.          container.innerHTML = &quot;&quot;;
+<pre>1.  class ContactManager {
+2.    &#41;..
+3.    displayContactsAsATable(idOfContainer) {
+4.      // to empty the container that contains the results
+5.      let container = document.querySelector(&quot;#&quot; + idOfContainer);
+6.      container.innerHTML = &quot;&quot;;
 7.   
-8.  
-9.          if(this.listOfContacts.length === 0) {
-10.             container.innerHTML = &quot;&lt;p&gt;No contacts to display!&lt;/p&gt;&quot;;
-11.             // stops the execution of this method
-12.             return;
-13.         }
-14. 
-15.         // creates and populates the table with users
-16.         let table = document.createElement(&quot;table&quot;);
-17. 
-18.         // iterates on the array of users
-19.         this.listOfContacts.forEach(function(currentContact) {
-20.             // creates a row
-21.             let row = table.insertRow();
-22. 
-23.            row.innerHTML = &quot;&lt;td&gt;&quot; + currentContact.name + &quot;&lt;/td&gt;&quot;
-24.                          + &quot;&lt;td&gt;&quot; + currentContact.email + &quot;&lt;/td&gt;&quot;
-25.         });
-26. 
-27.         // adds the table to the div
-28.         container.appendChild(table);
-29.     }
-30. }
+8.      if(this.listOfContacts.length === 0) {
+9.        container.innerHTML = &quot;&lt;p&gt;No contacts to display!&lt;/p&gt;&quot;;
+10.       // stops the execution of this method
+11.       return;
+12.     }
+13.     // creates and populates the table with users
+14.     let table = document.createElement(&quot;table&quot;);
+15. 
+16.     // iterates on the array of users
+17.     this.listOfContacts.forEach(function(currentContact) {
+18.       // creates a row
+19.       let row = table.insertRow();
+20. 
+21.       row.innerHTML = &quot;&lt;td&gt;&quot; + currentContact.name + &quot;&lt;/td&gt;&quot;
+22.                     + &quot;&lt;td&gt;&quot; + currentContact.email + &quot;&lt;/td&gt;&quot;
+23.     });
+24.     // adds the table to the div
+25.     container.appendChild(table);
+26.   }
+27. }
 </pre>
 
-<b>Explanations</b>:
-
--   *Line 3*: the method displayContactsAsATable takes as a parameter
+<h5><b>Explanations</b>:</h5>
+<ul>
+  <li><i>Line 3</i>: the method displayContactsAsATable takes as a parameter
     the id of the HTML element in which the table will be inserted after
-    being built. This id is used by the querySelector call at *line 5*.
-
--   *Lines 9-13*: if the list of contacts is empty, we just return, but
+    being built. This id is used by the querySelector call at <i>line 5</i>.</li>
+  <li><i>Lines 9-13</i>: if the list of contacts is empty, we just return, but
     first we display in the HTML container a message: &quot;No contact to
-    display!&quot;
+    display!&quot;</li>
+  <li><i>Lines 16-25</i>: we create a table, and for each contact we insert and
+    fill a new row in the table.</li>
+  <li><i>Line 28</i>: the table is inserted (appended) in the HTML container.</li>
+</ul>
 
--   *Lines 16-25*: we create a table, and for each contact we insert and
-    fill a new row in the table. 
-
--   *Line 28*: the table is inserted (appended) in the HTML container.
-
-CodePen of this example:
-
-![](./images/image526.png){width="5.0in"
-height="5.670405730533683in"}
-
-<https://codepen.io/w3devcampus/pen/yXoVdp>
+<h5>CodePen of this example:</h5>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 526. codepen: table list of contacts (504) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image526.png?raw=true"
+  style="width:50%"
+  title="CodePen: table list of contacts"
+  alt="CodePen: table list of contacts." />
+<a href="https://codepen.io/w3devcampus/pen/yXoVdp">CodePen table list of contacts</a>.</p>
 
 <p>Note that we also added a method called addTestData() to the
 ContactManager class, as this is a way to make testing the class easier.
@@ -20617,8 +20505,7 @@ an &quot;add&quot; button.</p>
 
 <h5>Here is the HTML code of the form:</h5>
 
-<pre>
-1.  &lt;form onsubmit=&quot;return formSubmitted();&quot;&gt;
+<pre>1.  &lt;form onsubmit=&quot;return formSubmitted();&quot;&gt;
 2.  &lt;fieldset&gt;
 3.  &lt;legend&gt;Personal informations&lt;/legend&gt;
 4.  &lt;label&gt;
@@ -20635,29 +20522,26 @@ an &quot;add&quot; button.</p>
 15. &lt;/form&gt;
 </pre>
 
-The button at *line 13* will submit the form by default (it&apos;s
-equivalent to an &lt;input type=&quot;submit&quot;&gt;). 
+<p>The button at <i>line 13</i> will submit the form by default (it&apos;s
+equivalent to an &lt;input type=&quot;submit&quot;&gt;).</p>
 
-The event listener at *line 1*: 
+<p>The event listener at <i>line 1</i>:</p>
 
-<pre>
-1.  &lt;form onsubmit=&quot;return formSubmitted();&quot;&gt;
-</pre>
+<pre>1.  &lt;form onsubmit=&quot;return formSubmitted();&quot;&gt;</pre>
 
-&#41; will call the formSubmitted function when the form is submitted. It
-is interesting that we use onclick=&quot;return formSubmitted();&quot;:
+<p>&#41; will call the formSubmitted function when the form is submitted. It
+is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
 
--   If the returned value is true, the form will be submitted by your
-    browser (this would reload the HTML page).
-
--   If the returned value is false, the form will not be submitted (this
-    is what we want, so we will return false in
-    the formSubmitted function).
+<ul>
+  <li>If the returned value is true, the form will be submitted by your
+    browser (this would reload the HTML page).</li>
+  <li>If the returned value is false, the form will not be submitted (this
+    is what we want, so we will return false in the formSubmitted function).</li>
+</ul>
 
 <h4>Here is the code of the formSubmitted function:</h4>
 
-<pre>
-1.  function formSubmitted() {
+<pre>1.  function formSubmitted() {
 2.  // Get the values from input fields
 3.  let name = document.querySelector(&quot;#name&quot;);
 4.  let email = document.querySelector(&quot;#email&quot;);
@@ -20673,57 +20557,56 @@ is interesting that we use onclick=&quot;return formSubmitted();&quot;:
 14. }
 </pre>
 
-</b>Explanations:</b>
+<p><b>Explanations:</b></p>
 
--   *Lines 2-7*: we get the values entered in the form&apos;s input fields,
-    build a new contact and add it to the contact list
+<ul>
+  <li><i>Lines 2-7</i>: we get the values entered in the form&apos;s input fields,
+    build a new contact and add it to the contact list</li>
+  <li><i>Lines 10-11</i>: we reset the content of the input fields (we empty
+    them)</li>
+  <li><i>Line 14</i>: we display the HTML table with the new added contact</li>
+  <li><i>Line 17</i>: we return false so that the form will not be submitted.
+    This will prevent the browser from reloading the HTML page.</li>
+</ul>
 
--   *Lines 10-11*: we reset the content of the input fields (we empty
-    them)
+<h4>CodePen example:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 527. codepen: add new contact and list (507) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image527.png?raw=true"
+  style="width:50%"
+  title="CodePen: Add new contact and list in table"
+  alt="CodePen: Add new contact and list in table." />
+<a href="https://codepen.io/w3devcampus/pen/awypEg">CodePen add new contact to table</a>.</p>
 
--   *Line 14*: we display the HTML table with the new added contact
+<p>Note that we&apos;ve also added some buttons for playing with the load/save
+features we implemented in the previous page:</p>
 
--   *Line 17*: we return false so that the form will not be submitted.
-    This will prevent the browser from reloading the HTML page.
-
-CodePen example:
-
-![](./images/image527.png){width="5.0in"
-height="5.126068460192476in"}
-
-<https://codepen.io/w3devcampus/pen/awypEg>
-
-Note that we&apos;ve also added some buttons for playing with the load/save
-features we implemented in the previous page:
-
--   Add some new contacts to the list using the form,
-
--   Save them by clicking on the save button,
-
--   Empty the list, click the empty button,
-
--   Reload the list&#41; you can see that contacts have been correctly
-    saved and restored!
-
+<ul>
+  <li>Add some new contacts to the list using the form,</li>
+  <li>Save them by clicking on the save button,</li>
+  <li>Empty the list, click the empty button,</li>
+  <li>Reload the list&#41; you can see that contacts have been correctly
+    saved and restored!</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-5">5.5.5 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Here is the discussion forum for this part of the course.</p>
 
-Here is the discussion forum for this part of the course.
+<p><b>Optional projects</b></p>
 
-<b>Optional projects</b>
-
--   Improve the CSS of the contact manager table.
-
--   Add more complicated features to the contact manager:
-  
-    -   Add an extra column with a trash bin icon in it (you can use
+<ul>
+  <li>Improve the CSS of the contact manager table.</li>
+  <li>Add more complicated features to the contact manager:</li>
+    <ul>
+	  <li>Add an extra column with a trash bin icon in it (you can use
         this <a href="https://i.imgur.com/yHyDPio.png">one</a> ![trashbin
         icon](./images/image528.png){width="0.3333333333333333in"
         height="0.3333333333333333in"}, do right click and &quot;save link
-        as&quot;). When you click on this icon, delete the contact.
-        
-        *Hint*: find a way to get the index of the current row in the
+        as&quot;). When you click on this icon, delete the contact.<br>
+      <br>        
+        <i>Hint</i>: find a way to get the index of the current row in the
         click event listener, so that you can easily delete the contact
         from the array. You can add a &quot;HTML data attribute&quot;
         using trashbin.dataset.contactId = 3; for example, when you
@@ -20739,19 +20622,16 @@ Here is the discussion forum for this part of the course.
         
         It&apos;s like adding a data-contactId attribute to the HTML of
         the img element. Then in the event listener,
-        use evt.target.dataset.contactId to get it back. 
-
-    -   Add a search form for searching a contact by name: rebuild the
+        use evt.target.dataset.contactId to get it back.</li>
+      <li>Add a search form for searching a contact by name: rebuild the
         table to display only contacts that match. More difficult:
-        reduce the table as you type!
-
-    -   Improve the CSS of this ugly-looking table! ;-)
-
-    -   Add a header on the table and try to make the table sortable
+        reduce the table as you type!</li>
+	  <li>Improve the CSS of this ugly-looking table! ;-)</li>
+	  <li>Add a header on the table and try to make the table sortable
         when you click on the header of one column (e.g., clicking on
-        &quot;email&quot; will sort the table by email).
-
--   &lbrack;ADVANCED&rbrack; Using 
+        &quot;email&quot; will sort the table by email).</li>
+	</ul>
+  <li>&lbrack;ADVANCED&rbrack; Using 
     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList">
 	the classList JavaScript interface</a>: elem.classList.add(&quot;name
     of a CSS class&quot;), remove, and toggle methods, allow the user to
@@ -20760,16 +20640,9 @@ Here is the discussion forum for this part of the course.
     (*tip*: use both a label and an input field). When you click, you
     hide the label and show the input field, and when you click outside
     of the input field, you do the reverse. Use the &quot;blur&quot; event to
-    detect when clicks occur outside).
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xxx. (999) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/imageXXX?raw=true"
-  style="width:35%"
-  title=""
-  alt="." />
-</p>
+    detect when clicks occur outside).</li>
+</ul>
+<!-- the end? -->
 <!-- last editted 7/16/2024 6:25pm -->
 <!-- last editted 7/19/2024 6:00pm -->
 <!-- last editted 7/20/2024 5:49am -->
