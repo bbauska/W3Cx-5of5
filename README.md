@@ -2,7 +2,7 @@
 title: "W3Cx-5of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
 author: "bbauska"
 date created: "7/07/2024 Sun 12+pm"
-date last editted: "8/5/2024 Mon 2+pm"
+date last editted: "8/6/2024 Tue 11+pm"
 
 output: 
   markdown:
@@ -1024,7 +1024,7 @@ rendered in a variety of ways by a variety of user agents. For example,
 a person who cannot see a picture can have the text alternative read
 aloud using synthesized speech.</p>
 
-<h5>Check #2: Every image has <b>alt<b> with appropriate alternative text.</h5>
+<p>Check #2: Every image has <b>alt</b> with appropriate alternative text.</p>
 
 <p><b>Example</b>: See the W3C logo below. It contains a link that points to
 the W3C Web site. The text alternative is going to be a brief
@@ -20875,4 +20875,5 @@ Here is the discussion forum for this part of the course.
 <!-- last editted 8/1/2024 8:46pm -->
 <!-- last editted 8/3/2024 4:34pm -->
 <!-- last editted 8/5/2024 2:10pm -->
+<!-- last editted 8/6/2024 11:04pm -->
 
