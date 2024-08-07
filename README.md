@@ -6897,7 +6897,7 @@ third, and nth conditions from being tested in certain cases:</p>
     the right of && operator is not tested.</li>
   <li>true &vert;&vert; something (an expression) is evaluated to true, and the
     part to the right of the &vert;&vert; operator is not tested.</li>
-<ul>
+</ul>
 
 <p>Examples:</p>
 
@@ -6921,10 +6921,10 @@ third, and nth conditions from being tested in certain cases:</p>
 
 <h4>Implicit conversions of non boolean values in expressions</h4>
 
-<p>Used with logical operators or within statements, <b>non-boolean values
-are implicitly converted to booleans</b>.</p>
+<p>Used with logical operators or within statements, non-boolean values
+are implicitly converted to booleans.</p>
 
-<b>All the following values are evaluated as false :</b>
+<p>All the following values are evaluated as false:</p>
 
 <ul>
   <li><b>false</b></li>
@@ -6935,7 +6935,7 @@ are implicitly converted to booleans</b>.</p>
   <li><b>the empty string &apos;&apos;</b></li>
 </ul>
 
-<b>Everything else is evaluated as true!</b>
+<p>Everything else is evaluated as true!</p>
 
 <pre>1.  var boo = 'hello' && 'world'; // boo is equal to 'world' that is 'true'.</pre>
 
@@ -6966,7 +6966,7 @@ can be seen as true/false.</b></p>
 
 <p>boo2 equals 43.2 because the expression 0/0 equals NaN, which is evaluated as false.</p>
 
-<p><b>Question:</b></p>
+<p>Question:</p>
 
 <p>What is the value of the variable myNumber after the execution of this code?</p>
 
@@ -7092,7 +7092,7 @@ is a NaN. &quot; (see the 
 <a href="https://www.ecma-international.org/ecma-262/5.1/#sec-15.1.2.4" 
 target="_blank" rel="noopener noreferrer">isNan documentation</a>).</p>
 
-<h5><b>A complete example with isNaN:</b></h5>
+<h5>A complete example with isNaN:</h5>
 
 <pre>var num =0/0;
  
@@ -7241,7 +7241,8 @@ And this works too and it&apos;s only two lines of code.</p>
 
 <h4>Example from the video</h4>
 
-<h6><a href="https://codepen.io/w3devcampus/pen/jmoJRZ" target="_blank" rel="noopener noreferrer">CodePen example from the video</a></h6>
+<p><a href="https://codepen.io/w3devcampus/pen/jmoJRZ" target="_blank" rel="noopener noreferrer">
+CodePen example from the lesson above</a></p>
 
 <p>JavaScript source code is a set of statements. There are a couple of
 different statement types. We have already seen one of them, the
@@ -7541,7 +7542,7 @@ CodePen: open devtools</a>.</p>
   style="width:50%"
   title="Loop statements"
   alt="Loop statements." />
-<p>Let&apos;s talk about loop statements.
+<p>Let&apos;s talk about loop statements.</p>
 <p>There are different loop statements in JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 230. while loop, 1 to 3, and sum of sum (189) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7946,7 +7947,7 @@ that compares each element in the array passed as the second parameter
 with the name &apos;john&apos;, will stop looping after &apos;john&apos; has been found
 at index = 1.</p>
 
-<h4><b>Detailed explanations:</b></h4>
+<h4>Detailed explanations:</h4>
 
 <ul>
   <li><b><i>Line 20</i></b> executes the function</li>
@@ -7954,7 +7955,7 @@ at index = 1.</p>
     the <b>tab</b>, from 0 to <b>tab.length</b></li>
   <li><b><i>Line 9</i></b>: if the condition is true, we enter the block and
     execute<b> lines 10-12</b></li>
-  <li>The <b>break</b> statement at <b>line 12</b> will exit from the loop, it
+  <li>The <b>break</b> statement at <b><i>line 12</i></b> will exit from the loop, it
     &quot;breaks&quot; the loop.</li>
   <li>The different <b>console.log(&hellip;)</b> will never display the message
     &quot;comparing with elements&hellip;&quot; with indexes greater than 1: the
@@ -8314,6 +8315,7 @@ that is null. Be very careful, do not try to select an HTML element when the DOM
 is not yet ready.</p>
 
 <h4>Online example used in the above lesson</h4>
+
 <ul>
   <li><a href="">Example on CodePen</a></li>
 </ul>
@@ -8916,7 +8918,7 @@ released, like this:</p>
 5.  });
 </pre>
 
-<p>At <b>line 2</b>, the value &quot;37&quot; is the key code that corresponds to the
+<p>At <b><i>line 2</i></b>, the value &quot;37&quot; is the key code that corresponds to the
 left arrow. It might be difficult to know which codes represent
 which real keyboard keys, so here are some handy pointers:</p>
 
@@ -10312,12 +10314,12 @@ located inside an element of a given id.</h5>
 <p>JavaScript code: we select all elements of type input that have an
 attribute checked equal to true, and located inside an element whose id
 is &quot;fruits&quot;. Notice the use of document.querySelectorAll, for
-selecting more than one element (<b>line 6</b>), then, we iterate on the
-list (<b>line 8</b>) and concatenate to the string
+selecting more than one element (<b><i>line 6</i></b>), then, we iterate on the
+list (<b><i>line 8</i></b>) and concatenate to the string
 variable listOfSelectedValues the value of each element (located in
-its value attribute). This is done in <b>line 9</b>.</p>
+its value attribute). This is done in <b><i>line 9</i></b>.</p>
 
-<p><b>Lines 9-12</b> use the parentNode property of the selected nodes in
+<p><b><i>Lines 9-12</i></b> use the parentNode property of the selected nodes in
 order to change the color of the &lt;li&gt; (parents of &lt;input&gt; elements
 selected) in red. In the DOM tree, we selected input elements that
 are each a child of a &lt;li&gt; element. The text displayed: &quot;Apples&quot;,
@@ -10358,7 +10360,7 @@ In the DOM tree, we selected input elements that are each a child of a &lt;li&gt
 The text displayed: "Apples", "Oranges" etc. belong to the &lt;li&gt; element. In order 
 to access it from the &lt;input&gt; child we selected, we use elm.parentNode.</p>
 
-<p>Finally, at the end of the document, line 14 adds a message followed by this list:</p>
+<p>Finally, at the end of the document, <i>line 14</i> adds a message followed by this list:</p>
 
 <h4>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10738,12 +10740,12 @@ codePen, open the devtool console):</p>
 <p>JavaScript code: the comments after lines that start
 with console.log correspond to what is printed in the devtool debug
 console. Notice the difference between the textNode value and
-the innerHTML property values at <b>lines 13-14</b>:
+the innerHTML property values at <i>lines 13-14</i>:
 while textContent returns only the text inside the second
 paragraph, innerHTML also returns the &lt;em&gt;&hellip;&lt;/em&gt; that surrounds
 it. However, when we modify the textContent value, it also replaces the
-text decoration (the &lt;em&gt; is removed), this is done at <b>lines
-16-20</b>.</p>
+text decoration (the &lt;em&gt; is removed), this is done at <i>lines
+16-20</i>.</p>
 
 <pre>1.  window.onload = init;
 2.   
@@ -10936,85 +10938,57 @@ height="2.486111111111111in"}
 https://codepen.io/w3devcampus/pen/aWeqzO
 
 HTML code extract: we use an &lt;input type=&quot;number&quot;&gt; for entering a
-number (*line 2*). Then if one clicks on the &quot;Add to the list&quot; button,
-the add() JavaScript function is called (*line 3*), this will add the
-typed number to the empty list at* line 7*. If one presses the &quot;reset&quot;
+number (<i>line 2</i>). Then if one clicks on the &quot;Add to the list&quot; button,
+the add() JavaScript function is called (<i>line 3</i>), this will add the
+typed number to the empty list at <i>line 7</i>. If one presses the &quot;reset&quot;
 button, it will empty this same list by calling the reset() JavaScript
 function.
 
+<pre>
 1.  &lt;label for=&quot;newNumber&quot;&gt;Please enter a number&lt;/label&gt;
-
 2.  &lt;input type=&quot;number&quot; id=&quot;newNumber&quot; value=0&gt;
-
 3.  &lt;button onclick=&quot;add();&quot;&gt;Add to the list&lt;/button&gt;
-
 4.  &lt;br&gt;
-
 5.  &lt;button onclick=&quot;reset();&quot;&gt;Reset list&lt;/button&gt;
-
 6.  &lt;p&gt;You entered:&lt;/p&gt;
-
 7.  
-
 8.  &lt;ul id=&quot;numbers&quot;&gt;&lt;/ul&gt;
+</pre>
 
-JavaScript code extract: notice at *line 25* the use of
+JavaScript code extract: notice at <i>line 25</i> the use of
 the innerHTML property for resetting the content of the &lt;ul&gt; list.
 innerHTML corresponds to all the sub DOM contained inside
 the &lt;ul&gt;&#133;&lt;/ul&gt;. innerHTML can be used for
 adding/deleting/modifying a DOM node&apos;s content.
 
+<pre>
 1.  function add() {
-
 2.  // get the current value of the input field
-
 3.  var val = document.querySelector(&apos;#newNumber&apos;).value;
-
 4.  
-
 5.  if((val !== undefined) && (val !== &quot;&quot;)) {
-
 6.  // val exists and non empty
-
 7.  
-
 8.  // get the list of numbers. It&apos;s a &lt;ul&gt;
-
 9.  var ul = document.querySelector(&quot;#numbers&quot;);
-
 10. 
-
 11. // add it to the list as a new &lt;li&gt;
-
 12. var newNumber = document.createElement(&quot;li&quot;);
-
 13. newNumber.textContent = val;
-
 14. // or newNumber.innerHTML = val
-
 15. 
-
 16. ul.append(newNumber);
-
 17. }
-
 18. }
-
 19. 
-
 20. function reset() {
-
 21. // get the list of numbers. It&apos;s a &lt;ul&gt;
-
 22. var ul = document.querySelector(&quot;#numbers&quot;);
-
 23. 
-
 24. // reset it: no children
-
 25. ul.innerHTML = &quot;&quot;;  
-
 26. }
+</pre>
 
 <h5>Example #2: using the innerHTML property to add new elements</h5>
 
@@ -11071,12 +11045,11 @@ dragged image to the div, while removing it from its original location.
 ![](./images/image340.png){width="5.0in"
 height="2.5422003499562553in"}
 
-[<b>https://codepen.io/w3devcampus/pen/xwxEZg</b>](https://codepen.io/w3devcampus/pen/xwxEZg)
+<!-- <b>https://codepen.io/w3devcampus/pen/xwxEZg</b>](https://codepen.io/w3devcampus/pen/xwxEZg) -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-8">2.5.8 Removing elements from the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <h5>Removing elements using the removeChild() method</h5>
 
 Let&apos;s take an example that we&apos;ve already encountered. This time, you
@@ -11085,18 +11058,18 @@ will check the elements you want to remove from the list!
 ![](./images/image341.png){width="5.0in"
 height="2.4294870953630796in"}
 
-[<b>https://codepen.io/w3devcampus/pen/NpJxdX</b>](https://codepen.io/w3devcampus/pen/NpJxdX)
+<!-- <b>https://codepen.io/w3devcampus/pen/NpJxdX</b>](https://codepen.io/w3devcampus/pen/NpJxdX) -->
 
 JavaScript code extract: we need to get the &lt;ul&gt; that contains all
-the &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;&lt;/li&gt; elements (<b>line 3</b>). This
+the &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;&lt;/li&gt; elements (<i>line 3</i>). This
 is the element we will use for calling <b>removeChild(&#133;)</b>. The loop
-on the checked element (<b>lines 5-12</b>) iterates on a list of checked
+on the checked element (<i>lines 5-12</i>) iterates on a list of checked
 input elements. In order to make both the text (Apples, Oranges, etc.)
 AND the checkbox disappears, we need to access the
 different &lt;li&gt; elements that contain the selected checkboxes. This is
-done in *line 10*. Then, we can call <b>ul.removeChild(li)</b> on
+done in <i>line 10</i>. Then, we can call <b>ul.removeChild(li)</b> on
 the &lt;ul&gt; for removing the &lt;li&gt; that contains the selected element
-(*line 11*). 
+(<i>line 11</i>). 
 
 <pre>
 1.  function removeSelected() {
@@ -11117,9 +11090,9 @@ the &lt;ul&gt; for removing the &lt;li&gt; that contains the selected elemen
 <h5>Removing all children of an element using the innerHTML property</h5>
 
 In the same example, if you look at the reset() JavaScript function, we
-use the ul&apos;s innerHTML property both for emptying the list (<b>lines
-3-4</b>) and for appending to it all the initial HTML code (<b>lines
-6-17</b>):
+use the ul&apos;s innerHTML property both for emptying the list (<i>lines
+3-4</i>) and for appending to it all the initial HTML code (<i>lines
+6-17</i>):
 
 <pre>
 1.  function reset() {
@@ -11172,7 +11145,7 @@ A typical HTML code for adding a canvas to a Web page:
 10. &lt;/html&gt;
 </pre>
 
-The canvas declaration is at <b>line 8</b>. Use attributes to give it
+The canvas declaration is at <i>line 8</i>. Use attributes to give it
 a width and a height, but unless you add some CSS properties, you will
 not see it on the screen because it&apos;s transparent!
 
@@ -11251,9 +11224,9 @@ height="3.1068372703412073in"}
 
 <h5><b>Explanations:</b></h5>
 
-1.  We use a function (<b>line 4</b>) called after the page is loaded (we
-    say &quot;after the DOM is ready&quot;), so that the querySelector at <b>line
-    6</b> will return the canvas.  If the page was not completely loaded
+1.  We use a function (<i>line 4</i>) called after the page is loaded (we
+    say &quot;after the DOM is ready&quot;), so that the querySelector at <i>line
+    6</i> will return the canvas.  If the page was not completely loaded
     and if this code had been run before it had finished loading, the
     canvas value would have been &quot;undefined&quot;.
 
@@ -11265,34 +11238,34 @@ height="3.1068372703412073in"}
 3.  Then we can draw. Here we show only a few things you can do with the
     canvas API, but believe me, you can do much more (draw images,
     gradients, textures, etc.)!
-    At <b>line 15,</b> we draw a filled rectangle. Parameters are the x and
+    At <i>line 15,</i> we draw a filled rectangle. Parameters are the x and
     y coordinates of the top left corner (x goes to the right, y to the
     bottom of your screen), and the width and the height of the
-    rectangle. At <b>line 14,</b> we used the fillStyle property of the
+    rectangle. At <i>line 14,</i> we used the fillStyle property of the
     context to set the color of filled shapes. This means: &quot;now, all
     filled shapes you are going to draw will be in red!&quot;. It&apos;s like a
     global setting.
 
-4.  <b>Lines 17-20</b> draw a green wireframe rectangle, with a line width
+4.  <i>Lines 17-20</i> draw a green wireframe rectangle, with a line width
     equal to 4 pixels. Notice the use of &quot;stroke&quot; instead of &quot;fill&quot;
     in the property name strokeStyle/fillStyle and in the context method
     for drawing a rectangle strokeRect/fillRect.
 
-5.  <b>Lines 23-25</b> draw a filled circle. The syntax is a bit different
+5.  <i>Lines 23-25</i> draw a filled circle. The syntax is a bit different
     as circles are parts of a &quot;path&quot; (see the HTML5 fundamentals
     course, we explain the concept of &quot;path&quot; in the canvas API). Just
     keep in mind for now that before drawing a circle you need to
     call beginPath(). The call to arc(x, y, radius, start_angle,
     end_angle) does not draw the circle, it defines it. The next
-    instruction ctx.fill() at <b>line 25</b> will draw all shapes that have
+    instruction ctx.fill() at <i>line 25</i> will draw all shapes that have
     been defined since a new path began, as filled shapes.
     Calling ctx.stroke() here, instead of ctx.fill() would have drawn a
     wireframe circle instead of a filled one. Also note that the filled
     circle is red even if we did not specify the color. Remember that we
-    set ctx.fillStyle = &apos;red&apos; at <b>line 14</b>. Unless we change this,
+    set ctx.fillStyle = &apos;red&apos; at <i>line 14</i>. Unless we change this,
     all filled shapes will be red.
 
-6.  <b>Lines 28-30</b> draw a filled text. The call to filltext(message, x,
+6.  <i>Lines 28-30</i> draw a filled text. The call to filltext(message, x,
     y) draws a filled text at the x,y position; this time in purple as
     we called ctx.fillStyle=&apos;purple&apos; before calling fillText(&#41;)
 
@@ -11454,23 +11427,23 @@ using the default color (black) and wireframe and filled modes:
 
 -   ctx.strokeRect(x, y, width, height): same but in wireframe mode.
 
--   Note that we use (<b>line 30</b>) ctx.translate(x, y) to make it easier
+-   Note that we use (<i>line 30</i>) ctx.translate(x, y) to make it easier
     to move the monster around. All the drawing instructions are coded
     as if the monster was in (0, 0), at the top left corner of the
-    canvas (look at <b>line 33</b>). We draw the body outline with a
+    canvas (look at <i>line 33</i>). We draw the body outline with a
     rectangle starting from (0, 0). Calling context.translate &quot;changes
     the coordinate system&quot; by moving the &quot;old (0, 0)&quot; to (x, y) and
     keeping other coordinates in the same position relative to the
     origin.
 
--   <b>Line 19</b>: we call the drawMonster function with (10, 10) as
+-   <i>Line 19</i>: we call the drawMonster function with (10, 10) as
     parameters, which will cause the original coordinate system to be
     translated by (10, 10).
 
 -   And if we change the coordinate system (this is what the call
     to ctx.translate(&#41;) does) in a function, it is good practice to
     always save the previous context at the beginning of the function
-    and restore it at the end of the function (<b>lines 27 and 50</b>).
+    and restore it at the end of the function (<i>lines 27 and 50</i>).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-2">2.6.2 Animating</h3>
@@ -11604,7 +11577,7 @@ the <b>moveBall</b> function, the ball passed as a parameter becomes the
 function, we are in reality changing the x value of the global
 object <b>ball</b>! 
 
-Ok, and at *line 5* we call <b>testCollisionBallWithWalls(b)</b>, which
+Ok, and at <i>line 5</i> we call <b>testCollisionBallWithWalls(b)</b>, which
 will test if the ball b hits a vertical or horizontal wall. Let&apos;s see
 an extract of this function now:
 
@@ -11623,7 +11596,7 @@ an extract of this function now:
 12. }
 </pre>
 
-At *line 3* you can see the test that checks if the ball b hits the
+At <i>line 3</i> you can see the test that checks if the ball b hits the
 right side of the canvas. The right wall is at w (the width of the
 canvas) on the X-axis. If we compare (<b>b.x + b.radius</b>) with w, we can
 check if a part of the ball extends beyond the right wall. 
@@ -11644,7 +11617,7 @@ effect if the balls moves, say, 20 pixels per frame or more. The ball
 will never be in a position where the eye can &quot;see it against the
 wall&quot;. This is why experienced game coders know that you just need to
 put the ball &quot;at the contact position&quot;, not to its previous position,
-before reversing the speed value. This is done at *lines 8-9*. Try
+before reversing the speed value. This is done at <i>lines 8-9</i>. Try
 changing <b>speedX</b> to say, 20, and you&apos;ll see what we mean.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11757,19 +11730,19 @@ Let&apos;s look at the new functions we&apos;ve added: 
 
 <h5>Explanations:</h5>
 
--   *Line 2*: in this function, we use an array of random color names
+-   <i>Line 2</i>: in this function, we use an array of random color names
     named colors (you can go on the codePen example and change these
     colors or add new ones).
 
--   *Line 7*: then we compute an index with a random value between 0
+-   <i>Line 7</i>: then we compute an index with a random value between 0
     and colors.length-1. Remember that in an array of n elements, the
     index of the first is always 0 and the index of the last one is
     always equal to the length of the array -1. For example: var myArray
-    = &lbrack;&apos;red&apos;, &apos;blue&apos;, &apos;green&apos;&rbrack;, red is at index 0, green at
-    index 2, while myArray.length = 3, the number of elements in the
-    array.
+    = &lbrack;&apos;red&apos;, &apos;blue&apos;, &apos;green&apos;&rbrack;, 
+	red is at index 0, green at index 2, while myArray.length = 3, the number 
+	of elements in the array.
 
--   *Lines 8 and 11*: once we get a random index in the correct range,
+-   <i>Lines 8 and 11</i>: once we get a random index in the correct range,
     we can return the corresponding color.
 
 <h5>Functions drawAllBalls and moveAllBalls:</h5>
@@ -12047,7 +12020,7 @@ height="2.531516841644794in"}
 26. }
 </pre>
 
-*Line 9* defines a mousemove event listener: the mouseMoved callback
+<i>Line 9</i> defines a mousemove event listener: the mouseMoved callback
 function will be called each time the user moves the mouse on the
 canvas.
 
@@ -12180,23 +12153,23 @@ each ball in the array. Let&apos;s look at this new version:
 
 <h5><b>Explanations:</b></h5>
 
--   <b>Line 3</b>: Look at the iterator;  this time instead of just one
+-   <i>Line 3</i>: Look at the iterator;  this time instead of just one
     parameter (the current element), we&apos;ve added a second optional
     parameter that will be the index of the current element, starting
     from zero.
 
--   <b>Line 10</b>: for each ball in the array, we will
+-   <i>Line 10</i>: for each ball in the array, we will
     call testCollisionWithPlayer(b, index); that will check if there is
     a collision between the ball b and the player. We also pass
     the index of the ball. If a collision occurs, we will have to remove
     the ball from the array, and for that, we will need its index in the
     array.
 
--   <b>Line 15</b> is the collision test, and if it is true (collision with
+-   <i>Line 15</i> is the collision test, and if it is true (collision with
     the player), then the ball dies and we remove it from the array
     using the splice method you can use on arrays.
 
--   <b>Line 22</b>: here it is, we remove the current ball in the array
+-   <i>Line 22</i>: here it is, we remove the current ball in the array
     using balls.splice(position, numberOfElementsToRemove). The positon
     is given by index, and the number of balls to remove is one.
 
@@ -12651,7 +12624,7 @@ number of elements-
 
 <h5>JavaScript arrays are objects and have some useful properties and methods</h5>
 
-Note that in JavaScript, arrays are &quot;objects&quot; (lines 2-3 in the above
+Note that in JavaScript, arrays are &quot;objects&quot; (<i>lines 2-3</i> in the above
 example), which means that they have properties and methods. You can
 access/call them using the &quot;.&quot; operator. Here are the most common
 properties and methods.
@@ -12709,7 +12682,7 @@ for sorting (e.g., sort by age);
 
 <h5>Explanations:</h5>
 
--   <b>Line 17</b> calls <b>persons.sort
+-   <i>Line 17</i> calls <b>persons.sort
     (function_that_compares_two_elements),</b> passing as a unique
     parameter a function that compares two people&apos;s ages. This function
     must return -1 if the first person is younger than the second
@@ -12946,10 +12919,10 @@ end of the string:
 </pre>
 
 -   You cannot use push/pop as this raises an error &quot;is not a
-    function&quot; (*lines 1-5*)
+    function&quot; (<i>lines 1-5</i>)
 
 -   You can try to put elements out of the range of the string: nothing
-    will happen and the string will remain unchanged (*lines 7-17*)
+    will happen and the string will remain unchanged (<i>lines 7-17</i>)
 
 You can&apos;t even modify a character using an index. Strings are &quot;read
 only&quot; when using brackets to access individual characters!
@@ -13518,7 +13491,7 @@ HTML5 audio is composed of several layers:
 
 -   [<b>The &lt;audio&gt; element </b>](https://www.w3.org/wiki/HTML/Elements/audio)is
     useful for embedding an audio player into a Web page. It is
-    dedicated for [streamed audio]{.underline}. It is very similar to
+    dedicated for streamed audio. It is very similar to
     the <b>&lt;video&gt;</b> element, both in its use and in its API.
 
 -   [<b>The &quot;Web Audio API&quot;</b>](https://www.w3.org/TR/webaudio/) is
@@ -13586,7 +13559,7 @@ several &lt;source&gt;&#41;&lt;/source&gt; elements that link to different aud
 formats for the same file. The browser will use the first format it
 recognizes.
 
-<b>Lines 13-17:</b>  we suggest downloading the audio files if the browser
+<i>Lines 13-17:</i>  we suggest downloading the audio files if the browser
 does not support the &lt;audio&gt; element. This is also a best practice!
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13863,18 +13836,18 @@ height="2.7111111111111112in"}
 
 <b>Explanations:</b>
 
--   <b>Lines 7, 9 and 11</b>: we add a click listener to each button, in
+-   <i>Lines 7, 9 and 11</i>: we add a click listener to each button, in
     order to call a JavaScript function when each button is clicked.
 
--   <b>Line 14</b>: using the DOM API, we get the JavaScript object that
+-   <i>Line 14</i>: using the DOM API, we get the JavaScript object that
     corresponds to the video element we inserted in the HTML document.
     This line is not within a function, so will be executed when the
     page loads.
 
--   <b>Lines 17 and 20</b>: we call methods from the API for
+-   <i>Lines 17 and 20</i>: we call methods from the API for
     playing/pausing the video.
 
--   <b>Line 24</b>: we modify the currentTime property in order to rewind
+-   <i>Line 24</i>: we modify the currentTime property in order to rewind
     the video. Note that vid.load() also rewinds the video and shows the
     poster image again, but it also pauses the video. By
     using currentTime=0, the playback does not stop.
@@ -13986,26 +13959,26 @@ P1120973_512kb.mp4&quot;
 
 <h5>Explanations:</h5>
 
--   *Line 9*: the JavaScript array that contains the URLs of the videos
+-   <i>Line 9</i>: the JavaScript array that contains the URLs of the videos
     in the playlist. In this example, we&apos;ve got only two of them, but
     if the array is larger the example still works.
 
--   *Line 44*: when the page is loaded, an <b>init()</b> function is
+-   <i>Line 44</i>: when the page is loaded, an <b>init()</b> function is
     called.
 
--   *Lines 34-40*: we use the <b>DOM</b> to get the JavaScript object
+-   <i>Lines 34-40</i>: we use the <b>DOM</b> to get the JavaScript object
     corresponding to the video element, then define a listener for
     the ended event. Each time a video ends,
     the <b>loadAndplayNextVideo()</b> callback is called. As the video
     element has no src attribute by default, we also preload the first
     video (call to <b>loadNextVideo()</b> at *line 38*).
 
--   *Lines 17-21*: the <b>loadNextVideo()</b> function uses a variable
+-   <i>Lines 17-21</i>: the <b>loadNextVideo()</b> function uses a variable
     called <b>currentVideo</b> that corresponds to the index of the current
     video. By setting <b>myVideo.src = sources &lbrack;currentVideo %
     sources.length&rbrack;</b>, we set the src of the video element to
     sources&lbrack;0&rbrack;, then to sources&lbrack;1&rbrack;, and, as we increment
-    the <b>currentVideo</b> index each time (*line 20*), if it becomes
+    the <b>currentVideo</b> index each time (<i>line 20</i>), if it becomes
     greater than 1, the modulo (the &quot;%&quot; symbol is the modulo in
     JavaScript) will make it &quot;loop&quot; between 0 and the number of videos
     in the playlist. In other words, when the last video ends, it starts
@@ -14411,10 +14384,10 @@ height="1.603632983377078in"}
 12. &lt;/html&gt;
 </pre>
 
--   <b>Lines 5 and 6</b> are the required files to use the Leaflet API
+-   <i>Lines 5 and 6</i> are the required files to use the Leaflet API
     (this is the official name of the OpenStreetMaps API),
 
--   <b>Line 10</b> is the &lt;div&gt; container that will be used to display
+-   <i>Line 10</i> is the &lt;div&gt; container that will be used to display
     the interactive map
 
 <h5>JavaScript part:</h5>
@@ -14459,16 +14432,16 @@ height="1.603632983377078in"}
 36. }
 </pre>
 
--   <b>Line 6</b> uses the [Geolocation
+-   <i>Line 6</i> uses the [Geolocation
     API](https://www.w3.org/TR/geolocation-API/) to get the current
     position, in case of success it calls the success function, passing
     the location as parameter,
 
--   <b>Lines 13 and 14</b> show how to get the longitude and latitude
+-   <i>Lines 13 and 14</i> show how to get the longitude and latitude
     properties from the location,
 
--   The rest is a basic use of the Leaflet API. Notice at <b>line
-    17</b> that &apos;map&apos; is the id of the &lt;div&gt; from the HTML part of the
+-   The rest is a basic use of the Leaflet API. Notice at <i>line
+    17</i> that &apos;map&apos; is the id of the &lt;div&gt; from the HTML part of the
     code.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14499,7 +14472,7 @@ Google reverse geocoding example (screenshot only):
 height="3.261213910761155in"}
 
 Source code of this example (in order to run it, you need a Google API
-key, used at <b>line 6</b>).
+key, used at <i>line 6</i>).
 
 <pre>
 1.  &lt;!DOCTYPE html&gt;
@@ -15130,8 +15103,7 @@ another helped with the graphics, etc.
 The game runs on phones, tablets (using touch events), can be resized,
 rotated, etc. It also uses the multiple asset loader presented.
 
--   [Play it
-    online](https://mainline.i3s.unice.fr/mooc/SkywardBound/) (mouse or
+-   [Play it online](https://mainline.i3s.unice.fr/mooc/SkywardBound/) (mouse or
     fingers)
 
 -   [Or download the source code (multiple
@@ -15708,7 +15680,7 @@ object.
 -   For <b>objects</b>, we talk about <b>properties</b>
 
 -   But <b>a property can also be a function</b>, in which case it is
-    called a <b>[method]{.underline}</b>
+    called a <b>method</b>
 
 <h5>Yes, it is possible for an object&apos;s property to be a function!</h5>
 
@@ -15764,10 +15736,10 @@ height="1.6164534120734908in"}
 11. }
 </pre>
 
-In <b>line 1</b>, we created a simple object named darkVador, that has two
+In <i>line 1</i>, we created a simple object named darkVador, that has two
 properties (race and job) and a method (talk).
 
-In the dvSpeak function, at <b>line 10</b>, we call darkVador&apos;s talk
+In the dvSpeak function, at <i>line 10</i>, we call darkVador&apos;s talk
 method. The syntax is a mix between the one for accessing a property
 (with the &apos;.&apos; operator), and the one for calling a function (with
 parentheses and &apos;;&apos; at the end).
@@ -15991,8 +15963,8 @@ height="3.716346237970254in"}
 </pre>
 
 Notice that we&apos;ve used this followed by the &apos;.&apos; operator every time
-we&apos;ve had to access the current value of an object&apos;s property (<b>lines
-9, 10, 20, 22 and 24</b>).
+we&apos;ve had to access the current value of an object&apos;s property (<i>lines
+9, 10, 20, 22 and 24</i>).
 
 We passed the canvas&apos; graphic context as a parameter to
 the draw method (it&apos;s always good not to create dependencies when
@@ -16077,22 +16049,22 @@ height="1.6137817147856517in"}
 11. };
 </pre>
 
-<b>Lines 5, 6 and 9</b>: we can add properties and methods after the object
-has been created empty at <b>line 2</b>.
+<i>Lines 5, 6 and 9</i>: we can add properties and methods after the object
+has been created empty at <i>line 2</i>.
 
-<h5>Deleting a property or a method<
+<h5>Deleting a property or a method</h5>
 
 You can use the JavaScript keyword &quot;delete&quot; to delete an object&apos;s
 property (it will become undefined).
 
-<h5>Example: {#example-10 .unnumbered}
+<h5>Example:</h5>
 
 ![](./images/image466.png){width="5.0in"
 height="3.3226498250218723in"}
 
 <https://codepen.io/w3devcampus/pen/RpzNEP>
 
-JavaScript code extract:
+<h5>JavaScript code extract:</h5>
 
 <pre>
 1.  function deleteSomeProperties() {
@@ -16379,7 +16351,7 @@ JavaScript source code:
 19. }
 </pre>
 
-*Lines 1-9*: see how the constructor function is declared: the function
+<i>Lines 1-9</i>: see how the constructor function is declared: the function
 name starts with an uppercase letter &apos;<b>H</b>ero&apos;. The parameters have
 the same name as the properties they correspond to (name, side). And in
 the first source code lines after the function declaration, we
@@ -16387,11 +16359,11 @@ initialize some properties using these parameters (*lines 2 and 3*). We
 use the this keyword to distinguish the property and the parameter. You
 will often see things like: this.name = name; this.age = age; etc.
 
-*Lines 11-13*: creation of three heroes. We use the same constructor
+<i>Lines 11-13</i>: creation of three heroes. We use the same constructor
 function (Hero) along with the new keyword. Luke, darkVador and ianSolo
-ARE each a Hero, and share the same properties (name, side, *lines 2 and
-3*) and the same behavior (they can speak, they all have a speak method,
-declared at *line 5*).
+ARE each a Hero, and share the same properties (name, side, <i>lines 2 and
+3</i>) and the same behavior (they can speak, they all have a speak method,
+declared at <i>line 5</i>).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-3">4.3.3 Creating objects using modern JavaScript&apos;s classes (5:11)</h3>
@@ -16545,11 +16517,11 @@ class syntax:
 11. var darkVador = new Hero(&quot;Dark Vador&quot;, &quot;empire&quot;);
 </pre>
 
--   <b>Line 1</b>: a class is simply defined using the
+-   <i>Line 1</i>: a class is simply defined using the
     keyword class followed by the name of the class. Like for
     constructor functions, the convention is to use a noun, capitalized.
 
--   <b>Line 2</b>: the constructor is defined using
+-   <i>Line 2</i>: the constructor is defined using
     the constructor keyword. <b>THERE CAN BE ONLY ONE CONSTRUCTOR in the
     class.</b>  A SyntaxError will be thrown if the class contains more
     than one occurrence of a constructor method. No more use of
@@ -16561,7 +16533,7 @@ object is created using the keyword new followed by the name of the
 class, with arguments between parentheses. These arguments will be
 passed to the constructor.
 
--   <b>Line 7</b>: a method is simply defined by its name followed by its
+-   <i>Line 7</i>: a method is simply defined by its name followed by its
     parameters. <b>Again, no more use of the function keyword.</b>
 
 See below an interactive example that uses an ES6 class to create Star
@@ -16857,7 +16829,7 @@ These special functions are called &quot;getters&quot; and &quot;setters&quot;, 
 declared using the keywords get and set followed by the name of the
 property they define.
 
-Typical use (*lines 7 and 11*):
+<h5>Typical use (<i>lines 7 and 11</i>):</h5>
 
 <pre>
 1.  class Person {
@@ -16893,7 +16865,7 @@ Typical use (*lines 7 and 11*):
 Notice that when you declare get familyName() {&#41;} for example, you
 define implicitly a property whose name is &quot;familyName&quot; and that will
 be accessible using object.familyName, where object is an instance of
-the class. See *lines 22-25* in the example above. Displaying the value
+the class. See <i>lines 22-25</i> in the example above. Displaying the value
 of p1.familyName will call implicitly get familyName(),
 while p1.familyName = &apos;Smith&apos;; will call set familyName(&apos;Smith&apos;);
 
@@ -17175,14 +17147,14 @@ in other projects.
 
 Explanations:
 
--   **Line 6**: the draw function&apos;s content is nearly the same as the
+-   <i>Line 6</i>: the draw function&apos;s content is nearly the same as the
     drawFilledCircle function we previously used. We replaced all c.x,
     c.y etc. by this.x, this.y, to use the properties of the current
     object. This means that when we create a ball with var b = new
     Ball(&#41;); and when we draw it using b.draw(ctx), then this.x will
     be the value of the x property of the ball b, etc.
 
--   **Line 23**: the move function takes no parameter as it will add the
+-   <i>Line 23</i>: the move function takes no parameter as it will add the
     value of the speedX/speedY properties to the current x and y value
     of the current ball.
 
@@ -17701,7 +17673,7 @@ a string by calling toString() implicitly</b>.</p>
 6.  &quot;The object as a String : 1, 2, 3&quot;
 </pre>
 
-**Line 5**: using the + operator with a string as the left argument will
+<i>Line 5</i>: using the + operator with a string as the left argument will
 force the other arguments to convert to string by implicitly calling
 their toString() method.
 
@@ -18302,7 +18274,7 @@ to use the standard syntax:
 
 <h5>Explanations:  {#explanations-10 .unnumbered}
 
--   <b>Line 10</b>: in JavaScript, and in many other programming
+-   <i>Line 10</i>: in JavaScript, and in many other programming
     languages,<b> a string is not modifiable at all</b>.
     <b>When we do var s = s + &quot;hello&quot;, in fact, we are building a new
     string somewhere in memory, and we assign this new value to the
@@ -18775,19 +18747,19 @@ week Michel Buffa&apos;s birthday will occur, between 2017 and 2047:
 
 <h5>Explanations:</h5>
 
--   <b>Line 1</b> we use an array with each element being the number of
+-   <i>Line 1</i> we use an array with each element being the number of
     times the birthday occurs on a Sunday, Monday, etc.
 
--   <b>Line 3</b>: we iterate using a for loop on every year between 2017
+-   <i>Line 3</i>: we iterate using a for loop on every year between 2017
     and 2047.
 
--   <b>Line 4</b>: we build a Date object using 16 of April, but change the
+-   <i>Line 4</i>: we build a Date object using 16 of April, but change the
     year, we compute the date of each of Michel Buffa&apos;s birthdays
     between 2017 and 2045, and we get the index of the day (using
     the getDay() method). This index is used to increment corresponding
-    elements of the array defined in <b>line 1</b>.
+    elements of the array defined in <i>line 1</i>.
 
--   Finally,<b> line 7</b> displays the content of the array. Remember
+-   Finally, <i>line 7</i> displays the content of the array. Remember
      that typing a variable name in the devtool console is equivalent to
     calling the object toString() method.
 
@@ -18882,19 +18854,19 @@ height="1.9636756342957131in"}
 
 </b>Explanations</b>:
 
--   <b>Line 1</b>: this rule says that the table will occupy the width of
+-   <i>Line 1</i>: this rule says that the table will occupy the width of
     the window and will have a black, continuous border that is one
     pixel wide.
 
--   <b>Line 7</b>: this rule says that table rows, table cells and table
+-   <i>Line 7</i>: this rule says that table rows, table cells and table
     headers will also have a border and will use the font family
     Courier.
 
--   <b>Line 12</b>: this says that all cells will have the text
+-   <i>Line 12</i>: this says that all cells will have the text
     horizontally centered and an internal margin (called padding) of
     10px in each direction (top, bottom, left, right).
 
-#### Example #2: with more CSS styling (flat design) {#example-2-with-more-css-styling-flat-design .unnumbered}
+<h5>Example #2: with more CSS styling (flat design)</h5>
 
 ![](./images/image489.png){width="5.0in"
 height="3.0833333333333335in"}
@@ -19736,12 +19708,12 @@ JavaScript object:
 With the JSON representation of an object you cannot access the original
 object&apos;s properties using the &quot;.&quot; operator, nor call its
 methods. <b>The JSON format only stores the list of the object properties
-(name and value) as a string.</b> Look at <b>line 10</b>: we cannot access
+(name and value) as a string.</b> Look at <i>line 10</i>: we cannot access
 the name property of the JSON representation of the metallica object
-defined at <b>line 1</b>.
+defined at <i>line 1</i>.
 
 When we parse a JSON string using JSON.parse(), we get a real JavaScript
-object, and we can access its properties (<b>lines 16 and 19</b>).
+object, and we can access its properties (<i>lines 16 and 19</i>).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-2">5.4.2 Consuming JSON remote data (10:10)</h3>
@@ -19905,19 +19877,19 @@ height="2.8547003499562553in"}
 
 <h5><b>Explanations</b>:</h5>
 
--   <b>Lines 4 and 5</b> build an Ajax request using XhR2.
+-   <i>Lines 4 and 5</i> build an Ajax request using XhR2.
 
--   <b>Line 22</b> is executed after: the request is sent in the background
+-   <i>Line 22</i> is executed after: the request is sent in the background
     (we say &quot;asynchronously&quot;).
 
--   <b>Line 8</b>: when the server answers, this callback is executed, and
+-   <i>Line 8</i>: when the server answers, this callback is executed, and
     inside it, <b>this.response</b> corresponds to the response from the
-    HTTP server. It&apos;s in JSON format (<b>line 9</b>)
+    HTTP server. It&apos;s in JSON format (<i>line 9</i>)
 
--   <b>Line 12</b>: we turn the JSON response into a regular JavaScript
+-   <i>Line 12</i>: we turn the JSON response into a regular JavaScript
     object we can work with, using <b>JSON.parse()</b>.
 
--   <b>Line 13</b>: we pass this list of users, now a JavaScript object, to
+-   <i>Line 13</i>: we pass this list of users, now a JavaScript object, to
     the <b>displayUsersAsATable </b>method, that will use the HTML table
     API we saw earlier in the course.
 
@@ -20185,14 +20157,14 @@ example console.log(c1.name), console.log(c2.email), etc.
 
 -   This is a minimal ES6 class for building a contact manager. It has
     only one property: the list of contacts, and a method for adding a
-    new contact (*line 8*), one for removing a contact (*line 12*), that
+    new contact (<i>line 8</i>), one for removing a contact (<i>line 12</i>), that
     iterate on the list of contacts until the contact passed as a
     parameter is found (when email properties match), then the contact
     is removed using the splice method, and we go out from the loop
-    using the break statement (*line 22*).
+    using the break statement (<i>line 22</i>).
 
 -   It also has a utility method for printing to the console the list of
-    contacts (*line 27*).
+    contacts (<i>line 27</i>).
 
 We can use the contact manager like this:
 
@@ -20303,7 +20275,7 @@ You write data identified by a key in localStorage like this:
 
 -   localStorage.keyName = a string value
 
-In our case, *line 13* saves the list of contacts with a key named
+In our case, <i>line 13</i> saves the list of contacts with a key named
 &quot;contacts&quot; in the local storage. In order to save the list of contacts
 as a string, we convert it to the JSON format using the
  JSON.stringify(&#41;) method (JSON = string based)
@@ -20422,7 +20394,7 @@ CodePen: XhR2 - get a remote list of user's names and emails</a>.</p>
 11. &lt;/html&gt;
 </pre>
 
-The div at *line 9* is where we&apos;re going to dynamically insert an HTML
+The div at <i>line 9</i> is where we&apos;re going to dynamically insert an HTML
 table with one row for each contact. We will keep the same minimal CSS
 for displaying table, row and cell borders (we encourage you to improve
 this):
