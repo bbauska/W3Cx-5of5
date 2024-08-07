@@ -5481,7 +5481,7 @@ with double and closed with simple quotes
 
 <h5>There are many reasons to use simple quotes when possible:</h5>
 
-<ol type="1">
+<ol start="1">
   <li>Double quotes are used in HTML</li>
   <li>You must hold the Shift key to type &quot;</li>
   <li>Single quotes are easier to read and to type</li>
@@ -8959,7 +8959,6 @@ with a new key property (see the following pages of the course).</p>
   style="width:50%"
   title=""
   alt="." />
-<!-- ![](./images/image167.png){width="6.5in" height="2.0631944444444446in"} -->
 
 <h5>HTML:</h5>
 
@@ -10136,8 +10135,7 @@ CodePen Example: querySelector &amp; querySelectorAll</a>.</p>
 images, the first one with an id equal to &quot;img1&quot; (<b><i>lines 11, 14, 16
 and 18</i></b>).</p>
 
-<pre>
-1.  &hellip;
+<pre>1.  &hellip;
 2.  &lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
 3.    Add a border to the first image
 4.  &lt;/button&gt;
@@ -10165,8 +10163,7 @@ margins to all images (<b><i>lines 3-21</i></b>). The two other functions are
 called when one of the HTML buttons is clicked (<b><i>line 23 and line
 31</i></b>).</p>
 
-<pre>
-1.  window.onload = init; // run init once the page is loaded
+<pre>1.  window.onload = init; // run init once the page is loaded
 2.
 3.  function init() {
 4.    // we&apos;re sure that the DOM is ready
@@ -10272,65 +10269,15 @@ a ul of class nav</a>.</p>
 <h5>Example #2: display all checked &lt;input type=&quot;checkbox&quot;&gt; elements
 located inside an element of a given id.</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 330.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 330. show checked items inside an element of a given id (254) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image330.png?raw=true"
   style="width:65%"
-  title=" "
-  alt="." />
+  title="Show Checked items inside an element of a given id"
+  alt="Show Checked items inside an element of a given id." />
+<a href="https://codepen.io/w3devcampus/pen/MpLzqV">CodePen: Show Checked items</a>
 </p>
 <!-- ![](./images/image202.png){width="6.5in" height="4.35625in"} -->
-
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;querySelector and querySelector example 1&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button onclick=&quot;displayListOfCheckedItems();&quot;&gt;Show Checked
-  items&lt;/button&gt;
-&lt;br&gt;
-&lt;ul id=&quot;fruits&quot;&gt;
-&lt;li&gt;
-&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;apples&quot;&gt;Apples
-&lt;/li&gt;
-&lt;li&gt;
-&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;oranges&quot;&gt;
-Oranges
-&lt;/li&gt;
-&lt;li&gt;
-&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;bananas&quot;&gt;
-Bananas
-&lt;/li&gt;
-&lt;li&gt;
-&lt;input type=&quot;checkbox&quot; name=&quot;fruit&quot; value=&quot;grapes&quot;&gt;
-Grapes
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>function displayListOfCheckedItems() {
-// all inputs that have been checked
-var listOfSelectedValues=&quot;&quot;;
-var list = document.querySelectorAll(&quot;#fruits input:checked&quot;);
-list.forEach(function(elm) {
-listOfSelectedValues += elm.value + &quot; &quot;;
-// Put the li in red.
-// the li is the parent of the current input elem stored
-// in the elm variable
-elm.parentNode.style.color = &apos;green&apos;;
-});
-document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
-}
-</pre>
 
 <h5>HTML:</h5>
 
@@ -10377,6 +10324,8 @@ from the &lt;input&gt; child we selected, we use elm.parentNode.</p>
 <p>Finally, at the end of the document, <b>line 14</b> adds a message followed
 by this list:</p>
 
+<h5>JavaScript code:</h5>
+
 <pre>1.  function displayListOfCheckedItems() {
 2.    // all inputs that have been checked
 3.    var listOfSelectedValues=&quot;&quot;;
@@ -10394,16 +10343,31 @@ by this list:</p>
 15. }
 </pre>
 
+<p>We select all elements of type input that have an attribute checked equal to true, 
+and located inside an element whose id is "fruits". Notice the use of 
+<b>document.querySelectorAll</b>, for selecting more than one element (<i>line 6</i>), then, we 
+iterate on the list (<i>line 8</i>) and concatenate to the string variable <b>listOfSelectedValues</b> 
+the value of each element (located in its value attribute). This is done in <i>line 9</i>.</p>
+
+<p><i>Lines 9-12</i> use the parentNode property of the selected nodes in order 
+to change the color of the &lt;li&gt; (parents of &lt;input&gt; elements selected) in red. 
+In the DOM tree, we selected input elements that are each a child of a &lt;li&gt; element. 
+The text displayed: "Apples", "Oranges" etc. belong to the &lt;li&gt; element. In order 
+to access it from the &lt;input&gt; child we selected, we use elm.parentNode.</p>
+
+<p>Finally, at the end of the document, line 14 adds a message followed by this list:</p>
+
 <h4>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 331.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 331. CodePen: Change background of p under element by id (256) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image331.png?raw=true"
   style="width:65%"
-  title=" "
-  alt="." />
+  title="CodePen: Change background of all paragraphs in element of a given id"
+  alt="CodePen: Change background of all paragraphs in element of a given id." />
+<a href="https://codepen.io/w3devcampus/pen/LWqqqm">
+CodePen: Change background of p under element id</a>
 </p>
-<!-- ![](./images/image203.png){width="6.5in" height="2.6972222222222224in"} -->
 
 <h5>HTML code:</h5>
 
@@ -10431,28 +10395,35 @@ paragraphs (<i>line 6</i>).</p>
 
 <pre>1.  function changeBackGroundOfPs(id) {
 2.    var paragraphs = document.querySelectorAll(&quot;#&quot; + id + &quot; p&quot;);
-3.    // Another way to iterate on all elements in a collection
-4.    for (var i = 0; i &lt; paragraphs.length; i++ ) {
-5.      paragraphs[i].style.backgroundColor = &quot;lightGreen&quot;;
-6.    }
-7.  }
+3.
+4.    // Another way to iterate on all elements in a collection
+5.    for (var i = 0; i &lt; paragraphs.length; i++ ) {
+6.      paragraphs[i].style.backgroundColor = &quot;lightGreen&quot;;
+7.    }
+8.  }
 </pre>
 
 <h5>Other examples that use more complex selectors:</h5>
 
 <pre>1.  // all elements li in ul elements in an element of id=nav
 2.  var el = document.querySelector(&apos;#nav ul li&apos;);
-3.  // all li in a ul, but only even elements
-4.  var els = document.querySelectorAll(&apos;ul li:nth-child(even)&apos;);
-5.  // all td directly in tr in a form of class test
-6.  var els = document.querySelectorAll(&apos;form.test &gt; tr &gt; td&apos;);
-7.  // all paragraphs of class warning or error
-8.  querySelectorAll(&quot;p.warning, p.error&quot;);
-9.  // first element of id=foo or id=bar
-10. querySelector(&quot;#foo, #bar&quot;);
-11. // first p in a div
-12. var div = document.getElementById(&quot;bar&quot;);
-13. var p = div.querySelector(&quot;p&quot;);
+3.
+4.  // all li in a ul, but only even elements
+5.  var els = document.querySelectorAll(&apos;ul li:nth-child(even)&apos;);
+6.
+7.
+8.  // all td directly in tr in a form of class test
+9.  var els = document.querySelectorAll(&apos;form.test &gt; tr &gt; td&apos;);
+10. 
+11. // all paragraphs of class warning or error
+12. querySelectorAll(&quot;p.warning, p.error&quot;);
+13. 
+14. // first element of id=foo or id=bar
+15. querySelector(&quot;#foo, #bar&quot;);
+16.
+17. // first p in a div
+18. var div = document.getElementById(&quot;bar&quot;);
+19. var p = div.querySelector(&quot;p&quot;);
 </pre>
 
 <h4>Accessing HTML elements with the DOM API (old fashioned)</h4>
@@ -10559,17 +10530,18 @@ about CSS):</p>
 
 <p>Here are some examples:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 332.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 332. codepen: update styles (259) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image332.png?raw=true"
   style="width:65%"
-  title=" "
-  alt="." />
+  title="Update style within html document"
+  alt="Update style within html document." />
+<a href="https://codepen.io/w3devcampus/pen/evxoQq">CodePen: Update styles in document</a>
 </p>
 
 <h4>Using the ClassList interface to change more than one CSS property simultaneously</h4>
 
-<h4>External resources:</h4>
+<h5>External resources:</h5>
 
 <ul>
   <li><a href="https://www.w3.org/TR/dom/#dom-element-classlist">
@@ -10588,28 +10560,34 @@ object and by providing a set of methods to manipulate its content.</p>
 <p>The classList property applies to an HTML element, and returns a
 collection of class names:</p>
 
-<pre>1.  var elem= document.querySelector(&quot;#id1&quot;);
-2.  var allClasses = elem.<b>classList</b>;
+<pre>1. var elem= document.querySelector(&quot;#id1&quot;);
+2. 
+3. var allClasses = elem.<b>classList</b>;
 </pre>
 
 <h5>The classList API</h5>
 
-<pre>3.  The list of methods usable on a classList object are add(),
-    remove(), toggle() and contains().
-4.  // By default, start without a class in the div: &lt;div class=&quot;&quot;/&gt;
-5.  // Set &quot;foo&quot; as the class by adding it to the classList
-6.  div.classList.add(&apos;foo&apos;); // now &lt;div class=&quot;foo&quot;/&gt;
-7.  // Check that the classList contains the class &quot;foo&quot;
-8.  div.classList.contains(&apos;foo&apos;); // returns true
+<pThe list of methods usable on a classList object are add(), remove(), toggle() and contains().</p>
+
+<pre>
+1.  // By default, start without a class in the div: &lt;div class=&quot;&quot;/&gt;
+2. 
+3.  // Set &quot;foo&quot; as the class by adding it to the classList
+4.  div.classList.add(&apos;foo&apos;); // now &lt;div class=&quot;foo&quot;/&gt;
+5.
+6.  // Check that the classList contains the class &quot;foo&quot;
+7.  div.classList.contains(&apos;foo&apos;); // returns true
+8.
 9.  // Remove the class &quot;foo&quot; from the list
 10. div.classList.remove(&apos;foo&apos;); // now &lt;div class=&quot;&quot;/&gt;
-11. // Check if classList contains the class &quot;foo&quot;
-12. div.classList.contains(&apos;foo&apos;); // returns false: &quot;foo&quot; is gone
-13. // Check if class contains the class &quot;foo&quot;,
-14. // If it does, &quot;foo&quot; is removed, if it doesn&apos;t, it&apos;s added
-15. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div
-    class=&quot;foo&quot;/&gt;
-16. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div class=&quot;&quot;/&gt;
+11.
+12. // Check if classList contains the class &quot;foo&quot;
+13. div.classList.contains(&apos;foo&apos;); // returns false: &quot;foo&quot; is gone
+14.
+15. // Check if class contains the class &quot;foo&quot;,
+16. // If it does, &quot;foo&quot; is removed, if it doesn&apos;t, it&apos;s added
+17. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div class=&quot;foo&quot;/&gt;
+18. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div class=&quot;&quot;/&gt;
 </pre>
 
 <h4>Another example: add and remove multiple CSS properties in a list of checkboxes</h4>
@@ -10634,10 +10612,10 @@ change the text color, we use a CSS class named &quot;checked&quot;:</p>
 3.  background-color: green;
 4.  color:yellow;
 5.  }
-&hellip; and
-the classList.add(CSS_class) and classList.remove(CSS_class) methods on
-the &lt;li&gt; elements:
 </pre>
+
+<p>&hellip; and the classList.add(CSS_class) and classList.remove(CSS_class) 
+methods on the &lt;li&gt; elements:</p>
 
 <h5>JavaScript code:</h5>
 
@@ -10654,22 +10632,20 @@ the &lt;li&gt; elements:
 11.     document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
 12.   }
 13. }
-</pre>
-
-<pre>function reset() {
-  var list = document.querySelectorAll(&quot;#fruits input&quot;);
-  list.forEach(function(elm) {
-    &gt; // uncheck
-    &gt;
-    &gt; elm.checked = false;
-    &gt;
-    &gt; <b>// remove CSS decoration</b>
-    &gt;
-    &gt; <b>var liParent = elm.parentNode;</b>
-    &gt;
-    &gt; <b>liParent.classList.remove(&quot;checked&quot;);</b>
-  });
-}
+14. function reset() {
+15.   var list = document.querySelectorAll(&quot;#fruits input&quot;);
+16.   list.forEach(function(elm) {
+17.     &gt; // uncheck
+18.     &gt;
+19.     &gt; elm.checked = false;
+20.     &gt;
+21.     &gt; <b>// remove CSS decoration</b>
+22.     &gt;
+23      &gt; <b>var liParent = elm.parentNode;</b>
+24.     &gt;
+25.     &gt; <b>liParent.classList.remove(&quot;checked&quot;);</b>
+26.   });
+27. }
 </pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10706,10 +10682,10 @@ There are subtle differences that can be seen in the above example
 (click the &apos;edit on CodePen&quot; part on the top left, and once in
 codePen, open the devtool console):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 315. exclamation in red triangle (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 335.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image315.png?raw=true"
-  style="width:25%"
+  style="width:65%"
   title=" "
   alt="." />
 </p>
@@ -10799,10 +10775,10 @@ field, etc.</p>
 
 <p>This example shows some of the things we can do:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 237.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 336.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image237.png?raw=true"
-  style="width:50%"
+<img src="./images/image336.png?raw=true"
+  style="width:65%"
   title="https://codepen.io/w3devcampus/pen/RpdjwE"
   alt="https://codepen.io/w3devcampus/pen/RpdjwE." />
 </p>
