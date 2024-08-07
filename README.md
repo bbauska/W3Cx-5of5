@@ -1001,11 +1001,11 @@ The first thing screen readers say when the user goes to a different Web
 page is the page title. In the Web page markup, they are the &lt;title&gt;
 within the &lt;head&gt;.</p>
 
-<p><i>Check #1</i>: There is a title that adequately and briefly describes the
+<p><b>Check #1</b>: There is a title that adequately and briefly describes the
 content of a page, and that it distinguishes the page from other Web
 pages.</p>
 
-<h5><b>Example</b>:</h5>
+<h5>Example:</h5>
 
 <pre>&lt;head&gt;
   ...
@@ -1014,7 +1014,7 @@ pages.</p>
 &lt;/head&gt;
 </pre>
 
-<h4>Example 2: image text alternatives (&quot;alt text&quot;)</h4>
+<p><b>Example 2</b>: image text alternatives (&quot;alt text&quot;)</p>
 
 <p>Text alternatives (&quot;alt text&quot;) are a primary way of making visual
 information accessible, because they can be rendered through any sensory
@@ -1024,7 +1024,7 @@ rendered in a variety of ways by a variety of user agents. For example,
 a person who cannot see a picture can have the text alternative read
 aloud using synthesized speech.</p>
 
-<h4><b>Check #2: Every image has </b>alt<b> with appropriate alternative text.</b></h4>
+<h5>Check #2: Every image has <b>alt<b> with appropriate alternative text.</h5>
 
 <p><b>Example</b>: See the W3C logo below. It contains a link that points to
 the W3C Web site. The text alternative is going to be a brief
@@ -10895,13 +10895,13 @@ document.body.append(img); // adds the image at the end of the document
   title=" "
   alt="." />
 </p>
-**https://codepen.io/w3devcampus/pen/aWeqzO**
+<b>https://codepen.io/w3devcampus/pen/aWeqzO</b>
 
 The DOM API comes with a set of methods you can use on DOM elements.
 
 In general, to add new nodes to the DOM we follow these steps:
 
-1.  Create a new element by calling the **createElement**() method,
+1.  Create a new element by calling the <b>createElement</b>() method,
     using a syntax like:
 
 
@@ -10949,7 +10949,7 @@ In general, to add new nodes to the DOM we follow these steps:
 5.  document.body.append(img); // adds the image at the end of the
     document
 
-<h5>Example #1: use of the **createElement(), append()** methods and of the **textContent** attribute {#example-1-use-of-the-createelement-append-methods-and-of-the-textcontent-attribute .unnumbered}
+<h5>Example #1: use of the <b>createElement(), append()</b> methods and of the <b>textContent</b> attribute {#example-1-use-of-the-createelement-append-methods-and-of-the-textcontent-attribute .unnumbered}
 
 ![](./images/image337.png){width="5.0in"
 height="2.486111111111111in"}
@@ -11050,7 +11050,7 @@ height="1.9294870953630796in"}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-7">2.5.7 Moving HTML elements in the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-The **append()**, **appendChild()** methods normally adds  a new element
+The <b>append()</b>, <b>appendChild()</b> methods normally adds  a new element
 to an existing one, as shown in this example:
 
 <pre>
@@ -11063,7 +11063,7 @@ element, but rather get it from somewhere else in the document, it is
 then removed from its parents and added to the new parent.
 
 In other words: it moves from its original location to become a child of
-the **targetElem.**
+the <b>targetElem.</b>
 
 <h5>Examples</h5>
 
@@ -11092,7 +11092,7 @@ dragged image to the div, while removing it from its original location.
 ![](./images/image340.png){width="5.0in"
 height="2.5422003499562553in"}
 
-[**https://codepen.io/w3devcampus/pen/xwxEZg**](https://codepen.io/w3devcampus/pen/xwxEZg)
+[<b>https://codepen.io/w3devcampus/pen/xwxEZg</b>](https://codepen.io/w3devcampus/pen/xwxEZg)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-8">2.5.8 Removing elements from the DOM</h3>
@@ -11106,16 +11106,16 @@ will check the elements you want to remove from the list!
 ![](./images/image341.png){width="5.0in"
 height="2.4294870953630796in"}
 
-[**https://codepen.io/w3devcampus/pen/NpJxdX**](https://codepen.io/w3devcampus/pen/NpJxdX)
+[<b>https://codepen.io/w3devcampus/pen/NpJxdX</b>](https://codepen.io/w3devcampus/pen/NpJxdX)
 
 JavaScript code extract: we need to get the &lt;ul&gt; that contains all
-the &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;&lt;/li&gt; elements (**line 3**). This
-is the element we will use for calling **removeChild(&#133;)**. The loop
-on the checked element (**lines 5-12**) iterates on a list of checked
+the &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;&lt;/li&gt; elements (<b>line 3</b>). This
+is the element we will use for calling <b>removeChild(&#133;)</b>. The loop
+on the checked element (<b>lines 5-12</b>) iterates on a list of checked
 input elements. In order to make both the text (Apples, Oranges, etc.)
 AND the checkbox disappears, we need to access the
 different &lt;li&gt; elements that contain the selected checkboxes. This is
-done in *line 10*. Then, we can call **ul.removeChild(li)** on
+done in *line 10*. Then, we can call <b>ul.removeChild(li)</b> on
 the &lt;ul&gt; for removing the &lt;li&gt; that contains the selected element
 (*line 11*). 
 
@@ -11138,9 +11138,9 @@ the &lt;ul&gt; for removing the &lt;li&gt; that contains the selected elemen
 <h5>Removing all children of an element using the innerHTML property</h5>
 
 In the same example, if you look at the reset() JavaScript function, we
-use the ul&apos;s innerHTML property both for emptying the list (**lines
-3-4**) and for appending to it all the initial HTML code (**lines
-6-17**):
+use the ul&apos;s innerHTML property both for emptying the list (<b>lines
+3-4</b>) and for appending to it all the initial HTML code (<b>lines
+6-17</b>):
 
 <pre>
 1.  function reset() {
@@ -11193,7 +11193,7 @@ A typical HTML code for adding a canvas to a Web page:
 10. &lt;/html&gt;
 </pre>
 
-The canvas declaration is at **line 8**. Use attributes to give it
+The canvas declaration is at <b>line 8</b>. Use attributes to give it
 a width and a height, but unless you add some CSS properties, you will
 not see it on the screen because it&apos;s transparent!
 
@@ -11208,24 +11208,24 @@ around it:
 
 And here is a reminder of best practices when using the canvas:
 
-1.  **Use a function that is called AFTER the page is fully
-    loaded** (and the DOM is ready), select the canvas in the DOM (this
+1.  <b>Use a function that is called AFTER the page is fully
+    loaded</b> (and the DOM is ready), select the canvas in the DOM (this
     is the init function (as in window.onload = init) we already saw
     many times).
 
-2.  **Then, get a 2D graphic context for this canvas** (the context is
+2.  <b>Then, get a 2D graphic context for this canvas</b> (the context is
     an object we will use to draw on the canvas, to set global
     properties such as color, gradients, patterns and line width).
 
-3.  **Only then can you can draw something**.
+3.  <b>Only then can you can draw something</b>.
 
-4.  **Do not forget to use global variables for the canvas and context
-    objects.** I also recommend keeping the width and height of the
+4.  <b>Do not forget to use global variables for the canvas and context
+    objects.</b> I also recommend keeping the width and height of the
     canvas somewhere. These might be useful later.
 
-5.  **For each function that will change the context (color, line width,
+5.  <b>For each function that will change the context (color, line width,
     coordinate system, etc.), start by saving the context, and end by
-    restoring it.**
+    restoring it.</b>
 
 <h5>Examples</h5>
 
@@ -11270,50 +11270,50 @@ height="3.1068372703412073in"}
 31. }
 </pre>
 
-<h5>**Explanations:**</h5>
+<h5><b>Explanations:</b></h5>
 
-1.  We use a function (**line 4**) called after the page is loaded (we
-    say &quot;after the DOM is ready&quot;), so that the querySelector at **line
-    6** will return the canvas.  If the page was not completely loaded
+1.  We use a function (<b>line 4</b>) called after the page is loaded (we
+    say &quot;after the DOM is ready&quot;), so that the querySelector at <b>line
+    6</b> will return the canvas.  If the page was not completely loaded
     and if this code had been run before it had finished loading, the
     canvas value would have been &quot;undefined&quot;.
 
-2.  Once we have the canvas, we request a &quot;graphic context&quot; (**line
-    8**). This is a variable for 2D or 3D  drawing on a canvas (in our
+2.  Once we have the canvas, we request a &quot;graphic context&quot; (<b>line
+    8</b>). This is a variable for 2D or 3D  drawing on a canvas (in our
     case: 2D!) that we will use for drawing or setting colors, line
     widths, text fonts, etc.
 
 3.  Then we can draw. Here we show only a few things you can do with the
     canvas API, but believe me, you can do much more (draw images,
     gradients, textures, etc.)!
-    At **line 15,** we draw a filled rectangle. Parameters are the x and
+    At <b>line 15,</b> we draw a filled rectangle. Parameters are the x and
     y coordinates of the top left corner (x goes to the right, y to the
     bottom of your screen), and the width and the height of the
-    rectangle. At **line 14,** we used the fillStyle property of the
+    rectangle. At <b>line 14,</b> we used the fillStyle property of the
     context to set the color of filled shapes. This means: &quot;now, all
     filled shapes you are going to draw will be in red!&quot;. It&apos;s like a
     global setting.
 
-4.  **Lines 17-20** draw a green wireframe rectangle, with a line width
+4.  <b>Lines 17-20</b> draw a green wireframe rectangle, with a line width
     equal to 4 pixels. Notice the use of &quot;stroke&quot; instead of &quot;fill&quot;
     in the property name strokeStyle/fillStyle and in the context method
     for drawing a rectangle strokeRect/fillRect.
 
-5.  **Lines 23-25** draw a filled circle. The syntax is a bit different
+5.  <b>Lines 23-25</b> draw a filled circle. The syntax is a bit different
     as circles are parts of a &quot;path&quot; (see the HTML5 fundamentals
     course, we explain the concept of &quot;path&quot; in the canvas API). Just
     keep in mind for now that before drawing a circle you need to
     call beginPath(). The call to arc(x, y, radius, start_angle,
     end_angle) does not draw the circle, it defines it. The next
-    instruction ctx.fill() at **line 25** will draw all shapes that have
+    instruction ctx.fill() at <b>line 25</b> will draw all shapes that have
     been defined since a new path began, as filled shapes.
     Calling ctx.stroke() here, instead of ctx.fill() would have drawn a
     wireframe circle instead of a filled one. Also note that the filled
     circle is red even if we did not specify the color. Remember that we
-    set ctx.fillStyle = &apos;red&apos; at **line 14**. Unless we change this,
+    set ctx.fillStyle = &apos;red&apos; at <b>line 14</b>. Unless we change this,
     all filled shapes will be red.
 
-6.  **Lines 28-30** draw a filled text. The call to filltext(message, x,
+6.  <b>Lines 28-30</b> draw a filled text. The call to filltext(message, x,
     y) draws a filled text at the x,y position; this time in purple as
     we called ctx.fillStyle=&apos;purple&apos; before calling fillText(&#41;)
 
@@ -11322,9 +11322,9 @@ height="3.1068372703412073in"}
 ![](./images/image344.png){width="5.0in"
 height="4.1442311898512685in"}
 
-**https://codepen.io/w3devcampus/pen/EWMbmE**
+<b>https://codepen.io/w3devcampus/pen/EWMbmE</b>
 
-<h5>**Explanations:**</h5>
+<h5><b>Explanations:</b></h5>
 
 This time we&apos;ve written two functions for a cleaner code: one function
 that draws a filled rectangle with a given color, and one function that
@@ -11359,7 +11359,7 @@ saving/restoring the context and using ctx.translate(x, y)!
 ![](./images/image345.png){width="5.0in"
 height="5.224359142607174in"}
 
-**https://codepen.io/w3devcampus/pen/aJMMzL**
+<b>https://codepen.io/w3devcampus/pen/aJMMzL</b>
 
 Here is JavaScript code that implements these best practices:
 
@@ -11475,23 +11475,23 @@ using the default color (black) and wireframe and filled modes:
 
 -   ctx.strokeRect(x, y, width, height): same but in wireframe mode.
 
--   Note that we use (**line 30**) ctx.translate(x, y) to make it easier
+-   Note that we use (<b>line 30</b>) ctx.translate(x, y) to make it easier
     to move the monster around. All the drawing instructions are coded
     as if the monster was in (0, 0), at the top left corner of the
-    canvas (look at **line 33**). We draw the body outline with a
+    canvas (look at <b>line 33</b>). We draw the body outline with a
     rectangle starting from (0, 0). Calling context.translate &quot;changes
     the coordinate system&quot; by moving the &quot;old (0, 0)&quot; to (x, y) and
     keeping other coordinates in the same position relative to the
     origin.
 
--   **Line 19**: we call the drawMonster function with (10, 10) as
+-   <b>Line 19</b>: we call the drawMonster function with (10, 10) as
     parameters, which will cause the original coordinate system to be
     translated by (10, 10).
 
 -   And if we change the coordinate system (this is what the call
     to ctx.translate(&#41;) does) in a function, it is good practice to
     always save the previous context at the beginning of the function
-    and restore it at the end of the function (**lines 27 and 50**).
+    and restore it at the end of the function (<b>lines 27 and 50</b>).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-2">2.6.2 Animating</h3>
@@ -11534,7 +11534,7 @@ the CodePen example below:
 ![](./images/image346.png){width="5.0in"
 height="5.65491469816273in"}
 
-**https://codepen.io/w3devcampus/pen/PpLLKY**
+<b>https://codepen.io/w3devcampus/pen/PpLLKY</b>
 
 <h5>Example #2: bouncing ball</h5>
 
@@ -11543,7 +11543,7 @@ Here the balls bounce on the sides of the canvas (walls).
 ![](./images/image347.png){width="5.0in"
 height="6.579594269466317in"}
 
-**https://codepen.io/w3devcampus/pen/OpqqqM**
+<b>https://codepen.io/w3devcampus/pen/OpqqqM</b>
 
 <h5>Explanations: {#explanations-2 .unnumbered}
 
@@ -11570,9 +11570,9 @@ rectangles, and we&apos;ve called them &quot;player&quot; and &quot;ball&quot;:
 </pre>
 
 With this syntax, it&apos;s easier to manipulate &quot;the x pos of the ball&quot; -
-you just have to use **ball.x**. we added two properties to the ball
-object: **speedX** and **speedY**. Their value is the number of pixels
-that will be added to the current **ball.x** and **ball.y** position, at
+you just have to use <b>ball.x</b>. we added two properties to the ball
+object: <b>speedX</b> and <b>speedY</b>. Their value is the number of pixels
+that will be added to the current <b>ball.x</b> and <b>ball.y</b> position, at
 each frame of animation.
 
 Let&apos;s look at the animation loop:
@@ -11582,12 +11582,12 @@ Let&apos;s look at the animation loop:
 2.  // 1 - clear the canvas
 3.  ctx.clearRect(0, 0, w, h);
 4.  
-5.  **// draw the ball and the player**
-6.  **drawFilledRectangle(player);**
-7.  **drawFilledCircle(ball);**
+5.  <b>// draw the ball and the player</b>
+6.  <b>drawFilledRectangle(player);</b>
+7.  <b>drawFilledCircle(ball);</b>
 8.  
-9.  **// animate the ball that is bouncing all over the walls**
-10. **moveBall(ball);**
+9.  <b>// animate the ball that is bouncing all over the walls</b>
+10. <b>moveBall(ball);</b>
 11. 
 12. // ask for a new animation frame
 13. requestAnimationFrame(mainLoop);
@@ -11599,10 +11599,10 @@ make it more readable. At each frame of animation, we will clear the
 canvas, draw the player as a rectangle, draw the ball as a circle, and
 move the ball. 
 
-You can take a look at the new versions of **drawFilledRectangle** that
+You can take a look at the new versions of <b>drawFilledRectangle</b> that
 now take only one parameter named r, instead of x, y, width, height and
 a color. We&apos;ve only changed a few things in its code (changed
-x to **r.x,** y to **r.y,** color to **r.color** etc.)
+x to <b>r.x,</b> y to <b>r.y,</b> color to <b>r.color</b> etc.)
 
 Let&apos;s look at the moveBall function:
 
@@ -11616,16 +11616,16 @@ Let&apos;s look at the moveBall function:
 </pre>
 
 This function is called 60 times per second. So, 60 times per second we
-modify the **b.x** and **b.y** positions of the ball passed as parameter
-by adding to them the **b.speedX** and **b.speedY** property values.
+modify the <b>b.x</b> and <b>b.y</b> positions of the ball passed as parameter
+by adding to them the <b>b.speedX</b> and <b>b.speedY</b> property values.
 
-Notice that we call **moveBall(ball)** from **mainLoop**. In
-the **moveBall** function, the ball passed as a parameter becomes the
-**b** parameter. So, when we change the **b.x** value inside the
+Notice that we call <b>moveBall(ball)</b> from <b>mainLoop</b>. In
+the <b>moveBall</b> function, the ball passed as a parameter becomes the
+<b>b</b> parameter. So, when we change the <b>b.x</b> value inside the
 function, we are in reality changing the x value of the global
-object **ball**! 
+object <b>ball</b>! 
 
-Ok, and at *line 5* we call **testCollisionBallWithWalls(b)**, which
+Ok, and at *line 5* we call <b>testCollisionBallWithWalls(b)</b>, which
 will test if the ball b hits a vertical or horizontal wall. Let&apos;s see
 an extract of this function now:
 
@@ -11646,43 +11646,43 @@ an extract of this function now:
 
 At *line 3* you can see the test that checks if the ball b hits the
 right side of the canvas. The right wall is at w (the width of the
-canvas) on the X-axis. If we compare (**b.x + b.radius**) with w, we can
+canvas) on the X-axis. If we compare (<b>b.x + b.radius</b>) with w, we can
 check if a part of the ball extends beyond the right wall. 
 
 Remember that each 1/60th of a second, the ball moves a certain number
-of pixels to the right (the exact value is **b.speedX**). Imagine that
+of pixels to the right (the exact value is <b>b.speedX</b>). Imagine that
 the ball moves 10 pixels to the right at each frame of animation. At
 some point, it will &quot;cross the right wall&quot;. We cannot just change the
-sign of **b.speedX** to make it go to the other side. If we did this, it
+sign of <b>b.speedX</b> to make it go to the other side. If we did this, it
 may stay stuck against the side with one half of the ball on either side
 of the wall. 
 
-If we now remove **b.speedX** to the **ball.x position**, we return the
+If we now remove <b>b.speedX</b> to the <b>ball.x position</b>, we return the
 ball to the position it was in before it hit the wall. If we
-then reverse **speedX**, the ball will indeed start moving with a
+then reverse <b>speedX</b>, the ball will indeed start moving with a
 reverse horizontal speed. This will work but can give a strange visual
 effect if the balls moves, say, 20 pixels per frame or more. The ball
 will never be in a position where the eye can &quot;see it against the
 wall&quot;. This is why experienced game coders know that you just need to
 put the ball &quot;at the contact position&quot;, not to its previous position,
 before reversing the speed value. This is done at *lines 8-9*. Try
-changing **speedX** to say, 20, and you&apos;ll see what we mean.
+changing <b>speedX</b> to say, 20, and you&apos;ll see what we mean.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-3">2.6.3 Animating multiple objects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let&apos;s animate balls and let&apos;s start with 3 the animation of 3 balls:
-**ball1, ball2 and ball3.**
+<b>ball1, ball2 and ball3.</b>
 In the animation loop, we draw and move these three balls. Here is the
 result:
 
 ![](./images/image348.png){width="5.0in"
 height="2.511751968503937in"}
 
-**https://codepen.io/w3devcampus/pen/bqZypx**
+<b>https://codepen.io/w3devcampus/pen/bqZypx</b>
 
-**Extract of the source code: the mainLoop function**
+<b>Extract of the source code: the mainLoop function</b>
 
 <pre>
 1.  function mainLoop() {
@@ -11713,7 +11713,7 @@ lines that draw and move the balls 100 times!
 moving any number of balls!</h4>
 
 New version: look at
-the **createBalls, drawBalls** and **moveBalls** functions now!
+the <b>createBalls, drawBalls</b> and <b>moveBalls</b> functions now!
 
 ![](./images/image349.png){width="5.0in"
 height="4.447115048118985in"}
@@ -11722,7 +11722,7 @@ https://codepen.io/w3devcampus/pen/jBJoLo
 
 Let&apos;s look at the new functions we&apos;ve added: 
 
-**createBalls(numberOfBalls),** returns an array of balls:
+<b>createBalls(numberOfBalls),</b> returns an array of balls:
 
 <pre>
 1.  function createBalls(n) {
@@ -11853,41 +11853,41 @@ listen to.
 <h4>The different mouse events (reminder)</h4>
 
 In the last example, we saw how to detect
-the **mouseup** and **mousedown** events.
+the <b>mouseup</b> and <b>mousedown</b> events.
 
 There are other events related to the mouse:
 
--   **mouseleave**: similar to **mouseout**, fired when the mouse leaves
+-   <b>mouseleave</b>: similar to <b>mouseout</b>, fired when the mouse leaves
     the surface of the element. The difference
-    between **mouseleave** and **mouseout** is that **mouseleave** does
+    between <b>mouseleave</b> and <b>mouseout</b> is that <b>mouseleave</b> does
     not fire when the cursor moves over descendant elements,
     and mouseout is fired when the element the cursor moves to
     is outside the bounds of the original element or is a child of the
     original element.
 
--   **mouseover**: the mouse cursor is moving over the element that
-    listens to that event. A **mouseover** event occurs on an element
+-   <b>mouseover</b>: the mouse cursor is moving over the element that
+    listens to that event. A <b>mouseover</b> event occurs on an element
     when you are over it - coming from either its child OR parent
-    element, but a **mouseenter** event only occurs when the mouse moves
+    element, but a <b>mouseenter</b> event only occurs when the mouse moves
     from the parent element to the child element.
 
--   **mousedown**: fired when a mouse button is pressed.
+-   <b>mousedown</b>: fired when a mouse button is pressed.
 
--   **mouseup**: fired when a mouse button is released.
+-   <b>mouseup</b>: fired when a mouse button is released.
 
--   **mouseclick**: fired after a **mousedown** and a **mouseup** have
+-   <b>mouseclick</b>: fired after a <b>mousedown</b> and a <b>mouseup</b> have
     occured.
 
--   **mousemove**: fired while the mouse moves over the element. Each
+-   <b>mousemove</b>: fired while the mouse moves over the element. Each
     time the mouse moves, a new event is fired,
-    unlike with **mouseover** or **mouseenter**, where only one event is
+    unlike with <b>mouseover</b> or <b>mouseenter</b>, where only one event is
     fired.
 
 <h4>The tricky part: getting the position of the mouse relative to the canvas</h4>
 
 When you listen to any of the above events, the event object (we call it
 a &quot;DOM event&quot;), passed to the listener function, has properties that
-correspond to the mouse coordinates: **clientX** and **clientY**.
+correspond to the mouse coordinates: <b>clientX</b> and <b>clientY</b>.
 
 However, these are what we call &quot;viewport coordinates&quot;. Instead of
 being relative to the canvas itself, they are relative to the viewport
@@ -11900,32 +11900,32 @@ position of the canvas in the viewport, and the CSS properties that may
 affect the canvas position (margin, etc.).
 
 Fortunately, there is a method for getting the position and size of any
-element in the viewport: **getBoundingClientRect**().
+element in the viewport: <b>getBoundingClientRect</b>().
 
 Here is an example that shows the problem:
 
 ![](./images/image351.png){width="5.0in"
 height="2.060363079615048in"}
 
-[**https://codepen.io/w3devcampus/pen/Wpmqdw**](https://codepen.io/w3devcampus/pen/Wpmqdw)
+[<b>https://codepen.io/w3devcampus/pen/Wpmqdw</b>](https://codepen.io/w3devcampus/pen/Wpmqdw)
 
 <h5>WRONG code used in this example:</h5>
 
 <pre>
 1.  &#41;
-2.  **canvas.addEventListener(&apos;mousemove&apos;, function (evt) {**
-3.  **mousePos = getMousePos(canvas, evt);**
+2.  <b>canvas.addEventListener(&apos;mousemove&apos;, function (evt) {</b>
+3.  <b>mousePos = getMousePos(canvas, evt);</b>
 4.  var message = &apos;Mouse position:
     &apos; + mousePos.x + &apos;,&apos; + mousePos.y;
 5.  writeMessage(canvas, message);
 6.  }, false);
 7.  
 8.  &#41;
-9.  **function getMousePos(canvas, evt) {**
-10. **// WRONG!!!**
+9.  <b>function getMousePos(canvas, evt) {</b>
+10. <b>// WRONG!!!</b>
 11. return {
-12. **x: evt.clientX,**
-13. **y: evt.clientY**
+12. <b>x: evt.clientX,</b>
+13. <b>y: evt.clientY</b>
 14. };
 15. }
 </pre>
@@ -11938,17 +11938,17 @@ height="1.9412390638670167in"}
 ![](./images/image353.png){width="5.0in"
 height="2.099892825896763in"}
 
-[**https://codepen.io/w3devcampus/pen/MpxMQo**](https://codepen.io/w3devcampus/pen/MpxMQo)
+[<b>https://codepen.io/w3devcampus/pen/MpxMQo</b>](https://codepen.io/w3devcampus/pen/MpxMQo)
 
 And here is the fixed version of the getMousePos function:
 
 <pre>
 1.  function getMousePos(canvas, evt) {
-2.  **// necessary to take into account CSS boundaries**
-3.  **var rect = canvas.getBoundingClientRect();**
+2.  <b>// necessary to take into account CSS boundaries</b>
+3.  <b>var rect = canvas.getBoundingClientRect();</b>
 4.  return {
-5.  x: evt.clientX **- rect.left,**
-6.  y: evt.clientY **- rect.top**
+5.  x: evt.clientX <b>- rect.left,</b>
+6.  y: evt.clientY <b>- rect.top</b>
 7.  };
 8.  }
 </pre>
@@ -11969,7 +11969,7 @@ shows how to get the mouse button number using the evt.button property.
 ![](./images/image355.png){width="5.0in"
 height="2.203525809273841in"}
 
-[**https://codepen.io/w3devcampus/pen/zZbVjW**](https://codepen.io/w3devcampus/pen/zZbVjW)
+[<b>https://codepen.io/w3devcampus/pen/zZbVjW</b>](https://codepen.io/w3devcampus/pen/zZbVjW)
 
 ![](./images/image356.png){width="5.0in"
 height="1.8458420822397201in"}
@@ -12036,7 +12036,7 @@ section to get the correct mouse position:
 ![](./images/image357.png){width="5.0in"
 height="2.531516841644794in"}
 
-[**https://codepen.io/w3devcampus/pen/EWMBeR**](https://codepen.io/w3devcampus/pen/EWMBeR)
+[<b>https://codepen.io/w3devcampus/pen/EWMBeR</b>](https://codepen.io/w3devcampus/pen/EWMBeR)
 
 <h5>Extract from the JavaScript source code:
 
@@ -12096,7 +12096,7 @@ the mousePlayerWithMouse function:
 9.  // animate the ball that is bouncing all over the walls
 10. moveAllBalls(balls);
 11. 
-12. **movePlayerWithMouse();**
+12. <b>movePlayerWithMouse();</b>
 13. 
 14. // ask for a new animation frame
 15. requestAnimationFrame(mainLoop);
@@ -12135,7 +12135,7 @@ player to all the balls as fast as you can.
 ![](./images/image358.png){width="5.0in"
 height="2.5950853018372704in"}
 
-[**https://codepen.io/w3devcampus/pen/gmEVJG**](https://codepen.io/w3devcampus/pen/gmEVJG)
+[<b>https://codepen.io/w3devcampus/pen/gmEVJG</b>](https://codepen.io/w3devcampus/pen/gmEVJG)
 
 <h5>How do we detect collisions? {#how-do-we-detect-collisions .unnumbered}
 
@@ -12202,23 +12202,23 @@ each ball in the array. Let&apos;s look at this new version:
 
 <h5><b>Explanations:</b></h5>
 
--   **Line 3**: Look at the iterator;  this time instead of just one
+-   <b>Line 3</b>: Look at the iterator;  this time instead of just one
     parameter (the current element), we&apos;ve added a second optional
     parameter that will be the index of the current element, starting
     from zero.
 
--   **Line 10**: for each ball in the array, we will
+-   <b>Line 10</b>: for each ball in the array, we will
     call testCollisionWithPlayer(b, index); that will check if there is
     a collision between the ball b and the player. We also pass
     the index of the ball. If a collision occurs, we will have to remove
     the ball from the array, and for that, we will need its index in the
     array.
 
--   **Line 15** is the collision test, and if it is true (collision with
+-   <b>Line 15</b> is the collision test, and if it is true (collision with
     the player), then the ball dies and we remove it from the array
     using the splice method you can use on arrays.
 
--   **Line 22**: here it is, we remove the current ball in the array
+-   <b>Line 22</b>: here it is, we remove the current ball in the array
     using balls.splice(position, numberOfElementsToRemove). The positon
     is given by index, and the number of balls to remove is one.
 
@@ -12272,7 +12272,7 @@ max speed we would like, the color and size of the player, etc.
 ![](./images/image360.png){width="5.0in"
 height="3.509615048118985in"}
 
-[**https://codepen.io/w3devcampus/pen/RpOyRN**](https://codepen.io/w3devcampus/pen/RpOyRN)
+[<b>https://codepen.io/w3devcampus/pen/RpOyRN</b>](https://codepen.io/w3devcampus/pen/RpOyRN)
 
 <h5>Explanations:
 
@@ -12483,7 +12483,7 @@ fundamental concepts are presented.
 ![](./images/image364.png){width="5.0in"
 height="2.563033683289589in"}
 
-**https://codepen.io/w3devcampus/pen/owgeyJ**
+<b>https://codepen.io/w3devcampus/pen/owgeyJ</b>
 
 Let&apos;s continue with the arrays. We already encounter them during the
 first module but this time we will give more details. And maybe we&apos;ll
@@ -12553,8 +12553,8 @@ height="2.3269225721784776in"}
 If I want to work with more complex elements, I can make an array with
 an object. I prepared an array that contains objects, it&apos;s called
 &quot;persons&quot; and each element is an object. If I look at the first
-element, here. It gives me a person whose **familyName** is Buffa, whose
-**givenName** is Michel, age 51. This corresponds to the first element
+element, here. It gives me a person whose <b>familyName</b> is Buffa, whose
+<b>givenName</b> is Michel, age 51. This corresponds to the first element
 of the array.
 
 ![](./images/image372.png){width="5.0in"
@@ -12574,7 +12574,7 @@ that will be a callback, a function called by the &quot;sort&quot; method from
 the API. And this callback will indicate how we compared 2 different
 elements. Let&apos;s try it! I prepared it.
 
-We can define a function named, for example, **compareByAge**() that
+We can define a function named, for example, <b>compareByAge</b>() that
 will compare an element named "a" with an element named "b". And we
 suppose that these elements have an age property, and then we compare.
 If "a" has a smaller age than "b", we return -1. If the age of the
@@ -12604,10 +12604,10 @@ remember that the &quot;push&quot; method adds at the end an element and the
 contains only the first element, I &quot;popped&quot;, i.e., I removed the last
 element from the array.
 
-Ok that&apos;s all for this video, you saw the most common methods: **push,
-pop** and **sort.** You saw that the first element is at **index 0**,
-the last element at index **length-1** and that you can also use some
-comparison functions for the **sort** elements.
+Ok that&apos;s all for this video, you saw the most common methods: <b>push,
+pop</b> and <b>sort.</b> You saw that the first element is at <b>index 0</b>,
+the last element at index <b>length-1</b> and that you can also use some
+comparison functions for the <b>sort</b> elements.
 
 [&lt;end of transcript 3.2.1&gt;]
 
@@ -12625,7 +12625,7 @@ comparison functions for the **sort** elements.
 -   The example shown in the video [is available at
     CodePen](https://codepen.io/w3devcampus/pen/owgeyJ)
 
-> **https://codepen.io/w3devcampus/pen/owgeyJ**
+> <b>https://codepen.io/w3devcampus/pen/owgeyJ</b>
 
 <h5>JavaScript arrays</h5>
 
@@ -12731,8 +12731,8 @@ for sorting (e.g., sort by age);
 
 <h5>Explanations:</h5>
 
--   **Line 17** calls **persons.sort
-    (function_that_compares_two_elements),** passing as a unique
+-   <b>Line 17</b> calls <b>persons.sort
+    (function_that_compares_two_elements),</b> passing as a unique
     parameter a function that compares two people&apos;s ages. This function
     must return -1 if the first person is younger than the second
     person. It must return +1 if the first person is older than second
@@ -12787,7 +12787,7 @@ element at the end, use the push method!
 14. &lbrack;1, 2, 3, &quot;four&quot;, &quot;five&quot;, &quot;six&quot;&rbrack;  // a new element at the
     end
 
-**When using indexes, be careful not to leave &quot;holes&quot; in the array:**
+<b>When using indexes, be careful not to leave &quot;holes&quot; in the array:</b>
 
 <pre>
 1.  &gt; a&lbrack;7&rbrack; = 'height';
@@ -12810,18 +12810,18 @@ The recommended method is to use the splice method:
 2.  array.splice(start, deleteCount)
 </pre>
 
--   **start:** index at which to start changing the array (with origin
+-   <b>start:</b> index at which to start changing the array (with origin
     0). 
 
--   **deleteCount** (Optional): an integer indicating the number of old
+-   <b>deleteCount</b> (Optional): an integer indicating the number of old
     array elements to remove.  If deleteCount is greater than the number
     of elements left in the array starting at start, then all of the
-    elements through the end of the array will be deleted. **If
-    deleteCount is omitted**, deleteCount will be equal
-    to (array.length - start), i.e., **all of the elements beginning
-    with start index on through the end of the array will be deleted**.
+    elements through the end of the array will be deleted. <b>If
+    deleteCount is omitted</b>, deleteCount will be equal
+    to (array.length - start), i.e., <b>all of the elements beginning
+    with start index on through the end of the array will be deleted</b>.
 
--   **Return value**: an array containing the deleted elements. If only
+-   <b>Return value</b>: an array containing the deleted elements. If only
     one element is removed, an array of one element is returned. If no
     elements are removed, an empty array is returned.
 
@@ -12850,7 +12850,7 @@ The recommended method is to use the splice method:
 20. &lbrack;&quot;four&quot;, &quot;five&quot;, &quot;six&quot;&rbrack;
 </pre>
 
-<h5>**Recommended method for removing the last element: the pop method!**</h5>
+<h5><b>Recommended method for removing the last element: the pop method!</b></h5>
 
 <pre>
 1.  &gt; a
@@ -13051,19 +13051,19 @@ here are some examples:
 4.  &gt; var s2 = &apos;Buffa&apos;;
 5.  undefined
 6.  
-7.  **&gt; var s3 = s1 + &quot; &quot; + s2; // + can be used to concat more than 2 strings**
+7.  <b>&gt; var s3 = s1 + &quot; &quot; + s2; // + can be used to concat more than 2 strings</b>
 8.  Undefined
 9.  
 10. &gt; s3;
 11. &quot;Michel Buffa&quot;
 12. 
-13. **&gt; var s4 = s1.concat(s2);**
+13. <b>&gt; var s4 = s1.concat(s2);</b>
 14. Undefined
 15. 
 16. &gt; s4;
 17. &quot;MichelBuffa&quot;
 18. 
-19. **&gt; var s5 = s2.concat(s1);**
+19. <b>&gt; var s5 = s2.concat(s1);</b>
 20. Undefined
 21. 
 22. s5;
@@ -13078,7 +13078,7 @@ here are some examples:
 1.  &gt; var s = &apos;Michel&apos;;
 2.  undefined
 3.  
-4.  **&gt; s = s.substring(0, s.length-1);**
+4.  <b>&gt; s = s.substring(0, s.length-1);</b>
 5.  &quot;Miche&quot;
 </pre>
 
@@ -13122,7 +13122,7 @@ here are some examples:
 ![](./images/image377.png){width="6.0in"
 height="3.075640857392826in"}
 
-**https://codepen.io/w3devcampus/pen/VWYMNK**
+<b>https://codepen.io/w3devcampus/pen/VWYMNK</b>
 
 Hello! Let&apos;s look at the different methods you can use to iterate on
 each element of an array. One of the most practical one consists in
@@ -13141,14 +13141,14 @@ of the days, on the array of days.
 ![](./images/image378.png){width="5.0in"
 height="2.3269225721784776in"}
 
-If I do "**document.body.innerHTML**&quot;&#41;You see that when the code is
-executed, for each element in the array, the variable "**day**" here,
-will be that day, and we use the **DOM API** to add at the end of the
+If I do "<b>document.body.innerHTML</b>&quot;&#41;You see that when the code is
+executed, for each element in the array, the variable "<b>day</b>" here,
+will be that day, and we use the <b>DOM API</b> to add at the end of the
 document&apos;s body, the name of the day and we go to the next line.
 
 Here is the result. You can see that we can iterate using this
-"**forEach**" iterator, it&apos;s very simple. The **name**, here, is not
-important. You can call it &quot;**singleD**", you can call it "**d**" and
+"<b>forEach</b>" iterator, it&apos;s very simple. The <b>name</b>, here, is not
+important. You can call it &quot;<b>singleD</b>", you can call it "<b>d</b>" and
 it works. You choose the name of the variable.
 
 ![](./images/image379.png){width="5.0in"
@@ -13164,7 +13164,7 @@ element in the array at index 0. Tuesday is the element at the index 1.
 height="2.3269225721784776in"}
 
 You can also use a third argument, that is the array itself. Let&apos;s call
-it "**arr**" and usually, we use the array to display the length of the
+it "<b>arr</b>" and usually, we use the array to display the length of the
 array or maybe do operations on the array: remove the current element or
 do something like that. "from an array of&quot; And now you can see that it
 displays: Monday is at index 0 from an array of 3 elements! "3", we took
@@ -13176,19 +13176,19 @@ simple.
 height="2.3269225721784776in"}
 
 Another thing we can do, let me put this in comments, is use a regular
-"**for**" loop. Using a "**for**" loop... so the very automatic way is
+"<b>for</b>" loop. Using a "<b>for</b>" loop... so the very automatic way is
 do like that. And you see we&apos;ve got the same results we had with the
-"**forEach**". It&apos;s a bit more complicated because we must declare a
+"<b>forEach</b>". It&apos;s a bit more complicated because we must declare a
 variable, initialize it to 0 and this is the first, the starting index
-in the array. And this &quot;**for**&quot; loop, if you remember when we
+in the array. And this &quot;<b>for</b>&quot; loop, if you remember when we
 detailed them, if you use a strict &lt; operator and if you increment the
 loop variable at the end, it will go from 0 to this value - 1.
 
-This loop will go from i = 0 to "**a.length -1**" and "**a.length -1**"
+This loop will go from i = 0 to "<b>a.length -1</b>" and "<b>a.length -1</b>"
 is the index of the last element of the array. This loop will go to
-through all elements in the array. And we need to use the "**a**"
+through all elements in the array. And we need to use the "<b>a</b>"
 brackets with the index between the brackets notation to display the
-value. Which is best? This one or the with the "**forEach**" iterator?
+value. Which is best? This one or the with the "<b>forEach</b>" iterator?
 It depends.
 
 ![](./images/image382.png){width="5.0in"
@@ -13196,11 +13196,11 @@ height="2.3269225721784776in"}
 
 Here you can just go 2 by 2... I can iterate 2 by 2, or I can break the
 loop in the middle using the "break" keyword and a condition with an
-"**if**". All these things I cannot do them easily with the
-"**forEach**" operator. If you just need to iterate and do something on
-each element, use the "**forEach**" operator. If you need to jump over
+"<b>if</b>". All these things I cannot do them easily with the
+"<b>forEach</b>" operator. If you just need to iterate and do something on
+each element, use the "<b>forEach</b>" operator. If you need to jump over
 some elements, do some operations in the middle, stop the iteration,
-then go for the "**for**" loop.
+then go for the "<b>for</b>" loop.
 
 [&lt;end of video transcript 3.2.3&gt;]{.mark} done.
 
@@ -13427,38 +13427,38 @@ creations.
 
 ![](./images/image388.png){width="6.5in" height="8.2875in"}
 
-[**https://codepen.io/w3devcampus/pen/KqzPOm**](https://codepen.io/w3devcampus/pen/KqzPOm)
+[<b>https://codepen.io/w3devcampus/pen/KqzPOm</b>](https://codepen.io/w3devcampus/pen/KqzPOm)
 
 -   What you will have to do:
 
-    1.  **Improve the display, by adding margins (CSS), shadows, border,
-        and changing the URLs for real pictures**. Remember that you
+    1.  <b>Improve the display, by adding margins (CSS), shadows, border,
+        and changing the URLs for real pictures</b>. Remember that you
         need to have a smaller versions of the pictures, i.e.,
         thumbnails. You can use existing images (images.google.com is
         your friend) or images you upload somewhere.
 
-    2.  **Use JavaScript for adding a click event listener on each
-        image**, then when clicked, you will show a bigger version of
+    2.  <b>Use JavaScript for adding a click event listener on each
+        image</b>, then when clicked, you will show a bigger version of
         each picture. For the moment, just change the value of the src
         attribute of the clicked image (set it to the URL of the full
         size image from the array).
 
-    3.  **Try to make something nicer: reserve a &lt;div&gt; on the right of
+    3.  <b>Try to make something nicer: reserve a &lt;div&gt; on the right of
         the document so to display the clicked image with a bigger
-        size**. In that case, you will need to create an image (only
+        size</b>. In that case, you will need to create an image (only
         once, after the first click), to set it to the size of the div
         (use the width and height attributes of the img element), and to
         append it to the div.
 
-    4.  **Try to add more images, and find a way to display them per
-        album.** Create buttons entitled &quot;album1&quot;, &quot;album2&quot;, etc.,
+    4.  <b>Try to add more images, and find a way to display them per
+        album.</b> Create buttons entitled &quot;album1&quot;, &quot;album2&quot;, etc.,
         and when clicked, you will only display images from the selected
         album.
 
-    5.  **&lbrack;Advanced&rbrack; Add an option for deleting a picture.** It should
+    5.  <b>&lbrack;Advanced&rbrack; Add an option for deleting a picture.</b> It should
         be removed from the document and from the array too&#41;
 
-    6.  **Feel free to add any interesting feature you think about ;-)**
+    6.  <b>Feel free to add any interesting feature you think about ;-)</b>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-1">3.3.1 Playing audio and video streams</h3>
@@ -13498,24 +13498,24 @@ the &lt;video&gt; element:
 
 <h5>Please note that:</h5>
 
--   The **controls** attribute indicates that a control panel with
+-   The <b>controls</b> attribute indicates that a control panel with
     play/stop/volume/progress widgets should be displayed;
 
 -   Usually the browser  will use the first format it recognizes  (in
-    this case, the browser checks whether **mp4** is supported, and if
-    not, it will check for the **ogg** format, and so on). Some browsers
+    this case, the browser checks whether <b>mp4</b> is supported, and if
+    not, it will check for the <b>ogg</b> format, and so on). Some browsers
     may use a different heuristic and choose a &quot;preferred&quot; format.
 
--   The **&lt;video&gt;** element is a DOM member, so  CSS styling can be
+-   The <b>&lt;video&gt;</b> element is a DOM member, so  CSS styling can be
     applied, as well as manipulation using the DOM API.
 
 You will learn more about the different attributes of
-the **&lt;video&gt;** element later on in the course.
+the <b>&lt;video&gt;</b> element later on in the course.
 
-**Restriction: you cannot embed a YouTube or a Daily Motion video using
-the &lt;video&gt; element**
+<b>Restriction: you cannot embed a YouTube or a Daily Motion video using
+the &lt;video&gt; element</b>
 
-Help! **&lt;video src=&quot;my youtube video URL&quot;&gt;&lt;/video&gt;** does not
+Help! <b>&lt;video src=&quot;my youtube video URL&quot;&gt;&lt;/video&gt;</b> does not
 work! 
 
 ![](./images/image389.png){width="6.0in"
@@ -13523,8 +13523,8 @@ height="0.9082130358705162in"}
 
 While they use HTML5 to render their videos, these
 hosting sites (YouTube, etc.) use rather complex techniques in order to
-prevent you from using them with the **&lt;video&gt;** element. Instead, you
-often need to embed an **&lt;iframe&gt;** that will render the HTML5 videos
+prevent you from using them with the <b>&lt;video&gt;</b> element. Instead, you
+often need to embed an <b>&lt;iframe&gt;</b> that will render the HTML5 videos
 in your Web site, and of course, the advertising that comes along with
 them.
 
@@ -13540,8 +13540,8 @@ video):
 1.  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZH1XOsv8Oyo&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 Below is the YouTube video embedded in this page using the above code:
-it&apos;s HTML5 but it&apos;s not a **&lt;video&gt;** element directly inserted in
-the HTML of this page - it&apos;s an **&lt;iframe&gt;**.
+it&apos;s HTML5 but it&apos;s not a <b>&lt;video&gt;</b> element directly inserted in
+the HTML of this page - it&apos;s an <b>&lt;iframe&gt;</b>.
 
 https://www.youtube.com/watch?v=tIHa587wZyY
 
@@ -13554,26 +13554,26 @@ height="2.216359361329834in"}
 
 HTML5 audio is composed of several layers:
 
--   [**The &lt;audio&gt; element **](https://www.w3.org/wiki/HTML/Elements/audio)is
+-   [<b>The &lt;audio&gt; element </b>](https://www.w3.org/wiki/HTML/Elements/audio)is
     useful for embedding an audio player into a Web page. It is
     dedicated for [streamed audio]{.underline}. It is very similar to
-    the **&lt;video&gt;** element, both in its use and in its API.
+    the <b>&lt;video&gt;</b> element, both in its use and in its API.
 
--   [**The &quot;Web Audio API&quot;**](https://www.w3.org/TR/webaudio/) is
+-   [<b>The &quot;Web Audio API&quot;</b>](https://www.w3.org/TR/webaudio/) is
     designed for musical applications and for adding sound effects to
     games. This pure JavaScript API supports manipulation of sound
     samples (loops, etc.), music synthesis and sound generation
     (oscillators, etc.). It also comes with a set of predefined sound
     processing modules (reverb, delay, etc.).
 
-This course focuses on the **&lt;audio&gt;** element. Please check for  [the
+This course focuses on the <b>&lt;audio&gt;</b> element. Please check for  [the
 Web Audio API](https://www.w3.org/TR/webaudio/) and other advanced parts
 of HTML5 in W3Cx&apos;s [HTML5 Apps and
 Games](https://www.edx.org/course/html5-apps-and-games) course.
 
 The attributes, event set and JavaScript API of
-the **&lt;audio&gt;** element are just a &quot;reduced&quot; version of the ones
-from the **&lt;video&gt;** element, and here we will only address their
+the <b>&lt;audio&gt;</b> element are just a &quot;reduced&quot; version of the ones
+from the <b>&lt;video&gt;</b> element, and here we will only address their
 differences and peculiarities.
 
 <h5>The &lt;audio&gt; element</h5>
@@ -13588,7 +13588,7 @@ height="0.4583333333333333in"}
 
 <https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg>
 
-<h5>The code is very similar to the basic **&lt;video&gt;** element usage.</h5>
+<h5>The code is very similar to the basic <b>&lt;video&gt;</b> element usage.</h5>
 
 <pre>
 1.  &lt;!DOCTYPE html&gt;
@@ -13624,7 +13624,7 @@ several &lt;source&gt;&#41;&lt;/source&gt; elements that link to different aud
 formats for the same file. The browser will use the first format it
 recognizes.
 
-**Lines 13-17:**  we suggest downloading the audio files if the browser
+<b>Lines 13-17:</b>  we suggest downloading the audio files if the browser
 does not support the &lt;audio&gt; element. This is also a best practice!
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13636,7 +13636,7 @@ Live coding video: the video element JavaScript API
 ![](./images/image392.png){width="6.0in"
 height="3.089744094488189in"}
 
-**https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011**
+<b>https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011</b>
 
 Today, let&apos;s have a look at some APIs. An API is a set of functions you
 can use from your JavaScript code.
@@ -13657,8 +13657,8 @@ document, just use the video HTML5 tag: video&#41; slash video. You
 indicate with the source tag the URL of the video file that will be
 streamed into your document. And in order to maximize the compatibility
 with old browsers, it&apos;s recommended to propose the video in different
-formats. Here, I&apos;ve got a video file named **video.webm**,
-**video.ogg**, and **video.mp4**, that is available in different
+formats. Here, I&apos;ve got a video file named <b>video.webm</b>,
+<b>video.ogg</b>, and <b>video.mp4</b>, that is available in different
 formats.
 
 And when you include a video element with some sources in your HTML
@@ -13687,8 +13687,8 @@ the same thing. And do you remember that we can access elements from the
 DOM&#41; you can get references on the HTML elements only when the DOM is
 ready and when the page have be loaded.
 
-We use "**window.onload = init**" with an init callback that will
-executed only when the **DOM** is ready, and inside this function, we
+We use "<b>window.onload = init</b>" with an init callback that will
+executed only when the <b>DOM</b> is ready, and inside this function, we
 will get a reference to the video player.
 
 ![](./images/image396.png){width="5.0in"
@@ -13696,7 +13696,7 @@ height="2.7094017935258092in"}
 
 Let&apos;s write it. And I will declare this reference as a global variable.
 Like this. When I click on the button, I will use the JavaScript API of
-this object -this video player- and I can call "**vid.play()**". I click
+this object -this video player- and I can call "<b>vid.play()</b>". I click
 on the button and it plays the video. How can you guess the names of the
 all the methods you can use?
 
@@ -13707,7 +13707,7 @@ Go to the course, and in the section about the audio and video player
 JavaScript APIs you got this picture here, that is a link to the W3C
 specifications. And here you can interactively try the different
 methods. And the names on the buttons are the names of the different
-methods you can call when you see parenthesis: **play(), pause()**&#41;
+methods you can call when you see parenthesis: <b>play(), pause()</b>&#41;
 
 ![](./images/image398.png){width="5.0in"
 height="2.7307688101487315in"}
@@ -13722,7 +13722,7 @@ events while the video is being played. And for example, for
 synchronizing some contents on the page, for detecting when the video is
 ended.
 
-The &quot;**ended**&quot; event here, you can see it and so that you can play
+The &quot;<b>ended</b>&quot; event here, you can see it and so that you can play
 another video and do some play lists with the videos that are changed:
 when one is finished, the other starts and so on.
 
@@ -13738,21 +13738,21 @@ height="2.7307688101487315in"}
 
 If I want to rewind to the beginning&#41; let&apos;s try again! And in order
 to do this, instead of calling a method&#41;we will just use the
-"**currentTime**" property and set it to 0. Remember from this document,
-you see the "**currentTime**" here, it&apos;s a property of the video player
+"<b>currentTime</b>" property and set it to 0. Remember from this document,
+you see the "<b>currentTime</b>" here, it&apos;s a property of the video player
 object.
 
 ![](./images/image401.png){width="5.0in"
 height="2.7307688101487315in"}
 
 Let&apos;s try it, play! Rewind! We start again from zero, and so on. If you
-want to display the "**currentTime**" while this video is still played.
-You can add an event listener on the video element "**ontimeupdate =
-isplayTimeWhileVideoIsPlaying()**".
+want to display the "<b>currentTime</b>" while this video is still played.
+You can add an event listener on the video element "<b>ontimeupdate =
+isplayTimeWhileVideoIsPlaying()</b>".
 
 Ok, like this: while the video is being played, this method will be
-called and we can here, for example, display the **currentTime...
-console.log()**. Let&apos;s me open the console, play the video and you see
+called and we can here, for example, display the <b>currentTime...
+console.log()</b>. Let&apos;s me open the console, play the video and you see
 the current time. You can make a test: if "vid. currentTime greater than
 5 seconds&quot;, then we pause the video.
 
@@ -13761,38 +13761,38 @@ related to the video, and so on. Ok, this was just to show you some
 basics of using the JavaScript API of media elements such as the video
 audio player.
 
-**[&lt;end video transcript 3.3.2&gt;]{.mark} done!**
+<b>[&lt;end video transcript 3.3.2&gt;]{.mark} done!</b>
 
-**Source code of the example from the video:**
+<b>Source code of the example from the video:</b>
 
 -   The example presented in the above video is available
     on [CodePen](https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011).
 
-**https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011**
+<b>https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011</b>
 
-**Audio and video player JavaScript API**
+<b>Audio and video player JavaScript API</b>
 
 <h5>Control &lt;audio&gt; and &lt;video&gt; elements from JavaScript</h5>
 
-The **&lt;video&gt;** element has methods, properties/attributes and events
+The <b>&lt;video&gt;</b> element has methods, properties/attributes and events
 that can be manipulated with JavaScript. Using the DOM API it&apos;s
 possible to manipulate an audio or video element as a JavaScript object
 that has:
 
--   **Methods** for controlling its behavior, such as play(), pause(),
+-   <b>Methods</b> for controlling its behavior, such as play(), pause(),
     etc.;
 
--   **Properties** (duration, current position, etc.), either in
+-   <b>Properties</b> (duration, current position, etc.), either in
     read/write mode (such as volume), or in read-only mode (such as
     encoding, duration, etc.);
 
--   **Events** generated during the life cycle of the element that can
+-   <b>Events</b> generated during the life cycle of the element that can
     be processed using JavaScript callbacks. It is also possible to send
     events to control the video player.
 
-Like any HTML element, the **&lt;video&gt;** element can be
+Like any HTML element, the <b>&lt;video&gt;</b> element can be
 manipulated/created using the DOM JavaScript API. Here is an example of
-programmatically creating a **&lt;video&gt;** element:
+programmatically creating a <b>&lt;video&gt;</b> element:
 
 <pre>
 1.  var video = document.createElement(&apos;video&apos;);
@@ -13802,13 +13802,13 @@ programmatically creating a **&lt;video&gt;** element:
 </pre>
 
 This will create a complete video player for the file &quot;video.mp4&quot;,
-with control buttons, and will add it to the **&lt;body&gt;** element of the
+with control buttons, and will add it to the <b>&lt;body&gt;</b> element of the
 page.
 
 <h5>JavaScript API of the &lt;audio&gt; and &lt;video&gt; elements</h5>
 
 The JavaScript API gives you powerful tools to manipulate
-the **&lt;video&gt;** element, as the video object provides many properties,
+the <b>&lt;video&gt;</b> element, as the video object provides many properties,
 methods and events.
 
 The complete list of events can be found in the [HTML5 living standard
@@ -13830,7 +13830,7 @@ events, and methods from the API.
 height="3.294491469816273in"}
 
 <h5>Here is a table that shows the most interesting methods, properties, and 
-events provided by the **&lt;video&gt;** element API</h5>
+events provided by the <b>&lt;video&gt;</b> element API</h5>
 
 We provide this as a quick reminder - keep in mind that the [complete
 list](https://html.spec.whatwg.org/multipage/media.html#mediaevents) is
@@ -13899,20 +13899,20 @@ height="2.7111111111111112in"}
 26. &lt;/script&gt;
 </pre>
 
-**Explanations:**
+<b>Explanations:</b>
 
--   **Lines 7, 9 and 11**: we add a click listener to each button, in
+-   <b>Lines 7, 9 and 11</b>: we add a click listener to each button, in
     order to call a JavaScript function when each button is clicked.
 
--   **Line 14**: using the DOM API, we get the JavaScript object that
+-   <b>Line 14</b>: using the DOM API, we get the JavaScript object that
     corresponds to the video element we inserted in the HTML document.
     This line is not within a function, so will be executed when the
     page loads.
 
--   **Lines 17 and 20**: we call methods from the API for
+-   <b>Lines 17 and 20</b>: we call methods from the API for
     playing/pausing the video.
 
--   **Line 24**: we modify the currentTime property in order to rewind
+-   <b>Line 24</b>: we modify the currentTime property in order to rewind
     the video. Note that vid.load() also rewinds the video and shows the
     poster image again, but it also pauses the video. By
     using currentTime=0, the playback does not stop.
@@ -14028,22 +14028,22 @@ P1120973_512kb.mp4&quot;
     in the playlist. In this example, we&apos;ve got only two of them, but
     if the array is larger the example still works.
 
--   *Line 44*: when the page is loaded, an **init()** function is
+-   *Line 44*: when the page is loaded, an <b>init()</b> function is
     called.
 
--   *Lines 34-40*: we use the **DOM** to get the JavaScript object
+-   *Lines 34-40*: we use the <b>DOM</b> to get the JavaScript object
     corresponding to the video element, then define a listener for
     the ended event. Each time a video ends,
-    the **loadAndplayNextVideo()** callback is called. As the video
+    the <b>loadAndplayNextVideo()</b> callback is called. As the video
     element has no src attribute by default, we also preload the first
-    video (call to **loadNextVideo()** at *line 38*).
+    video (call to <b>loadNextVideo()</b> at *line 38*).
 
--   *Lines 17-21*: the **loadNextVideo()** function uses a variable
-    called **currentVideo** that corresponds to the index of the current
-    video. By setting **myVideo.src = sources &lbrack;currentVideo %
-    sources.length&rbrack;**, we set the src of the video element to
+-   *Lines 17-21*: the <b>loadNextVideo()</b> function uses a variable
+    called <b>currentVideo</b> that corresponds to the index of the current
+    video. By setting <b>myVideo.src = sources &lbrack;currentVideo %
+    sources.length&rbrack;</b>, we set the src of the video element to
     sources&lbrack;0&rbrack;, then to sources&lbrack;1&rbrack;, and, as we increment
-    the **currentVideo** index each time (*line 20*), if it becomes
+    the <b>currentVideo</b> index each time (*line 20*), if it becomes
     greater than 1, the modulo (the &quot;%&quot; symbol is the modulo in
     JavaScript) will make it &quot;loop&quot; between 0 and the number of videos
     in the playlist. In other words, when the last video ends, it starts
@@ -14060,20 +14060,20 @@ Safari (which still does not support this API). Note that for security
 reasons you must host your HTML/CSS/JS page on an HTTPS server for
 getUserMedia to work.
 
-**For security reason, these examples cannot run in the course web
-pages. Click on &quot;Edit on CodePen&quot; to run them.**
+<b>For security reason, these examples cannot run in the course web
+pages. Click on &quot;Edit on CodePen&quot; to run them.</b>
 
 <h5>First version that uses callbacks (success/error, see the JS code):</h5>
 
 ![](./images/image408.png){width="5.0in"
 height="1.6116447944007in"}
 
-[**https://codepen.io/w3devcampus/pen/OpYNBE**](https://codepen.io/w3devcampus/pen/OpYNBE)
+[<b>https://codepen.io/w3devcampus/pen/OpYNBE</b>](https://codepen.io/w3devcampus/pen/OpYNBE)
 
 <h5>Second version that uses a new JavaScript syntax called &quot;promises&quot;:</h5>
 
 This is another way of saying, &quot;Please, browser, try to give me access
-to the webcam, **THEN** when the webcam is ready, please tell me so that
+to the webcam, <b>THEN</b> when the webcam is ready, please tell me so that
 I can display its stream in a &lt;video&gt; element. Otherwise, send me an
 alert&quot;. (note that we&apos;ve put the alert in a comment in the CodePen
 below).
@@ -14081,7 +14081,7 @@ below).
 ![](./images/image409.png){width="5.0in"
 height="1.603632983377078in"}
 
-[**https://codepen.io/w3devcampus/pen/EWzKrK**](https://codepen.io/w3devcampus/pen/EWzKrK)
+[<b>https://codepen.io/w3devcampus/pen/EWzKrK</b>](https://codepen.io/w3devcampus/pen/EWzKrK)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-5">3.3.5 Extended examples</h3>
@@ -14104,7 +14104,7 @@ Heilmann](https://christianheilmann.com/), and tuned by us ;).
 ![](./images/image410.png){width="5.0in"
 height="1.603632983377078in"}
 
-[**https://codepen.io/w3devcampus/pen/bGqjVWG**](https://codepen.io/w3devcampus/pen/bGqjVWG)
+[<b>https://codepen.io/w3devcampus/pen/bGqjVWG</b>](https://codepen.io/w3devcampus/pen/bGqjVWG)
 
 Don&apos;t forget to click the JavaScript and CSS tabs of the CodePen in
 order to display the JavaScript code that creates the buttons on the
@@ -14113,13 +14113,13 @@ applies CSS3 transforms.
 
 This example shows a lot:
 
--   It uses the HTML5 elements **&lt;nav&gt;, &lt;footer&gt;, &lt;header&gt;**.
+-   It uses the HTML5 elements <b>&lt;nav&gt;, &lt;footer&gt;, &lt;header&gt;</b>.
 
 -   It shows the use of CSS3 2D transformations (scale, translate, and
     rotate).
 
--   It shows how to handle **DOM** events using JavaScript and how to
-    modify CSS properties of the **&lt;video&gt;** element from JavaScript.
+-   It shows how to handle <b>DOM</b> events using JavaScript and how to
+    modify CSS properties of the <b>&lt;video&gt;</b> element from JavaScript.
 
 <h5>Example #2: how to track all possible events and manipulate many properties</h5>
 
@@ -14129,7 +14129,7 @@ with this example below:
 ![](./images/image411.png){width="5.0in"
 height="1.603632983377078in"}
 
-[**https://codepen.io/w3devcampus/pen/abJjvqY**](https://codepen.io/w3devcampus/pen/abJjvqY)
+[<b>https://codepen.io/w3devcampus/pen/abJjvqY</b>](https://codepen.io/w3devcampus/pen/abJjvqY)
 
 Below is a piece of code for handling errors during video playback:
 
@@ -14364,7 +14364,7 @@ Create a quiz based on videos - here is a proposed story telling:
 
 -   When the video ends, please show the final score. 
 
-<h5>**A few hints:**</h5>
+<h5><b>A few hints:</b></h5>
 
 1.  Use an array with stop times, for example let stopTimes = &lbrack;5, 10,
     20&rbrack;. This will mean &quot;the video should stop at currentTime = 5,
@@ -14393,7 +14393,7 @@ As always, do not forget to post the URL of your work in the forum so
 that we can enjoy your creation. Michel will inevitably give you his
 advice(s), and also tell you that you are the best ;))
 
-**Use the discussion forum below!**
+<b>Use the discussion forum below!</b>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-1">3.4.1 The Geolocation API</h3>
@@ -14482,10 +14482,10 @@ height="1.603632983377078in"}
 12. &lt;/html&gt;
 </pre>
 
--   **Lines 5 and 6** are the required files to use the Leaflet API
+-   <b>Lines 5 and 6</b> are the required files to use the Leaflet API
     (this is the official name of the OpenStreetMaps API),
 
--   **Line 10** is the &lt;div&gt; container that will be used to display
+-   <b>Line 10</b> is the &lt;div&gt; container that will be used to display
     the interactive map
 
 <h5>JavaScript part : {#javascript-part .unnumbered}
@@ -14530,16 +14530,16 @@ height="1.603632983377078in"}
 36. }
 </pre>
 
--   **Line 6** uses the [Geolocation
+-   <b>Line 6</b> uses the [Geolocation
     API](https://www.w3.org/TR/geolocation-API/) to get the current
     position, in case of success it calls the success function, passing
     the location as parameter,
 
--   **Lines 13 and 14** show how to get the longitude and latitude
+-   <b>Lines 13 and 14</b> show how to get the longitude and latitude
     properties from the location,
 
--   The rest is a basic use of the Leaflet API. Notice at **line
-    17** that &apos;map&apos; is the id of the &lt;div&gt; from the HTML part of the
+-   The rest is a basic use of the Leaflet API. Notice at <b>line
+    17</b> that &apos;map&apos; is the id of the &lt;div&gt; from the HTML part of the
     code.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14570,7 +14570,7 @@ Google reverse geocoding example (screenshot only) :
 height="3.261213910761155in"}
 
 Source code of this example (in order to run it, you need a Google API
-key, used at **line 6**).
+key, used at <b>line 6</b>).
 
 <pre>
 1.  &lt;!DOCTYPE html&gt;
@@ -14697,7 +14697,7 @@ reasons, it cannot run embedded in this page.
 ![](./images/image419.png){width="5.0in"
 height="1.6164534120734908in"}
 
-[**https://codepen.io/w3devcampus/pen/KKVXaRJ**](https://codepen.io/w3devcampus/pen/KKVXaRJ)
+[<b>https://codepen.io/w3devcampus/pen/KKVXaRJ</b>](https://codepen.io/w3devcampus/pen/KKVXaRJ)
 
 <h5>Example #4: use of geolocation, map and reverse geocoder in an HTML form</h5>
 
@@ -14714,7 +14714,7 @@ reasons the embedded version cannot run in this page):
 ![](./images/image420.png){width="5.0in"
 height="1.6009612860892388in"}
 
-[**https://codepen.io/w3devcampus/pen/MWKEJqM**](https://codepen.io/w3devcampus/pen/MWKEJqM)
+[<b>https://codepen.io/w3devcampus/pen/MWKEJqM</b>](https://codepen.io/w3devcampus/pen/MWKEJqM)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-4">3.4.4 Discussion and projects</h3>
@@ -14748,11 +14748,11 @@ height="1.840310586176728in"}
     Please post URLs in this discussion forum. These projects are
     optional, meaning that they won&apos;t be graded.
 
-    -   **Project 1 (easy)**: Add a map showing your location to one of
+    -   <b>Project 1 (easy)</b>: Add a map showing your location to one of
         your Web pages. Start with a simple, static map, then try with
         an interactive map. Reuse the examples from the course.
 
-    -   **Project 2 (a bit harder)**: The examples provided in the
+    -   <b>Project 2 (a bit harder)</b>: The examples provided in the
         course used OpenStreetMap, but why don&apos;t you try to do the same
         with GoogleMaps? Some services are free of charge, but they will
         ask you to get an API key (see [this YouTube
@@ -14763,7 +14763,7 @@ height="1.840310586176728in"}
 <h3 id="ch3-5-1">3.5.1 Background music (streamed)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-**Warning about the autoplay policy**
+<b>Warning about the autoplay policy</b>
 
 Since 2018, most browsers have adopted [the Autoplay Policy that
 prevents any Web page to start making music or playing sounds without a
@@ -14780,7 +14780,7 @@ AudioContext after the first user interaction. 
 <h4>Background music (streamed)</h4>
 
 In a previous section, we saw how we can add music to our Web page,
-using the **&lt;audio&gt;&lt;/audio&gt;** element. We can even hide its GUI and
+using the <b>&lt;audio&gt;&lt;/audio&gt;</b> element. We can even hide its GUI and
 control the play/pause of the music from JavaScript. Streaming music is
 perfect for providing a background atmosphere in a video game.
 
@@ -14937,13 +14937,13 @@ height="1.584935476815398in"}
 2.  var sound;
 3.  function init() {
 4.  var button = document.querySelector(&quot;#button1&quot;);
-5.  **sound = new Howl({**
-6.  **urls: &lbrack;   &apos;https://&#41;/assets/sounds/plop.mp3&apos;&rbrack;,**
-7.  **onload: function () {**
-8.  **console.log(&quot;Loaded asset &quot;);**
-9.  **button.disabled = false; // enable the play sound button**
-10. **}**
-11. **});**
+5.  <b>sound = new Howl({</b>
+6.  <b>urls: &lbrack;   &apos;https://&#41;/assets/sounds/plop.mp3&apos;&rbrack;,</b>
+7.  <b>onload: function () {</b>
+8.  <b>console.log(&quot;Loaded asset &quot;);</b>
+9.  <b>button.disabled = false; // enable the play sound button</b>
+10. <b>}</b>
+11. <b>});</b>
 12. }
 13. function playSound() {
 14. sound.play();
@@ -15093,7 +15093,7 @@ game: 
     Alternatively you may use a single audio element, and change
     its src attribute.
 
-We wrote a multiple &quot;**asset loader**&quot; to make all these tasks easy.
+We wrote a multiple &quot;<b>asset loader</b>&quot; to make all these tasks easy.
 
 Here is a small example that you may use if you like, which takes an
 array of &quot;assets to be loaded&quot;, that can be either an image, a sound
@@ -15104,7 +15104,7 @@ will be executed, and will get a single parameter: the assets ready to
 be used!
 
 Example (to hear the music and sound sample, there are two lines to
-uncomment in the **startGame(&#41;)** function):
+uncomment in the <b>startGame(&#41;)</b> function):
 
 ![](./images/image437.png){width="5.0in"
 height="4.250533683289588in"}
@@ -15339,8 +15339,8 @@ course. Here is an example:
 
 <pre>
 1.  var js1 = {
-2.  courseName**:** &apos;JavaScript intro&apos;,
-3.  weeks**:** 5,
+2.  courseName<b>:</b> &apos;JavaScript intro&apos;,
+3.  weeks<b>:</b> 5,
 4.  madeBy: &apos;W3Cx&apos;,
 5.  author: &apos;Michel Buffa&apos; // no &quot;,&quot; after the last property!, even
     if ES5/6 accept it
@@ -15357,8 +15357,8 @@ And we access properties values using the &quot;.&quot; operator, like this:
 5.  5
 </pre>
 
-**However, we haven&apos;t explained 90% of what is going on, and what we
-can do with &quot;objects&quot;.** Our objective in this module, is to explain
+<b>However, we haven&apos;t explained 90% of what is going on, and what we
+can do with &quot;objects&quot;.</b> Our objective in this module, is to explain
 the most important features of objects, while keeping it simple (more
 advanced topics will be taught in a future &quot;JavaScript Advanced&quot;
 course, such as prototypes, context binding, etc.).
@@ -15492,7 +15492,7 @@ CodePen](https://codepen.io/w3devcampus/pen/XgNdLK?editors=0012)
 
 <h5>In Javascript, an object = a table whose keys/indexes are defined!</h5>
 
-**Important note:** Darth Vader is called &quot;Dark Vador&quot; in the French
+<b>Important note:</b> Darth Vader is called &quot;Dark Vador&quot; in the French
 versions of Star Wars, and, as a French tutor, I think it&apos;s cool to
 give to one of the heroes an international name. :-)
 
@@ -15525,11 +15525,11 @@ They look a bit similar, don&apos;t they?
 -   Instead of &apos;&lbrack;&apos; and &apos;&rbrack;&apos; that we used for defining an array, we
     use &apos;{&apos; and &apos;}&apos; for defining an object
 
--   The elements of the object (its **properties**) are separated by a
+-   The elements of the object (its <b>properties</b>) are separated by a
     comma &apos;,&apos;
 
 -   The pairs of keys/values are separated by &apos;:&apos; as
-    in race**:** &apos;half human, half machine&apos;
+    in race<b>:</b> &apos;half human, half machine&apos;
 
 -   The last pair of keys/values has no &apos;,&apos; at the end.
 
@@ -15566,17 +15566,17 @@ the property names!
 23. &quot;Saint-Exupery&quot;
 </pre>
 
-As you can see, if you look at **lines 7-10** and **13-16**,
+As you can see, if you look at <b>lines 7-10</b> and <b>13-16</b>,
 writing book.title or book&lbrack;&apos;title&apos;&rbrack; is equivalent!
 
-**In JavaScript, objects are arrays whose indexes are property names:
-please remember this!**
+<b>In JavaScript, objects are arrays whose indexes are property names:
+please remember this!</b>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-3">4.2.3 Property declaration syntax</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-**Property names: different possibilities**
+<b>Property names: different possibilities</b>
 
 We can put single or double quotes around the name of the property, or
 nothing at all:
@@ -15618,7 +15618,7 @@ In this case it is necessary  to use the syntax with &apos;&lbrack;&apos; and &
 1.  var key = &apos;title&apos;;
 2.  undefined
 3.   
-4.  **book&lbrack;key&rbrack;;**
+4.  <b>book&lbrack;key&rbrack;;</b>
 5.  &quot;Le Petit Prince&quot;
 </pre>
 
@@ -15631,10 +15631,10 @@ In this case it is necessary  to use the syntax with &apos;&lbrack;&apos; and &
 1.  &gt; var book = {
 2.  name: &apos;Catch-22&apos;,
 3.  published: 1961,
-4.  **author: {                 // embedded object!**
-5.  **givenName: &apos;Joseph&apos;,**
-6.  **familyName: &apos;Heller&apos;**
-7.  **}**
+4.  <b>author: {                 // embedded object!</b>
+5.  <b>givenName: &apos;Joseph&apos;,</b>
+6.  <b>familyName: &apos;Heller&apos;</b>
+7.  <b>}</b>
 8.  };
 9.  Undefined
 10. 
@@ -15781,12 +15781,12 @@ object.
 
 <h5>Some vocabulary:</h5>
 
--   For **arrays**, we speak of **elements**
+-   For <b>arrays</b>, we speak of <b>elements</b>
 
--   For **objects**, we talk about **properties**
+-   For <b>objects</b>, we talk about <b>properties</b>
 
--   But **a property can also be a function**, in which case it is
-    called a **[method]{.underline}**
+-   But <b>a property can also be a function</b>, in which case it is
+    called a <b>[method]{.underline}</b>
 
 <h5>Yes, it is possible for an object&apos;s property to be a function!</h5>
 
@@ -15807,11 +15807,11 @@ call bark &quot;a method&quot;.
 A method is a special property that corresponds to the object&apos;s
 behavior
 
-**Properties correspond to an object&apos;s DNA (its characteristics),
-and are nouns (age, name, etc.)**
+<b>Properties correspond to an object&apos;s DNA (its characteristics),
+and are nouns (age, name, etc.)</b>
 
-**Methods correspond to an object&apos;s behavior
-and are verbs (bark, move, changeSpeed, etc.)**
+<b>Methods correspond to an object&apos;s behavior
+and are verbs (bark, move, changeSpeed, etc.)</b>
 
 <h5>Calling a method</h5>
 
@@ -15842,10 +15842,10 @@ height="1.6164534120734908in"}
 11. }
 </pre>
 
-In **line 1**, we created a simple object named darkVador, that has two
+In <b>line 1</b>, we created a simple object named darkVador, that has two
 properties (race and job) and a method (talk).
 
-In the dvSpeak function, at **line 10**, we call darkVador&apos;s talk
+In the dvSpeak function, at <b>line 10</b>, we call darkVador&apos;s talk
 method. The syntax is a mix between the one for accessing a property
 (with the &apos;.&apos; operator), and the one for calling a function (with
 parentheses and &apos;;&apos; at the end).
@@ -15854,7 +15854,7 @@ When we write darkVador.talk(), we are executing the talk method of the
 object darkVador, but in plain English, we&apos;re just asking Dark Vador to
 talk. We invoke its behavior!
 
-**Another example with the player we saw briefly in Module 2**
+<b>Another example with the player we saw briefly in Module 2</b>
 
 Here is the last version of the player object we saw in our small game:
 
@@ -16069,8 +16069,8 @@ height="3.716346237970254in"}
 </pre>
 
 Notice that we&apos;ve used this followed by the &apos;.&apos; operator every time
-we&apos;ve had to access the current value of an object&apos;s property (**lines
-9, 10, 20, 22 and 24**).
+we&apos;ve had to access the current value of an object&apos;s property (<b>lines
+9, 10, 20, 22 and 24</b>).
 
 We passed the canvas&apos; graphic context as a parameter to
 the draw method (it&apos;s always good not to create dependencies when
@@ -16163,8 +16163,8 @@ height="1.6137817147856517in"}
 
 11. };
 
-**Lines 5, 6 and 9**: we can add properties and methods after the object
-has been created empty at **line 2**.
+<b>Lines 5, 6 and 9</b>: we can add properties and methods after the object
+has been created empty at <b>line 2</b>.
 
 <h5>Deleting a property or a method<
 
@@ -16182,8 +16182,8 @@ JavaScript code extract:
 
 <pre>
 1.  function deleteSomeProperties() {
-2.  **delete darkVador.race;**
-3.  **delete darkVador.job;**
+2.  <b>delete darkVador.race;</b>
+3.  <b>delete darkVador.job;</b>
 4.  }
 </pre>
 
@@ -16199,11 +16199,11 @@ course](https://codepen.io/w3devcampus/pen/JWqgGZ)).
 But&#41; we also met &quot;this&quot; in event listeners (see in [this example
 from the
 course](https://codepen.io/w3devcampus/pen/gmygzV?editors=1000)). Look
-at the onchange = &quot;changePageBackgroundColor(**this.value**);&quot; &#41;
+at the onchange = &quot;changePageBackgroundColor(<b>this.value</b>);&quot; &#41;
 
 In fact, the &quot;this&quot; keyword can be confusing in JavaScript. The key
-thing to remember is that **it is bound to the calling object when the
-function is called**, not when the function is created.
+thing to remember is that <b>it is bound to the calling object when the
+function is called</b>, not when the function is created.
 
 And in the case of event listeners, the callbacks are called by the
 browser&#41; You can conclude that it&apos;s a good habit not to have event
@@ -16243,8 +16243,8 @@ the same x, y, radius and color properties, but they were all different.
 They all belonged to the same class of object (ball), but they were all
 different in terms of their properties&apos; values.
 
-**In many programming languages, these templates are called
-&quot;classes&quot;.**
+<b>In many programming languages, these templates are called
+&quot;classes&quot;.</b>
 
 -   Before 2015, in JavaScript 5 (also called ES5), we did not have such
     a concept, instead we had &quot;constructor functions&quot;.
@@ -16373,35 +16373,35 @@ The 'new' operator here is for constructing, for building objects.
     CodePen](https://codepen.io/w3devcampus/pen/eRBoyr?editors=0011)
 
 Up to 2015, with JavaScript version 5 (and previous versions), you can
-define a pseudo-class template called &quot;**a constructor function**&quot;.
+define a pseudo-class template called &quot;<b>a constructor function</b>&quot;.
 The syntax is the same as for creating a function, except that:
 
-1.  **By convention, its name is Capitalized.** The first letter of the
+1.  <b>By convention, its name is Capitalized.</b> The first letter of the
     function name is in uppercase, this is a good way to know, when you
     read someone else&apos;s code, that this is not a regular function, but
-    a constructor function. **Its name is a noun, the name of the class
-    of objects you are going to build.** Example: Person, Vehicle,
+    a constructor function. <b>Its name is a noun, the name of the class
+    of objects you are going to build.</b> Example: Person, Vehicle,
     Enemy, Product, Circle, Ball, Player, Hero, etc.
 
-2.  You build new objects using the **new** keyword: 
+2.  You build new objects using the <b>new</b> keyword: 
     
     Examples (Car, Hero, Ball, Product are constructor function names):
     
-    var car = **new** Car(&apos;Ferrari&apos;, &apos;red&apos;);
-    var luke = **new** Hero(&apos;Luke Skywalker&apos;, &apos;rebels&quot;);
-    var ball1 = **new** Ball(10, 10, 20, &apos;blue&apos;); // x=10, y=10,
+    var car = <b>new</b> Car(&apos;Ferrari&apos;, &apos;red&apos;);
+    var luke = <b>new</b> Hero(&apos;Luke Skywalker&apos;, &apos;rebels&quot;);
+    var ball1 = <b>new</b> Ball(10, 10, 20, &apos;blue&apos;); // x=10, y=10,
     radius = 20, color = &apos;blue&apos;
-    var p1 = **new** Product(&apos;Epson printer P1232&apos;, &apos;183&apos;, &apos;Mr
+    var p1 = <b>new</b> Product(&apos;Epson printer P1232&apos;, &apos;183&apos;, &apos;Mr
     Buffa&apos;); // ref, price, customer
     etc.
 
-3.  **The parameters of the function are the &quot;constructor
+3.  <b>The parameters of the function are the &quot;constructor
     parameters&quot;: the new object that you are building will take these
-    as its initial properties&apos; values.** You can build a Hero, but you
+    as its initial properties&apos; values.</b> You can build a Hero, but you
     must give him/her a name, a side, etc.
 
-4.  **You define** the** property names and method names using
-    the this keyword**. But beware: the syntax is not the same as the
+4.  <b>You define</b> the<b> property names and method names using
+    the this keyword</b>. But beware: the syntax is not the same as the
     syntax we used for singleton/simple objects. No more &quot;:&quot; and &quot;,&quot;
     between properties. Here we use &quot;=&quot; and &quot;;&quot; like in regular
     functions.
@@ -16409,9 +16409,9 @@ The syntax is the same as for creating a function, except that:
     Example: 
     
     function Hero(name, side) {
-        **this.name = name;**
-        **this.side = side;**
-        **this.speak = function()** {
+        <b>this.name = name;</b>
+        <b>this.side = side;</b>
+        <b>this.speak = function()</b> {
             console.log(&quot;My name is &quot; + this.name + &quot; and I&apos;m with
     the &quot; + this.side);
         }
@@ -16421,8 +16421,8 @@ The syntax is the same as for creating a function, except that:
     declared like this: this.name this.side; and methods declared like
     this: this.speak = function() {&#41;}
 
-5.  **Very often some properties are initialized using the constructor
-    function parameters**, so that the newly constructed objects will
+5.  <b>Very often some properties are initialized using the constructor
+    function parameters</b>, so that the newly constructed objects will
     get an initial value for their properties. In this case, we use
     the this keyword to distinguish the property from the constructor
     function parameter:
@@ -16430,7 +16430,7 @@ The syntax is the same as for creating a function, except that:
     Example: 
     
     function Hero(name) {
-        **this.name = name;**
+        <b>this.name = name;</b>
         &#41;
     }
 
@@ -16466,7 +16466,7 @@ JavaScript source code:
 </pre>
 
 *Lines 1-9*: see how the constructor function is declared: the function
-name starts with an uppercase letter &apos;**H**ero&apos;. The parameters have
+name starts with an uppercase letter &apos;<b>H</b>ero&apos;. The parameters have
 the same name as the properties they correspond to (name, side). And in
 the first source code lines after the function declaration, we
 initialize some properties using these parameters (*lines 2 and 3*). We
@@ -16598,20 +16598,20 @@ subject of a future &quot; JavaScript advanced&quot; course. 
 
 Main changes:
 
--   **A class is simply defined using the keyword class followed by the
-    name of the class**
+-   <b>A class is simply defined using the keyword class followed by the
+    name of the class</b>
 
--   **The unique constructor is defined using the constructor keyword
-    followed by the parameters**
+-   <b>The unique constructor is defined using the constructor keyword
+    followed by the parameters</b>
 
--   **The constructor is executed when an object is created using the
-    keyword new**
+-   <b>The constructor is executed when an object is created using the
+    keyword new</b>
     Example: let h1 = new Hero(&apos;Ian Solo&apos;, &apos;rebels&apos;);
     
     This will call constructor(name, side) in the example below.
 
--   **A method is simply defined by its name followed by its
-    parameters (we no more use the keyword &quot;function&quot;)**
+-   <b>A method is simply defined by its name followed by its
+    parameters (we no more use the keyword &quot;function&quot;)</b>
     Example: speak() {&#41;} in the source code below.
 
 Here is the new version of the Hero &quot;template&quot;, this time with the ES6
@@ -16639,13 +16639,13 @@ class syntax:
 
 11. var darkVador = new Hero(&quot;Dark Vador&quot;, &quot;empire&quot;);
 
--   **Line 1**: a class is simply defined using the
+-   <b>Line 1</b>: a class is simply defined using the
     keyword class followed by the name of the class. Like for
     constructor functions, the convention is to use a noun, capitalized.
 
--   **Line 2**: the constructor is defined using
-    the constructor keyword. **THERE CAN BE ONLY ONE CONSTRUCTOR in the
-    class.**  A SyntaxError will be thrown if the class contains more
+-   <b>Line 2</b>: the constructor is defined using
+    the constructor keyword. <b>THERE CAN BE ONLY ONE CONSTRUCTOR in the
+    class.</b>  A SyntaxError will be thrown if the class contains more
     than one occurrence of a constructor method. No more use of
     the function keyword. Simply use the constructor keyword followed by
     the parameters.
@@ -16655,8 +16655,8 @@ object is created using the keyword new followed by the name of the
 class, with arguments between parentheses. These arguments will be
 passed to the constructor.
 
--   **Line 7**: a method is simply defined by its name followed by its
-    parameters. **Again, no more use of the function keyword.**
+-   <b>Line 7</b>: a method is simply defined by its name followed by its
+    parameters. <b>Again, no more use of the function keyword.</b>
 
 See below an interactive example that uses an ES6 class to create Star
 Wars&apos; heroes.
@@ -16679,8 +16679,8 @@ declarations are not. This means that you can call a function BEFORE it
 has been declared in your source code. This is not the case with ES6
 classes!
 
-**You first need to declare your class and then access it, otherwise
-code like the following will throw a ReferenceError**:
+<b>You first need to declare your class and then access it, otherwise
+code like the following will throw a ReferenceError</b>:
 
 Incorrect version =&gt; you try to create an instance of a class before it
 has been declared:
@@ -16728,7 +16728,7 @@ Objects can also be created by functions that return objects (factories):
 2.    var rect = canvas.getBoundingClientRect();
 3.    var mxx = event.clientX - rect.left;
 4.    var my = event.clientY - rect.top;
-5.    **return { // the getMousePos function returns an object. It's a factory**
+5.    <b>return { // the getMousePos function returns an object. It's a factory</b>
 6.      **x: mx,**
 7.      **y: my**
 8.    **}**
@@ -17243,60 +17243,35 @@ in other projects.
 
 **New version** of the ES6 Ball class with draw and move methods:
 
+<pre>
 1.  class Ball {
-
 2.      constructor(x, y, radius, color, speedX, speedY) {
-
 3.          // see previous section for the code
-
 4.      }
-
 5.  
-
-6.      draw(**ctx**) { // Nearly the same as the old drawFilledCircle
-    function
-
+6.      draw(**ctx**) { // Nearly the same as the old drawFilledCircle function
 7.          // BEST practice: save the context, use 2D transformations
-
 8.          ctx.save();
-
 9.  
-
 10.         // translate the coordinate system, draw relative to it
-
 11.         ctx.translate(**this.x, this.y**);
-
 12. 
-
 13.         ctx.fillStyle = **this.color;**
-
 14.         // (0, 0) is the top left corner of the monster.
-
 15.         ctx.beginPath();
-
 16.         ctx.arc(0, 0, **this.radius**, 0, 2&#41;Math.PI);
-
 17.         ctx.fill();
-
 18. 
-
 19.         // BEST practice: restore the context
-
 20.         ctx.restore();
-
 21.     }
-
 22. 
-
 23.     move() {
-
 24.         this.x += this.speedX;
-
 25.         this.y += this.speedY;
-
 26.     }
-
 27. }
+</pre>
 
 Explanations:
 
@@ -17514,96 +17489,64 @@ lastName:&apos;Buffa&apos;), this is what happens:
 
 Examples:
 
+<pre>
 1.  // Defining two variables
-
 2.  var x = 2; // the variable x contains the primitive datum 2
-
 3.  var y = { a: 2 } // The variable y references the object {a: 2}
-
 4.  
-
 5.  // &quot;Copying&quot; two variables
-
 6.  var x2 = x;
-
 7.  var y2 = y;
-
 8.  var y3 = y;
-
 9.  
-
 10. // Modifying copied variables
-
 11. x2 = 3;
-
 12. y2 = { a: 3 };
-
 13. 
-
 14. // Check
-
 15. x; // 2 &lt;- x is not modified because it contains a primitive value
-
-16. y; // { a: 2 } &lt;- y is not modified because y2 does not point to
-    same object
-
+16. y; // { a: 2 } &lt;- y is not modified because y2 does not point to same object
 17. 
-
 18. y3.a = 4;
-
-19. y; // { a: 4 } &lt;- The object referenced by &quot;y&quot; and &quot;y3&quot; is
-    modified
+19. y; // { a: 4 } &lt;- The object referenced by &quot;y&quot; and &quot;y3&quot; is modified
+</pre>
 
 Of course, these rules also apply to the properties of objects.
 
 Example:
 
+<pre>
 1.  var driver = {
-
 2.      name: &apos;Jean&apos;
-
 3.  };
-
 4.  
-
 5.  var car = {
-
 6.      color: &apos;red&apos;,
-
 7.      driver: driver
-
 8.  };
-
 9.  
-
 10. driver.name = &apos;Albert&apos;;
-
 11. car.driver.name; // &apos;Albert&apos;
+</pre>
 
 JavaScript is a &quot;pass by value&quot; language, unlike some other languages,
 which are &quot;pass by reference&quot; languages. This means that when you pass
 a variable to a function as argument, the value of the variable is
 copied into the argument.
 
-Example:
+<h5>Example:</h5>
 
+<pre>
 1.  var x = 2;
-
 2.  
-
 3.  function sum(a, b) {
-
 4.      a = a + b;
-
 5.      return a;
-
 6.  }
-
 7.  
-
 8.  sum(x, 3); // returns 5
-
 9.  x; // 2 &lt;- but x equals 2
+</pre>
 
 When working with objects, the reference of the object is copied into
 the argument. That means you can modify the referenced object. But if
@@ -17611,47 +17554,34 @@ you change the reference (for example by assigning a new object), the
 original variable (which now points to another object) will not be
 modified.
 
-Example 1:
+<h5>Example 1:</h5>
 
+<pre>
 1.  var obj = { x: 2 }
-
 2.  
-
 3.  function add(a, b) {
-
 4.  a.x += b;
-
 5.  }
-
 6.  
-
 7.  add(obj, 3);
-
 8.  obj.x; // 5 &lt;- The referenced object is modified
+</pre>
 
-Example 2:
+<h5>Example 2:</h5>
 
+<pre>
 1.  var obj = { x: 2 };
-
 2.  
-
 3.  function addAndSet(a, b) {
-
 4.      var addition = a.x + b;
-
 5.      a = { x: addition };
-
 6.  };
-
 7.  
-
 8.  addAndSet(obj, 3);
-
 9.  obj.x; /&#41; 2 &lt;- The referenced object is not modified
-
 10. because at the end of the function the variable &quot;obj&quot;
-
 11. and the variable &quot;a&quot; are not referencing the same object.&#41;/
+</pre>
 
 Other example:
 
@@ -17708,35 +17638,26 @@ Two objects of the same type, with the same property value, that look
 identical, will not be equal one to another if they don't have the same
 reference (if they point to different places in memory).
 
+<pre>
 1.  &gt; var originalObject = {name:&apos;Michel&apos;};
-
 2.  undefined
-
 3.   
-
 4.  &gt; var copy = originalObject;
-
 5.  undefined
-
 6.   
-
 7.  &gt; copy === originalObject
-
 8.  true
-
 9.   
-
 10. &gt; var anotherObject = {name:&apos;Michel&apos;};
-
 11. undefined
-
 12.  
-
 13. &gt; copy === anotherObject
-
 14. false
+</pre>
 
-### 5.2.3 The &quot;global&quot; window object {#the-global-window-object .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id"ch5-2-3">5.2.3 The &quot;global&quot; window object</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 It is time to tell you the truth: the JavaScript code is executed by an
 "environment&quot; (usually a Web browser, but there are some HTTP Web
@@ -17766,82 +17687,58 @@ You can switch back to using let, later.
 
 Let&apos;s see some examples:
 
+<pre>
 1.  &gt; var a = 1;
-
 2.  undefined
-
 3.   
-
 4.  &gt; a;
-
 5.  1
-
 6.   
-
 7.  &gt; window.a;
-
 8.  1
-
 9.   
-
 10. &gt; window&lbrack;&apos;a&apos;&rbrack;;
-
 11. 1
-
-12. &gt; **let z = 1;** // LET DOES NOT DEFINE properties of the window
-    object
-
+12. &gt; **let z = 1;** // LET DOES NOT DEFINE properties of the window object
 13. undefined
-
 14. &gt; **window.z**
-
 15. **undefined**
+</pre>
 
-a and window.a are the same variable.
-navigator and window.navigator are the
-same, document and window.document are the same thing.
+<p><b>a</b> and <b>window.a</b> are the same variable.<br>
+<b>navigator</b> and <b>window.navigator</b> are the same,<br>
+<b>document</b> and <b>window.document</b> are the same thing.</p>
 
+<pre>
 1.  &gt; document === window.document
-
 2.  true
-
 3.   
-
 4.  &gt; navigator === window.navigator
-
 5.  true
+</pre>
 
 Predefined functions are methods from the global object window:
 
+<pre>
 1.  &gt; parseInt(&apos;10 little children&apos;);
-
 2.  10
-
 3.   
-
 4.  &gt; window.parseInt(&apos;10 little children&apos;);
-
 5.  10
-
 6.   
-
 7.  &gt; alert === window.alert
-
 8.  true
-
 9.   
-
 10. &gt; prompt === window.prompt
-
 11. true
-
 12.  
-
 13. &gt; window.addEventListener === addEventListener
-
 14. true
+</pre>
 
-### 5.2.4 Built-in JS class: Object (3:12) {#built-in-js-class-object-312 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch5-2-4">5.2.4 Built-in JS class: Object (3:12)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ![](./images/image481.png){width="6.0in"
 height="3.089102143482065in"}
@@ -17883,7 +17780,7 @@ is this message.
 
 &lt;video transcript above&gt;
 
-### Source code shown in the above video {#source-code-shown-in-the-above-video .unnumbered}
+<h5>Source code shown in the above lesson</h5>
 
 The source code of the example shown in the video [is available on
 CodePen](https://codepen.io/w3devcampus/pen/EXmONY?editors=0012)
@@ -17893,93 +17790,73 @@ properties and methods from the special class named Object.
 
 These two lines are equivalent:
 
+<pre>
 1.  &gt; var o = {}; // creation of an empty object
-
 2.  undefined
-
 3.   
-
 4.  &gt; var o = new Object(); // same thing as in line 1
-
 5.  undefined
+</pre>
 
-#### The toString method inherited from Object by all objects {#the-tostring-method-inherited-from-object-by-all-objects .unnumbered}
+<h5>The <b>toString</b> method inherited from Object by all objects</h5>
 
+<pre>
 1.  &gt; o.toString();
-
 2.  &quot;&lbrack;object Object&rbrack;&quot;
-
 3.   
-
 4.  &gt; o.name = &apos;Michel&apos;;
-
 5.  &quot;Michel&quot;
-
 6.   
-
 7.  &gt; o.toString();
-
 8.  &quot;&lbrack;object Object&rbrack;&quot;
-
 9.   
-
 10. &gt; var t = &lbrack;1, 2, 3&rbrack;;
-
 11. undefined
-
 12.  
-
 13. &gt; t.toString();
-
 14. &quot;1,2,3&quot;
+</pre>
 
-toString() in JavaScript is rather similar to
+<p><b>toString()</b> in JavaScript is rather similar to
 the Object.toString() method we find in the Java programming
-language: **when we try to &quot;display&quot; an object, it is transformed into
-a string by calling toString() implicitly**.
+language: <b>when we try to &quot;display&quot; an object, it is transformed into
+a string by calling toString() implicitly</b>.</p>
 
+<pre>
 1.  &gt; alert(**t**);
-
 2.   
-
 3.  &gt; alert(**t.toString()**); **// same as previous line of code**
-
 4.   
-
-5.  &gt; &quot;An object into a string : &quot; **+ t **// same
-    as **t.toString()**
-
+5.  &gt; &quot;An object into a string : &quot; **+ t **// same as **t.toString()**
 6.  &quot;The object as a String : 1, 2, 3&quot;
+</pre>
 
 **Line 5**: using the + operator with a string as the left argument will
 force the other arguments to convert to string by implicitly calling
 their toString() method.
 
-#### The valueOf method inherited from Object by all objects {#the-valueof-method-inherited-from-object-by-all-objects .unnumbered}
+<h5>The <b>valueOf</b> method inherited from Object by all objects</h5>
 
-The ValueOf method returns the value of an object:
+The <b>ValueOf</b> method returns the value of an object:
 
+<pre>
 1.  &gt; var t = &lbrack;1, 2, 3&rbrack;;
-
 2.  undefined
-
 3.   
-
 4.  &gt; t.valueOf()
-
 5.  &lbrack;1, 2, 3&rbrack;
-
 6.   
-
 7.  &gt; t.toString();
-
 8.  &quot;1,2,3&quot;
+</pre>
 
-### 5.2.5 Built-in JS class: Array (8:46) {#built-in-js-class-array-846 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch5-2-5">5.2.5 Built-in JS class: Array (8:46)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: predefined object - Array
 
-### ![](./images/image482.png){width="6.0in" height="3.1076924759405076in"} {#section-11 .unnumbered}
+![](./images/image482.png){width="6.0in" height="3.1076924759405076in"}
 
 Hi!
 
@@ -18081,7 +17958,7 @@ on&#41;
 
 &lt;end video transcript above&gt;
 
-### Source code from the above video {#source-code-from-the-above-video .unnumbered}
+<h5>Source code from the above video</h5>
 
 -   The source code is available[ on this
     CodePen](https://codepen.io/w3devcampus/pen/XgRyar?editors=0012)
@@ -18089,37 +17966,29 @@ on&#41;
 The Array class can be used for creating arrays (however, we
 recommend that you use the other methods presented instead):
 
-1.  &gt; **var a = new Array();** // **same as a = &lbrack;&rbrack;; use this
-    instead!**
-
+<pre>
+1.  &gt; **var a = new Array();** // **same as a = &lbrack;&rbrack;; use this instead!**
 2.  undefined
-
 3.   
-
 4.  &gt; **var b = new Array(1, 2, 3);**
-
 5.  undefined
-
 6.   
-
 7.  &gt; b;
-
 8.  &lbrack;1, 2, 3&rbrack;
+</pre>
 
 Attention: if only one element, this corresponds to the initial size of
 the array.
 
+<pre>
 1.  &gt; var myArray = new Array(3);
-
 2.  undefined
-
 3.   
-
 4.  &gt; myArray;
-
 5.  &lbrack;undefined × 3&rbrack;
+</pre>
 
-### Arrays are objects, but they are "special" objects {#arrays-are-objects-but-they-are-special-objects .unnumbered}
+<h5>Arrays are objects, but they are "special" objects</h5>
 
 -   Their property names are numerical indexes that start from 0
 
@@ -18129,119 +17998,83 @@ the array.
 -   They have other built-in properties in addition to the ones
     inherited from Object (toString, valueOf)
 
+<pre>
 1.  &gt; var a = &lbrack;&rbrack;, o = {};
-
 2.  undefined
-
 3.   
-
 4.  &gt; a.length; // a is an array
-
 5.  0
-
 6.   
-
 7.  &gt; o.length; // o is a simple literal object
-
 8.  undefined
+</pre>
 
 Some horrible things we can do with arrays (TO AVOID!):
 
+<pre>
 1.  &gt; var a = &lbrack;1, 2&rbrack;;
-
 2.  undefined
-
 3.   
-
 4.  &gt; typeof a
-
 5.  &quot;object&quot;
-
 6.   
-
 7.  &gt; a.push(3);
-
 8.  3
-
 9.   
-
 10. &gt; a
-
 11. &lbrack;1, 2, 3&rbrack;
-
 12.  
-
 13. &gt; a.length
-
 14. 3
-
 15.  
-
-16. **// Now let's add a name property to the array. Yes, we can do
-    that!**
-
+16. **// Now let's add a name property to the array. Yes, we can do that!**
 17.  
-
 18. **&gt; a.name = &quot;I&apos;m an array named a!&quot;;**
-
 19. **&quot;I&apos;m an array named a!&quot;**
-
 20. ** **
-
 21. **&gt; a.length;**
-
 22. **3**
-
 23. ** **
-
 24. **&gt; a;**
-
 25. **&lbrack;1, 2, 3, name: &quot;I&apos;m an array named a!&quot;&rbrack;**
+</pre>
 
 ![](./images/image483.png){width="6.5in"
 height="0.5576388888888889in"}
 
-### **The length property can be modified: reducing or increasing the size of an array** {#the-length-property-can-be-modified-reducing-or-increasing-the-size-of-an-array .unnumbered}
+<h5><b>The length property can be modified: reducing or increasing the size of an array</b></h5>
 
 If you give to the length property a value bigger than the number of
 elements in an array, it adds undefined elements to it:
 
+<pre>
 1.  &gt; var a = &lbrack;1, 2&rbrack;;
-
 2.  undefined
-
 3.   
-
 4.  &gt; a.length = 5;
-
 5.  5
-
 6.   
-
 7.  &gt; a;
-
 8.  &lbrack;1, 2, undefined × 3&rbrack;
+</pre>
 
 If you give to the length property a value less than the array's number
 of elements, it reduces the size of the array:
 
+<pre>
 1.  &gt; var a = &lbrack;1, 2, 3&rbrack;;
-
 2.  undefined
-
 3.   
-
 4.  &gt; a.length = 2;
-
 5.  2
-
 6.   
-
 7.  &gt; a;
-
 8.  &lbrack;1, 2&rbrack;
+</pre>
 
-### 5.2.6 The most useful methods of the class Array {#the-most-useful-methods-of-the-class-array .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch5-2-6">5.2.6 The most useful methods of the class Array</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The most useful methods you can use on arrays are: sort(), join(),
 slice(), splice(), push()and pop()
@@ -18266,7 +18099,7 @@ slice(), splice(), push()and pop()
 
 -   pop: removes the last element and returns it
 
-### Typical uses of  push, pop, sort, join {#typical-uses-of-push-pop-sort-join .unnumbered}
+<h5>Typical uses of  push, pop, sort, join</h5>
 
 <pre>
 1.  &gt; var a = &lbrack;3, 5, 1, 7, &apos;test&apos;&rbrack;;
@@ -18301,7 +18134,7 @@ slice(), splice(), push()and pop()
 30. 
 </pre>
 
-### The slice() method returns a sub-array without modifying the original array {#the-slice-method-returns-a-sub-array-without-modifying-the-original-array .unnumbered}
+<h5>The slice() method returns a sub-array without modifying the original array</h5>
 
 The slice() method returns a shallow copy of a portion of an array into
 a new array object selected from begin to end (**end not included**).
@@ -18377,7 +18210,9 @@ elements, splice() will only remove elements from the array.
 14. &lbrack;1, 7, &quot;test&quot;&rbrack;
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-7">5.2.7 Built-in JS class: Number</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The Number class can be used to transform strings into numbers, but it is
 recommended that you use parseInt or parseFloat instead.
@@ -18476,7 +18311,9 @@ Number has useful non-modifiable properties
 33. &quot;3&quot;
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-8">5.2.8 Built-in JS class: String (7:48)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: predefined class - String
 
@@ -18511,41 +18348,41 @@ do: "s = **s.toUpperCase()**". In that case, &quot;s&quot; has been modified.
 The same, if you want to put it in lower case, so you&apos;ve got
 "**toLowerCase()**". That works too and using "s = **s.toLowerCase()**"
 modifies the string. Some other interesting methods are "**indexOf()**"
-to locate, to get the index of a particular character. "**s.indexOf()**"
+to locate, to get the index of a particular character. "<b>s.indexOf()</b>"
 and&#41;if I say&#41; the character "c", it will return 2. 0 for the "m",
-1 for the "i" and 2 for the "c". "**indexOf()**" returns the first
+1 for the "i" and 2 for the "c". "<b>indexOf()</b>" returns the first
 occurrence. If I try it with an "l", it will be 5 for the first
-occurrence of the chain. You&apos;ve got also the "**lastIndexOf()**" method
+occurrence of the chain. You&apos;ve got also the "<b>lastIndexOf()</b>" method
 that is useful for getting the last position: 15 will be this "l", the
 last "l" from the "hello" word located at the end of the string. You&apos;ve
-got also "**charAt()**" that is useful for getting a character at a
-given position: "**s.charAt(5)**" will return the character at number 5,
+got also "<b>charAt()</b>" that is useful for getting a character at a
+given position: "<b>s.charAt(5)</b>" will return the character at number 5,
 it&apos;s "l".
 
 We can also chain methods. We&apos;ve got "s" that has the value of "Michel
-says hello". You can say: "**s.toUpperCase()**" and this will return the
+says hello". You can say: "<b>s.toUpperCase()</b>" and this will return the
 same value but in upper case. And now I can do for example:
-"**lastIndexOf()**" with the big "L" and it will give me the answer,
-because "**s.toUpperCase()**" will return a value in upper case and on
+"<b>lastIndexOf()</b>" with the big "L" and it will give me the answer,
+because "<b>s.toUpperCase()</b>" will return a value in upper case and on
 this return value, we will try to get the index of the last "l", big "L"
 in it. Then, you can also get parts of a string without modifying it.
 
 You&apos;ve got 2 different methods that are very similar. For the most
-common use, it&apos;s "**slice()**" and "**substring()**". Let&apos;s me show
-you "**substring()**". Let&apos;s type again the value of "s":
-**s.substring()**"... beginning index and end index...
+common use, it&apos;s "<b>slice()</b>" and "<b>substring()</b>". Let&apos;s me show
+you "<b>substring()</b>". Let&apos;s type again the value of "s":
+<b>s.substring()</b>"... beginning index and end index...
 
 For example, 0 to 3 will get the characters at index 0, 1 and 2. It
 stops before the end parameter. It will get character at position 0, 1
 and 2 not 3. If I try again with 3 to 5, it will get only 2 characters:
 3 and 4. You see that.
 
-"**slice()**" does the same thing, so in my opinion just choose one.
-"**slice()**" will do exactly the same thing. To tell you the thrust, I
-mainly use only "**substring()**" with 2 arguments begin and end that
+"<b>slice()</b>" does the same thing, so in my opinion just choose one.
+"<b>slice()</b>" will do exactly the same thing. To tell you the thrust, I
+mainly use only "<b>substring()</b>" with 2 arguments begin and end that
 are positive and begin less that end. Follow this advice and will not
-have any problem. Other interesting methods are "**split()**" and
-"**join()**". If you use "**split()**", you can indicate the separator
+have any problem. Other interesting methods are "<b>split()</b>" and
+"<b>join()</b>". If you use "<b>split()</b>", you can indicate the separator
 character. In the current string, you&apos;ve got spaces between the words.
 
 If I do this, it returns an array composed of tokens that are just the
@@ -18555,12 +18392,12 @@ then in that case you will have slices separated by the "l" keyword.
 
 Ok let&apos;s try again with this one.
 
-And "**join()**" will rebuild, again from an array of tokens, it will
+And "<b>join()</b>" will rebuild, again from an array of tokens, it will
 rebuild a string. And you can indicate what set of characters should be
 inserted in the middle between each token.
 
 If I do this, it will... ok...I need to do this on the array so:
-"**s.split(&apos; &apos;).join(&apos;&#45;&#45;&#45;-&apos;)**" will first return the array of
+"<b>s.split(&apos; &apos;).join(&apos;&#45;&#45;&#45;-&apos;)</b>" will first return the array of
 tokens separated by space and will in turn build again a string with
 &apos;&#45;&#45;&#45;-&apos; between different tokens.
 
@@ -18610,11 +18447,11 @@ to use the standard syntax:
 
 <h5>Explanations:  {#explanations-10 .unnumbered}
 
--   **Line 10**: in JavaScript, and in many other programming
-    languages,** a string is not modifiable at all**.
-    **When we do var s = s + &quot;hello&quot;, in fact, we are building a new
+-   <b>Line 10</b>: in JavaScript, and in many other programming
+    languages,<b> a string is not modifiable at all</b>.
+    <b>When we do var s = s + &quot;hello&quot;, in fact, we are building a new
     string somewhere in memory, and we assign this new value to the
-    variable s.**
+    variable s.</b>
     We never &quot;modify&quot; the characters of the string s, we just give
     to s another address in memory to point to. 
 
@@ -18698,9 +18535,9 @@ The most useful methods of the String are: slice, substring, split, join
 
 <h5>The slice and substring methods</h5>
 
-**Both these methods can be used to extract a substring from a
-string. **They take two parameters: the start and end index of the slice
-(**element at end index will NOT be included in the slice**): "please
+<b>Both these methods can be used to extract a substring from a
+string. </b>They take two parameters: the start and end index of the slice
+(<b>element at end index will NOT be included in the slice</b>): "please
 cut from this index, to this one, not included!". 
 
 These two methods are very similar. 
@@ -18717,20 +18554,20 @@ These two methods are very similar. 
 7.  &gt; s.slice(11, 16);
 8.  &quot;Bond!&quot;
 9.   
-10. &gt; s; **// s is unchanged**
+10. &gt; s; <b>// s is unchanged</b>
 11. &quot;My name is Bond! James Bond!&quot;
 12.  
 13. s.substring(11, 16);
 14. &quot;Bond!&quot;
 15.  
-16. &gt; s; **// s is still unchanged**
+16. &gt; s; <b>// s is still unchanged</b>
 17. &quot;My name is Bond! James Bond!&quot;
 18. 
 19. &gt; s = s.substring(11, 16);
 20. &quot;Bond!&quot;
 21.  
-22. &gt; s; **// this time s has changed, because we did s = s.substring(&#41;), the same **
-23. **     // could have been done with s = s .slice(&#41;)**
+22. &gt; s; <b>// this time s has changed, because we did s = s.substring(&#41;), the same </b>
+23. <b>     // could have been done with s = s .slice(&#41;)</b>
 24. &quot;Bond!&quot;
 </pre>
 
@@ -18768,7 +18605,7 @@ between slice and substring.
 <h4>&lbrack;Advanced&rbrack; slice(start, stop) works like substring(start, stop) 
 with a few different behaviors</h4>
 
-**What they have in common:**
+<b>What they have in common:</b>
 
 -   If start equals stop: returns an empty string
 
@@ -18777,14 +18614,14 @@ with a few different behaviors</h4>
 -   If either argument is greater than the string&apos;s length, the
     string&apos;s length will be used instead.
 
-**Distinctions of substring():**
+<b>Distinctions of substring():</b>
 
 -   If start &gt; stop, then substring will swap those two arguments.
 
 -   If either argument is negative or is NaN, it is treated as if it
     were 0.
 
-**Distinctions of slice():**
+<b>Distinctions of slice():</b>
 
 -   If start &gt; stop, slice() will NOT swap the two arguments.
 
@@ -18849,15 +18686,15 @@ It's not possible to do var m = new Math();
 
 <pre>
 1.  &gt; var m = new Math();
-2.  VM5777:1 **Uncaught TypeError: Math is not a constructor**
+2.  VM5777:1 <b>Uncaught TypeError: Math is not a constructor</b>
 3.  at &lt;anonymous&gt;:1:9
 4.  (anonymous) @ VM5777:1
 </pre>
 
 But the Math class has a lot of properties and methods that are useful
-for arithmetic expressions. **They are all class methods and properties,
+for arithmetic expressions. <b>They are all class methods and properties,
 so you will need to use the name of the class followed by the dot
-operator to access them.**
+operator to access them.</b>
 
 Here are some examples:
 
@@ -18974,9 +18811,9 @@ height="4.061431539807524in"}
 
 Let&apos;s see how to get a date by calling the Date constructor.
 
-**Without any argument, a call to new Date() returns the current date.**
+<b>Without any argument, a call to new Date() returns the current date.</b>
 
-**Note**: The return value is actually a Date object, which is displayed
+<b>Note</b>: The return value is actually a Date object, which is displayed
 by calling toString() on this object.
 
 <pre>
@@ -18988,7 +18825,7 @@ by calling toString() on this object.
 6.  Wed Apr 12 2017 11:10:28 GMT+0200 (CEST)
 </pre>
 
-**We can also pass it an argument that can be:**
+<b>We can also pass it an argument that can be:</b>
 
 -   A string that encodes a date
 
@@ -19104,19 +18941,19 @@ week Michel Buffa&apos;s birthday will occur, between 2017 and 2047:
 
 <h5>Explanations:</h5>
 
--   **Line 1** we use an array with each element being the number of
+-   <b>Line 1</b> we use an array with each element being the number of
     times the birthday occurs on a Sunday, Monday, etc.
 
--   **Line 3**: we iterate using a for loop on every year between 2017
+-   <b>Line 3</b>: we iterate using a for loop on every year between 2017
     and 2047.
 
--   **Line 4**: we build a Date object using 16 of April, but change the
+-   <b>Line 4</b>: we build a Date object using 16 of April, but change the
     year, we compute the date of each of Michel Buffa&apos;s birthdays
     between 2017 and 2045, and we get the index of the day (using
     the getDay() method). This index is used to increment corresponding
-    elements of the array defined in **line 1**.
+    elements of the array defined in <b>line 1</b>.
 
--   Finally,** line 7** displays the content of the array. Remember
+-   Finally,<b> line 7</b> displays the content of the array. Remember
      that typing a variable name in the devtool console is equivalent to
     calling the object toString() method.
 
@@ -19134,22 +18971,22 @@ height="2.2633552055993in"}
 
 The &lt;table&gt; element helps with rendering tables in an HTML document.  
 
-Each table row is defined with the &lt;tr&gt; tag (**T**able **R**ow). A
-table header is defined with the &lt;th&gt; tag (**T**able **H**eader). By
+Each table row is defined with the &lt;tr&gt; tag (<b>T</b>able <b>R</b>ow). A
+table header is defined with the &lt;th&gt; tag (<b>T</b>able <b>H</b>eader). By
 default, table headings are bold and centered. A table data/cell is
-defined with the &lt;td&gt; tag (**T**able **D**ata). In each cell, you can
+defined with the &lt;td&gt; tag (<b>T</b>able <b>D</b>ata). In each cell, you can
 have other HTML elements/tags. You can have only &quot;column table
 headers&quot; (the first row of the table will be in bold), or you can also
 have &quot;row headers&quot; (first cell of each row).
 
-**Best practice for making the table accessible:** always add
+</b>Best practice for making the table accessible:</b> always add
 a &lt;caption&gt; tag inside the &lt;table&gt; tag. Data tables very often have
 brief descriptive text before or after the table that indicates the
 content of that table. This text should be associated to its respective
 table using the &lt;caption&gt; element. The &lt;caption&gt; element must be the
 first thing after the opening &lt;table&gt; tag.
 
-**Second best practice for accessibility:** use a scope attribute with
+<b>Second best practice for accessibility:</b> use a scope attribute with
 all &lt;th scope = &quot;row or column&quot;&gt; for identifying whether a table
 header is a column header or a row header. We invite you to read [these
 guidelines](https://www.w3.org/WAI/tutorials/tables/) for making
@@ -19211,17 +19048,17 @@ height="1.9636756342957131in"}
 12. }
 </pre>
 
-**Explanations**:
+</b>Explanations</b>:
 
--   **Line 1**: this rule says that the table will occupy the width of
+-   <b>Line 1</b>: this rule says that the table will occupy the width of
     the window and will have a black, continuous border that is one
     pixel wide.
 
--   **Line 7**: this rule says that table rows, table cells and table
+-   <b>Line 7</b>: this rule says that table rows, table cells and table
     headers will also have a border and will use the font family
     Courier.
 
--   **Line 12**: this says that all cells will have the text
+-   <b>Line 12</b>: this says that all cells will have the text
     horizontally centered and an internal margin (called padding) of
     10px in each direction (top, bottom, left, right).
 
@@ -19473,13 +19310,13 @@ developers should make a concerted effort to mark up Web based forms.
 The following two guidelines are to give you a good start to make your
 forms accessible:
 
-1.  For every form field, ensure that a descriptive **label** is
+1.  For every form field, ensure that a descriptive <b>label</b> is
     provided and use the &lt;label&gt; element to identify each form
     control.
 
 2.  For larger or complex forms, use
-    the &lt;fieldset&gt; and &lt;legend&gt; elements to respectively **group and
-    associate** related form controls.
+    the &lt;fieldset&gt; and &lt;legend&gt; elements to respectively <b>group and
+    associate</b> related form controls.
 
 <h5>Further reading:</h5>
 
@@ -19495,19 +19332,19 @@ Forms can be visually and cognitively complex and difficult to use.
 Accessible forms are easier to use for everyone, including people with
 disabilities.
 
--   **People with cognitive disabilities** can more easily understand
+-   <b>People with cognitive disabilities</b> can more easily understand
     the form and how to complete it, as making forms accessible improves
     the layout structure, instructions, and feedback.
 
--   **People using speech input** can use the labels via voice commands
+-   <b>People using speech input</b> can use the labels via voice commands
     to activate controls and move the focus to the fields that they need
     to complete.
 
--   **People with limited dexterity** benefit from large clickable areas
+-   <b>People with limited dexterity</b> benefit from large clickable areas
     that include the labels, especially for smaller controls, such as
     radio buttons and checkboxes.
 
--   **People using screen readers** can identify and understand form
+-   <b>People using screen readers</b> can identify and understand form
     controls more easily because they are associated with labels, field
     sets, and other structural elements.
 
@@ -19752,7 +19589,7 @@ attributes like this one 'required' that will make the input field
 invalid if it&apos;s empty. And i can visualize this automatically, because
 the new input fields with HTML5 inherit a CSS pseudo class called
 'invalid'. I use the column followed by the keyword 'invalid' to
-visualize that. Or « **background-color:pink;** » Like this you can see
+visualize that. Or « <b>background-color:pink;</b> » Like this you can see
 that the fields are invalid because they&apos;re pink and become valid as
 soon as I type something inside. If I try to submit a form with an
 'invalid', field it pops up some bubbles with an error message.
@@ -19914,7 +19751,7 @@ post your comments/observations/questions or share your creations.
     the page, next to the search form.
 
 -   Please make a big table (with a few hundred rows containing
-    structured data). **Tip**: use loops and random values. For example,
+    structured data). <b>Tip</b>: use loops and random values. For example,
     use an array of names, an array of cities, an array of zip codes;
     use Math.random()  and Math.round() to generate random indexes. Then
     pick data from the arrays, build an object with random names,
@@ -19932,7 +19769,7 @@ height="0.625in"}
 <h3 id="ch5-4-1">5.4.1 What is JSON? (4:42)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Live coding video: JSON notation, working with **LocalStorage** and
+Live coding video: JSON notation, working with <b>LocalStorage</b> and
 remote data
 
 ![](./images/image512.png){width="6.0in"
@@ -19944,7 +19781,7 @@ JavaScript objects in databases. It&apos;s very popular and used by many Web
 services. A Web service is a remote server that uses a URL to send you
 some formatted JavaScript data.
 
-Here you&apos;ve got an example from the **jsonplaceholder.typicode.com**
+Here you&apos;ve got an example from the <b>jsonplaceholder.typicode.com</b>
 Web site that provides some examples of JSON data set. If you want some
 photos, some pictures, you click on it and you&apos;ve got a string-based
 notation, a JSON version of an array. An array that contains pictures
@@ -19954,9 +19791,9 @@ It&apos;s the same data format we used in a previous module for an optional
 project about pictures and albums. How do you work with such a format?
 There are 2 different utility methods from the JSON predefined object.
 
-One is called "**stringify()"** and will be useful for converting a
+One is called "<b>stringify()"</b> and will be useful for converting a
 JavaScript object into JSON. And the other one will be
-"**JSON.parse()**" that will take a JSON object, a JSON string, and give
+"<b>JSON.parse()</b>" that will take a JSON object, a JSON string, and give
 back a JavaScript object. Let&apos;s see some examples. I just took an
 array... if you try to stringify the array...you obtain an object that
 contains the array with quotes around. This is the JSON notation of an
@@ -19965,7 +19802,7 @@ an object with different properties and one of the properties is an
 array that contains in turn objects. It&apos;s just an example of the albums
 made by Metallica.
 
-If I try this, "**JSON.stringify()**" with this object, I get a JSON
+If I try this, "<b>JSON.stringify()</b>" with this object, I get a JSON
 version of this object, and this can be sent through HTTP or can be
 downloaded from a remote server. HTTP is hypertext transfer protocol.
 Only text can be exchanged using HTTP and JSON is pure text. However, if
@@ -19975,8 +19812,8 @@ object from the string, I will need to use "JSON.parse()". And this is a
 real JavaScript object. I can access its properties and call its
 methods. This is all we need to know about JSON.
 
-"**JSON.parse()**" turns a JSON string to a JavaScript object you can
-use, and "**JSON.stringify()**" takes a JavaScript object and turns it
+"<b>JSON.parse()</b>" turns a JSON string to a JavaScript object you can
+use, and "<b>JSON.stringify()</b>" takes a JavaScript object and turns it
 into a JSON string.
 
 In the next video, we will see how we can use JSON objects, for example,
@@ -19985,24 +19822,24 @@ in an HTML table.
 
 &lt;end video transcript 5.4.1&gt;
 
-JSON stands for** J**ava**S**cript **O**bject **N**otation. It&apos;s a
+JSON stands for<b> J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation. It&apos;s a
 standard for transforming nearly any object into a string representation
 that is human readable. It became a standard for exchanging data to/from
 a remote HTTP server, and is available for many other languages in
 addition to JavaScript.
 
 A JavaScript object o in JSON looks a
-lot like what **o.toString()** returns.
+lot like what <b>o.toString()</b> returns.
 
-**There are two main methods to know:**
+<b>There are two main methods to know:</b>
 
 1.  Transform any JavaScript object in JSON:
 
-**var jsonStr = JSON.stringify(obj);**
+<b>var jsonStr = JSON.stringify(obj);</b>
 
 2.  Transform any JSON string into a JavaScript object:
 
-  **var jsObj  = JSON.parse(jsonStr);**
+  <b>var jsObj  = JSON.parse(jsonStr);</b>
 
 Let&apos;s see some examples:
 
@@ -20091,13 +19928,13 @@ JavaScript object:
 
 With the JSON representation of an object you cannot access the original
 object&apos;s properties using the &quot;.&quot; operator, nor call its
-methods. **The JSON format only stores the list of the object properties
-(name and value) as a string.** Look at **line 10**: we cannot access
+methods. <b>The JSON format only stores the list of the object properties
+(name and value) as a string.</b> Look at <b>line 10</b>: we cannot access
 the name property of the JSON representation of the metallica object
-defined at **line 1**.
+defined at <b>line 1</b>.
 
 When we parse a JSON string using JSON.parse(), we get a real JavaScript
-object, and we can access its properties (**lines 16 and 19**).
+object, and we can access its properties (<b>lines 16 and 19</b>).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-2">5.4.2 Consuming JSON remote data (10:10)</h3>
@@ -20129,12 +19966,12 @@ called "XhR2" or XML Http Request level 2.
 
 And one that uses a brand-new API that is implemented only in recent
 browsers that is called "fetch". Let&apos;s start with "XhR2". I declare a
-URL, and "**queryURL**". I&apos;m just following the same syntax as in the
+URL, and "<b>queryURL</b>". I&apos;m just following the same syntax as in the
 example. And we need to create an XML Http Request: "xhr = new
-**XMLHttpRequest ()**".
+<b>XMLHttpRequest ()</b>".
 
-That's it: "**XMLHttpRequest()**". And then you indicate what is the
-parameter of the request: "**xhr.open()**". We&apos;re going to do a "GET".
+That's it: "<b>XMLHttpRequest()</b>". And then you indicate what is the
+parameter of the request: "<b>xhr.open()</b>". We&apos;re going to do a "GET".
 "GET" is an http order that means 'go on the Web and get me the data
 from there'. And you indicate also the URL. And the last parameter will
 be set to true. Then, you will send the request. When you do this, your
@@ -20142,7 +19979,7 @@ request is sent but it can take some time. And for getting the data and
 processing it, we must indicate a callback that will call by the browser
 only when the response arrives.
 
-This is how it works: "**xhr.onload** =" and you indicate the callback
+This is how it works: "<b>xhr.onload</b> =" and you indicate the callback
 function, and usually, you also use the event as the only parameter. And
 here, we can just start trying to see if it works. I open the console,
 here, click on the button and see ... "xrh" is not defined. It&apos;s "xhr".
@@ -20152,14 +19989,14 @@ button, I will see the request here and if I click on it, I can see the
 response.
 
 I see that I&apos;ve got the JSON object from the remote server. Now that
-the response arrived, I can directly display it: "**xhr.response**".
+the response arrived, I can directly display it: "<b>xhr.response</b>".
 It&apos;s a string, I save and run it again. Ok, sorry this was too long,
 but I can open the real devtool console, and I can see that I got the
 object here.
 
-This has been printed by the "**console.log()**". In order to work with
+This has been printed by the "<b>console.log()</b>". In order to work with
 this object, I will need to convert it to a real JavaScript object:
-"users = (**xhr.response**)". But in order to turn it into JavaScript
+"users = (<b>xhr.response</b>)". But in order to turn it into JavaScript
 object, we use "JSON.parse()", you remember from the previous video? And
 here, just to debug I can try to write: 'first user' ...Because this
 object is an array, you see it&apos;s an array.
@@ -20173,21 +20010,21 @@ insert a table here, first we need to create the table.
 
 Let me copy and paste some code. We start by getting a reference on the
 HTML div in the page that was called users, "id = "users". Then we
-create a table: **document.createElement(&quot;table&quot;)**;, and then we can
+create a table: <b>document.createElement(&quot;table&quot;)</b>;, and then we can
 try to insert rows for each user. So "users.forEach()" takes a callback
 with the first parameter being the current element of the user&apos;s array.
 "console.log(currentUser.name)"...let&apos;s try this to see if it works...
 Clear ... save...Click on the button... and I see the names of the
 users.
 
-Now, I&apos;m going to add a row to a table. "**table.insertRow()**;" put
-this in variable called "row", and then I can do: "**row.innerHTML**= ",
+Now, I&apos;m going to add a row to a table. "<b>table.insertRow()</b>;" put
+this in variable called "row", and then I can do: "<b>row.innerHTML</b>= ",
 for example, just the name.
 
 Here, I inserted rows whose content is the name of the user. And in the
 end, what we do is that we will add the table to the div. So,
-"**usersDiv.appendChild()**", or "append" works too on modern browsers,
-append(). And we put the table in it. Let&apos;s try...Clear. "**usersDiv**"
+"<b>usersDiv.appendChild()</b>", or "append" works too on modern browsers,
+append(). And we put the table in it. Let&apos;s try...Clear. "<b>usersDiv</b>"
 with a "s" and it works! Now, in order to have a nice table, I could
 also add some CSS to make it better, or I can define some &lt;td&gt; (table
 data) to make a nicer table. And I can display for example another
@@ -20197,8 +20034,10 @@ property that will be the email of the person. That's it!
 
 <h5>Source code from the above live coding video</h5>
 
--   The source code can be found [on this
-    CodePen](https://codepen.io/w3devcampus/pen/bRRjvv?editors=0011)
+<ul>
+  <li>The source code can be found <a href="https://codepen.io/w3devcampus/pen/bRRjvv?editors=0011">
+    on this CodePen</a></li>
+</ul>
 
 <h5>JSON data from a REST Web Service</h5>
 
@@ -20207,10 +20046,10 @@ propose to send/receive data to/from programs over HTTP&quot;, and most of
 the time the JSON format is one of the possible transport formats for
 the data. Google APIs, Facebook and Amazon APIs are like this.
 
-**JSONPlaceholder** is a free online REST service that you can use
+<b>JSONPlaceholder</b> is a free online REST service that you can use
 whenever you need some fake data in JSON. Faking a server is great for
 tutorials, and this is exactly what the next example does. Please
-open [this URL](https://jsonplaceholder.typicode.com/users) - you will
+open <a href="https://jsonplaceholder.typicode.com/users">this URL</a> - you will
 see some JSON data coming from the server and being displayed in your
 browser as shown below:
 
@@ -20258,54 +20097,52 @@ height="2.8547003499562553in"}
 21. }
 </pre>
 
-<h5>**Explanations**:</h5>
+<h5><b>Explanations</b>:</h5>
 
--   **Lines 4 and 5** build an Ajax request using XhR2.
+-   <b>Lines 4 and 5</b> build an Ajax request using XhR2.
 
--   **Line 22** is executed after: the request is sent in the background
+-   <b>Line 22</b> is executed after: the request is sent in the background
     (we say &quot;asynchronously&quot;).
 
--   **Line 8**: when the server answers, this callback is executed, and
-    inside it, **this.response** corresponds to the response from the
-    HTTP server. It&apos;s in JSON format (**line 9**)
+-   <b>Line 8</b>: when the server answers, this callback is executed, and
+    inside it, <b>this.response</b> corresponds to the response from the
+    HTTP server. It&apos;s in JSON format (<b>line 9</b>)
 
--   **Line 12**: we turn the JSON response into a regular JavaScript
-    object we can work with, using **JSON.parse()**.
+-   <b>Line 12</b>: we turn the JSON response into a regular JavaScript
+    object we can work with, using <b>JSON.parse()</b>.
 
--   **Line 13**: we pass this list of users, now a JavaScript object, to
-    the **displayUsersAsATable **method, that will use the HTML table
+-   <b>Line 13</b>: we pass this list of users, now a JavaScript object, to
+    the <b>displayUsersAsATable </b>method, that will use the HTML table
     API we saw earlier in the course.
 
 <h5>&lbrack;Advanced&rbrack; Downloading JSON data using the fetch API</h5>
 
-The [Fetch
-API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) provides
+The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch API</a> provides
 a JavaScript interface for accessing and manipulating parts of the HTTP
 pipeline, such as requests and responses. It also provides a
-global [fetch()](https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch) method
+global <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch">fetch()</a> method
 that provides an easy, logical way to fetch resources asynchronously
-across the network. You **fetch** data from a URL, **then**, you do
-something with the response, **then** you do something else. If there is
-an error you can **catch** this error and display, for example, an error
+across the network. You <b>fetch</b> data from a URL, <b>then</b>, you do
+something with the response, <b>then</b> you do something else. If there is
+an error you can <b>catch</b> this error and display, for example, an error
 message. 
 
-See [this blog post](https://javascript.info/fetch-api) for a detailed
+See <a href="https://javascript.info/fetch-api">this blog post</a> for a detailed
 tutorial. Asynchronous JavaScript and JavaScript promises (the
 fetch&#41;then&#41;then&#41; is based on the concept of &quot;promises&quot;) is
 not detailed in this course.
 
-The [Fetch
-API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) provides
+The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch API</a> provides
 a JavaScript interface for accessing and manipulating parts of the HTTP
 pipeline, such as requests and responses. It also provides a
-global [fetch()](https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch) method
+global <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch">fetch()</a> method
 that provides an easy, logical way to fetch resources asynchronously
-across the network. You **fetch** data from a URL, **then**, you do
-something with the response, **then** you do something else. If there is
-an error you can **catch** this error and display, for example, an error
+across the network. You <b>fetch</b> data from a URL, <b>then</b>, you do
+something with the response, <b>then</b> you do something else. If there is
+an error you can <b>catch</b> this error and display, for example, an error
 message. 
 
-See [this blog post](https://javascript.info/fetch-api) for a detailed
+See <a href="https://javascript.info/fetch-api">this blog post</a> for a detailed
 tutorial. Asynchronous JavaScript and JavaScript promises (the
 fetch&#41;then&#41;then&#41; is based on the concept of &quot;promises&quot;) is
 not detailed in this course.
@@ -20363,8 +20200,8 @@ interfaces - sessionStorage and localStorage - whose main difference is
 data longevity. This specification defines an API for persistent data
 storage of key-value pair data in Web clients.
 
-**With localStorage the data will remain until it is deleted, whereas
-with sessionStorage the data is erased when the tab/browser is closed.**
+<b>With localStorage the data will remain until it is deleted, whereas
+with sessionStorage the data is erased when the tab/browser is closed.</b>
 
 For convenience, we will mainly illustrate the localStorage object. Just
 change &quot;local&quot; to &quot;session&quot; and it should work (this time with a
@@ -20372,8 +20209,8 @@ session lifetime).![key value
 pairs](./images/image518.png){width="2.0in"
 height="1.9685859580052494in"}
 
-**Simple key-value stores, one per domain (following the [same origin
-policy](https://en.wikipedia.org/wiki/Same-origin_policy))!**
+<b>Simple key-value stores, one per domain (following the [same origin
+policy](https://en.wikipedia.org/wiki/Same-origin_policy))!</b>
 
 localStorage is a simple key-value store, in which the keys and values
 are strings. There is only one store per domain. This functionality is
@@ -20412,7 +20249,7 @@ height="4.175153105861767in"}
 storage](./images/image520.jpeg){width="5.0in"
 height="4.775967847769029in"}
 
-**Differences with cookies?**
+<b>Differences with cookies?</b>
 
 Cookies are also a popular way to store key-value pairs. Web Storage,
 however, is a more powerful technique than cookies. The main difference
@@ -20425,7 +20262,7 @@ Objects managed by Web Storage are no longer carried on the network and
 HTTP, and are easily accessible (read, change and delete) from
 JavaScript, using the Web Storage API.
 
-**External resources**
+<b>External resources</b>
 
 -   [The W3C Web Storage API
     recommendation](http://www.w3.org/TR/webstorage/)
@@ -20443,7 +20280,7 @@ JavaScript, using the Web Storage API.
 
 Here is the discussion forum for this part of the course.
 
-**Suggested topic**
+<b>Suggested topic</b>
 
 -   Did you know that using XhR2 for getting remote data, you can also
     monitor the download progression using n xhr.onprogress = event
@@ -20456,7 +20293,7 @@ Here is the discussion forum for this part of the course.
     can be used altogether with the fetch API for [monitoring uploads
     and downloads](https://fetch-progress.anthum.com/)).
 
-**Optional projects**
+<b>Optional projects</b>
 
 -   Please display the data [from this
     URL](https://gist.githubusercontent.com/heiswayi/7fde241975ed8a80535a/raw/ff1caaeaf62bd6740ab7cafcd61f1215de173379/datatables-data.json) in
@@ -20486,8 +20323,8 @@ This is a play project that you can easily improve:
     but you can improve the examples provided by adding your own new
     features (build a better HTML table, add new sorting options, etc.)
 
-**Let&apos;s start with a simple skeleton (no GUI), beginning with
-the Contact class**
+<b>Let&apos;s start with a simple skeleton (no GUI), beginning with
+the Contact class</b>
 
 <pre>
 1.  class Contact {
@@ -20510,7 +20347,7 @@ above class like this:
 Then you can print the properties of contact c1 or c2 using for
 example console.log(c1.name), console.log(c2.email), etc.
 
-**A minimal ContactManager class**
+<b>A minimal ContactManager class</b>
 
 <pre>
 1.  class ContactManager {
@@ -20584,7 +20421,7 @@ that there are no syntax errors, that everything runs smoothly.
 Here is the CodePen of this minimal version. Click on the CodePen label
 on the top right, and once in CodePen, open the console:
 
-**Adding a method for sorting the list of contacts by name**
+<b>Adding a method for sorting the list of contacts by name</b>
 
 Do you remember the sort() method you can use on arrays? We saw it in
 modules 2 or 3. Since our array contains objects, we must provide a
@@ -20599,11 +20436,11 @@ new sort() method we added to the ContactManager class:
 5.  // method we saw in the ES6 Point class in module 4
 6.  // We always call such methods using the name of the class followed
 7.  // by the dot operator
-8.  **this.listOfContacts.sort(ContactManager.compareByName);**
+8.  <b>this.listOfContacts.sort(ContactManager.compareByName);</b>
 9.  }
 10. 
-11. **// class method for comparing two contacts by name**
-12. **static compareByName**(c1, c2) {
+11. <b>// class method for comparing two contacts by name</b>
+12. <b>static compareByName</b>(c1, c2) {
 13. // JavaScript has built in capabilities for comparing strings
 14. // in alphabetical order
 15. if (c1.name &lt; c2.name)
@@ -20635,15 +20472,15 @@ height="5.449786745406824in"}
 Let&apos;s use load/save methods is for loading and saving the list of
 contacts in Local Storage.
 
-**load and save methods (persistence)**
+<b>load and save methods (persistence)</b>
 
 This time, we add to the ContactManager class a load() and
 a save() method for loading/saving from disk (from a key/value pair
 database located on your hard disk, and associated to the domain of your
 Web application).
 
-**Saving the list of contacts in JSON, checking the saved value using
-the devtools**
+<b>Saving the list of contacts in JSON, checking the saved value using
+the devtools</b>
 
 Here is the code we added to the ES6 class for saving the list of
 contacts in JSON:
@@ -20656,11 +20493,11 @@ contacts in JSON:
 5.  this.listOfContacts = &lbrack;&rbrack;;
 6.  }
 7.  &#41;
-8.  **save() {**
-9.  **// We can only save strings in local storage. So, let&apos;s convert**
-10. **// our array of contacts to JSON**
-11. **localStorage.contacts = JSON.stringify(this.listOfContacts);**
-12. **}**
+8.  <b>save() {</b>
+9.  <b>// We can only save strings in local storage. So, let&apos;s convert</b>
+10. <b>// our array of contacts to JSON</b>
+11. <b>localStorage.contacts = JSON.stringify(this.listOfContacts);</b>
+12. <b>}</b>
 13. }
 </pre>
 
@@ -20695,7 +20532,7 @@ You will see the list of contacts when you click on the newly appeared
 ![FF storage inspector](./images/image524.jpeg){width="5.0in"
 height="2.2569444444444446in"}
 
-**Restoring the list of contacts**
+<b>Restoring the list of contacts</b>
 
 This time, we&apos;ve added a load() method that will check if a list of
 contacts has been saved. If this is the case, it will read it from
@@ -20718,13 +20555,13 @@ has been restored to its previous value.
 9.  this.listOfContacts = &lbrack;&rbrack;;
 10. }
 11. &#41;
-12. **load() {**
-13. **if(localStorage.contacts !== undefined) {**
-14. **// the array of contacts is saved in JSON, let&apos;s convert**
-15. **// it back to a reak JavaScript object.**
-16. **this.listOfContacts = JSON.parse(localStorage.contacts);**
-17. **}**
-18. **}**
+12. <b>load() {</b>
+13. <b>if(localStorage.contacts !== undefined) {</b>
+14. <b>// the array of contacts is saved in JSON, let&apos;s convert</b>
+15. <b>// it back to a reak JavaScript object.</b>
+16. <b>this.listOfContacts = JSON.parse(localStorage.contacts);</b>
+17. <b>}</b>
+18. <b>}</b>
 19. }
 20. 
 21. &#41;
@@ -20742,7 +20579,7 @@ has been restored to its previous value.
 33. console.log(&quot;Do you notice: contacts have all been restored!&quot;);
 </pre>
 
-**Explanations**:
+<b>Explanations</b>:
 
 -   At* line 16*, we check if a previous version has been saved.
 
@@ -20782,7 +20619,7 @@ This time, we will first add some HTML to the contact manager example
 6.  &lt;/head&gt;
 7.  &lt;body&gt;
 8.      &lt;p&gt;List of contacts&lt;/p&gt;
-9.      **&lt;div id=&quot;contacts&quot;&gt;&lt;/div&gt;**
+9.      <b>&lt;div id=&quot;contacts&quot;&gt;&lt;/div&gt;</b>
 10. &lt;/body&gt;
 11. &lt;/html&gt;
 </pre>
@@ -20839,7 +20676,7 @@ CodePen:
 30. }
 </pre>
 
-**Explanations**:
+<b>Explanations</b>:
 
 -   *Line 3*: the method displayContactsAsATable takes as a parameter
     the id of the HTML element in which the table will be inserted after
@@ -20918,19 +20755,19 @@ is interesting that we use onclick=&quot;return formSubmitted();&quot;:
 2.  // Get the values from input fields
 3.  let name = document.querySelector(&quot;#name&quot;);
 4.  let email = document.querySelector(&quot;#email&quot;);
-5.  **let newContact = new Contact(name.value, email.value);**
-6.  **cm.add(newContact);**
+5.  <b>let newContact = new Contact(name.value, email.value);</b>
+6.  <b>cm.add(newContact);</b>
 7.  // Empty the input fields
 8.  name.value = &quot;&quot;;
 9.  email.value = &quot;&quot;;
-10. **// refresh the table**
-11. **cm.displayContactsAsATable(&quot;contacts&quot;);**
+10. <b>// refresh the table</b>
+11. <b>cm.displayContactsAsATable(&quot;contacts&quot;);</b>
 12. // do not let your browser submit the form using HTTP
-13. **return false;**
+13. </b>return false;</b>
 14. }
 </pre>
 
-**Explanations:**
+</b>Explanations:</b>
 
 -   *Lines 2-7*: we get the values entered in the form&apos;s input fields,
     build a new contact and add it to the contact list
@@ -20968,7 +20805,7 @@ features we implemented in the previous page:
 
 Here is the discussion forum for this part of the course.
 
-**Optional projects**
+<b>Optional projects</b>
 
 -   Improve the CSS of the contact manager table.
 
