@@ -11065,16 +11065,16 @@ then removed from its parents and added to the new parent.
 In other words: it moves from its original location to become a child of
 the **targetElem.**
 
-### Examples {#examples-9 .unnumbered}
+<h5>Examples</h5>
 
-#### Example #1: a simple one {#example-1-a-simple-one .unnumbered}
+<h5>Example #1: a simple one</h5>
 
 ![](./images/image339.png){width="5.0in"
 height="1.8450853018372704in"}
 
 <https://codepen.io/w3devcampus/pen/peYyPz>
 
-#### Example #2: a more significant example, that also uses drag\'n\'drop {#example-2-a-more-significant-example-that-also-uses-dragndrop .unnumbered}
+<h5>Example #2: a more significant example, that also uses drag\'n\'drop</h5>
 
 Note that this example comes from the HTML5 Apps and Games course. Our
 plan here is not to explain drag\'n\'drop in detail, but to show
@@ -11493,7 +11493,9 @@ using the default color (black) and wireframe and filled modes:
     always save the previous context at the beginning of the function
     and restore it at the end of the function (**lines 27 and 50**).
 
-#### 2.6.2 Animating {#animating .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch2-6-2">2.6.2 Animating</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 A typical animation loop does the following at regular intervals:
 
@@ -11518,9 +11520,9 @@ Optional steps can be:
 
 -   Etc.
 
-### Examples {#examples-11 .unnumbered}
+<h5>Examples</h5>
 
-#### Example #1: monster on the move {#example-1-monster-on-the-move .unnumbered}
+<h5>Example #1: monster on the move</h5>
 
 There are different methods for coding an animation loop in JavaScript,
 as described in the above video.
@@ -11534,7 +11536,7 @@ height="5.65491469816273in"}
 
 **https://codepen.io/w3devcampus/pen/PpLLKY**
 
-#### Example #2: bouncing ball {#example-2-bouncing-ball .unnumbered}
+<h5>Example #2: bouncing ball</h5>
 
 Here the balls bounce on the sides of the canvas (walls).
 
@@ -11548,37 +11550,24 @@ height="6.579594269466317in"}
 This time, we\'ve used \"simple objects\" for the circle and the
 rectangles, and we\'ve called them \"player\" and \"ball\":
 
+<pre>
 1.  var ball = {
-
 2.  x: 100,
-
 3.  y:100,
-
 4.  radius: 15,
-
 5.  color:\'green\',
-
 6.  speedX:2,
-
 7.  speedY:1
-
 8.  }
-
 9.  
-
 10. var player = {
-
 11. x:10,
-
 12. y:10,
-
 13. width:20,
-
 14. height:20,
-
 15. color:\'red\'
-
 16. }
+</pre>
 
 With this syntax, it\'s easier to manipulate \"the x pos of the ball\" -
 you just have to use **ball.x**. we added two properties to the ball
@@ -11588,33 +11577,22 @@ each frame of animation.
 
 Let\'s look at the animation loop:
 
+<pre>
 1.  function mainLoop() {
-
 2.  // 1 - clear the canvas
-
 3.  ctx.clearRect(0, 0, w, h);
-
 4.  
-
 5.  **// draw the ball and the player**
-
 6.  **drawFilledRectangle(player);**
-
 7.  **drawFilledCircle(ball);**
-
 8.  
-
 9.  **// animate the ball that is bouncing all over the walls**
-
 10. **moveBall(ball);**
-
 11. 
-
 12. // ask for a new animation frame
-
 13. requestAnimationFrame(mainLoop);
-
 14. }
+</pre>
 
 Now, let\'s decompose the animation loop in some external functions to
 make it more readable. At each frame of animation, we will clear the
@@ -11628,17 +11606,14 @@ x to **r.x,** y to **r.y,** color to **r.color** etc.)
 
 Let\'s look at the moveBall function:
 
+<pre>
 1.  function moveBall(b) {
-
 2.  b.x += b.speedX;
-
 3.  b.y += b.speedY;
-
 4.  
-
 5.  testCollisionBallWithWalls(b);
-
 6.  }
+</pre>
 
 This function is called 60 times per second. So, 60 times per second we
 modify the **b.x** and **b.y** positions of the ball passed as parameter
@@ -11654,29 +11629,20 @@ Ok, and at *line 5* we call **testCollisionBallWithWalls(b)**, which
 will test if the ball b hits a vertical or horizontal wall. Let\'s see
 an extract of this function now:
 
+<pre>
 1.  function testCollisionBallWithWalls(b) {
-
 2.  // COLLISION WITH VERTICAL WALLS?
-
 3.  if((b.x + b.radius) \> w) {
-
 4.  // the ball hit the right wall
-
 5.  // change horizontal direction
-
 6.  b.speedX = -b.speedX;
-
 7.  
-
 8.  // put the ball at the collision point
-
 9.  b.x = w - b.radius;
-
 10. } \...
-
 11. \...
-
 12. }
+</pre>
 
 At *line 3* you can see the test that checks if the ball b hits the
 right side of the canvas. The right wall is at w (the width of the
@@ -11702,7 +11668,9 @@ put the ball \"at the contact position\", not to its previous position,
 before reversing the speed value. This is done at *lines 8-9*. Try
 changing **speedX** to say, 20, and you\'ll see what we mean.
 
-#### 2.6.3 Animating multiple objects {#animating-multiple-objects .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch2-6-3">2.6.3 Animating multiple objects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let\'s animate balls and let\'s start with 3 the animation of 3 balls:
 **ball1, ball2 and ball3.**\
@@ -11716,48 +11684,33 @@ height="2.511751968503937in"}
 
 **Extract of the source code: the mainLoop function**
 
+<pre>
 1.  function mainLoop() {
-
 2.  // 1 - clear the canvas
-
 3.  ctx.clearRect(0, 0, w, h);
-
 4.  
-
 5.  // draw the balls and the player
-
 6.  drawFilledRectangle(player);
-
 7.  
-
 8.  drawFilledCircle(ball1);
-
 9.  drawFilledCircle(ball2);
-
 10. drawFilledCircle(ball3);
-
 11. 
-
 12. // animate the balls bouncing all over the walls
-
 13. moveBall(ball1);
-
 14. moveBall(ball2);
-
 15. moveBall(ball3);
-
 16. 
-
 17. // ask for a new animation frame
-
 18. requestAnimationFrame(mainLoop);
-
 19. }
+</pre>
 
 And what if we have 100 balls? We\'re not going to copy and paste the
 lines that draw and move the balls 100 times!
 
-### Using arrays and loops for creating any number of balls, for animating and moving any number of balls! {#using-arrays-and-loops-for-creating-any-number-of-balls-for-animating-and-moving-any-number-of-balls .unnumbered}
+<h4>Using arrays and loops for creating any number of balls, for animating and 
+moving any number of balls!</h4>
 
 New version: look at
 the **createBalls, drawBalls** and **moveBalls** functions now!
@@ -11868,7 +11821,9 @@ Let\'s look at the new functions we\'ve added: 
     the iterator is the same as in the previous example. We did not have
     to modify the testCollisionBallWithWalls code, for example.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-4">2.6.4 Mouse interactions</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ![](./images/image350.png){width="1.0in"
 height="0.7452832458442694in"}
@@ -12068,7 +12023,9 @@ height="1.8458420822397201in"}
 41. }
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-5">2.6.5 Moving a player with the mouse</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 This time, we\'ve added a mousemove event listener to the canvas in the
 init function, and reused the trick that you saw in the previous
@@ -12168,7 +12125,9 @@ Perhaps it\'s occurred to you that it might be better to move the player
 \"from its center\" instead of from its top left corner. We leave this
 improvement to you! :-)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-6">2.6.6 Adding collision detection</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let\'s make it a game by adding collision detection! And try to move the
 player to all the balls as fast as you can.
@@ -12297,7 +12256,9 @@ This function is called by the mainLoop:
 11. }
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-7">2.6.7 Adding input fields</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let\'s use some other techniques that we\'ve learnt in this module.
 There are input fields: sliders, color chooser, number chooser. We are
@@ -12415,7 +12376,9 @@ the newly created set of balls:
 10. }
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-8">2.6.8 Discussion and projects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
@@ -12463,7 +12426,9 @@ height="0.9813648293963254in"}
 -   More difficult: try to make your player fire bullets to destroy
     enemy balls :-)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-1">3.1.1 Video introduction - Module 3 (1:29)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ![](./images/image362.png){width="5.0in"
 height="2.563033683289589in"}
@@ -12488,12 +12453,12 @@ feature. We will come back to features we already played with, such as
 arrays and iterators, but the main topic is really about browser APIs.
 We will end this module with a mid-course project, and different
 difficulty levels will be proposed.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-2">3.1.2 Module 3 outline</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+![geolocation](./images/image363.png){width="2.0in" height="0.8479199475065616in"}
 
-### ![geolocation](./images/image363.png){width="2.0in" height="0.8479199475065616in"} {#geolocation .unnumbered}
-
-<h5>What you will learn in Module 3: {#what-you-will-learn-in-module-3 .unnumbered}
+<h5>What you will learn in Module 3:</h5>
 
 Note that this module is more \"project oriented\", meaning less
 fundamental concepts are presented.
@@ -12511,7 +12476,9 @@ fundamental concepts are presented.
 -   Finally, let\'s add background music and sound effects to the small
     game we started writing during module 2.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-1">3.2.1 Arrays (8:57)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ![](./images/image364.png){width="5.0in"
 height="2.563033683289589in"}
@@ -12959,7 +12926,9 @@ different types of element in an array:
 11. \[Array(5), Array(3)\]
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-2">3.2.2 Strings are arrays of characters</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Yes, they do look like arrays!
 
@@ -13146,7 +13115,9 @@ here are some examples:
 12. console.log(s2); // Will display \"CocaScript\"
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-3">3.2.3 Iterating on array elements (7:22)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ![](./images/image377.png){width="6.0in"
 height="3.075640857392826in"}
@@ -13335,7 +13306,9 @@ height="1.5929494750656168in"}
 
 <https://codepen.io/w3devcampus/pen/zZQrme>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-4">3.2.4 Discussion and projects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Please either post your comments/observations/questions or share your
 creations.
@@ -13487,7 +13460,9 @@ creations.
 
     6.  **Feel free to add any interesting feature you think about ;-)**
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-1">3.3.1 Playing audio and video streams</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 These examples are adapted from the ones in the W3Cx [HTML5 Coding
 Essentials and Best
@@ -13652,7 +13627,9 @@ recognizes.
 **Lines 13-17:**  we suggest downloading the audio files if the browser
 does not support the \<audio\> element. This is also a best practice!
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-2">3.3.2 Audio and video player JavaScript API (9:05)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: the video element JavaScript API
 
@@ -13865,7 +13842,9 @@ height="5.487073490813648in"}
 Now let\'s take a look at a set of examples demonstrating how to use the
 most important of these properties, methods, and events\...
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-3">3.3.3 Examples using the JavaScript API</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The JavaScript API is useful for implementing playlists, making custom
 user interfaces and many other interesting things. The \"enhanced HTML5
@@ -14070,7 +14049,9 @@ P1120973_512kb.mp4\"
     in the playlist. In other words, when the last video ends, it starts
     back at the first one.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-4">3.3.4 Using the webcam</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 It\'s very easy to use the getUserMedia API for accessing the webcam. 
 
@@ -14102,7 +14083,9 @@ height="1.603632983377078in"}
 
 [**https://codepen.io/w3devcampus/pen/EWzKrK**](https://codepen.io/w3devcampus/pen/EWzKrK)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-5">3.3.5 Extended examples</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In this section, we propose five extended examples that use more
 JavaScript and more complex CSS manipulation. They might be a little
@@ -14325,7 +14308,9 @@ height="1.603632983377078in"}
 
 <https://codepen.io/w3devcampus/pen/LYWBGYa>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-6">3.3.6 Discussion and projects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Please either post your comments/observations/questions or share your
 creations.
@@ -14410,7 +14395,9 @@ advice(s), and also tell you that you are the best ;))
 
 **Use the discussion forum below!**
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-1">3.4.1 The Geolocation API</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 This chapter presents the new Geolocation API and illustrates its use
 with several examples.
@@ -14448,7 +14435,9 @@ on desktop devices.
     -   on MDN: [Geolocation
         API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#Browser_compatibility)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-2">3.4.2 Geolocation and maps</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 This section presents an example of how to get an interactive map,
 using [the Leaflet API for
@@ -14553,7 +14542,9 @@ height="1.603632983377078in"}
     17** that \'map\' is the id of the \<div\> from the HTML part of the
     code.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-3">3.4.3 Reverse geocoding</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 cDifferent Web services can be used to get an address from longitude and
 latitude. Most are free of charge, but they will ask you to register an
@@ -14725,7 +14716,9 @@ height="1.6009612860892388in"}
 
 [**https://codepen.io/w3devcampus/pen/MWKEJqM**](https://codepen.io/w3devcampus/pen/MWKEJqM)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-4">3.4.4 Discussion and projects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
@@ -14766,7 +14759,9 @@ height="1.840310586176728in"}
         tutorial](https://www.youtube.com/watch?v=C3znRXBMYZo) about how
         to get such a key).
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-1">3.5.1 Background music (streamed)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 **Warning about the autoplay policy**
 
@@ -14796,7 +14791,9 @@ height="1.6089741907261592in"}
 
 <https://codepen.io/w3devcampus/pen/ZeNpyx>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-2">3.5.2 Sound effects using howler.js (4:10)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding lesson: using sound samples
 
@@ -14972,7 +14969,9 @@ The playSound function can only be called when the button is enabled
 (when the sound sample has been loaded and decoded). In order to play a
 sound loaded by Howler.JS, we just call the play() method (*line18*).
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-3">3.5.3 Adding music and sound effects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the last version of the game from Module 2 with music and sound
 effects (when the player eats a ball):
@@ -14992,7 +14991,9 @@ page is loaded.
 We then used HowlerJS to load a sound sample in background. Only once
 this sample has been loaded and decoded do we start the animation.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-4">3.5.4 \[Advanced\] a multiple image, sound and music loader (3:47)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: a multiple image, sound and music loader
 
@@ -15216,7 +15217,9 @@ rotated, etc. It also uses the multiple asset loader presented.
 ![](./images/image439.png){width="5.0in"
 height="2.8336975065616796in"}
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-5">3.5.5 Discussion and projects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your
@@ -15263,7 +15266,9 @@ height="2.0in"}
     bar while the multiple image/sound/music loader is loading the
     files\...
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-1-1">4.1.1 Video introduction - Module 4 (1:53)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Video
 
@@ -15300,7 +15305,9 @@ projects at the end of module.
 
 \<end of video transcript 4.1.1\>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-1-2">4.1.2 Module 4 outline</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In Module 4, we continue exploring JavaScript Object Oriented
 Programming:
@@ -15321,7 +15328,9 @@ Programming:
 Finally, you will use these new concepts for improving the small game we
 started to develop in Module 2!
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-1">4.2.1 Introduction</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 You\'re already familiar with the concept of objects, but so far we\'ve
 only seen one simple form, called \"objects literals\" or \"singleton
@@ -15374,7 +15383,9 @@ Features you will learn:
     remind you about objects such
     as navigator, document, window, screen, etc.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-2">4.2.2 From objects to arrays (6:33)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: object\'s properties
 
@@ -15561,7 +15572,9 @@ writing book.title or book\[\'title\'\] is equivalent!
 **In JavaScript, objects are arrays whose indexes are property names:
 please remember this!**
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-3">4.2.3 Property declaration syntax</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 **Property names: different possibilities**
 
@@ -15928,7 +15941,9 @@ access all its internal property values!
 In the next section we will look at how we can access other object\'s
 properties from a method or call other methods.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-6">4.2.6 \"this\": accessing properties (3:37)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: add methods to the player object from the game
 
@@ -16108,7 +16123,9 @@ darkVador object uses the two properties name and job using
 the this keyword. We also call the breathe method from the two
 methods describeYourself and talk, using this.breathe();
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-7">4.2.7 Adding/deleting properties and methods</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Properties and methods can be added/deleted after an object has been
 defined.
@@ -16170,7 +16187,9 @@ JavaScript code extract:
 4.  }
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-8">4.2.8 \"this\": some final thoughts</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 We simplified the explanations for \"this\" in this introductory course.
 Normally, \"this\" is the current object when you use it inside an
@@ -16191,7 +16210,9 @@ browser\... You can conclude that it\'s a good habit not to have event
 listeners in your objects: just use methods in which there is no
 confusion about \"this\".
 
-### 4.3.1 Classes: definition {#classes-definition .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch4-3-1">4.3.1 Classes: definition</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let\'s study what is the concept of \"class\" in object oriented
 programming languages.
@@ -16235,9 +16256,11 @@ different in terms of their properties\' values.
 Let\'s introduce these two ways of defining \"pseudo classes\" with
 ES5\'s function constructors, and with modern JavaScript\'s classes!
 
-### 4.3.2 The \"new\" keyword (6:59) {#the-new-keyword-659 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch4-3-2">4.3.2 The \"new\" keyword (6:59)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Live coding video: the \"new\" keyword
+Live coding lesson: the \"new\" keyword
 
 ![](./images/image468.png){width="6.0in"
 height="3.114102143482065in"}
@@ -16411,7 +16434,7 @@ The syntax is the same as for creating a function, except that:
         \...\
     }
 
-#### Full interactive example that uses a constructor function {#full-interactive-example-that-uses-a-constructor-function .unnumbered}
+<h5>Full interactive example that uses a constructor function</h5>
 
 ![](./images/image469.png){width="5.0in"
 height="2.310363079615048in"}
@@ -16420,45 +16443,27 @@ height="2.310363079615048in"}
 
 JavaScript source code:
 
+<pre>
 1.  function Hero(name, side) {
-
-2.  this.name = name; // code outside of methods is usually for
-    initializing
-
-3.  this.side = side; // the properties. Very often, they match the
-    parameters
-
+2.    this.name = name; // code outside of methods is usually for initializing
+3.    this.side = side; // the properties. Very often, they match the parameters
 4.  
-
-5.  this.speak = function() {
-
-6.  return \"\<p\>My name is \" + this.name +
-
-7.  \", I\'m with the \" + this.side + \".\</p\>\";
-
-8.  }
-
+5.    this.speak = function() {
+6.      return \"\<p\>My name is \" + this.name +
+7.      \", I\'m with the \" + this.side + \".\</p\>\";
+8.    }
 9.  }
-
 10. 
-
 11. var darkVador = new Hero(\"Dark Vador\", \"empire\");
-
 12. var luke = new Hero(\"Luke Skywalker\", \"rebels\");
-
 13. var ianSolo = new Hero(\"Ian Solo\", \"rebels\");
-
 14. 
-
 15. function makeHeroesSpeak() {
-
-16. document.body.innerHTML += darkVador.speak();
-
-17. document.body.innerHTML += luke.speak();
-
-18. document.body.innerHTML += ianSolo.speak();
-
+16.   document.body.innerHTML += darkVador.speak();
+17.   document.body.innerHTML += luke.speak();
+18.   document.body.innerHTML += ianSolo.speak();
 19. }
+</pre>
 
 *Lines 1-9*: see how the constructor function is declared: the function
 name starts with an uppercase letter \'**H**ero\'. The parameters have
@@ -16474,7 +16479,9 @@ ARE each a Hero, and share the same properties (name, side, *lines 2 and
 3*) and the same behavior (they can speak, they all have a speak method,
 declared at *line 5*).
 
-### 4.3.3 Creating objects using modern JavaScript\'s classes (5:11) {#creating-objects-using-modern-javascripts-classes-511 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch4-3-3">4.3.3 Creating objects using modern JavaScript\'s classes (5:11)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: modern JavaScript\'s classes
 
@@ -16575,7 +16582,7 @@ modern browsers.
 
 \<video transcript above\>
 
-### Source code from above video examples {#source-code-from-above-video-examples .unnumbered}
+<h4>Source code from above video examples</h4>
 
 -   The source code [is available at
     CodePen](https://codepen.io/w3devcampus/pen/mwOYWm)
@@ -16659,9 +16666,10 @@ height="2.6581200787401573in"}
 
 <https://codepen.io/w3devcampus/pen/PpMpBo>
 
-### 4.3.4 Declaring a class before using it {#declaring-a-class-before-using-it .unnumbered}
-
-### You must declare a class before using it! {#you-must-declare-a-class-before-using-it .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch4-3-4">4.3.4 Declaring a class before using it</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h4>You must declare a class before using it!</h4>
 
 Unlike functions, classes must be declared BEFORE using them.
 
@@ -16677,21 +16685,23 @@ code like the following will throw a ReferenceError**:
 Incorrect version =\> you try to create an instance of a class before it
 has been declared:
 
+<pre>
 1.  var p = new Rectangle(); // ReferenceError
-
 2.  
-
 3.  class Rectangle {\...}
+</pre>
 
 Correct version =\>
 
+<pre>
 1.  class Rectangle {\...}
-
 2.  
-
 3.  var p = new Rectangle(); // WORKS !
+</pre>
 
-### 4.3.5 Creating objects with functions (factories) {#creating-objects-with-functions-factories .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch4-3-5">4.3.5 Creating objects with functions (factories)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 We have already seen three different ways to create objects (literals,
 constructor functions and ES6 classes).
@@ -16700,48 +16710,46 @@ Objects can be created as "literals"
 : ![](./images/image472.png){width="2.0in"
 height="1.2542377515310585in"}
 
+<pre>
 1.  var darkVador = { firstName:'Dark', lastName:'Vador'};
+</pre>
 
 Objects can be created with the keyword new and a constructor function
 or an ES6 class:
 
+<pre>
 1.  var darkVador = new Hero('Dark Vador', 'empire');
+</pre>
 
-Objects can also be created by functions that return objects
-(factories):
+Objects can also be created by functions that return objects (factories):
 
+<pre>
 1.  function getMousePos(event, canvas) {
-
-2.  var rect = canvas.getBoundingClientRect();
-
-3.  var mxx = event.clientX - rect.left;
-
-4.  var my = event.clientY - rect.top;
-
-5.  **return { // the getMousePos function returns an object. It's a
-    factory**
-
-6.  **x: mx,**
-
-7.  **y: my**
-
-8.  **}**
-
+2.    var rect = canvas.getBoundingClientRect();
+3.    var mxx = event.clientX - rect.left;
+4.    var my = event.clientY - rect.top;
+5.    **return { // the getMousePos function returns an object. It's a factory**
+6.      **x: mx,**
+7.      **y: my**
+8.    **}**
 9.  }
+</pre>
 
 And here is how you can use this:
 
+<pre>
 1.  var mousePos = getMousePos(evt, canvas);
-
 2.  
-
 3.  console.log(\"Mouse position x = \" + mousePos.x + \" y =
     \" + mousePos.y);
+</pre>
 
 The call to getMousePos returns an object that has an x and
 a y property.
 
-### 4.3.6 Static properties and methods (6:33) {#static-properties-and-methods-633 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch4-3-6">4.3.6 Static properties and methods (6:33)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: static properties and methods
 
@@ -16929,7 +16937,9 @@ height="3.359508967629046in"}
 
 <https://codepen.io/w3devcampus/pen/rmOjrv>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-7">4.3.7 \[Advanced\] Modern JavaScript\'s getters and setters</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 It is possible to use special methods that are
 called **getters **and** setters**. They allow to make some checks when
@@ -16992,7 +17002,9 @@ height="4.8108978565179354in"}
 
 <https://codepen.io/w3devcampus/pen/WOoQgw>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-8">4.3.8 Discussion and projects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
@@ -17068,7 +17080,9 @@ post your comments/observations/questions or share your creations.
 
 8.  Feel free to customize this project with nice CSS, etc.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-4-1">4.4.1 Class and constructor</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 First, let\'s look how we were handling balls previously in our game!
 
@@ -17153,7 +17167,9 @@ the next page of this course):
 11. }
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-4-2">4.4.2 Adding methods classes</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Ok, we\'ve seen how to define the Ball class: properties and
 constructor. Properties are the DNA for balls: they all have an x and y
@@ -17339,7 +17355,9 @@ height="3.4305555555555554in"}
 
 <https://codepen.io/w3devcampus/pen/EWzgpr>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-1-1">5.1.1 Video introduction - Module 5 (1:31)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Lesson: Introduction to Module 5
 
@@ -17367,7 +17385,9 @@ continuation of this course since you will be able to put into practice
 your new JavaScript skills! And I hope to see you again as I\'m the
 author of some of these courses! Byebye!
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-1-2">5.1.2 Module 5 outline</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 What you will learn in Module 5:
 
@@ -17395,7 +17415,9 @@ This module ends with the final exam which regroups questions specific
 to the current module but also a potpourri of questions related to the 4
 previous modules.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-1">5.2.1 References and objects (5:53)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding lesson: references and objects
 
@@ -17672,7 +17694,9 @@ Other example:
 18. // same place, to the same object. They are just \"pointers\" or
     \"reference\" to the same object
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-2">5.2.2 Comparing two objects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Comparing two objects will only return true if they point to the same
 object (i.e., if they have the same reference).
@@ -18768,7 +18792,9 @@ These methods are all inherited from the String class:
 17. 10
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-9">5.2.9 The most useful methods of the class String</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The most useful methods of the String are: slice, substring, split, join
 
@@ -18916,7 +18942,9 @@ separator. The join method builds a string from an array of strings.
     Action films!\"
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-10">5.2.10 Built-in JavaScript class: Math</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 It's not possible to do var m = new Math();
 
@@ -19046,7 +19074,9 @@ height="4.061431539807524in"}
 
 <https://codepen.io/w3devcampus/pen/aWOJQN>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-11">5.2.11 Built-in JS class: Date</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let\'s see how to get a date by calling the Date constructor.
 
@@ -19204,7 +19234,9 @@ height="2.2633552055993in"}
 
 <https://codepen.io/w3devcampus/pen/Mmwqgq>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-1">5.3.1 The HTML table basics</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The \<table\> element helps with rendering tables in an HTML document.  
 
@@ -19315,7 +19347,9 @@ height="4.551816491688539in"}
 
 <https://codepen.io/w3devcampus/pen/gWPppo>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-2">5.3.2 The HTML table JavaScript API (4:43)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: HTML table JavaScript API
 
@@ -19530,7 +19564,9 @@ So should we use insertCell() or just row.innerHTML= \"\<td\> \...
 It\'s up to you: depending on the HTML that you plan to insert into each
 cell, one version may be more readable than the other.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-3">5.3.3 HTML forms: best practices</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h4>Creating accessible forms</h4>
 
@@ -19764,7 +19800,9 @@ tutorial](https://www.w3.org/WAI/tutorials/forms/grouping/). Find also
 another [WAI-ARIA documentation on
 MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA).
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-4">5.3.4 HTML forms and JavaScript (9:46)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: HTML Forms Best Practices
 
@@ -19952,7 +19990,9 @@ dynamic HTML table, without the need for a remote database.
 This is the small project we will build together at the end of the
 course. :-)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-5">5.3.5 Discussion and projects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.
@@ -19994,7 +20034,9 @@ post your comments/observations/questions or share your creations.
 buttons](./images/image511.png){width="2.0868055555555554in"
 height="0.625in"}
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-1">5.4.1 What is JSON? (4:42)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: JSON notation, working with **LocalStorage** and
 remote data
@@ -20163,7 +20205,9 @@ defined at **line 1**.
 When we parse a JSON string using JSON.parse(), we get a real JavaScript
 object, and we can access its properties (**lines 16 and 19**).
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-2">5.4.2 Consuming JSON remote data (10:10)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding Video: Xhr2, remote JSON data, dynamic table
 
@@ -20403,7 +20447,9 @@ In contrast to XhR2, fetch is based on a concept called \"JavaScript
 promises\". You recognize promises when you see \".then\...\"
 \".then\...\".
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-3">5.4.3 The LocalStorage API</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let\'s look at an example of use: the LocalStorage API as a client-side
 database for JavaScript objects
@@ -20497,7 +20543,9 @@ JavaScript, using the Web Storage API.
 -   [An Overview of Client-Side
     Storage](https://css-tricks.com/overview-client-side-storage/)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-4">5.4.4 Discussion and projects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the discussion forum for this part of the course.
 
@@ -20524,7 +20572,9 @@ Here is the discussion forum for this part of the course.
     course. The table will be displayed when you lose, and will show
     only the 10 best scores.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-1">5.5.1 A contact manager (part 1)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In this final part of the course, let\'s build together a minimal
 contact manager that shows how to use ES6 classes, local storage, forms
@@ -20684,7 +20734,9 @@ height="5.449786745406824in"}
 
 <https://codepen.io/w3devcampus/pen/MovoBz>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-2">5.5.2 Persistence (part 2)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Let\'s use load/save methods is for loading and saving the list of
 contacts in Local Storage.
@@ -20810,7 +20862,9 @@ has been restored to its previous value.
     read devtool console) to see the result of the execution of these
     tests.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-3">5.5.3 Display contacts in an HTML5 table (part 3)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 We\'re going to reuse the code from this CodePen (example taken from a
 previous section of the course, the one about working with remote data),
@@ -20919,7 +20973,9 @@ The code in this method is similar to all the code we used in previous
 examples for testing the class by adding four contacts to it and
 displaying messages in the devtool console.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-4">5.5.4 Use a form to enter new contacts (part 4)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In the previous example, we added a form for entering a new contact, and
 an \"add\" button.
@@ -21014,7 +21070,9 @@ features we implemented in the previous page:
 -   Reload the list\... you can see that contacts have been correctly
     saved and restored!
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-5">5.5.5 Discussion and projects</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Here is the discussion forum for this part of the course.
 
