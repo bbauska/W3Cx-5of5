@@ -19901,7 +19901,7 @@ the name property of the JSON representation of the metallica object
 defined at <i>line 1</i>.
 
 When we parse a JSON string using JSON.parse(), we get a real JavaScript
-object, and we can access its properties (<i>lines 16 and 19</i>).
+object, and we can access its properties (<b><i>lines 16 and 19</i></b>).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-2">5.4.2 Consuming JSON remote data (10:10)</h3>
@@ -20019,9 +20019,14 @@ tutorials, and this is exactly what the next example does. Please
 open <a href="https://jsonplaceholder.typicode.com/users">this URL</a> - you will
 see some JSON data coming from the server and being displayed in your
 browser as shown below:
-
-![](./images/image514.jpeg){width="3.7402777777777776in"
-height="3.7979166666666666in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 514. json: working with remote data using XhR2 API (487) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image514.jpeg?raw=true"
+  style="width:35%"
+  title="JSON: working with remote data using XhR2 API"
+  alt="JSON: working with remote data using XhR2 API." />
+</p>
 
 And we would like to use these data in our code, manipulating them as a
 JavaScript object.
@@ -20031,55 +20036,57 @@ JavaScript&quot;. However, we can show you two simple examples that use the
 Xhr2 API for Ajax requests and the new fetch API that is simplest to
 use.
 
-<h4>Downloading JSON data using the Xhr2 API</h4>
-
-![](./images/image515.png){width="5.0in"
-height="2.8547003499562553in"}
-
-<https://codepen.io/w3devcampus/pen/vmLMRN>
+<h4>Downloading JSON data using the XhR2 API</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 515. CodePen: working with remote data using XhR2 API (488) ~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image515.png?raw=true"
+  style="width:65%"
+  title="CodePen: working with remote data using XhR2 API"
+  alt="CodePen: working with remote data using XhR2 API." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/vmLMRN">
+CodePen: working with remote data using XhR2 API</a>.</p>
 
 <h5>JavaScript source code extract:</h5>
 
 <pre>1.  function search() {
-2.  var queryURL = &quot;https://jsonplaceholder.typicode.com/users&quot;;
+2.    var queryURL = &quot;https://jsonplaceholder.typicode.com/users&quot;;
 3.  
-4.  var xhr = new XMLHttpRequest();
-5.  xhr.open(&apos;GET&apos;, queryURL, true);
-6.  // called when the response has arrived
-7.  xhr.onload = function(e) {
-8.  var jsonResponse = this.response;
-9.  // turn the response into a JavaScript object
-10. var users = JSON.parse(jsonResponse);
-11. displayUsersAsATable(users);
-12. }
+4.    var xhr = new XMLHttpRequest();
+5.    xhr.open(&apos;GET&apos;, queryURL, true);
+6.    // called when the response has arrived
+7.    xhr.onload = function(e) {
+8.      var jsonResponse = this.response;
+9.      // turn the response into a JavaScript object
+10.     var users = JSON.parse(jsonResponse);
+11.     displayUsersAsATable(users);
+12.   }
 13. 
-14. // in case of error
-15. xhr.onerror = function(err) {
-16. console.log(&quot;Error: &quot; + err);
-17. }
+14.   // in case of error
+15.   xhr.onerror = function(err) {
+16.     console.log(&quot;Error: &quot; + err);
+17.   }
 18. 
-19. // sends the request
-20. xhr.send();
+19.   // sends the request
+20.   xhr.send();
 21. }
 </pre>
 
 <h5><b>Explanations</b>:</h5>
 
--   <i>Lines 4 and 5</i> build an Ajax request using XhR2.
-
--   <i>Line 22</i> is executed after: the request is sent in the background
-    (we say &quot;asynchronously&quot;).
-
--   <i>Line 8</i>: when the server answers, this callback is executed, and
+<ul>
+  <li><b><i>Lines 4 and 5</i></b> build an Ajax request using XhR2.</li>
+  <li><b><i>Line 22</i></b> is executed after: the request is sent in the background
+    (we say &quot;asynchronously&quot;).</li>
+  <li><b><i>Line 8</i></b>: when the server answers, this callback is executed, and
     inside it, <b>this.response</b> corresponds to the response from the
-    HTTP server. It&apos;s in JSON format (<i>line 9</i>)
-
--   <i>Line 12</i>: we turn the JSON response into a regular JavaScript
-    object we can work with, using <b>JSON.parse()</b>.
-
--   <i>Line 13</i>: we pass this list of users, now a JavaScript object, to
+    HTTP server. It&apos;s in JSON format (<b><i>line 9</i></b>)</li>
+  <li><b><i>Line 12</i></b>: we turn the JSON response into a regular JavaScript
+    object we can work with, using <b>JSON.parse()</b>.</li>
+  <li><b><i>Line 13</i></b>: we pass this list of users, now a JavaScript object, to
     the <b>displayUsersAsATable </b>method, that will use the HTML table
-    API we saw earlier in the course.
+    API we saw earlier in the course.</li>
+</ul>
 
 <h5>&lbrack;Advanced&rbrack; Downloading JSON data using the fetch API</h5>
 
@@ -20112,52 +20119,58 @@ See <a href="https://javascript.info/fetch-api">this blog post</a> for a detai
 tutorial. Asynchronous JavaScript and JavaScript promises (the
 fetch&#41;then&#41;then&#41; is based on the concept of &quot;promises&quot;) is
 not detailed in this course.
-
-![](./images/image516.png){width="6.5in"
-height="4.653472222222222in"}
-
-https://codepen.io/w3devcampus/pen/xgoZdg
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 516. CodePen: get remote list using fetch api (490) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image516.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/xgoZdg">
+CodePen: Get remote list of users' names &amp; emails using fetch API</a>.</p>
 
 <h4>JavaScript source code extract:</h4>
 
 <pre>1.  function search() {
-2.  var queryURL = &quot;https://jsonplaceholder.typicode.com/users&quot;;
+2.    var queryURL = &quot;https://jsonplaceholder.typicode.com/users&quot;;
 3.  
-4.  fetch(queryURL)
-5.  .then(function(response) {
-6.  // response is a json string,
-7.  // convert it to a pure JavaScript object
-8.  return response.json();
-9.  })
-10. .then(function(users) {
-11. // users is a JavaScript object here
-12. displayUsersAsATable(users)
-13. })
-14. .catch(function(error) {
-15. console.log(&apos;Error during fetch: &apos; + error.message);
-16. });
+4.    fetch(queryURL)
+5.    .then(function(response) {
+6.      // response is a json string,
+7.      // convert it to a pure JavaScript object
+8.      return response.json();
+9.    })
+10.   .then(function(users) {
+11.     // users is a JavaScript object here
+12.     displayUsersAsATable(users)
+13.   })
+14.   .catch(function(error) {
+15.     console.log(&apos;Error during fetch: &apos; + error.message);
+16.   });
 17. }
 </pre>
 
-In contrast to XhR2, fetch is based on a concept called &quot;JavaScript
+<p>In contrast to XhR2, fetch is based on a concept called &quot;JavaScript
 promises&quot;. You recognize promises when you see &quot;.then&#41;&quot;
-&quot;.then&#41;&quot;.
-
+&quot;.then&#41;&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-3">5.4.3 The LocalStorage API</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Let&apos;s look at an example of use: the LocalStorage API as a client-side
-database for JavaScript objects
+<p>Let&apos;s look at an example of use: the LocalStorage API as a client-side
+database for JavaScript objects.</p>
 
 <h4>The Web Storage API (localStorage, sessionStorage)</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 517. cross-browser client-side storage (491) ~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image517.jpeg?raw=true"
+  style="width:20%"
+  title="Cross-Browser client-side storage"
+  alt="Cross-Browser client-side storage." />
+</p>
 
-![client side storage](./images/image517.jpeg){width="2.0in"
-height="1.3333333333333333in"}
-
-The Web storage API (see the [related W3C
-specification](https://www.w3.org/TR/webstorage/)) introduces &quot;two
-related mechanisms, similar to HTTP session cookies, for storing
+The Web storage API (see the <a href="https://www.w3.org/TR/webstorage/">related W3C specification</a>) 
+introduces &quot;two related mechanisms, similar to HTTP session cookies, for storing
 structured data on the client side&quot;.
 
 Indeed, Web Storage provides two
@@ -20170,17 +20183,22 @@ with sessionStorage the data is erased when the tab/browser is closed.</b>
 
 For convenience, we will mainly illustrate the localStorage object. Just
 change &quot;local&quot; to &quot;session&quot; and it should work (this time with a
-session lifetime).![key value
-pairs](./images/image518.png){width="2.0in"
-height="1.9685859580052494in"}
+session lifetime)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 518. table: key/value pairs (491) ~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image518.png?raw=true"
+  style="width:20%"
+  title="Table of key/value pairs"
+  alt="Table of key/value pairs." />
+</p>
+<b>Simple key-value stores, one per domain (following the 
+<a href="https://en.wikipedia.org/wiki/Same-origin_policy">same origin policy</a>)!</b>
 
-<b>Simple key-value stores, one per domain (following the [same origin
-policy](https://en.wikipedia.org/wiki/Same-origin_policy))!</b>
-
-localStorage is a simple key-value store, in which the keys and values
+<p><b>localStorage</b> is a simple key-value store, in which the keys and values
 are strings. There is only one store per domain. This functionality is
 exposed through the globally available localStorage object. The same
-applies to sessionStorage.
+applies to sessionStorage.</p>
 
 <h4>Example:</h4>
 
@@ -20197,21 +20215,29 @@ applies to sessionStorage.
 11. var location = localStorage.location;
 </pre>
 
-This data is located in a store attached to the origin of the page.
-We&apos;ve created [a JsBin example in which we&apos;ve included the above
-code](http://jsbin.com/hebino/1/edit?html,output).
+<p>This data is located in a store attached to the origin of the page.
+We&apos;ve created <a href="http://jsbin.com/hebino/1/edit?html,output">
+a JsBin example in which we&apos;ve included the above code</a>.</p>
 
-Once opened in your browser, the JavaScript code is executed. With the
+<p>Once opened in your browser, the JavaScript code is executed. With the
 browser dev. tools, we can check what has been stored in
-the localStorage for this domain:
-
-![example of
-localStorage](./images/image519.jpeg){width="5.0in"
-height="4.175153105861767in"}
-
-![dev tools can be used to show what is in the local
-storage](./images/image520.jpeg){width="5.0in"
-height="4.775967847769029in"}
+the localStorage for this domain:</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 519. example: localStorage (492) ~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image519.jpeg?raw=true"
+  style="width:65%"
+  title="Example: localStorage"
+  alt="Example: localStorage." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 520. devtools can be used to show localStorage (493) ~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image520.jpeg?raw=true"
+  style="width:65%"
+  title="devtools can be used to show localStorage"
+  alt="devtools can be used to show localStorage." />
+</p>
 
 <b>Differences with cookies?</b>
 
@@ -20312,32 +20338,32 @@ example console.log(c1.name), console.log(c2.email), etc.
 <b>A minimal ContactManager class</b>
 
 <pre>1.  class ContactManager {
-2.  constructor() {
-3.  // when we build the contact manager, it
-4.  // has an empty list of contacts
-5.  this.listOfContacts = &lbrack;&rbrack;;
-6.  }
-7.  add(contact) {
-8.  this.listOfContacts.push(contact);
-9.  }
-10. remove(contact) {
-11. // we iterate on the list of contacts until we find the contact
-12. // passed as a parameter (we say that they are equal if emails match)
-13. for(let i = 0; i &lt; this.listOfContacts.length; i++) {
-14. var c = this.listOfContacts&lbrack;i&rbrack;;
-15. if(c.email === contact.email) {
-16. // remove the contact at index i
-17. this.listOfContacts.splice(i, 1);
-18. // stop/exit the loop
-19. break;
-20. }
-21. };
-22. }
-23. printContactsToConsole() {
-24. this.listOfContacts.forEach(function(c) {
-25. console.log(c.name);
-26. });
-27. };
+2.    constructor() {
+3.      // when we build the contact manager, it
+4.      // has an empty list of contacts
+5.      this.listOfContacts = &lbrack;&rbrack;;
+6.    }
+7.    add(contact) {
+8.      this.listOfContacts.push(contact);
+9.    }
+10.   remove(contact) {
+11.     // we iterate on the list of contacts until we find the contact
+12.     // passed as a parameter (we say that they are equal if emails match)
+13.     for(let i = 0; i &lt; this.listOfContacts.length; i++) {
+14.       var c = this.listOfContacts&lbrack;i&rbrack;;
+15.       if(c.email === contact.email) {
+16.         // remove the contact at index i
+17.         this.listOfContacts.splice(i, 1);
+18.         // stop/exit the loop
+19.         break;
+20.       }
+21.     };
+22.   }
+23.   printContactsToConsole() {
+24.     this.listOfContacts.forEach(function(c) {
+25.       console.log(c.name);
+26.     });
+27.   };
 28. }
 </pre>
 
@@ -20345,14 +20371,14 @@ example console.log(c1.name), console.log(c2.email), etc.
 
 -   This is a minimal ES6 class for building a contact manager. It has
     only one property: the list of contacts, and a method for adding a
-    new contact (<i>line 8</i>), one for removing a contact (<i>line 12</i>), that
+    new contact (<b><i>line 8</i></b>), one for removing a contact (<i>line 12</i>), that
     iterate on the list of contacts until the contact passed as a
     parameter is found (when email properties match), then the contact
     is removed using the splice method, and we go out from the loop
-    using the break statement (<i>line 22</i>).
+    using the break statement (<b><i>line 22</i></b>).
 
 -   It also has a utility method for printing to the console the list of
-    contacts (<i>line 27</i>).
+    contacts (<b><i>line 27</i></b>).
 
 We can use the contact manager like this:
 
@@ -20427,68 +20453,81 @@ height="5.449786745406824in"}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-2">5.5.2 Persistence (part 2)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Let&apos;s use load/save methods is for loading and saving the list of
+contacts in Local Storage.</p>
 
-Let&apos;s use load/save methods is for loading and saving the list of
-contacts in Local Storage.
+<h5>load and save methods (persistence)</h5>
 
-<b>load and save methods (persistence)</b>
-
-This time, we add to the ContactManager class a load() and
+<p>This time, we add to the ContactManager class a load() and
 a save() method for loading/saving from disk (from a key/value pair
 database located on your hard disk, and associated to the domain of your
-Web application).
+Web application).</p>
 
-<b>Saving the list of contacts in JSON, checking the saved value using
-the devtools</b>
+<h5>Saving the list of contacts in JSON, checking the saved value using
+the devtools</h5>
 
-Here is the code we added to the ES6 class for saving the list of
-contacts in JSON:
+<h5>Here is the code we added to the ES6 class for saving the list of
+contacts in JSON:</h5>
 
 <pre>1.  class ContactManager {
-2.  constructor() {
-3.  // when we build the contact manager, it
-4.  // has an empty list of contacts
-5.  this.listOfContacts = &lbrack;&rbrack;;
-6.  }
-7.  &#41;
-8.  <b>save() {</b>
-9.  <b>// We can only save strings in local storage. So, let&apos;s convert</b>
-10. <b>// our array of contacts to JSON</b>
-11. <b>localStorage.contacts = JSON.stringify(this.listOfContacts);</b>
-12. <b>}</b>
+2.    constructor() {
+3.      // when we build the contact manager, it
+4.      // has an empty list of contacts
+5.      this.listOfContacts = &lbrack;&rbrack;;
+6.    }
+7.    &#41;
+8.    save() {
+9.      // We can only save strings in local storage. So, let&apos;s convert
+10.     // our array of contacts to JSON</b>
+11.     localStorage.contacts = JSON.stringify(this.listOfContacts);
+12.   }
 13. }
 </pre>
 
-You write data identified by a key in localStorage like this:
+<p>You write data identified by a key in localStorage like this:</p>
+<ul>
+  <li>localStorage.keyName = a string value</li>
+</ul>
 
--   localStorage.keyName = a string value
-
-In our case, <i>line 13</i> saves the list of contacts with a key named
+In our case, <b><i>line 11</i></b> saves the list of contacts with a key named
 &quot;contacts&quot; in the local storage. In order to save the list of contacts
 as a string, we convert it to the JSON format using the
  JSON.stringify(&#41;) method (JSON = string based)
 
-Try an example on CodePen, save some contacts&#41;
+<p>Try an example on CodePen, save some contacts&#41;</p>
 
-&#41; then we can check in the devtools that the list has been saved.
+<p>&#41; then we can check in the devtools that the list has been saved.</p>
 
-In Google Chrome, click the Application tab, then LocalStorage:
+<p>In Google Chrome, click the Application tab, then LocalStorage:</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 522. google chrome local storage inspector (499) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image522.jpeg?raw=true"
+  style="width:65%"
+  title="Google Chrome local storage inspector"
+  alt="Google Chrome local storage inspector." />
+</p>
 
-![Chrome local storage
-inspector](./images/image522.jpeg){width="5.0in"
-height="2.6415594925634296in"}
+<p>In Firefox, you first need to activate the storage view like this:</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 523. firefox active storage view in devtools (499) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image523.jpeg?raw=true"
+  style="width:65%"
+  title="Firefox active storage view in devtools"
+  alt="Firefox active storage view in devtools." />
+</p>
 
-In Firefox, you first need to activate the storage view like this:
-
-![FF activate storage view in
-devtools](./images/image523.jpeg){width="5.0in"
-height="3.1709405074365704in"}
-
-You will see the list of contacts when you click on the newly appeared
-&quot;Storage&quot; tab:
-
-![FF storage inspector](./images/image524.jpeg){width="5.0in"
-height="2.2569444444444446in"}
+<p>You will see the list of contacts when you click on the newly appeared
+&quot;Storage&quot; tab:</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 524. console.log storage inspector (500) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image524.jpeg?raw=true"
+  style="width:65%"
+  title="console.log storage inspector"
+  alt="console.log storage inspector." />
+</p>
 
 <b>Restoring the list of contacts</b>
 
@@ -20502,23 +20541,23 @@ then we load the contacts from LocalStorage and print the list again: it
 has been restored to its previous value.
 
 <pre>1.  class ContactManager {
-2.  constructor() {
-3.  // when we build the contact manager, it
-4.  // has an empty list of contacts
-5.  this.listOfContacts = &lbrack;&rbrack;;
-6.  }
-7.  // Will erase all contacts
-8.  empty() {
-9.  this.listOfContacts = &lbrack;&rbrack;;
-10. }
-11. &#41;
-12. <b>load() {</b>
-13. <b>if(localStorage.contacts !== undefined) {</b>
-14. <b>// the array of contacts is saved in JSON, let&apos;s convert</b>
-15. <b>// it back to a reak JavaScript object.</b>
-16. <b>this.listOfContacts = JSON.parse(localStorage.contacts);</b>
-17. <b>}</b>
-18. <b>}</b>
+2.    constructor() {
+3.      // when we build the contact manager, it
+4.      // has an empty list of contacts
+5.      this.listOfContacts = &lbrack;&rbrack;;
+6.    }
+7.    // Will erase all contacts
+8.    empty() {
+9.      this.listOfContacts = &lbrack;&rbrack;;
+10.   }
+11.   &#41;
+12.   load() {
+13.     if(localStorage.contacts !== undefined) {
+14.       // the array of contacts is saved in JSON, let&apos;s convert
+15.       // it back to a real JavaScript object.
+16.       this.listOfContacts = JSON.parse(localStorage.contacts);
+17.     }
+18.   }
 19. }
 20. 
 21. &#41;
@@ -20539,11 +20578,11 @@ has been restored to its previous value.
 <h5><b>Explanations</b>:</h5>
 
 <ul>
-  <li>At <i>line 16</i>, we check if a previous version has been saved.</li>
-  <li>At <i>line 19</i>, we read the string value associated to the key named
+  <li>At <b><i>line 13</i></b>, we check if a previous version has been saved.</li>
+  <li>At <b><i>line 16</i></b>, we read the string value associated to the key named
     &quot;contacts&quot;, and use JSON.parse(&#41;) to turn it into a JavaScript
     object we can work with.</li>
-  <li><i>Lines 26-36</i> test the load/save/empty functionalities. You can try
+  <li><b><i>Lines 23-33</i></b> test the load/save/empty functionalities. You can try
     this yourself live: click on the CodePen label below, on the top
     right corner, and once in CodePen, open the CodePen console (or the
     read devtool console) to see the result of the execution of these
@@ -20556,7 +20595,7 @@ has been restored to its previous value.
 previous section of the course, the one about working with remote data),
 and adapt it to our needs:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~ 525. codepen: XhR2 get a remote list of users' names and emails (502) ~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 525. codepen: XhR2 get a remote list of users' names and emails (501) ~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image525.png?raw=true"
   style="width:50%"
@@ -20582,7 +20621,7 @@ CodePen: XhR2 - get a remote list of user's names and emails</a>.</p>
 11. &lt;/html&gt;
 </pre>
 
-The div at <i>line 9</i> is where we&apos;re going to dynamically insert an HTML
+The div at <b><i>line 9</i></b> is where we&apos;re going to dynamically insert an HTML
 table with one row for each contact. We will keep the same minimal CSS
 for displaying table, row and cell borders (we encourage you to improve
 this):
@@ -20631,15 +20670,15 @@ CodePen:
 
 <h5><b>Explanations</b>:</h5>
 <ul>
-  <li><i>Line 3</i>: the method displayContactsAsATable takes as a parameter
+  <li><b><i>Line 3</i></b>: the method displayContactsAsATable takes as a parameter
     the id of the HTML element in which the table will be inserted after
-    being built. This id is used by the querySelector call at <i>line 5</i>.</li>
-  <li><i>Lines 9-13</i>: if the list of contacts is empty, we just return, but
+    being built. This id is used by the querySelector call at <b><i>line 5</i></b>.</li>
+  <li><b><i>Lines 9-13</i></b>: if the list of contacts is empty, we just return, but
     first we display in the HTML container a message: &quot;No contact to
     display!&quot;</li>
-  <li><i>Lines 16-25</i>: we create a table, and for each contact we insert and
+  <li><b><i>Lines 16-25</i></b>: we create a table, and for each contact we insert and
     fill a new row in the table.</li>
-  <li><i>Line 28</i>: the table is inserted (appended) in the HTML container.</li>
+  <li><b><i>Line 28</i></b>: the table is inserted (appended) in the HTML container.</li>
 </ul>
 
 <h5>CodePen of this example:</h5>
@@ -20650,7 +20689,7 @@ CodePen:
   style="width:50%"
   title="CodePen: table list of contacts"
   alt="CodePen: table list of contacts." />
-<a href="https://codepen.io/w3devcampus/pen/yXoVdp">CodePen table list of contacts</a>.</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/yXoVdp">CodePen: list of contacts table</a>.</p>
 
 <p>Note that we also added a method called addTestData() to the
 ContactManager class, as this is a way to make testing the class easier.
@@ -20666,19 +20705,19 @@ an &quot;add&quot; button.</p>
 <h5>Here is the HTML code of the form:</h5>
 
 <pre>1.  &lt;form onsubmit=&quot;return formSubmitted();&quot;&gt;
-2.  &lt;fieldset&gt;
-3.  &lt;legend&gt;Personal informations&lt;/legend&gt;
-4.  &lt;label&gt;
-5.  Name :
-6.  &lt;input type=&quot;text&quot; id=&quot;name&quot; required&gt;
-7.  &lt;/label&gt;
-8.  &lt;label&gt;
-9.  Email :
-10. &lt;input type=&quot;email&quot; id=&quot;email&quot; required&gt;
-11. &lt;/label&gt;
-12. &lt;br&gt;
-13. &lt;button&gt;Add new Contact&lt;/button&gt;
-14. &lt;/fieldset&gt;
+2.    &lt;fieldset&gt;
+3.      &lt;legend&gt;Personal informations&lt;/legend&gt;
+4.      &lt;label&gt;
+5.        Name :
+6.        &lt;input type=&quot;text&quot; id=&quot;name&quot; required&gt;
+7.      &lt;/label&gt;
+8.      &lt;label&gt;
+9.        Email :
+10.       &lt;input type=&quot;email&quot; id=&quot;email&quot; required&gt;
+11.     &lt;/label&gt;
+12.     &lt;br&gt;
+13.     &lt;button&gt;Add new Contact&lt;/button&gt;
+14.   &lt;/fieldset&gt;
 15. &lt;/form&gt;
 </pre>
 
@@ -20689,7 +20728,7 @@ equivalent to an &lt;input type=&quot;submit&quot;&gt;).</p>
 
 <pre>1.  &lt;form onsubmit=&quot;return formSubmitted();&quot;&gt;</pre>
 
-<p>&#41; will call the formSubmitted function when the form is submitted. It
+<p>... will call the formSubmitted function when the form is submitted. It
 is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
 
 <ul>
@@ -20702,42 +20741,43 @@ is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
 <h4>Here is the code of the formSubmitted function:</h4>
 
 <pre>1.  function formSubmitted() {
-2.  // Get the values from input fields
-3.  let name = document.querySelector(&quot;#name&quot;);
-4.  let email = document.querySelector(&quot;#email&quot;);
-5.  <b>let newContact = new Contact(name.value, email.value);</b>
-6.  <b>cm.add(newContact);</b>
-7.  // Empty the input fields
-8.  name.value = &quot;&quot;;
-9.  email.value = &quot;&quot;;
-10. <b>// refresh the table</b>
-11. <b>cm.displayContactsAsATable(&quot;contacts&quot;);</b>
-12. // do not let your browser submit the form using HTTP
-13. </b>return false;</b>
+2.    // Get the values from input fields
+3.    let name = document.querySelector(&quot;#name&quot;);
+4.    let email = document.querySelector(&quot;#email&quot;);
+5.    <b>let newContact = new Contact(name.value, email.value);</b>
+6.    <b>cm.add(newContact);</b>
+7.    // Empty the input fields
+8.    name.value = &quot;&quot;;
+9.    email.value = &quot;&quot;;
+10.   <b>// refresh the table</b>
+11.   <b>cm.displayContactsAsATable(&quot;contacts&quot;);</b>
+12.   // do not let your browser submit the form using HTTP
+13.   <b>return false;</b>
 14. }
 </pre>
 
 <p><b>Explanations:</b></p>
 
 <ul>
-  <li><i>Lines 2-7</i>: we get the values entered in the form&apos;s input fields,
+  <li><b><i>Lines 2-7</i></b>: we get the values entered in the form&apos;s input fields,
     build a new contact and add it to the contact list</li>
-  <li><i>Lines 10-11</i>: we reset the content of the input fields (we empty
+  <li><b><i>Lines 10-11</i></b>: we reset the content of the input fields (we empty
     them)</li>
-  <li><i>Line 14</i>: we display the HTML table with the new added contact</li>
-  <li><i>Line 17</i>: we return false so that the form will not be submitted.
+  <li><b><i>Line 14</i></b>: we display the HTML table with the new added contact</li>
+  <li><b><i>Line 17</i></b>: we return false so that the form will not be submitted.
     This will prevent the browser from reloading the HTML page.</li>
 </ul>
 
 <h4>CodePen example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 527. codepen: add new contact and list (507) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 527. codepen: add new contact and list (506) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image527.png?raw=true"
   style="width:50%"
   title="CodePen: Add new contact and list in table"
   alt="CodePen: Add new contact and list in table." />
-<a href="https://codepen.io/w3devcampus/pen/awypEg">CodePen add new contact to table</a>.</p>
+<p align="center">
+<a href="https://codepen.io/w3devcampus/pen/awypEg">CodePen: add new contacts to table</a>.</p>
 
 <p>Note that we&apos;ve also added some buttons for playing with the load/save
 features we implemented in the previous page:</p>
