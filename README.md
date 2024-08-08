@@ -1019,9 +1019,9 @@ pages.</p>
 <h5>Example:</h5>
 
 <pre>1. &lt;head&gt;
-2.   &#155;
+2.   &#133;
 3.   &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
-4.   &#155;
+4.   &#133;
 5. &lt;/head&gt;
 </pre>
 
@@ -1122,7 +1122,7 @@ your source code, and  its value is UTF-8.</b></p>
 
 <pre>&lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;/&gt;
-  &#155;
+  &#133;
 &lt;/head&gt;
 </pre>
 
@@ -1145,7 +1145,7 @@ the language of your content.</b></h5>
 <pre>&lt;!doctype html&gt;
 &lt;html lang="fr"&gt;
   &lt;head&gt;
-  &#155;
+  &#133;
 </pre>
 
 <h5><b>Example 3</b>: Cultural bias</h5>
@@ -1460,7 +1460,7 @@ you will open a new tab with your browser and you go to <a href="http://jsbin.co
 the example from the course, just copy and paste the code in the HTML
 part on JSBin, and you see the result instantly. This is very practical
 because then you can modify the content, you can change the different
-values, the different elements&#155; You can type your own text or your own
+values, the different elements&#133; You can type your own text or your own
 HTML elements and attributes, and so on.</p>
 
 <p>You can also save your work
@@ -1547,10 +1547,10 @@ recommend is that you create a directory somewhere.</p>
   alt="Live web development using Sublime." />
 </p>
 
-<p>Here, I&apos;m creating a directory on my desktop&#155; so, a new directory:
+<p>Here, I&apos;m creating a directory on my desktop&#133; so, a new directory:
 &quot;Example 1&quot;. And inside that directory, I will create the HTML file. I
 use the &quot;New file&quot; option from Sublime Text. I copy and paste the
-code. I use &quot;Save as&quot; and i will save the page as index.html file&#155;
+code. I use &quot;Save as&quot; and i will save the page as index.html file&#133;
 you can name it as you like. &quot;index&quot; is very common for the main page
 of Web site. I then go to the desktop to the « Example 1&quot; directory and
 i save the file.</p>
@@ -1927,8 +1927,8 @@ of Leonardo. I pick an image of Leonardo. I display the image and
 want to learn this technology more deeply.</p>
 <p>HTML is for structure. CSS is another language, by W3C, that it&apos;s
 useful for specifying the look and feel of these elements. How do they
-fit together&#155;How many spaces between them&#155;What color to use, and so
-on &#155;</p>
+fit together&#133;How many spaces between them&#133;What color to use, and so
+on &#133;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 59. example: html, head and body (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2133,10 +2133,10 @@ have a p and an h3 element that have the class=&quot;funny&quot; attribute
 <p>This rule changes the color, font family and size of two out of three
 paragraphs in the HTML element:</p>
 
-<pre>1. &#155;
+<pre>1. &#133;
 2. &lt;p class="funny"&gt;I also play electric guitar and love
-     coding WebAudio applications&#155;&lt;/p&gt;
-3.   &#155;
+     coding WebAudio applications&#133;&lt;/p&gt;
+3.   &#133;
 4. &lt;p class="funny">Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;
 </pre>
 
@@ -2206,7 +2206,7 @@ the different languages.</p>
 </p>
 
 <p>If you take this example we described in the previous video, and if I
-export it using CodePen&#155;and if I look at the zip file that has been
+export it using CodePen&#133;and if I look at the zip file that has been
 downloaded, you can see CSS file are located in the subdirectory and in
 a .css file. This is a common way for organizing source code when you
 make a project with HTML and CSS.</p>
@@ -2238,7 +2238,7 @@ CSS file in an HTML file, we use the &quot;link&quot; tag with the attribute
 </p>
 
 <p>Here, it means the &quot;style.css&quot; file located in the &quot;css&quot;
-subdirectory. If I open this project with Sublime Text &#155; I go to the
+subdirectory. If I open this project with Sublime Text &#133; I go to the
 directory I&apos;ve just downloaded, and if I open the directory, I can see
 my hierarchy, here. The &quot;index.html&quot; file that includes the .css file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2707,7 +2707,7 @@ post your comments/observations/questions or share your creations.</p>
 <ul>
   <li>Try to make a simple home page and add some interactivity to it, adapting 
     the examples provided in the course (change the HTML content by clicking on 
-  a button, change the CSS style of some parts of the document).</li>
+    a button, change the CSS style of some parts of the document).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-1">1.3.1 JavaScript Overview (the best way to learn JavaScript) (8:42)</h3>
@@ -3032,7 +3032,7 @@ and the range of the y values is &lbrack;-1, 1&rbrack;.</p>
 
 <p>You can think of this code in this way:</p>
 
-<pre>1. functionPlot(&#155;);</pre>
+<pre>1. functionPlot(&hellip;);</pre>
 
 <!-- page 79 -->
 <p>Where the &quot;&hellip;&quot; corresponds to some sort of parameter. When you see a
@@ -3261,7 +3261,7 @@ surface address. Here we go. I&apos;m located near Antibes in the south of Franc
 
 <p>You can also work with remote data. So in this code, I&apos;m just sending
 what we call an Ajax request to a remote server to get a list of
-users&#155; and once I get this list of users, I just use the HTML table
+users&#133; and once I get this list of users, I just use the HTML table
 JavaScript API for building dynamically tables. And I use this API to
 display the data that just came from a remote server.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3452,7 +3452,9 @@ declared using the "var" keyword. There are others possibilities we will see lat
   title="Example 1; JavaScript in the HTML file"
   alt="Example 1; JavaScript in the HTML file." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY" target="_blank" rel="noopener noreferrer">CodePen: Example 1: JS in the .html file</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY" 
+target="_blank" rel="noopener noreferrer">
+CodePen: Example 1: JS in the .html file</a></h6>
 
 <p>Here we've got the variable called "x" that has the value of 2. And, we use 
 some strange instruction "document.body.innerHTML" for adding to the body of the 
@@ -3461,7 +3463,7 @@ element of the document, and the "innerHTML" property corresponds to its HTML
 content. By doing this, we are adding a bold element JavaScript code executing 
 the value of the variable x=2 and we display the value of the x variable in bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 119b. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 119b. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image119b.png?raw=true"
   style="width:65%"
@@ -3481,19 +3483,20 @@ can also open the devtools using the "F12" key or "ctrl+alt+i" or "cmd+alt+i" on
 a Mac. And you see that the "console.log" message has been displayed in the devtool 
 console of your browser.</p>
 
+<!-- image missing ? -->
 <p>Here, notice that we use the "script" element directly into the body of the 
 document. Another possibility is to a put this code in the head of the document.
 It's also common practice because it separates clearly the JavaScript code from 
 the HTML body of the document. In that case, the result is the same, except that 
 the JavaScript code is displayed before the rest of the page.</p>
 
-
+<!-- image missing ? -->
 <p>Here we defined the variable x, we added it to the body of the document, and 
 later on we display the body, where the browser renders the body of the document. 
 Okay, what is better? It depends on your application. For the moment, just stay 
 with knowing that you can put scripts in the body or in the head of a document.</p>
 
-
+<!-- image missing ? -->
 <p>Another possibility is to use an external JavaScript file. In that case, the 
 same way we showed you how to use an external file for storing the CSS code, we 
 can use the "script" tag with the "src" attribute to include in the HTML document 
@@ -3506,7 +3509,7 @@ got here, is that you can see in the HTML header in that case but you can also
 put this in the body if you like, we included a "script.js" file located under 
 the "js" directory.</p>
 
-<image>
+<!-- image missing -->
 I can also open this file. I can see that I display the message called "Function executed"
 and a function "addSomeText" directly in the script. When is this executed?
 It's executed when we click on a button.
@@ -3517,16 +3520,19 @@ And finally, the last thing you can do, is to include an external JavaScript sou
 You've got an example here, where we use the "paper.js" library and the "paper.js" library,
 if I open the "paper.js" Web site, is a library for making graphic animations in JavaScript,
 so you can have plenty of funny things you can do.
-Things like that, or things like this…
+Things like that, or things like this&#133;
+
 Just to be able to use what this library proposes, you need to include the library.
-If you read the documentation, they will tell that you what you need to include&#155;
-Okay -let's open it in CodePen- &#155;you need to include this JavaScript file.
-And once you included this JavaScript file&#155; a bit the same way we used the external 
-library for plotting functions&#155; then you can use some functionalities that come 
+If you read the documentation, they will tell that you what you need to include&#133;
+
+Okay -let's open it in CodePen- &#133;you need to include this JavaScript file.
+And once you included this JavaScript file&#133; a bit the same way we used the external 
+library for plotting functions&#133; then you can use some functionalities that come 
 from the "paper.js" library. You need to read the documentation to learn how to use 
 it, but here is an example: a set of squares, animated squares, that follow the mouse.
 
-<!-- <video for 1.3.3 above> -->
+<!-- <end of video transcript for 1.3.3 above> -->
+
 <h4>JavaScript code can be located in different places</h4>
 
 <ol>
@@ -3541,14 +3547,16 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 
 <p>Here are some examples:</p>
 
-<h4>Example #1: the JavaScript code is included in an HTML file using the &lt;script&gt;&hellip;&lt;/script&gt; tag</h4>
+<h4>Example #1: the JavaScript code is included in an HTML file using the 
+&lt;script&gt;&hellip;&lt;/script&gt; tag</h4>
 
 <h4>First variant: in the &lt;body&gt;..&lt;/body&gt; of the HTML document</h4>
 
 <p>Typically:</p>
 
-<pre>1.  &lt;body&gt;
-2.    &#155;
+<pre>
+1.  &lt;body&gt;
+2.    &#133;
 3.    &lt;script&gt;
 4.      var x = 2;
 5.      // show a message in the body of the html document
@@ -3557,7 +3565,7 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 7.      // also print a message in the devtool console
 8.      console.log("JavaScript code executed");
 9.    &lt;/script&gt;
-10.   &#155;
+10.   &#133;
 11. &lt;/body&gt;
 </pre>
 
@@ -3629,7 +3637,7 @@ offers many advantages:</p>
 <p>A typical example:</p>
 
 <pre>1.  &lt;head&gt;
-2.    &#155;
+2.    &#133;
 3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
 4.    <b>&lt;script src="js/script.js"&gt;&lt;/script&gt;</b>
 5.  &lt;/head&gt;
@@ -3653,12 +3661,12 @@ offers many advantages:</p>
 <h5>Example that uses more than one JavaScript file:</h5>
 
 <pre>1.  &lt;head&gt;
-2.    &#155;
+2.    &#133;
 3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
 4.    <b>&lt;script src="js/script1.js"&gt;&lt;/script&gt;</b>
 5.    <b>&lt;script src="js/script2.js"&gt;&lt;/script&gt;</b>
 6.    <b>&lt;script src="js/anotherOne.js"&gt;&lt;/script&gt;</b>
-7.    <b>&#155;</b>
+7.    <b>&#133;</b>
 8.  &lt;/head&gt;
 </pre>
 
@@ -3687,9 +3695,9 @@ JavaScript files in a js subfolder.</p>
 
 <h5>Contents of the index.html file:</h5>
 
-<pre>1.  &#155;
+<pre>1.  &#133;
 2.  &lt;head&gt;
-3.    &#155;
+3.    &#133;
 4.    <b>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;</b>
 5.    <b>&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;</b>
 6.  &lt;/head&gt;
@@ -3820,7 +3828,7 @@ here I've got a script that will display, as soon the page is loaded,
 
 <p>If there is a mistake, if I make an error here, for example, I write console 
 with two "l". I can see, in red, some messages: 
-"consolle is not defined", bla, bla, bla&#155;</p>
+"consolle is not defined", bla, bla, bla&#133;</p>
  
 <p>When you use some online tools like JsBin or CodePen, and so on, it's a bit 
 difficult to debug your code because you are debugging at the same time the code 
@@ -4028,12 +4036,12 @@ comments/observations/questions or share your creations.</p>
   <li>We are pretty sure that you can do something better with the "rock band member 
     example". Share your best work(s) ;)</li>
   <li>Try to experiment further our "best way to learn JavaScript" and try to tweak 
-    an example of your own that uses the  paperJS library. Start from a simple 
-  example from the paperJS Web site, modify it and share it in the forum. You 
-  can look at the example from the course if you want to include paperJS in a 
-  shareable CodePen example (we use a version of paperJS located on a Content 
-  Delivery Network, a "CDN", no need to download it, and it's very easy to use 
-  it in online IDEs such as CodePen, JSBin, etc.).</li>
+    an example of your own that uses the  paperJS library. Start from a simple
+    example from the paperJS Web site, modify it and share it in the forum. You 
+	can look at the example from the course if you want to include paperJS in a 
+	shareable CodePen example (we use a version of paperJS located on a Content 
+	Delivery Network, a "CDN", no need to download it, and it's very easy to use 
+	it in online IDEs such as CodePen, JSBin, etc.).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-1">1.4.1 Creating Your First HTML/CSS/JS project</h3>
@@ -4163,15 +4171,15 @@ the mathematical function, here. The plot function is here.</p>
 </p>
 
 <p>What we are going to do in this change color function? It changes the 
-property of the parameters here. Let's add some code for that&#155; How can we get 
+property of the parameters here. Let's add some code for that&#133; How can we get 
 the value of the color from JavaScript before plotting the function? We are going 
-to use the selector API: "document.querySelector(&#155;)" for the input field whose 
+to use the selector API: "document.querySelector(&#133;)" for the input field whose 
 id is "color".</p>
 
 <h4>The value, here, is the color itself.</h4>
 
 <p>What we do is that we are going do use the color for changing this, here. So 
-"parameters.data"&#155; it's an array. 0 is the first index, the first element that 
+"parameters.data"&#133; it's an array. 0 is the first index, the first element that 
 corresponds to the part that I highlight now. .color=color</p>
 
 <p>If I change the color, this line is executed and the color changes. We can use 
@@ -4295,7 +4303,7 @@ file with the CSS code.</p>
   title=""
   alt="." />
 </p>
-<p>&quot;Save as&quot; &#155; I include the JavaScript code :&lt;script
+<p>&quot;Save as&quot; &#133; I include the JavaScript code :&lt;script
 src=&quot;js/script.js&quot;&gt;</p>
 <p>Remember that the script tag has always a closing tag at this end.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4362,7 +4370,7 @@ declare a variable called myDog and I gave it a name: Rex. Also, you can use
 these variables in instructions, in expressions like: &quot;the name of my dog is&quot;.
 You can use the "+" operator for concatenating strings, because "myDog"
 is a string, and in that case you will see: &quot;the name of my dog is&quot; 
-&#155;followed by the value of the "myDog" variable.</p>
+&#133;followed by the value of the "myDog" variable.</p>
 
 <p>There are also naming rules and conventions for variables. You can give
 to variables names like "x", "y", "z". If they are just single, one-word
@@ -4612,11 +4620,11 @@ functions, it's usable anywhere in your code. It's considered as a
 &quot;global variable&quot;: it belongs to the &quot;global scope&quot;. So, the x
 variable here, can be used inside a function.</p>
 
-<p>The console.log inside f1&#155; if I execute f1&#155; will display the value
+<p>The console.log inside f1&#133; if I execute f1&#133; will display the value
 "1" because the variable here is &quot;global&quot;. If I've got another
-function&#155; f2, that declares another variable y, and if I try to
+function&#133; f2, that declares another variable y, and if I try to
 display this value from outside of the function, then it does not
-work&#155;I've got an error: y is not defined. So, you've got &quot;local
+work&#133;I've got an error: y is not defined. So, you've got &quot;local
 variables&quot;, and &quot;global variables&quot;. In the case of local variables,
 when a variable has the same name as a global variable, then the most
 local one wins.</p>
@@ -4642,7 +4650,7 @@ function in which it is defined, but it's local to the block of
 instructions that is defined by an opening brace and a closing brace.</p>
 
 <p>If I try to use this variable here, that is defined in the block,
-outside of the block but inside of the function, the "a"&#155;, the value
+outside of the block but inside of the function, the "a"&#133;, the value
 of the variable "a" here, will not be the value of the local variable
 here, because this one does not exist, it's not usable here. It will be
 the global variable &quot;a&quot; that will be used.</p>
@@ -4650,7 +4658,7 @@ the global variable &quot;a&quot; that will be used.</p>
 <p>This is why the printed value here, when I execute "f" is &quot;1&quot; and
 not &quot;4&quot;.</p>
 
-<p>If the variable was named "b" and if I tried to display it, then&#155; I've
+<p>If the variable was named "b" and if I tried to display it, then&#133; I've
 got an error: &quot;b is not defined&quot;. Remember that if I used &quot;var&quot; in
 that case it works, because &quot;var&quot; will define a variable local to the
 whole function, not just to the block of instructions.</p>
@@ -4821,9 +4829,9 @@ a number. If I give to "x" a string value like my name, then the type of
 "x" will be "string". It changed its internal type on the fly, we call
 this "dynamic typing". What kind of data types can we get? String,
 number, we've got also boolean value: "var x = true" or "x = false"
-corresponds to a boolean value: "typeof x"&#155; boolean.</p>
+corresponds to a boolean value: "typeof x"&#133; boolean.</p>
 
-<p>And I can say "if (x)" then&#155; do something&#155; "console.log("it's
+<p>And I can say "if (x)" then&#133; do something&#133; "console.log("it's
 true!!!")" and the boolean data types is useful for "if" statements or
 some other statements that will test boolean value.</p>
 
@@ -4831,13 +4839,13 @@ some other statements that will test boolean value.</p>
 If I give to "x" the value "false", then if I execute this code, it will
 do nothing because "x" is false.
 We've got also some special values&hellip; but "typeof y": undefined.
-I can test if y is undefined then .&#155;And in that case, you can test if
+I can test if y is undefined then .&#133;And in that case, you can test if
 a variable is defined or not.</p>
 
 <p>There is a special data type called "null" that corresponds to "no
 value". The difference with the null defined variable is that the variable that
 has the value of null is still defined.
-Like "y" is not defined here&#155; but if I say "z = null" then "z" is
+Like "y" is not defined here&#133; but if I say "z = null" then "z" is
 defined.</p>
 
 <p>Ok, this has not been printed because "z" was not undefined. OK, another
@@ -4846,7 +4854,7 @@ this: property, value. And if I look at the type of "person", it will
 say: object. And object is a structured variable, I can use the "."
 operator to check the value of some property.</p>
 
-<p>So, "person.familyName" will print the value "Buffa" .&#155; "person.name"
+<p>So, "person.familyName" will print the value "Buffa" .&#133; "person.name"
 will print my given name. There is a particular case for arrays. Arrays
 are defined using "brackets". If I define an array with two names of
 days in a week: Monday and Tuesday, then, its type is also &quot;object&quot;.
@@ -5275,14 +5283,14 @@ it will do the same thing. It will display the current value of “x", but its f
 value is one less that. You can also post increment or post decrement values: 
 " console.log(++x)". You remember that "x" was equal to "8". In that case, it will 
 display "9" because "x" will be first incremented by one then displayed. If I 
-display the value of "x" it’ss "9"&#155;  Z= ++x &#155; "z" will be "9 +1"… "10".</p>
+display the value of "x" it’s "9"&#133;  Z= ++x &#133; "z" will be "9 + 1"… "10".</p>
 
 <p>And "x" will be 10 because it's been incremented. This is equivalent to "x= x+1 
-&#155; Z= x". That's all we can say about number operators, nothing special. It's 
+&#133; Z= x". That's all we can say about number operators, nothing special. It's 
 the same syntax you can find in the Java programming language or in c#, Python, 
 or Ruby.</p>
 
-<end of 1.5.5 transcript>
+<!-- end of live video transcript 1.5.6 -->
 
 <p>The following arithmetic operators are binary:<br>
 +, - , /, &ast;, % (modulo)</p>
@@ -5293,10 +5301,11 @@ or Ruby.</p>
 
 <h4>And there are also unary operators:</h4>
 
-<h5>++, --, - (the opposite of a number)</h5>
+<p>++, --, - (the opposite of a number)</p>
 
 <p>++ and -- operators increment or decrement the value of a variable. They can be 
 both prefixed or suffixed, which have different effects:</p>
+
 <ul>
   <li>Suffixed ++ adds one to the value of the variable, then returns the old value.</li>
   <li>Prefixed ++ also adds one to the value, but returns the new value. Both of 
@@ -5307,7 +5316,8 @@ both prefixed or suffixed, which have different effects:</p>
 
 <h4>Example #1: simple operator use</h4>
 
-<pre>1.  &gt; 1 + 2;
+<pre>
+1.  &gt; 1 + 2;
 2.  3
 3.  
 4.  &gt; var a = 1;
@@ -5329,11 +5339,13 @@ both prefixed or suffixed, which have different effects:</p>
 20.  undefined
 21.  
 22.  &gt; c;
-23.  3</pre>
+23.  3
+</pre>
 
 <h4>Example #2: more operators</h4>
 
-<pre>1.  &gt; 1 + 2;
+<pre>
+1.  &gt; 1 + 2;
 2.  3
 3.  
 4.  &gt; 99.99 - 11;
@@ -5343,7 +5355,8 @@ both prefixed or suffixed, which have different effects:</p>
 8.  6
 9.  
 10.  &gt; 6 / 4;
-11.  1.5</pre>
+11.  1.5
+</pre>
 
 <h4>Example #3: pre and post increments</h4>
 
@@ -5473,24 +5486,24 @@ double quotes, or the opposite.</p>
 4.  &gt; "JavaScript Course";
 5.  "JavaScript Course"
 6. 
-7.  &gt; 'With simple quotes';
-8.  "With simple quotes"
+7.  &gt; 'With single quotes';
+8.  "With single quotes"
 9.  
-10. &gt; "Do not mix double and simple quotes'; // here we opened the string
-with double and closed with simple quotes
+10. &gt; "Do not mix double and single quotes'; // here we opened the string
+with double and closed with single quotes
 11. VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
 </pre>
 
-<h5>Image from the devtool console, from the above example:</h5>
+<h5>Image from the devtool console, from the example above:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~ 171. error - devtools console; do not mix simple and double quotes (145) ~~~~~~~~~-->
+<!--~~~~~~~~~ 171. error - devtools console; do not mix single and double quotes (145) ~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image171.png?raw=true"
   style="width:50%"
-  title="Error; devtools console error; do not mix simple and double quotes"
-  alt="Error; devtools console error; do not mix simple and double quotes." />
+  title="Error; devtools console error; do not mix single and double quotes"
+  alt="Error; devtools console error; do not mix single and double quotes." />
 
-<h5>There are many reasons to use simple quotes when possible:</h5>
+<h5>There are many reasons to use single quotes when possible:</h5>
 
 <ol start="1">
   <li>Double quotes are used in HTML</li>
@@ -5503,29 +5516,29 @@ with double and closed with simple quotes
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: string and string operators</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 172. snapshot of a devtools console; do not mix simple and double quotes (145) ~~~~~~-->
+<!--~~~~~~ 172. snapshot of a devtools console; do not mix single and double quotes (145) ~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image172.png?raw=true"
   style="width:50%"
-  title="Snapshot of a devtools console error; do not mix simple and double quotes"
-  alt="Snapshot of a devtools console error; do not mix simple and double quotes." />
+  title="Snapshot of a devtools console error; do not mix single and double quotes"
+  alt="Snapshot of a devtools console error; do not mix single and double quotes." />
 
-<p>Strings can be defined using double quotes, or simple quotes. Don&apos;t mix 
+<p>Strings can be defined using double quotes, or single quotes. Don&apos;t mix 
 double and single quotes, it&apos;s not going to work.
-You can mix them, but inside a string defined with simple quotes, you can use 
-&quot;hello my name is Michel&#155;&quot;. This works because I used double quotes 
-inside a string defined with simple quotes. I can do the reverse: use simple quotes 
+You can mix them, but inside a string defined with single quotes, you can use 
+&quot;hello my name is Michel&#133;&quot;. This works because I used double quotes 
+inside a string defined with single quotes. I can do the reverse: use single quotes 
 inside a string defined with double quotes.</p>
 
-<p>But if I wanted to use the simple quote like for &quot;I&apos;m your teacher&quot;,
+<p>But if I wanted to use the single quote like for &quot;I&apos;m your teacher&quot;,
 you see that the color changes because this is not correct.
-In that case you must use the antislash (&#92;)&#155;
-Like this&hellip; you escape the simple quote that confuses the JavaScript
-interpreter, and you can, in that case, display simple quotes inside a
-string that has been defined using simple quotes.</p>
+In that case you must use the antislash (&#92;)&#133;
+Like this&hellip; you escape the single quote that confuses the JavaScript
+interpreter, and you can, in that case, display single quotes inside a
+string that has been defined using single quotes.</p>
 
 <p>The &#92; character is also useful for printing special characters.
-For "s1 = My&#92;n" &#155; it means &quot;go to the next line&quot;&hellip;
+For "s1 = My&#92;n" &#133; it means &quot;go to the next line&quot;&hellip;
 if I print "s1 = My&#92;&#92;nName&#92;&#92;Is&#92;&#92;Michel". You saw the carriage return
 here, I came to the next line. Ok, let me fix it by adding &#92;&#92;n<br>
 In that case each word is on a different line. You can use also &#92;&#92;t for
@@ -5549,7 +5562,7 @@ concatenated to it.</p>
 
 <p>There are also some ways to convert variables to strings.
 x here, is a number, but x = &quot;&quot; + 10; in that case,
-x is a string. You can also concatenate string values&#155; s1 =
+x is a string. You can also concatenate string values&#133; s1 =
 &quot;one&quot;, s2 = &quot;two&quot;, if I concatenate these values here, s is equal to
 the concatenation of s1 and s2.</p>
 
@@ -5569,7 +5582,7 @@ the result is NaN that means &quot;Not a Number&quot;, you cannot convert
 &quot;hello&quot; to a number that can be used in a mathematical expression or multiplied by
 two.</p>
 
-<!-- end of video transcript -->
+<!-- end of video transcript 1.5.8 -->
 
 <h4>Introduction to string operators</h4>
 
@@ -6470,7 +6483,7 @@ look here</a> for a solution.</p>
 
 <h4>Example #2: plot a force directed graph using the d3.js JavaScript library</h4>
 
-<p>Try to click and drag nodes&#155; All the graphics, animation and force repulsion, 
+<p>Try to click and drag nodes&#133; All the graphics, animation and force repulsion, 
 is done using the very powerful d3.js plotting library. Look at the HTML source 
 code to see how we included this library in our HTML page. Look at the JS part; 
 it seems complicated, but hey! I guess you can make your own graph with your own 
@@ -6684,10 +6697,10 @@ equals (===) and not equals equals (==), to be the ones you must use.</p>
   title="CodePen; Comparison operators; baby, child, adult or old"
   alt="CodePen; Comparison operators; baby, child, adult or old." />
 
-<p>Let&apos;s see some code now&#155; I declared the variable &quot;age&quot; with 
+<p>Let&apos;s see some code now&#133; I declared the variable &quot;age&quot; with 
 a value of 1, and I added some if&hellip; else statements. If &quot;age&quot; is 
 less than 2, print &quot;I&apos;m a baby&quot;, and you can see that this has been 
-executed, because the variable is 1, 1 is less than 2. It&apos;s been executed&#155;
+executed, because the variable is 1, 1 is less than 2. It&apos;s been executed&#133;
 I can add some &quot;else&hellip;if&quot; statements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 213. codepen; comparison operators; baby, child, adult or old (176) ~~~~~~~~~~~~-->
@@ -6767,8 +6780,8 @@ but age &lt; 14 is true, it prints &quot;I&apos;m a young teenager&quot;.</p>
 </p>
 
 <p>Finally, let&apos;s have a look at the === operator. If I set the age to be &quot;72&quot;, 
-but as a string, like this&#155; it prints&#155; let me clear the devtool console and 
-execute it again&#155; it prints &quot;I&apos;m 72&quot; because the age variable, 
+but as a string, like this&#133; it prints&#133; let me clear the devtool console and 
+execute it again&#133; it prints &quot;I&apos;m 72&quot; because the age variable, 
 that is a string, has been converted implicitly to a number. If I use the triple 
 equal sign, then it does not print anymore &quot;I&apos;m 72&quot; because age, as 
 a string, has not been converted to a number. And thrust me, it&apos;s much better to 
@@ -7143,7 +7156,7 @@ num;
   title=""
   alt="." />
 <p>I prepared a small example in which we take a day number between 0 and 6, 0 for 
-Monday, 1 for Tuesday, and so on&#155; And to pick a random number that is an integer, 
+Monday, 1 for Tuesday, and so on&#133; And to pick a random number that is an integer, 
 we used a formula like this, that uses a predefined object called Math.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 222.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7159,7 +7172,7 @@ values each time we execute. If I clear the console and execute this, it will pi
 number.</p>
 
 <p>And then, here is a first version that uses &quot;if statements&quot; that is a
-bit naïve. It says: if day equals 0, then print Monday; if day equals 1 &#155; ; and
+bit naïve. It says: if day equals 0, then print Monday; if day equals 1 &#133; ; and
 so on. Why is it naïve? Because we&apos;re going to execute all the tests and we 
 all know that only one of them will be true.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7189,7 +7202,7 @@ console.log(&apos;Monday&apos;). The break here means &quot;ignore all the other
 cases&quot;.</p>
 
 <p>When you put a break after each case, it&apos;s a bit like the &quot;if&hellip;else&quot; 
-example we saw earlier: only one block of instructions will be executed here&#155;You can see 
+example we saw earlier: only one block of instructions will be executed here&#133;You can see 
 that the 3 different versions with the naive if, the if-else statement and the switch, give 
 the same result.</p>
 
@@ -7598,7 +7611,7 @@ example: we&apos;ve got a variable i that has a value of zero, and we increment 
 in the loop, but before incrementing it we print its value.</p>
 
 <p>The final condition is &quot;i strictly less than 20&quot;.
-We are going to execute this for 0, 1, 2&#155; and when i++ will give a
+We are going to execute this for 0, 1, 2&#133; and when i++ will give a
 value to i that is 20, then the condition will be no more true, and we
 will finish the execution of the loop and execute the console.log that
 is here.</p>
@@ -9952,7 +9965,7 @@ nothing for the moment, and it contains also 4 images.</p>
   style="width:65%"
   title="CodePen: four images defined"
   alt="CodePen: four images defined." />
-<p>Here are the images&#155; They&apos;ve got an id: img1, img2, and so on. 
+<p>Here are the images&#133; They&apos;ve got an id: img1, img2, and so on. 
 They&apos;ve got some URLs and a width.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 319. function init() (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10784,7 +10797,7 @@ field, etc.</p>
 <pre>1  li.innerHTML = '<b>This is a new list item in bold!</b>'; // can add HTML in it
 2  li.textContent = 'Another new list item';
 3  li.style.color = 'green'; // green text
-4  img.src = "https://.&#155;/myImage.jpg"; // url of the image
+4  img.src = "https://.&#133;/myImage.jpg"; // url of the image
 5  img.width = 200;
 </pre>
 
@@ -11209,7 +11222,7 @@ filled text, changing colors)</h5>
 
 6.  <i>Lines 28-30</i> draw a filled text. The call to filltext(message, x,
     y) draws a filled text at the x,y position; this time in purple as
-    we called ctx.fillStyle=&apos;purple&apos; before calling fillText(&#155;)
+    we called ctx.fillStyle=&apos;purple&apos; before calling fillText(&#133;)
 
 <h5>Example #2: functions that save and restore the context before drawing</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11339,7 +11352,7 @@ using the default color (black) and wireframe and filled modes:
     translated by (10, 10).
 
 -   And if we change the coordinate system (this is what the call
-    to ctx.translate(&#155;) does) in a function, it is good practice to
+    to ctx.translate(&#133;) does) in a function, it is good practice to
     always save the previous context at the beginning of the function
     and restore it at the end of the function (<i>lines 27 and 50</i>).
 
@@ -11497,8 +11510,8 @@ an extract of this function now:
 7.  
 8.  // put the ball at the collision point
 9.  b.x = w - b.radius;
-10. } &#155;
-11. &#155;
+10. } &#133;
+11. &#133;
 12. }
 </pre>
 
@@ -11786,7 +11799,7 @@ CodePen: Position and Size in viewport</a>.</p>
 <h5>WRONG code used in this example:</h5>
 
 <pre>
-1.  &#155;
+1.  &#133;
 2.  <b>canvas.addEventListener(&apos;mousemove&apos;, function (evt) {</b>
 3.  <b>mousePos = getMousePos(canvas, evt);</b>
 4.  var message = &apos;Mouse position:
@@ -11794,7 +11807,7 @@ CodePen: Position and Size in viewport</a>.</p>
 5.  writeMessage(canvas, message);
 6.  }, false);
 7.  
-8.  &#155;
+8.  &#133;
 9.  <b>function getMousePos(canvas, evt) {</b>
 10. <b>// WRONG!!!</b>
 11. return {
@@ -12404,7 +12417,7 @@ height="2.3269225721784776in"}
 
 Let&apos;s start with an array called &quot;myarr&quot; that contains some colors.
 The first thing we must remind is that each element has an index. And
-the first index is at number 0. If I type in the console&#155;it gives me
+the first index is at number 0. If I type in the console&#133;it gives me
 the first element. "myarr&lbrack;0&rbrack;" gives the first element. Arrays in
 JavaScript are objects.
 
@@ -12441,7 +12454,7 @@ height="2.3269225721784776in"}
 
 You can also add an element at the end of an existing array by adding it
 to the index equal to the length of the array. If I do this, we don&apos;t
-have any "green" here&#155;You see, I'm using the index length. If I do
+have any "green" here&#133;You see, I'm using the index length. If I do
 like that, it returns the new element we added, and it adds at the end.
 To be frank, most of the time I use the &quot;push&quot; method.
 
@@ -13031,7 +13044,7 @@ callback. Usually, we type the callback body between the parenthesis.
 Declaring an anonymous function, an anonymous callback. And the first
 example is to use only a single argument that will be the current
 element while we are iterating. I call it "day" here, and day will be:
-Monday, Tuesday, Wednesday,&#155; each time, we iterate on the collection
+Monday, Tuesday, Wednesday,&#133; each time, we iterate on the collection
 of the days, on the array of days.
 
 ![](./images/image378.png){width="5.0in"
@@ -13072,7 +13085,7 @@ simple.
 height="2.3269225721784776in"}
 
 Another thing we can do, let me put this in comments, is use a regular
-"<b>for</b>" loop. Using a "<b>for</b>" loop&#155; so the very automatic way is
+"<b>for</b>" loop. Using a "<b>for</b>" loop&#133; so the very automatic way is
 do like that. And you see we&apos;ve got the same results we had with the
 "<b>forEach</b>". It&apos;s a bit more complicated because we must declare a
 variable, initialize it to 0 and this is the first, the starting index
@@ -13090,7 +13103,7 @@ It depends.
 ![](./images/image382.png){width="5.0in"
 height="2.3269225721784776in"}
 
-Here you can just go 2 by 2&#155; I can iterate 2 by 2, or I can break the
+Here you can just go 2 by 2&#133; I can iterate 2 by 2, or I can break the
 loop in the middle using the "break" keyword and a condition with an
 "<b>if</b>". All these things I cannot do them easily with the
 "<b>forEach</b>" operator. If you just need to iterate and do something on
@@ -13522,7 +13535,7 @@ height="2.7094017935258092in"}
 
 If I click on the video player, you see that&#41; Ok! By adding a
 controls attribute it will display a control bar with buttons for play,
-pause&#155; for adjusting the volume&#155; for going forward and backward
+pause&#133; for adjusting the volume&#133; for going forward and backward
 video and so on. And if I remove this, you don&apos;t have anymore the
 control, bar so you can make you own control bar for the video player.
 Let&apos;s try it!
@@ -13563,7 +13576,7 @@ methods you can call when you see parenthesis: <b>play(), pause()</b>&#41;
 ![](./images/image398.png){width="5.0in"
 height="2.7307688101487315in"}
 
-And also you&apos;ve got properties, these properties you can&#155; you can use
+And also you&apos;ve got properties, these properties you can&#133; you can use
 them for getting information -what is the current time?- for example. Or
 you can use them also for setting, changing their values. And for
 example, going back&#41; if I say current time equals 0, or "currentTime
@@ -13602,7 +13615,7 @@ You can add an event listener on the video element "<b>ontimeupdate =
 isplayTimeWhileVideoIsPlaying()</b>".
 
 Ok, like this: while the video is being played, this method will be
-called and we can here, for example, display the <b>currentTime&#155;
+called and we can here, for example, display the <b>currentTime&#133;
 console.log()</b>. Let&apos;s me open the console, play the video and you see
 the current time. You can make a test: if "vid. currentTime greater than
 5 seconds&quot;, then we pause the video.
@@ -14751,7 +14764,7 @@ And then from JavaScript, you can use it.</p>
   title=""
   alt="." />
 
-<p>Here we&apos;ve got a button that will play a very short sound&#155; you see.
+<p>Here we&apos;ve got a button that will play a very short sound&#133; you see.
 Let&apos;s look at the way the play sound is implemented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14771,7 +14784,7 @@ referring to, here, has been loaded when the page was ready.</p>
   title=""
   alt="." />
 
-<p>So "window.onload = init;"&#155; You saw that many times now. From then, we
+<p>So "window.onload = init;"&#133; You saw that many times now. From then, we
 use the Howl library like this. "new Howl": you indicate the URL of your
 audio file and you&apos;ve got a callback. A callback is a function that
 will be executed when the sound has been loaded and decoded. What we do
@@ -14857,10 +14870,10 @@ CodePen: load sound sample using howlerjs</a>.</p>
 </pre>
 
 The important part is located in <i>lines 5-9</i>: the Howler library is to
-be used like this: sound = new Howl({&#155;}); The part between the { and
+be used like this: sound = new Howl({&#133;}); The part between the { and
 } is an object. The url&apos;s property is an array with at least one
 element: the URL of the sound we want to use, located on remote servers.
-The call to new Howl({&#155;}); will start downloading the sound in
+The call to new Howl({&#133;}); will start downloading the sound in
 background, then, once it has loaded, it will &quot;decode it&quot; (i.e., an
 mp3 file will use some cpu to be decoded on the fly and played, whereas
 a decoded sound will use nearly zero cpu, which makes it good for
@@ -15016,7 +15029,7 @@ callback will be executed, and will get a single parameter: the assets ready to
 be used!
 
 Example (to hear the music and sound sample, there are two lines to
-uncomment in the <b>startGame(&#155;)</b> function):
+uncomment in the <b>startGame(&#133;)</b> function):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 437.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15378,7 +15391,7 @@ and name are very very similar to arrays because arrays are objects too.
   alt="." />
 
 If I use the name of the property with the brackets notation, look at
-that: darkVadorAsAnObject&lbrack;&rbrack;, the name of the property (job) then&#155;
+that: darkVadorAsAnObject&lbrack;&rbrack;, the name of the property (job) then&#133;
 you&apos;ve got the exact same result as if you're using the &apos;.&apos; operator.
 In JavaScript objects are arrays whose indexes are the property names.
 They are very very similar.
@@ -15390,7 +15403,7 @@ They are very very similar.
   title=""
   alt="." />
 
-Look at this object named "book": book.title &#155; Le Petit Prince and
+Look at this object named "book": book.title &#133; Le Petit Prince and
 book&lbrack;&apos;title&apos;&rbrack; will give exactly the same result.Why would you use
 this notation for accessing properties?
 
@@ -15435,7 +15448,7 @@ except that in that case the name of the property is the value of the
   title=""
   alt="." />
 
-I type key ="name" &#155; "book2" that is an object with the name. I can
+I type key ="name" &#133; "book2" that is an object with the name. I can
 type &quot;book2.key3", it&apos;s exactly the same as typing "book2.name". You
 can also have objects that contain objects. The "book2" object, here,
 has the property name author that in turn is an object. It uses brackets
@@ -15714,7 +15727,7 @@ it.
 </p>
 
 You see that it displays "I&apos;m a human and I&apos;m a villain " blah blah
-blah&#155;And "human" and "villain" are the values of the "race" and the
+blah&#133;And "human" and "villain" are the values of the "race" and the
 "job" properties inside the object. "this.race" was used for displaying
 this value. You can also use the "this" keyword for calling a method
 from another method.
@@ -16015,7 +16028,7 @@ And we also pass the context that is the object used for drawing in the
 canvas as a parameter.
 
 Like this, we can use the object in another project and don&apos;t rely on a
-global variable&#155;like we did before in the previous example, the
+global variable&#133;like we did before in the previous example, the
 context was a global variable, here.
 
 By passing it as a parameter, if the global variable has a different
@@ -16299,7 +16312,7 @@ only occur once.
 We&apos;ve got one player in the game, we&apos;ve got one Dark Vador in the
 examples with the Star Wars heroes.
 
-But imagine Luke Skywalker, Ian Solo and Dark Vador&#155; what do they have
+But imagine Luke Skywalker, Ian Solo and Dark Vador&#133; what do they have
 in common?
 
 They&apos;re all Star Wars heroes, they all have a name, they all belong to
@@ -16359,23 +16372,23 @@ use the keyword &quot;new&quot;.
 I just typed the name of the constructor function, preceded by the
 keyword &quot;new&quot;.
 
-If we open the console and look at this object&#155; you see that we built
+If we open the console and look at this object&#133; you see that we built
 an object.
 
 And where it&apos;s interesting? It&apos;s when you create multiple objects.
 
-If you look at these objects, &#155; dark &#155;, we created multiple objects
+If you look at these objects, &#133; dark &#133;, we created multiple objects
 from the same template.
 
 Of course, we can also add methods in this object.
 
 And the syntax is also to declare the name of the method preceded by
-&quot;this": this.describeYourself =&#155; and then the body of the function.
+&quot;this": this.describeYourself =&#133; and then the body of the function.
 
 This is a property defined in the class Hero.
 
-First, we can check that the method has been added to each object&#155;so,
-Ian Solo&#155; you can see the method here: &quot;describeYourself&quot;&#41; you
+First, we can check that the method has been added to each object&#133;so,
+Ian Solo&#133; you can see the method here: &quot;describeYourself&quot;&#41; you
 can see the body of the method.
 
 Luke Skywalker has the same method because it&apos;s &quot;an instance of the
@@ -16582,7 +16595,7 @@ internal properties of the object of for calling internal methods.
 
 If I had a method, "anotherMethod" here.
 
-Blah blah blah &#155; something.
+Blah blah blah &#133; something.
 
 I would call it using "this.anotherMethod".
 
@@ -16818,7 +16831,7 @@ Here, I declared a variable named "numberHeroesCreated". I can type this
 in the console and see that it returns 0. But why it&apos;s interesting, is
 that I can use this class property inside a class itself. If in the
 constructor, I increment the "numberofHeroesCreated", the property of
-the class Hero. And if I build 0 instance, &#155;
+the class Hero. And if I build 0 instance, &#133;
 
 I can look at the value of this property: it says 0. But if I built 2
 objects, in that case the "new" keyword will call twice the constructor
@@ -16848,12 +16861,12 @@ idea to put it inside. And you precede them by the "static" keyword.
 
 Because sometimes, you can call such methods without using any instance.
 For example, if I want a method that will work on the
-"numberHeroesCreated": static getHowManyHeroesYouCreated()&#155;
+"numberHeroesCreated": static getHowManyHeroesYouCreated()&#133;
 HowManyHeroesYouCreated. And here, it makes sense that it should be a
 special method because, instead of using an instance name, I will use
 the name of the class.
 
-getHowManyHeroesYouCreated()&#155; 0!
+getHowManyHeroesYouCreated()&#133; 0!
 
 &lt;end transcript above&gt;
 
@@ -17431,7 +17444,7 @@ value of the variable that contains the copy. You will see that there
 are differences between variables that have a primitive value and
 variables that reference an object.
 
-Let&apos;s start with primitive type&#155;With primitive type if we take
+Let&apos;s start with primitive type&#133;With primitive type if we take
 variable a and put the value "2" in it, then, if we copy this value of
 this variable into another one, &#41;here I&apos;ve got the variable "x=2"
 and I set "x2" , "x2". So I&apos;ve got "x2" that is a copy of "x", then if
@@ -17864,15 +17877,15 @@ Now, let&apos;s look at some of the predefined properties and methods
 inherited from this "Array" predefined object. We already met the
 "length" property that corresponds to the number of elements in an
 array. If we look at the array named "a2", that contains "1" and "2", 2
-numeric elements, 2 numbers, &quot;**a2.length**&quot; will display "2" &#155; 2
-elements&#155; value "2". As arrays are objects, you can imagine that you
+numeric elements, 2 numbers, &quot;**a2.length**&quot; will display "2" &#133; 2
+elements&#133; value "2". As arrays are objects, you can imagine that you
 can also set some properties to them. You can do
 "**a2.name=&quot;Michel"**". This not so good because your are mixing
 numbers with a property that is a name, and so on&#41; I don&apos;t recommend
 at all doing that: avoid! But just to show you something: it's that the
 length of an array works only on elements that have a numeric index. If
 we display the length after adding the name (property), we will still
-have a length of "2"&#155;&quot;only elements with a numeric indexes are taken
+have a length of "2"&#133;&quot;only elements with a numeric indexes are taken
 into account&quot;.
 
 We can also change the "length" value. If we set the "length" to an
@@ -17916,7 +17929,7 @@ sub-array without modifying the original array. If I want to remove the
 "3" and the "5" here, I need to remove elements from index 1 until index
 2, &#41;3.
 
-"**a.slice(1,3)**"&#155; that means it will return "3" and "5" because this
+"**a.slice(1,3)**"&#133; that means it will return "3" and "5" because this
 is the index of the last element before which I must stop cutting. And
 this does not modify the original array. If I want to remove elements
 and maybe insert elements at the location of the slice I remove, there
@@ -18343,7 +18356,7 @@ in it. Then, you can also get parts of a string without modifying it.
 You&apos;ve got 2 different methods that are very similar. For the most
 common use, it&apos;s "<b>slice()</b>" and "<b>substring()</b>". Let&apos;s me show
 you "<b>substring()</b>". Let&apos;s type again the value of "s":
-<b>s.substring()</b>"&#155; beginning index and end index&#155;
+<b>s.substring()</b>"&#133; beginning index and end index&#133;
 
 For example, 0 to 3 will get the characters at index 0, 1 and 2. It
 stops before the end parameter. It will get character at position 0, 1
@@ -18369,7 +18382,7 @@ And "<b>join()</b>" will rebuild, again from an array of tokens, it will
 rebuild a string. And you can indicate what set of characters should be
 inserted in the middle between each token.
 
-If I do this, it will&#155; ok&#155;I need to do this on the array so:
+If I do this, it will&#133; ok&#133;I need to do this on the array so:
 "<b>s.split(&apos; &apos;).join(&apos;&#45;&#45;&#45;-&apos;)</b>" will first return the array of
 tokens separated by space and will in turn build again a string with
 &apos;&#45;&#45;&#45;-&apos; between different tokens.
@@ -18385,7 +18398,7 @@ tokens separated by space and will in turn build again a string with
 The String class can be used to build new strings, but it's preferable
 to use the standard syntax:
 
-<pre>1.  &gt; var name = 'Michel'; // use this rather than using new String(&#155;)
+<pre>1.  &gt; var name = 'Michel'; // use this rather than using new String(&#133;)
 2.  undefined
 3.  
 4.  &gt;typeof name;
@@ -19419,7 +19432,7 @@ height="1.71875in"}
 8.  &lt;input type=&quot;radio&quot; name=&quot;format&quot; id=&quot;csv&quot; value=&quot;csv&quot;&gt;
 9.  &lt;label for=&quot;csv&quot;&gt;CSV file&lt;/label&gt;
 10. &lt;/div&gt;
-11. &lbrack;&#155;&rbrack;
+11. &lbrack;&#133;&rbrack;
 12. &lt;/fieldset&gt;
 </pre>
 
@@ -19439,7 +19452,7 @@ height="1.3020833333333333in"}
 4.  &lt;input type=&quot;checkbox&quot; name=&quot;newsletter&quot; id=&quot;check_1&quot;&gt;
 5.  &lt;label for=&quot;check_1&quot;&gt;The weekly newsletter&lt;/label&gt;
 6.  &lt;/div&gt;
-7.  &lbrack;&#155;&rbrack;
+7.  &lbrack;&#133;&rbrack;
 8.  &lt;/fieldset&gt;
 </pre>
 
@@ -19506,7 +19519,7 @@ you can see that if I change the value or the length of the levels, the
 input fields are no more aligned. In order to align the input fields,
 the common technique is input, float them to the right and give them a
 right margin. Let&apos;s say maybe 7px for the margin-right, and give them a
-width&#155; Ok, like that. Like that, you see if I change the length of the
+width&#133; Ok, like that. Like that, you see if I change the length of the
 labels the input fields are aligned. This is not new with HTML5. What is
 new is that, okay let me just add a border-radius to the fieldset. This
 makes nice rounded corners here. Okay what is new is that some
@@ -19522,18 +19535,18 @@ soon as I type something inside. If I try to submit a form with an
 And the message is in the language is the one of my operating system, so
 here it&apos;s in French. This is new. It&apos;s called the built invalidation
 system and some new input fields like, for example, the email: the input
-type=&quot;email ». Just change that&#155; This time it will become valid not
+type=&quot;email ». Just change that&#133; This time it will become valid not
 when I type something but also when I type something that looks like a
 valid email address. If I remove this character The @ character here, it
 becomes invalid. So, we&apos;ve got some defaults rules for validating new
 type of input fields. If I want to enter an age, I can use the new
-age&#155; type=&quot;number&quot; for example. Like this, it&apos;s an input field for
+age&#133; type=&quot;number&quot; for example. Like this, it&apos;s an input field for
 entering numbers and this one has some min values like 1 year old, max
 value is 120 years old, and if I type something that is not valid, you
 can see that it's with the pink background, meaning it is 'invalid'. If
 I type a real number, it becomes valid. Or if I choose a real number.
 Also, particularities with this input field, is that you can use the
-step attribute&#155;step=5 means &lt;I made a mistake&gt; okay like this it
+step attribute&#133;step=5 means &lt;I made a mistake&gt; okay like this it
 will jump from 1 to 6. If the value is not a multiple of 5, it&apos;s
 'invalid'. Starting from 0. Okay if I enter 20, it&apos;s valid but 21 is
 not. If I add 5 you can see it jumps from one multiple of 5 to another
@@ -19543,7 +19556,7 @@ course. For example, if you want to select a birth date, there is a new
 input field of type=&quot;date ». You can also indicate some constraints
 with attributes, but you will see that in the dedicated part of the
 course. Here, you got directly without writing any JavaScript a calendar
-that is popping up to select your birth date&#155; Let&apos;s say something
+that is popping up to select your birth date&#133; Let&apos;s say something
 that is random. And here you&apos;ve got a birth date, and you can enter
 using the keyboard but if you type something that is invalid..This is
 the really basics of HTML5 forms. There are 13 new input elements, lot
@@ -19551,7 +19564,7 @@ of new attributes and others elements that can be used to constraint the
 values. For example, instead of having a calendar, we can have only a
 small set of dates to choose from. All these things are explained in the
 course, take some time to read and look at all these examples. This is
-the end of this video good luck &#155; good work !
+the end of this video good luck &#133; good work !
 
 &lt;end video transcript 5.3.4&gt;
 
@@ -19720,7 +19733,7 @@ One is called "<b>stringify()"</b> and will be useful for converting a
 JavaScript object into JSON. And the other one will be
 "<b>JSON.parse()</b>" that will take a JSON object, a JSON string, and give
 back a JavaScript object. Let&apos;s see some examples. I just took an
-array&#155; if you try to stringify the array&#155;you obtain an object that
+array&#133; if you try to stringify the array&#133;you obtain an object that
 contains the array with quotes around. This is the JSON notation of an
 array. If you&apos;ve got more complex objects, for example, this one: it&apos;s
 an object with different properties and one of the properties is an
@@ -19905,7 +19918,7 @@ only when the response arrives.
 This is how it works: "<b>xhr.onload</b> =" and you indicate the callback
 function, and usually, you also use the event as the only parameter. And
 here, we can just start trying to see if it works. I open the console,
-here, click on the button and see &#155; "xrh" is not defined. It&apos;s "xhr".
+here, click on the button and see &#133; "xrh" is not defined. It&apos;s "xhr".
 Ok, I clear the console! Yes, the response arrived. I can even use the
 devtool debugger. If I click on "Network", "XHR", clear. Click on the
 button, I will see the request here and if I click on it, I can see the
@@ -19921,12 +19934,12 @@ This has been printed by the "<b>console.log()</b>". In order to work with
 this object, I will need to convert it to a real JavaScript object:
 "users = (<b>xhr.response</b>)". But in order to turn it into JavaScript
 object, we use "JSON.parse()", you remember from the previous video? And
-here, just to debug I can try to write: 'first user' &#155;Because this
+here, just to debug I can try to write: 'first user' &#133;Because this
 object is an array, you see it&apos;s an array.
 
 Displaying the first of them should work. It says 'first user' is an
 object. I can also directly turn it into a string. Ok, parentheses is
-missing&#155;And I can see this time, the first user, the 'first user' that
+missing&#133;And I can see this time, the first user, the 'first user' that
 has been displayed. Now we will use this! That will check that it works:
 we can call displayUsersAsATable(&#41;) passing the users. In order to
 insert a table here, first we need to create the table.
@@ -19936,8 +19949,8 @@ HTML div in the page that was called users, "id = "users". Then we
 create a table: <b>document.createElement(&quot;table&quot;)</b>;, and then we can
 try to insert rows for each user. So "users.forEach()" takes a callback
 with the first parameter being the current element of the user&apos;s array.
-"console.log(currentUser.name)"&#155;let&apos;s try this to see if it works&#155;
-Clear &#155; save&#155;Click on the button&#155; and I see the names of the
+"console.log(currentUser.name)"&#133;let&apos;s try this to see if it works&#133;
+Clear &#133; save&#133;Click on the button&#133; and I see the names of the
 users.
 
 Now, I&apos;m going to add a row to a table. "<b>table.insertRow()</b>;" put
@@ -19947,7 +19960,7 @@ for example, just the name.
 Here, I inserted rows whose content is the name of the user. And in the
 end, what we do is that we will add the table to the div. So,
 "<b>usersDiv.appendChild()</b>", or "append" works too on modern browsers,
-append(). And we put the table in it. Let&apos;s try&#155;Clear. "<b>usersDiv</b>"
+append(). And we put the table in it. Let&apos;s try&#133;Clear. "<b>usersDiv</b>"
 with a "s" and it works! Now, in order to have a nice table, I could
 also add some CSS to make it better, or I can define some &lt;td&gt; (table
 data) to make a nicer table. And I can display for example another
@@ -20506,7 +20519,7 @@ has been restored to its previous value.
 8.    empty() {
 9.      this.listOfContacts = &lbrack;&rbrack;;
 10.   }
-11.   &#155;
+11.   &#133;
 12.   load() {
 13.     if(localStorage.contacts !== undefined) {
 14.       // the array of contacts is saved in JSON, let&apos;s convert
@@ -20516,7 +20529,7 @@ has been restored to its previous value.
 18.   }
 19. }
 20. 
-21. &#155;
+21. &#133;
 22. 
 23. console.log(&quot;&#45;&#45;- Saving contacts to local storage &#45;&#45;-&quot;);
 24. cm.save();
@@ -20536,7 +20549,7 @@ has been restored to its previous value.
 <ul>
   <li>At <b><i>line 13</i></b>, we check if a previous version has been saved.</li>
   <li>At <b><i>line 16</i></b>, we read the string value associated to the key named
-    &quot;contacts&quot;, and use JSON.parse(&#155;) to turn it into a JavaScript
+    &quot;contacts&quot;, and use JSON.parse(&#133;) to turn it into a JavaScript
     object we can work with.</li>
   <li><b><i>Lines 23-33</i></b> test the load/save/empty functionalities. You can try
     this yourself live: click on the CodePen label below, on the top
@@ -20596,7 +20609,7 @@ adaptation of the function displayUsersAsATable(users) from the previous
 CodePen:
 
 <pre>1.  class ContactManager {
-2.    &#155;
+2.    &#133;
 3.    displayContactsAsATable(idOfContainer) {
 4.      // to empty the container that contains the results
 5.      let container = document.querySelector(&quot;#&quot; + idOfContainer);
@@ -20684,7 +20697,7 @@ equivalent to an &lt;input type=&quot;submit&quot;&gt;).</p>
 
 <pre>1.  &lt;form onsubmit=&quot;return formSubmitted();&quot;&gt;</pre>
 
-<p>&#155; will call the formSubmitted function when the form is submitted. It
+<p>&#133; will call the formSubmitted function when the form is submitted. It
 is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
 
 <ul>
@@ -20742,7 +20755,7 @@ features we implemented in the previous page:</p>
   <li>Add some new contacts to the list using the form,</li>
   <li>Save them by clicking on the save button,</li>
   <li>Empty the list, click the empty button,</li>
-  <li>Reload the list&#155; you can see that contacts have been correctly
+  <li>Reload the list&#133; you can see that contacts have been correctly
     saved and restored!</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
