@@ -11154,7 +11154,7 @@ filled text, changing colors)</h5>
 21. 
 22. // fill circle, will use current ctx.fillStyle
 23. ctx.beginPath();
-24. ctx.arc(60, 60, 10, 0, 2&#41;Math.PI);
+24. ctx.arc(60, 60, 10, 0, 2&#42;Math.PI);
 25. ctx.fill(); // or ctx.stroke() for a wireframe circle
 26. 
 27. // some text
@@ -11209,7 +11209,7 @@ filled text, changing colors)</h5>
 
 6.  <i>Lines 28-30</i> draw a filled text. The call to filltext(message, x,
     y) draws a filled text at the x,y position; this time in purple as
-    we called ctx.fillStyle=&apos;purple&apos; before calling fillText(&#41;)
+    we called ctx.fillStyle=&apos;purple&apos; before calling fillText(&#155;)
 
 <h5>Example #2: functions that save and restore the context before drawing</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11339,26 +11339,26 @@ using the default color (black) and wireframe and filled modes:
     translated by (10, 10).
 
 -   And if we change the coordinate system (this is what the call
-    to ctx.translate(&#41;) does) in a function, it is good practice to
+    to ctx.translate(&#155;) does) in a function, it is good practice to
     always save the previous context at the beginning of the function
     and restore it at the end of the function (<i>lines 27 and 50</i>).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-2">2.6.2 Animating</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>A typical animation loop does the following at regular intervals:</p>
 
-A typical animation loop does the following at regular intervals:
-
-1.  Clear the canvas
-
-2.  Draw graphic objects / shapes
-
-3.  Move graphic shapes / objects
-
-4.  Go to step 1
+<ol type="1" start="1">
+  <li>Clear the canvas</li>
+  <li>Draw graphic objects / shapes</li>
+  <li>Move graphic shapes / objects</li>
+  <li>Go to step 1</li>
+</ol>
 
 Optional steps can be:
 
+<ul>
+  <li>
 -   Look at the keyboard / mouse / gamepad if we need to do something
     according to their status (i.e. if the left arrow is pressed: move
     the player to the left)
@@ -11497,8 +11497,8 @@ an extract of this function now:
 7.  
 8.  // put the ball at the collision point
 9.  b.x = w - b.radius;
-10. } &#41;
-11. &#41;
+10. } &#155;
+11. &#155;
 12. }
 </pre>
 
@@ -11786,7 +11786,7 @@ CodePen: Position and Size in viewport</a>.</p>
 <h5>WRONG code used in this example:</h5>
 
 <pre>
-1.  &#41;
+1.  &#155;
 2.  <b>canvas.addEventListener(&apos;mousemove&apos;, function (evt) {</b>
 3.  <b>mousePos = getMousePos(canvas, evt);</b>
 4.  var message = &apos;Mouse position:
@@ -11794,7 +11794,7 @@ CodePen: Position and Size in viewport</a>.</p>
 5.  writeMessage(canvas, message);
 6.  }, false);
 7.  
-8.  &#41;
+8.  &#155;
 9.  <b>function getMousePos(canvas, evt) {</b>
 10. <b>// WRONG!!!</b>
 11. return {
@@ -12025,18 +12025,17 @@ improvement to you! :-)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-6">2.6.6 Adding collision detection</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Let&apos;s make it a game by adding collision detection! And try to move the
-player to all the balls as fast as you can.
+<p>Let&apos;s make it a game by adding collision detection! And try to move the
+player to all the balls as fast as you can.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 358.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 358. codepen: adding collision detection (295) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image358.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: adding collision detection"
+  alt="CodePen: adding collision detection." />
 <p align="center"><a href="https://codepen.io/w3devcampus/pen/gmEVJG">
-CodePen: </a>.</p>
+CodePen: adding collision detection</a>.</p>
 
 <h5>How do we detect collisions?</h5>
 
@@ -12044,18 +12043,19 @@ First, if you&apos;re into game programming, we have a full section about
 collision detection one of the W3Cx [HTML5 Apps and
 Games](https://www.edx.org/course/html5-apps-and-games) course modules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 359.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 359. blue and yellow circles: no collision/collision (296) ~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image359.png?raw=true"
   style="width:20%"
-  title=""
-  alt="." />
+  title="Blue: no collision, yellow: collision"
+  alt="Blue: no collision, yellow: collision." />
 
-We have a player that is a rectangle and other objects that are circles.
+<p>We have a player that is a rectangle and other objects that are circles.
 This is cool, as it allows us to find a short function that tests if a
 circle collides with a rectangle whose sides are aligned to the X-axis
-and Y-axis (we implemented this after reading this [thread at
-StackOverflow](https://stackoverflow.com/questions/401847/circle-rectangle-collision-detection-intersection)):
+and Y-axis (we implemented this after reading this 
+<a href="https://stackoverflow.com/questions/401847/circle-rectangle-collision-detection-intersection">
+thread at StackOverflow</a>):</p>
 
 <pre>
 1.  // Collisions between rectangle and circle
@@ -12080,101 +12080,100 @@ each ball in the array. Let&apos;s look at this new version:
 
 <pre>
 1.  function moveAllBalls(ballArray) {
-2.  // iterate on all balls in array
-3.  ballArray.forEach(function(b, index) {
-4.  // b is the current ball in the array
-5.  b.x += b.speedX;
-6.  b.y += b.speedY;
+2.    // iterate on all balls in array
+3.    ballArray.forEach(function(b, index) {
+4.      // b is the current ball in the array
+5.      b.x += b.speedX;
+6.      b.y += b.speedY;
 7.  
-8.  testCollisionBallWithWalls(b);
+8.      testCollisionBallWithWalls(b);
 9.  
-10. testCollisionWithPlayer(b, index);
-11. });
+10.     testCollisionWithPlayer(b, index);
+11.   });
 12. }
 13. 
 14. function testCollisionWithPlayer(b, index) {
-15. if(circRectsOverlap(player.x, player.y,
-16. player.width, player.height,
-17. b.x, b.y, b.radius)) {
-18. // we remove the element located at index
-19. // from the balls array
-20. // splice: first parameter = starting index
-21. // second parameter = number of elements to remove
-22. balls.splice(index, 1);
-23. }
+15.   if(circRectsOverlap(player.x, player.y,
+16.     player.width, player.height,
+17.     b.x, b.y, b.radius)) {
+18.     // we remove the element located at index
+19.     // from the balls array
+20.     // splice: first parameter = starting index
+21.     // second parameter = number of elements to remove
+22.     balls.splice(index, 1);
+23.   }
 24. }
 </pre>
 
 <h5><b>Explanations:</b></h5>
 
--   <i>Line 3</i>: Look at the iterator;  this time instead of just one
+-   <b><i>Line 3</i></b>: Look at the iterator;  this time instead of just one
     parameter (the current element), we&apos;ve added a second optional
     parameter that will be the index of the current element, starting
     from zero.
 
--   <i>Line 10</i>: for each ball in the array, we will
+-   <b><i>Line 10</i></b>: for each ball in the array, we will
     call testCollisionWithPlayer(b, index); that will check if there is
     a collision between the ball b and the player. We also pass
     the index of the ball. If a collision occurs, we will have to remove
     the ball from the array, and for that, we will need its index in the
     array.
 
--   <i>Line 15</i> is the collision test, and if it is true (collision with
+-   <b><i>Line 15</i></b> is the collision test, and if it is true (collision with
     the player), then the ball dies and we remove it from the array
     using the splice method you can use on arrays.
 
--   <i>Line 22</i>: here it is, we remove the current ball in the array
+-   <b><i>Line 22</i></b>: here it is, we remove the current ball in the array
     using balls.splice(position, numberOfElementsToRemove). The positon
     is given by index, and the number of balls to remove is one.
 
-We&apos;ve also added a function for displaying the number of balls in the
+<p>We&apos;ve also added a function for displaying the number of balls in the
 array while we are playing. When this number reaches zero, we display
-&quot;You Win!&quot;:
+&quot;You Win!&quot;:</p>
 
 <pre>
 1.  function drawNumberOfBallsAlive(balls) {
-2.  ctx.save();
-3.  ctx.font=&quot;30px Arial&quot;;
+2.    ctx.save();
+3.    ctx.font=&quot;30px Arial&quot;;
 4.  
-5.  if(balls.length === 0) {
-6.  ctx.fillText(&quot;YOU WIN!&quot;, 20, 30);
-7.  } else {
-8.  ctx.fillText(balls.length, 20, 30);
-9.  }
-10. ctx.restore();
+5.    if(balls.length === 0) {
+6.      ctx.fillText(&quot;YOU WIN!&quot;, 20, 30);
+7.    } else {
+8.      ctx.fillText(balls.length, 20, 30);
+9.    }
+10.   ctx.restore();
 11. }
 </pre>
 
-This function is called by the mainLoop:
+<p>This function is called by the mainLoop:</p>
 
 <pre>
 1.  function mainLoop() {
-2.  // 1 - clear the canvas
-3.  ctx.clearRect(0, 0, w, h);
+2.    // 1 - clear the canvas
+3.    ctx.clearRect(0, 0, w, h);
 4.  
-5.  &#41;
-6.  drawNumberOfBallsAlive(balls);
-7.  &#41;
+5.    &#133;
+6.    drawNumberOfBallsAlive(balls);
+7.    &#133;
 8.  
-9.  // ask for a new animation frame
-10. requestAnimationFrame(mainLoop);
+9.    // ask for a new animation frame
+10.   requestAnimationFrame(mainLoop);
 11. }
 </pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-7">2.6.7 Adding input fields</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Let&apos;s use some other techniques that we&apos;ve learnt in this module.
+<p>Let&apos;s use some other techniques that we&apos;ve learnt in this module.
 There are input fields: sliders, color chooser, number chooser. We are
-going to use the DOM API to handle them.
+going to use the DOM API to handle them.</p>
 
-We use these input fields to indicate the number of balls we want, the
-max speed we would like, the color and size of the player, etc.
+<p>We use these input fields to indicate the number of balls we want, the
+max speed we would like, the color and size of the player, etc.</p>
 
 <h5>New version:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 360.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 360. new version:  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image360.png?raw=true"
   style="width:65%"
@@ -20550,7 +20549,7 @@ has been restored to its previous value.
 8.    empty() {
 9.      this.listOfContacts = &lbrack;&rbrack;;
 10.   }
-11.   &#41;
+11.   &#155;
 12.   load() {
 13.     if(localStorage.contacts !== undefined) {
 14.       // the array of contacts is saved in JSON, let&apos;s convert
@@ -20560,7 +20559,7 @@ has been restored to its previous value.
 18.   }
 19. }
 20. 
-21. &#41;
+21. &#155;
 22. 
 23. console.log(&quot;&#45;&#45;- Saving contacts to local storage &#45;&#45;-&quot;);
 24. cm.save();
@@ -20580,7 +20579,7 @@ has been restored to its previous value.
 <ul>
   <li>At <b><i>line 13</i></b>, we check if a previous version has been saved.</li>
   <li>At <b><i>line 16</i></b>, we read the string value associated to the key named
-    &quot;contacts&quot;, and use JSON.parse(&#41;) to turn it into a JavaScript
+    &quot;contacts&quot;, and use JSON.parse(&#155;) to turn it into a JavaScript
     object we can work with.</li>
   <li><b><i>Lines 23-33</i></b> test the load/save/empty functionalities. You can try
     this yourself live: click on the CodePen label below, on the top
@@ -20640,7 +20639,7 @@ adaptation of the function displayUsersAsATable(users) from the previous
 CodePen:
 
 <pre>1.  class ContactManager {
-2.    &#41;..
+2.    &#155;
 3.    displayContactsAsATable(idOfContainer) {
 4.      // to empty the container that contains the results
 5.      let container = document.querySelector(&quot;#&quot; + idOfContainer);
@@ -20786,7 +20785,7 @@ features we implemented in the previous page:</p>
   <li>Add some new contacts to the list using the form,</li>
   <li>Save them by clicking on the save button,</li>
   <li>Empty the list, click the empty button,</li>
-  <li>Reload the list&#41; you can see that contacts have been correctly
+  <li>Reload the list&#155; you can see that contacts have been correctly
     saved and restored!</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -20799,30 +20798,28 @@ features we implemented in the previous page:</p>
 <ul>
   <li>Improve the CSS of the contact manager table.</li>
   <li>Add more complicated features to the contact manager:</li>
-    <ul>
-	  <li>Add an extra column with a trash bin icon in it (you can use
-        this <a href="https://i.imgur.com/yHyDPio.png">one</a> ![trashbin
-        icon](./images/image528.png){width="0.3333333333333333in"
-        height="0.3333333333333333in"}, do right click and &quot;save link
+  <li>Add an extra column with a trash bin icon in it (you can use
+        this <a href="https://i.imgur.com/yHyDPio.png">one</a><img src=".images/image528.png 
+		style="width:.33" height:.33" alt="Trashbin icon">, do right click and &quot;save link
         as&quot;). When you click on this icon, delete the contact.<br>
-      <br>        
-        <i>Hint</i>: find a way to get the index of the current row in the
+      <br>
+        <p><i>Hint</i>: find a way to get the index of the current row in the
         click event listener, so that you can easily delete the contact
         from the array. You can add a &quot;HTML data attribute&quot;
         using trashbin.dataset.contactId = 3; for example, when you
         create the img element of the trash bin, do something like
-        this:
-        
+        this:</p>
+        <pre>
         let trashbin = document.createElement(&quot;img&quot;);
         trashbin.src = &quot;http://i.imgur.com/yHyDPio.png&quot;;
-        trashbin.dataset.contactId = 3; // 3 is the current row index
-        and corresponds
-                                        // to contact at index = 3 in
-        the array of contacts
-        
-        It&apos;s like adding a data-contactId attribute to the HTML of
-        the img element. Then in the event listener,
-        use evt.target.dataset.contactId to get it back.</li>
+        trashbin.dataset.contactId = 3; // 3 is the current row index and
+                                        // corresponds to contact at 
+                                        // index = 3 in the array of contacts
+		</pre>
+        <p>It&apos;s like adding a data-contactId attribute to the HTML of
+        the img element.<br>
+		Then in the event listener, use evt.target.dataset.contactId to get it back.</p>
+	<ul>
       <li>Add a search form for searching a contact by name: rebuild the
         table to display only contacts that match. More difficult:
         reduce the table as you type!</li>
@@ -20830,6 +20827,7 @@ features we implemented in the previous page:</p>
 	  <li>Add a header on the table and try to make the table sortable
         when you click on the header of one column (e.g., clicking on
         &quot;email&quot; will sort the table by email).</li>
+	</li>
 	</ul>
   <li>&lbrack;ADVANCED&rbrack; Using 
     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList">
