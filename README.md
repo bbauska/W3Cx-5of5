@@ -10801,7 +10801,6 @@ using append(), appendChild(), insertBefore() or the innerHTML property.</p>
 </pre>
 
 <h5>Example #1: use of the createElement(), append() methods and of the textContent attribute</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 336. codepen: modify attributes of select elements (265) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11252,107 +11251,59 @@ height="5.224359142607174in"}
 
 Here is JavaScript code that implements these best practices:
 
+<pre>
 1.  // useful to have them as global variables
-
 2.  var canvas, ctx, w, h;
-
 3.  
-
 4.  
-
 5.  window.onload = function init() {
-
 6.  // Called AFTER the page has been loaded
-
 7.  canvas = document.querySelector(&quot;#myCanvas&quot;);
-
 8.  
-
 9.  // Often useful
-
 10. w = canvas.width;
-
 11. h = canvas.height;
-
 12. 
-
 13. // Important, we will draw with this object
-
 14. ctx = canvas.getContext(&apos;2d&apos;);
-
 15. 
-
 16. // Ready to go!
-
 17. // Try to change the parameter values to move
-
 18. // the monster
-
 19. drawMyMonster(10, 10); // try to change that
-
 20. };
-
 21. 
-
 22. function drawMyMonster(x, y) {
-
 23. // Draw a big monster!
-
 24. // Head
-
 25. 
-
 26. // BEST practice: save the context, use 2D transformations
-
 27. ctx.save();
-
 28. 
-
 29. // Translate the coordinate system, draw relative to it
-
 30. ctx.translate(x, y);
-
 31. 
-
 32. // (0, 0) is the top left corner of the monster.
-
 33. ctx.strokeRect(0, 0, 100, 100);
-
 34. 
-
 35. // Eyes
-
 36. ctx.fillRect(20, 20, 10, 10);
-
 37. ctx.fillRect(65, 20, 10, 10);
-
 38. 
-
 39. // Nose
-
 40. ctx.strokeRect(45, 40, 10, 40);
-
 41. 
-
 42. // Mouth
-
 43. ctx.strokeRect(35, 84, 30, 10);
-
 44. 
-
 45. // Teeth
-
 46. ctx.fillRect(38, 84, 10, 10);
-
 47. ctx.fillRect(52, 84, 10, 10);
-
 48. 
-
 49. // BEST practice: restore the context
-
 50. ctx.restore();
-
 51. }
+</pre>
 
 In this small example, we used the context object to draw a monster
 using the default color (black) and wireframe and filled modes:
@@ -11419,22 +11370,30 @@ as described in the above video.
 The trick is to write a function, and at the end of this function, to
 ask the browser to call it again in 1/60th of a second if possible. See
 the CodePen example below:
-
-![](./images/image346.png){width="5.0in"
-height="5.65491469816273in"}
-
-<b>https://codepen.io/w3devcampus/pen/PpLLKY</b>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 346.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image346.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/PpLLKY">
+CodePen: DrawMyMonster</a>.</p>
 
 <h5>Example #2: bouncing ball</h5>
 
 Here the balls bounce on the sides of the canvas (walls).
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 347.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image347.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpqqqM">
+CodePen: Bouncing Ball</a>.</p>
 
-![](./images/image347.png){width="5.0in"
-height="6.579594269466317in"}
-
-<b>https://codepen.io/w3devcampus/pen/OpqqqM</b>
-
-<h5>Explanations: {#explanations-2 .unnumbered}
+<h5>Explanations:</h5>
 
 This time, we&apos;ve used &quot;simple objects&quot; for the circle and the
 rectangles, and we&apos;ve called them &quot;player&quot; and &quot;ball&quot;:
@@ -11565,11 +11524,15 @@ Let&apos;s animate balls and let&apos;s start with 3 the animation of 3 balls:
 <b>ball1, ball2 and ball3.</b>
 In the animation loop, we draw and move these three balls. Here is the
 result:
-
-![](./images/image348.png){width="5.0in"
-height="2.511751968503937in"}
-
-<b>https://codepen.io/w3devcampus/pen/bqZypx</b>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 348.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image348.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/bqZypx">
+CodePen: Animating Multiple Objects</a>.</p>
 
 <b>Extract of the source code: the mainLoop function</b>
 
@@ -11603,11 +11566,15 @@ moving any number of balls!</h4>
 
 New version: look at
 the <b>createBalls, drawBalls</b> and <b>moveBalls</b> functions now!
-
-![](./images/image349.png){width="5.0in"
-height="4.447115048118985in"}
-
-https://codepen.io/w3devcampus/pen/jBJoLo
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 349.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image349.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/jBJoLo">
+CodePen: Using Arrays and Loops</a>.</p>
 
 Let&apos;s look at the new functions we&apos;ve added: 
 
@@ -11713,9 +11680,13 @@ Let&apos;s look at the new functions we&apos;ve added: 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-4">2.6.4 Mouse interactions</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](./images/image350.png){width="1.0in"
-height="0.7452832458442694in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 350.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image350.png?raw=true"
+  style="width:10%"
+  title=""
+  alt="." />
 
 Detecting mouse events in a canvas is quite straightforward: you add an
 event listener to the canvas, and the browser invokes that listener when
@@ -11792,11 +11763,15 @@ Fortunately, there is a method for getting the position and size of any
 element in the viewport: <b>getBoundingClientRect</b>().
 
 Here is an example that shows the problem:
-
-![](./images/image351.png){width="5.0in"
-height="2.060363079615048in"}
-
-[<b>https://codepen.io/w3devcampus/pen/Wpmqdw</b>](https://codepen.io/w3devcampus/pen/Wpmqdw)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 351.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image351.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/Wpmqdw">
+CodePen: Position and Size in viewport</a>.</p>
 
 <h5>WRONG code used in this example:</h5>
 
@@ -11818,16 +11793,24 @@ height="2.060363079615048in"}
 14. };
 15. }
 </pre>
-
-![](./images/image352.png){width="5.0in"
-height="1.9412390638670167in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 352.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image352.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 <h5><b>A good version of the code:</b></h5>
-
-![](./images/image353.png){width="5.0in"
-height="2.099892825896763in"}
-
-[<b>https://codepen.io/w3devcampus/pen/MpxMQo</b>](https://codepen.io/w3devcampus/pen/MpxMQo)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 353.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image353.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/MpxMQo">
+CodePen: </a>.</p>
 
 And here is the fixed version of the getMousePos function:
 
@@ -11843,9 +11826,13 @@ And here is the fixed version of the getMousePos function:
 </pre>
 
 Result (the cursor is approximately at the top left corner):
-
-![](./images/image354.png){width="2.0in"
-height="1.140625546806649in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 354.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image354.png?raw=true"
+  style="width:20%"
+  title=""
+  alt="." />
 
 <h4>How to display the mouse position, and the mouse button that has been pressed or released</h4>
 
@@ -11854,14 +11841,22 @@ correctly. It listens to mousemove, mousedown and mouseup events, and
 shows how to get the mouse button number using the evt.button property.
 
 <h5>Example:</h5>
-
-![](./images/image355.png){width="5.0in"
-height="2.203525809273841in"}
-
-[<b>https://codepen.io/w3devcampus/pen/zZbVjW</b>](https://codepen.io/w3devcampus/pen/zZbVjW)
-
-![](./images/image356.png){width="5.0in"
-height="1.8458420822397201in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 355.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image355.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/zZbVjW">
+CodePen: </a>.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 356.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image356.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 <h5>Extract from source code:</h5>
 
@@ -11920,11 +11915,15 @@ init function, and reused the trick that you saw in the previous
 section to get the correct mouse position:</p>
 
 <h5>Working example:</h5>
-
-![](./images/image357.png){width="5.0in"
-height="2.531516841644794in"}
-
-<!-- <b>https://codepen.io/w3devcampus/pen/EWMBeR</b>(https://codepen.io/w3devcampus/pen/EWMBeR) -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 357.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image357.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWMBeR">
+CodePen: </a>.</p>
 
 <h5>Extract from the JavaScript source code:</h5>
 
@@ -12019,20 +12018,28 @@ improvement to you! :-)
 
 Let&apos;s make it a game by adding collision detection! And try to move the
 player to all the balls as fast as you can.
-
-![](./images/image358.png){width="5.0in"
-height="2.5950853018372704in"}
-
-[<b>https://codepen.io/w3devcampus/pen/gmEVJG</b>](https://codepen.io/w3devcampus/pen/gmEVJG)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 358.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image358.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/gmEVJG">
+CodePen: </a>.</p>
 
 <h5>How do we detect collisions?</h5>
 
 First, if you&apos;re into game programming, we have a full section about
 collision detection one of the W3Cx [HTML5 Apps and
 Games](https://www.edx.org/course/html5-apps-and-games) course modules.
-
-![](./images/image359.png){width="2.0in"
-height="1.0516437007874015in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 359.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image359.png?raw=true"
+  style="width:20%"
+  title=""
+  alt="." />
 
 We have a player that is a rectangle and other objects that are circles.
 This is cool, as it allows us to find a short function that tests if a
@@ -12156,11 +12163,15 @@ We use these input fields to indicate the number of balls we want, the
 max speed we would like, the color and size of the player, etc.
 
 <h5>New version:</h5>
-
-![](./images/image360.png){width="5.0in"
-height="3.509615048118985in"}
-
-<!-- <b>https://codepen.io/w3devcampus/pen/RpOyRN</b>](https://codepen.io/w3devcampus/pen/RpOyRN) -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 360.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image360.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/RpOyRN">
+CodePen: </a>.</p>
 
 <h5>Explanations:</h5>
 
