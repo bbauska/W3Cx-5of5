@@ -1019,9 +1019,9 @@ pages.</p>
 <h5>Example:</h5>
 
 <pre>1. &lt;head&gt;
-2.   ...
+2.   &#155;
 3.   &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
-4.   ...
+4.   &#155;
 5. &lt;/head&gt;
 </pre>
 
@@ -1122,7 +1122,7 @@ your source code, and  its value is UTF-8.</b></p>
 
 <pre>&lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;/&gt;
-  ...
+  &#155;
 &lt;/head&gt;
 </pre>
 
@@ -1145,7 +1145,7 @@ the language of your content.</b></h5>
 <pre>&lt;!doctype html&gt;
 &lt;html lang="fr"&gt;
   &lt;head&gt;
-  ...
+  &#155;
 </pre>
 
 <h5><b>Example 3</b>: Cultural bias</h5>
@@ -1460,7 +1460,7 @@ you will open a new tab with your browser and you go to <a href="http://jsbin.co
 the example from the course, just copy and paste the code in the HTML
 part on JSBin, and you see the result instantly. This is very practical
 because then you can modify the content, you can change the different
-values, the different elements... You can type your own text or your own
+values, the different elements&#155; You can type your own text or your own
 HTML elements and attributes, and so on.</p>
 
 <p>You can also save your work
@@ -1547,10 +1547,10 @@ recommend is that you create a directory somewhere.</p>
   alt="Live web development using Sublime." />
 </p>
 
-<p>Here, I&apos;m creating a directory on my desktop... so, a new directory:
+<p>Here, I&apos;m creating a directory on my desktop&#155; so, a new directory:
 &quot;Example 1&quot;. And inside that directory, I will create the HTML file. I
 use the &quot;New file&quot; option from Sublime Text. I copy and paste the
-code. I use &quot;Save as&quot; and i will save the page as index.html file...
+code. I use &quot;Save as&quot; and i will save the page as index.html file&#155;
 you can name it as you like. &quot;index&quot; is very common for the main page
 of Web site. I then go to the desktop to the « Example 1&quot; directory and
 i save the file.</p>
@@ -1927,8 +1927,8 @@ of Leonardo. I pick an image of Leonardo. I display the image and
 want to learn this technology more deeply.</p>
 <p>HTML is for structure. CSS is another language, by W3C, that it&apos;s
 useful for specifying the look and feel of these elements. How do they
-fit together...How many spaces between them...What color to use, and so
-on ...</p>
+fit together&#155;How many spaces between them&#155;What color to use, and so
+on &#155;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 59. example: html, head and body (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2133,10 +2133,10 @@ have a p and an h3 element that have the class=&quot;funny&quot; attribute
 <p>This rule changes the color, font family and size of two out of three
 paragraphs in the HTML element:</p>
 
-<pre>1. ...
+<pre>1. &#155;
 2. &lt;p class="funny"&gt;I also play electric guitar and love
-     coding WebAudio applications...&lt;/p&gt;
-3.   ...
+     coding WebAudio applications&#155;&lt;/p&gt;
+3.   &#155;
 4. &lt;p class="funny">Music, Movies, Video Games, Traveling, Family, etc.&lt;/p&gt;
 </pre>
 
@@ -2206,7 +2206,7 @@ the different languages.</p>
 </p>
 
 <p>If you take this example we described in the previous video, and if I
-export it using CodePen...and if I look at the zip file that has been
+export it using CodePen&#155;and if I look at the zip file that has been
 downloaded, you can see CSS file are located in the subdirectory and in
 a .css file. This is a common way for organizing source code when you
 make a project with HTML and CSS.</p>
@@ -2238,7 +2238,7 @@ CSS file in an HTML file, we use the &quot;link&quot; tag with the attribute
 </p>
 
 <p>Here, it means the &quot;style.css&quot; file located in the &quot;css&quot;
-subdirectory. If I open this project with Sublime Text ... I go to the
+subdirectory. If I open this project with Sublime Text &#155; I go to the
 directory I&apos;ve just downloaded, and if I open the directory, I can see
 my hierarchy, here. The &quot;index.html&quot; file that includes the .css file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3032,7 +3032,7 @@ and the range of the y values is &lbrack;-1, 1&rbrack;.</p>
 
 <p>You can think of this code in this way:</p>
 
-<pre>1. functionPlot(...);</pre>
+<pre>1. functionPlot(&#155;);</pre>
 
 <!-- page 79 -->
 <p>Where the &quot;&hellip;&quot; corresponds to some sort of parameter. When you see a
@@ -3261,7 +3261,7 @@ surface address. Here we go. I&apos;m located near Antibes in the south of Franc
 
 <p>You can also work with remote data. So in this code, I&apos;m just sending
 what we call an Ajax request to a remote server to get a list of
-users... and once I get this list of users, I just use the HTML table
+users&#155; and once I get this list of users, I just use the HTML table
 JavaScript API for building dynamically tables. And I use this API to
 display the data that just came from a remote server.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3519,10 +3519,10 @@ if I open the "paper.js" Web site, is a library for making graphic animations in
 so you can have plenty of funny things you can do.
 Things like that, or things like this…
 Just to be able to use what this library proposes, you need to include the library.
-If you read the documentation, they will tell that you what you need to include...
-Okay -let's open it in CodePen- ...you need to include this JavaScript file.
-And once you included this JavaScript file... a bit the same way we used the external 
-library for plotting functions... then you can use some functionalities that come 
+If you read the documentation, they will tell that you what you need to include&#155;
+Okay -let's open it in CodePen- &#155;you need to include this JavaScript file.
+And once you included this JavaScript file&#155; a bit the same way we used the external 
+library for plotting functions&#155; then you can use some functionalities that come 
 from the "paper.js" library. You need to read the documentation to learn how to use 
 it, but here is an example: a set of squares, animated squares, that follow the mouse.
 
@@ -3548,7 +3548,7 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 <p>Typically:</p>
 
 <pre>1.  &lt;body&gt;
-2.    ...
+2.    &#155;
 3.    &lt;script&gt;
 4.      var x = 2;
 5.      // show a message in the body of the html document
@@ -3557,7 +3557,7 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 7.      // also print a message in the devtool console
 8.      console.log("JavaScript code executed");
 9.    &lt;/script&gt;
-10.   ...
+10.   &#155;
 11. &lt;/body&gt;
 </pre>
 
@@ -3629,7 +3629,7 @@ offers many advantages:</p>
 <p>A typical example:</p>
 
 <pre>1.  &lt;head&gt;
-2.    ...
+2.    &#155;
 3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
 4.    <b>&lt;script src="js/script.js"&gt;&lt;/script&gt;</b>
 5.  &lt;/head&gt;
@@ -3653,12 +3653,12 @@ offers many advantages:</p>
 <h5>Example that uses more than one JavaScript file:</h5>
 
 <pre>1.  &lt;head&gt;
-2.    ...
+2.    &#155;
 3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
 4.    <b>&lt;script src="js/script1.js"&gt;&lt;/script&gt;</b>
 5.    <b>&lt;script src="js/script2.js"&gt;&lt;/script&gt;</b>
 6.    <b>&lt;script src="js/anotherOne.js"&gt;&lt;/script&gt;</b>
-7.    <b>...</b>
+7.    <b>&#155;</b>
 8.  &lt;/head&gt;
 </pre>
 
@@ -3687,9 +3687,9 @@ JavaScript files in a js subfolder.</p>
 
 <h5>Contents of the index.html file:</h5>
 
-<pre>1.  ...
+<pre>1.  &#155;
 2.  &lt;head&gt;
-3.    ...
+3.    &#155;
 4.    <b>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;</b>
 5.    <b>&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;</b>
 6.  &lt;/head&gt;
@@ -3820,7 +3820,7 @@ here I've got a script that will display, as soon the page is loaded,
 
 <p>If there is a mistake, if I make an error here, for example, I write console 
 with two "l". I can see, in red, some messages: 
-"consolle is not defined", bla, bla, bla...</p>
+"consolle is not defined", bla, bla, bla&#155;</p>
  
 <p>When you use some online tools like JsBin or CodePen, and so on, it's a bit 
 difficult to debug your code because you are debugging at the same time the code 
@@ -4163,15 +4163,15 @@ the mathematical function, here. The plot function is here.</p>
 </p>
 
 <p>What we are going to do in this change color function? It changes the 
-property of the parameters here. Let's add some code for that... How can we get 
+property of the parameters here. Let's add some code for that&#155; How can we get 
 the value of the color from JavaScript before plotting the function? We are going 
-to use the selector API: "document.querySelector(...)" for the input field whose 
+to use the selector API: "document.querySelector(&#155;)" for the input field whose 
 id is "color".</p>
 
 <h4>The value, here, is the color itself.</h4>
 
 <p>What we do is that we are going do use the color for changing this, here. So 
-"parameters.data"... it's an array. 0 is the first index, the first element that 
+"parameters.data"&#155; it's an array. 0 is the first index, the first element that 
 corresponds to the part that I highlight now. .color=color</p>
 
 <p>If I change the color, this line is executed and the color changes. We can use 
@@ -4295,7 +4295,7 @@ file with the CSS code.</p>
   title=""
   alt="." />
 </p>
-<p>&quot;Save as&quot; ... I include the JavaScript code :&lt;script
+<p>&quot;Save as&quot; &#155; I include the JavaScript code :&lt;script
 src=&quot;js/script.js&quot;&gt;</p>
 <p>Remember that the script tag has always a closing tag at this end.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4362,7 +4362,7 @@ declare a variable called myDog and I gave it a name: Rex. Also, you can use
 these variables in instructions, in expressions like: &quot;the name of my dog is&quot;.
 You can use the "+" operator for concatenating strings, because "myDog"
 is a string, and in that case you will see: &quot;the name of my dog is&quot; 
-...followed by the value of the "myDog" variable.</p>
+&#155;followed by the value of the "myDog" variable.</p>
 
 <p>There are also naming rules and conventions for variables. You can give
 to variables names like "x", "y", "z". If they are just single, one-word
@@ -4612,11 +4612,11 @@ functions, it's usable anywhere in your code. It's considered as a
 &quot;global variable&quot;: it belongs to the &quot;global scope&quot;. So, the x
 variable here, can be used inside a function.</p>
 
-<p>The console.log inside f1... if I execute f1... will display the value
+<p>The console.log inside f1&#155; if I execute f1&#155; will display the value
 "1" because the variable here is &quot;global&quot;. If I've got another
-function... f2, that declares another variable y, and if I try to
+function&#155; f2, that declares another variable y, and if I try to
 display this value from outside of the function, then it does not
-work...I've got an error: y is not defined. So, you've got &quot;local
+work&#155;I've got an error: y is not defined. So, you've got &quot;local
 variables&quot;, and &quot;global variables&quot;. In the case of local variables,
 when a variable has the same name as a global variable, then the most
 local one wins.</p>
@@ -4642,7 +4642,7 @@ function in which it is defined, but it's local to the block of
 instructions that is defined by an opening brace and a closing brace.</p>
 
 <p>If I try to use this variable here, that is defined in the block,
-outside of the block but inside of the function, the "a"..., the value
+outside of the block but inside of the function, the "a"&#155;, the value
 of the variable "a" here, will not be the value of the local variable
 here, because this one does not exist, it's not usable here. It will be
 the global variable &quot;a&quot; that will be used.</p>
@@ -4650,7 +4650,7 @@ the global variable &quot;a&quot; that will be used.</p>
 <p>This is why the printed value here, when I execute "f" is &quot;1&quot; and
 not &quot;4&quot;.</p>
 
-<p>If the variable was named "b" and if I tried to display it, then... I've
+<p>If the variable was named "b" and if I tried to display it, then&#155; I've
 got an error: &quot;b is not defined&quot;. Remember that if I used &quot;var&quot; in
 that case it works, because &quot;var&quot; will define a variable local to the
 whole function, not just to the block of instructions.</p>
@@ -4821,9 +4821,9 @@ a number. If I give to "x" a string value like my name, then the type of
 "x" will be "string". It changed its internal type on the fly, we call
 this "dynamic typing". What kind of data types can we get? String,
 number, we've got also boolean value: "var x = true" or "x = false"
-corresponds to a boolean value: "typeof x"... boolean.</p>
+corresponds to a boolean value: "typeof x"&#155; boolean.</p>
 
-<p>And I can say "if (x)" then... do something... "console.log("it's
+<p>And I can say "if (x)" then&#155; do something&#155; "console.log("it's
 true!!!")" and the boolean data types is useful for "if" statements or
 some other statements that will test boolean value.</p>
 
@@ -4831,13 +4831,13 @@ some other statements that will test boolean value.</p>
 If I give to "x" the value "false", then if I execute this code, it will
 do nothing because "x" is false.
 We've got also some special values&hellip; but "typeof y": undefined.
-I can test if y is undefined then ....And in that case, you can test if
+I can test if y is undefined then .&#155;And in that case, you can test if
 a variable is defined or not.</p>
 
 <p>There is a special data type called "null" that corresponds to "no
 value". The difference with the null defined variable is that the variable that
 has the value of null is still defined.
-Like "y" is not defined here... but if I say "z = null" then "z" is
+Like "y" is not defined here&#155; but if I say "z = null" then "z" is
 defined.</p>
 
 <p>Ok, this has not been printed because "z" was not undefined. OK, another
@@ -4846,7 +4846,7 @@ this: property, value. And if I look at the type of "person", it will
 say: object. And object is a structured variable, I can use the "."
 operator to check the value of some property.</p>
 
-<p>So, "person.familyName" will print the value "Buffa" .... "person.name"
+<p>So, "person.familyName" will print the value "Buffa" .&#155; "person.name"
 will print my given name. There is a particular case for arrays. Arrays
 are defined using "brackets". If I define an array with two names of
 days in a week: Monday and Tuesday, then, its type is also &quot;object&quot;.
@@ -5275,10 +5275,10 @@ it will do the same thing. It will display the current value of “x", but its f
 value is one less that. You can also post increment or post decrement values: 
 " console.log(++x)". You remember that "x" was equal to "8". In that case, it will 
 display "9" because "x" will be first incremented by one then displayed. If I 
-display the value of "x" it’ss "9"...  Z= ++x ... "z" will be "9 +1"… "10".</p>
+display the value of "x" it’ss "9"&#155;  Z= ++x &#155; "z" will be "9 +1"… "10".</p>
 
 <p>And "x" will be 10 because it's been incremented. This is equivalent to "x= x+1 
-... Z= x". That's all we can say about number operators, nothing special. It's 
+&#155; Z= x". That's all we can say about number operators, nothing special. It's 
 the same syntax you can find in the Java programming language or in c#, Python, 
 or Ruby.</p>
 
@@ -5513,19 +5513,19 @@ with double and closed with simple quotes
 <p>Strings can be defined using double quotes, or simple quotes. Don&apos;t mix 
 double and single quotes, it&apos;s not going to work.
 You can mix them, but inside a string defined with simple quotes, you can use 
-&quot;hello my name is Michel...&quot;. This works because I used double quotes 
+&quot;hello my name is Michel&#155;&quot;. This works because I used double quotes 
 inside a string defined with simple quotes. I can do the reverse: use simple quotes 
 inside a string defined with double quotes.</p>
 
 <p>But if I wanted to use the simple quote like for &quot;I&apos;m your teacher&quot;,
 you see that the color changes because this is not correct.
-In that case you must use the antislash (&#92;)...
+In that case you must use the antislash (&#92;)&#155;
 Like this&hellip; you escape the simple quote that confuses the JavaScript
 interpreter, and you can, in that case, display simple quotes inside a
 string that has been defined using simple quotes.</p>
 
 <p>The &#92; character is also useful for printing special characters.
-For "s1 = My&#92;n" ... it means &quot;go to the next line&quot;&hellip;
+For "s1 = My&#92;n" &#155; it means &quot;go to the next line&quot;&hellip;
 if I print "s1 = My&#92;&#92;nName&#92;&#92;Is&#92;&#92;Michel". You saw the carriage return
 here, I came to the next line. Ok, let me fix it by adding &#92;&#92;n<br>
 In that case each word is on a different line. You can use also &#92;&#92;t for
@@ -5549,7 +5549,7 @@ concatenated to it.</p>
 
 <p>There are also some ways to convert variables to strings.
 x here, is a number, but x = &quot;&quot; + 10; in that case,
-x is a string. You can also concatenate string values... s1 =
+x is a string. You can also concatenate string values&#155; s1 =
 &quot;one&quot;, s2 = &quot;two&quot;, if I concatenate these values here, s is equal to
 the concatenation of s1 and s2.</p>
 
@@ -6470,7 +6470,7 @@ look here</a> for a solution.</p>
 
 <h4>Example #2: plot a force directed graph using the d3.js JavaScript library</h4>
 
-<p>Try to click and drag nodes... All the graphics, animation and force repulsion, 
+<p>Try to click and drag nodes&#155; All the graphics, animation and force repulsion, 
 is done using the very powerful d3.js plotting library. Look at the HTML source 
 code to see how we included this library in our HTML page. Look at the JS part; 
 it seems complicated, but hey! I guess you can make your own graph with your own 
@@ -6684,10 +6684,10 @@ equals (===) and not equals equals (==), to be the ones you must use.</p>
   title="CodePen; Comparison operators; baby, child, adult or old"
   alt="CodePen; Comparison operators; baby, child, adult or old." />
 
-<p>Let&apos;s see some code now... I declared the variable &quot;age&quot; with 
+<p>Let&apos;s see some code now&#155; I declared the variable &quot;age&quot; with 
 a value of 1, and I added some if&hellip; else statements. If &quot;age&quot; is 
 less than 2, print &quot;I&apos;m a baby&quot;, and you can see that this has been 
-executed, because the variable is 1, 1 is less than 2. It&apos;s been executed...
+executed, because the variable is 1, 1 is less than 2. It&apos;s been executed&#155;
 I can add some &quot;else&hellip;if&quot; statements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 213. codepen; comparison operators; baby, child, adult or old (176) ~~~~~~~~~~~~-->
@@ -6767,8 +6767,8 @@ but age &lt; 14 is true, it prints &quot;I&apos;m a young teenager&quot;.</p>
 </p>
 
 <p>Finally, let&apos;s have a look at the === operator. If I set the age to be &quot;72&quot;, 
-but as a string, like this... it prints... let me clear the devtool console and 
-execute it again... it prints &quot;I&apos;m 72&quot; because the age variable, 
+but as a string, like this&#155; it prints&#155; let me clear the devtool console and 
+execute it again&#155; it prints &quot;I&apos;m 72&quot; because the age variable, 
 that is a string, has been converted implicitly to a number. If I use the triple 
 equal sign, then it does not print anymore &quot;I&apos;m 72&quot; because age, as 
 a string, has not been converted to a number. And thrust me, it&apos;s much better to 
@@ -7143,7 +7143,7 @@ num;
   title=""
   alt="." />
 <p>I prepared a small example in which we take a day number between 0 and 6, 0 for 
-Monday, 1 for Tuesday, and so on... And to pick a random number that is an integer, 
+Monday, 1 for Tuesday, and so on&#155; And to pick a random number that is an integer, 
 we used a formula like this, that uses a predefined object called Math.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 222.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7159,7 +7159,7 @@ values each time we execute. If I clear the console and execute this, it will pi
 number.</p>
 
 <p>And then, here is a first version that uses &quot;if statements&quot; that is a
-bit naïve. It says: if day equals 0, then print Monday; if day equals 1 ... ; and
+bit naïve. It says: if day equals 0, then print Monday; if day equals 1 &#155; ; and
 so on. Why is it naïve? Because we&apos;re going to execute all the tests and we 
 all know that only one of them will be true.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7189,7 +7189,7 @@ console.log(&apos;Monday&apos;). The break here means &quot;ignore all the other
 cases&quot;.</p>
 
 <p>When you put a break after each case, it&apos;s a bit like the &quot;if&hellip;else&quot; 
-example we saw earlier: only one block of instructions will be executed here...You can see 
+example we saw earlier: only one block of instructions will be executed here&#155;You can see 
 that the 3 different versions with the naive if, the if-else statement and the switch, give 
 the same result.</p>
 
@@ -7598,7 +7598,7 @@ example: we&apos;ve got a variable i that has a value of zero, and we increment 
 in the loop, but before incrementing it we print its value.</p>
 
 <p>The final condition is &quot;i strictly less than 20&quot;.
-We are going to execute this for 0, 1, 2... and when i++ will give a
+We are going to execute this for 0, 1, 2&#155; and when i++ will give a
 value to i that is 20, then the condition will be no more true, and we
 will finish the execution of the loop and execute the console.log that
 is here.</p>
@@ -9952,7 +9952,7 @@ nothing for the moment, and it contains also 4 images.</p>
   style="width:65%"
   title="CodePen: four images defined"
   alt="CodePen: four images defined." />
-<p>Here are the images... They&apos;ve got an id: img1, img2, and so on. 
+<p>Here are the images&#155; They&apos;ve got an id: img1, img2, and so on. 
 They&apos;ve got some URLs and a width.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 319. function init() (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10784,7 +10784,7 @@ field, etc.</p>
 <pre>1  li.innerHTML = '<b>This is a new list item in bold!</b>'; // can add HTML in it
 2  li.textContent = 'Another new list item';
 3  li.style.color = 'green'; // green text
-4  img.src = "https://..../myImage.jpg"; // url of the image
+4  img.src = "https://.&#155;/myImage.jpg"; // url of the image
 5  img.width = 200;
 </pre>
 
@@ -11600,9 +11600,9 @@ Let&apos;s look at the new functions we&apos;ve added: 
 7.  var b = {
 8.  x:w/2,
 9.  y:h/2,
-10. radius: 5 + 30 &#41; Math.random(), // between 5 and 35
-11. speedX: -5 + 10 &#41; Math.random(), // between -5 and + 5
-12. speedY: -5 + 10 &#41; Math.random(), // between -5 and + 5
+10. radius: 5 + 30 &#42; Math.random(), // between 5 and 35
+11. speedX: -5 + 10 &#42; Math.random(), // between -5 and + 5
+12. speedY: -5 + 10 &#42; Math.random(), // between -5 and + 5
 13. color: getARandomColor(),
 14. }
 15. // add ball b to the array
@@ -11629,16 +11629,16 @@ Let&apos;s look at the new functions we&apos;ve added: 
 
 <pre>
 1. function getARandomColor() {
-2. var colors = &lbrack;&apos;red&apos;, &apos;blue&apos;, &apos;cyan&apos;, &apos;purple&apos;,
-3. &apos;pink&apos;, &apos;green&apos;, &apos;yellow&apos;&rbrack;;
-4. // a value between 0 and color.length-1
-5.  // Math.round = rounded value
-6.  // Math.random() a value between 0 and 1
-7.  var colorIndex = Math.round((colors.length-1)&#41;Math.random());
-8.  var c = colors&lbrack;colorIndex&rbrack;;
+2.    var colors = &lbrack;&apos;red&apos;, &apos;blue&apos;, &apos;cyan&apos;, &apos;purple&apos;,
+3.    &apos;pink&apos;, &apos;green&apos;, &apos;yellow&apos;&rbrack;;
+4.    // a value between 0 and color.length-1
+5.    // Math.round = rounded value
+6.    // Math.random() a value between 0 and 1
+7.    var colorIndex = Math.round((colors.length-1)&#42;Math.random());
+8.    var c = colors&lbrack;colorIndex&rbrack;;
 9.  
-10. // return the random color
-11. return c;
+10.   // return the random color
+11.   return c;
 12. }
 </pre>
 
@@ -12404,7 +12404,7 @@ height="2.3269225721784776in"}
 
 Let&apos;s start with an array called &quot;myarr&quot; that contains some colors.
 The first thing we must remind is that each element has an index. And
-the first index is at number 0. If I type in the console...it gives me
+the first index is at number 0. If I type in the console&#155;it gives me
 the first element. "myarr&lbrack;0&rbrack;" gives the first element. Arrays in
 JavaScript are objects.
 
@@ -12441,7 +12441,7 @@ height="2.3269225721784776in"}
 
 You can also add an element at the end of an existing array by adding it
 to the index equal to the length of the array. If I do this, we don&apos;t
-have any "green" here...You see, I'm using the index length. If I do
+have any "green" here&#155;You see, I'm using the index length. If I do
 like that, it returns the new element we added, and it adds at the end.
 To be frank, most of the time I use the &quot;push&quot; method.
 
@@ -13031,7 +13031,7 @@ callback. Usually, we type the callback body between the parenthesis.
 Declaring an anonymous function, an anonymous callback. And the first
 example is to use only a single argument that will be the current
 element while we are iterating. I call it "day" here, and day will be:
-Monday, Tuesday, Wednesday,... each time, we iterate on the collection
+Monday, Tuesday, Wednesday,&#155; each time, we iterate on the collection
 of the days, on the array of days.
 
 ![](./images/image378.png){width="5.0in"
@@ -13072,7 +13072,7 @@ simple.
 height="2.3269225721784776in"}
 
 Another thing we can do, let me put this in comments, is use a regular
-"<b>for</b>" loop. Using a "<b>for</b>" loop... so the very automatic way is
+"<b>for</b>" loop. Using a "<b>for</b>" loop&#155; so the very automatic way is
 do like that. And you see we&apos;ve got the same results we had with the
 "<b>forEach</b>". It&apos;s a bit more complicated because we must declare a
 variable, initialize it to 0 and this is the first, the starting index
@@ -13090,7 +13090,7 @@ It depends.
 ![](./images/image382.png){width="5.0in"
 height="2.3269225721784776in"}
 
-Here you can just go 2 by 2... I can iterate 2 by 2, or I can break the
+Here you can just go 2 by 2&#155; I can iterate 2 by 2, or I can break the
 loop in the middle using the "break" keyword and a condition with an
 "<b>if</b>". All these things I cannot do them easily with the
 "<b>forEach</b>" operator. If you just need to iterate and do something on
@@ -13219,94 +13219,53 @@ creations.
 
 -   Let&apos;s start with an array variable like that:
 
+<pre>
 1.  let myPicturesArray = &lbrack;
-
 2.  {
-
 3.  &quot;albumId&quot;: 1,
-
 4.  &quot;id&quot;: 1,
-
 5.  &quot;title&quot;: &quot;accusamus beatae ad facilis cum similique qui sunt&quot;,
-
 6.  &quot;url&quot;: &quot;https://placehold.it/600/92c952&quot;,
-
 7.  &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/92c952&quot;
-
 8.  },
-
 9.  {
-
 10. &quot;albumId&quot;: 1,
-
 11. &quot;id&quot;: 2,
-
 12. &quot;title&quot;: &quot;reprehenderit est deserunt velit ipsam&quot;,
-
 13. &quot;url&quot;: &quot;https://placehold.it/600/771796&quot;,
-
 14. &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/771796&quot;
-
 15. },
-
 16. {
-
 17. &quot;albumId&quot;: 2,
-
 18. &quot;id&quot;: 51,
-
 19. &quot;title&quot;: &quot;non sunt voluptatem placeat consequuntur rem
     incidunt&quot;,
-
 20. &quot;url&quot;: &quot;https://placehold.it/600/8e973b&quot;,
-
 21. &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/8e973b&quot;
-
 22. },
-
 23. {
-
 24. &quot;albumId&quot;: 2,
-
 25. &quot;id&quot;: 52,
-
 26. &quot;title&quot;: &quot;eveniet pariatur quia nobis reiciendis laboriosam ea&quot;,
-
 27. &quot;url&quot;: &quot;https://placehold.it/600/121fa4&quot;,
-
 28. &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/121fa4&quot;
-
 29. },
-
 30. {
-
 31. &quot;albumId&quot;: 3,
-
 32. &quot;id&quot;: 127,
-
 33. &quot;title&quot;: &quot;magnam quia sed aspernatur&quot;,
-
 34. &quot;url&quot;: &quot;https://placehold.it/600/74456b&quot;,
-
 35. &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/74456b&quot;
-
 36. },
-
 37. {
-
 38. &quot;albumId&quot;: 3,
-
 39. &quot;id&quot;: 128,
-
 40. &quot;title&quot;: &quot;est facere ut nam repellat numquam quia quia eos&quot;,
-
 41. &quot;url&quot;: &quot;https://placehold.it/600/b0931d&quot;,
-
 42. &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/b0931d&quot;
-
 43. }
-
 44. &rbrack;;
+</pre>
 
 -   It&apos;s an array of pictures, each picture having a URL, a URL for a
     tiny version of the picture, called a thumbnail, a title, and the
@@ -13563,7 +13522,7 @@ height="2.7094017935258092in"}
 
 If I click on the video player, you see that&#41; Ok! By adding a
 controls attribute it will display a control bar with buttons for play,
-pause... for adjusting the volume... for going forward and backward
+pause&#155; for adjusting the volume&#155; for going forward and backward
 video and so on. And if I remove this, you don&apos;t have anymore the
 control, bar so you can make you own control bar for the video player.
 Let&apos;s try it!
@@ -13604,7 +13563,7 @@ methods you can call when you see parenthesis: <b>play(), pause()</b>&#41;
 ![](./images/image398.png){width="5.0in"
 height="2.7307688101487315in"}
 
-And also you&apos;ve got properties, these properties you can... you can use
+And also you&apos;ve got properties, these properties you can&#155; you can use
 them for getting information -what is the current time?- for example. Or
 you can use them also for setting, changing their values. And for
 example, going back&#41; if I say current time equals 0, or "currentTime
@@ -13643,7 +13602,7 @@ You can add an event listener on the video element "<b>ontimeupdate =
 isplayTimeWhileVideoIsPlaying()</b>".
 
 Ok, like this: while the video is being played, this method will be
-called and we can here, for example, display the <b>currentTime...
+called and we can here, for example, display the <b>currentTime&#155;
 console.log()</b>. Let&apos;s me open the console, play the video and you see
 the current time. You can make a test: if "vid. currentTime greater than
 5 seconds&quot;, then we pause the video.
@@ -14755,13 +14714,13 @@ play and pause methods to play and pause the music.
   title=""
   alt="." />
 
-For sound effects, that will have to be played very fast,&#41; that last
+<p>For sound effects, that will have to be played very fast,&#41; that last
 a very short time. It&apos;s better to load the sounds in memory and then
 play them. There are small sounds samples that are loaded and decoded
 and kept in memory for a very fast use within video games. It&apos;s a bit
 complicated to use the low level WebAudio API. Some developers made some
 high level libraries for making this task easier. One of them is called
-howler.js (https://howlerjs.com/).
+<a href="https://howlerjs.com/">howler.js</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 429.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14770,10 +14729,10 @@ howler.js (https://howlerjs.com/).
   title=""
   alt="." />
 
-This is the Web site --- howler.js &quot;Make working with audio in
+<p>This is the Web site --- howler.js &quot;Make working with audio in
 JavaScript easy&quot;. You can read the documentations and look at samples
 here. The way we used it, is that we've just including it using a script
-tag.
+tag.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 430.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14782,8 +14741,8 @@ tag.
   title=""
   alt="." />
 
-This is the inclusion of a minified, a very short version of this
-library. And then from JavaScript, you can use it.
+<p>This is the inclusion of a minified, a very short version of this library. 
+And then from JavaScript, you can use it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 431.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14792,8 +14751,8 @@ library. And then from JavaScript, you can use it.
   title=""
   alt="." />
 
-Here we&apos;ve got a button that will play a very short sound... you see.
-Let&apos;s look at the way the play sound is implemented.
+<p>Here we&apos;ve got a button that will play a very short sound&#155; you see.
+Let&apos;s look at the way the play sound is implemented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14802,8 +14761,8 @@ Let&apos;s look at the way the play sound is implemented.
   title=""
   alt="." />
 
-The play sound function just does "sound.play();", but the sound we are
-referring to, here, has been loaded when the page was ready.
+<p>The play sound function just does "sound.play();", but the sound we are
+referring to, here, has been loaded when the page was ready.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14812,16 +14771,16 @@ referring to, here, has been loaded when the page was ready.
   title=""
   alt="." />
 
-So "window.onload = init;"... You saw that many times now. From then, we
+<p>So "window.onload = init;"&#155; You saw that many times now. From then, we
 use the Howl library like this. "new Howl": you indicate the URL of your
 audio file and you&apos;ve got a callback. A callback is a function that
 will be executed when the sound has been loaded and decoded. What we do
 here, is that, by declaring "sound=new Howl", we ask the Howl library to
-load and decode the sound. Then, it tells us when the sound is ready to
-be used and in that case, we enable the button that is greyed and not
-clickable by default.
+load and decode the sound.</p>
+<p>Then, it tells us when the sound is ready to be used and in that case, 
+we enable the button that is greyed and not clickable by default.</p>
 
-&lt;video transcript above for 3.5.2&gt;
+<!-- &lt;video transcript above for 3.5.2&gt; -->
 
 <h5>Howler.js for using sound samples in memory.</h5>
 
@@ -14845,8 +14804,8 @@ decode it in memory, and play it:</h5>
   style="width:65%"
   title=""
   alt="." />
-
-<https://codepen.io/w3devcampus/pen/ZeNpEX>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/ZeNpEX">
+CodePen: load sound sample using howlerjs</a>.</p>
 
 <h5>HTML code: this is how we say that we are using an external library:</h5>
 
@@ -14874,34 +14833,34 @@ decode it in memory, and play it:</h5>
 <ul>
   <li><i>Line 4</i> indicates that we are using an external library.</li>
   <li><i>Line 12</i>declares a button, that is greyed by default and cannot be
-    clicked. his is done by including the disabled attribute.</li>
+    clicked. This is done by including the disabled attribute.</li>
 </ul>
 
-<h5>JavaScript code: {#javascript-code .unnumbered}
+<h5>JavaScript code:</h5>
 
 <pre>
 1.  window.onload = init;
 2.  var sound;
 3.  function init() {
-4.  var button = document.querySelector(&quot;#button1&quot;);
-5.  <b>sound = new Howl({</b>
-6.  <b>urls: &lbrack;   &apos;https://&#41;/assets/sounds/plop.mp3&apos;&rbrack;,</b>
-7.  <b>onload: function () {</b>
-8.  <b>console.log(&quot;Loaded asset &quot;);</b>
-9.  <b>button.disabled = false; // enable the play sound button</b>
-10. <b>}</b>
-11. <b>});</b>
+4.    var button = document.querySelector(&quot;#button1&quot;);
+5.    sound = new Howl({
+6.      urls: &lbrack;   &apos;https://&#41;/assets/sounds/plop.mp3&apos;&rbrack;,
+7.      onload: function () {
+8.        console.log(&quot;Loaded asset &quot;);
+9.        button.disabled = false; // enable the play sound button
+10.     }
+11.   });
 12. }
 13. function playSound() {
-14. sound.play();
+14.   sound.play();
 15. }
 </pre>
 
-The important part is located in <i>lines 8-12</i>: the Howler library is to
-be used like this: sound = new Howl({&#41;}); The part between the { and
+The important part is located in <i>lines 5-9</i>: the Howler library is to
+be used like this: sound = new Howl({&#155;}); The part between the { and
 } is an object. The url&apos;s property is an array with at least one
 element: the URL of the sound we want to use, located on remote servers.
-The call to new Howl({&#41;}); will start downloading the sound in
+The call to new Howl({&#155;}); will start downloading the sound in
 background, then, once it has loaded, it will &quot;decode it&quot; (i.e., an
 mp3 file will use some cpu to be decoded on the fly and played, whereas
 a decoded sound will use nearly zero cpu, which makes it good for
@@ -14909,19 +14868,18 @@ games!).
 
 Finally, once the sound is decoded, the onload callback is executed. In
 other words, the function after onload: will be executed (at <i>lines
-10-12</i>). In this callback, we enable the button because the sound is
+7-9</i>). In this callback, we enable the button because the sound is
 ready to be played.
 
 The playSound function can only be called when the button is enabled
 (when the sound sample has been loaded and decoded). In order to play a
-sound loaded by Howler.JS, we just call the play() method (<i>line18</i>).
+sound loaded by Howler.JS, we just call the play() method (<i>line14</i>).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-3">3.5.3 Adding music and sound effects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Here is the last version of the game from Module 2 with music and sound
-effects (when the player eats a ball):
+<p>Here is the last version of the game from Module 2 with music and sound
+effects (when the player eats a ball):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 435.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14929,8 +14887,8 @@ effects (when the player eats a ball):
   style="width:65%"
   title=""
   alt="." />
-
-<https://codepen.io/w3devcampus/pen/EWzgpr>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWzgpr">
+CodePen: adding music and sound effects</a>.</p>
 
 Look at the HTML part: we included the Howler.js library and we also
 added an &lt;audio&gt; player (invisible; we removed the controls attribute)
@@ -14945,8 +14903,7 @@ this sample has been loaded and decoded do we start the animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-4">3.5.4 &lbrack;Advanced&rbrack; a multiple image, sound and music loader (3:47)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding video: a multiple image, sound and music loader
+<h5>Live coding video: a multiple image, sound and music loader</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15024,42 +14981,42 @@ loaded images and so on.
 I hope you will find this useful if you are planning to write a small
 HTML5 game with lots of JavaScript.
 
-&lt;end of transcript 3.5.4&gt;
+<!-- &lt;end of transcript 3.5.4&gt; -->
 
 <h4>A utility background loader for images, music and sound samples</h4>
 
-This comes from the module 2 of the W3Cx [HTML5 Apps and
-Games](https://www.edx.org/learn/html5/the-world-wide-web-consortium-w3c-html5-apps-and-games) course.
+<p>This comes from the module 2 of the W3Cx 
+<a href="https://www.edx.org/learn/html5/the-world-wide-web-consortium-w3c-html5-apps-and-games">
+HTML5 Apps and Games</a> course.</p>
 
-In video games, you very often need to load assets before starting the
-game: 
+<p>In video games, you very often need to load assets before starting the
+game:</p>
 
--   Images must be loaded (background image, game logo, sprite sheets,
-    etc.)
-
--   Sound samples must be loaded and decoded (the previous example used
+<ul>
+  <li>Images must be loaded (background image, game logo, sprite sheets,
+    etc.)</li>
+  <li>Sound samples must be loaded and decoded (the previous example used
     only one single sound sample, but with multiple samples it becomes
     more difficult to know when they are all ready to be used, as they
-    come asynchronously over the network),
-
--   For streamed music, you need an &lt;audio&gt; player element. If you use
+    come asynchronously over the network),</li>
+  <li>For streamed music, you need an &lt;audio&gt; player element. If you use
     different pieces of music, you may use multiple audio elements, and
     you pause one and start another when you change the music.
     Alternatively you may use a single audio element, and change
-    its src attribute.
+    its src attribute.</li>
+</ul>
 
 We wrote a multiple &quot;<b>asset loader</b>&quot; to make all these tasks easy.
 
-Here is a small example that you may use if you like, which takes an
-array of &quot;assets to be loaded&quot;, that can be either an image, a sound
-sample or streamed background music. You call
-the loadAssets(callback) function, passing as a parameter a single
-callback function of yours. When all assets are loaded, your callback
-will be executed, and will get a single parameter: the assets ready to
+Here is a small example that you may use if you like, which takes an array of 
+&quot;assets to be loaded&quot;, that can be either an image, a sound sample or 
+streamed background music. You call the loadAssets(callback) function, passing as 
+a parameter a single callback function of yours. When all assets are loaded, your 
+callback will be executed, and will get a single parameter: the assets ready to
 be used!
 
 Example (to hear the music and sound sample, there are two lines to
-uncomment in the <b>startGame(&#41;)</b> function):
+uncomment in the <b>startGame(&#155;)</b> function):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 437.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15067,89 +15024,92 @@ uncomment in the <b>startGame(&#41;)</b> function):
   style="width:65%"
   title=""
   alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/QpRGrz">
+CodePen: load music and sound sample</a>.</p>
 
-<https://codepen.io/w3devcampus/pen/QpRGrz>
-
-Extract from the JavaScript source code:
+<h5>Extract from the JavaScript source code:</h5>
 
 <pre>
 1.  window.onload = init;
 2.  var assetsToLoadURLs = {
-3.  backgroundImage: { url: &apos;https://&#41;/assets/images/background.png&apos; }, 
-4.  logo1: { url: &quot;https://&#41;/assets/images/SkywardWithoutBalls.png&quot; },
-5.  logo2: { url: &quot;https://&#41;/assets/images/BoundsWithoutBalls.png&quot; },
-6.  bell:  { url: &quot;https://&#41;/assets/images/bells.png&quot; },
-7.  spriteSheetBunny: { url: &apos;https://&#41;/assets/images/bunnySpriteSheet.png&apos; }
-8.  ,
-9.  plop: { url: &apos;https://&#41;/assets/sounds/plop.mp3&apos;,
-10. buffer: false, loop: false, volume: 1.0 },
-11. humbug: { url: &apos;https://&#41;/assets/sounds/humbug.mp3&apos;,
-12. buffer: true, loop: true, volume: 1.0 },
-13. concertino: { url: &apos;https://&#41;/assets/sounds/christmas_concertino.mp3&apos;,
-14. buffer: true, loop: true, volume: 1.0 },
-15. xmas: { url: &apos;https://&#41;/assets/sounds/xmas.mp3&apos;,
-16. buffer: true, loop: true, volume: 0.6 }
+3.    backgroundImage: { url: &apos;https://&#41;/assets/images/background.png&apos; }, 
+4.    logo1: { url: &quot;https://&#41;/assets/images/SkywardWithoutBalls.png&quot; },
+5.    logo2: { url: &quot;https://&#41;/assets/images/BoundsWithoutBalls.png&quot; },
+6.    bell:  { url: &quot;https://&#41;/assets/images/bells.png&quot; },
+7.    spriteSheetBunny: { url: &apos;https://&#41;/assets/images/bunnySpriteSheet.png&apos; }
+8.    ,
+9.    plop: { url: &apos;https://&#41;/assets/sounds/plop.mp3&apos;,
+10.     buffer: false, loop: false, volume: 1.0 },
+11.   humbug: { url: &apos;https://&#41;/assets/sounds/humbug.mp3&apos;,
+12.     buffer: true, loop: true, volume: 1.0 },
+13.   concertino: { url: &apos;https://&#41;/assets/sounds/christmas_concertino.mp3&apos;,
+14.     buffer: true, loop: true, volume: 1.0 },
+15.   xmas: { url: &apos;https://&#41;/assets/sounds/xmas.mp3&apos;,
+16.     buffer: true, loop: true, volume: 0.6 }
 17. };
 18. var loadedAssets; // above assets, ready to be used
 19. function init() {
-20. // Once the page is loaded, we load all assets. We pass the function
-21. // that will be called when assets are ready. In our case
-    &quot;startGame&quot;
-22. // this call will load all assets
-23. loadAssets(startGame);
+20.   // Once the page is loaded, we load all assets. We pass the function
+21.   // that will be called when assets are ready. In our case
+      &quot;startGame&quot;
+22.   // this call will load all assets
+23.   loadAssets(startGame);
 24. }
 25. function startGame(assetsReadyToBeUsed) {
-26. // This function is executed once all assets are ready.
-27. // It is called by the asset loader, and receives as a unique
-28. // parameter, the assets (sounds, images etc.) ready to be used
-29. // we store them in the loadedAssets variable
-30. loadedAssets = assetsReadyToBeUsed;
-31. // Now we can use them! e.g., draw the images in a canvas
-32. drawImages();
-33. // or play one of the pieces of background music
-34. playHumbug();
-35. // Or use sound samples, for example let&apos;s play a plop every second
-36. setInterval(playPlop, 1000);
+26.   // This function is executed once all assets are ready.
+27.   // It is called by the asset loader, and receives as a unique
+28.   // parameter, the assets (sounds, images etc.) ready to be used
+29.   // we store them in the loadedAssets variable
+30.   loadedAssets = assetsReadyToBeUsed;
+31.   // Now we can use them! e.g., draw the images in a canvas
+32.   drawImages();
+33.   // or play one of the pieces of background music
+34.   playHumbug();
+35.   // Or use sound samples, for example let&apos;s play a plop every second
+36.   setInterval(playPlop, 1000);
 37. }
 38. function playHumbug() {
-39. loadedAssets.humbug.play();
+39.   loadedAssets.humbug.play();
 40. }
 41. function playPlop() {
-42. loadedAssets.plop.play();
+42.   loadedAssets.plop.play();
 43. }
 44. function drawImages() {
-45. var canvas = document.querySelector(&apos;#myCanvas&apos;);
-46. var ctx = canvas.getContext(&apos;2d&apos;);
-47. // background image drawImage can have different syntaxes :
-48. // drawImage(img, x, y); or
-49. // drawImage(x, y, width, height),
-50. // for other syntaxes see HTML5 fundamentals course
-51. ctx.drawImage(loadedAssets.backgroundImage,
-52. 0, 0,
-53. canvas.width, canvas.height);
-54. ctx.drawImage(loadedAssets.bell, 20, 20);
-55. ctx.drawImage(loadedAssets.spriteSheetBunny, 190, 0);
+45.   var canvas = document.querySelector(&apos;#myCanvas&apos;);
+46.   var ctx = canvas.getContext(&apos;2d&apos;);
+47.   // background image drawImage can have different syntaxes :
+48.   // drawImage(img, x, y); or
+49.   // drawImage(x, y, width, height),
+50.   // for other syntaxes see HTML5 fundamentals course
+51.   ctx.drawImage(loadedAssets.backgroundImage,
+52.   0, 0,
+53.   canvas.width, canvas.height);
+54.   ctx.drawImage(loadedAssets.bell, 20, 20);
+55.   ctx.drawImage(loadedAssets.spriteSheetBunny, 190, 0);
 56. }
 </pre>
 
-<h4>Two games that have been written by students in the W3C Apps an Games course (which has a module dedicated to game programming):</h4>
+<h4>Two games that have been written by students in the W3C Apps and Games course 
+(which has a module dedicated to game programming):</h4>
 
-These games are not for JavaScript beginners, but it&apos;s time to spend
+<p>These games are not for JavaScript beginners, but it&apos;s time to spend
 some time having fun :-) You can look at the source code: it&apos;s been
-written by students like you who followed the HTML5 advanced course.
+written by students like you who followed the HTML5 advanced course.</p>
 
-1 - Star Warriors, written by two Ukrainian ladies who won the first
-prize in [a W3C contest we organized in March
-2017](https://www.w3.org/2017/WWW26/contests.html):
-
--   [Play it online](https://mainline.i3s.unice.fr/mooc/StarWarriors/),
-    wait until all assets have been loaded (you can follow the loading
-    of assets by opening the devtools console). Use arrows + space bar
-    to fire.
-
--   [See the source code on
-    CodePen](https://codepen.io/w3devcampus/pen/pemjRj) (also, you can
-    play from there).
+<ol start="1">
+  <li>Star Warriors, written by two Ukrainian ladies who won the first
+    prize in <a href="https://www.w3.org/2017/WWW26/contests.html">
+	a W3C contest we organized in March 2017</a>:
+    <ul>
+	  <li><a href="https://mainline.i3s.unice.fr/mooc/StarWarriors/">Play it online</a>,
+	    wait until all assets have been loaded (you can follow the loading
+		of assets by opening the devtools console). Use arrows + space bar
+		to fire.</li>
+      <li><a href="https://codepen.io/w3devcampus/pen/pemjRj">
+	    See the source code on CodePen</a> (also, you can play from there).</li>
+	</ul>
+  </li>
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 438.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15158,23 +15118,25 @@ prize in [a W3C contest we organized in March
   title="Star Warrior, an HTML5 games that uses the multiple asset loader"
   alt="Star Warrior, an HTML5 games that uses the multiple asset loader." />
 
-2 - Skyward Bounds: written in less than a week by a group of students
-from the HTML5 Apps and Games course, during the Christmas 2016 session.
+<ol start="2">
+  <li>Skyward Bounds: written in less than a week by a group of students
+    from the HTML5 Apps and Games course, during the Christmas 2016 session.</li>
+</ol>
 
-Michel Buffa helped them actively in the forum, and one student rapidly
+<p>Michel Buffa helped them actively in the forum, and one student rapidly
 took the lead in developing the game, while another composed the music,
-another helped with the graphics, etc.
+another helped with the graphics, etc.</p>
 
-The game runs on phones, tablets (using touch events), can be resized,
-rotated, etc. It also uses the multiple asset loader presented.
+<p>The game runs on phones, tablets (using touch events), can be resized,
+rotated, etc. It also uses the multiple asset loader presented.</p>
 
--   [Play it online](https://mainline.i3s.unice.fr/mooc/SkywardBound/) (mouse or
-    fingers)
-
--   [Or download the source code (multiple
-    files)](https://courses.edx.org/assets/courseware/v1/cffe841c8d4fa99fd9d2fd002fe2fff7/asset-v1:W3Cx+JS.0x+2T2024+type@asset+block/gameForMooc.zip).
-    (once unzipped, just double click index.html)
-
+<ul>
+  <li><a href="https://mainline.i3s.unice.fr/mooc/SkywardBound/">Play it online</a> (mouse or
+    fingers)</li>
+  <li><a href="https://courses.edx.org/assets/courseware/v1/cffe841c8d4fa99fd9d2fd002fe2fff7/asset-v1:W3Cx+JS.0x+2T2024+type@asset+block/gameForMooc.zip">
+    Or download the source code (multiple files)</a>.
+    (once unzipped, just double click index.html)</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 439.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15185,9 +15147,8 @@ rotated, etc. It also uses the multiple asset loader presented.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-5">3.5.5 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Here is the discussion forum for this part of the course. Please either
-post your comments/observations/questions or share your
-creations.
+<p>Here is the discussion forum for this part of the course. Please either
+post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 440.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -15276,8 +15237,7 @@ Date, and so on. And it is important for you to know how to use them.
 Finally, as usual, we will provide many examples and some optional
 projects at the end of module.
 
-&lt;end of video transcript 4.1.1&gt;
-
+<!-- &lt;end of video transcript 4.1.1&gt; -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-1-2">4.1.2 Module 4 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -15285,18 +15245,17 @@ projects at the end of module.
 In Module 4, we continue exploring JavaScript Object Oriented
 Programming:
 
--   You will learn new things about JavaScript object properties and
-    methods
+-   You will learn new things about JavaScript object properties and methods,
 
 -   You will see how to build many instances of objects using ES5
-    constructor functions and the new ES6 classes
+    constructor functions and the new ES6 classes,
 
 -   You will learn how to use the &quot;new&quot; keyword for building objects,
     and about the mysterious &quot;this&quot; keyword you already met in some
-    examples
+    examples,
 
 -   You will learn about &quot;class properties and methods&quot; (vs.
-    &quot;instance properties and methods&quot;)
+    &quot;instance properties and methods&quot;).
 
 Finally, you will use these new concepts for improving the small game we
 started to develop in Module 2!
@@ -15312,11 +15271,11 @@ course. Here is an example:
 
 <pre>
 1.  var js1 = {
-2.  courseName<b>:</b> &apos;JavaScript intro&apos;,
-3.  weeks<b>:</b> 5,
-4.  madeBy: &apos;W3Cx&apos;,
-5.  author: &apos;Michel Buffa&apos; // no &quot;,&quot; after the last property!, even
-    if ES5/6 accept it
+2.    courseName<b>:</b> &apos;JavaScript intro&apos;,
+3.    weeks<b>:</b> 5,
+4.    madeBy: &apos;W3Cx&apos;,
+5.    author: &apos;Michel Buffa&apos; // no &quot;,&quot; after the last property!, even
+        if ES5/6 accept it
 6.  }
 </pre>
 
@@ -15359,8 +15318,7 @@ Features you will learn:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-2">4.2.2 From objects to arrays (6:33)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding video: object&apos;s properties
+Live coding transcript: object&apos;s properties
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 442.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15420,7 +15378,7 @@ and name are very very similar to arrays because arrays are objects too.
   alt="." />
 
 If I use the name of the property with the brackets notation, look at
-that: darkVadorAsAnObject&lbrack;&rbrack;, the name of the property (job) then...
+that: darkVadorAsAnObject&lbrack;&rbrack;, the name of the property (job) then&#155;
 you&apos;ve got the exact same result as if you're using the &apos;.&apos; operator.
 In JavaScript objects are arrays whose indexes are the property names.
 They are very very similar.
@@ -15432,7 +15390,7 @@ They are very very similar.
   title=""
   alt="." />
 
-Look at this object named "book": book.title ... Le Petit Prince and
+Look at this object named "book": book.title &#155; Le Petit Prince and
 book&lbrack;&apos;title&apos;&rbrack; will give exactly the same result.Why would you use
 this notation for accessing properties?
 
@@ -15477,7 +15435,7 @@ except that in that case the name of the property is the value of the
   title=""
   alt="." />
 
-I type key ="name" ... "book2" that is an object with the name. I can
+I type key ="name" &#155; "book2" that is an object with the name. I can
 type &quot;book2.key3", it&apos;s exactly the same as typing "book2.name". You
 can also have objects that contain objects. The "book2" object, here,
 has the property name author that in turn is an object. It uses brackets
@@ -15486,7 +15444,7 @@ operator to access the sub-properties. "book2.author" is an object,
 "book2.author.familyName" will access the "familyName" property of the
 author object that is a property of "book2". And it gives "heller" here.
 
-&lt;end of transcript video 4.2.2 above&gt;
+<!-- &lt;end of transcript video 4.2.2 above&gt; -->
 
 <h5>Source code of the example in the above lesson</h5>
 
@@ -15547,8 +15505,8 @@ the property names!
 
 <pre>
 1.  &gt; var book = {
-2.  title: &apos;Le Petit Prince&apos;,
-3.  author: &apos;Saint-Exupery&apos;
+2.    title: &apos;Le Petit Prince&apos;,
+3.    author: &apos;Saint-Exupery&apos;
 4.  };
 5.  Undefined
 6.  
@@ -15632,12 +15590,12 @@ and &apos;&rbrack;&apos; &#41;</p>
 
 <pre>
 1.  &gt; var book = {
-2.  name: &apos;Catch-22&apos;,
-3.  published: 1961,
-4.  <b>author: {                 // embedded object!</b>
-5.  <b>givenName: &apos;Joseph&apos;,</b>
-6.  <b>familyName: &apos;Heller&apos;</b>
-7.  <b>}</b>
+2.    name: &apos;Catch-22&apos;,
+3.    published: 1961,
+4.    author: {                 // embedded object!
+5.      givenName: &apos;Joseph&apos;,
+6.      familyName: &apos;Heller&apos;
+7.    }
 8.  };
 9.  Undefined
 10. 
@@ -15661,8 +15619,7 @@ object author, which is also a property of the book object).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-5">4.2.5 Elements, properties and methods (6:37)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding video: object methods
+Live coding transcript: object methods
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 450.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15757,7 +15714,7 @@ it.
 </p>
 
 You see that it displays "I&apos;m a human and I&apos;m a villain " blah blah
-blah...And "human" and "villain" are the values of the "race" and the
+blah&#155;And "human" and "villain" are the values of the "race" and the
 "job" properties inside the object. "this.race" was used for displaying
 this value. You can also use the "this" keyword for calling a method
 from another method.
@@ -15820,12 +15777,11 @@ console (on the right), you see that it&apos;s a complete object that
 contains the properties and the methods we define after creating the
 object.
 
-&lt;end transcript 4.2.5 video above&gt;
+<!-- &lt;end transcript 4.2.5 above&gt; -->
 
 <h5>Source code of the live lesson example</h5>
 
--   [Available on
-    CodePen](https://codepen.io/w3devcampus/pen/EXNrjB?editors=0011)
+-   [Available on CodePen](https://codepen.io/w3devcampus/pen/EXNrjB?editors=0011)
 
 <h5>Elements, properties and methods</h5>
 
@@ -15884,23 +15840,23 @@ Let&apos;s see some examples:
 
 <pre>
 1.  var darkVador = {
-2.  race: &apos;human&apos;,
-3.  job: &apos;villain&apos;,
-4.  talk: function() {
-5.  return &apos;come to the dark side, Luke!&apos;;
-6.  }
+2.    race: &apos;human&apos;,
+3.    job: &apos;villain&apos;,
+4.    talk: function() {
+5.      return &apos;come to the dark side, Luke!&apos;;
+6.    }
 7.  }
 8.  
 9.  function dvSpeak() {
-10. document.body.innerHTML += &apos;&lt;p&gt;Dark Vador says
-    &apos; + darkVador.talk(); + &apos;&lt;/p&gt;&apos;;
+10.   document.body.innerHTML += &apos;&lt;p&gt;Dark Vador says
+        &apos; + darkVador.talk(); + &apos;&lt;/p&gt;&apos;;
 11. }
 </pre>
 
-In <i>line 1</i>, we created a simple object named darkVador, that has two
+In <b><i>line 1</i></b>, we created a simple object named darkVador, that has two
 properties (race and job) and a method (talk).
 
-In the dvSpeak function, at <i>line 10</i>, we call darkVador&apos;s talk
+In the dvSpeak function, at <b><i>line 10</i></b>, we call darkVador&apos;s talk
 method. The syntax is a mix between the one for accessing a property
 (with the &apos;.&apos; operator), and the one for calling a function (with
 parentheses and &apos;;&apos; at the end).
@@ -15927,11 +15883,11 @@ Here is the last version of the player object we saw in our small game:
 
 <pre>
 1.  var player = {
-2.  x:10,
-3.  y:10,
-4.  width:20,
-5.  height:20,
-6.  color:&apos;red&apos;
+2.    x:10,
+3.    y:10,
+4.    width:20,
+5.    height:20,
+6.    color:&apos;red&apos;
 7.  }
 8.  
 9.  // and we also used two other functions for moving the player with
@@ -15939,25 +15895,25 @@ Here is the last version of the player object we saw in our small game:
 10. // and for drawing it as a filled rectangle
 11. 
 12. function movePlayerWithMouse() {
-13. if(mousePos !== undefined) {
-14. player.x = mousePos.x;
-15. player.y = mousePos.y;
-16. }
+13.   if(mousePos !== undefined) {
+14.     player.x = mousePos.x;
+15.     player.y = mousePos.y;
+16.   }
 17. }
 18. 
 19. function drawFilledRectangle(r) {
-20. // BEST practice: save the context, use 2D transformations
-21. ctx.save();
+20.   // BEST practice: save the context, use 2D transformations
+21.   ctx.save();
 22. 
-23. // translate the coordinate system, draw relative to it
-24. ctx.translate(r.x, r.y);
+23.   // translate the coordinate system, draw relative to it
+24.   ctx.translate(r.x, r.y);
 25. 
-26. ctx.fillStyle = r.color;
-27. // (0, 0) is the top left corner of the monster
-28. ctx.fillRect(0, 0, r.width, r.height);
+26.   ctx.fillStyle = r.color;
+27.   // (0, 0) is the top left corner of the monster
+28.   ctx.fillRect(0, 0, r.width, r.height);
 29. 
-30. // BEST practice: restore the context
-31. ctx.restore();
+30.   // BEST practice: restore the context
+31.   ctx.restore();
 32. }
 </pre>
 
@@ -15965,22 +15921,22 @@ Here is the last version of the player object we saw in our small game:
 
 <pre>
 1.  var player = {
-2.  x:10,
-3.  y:10,
-4.  width:20,
-5.  height:20,
-6.  color:&apos;red&apos;,
+2.    x:10,
+3.    y:10,
+4.    width:20,
+5.    height:20,
+6.    color:&apos;red&apos;,
 7.  
-8.  move(x, y) {
-9.  // change x and y coordinates of the player
-10. // TODO!
-11. },
+8.    move(x, y) {
+9.      // change x and y coordinates of the player
+10.     // TODO!
+11.   },
 12. 
-13. draw() {
-14. // draw the player at its current position
-15. // with current width, height and color
-16. // TODO!
-17. }
+13.   draw() {
+14.     // draw the player at its current position
+15.     // with current width, height and color
+16.     // TODO!
+17.   }
 18. }
 </pre>
 
@@ -16059,7 +16015,7 @@ And we also pass the context that is the object used for drawing in the
 canvas as a parameter.
 
 Like this, we can use the object in another project and don&apos;t rely on a
-global variable...like we did before in the previous example, the
+global variable&#155;like we did before in the previous example, the
 context was a global variable, here.
 
 By passing it as a parameter, if the global variable has a different
@@ -16072,7 +16028,7 @@ characteristics and the methods that correspond to its behaviors to what
 it can do and, of course, the methods will modify the properties for
 changing the position of the object on the screen.
 
-&lt;end video transcript&gt;
+<!-- &lt;end 4.2.6 live transcript&gt; -->
 
 <h4>Source code of examples shown in the above video</h4>
 
@@ -16094,18 +16050,19 @@ of the player object, this means &quot;from this object&quot;.</p>
 <h5>Let&apos;s look at our game again, with a new version of the player object - 
 this time fully functional:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 463. "this" (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 463. codepen: "this" examples (16x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image463.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<a href="https://codepen.io/w3devcampus/pen/oZRrQd">CodePen for 'this' examples</a>.
+  title="CodePen: 'this' example"
+  alt="CodePen: 'this' example." />
+<a href="https://codepen.io/w3devcampus/pen/oZRrQd">CodePen: 'this' example</a>.
 </p>
 
 <h5>JavaScript code extract:</h5>
 
-<pre>1.  var player = {
+<pre>
+1.  var player = {
 2.    x:10,
 3.    y:10,
 4.    width:20,
@@ -16137,8 +16094,8 @@ this time fully functional:</h5>
 </pre>
 
 <p>Notice that we&apos;ve used this followed by the &apos;.&apos; operator every time
-we&apos;ve had to access the current value of an object&apos;s property (<i>lines
-9, 10, 20, 22 and 24</i>).</p>
+we&apos;ve had to access the current value of an object&apos;s property (<b><i>lines
+9, 10, 20, 22 and 24</i></b>).</p>
 
 <p>We passed the canvas&apos; graphic context as a parameter to
 the draw method (it&apos;s always good not to create dependencies when
@@ -16342,7 +16299,7 @@ only occur once.
 We&apos;ve got one player in the game, we&apos;ve got one Dark Vador in the
 examples with the Star Wars heroes.
 
-But imagine Luke Skywalker, Ian Solo and Dark Vador... what do they have
+But imagine Luke Skywalker, Ian Solo and Dark Vador&#155; what do they have
 in common?
 
 They&apos;re all Star Wars heroes, they all have a name, they all belong to
@@ -16402,23 +16359,23 @@ use the keyword &quot;new&quot;.
 I just typed the name of the constructor function, preceded by the
 keyword &quot;new&quot;.
 
-If we open the console and look at this object... you see that we built
+If we open the console and look at this object&#155; you see that we built
 an object.
 
 And where it&apos;s interesting? It&apos;s when you create multiple objects.
 
-If you look at these objects, ... dark ..., we created multiple objects
+If you look at these objects, &#155; dark &#155;, we created multiple objects
 from the same template.
 
 Of course, we can also add methods in this object.
 
 And the syntax is also to declare the name of the method preceded by
-&quot;this": this.describeYourself =... and then the body of the function.
+&quot;this": this.describeYourself =&#155; and then the body of the function.
 
 This is a property defined in the class Hero.
 
-First, we can check that the method has been added to each object...so,
-Ian Solo... you can see the method here: &quot;describeYourself&quot;&#41; you
+First, we can check that the method has been added to each object&#155;so,
+Ian Solo&#155; you can see the method here: &quot;describeYourself&quot;&#41; you
 can see the body of the method.
 
 Luke Skywalker has the same method because it&apos;s &quot;an instance of the
@@ -16625,7 +16582,7 @@ internal properties of the object of for calling internal methods.
 
 If I had a method, "anotherMethod" here.
 
-Blah blah blah ... something.
+Blah blah blah &#155; something.
 
 I would call it using "this.anotherMethod".
 
@@ -16861,7 +16818,7 @@ Here, I declared a variable named "numberHeroesCreated". I can type this
 in the console and see that it returns 0. But why it&apos;s interesting, is
 that I can use this class property inside a class itself. If in the
 constructor, I increment the "numberofHeroesCreated", the property of
-the class Hero. And if I build 0 instance, ...
+the class Hero. And if I build 0 instance, &#155;
 
 I can look at the value of this property: it says 0. But if I built 2
 objects, in that case the "new" keyword will call twice the constructor
@@ -16891,12 +16848,12 @@ idea to put it inside. And you precede them by the "static" keyword.
 
 Because sometimes, you can call such methods without using any instance.
 For example, if I want a method that will work on the
-"numberHeroesCreated": static getHowManyHeroesYouCreated()...
+"numberHeroesCreated": static getHowManyHeroesYouCreated()&#155;
 HowManyHeroesYouCreated. And here, it makes sense that it should be a
 special method because, instead of using an instance name, I will use
 the name of the class.
 
-getHowManyHeroesYouCreated()... 0!
+getHowManyHeroesYouCreated()&#155; 0!
 
 &lt;end transcript above&gt;
 
@@ -17474,7 +17431,7 @@ value of the variable that contains the copy. You will see that there
 are differences between variables that have a primitive value and
 variables that reference an object.
 
-Let&apos;s start with primitive type...With primitive type if we take
+Let&apos;s start with primitive type&#155;With primitive type if we take
 variable a and put the value "2" in it, then, if we copy this value of
 this variable into another one, &#41;here I&apos;ve got the variable "x=2"
 and I set "x2" , "x2". So I&apos;ve got "x2" that is a copy of "x", then if
@@ -17907,15 +17864,15 @@ Now, let&apos;s look at some of the predefined properties and methods
 inherited from this "Array" predefined object. We already met the
 "length" property that corresponds to the number of elements in an
 array. If we look at the array named "a2", that contains "1" and "2", 2
-numeric elements, 2 numbers, &quot;**a2.length**&quot; will display "2" ... 2
-elements... value "2". As arrays are objects, you can imagine that you
+numeric elements, 2 numbers, &quot;**a2.length**&quot; will display "2" &#155; 2
+elements&#155; value "2". As arrays are objects, you can imagine that you
 can also set some properties to them. You can do
 "**a2.name=&quot;Michel"**". This not so good because your are mixing
 numbers with a property that is a name, and so on&#41; I don&apos;t recommend
 at all doing that: avoid! But just to show you something: it's that the
 length of an array works only on elements that have a numeric index. If
 we display the length after adding the name (property), we will still
-have a length of "2"...&quot;only elements with a numeric indexes are taken
+have a length of "2"&#155;&quot;only elements with a numeric indexes are taken
 into account&quot;.
 
 We can also change the "length" value. If we set the "length" to an
@@ -17959,7 +17916,7 @@ sub-array without modifying the original array. If I want to remove the
 "3" and the "5" here, I need to remove elements from index 1 until index
 2, &#41;3.
 
-"**a.slice(1,3)**"... that means it will return "3" and "5" because this
+"**a.slice(1,3)**"&#155; that means it will return "3" and "5" because this
 is the index of the last element before which I must stop cutting. And
 this does not modify the original array. If I want to remove elements
 and maybe insert elements at the location of the slice I remove, there
@@ -18386,7 +18343,7 @@ in it. Then, you can also get parts of a string without modifying it.
 You&apos;ve got 2 different methods that are very similar. For the most
 common use, it&apos;s "<b>slice()</b>" and "<b>substring()</b>". Let&apos;s me show
 you "<b>substring()</b>". Let&apos;s type again the value of "s":
-<b>s.substring()</b>"... beginning index and end index...
+<b>s.substring()</b>"&#155; beginning index and end index&#155;
 
 For example, 0 to 3 will get the characters at index 0, 1 and 2. It
 stops before the end parameter. It will get character at position 0, 1
@@ -18412,7 +18369,7 @@ And "<b>join()</b>" will rebuild, again from an array of tokens, it will
 rebuild a string. And you can indicate what set of characters should be
 inserted in the middle between each token.
 
-If I do this, it will... ok...I need to do this on the array so:
+If I do this, it will&#155; ok&#155;I need to do this on the array so:
 "<b>s.split(&apos; &apos;).join(&apos;&#45;&#45;&#45;-&apos;)</b>" will first return the array of
 tokens separated by space and will in turn build again a string with
 &apos;&#45;&#45;&#45;-&apos; between different tokens.
@@ -18428,7 +18385,7 @@ tokens separated by space and will in turn build again a string with
 The String class can be used to build new strings, but it's preferable
 to use the standard syntax:
 
-<pre>1.  &gt; var name = 'Michel'; // use this rather than using new String(...)
+<pre>1.  &gt; var name = 'Michel'; // use this rather than using new String(&#155;)
 2.  undefined
 3.  
 4.  &gt;typeof name;
@@ -19462,7 +19419,7 @@ height="1.71875in"}
 8.  &lt;input type=&quot;radio&quot; name=&quot;format&quot; id=&quot;csv&quot; value=&quot;csv&quot;&gt;
 9.  &lt;label for=&quot;csv&quot;&gt;CSV file&lt;/label&gt;
 10. &lt;/div&gt;
-11. &lbrack;...&rbrack;
+11. &lbrack;&#155;&rbrack;
 12. &lt;/fieldset&gt;
 </pre>
 
@@ -19482,7 +19439,7 @@ height="1.3020833333333333in"}
 4.  &lt;input type=&quot;checkbox&quot; name=&quot;newsletter&quot; id=&quot;check_1&quot;&gt;
 5.  &lt;label for=&quot;check_1&quot;&gt;The weekly newsletter&lt;/label&gt;
 6.  &lt;/div&gt;
-7.  &lbrack;...&rbrack;
+7.  &lbrack;&#155;&rbrack;
 8.  &lt;/fieldset&gt;
 </pre>
 
@@ -19549,7 +19506,7 @@ you can see that if I change the value or the length of the levels, the
 input fields are no more aligned. In order to align the input fields,
 the common technique is input, float them to the right and give them a
 right margin. Let&apos;s say maybe 7px for the margin-right, and give them a
-width... Ok, like that. Like that, you see if I change the length of the
+width&#155; Ok, like that. Like that, you see if I change the length of the
 labels the input fields are aligned. This is not new with HTML5. What is
 new is that, okay let me just add a border-radius to the fieldset. This
 makes nice rounded corners here. Okay what is new is that some
@@ -19565,18 +19522,18 @@ soon as I type something inside. If I try to submit a form with an
 And the message is in the language is the one of my operating system, so
 here it&apos;s in French. This is new. It&apos;s called the built invalidation
 system and some new input fields like, for example, the email: the input
-type=&quot;email ». Just change that... This time it will become valid not
+type=&quot;email ». Just change that&#155; This time it will become valid not
 when I type something but also when I type something that looks like a
 valid email address. If I remove this character The @ character here, it
 becomes invalid. So, we&apos;ve got some defaults rules for validating new
 type of input fields. If I want to enter an age, I can use the new
-age... type=&quot;number&quot; for example. Like this, it&apos;s an input field for
+age&#155; type=&quot;number&quot; for example. Like this, it&apos;s an input field for
 entering numbers and this one has some min values like 1 year old, max
 value is 120 years old, and if I type something that is not valid, you
 can see that it's with the pink background, meaning it is 'invalid'. If
 I type a real number, it becomes valid. Or if I choose a real number.
 Also, particularities with this input field, is that you can use the
-step attribute...step=5 means &lt;I made a mistake&gt; okay like this it
+step attribute&#155;step=5 means &lt;I made a mistake&gt; okay like this it
 will jump from 1 to 6. If the value is not a multiple of 5, it&apos;s
 'invalid'. Starting from 0. Okay if I enter 20, it&apos;s valid but 21 is
 not. If I add 5 you can see it jumps from one multiple of 5 to another
@@ -19586,7 +19543,7 @@ course. For example, if you want to select a birth date, there is a new
 input field of type=&quot;date ». You can also indicate some constraints
 with attributes, but you will see that in the dedicated part of the
 course. Here, you got directly without writing any JavaScript a calendar
-that is popping up to select your birth date... Let&apos;s say something
+that is popping up to select your birth date&#155; Let&apos;s say something
 that is random. And here you&apos;ve got a birth date, and you can enter
 using the keyboard but if you type something that is invalid..This is
 the really basics of HTML5 forms. There are 13 new input elements, lot
@@ -19594,7 +19551,7 @@ of new attributes and others elements that can be used to constraint the
 values. For example, instead of having a calendar, we can have only a
 small set of dates to choose from. All these things are explained in the
 course, take some time to read and look at all these examples. This is
-the end of this video good luck ... good work !
+the end of this video good luck &#155; good work !
 
 &lt;end video transcript 5.3.4&gt;
 
@@ -19763,7 +19720,7 @@ One is called "<b>stringify()"</b> and will be useful for converting a
 JavaScript object into JSON. And the other one will be
 "<b>JSON.parse()</b>" that will take a JSON object, a JSON string, and give
 back a JavaScript object. Let&apos;s see some examples. I just took an
-array... if you try to stringify the array...you obtain an object that
+array&#155; if you try to stringify the array&#155;you obtain an object that
 contains the array with quotes around. This is the JSON notation of an
 array. If you&apos;ve got more complex objects, for example, this one: it&apos;s
 an object with different properties and one of the properties is an
@@ -19948,7 +19905,7 @@ only when the response arrives.
 This is how it works: "<b>xhr.onload</b> =" and you indicate the callback
 function, and usually, you also use the event as the only parameter. And
 here, we can just start trying to see if it works. I open the console,
-here, click on the button and see ... "xrh" is not defined. It&apos;s "xhr".
+here, click on the button and see &#155; "xrh" is not defined. It&apos;s "xhr".
 Ok, I clear the console! Yes, the response arrived. I can even use the
 devtool debugger. If I click on "Network", "XHR", clear. Click on the
 button, I will see the request here and if I click on it, I can see the
@@ -19964,12 +19921,12 @@ This has been printed by the "<b>console.log()</b>". In order to work with
 this object, I will need to convert it to a real JavaScript object:
 "users = (<b>xhr.response</b>)". But in order to turn it into JavaScript
 object, we use "JSON.parse()", you remember from the previous video? And
-here, just to debug I can try to write: 'first user' ...Because this
+here, just to debug I can try to write: 'first user' &#155;Because this
 object is an array, you see it&apos;s an array.
 
 Displaying the first of them should work. It says 'first user' is an
 object. I can also directly turn it into a string. Ok, parentheses is
-missing...And I can see this time, the first user, the 'first user' that
+missing&#155;And I can see this time, the first user, the 'first user' that
 has been displayed. Now we will use this! That will check that it works:
 we can call displayUsersAsATable(&#41;) passing the users. In order to
 insert a table here, first we need to create the table.
@@ -19979,8 +19936,8 @@ HTML div in the page that was called users, "id = "users". Then we
 create a table: <b>document.createElement(&quot;table&quot;)</b>;, and then we can
 try to insert rows for each user. So "users.forEach()" takes a callback
 with the first parameter being the current element of the user&apos;s array.
-"console.log(currentUser.name)"...let&apos;s try this to see if it works...
-Clear ... save...Click on the button... and I see the names of the
+"console.log(currentUser.name)"&#155;let&apos;s try this to see if it works&#155;
+Clear &#155; save&#155;Click on the button&#155; and I see the names of the
 users.
 
 Now, I&apos;m going to add a row to a table. "<b>table.insertRow()</b>;" put
@@ -19990,7 +19947,7 @@ for example, just the name.
 Here, I inserted rows whose content is the name of the user. And in the
 end, what we do is that we will add the table to the div. So,
 "<b>usersDiv.appendChild()</b>", or "append" works too on modern browsers,
-append(). And we put the table in it. Let&apos;s try...Clear. "<b>usersDiv</b>"
+append(). And we put the table in it. Let&apos;s try&#155;Clear. "<b>usersDiv</b>"
 with a "s" and it works! Now, in order to have a nice table, I could
 also add some CSS to make it better, or I can define some &lt;td&gt; (table
 data) to make a nicer table. And I can display for example another
@@ -20727,7 +20684,7 @@ equivalent to an &lt;input type=&quot;submit&quot;&gt;).</p>
 
 <pre>1.  &lt;form onsubmit=&quot;return formSubmitted();&quot;&gt;</pre>
 
-<p>... will call the formSubmitted function when the form is submitted. It
+<p>&#155; will call the formSubmitted function when the form is submitted. It
 is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
 
 <ul>
@@ -20799,8 +20756,8 @@ features we implemented in the previous page:</p>
   <li>Improve the CSS of the contact manager table.</li>
   <li>Add more complicated features to the contact manager:</li>
   <li>Add an extra column with a trash bin icon in it (you can use
-        this <a href="https://i.imgur.com/yHyDPio.png">one</a><img src=".images/image528.png 
-		style="width:.33" height:.33" alt="Trashbin icon">, do right click and &quot;save link
+        this <a href="https://i.imgur.com/yHyDPio.png">one</a><img src="./images/image528.png 
+		style="width:.33 height:.33" alt="Trashbin icon">, do right click and &quot;save link
         as&quot;). When you click on this icon, delete the contact.<br>
       <br>
         <p><i>Hint</i>: find a way to get the index of the current row in the
