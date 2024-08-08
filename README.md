@@ -10690,7 +10690,7 @@ codePen, open the devtool console):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 335. open the console and look at the js code (263) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image315.png?raw=true"
+<img src="./images/image335.png?raw=true"
   style="width:65%"
   title="Open the console and look at the JavaScript code"
   alt="Open the console and look at the JavaScript code." />
@@ -11117,10 +11117,16 @@ And here is a reminder of best practices when using the canvas:
 
 <h5>Examples</h5>
 
-<h5>Example #1: some drawing examples (wireframe and filled rectangle, filled circle, filled text, changing colors)</h5>
-
-![](./images/image343.png){width="5.0in"
-height="3.1068372703412073in"}
+<h5>Example #1: some drawing examples (wireframe and filled rectangle, filled circle, 
+filled text, changing colors)</h5>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~ 343.  ~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image343.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 <h5>Extract from the JavaScript code:</h5>
 
@@ -11206,11 +11212,15 @@ height="3.1068372703412073in"}
     we called ctx.fillStyle=&apos;purple&apos; before calling fillText(&#41;)
 
 <h5>Example #2: functions that save and restore the context before drawing</h5>
-
-![](./images/image344.png){width="5.0in"
-height="4.1442311898512685in"}
-
-<b>https://codepen.io/w3devcampus/pen/EWMbmE</b>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~ 344. CodePen: Functions that save and restore the context before drawing (2xx) ~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image344.png?raw=true"
+  style="width:65%"
+  title="CodePen: Functions that save and restore the context before drawing"
+  alt="CodePen: Functions that save and restore the context before drawing." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWMbmE">
+CodePen: Functions that save and restore the context before drawing</a>.</p>
 
 <h5><b>Explanations:</b></h5>
 
@@ -14197,8 +14207,13 @@ version of this MOOC: [custom player with nice CSS and
 buttons](https://jsbin.com/mayugik/1/edit?html,css,output)
 
 <h4>Project #2: a video quiz!</h4>
-
-![Media Player](./images/image414.png){width="1.0in" height="1.0in"} {#media-player .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 414.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image414.png?raw=true"
+  style="width:10%"
+  title="Media Playrer"
+  alt="Media Player." />
 
 Create a quiz based on videos - here is a proposed story telling:
 
@@ -14297,18 +14312,26 @@ estimation of a physical address from the longitude and latitude, using
 online Web services?
 
 <h5>How to get a map centered on your longitude and latitude</h5>
-
-![](./images/image415.png){width="6.0in"
-height="2.1038462379702536in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 415.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image415.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 This example is just given &quot;as is&quot;, as there are so many possibilities
 for rendering a map with [the Leaflet API for
 OpenStreetMaps](https://leafletjs.com/reference-1.6.0.html).
 (<https://leafletjs.com/index.html>) However, we think having such a
 basic example might be useful.
-
-![](./images/image416.png){width="5.0in"
-height="1.603632983377078in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 416.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image416.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 <https://codepen.io/w3devcampus/pen/LYVgyxE>
 
@@ -14415,9 +14438,13 @@ Let&apos;s see some examples of use.
 <h5>Example #1: how to get a physical address from the longitude and latitude</h5>
 
 Google reverse geocoding example (screenshot only):
-
-![](./images/image417.png){width="4.0in"
-height="3.261213910761155in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 417.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image417.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Source code of this example (in order to run it, you need a Google API
 key, used at <i>line 6</i>).
@@ -14532,9 +14559,13 @@ related questions are asked in this module&apos;s exercises or final exam.
 Please, pan and zoom on the map and click. The longitude and latitude
 are computed from your click and a free reverse geocoding service is
 used to convert to a physical address.
-
-![](./images/image418.png){width="5.0in"
-height="1.6164534120734908in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 418.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image418.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 <https://codepen.io/w3devcampus/pen/ZEQJQQp>
 
@@ -14543,9 +14574,13 @@ height="1.6164534120734908in"}
 Click on the Codepen logo on the top right to open 
 <a href="https://codepen.io/w3devcampus/pen/KKVXaRJ">the example in Codepen</a>. 
 Due to security reasons, it cannot run embedded in this page.
-
-![](./images/image419.png){width="5.0in"
-height="1.6164534120734908in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 419.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image419.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 <!-- <b>https://codepen.io/w3devcampus/pen/KKVXaRJ</b>](https://codepen.io/w3devcampus/pen/KKVXaRJ) -->
 
@@ -14560,9 +14595,13 @@ location of the person who is registering.
 Click on the Codepen logo (on the top right) so to run the [online
 example](https://codepen.io/w3devcampus/pen/MWKEJqM) (for security
 reasons the embedded version cannot run in this page):
-
-![](./images/image420.png){width="5.0in"
-height="1.6009612860892388in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 420.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image420.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 <!-- [<b>https://codepen.io/w3devcampus/pen/MWKEJqM</b>](https://codepen.io/w3devcampus/pen/MWKEJqM) -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14582,9 +14621,13 @@ post your comments/observations/questions or share your creations.
     there are browser extensions and applications that can help develop
     interactive maps. Please look for some of them and share your
     findings in the forum.
-
-<!-- ![devtool console geolocation simulation](./images/image421.jpeg){width="4.0in"
-height="1.840310586176728in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 421.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image421.jpeg?raw=true"
+  style="width:40%"
+  title="Devtool console geolocation simulation"
+  alt="Devtool console geolocation simulation." />
 
 -   Can you recommend good tutorials about Google Map and about
     OpenStreetMap, the two main services that propose maps on the fly?
@@ -14632,9 +14675,13 @@ control the play/pause of the music from JavaScript. Streaming music is
 perfect for providing a background atmosphere in a video game.</p>
 
 <h5>Here is one simple example of background music control from JavaScript:</h5>
-
-![](./images/image422.png){width="5.0in"
-height="1.6089741907261592in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 422.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image422.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 <!-- <https://codepen.io/w3devcampus/pen/ZeNpyx> -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14642,18 +14689,26 @@ height="1.6089741907261592in"}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding lesson: using sound samples
-
-![](./images/image423.png){width="6.0in"
-height="3.123077427821522in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 423.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image423.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Hello!
 
 The same way we made the small custom video player, you can also use the
 audio HTML element that is similar in its use to the video HTML element,
 for adding to your page an audio player.
-
-![](./images/image424.png){width="5.0in"
-height="2.966346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 424.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image424.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Here, the audio is streamed from a remote server, the same way with the
 video element, a video movie is streamed from a remote server.
@@ -14661,26 +14716,45 @@ video element, a video movie is streamed from a remote server.
 If you want to add background music to your game, you can use the audio
 player, but of course you will want to hide completely the buttons. If I 
 remove the controls attribute. Then, I can completely hide the player.
-
-![](./images/image425.png){width="5.0in"
-height="2.966346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 425.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image425.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Here, I kept some buttons for playing music or pausing it. But you saw
 that you can start playing the music from JavaScript. You can also&#41;
 directly start the music when the page is loaded. The same way I use the
 video player, I declare an audio player, here.
-
-![](./images/image426.png){width="6.5in" height="3.85625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 426.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image426.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 And in JavaScript, I&apos;ve got my button onclick="play()" that will call a
 play function, that will get a reference on the player.
-
-![](./images/image427.png){width="6.5in" height="3.85625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 427.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image427.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 This is the id of the player. You can see it here. And I&apos;m calling the
 play and pause methods to play and pause the music.
-
-![](./images/image428.png){width="6.5in" height="3.85625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 428.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image428.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 For sound effects, that will have to be played very fast,&#41; that last
 a very short time. It&apos;s better to load the sounds in memory and then
@@ -14689,30 +14763,55 @@ and kept in memory for a very fast use within video games. It&apos;s a bit
 complicated to use the low level WebAudio API. Some developers made some
 high level libraries for making this task easier. One of them is called
 howler.js (https://howlerjs.com/).
-
-![](./images/image429.png){width="6.5in" height="3.85625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 429.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image429.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 This is the Web site --- howler.js &quot;Make working with audio in
 JavaScript easy&quot;. You can read the documentations and look at samples
 here. The way we used it, is that we've just including it using a script
 tag.
-
-![](./images/image430.png){width="6.5in" height="3.85625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 430.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image430.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 This is the inclusion of a minified, a very short version of this
 library. And then from JavaScript, you can use it.
-
-![](./images/image431.png){width="6.5in" height="3.85625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 431.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image431.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Here we&apos;ve got a button that will play a very short sound... you see.
 Let&apos;s look at the way the play sound is implemented.
-
-![](./images/image432.png){width="6.5in" height="3.85625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image432.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 The play sound function just does "sound.play();", but the sound we are
 referring to, here, has been loaded when the page was ready.
-
-![](./images/image433.png){width="6.5in" height="3.85625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image433.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 So "window.onload = init;"... You saw that many times now. From then, we
 use the Howl library like this. "new Howl": you indicate the URL of your
@@ -14740,9 +14839,13 @@ WebAudio API. <a href="https://howlerjs.com/">HowlerJS is one of these</a>.</p>
 
 <h5>Example that uses Howler.js to load a sound sample from a remote server, then 
 decode it in memory, and play it:</h5>
-
-![](./images/image434.png){width="5.0in"
-height="1.584935476815398in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image434.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 <https://codepen.io/w3devcampus/pen/ZeNpEX>
 
@@ -14820,9 +14923,13 @@ sound loaded by Howler.JS, we just call the play() method (<i>line18</i>).
 
 Here is the last version of the game from Module 2 with music and sound
 effects (when the player eats a ball):
-
-![](./images/image435.png){width="5.0in"
-height="3.5806627296587927in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 435.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image435.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 <https://codepen.io/w3devcampus/pen/EWzgpr>
 
@@ -14841,9 +14948,13 @@ this sample has been loaded and decoded do we start the animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: a multiple image, sound and music loader
-
-![](./images/image436.png){width="6.0in"
-height="3.113461286089239in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image436.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 I prepared for you&#41; more for advanced users&#41; a multiple image,
 sound and music loader.
@@ -14950,9 +15061,13 @@ be used!
 
 Example (to hear the music and sound sample, there are two lines to
 uncomment in the <b>startGame(&#41;)</b> function):
-
-![](./images/image437.png){width="5.0in"
-height="4.250533683289588in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 437.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image437.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 <https://codepen.io/w3devcampus/pen/QpRGrz>
 
@@ -15036,10 +15151,13 @@ prize in [a W3C contest we organized in March
 -   [See the source code on
     CodePen](https://codepen.io/w3devcampus/pen/pemjRj) (also, you can
     play from there).
-
-![Star Warrior, an HTML5 games that uses the multiple asset
-loader](./images/image438.jpeg){width="5.0in"
-height="3.173611111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 438.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image438.jpeg?raw=true"
+  style="width:65%"
+  title="Star Warrior, an HTML5 games that uses the multiple asset loader"
+  alt="Star Warrior, an HTML5 games that uses the multiple asset loader." />
 
 2 - Skyward Bounds: written in less than a week by a group of students
 from the HTML5 Apps and Games course, during the Christmas 2016 session.
@@ -15058,18 +15176,27 @@ rotated, etc. It also uses the multiple asset loader presented.
     files)](https://courses.edx.org/assets/courseware/v1/cffe841c8d4fa99fd9d2fd002fe2fff7/asset-v1:W3Cx+JS.0x+2T2024+type@asset+block/gameForMooc.zip).
     (once unzipped, just double click index.html)
 
-![](./images/image439.png){width="5.0in"
-height="2.8336975065616796in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 439.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image439.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="Audio music." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-5">3.5.5 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your
-creations.![audio music](./images/image440.png){width="2.0in"
-height="2.0in"}
-
+creations.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 440.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image440.png?raw=true"
+  style="width:20%"
+  title=""
+  alt="Audio music." />
+  
 <h4>Suggested topics</h4>
 
 -   Who amongst you is a composer? Would you propose free music or free
@@ -15113,11 +15240,14 @@ height="2.0in"}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-1-1">4.1.1 Video introduction - Module 4 (1:53)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Video
-
-![](./images/image441.png){width="5.0in"
-height="2.6169870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 441.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image441.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Hey!
 
@@ -15232,9 +15362,13 @@ Features you will learn:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: object&apos;s properties
-
-![](./images/image442.png){width="6.0in"
-height="3.084615048118985in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 442.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image442.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Hello!
 
@@ -15256,8 +15390,13 @@ use the &apos;.&apos; operator followed by the name of the properties. js1.weeks
 will display the value of the week&apos;s properties for the object js1:
 &quot;the JavaScript 1 course lasts 5 weeks&quot;. You can also access other
 properties like author: &quot;Michel Buffa&quot;.
-
-![](./images/image443.png){width="6.5in" height="3.85625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 443.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image443.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Then let&apos;s have a look at some arrays. Here, we&apos;ve got an array named
 "darkVador1asAnArray" and you can access the different elements of an
@@ -15273,17 +15412,26 @@ with a property name and the &apos;.&apos; operator, they look rather similar.
 And if you look at the type of the "darkVador1asAnArray" variable, it&apos;s
 an object. In fact, objects declared with braces and pairs of property
 and name are very very similar to arrays because arrays are objects too.
-
-![](./images/image444.png){width="6.5in" height="3.85625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 444.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image444.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 If I use the name of the property with the brackets notation, look at
 that: darkVadorAsAnObject&lbrack;&rbrack;, the name of the property (job) then...
 you&apos;ve got the exact same result as if you're using the &apos;.&apos; operator.
 In JavaScript objects are arrays whose indexes are the property names.
 They are very very similar.
-
-![](./images/image445.png){width="6.0in"
-height="3.559615048118985in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 445.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image445.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Look at this object named "book": book.title ... Le Petit Prince and
 book&lbrack;&apos;title&apos;&rbrack; will give exactly the same result.Why would you use
@@ -15291,15 +15439,24 @@ this notation for accessing properties?
 
 It&apos;s because in some cases you can have property names that include
 spaces or that start with a number.
-
-![](./images/image446.png){width="6.0in"
-height="3.559615048118985in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 446.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image446.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 For example, if I write this: book&lbrack;&apos;1stPublication&apos;&rbrack; as an index, it
 works. And if I type the object book, I can see that I defined the
 property that is named &quot;1stPublication.
-
-![](./images/image447.png){width="6.5in" height="3.85625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 447.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image447.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 But if I use the &apos;.&apos; notation, and if I try to set this property,
 it&apos;s invalid because the property name when used with the &apos;.&apos;
@@ -15313,8 +15470,13 @@ property in a variable. For example, I&apos;ve got in the variable named
 "key", the "title" property name. And I want to access &quot;book.title",
 except that in that case the name of the property is the value of the
 "key" variable.
-
-![](./images/image448.png){width="6.5in" height="3.85625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 448.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image448.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 I type key ="name" ... "book2" that is an object with the name. I can
 type &quot;book2.key3", it&apos;s exactly the same as typing "book2.name". You
@@ -15486,21 +15648,29 @@ and &apos;&rbrack;&apos; &#41;</p>
 14. &gt; book.author.familyName;
 15. &quot;Heller&quot;
 </pre>
-
-![list of books](./images/image449.jpeg){width="1.0in"
-height="1.467095363079615in"}Accessing the embedded object author is
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 449.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image449.jpeg?raw=true"
+  style="width:10%"
+  title="List of books"
+  alt="List of books." />
+<p>Accessing the embedded object author is
 done by chaining property accesses using the &quot;.&quot; operator, like
 in book.author.givenName (here we access the givenName property of the
-object author, which is also a property of the book object).
-
+object author, which is also a property of the book object).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-5">4.2.5 Elements, properties and methods (6:37)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: object methods
-
-![](./images/image450.png){width="6.0in"
-height="3.0935892388451443in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 450.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image450.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Hello!
 
@@ -15527,26 +15697,38 @@ on the object person, you are talking to the person and you expect a
 behavior.
 
 It will describe itself.
-
-![](./images/image451.png){width="5.0in"
-height="2.966346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 451.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image451.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Let&apos;s have a look at some examples. so here we&apos;ve got an object named
 "medor" with the property "name" and the method "bark". If I open the
 console, I can type the name of the object. And, we see that it&apos;s got a
 name and a method.
-
-![](./images/image452.png){width="5.0in"
-height="2.966346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 452.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image452.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 And to call a method, it&apos;s the same as with accessing properties, you
 use the &apos;.&apos; operator, method . the name of the function followed by
 parenthesis and if the method take arguments, you would add arguments
 between parenthesis. It&apos;s just displayed an alert saying "Ouaf, Ouaf!"
 because the dog does "Ouaf, Ouaf!".
-
-![](./images/image453.png){width="5.0in"
-height="2.966346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 453.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image453.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Let&apos;s have a look at another example. Here, we&apos;ve got an object named
 darkVador with properties and a method. Here we&apos;ve got the
@@ -15562,20 +15744,32 @@ example. If there was a variable named "job", in that case it will
 display the name of variable. But if I&apos;ve had "this." before, it means
 the "job" of this object, the "job" property of this object. Let&apos;s try
 it.
-
-![](./images/image454.png){width="3.5in"
-height="2.0764424759405076in"}
-![](./images/image455.png){width="3.5in"
-height="2.0764424759405076in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 454/455.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image454.png?raw=true"
+  style="width:35%"
+  title=""
+  alt="." />
+<img src="./images/image455.png?raw=true"
+  style="width:35%"
+  title=""
+  alt="." />
+</p>
 
 You see that it displays "I&apos;m a human and I&apos;m a villain " blah blah
 blah...And "human" and "villain" are the values of the "race" and the
 "job" properties inside the object. "this.race" was used for displaying
 this value. You can also use the "this" keyword for calling a method
 from another method.
-
-![](./images/image456.png){width="5.0in"
-height="2.966346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 456.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image456.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 Let&apos;s add a "console.log("hello I&apos;m describeYourself!!!")", and let&apos;s
 call this describeYourself from the talk that is just above. For calling
@@ -15584,17 +15778,27 @@ method. And I save and if you call the talk method, you see that it says
 "hello I&apos;m describeYourself!!!" before displaying "come to the dark
 side", that is in the talk method, because this.describeYourself()
 executed describeYourself from the talk method.
-
-![](./images/image457.png){width="5.0in"
-height="2.966346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 457.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image457.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 In the example, I have also a click event listener that you can try that
 will display a message in the HTML5 page itself. It just shows that we
 can call method by using the name of this object followed by the name of
 the method with parentheses.
-
-![](./images/image458.png){width="5.0in"
-height="2.966346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 458.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image458.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 Ok, there is another interesting way to define objects and to add and
 remove properties and methods. You can describe an object with 0
@@ -15603,9 +15807,14 @@ can add properties and methods after its creation. We created an empty
 object named darkVador, and we defined properties (race and job),
 methods (talk and describeYourself) after the creation of the object.
 You can try this example, it will work the same.
-
-![](./images/image459.png){width="5.0in"
-height="2.966346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 459.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image459.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 And if we look at the value of the darkVador object in the devtool
 console (on the right), you see that it&apos;s a complete object that
@@ -15661,9 +15870,14 @@ Since a method is a property we can use the &apos;.&apos; operator (or bracket
 with the method&apos;s name as a string index).
 
 Let&apos;s see some examples:
-
-![](./images/image460.png){width="5.0in"
-height="1.6164534120734908in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 460.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image460.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 <https://codepen.io/w3devcampus/pen/RpmzQY>
 
@@ -15699,9 +15913,14 @@ talk. We invoke its behavior!
 <b>Another example with the player we saw briefly in Module 2</b>
 
 Here is the last version of the player object we saw in our small game:
-
-![](./images/image461.png){width="5.0in"
-height="1.6164534120734908in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 461.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image461.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 <https://codepen.io/w3devcampus/pen/xqNoJX>
 
@@ -15988,7 +16207,7 @@ or to remove properties after an object has been created.</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 465.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image463.png?raw=true"
+<img src="./images/image465.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
