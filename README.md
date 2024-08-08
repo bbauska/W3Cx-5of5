@@ -10541,7 +10541,9 @@ about CSS):</p>
   style="width:65%"
   title="Update style within html document"
   alt="Update style within html document." />
-<a href="https://codepen.io/w3devcampus/pen/evxoQq">CodePen: Update styles in document</a>
+</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/evxoQq">
+CodePen: Update styles in document</a>
 </p>
 
 <h4>Using the ClassList interface to change more than one CSS property simultaneously</h4>
@@ -10574,8 +10576,7 @@ collection of class names:</p>
 
 <pThe list of methods usable on a classList object are add(), remove(), toggle() and contains().</p>
 
-<pre>
-1.  // By default, start without a class in the div: &lt;div class=&quot;&quot;/&gt;
+<pre>1.  // By default, start without a class in the div: &lt;div class=&quot;&quot;/&gt;
 2. 
 3.  // Set &quot;foo&quot; as the class by adding it to the classList
 4.  div.classList.add(&apos;foo&apos;); // now &lt;div class=&quot;foo&quot;/&gt;
@@ -10597,7 +10598,7 @@ collection of class names:</p>
 
 <h4>Another example: add and remove multiple CSS properties in a list of checkboxes</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 333.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 333. show checked items & reset list (261) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image333.png?raw=true"
   style="width:65%"
@@ -10687,61 +10688,28 @@ There are subtle differences that can be seen in the above example
 (click the &apos;edit on CodePen&quot; part on the top left, and once in
 codePen, open the devtool console):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 335.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 335. open the console and look at the js code (263) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image315.png?raw=true"
   style="width:65%"
-  title=" "
-  alt="." />
+  title="Open the console and look at the JavaScript code"
+  alt="Open the console and look at the JavaScript code." />
 </p>
-
-<h5>HTML:</h5>
-
-<pre>1.  &lt;!DOCTYPE html&gt;
-2.    &lt;html lang=&quot;en&quot;&gt;
-3.    &lt;head&gt;
-4.      &lt;meta charset=&quot;utf-8&quot;&gt;
-5.      &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-6.      &lt;title&gt;Modifying content of selected DOM nodes&lt;/title&gt;
-7.    &lt;/head&gt;
-8.    &lt;body&gt;
-9.      &lt;h1&gt;Open the console and look at the JavaScript code!&lt;/h1&gt;
-10.     &lt;p id=&quot;first&quot;&gt;first paragraph&lt;/p&gt;
-11.     &lt;p id=&quot;second&quot;&gt;&lt;em&gt;second&lt;/em&gt; paragraph&lt;/p&gt;
-12.   &lt;/body&gt;
-13. &lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>1.  window.onload = init;
-2.  function init() {
-3.  // DOM is ready
-4.  var firstP = document.querySelector("#first");
-5.  console.log(firstP.textContent);
-6.  console.log(firstP.innerHTML);
-7.  firstP.textContent = &quot;Hello I'm the first paragraph&quot;;
-8.  console.log(firstP.textContent);
-9.  var secondP = document.querySelector("#second");
-10. console.log(secondP.textContent);
-11. console.log(secondP.innerHTML);
-12. secondP.textContent = "Hello I'm the second paragraph";
-13. console.log(secondP.textContent);
-14. console.log(secondP.innerHTML);
-15. }
-</pre>
+<p><a href="https://codepen.io/w3devcampus/pen/MpxEdj">
+CodePen: Open the console and look at the JavaScript code</a>.</p>
 
 <h5>Extract from the HTML code:</h5>
 
-<pre>&lt;p id="first"&gt;first paragraph&lt;/p&gt;
-&lt;p id="second"&gt;&lt;em&gt;second&lt;/em&gt; paragraph&lt;/p&gt;
+<pre>1.  &lt;p id="first"&gt;first paragraph&lt;/p&gt;
+2.  &lt;p id="second"&gt;&lt;em&gt;second&lt;/em&gt; paragraph&lt;/p&gt;
 </pre>
 
 <p>JavaScript code: the comments after lines that start
 with console.log correspond to what is printed in the devtool debug
 console. Notice the difference between the textNode value and
-the innerHTML property values at <i>lines 13-14</i>:
-while textContent returns only the text inside the second
+the innerHTML property values at <i>lines 13-14</i>:</p>
+
+<p>While textContent returns only the text inside the second
 paragraph, innerHTML also returns the &lt;em&gt;&hellip;&lt;/em&gt; that surrounds
 it. However, when we modify the textContent value, it also replaces the
 text decoration (the &lt;em&gt; is removed), this is done at <i>lines
@@ -10780,14 +10748,13 @@ field, etc.</p>
 
 <p>This example shows some of the things we can do:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 336.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 336. codepen: try these (264) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image336.png?raw=true"
   style="width:65%"
-  title="https://codepen.io/w3devcampus/pen/RpdjwE"
-  alt="https://codepen.io/w3devcampus/pen/RpdjwE." />
+  title="CodePen: Modifying DOM nodes with textContent and innerHTML"
+  alt="CodePen: Modifying DOM nodes with textContent and innerHTML." />
 </p>
-
 <p><a href="https://codepen.io/w3devcampus/pen/RpdjwE">CodePen (Modifying DOM Nodes with textContent and innerHTML</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-6">2.5.6 Adding new elements to the DOM</h3>
@@ -10800,29 +10767,19 @@ field, etc.</p>
   <li>Create a new element by calling the createElement() method, using a syntax like:</li>
 </ol>
 
-<pre>1  var elm = document.createElement(name_of_the_element).</pre>
+<pre>1. var elm = document.createElement(name_of_the_element)</pre>
 
-<h5>Examples:</h5>
+<h4>Examples:</h4>
 
-<pre>1  var li = document.createElement('li');
-2  var img = document.createElement('img'); etc.
+<pre>1.  var li = document.createElement('li');
+2.  var img = document.createElement('img'); etc.
 </pre>
 
 <ol start="2">
   <li>Set some attributes / values  / styles for this element.</li>
 </ol>
 
-<h5>Examples:</h5>
-
-<pre>1  var li = document.createElement('li');
-2  var img = document.createElement('img'); etc.
-</pre>
-
-<ol start="2">
-  <li>Set some attributes / values  / styles for this element.</li>
-</ol>
-
-<h5>Examples: </h5>
+<h4>Examples: </h4>
 
 <pre>1  li.innerHTML = '<b>This is a new list item in bold!</b>'; // can add HTML in it
 2  li.textContent = 'Another new list item';
@@ -10836,113 +10793,76 @@ using append(), appendChild(), insertBefore() or the innerHTML property.</p>
 
 <h4>Examples:</h4>
 
-<pre>var ul = document.querySelector('#myList');
-ul.append(li); // insert at the end, appendChild() could also be used (old)
-ul.prepend(li); // insert at the beginning
-ul.insertBefore(li, another_element_child_of_ul);// insert in the middle
-document.body.append(img); // adds the image at the end of the document
+<pre>1.  var ul = document.querySelector('#myList');
+2.  ul.append(li); // insert at the end, appendChild() could also be used (old)
+3.  ul.prepend(li); // insert at the beginning
+4.  ul.insertBefore(li, another_element_child_of_ul);// insert in the middle
+5.  document.body.append(img); // adds the image at the end of the document
 </pre>
 
 <h5>Example #1: use of the createElement(), append() methods and of the textContent attribute</h5>
 
-<h4>Example:</h4>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
-  &lt;h2&gt;JavaScript HTML DOM&lt;/h2&gt;
-  &lt;p&gt;Add a new HTML Element.&lt;/p&gt;
-  &lt;div id="div1"&gt;
-    &lt;p id="p1"&gt;This is a paragraph.&lt;/p&gt;
-    &lt;p id="p2"&gt;This is another paragraph.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;script&gt;
-    const para = document.createElement("p");
-    const node = document.createTextNode("This is new.");
-    para.appendChild(node);
-    const element = document.getElementById("div1");
-    element.appendChild(para);
-  &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 336.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 336. codepen: modify attributes of select elements (265) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image336.png?raw=true"
-  style="width:30%"
-  title=" "
-  alt="." />
+  style="width:65%"
+  title="CodePen: Modify attributes of select elements"
+  alt="CodePen: Modify attributes of select elements." />
 </p>
-<b>https://codepen.io/w3devcampus/pen/aWeqzO</b>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/aWeqzO">
+CodePen: Modify attributes of select elements</a>.</p>
 
-The DOM API comes with a set of methods you can use on DOM elements.
+<p>The DOM API comes with a set of methods you can use on DOM elements.</p>
 
-In general, to add new nodes to the DOM we follow these steps:
+<p>In general, to add new nodes to the DOM we follow these steps:</p>
 
 1.  Create a new element by calling the <b>createElement</b>() method,
-    using a syntax like:
+    using a syntax like:<br>
+	<pre>	1.  var elm = document.createElement(name_of_the_element)</pre>
+	<h5>Examples:</h5>
+	<pre>	1.  var li = document.createElement(&apos;li&apos;);
+		2.  var img = document.createElement(&apos;img&apos;); etc.
+	</pre>
 
-
-1.  var elm = document.createElement(name_of_the_element)
-
-<h5>Examples: {#examples-8 .unnumbered}
-
-1.  var li = document.createElement(&apos;li&apos;);
-
-2.  var img = document.createElement(&apos;img&apos;); etc.
-
-
-2.  Set some attributes / values  / styles for this element.
-    Examples: 
-
-
-1.  li.innerHTML = &apos;&lt;b&gt;This is a new list item in bold!&lt;/b&gt;&apos;; //
-    can add HTML in it
-
-2.  li.textContent = &apos;Another new list item&apos;;
-
-3.  li.style.color = &apos;green&apos;; // green text
-
-4.  img.src = &quot;https://&#133;./myImage.jpg&quot;; // url of the image
-
-5.  img.width = 200;
-
+2.  Set some attributes / values  / styles for this element.<br>
+	<h5>Examples:</h5>
+	<pre>	1.  li.innerHTML = &apos;&lt;b&gt;This is a new list item in bold!&lt;/b&gt;&apos;; // can add HTML in it
+	2.  li.textContent = &apos;Another new list item&apos;;
+	3.  li.style.color = &apos;green&apos;; // green text
+	4.  img.src = &quot;https://&#133;./myImage.jpg&quot;; // url of the image
+	5.  img.width = 200;
+	</pre>
 
 3.  Add the newly created element to another element in the DOM,
     using append(), appendChild(), insertBefore() or
-    the innerHTML property
-    Examples:
-
-
-1.  var ul = document.querySelector(&apos;#myList&apos;);
-
-2.  ul.append(li); // insert at the end, appendChild() could also be
-    used (old)
-
-3.  ul.prepend(li); // insert at the beginning
-
-4.  ul.insertBefore(li, another_element_child_of_ul);// insert in the
-    middle
-
-5.  document.body.append(img); // adds the image at the end of the
-    document
+    the innerHTML property<br>
+	<h5>Examples:</h5>
+	<pre>	1.  var ul = document.querySelector(&apos;#myList&apos;);
+		2.  ul.append(li); // insert at the end, appendChild() could also be used (old)
+		3.  ul.prepend(li); // insert at the beginning
+		4.  ul.insertBefore(li, another_element_child_of_ul);// insert in the middle
+		5.  document.body.append(img); // adds the image at the end of the document
+	</pre>
 
 <h5>Example #1: use of the <b>createElement(), append()</b> methods and of the <b>textContent</b> attribute {#example-1-use-of-the-createelement-append-methods-and-of-the-textcontent-attribute .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 337. codepen: example, createElement, append & textContent (266) ~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image337.png?raw=true"
+  style="width:65%"
+  title="CodePen: Example, createElement, append, and textContent"
+  alt="CodePen: Example, createElement, append, and textContent." />
+</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/aWeqz">
+CodePen: Enter a number &amp; add to list</a>.</p>
 
-![](./images/image337.png){width="5.0in"
-height="2.486111111111111in"}
-
-https://codepen.io/w3devcampus/pen/aWeqzO
-
-HTML code extract: we use an &lt;input type=&quot;number&quot;&gt; for entering a
+<p>HTML code extract: we use an &lt;input type=&quot;number&quot;&gt; for entering a
 number (<i>line 2</i>). Then if one clicks on the &quot;Add to the list&quot; button,
 the add() JavaScript function is called (<i>line 3</i>), this will add the
 typed number to the empty list at <i>line 7</i>. If one presses the &quot;reset&quot;
 button, it will empty this same list by calling the reset() JavaScript
-function.
+function.</p>
 
 <pre>
 1.  &lt;label for=&quot;newNumber&quot;&gt;Please enter a number&lt;/label&gt;
@@ -10963,69 +10883,75 @@ adding/deleting/modifying a DOM node&apos;s content.
 
 <pre>
 1.  function add() {
-2.  // get the current value of the input field
-3.  var val = document.querySelector(&apos;#newNumber&apos;).value;
+2.    // get the current value of the input field
+3.    var val = document.querySelector(&apos;#newNumber&apos;).value;
 4.  
-5.  if((val !== undefined) && (val !== &quot;&quot;)) {
-6.  // val exists and non empty
+5.    if((val !== undefined) && (val !== &quot;&quot;)) {
+6.      // val exists and non empty
 7.  
-8.  // get the list of numbers. It&apos;s a &lt;ul&gt;
-9.  var ul = document.querySelector(&quot;#numbers&quot;);
+8.      // get the list of numbers. It&apos;s a &lt;ul&gt;
+9.      var ul = document.querySelector(&quot;#numbers&quot;);
 10. 
-11. // add it to the list as a new &lt;li&gt;
-12. var newNumber = document.createElement(&quot;li&quot;);
-13. newNumber.textContent = val;
-14. // or newNumber.innerHTML = val
+11.     // add it to the list as a new &lt;li&gt;
+12.     var newNumber = document.createElement(&quot;li&quot;);
+13.     newNumber.textContent = val;
+14.     // or newNumber.innerHTML = val
 15. 
-16. ul.append(newNumber);
-17. }
+16.     ul.append(newNumber);
+17.   }
 18. }
 19. 
 20. function reset() {
-21. // get the list of numbers. It&apos;s a &lt;ul&gt;
-22. var ul = document.querySelector(&quot;#numbers&quot;);
+21.   // get the list of numbers. It&apos;s a &lt;ul&gt;
+22.   var ul = document.querySelector(&quot;#numbers&quot;);
 23. 
-24. // reset it: no children
-25. ul.innerHTML = &quot;&quot;;  
+24.   // reset it: no children
+25.   ul.innerHTML = &quot;&quot;;  
 26. }
 </pre>
 
 <h5>Example #2: using the innerHTML property to add new elements</h5>
 
-This is the same example, but in an abbreviated form, using
-the innerHTML property:
-
-![](./images/image338.png){width="5.0in"
-height="1.9294870953630796in"}
-
-<https://codepen.io/w3devcampus/pen/jBJbqM>
-
+<p>This is the same example, but in an abbreviated form, using
+the innerHTML property:</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 338. codepen: using innerHTML property to add new elements (268) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image338.png?raw=true"
+  style="width:65%"
+  title="CodePen: Using innerHTML property to add new elements"
+  alt="CodePen: Using innerHTML property to add new elements." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/jBJbqM">
+CodePen: Example, using innerHTML property</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-7">2.5.7 Moving HTML elements in the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-The <b>append()</b>, <b>appendChild()</b> methods normally adds  a new element
-to an existing one, as shown in this example:
+<p>The <b>append()</b>, <b>appendChild()</b> methods normally adds  a new element
+to an existing one, as shown in this example:</p>
 
 <pre>
 1.  var li = createElement(&apos;li&apos;);
 2.  ul.append(li); // adds the new li to the ul element
 </pre>
 
-One interesting thing to know is that if we do not create the new
+<p>One interesting thing to know is that if we do not create the new
 element, but rather get it from somewhere else in the document, it is
-then removed from its parents and added to the new parent.
+then removed from its parents and added to the new parent.</p>
 
-In other words: it moves from its original location to become a child of
-the <b>targetElem.</b>
+<p>In other words: it moves from its original location to become a child of
+the <b>targetElem.</b></p>
 
 <h5>Examples</h5>
 
 <h5>Example #1: a simple one</h5>
-
-![](./images/image339.png){width="5.0in"
-height="1.8450853018372704in"}
-
-<https://codepen.io/w3devcampus/pen/peYyPz>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 339. codepen: click a browser image to move to zone (268) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image339.png?raw=true"
+  style="width:65%"
+  title="CodePen: Click a browser image to move to zone area"
+  alt="CodePen: Click a browser image to move to zone area." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/peYyPz">CodePen Example #1, Click browser image to move to a zone</a>.</p>
 
 <h5>Example #2: a more significant example, that also uses drag&apos;n&apos;drop</h5>
 
@@ -11041,88 +10967,99 @@ When the image is dropped, the drop() method is called. As the drop
 event listener is declared on the two divs (on the left and the right),
 we just call append() on the target div element, and this will add the
 dragged image to the div, while removing it from its original location.
-
-![](./images/image340.png){width="5.0in"
-height="2.5422003499562553in"}
-
-<!-- <b>https://codepen.io/w3devcampus/pen/xwxEZg</b>](https://codepen.io/w3devcampus/pen/xwxEZg) -->
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 340. codepen: drag 'n drop browser images in a zone (269) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image340.png?raw=true"
+  style="width:65%"
+  title="Drag 'n drop browser images in a zone"
+  alt="Drag 'n drop browser images in a zone." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/xwxEZg">CodePen: Example #2, Drag 'n drop images</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-8">2.5.8 Removing elements from the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Removing elements using the removeChild() method</h5>
 
-Let&apos;s take an example that we&apos;ve already encountered. This time, you
-will check the elements you want to remove from the list!
+<p>Let&apos;s take an example that we&apos;ve already encountered. This time, you
+will check the elements you want to remove from the list!</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 341. codepen: removing elements from the dom (270) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image341.png?raw=true"
+  style="width:65%"
+  title="CodePen: Removing elements from the DOM"
+  alt="CodePen: Removing elements from the DOM." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/NpJxdX">
+CodePen: removing elements from the DOM</a>.</p>
 
-![](./images/image341.png){width="5.0in"
-height="2.4294870953630796in"}
-
-<!-- <b>https://codepen.io/w3devcampus/pen/NpJxdX</b>](https://codepen.io/w3devcampus/pen/NpJxdX) -->
-
-JavaScript code extract: we need to get the &lt;ul&gt; that contains all
+<p>JavaScript code extract: we need to get the &lt;ul&gt; that contains all
 the &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;&lt;/li&gt; elements (<i>line 3</i>). This
-is the element we will use for calling <b>removeChild(&#133;)</b>. The loop
-on the checked element (<i>lines 5-12</i>) iterates on a list of checked
+is the element we will use for calling <b>removeChild(&#133;)</b>.</p>
+
+<p>The loop on the checked element (<i>lines 5-12</i>) iterates on a list of checked
 input elements. In order to make both the text (Apples, Oranges, etc.)
-AND the checkbox disappears, we need to access the
-different &lt;li&gt; elements that contain the selected checkboxes. This is
-done in <i>line 10</i>. Then, we can call <b>ul.removeChild(li)</b> on
-the &lt;ul&gt; for removing the &lt;li&gt; that contains the selected element
-(<i>line 11</i>). 
+AND the checkbox disappears, we need to access the different &lt;li&gt; elements 
+that contain the selected checkboxes. This is done in <i>line 10</i>.</p>
+
+<p>Then, we can call <b>ul.removeChild(li)</b> on the &lt;ul&gt; for removing the 
+&lt;li&gt; that contains the selected element (<i>line 11</i>).</p>
 
 <pre>
 1.  function removeSelected() {
-2.  var list = document.querySelectorAll(&quot;#fruits input:checked&quot;);
-3.  var ul = document.querySelector(&quot;#fruits&quot;);
-4.  list.forEach(function(elm) {
+2.    var list = document.querySelectorAll(&quot;#fruits input:checked&quot;);
+3.    var ul = document.querySelector(&quot;#fruits&quot;);
+4.    list.forEach(function(elm) {
 5.  
-6.  // elm is an &lt;input type=&quot;checkbox&quot;&gt;, its parent is a li
-7.  // we want to remove from the &lt;ul&gt; list
-8.  // when we remove the &lt;li&gt;, the &lt;input&gt; will also
-9.  // be removed, as it&apos;s a child of the &lt;li&gt;
-10. var li = elm.parentNode;
-11. ul.removeChild(li);
-12. });
+6.      // elm is an &lt;input type=&quot;checkbox&quot;&gt;, its parent is a li
+7.      // we want to remove from the &lt;ul&gt; list
+8.      // when we remove the &lt;li&gt;, the &lt;input&gt; will also
+9.      // be removed, as it&apos;s a child of the &lt;li&gt;
+10.     var li = elm.parentNode;
+11.     ul.removeChild(li);
+12.   });
 13. }
 </pre>
 
 <h5>Removing all children of an element using the innerHTML property</h5>
 
-In the same example, if you look at the reset() JavaScript function, we
+<p>In the same example, if you look at the reset() JavaScript function, we
 use the ul&apos;s innerHTML property both for emptying the list (<i>lines
 3-4</i>) and for appending to it all the initial HTML code (<i>lines
-6-17</i>):
+6-17</i>):</p>
 
 <pre>
 1.  function reset() {
-2.  var ul = document.querySelector(&quot;#fruits&quot;);
-3.  // Empty the &lt;ul&gt;
-4.  ul.innerHTML = &quot;&quot;;
+2.    var ul = document.querySelector(&quot;#fruits&quot;);
+3.    // Empty the &lt;ul&gt;
+4.    ul.innerHTML = &quot;&quot;;
 5.  
-6.  // Adds each list item to the &lt;ul&gt; using innerHTML += &#133;
-7.  ul.innerHTML += &quot;&lt;li&gt;&lt;input type=&apos;checkbox&apos; name=&apos;fruit&apos;  
-                    value=&apos;apples&apos;&gt;Apples&lt;/li&gt;&quot;;
+6.    // Adds each list item to the &lt;ul&gt; using innerHTML += &#133;
+7.    ul.innerHTML += &quot;&lt;li&gt;&lt;input type=&apos;checkbox&apos; name=&apos;fruit&apos;  
+                      value=&apos;apples&apos;&gt;Apples&lt;/li&gt;&quot;;
 8.  
-9.  ul.innerHTML += &quot;&lt;input type=&apos;checkbox&apos; name=&apos;fruit&apos;
-10. value=&apos;oranges&apos;&gt;Oranges&lt;/li&gt;&lt;br&gt;&quot;;
+9.    ul.innerHTML += &quot;&lt;input type=&apos;checkbox&apos; name=&apos;fruit&apos;
+10.                   value=&apos;oranges&apos;&gt;Oranges&lt;/li&gt;&lt;br&gt;&quot;;
 11. 
-12. ul.innerHTML += &quot;&lt;input type=&apos;checkbox&apos; name=&apos;fruit&apos;
-13. value=&apos;bananas&apos;&gt;Bananas&lt;/li&gt;&lt;br&gt;&quot;;
+12.   ul.innerHTML += &quot;&lt;input type=&apos;checkbox&apos; name=&apos;fruit&apos;
+13.                   value=&apos;bananas&apos;&gt;Bananas&lt;/li&gt;&lt;br&gt;&quot;;
 14. 
-15. ul.innerHTML += &quot;&lt;input type=&apos;checkbox&apos; name=&apos;fruit&apos;
-16. value=&apos;grapes&apos;&gt;Grapes&lt;/li&gt;&quot;;
+15.   ul.innerHTML += &quot;&lt;input type=&apos;checkbox&apos; name=&apos;fruit&apos;
+16.                   value=&apos;grapes&apos;&gt;Grapes&lt;/li&gt;&quot;;
 17. }
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-1">2.6.1 Drawing (5:36)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Live coding lesson: basic example showing how to draw in a canvas.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 342. how to draw in a canvas (271) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image342.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt="." />
 
-Live coding video: basic example showing how to draw in a canvas
-
-![](./images/image342.png){width="5.0in"
-height="2.8258552055993in"}
+<!-- end transcript - to be entered -->
 
 The HTML5 canvas is a transparent element that is useful for drawing and
 animating. We&apos;ll see some simple examples here, as we&apos;re going to
@@ -15838,16 +15775,20 @@ properties from a method or call other methods.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-6">4.2.6 &quot;this&quot;: accessing properties (3:37)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h5>Live coding video: add methods to the player object from the game</h5>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 462. "this" (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image462.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
-Live coding video: add methods to the player object from the game
+<p>Let&apos;s have a look now at the game we developed during the first three
+modules.</p>
 
-![](./images/image462.png){width="6.0in"
-height="3.089744094488189in"}
-
-Let&apos;s have a look now at the game we developed during the first three
-modules.
-
-That&apos;s with a small red squared player that follow the mouse.
+<p>That&apos;s with a small red squared player that follow the mouse.</p>
 
 We had an animation loop that 60 times/second cleared the canvas, draws
 the player (the red square), moved the player, following the mouse, and
@@ -15906,130 +15847,140 @@ changing the position of the object on the screen.
 
 <h4>Source code of examples shown in the above video</h4>
 
--   Game without methods in the player object (example included in the
-    previous course page), [here on
-    CodePen](https://codepen.io/w3devcampus/pen/xqNoJX)
+<ul>
+  <li>Game without methods in the player object (example included in the previous 
+    course page), <a href="https://codepen.io/w3devcampus/pen/xqNoJX">here on CodePen</a>.</li>
+  <li>Game with methods (example also included in this course page), 
+    <a href="https://codepen.io/w3devcampus/pen/oZRrQd/">here on CodePen</a>.</li>
+</ul>
 
--   Game with methods (example also included in this course page), [here
-    on CodePen](https://codepen.io/w3devcampus/pen/oZRrQd/)
+<h4>The <b>this</b> keyword: accessing properties from a method</h4>
 
-<h4>The this keyword: accessing properties from a method</h4>
+<h5>The <b>this</b> keyword!</h5>
 
-<h5>The this keyword!</h5>
-
-When one wants to access an object property or wants to call another
+<p>When one wants to access an object property or wants to call another
 method from an object method, we must use the this keyword. In the code
-of the player object, this means &quot;from this object&quot;.
+of the player object, this means &quot;from this object&quot;.</p>
 
-<h4>Let&apos;s look at our game again, with a new version of the player object - this time fully functional:</h4>
-
-![](./images/image463.png){width="5.0in"
-height="3.716346237970254in"}
-
-<https://codepen.io/w3devcampus/pen/oZRrQd>
+<h5>Let&apos;s look at our game again, with a new version of the player object - 
+this time fully functional:</h5>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 463. "this" (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image463.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<a href="https://codepen.io/w3devcampus/pen/oZRrQd">CodePen for 'this' examples</a>.
+</p>
 
 <h5>JavaScript code extract:</h5>
 
-<pre>
-1.  var player = {
-2.  x:10,
-3.  y:10,
-4.  width:20,
-5.  height:20,
-6.  color:&apos;red&apos;,
+<pre>1.  var player = {
+2.    x:10,
+3.    y:10,
+4.    width:20,
+5.    height:20,
+6.    color:&apos;red&apos;,
 7.  
-8.  move: function(x, y) {
-9.  this.x = x; // this.x is the property of &quot;this object&quot;
-10. this.y = y;
-11. },
+8.    move: function(x, y) {
+9.      this.x = x; // this.x is the property of &quot;this object&quot;
+10.     this.y = y;
+11.   },
 12. 
-13. draw: function(ctx) {
-14. // draw the player at its current position
-15. // with current width, height and color
-16. // it&apos;s nearly the same code as the old drawFilledRect function
-17. ctx.save();
+13.   draw: function(ctx) {
+14.     // draw the player at its current position
+15.     // with current width, height and color
+16.     // it&apos;s nearly the same code as the old drawFilledRect function
+17.     ctx.save();
 18. 
-19. // translate the coordinate system, draw relative to it
-20. ctx.translate(this.x, this.y);
+19.     // translate the coordinate system, draw relative to it
+20.     ctx.translate(this.x, this.y);
 21. 
-22. ctx.fillStyle = this.color;
-23. // (0, 0) is the top left corner of the monster
-24. ctx.fillRect(0, 0, this.width, this.height);
+22.     ctx.fillStyle = this.color;
+23.     // (0, 0) is the top left corner of the monster
+24.     ctx.fillRect(0, 0, this.width, this.height);
 25. 
-26. // BEST practice: restore the context
-27. ctx.restore();
-28. }
+26.     // BEST practice: restore the context
+27.     ctx.restore();
+28.   }
 29. }
 </pre>
 
-Notice that we&apos;ve used this followed by the &apos;.&apos; operator every time
+<p>Notice that we&apos;ve used this followed by the &apos;.&apos; operator every time
 we&apos;ve had to access the current value of an object&apos;s property (<i>lines
-9, 10, 20, 22 and 24</i>).
+9, 10, 20, 22 and 24</i>).</p>
 
-We passed the canvas&apos; graphic context as a parameter to
+<p>We passed the canvas&apos; graphic context as a parameter to
 the draw method (it&apos;s always good not to create dependencies when
 making objects). Passing the context as a parameter avoids using it as a
 global variable. If in another project we&apos;ve got a context named
 &quot;context&quot; instead of &quot;ctx&quot;, then we will just change the parameter
 when we call player.draw, otherwise we would have had to rename all
-occurrences of ctx in the code).
+occurrences of ctx in the code).</p>
 
-Same with the mouse coordinates we passed to the move method.
+<p>Same with the mouse coordinates we passed to the move method.</p>
 
 <h4>Let&apos;s see the Dark Vador example with the use of this in a method</h4>
-
-![](./images/image464.png){width="5.0in"
-height="1.6063035870516185in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 464.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image464.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
 <https://codepen.io/w3devcampus/pen/JWqgGZ>
 
-<h5>JavaScript source code: {#javascript-source-code-2 .unnumbered}
+<h5>JavaScript source code:</h5>
 
 <pre>
 1.  var darkVador = {
-2.  race: &apos;human&apos;,
-3.  job: &apos;villain&apos;,
-4.  talk: function() {
-5.  return &apos;come to the dark side, Luke!&apos; + this.breathe();
-6.  },
-7.  describeYourself: function() {
-8.  return &quot;I&apos;m a &quot; + this.race + &quot; and I&apos;m a &quot; + this.job +
-9.  &quot; in a series of movies!&quot; + this.breathe();
-10. },
-11. breathe() {
-12. return &quot;&#41;..shhhhhhhhh&#41;..&quot;;
-13. }
+2.    race: &apos;human&apos;,
+3.    job: &apos;villain&apos;,
+4.    talk: function() {
+5.      return &apos;come to the dark side, Luke!&apos; + this.breathe();
+6.    },
+7.    describeYourself: function() {
+8.      return &quot;I&apos;m a &quot; + this.race + &quot; and I&apos;m a &quot; + this.job +
+9.      &quot; in a series of movies!&quot; + this.breathe();
+10.   },
+11.   breathe() {
+12.     return &quot;&#41;..shhhhhhhhh&#41;..&quot;;
+13.   }
 14. }
 15. 
 16. function dvSpeak() {
-17. document.body.innerHTML += &apos;&lt;p&gt;Dark Vador describes himself:
-    &apos; +     
-18. darkVador.describeYourself(); +
-19. &apos;&lt;/p&gt;&apos;;
-20. document.body.innerHTML += &apos;&lt;p&gt;Dark Vador says: &apos; +
-21. darkVador.talk(); +
-22. &apos;&lt;/p&gt;&apos;;
+17.   document.body.innerHTML += &apos;&lt;p&gt;Dark Vador describes himself:
+        &apos; +     
+18.   darkVador.describeYourself(); +
+19.   &apos;&lt;/p&gt;&apos;;
+20.   document.body.innerHTML += &apos;&lt;p&gt;Dark Vador says: &apos; +
+21.   darkVador.talk(); +
+22.   &apos;&lt;/p&gt;&apos;;
 23. }
 </pre>
 
-In this example, notice that the describeYourself method from the
+<p>In this example, notice that the describeYourself method from the
 darkVador object uses the two properties name and job using
 the this keyword. We also call the breathe method from the two
-methods describeYourself and talk, using this.breathe();
-
+methods describeYourself and talk, using this.breathe();</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-7">4.2.7 Adding/deleting properties and methods</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Properties and methods can be added/deleted after an object has been defined.</p>
 
-Properties and methods can be added/deleted after an object has been
-defined.
+<h5>Unlike other object-oriented languages, it is possible in JavaScript to add 
+or to remove properties after an object has been created.</h5>
 
-<h5>Unlike other object-oriented languages, it is possible in JavaScript to add or to remove properties after an object has been created.</h5>
-
-Examples:
-
-![](./images/image465.png){width="5.0in"
-height="1.6137817147856517in"}
+<h5>Examples:</h5>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 465.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image463.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
 <https://codepen.io/w3devcampus/pen/WpqeyK>
 
@@ -16058,11 +16009,15 @@ You can use the JavaScript keyword &quot;delete&quot; to delete an object&apos;s
 property (it will become undefined).
 
 <h5>Example:</h5>
-
-![](./images/image466.png){width="5.0in"
-height="3.3226498250218723in"}
-
-<https://codepen.io/w3devcampus/pen/RpzNEP>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 466.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image466.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<a href="https://codepen.io/w3devcampus/pen/RpzNEP">CodePen example</a>.
+</p>
 
 <h5>JavaScript code extract:</h5>
 
@@ -16072,20 +16027,17 @@ height="3.3226498250218723in"}
 3.  <b>delete darkVador.job;</b>
 4.  }
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-8">4.2.8 &quot;this&quot;: some final thoughts</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-We simplified the explanations for &quot;this&quot; in this introductory course.
+<p>We simplified the explanations for &quot;this&quot; in this introductory course.
 Normally, &quot;this&quot; is the current object when you use it inside an
-&quot;object literal&quot; (like in [this CodePen example from the
-course](https://codepen.io/w3devcampus/pen/JWqgGZ)).
+&quot;object literal&quot; (like in <a href="https://codepen.io/w3devcampus/pen/JWqgGZ">
+this CodePen example from the course</a>).</p>
 
-But&#41; we also met &quot;this&quot; in event listeners (see in [this example
-from the
-course](https://codepen.io/w3devcampus/pen/gmygzV?editors=1000)). Look
-at the onchange = &quot;changePageBackgroundColor(<b>this.value</b>);&quot; &#41;
+<p>But&#41; we also met &quot;this&quot; in event listeners (see in 
+<a href="https://codepen.io/w3devcampus/pen/gmygzV?editors=1000">this example from the course</a>). 
+Look at the onchange = &quot;changePageBackgroundColor(<b>this.value</b>);&quot; &#41;</p>
 
 In fact, the &quot;this&quot; keyword can be confusing in JavaScript. The key
 thing to remember is that <b>it is bound to the calling object when the
@@ -16102,46 +16054,50 @@ confusion about &quot;this&quot;.
 
 Let&apos;s study what is the concept of &quot;class&quot; in object oriented
 programming languages.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 467. dark vador and his friend pikachu (16x) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image467.jpeg?raw=true"
+  style="width:20%"
+  title="Dark vador and his friend named pikachu"
+  alt="Dark vador and his friend named pikachu." />
+<p>So far in this course, we&apos;ve only used
+singleton objects: objects that only occur once: player, darkVador, etc.</p>
 
-![dark vador and his friend named
-pikachu](./images/image467.jpeg){width="2.0in"
-height="3.4835279965004373in"}So far in this course, we&apos;ve only used
-singleton objects: objects that only occur once: player, darkVador, etc.
-
-Ok, this is not quite true, I&apos;d forgotten that we created many balls in
+<p>Ok, this is not quite true, I&apos;d forgotten that we created many balls in
 the module 2 game. We&apos;ll come back to this example further down the
-page!
+page!</p>
 
-But even with the balls from module 2, we did not use a template to tell
+<p>But even with the balls from module 2, we did not use a template to tell
 us how to easily create multiple objects that share the same properties
-and the same methods, but whose properties&apos; values may differ.
+and the same methods, but whose properties&apos; values may differ.</p>
 
-For example, imagine Luke Skywalker, Ian Solo and Dark Vador. What do
+<p>For example, imagine Luke Skywalker, Ian Solo and Dark Vador. What do
 they have in common? They all are Star Wars heroes, they all have a
 name, they all belong to one side (the good/bad people, or rebels vs
 empire), etc. Imagine that we have a way of programming that describes
 not the objects themselves, but a &quot;model&quot;, a &quot;template&quot; for these
 objects. We could call it StarWarsHero and use it for creating our
-heroes&apos; objects.
+heroes&apos; objects.</p>
 
-Imagine the balls from module 2: they all had the same shape (circle),
+<p>Imagine the balls from module 2: they all had the same shape (circle),
 the same x, y, radius and color properties, but they were all different.
 They all belonged to the same class of object (ball), but they were all
-different in terms of their properties&apos; values.
+different in terms of their properties&apos; values.</p>
 
-<b>In many programming languages, these templates are called
-&quot;classes&quot;.</b>
+<p><b>In many programming languages, these templates are called
+&quot;classes&quot;.</b></p>
 
--   Before 2015, in JavaScript 5 (also called ES5), we did not have such
-    a concept, instead we had &quot;constructor functions&quot;.
-
--   In modern JavaScript (after 2015),  we have the concept of classes,
+<ul>
+  <li>Before 2015, in JavaScript 5 (also called ES5), we did not have such
+    a concept, instead we had &quot;constructor functions&quot;.</li>
+  <li>In modern JavaScript (after 2015),  we have the concept of classes,
     and the syntax is rather similar to what we find in other object
-    oriented programming languages.
+    oriented programming languages.</li>
+</ul>
 
-Let&apos;s introduce these two ways of defining &quot;pseudo classes&quot; with
-ES5&apos;s function constructors, and with modern JavaScript&apos;s classes!
-
+<p>Let&apos;s introduce these two ways of defining &quot;pseudo classes&quot; with
+ES5&apos;s function constructors, and with modern JavaScript&apos;s classes!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-2">4.3.2 The &quot;new&quot; keyword (6:59)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -16255,12 +16211,14 @@ The 'new' operator here is for constructing, for building objects.
 
 <h5>Source code shown in this lesson</h5>
 
--   The example [can be found at
-    CodePen](https://codepen.io/w3devcampus/pen/eRBoyr?editors=0011)
+<ul>
+  <li>The example <a href="https://codepen.io/w3devcampus/pen/eRBoyr?editors=0011">
+    can be found at CodePen</a></li>
+</ul>
 
-Up to 2015, with JavaScript version 5 (and previous versions), you can
+<p>Up to 2015, with JavaScript version 5 (and previous versions), you can
 define a pseudo-class template called &quot;<b>a constructor function</b>&quot;.
-The syntax is the same as for creating a function, except that:
+The syntax is the same as for creating a function, except that:</p>
 
 1.  <b>By convention, its name is Capitalized.</b> The first letter of the
     function name is in uppercase, this is a good way to know, when you
@@ -16327,7 +16285,7 @@ height="2.310363079615048in"}
 
 <https://codepen.io/w3devcampus/pen/KWjMRw>
 
-JavaScript source code:
+<h5>JavaScript source code:</h5>
 
 <pre>
 1.  function Hero(name, side) {
@@ -16351,30 +16309,29 @@ JavaScript source code:
 19. }
 </pre>
 
-<i>Lines 1-9</i>: see how the constructor function is declared: the function
+<p><i>Lines 1-9</i>: see how the constructor function is declared: the function
 name starts with an uppercase letter &apos;<b>H</b>ero&apos;. The parameters have
 the same name as the properties they correspond to (name, side). And in
 the first source code lines after the function declaration, we
 initialize some properties using these parameters (*lines 2 and 3*). We
 use the this keyword to distinguish the property and the parameter. You
-will often see things like: this.name = name; this.age = age; etc.
+will often see things like: this.name = name; this.age = age; etc.</p>
 
-<i>Lines 11-13</i>: creation of three heroes. We use the same constructor
+<p><i>Lines 11-13</i>: creation of three heroes. We use the same constructor
 function (Hero) along with the new keyword. Luke, darkVador and ianSolo
 ARE each a Hero, and share the same properties (name, side, <i>lines 2 and
 3</i>) and the same behavior (they can speak, they all have a speak method,
-declared at <i>line 5</i>).
-
+declared at <i>line 5</i>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-3">4.3.3 Creating objects using modern JavaScript&apos;s classes (5:11)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Live coding video: modern JavaScript&apos;s classes
+Live coding lesson: modern JavaScript&apos;s classes
 
 ![](./images/image470.png){width="6.0in"
 height="3.075640857392826in"}
 
-In the last video, we saw JavaScript 5 constructor function that were
+In the last lesson, we saw JavaScript 5 constructor function that were
 useful for building multiple instances of the same template.
 
 Well, this constructor function syntax is OK but not easy to read.
@@ -16470,8 +16427,10 @@ modern browsers.
 
 <h4>Source code from above video examples</h4>
 
--   The source code [is available at
-    CodePen](https://codepen.io/w3devcampus/pen/mwOYWm)
+<ul>
+  <li>The source code <a href="https://codepen.io/w3devcampus/pen/mwOYWm">
+    is available at CodePen</a></li>
+</ul>
 
 ES5&apos;s constructor function syntax is not easy to read. If someone does
 not respect the &quot;conventions&quot; that we&apos;ve just discussed (start the
@@ -16629,7 +16588,7 @@ a y property.
 <h3 id="ch4-3-6">4.3.6 Static properties and methods (6:33)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Live coding video: static properties and methods
+Live coding lesson: static properties and methods
 
 ![](./images/image473.png){width="6.0in"
 height="3.0993591426071743in"}
@@ -16714,11 +16673,12 @@ getHowManyHeroesYouCreated()... 0!
 
 <h5>Source code from the examples in the above video</h5>
 
--   The first example [is available at
-    CodePen](https://codepen.io/w3devcampus/pen/NgbVQo?editors=0012)
-
--   The second example is further in this page, or [at
-    CodePen](https://codepen.io/w3devcampus/pen/rmOjrv?editors=0011)
+<ul>
+  <li>The first example <a href="https://codepen.io/w3devcampus/pen/NgbVQo?editors=0012">
+    is available at CodePen</a></li>
+  <li>The second example is further in this page, or 
+    <a href="https://codepen.io/w3devcampus/pen/rmOjrv?editors=0011">at CodePen</a></li>
+</ul>
 
 <h5>Class properties and methods vs. instances&apos; properties and methods</h5>
 
@@ -16777,20 +16737,20 @@ using this one for beginners.
 
 <pre>
 1.  class Point {
-2.  constructor(x, y) {
-3.  this.x = x;
-4.  this.y = y;
-5.  // static property
-6.  Point.nbPointsCreated++;
-7.  }
+2.    constructor(x, y) {
+3.      this.x = x;
+4.      this.y = y;
+5.      // static property
+6.      Point.nbPointsCreated++;
+7.    }
 8.  
-9.  // static method
-10. static distance(a, b) {
-11. const dx = a.x - b.x;
-12. const dy = a.y - b.y;
+9.    // static method
+10.   static distance(a, b) {
+11.     const dx = a.x - b.x;
+12.     const dy = a.y - b.y;
 13. 
-14. return Math.sqrt(dx&#41;dx + dy&#41;dy);
-15. }
+14.     return Math.sqrt(dx&#41;dx + dy&#41;dy);
+15.   }
 16. }
 17. // static property definition is necessarily outside of the class
     with ES6
@@ -16833,30 +16793,29 @@ property they define.
 
 <pre>
 1.  class Person {
-2.  constructor(givenName, familyName) {
-3.  this.givenName = givenName; // &quot;normal name&quot;
-4.  this.&#95;familyName = familyName; // starts with &quot;&#95;&quot;
-5.  }
+2.    constructor(givenName, familyName) {
+3.      this.givenName = givenName; // &quot;normal name&quot;
+4.      this.&#95;familyName = familyName; // starts with &quot;&#95;&quot;
+5.    }
 6.  
-7.  get familyName() {
-8.  return this.&#95;familyName.toUpperCase();
-9.  }
+7.    get familyName() {
+8.      return this.&#95;familyName.toUpperCase();
+9.    }
 10. 
-11. set familyName(newName) {
-12. // validation could be checked here such as
-13. // only allowing non numerical values
-14. this.&#95;familyName = newName;
-15. }
+11.   set familyName(newName) {
+12.     // validation could be checked here such as
+13.     // only allowing non numerical values
+14.     this.&#95;familyName = newName;
+15.   }
 16. 
-17. walk() {
-18. return (this.givenName + &apos; &apos; + this.&#95;familyName + &apos; is
-    walking.&apos;);
-19. }
+17.   walk() {
+18.     return (this.givenName + &apos; &apos; + this.&#95;familyName + &apos; is
+        walking.&apos;);
+19.   }
 20. }
 21. 
 22. let p1 = new Person(&apos;Michel&apos;, &apos;Buffa&apos;);
-23. console.log(p1.familyName); // will display BUFFA in the devtool
-    console
+23. console.log(p1.familyName); // will display BUFFA in the devtool console
 24. // this will call implicitly get familyName();
 25. p1.familyName = &apos;Smith&apos;;    // this will call implicitly set
     familyName(&apos;Smith&apos;);
@@ -16973,16 +16932,15 @@ We have built balls in order to fill the array of balls.
 3.  let ballArray = &lbrack;&rbrack;;
 4.  
 5.  // create n balls
-6.  for(let i=0; i &lt; n; i++) { **// let&apos;s build multiple times a
-    singleton object**
-7.  **let b = { **
-8.  **x:w/2,**
-9.  **y:h/2,**
-10. **radius: 5 + 30 &#41; Math.random(), // between 5 and 35**
-11. **speedX: -5 + 10 &#41; Math.random(), // between -5 and + 5**
-12. **speedY: -5 + 10 &#41; Math.random(), // between -5 and + 5**
-13. **color:getARandomColor(),**
-14. **}**
+6.  for(let i=0; i &lt; n; i++) { <b>// let&apos;s build multiple times a singleton object</b>
+7.  <b>let b = {</b>
+8.  <b>x:w/2,</b>
+9.  <b>y:h/2,</b>
+10. <b>radius: 5 + 30 &#41; Math.random(), // between 5 and 35</b>
+11. <b>speedX: -5 + 10 &#41; Math.random(), // between -5 and + 5</b>
+12. <b>speedY: -5 + 10 &#41; Math.random(), // between -5 and + 5</b>
+13. <b>color:getARandomColor(),</b>
+14. <b>}</b>
 15. // add ball b to the array
 16. ballArray.push(b);
 17. } // end of for loop
@@ -16998,28 +16956,28 @@ property name within the code, or forgot one of the properties that had
 to be initialized, we would have received no warnings. We will replace
 these lines with something like let b = new Ball(&#41;);
 
-**NEW VERSION**: using the new keyword and an ES6 class
+<b>NEW VERSION</b>: using the new keyword and an ES6 class
 
 <pre>1.  function createBalls2(n) {
-2.  // empty array
-3.  let ballArray = &lbrack;&rbrack;;
+2.    // empty array
+3.    let ballArray = &lbrack;&rbrack;;
 4.  
-5.  // create n balls
-6.  for(let i=0; i &lt; n; i++) {
-    a.  // Create some random values&#41;
-    b.  let x = w/2;
-    c.  let y = h/2;
-    d.  let radius = 5 + 30 &#41; Math.random(); // between 5 and 35
-    e.  let speedX = -5 + 10 &#41; Math.random(); // between -5 and + 5
-    f.  let speedY = -5 + 10 &#41; Math.random(); // between -5 and + 5
-    g.  let color = getARandomColor();
-    h.  // Create the new ball b
-    i.  let b = new Ball(x, y, radius, color, speedX, speedY);
-    j.  // add ball b to the array
-    k.  ballArray.push(b);
-7.  }
-8.  // returns the array full of randomly created balls
-9.  return ballArray;
+5.    // create n balls
+6.    for(let i=0; i &lt; n; i++) {
+7.      // Create some random values&#41;
+8.      let x = w/2;
+9.      let y = h/2;
+10.     let radius = 5 + 30 &#41; Math.random(); // between 5 and 35
+11.     let speedX = -5 + 10 &#41; Math.random(); // between -5 and + 5
+12.     let speedY = -5 + 10 &#41; Math.random(); // between -5 and + 5
+13.     let color = getARandomColor();
+14.     // Create the new ball b
+15.     let b = new Ball(x, y, radius, color, speedX, speedY);
+16.     // add ball b to the array
+17.     ballArray.push(b);
+18.   }
+8.    // returns the array full of randomly created balls
+9.    return ballArray;
 10. }
 </pre>
 
@@ -17114,7 +17072,7 @@ Anyway, if you plan to use your balls in another game, it is recommended
 that you keep the class as simple as possible. It will be more reusable
 in other projects.
 
-**New version** of the ES6 Ball class with draw and move methods:
+<b>New version</b> of the ES6 Ball class with draw and move methods:
 
 <pre>1.  class Ball {
 2.      constructor(x, y, radius, color, speedX, speedY) {
@@ -17145,7 +17103,7 @@ in other projects.
 27. }
 </pre>
 
-Explanations:
+<h5>Explanations:</h5>
 
 -   <i>Line 6</i>: the draw function&apos;s content is nearly the same as the
     drawFilledCircle function we previously used. We replaced all c.x,
