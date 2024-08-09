@@ -3418,7 +3418,8 @@ security reasons it cannot be run inside this course page</b>).</p>
   title="CodePen example; Geolocation mapping"
   alt="CodePen example; Geolocation mapping." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE" target="_blank" rel="noopener noreferrer">
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE" 
+target="_blank" rel="noopener noreferrer">
 CodePen: Geolocation Mapping</a></h6>
 
 <h4>3) work with remote data / speak with a remote HTTP Web server</h4>
@@ -3440,7 +3441,8 @@ famous rock bands:</p>
   alt="CodePen Example; Database lookup band members." />
 </p>
 
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJwpKq" target="_blank" rel="noopener noreferrer">CodePen: Database Lookup Band Members</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJwpKq" 
+target="_blank" rel="noopener noreferrer">CodePen: Database Lookup Band Members</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-3">1.3.3 Where to put JavaScript code (7:13)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3939,19 +3941,20 @@ able to type any JavaScript command.</p>
 <p>Let&apos;s look at this example below (or online as a 
 <a href="http://jsbin.com/moqimuz/edit?html,console,output" target="_blank" rel="noopener noreferrer">JS Bin)</a>:</p>
 
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&gt;
-&lt;head&gt;
-  &lt;meta charset=utf-8 /&gt;
-  &lt;title&gt;Web Audio API&lt;/title&gt;
-  &lt;script&gt;
-    console.log(&quot;Some JavaScript code has been executed&quot;);
-  &lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;JavaScript debugging using the dev tool console&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<pre>
+1.  &lt;!DOCTYPE html&gt;
+2.  &lt;html lang=&quot;en&gt;
+3.  &lt;head&gt;
+4.    &lt;meta charset=utf-8 /&gt;
+5.    &lt;title&gt;Web Audio API&lt;/title&gt;
+6.    &lt;script&gt;
+7.      console.log(&quot;Some JavaScript code has been executed&quot;);
+8.    &lt;/script&gt;
+9.  &lt;/head&gt;
+10. &lt;body&gt;
+11.   &lt;h1&gt;JavaScript debugging using the dev tool console&lt;/h1&gt;
+12. &lt;/body&gt;
+13. &lt;/html&gt;
 </pre>
 
 <p>The simplest way to add JavaScript code in an HTML page is to use
@@ -4450,8 +4453,8 @@ just give the name of the variable.</b></p>
 
 <h4>Example:</h4>
 
-<pre>var myVar;
-let x;
+<pre>1.  var myVar;
+2.  let x;
 </pre>
 
 <p>The first letter of a variable can only be &quot;&dollar;&quot;, 
@@ -4563,9 +4566,9 @@ error message:</p>
 
 <h4>Example:</h4>
 
-<pre>var myModel;
-// ES2015 syntax
-let michelBuffaAge = 51;
+<pre>1.  var myModel;
+2.  // ES2015 syntax
+3.  let michelBuffaAge = 51;
 </pre>
 
 <p>Most JavaScript examples you will find are written in the camelCase
@@ -4595,9 +4598,9 @@ error will be raised if you try to change their value in the future.</p>
 
 <h4>Example:</h4>
 
-<pre>var TIME_LIMIT;
-// ES2015 Syntax
-const MAX_GRADE = 20;
+<pre>1.  var TIME_LIMIT;
+2.  // ES2015 Syntax
+3.  const MAX_GRADE = 20;
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 155. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (124) ~~~~~~~~~~~-->
@@ -4612,17 +4615,17 @@ const MAX_GRADE = 20;
 <p>Here are a set of examples (using the let keyword, but they would also
 work with var):</p>
 
-<pre>let a;
-let thisIsAVariable;
-let and_this_too; // but <b>does not respect the usual naming convention</b>
-let mix12three;
-// invalid!
-let 2three4five; // <b>can't start with a digit!</b>
-let a = 1
-let v1, v2, v3 = 'hello', v4 = 4, v5;
-// Beware with lowercase / uppercase
-let case_matters = 'lower';
-let CASE_MATTERS = 'upper';
+<pre>1.  let a;
+2.  let thisIsAVariable;
+3.  let and_this_too; // but <b>does not respect the usual naming convention</b>
+4.  let mix12three;
+5.  // invalid!
+6.  let 2three4five; // <b>can't start with a digit!</b>
+7.  let a = 1
+8.  let v1, v2, v3 = 'hello', v4 = 4, v5;
+9.  // Beware with lowercase / uppercase
+10. let case_matters = 'lower';
+11. let CASE_MATTERS = 'upper';
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Scope of JS variables (4:19)</h3>
@@ -4901,14 +4904,14 @@ for example a number, a string, etc. ex: var x = 3; var name = "Buffa";</p>
   title="Red cards depicting primitive data types"
   alt="Red cards depicting primitive data types." />
 
-<pre>var x = 3; var name = "Buffa";
-&lt;a href="" target="_blank" rel="noopener noreferrer"&gt;a set of playing cards&lt;/a&gt;
+<pre>1.  var x = 3; var name = "Buffa";
+2.  &lt;a href="" target="_blank" rel="noopener noreferrer"&gt;a set of playing cards&lt;/a&gt;
 </pre>
 
 <p>Objects (everything that is not a &quot;primitive data type&quot; is an
 object):</p>
 
-<pre>var michel = {firstName:'Michel', lastName:'Buffa'};</pre>
+<pre>1.  var michel = {firstName:'Michel', lastName:'Buffa'};</pre>
 
 <p>There is a set of &quot;predefined objects&quot; in JavaScript (arrays,
 functions, etc). We will come back on these later in the course.</p>
@@ -4983,25 +4986,26 @@ for us, for explaining the data types.</p>
 
 <p>Examples of integer and decimals:</p>
 
-<pre>var n=1;
-undefined
-&gt; typeof n;
-"number"
-
-&gt; n=1234;
-1234
-
-&gt; typeof n;
-"number"
-
-&gt; n=1.23;
-1.23
-
-&gt; typeof n;
-"number"
-
-&gt; typeof 123;
-"number"</pre>
+<pre>1.  var n=1;
+2.  undefined
+3.  &gt; typeof n;
+4.  "number"
+5. 
+6.  &gt; n=1234;
+7.  1234
+8. 
+9.  &gt; typeof n;
+10. "number"
+11. 
+12. &gt; n=1.23;
+13. 1.23
+14. 
+15. &gt; typeof n;
+16. "number"
+17. 
+18. &gt; typeof 123;
+19. "number"
+</pre>
 
 <ul>
   <li><b>Scientific notation</b>: 3.46e4, 5.3e+6, 5344000e-5</li>
@@ -5011,26 +5015,27 @@ undefined
 
 <h4>Examples:</h4>
 
-<pre>&gt; 1e1;
-10
-
-&gt; 1e+1;
-10
-
-&gt; 2e+3;
-2000
-
-&gt; typeof 2e+3;
-"number"
-
-&gt; 2e-3;
-0.002
-
-&gt; 123.456E-3;
-0.123456
-
-&gt; typeof 2e-3;
-"number"</pre>
+<pre>1.  &gt; 1e1;
+2.  10
+3.  
+4.  &gt; 1e+1;
+5.  10
+6. 
+7.  &gt; 2e+3;
+8.  2000
+9. 
+10. &gt; typeof 2e+3;
+11. "number"
+12. 
+13. &gt; 2e-3;
+14. 0.002
+15. 
+16. &gt; 123.456E-3;
+17. 0.123456
+18. 
+19. &gt; typeof 2e-3;
+20. "number"
+</pre>
 
 <ul>
   <li><b>Octal</b>: 010</li>
@@ -5039,9 +5044,9 @@ undefined
 <p><b>Be careful with this, don&apos;t start an integer with 0 (zero),
 JavaScript will understand it as an octal value.</b></p>
 
-<pre>010 equals 8 which means 1 &ast; 8^1 + 0 &ast; 8^0</pre>
+<pre>1.  010 equals 8 which means 1 &ast; 8^1 + 0 &ast; 8^0</pre>
 
-<pre>The number 0456 means 4 &ast; 8^2 + 5 &ast; 8^1 + 6 &ast; 8^0</pre>
+<pre>1.  The number 0456 means 4 &ast; 8^2 + 5 &ast; 8^1 + 6 &ast; 8^0</pre>
 
 <p><b>Question 1</b>: What&apos;s the result, as an integer, of the
 operation: 24 - 024?</p>
@@ -5064,32 +5069,33 @@ value is 243</pre>
 
 <h4>Examples of octal and hexadecimal data types:</h4>
 
-<pre>&gt; var n3 = 0377;
-undefined
- 
-&gt; typeof n3;
-"number"
- 
-&gt; n3;
-255
- 
-&gt; var n4 = 0x00;
-undefined
- 
-&gt; typeof n4;
-"number"
- 
-&gt; n4;
-0
- 
-&gt; var n5 = 0xFF;
-undefined
- 
-&gt; typeof n5;
-"number"
- 
-&gt; n5;
-255</pre>
+<pre>1.  &gt; var n3 = 0377;
+2.  undefined
+3.  
+4.  &gt; typeof n3;
+5.  "number"
+6.  
+7.  &gt; n3;
+8.  255
+9.   
+10. &gt; var n4 = 0x00;
+11. undefined
+12.  
+13. &gt; typeof n4;
+14. "number"
+15.  
+16. &gt; n4;
+17. 0
+18.  
+19. &gt; var n5 = 0xFF;
+20. undefined
+21.  
+22. &gt; typeof n5;
+23. "number"
+24.  
+25. &gt; n5;
+26. 255
+</pre>
 
 <h5><b>Special values</b>:</h5>
 
@@ -5106,47 +5112,48 @@ than -1.79769313486231570e+308.</p>
 <p>Finally, Nan represents <b>not-a-number</b> values, for example if you try
 to divide 0 by 0 (type 0/0 in the devtool console).</p>
 
-<pre>&gt; 0 / 0;
-NaN
- 
-&gt; 3 / 0;
-Infinity</pre>
+<pre>1.  &gt; 0 / 0;
+2.  NaN
+3.  
+4.  &gt; 3 / 0;
+5.  Infinity
+</pre>
 
 <h4>Examples:</h4>
 
 <p>Any operation with Infinity gives Infinity as a result:</p>
 
-<pre>1.   &gt; Infinity;
-2.   Infinity
+<pre>1.  &gt; Infinity;
+2.  Infinity
 3.   
-4.   &gt; typeof Infinity;
-5.   "number"
+4.  &gt; typeof Infinity;
+5.  "number"
 6.   
-7.   &gt; 1e309;
-8.   Infinity
+7.  &gt; 1e309;
+8.  Infinity
 9.   
-10.  &gt; 1e308;
-11.  1e+308
+10. &gt; 1e308;
+11. 1e+308
 12.  
-13.  &gt; var a = 6 / 0;
-14.  undefined
+13. &gt; var a = 6 / 0;
+14. undefined
 15.  
-16.  &gt; a;
-17.  Infinity
+16. &gt; a;
+17. Infinity
 18.  
-19.  &gt; var i = -Infinity;
-20.  undefined
+19. &gt; var i = -Infinity;
+20. undefined
 21.  
-22.  &gt; i;
-23.  -Infinity
+22. &gt; i;
+23. -Infinity
 24.  
-25.  &gt; typeof i;
-26.  "number"
-27.  &gt; Infinity - Infinity;
-28.  NaN
+25. &gt; typeof i;
+26. "number"
+27. &gt; Infinity - Infinity;
+28. NaN
 29.   
-30.  &gt; -Infinity + Infinity;
-31.  NaN
+30. &gt; -Infinity + Infinity;
+31. NaN
 </pre>
 
 <pre>1.  &gt; Infinity - 20;
@@ -5200,8 +5207,10 @@ But there are approximation errors that are well-known in float
 calculations. One common example of errors due to the approximation of
 floating point numbers is that 0.1 + 0.2 does not equal 0.3.</p>
 
-<pre>&gt; 0.1 + 0.2;
-0.30000000000000004</pre>
+<pre>
+1.  &gt; 0.1 + 0.2;
+2.  0.30000000000000004
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 167. devtools console showing 0.1+0.2 is not equal to 0.3 (135) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5236,14 +5245,14 @@ prefixed or suffixed.</p>
 
 <h5>Unary operator example:</h5>
 
-<pre>typeof 'world';</pre>
+<pre>1.  typeof 'world';</pre>
 
 <p>A binary operator is applied to two different expressions, and is both 
 prefixed and suffixed.</p>
 
 <h5>Binary operator example:</h5>
 
-<pre>var x = 45 / 32;</pre>
+<pre>1.  var x = 45 / 32;</pre>
 
 <h5>The division operator is binary</h5>
 
@@ -5426,31 +5435,31 @@ both prefixed or suffixed, which have different effects:</p>
 <h4>Example #4: other versions of post and pre increments</h4>
 
 <pre>1.  &gt; var a = 123; var b = a++;
-2  Undefined
-3  
-4  &gt; b;
-5  123
-6  
-7  &gt; a;
-8  124
-9  
-10  &gt; var a = 123; var b = ++a;
-11  Undefined
-12  
-13  &gt; b;
-14  124
-15  
-16  &gt; a;
-17  124
-18  
-19  &gt; var a = 123; var b = a--;
-20  undefined
-21  
-22  &gt; b;
-23  123
-24  
-25  &gt; a;
-26  122
+2.  Undefined
+3.  
+4.  &gt; b;
+5.  123
+6.  
+7.  &gt; a;
+8.  124
+9.  
+10.  &gt; var a = 123; var b = ++a;
+11.  Undefined
+12.  
+13.  &gt; b;
+14.  124
+15.  
+16.  &gt; a;
+17.  124
+18.  
+19.  &gt; var a = 123; var b = a--;
+20.  undefined
+21.  
+22.  &gt; b;
+23.  123
+24.  
+25.  &gt; a;
+26.  122
 </pre>
 
 <h4>Example #5: short variant that mixes assignment and execution of an operator</h4>
@@ -5459,10 +5468,10 @@ both prefixed or suffixed, which have different effects:</p>
 value to a variable at the same time.<br>
 Code below (try it in the devtool console of your browser):</p>
 
-<pre>1  &gt; var a = 10;
-2  &gt; a &ast;= 5; // equivalent to a = a &ast; 5;
-3  &gt; console.log(a);
-4  &gt; 50
+<pre>1.  &gt; var a = 10;
+2.  &gt; a &ast;= 5; // equivalent to a = a &ast; 5;
+3.  &gt; console.log(a);
+4.  &gt; 50
 </pre>
 
 <h4>Example #6: more with pre operators +=, -=, *=, /=</h4>
@@ -5643,12 +5652,12 @@ strings.</p>
 
 <p>Another way to concatenate strings is the method concat():</p>
 
-<pre>//the 'concat' method
-var s1 = 'one';
-var s2 ='two';
-var s = s1.concat(s2);
-s;
-//returns 'onetwo'
+<pre>1.  //the 'concat' method
+2.  var s1 = 'one';
+3.  var s2 ='two';
+4.  var s = s1.concat(s2);
+5.  s;
+6.  //returns 'onetwo'
 </pre>
 
 <p>All the methods shown above can be used with a variable number of arguments:</p>
@@ -5713,13 +5722,13 @@ unless the formula is a pure addition.</p>
 with an empty string, at the beginning of expression (type this in the
 devtools):</p>
 
-<pre>var n = 1;
-typeof n;
-// returns "number"
-n = "" + n;
-// returns "1"
-typeof n;
-// returns "string"
+<pre>1.  var n = 1;
+2.  typeof n;
+3.  // returns "number"
+4.  n = "" + n;
+5.  // returns "1"
+6.  typeof n;
+7.  // returns "string"
 </pre>
 
 <h4>Special character: the &quot;&#92;&#92;&quot;</h4>
@@ -5727,47 +5736,47 @@ typeof n;
 <p>The &#92;&#92; is useful for &quot;escaping&quot; special characters. Here are a few
 examples:</p>
 
-<pre>var s = 'I don't know';
-var s = "I don't know"; // here the &#92; is useless
-var s = "I don't know";  // same result as previous line
-var s = '"Hello", he said.'; // ok, double quotes inside single one will be displayed
-var s = "&#92;"Hello&#92;", he said."; // double quotes inside double quotes need to be escaped
+<pre>1.  var s = 'I don't know';
+2.  var s = "I don't know"; // here the &#92; is useless
+3.  var s = "I don't know";  // same result as previous line
+4.  var s = '"Hello", he said.'; // ok, double quotes inside single one will be displayed
+5.  var s = "&#92;"Hello&#92;", he said."; // double quotes inside double quotes need to be escaped
 </pre>
 
 <h4>Escaping the escape! Use a double &quot;&#92;&quot;</h4>
 
-<pre>var s = "1&#92;&#92;2"; s;
-// returns "1&#92;2"
+<pre>1.  var s = "1&#92;&#92;2"; s;
+2.  // returns "1&#92;2"
 </pre>
 
 <h4>Special characters starting with &quot;&#92;&quot;</h4>
 
 <h5>&quot;&#92;n&quot; for &quot;next line&quot;:</h5>
 
-<pre>var s = '&#92;n1&#92;n2&#92;n3&#92;n';
-s
-// returns "
-1
-2
-3
-"
+<pre>1.  var s = '&#92;n1&#92;n2&#92;n3&#92;n';
+2.  s
+3.  // returns "
+4.  1
+5.  2
+6.  3
+7.  "
 </pre>
 
 <h5>&quot;&#92;r&quot; for &quot;carriage return&quot;:</h5>
 
-<pre>var s = '1&#92;r2';
-var s = '1&#92;n&#92;r2';
-var s = '1&#92;r&#92;n2';
-// the three previous lines give :
-"1
-2"
+<pre>1.  var s = '1&#92;r2';
+2.  var s = '1&#92;n&#92;r2';
+3.  var s = '1&#92;r&#92;n2';
+4.  // the three previous lines give :
+5.  "1
+6.  2"
 </pre>
 
 <h5>&quot;&#92;t&quot; for &quot;insert a tabulation&quot;:</h5>
 
-<pre>var s = "1&#92;t2"
-// s is equal to
-"1 2"
+<pre>1.  var s = "1&#92;t2"
+2.  // s is equal to
+3.  "1 2"
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-9">1.5.9 Objects, part 1</h3>
@@ -5807,12 +5816,13 @@ type window.location, etc.</p>
 <p>We will study these objects later, but for the moment, just play with
 objects :-)</p>
 
-<pre>&gt; window.innerHeight
-217
-&gt; window.innerWidth
-1704
-&gt; navigator.vendor
-"Google Inc."
+<pre>
+1.  &gt; window.innerHeight
+2.  217
+3.  &gt; window.innerWidth
+4.  1704
+5.  &gt; navigator.vendor
+6.  "Google Inc."
 </pre>
 
 <h4>You can define your own objects</h4>
@@ -5823,27 +5833,29 @@ now all you need to know is that they can have properties that hold
 values. We will return to objects in Week 4 and cover them in further
 detail.</p>
 
-<pre>var student1 = {
-    fullName:'John Doe',
-    age: 23,
-    city: 'New York',
-    ssn: "11-22-33-44" // no comma at the end of the last property
-}                      // declaration
+<pre>
+1.  var student1 = {
+2.    fullName:'John Doe',
+3.    age: 23,
+4.    city: 'New York',
+5.    ssn: "11-22-33-44" // no comma at the end of the last property
+6.  }                      // declaration
 </pre>
 
 <p>Accessing an object&apos;s properties: we use the operator &quot;.&quot;</p>
 
-<pre>&gt; student1.ssn
-"11-22-33-44"
-&gt; student1.age
-23
-&gt; student1
-&lbrack;object Object&rbrack; {
-    age: 23,
-    city: "New York",
-    fullName: "John Doe",
-    ssn: "11-22-33-44"
-}
+<pre>
+1.  &gt; student1.ssn
+2.  "11-22-33-44"
+3.  &gt; student1.age
+4.  23
+5.  &gt; student1
+6.  &lbrack;object Object&rbrack; {
+7.    age: 23,
+8.    city: "New York",
+9.    fullName: "John Doe",
+10.   ssn: "11-22-33-44"
+11. }
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-10">1.5.10 Arrays, part 1</h3>
@@ -7006,13 +7018,14 @@ can be seen as true/false.</b></p>
 
 <p>What is the value of the variable myNumber after the execution of this code?</p>
 
-<pre>var myNumber = !1;
- 
-if(myNumber == null){
-   myNumber = 3;
-}
- 
-myNumber = myNumber || 2;
+<pre>
+1.  var myNumber = !1;
+2. 
+3.  if(myNumber == null){
+4.    myNumber = 3;
+5.  }
+6.  
+7.  myNumber = myNumber || 2;
 </pre>
 
 <p><b>Explanation</b>: after the first line, myNumber equals false. In
@@ -7052,24 +7065,24 @@ have the same value.</p>
 
 <p>Some examples:</p>
 
-<pre>1 == 1;
-//true
- 
-1 == 2;
-//false
- 
-/* Here, the interpreter will try to convert the string '1'
-into a number before doing the comparison */
- 
-1 == '1';
-//true :
- 
-//with strict equal, no conversion:
- 
-1 === 1;
-//true
-1 === '1';
-//false
+<pre>1.  1 == 1;
+2.  //true
+3.  
+4.  1 == 2;
+5.  //false
+6.  
+7.  /* Here, the interpreter will try to convert the string '1'
+8.  into a number before doing the comparison */
+9.  
+10. 1 == '1';
+11. //true :
+12.  
+13. //with strict equal, no conversion:
+14.  
+15. 1 === 1;
+16. //true
+17. 1 === '1';
+18. //false
 </pre>
 
 <p>Depending on the context, generally strict equal (or strict not
@@ -7095,11 +7108,11 @@ is NaN: "Not-a-Number".</p>
 
 <h5>NaN has this special property:</h5>
 
-<pre>NaN == NaN;
-// false
- 
-NaN === NaN;
-// false
+<pre>1.  NaN == NaN;
+2.  // false
+3.  
+4.  NaN === NaN;
+5.  // false
 </pre>
 
 <p><b>Nan is equal to nothing - not even to itself!</b>. But you do have a function to 
@@ -7109,17 +7122,17 @@ check the NaN value: isNaN(expr).</p>
   <li>isNaN: returns true if the argument coerces to NaN, and otherwise returns false.</li>
 </ul>
 
-<pre>isNaN(NaN);
-// true
- 
-isNaN(0/0);
-// true
- 
-isNaN(12);
-// false
- 
-isNaN('foo');
-// true
+<pre>1.  isNaN(NaN);
+2.  // true
+3.  
+4.  isNaN(0/0);
+5.  // true
+6.  
+7.  isNaN(12);
+8.  // false
+9.  
+10. isNaN('foo');
+11. // true
 </pre>
 
 <p>&quot;A reliable way for ECMAScript code to test if a value X is a NaN, is
@@ -7130,25 +7143,25 @@ target="_blank" rel="noopener noreferrer">isNan documentation</a>).</p>
 
 <h5>A complete example with isNaN:</h5>
 
-<pre>var num =0/0;
- 
-if(isNaN(num)){
-   num = 0;
-}
-//shortened version with the conditional operator
-var num = isNaN(num) ? 0 : num
- 
-//version with logical operator (implicit conversion)
-var num = num || 0;
- 
-/*
-   &lt;=&gt; num = NaN || 0
- 
-   &lt;=&gt; num = false || 0
-*/
- 
-num;
-//returns 0 in this three cases
+<pre>1.  var num =0/0;
+2.  
+3.  if(isNaN(num)){
+4.    num = 0;
+5.  }
+6.  //shortened version with the conditional operator
+7.  var num = isNaN(num) ? 0 : num
+8.  
+9.  //version with logical operator (implicit conversion)
+10. var num = num || 0;
+11.  
+12. /*
+13.    &lt;=&gt; num = NaN || 0
+14.  
+15.    &lt;=&gt; num = false || 0
+16. */
+17.  
+18. num;
+19. //returns 0 in this three cases
 </pre>
 
 <p>Of course 0/0 rarely happens, but there are other cases where NaN can appear, for example:</p>
