@@ -10536,10 +10536,10 @@ the style attribute.</p>
 
 <h5>Typical use:</h5>
 
-<pre>// select the paragraph with id = &quot;paragraph1&quot;
-var p = document.querySelector(&apos;#paragraph1&apos;);
-// change its color
-p.style.color = &apos;red&apos;;
+<pre>1.  // select the paragraph with id = &quot;paragraph1&quot;
+2.  var p = document.querySelector(&apos;#paragraph1&apos;);
+3.  // change its color
+4.  p.style.color = &apos;red&apos;;
 </pre>
 
 <p><b>Warning</b>: with the style attribute, you can modify (or read) any CSS
@@ -10718,15 +10718,16 @@ we&apos;ve seen, and perhaps introduce a few new things&hellip;</p>
 given element. It can be used to modify the text content of an element,
 or to insert a whole set of HTML elements inside another one.</p>
 
-<b>Typical use:</b>
+<h4>Typical use:</h4>
 
-<pre>var elem = document.querySelector('#myElem');
-elem.innerHTML = 'Hello '; // replace content by Hello
-elem.innerHTML += '<b>Michel Buffa</b>', // append at the end
-// Michel Buffa in bold
-elem.innerHTML = 'Welcome' + elem.innerHTML; // insert Welcome
-// at the beginning
-elem.innerHTML = ''; // empty the elem
+<pre>
+1.  var elem = document.querySelector('#myElem');
+2.  elem.innerHTML = 'Hello '; // replace content by Hello
+3.  elem.innerHTML += '<b>Michel Buffa</b>', // append at the end
+4.  // Michel Buffa in bold
+5.  elem.innerHTML = 'Welcome' + elem.innerHTML; // insert Welcome
+6.  // at the beginning
+7.  elem.innerHTML = ''; // empty the elem
 </pre>
 
 <h4>Using the textContent property</h4>
@@ -10747,22 +10748,23 @@ codePen, open the devtool console):</p>
 <p><a href="https://codepen.io/w3devcampus/pen/MpxEdj">
 CodePen: Open the console and look at the JavaScript code</a>.</p>
 
-<h5>Extract from the HTML code:</h5>
+<h4>Extract from the HTML code:</h4>
 
-<pre>1.  &lt;p id="first"&gt;first paragraph&lt;/p&gt;
+<pre>
+1.  &lt;p id="first"&gt;first paragraph&lt;/p&gt;
 2.  &lt;p id="second"&gt;&lt;em&gt;second&lt;/em&gt; paragraph&lt;/p&gt;
 </pre>
 
 <p>JavaScript code: the comments after lines that start
 with console.log correspond to what is printed in the devtool debug
 console. Notice the difference between the textNode value and
-the innerHTML property values at <i>lines 13-14</i>:</p>
+the innerHTML property values at <b><i>lines 13-14</i></b>:</p>
 
 <p>While textContent returns only the text inside the second
 paragraph, innerHTML also returns the &lt;em&gt;&hellip;&lt;/em&gt; that surrounds
 it. However, when we modify the textContent value, it also replaces the
-text decoration (the &lt;em&gt; is removed), this is done at <i>lines
-16-20</i>.</p>
+text decoration (the &lt;em&gt; is removed), this is done at <b><i>lines
+16-20</i></b>.</p>
 
 <pre>1.  window.onload = init;
 2.   
@@ -10773,13 +10775,11 @@ text decoration (the &lt;em&gt; is removed), this is done at <i>lines
 7.     console.log(firstP.innerHTML);   // "first paragraph"
 8.   
 9.     firstP.textContent = "Hello I&apos;m the first paragraph";
-10.    console.log(firstP.textContent); // "Hello I&apos;m the first
-    paragraph"
+10.    console.log(firstP.textContent); // "Hello I&apos;m the first paragraph"
 11.                                      
 12.    var secondP = document.querySelector("#second");
 13.    console.log(secondP.textContent); // "second paragraph"
-14.    console.log(secondP.innerHTML);   // "<em>second</em>
-    paragraph"
+14.    console.log(secondP.innerHTML);   // "&lt;em&gt;second&lt;/em&gt; paragraph"
 15. 
 16.    secondP.textContent = "Hello I&apos;m the second paragraph";
 17.    console.log(secondP.textContent); // "Hello I&apos;m the second
@@ -10820,7 +10820,8 @@ field, etc.</p>
 
 <h4>Examples:</h4>
 
-<pre>1.  var li = document.createElement('li');
+<pre>
+1.  var li = document.createElement('li');
 2.  var img = document.createElement('img'); etc.
 </pre>
 
@@ -10830,11 +10831,12 @@ field, etc.</p>
 
 <h4>Examples: </h4>
 
-<pre>1  li.innerHTML = '<b>This is a new list item in bold!</b>'; // can add HTML in it
-2  li.textContent = 'Another new list item';
-3  li.style.color = 'green'; // green text
-4  img.src = "https://.&#133;/myImage.jpg"; // url of the image
-5  img.width = 200;
+<pre>
+1.  li.innerHTML = '<b>This is a new list item in bold!</b>'; // can add HTML in it
+2.  li.textContent = 'Another new list item';
+3.  li.style.color = 'green'; // green text
+4.  img.src = "https://.&#133;/myImage.jpg"; // url of the image
+5.  img.width = 200;
 </pre>
 
 <p>Add the newly created element to another element in the DOM, 
@@ -10842,7 +10844,8 @@ using append(), appendChild(), insertBefore() or the innerHTML property.</p>
 
 <h4>Examples:</h4>
 
-<pre>1.  var ul = document.querySelector('#myList');
+<pre>
+1.  var ul = document.querySelector('#myList');
 2.  ul.append(li); // insert at the end, appendChild() could also be used (old)
 3.  ul.prepend(li); // insert at the beginning
 4.  ul.insertBefore(li, another_element_child_of_ul);// insert in the middle
@@ -10867,31 +10870,38 @@ CodePen: Modify attributes of select elements</a>.</p>
 
 1.  Create a new element by calling the <b>createElement</b>() method,
     using a syntax like:<br>
-	<pre>	1.  var elm = document.createElement(name_of_the_element)</pre>
-	<h5>Examples:</h5>
-	<pre>	1.  var li = document.createElement(&apos;li&apos;);
-		2.  var img = document.createElement(&apos;img&apos;); etc.
-	</pre>
+<pre>
+1.  var elm = document.createElement(name_of_the_element)
+</pre>
+	
+<h5>Examples:</h5>
+	
+<pre>
+1.  var li = document.createElement(&apos;li&apos;);
+2.  var img = document.createElement(&apos;img&apos;); etc.
+</pre>
 
 2.  Set some attributes / values  / styles for this element.<br>
-	<h5>Examples:</h5>
-	<pre>	1.  li.innerHTML = &apos;&lt;b&gt;This is a new list item in bold!&lt;/b&gt;&apos;; // can add HTML in it
-	2.  li.textContent = &apos;Another new list item&apos;;
-	3.  li.style.color = &apos;green&apos;; // green text
-	4.  img.src = &quot;https://&#133;./myImage.jpg&quot;; // url of the image
-	5.  img.width = 200;
-	</pre>
+<h5>Examples:</h5>
+<pre>
+1.  li.innerHTML = &apos;&lt;b&gt;This is a new list item in bold!&lt;/b&gt;&apos;; // can add HTML in it
+2.  li.textContent = &apos;Another new list item&apos;;
+3.  li.style.color = &apos;green&apos;; // green text
+4.  img.src = &quot;https://&#133;./myImage.jpg&quot;; // url of the image
+5.  img.width = 200;
+</pre>
 
 3.  Add the newly created element to another element in the DOM,
     using append(), appendChild(), insertBefore() or
     the innerHTML property<br>
-	<h5>Examples:</h5>
-	<pre>	1.  var ul = document.querySelector(&apos;#myList&apos;);
-		2.  ul.append(li); // insert at the end, appendChild() could also be used (old)
-		3.  ul.prepend(li); // insert at the beginning
-		4.  ul.insertBefore(li, another_element_child_of_ul);// insert in the middle
-		5.  document.body.append(img); // adds the image at the end of the document
-	</pre>
+<h5>Examples:</h5>
+<pre>
+1.  var ul = document.querySelector(&apos;#myList&apos;);
+2.  ul.append(li); // insert at the end, appendChild() could also be used (old)
+3.  ul.prepend(li); // insert at the beginning
+4.  ul.insertBefore(li, another_element_child_of_ul);// insert in the middle
+5.  document.body.append(img); // adds the image at the end of the document
+</pre>
 
 <h5>Example #1: use of the <b>createElement(), append()</b> methods and of the <b>textContent</b> attribute {#example-1-use-of-the-createelement-append-methods-and-of-the-textcontent-attribute .unnumbered}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -15983,7 +15993,8 @@ Here is the last version of the player object we saw in our small game:
 32. }
 </pre>
 
-<h5>Now that we&apos;ve seen that we can include methods into objects, here is a better, more readable and more encapsulated version of our player object: {#now-that-weve-seen-that-we-can-include-methods-into-objects-here-is-a-better-more-readable-and-more-encapsulated-version-of-our-player-object .unnumbered}
+<h5>Now that we&apos;ve seen that we can include methods into objects, here is a better, 
+more readable and more encapsulated version of our player object:</h5>
 
 <pre>
 1.  var player = {
@@ -18824,7 +18835,7 @@ Here are some examples:
 
 Math.random() returns a float value between 0 and 1.
 
-<h5>Examples: {#examples-15 .unnumbered}
+<h5>Examples:</h5>
 
 <pre>1.  Math.random();
 2.  0.6033316111663034
@@ -19127,14 +19138,14 @@ Most of the time, we add some CSS rules for rendering cell/row/table
 borders and for adjusting spacing between the text in the cells and the
 cell borders. Let&apos;s look at some examples.
 
-<h5>Example #1: HTML table with a very light CSS styling {#example-1-html-table-with-a-very-light-css-styling .unnumbered}
+<h5>Example #1: HTML table with a very light CSS styling</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 488.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image488.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="CodePen: HTML table with a very light CSS styling"
+  alt="CodePen: HTML table with a very light CSS styling." />
 </p>
 
 <https://codepen.io/w3devcampus/pen/vmNQNQ>
@@ -19157,56 +19168,53 @@ cell borders. Let&apos;s look at some examples.
 
 </b>Explanations</b>:
 
--   <i>Line 1</i>: this rule says that the table will occupy the width of
+-   <b><i>Line 1</i></b>: this rule says that the table will occupy the width of
     the window and will have a black, continuous border that is one
     pixel wide.
 
--   <i>Line 7</i>: this rule says that table rows, table cells and table
+-   <b><i>Line 7</i></b>: this rule says that table rows, table cells and table
     headers will also have a border and will use the font family
     Courier.
 
--   <i>Line 12</i>: this says that all cells will have the text
+-   <b><i>Line 12</i></b>: this says that all cells will have the text
     horizontally centered and an internal margin (called padding) of
     10px in each direction (top, bottom, left, right).
 
 <h5>Example #2: with more CSS styling (flat design)</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 489.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 489. codepen: html table with a very light css styling (465) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image489.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="CodePen: HTML table with a very light CSS styling"
+  alt="CodePen: HTML table with a very light CSS styling." />
 </p>
-
-<https://codepen.io/w3devcampus/pen/MmKYNx>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/MmKYNx">
+CodePen: HTML table with a very light CSS styling</a>.</p>
 
 <h5>Example #3: with colored lines, header, footer, legend</h5>
 
-Look at the CSS - it&apos;s the only part that changed:
+<h5>Look at the CSS - it&apos;s the only part that changed:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 490.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 490. codepen: change css (466) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image490.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="CodePen: change CSS"
+  alt="CodePen: change CSS." />
 </p>
-
-<https://codepen.io/w3devcampus/pen/gWPppo>
-
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/gWPppo">CodePen: change css</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-2">5.3.2 The HTML table JavaScript API (4:43)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding video: HTML table JavaScript API
+<p>Live coding video: HTML table JavaScript API</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 491.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 491. the html table js api (467) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image491.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="The HTML table JavaScript API"
+  alt="The HTML table JavaScript API." />
 </p>
 
 This time, we will talk about HTLM tables and their JavaScript API.
@@ -19318,7 +19326,7 @@ you create a table using the DOM API, you get a Table object:
 
 Like all objects, an instance of Table will have properties and methods:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 492.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 492. most useful properties (469) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image492.png?raw=true"
   style="width:65%"
@@ -19326,7 +19334,7 @@ Like all objects, an instance of Table will have properties and methods:
   alt=" ." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 493.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 493. most useful methods (470) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image493.png?raw=true"
   style="width:65%"
@@ -19337,7 +19345,7 @@ Like all objects, an instance of Table will have properties and methods:
 Example that adds a new row or removes a row to/from a table using
 the insertRow()/deleteRow() methods:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 494.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 494. codepen: a typical html table (470) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image494.png?raw=true"
   style="width:65%"
@@ -19382,34 +19390,34 @@ Like all objects, a tableRow object has properties and methods. Here are
 the most useful ones:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 495.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 495. most useful properties; cells, rowIndex and sectionRowIndex (471) ~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image495.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="Most useful properties; cells, rowIndex and sectionRowIndex"
+  alt="Most useful properties; cells, rowIndex and sectionRowIndex." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 496.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 496. most useful methods; insertCell()/deleteCell (471) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image496.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="Most useful methods; insertCell() and deleteCell()"
+  alt="Most useful methods; insertCell() and deleteCell()." />
 </p>
 
 Below are new versions of the previous examples, but instead of using
 the innerHTML of the TableRow object, we use the insertCell() method.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 497.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 497. a typical html table (472) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image497.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="A typical HTML table"
+  alt="A typical HTML table." />
 </p>
-
-<https://codepen.io/w3devcampus/pen/OmMmGr>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/OmMmGr">
+CodePen: a typical HTML table</a>.</p>
 
 <h5>Notice how we&apos;ve created the new row cells:</h5>
 
@@ -19492,12 +19500,12 @@ disabilities.
 Form fields and other form controls usually have visible labels, such as
 &quot;E-mail Address:&quot; as the label for a text field (see figure below).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 498.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 498. E-mail address (473) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image498.png?raw=true"
   style="width:20%"
-  title=" "
-  alt=" ." />
+  title="E-mail address"
+  alt="E-mail address." />
 </p>
 
 When these labels are marked up correctly, people can interact with them
@@ -19514,12 +19522,12 @@ the id of the form control. 
 
 <h4>Example #1 (click on the label, not on the input field to see the effect):</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 499.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 499. first name (474) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image499.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="First name"
+  alt="First name." />
 </p>
 
 <h5>Source code:</h5>
@@ -19548,12 +19556,12 @@ readers](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_st
 
 <h5>Example #2 (click on the label &quot;Subscribe to newsletter&quot; to see the effect):</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 500.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 500. First name and Subscribe to newsletter checkbox (474) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image500.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="First name and Subscribe to newsletter checkbox"
+  alt="First name and Subscribe to newsletter checkbox." />
 </p>
 
 <h5>Source code:</h5>
@@ -19591,20 +19599,20 @@ Source code for an example of &quot;Submit&quot; and &quot;Cancel&quot; buttons:
 
 These will produce the same results:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 501.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 501. Submit and Cancel buttons (475) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image501.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="Submit and Cancel buttons"
+  alt="Submit and Cancel buttons." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 502.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 502. Labeling text areas: Enter your address (475) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image502.png?raw=true"
   style="width:20%"
-  title=" "
-  alt=" ." />
+  title="Labeling text areas: Enter your address"
+  alt="Labeling text areas: Enter your address." />
 </p>
 
 <h5>Source code:</h5>
@@ -19634,12 +19642,12 @@ In the example below, there are three radio buttons that allow the user
 to choose an output format. Radio button groups should always be grouped
 using &lt;fieldset&gt;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 503.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 503. Output formats; text, csv and html (476) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image503.png?raw=true"
   style="width:15%"
-  title=" "
-  alt=" ." />
+  title="Output formats; text, csv and html"
+  alt="Output formats; text, csv and html." />
 </p>
 
 <h5>Source code:</h5>
@@ -19663,12 +19671,12 @@ using &lt;fieldset&gt;.
 In the example below, there are three checkboxes that are all part of an
 opt-in function for receiving different types of information.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 504.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 504. example checkboxes (477) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image504.png?raw=true"
   style="width:20%"
-  title=" "
-  alt=" ." />
+  title="Example checkboxes"
+  alt="Example checkboxes." />
 </p>
 
 <h5>Source code:</h5>
@@ -19701,12 +19709,12 @@ MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: HTML Forms Best Practices</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 505.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 505. html forms best practices (478) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image505.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="HTML forms best practices"
+  alt="HTML forms best practices." />
 </p>
 
 Hi everybody. For this first video, we will talk about traditional form
@@ -19817,17 +19825,15 @@ client-side part, with a focus on JavaScript processing.
 
 Typical example:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 506.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 506. codepen: form input sent to server without JavaScript (481) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image506.png?raw=true"
   style="width:65%"
-  title="CodePen: "
-  alt="CodePen: ." />
+  title="CodePen: form input can be sent to a server without JavaScript"
+  alt="CodePen: form input can be sent to a server without JavaScript." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/ZKQJBR">CodePen: example</a>.</p>
-
-![](./images/image506.png){width="5.0in"
-height="4.058760936132983in"}
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/ZKQJBR">
+CodePen: form input sent to server without JavaScript</a>.</p>
 
 <h5>HTML form input can be sent to a server without JavaScript</h5>
 
@@ -19851,14 +19857,15 @@ present. Notice that the JavaScript part is only used for giving
 feedback while entering the password. No JavaScript is used for sending
 the form data, or for complex, global validation:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 507.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 507. codepen: validating user input 'on the fly' using js (482) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image507.png?raw=true"
   style="width:65%"
-  title="CodePen: "
-  alt="CodePen: ." />
+  title="CodePen: validating user input 'on the fly' using JavaScript"
+  alt="CodePen: validating user input 'on the fly' using JavaScript." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/pPgWoq">CodePen: example</a>.</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/pPgWoq">
+CodePen: validating user input 'on the fly' using JavaScript</a>.</p>
 
 <h5>HTML form input can be sent using Ajax / JavaScript</h5>
 
@@ -19875,14 +19882,15 @@ feedback.
 We&apos;ve already seen how we can track the keys typed in an input field in
 real time:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 508.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 508. codepen: simple input field validation (483) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image508.png?raw=true"
   style="width:65%"
-  title="CodePen: "
-  alt="CodePen: ." />
+  title="CodePen: simple input field validation using the 'input' event"
+  alt="CodePen: simple input field validation using the 'input' event." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/XMQpRa">CodePen: example</a>.</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/XMQpRa">
+CodePen: simple input field validation</a>.</p>
 
 <h5>JavaScript can be used for a more global validation before sending a form to a remote server</h5>
 
@@ -19890,14 +19898,15 @@ Example: checking that a password entered twice is identical in two
 different input fields, that some values are coherent (e.g. a birthday
 cannot be in the future), etc.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 509.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 509. codepen: example use of validation api (483) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image509.png?raw=true"
   style="width:65%"
-  title="CodePen: "
-  alt="CodePen: ." />
+  title="CodePen: example use of the validation API"
+  alt="CodePen: example use of the validation API." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/gWPxvL">CodePen: example</a>.</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/gWPxvL">
+CodePen: example use of the validation API</a>.</p>
 
 JavaScript can be used to make a WebApp that uses form data locally,
 perhaps with some client-side persistence API
@@ -19929,12 +19938,12 @@ post your comments/observations/questions or share your creations.
 
 <h5>Optional projects</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 510.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
-<p align="left" width="100%">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 510. magnifying glass (484) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
 <img src="./images/image510.png?raw=true"
-  style="width:10%"
-  title="CodePen: "
-  alt="CodePen: ." />
+  style="width:20%"
+  title="Magnifying glass"
+  alt="Magnifying glass." />
 </p>
 
 -   Add a search input field + a search button to the dynamic table
@@ -19954,7 +19963,7 @@ post your comments/observations/questions or share your creations.
     a previous and a next page button. You will display the table with
     15 rows per page, not more!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 511.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 511. prev (left) and next (right arrow)  (484) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image511.png?raw=true"
   style="width:20%"
@@ -19964,16 +19973,15 @@ post your comments/observations/questions or share your creations.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-1">5.4.1 What is JSON? (4:42)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding video: JSON notation, working with <b>LocalStorage</b> and
-remote data
+<p>Live coding video: JSON notation, working with <b>LocalStorage</b> and
+remote data</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 512.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 512. json notation, working with localStorage (485) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image512.png?raw=true"
   style="width:65%"
-  title="CodePen: "
-  alt="CodePen: ." />
+  title="JSON notation, working with LocalStorage"
+  alt="JSON notation, working with LocalStorage." />
 </p>
 
 Hi! I would like to present you the JSON format that is string-based
@@ -20140,12 +20148,12 @@ object, and we can access its properties (<b><i>lines 16 and 19</i></b>).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding Video: Xhr2, remote JSON data, dynamic table</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 513.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 513. CodePen: consuming JSON remote data (488) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image513.png?raw=true"
   style="width:65%"
-  title="CodePen: "
-  alt="CodePen: ." />
+  title="CodePen: consuming JSON remote data"
+  alt="CodePen: consuming JSON remote data." />
 </p>
 
 Hi!
