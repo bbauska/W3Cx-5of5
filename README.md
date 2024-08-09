@@ -13964,11 +13964,15 @@ getUserMedia to work.
 pages. Click on &quot;Edit on CodePen&quot; to run them.</b>
 
 <h5>First version that uses callbacks (success/error, see the JS code):</h5>
-
-![](./images/image408.png){width="5.0in"
-height="1.6116447944007in"}
-
-<!-- <b>https://codepen.io/w3devcampus/pen/OpYNBE</b>](https://codepen.io/w3devcampus/pen/OpYNBE) -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 408.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image408.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpYNBE">
+CodePen: example</a>.</p>
 
 <h5>Second version that uses a new JavaScript syntax called &quot;promises&quot;:</h5>
 
@@ -13977,12 +13981,14 @@ to the webcam, <b>THEN</b> when the webcam is ready, please tell me so that
 I can display its stream in a &lt;video&gt; element. Otherwise, send me an
 alert&quot;. (note that we&apos;ve put the alert in a comment in the CodePen
 below).
-
-![](./images/image409.png){width="5.0in"
-height="1.603632983377078in"}
-
-[<b>https://codepen.io/w3devcampus/pen/EWzKrK</b>](https://codepen.io/w3devcampus/pen/EWzKrK)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 409.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image409.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWzKrK">CodePen: example</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-5">3.3.5 Extended examples</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14001,10 +14007,14 @@ the code.
 Please see this example online, originally written by [Chris
 Heilmann](https://christianheilmann.com/), and tuned by us ;).
 
-![](./images/image410.png){width="5.0in"
-height="1.603632983377078in"}
-
-<!-- <b>https://codepen.io/w3devcampus/pen/bGqjVWG</b>](https://codepen.io/w3devcampus/pen/bGqjVWG) -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 410.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image410.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/bGqjVWG">CodePen: example</a>.</p>
 
 Don&apos;t forget to click the JavaScript and CSS tabs of the CodePen in
 order to display the JavaScript code that creates the buttons on the
@@ -14025,11 +14035,15 @@ This example shows a lot:
 
 This example also shows how to handle failures. See the code and play
 with this example below:
-
-![](./images/image411.png){width="5.0in"
-height="1.603632983377078in"}
-
-[<b>https://codepen.io/w3devcampus/pen/abJjvqY</b>](https://codepen.io/w3devcampus/pen/abJjvqY)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 411.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image411.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/abJjvqY">CodePen: example</a>.</p>
+<!-- <b></b>](https://codepen.io/w3devcampus/pen/abJjvqY) -->
 
 Below is a piece of code for handling errors during video playback:
 
@@ -14076,11 +14090,14 @@ Below is a piece of code for handling errors during video playback:
 <h5>Example #3: how to display a percentage of buffering when using a slow connection</h5>
 
 Check the example below:
-
-![](./images/image412.png){width="5.0in"
-height="1.588140857392826in"}
-
-<https://codepen.io/w3devcampus/pen/vYxaNMq>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 412.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image412.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/vYxaNMq">CodePen: example</a>.</p>
 
 Note that on mobile phones, the video does not start until the user
 presses the play control or clicks on the video picture. Using the
@@ -14169,12 +14186,14 @@ previously.
 
 Here is the online example. We recommend that you look at the source
 code:
-
-![](./images/image413.png){width="5.0in"
-height="1.603632983377078in"}
-
-<https://codepen.io/w3devcampus/pen/LYWBGYa>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 413.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image413.png?raw=true"
+  style="width:10%"
+  title=""
+  alt="." />
+<p align="left"><a href="https://codepen.io/w3devcampus/pen/LYWBGYa">CodePen example</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-6">3.3.6 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -15882,8 +15901,7 @@ Let&apos;s see some examples:
   title=""
   alt="." />
 </p>
-
-<https://codepen.io/w3devcampus/pen/RpmzQY>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/RpmzQY">CodePen: example</a>.</p>
 
 <h5>JavaScript source code:</h5>
 
@@ -15925,8 +15943,7 @@ Here is the last version of the player object we saw in our small game:
   title=""
   alt="." />
 </p>
-
-<https://codepen.io/w3devcampus/pen/xqNoJX>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/xqNoJX">CodePen: example</a>.</p>
 
 <h5>JavaScript source code:</h5>
 
@@ -16164,8 +16181,7 @@ occurrences of ctx in the code).</p>
   style="width:50%"
   title=""
   alt="." />
-
-<https://codepen.io/w3devcampus/pen/JWqgGZ>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/JWqgGZ">CodePen: example</a>.</p>
 
 <h5>JavaScript source code:</h5>
 
@@ -16216,8 +16232,7 @@ or to remove properties after an object has been created.</h5>
   style="width:50%"
   title=""
   alt="." />
-
-<https://codepen.io/w3devcampus/pen/WpqeyK>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/WpqeyK">CodePen: example</a>.</p>
 
 <h5>JavaScript code extract:</h5>
 
@@ -16336,11 +16351,15 @@ ES5&apos;s function constructors, and with modern JavaScript&apos;s classes!</
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-2">4.3.2 The &quot;new&quot; keyword (6:59)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding lesson: the &quot;new&quot; keyword
-
-![](./images/image468.png){width="6.0in"
-height="3.114102143482065in"}
+<p>Live coding lesson: the &quot;new&quot; keyword</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 468.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image468.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 So far, in this course, we&apos;ve only used singleton objects: objects that
 only occur once.
@@ -16442,7 +16461,7 @@ but with different values that have been passed at construction time.
 
 The 'new' operator here is for constructing, for building objects.
 
-&lt;video 4.3.2 transcript above&gt;
+<!-- &lt;video 4.3.2 transcript above&gt; -->
 
 <h5>Source code shown in this lesson</h5>
 
@@ -16514,9 +16533,14 @@ The syntax is the same as for creating a function, except that:</p>
     }
 
 <h5>Full interactive example that uses a constructor function</h5>
-
-![](./images/image469.png){width="5.0in"
-height="2.310363079615048in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 469.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image469.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 <https://codepen.io/w3devcampus/pen/KWjMRw>
 
@@ -16544,27 +16568,31 @@ height="2.310363079615048in"}
 19. }
 </pre>
 
-<p><i>Lines 1-9</i>: see how the constructor function is declared: the function
+<p><b><i>Lines 1-9</i></b>: see how the constructor function is declared: the function
 name starts with an uppercase letter &apos;<b>H</b>ero&apos;. The parameters have
 the same name as the properties they correspond to (name, side). And in
 the first source code lines after the function declaration, we
-initialize some properties using these parameters (*lines 2 and 3*). We
+initialize some properties using these parameters (<b><i>lines 2 and 3</i></b>). We
 use the this keyword to distinguish the property and the parameter. You
 will often see things like: this.name = name; this.age = age; etc.</p>
 
-<p><i>Lines 11-13</i>: creation of three heroes. We use the same constructor
+<p><b><i>Lines 11-13</i></b>: creation of three heroes. We use the same constructor
 function (Hero) along with the new keyword. Luke, darkVador and ianSolo
-ARE each a Hero, and share the same properties (name, side, <i>lines 2 and
-3</i>) and the same behavior (they can speak, they all have a speak method,
-declared at <i>line 5</i>).</p>
+ARE each a Hero, and share the same properties (name, side, <b><i>lines 2 and
+3</i></b>) and the same behavior (they can speak, they all have a speak method,
+declared at <b><i>line 5</i></b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-3">4.3.3 Creating objects using modern JavaScript&apos;s classes (5:11)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding lesson: modern JavaScript&apos;s classes
-
-![](./images/image470.png){width="6.0in"
-height="3.075640857392826in"}
+<p>Live coding lesson: modern JavaScript&apos;s classes</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 470.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image470.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 In the last lesson, we saw JavaScript 5 constructor function that were
 useful for building multiple instances of the same template.
@@ -16711,33 +16739,36 @@ class syntax:
 11. var darkVador = new Hero(&quot;Dark Vador&quot;, &quot;empire&quot;);
 </pre>
 
--   <i>Line 1</i>: a class is simply defined using the
+<ul>
+  <li><b><i>Line 1</i></b>: a class is simply defined using the
     keyword class followed by the name of the class. Like for
-    constructor functions, the convention is to use a noun, capitalized.
-
--   <i>Line 2</i>: the constructor is defined using
+    constructor functions, the convention is to use a noun, capitalized.</li>
+  <li><b><i>Line 2</i></b>: the constructor is defined using
     the constructor keyword. <b>THERE CAN BE ONLY ONE CONSTRUCTOR in the
     class.</b>  A SyntaxError will be thrown if the class contains more
     than one occurrence of a constructor method. No more use of
     the function keyword. Simply use the constructor keyword followed by
-    the parameters.
+    the parameters.</li>
+</ul>
 
 The instructions in the body of the constructor are executed when an
 object is created using the keyword new followed by the name of the
 class, with arguments between parentheses. These arguments will be
 passed to the constructor.
 
--   <i>Line 7</i>: a method is simply defined by its name followed by its
+-   <b><i>Line 7</i></b>: a method is simply defined by its name followed by its
     parameters. <b>Again, no more use of the function keyword.</b>
 
 See below an interactive example that uses an ES6 class to create Star
 Wars&apos; heroes.
-
-![](./images/image471.png){width="5.0in"
-height="2.6581200787401573in"}
-
-<https://codepen.io/w3devcampus/pen/PpMpBo>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 471.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image471.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/PpMpBo">CodePen: example</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-4">4.3.4 Declaring a class before using it</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -16778,9 +16809,15 @@ Correct version =&gt;
 We have already seen three different ways to create objects (literals,
 constructor functions and ES6 classes).
 
-Objects can be created as "literals"
-: ![](./images/image472.png){width="2.0in"
-height="1.2542377515310585in"}
+<p>Objects can be created as "literals":</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 472.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image472.png?raw=true"
+  style="width:20%"
+  title=" "
+  alt=" ." />
+</p>
 
 <pre>
 1.  var darkVador = { firstName:'Dark', lastName:'Vador'};
@@ -16824,9 +16861,14 @@ a y property.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding lesson: static properties and methods
-
-![](./images/image473.png){width="6.0in"
-height="3.0993591426071743in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 473.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image473.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 Hi, let&apos;s talk again about classes, properties and methods. So far, we
 saw classes that are templates for building objects. And in the class,
@@ -16950,9 +16992,14 @@ heroes he created&quot;. We have class properties and instance properties.
 How do we distinguish them? By using the static keyword. When you see a
 method preceded by the static keyword, it means that you see a class
 property or a class method.
-
-![](./images/image474.png){width="6.364583333333333in"
-height="2.1666666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 474.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image474.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 <h5>Class properties</h5>
 
@@ -17004,12 +17051,15 @@ using this one for beginners.
 </pre>
 
 <h5>Running example:</h5>
-
-![](./images/image475.png){width="5.0in"
-height="3.359508967629046in"}
-
-<https://codepen.io/w3devcampus/pen/rmOjrv>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 475.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image475.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/rmOjrv">CodePen: example</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-7">4.3.7 &lbrack;Advanced&rbrack; Modern JavaScript&apos;s getters and setters</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17068,12 +17118,15 @@ convention is to use this.**&#95;**familyName for storing its value (the
 same name preceded by an underscore).
 
 <h5>Example at CodePen:</h5>
-
-![](./images/image476.png){width="5.0in"
-height="4.8108978565179354in"}
-
-<https://codepen.io/w3devcampus/pen/WOoQgw>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 476.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image476.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/WOoQgw">CodePen: example</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-8">4.3.8 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17388,20 +17441,29 @@ previous section of this course.
 
 And here is the CodePen version of the game that includes these
 improvements:
-
-![](./images/image477.png){width="5.0in"
-height="3.4305555555555554in"}
-
-<https://codepen.io/w3devcampus/pen/EWzgpr>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 477.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image477.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWzgpr">CodePen: example</a>.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-1-1">5.1.1 Video introduction - Module 5 (1:31)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Lesson: Introduction to Module 5
-
-![](./images/image478.png){width="6.0in"
-height="3.0942311898512687in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 478.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image478.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 Adding interactivity to your Web documents often involves the use of
 different input fields.
@@ -17459,9 +17521,14 @@ previous modules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding lesson: references and objects
-
-![](./images/image479.png){width="6.0in"
-height="3.0801279527559053in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 479.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image479.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 References and objects.
 
@@ -17672,9 +17739,14 @@ Other example:
 
 Comparing two objects will only return true if they point to the same
 object (i.e., if they have the same reference).
-
-![](./images/image480.png){width="2.0in"
-height="0.9746839457567804in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 480.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image480.png?raw=true"
+  style="width:20%"
+  title=" "
+  alt=" ." />
+</p>
 
 Two objects of the same type, with the same property value, that look
 identical, will not be equal one to another if they don't have the same
@@ -17777,9 +17849,13 @@ Predefined functions are methods from the global object window:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-4">5.2.4 Built-in JS class: Object (3:12)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](./images/image481.png){width="6.0in"
-height="3.089102143482065in"}
+<!--~~~~~~~~~~~~~~~~~~~ 481.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image481.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 Hello!
 
@@ -17889,8 +17965,14 @@ The <b>ValueOf</b> method returns the value of an object:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: predefined object - Array
-
-![](./images/image482.png){width="6.0in" height="3.1076924759405076in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 482.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image482.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 Hi!
 
@@ -18057,20 +18139,25 @@ Some horrible things we can do with arrays (TO AVOID!):
 13. &gt; a.length
 14. 3
 15.  
-16. **// Now let's add a name property to the array. Yes, we can do that!**
+16. // Now let's add a name property to the array. Yes, we can do that!
 17.  
-18. **&gt; a.name = &quot;I&apos;m an array named a!&quot;;**
-19. **&quot;I&apos;m an array named a!&quot;**
-20. ** **
-21. **&gt; a.length;**
-22. **3**
-23. ** **
-24. **&gt; a;**
-25. **&lbrack;1, 2, 3, name: &quot;I&apos;m an array named a!&quot;&rbrack;**
+18. &gt; a.name = &quot;I&apos;m an array named a!&quot;;
+19. &quot;I&apos;m an array named a!&quot;
+20. 
+21. &gt; a.length;
+22. 3
+23. 
+24. &gt; a;
+25. &lbrack;1, 2, 3, name: &quot;I&apos;m an array named a!&quot;&rbrack;
 </pre>
-
-![](./images/image483.png){width="6.5in"
-height="0.5576388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 483.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image483.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 <h5><b>The length property can be modified: reducing or increasing the size of an array</b></h5>
 
@@ -18263,9 +18350,14 @@ recommended that you use parseInt or parseFloat instead.
 19. &gt; n;
 20. 3.1416
 </pre>
-
-![](./images/image484.png){width="0.9895833333333334in"
-height="0.6041666666666666in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 484.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image484.png?raw=true"
+  style="width:10%"
+  title=" "
+  alt=" ." />
+</p>
 
 Number has useful non-modifiable properties
 (constants): MAX_VALUE and MIN_VALUE:
@@ -18336,11 +18428,15 @@ Number has useful non-modifiable properties
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-8">5.2.8 Built-in JS class: String (7:48)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding video: predefined class - String
-
-![](./images/image485.png){width="6.0in"
-height="3.103205380577428in"}
+<p>Live coding video: predefined class - String</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 485.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image485.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 Strings are also a predefined object and all strings in JavaScript
 inherit from different properties and methods. I will show you the most
@@ -18423,7 +18519,7 @@ If I do this, it will&#133; ok&#133;I need to do this on the array so:
 tokens separated by space and will in turn build again a string with
 &apos;&#45;&#45;&#45;-&apos; between different tokens.
 
-&lt;end of video transcript 5.2.8&gt;
+<!-- &lt;end of video transcript 5.2.8&gt; -->
 
 <h5>Source code from the video example</h5>
 
@@ -18447,7 +18543,7 @@ to use the standard syntax:
 11. "string"
 </pre>
 
-<h5>Some reminders about strings: {#some-reminders-about-strings .unnumbered}
+<h5>Some reminders about strings:</h5>
 
 <pre>1.  &gt; var name = 'Michel';
 2.  Undefined
@@ -18465,7 +18561,7 @@ to use the standard syntax:
 14. "M"
 </pre>
 
-<h5>Explanations:  {#explanations-10 .unnumbered}
+<h5>Explanations:</h5>
 
 -   <i>Line 10</i>: in JavaScript, and in many other programming
     languages,<b> a string is not modifiable at all</b>.
@@ -18806,11 +18902,15 @@ A useful function that restricts a value between  min and  max bounds:
 Here is a typical example of the use of Math.atan2 in a video game, in
 order to make an object follow the mouse cursor by moving towards it.
 Look at the code in the mainloop function.
-
-![](./images/image486.png){width="5.0in"
-height="4.061431539807524in"}
-
-<https://codepen.io/w3devcampus/pen/aWOJQN>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 486.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image486.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/aWOJQN">CodePen: example</a>.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-11">5.2.11 Built-in JS class: Date</h3>
@@ -18958,9 +19058,14 @@ week Michel Buffa&apos;s birthday will occur, between 2017 and 2047:
 
 And here is a full version with input fields and results displayed in an
 HTML table:
-
-![](./images/image487.png){width="5.0in"
-height="2.2633552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 487.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image487.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 <https://codepen.io/w3devcampus/pen/Mmwqgq>
 
@@ -18991,7 +19096,7 @@ header is a column header or a row header. We invite you to read [these
 guidelines](https://www.w3.org/WAI/tutorials/tables/) for making
 accessible tables.
 
-<h5>Typical example: {#typical-example .unnumbered}
+<h5>Typical example:</h5>
 
 <pre>1.  &lt;table&gt;
 2.  &lt;caption&gt;A typical HTML table&lt;/caption&gt;
@@ -19023,9 +19128,14 @@ borders and for adjusting spacing between the text in the cells and the
 cell borders. Let&apos;s look at some examples.
 
 <h5>Example #1: HTML table with a very light CSS styling {#example-1-html-table-with-a-very-light-css-styling .unnumbered}
-
-![](./images/image488.png){width="5.0in"
-height="1.9636756342957131in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 488.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image488.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 <https://codepen.io/w3devcampus/pen/vmNQNQ>
 
@@ -19060,18 +19170,28 @@ height="1.9636756342957131in"}
     10px in each direction (top, bottom, left, right).
 
 <h5>Example #2: with more CSS styling (flat design)</h5>
-
-![](./images/image489.png){width="5.0in"
-height="3.0833333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 489.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image489.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 <https://codepen.io/w3devcampus/pen/MmKYNx>
 
 <h5>Example #3: with colored lines, header, footer, legend</h5>
 
 Look at the CSS - it&apos;s the only part that changed:
-
-![](./images/image490.png){width="5.0in"
-height="4.551816491688539in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 490.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image490.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 <https://codepen.io/w3devcampus/pen/gWPppo>
 
@@ -19080,9 +19200,14 @@ height="4.551816491688539in"}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: HTML table JavaScript API
-
-![](./images/image491.png){width="6.0in"
-height="3.1506408573928257in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 491.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image491.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 This time, we will talk about HTLM tables and their JavaScript API.
 
@@ -19192,18 +19317,33 @@ you create a table using the DOM API, you get a Table object:
 </pre>
 
 Like all objects, an instance of Table will have properties and methods:
-
-![](./images/image492.png){width="6.0in"
-height="1.9339741907261592in"}
-
-![](./images/image493.png){width="6.0in"
-height="3.8493591426071743in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 492.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image492.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 493.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image493.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 Example that adds a new row or removes a row to/from a table using
 the insertRow()/deleteRow() methods:
-
-![](./images/image494.png){width="5.0in"
-height="2.2954057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 494.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image494.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 <https://codepen.io/w3devcampus/pen/aWdOgw>
 
@@ -19241,17 +19381,33 @@ You can also access a row from the rows property of a table:
 Like all objects, a tableRow object has properties and methods. Here are
 the most useful ones:
 
-![](./images/image495.png){width="5.0in"
-height="1.2970089676290464in"}
-
-![](./images/image496.png){width="5.0in"
-height="1.2654910323709536in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 495.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image495.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 496.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image496.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 Below are new versions of the previous examples, but instead of using
 the innerHTML of the TableRow object, we use the insertCell() method.
-
-![](./images/image497.png){width="5.0in"
-height="3.1052351268591427in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 497.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image497.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 <https://codepen.io/w3devcampus/pen/OmMmGr>
 
@@ -19335,9 +19491,14 @@ disabilities.
 
 Form fields and other form controls usually have visible labels, such as
 &quot;E-mail Address:&quot; as the label for a text field (see figure below).
-
-![](./images/image498.png){width="2.0in"
-height="0.2705883639545057in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 498.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image498.png?raw=true"
+  style="width:20%"
+  title=" "
+  alt=" ." />
+</p>
 
 When these labels are marked up correctly, people can interact with them
 using only the keyboard, using voice input, and using screen readers.
@@ -19352,9 +19513,14 @@ with form elements. The for attribute of the label must exactly match
 the id of the form control. 
 
 <h4>Example #1 (click on the label, not on the input field to see the effect):</h4>
-
-![](./images/image499.png){width="5.0in"
-height="0.6105610236220472in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 499.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image499.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 <h5>Source code:</h5>
 
@@ -19381,9 +19547,14 @@ readers](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_st
 </pre>
 
 <h5>Example #2 (click on the label &quot;Subscribe to newsletter&quot; to see the effect):</h5>
-
-![](./images/image500.png){width="5.0in"
-height="0.9240923009623797in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 500.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image500.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 <h5>Source code:</h5>
 
@@ -19419,12 +19590,22 @@ Source code for an example of &quot;Submit&quot; and &quot;Cancel&quot; buttons:
 </pre>
 
 These will produce the same results:
-
-![](./images/image501.png){width="5.0in"
-height="1.1803280839895014in"}
-
-![](./images/image502.png){width="2.1770833333333335in"
-height="0.7708333333333334in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 501.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image501.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 502.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image502.png?raw=true"
+  style="width:20%"
+  title=" "
+  alt=" ." />
+</p>
 
 <h5>Source code:</h5>
 
@@ -19452,9 +19633,14 @@ and &lt;legend&gt; identifies the grouping&apos;s descriptive text.
 In the example below, there are three radio buttons that allow the user
 to choose an output format. Radio button groups should always be grouped
 using &lt;fieldset&gt;.
-
-![](./images/image503.png){width="1.6041666666666667in"
-height="1.71875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 503.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image503.png?raw=true"
+  style="width:15%"
+  title=" "
+  alt=" ." />
+</p>
 
 <h5>Source code:</h5>
 
@@ -19476,9 +19662,14 @@ height="1.71875in"}
 
 In the example below, there are three checkboxes that are all part of an
 opt-in function for receiving different types of information.
-
-![](./images/image504.png){width="2.09375in"
-height="1.3020833333333333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 504.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image504.png?raw=true"
+  style="width:20%"
+  title=" "
+  alt=" ." />
+</p>
 
 <h5>Source code:</h5>
 
@@ -19508,11 +19699,15 @@ MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-4">5.3.4 HTML forms and JavaScript (9:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding video: HTML Forms Best Practices
-
-![](./images/image505.png){width="6.0in"
-height="3.6173075240594925in"}
+<p>Live coding video: HTML Forms Best Practices</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 505.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image505.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 
 Hi everybody. For this first video, we will talk about traditional form
 design.
@@ -19621,13 +19816,20 @@ This section of the course only covers local processing and the
 client-side part, with a focus on JavaScript processing.
 
 Typical example:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 506.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image506.png?raw=true"
+  style="width:65%"
+  title="CodePen: "
+  alt="CodePen: ." />
+</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/ZKQJBR">CodePen: example</a>.</p>
 
 ![](./images/image506.png){width="5.0in"
 height="4.058760936132983in"}
 
-<https://codepen.io/w3devcampus/pen/ZKQJBR>
-
-### HTML form input can be sent to a server without JavaScript {#html-form-input-can-be-sent-to-a-server-without-javascript .unnumbered}
+<h5>HTML form input can be sent to a server without JavaScript</h5>
 
 If a form&apos;s content is sent to a remote server, on the server side, you
 may have PHP, Java, C#, Ruby, Python, etc. components. There are several
@@ -19648,18 +19850,22 @@ Example of HTML5 form that will not be sent if invalid input fields are
 present. Notice that the JavaScript part is only used for giving
 feedback while entering the password. No JavaScript is used for sending
 the form data, or for complex, global validation:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 507.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image507.png?raw=true"
+  style="width:65%"
+  title="CodePen: "
+  alt="CodePen: ." />
+</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/pPgWoq">CodePen: example</a>.</p>
 
-![](./images/image507.png){width="5.0in"
-height="5.324251968503937in"}
-
-<https://codepen.io/w3devcampus/pen/pPgWoq>
-
-### HTML form input can be sent using Ajax / JavaScript {#html-form-input-can-be-sent-using-ajax-javascript .unnumbered}
+<h5>HTML form input can be sent using Ajax / JavaScript</h5>
 
 Another approach is to use JavaScript for sending the form content with
 Ajax.
 
-### JavaScript can be used for validating user input &quot;on the fly&quot; {#javascript-can-be-used-for-validating-user-input-on-the-fly .unnumbered}
+<h5>JavaScript can be used for validating user input &quot;on the fly&quot;</h5>
 
 While one is typing or selecting a color, or moving a slider, JavaScript
 event listeners can be used to track the user&apos;s interactions in real
@@ -19668,22 +19874,30 @@ feedback.
 
 We&apos;ve already seen how we can track the keys typed in an input field in
 real time:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 508.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image508.png?raw=true"
+  style="width:65%"
+  title="CodePen: "
+  alt="CodePen: ." />
+</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/XMQpRa">CodePen: example</a>.</p>
 
-![](./images/image508.png){width="5.0in"
-height="1.6057688101487315in"}
-
-<https://codepen.io/w3devcampus/pen/XMQpRa>
-
-### JavaScript can be used for a more global validation before sending a form to a remote server {#javascript-can-be-used-for-a-more-global-validation-before-sending-a-form-to-a-remote-server .unnumbered}
+<h5>JavaScript can be used for a more global validation before sending a form to a remote server</h5>
 
 Example: checking that a password entered twice is identical in two
 different input fields, that some values are coherent (e.g. a birthday
 cannot be in the future), etc.
-
-![](./images/image509.png){width="5.0in"
-height="2.6661329833770777in"}
-
-<https://codepen.io/w3devcampus/pen/gWPxvL>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 509.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image509.png?raw=true"
+  style="width:65%"
+  title="CodePen: "
+  alt="CodePen: ." />
+</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/gWPxvL">CodePen: example</a>.</p>
 
 JavaScript can be used to make a WebApp that uses form data locally,
 perhaps with some client-side persistence API
@@ -19714,9 +19928,14 @@ post your comments/observations/questions or share your creations.
     examples that use them in the forum? What do you think of them?
 
 <h5>Optional projects</h5>
-
-> ![search](./images/image510.png){width="1.0381944444444444in"
-> height="1.0381944444444444in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 510.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image510.png?raw=true"
+  style="width:10%"
+  title="CodePen: "
+  alt="CodePen: ." />
+</p>
 
 -   Add a search input field + a search button to the dynamic table
     example. Add some more data in the table. Implement a search
@@ -19734,20 +19953,28 @@ post your comments/observations/questions or share your creations.
 -   Ah, but this table looks too long now!!! Try to paginate it by using
     a previous and a next page button. You will display the table with
     15 rows per page, not more!
-
-![previous and next
-buttons](./images/image511.png){width="2.0868055555555554in"
-height="0.625in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 511.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image511.png?raw=true"
+  style="width:20%"
+  title="Previous and next buttons"
+  alt="Previous and next buttons." />
+</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-1">5.4.1 What is JSON? (4:42)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Live coding video: JSON notation, working with <b>LocalStorage</b> and
 remote data
-
-![](./images/image512.png){width="6.0in"
-height="3.1615387139107614in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 512.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image512.png?raw=true"
+  style="width:65%"
+  title="CodePen: "
+  alt="CodePen: ." />
+</p>
 
 Hi! I would like to present you the JSON format that is string-based
 format for exchanging, on the Web, JavaScript objects. Also, for storing
@@ -19911,11 +20138,15 @@ object, and we can access its properties (<b><i>lines 16 and 19</i></b>).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-2">5.4.2 Consuming JSON remote data (10:10)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding Video: Xhr2, remote JSON data, dynamic table
-
-![](./images/image513.png){width="5.0in"
-height="2.6105774278215224in"}
+<p>Live coding Video: Xhr2, remote JSON data, dynamic table</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 513.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image513.png?raw=true"
+  style="width:65%"
+  title="CodePen: "
+  alt="CodePen: ." />
+</p>
 
 Hi!
 
@@ -20002,7 +20233,7 @@ also add some CSS to make it better, or I can define some &lt;td&gt; (table
 data) to make a nicer table. And I can display for example another
 property that will be the email of the person. That's it!
 
-&lt;end video transcript 5.4.2&gt;
+<!-- &lt;end video transcript 5.4.2&gt; -->
 
 <h5>Source code from the above live coding video</h5>
 
@@ -20449,12 +20680,14 @@ compareByName does not depend on any instance of the contact manager,
 consequently: it&apos;s a class method.
 
 CodePen that uses this new method:
-
-![](./images/image521.png){width="5.0in"
-height="5.449786745406824in"}
-
-<https://codepen.io/w3devcampus/pen/MovoBz>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 521. codepen:  (49x) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image521.png?raw=true"
+  style="width:65%"
+  title="CodePen: "
+  alt="CodePen: ." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/MovoBz">CodePen: example</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-2">5.5.2 Persistence (part 2)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -20474,7 +20707,8 @@ the devtools</h5>
 <h5>Here is the code we added to the ES6 class for saving the list of
 contacts in JSON:</h5>
 
-<pre>1.  class ContactManager {
+<pre>
+1.  class ContactManager {
 2.    constructor() {
 3.      // when we build the contact manager, it
 4.      // has an empty list of contacts
@@ -20545,7 +20779,8 @@ print the list of contacts (that displays a message &quot;LIST EMPTY!&quot;),
 then we load the contacts from LocalStorage and print the list again: it
 has been restored to its previous value.
 
-<pre>1.  class ContactManager {
+<pre>
+1.  class ContactManager {
 2.    constructor() {
 3.      // when we build the contact manager, it
 4.      // has an empty list of contacts
