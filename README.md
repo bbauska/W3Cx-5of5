@@ -2940,7 +2940,6 @@ the whole thing.</p>
     and discussing them in greater detail and with fuller explanations.</li>
 </ul>
 
-<!-- page 77 -->
 <h4>SECOND: take some time to carefully read the sections titled &quot;What 
 you&apos;ve learnt / let&apos;s detail &hellip;.&quot;</h4>
 
@@ -2956,9 +2955,9 @@ math functions. Look at the JavaScript code (click on the JS button) and try to
 guess where the function is specified, where the range for the x and y values is 
 set, etc. Notice that you can use your mouse wheel to zoom in/out the function plot.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 105. learn javascript graphs d3.js (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 106. learn javascript graphs d3.js (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image105.png?raw=true"
+<img src="./images/image106.png?raw=true"
   style="width:50%"
   title="Learn JavaScript graphs d3.js"
   alt="Learn JavaScript graphs d3.js." />
@@ -3107,9 +3106,9 @@ parameter to the functionPlot(&hellip;) call are in bold.</p>
     be plotted. We talk about this in greater detail below.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 106. grid with x-axis, y-axis, origin & target (80) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 107. grid with x-axis, y-axis, origin & target (76) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image106.gif?raw=true"
+<img src="./images/image107.gif?raw=true"
   style="width:80%"
   title="Coordplane: Grid with x-axis, y-axis, origin &amp; target"
   alt="Coordplane: Grid with x-axis, y-axis, origin &amp; target." />
@@ -3174,9 +3173,9 @@ cos(x) to our example, with a different color:</p>
 10. &rbrack;
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. codepen: js graph, #2 (82) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. codepen: js graph, #2 (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image107.png?raw=true"
+<img src="./images/image108.png?raw=true"
   style="width:65%"
   title="CodePen: JS Graph, #2"
   alt="CodePen: JS Graph, #2." />
@@ -3201,18 +3200,28 @@ you saw:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-2">1.3.2 What can be done with JavaScript (2:23)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Live coding transcript what can be done with JavaScript.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 109. CodePen: what can be done with javascript (78) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image109.png?raw=true"
+  style="width:50%"
+  title="CodePen: what can be done with JavaScript?"
+  alt="CodePen: what can be done with JavaScript?" />
+</p>
+
 <p>Hello! What can be done with JavaScript? Let me show you some examples that are 
 the most common ones.</p>
 <p>First, you can change dynamically the content of a Web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 108/109. my home page before & after title change (82) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 110/111. my home page before & after title change (78) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image108.png?raw=true"
+<img src="./images/image110.png?raw=true"
   style="width:45%"
   title="My home page. Before JS title change"
   alt="My home page. Before JS title change." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/image109.png?raw=true"
+<img src="./images/image111.png?raw=true"
   style="width:45%"
   title="My home page. This new title has been changed from JavaScript!"
   alt="My home page. This new title has been changed from JavaScript!" />
@@ -3221,9 +3230,9 @@ the most common ones.</p>
 <p>Here I&apos;ve got a Web page, I click on the button and I change the
 content of the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~ 110. My home page. example of interactivity between JS and the HTML content (83) ~~~~~-->
+<!--~~~~~ 112. My home page. example of interactivity between JS and the HTML content (78) ~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image110.png?raw=true"
+<img src="./images/image112.png?raw=true"
   style="width:50%"
   title="My home page. This is an example of interactivity between JS and the HTML content of a document"
   alt="My home page. This is an example of interactivity between JS and the HTML content of a document." />
@@ -3232,9 +3241,9 @@ content of the page.</p>
 <p>Another thing we can do is to change dynamically the CSS style of some
 part of the document. I click on the button and I change the style of the title.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. example; where am i? (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. example; where am i? (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image111.png?raw=true"
+<img src="./images/image113.png?raw=true"
   style="width:50%"
   title="Example 'Where am I?'"
   alt="Example 'Where am I?'" />
@@ -3251,23 +3260,22 @@ current latitude and longitude.</p>
 and it displays the map centered on the current position and also displays the 
 surface address. Here we go. I&apos;m located near Antibes in the south of France.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 112. example; databases and tables (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 114. example; databases and tables (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image112.png?raw=true"
+<img src="./images/image114.png?raw=true"
   style="width:50%"
   title="Example; using databases and tables in JS"
   alt="Example; using databases and tables in JS." />
-</p>
-
+<!-- <p align="center"><a href="">CodePen: Send AJAX request to remote server for list of users</a>.</p> -->
 <p>You can also work with remote data. So in this code, I&apos;m just sending
 what we call an Ajax request to a remote server to get a list of
 users&#133; and once I get this list of users, I just use the HTML table
 JavaScript API for building dynamically tables. And I use this API to
 display the data that just came from a remote server.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 113. table lookup members of the beatles (84) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 115. table lookup members of the beatles (80) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image113.png?raw=true"
+<img src="./images/image115.png?raw=true"
   style="width:50%"
   title="Example table lookup for members (old and newer) of the Beatles"
   alt="Example table lookup for members (old and newer) of the Beatles." />
@@ -3285,9 +3293,9 @@ were the most typical uses of JavaScript Web sites.</p>
 <p>We have already seen three examples in previous parts of this week&apos;s
 course material.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 114. change html using javascript (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 116. change html using javascript (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image114.png?raw=true"
+<img src="./images/image116.png?raw=true"
   style="width:65%"
   title="Change the HTML main title using JS"
   alt="Change the HTML main title using JS." />
@@ -3332,9 +3340,9 @@ adding a parenthesis after its name, followed by a semi colon):</p>
 }
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 115. example of interactivity between javascript & html (86) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 117. example of interactivity between javascript & html (81) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image115.png?raw=true"
+<img src="./images/image117.png?raw=true"
   style="width:65%"
   title="Example of interactivity between javascript &amp; html"
   alt="Example of interactivity between javascript &amp; html." />
@@ -3395,9 +3403,9 @@ by your Web browser.</p>
 need to click the CodePen logo on top right to run this example. For
 security reasons it cannot be run inside this course page</b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 116. codepen example, geolocation mapping (87) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 118. codepen example, geolocation mapping (83) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image116.png?raw=true"
+<img src="./images/image118.png?raw=true"
   style="width:65%"
   align="center"
   title="CodePen example; Geolocation mapping"
@@ -3417,9 +3425,9 @@ years ago).</p>
 <p>Here is an example that will display the current and past members of
 famous rock bands:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 117. codepen example, lookup band members (88) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 119. codepen example, lookup band members (83) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image117.png?raw=true"
+<img src="./images/image119.png?raw=true"
   style="width:65%"
   title="CodePen Example; Database lookup band members"
   alt="CodePen Example; Database lookup band members." />
@@ -3429,9 +3437,9 @@ famous rock bands:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-3">1.3.3 Where to put JavaScript code (7:13)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 118. where to put javascript code (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 120. where to put javascript code (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image118.png?raw=true"
+<img src="./images/image120.png?raw=true"
   style="width:65%"
   title="Where to put JavaScript code"
   alt="Where to put JavaScript code." />
@@ -3445,9 +3453,9 @@ the value of a variable. A variable is a location in the memory of the computer
 where we are going to store some values. And the variable has a name and it's 
 declared using the "var" keyword. There are others possibilities we will see later.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 119. example 1; js in the html file (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 121. example 1; js in the html file (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image119.png?raw=true"
+<img src="./images/image121.png?raw=true"
   style="width:65%"
   title="Example 1; JavaScript in the HTML file"
   alt="Example 1; JavaScript in the HTML file." />
@@ -3463,9 +3471,9 @@ element of the document, and the "innerHTML" property corresponds to its HTML
 content. By doing this, we are adding a bold element JavaScript code executing 
 the value of the variable x=2 and we display the value of the x variable in bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 119b. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 122. result of example 1; js in the html file (85) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image119b.png?raw=true"
+<img src="./images/image122.png?raw=true"
   style="width:65%"
   title="Result of execution Example 1; JavaScript in the HTML file"
   alt="Result of execution Example 1; JavaScript in the HTML file." />
@@ -3571,9 +3579,9 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 
 <h4>Here is this first example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 120. example 1: js in the .html file (92) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 123. example 1: js in the .html file (87) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image120.png?raw=true"
+<img src="./images/image123.png?raw=true"
   style="width:65%"
   title="Example 1: JS in the .html file"
   alt="Example 1: JS in the .html file." />
@@ -3610,9 +3618,9 @@ a button is clicked:</p>
 
 <h4>Here is this second example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 121. example 2: js in the .html file, in head (93) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 124. example 2: js in the .html file, in head (88) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image121.png?raw=true"
+<img src="./images/image124.png?raw=true"
   style="width:65%"
   title="Example 2: JS in the .html file, but this time in head"
   alt="Example 2: JS in the .html file, but this time in head." />
@@ -3675,9 +3683,9 @@ offers many advantages:</p>
 <p>It is good practice to locate CSS files in a css subfolder, and
 JavaScript files in a js subfolder.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 122. a typical html/css/js project folder structure (95) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 125. a typical html/css/js project folder structure (90) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122.jpeg?raw=true"
+<img src="./images/image125.jpeg?raw=true"
   style="width:50%"
   title="A typical HTML/CSS/JS project folder structure"
   alt="A typical HTML/CSS/JS project folder structure." />
@@ -3685,9 +3693,9 @@ JavaScript files in a js subfolder.</p>
 
 <p>In this example, we have just one CSS file and one JavaScript file:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 123. a typical html/css/js project folder, folder expanded (96) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 126. a typical html/css/js project folder, folder expanded (90) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image123.jpeg?raw=true"
+<img src="./images/image126.jpeg?raw=true"
   style="width:50%"
   title="A typical HTML/CSS/JS project folder, folder expanded"
   alt="A typical HTML/CSS/JS project folder, folder expanded." />
@@ -3753,9 +3761,9 @@ made by others is really common when working on JavaScript projects.</p>
 <p>Here is a running example that uses the paperJS library, included using
 an external URL:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 124. example 4: use an external js file (99) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 127. example 4: use an external js file (91) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image124.png?raw=true"
+<img src="./images/image127.png?raw=true"
   style="width:65%"
   title="Example 4: use an external JS file"
   alt="Example 4: use an external JS file." />
@@ -3764,9 +3772,9 @@ an external URL:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 125. how to debug javascript (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128. how to debug javascript (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image125.png?raw=true"
+<img src="./images/image128.png?raw=true"
   style="width:65%"
   title="How to debug JavaScript"
   alt="How to debug JavaScript." />
@@ -3782,9 +3790,9 @@ the most is the console. A console loads problems or errors.
 So, if I can clear the messages from here and this is the place where I will see
 the different error messages I've got in my code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 126. jsbin example test console (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 129. jsbin example test console (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image126.png?raw=true"
+<img src="./images/image129.png?raw=true"
   style="width:65%"
   title="JSBin example; test console"
   alt="JSBin example; test console." />
@@ -3793,9 +3801,9 @@ the different error messages I've got in my code.</p>
 <p>Here is an example in JsBin. So, you can click here to see the console or
 it’s the same thing you can get here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 127. console.log 'hello' (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. console.log 'hello' (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image127.png?raw=true"
+<img src="./images/image130.png?raw=true"
   style="width:65%"
   title="console.log 'hello'"
   alt="console.log 'hello'." />
@@ -3810,18 +3818,18 @@ in console: "hello".</p>
 here I've got a script that will display, as soon the page is loaded,
 "Some JavaScript code has been executed".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 128. jsbin; console.log error check (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 131. jsbin; console.log error check (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image128.png?raw=true"
+<img src="./images/image131.png?raw=true"
   style="width:65%"
   title="JSBin; console.log error check"
   alt="JSBin; console.log error check." />
 </p>
 <p>If I run the code, here, it displays "Some JavaScript code has been executed".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 129. jsbin; error check on console.log (98) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 132. jsbin; error check on console.log (94) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image129.png?raw=true"
+<img src="./images/image132.png?raw=true"
   style="width:65%"
   title="JSBin; error check on console.log"
   alt="JSBin; error check on console.log." />
@@ -3835,9 +3843,9 @@ difficult to debug your code because you are debugging at the same time the code
 of the tool itself that is written in JavaScript too. Each these tools comes with 
 a way to run your code in what we decode ‘standalone mode’ or ‘debug mode’.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 130. js debugging using the devtools console (99) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 133. js debugging using the devtools console (94) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image130.png?raw=true"
+<img src="./images/image133.png?raw=true"
   style="width:65%"
   title="JavaScript debugging using the devtools console"
   alt="JavaScript debugging using the devtools console." />
@@ -3849,9 +3857,9 @@ browser console, I can see the error message.</p>
 where my program made a mistake display, as an error. Here, I can see 
 that console needs only one "l", I can fix that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 131. jsbin; error check in console (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 134. jsbin; error check in console (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image131.png?raw=true"
+<img src="./images/image134.png?raw=true"
   style="width:65%"
   title="JSBin; Error check in console"
   alt="JSBin; Error check in console." />
@@ -3862,9 +3870,9 @@ of 10, I can use «console.log" to display the value of x, using the "+" operato
 In that case, if I run my code it will help me by displaying the value of different 
 variables when “console.log” is executed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. codepen; debug mode (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135. codepen; debug mode (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image132.png?raw=true"
+<img src="./images/image135.png?raw=true"
   style="width:65%"
   title="CodePen; Debug Mode"
   alt="CodePen; Debug Mode." />
