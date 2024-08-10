@@ -7351,7 +7351,6 @@ commented - please remove comments and try to understand the results).</p>
 <pre><b>if</b> ( Expression ) Statement <b>else</b> Statement
 <b>if</b> ( Expression ) Statement</pre>
 
-
 <h5><b>The expression may include:</b></h5>
 
 <ul>
@@ -7364,21 +7363,25 @@ commented - please remove comments and try to understand the results).</p>
 <h4>Example #1: if-statement</h4>
 
 <pre>1.  var num = 10;
-2.  if (num === 10) {
-3.    num = 20;
-4.  }
-5.  // num equals 20
+2.
+3.  if (num === 10) {
+4.    num = 20;
+5.  }
+6.
+7.  // num equals 20
 </pre>
 
 <h4>Example #2: if-else statement</h4>
 
 <pre>1.  var num = 10;
-2.  if (num &gt;; 10) {
-3.    num = 20;
-4.  } else {
-5.    num = 0;
-6.  }
-7.  // num equals 0
+2.
+3.  if (num &gt;; 10) {
+4.    num = 20;
+5.  } else {
+6.    num = 0;
+7.  }
+8.
+9.  // num equals 0
 </pre>
 
 <h5>Reminder:</h5>
@@ -7405,11 +7408,12 @@ to a conditional statement.</b></p>
 
 <pre>1.  var max;
 2.  var min = 2;
-3.  if (min &lt; 10) {
-4.    max = min + 10;
-5.  } else {
-6.    max = min;
-7.  }
+3.
+4.  if (min &lt; 10) {
+5.    max = min + 10;
+6.  } else {
+7.    max = min;
+8.  }
 </pre>
 
 <p><b>Explanation</b>: You can replace this &quot;if-then-else&quot; statement with
@@ -7483,23 +7487,27 @@ use a <b>switch</b> statement.</p>
 
 <h4>The syntax of the switch statement is:</h4>
 
-<pre>1. <b>switch</b> (expression) <b>{</b>
+<pre>
+1. <b>switch</b> (expression) <b>{</b>
 2.    <b>case</b> value1:
 3.      Statement
 4.    <b>break</b>; // break can be omitted in that case
 5.                   // the second test case will be executed
 6.                   // most of the time we add a break; at the end
 7.                   // of a &quot;case&quot;
-8.    <b>case</b> value2:
-9.      Statement
-10.     <b>break</b>;
-11.   <b>case</b> value3:
-12.     Statement
-13.     <b>break</b>;
-14.   <b>default</b>:    // if no case tested true
-15.     Statement
-16.    <b>break</b>;
-17. }
+8.
+9.    <b>case</b> value2:
+10.      Statement
+11.     <b>break</b>;
+12.
+13.   <b>case</b> value3:
+14.     Statement
+15.     <b>break</b>;
+16.
+17.   <b>default</b>:    // if no case tested true
+18.     Statement
+19.    <b>break</b>;
+20. }
 </pre>
 
 <p>If the value of an expression equals one of the cases (the equality
@@ -7508,25 +7516,30 @@ block are executed sequentially until the keyword <b>break</b> is reached.
 
 <h4>Example #1: a common switch/case/default example</h4>
 
-<pre>1.  var gear = '';
+<pre>
+1.  var gear = '';
 2.   
 3.  <b>switch</b> (cloudColor) <b>{</b>
 4.    <b>case</b> 'green':
 5.      gear = 'spacesuit';
 6.      <b>break;</b>
-7.  <b>case</b> 'black':
-8.      gear = 'boots';
-9.      <b>break</b>;
-10. <b>case</b> 'grey':
-11.     gear = 'umbrella';
-12.     <b>break</b>;
-13. <b>case</b> 'white':
-14.     gear = 'jacket';
-15.     <b>break</b>;
-16. <b>default</b>:
-17.     gear = 'watch';
-18.     <b>break</b>; // useless if in the last case
-19. <b>}</b> // end of the switch statement
+7.
+8.  <b>case</b> 'black':
+9.      gear = 'boots';
+10.      <b>break</b>;
+11.
+12. <b>case</b> 'grey':
+13.     gear = 'umbrella';
+14.     <b>break</b>;
+15.
+16. <b>case</b> 'white':
+17.     gear = 'jacket';
+18.     <b>break</b>;
+19.
+20. <b>default</b>:
+21.     gear = 'watch';
+22.     break; // useless if in the last case
+23. }          // end of the switch statement
 </pre>
 
 <p>In this example, if the clouds are grey, then my gear will be just an
@@ -7572,7 +7585,7 @@ only a watch (default case).</p>
 on the &quot;edit on codepen&quot; label and once in codepen, open the devtool
 console to see the outputs of this program):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 228. look at js from this example, open devtools (188) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 228. look at js from this example, open devtools (204) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image228.png?raw=true"
   style="width:50%"
@@ -7585,7 +7598,7 @@ CodePen: open devtools</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: <b>loop</b> statements</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229. loop statements (188) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229. loop statements (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image229.png?raw=true"
   style="width:50%"
@@ -7594,7 +7607,7 @@ CodePen: open devtools</a>.</p>
 <p>Let&apos;s talk about loop statements.</p>
 <p>There are different loop statements in JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 230. while loop, 1 to 3, and sum of sum (189) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 230. while loop, 1 to 3, and sum of sum (205) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image230.png?raw=true"
   style="width:50%"
@@ -7617,7 +7630,7 @@ than 4, we continue, n = 3, it&apos;s still less than 4, we continue, n = 4,
 then the condition is false: 4 is not strictly less than 4, and we
 continue after the loop and the console.log is executed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231. while loop, n and m (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231. while loop, n and m (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image231.png?raw=true"
   style="width:50%"
@@ -7631,7 +7644,7 @@ loop. Inside the loop, we also incremented the variable m by adding the consecut
 values of n. And m had a starting value of one. 1 + 1 + 2 + 3 + 4 &hellip;. the final 
 result is 10 as you can see.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 232. do while, 0 to less than 20 (190) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 232. do while, 0 to less than 20 (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image232.png?raw=true"
   style="width:50%"
@@ -7652,7 +7665,7 @@ value to i that is 20, then the condition will be no more true, and we
 will finish the execution of the loop and execute the console.log that
 is here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233. do while, 0 to under 20 (191) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233. do while, 0 to under 20 (207) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image233.png?raw=true"
   style="width:50%"
@@ -7680,7 +7693,7 @@ the very end of the loop, as the last instruction.</p>
 will make, after a certain number of executions of the loop, the
 condition false.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234. for loop, 0 thru 4 (192) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234. for loop, 0 thru 4 (208) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/imageXXX.png?raw=true"
   style="width:50%"
@@ -7693,7 +7706,7 @@ than&quot; operator here.
 I counted for i equals 0, 1, 2, 3, 4&hellip; then, when i is equal to 5 the
 condition is no more true and we exit the loop.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. for loop 0 thru 4 (192) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. for loop 0 thru 4 (208) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image235.png?raw=true"
   style="width:50%"
@@ -7702,7 +7715,7 @@ condition is no more true and we exit the loop.</p>
 <p>We can also use less than or equal to. In this case we counted to the final 
 value and included it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. increment loop by 2 (193) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. increment loop by 2 (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image236.png?raw=true"
   style="width:50%"
@@ -7713,7 +7726,7 @@ value and included it.</p>
 In that case (let me clear and execute again), we run the loop with a value of 
 i = 0, i=2, i=4, i=6, the condition is no more true, we exit from the loop.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 237. daysOfTheWeek array enumeration (193) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 237. daysOfTheWeek array enumeration (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image237.png?raw=true"
   style="width:50%"
@@ -7737,7 +7750,7 @@ with the index equal to i, inside the <b>loop</b>.</p>
 <p><a href="https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012" 
 target="_blank" rel="noopener noreferrer">Example on CodePen</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. a loop in the sky (194) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. a loop in the sky (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image238.jpeg?raw=true"
   style="width:25%"
@@ -8045,7 +8058,7 @@ value between 0 and 10.</p>
 module, the math function plotter example used input fields. Or look
 at the section about DOM in this module.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. quiz (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. quiz (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image239.jpeg?raw=true"
   style="width:25%"
@@ -8094,7 +8107,7 @@ statements, and a function declaration is not an executable statement.</p>
 
 <h4>Here is an example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 240. codepen: sum function & displayinpage function (201) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 240. codepen: sum function & displayinpage function (217) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image240.png?raw=true"
   style="width:50%"
@@ -8113,7 +8126,7 @@ be stored in a variable. Then, the variable can be used as a <b>function</b>:</
 
 <h4>Here is a typical example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 241. codepen: sum and displayInPage (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 241. codepen: sum and displayInPage (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image241.png?raw=true"
   style="width:50%"
@@ -8151,7 +8164,7 @@ functions. Here is another one that registers mouse click listeners on
 the window object (the window objects represent the whole HTML
 document):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 242. codepen: processClick (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 242. codepen: processClick (218) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image242.png?raw=true"
   style="width:50%"
@@ -8175,7 +8188,7 @@ CSS, such as by using the <b>:hover</b> pseudo CSS class.</p>
 
 <h4>For example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 243. codepen: :hover (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 243. codepen: :hover (219) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image243.png?raw=true"
   style="width:50%"
@@ -8205,7 +8218,7 @@ ones that correspond to the type of event &quot;they listen to&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Live coding video: adding an event listener to a document</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 244. adding event listener to a document (204) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 244. adding event listener to a document (220) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image244.png?raw=true"
   style="width:50%"
@@ -8218,7 +8231,7 @@ and we will start with the simplest example.</p>
 
 <p>It's listening for events that will occur anywhere on the Web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. listen to mouse clicks (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. listen to mouse clicks (220) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image245.png?raw=true"
   style="width:50%"
@@ -8237,7 +8250,7 @@ JavaScript, when the length of the callback (source code) is small, you
 can directly add the callback inside the parenthesis of the AddEventListener
 call.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 246. anonymous function, callback (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 246. anonymous function, callback (221) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image246.png?raw=true"
   style="width:50%"
@@ -8257,7 +8270,7 @@ Notice the parenthesis, followed by a semicolon at the end, because this is just
 
 <p>It&apos;s an anonymous callback function, that is the second argument.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 247. window.onclick = function(evt) (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 247. window.onclick = function(evt) (222) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image247.png?raw=true"
   style="width:50%"
@@ -8269,7 +8282,7 @@ fire the event. The window object is the whole document. We start with
 &quot;on&quot; followed by the name -in lowercase- of the event, and we assign
 to this property &quot;onclick&quot;, we assign directly the function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 248. anonymous function (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 248. anonymous function (222) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image248.png?raw=true"
   style="width:50%"
@@ -8287,10 +8300,12 @@ if I click, it works.</p>
 <ul>
   <li><a href="https://codepen.io/w3devcampus/pen/pwzXqb?editors=1000">Example on CodePen</a></li>
 </ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>2.4.2 cont'd; Adding and removing event listeners to HTML element</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: adding an event listener to a specific HTML element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 249. how to add an event listener to html element (207) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 249. how to add an event listener to html element (223) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image249.png?raw=true"
   style="width:50%"
@@ -8299,7 +8314,7 @@ if I click, it works.</p>
 <p>In this video, I will show you how to add an event listener to an html
 element, and not to the whole document, like in the previous video.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 250. onclick = name of function (207) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 250. onclick = name of function (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image250.png?raw=true"
   style="width:50%"
@@ -8316,7 +8331,7 @@ when I click, the processClick callback is called. I always add an argument here
 that is not used in this example, but it will be the topic of a next video.
 Here, I&apos;using just the DOM API for adding some text to the document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 251. codepen: document.querySelector (208) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 251. codepen: document.querySelector (224) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image251.png?raw=true"
   style="width:50%"
@@ -8337,7 +8352,7 @@ document.querySelector is the name of the method we are going to use.</p>
 <p>And then, we use a CSS3 selector. Notice that the id I use is the same I used 
 in the declaration of the html button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 252. document.querySelector and addEventListener (209) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 252. document.querySelector and addEventListener (225) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image252.png?raw=true"
   style="width:50%"
@@ -8384,7 +8399,7 @@ on a web document will be processed by this event handler):</p>
 
 <h4>Try it below by clicking anywhere on the document:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 253. codepen: addeventlistener function (210) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 253. codepen: addeventlistener function (226) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image253.png?raw=true"
   style="width:50%"
@@ -8436,12 +8451,13 @@ is the same as using window.addEventListener), we can listen to specific DOM
 elements. For example, here is how we can listen to clicks on a specific button 
 (whereas clicks on the rest of the document will be ignored).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 254.  (211) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 254. codepen: click me! button (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image254.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: Click me!"
+  alt="CodePen: Click me!" />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/vxdxdm">CodePen: Click me!</a></p>
 
 <p>In this example, instead of using the addEventListener method directly,
 we used it on a DOM object (the button):</p>
@@ -8466,7 +8482,7 @@ attribute (ex: onclick = &quot;&hellip;.&quot;)</h4>
 to use an onclick=&apos;doSomething();&apos; attribute directly in the HTML tag
 of the element:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 255. codepen: processClick(event) (212) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 255. codepen: processClick(event) (228) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image255.png?raw=true"
   style="width:50%"
@@ -8498,7 +8514,7 @@ function, and inside we remove the listener we previously registered.
 Consequence: if we click on the button again, nothing happens as there
 is no longer a click event listener attached to it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 256. codepen: add and remove event listener (212) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 256. codepen: add and remove event listener (228) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image256.png?raw=true"
   style="width:50%"
@@ -8571,7 +8587,7 @@ common types of events in detail.</p>
 
 <p>The most useful common properties are:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 257. most useful common properties (220) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 257. most useful common properties (230) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image257.png?raw=true"
   style="width:50%"
@@ -8580,7 +8596,7 @@ common types of events in detail.</p>
 
 <p>The most useful common methods are:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 258. most useful common methods (220) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 258. most useful common methods (230) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image258.png?raw=true"
   style="width:50%"
