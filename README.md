@@ -14226,8 +14226,7 @@ basic example might be useful.
   style="width:65%"
   title=""
   alt="." />
-
-<https://codepen.io/w3devcampus/pen/LYVgyxE>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE">CodePen: example</a>.</p>
 
 <h5>Source code extract:</h5>
 
@@ -14236,15 +14235,15 @@ basic example might be useful.
 <pre>
 1.  &lt;html&gt;
 2.  &lt;head&gt;
-3.  &lt;meta charset=&quot;utf-8&quot;&gt;
-4.  &lt;title&gt;OpenStreetMap Example&lt;/title&gt;
-5.  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.0.3/dist/leaflet.css&quot;&gt;
-6.  &lt;script src=&quot;https://unpkg.com/leaflet@1.0.3/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+3.    &lt;meta charset=&quot;utf-8&quot;&gt;
+4.    &lt;title&gt;OpenStreetMap Example&lt;/title&gt;
+5.    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.0.3/dist/leaflet.css&quot;&gt;
+6.    &lt;script src=&quot;https://unpkg.com/leaflet@1.0.3/dist/leaflet.js&quot;&gt;&lt;/script&gt;
 7.  &lt;/head&gt;
 8.  &lt;body&gt;
-9.  &lt;button class=&quot;btn&quot; onclick=&quot;getLocation(event)&quot;&gt;Click to show
-    your location with OpenStreetMap&lt;/button&gt;
-10. &lt;div id=&quot;map&quot; class=&quot;map&quot;&gt;&lt;/div&gt;
+9.    &lt;button class=&quot;btn&quot; onclick=&quot;getLocation(event)&quot;&gt;Click to show
+        your location with OpenStreetMap&lt;/button&gt;
+10.   &lt;div id=&quot;map&quot; class=&quot;map&quot;&gt;&lt;/div&gt;
 11. &lt;/body&gt;
 12. &lt;/html&gt;
 </pre>
@@ -14259,56 +14258,51 @@ basic example might be useful.
 
 <pre>
 1.  function getLocation(e) {
-2.  e.preventDefault();
-3.  if (!navigator.geolocation) {
-4.  alert(&quot;Browser doesn&apos;t support geolocation&quot;);
-5.  } else {
-6.  navigator.geolocation.getCurrentPosition(success, error);
-7.  }
+2.    e.preventDefault();
+3.    if (!navigator.geolocation) {
+4.      alert(&quot;Browser doesn&apos;t support geolocation&quot;);
+5.    } else {
+6.      navigator.geolocation.getCurrentPosition(success, error);
+7.    }
 8.  }
 9.  
 10. // Get current position successfully
 11. function success(position) {
-12. var map, marker,
-13. latitude = position.coords.latitude,
-14. longitude = position.coords.longitude;
+12.   var map, marker,
+13.   latitude = position.coords.latitude,
+14.   longitude = position.coords.longitude;
 15. 
-16. // Instance map using leaflet
-17. map = L.map(&apos;map&apos;).setView(&lbrack;latitude, longitude&rbrack;, 13);
+16.   // Instance map using leaflet
+17.   map = L.map(&apos;map&apos;).setView(&lbrack;latitude, longitude&rbrack;, 13);
 18. 
-19. // Tile layer using key api at cloudmade.com
-20. L.tileLayer(&apos;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&apos;, {
-21. key: &apos;760506895e284217a7442ce2efe97797&apos;,
-22. styleId: 103288,
-23. maxZoom: 16
-24. }).addTo(map);
+19.   // Tile layer using key api at cloudmade.com
+20.   L.tileLayer(&apos;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&apos;, {
+21.     key: &apos;760506895e284217a7442ce2efe97797&apos;,
+22.     styleId: 103288,
+23.     maxZoom: 16
+24.   }).addTo(map);
 25. 
-26. // Marker using leaflet
-27. marker = L.marker(&lbrack;latitude, longitude&rbrack;).addTo(map);
+26.   // Marker using leaflet
+27.   marker = L.marker(&lbrack;latitude, longitude&rbrack;).addTo(map);
 28. 
-29. // Popup in leaflet
-30. marker.bindPopup(&apos;&lt;p&gt;Your location&lt;/p&gt;&apos;).openPopup();
+29.   // Popup in leaflet
+30.   marker.bindPopup(&apos;&lt;p&gt;Your location&lt;/p&gt;&apos;).openPopup();
 31. }
 32. 
 33. // Get current position fail
 34. function error() {
-35. alert(&apos;Get current position fail. Please access codepen to get
-    geolocation.&apos;);
+35.   alert(&apos;Get current position fail. Please access codepen to get geolocation.&apos;);
 36. }
 </pre>
 
--   <i>Line 6</i> uses the [Geolocation
-    API](https://www.w3.org/TR/geolocation-API/) to get the current
-    position, in case of success it calls the success function, passing
-    the location as parameter,
-
--   <i>Lines 13 and 14</i> show how to get the longitude and latitude
-    properties from the location,
-
--   The rest is a basic use of the Leaflet API. Notice at <i>line
-    17</i> that &apos;map&apos; is the id of the &lt;div&gt; from the HTML part of the
-    code.
-
+<ul>
+  <li><b><i>Line 6</i></b> uses the <a href="https://www.w3.org/TR/geolocation-API/">Geolocation
+    API</a> to get the current position, in case of success it calls the success function, passing
+    the location as parameter,</li>
+  <li><b><i>Lines 13 and 14</i></b> show how to get the longitude and latitude properties from the 
+    location,</li>
+  <li>The rest is a basic use of the Leaflet API. Notice at <b><i>line 17</i></b> that 
+    &apos;map&apos; is the id of the &lt;div&gt; from the HTML part of the code.</li>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-3">3.4.3 Reverse geocoding</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14333,7 +14327,7 @@ Let&apos;s see some examples of use.
 
 Google reverse geocoding example (screenshot only):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 417.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 417.  (369) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image417.png?raw=true"
   style="width:65%"
@@ -14454,14 +14448,14 @@ Please, pan and zoom on the map and click. The longitude and latitude
 are computed from your click and a free reverse geocoding service is
 used to convert to a physical address.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 418.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 418.  (372) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image418.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
-
-<https://codepen.io/w3devcampus/pen/ZEQJQQp>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/ZEQJQQp">
+CodePen: Longitude and Latitude</a>.</p>
 
 <h5>Example #3: shows the address on the map, from your current longitude and latitude</h5>
 
@@ -14469,7 +14463,7 @@ Click on the Codepen logo on the top right to open 
 <a href="https://codepen.io/w3devcampus/pen/KKVXaRJ">the example in Codepen</a>. 
 Due to security reasons, it cannot run embedded in this page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 419.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 419.  (372) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image419.png?raw=true"
   style="width:65%"
@@ -14490,7 +14484,7 @@ Click on the Codepen logo (on the top right) so to run the [online
 example](https://codepen.io/w3devcampus/pen/MWKEJqM) (for security
 reasons the embedded version cannot run in this page):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 420.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 420.  (373) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image420.png?raw=true"
   style="width:65%"
@@ -14516,7 +14510,7 @@ post your comments/observations/questions or share your creations.
     interactive maps. Please look for some of them and share your
     findings in the forum.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 421.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 421.  (373) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image421.jpeg?raw=true"
   style="width:40%"
@@ -14570,7 +14564,7 @@ perfect for providing a background atmosphere in a video game.</p>
 
 <h5>Here is one simple example of background music control from JavaScript:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 422.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 422.  (374) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image422.png?raw=true"
   style="width:65%"
@@ -14584,7 +14578,7 @@ perfect for providing a background atmosphere in a video game.</p>
 
 Live coding lesson: using sound samples
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 423.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 423.  (375) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image423.png?raw=true"
   style="width:65%"
@@ -14597,7 +14591,7 @@ The same way we made the small custom video player, you can also use the
 audio HTML element that is similar in its use to the video HTML element,
 for adding to your page an audio player.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 424.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 424.  (375) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image424.png?raw=true"
   style="width:65%"
@@ -14611,7 +14605,7 @@ If you want to add background music to your game, you can use the audio
 player, but of course you will want to hide completely the buttons. If I 
 remove the controls attribute. Then, I can completely hide the player.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 425.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 425.  (376) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image425.png?raw=true"
   style="width:65%"
@@ -14623,7 +14617,7 @@ that you can start playing the music from JavaScript. You can also&#41;
 directly start the music when the page is loaded. The same way I use the
 video player, I declare an audio player, here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 426.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 426.  (376) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image426.png?raw=true"
   style="width:65%"
@@ -14633,7 +14627,7 @@ video player, I declare an audio player, here.
 And in JavaScript, I&apos;ve got my button onclick="play()" that will call a
 play function, that will get a reference on the player.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 427.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 427.  (377) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image427.png?raw=true"
   style="width:65%"
@@ -14643,7 +14637,7 @@ play function, that will get a reference on the player.
 This is the id of the player. You can see it here. And I&apos;m calling the
 play and pause methods to play and pause the music.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 428.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 428.  (377) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image428.png?raw=true"
   style="width:65%"
@@ -14658,7 +14652,7 @@ complicated to use the low level WebAudio API. Some developers made some
 high level libraries for making this task easier. One of them is called
 <a href="https://howlerjs.com/">howler.js</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 429.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 429.  (378) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image429.png?raw=true"
   style="width:65%"
@@ -14670,7 +14664,7 @@ JavaScript easy&quot;. You can read the documentations and look at samples
 here. The way we used it, is that we've just including it using a script
 tag.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 430.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 430.  (378) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image430.png?raw=true"
   style="width:65%"
@@ -14680,7 +14674,7 @@ tag.</p>
 <p>This is the inclusion of a minified, a very short version of this library. 
 And then from JavaScript, you can use it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 431.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 431.  (379) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image431.png?raw=true"
   style="width:65%"
@@ -14690,7 +14684,7 @@ And then from JavaScript, you can use it.</p>
 <p>Here we&apos;ve got a button that will play a very short sound&#133; you see.
 Let&apos;s look at the way the play sound is implemented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (379) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image432.png?raw=true"
   style="width:65%"
@@ -14700,7 +14694,7 @@ Let&apos;s look at the way the play sound is implemented.</p>
 <p>The play sound function just does "sound.play();", but the sound we are
 referring to, here, has been loaded when the page was ready.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433.  (380) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image433.png?raw=true"
   style="width:65%"
@@ -14734,7 +14728,7 @@ WebAudio API. <a href="https://howlerjs.com/">HowlerJS is one of these</a>.</p>
 <h5>Example that uses Howler.js to load a sound sample from a remote server, then 
 decode it in memory, and play it:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434.  (381) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image434.png?raw=true"
   style="width:65%"
@@ -14767,8 +14761,8 @@ CodePen: load sound sample using howlerjs</a>.</p>
 </pre>
 
 <ul>
-  <li><i>Line 4</i> indicates that we are using an external library.</li>
-  <li><i>Line 12</i>declares a button, that is greyed by default and cannot be
+  <li><b><i>Line 4</i></b>: indicates that we are using an external library.</li>
+  <li><b><i>Line 12</i></b>: declares a button, that is greyed by default and cannot be
     clicked. This is done by including the disabled attribute.</li>
 </ul>
 
@@ -14817,12 +14811,12 @@ sound loaded by Howler.JS, we just call the play() method (<i>line14</i>).
 <p>Here is the last version of the game from Module 2 with music and sound
 effects (when the player eats a ball):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 435.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 435. codepen: music and sound effects (383) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image435.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: music and sound effects"
+  alt="CodePen: music and sound effects." />
 <p align="center"><a href="https://codepen.io/w3devcampus/pen/EWzgpr">
 CodePen: adding music and sound effects</a>.</p>
 
@@ -14841,7 +14835,7 @@ this sample has been loaded and decoded do we start the animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Live coding video: a multiple image, sound and music loader</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (384) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436.png?raw=true"
   style="width:65%"
@@ -14853,70 +14847,97 @@ sound and music loader.
 
 It&apos;s a function that you will call&#41; that will load in background,
 for you, images, sound samples and also deal with streamed music.
-
 And when everything is ready, it will call a function of your own that
 will start the game.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (384) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Like this, when the game starts, all images, musics and sounds are ready
-to go.
-
-Let&apos;s have a look at it. Here is how it looks like. You define an
+to go. Let&apos;s have a look at it. Here is how it looks like. You define an
 object called "assetsToLoadURLs" and you indicate the names of the
 musics, of the sound samples or of the images you want to load, and you
 indicate their URLs. So "backgroundImage" it&apos;s a PNG, logo it&apos;s a PNG,
 "plop" it&apos;s a MP3.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 And you can also indicate if it&apos;s going to be streamed or loaded and
 decoded in memory for fast access. You can indicate if it&apos;s gonna loop,
 start again at the end. You can indicate the volume&#41; and it will do
 everything for you. You can indicate background music with "buffer:
 true", "loop: true". This is a background music will be looped in the
 background. How do you load all these assets?
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 You use the "loadAssets()" function that is provided at this end of this
 source file but you don&apos;t have to look at the details.
-
 You don&apos;t have to understand in details how it works.
-
 Here, in the init() function called when the page is loaded, we display
 the "Loading assets" &#41; "Loading assets" message.
-
 Then we call "loadAssets()" and we pass the name of function that will
 really start the game.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 This is where you will start animation, drawing, playing music and so
-on.
-
-And this "loadAssets()" function will use this "assetsToLoadURLs" object
+on. And this "loadAssets()" function will use this "assetsToLoadURLs" object
 we talked earlier.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 Look in the "startGame()" function we&apos;re going to use this now.
-
 And how are we going to use this for playing music for example?
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
-"playHumbug()".
-
-You see.
-
-The music is just called by its name.
-
+"playHumbug()". You see. The music is just called by its name.
 "LoadedAssets" the object of the top of the file ".humbug" the name of
-the music
-
-".play()".
+the music ".play()".
 
 For playing some sound samples, here we are going to play a "plop" sound
-sample every 1000 milliseconds&#41; every second. We just do
-"LoadedAssets.plop.play()" you see the name &quot;plop&quot; comes from here.
+sample every 1000 milliseconds&#41; every second. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image4xx.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
-Instead of using "assetsToLoadURLs" now we are using
-"LoadedAssets&quot;.plop because the "LoadedAssets" will initialize this
-object here, this variable with the decoded sound samples, with the
-loaded images and so on.
+We just do "LoadedAssets.plop.play()" you see the name &quot;plop&quot; comes from here.
+Instead of using "assetsToLoadURLs" now we are using "LoadedAssets&quot;.plop because the 
+"LoadedAssets" will initialize this object here, this variable with the decoded sound samples, 
+with the loaded images and so on.
 
 I hope you will find this useful if you are planning to write a small
 HTML5 game with lots of JavaScript.
-
 <!-- &lt;end of transcript 3.5.4&gt; -->
 
 <h4>A utility background loader for images, music and sound samples</h4>
@@ -14954,7 +14975,7 @@ be used!
 Example (to hear the music and sound sample, there are two lines to
 uncomment in the <b>startGame(&#133;)</b> function):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 437.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 437.  (389) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image437.png?raw=true"
   style="width:65%"
@@ -14967,62 +14988,75 @@ CodePen: load music and sound sample</a>.</p>
 
 <pre>
 1.  window.onload = init;
-2.  var assetsToLoadURLs = {
-3.    backgroundImage: { url: &apos;https://&#41;/assets/images/background.png&apos; }, 
-4.    logo1: { url: &quot;https://&#41;/assets/images/SkywardWithoutBalls.png&quot; },
-5.    logo2: { url: &quot;https://&#41;/assets/images/BoundsWithoutBalls.png&quot; },
-6.    bell:  { url: &quot;https://&#41;/assets/images/bells.png&quot; },
-7.    spriteSheetBunny: { url: &apos;https://&#41;/assets/images/bunnySpriteSheet.png&apos; }
-8.    ,
-9.    plop: { url: &apos;https://&#41;/assets/sounds/plop.mp3&apos;,
-10.     buffer: false, loop: false, volume: 1.0 },
-11.   humbug: { url: &apos;https://&#41;/assets/sounds/humbug.mp3&apos;,
-12.     buffer: true, loop: true, volume: 1.0 },
-13.   concertino: { url: &apos;https://&#41;/assets/sounds/christmas_concertino.mp3&apos;,
-14.     buffer: true, loop: true, volume: 1.0 },
-15.   xmas: { url: &apos;https://&#41;/assets/sounds/xmas.mp3&apos;,
-16.     buffer: true, loop: true, volume: 0.6 }
-17. };
-18. var loadedAssets; // above assets, ready to be used
-19. function init() {
-20.   // Once the page is loaded, we load all assets. We pass the function
-21.   // that will be called when assets are ready. In our case
-      &quot;startGame&quot;
-22.   // this call will load all assets
-23.   loadAssets(startGame);
-24. }
-25. function startGame(assetsReadyToBeUsed) {
-26.   // This function is executed once all assets are ready.
-27.   // It is called by the asset loader, and receives as a unique
-28.   // parameter, the assets (sounds, images etc.) ready to be used
-29.   // we store them in the loadedAssets variable
-30.   loadedAssets = assetsReadyToBeUsed;
-31.   // Now we can use them! e.g., draw the images in a canvas
-32.   drawImages();
-33.   // or play one of the pieces of background music
-34.   playHumbug();
-35.   // Or use sound samples, for example let&apos;s play a plop every second
-36.   setInterval(playPlop, 1000);
-37. }
-38. function playHumbug() {
-39.   loadedAssets.humbug.play();
-40. }
-41. function playPlop() {
-42.   loadedAssets.plop.play();
-43. }
-44. function drawImages() {
-45.   var canvas = document.querySelector(&apos;#myCanvas&apos;);
-46.   var ctx = canvas.getContext(&apos;2d&apos;);
-47.   // background image drawImage can have different syntaxes :
-48.   // drawImage(img, x, y); or
-49.   // drawImage(x, y, width, height),
-50.   // for other syntaxes see HTML5 fundamentals course
-51.   ctx.drawImage(loadedAssets.backgroundImage,
-52.   0, 0,
-53.   canvas.width, canvas.height);
-54.   ctx.drawImage(loadedAssets.bell, 20, 20);
-55.   ctx.drawImage(loadedAssets.spriteSheetBunny, 190, 0);
-56. }
+2.
+3.
+4.  var assetsToLoadURLs = {
+5.    backgroundImage: { url: &apos;https://&#41;/assets/images/background.png&apos; }, 
+6.    logo1: { url: &quot;https://&#41;/assets/images/SkywardWithoutBalls.png&quot; },
+7.    logo2: { url: &quot;https://&#41;/assets/images/BoundsWithoutBalls.png&quot; },
+8.    bell:  { url: &quot;https://&#41;/assets/images/bells.png&quot; },
+9.    spriteSheetBunny: { url: &apos;https://&#41;/assets/images/bunnySpriteSheet.png&apos; },
+10.   plop: { url: &apos;https://&#41;/assets/sounds/plop.mp3&apos;,
+11.           buffer: false, loop: false, volume: 1.0 },
+12.   humbug: { url: &apos;https://&#41;/assets/sounds/humbug.mp3&apos;,
+13.             buffer: true, loop: true, volume: 1.0 },
+14.   concertino: { url: &apos;https://&#41;/assets/sounds/christmas_concertino.mp3&apos;,
+15.                 buffer: true, loop: true, volume: 1.0 },
+16.   xmas: { url: &apos;https://&#41;/assets/sounds/xmas.mp3&apos;,
+17.           buffer: true, loop: true, volume: 0.6 }
+18. };
+
+
+1.  var loadedAssets; // above assets, ready to be used
+2.
+3. function init() {
+4.   // Once the page is loaded, we load all assets. We pass the function
+5.   // that will be called when assets are ready. In our case &quot;startGame&quot;
+6.   // this call will load all assets
+7.   loadAssets(startGame);
+8. }
+9.
+10. function startGame(assetsReadyToBeUsed) {
+11.   // This function is executed once all assets are ready.
+12.   // It is called by the asset loader, and receives as a unique
+13.   // parameter, the assets (sounds, images etc.) ready to be used
+14.   // we store them in the loadedAssets variable
+15.   loadedAssets = assetsReadyToBeUsed;
+16.
+17.   // Now we can use them! e.g., draw the images in a canvas
+18.   drawImages();
+19.
+20.   // or play one of the pieces of background music
+21.   playHumbug();
+22.
+23.   // Or use sound samples, for example let&apos;s play a plop every second
+24.   setInterval(playPlop, 1000);
+25. }
+26.
+27. function playHumbug() {
+28.   loadedAssets.humbug.play();
+29. }
+30.
+31. function playPlop() {
+32.   loadedAssets.plop.play();
+33. }
+34.
+35. function drawImages() {
+36.   var canvas = document.querySelector(&apos;#myCanvas&apos;);
+37.   var ctx = canvas.getContext(&apos;2d&apos;);
+38.
+39.   // background image drawImage can have different syntaxes :
+40.   // drawImage(img, x, y); or
+41.   // drawImage(x, y, width, height),
+42.   // for other syntaxes see HTML5 fundamentals course
+43.   ctx.drawImage(loadedAssets.backgroundImage,
+44.                 0, 0,
+45.                 canvas.width, canvas.height);
+46.
+47.   ctx.drawImage(loadedAssets.bell, 20, 20);
+48.
+49.   ctx.drawImage(loadedAssets.spriteSheetBunny, 190, 0);
+50. }
 </pre>
 
 <h4>Two games that have been written by students in the W3C Apps and Games course 
@@ -20473,7 +20507,7 @@ example console.log(c1.name), console.log(c2.email), etc.
 
 -   This is a minimal ES6 class for building a contact manager. It has
     only one property: the list of contacts, and a method for adding a
-    new contact (<b><i>line 8</i></b>), one for removing a contact (<i>line 12</i>), that
+    new contact (<b><i>line 8</i></b>), one for removing a contact (<b><i>line 12</i></b>), that
     iterate on the list of contacts until the contact passed as a
     parameter is found (when email properties match), then the contact
     is removed using the splice method, and we go out from the loop
