@@ -8571,26 +8571,41 @@ common types of events in detail.</p>
 
 <p>The most useful common properties are:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 257. most useful common properties & methods (220) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 257. most useful common properties (220) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image257.png?raw=true"
   style="width:50%"
-  title="Most useful properties; type &amp; target; methods; preventDefault &amp; stopPropagation"
-  alt="Most useful properties; type &amp; target; methods; preventDefault &amp; stopPropagation." />
+  title="Most useful properties; type &amp; target."
+  alt="Most useful properties; type &amp; target." />
+
+<p>The most useful common methods are:</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 258. most useful common methods (220) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image258.png?raw=true"
+  style="width:50%"
+  title="Most useful methods; preventDefault &amp; stopPropagation"
+  alt="Most useful methods; preventDefault &amp; stopPropagation." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-4">2.4.4 Page lifecycle events</h3>
+Live coding video: page ‘load’ event and the event object
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 258.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 259.  (230) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image259.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<p>This time let&apos;s talk about the event object, and we&apos;ll start looking
+at different types of events.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 260.  (231) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image258.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-  
-<p>This time let&apos;s talk about the event object, and we&apos;ll start looking
-at different types of events.</p>
 
-<image goes here>
 <p>One of the events you will use is called the &apos;load&apos; event, and you can
 apply it on the page using onload equal followed by the name of the
 callback.</p>
@@ -8599,7 +8614,7 @@ callback.</p>
 always use a function that will be called when the page is loaded.
 I&apos;m adding a console.log message just to verify.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 259.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 261.  (231) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image259.png?raw=true"
   style="width:50%"
@@ -8612,7 +8627,7 @@ DOM is ready&quot;.Then, from this function, I can call any other function,
 I can execute any kind of code, I will never have to wonder&hellip; to think: 
 &quot;is the DOM ready?&quot;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 260.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 262.  (232) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image260.png?raw=true"
   style="width:50%"
@@ -8625,9 +8640,9 @@ element&hellip; Then I can change the content of the page&hellip; If you look at
 is happening when I execute the code, it says &quot;page loaded&quot;. This is a very 
 good practice. I nearly always do this on my own softwares.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 261.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 263.  (232) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image261.png?raw=true"
+<img src="./images/image263.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -8641,10 +8656,10 @@ You may notice that here I haven&apos;t typed the event argument.
 Every event callback will have an event object passed by the browser
 when the event is processed.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 262.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 264.  (233) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image262.png?raw=true"
-  style="width:50%"
+<img src="./images/image264.png?raw=true"
+  style="width:65%"
   title=""
   alt="." />
 
@@ -8666,10 +8681,10 @@ can see in the console that it works.</p>
 You can, for example, use the event objet to detect the x position of
 the mouse.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 263.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 265.  (233) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image263.png?raw=true"
-  style="width:50%"
+<img src="./images/image265.png?raw=true"
+  style="width:65%"
   title=""
   alt="." />
 
@@ -8701,9 +8716,9 @@ DOM is ready.</p>
 <p>There are many other events related to the page life cycle. The most
 useful ones for an introduction course are shown below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 264. load, resize and scroll events (225) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 266. load, resize and scroll events (234) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image264.png?raw=true"
+<img src="./images/image266.png?raw=true"
   style="width:50%"
   title="Load, Resize and Scroll events"
   alt="Load, Resize and Scroll events." />
@@ -8724,105 +8739,22 @@ canvas size, for example).
 
 <p>This first variant that uses &lt;body onload=&quot;init();&quot;&gt;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 265.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 267.  (235) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image265.png?raw=true"
+<img src="./images/image267.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example1 of the 'load' event&lt;/title&gt;
-&lt;/head&gt;
-&lt;body onload='init();'&gt;
-&lt;p&gt;This page uses &lt;code&gt;&lt;body onload='init();'&gt;&lt;/code&gt; in
-  the JS code to execute the init function ONLY WHEN THE PAGE HAS BEEN
-  LOADED!&lt;/p&gt;
-&lt;p&gt;This is important as very often we cannot do important things
-  before the DOM is ready (all HTML elements have been created and can be
-  manipulated from JavaScript).&lt;/p&gt;
-&lt;p&gt;PAGE STATUS: &lt;span id=&quot;pageStatus&quot;&gt;NOT LOADED
-  YET&lt;/span&gt;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>CSS:</h5>
-
-<pre>#pageStatus {
-border:1px solid red;
-padding: 2px;
-color:red;
-}
-</pre>
-
-<h5>JS:</h5>
-
-<pre>function init() {
-var status = document.querySelector('#pageStatus');
-status.innerHTML = 'LOADED!';
-// start working!
-// &hellip;.
-}
-</pre>
 
 This second variant: using window.onload = init; in the JavaScript
 code&hellip;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 266.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 268.  (235) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image266.png?raw=true"
+<img src="./images/image268.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example 2 of the 'load' event&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;This page uses &lt;code&gt;window.onload = init;&lt;/code&gt; in the JS
-  code to execute the init function ONLY WHEN THE PAGE HAS BEEN
-  LOADED!&lt;/p&gt;
-&lt;p&gt;This is important as very often we cannot do important things
-  before the DOM is ready (all HTML elements have been created and can be
-  manipulated from JavaScript).&lt;/p&gt;
-&lt;p&gt;PAGE STATUS: &lt;span id=&quot;pageStatus&quot;&gt;NOT LOADED
-  YET&lt;/span&gt;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>CSS:</h5>
-
-<pre>#pageStatus {
-border:1px solid red;
-padding: 2px;
-color:red;
-}
-</pre>
-
-<h5>JS:</h5>
-
-<pre>window.onload = init;
-function init() {
-var status = document.querySelector('#pageStatus');
-status.innerHTML = 'LOADED!';
-// start working!
-// &hellip;.
-}
-</pre>
 
 <h4>Example 2: detect a resize of the window</h4>
 
@@ -8833,122 +8765,32 @@ The window.innerWidth and window.innerHeight properties are used to
 display the updated size of the window. We also
 use screen.width and screen.height to display the screen size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 267.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 269.  (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image267.png?raw=true"
+<img src="./images/image269.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
 
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-  &lt;title&gt;Example1 of the 'resize' event&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;p&gt;This page uses &lt;code&gt;window.onresize = resize;&lt;/code&gt; in the JS
-    code to execute the resize function. Try to change the size of your
-    window now!&lt;/p&gt;
-  &lt;p&gt;Curent page size: &lt;span id=&quot;pageSize&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-  &lt;p&gt;Screen size: &lt;span id=&quot;screenSize&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>CSS:</h5>
-
-<pre>border:1px solid red;
-padding: 2px;
-color:red;
-}
-</pre>
-
-<h5>JS:</h5>
-
-<pre>window.onload = resize;
-window.onresize = resize;
-function resize(evt) {
-  console.log(&quot;resize&quot;);
-  var pageSizeSpan = document.querySelector('#pageSize');
-  pageSizeSpan.innerHTML = &quot;Width: &quot; + window.innerWidth + &quot; Height:
-    &quot; + window.innerHeight;
-// screen size
-var screenSizeSpan = document.querySelector('#screenSize');
-  screenSizeSpan.innerHTML = &quot;Width: &quot; + screen.width + &quot; Height: &quot; +
-    screen.height;
-}
-</pre>
 
 <h4>Example 3: do something as the page is being scrolled up or down</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 268.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 270.  (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image268.png?raw=true"
+<img src="./images/image270.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
-
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example of the 'scroll' event&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;progress&quot;&gt;
-&lt;div&gt;Percentage&lt;/div&gt;
-&lt;/div&gt;
-&lt;p id=&quot;text&quot;&gt;Scroll me and the progress bar on the right will show
-the percentage of scroll. Look also at the CSS
-code (body is 2000px height, for example)&hellip;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>CSS:</h5>
-
-<pre>.progress {
-  border: 1px solid blue;
-  width: 100px;
-  position: fixed;
-  top: 10px; right: 10px;
-}
-.progress &lt; div {
-  height: 12px;
-  background: lightBlue;
-  width: 0%;
-  font-size:8px;
-}
-#text {
-  margin-top:50px;
-}
-body {
-  height: 2000px;
-}
-</pre>
-
-<h5>JS:</h5>
-
-<pre>window.onload = init;
-  var progressBar;
-    function init() {
-    progressBar = document.querySelector(&quot;.progress div&quot;);
-  window.addEventListener(&quot;scroll&quot;, function() {
-    var max = document.body.scrollHeight - window.innerHeight;
-    var percent = (window.pageYOffset / max) &ast; 100;
-    progressBar.style.width = percent + &quot;%&quot;;
-  });
-}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-5">2.4.5 Key events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 271.  (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image271.png?raw=true"
+  style="width:30%"
+  title=""
+  alt="." />
 <p>This has been a bit of a nightmare for years, as different browsers have
 had different ways of handling key events and key codes (
 <a href="https://unixpapa.com/js/key.html" target="_blank" rel="noopener noreferrer">
