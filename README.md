@@ -3291,7 +3291,7 @@ for getting the members of a rock band. So, I type &quot;The Beatles&quot;. I
 got from the remote server the list of the members of The Beatles. So, these
 were the most typical uses of JavaScript Web sites.</p>
 
-<!-- end live video transcript 1.3.2 -->
+<!-- end transcript 1.3.2 -->
 
 <h4>What can be done with JavaScript:</h4>
 
@@ -3556,7 +3556,7 @@ library for plotting functions&#133; then you can use some functionalities that 
 from the "paper.js" library. You need to read the documentation to learn how to use 
 it, but here is an example: a set of squares, animated squares, that follow the mouse.
 
-<!-- <end of video transcript for 1.3.3 above> -->
+<!-- end transcript 1.3.3 -->
 
 <h4>JavaScript code can be located in different places</h4>
 
@@ -4242,7 +4242,7 @@ fields on the left and the plot on the right.</p>
 properties for both sections in a section selector. OK, what I've got now, is 
 that I've got a nice balanced view of the whole application.</p>
 
-<!-- end of 1.4.2 video transcript -->
+<!-- end transcript 1.4.2 -->
 
 <h4>CodePen example with the starting code used in the video</h4>
 
@@ -4689,7 +4689,7 @@ got an error: &quot;b is not defined&quot;. Remember that if I used &quot;var&qu
 that case it works, because &quot;var&quot; will define a variable local to the
 whole function, not just to the block of instructions.</p>
 
-<!-- end of video transcript 1.5.2 -->
+<!-- end transcript 1.5.2 -->
 
 <h4>Scope of JavaScript variables</h4>
 
@@ -4890,7 +4890,8 @@ and null and object.</p>
 
 <p>Nothing else. And the "typeof" operator can be used to display the type
 of an object.</p>
-<!-- end of video transcript 1.5.3 -->
+
+<!-- end transcript 1.5.3 -->
 <!------------------------------------------------------------------------------------------------>
 <h4>What kind of values can we assign to a variable?</h4>
 
@@ -5322,7 +5323,7 @@ display the value of "x" it’s "9"&#133;  Z= ++x &#133; "z" will be "9 + 1"… 
 the same syntax you can find in the Java programming language or in c#, Python, 
 or Ruby.</p>
 
-<!-- end of live video transcript 1.5.6 -->
+<!-- end transcript 1.5.6 -->
 
 <p>The following arithmetic operators are binary:<br>
 +, - , /, &ast;, % (modulo)</p>
@@ -5614,7 +5615,7 @@ the result is NaN that means &quot;Not a Number&quot;, you cannot convert
 &quot;hello&quot; to a number that can be used in a mathematical expression or multiplied by
 two.</p>
 
-<!-- end of video transcript 1.5.8 -->
+<!-- end transcript 1.5.8 -->
 
 <h4>Introduction to string operators</h4>
 
@@ -10975,7 +10976,7 @@ use the ul&apos;s innerHTML property both for emptying the list (<i>lines
   title=" "
   alt="." />
 
-<!-- end transcript - to be entered -->
+<!-- end transcript 2.6.1 -->
 
 The HTML5 canvas is a transparent element that is useful for drawing and
 animating. We&apos;ll see some simple examples here, as we&apos;re going to
@@ -12434,7 +12435,7 @@ pop</b> and <b>sort.</b> You saw that the first element is at <b>index 0</b>,
 the last element at index <b>length-1</b> and that you can also use some
 comparison functions for the <b>sort</b> elements.
 
-[&lt;end of transcript 3.2.1&gt;]
+<!-- end transcript 3.2.1 -->
 
 <h4>ERRATA in the above video:</h4>
 
@@ -12474,10 +12475,13 @@ JavaScript object.
 
 Each element of an array has a key/index and a value. Here are the
 keys/indexes and values from the above example:
-
-![Table with key and values of the previous array
-example](./images/image376.jpeg){width="1.5479166666666666in"
-height="1.2979166666666666in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 376. Table with key and values of the previous array example (16z) ~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image376.jpeg?raw=true"
+  style="width:15%"
+  title="Table with key and values of the previous array example"
+  alt="Table with key and values of the previous array example." />
 
 Below is an another example with an array containing three integers. The
 first element is at index 0, and the last at the index equal to the
@@ -13038,7 +13042,7 @@ each element, use the "<b>forEach</b>" operator. If you need to jump over
 some elements, do some operations in the middle, stop the iteration,
 then go for the "<b>for</b>" loop.
 
-<!-- end of transcript 3.2.3 -->
+<!-- end transcript 3.2.3 -->
 
 <h5>Get the source code of the example shown in the video:</h5>
 
@@ -13640,7 +13644,7 @@ related to the video, and so on. Ok, this was just to show you some
 basics of using the JavaScript API of media elements such as the video
 audio player.
 
-<b>&lt;end video transcript 3.3.2&gt; done!</b>
+<!-- end transcript 3.3.2 -->
 
 <b>Source code of the example from the video:</b>
 
@@ -14837,7 +14841,7 @@ load and decode the sound.</p>
 <p>Then, it tells us when the sound is ready to be used and in that case, 
 we enable the button that is greyed and not clickable by default.</p>
 
-<!-- &lt;video transcript above for 3.5.2&gt; -->
+<!-- end transcript 3.5.2 -->
 
 <h5>Howler.js for using sound samples in memory.</h5>
 
@@ -15065,7 +15069,8 @@ with the loaded images and so on.
 
 I hope you will find this useful if you are planning to write a small
 HTML5 game with lots of JavaScript.
-<!-- &lt;end of transcript 3.5.4&gt; -->
+
+<!-- end transcript 3.5.4 -->
 
 <h4>A utility background loader for images, music and sound samples</h4>
 
@@ -15334,7 +15339,7 @@ Date, and so on. And it is important for you to know how to use them.
 Finally, as usual, we will provide many examples and some optional
 projects at the end of module.
 
-<!-- &lt;end of video transcript 4.1.1&gt; -->
+<!-- end transcript 4.1.1 -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-1-2">4.1.2 Module 4 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -15541,7 +15546,7 @@ operator to access the sub-properties. "book2.author" is an object,
 "book2.author.familyName" will access the "familyName" property of the
 author object that is a property of "book2". And it gives "heller" here.
 
-<!-- &lt;end of transcript video 4.2.2 above&gt; -->
+<!-- end transcript 4.2.2  -->
 
 <h5>Source code of the example in the above lesson</h5>
 
@@ -15716,7 +15721,7 @@ object author, which is also a property of the book object).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-5">4.2.5 Elements, properties and methods (6:37)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Live coding transcript: object methods
+<p>Live coding transcript: object methods</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 450.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15874,7 +15879,7 @@ console (on the right), you see that it&apos;s a complete object that
 contains the properties and the methods we define after creating the
 object.
 
-<!-- &lt;end transcript 4.2.5 above&gt; -->
+<!-- end transcript 4.2.5 -->
 
 <h5>Source code of the live lesson example</h5>
 
@@ -16124,7 +16129,7 @@ characteristics and the methods that correspond to its behaviors to what
 it can do and, of course, the methods will modify the properties for
 changing the position of the object on the screen.
 
-<!-- &lt;end 4.2.6 live transcript&gt; -->
+<!-- end transcript 4.2.6 -->
 
 <h4>Source code of examples shown in the above video</h4>
 
@@ -16491,7 +16496,7 @@ but with different values that have been passed at construction time.
 
 The 'new' operator here is for constructing, for building objects.
 
-<!-- &lt;video 4.3.2 transcript above&gt; -->
+<!-- end transcript 4.3.2 -->
 
 <h5>Source code shown in this lesson</h5>
 
@@ -16716,7 +16721,7 @@ before.
 I recommend to use the class syntax from ES6, it&apos;s supported by all
 modern browsers.
 
-&lt;video transcript above&gt;
+<!-- end transcript 4.3.3 -->
 
 <h4>Source code from above video examples</h4>
 
@@ -16976,7 +16981,7 @@ the name of the class.
 
 getHowManyHeroesYouCreated()&#133; 0!
 
-&lt;end transcript above&gt;
+<!-- end transcript 4.3.6 -->
 
 <h5>Source code from the examples in the above video</h5>
 
@@ -17622,7 +17627,7 @@ location in memory. With predefined types like Number, String and so on,
 it&apos;s a real copy that is done when we do "x=x2" for example. And in
 that case, only the copy is modified, not the original.
 
-&lt;video transcript above&gt;
+<!-- end  transcript 5.2.1 -->
 
 <h4>Source code shown in the video</h4>
 
@@ -17923,7 +17928,7 @@ the same as "p.valueOf()". If I type "**p.toString()**", in that case,
 it gives me the value of "p" as a string, and as a string its the value
 is this message.
 
-<!-- transcript for 5.2.4 built-in js class: object -->
+<!-- end transcript 5.2.4 built-in js class: object -->
 
 <h5>Source code shown in the above lesson</h5>
 
@@ -18104,7 +18109,7 @@ These methods are quite powerful for manipulating elements inside an
 array: remove, insert, insert at the end, remove at the end, and so
 on&#41;
 
-&lt;end video transcript above&gt;
+<!-- end transcript 5.2.5 -->
 
 <h5>Source code from the above video</h5>
 
@@ -18551,7 +18556,7 @@ If I do this, it will&#133; ok&#133;I need to do this on the array so:
 tokens separated by space and will in turn build again a string with
 &apos;&#45;&#45;&#45;-&apos; between different tokens.
 
-<!-- &lt;end of video transcript 5.2.8&gt; -->
+<!-- end transcript 5.2.8 -->
 
 <h5>Source code from the video example</h5>
 
@@ -19322,7 +19327,7 @@ shown in a next video where we consume remote data from Web services,
 get the data and create on the fly, create dynamically a table with rows
 and cells that will be used for displaying the data we just collected.
 
-&lt;video transcript above 5.3.2&gt;
+<!-- end transcript 5.3.2 -->
 
 <h4>Source code from the above video</h4>
 
@@ -19827,7 +19832,7 @@ small set of dates to choose from. All these things are explained in the
 course, take some time to read and look at all these examples. This is
 the end of this video good luck &#133; good work !
 
-&lt;end video transcript 5.3.4&gt;
+<!-- end transcript 5.3.4 -->
 
 Source code from the example shown in the above video
 
@@ -20051,7 +20056,7 @@ In the next video, we will see how we can use JSON objects, for example,
 downloading them from a remote data source and displaying their values
 in an HTML table.
 
-&lt;end video transcript 5.4.1&gt;
+<!-- end transcript 5.4.1 -->
 
 JSON stands for<b> J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation. It&apos;s a
 standard for transforming nearly any object into a string representation
@@ -20263,7 +20268,7 @@ also add some CSS to make it better, or I can define some &lt;td&gt; (table
 data) to make a nicer table. And I can display for example another
 property that will be the email of the person. That's it!
 
-<!-- &lt;end video transcript 5.4.2&gt; -->
+<!-- end transcript 5.4.2 -->
 
 <h5>Source code from the above live coding video</h5>
 
