@@ -437,9 +437,9 @@ free, open source, multi-platform editor by Microsoft.</p>
   style="width:5%"
   title="JSBin logo"
   alt="JSBin logo." />
-<a href="https://jsbin.com/" target="_blank" rel="noopener noreferrer">
+<h6 align="left"><a href="https://jsbin.com/" target="_blank" rel="noopener noreferrer">
 JS Bin</a> is an open-source collaborative Web development debugging tool. Most 
-of the examples you will find in this course are either on JSBin or on CodePen.</p>
+of the examples you will find in this course are either on JSBin or on CodePen.</h6>
 
 <p>Tutorials can be found on the Web (such as 
 <a href="https://www.youtube.com/playlist?list=PLXmT1r4krsTooRDWOrIu23P3SEZ3luIUq" 
@@ -468,13 +468,13 @@ for the live coding videos.</p>
   style="width:5%"
   title="CodePen logo"
   alt="CodePen logo." />
-<a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">
+<h6 align="left"><a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">
 CodePen</a> is similar to JSBin except that its Web site includes a search engine, 
 which is very useful for finding out what others have developed. Looking for a nice 
 HTML5/CSS button style? Just search for &quot;button&quot;, etc. It&apos;s also 
 easier for us to embed HTML/CSS/JS examples in this course with CodePen than with 
 other online IDEs; this is why so many &quot;pens&quot; are embedded in the course 
-pages.</p>
+pages.</h6>
 
 <p>This is a great service to get you started quickly as it doesn&apos;t
 require you to download anything and you can access it, along with your
@@ -544,8 +544,10 @@ when we want to include an SVG arrow in a document.</p>
   style="width:5%"
   title="jsFiddle logo"
   alt="jsFiddle logo." />
+</p>
+<h6 align="center">
 <a href="https://jsfiddle.net/" target="_blank" rel="noopener noreferrer">
-JSFiddle</a> is very similar to JSBin and CodePen in terms of features.</p>
+JSFiddle</a> is very similar to JSBin and CodePen in terms of features.</h6>
 
 <h4>Other tools</h4>
 
@@ -760,7 +762,8 @@ and get a list of matching properties/elements/ attributes/functions in the
 above-mentioned specifications, and further details on those when selecting 
 the one of interest.</p>
 
-<p>The W3C cheatsheet is only available as a <a href="https://dev.w3.org/2009/cheatsheet/doc/" target="_blank" rel="noopener noreferrer">
+<p>The W3C cheatsheet is only available as a <a href="https://dev.w3.org/2009/cheatsheet/doc/" 
+target="_blank" rel="noopener noreferrer">
 pure Web application</a>.</p>
 
 <h4>Help build the Web Platform!</h4>
@@ -769,7 +772,8 @@ pure Web application</a>.</p>
 Web sites are designed and standardized in W3C in a completely open and
 transparent process.</p>
 
-<p>In fact, all W3C specifications are developed in public <a href="https://github.com/w3c/" target="_blank" rel="noopener noreferrer">
+<p>In fact, all W3C specifications are developed in public 
+<a href="https://github.com/w3c/" target="_blank" rel="noopener noreferrer">
 GitHub repositories</a>, so if you are familiar with GitHub, you already know 
 how to contribute to W3C specifications! This is all about raising issues 
 (with feedback and suggestions) and/or bringing pull requests to fix identified issues.</p>
@@ -787,7 +791,8 @@ technologies are built is a great way to build your expertise.</p>
   title="GitHub Octocat logo"
   alt="GitHub Octocat logo." />
 If you&apos;re looking to an easy way to dive into this standardization processes, check out which 
-<a href="https://github.com/search?q=org%3Aw3c+label%3A%22good+first+issue%22+state%3Aopen&type=Issues" target="_blank" rel="noopener noreferrer">
+<a href="https://github.com/search?q=org%3Aw3c+label%3A%22good+first+issue%22+state%3Aopen&type=Issues" 
+target="_blank" rel="noopener noreferrer">
 issues in the W3C GitHub repositories have been marked as &quot;good first issue&quot;</a> and
 see if you find anything where you think you would be ready to help.</p>
 
@@ -810,7 +815,8 @@ define key parts of what actually makes the World Wide Web work.</p>
   title="W3Cx JS logo"
   alt="W3Cx JS.0x logo." />
 Another approach is to go and bring
-feedback on ideas for future technologies: the <a href="https://wicg.io/" target="_blank" rel="noopener noreferrer">
+feedback on ideas for future technologies: the 
+<a href="https://wicg.io/" target="_blank" rel="noopener noreferrer">
 W3C Web Platform Community Incubator Group</a> was built as an easy place 
 to get started to provide feedback on new proposals or bring brand-new
 proposals for consideration.</p>
@@ -838,24 +844,28 @@ define key parts of what actually makes the World Wide Web work.</p>
 
 <h6 align="center"><i><b>Tim Berners-Lee at his desk in CERN, 1994</b></i></h6>
 
-<p><a href="https://www.w3.org/People/Berners-Lee/" target="_blank" rel="noopener noreferrer">Tim Berners-Lee</a> wrote
-a <a href="https://www.w3.org/History/1989/proposal.html" target="_blank" rel="noopener noreferrer">proposal</a> in 1989 for
+<p><a href="https://www.w3.org/People/Berners-Lee/" target="_blank" rel="noopener noreferrer">
+Tim Berners-Lee</a> wrote a <a href="https://www.w3.org/History/1989/proposal.html" 
+target="_blank" rel="noopener noreferrer">proposal</a> in 1989 for
 a system called the World Wide Web. He then created the first Web browser, server, 
 and Web page. He wrote the first specifications for URLs, HTTP, and HTML.</p>
 
 <p>In October 1994, Tim Berners-Lee founded the World Wide Web Consortium
 (W3C) at the Massachusetts Institute of Technology, Laboratory for Computer 
 Science &lbrack;MIT/LCS&rbrack; in collaboration with 
-<a href="https://home.cern/" target="_blank" rel="noopener noreferrer">CERN</a>, where the Web originated (see information 
-on the <a href="https://www.w3.org/Daemon/" target="_blank" rel="noopener noreferrer">original CERN Server</a>), with 
-support from DARPA and the <a href="https://ec.europa.eu/index_en.htm" target="_blank" rel="noopener noreferrer">
+<a href="https://home.cern/" target="_blank" rel="noopener noreferrer">
+CERN</a>, where the Web originated (see information on the 
+<a href="https://www.w3.org/Daemon/" target="_blank" rel="noopener noreferrer">
+original CERN Server</a>), with support from DARPA and the 
+<a href="https://ec.europa.eu/index_en.htm" target="_blank" rel="noopener noreferrer">
 European Commission</a>.</p>
 
 <p>In April 1995, <a href="https://www.inria.fr/" target="_blank" rel="noopener noreferrer">Inria</a> became the first European
 W3C host, followed by <a href="https://www.keio.ac.jp/" target="_blank" rel="noopener noreferrer">
 Keio University of Japan</a>(Shonan Fujisawa Campus) in Asia in 1996. In 2003, 
-<a href="https://www.ercim.eu/">ERCIM</a> took over the role of 
-European W3C Host from Inria. In 2013, W3C announced <a href="https://ev.buaa.edu.cn/" target="_blank" rel="noopener noreferrer">
+<a href="https://www.ercim.eu/" target="_blank" rel="noopener noreferrer">
+ERCIM</a> took over the role of European W3C Host from Inria. In 2013, W3C announced 
+<a href="https://ev.buaa.edu.cn/" target="_blank" rel="noopener noreferrer">
 Beihang University</a> as the fourth Host.</p>
 
 <p>As of January 2023, W3C is a public-interest non-profit organization
@@ -867,23 +877,29 @@ Directors and employing a global staff across the globe.</p>
 As of July 2023, W3C:
 
 <ul>
-  <li>Is a <a href="https://www.w3.org/Consortium/Member/List" target="_blank" rel="noopener noreferrer">member</a>-driven
+  <li>Is a <a href="https://www.w3.org/Consortium/Member/List" 
+    target="_blank" rel="noopener noreferrer">member</a>-driven
     organization composed of over 360 companies, universities, start-ups, etc. from 
   all over the world.</li>
-  <li>Holds 52 <a href="https://www.w3.org/groups/" target="_blank" rel="noopener noreferrer">technical groups</a>, including
-    Working and Interest Groups where technical specifications are discussed and developed.</li>
-  <li>Published over 13585 <a href="https://www.w3.org/TR/" target="_blank" rel="noopener noreferrer">published technical reports</a>, 
-  including 510 Web standards (or W3C Recommendations) - since January 1st,1995.</li>
-  <li>Runs a <a href="https://www.w3.org/Consortium/Translation/" target="_blank" rel="noopener noreferrer">translation program</a> 
+  <li>Holds 52 <a href="https://www.w3.org/groups/" target="_blank" rel="noopener noreferrer">
+    technical groups</a>, including Working and Interest Groups where technical specifications 
+	are discussed and developed.</li>
+  <li>Published over 13585 <a href="https://www.w3.org/TR/" target="_blank" 
+    rel="noopener noreferrer">published technical reports</a>, 
+    including 510 Web standards (or W3C Recommendations) - since January 1st,1995.</li>
+  <li>Runs a <a href="https://www.w3.org/Consortium/Translation/" target="_blank" 
+    rel="noopener noreferrer">translation program</a> 
     to foster the translation of its specifications: see the 
-  <a href="https://www.w3.org/Consortium/Translation/matrix.html" target="_blank" rel="noopener noreferrer">translation matrix</a> 
-  currently listing 312 available translations of W3C recommendations.</li>
-  <li>Hosts 143 <a href="https://www.w3.org/community/groups/" target="_blank" rel="noopener noreferrer">Community and Business
-    Groups</a>, where developers, designers, and anyone passionate about the Web 
-  have a place to hold discussions and publish ideas.</li>
+  <a href="https://www.w3.org/Consortium/Translation/matrix.html" target="_blank" 
+    rel="noopener noreferrer">translation matrix</a>currently listing 312 available 
+	translations of W3C recommendations.</li>
+  <li>Hosts 143 <a href="https://www.w3.org/community/groups/" target="_blank" 
+    rel="noopener noreferrer">Community and Business Groups</a>, where developers, 
+	designers, and anyone passionate about the Web have a place to hold discussions 
+	and publish ideas.</li>
   <li>Gathers over13860active participants constituting the W3C community.</li>
-  <li>Has a <a href="https://www.w3.org/People/" target="_blank" rel="noopener noreferrer">technical staff</a> composed of 46
-    people, spread on all five continents.</li>
+  <li>Has a <a href="https://www.w3.org/People/" target="_blank" rel="noopener noreferrer">
+    technical staff</a> composed of 46 people, spread on all five continents.</li>
 </ul>
 
 <h4>W3C&apos;s core values</h4>
@@ -904,11 +920,12 @@ but this usage is technically incorrect.</p>
 <p>The Web is an application of the Internet. The Web is the most popular
 way of accessing the Internet, but other applications of the Internet
 are <a href="https://en.wikipedia.org/wiki/Email" target="_blank" rel="noopener noreferrer">
-e-mail</a> and <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" target="_blank" rel="noopener noreferrer">
-ftp</a> for example. One analogy equates the Internet to a road network where the
-Web is a car, the email is a bicycle, etc.  Read 
-<a href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335" target="_blank" rel="noopener noreferrer">
-this article</a> for more details about the difference between Internet and the Web.</p>
+e-mail</a> and <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" 
+target="_blank" rel="noopener noreferrer">ftp</a> for example. One analogy equates the 
+Internet to a road network where the Web is a car, the email is a bicycle, etc.  Read 
+<a href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335" 
+target="_blank" rel="noopener noreferrer">this article</a> for more details about 
+the difference between Internet and the Web.</p>
 
 <h4>Check also this reminder ;)</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -939,12 +956,15 @@ regardless of disability is an essential aspect.
 disabilities can use them. However, currently many sites and tools are
 developed with accessibility barriers that make them difficult or
 impossible for some people to use.</p>
+
 <p><b>Accessibility is essential for developers and organizations that want
 to create high-quality websites and web tools, and not exclude people
 from using their products and services.</b></p>
+
 <p>Making the web accessible benefits people <b>with</b> and
 <b>without</b> disabilities, businesses, and society. Accessibility is an
 important aspect of diversity, equity, and inclusion (DEI).</p>
+
 <p><a href="https://www.w3.org/WAI/videos/standards-and-benefits/" target="_blank" 
 rel="noopener noreferrer">
 Video Introduction to Web Accessibility and W3C Standards</a> is a 4-minute video 
@@ -1065,7 +1085,8 @@ English, because there are 18 characters between the &apos;i&apos; and the
   style="width:10%"
   title="W3C Internationalization Activity logo"
   alt="W3C Internationalization Activity logo." />
-The <a href="https://www.w3.org/International/" target="_blank" rel="noopener noreferrer">W3C Internationalization Activity</a> 
+The <a href="https://www.w3.org/International/" target="_blank" rel="noopener noreferrer">
+W3C Internationalization Activity</a> 
 works with W3C working groups and liaises with other organizations to make 
 it possible to use Web technologies with different languages, scripts, and 
 cultures.</p>
@@ -1096,7 +1117,8 @@ encoded.</p>
 <p>As a content author or developer, It is important to clearly distinguish
 between the concepts of a character set versus a character encoding. You
 should nowadays always 
-<a href="https://www.w3.org/International/articles/definitions-characters/index.en#charsets" target="_blank" rel="noopener noreferrer">
+<a href="https://www.w3.org/International/articles/definitions-characters/index.en#charsets" 
+target="_blank" rel="noopener noreferrer">
 choose the UTF-8 character encoding</a> for your content or data. This Unicode 
 encoding is a good choice because you can use a single encoding to handle any 
 character you are likely to meet. This greatly simplifies things.</p>
@@ -1194,14 +1216,16 @@ come back and review this page at the end.</p>
     inappropriate cultural bias.</li>
 </ol>
 
-<p>You will find more quick tips on the <a href="https://www.w3.org/International/quicktips/" target="_blank" rel="noopener noreferrer">
+<p>You will find more quick tips on the <a href="https://www.w3.org/International/quicktips/" 
+target="_blank" rel="noopener noreferrer">
 Internationalization quick tips</a> page. Remember that these tips do not constitute 
 complete guidelines.</p>
 
 <h4>Internationalization checker</h4>
 
 <p>When you start creating Web pages, you can also run them through the
-W3C&apos;s <a href="https://validator.w3.org/i18n-checker/" target="_blank" rel="noopener noreferrer">Internationalization
+W3C&apos;s <a href="https://validator.w3.org/i18n-checker/" 
+target="_blank" rel="noopener noreferrer">Internationalization
 Checker</a>.  If there are internationalization problems with your page, this 
 checker explains what they are and what to do about it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1317,7 +1341,8 @@ the title, which things should be emphasized and so on.</p>
 
 <p>There are many ways to markup a document, but HTML borrows a technique
 from an ancestor language, SGML 
-(<a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language" target="_blank" rel="noopener noreferrer">Standard Generalized Markup 
+(<a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language" 
+target="_blank" rel="noopener noreferrer">Standard Generalized Markup 
 Language</a>), which uses angle brackets (&quot;&lt;&quot; and &quot;&gt;&quot;) 
 to separate the annotations from the regular text.  In HTML these annotations 
 are called &quot;tags&quot;.</p>
@@ -1333,7 +1358,8 @@ time):</p>
   title="Codepen: A Tale of Two Cities"
   alt="Codepen: A Tale of Two Cities." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PWqYxG" target="_blank" rel="noopener noreferrer">CodePen: A Tale of Two Cities</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PWqYxG" 
+target="_blank" rel="noopener noreferrer">CodePen: A Tale of Two Cities</a></h6>
 
 <h5>HTML:</h5>
 
@@ -1387,23 +1413,32 @@ your Web page looks, as well as how it responds and interacts with you.</p>
   title="CodePen: Who Am I?"
   alt="CodePen: Who Am I?" />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/egNOLj" target="_blank" rel="noopener noreferrer">CodePen: Who Am I?</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/egNOLj" 
+target="_blank" rel="noopener noreferrer">CodePen: Who Am I?</a></h6>
 
 <h4>Try it out!</h4>
 
 <p>It&apos;s time to write your first HTML code :-)</p>
 
-<p>You can use a source code editor like <a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer">Sublime Text</a>, 
-<a href="https://atom.io/">Atom</a>,<a href="http://brackets.io/" target="_blank" rel="noopener noreferrer">brackets</a> or
+<p>You can use a source code editor like <a href="https://www.sublimetext.com/" 
+target="_blank" rel="noopener noreferrer">Sublime Text</a>, 
+<a href="https://atom.io/">Atom</a>,<a href="http://brackets.io/" 
+target="_blank" rel="noopener noreferrer">brackets</a> or
 any lightweight text editor. You can also use more &quot;professional&quot;
-tools such as <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Visual Studio Code</a>, 
-<a href="https://netbeans.org/" target="_blank" rel="noopener noreferrer">NetBeans</a>, <a href="https://eclipse.org/downloads/" target="_blank" rel="noopener noreferrer">Eclipse</a>
-<a href="https://eclipse.org/downloads/WebStorm" target="_blank" rel="noopener noreferrer">WebStorm</a>, 
-<a href="https://www.jetbrains.com/webstorm" target="_blank" rel="noopener noreferrer">jetbrains, etc.</p>
+tools such as <a href="https://code.visualstudio.com/" 
+target="_blank" rel="noopener noreferrer">Visual Studio Code</a>, 
+<a href="https://netbeans.org/" target="_blank" rel="noopener noreferrer">
+NetBeans</a>, <a href="https://eclipse.org/downloads/" target="_blank" 
+rel="noopener noreferrer">Eclipse</a>
+<a href="https://eclipse.org/downloads/WebStorm" target="_blank" 
+rel="noopener noreferrer">WebStorm</a>, 
+<a href="https://www.jetbrains.com/webstorm" target="_blank" 
+rel="noopener noreferrer">jetbrains, etc.</p>
 
 <p>To try out the simple examples from this course, I&apos;d suggest using an
-online IDE such as <a href="https://jsbin.com/">JSBin</a>, 
-<a href="https://codepen.io/">CodePen</a>, <a href="https://plnkr.co/" target="_blank" rel="noopener noreferrer">Plunker</a>, etc.</p>
+online IDE such as <a href="https://jsbin.com/" target="_blank" rel="noopener noreferrer">JSBin</a>, 
+<a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">CodePen</a>, 
+<a href="https://plnkr.co/" target="_blank" rel="noopener noreferrer">Plunker</a>, etc.</p>
 
 <p>During the course, we will show you how to test out simple code snippets
 in online IDEs, but we will also teach you how to organize your code
@@ -1441,7 +1476,8 @@ editor for editing HTML5 files directly on your hard disk.</p>
 </p>
 
 <p>In order to use the JSBin.com tool, that is the first one I recommend,
-you will open a new tab with your browser and you go to <a href="http://jsbin.com" target="_blank" rel="noopener noreferrer">JSBin</a>.</p>
+you will open a new tab with your browser and you go to <a href="http://jsbin.com" 
+target="_blank" rel="noopener noreferrer">JSBin</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 37/38. jsbin create my home page, who am i? (32) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1734,7 +1770,8 @@ tag, and everything in between the tags is the contents of the element:</p>
 
 <p>Most tags have open and close versions, but there are a few strange
 ones.  For more info, we strongly recommend that you follow the
-W3Cx <a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank" rel="noopener noreferrer">HTML5&CSS Fundamentals</a> 
+W3Cx <a href="https://www.edx.org/course/html5-and-css-fundamentals" 
+target="_blank" rel="noopener noreferrer">HTML5&CSS Fundamentals</a> 
 course, but we generally refer to the strange ones as &quot;self closing&quot; 
 tags. Usually these tags represent an element that is completely described by
 its attributes, and thus there is no need for other content.  So if you see 
@@ -1751,7 +1788,8 @@ needs is declared in an &quot;attribute&quot;.</p>
 
 <p>The &lt;img&gt; tag is one of them, the &quot;/&quot; at the end is optional and can
 be removed entirely, this will still be 
-<a href="https://w3c.github.io/html/syntax.html#void-elements" target="_blank" rel="noopener noreferrer">valid HTML5</a>.</p>
+<a href="https://w3c.github.io/html/syntax.html#void-elements" 
+target="_blank" rel="noopener noreferrer">valid HTML5</a>.</p>
 
 <pre>&gt; &lt;img src="https://goo.gl/pVxY0e" alt="Floating Flower"&gt;</pre>
 
@@ -1762,7 +1800,8 @@ menuitem, meta, param, source, track, wbr.</p>
 <h3 id="ch1-2-4">1.2.4 HTML attributes (6:01)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Most of what you can learn about HTML attributes is presented 
-<a href="https://www.edx.org/school/w3cx" target="_blank" rel="noopener noreferrer">
+<a href="https://www.edx.org/school/w3cx" 
+target="_blank" rel="noopener noreferrer">
 in the three W3Cx MOOCs about HTML5</a> (fundamentals, coding essentials, and advanced 
 techniques), but we can introduce the idea briefly in this JavaScript course. Basically, 
 a given element on your Web page can be distinguished by any number of unique or common 
@@ -2001,9 +2040,8 @@ in the CSS part, etc.):</p>
   style="width:50%"
   title="Example CodePen: My Home Page"
   alt="Example CodePen: My Home Page." />
-</p>
-
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GrJpXO" target="_blank" rel="noopener noreferrer">CodePen: My Home Page</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GrJpXO" 
+target="_blank" rel="noopener noreferrer">CodePen: My Home Page</a></h6>
 
 <p>If you click on the CSS button on the top left of the previous codepen
 example, you see the CSS rules that have been applied to the HTML
@@ -2082,9 +2120,8 @@ Best practice is to name these things to increase clarity, consistency and brevi
   style="width:50%"
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." />
-</p>
-
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLGWQJ" target="_blank" rel="noopener noreferrer">CodePen: Update CSS Rule</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLGWQJ" 
+target="_blank" rel="noopener noreferrer">CodePen: Update CSS Rule</a></h6>
 
 <p>The last two rules first target the element whose id is &apos;hobbyTitle&apos;,
 in our case it&apos;s the second h2 element:</p>
@@ -2107,7 +2144,8 @@ attribute id=&quot;hobbyTitle&quot;.</p>
 
 <p>In that case, we use a funny char font called &apos;caveat&apos; we took from
 the Google font service
-(see <a href="https://fonts.google.com/" target="_blank" rel="noopener noreferrer">fonts.google.com</a>), and in order to be
+(see <a href="https://fonts.google.com/" target="_blank" 
+rel="noopener noreferrer">fonts.google.com</a>), and in order to be
 able to use it in a font-family CSS property, we included its definition
 using a &lt;link&gt; tag in the HTML part of the document:</p>
 
@@ -2142,8 +2180,10 @@ paragraphs in the HTML element:</p>
 
 <p>There are many, many, many different CSS properties in existence, and
 many different ways to select elements. We recommend that you follow the
-W3Cx <a href="https://www.edx.org/course/css-basics" target="_blank" rel="noopener noreferrer">CSS Basics</a> and 
-<a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank" rel="noopener noreferrer">HTML5&CSS
+W3Cx <a href="https://www.edx.org/course/css-basics" 
+target="_blank" rel="noopener noreferrer">CSS Basics</a> and 
+<a href="https://www.edx.org/course/html5-and-css-fundamentals" 
+target="_blank" rel="noopener noreferrer">HTML5&CSS
 Fundamentals</a> courses to learn more about CSS and about HTML5 basics.</p>
 
 <h5>Where can we put the CSS rules: in the HTML file? in another file?</h5>
@@ -2160,13 +2200,13 @@ this example:</p>
   style="width:50%"
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." />
-</p>
-
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygNOxv" target="_blank" rel="noopener noreferrer">CodePen: Update CSS Rule</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygNOxv" 
+target="_blank" rel="noopener noreferrer">CodePen: Update CSS Rule</a></h6>
 
 <p>This is OK if you do not have too many CSS rules. In general it&apos;s
 better to put the CSS rules in one or more separate .css files, like
-this (<a href="https://plnkr.co/edit/vedmaDmnfiJzoiLPrInG?p=preview" target="_blank" rel="noopener noreferrer">
+this (<a href="https://plnkr.co/edit/vedmaDmnfiJzoiLPrInG?p=preview" 
+target="_blank" rel="noopener noreferrer">
 open this example in Plunker</a>)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 65. snapshot of a code editor showing a separte css file (56) ~~~~~~~~~~~~~~~-->
@@ -2180,7 +2220,8 @@ open this example in Plunker</a>)</p>
 <p>Note that when you use an online IDE, you usually type/paste the CSS
 rules in a &quot;CSS tab&quot; in the online editor, and it hides all the
 &quot;plumbing&quot; for you (except the more complete ones such
-as <a href="https://plnkr.co/" target="_blank" rel="noopener noreferrer">Plunker</a> or <a href="https://c9.io/" target="_blank" rel="noopener noreferrer">
+as <a href="https://plnkr.co/" target="_blank" rel="noopener noreferrer">
+Plunker</a> or <a href="https://c9.io/" target="_blank" rel="noopener noreferrer">
 AWS Cloud9</a> that enable you to manage files in the cloud).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-6">1.2.6 Live coding video: mixing HTML and CSS (3:49)</h3>
@@ -2419,7 +2460,8 @@ examples:</p>
   title="Example: index.html: update heading using JavaScript"
   alt="Example: index.html: update heading using JavaScript." />
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE" target="_blank" rel="noopener noreferrer">CodePen: Use JS to Modify CSS</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE" 
+target="_blank" rel="noopener noreferrer">CodePen: Use JS to Modify CSS</a></h6>
 
 <p>Example #2: push another button to modify the CSS style (color, background-color, 
 border) of a paragraph in the page.</p>
@@ -2481,7 +2523,8 @@ Maps and eBay.</p>
 </p>
 
 <p>JavaScript was born in 1995 as part of the work of Brendan Eich&apos;s team
-at <a href="https://en.wikipedia.org/wiki/Netscape" target="_blank" rel="noopener noreferrer">
+at <a href="https://en.wikipedia.org/wiki/Netscape" 
+target="_blank" rel="noopener noreferrer">
 Netscape</a> (the ancestor of <a href="https://www.mozilla.org/" 
 target="_blank" rel="noopener noreferrer">Mozilla</a>). At that time, Netscape 
 (a hero), in association with Sun MicroSystems (another hero), provided popular 
@@ -2521,7 +2564,8 @@ these two languages is their names. If you are coming to this
 course from Java, leave the Java thinking behind!</p>
 
 <p>JavaScript quickly became a success following its first appearance in 
-<a href="http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/" target="_blank" rel="noopener noreferrer">
+<a href="http://cybernetnews.com/cybernotes-history-of-web-browsers-opera-netscape-firefox-and-ie/" 
+target="_blank" rel="noopener noreferrer">
 Netscape Navigator 2 in March 1996</a>, and it was quickly integrated into other 
 popular browsers. Microsoft also created its own version named JScript (and shipped 
 it with Internet Explorer 3 in 1996 -- It was a dud).</p>
@@ -2555,8 +2599,10 @@ did NOT exist at this time!</b></p>
   title="ecma"
   alt="ECMA." />
 Towards the end of 1996, JavaScript was standardized
-by <a href="https://en.wikipedia.org/wiki/Ecma_International" target="_blank" rel="noopener noreferrer">ECMA</a> as
-the <a href="https://en.wikipedia.org/wiki/ECMAScript" target="_blank" rel="noopener noreferrer">EcmaScript</a> standard. 
+by <a href="https://en.wikipedia.org/wiki/Ecma_International" 
+target="_blank" rel="noopener noreferrer">ECMA</a> as
+the <a href="https://en.wikipedia.org/wiki/ECMAScript" 
+target="_blank" rel="noopener noreferrer">EcmaScript</a> standard. 
 <b>So no matter whether you see it called JavaScript or EcmaScript, don&apos;t
 worry, it&apos;s the same thing.</b> EcmaScript has continued to be released
 right up to the present day. MS still didn't play ball.</p>
@@ -2585,7 +2631,8 @@ versions of the language. In June 2015, ECMA International approved the
 6th edition of the language. The name, ES2015, was used because the
 latest version of JavaScript is identified as the 2015 version of
 ECMAScript (the alternative name for JavaScript). 
-<a href="https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning" target="_blank" rel="noopener noreferrer">
+<a href="https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning" 
+target="_blank" rel="noopener noreferrer">
 Read this blog post about all these naming incongruities!</a><br>
 At the beginning, ES2015 was referred to as ES6 and before that,
 Harmony. Moving forward, ES suffixed with the year of the latest
@@ -2628,7 +2675,8 @@ won&apos;t be implemented before some months.</p>
 <p>First of all, this is an introductory course! Not all features of
 JavaScript need to be covered, in particular the ones that you cannot
 run in your browser without using advanced tools (there are tools, such
-as <a href="https://babeljs.io/" target="_blank" rel="noopener noreferrer">Babel</a>, that can turn ESxxxx source code into
+as <a href="https://babeljs.io/" target="_blank" rel="noopener noreferrer">
+Babel</a>, that can turn ESxxxx source code into
 ES5 code that can be run in nearly any browser, but they are tricky to
 use and not for beginners).</p>
 
@@ -3024,10 +3072,11 @@ and the range of the y values is &lbrack;-1, 1&rbrack;.</p>
     you should see the updated result in the &quot;Results&quot; tab,</li>
   <li>&hellip;or just click on the &quot;Edit on CodePen&quot; title on the top
     right of the embedded example, then change  the code. Normally you should 
-  see the results of your modifications as soon as you stop typing (we call 
-  this &quot;live coding&quot;). (Here is 
-  <a href="https://codepen.io/w3devcampus/pen/dvpEPZ" target="_blank" rel="noopener noreferrer">
-  an example of what you can obtain</a> as a result).</li>
+    see the results of your modifications as soon as you stop typing (we call 
+    this &quot;live coding&quot;). (Here is 
+    <a href="https://codepen.io/w3devcampus/pen/dvpEPZ" 
+    target="_blank" rel="noopener noreferrer">
+    an example of what you can obtain</a> as a result).</li>
 </ul>
 
 <h4>What can you guess from this example?</h4>
@@ -3184,10 +3233,8 @@ cos(x) to our example, with a different color:</p>
   style="width:65%"
   title="CodePen: JS Graph, #2"
   alt="CodePen: JS Graph, #2." />
-</p>
-<!-- page 82 -->
-
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KWPyeX" target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph, #2</a></h6>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KWPyeX" 
+target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph, #2</a></h6>
 
 <h4>Conclusion</h4>
 
@@ -3271,7 +3318,6 @@ surface address. Here we go. I&apos;m located near Antibes in the south of Franc
   style="width:50%"
   title="Example; using databases and tables in JS"
   alt="Example; using databases and tables in JS." />
-<!-- <p align="center"><a href="">CodePen: Send AJAX request to remote server for list of users</a>.</p> -->
 <p>You can also work with remote data. So in this code, I&apos;m just sending
 what we call an Ajax request to a remote server to get a list of
 users&#133; and once I get this list of users, I just use the HTML table
@@ -8988,24 +9034,30 @@ mind that keys are not located at the same place on keyboards from
 different countries.</p>
 
 </p>Extract from the &quot;
-<a href="https://hacks.mozilla.org/2017/03/internationalize-your-keyboard-controls/">
+<a href="https://hacks.mozilla.org/2017/03/internationalize-your-keyboard-controls/" 
+target="_blank" rel="noopener noreferrer">
 Internationalize your keyboard controls</a>&quot; article on MDN:</p>
 
 <p><b>&quot;Recently I came across two lovely new graphical demos, and in both
-cases, the controls would not work on my French <b><a href="https://en.wikipedia.org/wiki/AZERTY">
+cases, the controls would not work on my French <b><a href="https://en.wikipedia.org/wiki/AZERTY" 
+target="_blank" rel="noopener noreferrer">
 <i>AZERTY keyboard</i></a>.</b></p>
 
-<p>There was the wonderful WebGL 2 technological demo <a href="https://www.youtube.com/watch?v=TT7ugKuUMv0/">
-<i>After The Flood</i></a>, and the very cute <a href="https://codepen.io/shshaw/full/apwMwM/"><i>Alpaca 
-Peck</i></a>. <a href="https://codepen.io/shshaw/"><i>Shaw</i> was
-nice enough to fix the latter when I told him about the issue. It turns
-out the Web browser actually exposes a useful API for this.&quot;</p>
+<p>There was the wonderful WebGL 2 technological demo 
+<a href="https://www.youtube.com/watch?v=TT7ugKuUMv0/" target="_blank" rel="noopener noreferrer">
+<i>After The Flood</i></a>, and the very cute <a href="https://codepen.io/shshaw/full/apwMwM/" 
+target="_blank" rel="noopener noreferrer"><i>Alpaca Peck</i></a>. 
+<a href="https://codepen.io/shshaw/" target="_blank" rel="noopener noreferrer"><i>Shaw</i> was 
+nice enough to fix the latter when I told him about the issue. It turns out the 
+Web browser actually exposes a useful API for this.&quot;</p>
 
 <h4>One keyboard, many layouts</h4>
 
-<p>For details, see <a href="https://en.wikipedia.org/wiki/Keyboard_layout">Wikipedia's keyboard layout page</a>!</p>
+<p>For details, see <a href="https://en.wikipedia.org/wiki/Keyboard_layout" 
+target="_blank" rel="noopener noreferrer">Wikipedia's keyboard layout page</a>!</p>
 
-<h4><a href="https://en.wikipedia.org/wiki/QWERTY">QWERTY</a> layout, used in US, GB, etc.</h4>
+<h4><a href="https://en.wikipedia.org/wiki/QWERTY" 
+target="_blank" rel="noopener noreferrer">QWERTY</a> layout, used in US, GB, etc.</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 273. qwerty keyboard layout (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9013,7 +9065,6 @@ out the Web browser actually exposes a useful API for this.&quot;</p>
   style="width:50%"
   title=""
   alt="qwerty keyboard layout." />
-<!-- ![QWERTY keyboard layout](./images/image169.png){width="5.208333333333333in" height="1.7395833333333333in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 274. azerty keyboard layout (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9021,43 +9072,43 @@ out the Web browser actually exposes a useful API for this.&quot;</p>
   style="width:50%"
   title=""
   alt="azerty keyboard layout." />
-<!-- ![AZERTY keyboard layout](./images/image170.png){width="5.208333333333333in" height="1.6041666666666667in"} -->
 
-<h4>In addition, <a href="https://en.wikipedia.org/wiki/QWERTZ">QWERTZ</a> keyboards are in use in Germany 
-and other European countries, and <a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout">DVORAK</a> is another 
-alternative to QWERTY:</h4>
+<h4>In addition, <a href="https://en.wikipedia.org/wiki/QWERTZ" 
+target="_blank" rel="noopener noreferrer">QWERTZ</a> keyboards are in use in Germany 
+and other European countries, and 
+<a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout" 
+target="_blank" rel="noopener noreferrer">DVORAK</a> is another alternative to QWERTY:</h4>
 
 <h5>DVORAK:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 275. dvorak layout keyboard (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 275. dvorak layout keyboard (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image275.png?raw=true"
   style="width:50%"
-  title=""
-  alt="dvorak layout keyboard." />
-<!-- ![DVORAK layout keyboard](./images/image171.png){width="5.208333333333333in" height="1.6041666666666667in"} -->
+  title="Dvorak layout keyboard"
+  alt="Dvorak layout keyboard." />
 
 <h5>QWERTZ:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 276. qwertz layout keyboard (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 276. qwertz layout keyboard (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image276.png?raw=true"
   style="width:50%"
-  title=""
+  title="Qwertz layout keyboard"
   alt="qwertz layout keyboard." />
-<!-- ![QWERTZ layout keyboard](./images/image172.png){width="5.208333333333333in" height="1.7395833333333333in"} -->
 
-<h4>Saudi Arabic keyboard layout (see more <a href="https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards">
-Arabic keyboards</a>):</h4>
+<h4>Saudi Arabic keyboard layout (see more 
+<a href="https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards" 
+target="_blank" rel="noopener noreferrer">Arabic keyboards</a>):</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 280. saoudian arabic keyboar layout (224) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 280. saoudian arabic keyboar layout (224) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image280.jpeg?raw=true"
   style="width:50%"
   title="Saoudian Arabic keyboard layout"
   alt="Saoudian Arabic keyboard layout." />
-
-<h4><a href="https://en.wikipedia.org/wiki/Bengali_input_methods#Bangla_Jatiyo">Bangla National (Jatiyo) keyboard</a>:</h4>
+<h6><a href="https://en.wikipedia.org/wiki/Bengali_input_methods#Bangla_Jatiyo" 
+target="_blank" rel="noopener noreferrer">Bangla National (Jatiyo) keyboard</a>:</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 281. Bangladesh keyboard layout (224) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9103,10 +9154,15 @@ while the numeric pad yields values like &apos;Numpad1&apos;.</p>
 <h4>List of codes, the reference keyboard</h4>
 
 <p>There's no existing keyboard with all the possible keys. That's why the
-W3C published <a href="https://www.w3.org/TR/uievents-code/">a specification just for
-this</a>. You can read about the <a href="https://www.w3.org/TR/uievents-code/#keyboard-layout">existing mechanical
-layouts</a> around the world, as well as their <a href="https://www.w3.org/TR/uievents-code/#code-value-tables">reference
-keyboard</a>. For instance here is their reference keyboard for the alphanumerical part:</p>
+W3C published <a href="https://www.w3.org/TR/uievents-code/" 
+target="_blank" rel="noopener noreferrer">a specification just for this</a>. 
+You can read about the <a href="https://www.w3.org/TR/uievents-code/#keyboard-layout" 
+target="_blank" rel="noopener noreferrer">existing mechanical
+layouts</a> around the world, as well as their 
+<a href="https://www.w3.org/TR/uievents-code/#code-value-tables" 
+target="_blank" rel="noopener noreferrer">
+reference keyboard</a>. For instance here is their reference keyboard for 
+the alphanumerical part:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 282. reference alphanumeric keyboard (225) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -9115,7 +9171,8 @@ keyboard</a>. For instance here is their reference keyboard for the alphanumeric
   title="Reference alphanumeric keyboard"
   alt="Reference alphanumeric keyboard." />
 
-<p>Also, please read through <a href="https://w3c.github.io/uievents/#code-examples">
+<p>Also, please read through <a href="https://w3c.github.io/uievents/#code-examples" 
+target="_blank" rel="noopener noreferrer">
 the examples given in the specification</a>. They show very clearly what happens when 
 the user presses various types of keys, both for code and key.</p>
 
@@ -9127,8 +9184,9 @@ the user presses various types of keys, both for code and key.</p>
   style="width:50%"
   title="CodePen: display key and code values"
   alt="CodePen: display key and code values." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/GmYxNY">
-CodePen: display key and code values</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GmYxNY" 
+target="_blank" rel="noopener noreferrer">
+CodePen: display key and code values</a>.</h6>
 
 <p>I encourage you to take a look and get at least an overview of this
 specification.</p>
@@ -9139,8 +9197,10 @@ describing the values for the key property.</p>
 <h4>Current browser support</h4>
 
 <ul>
-  <li><a href="https://caniuse.com/#feat=keyboardevent-key">CanIUse table for key</a></li>
-  <li><a href="https://caniuse.com/#feat=keyboardevent-code">CanIUse table F-for code</a></li>
+  <li><a href="https://caniuse.com/#feat=keyboardevent-key"
+    target="_blank" rel="noopener noreferrer">CanIUse table for key</a></li>
+  <li><a href="https://caniuse.com/#feat=keyboardevent-code" 
+    target="_blank" rel="noopener noreferrer">CanIUse table F-for code</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-8">2.4.8 Mouse events</h3>
@@ -9153,10 +9213,10 @@ describing the values for the key property.</p>
   alt="Hand holding mouse; MouseUp, MouseOver, MouseDrag &amp; MouseDown." />
 </p>
 
-<p><b><i>Important note</i>: Remember that many people do not use the mouse and
+<p><b><i>Important note</i></b>: Remember that many people do not use the mouse and
 rely on the keyboard to interact with the Web. This requires keyboard
 access to all functionality, including form controls, input, and other
-user interface components (</b><a href="https://www.w3.org/WAI/intro/people-use-web/principles#operable">
+user interface components (<a href="https://www.w3.org/WAI/intro/people-use-web/principles#operable">
 <i>learn more</i>).</p>
 
 <p>Detecting mouse events in a canvas is quite straightforward: you add an
@@ -9167,10 +9227,10 @@ the event occurs.</p>
 (when a user presses or releases any mouse button):</p>
 
 <pre>canvas.addEventListener('mousedown', function (evt) {
-   // do something with the mousedown event
+  // do something with the mousedown event
 });
 canvas.addEventListener('mouseup', function (evt) {
-   // do something with the mouseup event
+  // do something with the mouseup event
 });
 </pre>
 
@@ -9211,8 +9271,8 @@ listen to.</p>
   style="width:50%"
   title="CodePen: detect a click on an element"
   alt="CodePen: detect a click on an element." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWJmyj">
-CodePen: detect a click on an element</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/EWJmyj" 
+target="_blank" rel="noopener noreferrer">CodePen: detect a click on an element</a>.</h6>
 
 <h4>Example #2: see the differences between clientX/clientY and pageX/pageY</h4>
 
@@ -9230,7 +9290,8 @@ when embedded in this page!</p>
   style="width:50%"
   title="CodePen: difference between clientX, clientY and pageX, pageY"
   alt="CodePen: difference between clientX, clientY and pageX, pageY." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/bqJWJJ">CodePen: diff between clientX, Y, and pageX, Y</a>.</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/bqJWJJ" 
+target="_blank" rel="noopener noreferrer">CodePen: diff between clientX, Y, and pageX, Y</a>.</p>
 
 <h4>Example #3: detect a mousemove event and get the mouse position relative to the page</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9240,8 +9301,8 @@ when embedded in this page!</p>
   style="width:50%"
   title="CodePen: detect mouse movement and mouse position relative to the page"
   alt="CodePen: detect mouse movement and mouse position relative to the page." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpGmjE">
-CodePen: detect mousemove and get position</a>.</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpGmjE" 
+target="_blank" rel="noopener noreferrer">CodePen: detect mousemove and get position</a>.</p>
 
 <h4>Example #4: detect a mousemove and get the mouse position relative to the element that fired the event</h4>
 
@@ -9254,7 +9315,8 @@ clientX/PageX and clientY/pageY mouse event properties:</p>
   style="width:65%"
   title="CodePen: detect mouse movement &amp; position relative to fired event"
   alt="CodePen: detect mouse movement &amp; position relative to fired event." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/oZryVL">
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/oZryVL" 
+target="_blank" rel="noopener noreferrer">
 CodePen: detect mousemove and get position relative to fired event</a>.></p>
 
 <p>Here is another version that uses <b>clientX/clientY</b> and
@@ -9271,7 +9333,8 @@ real position relative to the top left corner of the canvas:</p>
   style="width:50%"
   title="CodePen: get position relative to top left corner of canvas"
   alt="CodePen: get position relative to top left corner of canvas." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/oZOWQG">CodePen</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/oZOWQG" 
+target="_blank" rel="noopener noreferrer">CodePen</a>.</h6>
 
 <h5>JavaScript source code extract:</h5>
 
@@ -9297,8 +9360,9 @@ real position relative to the top left corner of the canvas:</p>
   style="width:50%"
   title="CodePen: Implement a click and drag behavior"
   alt="CodePen: Implement a click and drag behavior." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/bqJRMV">
-CodePen: click and drag behavior</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bqJRMV" 
+target="_blank" rel="noopener noreferrer">
+CodePen: click and drag behavior</a>.</h6>
 
 <h4>Example #6: create and attach a right-click context menu to any element</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9308,8 +9372,9 @@ CodePen: click and drag behavior</a>.</p>
   style="width:50%"
   title="CodePen: create and attach a right-click context menu to element"
   alt="CodePen: create and attach a right-click context menu to element." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/oZOweM">
-CodePen: create and attach a right-click context menu to an element</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/oZOweM" 
+target="_blank" rel="noopener noreferrer">
+CodePen: create and attach a right-click context menu to an element</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-9">2.4.9 Form and input field events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9339,7 +9404,8 @@ the course that deals with form events.</p>
   style="width:50%"
   title="CodePen: simple input field validation"
   alt="CodePen: simple input field validation." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/vxMgxQ">CodePen: simple input field validation</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/vxMgxQ" 
+target="_blank" rel="noopener noreferrer">CodePen: simple input field validation</a>.</h6>
 
 <h4>Second variant: using the &apos;keyup&apos; event:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9349,13 +9415,14 @@ the course that deals with form events.</p>
   style="width:50%"
   title="CodePen: using the 'keyup' event"
   alt="CodePen: using the 'keyup' event." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/XMQpRa">CodePen: using the 'keyup' event</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/XMQpRa" 
+target="_blank" rel="noopener noreferrer">CodePen: using the 'keyup' event</a>.</h6>
 
 <p>Note that HTML5 forms and the multiple facets of form and input field
 validation are covered in depth in the W3C 
-<a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">
+<h6 href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">
 HTML5 Coding Essentials and Best Practices</a> course, which dedicates a whole 
-week to this topic.</p>
+week to this topic.</h6>
 
 <h4>Example #2: do something while a slider is being moved</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9365,8 +9432,8 @@ week to this topic.</p>
   style="width:50%"
   title="CodePen: do something while a slider is being moved"
   alt="CodePen: do something while a slider is being moved." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/yMrgPg">
-CodePen: do something while a slider is being moved</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/yMrgPg" 
+target="_blank" rel="noopener noreferrer">CodePen: do something while a slider is being moved</a>.</h6>
 
 <h4>Example #3: detect value changes in a number input field</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9376,10 +9443,10 @@ CodePen: do something while a slider is being moved</a>.</p>
   style="width:50%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/LWvxeB">
-CodePen: detect value changes in a number field</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LWvxeB" 
+target="_blank" rel="noopener noreferrer">CodePen: detect value changes in a number field</a>.</h6>
 
-<h4>Example #4: choose a color and do something</h4>
+<h5>Example #4: choose a color and do something</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 299.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9387,9 +9454,8 @@ CodePen: detect value changes in a number field</a>.</p>
   style="width:50%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/gmygzV">
-CodePen: choose a color and do something</a>.</p>
-
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/gmygzV" 
+target="_blank" rel="noopener noreferrer">CodePen: choose a color and do something</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-10">2.4.10 Reference tables</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9487,9 +9553,11 @@ It&apos;s not part of the course, but professionals may find the following
 references useful:</p>
 
 <ul>
-  <li><a href="https://en.wikipedia.org/wiki/Separation_of_concerns">
+  <li><a href="https://en.wikipedia.org/wiki/Separation_of_concerns"
+    target="_blank" rel="noopener noreferrer">
     Separation of concerns - Wikipedia, the free encyclopedia</a></li>
-  <li><a href="https://medium.com/@alliecohen_Tech/software-architecture-and-the-art-of-separation-of-concerns-1bd780cb8f2a">
+  <li><a href="https://medium.com/@alliecohen_Tech/software-architecture-and-the-art-of-separation-of-concerns-1bd780cb8f2a"
+    target="_blank" rel="noopener noreferrer">
     Software Architecture and the Art of Separation of Concerns</a></li>
 </ul>
 
@@ -9649,8 +9717,9 @@ post your comments/observations/questions or share your creations.</p>
     graphics and animation, you can also imagine a graphic version of
     this game.</li>
 </ul>
-<p>For inspiration, check this cool game <a href="https://codepen.io/TKonan/pen/wvQgVJQ">
-"Typing Frenzy"</a> created by learner @AnthonyRKing (ARK)!</p>
+<h6>For inspiration, check this cool game <a href="https://codepen.io/TKonan/pen/wvQgVJQ" 
+target="_blank" rel="noopener noreferrer">
+"Typing Frenzy"</a> created by learner @AnthonyRKing (ARK)!</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 310. codepen: typing frenzy (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9658,8 +9727,8 @@ post your comments/observations/questions or share your creations.</p>
   style="width:65%"
   title="CodePen: Typing Frenzy by ARK"
   alt="CodePen: Typing Frenzy by ARK." />
-<p align="center"><a href="https://codepen.io/TKonan/pen/wvQgVJQ">
-CodePen: Typing Frenzy</a></p>
+<h6 align="center"><a href="https://codepen.io/TKonan/pen/wvQgVJQ" 
+target="_blank" rel="noopener noreferrer">CodePen: Typing Frenzy</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-1">2.5.1 Introducing the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9728,7 +9797,8 @@ showed you:</p>
   style="width:50%"
   title="html and circle"
   alt="html and circle." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/BRNpYQ">html red circle</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/BRNpYQ" 
+target="_blank" rel="noopener noreferrer">html red circle</a>.</h6>
 
 <p>Consider the figure above.  It contains a single html element.  It turns
 out this includes within it the entire content of your html file.  If
@@ -9836,8 +9906,8 @@ problem where you need to manipulate the DOM.</p>
   style="width:65%"
   title="CodePen Overview: Two buttons and four images"
   alt="CodePen Overview: Two buttons and four images." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpdaxM">
-CodePen: two buttons and four images</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OpdaxM" 
+target="_blank" rel="noopener noreferrer">CodePen: two buttons and four images</a>.</h6>
 
 <p>This time, let&apos;s look a bit more in depth to the different methods for
 selecting elements in an HTML page, and then do something with these elements.</p>
@@ -9848,8 +9918,8 @@ selecting elements in an HTML page, and then do something with these elements.</
   style="width:65%"
   title="CodePen: Two buttons defined"
   alt="CodePen: Two buttons defined." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpdaxM">
-CodePen: two buttons and four images</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OpdaxM" 
+target="_blank" rel="noopener noreferrer">CodePen: two buttons and four images</a>.</h6>
 
 <p>I prepared here an HTML document that contains two buttons that do
 nothing for the moment, and it contains also 4 images.</p>
@@ -9992,11 +10062,14 @@ possibilities.</p>
 
 <h4>Accessing HTML elements with the selector API (recommended)</h4>
 
-<p>Extract from <a href="https://www.webdirections.org/blog/html5-selectors-api-its-like-a-swiss-army-knife-for-the-dom/">
+<p>Extract from 
+<a href="https://www.webdirections.org/blog/html5-selectors-api-its-like-a-swiss-army-knife-for-the-dom/" 
+target="_blank" rel="noopener noreferrer">
 HTML5 selectors API -- It's like a Swiss Army Knife for the DOM</a>) :
 &quot;</b>One of the many reasons for the success of JavaScript libraries
-like <b><a href="https://jquery.org/"><i>jQuery</i></a></b> and </b><a href="http://prototypejs.org/">
-<i>Prototype</i></a></b>, on top of their easing the pain of cross-browser development was how
+like <a href="https://jquery.org/" target="_blank" rel="noopener noreferrer">
+<i>jQuery</i></a> and <a href="http://prototypejs.org/" target="_blank" rel="noopener noreferrer">
+<i>Prototype</i></a>, on top of their easing the pain of cross-browser development was how
 they made working with the DOM far less painful than it had previously
 been, and indeed how it was with the standard DOM. Being able to use
 arbitrary CSS selector notation to get matching elements from a document
@@ -10010,7 +10083,8 @@ baked these into all modern browsers, way back to IE8.</b>&quot;</p>
 
 <h4>The querySelector(CSSSelector) and querySelectorAll(CSSSelector) methods</h4>
 
-<p>Ah&hellip; these methods owe a lot to <a href="https://jquery.org/">jQuery</a>! They
+<p>Ah&hellip; these methods owe a lot to <a href="https://jquery.org/" 
+target="_blank" rel="noopener noreferrer">jQuery</a>! They
 introduce a way to use CSS selectors (including CSS3 selectors) for
 requesting the DOM, like jQuery introduced ages ago.</p>
 
@@ -10038,8 +10112,9 @@ that corresponds to the whole DOM tree of your web page:</p>
   style="width:50%"
   title="Example; querySelector and querySelectorAll"
   alt="Example; querySelector and querySelectorAll." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpdaxM">
-CodePen Example: querySelector &amp; querySelectorAll</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OpdaxM" 
+target="_blank" rel="noopener noreferrer">
+CodePen Example: querySelector &amp; querySelectorAll</a>.</h6>
 
 <p><b>Source code from the above example:</b></p>
 
@@ -10124,7 +10199,8 @@ called when one of the HTML buttons is clicked (<b><i>line 23 and line
 <p>Here are some other examples that use more complicated CSS selectors. If
 you are not familiar with their syntax, we recommend that you follow the
 CSS basics, and HTML5 and CSS fundamentals courses
-from <a href="https://www.edx.org/school/w3cx">W3Cx</a>.</p>
+from <a href="https://www.edx.org/school/w3cx" 
+target="_blank" rel="noopener noreferrer">W3Cx</a>.</p>
 
 <h4><b>Example #1: get all &lt;li&gt; directly in a &lt;ul&gt; of class nav</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10134,8 +10210,8 @@ from <a href="https://www.edx.org/school/w3cx">W3Cx</a>.</p>
   style="width:65%"
   title="CodePen Example; Get all li's in ul class"
   alt="CodePen Example; Get all li's in ul class." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/evxQMr">CodePen: get all li's within 
-a ul of class nav</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/evxQMr" 
+target="_blank" rel="noopener noreferrer">CodePen: get all li's within a ul of class nav</a>.</h6>
 
 <h5>HTML:</h5>
 
@@ -10188,9 +10264,9 @@ located inside an element of a given id.</h5>
   style="width:65%"
   title="Show Checked items inside an element of a given id"
   alt="Show Checked items inside an element of a given id." />
-<a href="https://codepen.io/w3devcampus/pen/MpLzqV">CodePen: Show Checked items</a>
+<h6 href="https://codepen.io/w3devcampus/pen/MpLzqV" 
+target="_blank" rel="noopener noreferrer">CodePen: Show Checked items</h6>
 </p>
-<!-- ![](./images/image202.png){width="6.5in" height="4.35625in"} -->
 
 <h5>HTML:</h5>
 
@@ -10278,9 +10354,9 @@ to access it from the &lt;input&gt; child we selected, we use elm.parentNode.</p
   style="width:65%"
   title="CodePen: Change background of all paragraphs in element of a given id"
   alt="CodePen: Change background of all paragraphs in element of a given id." />
-<a href="https://codepen.io/w3devcampus/pen/LWqqqm">
-CodePen: Change background of p under element id</a>
-</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LWqqqm" 
+target="_blank" rel="noopener noreferrer">CodePen: Change background of p under element id</a>
+</h6>
 
 <h5>HTML code:</h5>
 
@@ -10450,18 +10526,20 @@ about CSS):</p>
   title="Update style within html document"
   alt="Update style within html document." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/evxoQq">
-CodePen: Update styles in document</a>
-</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/evxoQq" 
+target="_blank" rel="noopener noreferrer">CodePen: Update styles in document</a>
+</h6>
 
 <h4>Using the ClassList interface to change more than one CSS property simultaneously</h4>
 
 <h5>External resources:</h5>
 
 <ul>
-  <li><a href="https://www.w3.org/TR/dom/#dom-element-classlist">
+  <li><a href="https://www.w3.org/TR/dom/#dom-element-classlist" 
+    target="_blank" rel="noopener noreferrer">
     The W3C specification about the classList DOM interface</a></li>
-  <li><a href="https://hacks.mozilla.org/2010/01/classlist-in-firefox-3-6/">
+  <li><a href="https://hacks.mozilla.org/2010/01/classlist-in-firefox-3-6/" 
+    target="_blank" rel="noopener noreferrer">
     An article from the Mozilla Developer&apos;s web site</a></li>
 </ul>
 
@@ -10604,8 +10682,9 @@ codePen, open the devtool console):</p>
   title="Open the console and look at the JavaScript code"
   alt="Open the console and look at the JavaScript code." />
 </p>
-<p><a href="https://codepen.io/w3devcampus/pen/MpxEdj">
-CodePen: Open the console and look at the JavaScript code</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/MpxEdj" 
+target="_blank" rel="noopener noreferrer">
+CodePen: Open the console and look at the JavaScript code</a>.</h6>
 
 <h4>Extract from the HTML code:</h4>
 
@@ -10663,7 +10742,9 @@ field, etc.</p>
   title="CodePen: Modifying DOM nodes with textContent and innerHTML"
   alt="CodePen: Modifying DOM nodes with textContent and innerHTML." />
 </p>
-<p><a href="https://codepen.io/w3devcampus/pen/RpdjwE">CodePen (Modifying DOM Nodes with textContent and innerHTML</a></p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/RpdjwE" 
+target="_blank" rel="noopener noreferrer">
+CodePen (Modifying DOM Nodes with textContent and innerHTML</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-6">2.5.6 Adding new elements to the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10720,8 +10801,9 @@ using append(), appendChild(), insertBefore() or the innerHTML property.</p>
   title="CodePen: Modify attributes of select elements"
   alt="CodePen: Modify attributes of select elements." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/aWeqzO">
-CodePen: Modify attributes of select elements</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/aWeqzO" 
+target="_blank" rel="noopener noreferrer">
+CodePen: Modify attributes of select elements</a>.</h6>
 
 <p>The DOM API comes with a set of methods you can use on DOM elements.</p>
 
@@ -10771,8 +10853,9 @@ CodePen: Modify attributes of select elements</a>.</p>
   title="CodePen: Example, createElement, append, and textContent"
   alt="CodePen: Example, createElement, append, and textContent." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/aWeqz">
-CodePen: Enter a number &amp; add to list</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/aWeqz" 
+target="_blank" rel="noopener noreferrer">
+CodePen: Enter a number &amp; add to list</a>.</h6>
 
 <p>HTML code extract: we use an &lt;input type=&quot;number&quot;&gt; for entering a
 number (<i>line 2</i>). Then if one clicks on the &quot;Add to the list&quot; button,
@@ -10838,8 +10921,9 @@ the innerHTML property:</p>
   style="width:65%"
   title="CodePen: Using innerHTML property to add new elements"
   alt="CodePen: Using innerHTML property to add new elements." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/jBJbqM">
-CodePen: Example, using innerHTML property</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/jBJbqM" 
+target="_blank" rel="noopener noreferrer">
+CodePen: Example, using innerHTML property</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-7">2.5.7 Moving HTML elements in the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10868,7 +10952,9 @@ the <b>targetElem.</b></p>
   style="width:65%"
   title="CodePen: Click a browser image to move to zone area"
   alt="CodePen: Click a browser image to move to zone area." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/peYyPz">CodePen Example #1, Click browser image to move to a zone</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/peYyPz" 
+target="_blank" rel="noopener noreferrer">
+CodePen Example #1, Click browser image to move to a zone</a>.</h6>
 
 <h5>Example #2: a more significant example, that also uses drag&apos;n&apos;drop</h5>
 
@@ -10891,7 +10977,8 @@ dragged image to the div, while removing it from its original location.
   style="width:65%"
   title="Drag 'n drop browser images in a zone"
   alt="Drag 'n drop browser images in a zone." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/xwxEZg">CodePen: Example #2, Drag 'n drop images</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/xwxEZg" 
+target="_blank" rel="noopener noreferrer">CodePen: Example #2, Drag 'n drop images</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-8">2.5.8 Removing elements from the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10906,8 +10993,9 @@ will check the elements you want to remove from the list!</p>
   style="width:65%"
   title="CodePen: Removing elements from the DOM"
   alt="CodePen: Removing elements from the DOM." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/NpJxdX">
-CodePen: removing elements from the DOM</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/NpJxdX" 
+target="_blank" rel="noopener noreferrer">
+CodePen: removing elements from the DOM</a>.</h6>
 
 <p>JavaScript code extract: we need to get the &lt;ul&gt; that contains all
 the &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;&lt;/li&gt; elements (<i>line 3</i>). This
@@ -11137,8 +11225,9 @@ filled text, changing colors)</h5>
   style="width:65%"
   title="CodePen: Functions that save and restore the context before drawing"
   alt="CodePen: Functions that save and restore the context before drawing." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWMbmE">
-CodePen: Functions that save and restore the context before drawing</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/EWMbmE" 
+target="_blank" rel="noopener noreferrer">
+CodePen: Functions that save and restore the context before drawing</a>.</h6>
 
 <h5><b>Explanations:</b></h5>
 
@@ -11169,15 +11258,19 @@ example.
 
 <h5>Example #3: draw a monster instead of a simple rectangle or circle {#example-3-draw-a-monster-instead-of-a-simple-rectangle-or-circle .unnumbered}
 
-This is where you reap the benefits of your good habits of
-saving/restoring the context and using ctx.translate(x, y)!
+<p>This is where you reap the benefits of your good habits of
+saving/restoring the context and using ctx.translate(x, y)!</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 345. codepen: drawmymonster (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image345.png?raw=true"
+  style="width:65%"
+  title="CodePen: DrawMyMonster"
+  alt="CodePen: DrawMyMonster." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/aJMMzL" 
+target="_blank" rel="noopener noreferrer">CodePen: DrawMyMonster</a>.</h6>
 
-![](./images/image345.png){width="5.0in"
-height="5.224359142607174in"}
-
-<b>https://codepen.io/w3devcampus/pen/aJMMzL</b>
-
-Here is JavaScript code that implements these best practices:
+<p>Here is JavaScript code that implements these best practices:</p>
 
 <pre>
 1.  // useful to have them as global variables
@@ -11233,34 +11326,31 @@ Here is JavaScript code that implements these best practices:
 51. }
 </pre>
 
-In this small example, we used the context object to draw a monster
-using the default color (black) and wireframe and filled modes:
+<p>In this small example, we used the context object to draw a monster
+using the default color (black) and wireframe and filled modes:</p>
 
--   ctx.fillRect(x, y, width, height): draws a rectangle whose top
+<ul>
+  <li>ctx.fillRect(x, y, width, height): draws a rectangle whose top
     left corner is at (x, y) and whose size is specified by
     the width and height parameters; and both outlined by, and filled
-    with, the default color.
-
--   ctx.strokeRect(x, y, width, height): same but in wireframe mode.
-
--   Note that we use (<i>line 30</i>) ctx.translate(x, y) to make it easier
+    with, the default color.</li>
+  <li>ctx.strokeRect(x, y, width, height): same but in wireframe mode.</li>
+  <li>Note that we use (<b><i>line 30</i></b>) ctx.translate(x, y) to make it easier
     to move the monster around. All the drawing instructions are coded
     as if the monster was in (0, 0), at the top left corner of the
-    canvas (look at <i>line 33</i>). We draw the body outline with a
+    canvas (look at <b><i>line 33</i></b>). We draw the body outline with a
     rectangle starting from (0, 0). Calling context.translate &quot;changes
     the coordinate system&quot; by moving the &quot;old (0, 0)&quot; to (x, y) and
     keeping other coordinates in the same position relative to the
-    origin.
-
--   <i>Line 19</i>: we call the drawMonster function with (10, 10) as
+    origin.</li>
+  <li><b><i>Line 19</i></b>: we call the drawMonster function with (10, 10) as
     parameters, which will cause the original coordinate system to be
-    translated by (10, 10).
-
--   And if we change the coordinate system (this is what the call
+    translated by (10, 10).</li>
+  <li>And if we change the coordinate system (this is what the call
     to ctx.translate(&#133;) does) in a function, it is good practice to
     always save the previous context at the beginning of the function
-    and restore it at the end of the function (<i>lines 27 and 50</i>).
-
+    and restore it at the end of the function (<b><i>lines 27 and 50</i></b>).</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-2">2.6.2 Animating</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11273,31 +11363,28 @@ using the default color (black) and wireframe and filled modes:
   <li>Go to step 1</li>
 </ol>
 
-Optional steps can be:
+<p>Optional steps can be:</p>
 
 <ul>
-  <li>
--   Look at the keyboard / mouse / gamepad if we need to do something
+  <li>Look at the keyboard / mouse / gamepad if we need to do something
     according to their status (i.e. if the left arrow is pressed: move
-    the player to the left)
-
--   Test collisions: the player collided with an enemy, remove one life
-
--   Test game states: if there are no more lives, then go to the &quot;game
-    over&quot; state and display a &quot;game over&quot; menu.
-
--   Etc.
+    the player to the left)</li>
+  <li>Test collisions: the player collided with an enemy, remove one life</li>
+  <li>Test game states: if there are no more lives, then go to the &quot;game
+    over&quot; state and display a &quot;game over&quot; menu.</li>
+  <li>Etc.</li>
+</ul>
 
 <h5>Examples</h5>
 
 <h5>Example #1: monster on the move</h5>
 
-There are different methods for coding an animation loop in JavaScript,
-as described in the above video.
+<p>There are different methods for coding an animation loop in JavaScript,
+as described in the above video.</p>
 
-The trick is to write a function, and at the end of this function, to
+<p>The trick is to write a function, and at the end of this function, to
 ask the browser to call it again in 1/60th of a second if possible. See
-the CodePen example below:
+the CodePen example below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 346.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11305,21 +11392,21 @@ the CodePen example below:
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/PpLLKY">
-CodePen: DrawMyMonster</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpLLKY" 
+target="_blank" rel="noopener noreferrer">CodePen: DrawMyMonster</a>.</h6>
 
 <h5>Example #2: bouncing ball</h5>
 
-Here the balls bounce on the sides of the canvas (walls).
+<p>Here the balls bounce on the sides of the canvas (walls).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 347.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 347. CodePen: bouncing ball (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image347.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpqqqM">
-CodePen: Bouncing Ball</a>.</p>
+  title="CodePen: Bouncing Ball"
+  alt="CodePen: Bouncing Ball." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OpqqqM" 
+target="_blank" rel="noopener noreferrer">CodePen: Bouncing Ball</a>.</h6>
 
 <h5>Explanations:</h5>
 
@@ -11453,14 +11540,15 @@ Let&apos;s animate balls and let&apos;s start with 3 the animation of 3 balls:
 In the animation loop, we draw and move these three balls. Here is the
 result:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 348.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 348. CodePen: animating multiple objects (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image348.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/bqZypx">
-CodePen: Animating Multiple Objects</a>.</p>
+  title="CodePen: animating multiple objects"
+  alt="CodePen: animating multiple objects." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bqZypx" 
+target="_blank" rel="noopener noreferrer">
+CodePen: Animating Multiple Objects</a>.</h6>
 
 <b>Extract of the source code: the mainLoop function</b>
 
@@ -11495,13 +11583,14 @@ moving any number of balls!</h4>
 New version: look at
 the <b>createBalls, drawBalls</b> and <b>moveBalls</b> functions now!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 349.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 349. CodePen: using arrays and loops (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image349.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/jBJoLo">
+  title="CodePen: using arrays and loops"
+  alt="CodePen: using arrays and loops." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/jBJoLo" 
+target="_blank" rel="noopener noreferrer">
 CodePen: Using Arrays and Loops</a>.</p>
 
 Let&apos;s look at the new functions we&apos;ve added: 
@@ -11562,20 +11651,20 @@ Let&apos;s look at the new functions we&apos;ve added: 
 
 <h5>Explanations:</h5>
 
--   <i>Line 2</i>: in this function, we use an array of random color names
+<ul>
+  <li><b><i>Line 2</i></b>: in this function, we use an array of random color names
     named colors (you can go on the codePen example and change these
-    colors or add new ones).
-
--   <i>Line 7</i>: then we compute an index with a random value between 0
+    colors or add new ones).</li>
+  <li><b><i>Line 7</i></b>: then we compute an index with a random value between 0
     and colors.length-1. Remember that in an array of n elements, the
     index of the first is always 0 and the index of the last one is
     always equal to the length of the array -1. For example: var myArray
     = &lbrack;&apos;red&apos;, &apos;blue&apos;, &apos;green&apos;&rbrack;, 
 	red is at index 0, green at index 2, while myArray.length = 3, the number 
-	of elements in the array.
-
--   <i>Lines 8 and 11</i>: once we get a random index in the correct range,
-    we can return the corresponding color.
+	of elements in the array.</li>
+  <li><b><i>Lines 8 and 11</i></b>: once we get a random index in the correct range,
+    we can return the corresponding color.</li>
+</ul>
 
 <h5>Functions drawAllBalls and moveAllBalls:</h5>
 
@@ -11600,14 +11689,14 @@ Let&apos;s look at the new functions we&apos;ve added: 
 
 <h5>Explanations:</h5>
 
--   These two functions use an iterator on the array of balls (using
+<ul>
+  <li>These two functions use an iterator on the array of balls (using
     the forEach method that looked the best fit here). The code inside
     the iterator is the same as in the previous example. We did not have
-    to modify the testCollisionBallWithWalls code, for example.
-
+    to modify the testCollisionBallWithWalls code, for example.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-4">2.6.4 Mouse interactions</h3>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 350.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -11692,13 +11781,14 @@ element in the viewport: <b>getBoundingClientRect</b>().
 
 Here is an example that shows the problem:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 351.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 351. CodePen: position and size in viewport (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image351.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/Wpmqdw">
+  title="CodePen: position and size in viewport"
+  alt="CodePen: position and size in viewport." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/Wpmqdw" 
+target="_blank" rel="noopener noreferrer">
 CodePen: Position and Size in viewport</a>.</p>
 
 <h5>WRONG code used in this example:</h5>
@@ -11731,14 +11821,14 @@ CodePen: Position and Size in viewport</a>.</p>
 
 <h5><b>A good version of the code:</b></h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 353.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 353. CodePen: getMousePos (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image353.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/MpxMQo">
-CodePen: </a>.</p>
+  title="CodePen: getMousePos"
+  alt="CodePen: getMousePos." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/MpxMQo" 
+target="_blank" rel="noopener noreferrer">CodePen: getMousePos</a>.</p>
 
 And here is the fixed version of the getMousePos function:
 
@@ -11776,8 +11866,8 @@ shows how to get the mouse button number using the evt.button property.
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/zZbVjW">
-CodePen: </a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/zZbVjW" 
+target="_blank" rel="noopener noreferrer">CodePen: </a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 356.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11849,8 +11939,8 @@ section to get the correct mouse position:</p>
   style="width:65%"
   title="CodePen: working example, get correct mouse position"
   alt="CodePen: working example, get correct mouse position." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWMBeR">
-CodePen: working example</a>.</p>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWMBeR" 
+target="_blank" rel="noopener noreferrer">CodePen: working example</a>.</p>
 
 <h5>Extract from the JavaScript source code:</h5>
 
@@ -11949,14 +12039,14 @@ player to all the balls as fast as you can.</p>
   style="width:65%"
   title="CodePen: adding collision detection"
   alt="CodePen: adding collision detection." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/gmEVJG">
-CodePen: adding collision detection</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/gmEVJG" 
+target="_blank" rel="noopener noreferrer">CodePen: adding collision detection</a>.</h6>
 
 <h5>How do we detect collisions?</h5>
 
 <p>First, if you&apos;re into game programming, we have a full section about
-collision detection one of the W3Cx <a href="https://www.edx.org/course/html5-apps-and-games">
-HTML5 Apps and Games</a> course modules.</p>
+collision detection one of the W3Cx <a href="https://www.edx.org/course/html5-apps-and-games" 
+target="_blank" rel="noopener noreferrer">HTML5 Apps and Games</a> course modules.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 359. blue and yellow circles: no collision/collision (310) ~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -11969,8 +12059,8 @@ HTML5 Apps and Games</a> course modules.</p>
 This is cool, as it allows us to find a short function that tests if a
 circle collides with a rectangle whose sides are aligned to the X-axis
 and Y-axis (we implemented this after reading this 
-<a href="https://stackoverflow.com/questions/401847/circle-rectangle-collision-detection-intersection">
-thread at StackOverflow</a>):</p>
+<a href="https://stackoverflow.com/questions/401847/circle-rectangle-collision-detection-intersection" 
+target="_blank" rel="noopener noreferrer">thread at StackOverflow</a>):</p>
 
 <pre>
 1.  // Collisions between rectangle and circle
@@ -12094,8 +12184,8 @@ max speed we would like, the color and size of the player, etc.</p>
   style="width:65%"
   title="CodePen: adding input fields"
   alt="CodePen: adding input fields." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/RpOyRN">
-CodePen: adding input fields</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/RpOyRN" 
+target="_blank" rel="noopener noreferrer">CodePen: adding input fields</a>.</h6>
 
 <h5>Explanations:</h5>
 
@@ -12315,8 +12405,8 @@ fundamental concepts are presented.
   style="width:65%"
   title="CodePen: arrays"
   alt="CodePen: arrays." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/owgeyJ">
-CodePen: arrays</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/owgeyJ" 
+target="_blank" rel="noopener noreferrer">CodePen: arrays</a>.</h6>
 
 <p>Let&apos;s continue with the arrays. We already encounter them during the
 first module but this time we will give more details. And maybe we&apos;ll
@@ -12986,14 +13076,14 @@ here are some examples:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-3">3.2.3 Iterating on array elements (7:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 377.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 377. CodePen: iterating on array elements (16x) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image377.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/VWYMNK">
-CodePen: iterating on array elements</a>.</p>
+  title="CodePen: iterating on array elements"
+  alt="CodePen: iterating on array elements." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VWYMNK" 
+target="_blank" rel="noopener noreferrer">CodePen: iterating on array elements</a>.</h6>
 
 Hello! Let&apos;s look at the different methods you can use to iterate on
 each element of an array. One of the most practical one consists in
@@ -13098,8 +13188,8 @@ then go for the "<b>for</b>" loop.
 <h5>Get the source code of the example shown in the video:</h5>
 
 <ul>
-  <li>The example source code <a href="https://codepen.io/w3devcampus/pen/VWYMNK">
-    is available at CodePen</a></li>
+  <li>The example source code <a href="https://codepen.io/w3devcampus/pen/VWYMNK"
+    target="_blank" rel="noopener noreferrer">is available at CodePen</a></li>
 </ul>
 
 Let&apos;s study the different methods for iterating on array elements.
@@ -13137,19 +13227,21 @@ a collection (array, string);
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/QpRybG">
-CodePen: iterating on each individual element of a collection (array, string)</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/QpRybG" 
+target="_blank" rel="noopener noreferrer">
+CodePen: iterating on each individual element of a collection (array, string)</a>.</h6>
 
 <h5>Now, let&apos;s iterate on an array of person, and use two parameters in the callback 
 function in order to get the index of the current element:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 384.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~ 384. CodePen: iterating on an array of person, and use 2 parms callback function (16x) ~~~-->
 <p align="center" width="100%">
 <img src="./images/image384.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/rygxpr">
+  title="CodePen: iterating on an array of person, and use 2 parms in callback function"
+  alt="CodePen: iterating on an array of person, and use 2 parms in callback function." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/rygxpr" 
+target="_blank" rel="noopener noreferrer">
 CodePen: iterating on an array of person, and use 2 parms in callback function</a>.</p>
 
 <pre>
@@ -13171,50 +13263,50 @@ This can be useful if we need to know the length of the array, or do
 special things within the array (add/change/move elements during the
 iteration):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 385.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 385. codepen: array iteration (16x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image385.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/ZKyMQj">
-CodePen: array iteration</a>.</p>
+  title="CodePen: array iteration"
+  alt="CodePen: array iteration." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZKyMQj" 
+target="_blank" rel="noopener noreferrer">CodePen: array iteration</a>.</h6>
 
-In this example, we used the third parameter (the array) to access its
-length inside the iteration loop.
+<p>In this example, we used the third parameter (the array) to access its
+length inside the iteration loop.</p>
 
 <h5>Method #2: iterating on an array using regular loop statements</h5>
 
-You can use any standard loop statement that we saw during in module 2.
+<p>You can use any standard loop statement that we saw during in module 2.
 The most common way to iterate over an array is to use a for loop from 0
-to length-1. 
+to length-1.</p>
 
-Using this method allows elements to be iterated two by two, or the loop
-to be broken in the middle using the break instruction, etc.
+<p>Using this method allows elements to be iterated two by two, or the loop
+to be broken in the middle using the break instruction, etc.</p>
 
 <h5>Iterating over all elements in an array, using a for loop</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 386.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~ 386. codepen: iterating over all elements in an array, using a for loop (16x) ~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image386.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/evaJKL">
-CodePen: iterating over all elements in an array, using a for loop</a>.</p>
+  title="CodePen: iterating over all elements in an array, using a for loop"
+  alt="CodePen: iterating over all elements in an array, using a for loop." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/evaJKL" 
+target="_blank" rel="noopener noreferrer">
+CodePen: iterating over all elements in an array, using a for loop</a>.</h6>
 
 <p>Another example where we iterate two by two (just changed the increment
 in the for loop):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 387.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 387. codepen: iterate two by two (16x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image387.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/zZQrme">
-CodePen: iterate two by two</a>.</p>
-
+  title="CodePen: iterate two by two"
+  alt="CodePen: iterate two by two." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/zZQrme" 
+target="_blank" rel="noopener noreferrer">CodePen: iterate two by two</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-4">3.2.4 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13295,14 +13387,15 @@ CodePen: iterate two by two</a>.</p>
     &lt;img&gt; elements on the fly:</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 388.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 388. CodePen: iterating pictures and create img elements (16x) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image388.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/KqzPOm">
-CodePen: iterating pictures and create img elements</a>.</p>
+  title="CodePen: iterating pictures and create img elements"
+  alt="CodePen: iterating pictures and create img elements." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KqzPOm" 
+target="_blank" rel="noopener noreferrer">
+CodePen: iterating pictures and create img elements</a>.</h6>
 
 <ul>
   <li>What you will have to do:
@@ -13466,13 +13559,14 @@ JSBin](https://jsbin.com/xojobirowo/edit?html,output)
 
 Press play to stream the neigh of a horse:  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 391.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 391. horse neigh (16x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image391.png?raw=true"
   style="width:25%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg">Horse neigh</a>.</p>
+  title="Horse neigh"
+  alt="Horse neigh." />
+<h6 align="center"><a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg" 
+target="_blank" rel="noopener noreferrer">Horse neigh</a>.</h6>
 
 <h5>The code is very similar to the basic <b>&lt;video&gt;</b> element usage.</h5>
 
@@ -13518,17 +13612,17 @@ does not support the &lt;audio&gt; element. This is also a best practice!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding transcript: the video element JavaScript API</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 392.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 392. codepen: javascript api (16x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image392.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011">
-CodePen: JavaScript API</a>.</p>
+  title="CodePen: JavaScript API"
+  alt="CodePen: JavaScript API." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011" 
+target="_blank" rel="noopener noreferrer">CodePen: JavaScript API</a>.</h6>
 
-Today, let&apos;s have a look at some APIs. An API is a set of functions you
-can use from your JavaScript code.
+<p>Today, let&apos;s have a look at some APIs. An API is a set of functions you
+can use from your JavaScript code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 393.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -13810,9 +13904,8 @@ setting the currentTime property to zero.
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/dyvjoKV">
-CodePen: example</a>.</p>
-
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/dyvjoKV" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 405.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -13882,8 +13975,8 @@ when the video is ended.
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/poeZJGo">
-CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/poeZJGo" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 
 <pre>
 1.  &lt;video src=&quot;video.ogv&quot; id=&quot;myVideo&quot;&gt;
@@ -13916,8 +14009,8 @@ with the next video.
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/jOBpbqP">
-CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/jOBpbqP" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 
 <h5>Source code:</h5>
 
@@ -14023,16 +14116,16 @@ pages. Click on &quot;Edit on CodePen&quot; to run them.</b>
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpYNBE">
-CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OpYNBE" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 
 <h5>Second version that uses a new JavaScript syntax called &quot;promises&quot;:</h5>
 
-This is another way of saying, &quot;Please, browser, try to give me access
+<p>This is another way of saying, &quot;Please, browser, try to give me access
 to the webcam, <b>THEN</b> when the webcam is ready, please tell me so that
 I can display its stream in a &lt;video&gt; element. Otherwise, send me an
 alert&quot;. (note that we&apos;ve put the alert in a comment in the CodePen
-below).
+below).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 409.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14040,24 +14133,24 @@ below).
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWzKrK">CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/EWzKrK" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-5">3.3.5 Extended examples</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-In this section, we propose five extended examples that use more
+<p>In this section, we propose five extended examples that use more
 JavaScript and more complex CSS manipulation. They might be a little
 hard to understand if you are a JavaScript beginner, but don&apos;t be
-afraid to try and test them, look at the code, etc.
+afraid to try and test them, look at the code, etc.</p>
 
-Some examples are given &quot;as is&quot;, such as the custom video player that
+<p>Some examples are given &quot;as is&quot;, such as the custom video player that
 uses SVG (at the end of the page); if you are interested, you may view
-the code.
+the code.</p>
 
 <h5>Example #1: a player showing the use of every type of CSS3 transformation</h5>
 
-<p>Please see this example online, originally written by <a href="https://christianheilmann.com/">Chris
-Heilmann</a>, and tuned by us ;).</p>
+<p>Please see this example online, originally written by <a href="https://christianheilmann.com/" 
+target="_blank" rel="noopener noreferrer">Chris Heilmann</a>, and tuned by us ;).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 410.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14065,7 +14158,8 @@ Heilmann</a>, and tuned by us ;).</p>
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/bGqjVWG">CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bGqjVWG" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 
 Don&apos;t forget to click the JavaScript and CSS tabs of the CodePen in
 order to display the JavaScript code that creates the buttons on the
@@ -14092,8 +14186,8 @@ with this example below:
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/abJjvqY">CodePen: example</a>.</p>
-<!-- <b></b>](https://codepen.io/w3devcampus/pen/abJjvqY) -->
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/abJjvqY" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 
 Below is a piece of code for handling errors during video playback:
 
@@ -14147,7 +14241,8 @@ Check the example below:
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/vYxaNMq">CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/vYxaNMq" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 
 Note that on mobile phones, the video does not start until the user
 presses the play control or clicks on the video picture. Using the
@@ -14220,21 +14315,22 @@ percentage into the movie duration for which there is data. &quot;
 
 <h4>Example #4: how to use SVG elements as external controllers</h4>
 
-This is the ultimate way of doing a real custom player: redesign your
+<p>This is the ultimate way of doing a real custom player: redesign your
 own controls using SVG shapes! This example (try
-it <a href="https://www.w3.org/2010/Talks/0430-www2010-plh/video-player.xhtml">online</a>)
-is given &quot;as is&quot; for those of you who may be curious.
+it <a href="https://www.w3.org/2010/Talks/0430-www2010-plh/video-player.xhtml" 
+target="_blank" rel="noopener noreferrer">online</a>) is given &quot;as is&quot; 
+for those of you who may be curious.</p>
 
 <h4>Example #5: a custom video player written by a previous student</h4>
 
-This is more an example than a tutorial. Maurice, a student who followed
+<p>This is more an example than a tutorial. Maurice, a student who followed
 the precursor version of this MOOC, had the assignment to write a custom
 video player with playlist, video thumbnails, custom
 play/pause/next/previous/volume controls, and present it in a Web page
 that used a nice layout based on the HTML5 structuring elements studied
-previously.
+previously.</p>
 
-Here is the online example. We recommend that you look at the source code:
+<p>Here is the online example. We recommend that you look at the source code:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 413.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -14242,26 +14338,26 @@ Here is the online example. We recommend that you look at the source code:
   style="width:10%"
   title=""
   alt="." />
-<p align="left"><a href="https://codepen.io/w3devcampus/pen/LYWBGYa">CodePen example</a>.</p>
+<h6 align="left"><a href="https://codepen.io/w3devcampus/pen/LYWBGYa" 
+target="_blank" rel="noopener noreferrer">CodePen example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-6">3.3.6 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Please either post your comments/observations/questions or share your
-creations.
+<p>Please either post your comments/observations/questions or share your
+creations.</p>
 
 <h5>Suggested topics</h5>
 
--   This might be useful: find [free
-    videos](https://download.blender.org/peach/bigbuckbunny_movies/)
-
--   Hosting videos is complicated when you want to use them with CodePen
+<ul>
+  <li>This might be useful: find <a href="https://download.blender.org/peach/bigbuckbunny_movies/" 
+    target="_blank" rel="noopener noreferrer">free videos</a></li>
+  <li>Hosting videos is complicated when you want to use them with CodePen
     or JsBin, do you have some tips to share with others? For this
     course, we run our own private HTTP server&#41; We are speaking about
     files that can be used with the &lt;video&gt; element directly, not on
-    YouTube, DailyMotion, etc.
-
--   What tool do you use for encoding your audio and video files?
+    YouTube, DailyMotion, etc.</li>
+  <li>What tool do you use for encoding your audio and video files?</li>
+</ul>
 
 <h5>Optional projects</h5>
 
@@ -14407,7 +14503,8 @@ basic example might be useful.
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE">CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 
 <h5>Source code extract:</h5>
 
@@ -14478,9 +14575,10 @@ basic example might be useful.
 </pre>
 
 <ul>
-  <li><b><i>Line 6</i></b> uses the <a href="https://www.w3.org/TR/geolocation-API/">Geolocation
-    API</a> to get the current position, in case of success it calls the success function, passing
-    the location as parameter,</li>
+  <li><b><i>Line 6</i></b> uses the <a href="https://www.w3.org/TR/geolocation-API/" 
+    target="_blank" rel="noopener noreferrer">Geolocation API</a> to get the current 
+	position, in case of success it calls the success function, passing the location 
+	as parameter,</li>
   <li><b><i>Lines 13 and 14</i></b> show how to get the longitude and latitude properties from the 
     location,</li>
   <li>The rest is a basic use of the Leaflet API. Notice at <b><i>line 17</i></b> that 
@@ -14616,19 +14714,19 @@ key, used at <b><i>line 6</i></b>).
 94. &lt;/html&gt;
 </pre>
 
-Gisgraphy (free service) reverse geocoding example (screenshot only,
-click on it to see <a href="https://services.gisgraphy.com/static/leaflet/index.html">
-the demo on the Gisgraphy website</a>):
+<p>Gisgraphy (free service) reverse geocoding example (screenshot only,
+click on it to see <a href="https://services.gisgraphy.com/static/leaflet/index.html" 
+target="_blank" rel="noopener noreferrer">the demo on the Gisgraphy website</a>):</p>
 
 <h5>Example #2: reverse geocoding + OpenStreetMap</h5>
 
-Important note: these examples below rely on an external 
+<p>Important note: these examples below rely on an external 
 <a href="https://github.com/perliedman/leaflet-control-geocoder">GitHub resource</a>. No
-related questions are asked in this module&apos;s exercises or final exam.
+related questions are asked in this module&apos;s exercises or final exam.</p>
 
-Please, pan and zoom on the map and click. The longitude and latitude
+<p>Please, pan and zoom on the map and click. The longitude and latitude
 are computed from your click and a free reverse geocoding service is
-used to convert to a physical address.
+used to convert to a physical address.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 418.  (372) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14636,14 +14734,15 @@ used to convert to a physical address.
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/ZEQJQQp">
-CodePen: Longitude and Latitude</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZEQJQQp" 
+target="_blank" rel="noopener noreferrer">CodePen: Longitude and Latitude</a>.</h6>
 
 <h5>Example #3: shows the address on the map, from your current longitude and latitude</h5>
 
-Click on the Codepen logo on the top right to open 
-<a href="https://codepen.io/w3devcampus/pen/KKVXaRJ">the example in Codepen</a>. 
-Due to security reasons, it cannot run embedded in this page.
+<p>Click on the Codepen logo on the top right to open 
+<a href="https://codepen.io/w3devcampus/pen/KKVXaRJ" 
+target="_blank" rel="noopener noreferrer">the example in Codepen</a>. 
+Due to security reasons, it cannot run embedded in this page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 419.  (372) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14656,15 +14755,16 @@ Due to security reasons, it cannot run embedded in this page.
 
 <h5>Example #4: use of geolocation, map and reverse geocoder in an HTML form</h5>
 
-This is just a variation of the previous examples. We embedded the
+<p>This is just a variation of the previous examples. We embedded the
 interactive map in a form, and we display the results of the reverse
 geocoder in a form field. This example might be useful if you want to
 pre-fill the address of a registration form, depending on the current
-location of the person who is registering.
+location of the person who is registering.</p>
 
-Click on the Codepen logo (on the top right) so to run the 
-<a href="https://codepen.io/w3devcampus/pen/MWKEJqM">online example</a> (for security 
-reasons the embedded version cannot run in this page):
+<p>Click on the Codepen logo (on the top right) so to run the 
+<a href="https://codepen.io/w3devcampus/pen/MWKEJqM" 
+target="_blank" rel="noopener noreferrer">online example</a> (for security 
+reasons the embedded version cannot run in this page):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 420.  (373) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14725,7 +14825,8 @@ post your comments/observations/questions or share your creations.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><b>Warning about the autoplay policy</b></p>
 
-<p>Since 2018, most browsers have adopted <a href="https://developer.chrome.com/blog/autoplay/">
+<p>Since 2018, most browsers have adopted <a href="https://developer.chrome.com/blog/autoplay/" 
+target="_blank" rel="noopener noreferrer">
 the Autoplay Policy that prevents any Web page to start making music or playing 
 sounds without a user interaction</a>.</p>
 
@@ -14733,7 +14834,8 @@ sounds without a user interaction</a>.</p>
 sounds until you interact with the application (i.e. clicking on the
 canvas for the game example). For a developer, if you use libraries such
 as Howler.js, there are good chances that you won&apos;t have to change your
-code. If you are programming with <a href="https://www.w3.org/TR/webaudio/">
+code. If you are programming with <a href="https://www.w3.org/TR/webaudio/" 
+target="_blank" rel="noopener noreferrer">
 the WebAudio API</a>, then you&apos;ll need to resume the AudioContext after 
 the first user interaction.</p>
 
@@ -14832,7 +14934,7 @@ play them. There are small sounds samples that are loaded and decoded
 and kept in memory for a very fast use within video games. It&apos;s a bit
 complicated to use the low level WebAudio API. Some developers made some
 high level libraries for making this task easier. One of them is called
-<a href="https://howlerjs.com/">howler.js</a>.</p>
+<a href="https://howlerjs.com/" target="_blank" rel="noopener noreferrer">howler.js</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 429.  (378) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14905,7 +15007,8 @@ demand, using nearly zero CPU and with no delay when you play the sound
 
 <p>However, this API is a bit complicated to use for beginners. Fortunately
 there are several JavaScript libraries that simplify the use of the
-WebAudio API. <a href="https://howlerjs.com/">HowlerJS is one of these</a>.</p>
+WebAudio API. <a href="https://howlerjs.com/" target="_blank" rel="noopener noreferrer">
+HowlerJS is one of these</a>.</p>
 
 <h5>Example that uses Howler.js to load a sound sample from a remote server, then 
 decode it in memory, and play it:</h5>
@@ -14916,8 +15019,9 @@ decode it in memory, and play it:</h5>
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/ZeNpEX">
-CodePen: load sound sample using howlerjs</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZeNpEX" 
+target="_blank" rel="noopener noreferrer">
+CodePen: load sound sample using howlerjs</a>.</h6>
 
 <h5>HTML code: this is how we say that we are using an external library:</h5>
 
@@ -14999,8 +15103,9 @@ effects (when the player eats a ball):</p>
   style="width:65%"
   title="CodePen: music and sound effects"
   alt="CodePen: music and sound effects." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWzgpr">
-CodePen: adding music and sound effects</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/EWzgpr" 
+target="_blank" rel="noopener noreferrer">
+CodePen: adding music and sound effects</a>.</h6>
 
 Look at the HTML part: we included the Howler.js library and we also
 added an &lt;audio&gt; player (invisible; we removed the controls attribute)
@@ -15126,7 +15231,8 @@ HTML5 game with lots of JavaScript.
 <h4>A utility background loader for images, music and sound samples</h4>
 
 <p>This comes from the module 2 of the W3Cx 
-<a href="https://www.edx.org/learn/html5/the-world-wide-web-consortium-w3c-html5-apps-and-games">
+<a href="https://www.edx.org/learn/html5/the-world-wide-web-consortium-w3c-html5-apps-and-games" 
+target="_blank" rel="noopener noreferrer">
 HTML5 Apps and Games</a> course.</p>
 
 <p>In video games, you very often need to load assets before starting the
@@ -15164,8 +15270,9 @@ uncomment in the <b>startGame(&#133;)</b> function):
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/QpRGrz">
-CodePen: load music and sound sample</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/QpRGrz" 
+target="_blank" rel="noopener noreferrer">
+CodePen: load music and sound sample</a>.</h6>
 
 <h5>Extract from the JavaScript source code:</h5>
 
@@ -15251,14 +15358,17 @@ written by students like you who followed the HTML5 advanced course.</p>
 
 <ol start="1">
   <li>Star Warriors, written by two Ukrainian ladies who won the first
-    prize in <a href="https://www.w3.org/2017/WWW26/contests.html">
+    prize in <a href="https://www.w3.org/2017/WWW26/contests.html" 
+	target="_blank" rel="noopener noreferrer">
 	a W3C contest we organized in March 2017</a>:
     <ul>
-	  <li><a href="https://mainline.i3s.unice.fr/mooc/StarWarriors/">Play it online</a>,
+	  <li><a href="https://mainline.i3s.unice.fr/mooc/StarWarriors/" 
+	    target="_blank" rel="noopener noreferrer">Play it online</a>,
 	    wait until all assets have been loaded (you can follow the loading
 		of assets by opening the devtools console). Use arrows + space bar
 		to fire.</li>
-      <li><a href="https://codepen.io/w3devcampus/pen/pemjRj">
+      <li><a href="https://codepen.io/w3devcampus/pen/pemjRj" 
+	    target="_blank" rel="noopener noreferrer">
 	    See the source code on CodePen</a> (also, you can play from there).</li>
 	</ul>
   </li>
@@ -15284,9 +15394,10 @@ another helped with the graphics, etc.</p>
 rotated, etc. It also uses the multiple asset loader presented.</p>
 
 <ul>
-  <li><a href="https://mainline.i3s.unice.fr/mooc/SkywardBound/">Play it online</a> (mouse or
-    fingers)</li>
-  <li><a href="https://courses.edx.org/assets/courseware/v1/cffe841c8d4fa99fd9d2fd002fe2fff7/asset-v1:W3Cx+JS.0x+2T2024+type@asset+block/gameForMooc.zip">
+  <li><a href="https://mainline.i3s.unice.fr/mooc/SkywardBound/"
+    target="_blank" rel="noopener noreferrer">Play it online</a> (mouse or fingers)</li>
+  <li><a href="https://courses.edx.org/assets/courseware/v1/cffe841c8d4fa99fd9d2fd002fe2fff7/asset-v1:W3Cx+JS.0x+2T2024+type@asset+block/gameForMooc.zip" 
+    target="_blank" rel="noopener noreferrer">
     Or download the source code (multiple files)</a>.
     (once unzipped, just double click index.html)</li>
 </ul>
@@ -15986,7 +16097,8 @@ Let&apos;s see some examples:
   title=""
   alt="." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/RpmzQY">CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/RpmzQY"
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 
 <h5>JavaScript source code:</h5>
 
@@ -16028,7 +16140,8 @@ Here is the last version of the player object we saw in our small game:
   title=""
   alt="." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/xqNoJX">CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/xqNoJX" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 
 <h5>JavaScript source code:</h5>
 
@@ -16186,9 +16299,11 @@ changing the position of the object on the screen.
 
 <ul>
   <li>Game without methods in the player object (example included in the previous 
-    course page), <a href="https://codepen.io/w3devcampus/pen/xqNoJX">here on CodePen</a>.</li>
+    course page), <a href="https://codepen.io/w3devcampus/pen/xqNoJX"
+	target="_blank" rel="noopener noreferrer">here on CodePen</a>.</li>
   <li>Game with methods (example also included in this course page), 
-    <a href="https://codepen.io/w3devcampus/pen/oZRrQd/">here on CodePen</a>.</li>
+    <a href="https://codepen.io/w3devcampus/pen/oZRrQd/" 
+	target="_blank" rel="noopener noreferrer">here on CodePen</a>.</li>
 </ul>
 
 <h4>The <b>this</b> keyword: accessing properties from a method</h4>
@@ -16208,7 +16323,8 @@ this time fully functional:</h5>
   style="width:65%"
   title="CodePen: 'this' example"
   alt="CodePen: 'this' example." />
-<a href="https://codepen.io/w3devcampus/pen/oZRrQd">CodePen: 'this' example</a>.
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/oZRrQd" 
+target="_blank" rel="noopener noreferrer">CodePen: 'this' example</a>.</h6>
 </p>
 
 <h5>JavaScript code extract:</h5>
@@ -16267,7 +16383,8 @@ occurrences of ctx in the code).</p>
   style="width:50%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/JWqgGZ">CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/JWqgGZ" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 
 <h5>JavaScript source code:</h5>
 
@@ -16318,7 +16435,8 @@ or to remove properties after an object has been created.</h5>
   style="width:50%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/WpqeyK">CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/WpqeyK" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 
 <h5>JavaScript code extract:</h5>
 
@@ -16352,8 +16470,9 @@ property (it will become undefined).
   style="width:50%"
   title=""
   alt="." />
-<a href="https://codepen.io/w3devcampus/pen/RpzNEP">CodePen example</a>.
-</p>
+<h6 align="center"<a href="https://codepen.io/w3devcampus/pen/RpzNEP" 
+target="_blank" rel="noopener noreferrer">CodePen example</a>.
+</h6>
 
 <h5>JavaScript code extract:</h5>
 
@@ -16368,11 +16487,12 @@ property (it will become undefined).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>We simplified the explanations for &quot;this&quot; in this introductory course.
 Normally, &quot;this&quot; is the current object when you use it inside an
-&quot;object literal&quot; (like in <a href="https://codepen.io/w3devcampus/pen/JWqgGZ">
-this CodePen example from the course</a>).</p>
+&quot;object literal&quot; (like in <a href="https://codepen.io/w3devcampus/pen/JWqgGZ" 
+target="_blank" rel="noopener noreferrer">this CodePen example from the course</a>).</p>
 
 <p>But&#41; we also met &quot;this&quot; in event listeners (see in 
-<a href="https://codepen.io/w3devcampus/pen/gmygzV?editors=1000">this example from the course</a>). 
+<a href="https://codepen.io/w3devcampus/pen/gmygzV?editors=1000" 
+target="_blank" rel="noopener noreferrer">this example from the course</a>). 
 Look at the onchange = &quot;changePageBackgroundColor(<b>this.value</b>);&quot; &#41;</p>
 
 In fact, the &quot;this&quot; keyword can be confusing in JavaScript. The key
@@ -16552,8 +16672,8 @@ The 'new' operator here is for constructing, for building objects.
 <h5>Source code shown in this lesson</h5>
 
 <ul>
-  <li>The example <a href="https://codepen.io/w3devcampus/pen/eRBoyr?editors=0011">
-    can be found at CodePen</a></li>
+  <li>The example <a href="https://codepen.io/w3devcampus/pen/eRBoyr?editors=0011" 
+    target="_blank" rel="noopener noreferrer">can be found at CodePen</a></li>
 </ul>
 
 <p>Up to 2015, with JavaScript version 5 (and previous versions), you can
@@ -16777,8 +16897,8 @@ modern browsers.
 <h4>Source code from above video examples</h4>
 
 <ul>
-  <li>The source code <a href="https://codepen.io/w3devcampus/pen/mwOYWm">
-    is available at CodePen</a></li>
+  <li>The source code <a href="https://codepen.io/w3devcampus/pen/mwOYWm" 
+    target="_blank" rel="noopener noreferrer">is available at CodePen</a></li>
 </ul>
 
 ES5&apos;s constructor function syntax is not easy to read. If someone does
@@ -16854,7 +16974,8 @@ Wars&apos; heroes.
   style="width:65%"
   title=" "
   alt=" ." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/PpMpBo">CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpMpBo" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-4">4.3.4 Declaring a class before using it</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17037,10 +17158,11 @@ getHowManyHeroesYouCreated()&#133; 0!
 <h5>Source code from the examples in the above video</h5>
 
 <ul>
-  <li>The first example <a href="https://codepen.io/w3devcampus/pen/NgbVQo?editors=0012">
-    is available at CodePen</a></li>
+  <li>The first example <a href="https://codepen.io/w3devcampus/pen/NgbVQo?editors=0012"
+    target="_blank" rel="noopener noreferrer">is available at CodePen</a></li>
   <li>The second example is further in this page, or 
-    <a href="https://codepen.io/w3devcampus/pen/rmOjrv?editors=0011">at CodePen</a></li>
+    <a href="https://codepen.io/w3devcampus/pen/rmOjrv?editors=0011" 
+	target="_blank" rel="noopener noreferrer">at CodePen</a></li>
 </ul>
 
 <h5>Class properties and methods vs. instances&apos; properties and methods</h5>
@@ -17145,7 +17267,8 @@ using this one for beginners.
   title=" "
   alt=" ." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/rmOjrv">CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/rmOjrv" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-7">4.3.7 &lbrack;Advanced&rbrack; Modern JavaScript&apos;s getters and setters</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17212,7 +17335,8 @@ same name preceded by an underscore).
   title=" "
   alt=" ." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/WOoQgw">CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/WOoQgw" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-8">4.3.8 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17536,13 +17660,12 @@ improvements:
   title=" "
   alt=" ." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWzgpr">CodePen: example</a>.</p>
-
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/EWzgpr" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-1-1">5.1.1 Video introduction - Module 5 (1:31)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Lesson: Introduction to Module 5
+<p>Lesson: Introduction to Module 5</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 478.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -17984,13 +18107,13 @@ is this message.
 <h5>Source code shown in the above lesson</h5>
 
 <p>The source code of the example shown in the video 
-<a href="https://codepen.io/w3devcampus/pen/EXmONY?editors=0012">
-is available on CodePen</a>.</p>
+<a href="https://codepen.io/w3devcampus/pen/EXmONY?editors=0012" 
+target="_blank" rel="noopener noreferrer">is available on CodePen</a>.</p>
 
-The father of all objects: Object. All objects will inherit the
-properties and methods from the special class named Object.
+<p>The father of all objects: Object. All objects will inherit the
+properties and methods from the special class named Object.</p>
 
-These two lines are equivalent:
+<h5>These two lines are equivalent:</h5>
 
 <pre>1.  &gt; var o = {}; // creation of an empty object
 2.  undefined
@@ -18463,7 +18586,8 @@ Number has useful non-modifiable properties
   <li>toFixed: sets the number of digits for the decimal part of a
     number.<br>
     There is also another method, named 
-	<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision">toPrecision</a>,
+	<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision" 
+	target="_blank" rel="noopener noreferrer">toPrecision</a>,
     that has a very close behavior, and can also return numbers in
     scientific notation.</li>
   <li>toExponential: force a number to use a scientific notation. For
@@ -19000,8 +19124,8 @@ Look at the code in the mainloop function.
   title=" "
   alt=" ." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/aWOJQN">CodePen: example</a>.</p>
-
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/aWOJQN" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-11">5.2.11 Built-in JS class: Date</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -19155,9 +19279,8 @@ HTML table:
   title=" "
   alt=" ." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/Mmwqgq">
-CodePen: example</a>.</p>
-
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/Mmwqgq" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-1">5.3.1 The HTML table basics</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -19182,7 +19305,8 @@ first thing after the opening &lt;table&gt; tag.
 <b>Second best practice for accessibility:</b> use a scope attribute with
 all &lt;th scope = &quot;row or column&quot;&gt; for identifying whether a table
 header is a column header or a row header. We invite you to read 
-<a href="https://www.w3.org/WAI/tutorials/tables/">these guidelines</a> for making
+<a href="https://www.w3.org/WAI/tutorials/tables/" 
+target="_blank" rel="noopener noreferrer">these guidelines</a> for making 
 accessible tables.
 
 <h5>Typical example:</h5>
@@ -19267,8 +19391,9 @@ cell borders. Let&apos;s look at some examples.
   title="CodePen: HTML table with a very light CSS styling"
   alt="CodePen: HTML table with a very light CSS styling." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/MmKYNx">
-CodePen: HTML table with a very light CSS styling</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/MmKYNx" 
+target="_blank" rel="noopener noreferrer">
+CodePen: HTML table with a very light CSS styling</a>.</h6>
 
 <h5>Example #3: with colored lines, header, footer, legend</h5>
 
@@ -19281,7 +19406,8 @@ CodePen: HTML table with a very light CSS styling</a>.</p>
   title="CodePen: change CSS"
   alt="CodePen: change CSS." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/gWPppo">CodePen: change css</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/gWPppo" 
+target="_blank" rel="noopener noreferrer">CodePen: change css</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-2">5.3.2 The HTML table JavaScript API (4:43)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -19494,8 +19620,9 @@ the innerHTML of the TableRow object, we use the insertCell() method.
   title="A typical HTML table"
   alt="A typical HTML table." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/OmMmGr">
-CodePen: a typical HTML table</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OmMmGr" 
+target="_blank" rel="noopener noreferrer">
+CodePen: a typical HTML table</a>.</h6>
 
 <h5>Notice how we&apos;ve created the new row cells:</h5>
 
@@ -19910,30 +20037,31 @@ Typical example:
   title="CodePen: form input can be sent to a server without JavaScript"
   alt="CodePen: form input can be sent to a server without JavaScript." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/ZKQJBR">
-CodePen: form input sent to server without JavaScript</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZKQJBR" 
+target="_blank" rel="noopener noreferrer">
+CodePen: form input sent to server without JavaScript</a>.</h6>
 
 <h5>HTML form input can be sent to a server without JavaScript</h5>
 
-If a form&apos;s content is sent to a remote server, on the server side, you
+<p>If a form&apos;s content is sent to a remote server, on the server side, you
 may have PHP, Java, C#, Ruby, Python, etc. components. There are several
 ways to collect server-side data from a form in a Web page: REST Web
-services, servlets, Microsoft ASP pages, etc. 
+services, servlets, Microsoft ASP pages, etc.</p>
 
-On the client side, the forms indicate to which server and how the data
+<p>On the client side, the forms indicate to which server and how the data
 should be sent,  using the action and method attributes respectively.
 A &lt;button type=&quot;submit&quot;&gt; or an &lt;input type=submit&gt; field is used
-to submit the form content.
+to submit the form content.</p>
 
-For example: &lt;form action=&quot;myServerCode.php&quot;
+<p>For example: &lt;form action=&quot;myServerCode.php&quot;
 method=&quot;POST&quot;&gt;&#41;&lt;/form&gt;. Here, we set the URL of the server side
 code (myServerCode.php), and the HTTP method that will be used by the
-browser for sending the form content (POST).
+browser for sending the form content (POST).</p>
 
-Example of HTML5 form that will not be sent if invalid input fields are
+<p>Example of HTML5 form that will not be sent if invalid input fields are
 present. Notice that the JavaScript part is only used for giving
 feedback while entering the password. No JavaScript is used for sending
-the form data, or for complex, global validation:
+the form data, or for complex, global validation:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 507. codepen: validating user input 'on the fly' using js (482) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -19942,23 +20070,24 @@ the form data, or for complex, global validation:
   title="CodePen: validating user input 'on the fly' using JavaScript"
   alt="CodePen: validating user input 'on the fly' using JavaScript." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/pPgWoq">
-CodePen: validating user input 'on the fly' using JavaScript</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pPgWoq" 
+target="_blank" rel="noopener noreferrer">
+CodePen: validating user input 'on the fly' using JavaScript</a>.</h6>
 
 <h5>HTML form input can be sent using Ajax / JavaScript</h5>
 
-Another approach is to use JavaScript for sending the form content with
-Ajax.
+<p>Another approach is to use JavaScript for sending the form content with
+Ajax.</p>
 
 <h5>JavaScript can be used for validating user input &quot;on the fly&quot;</h5>
 
-While one is typing or selecting a color, or moving a slider, JavaScript
+<p>While one is typing or selecting a color, or moving a slider, JavaScript
 event listeners can be used to track the user&apos;s interactions in real
 time, and perform some validation steps along with giving visual
-feedback.
+feedback.</p>
 
-We&apos;ve already seen how we can track the keys typed in an input field in
-real time:
+<p>We&apos;ve already seen how we can track the keys typed in an input field in
+real time:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 508. codepen: simple input field validation (483) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -19967,14 +20096,15 @@ real time:
   title="CodePen: simple input field validation using the 'input' event"
   alt="CodePen: simple input field validation using the 'input' event." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/XMQpRa">
-CodePen: simple input field validation</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/XMQpRa" 
+target="_blank" rel="noopener noreferrer">
+CodePen: simple input field validation</a>.</h6>
 
 <h5>JavaScript can be used for a more global validation before sending a form to a remote server</h5>
 
-Example: checking that a password entered twice is identical in two
+<p>Example: checking that a password entered twice is identical in two
 different input fields, that some values are coherent (e.g. a birthday
-cannot be in the future), etc.
+cannot be in the future), etc.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 509. codepen: example use of validation api (483) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -19983,36 +20113,36 @@ cannot be in the future), etc.
   title="CodePen: example use of the validation API"
   alt="CodePen: example use of the validation API." />
 </p>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/gWPxvL">
-CodePen: example use of the validation API</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/gWPxvL" 
+target="_blank" rel="noopener noreferrer">
+CodePen: example use of the validation API</a>.</h6>
 
-JavaScript can be used to make a WebApp that uses form data locally,
-perhaps with some client-side persistence API
+<p>JavaScript can be used to make a WebApp that uses form data locally,
+perhaps with some client-side persistence API.</p>
 
-For example, a contact manager that will work offline, saving data
+<p>For example, a contact manager that will work offline, saving data
 locally, in a database inside the browser. Data will be displayed in a
-dynamic HTML table, without the need for a remote database.
+dynamic HTML table, without the need for a remote database.</p>
 
-This is the small project we will build together at the end of the
-course. :-)
-
+<p>This is the small project we will build together at the end of the
+course. :-)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-5">5.3.5 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Here is the discussion forum for this part of the course. Please either
-post your comments/observations/questions or share your creations.
+<p>Here is the discussion forum for this part of the course. Please either
+post your comments/observations/questions or share your creations.</p>
 
 <h4>Suggested topics</h4>
 
--   HTML5 tables are some of the most complicated elements, and there
+<ul>
+  <li>HTML5 tables are some of the most complicated elements, and there
     are lots of tricks to make them nice and reactive using CSS3 styles.
-    Please share in the forum some of the best looking tables you find.
-
--   There exist external JavaScript libraries for making &quot;datatables&quot;,
+    Please share in the forum some of the best looking tables you find.</li>
+  <li>There exist external JavaScript libraries for making &quot;datatables&quot;,
     i.e., HTML tables especially made for displaying structured data. Do
     you know some of them and can you share your experiences and
-    examples that use them in the forum? What do you think of them?
+    examples that use them in the forum? What do you think of them?</li>
+</ul>
 
 <h5>Optional projects</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -20024,22 +20154,22 @@ post your comments/observations/questions or share your creations.
   alt="Magnifying glass." />
 </p>
 
--   Add a search input field + a search button to the dynamic table
+<ul>
+  <li>Add a search input field + a search button to the dynamic table
     example. Add some more data in the table. Implement a search
     feature: when you search for &quot;Ian Solo&quot;, for example, highlight
     the table row that contains it. If not found, display a message in
-    the page, next to the search form.
-
--   Please make a big table (with a few hundred rows containing
+    the page, next to the search form.</li>
+  <li>Please make a big table (with a few hundred rows containing
     structured data). <b>Tip</b>: use loops and random values. For example,
     use an array of names, an array of cities, an array of zip codes;
     use Math.random()  and Math.round() to generate random indexes. Then
     pick data from the arrays, build an object with random names,
-    cities, zip codes, etc. and add it as a row in the table.
-
--   Ah, but this table looks too long now!!! Try to paginate it by using
+    cities, zip codes, etc. and add it as a row in the table.</li>
+  <li>Ah, but this table looks too long now!!! Try to paginate it by using
     a previous and a next page button. You will display the table with
-    15 rows per page, not more!
+    15 rows per page, not more!</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 511. prev (left) and next (right arrow)  (484) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -20062,34 +20192,36 @@ remote data</p>
   alt="JSON notation, working with LocalStorage." />
 </p>
 
-Hi! I would like to present you the JSON format that is string-based
+<p>Hi! I would like to present you the JSON format that is string-based
 format for exchanging, on the Web, JavaScript objects. Also, for storing
 JavaScript objects in databases. It&apos;s very popular and used by many Web
 services. A Web service is a remote server that uses a URL to send you
-some formatted JavaScript data.
+some formatted JavaScript data.</p>
 
-Here you&apos;ve got an example from the <b>jsonplaceholder.typicode.com</b>
+<p>Here you&apos;ve got an example from the <b>jsonplaceholder.typicode.com</b>
 Web site that provides some examples of JSON data set. If you want some
 photos, some pictures, you click on it and you&apos;ve got a string-based
 notation, a JSON version of an array. An array that contains pictures
-with albums, thumbnails&#41;
+with albums, thumbnails&#41;</p>
 
-It&apos;s the same data format we used in a previous module for an optional
+<p>It&apos;s the same data format we used in a previous module for an optional
 project about pictures and albums. How do you work with such a format?
-There are 2 different utility methods from the JSON predefined object.
+There are 2 different utility methods from the JSON predefined object.</p>
 
-One is called "<b>stringify()"</b> and will be useful for converting a
+<p>One is called "<b>stringify()"</b> and will be useful for converting a
 JavaScript object into JSON. And the other one will be
 "<b>JSON.parse()</b>" that will take a JSON object, a JSON string, and give
-back a JavaScript object. Let&apos;s see some examples. I just took an
+back a JavaScript object.</p>
+
+<p>Let&apos;s see some examples. I just took an
 array&#133; if you try to stringify the array&#133;you obtain an object that
 contains the array with quotes around. This is the JSON notation of an
 array. If you&apos;ve got more complex objects, for example, this one: it&apos;s
 an object with different properties and one of the properties is an
 array that contains in turn objects. It&apos;s just an example of the albums
-made by Metallica.
+made by Metallica.</p>
 
-If I try this, "<b>JSON.stringify()</b>" with this object, I get a JSON
+<p>If I try this, "<b>JSON.stringify()</b>" with this object, I get a JSON
 version of this object, and this can be sent through HTTP or can be
 downloaded from a remote server. HTTP is hypertext transfer protocol.
 Only text can be exchanged using HTTP and JSON is pure text. However, if
@@ -20097,38 +20229,37 @@ I&apos;ve got to know a JSON string, I cannot access any property because
 this is no more a JavaScript object. If I want to get back the original
 object from the string, I will need to use "JSON.parse()". And this is a
 real JavaScript object. I can access its properties and call its
-methods. This is all we need to know about JSON.
+methods. This is all we need to know about JSON.</p>
 
-"<b>JSON.parse()</b>" turns a JSON string to a JavaScript object you can
+<p>"<b>JSON.parse()</b>" turns a JSON string to a JavaScript object you can
 use, and "<b>JSON.stringify()</b>" takes a JavaScript object and turns it
-into a JSON string.
+into a JSON string.</p>
 
-In the next video, we will see how we can use JSON objects, for example,
+<p>In the next lesson, we will see how we can use JSON objects, for example,
 downloading them from a remote data source and displaying their values
-in an HTML table.
+in an HTML table.</p>
 
 <!-- end transcript 5.4.1 -->
 
-JSON stands for<b> J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation. It&apos;s a
+<p>JSON stands for<b> J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation. It&apos;s a
 standard for transforming nearly any object into a string representation
 that is human readable. It became a standard for exchanging data to/from
 a remote HTTP server, and is available for many other languages in
-addition to JavaScript.
+addition to JavaScript.</p>
 
-A JavaScript object o in JSON looks a
-lot like what <b>o.toString()</b> returns.
+<p>A JavaScript object o in JSON looks a lot like what <b>o.toString()</b> returns.</p>
 
-<b>There are two main methods to know:</b>
+<p><b>There are two main methods to know:</b></p>
 
 1.  Transform any JavaScript object in JSON:
 
-<b>var jsonStr = JSON.stringify(obj);</b>
+<p><b>var jsonStr = JSON.stringify(obj);</b></p>
 
 2.  Transform any JSON string into a JavaScript object:
 
-  <b>var jsObj  = JSON.parse(jsonStr);</b>
+<p><b>var jsObj  = JSON.parse(jsonStr);</b></p>
 
-Let&apos;s see some examples:
+<h5>Let&apos;s see some examples:</h5>
 
 <pre>1.  var x = 3;
 2.  undefined
@@ -20153,41 +20284,43 @@ Let&apos;s see some examples:
 21. &quot;{&quot;name&quot;:&quot;Metallica&quot;,&quot;albums&quot;:&lbrack;{&quot;name&quot;:&quot;Master of Puppets&quot;,&quot;year&quot;:1986},{&quot;name&quot;:&quot;Black Album&quot;,&quot;year&quot;:1991}&rbrack;}&quot;
 </pre>
 
-In the above examples, you can see JSON representations of a simple
+<p>In the above examples, you can see JSON representations of a simple
 variable of a predefined type, of an array, of a simple object, of an
-object that contains an array of objects (Metallica example).
+object that contains an array of objects (Metallica example).</p>
 
-And indeed, it looks like the code you typed to create the objects, with
+<p>And indeed, it looks like the code you typed to create the objects, with
 quotes around it and around the property names. This is why it is called
-JavaScript Object Notation ;-)
+JavaScript Object Notation ;-)</p>
 
 <h5>You cannot use JSON objects as JavaScript objects</h5>
 
-The JSON representation of JavaScript objects is a string. JSON has been
+<p>The JSON representation of JavaScript objects is a string. JSON has been
 developed mainly for replacing XML as a format for exchanging data
 between a client and a remote HTTP server. It has become very popular as
 the format for exchanging data when a Web Application uses Ajax for its
-communications with the HTTP server. Ajax is a way to send / receive
-data in the background, without the need to reload the Web page. Along
-with the DOM API, the appearance of this technology in 2005 with
-Internet Explorer, made it possible to make Web pages more dynamic.
-Google Maps was one of the first popular Ajax-powered Web application:
-as you moved the map, new parts arrived (downloaded in the background
-from the Gmap HTTP server), and the page updated to display these new
-parts.
+communications with the HTTP server.</p>
 
-JSON is also very practical for storing objects where strings are
+<p>Ajax is a way to send / receive data in the background, without the need 
+to reload the Web page. Along with the DOM API, the appearance of this 
+technology in 2005 with Internet Explorer, made it possible to make Web 
+pages more dynamic. Google Maps was one of the first popular Ajax-powered 
+Web application: as you moved the map, new parts arrived (downloaded in the 
+background from the Gmap HTTP server), and the page updated to display these 
+new parts.</p>
+
+<p>JSON is also very practical for storing objects where strings are
 expected. There is a data store in your browser called LocalStorage that
 can be used as a small database for Web applications, but it stores only
 pairs of key/values in the string format. If you want to save a
 JavaScript object, you will have to turn it into JSON, then save it.
 When you read it from the data store, you will need to turn it back from
-JSON to JavaScript.
+JSON to JavaScript.</p>
 
-Here is a first example that turns an object into JSON and back into a
-JavaScript object:
+<p>Here is a first example that turns an object into JSON and back into a
+JavaScript object:</p>
 
-<pre>1.  &gt; var metallica = {name:&apos;Metallica&apos;, albums:&lbrack;{name:&quot;Master of
+<pre>
+1.  &gt; var metallica = {name:&apos;Metallica&apos;, albums:&lbrack;{name:&quot;Master of
     Puppets&quot;, year:1986}, {name:&quot;Black Album&quot;, year:1991}&rbrack;};
 2.  Undefined
 3.  
@@ -20211,16 +20344,15 @@ JavaScript object:
 20. &quot;Metallica&quot;
 </pre>
 
-With the JSON representation of an object you cannot access the original
+<p>With the JSON representation of an object you cannot access the original
 object&apos;s properties using the &quot;.&quot; operator, nor call its
 methods. <b>The JSON format only stores the list of the object properties
 (name and value) as a string.</b> Look at <b><i>line 10</i></b>: we cannot access
 the name property of the JSON representation of the metallica object
-defined at <b><i>line 1</i></b>.
+defined at <b><i>line 1</i></b>.</p>
 
-When we parse a JSON string using JSON.parse(), we get a real JavaScript
-object, and we can access its properties (<b><i>lines 16 and 19</i></b>).
-
+<p>When we parse a JSON string using JSON.parse(), we get a real JavaScript
+object, and we can access its properties (<b><i>lines 16 and 19</i></b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-2">5.4.2 Consuming JSON remote data (10:10)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -20234,113 +20366,112 @@ object, and we can access its properties (<b><i>lines 16 and 19</i></b>).
   alt="CodePen: consuming JSON remote data." />
 </p>
 
-Hi!
-
-This time we will look at how we can send an AJAX request to a remote
+<p>This time we will look at how we can send an AJAX request to a remote
 server, get the data in JSON, parse this data and build dynamically an
-HTML table that will display the results.
+HTML table that will display the results.</p>
 
-I prepared a small template, a small HTML template with a button that
+<p>I prepared a small template, a small HTML template with a button that
 will call a "search()" function that is located in the JavaScript code
 and we will write it together. And we also prepared the div location
 that is not visible here, below the button, that will contain the table
-that we will create dynamically.
+that we will create dynamically.</p>
 
-First, let&apos;s have a look at the URL of the data source. I&apos;m still
+<p>First, let&apos;s have a look at the URL of the data source. I&apos;m still
 using the "jsonplaceholder.typicode.com" Web site. And if we click on
 "/user", you got here the URL that returns the list of users, actually
 an array of objects, each object being a user with properties and
 values. To send a request, we will use 2 different methods, one that is
-called "XhR2" or XML Http Request level 2.
+called "XhR2" or XML Http Request level 2.</p>
 
-And one that uses a brand-new API that is implemented only in recent
+<p>And one that uses a brand-new API that is implemented only in recent
 browsers that is called "fetch". Let&apos;s start with "XhR2". I declare a
 URL, and "<b>queryURL</b>". I&apos;m just following the same syntax as in the
 example. And we need to create an XML Http Request: "xhr = new
-<b>XMLHttpRequest ()</b>".
+<b>XMLHttpRequest ()</b>".</p>
 
-That's it: "<b>XMLHttpRequest()</b>". And then you indicate what is the
+<p>That's it: "<b>XMLHttpRequest()</b>". And then you indicate what is the
 parameter of the request: "<b>xhr.open()</b>". We&apos;re going to do a "GET".
 "GET" is an http order that means 'go on the Web and get me the data
 from there'. And you indicate also the URL. And the last parameter will
 be set to true. Then, you will send the request. When you do this, your
 request is sent but it can take some time. And for getting the data and
 processing it, we must indicate a callback that will call by the browser
-only when the response arrives.
+only when the response arrives.</p>
 
-This is how it works: "<b>xhr.onload</b> =" and you indicate the callback
+<p>This is how it works: "<b>xhr.onload</b> =" and you indicate the callback
 function, and usually, you also use the event as the only parameter. And
 here, we can just start trying to see if it works. I open the console,
 here, click on the button and see &#133; "xrh" is not defined. It&apos;s "xhr".
 Ok, I clear the console! Yes, the response arrived. I can even use the
 devtool debugger. If I click on "Network", "XHR", clear. Click on the
 button, I will see the request here and if I click on it, I can see the
-response.
+response.</p>
 
-I see that I&apos;ve got the JSON object from the remote server. Now that
+<p>I see that I&apos;ve got the JSON object from the remote server. Now that
 the response arrived, I can directly display it: "<b>xhr.response</b>".
 It&apos;s a string, I save and run it again. Ok, sorry this was too long,
 but I can open the real devtool console, and I can see that I got the
-object here.
+object here.</p>
 
-This has been printed by the "<b>console.log()</b>". In order to work with
+<p>This has been printed by the "<b>console.log()</b>". In order to work with
 this object, I will need to convert it to a real JavaScript object:
 "users = (<b>xhr.response</b>)". But in order to turn it into JavaScript
 object, we use "JSON.parse()", you remember from the previous video? And
 here, just to debug I can try to write: 'first user' &#133;Because this
-object is an array, you see it&apos;s an array.
+object is an array, you see it&apos;s an array.</p>
 
-Displaying the first of them should work. It says 'first user' is an
+<p>Displaying the first of them should work. It says 'first user' is an
 object. I can also directly turn it into a string. Ok, parentheses is
 missing&#133;And I can see this time, the first user, the 'first user' that
 has been displayed. Now we will use this! That will check that it works:
 we can call displayUsersAsATable(&#41;) passing the users. In order to
-insert a table here, first we need to create the table.
+insert a table here, first we need to create the table.</p>
 
-Let me copy and paste some code. We start by getting a reference on the
+<p>Let me copy and paste some code. We start by getting a reference on the
 HTML div in the page that was called users, "id = "users". Then we
 create a table: <b>document.createElement(&quot;table&quot;)</b>;, and then we can
 try to insert rows for each user. So "users.forEach()" takes a callback
 with the first parameter being the current element of the user&apos;s array.
 "console.log(currentUser.name)"&#133;let&apos;s try this to see if it works&#133;
 Clear &#133; save&#133;Click on the button&#133; and I see the names of the
-users.
+users.</p>
 
-Now, I&apos;m going to add a row to a table. "<b>table.insertRow()</b>;" put
+<p>Now, I&apos;m going to add a row to a table. "<b>table.insertRow()</b>;" put
 this in variable called "row", and then I can do: "<b>row.innerHTML</b>= ",
-for example, just the name.
+for example, just the name.</p>
 
-Here, I inserted rows whose content is the name of the user. And in the
+<p>Here, I inserted rows whose content is the name of the user. And in the
 end, what we do is that we will add the table to the div. So,
 "<b>usersDiv.appendChild()</b>", or "append" works too on modern browsers,
 append(). And we put the table in it. Let&apos;s try&#133;Clear. "<b>usersDiv</b>"
 with a "s" and it works! Now, in order to have a nice table, I could
 also add some CSS to make it better, or I can define some &lt;td&gt; (table
 data) to make a nicer table. And I can display for example another
-property that will be the email of the person. That's it!
+property that will be the email of the person. That's it!</p>
 
 <!-- end transcript 5.4.2 -->
 
 <h5>Source code from the above live coding video</h5>
 
 <ul>
-  <li>The source code can be found <a href="https://codepen.io/w3devcampus/pen/bRRjvv?editors=0011">
-    on this CodePen</a></li>
+  <li>The source code can be found <a href="https://codepen.io/w3devcampus/pen/bRRjvv?editors=0011" 
+    target="_blank" rel="noopener noreferrer">on this CodePen</a></li>
 </ul>
 
 <h5>JSON data from a REST Web Service</h5>
 
-Most &quot;big sites&quot; provide what we call a REST API. This means &quot;they
+<p>Most &quot;big sites&quot; provide what we call a REST API. This means &quot;they
 propose to send/receive data to/from programs over HTTP&quot;, and most of
 the time the JSON format is one of the possible transport formats for
-the data. Google APIs, Facebook and Amazon APIs are like this.
+the data. Google APIs, Facebook and Amazon APIs are like this.</p>
 
-<b>JSONPlaceholder</b> is a free online REST service that you can use
+<p><b>JSONPlaceholder</b> is a free online REST service that you can use
 whenever you need some fake data in JSON. Faking a server is great for
 tutorials, and this is exactly what the next example does. Please
-open <a href="https://jsonplaceholder.typicode.com/users">this URL</a> - you will
+open <a href="https://jsonplaceholder.typicode.com/users" 
+target="_blank" rel="noopener noreferrer">this URL</a> - you will 
 see some JSON data coming from the server and being displayed in your
-browser as shown below:
+browser as shown below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 514. json: working with remote data using XhR2 API (487) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -20350,13 +20481,13 @@ browser as shown below:
   alt="JSON: working with remote data using XhR2 API." />
 </p>
 
-And we would like to use these data in our code, manipulating them as a
-JavaScript object.
+<p>And we would like to use these data in our code, manipulating them as a
+JavaScript object.</p>
 
-This course does not cover Ajax and what we call &quot;asynchronous
+<p>This course does not cover Ajax and what we call &quot;asynchronous
 JavaScript&quot;. However, we can show you two simple examples that use the
 Xhr2 API for Ajax requests and the new fetch API that is simplest to
-use.
+use.</p>
 
 <h4>Downloading JSON data using the XhR2 API</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -20366,8 +20497,9 @@ use.
   style="width:65%"
   title="CodePen: working with remote data using XhR2 API"
   alt="CodePen: working with remote data using XhR2 API." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/vmLMRN">
-CodePen: working with remote data using XhR2 API</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/vmLMRN" 
+target="_blank" rel="noopener noreferrer">
+CodePen: working with remote data using XhR2 API</a>.</h6>
 
 <h5>JavaScript source code extract:</h5>
 
@@ -20412,35 +20544,41 @@ CodePen: working with remote data using XhR2 API</a>.</p>
 
 <h5>&lbrack;Advanced&rbrack; Downloading JSON data using the fetch API</h5>
 
-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch API</a> provides
+<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" 
+target="_blank" rel="noopener noreferrer">Fetch API</a> provides
 a JavaScript interface for accessing and manipulating parts of the HTTP
 pipeline, such as requests and responses. It also provides a
-global <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch">fetch()</a> method
+global <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch" 
+target="_blank" rel="noopener noreferrer">fetch()</a> method
 that provides an easy, logical way to fetch resources asynchronously
 across the network. You <b>fetch</b> data from a URL, <b>then</b>, you do
 something with the response, <b>then</b> you do something else. If there is
 an error you can <b>catch</b> this error and display, for example, an error
-message. 
+message.</p>
 
-See <a href="https://javascript.info/fetch-api">this blog post</a> for a detailed
+<p>See <a href="https://javascript.info/fetch-api" 
+target="_blank" rel="noopener noreferrer">this blog post</a> for a detailed
 tutorial. Asynchronous JavaScript and JavaScript promises (the
 fetch&#41;then&#41;then&#41; is based on the concept of &quot;promises&quot;) is
-not detailed in this course.
+not detailed in this course.</p>
 
-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch API</a> provides
+<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" 
+target="_blank" rel="noopener noreferrer">Fetch API</a> provides
 a JavaScript interface for accessing and manipulating parts of the HTTP
 pipeline, such as requests and responses. It also provides a
-global <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch">fetch()</a> method
+global <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch" 
+target="_blank" rel="noopener noreferrer">fetch()</a> method
 that provides an easy, logical way to fetch resources asynchronously
 across the network. You <b>fetch</b> data from a URL, <b>then</b>, you do
 something with the response, <b>then</b> you do something else. If there is
 an error you can <b>catch</b> this error and display, for example, an error
-message. 
+message.</p>
 
-See <a href="https://javascript.info/fetch-api">this blog post</a> for a detailed
+<p>See <a href="https://javascript.info/fetch-api" 
+target="_blank" rel="noopener noreferrer">this blog post</a> for a detailed
 tutorial. Asynchronous JavaScript and JavaScript promises (the
 fetch&#41;then&#41;then&#41; is based on the concept of &quot;promises&quot;) is
-not detailed in this course.
+not detailed in this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 516. CodePen: get remote list using fetch api (490) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -20448,8 +20586,9 @@ not detailed in this course.
   style="width:65%"
   title=""
   alt="." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/xgoZdg">
-CodePen: Get remote list of users' names &amp; emails using fetch API</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/xgoZdg" 
+target="_blank" rel="noopener noreferrer">
+CodePen: Get remote list of users' names &amp; emails using fetch API</a>.</h6>
 
 <h4>JavaScript source code extract:</h4>
 
@@ -20491,9 +20630,10 @@ database for JavaScript objects.</p>
   alt="Cross-Browser client-side storage." />
 </p>
 
-The Web storage API (see the <a href="https://www.w3.org/TR/webstorage/">related W3C specification</a>) 
-introduces &quot;two related mechanisms, similar to HTTP session cookies, for storing
-structured data on the client side&quot;.
+<p>The Web storage API (see the <a href="https://www.w3.org/TR/webstorage/" 
+target="_blank" rel="noopener noreferrer">
+related W3C specification</a>) introduces &quot;two related mechanisms, similar 
+to HTTP session cookies, for storing structured data on the client side&quot;.</p>
 
 Indeed, Web Storage provides two
 interfaces - sessionStorage and localStorage - whose main difference is
@@ -20514,8 +20654,9 @@ session lifetime)
   title="Table of key/value pairs"
   alt="Table of key/value pairs." />
 </p>
-<b>Simple key-value stores, one per domain (following the 
-<a href="https://en.wikipedia.org/wiki/Same-origin_policy">same origin policy</a>)!</b>
+<p>Simple key-value stores, one per domain (following the 
+<a href="https://en.wikipedia.org/wiki/Same-origin_policy" 
+target="_blank" rel="noopener noreferrer">same origin policy</a>)!</p>
 
 <p><b>localStorage</b> is a simple key-value store, in which the keys and values
 are strings. There is only one store per domain. This functionality is
@@ -20538,7 +20679,8 @@ applies to sessionStorage.</p>
 </pre>
 
 <p>This data is located in a store attached to the origin of the page.
-We&apos;ve created <a href="http://jsbin.com/hebino/1/edit?html,output">
+We&apos;ve created <a href="http://jsbin.com/hebino/1/edit?html,output" 
+target="_blank" rel="noopener noreferrer">
 a JsBin example in which we&apos;ve included the above code</a>.</p>
 
 <p>Once opened in your browser, the JavaScript code is executed. With the
@@ -20773,7 +20915,8 @@ CodePen that uses this new method:
   style="width:65%"
   title="CodePen: "
   alt="CodePen: ." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/MovoBz">CodePen: example</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/MovoBz" 
+target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-2">5.5.2 Persistence (part 2)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -20927,8 +21070,9 @@ and adapt it to our needs:</p>
   style="width:50%"
   title="CodePen: table list of contacts"
   alt="CodePen: table list of contacts." />
-<a href="https://codepen.io/w3devcampus/pen/vmLMRN">
-CodePen: XhR2 - get a remote list of user's names and emails</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/vmLMRN" 
+target="_blank" rel="noopener noreferrer">
+CodePen: XhR2 - get a remote list of user's names and emails</a>.</h6>
 
 <p>This time, we will first add some HTML to the contact manager example
 (same as in the previous CodePen except that we&apos;ve renamed &quot;users&quot; as
@@ -20961,9 +21105,9 @@ this):
 7.  }
 </pre>
 
-And here is the method we add in our ContactManager class; an
+<p>And here is the method we add in our ContactManager class; an
 adaptation of the function displayUsersAsATable(users) from the previous
-CodePen:
+CodePen:</p>
 
 <pre>1.  class ContactManager {
 2.    &#133;
@@ -21015,7 +21159,9 @@ CodePen:
   style="width:50%"
   title="CodePen: table list of contacts"
   alt="CodePen: table list of contacts." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/yXoVdp">CodePen: list of contacts table</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/yXoVdp" 
+target="_blank" rel="noopener noreferrer">
+CodePen: list of contacts table</a>.</h6>
 
 <p>Note that we also added a method called addTestData() to the
 ContactManager class, as this is a way to make testing the class easier.
@@ -21102,8 +21248,10 @@ is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
   style="width:50%"
   title="CodePen: Add new contact and list in table"
   alt="CodePen: Add new contact and list in table." />
-<p align="center">
-<a href="https://codepen.io/w3devcampus/pen/awypEg">CodePen: add new contacts to table</a>.</p>
+</p>
+<h6 align="center">
+<a href="https://codepen.io/w3devcampus/pen/awypEg" 
+target="_blank" rel="noopener noreferrer">CodePen: add new contacts to table</a>.</h6>
 
 <p>Note that we&apos;ve also added some buttons for playing with the load/save
 features we implemented in the previous page:</p>
@@ -21126,17 +21274,17 @@ features we implemented in the previous page:</p>
   <li>Improve the CSS of the contact manager table.</li>
   <li>Add more complicated features to the contact manager:</li>
   <li>Add an extra column with a trash bin icon in it (you can use
-        this <a href="https://i.imgur.com/yHyDPio.png">one</a><img src="./images/image528.png 
-		style="width:.33 height:.33" alt="Trashbin icon">, do right click and &quot;save link
-        as&quot;). When you click on this icon, delete the contact.<br>
-      <br>
-        <p><i>Hint</i>: find a way to get the index of the current row in the
-        click event listener, so that you can easily delete the contact
-        from the array. You can add a &quot;HTML data attribute&quot;
-        using trashbin.dataset.contactId = 3; for example, when you
-        create the img element of the trash bin, do something like
-        this:</p>
-        <pre>
+   this <a href="https://i.imgur.com/yHyDPio.png" 
+   target="_blank" rel="noopener noreferrer">one</a><img src="./images/image528.png 
+   style="width:.33 height:.33" alt="Trashbin icon">, do right click and &quot;save link
+   as&quot;). When you click on this icon, delete the contact.<br>
+   <br>
+   <p><i>Hint</i>: find a way to get the index of the current row in the
+   click event listener, so that you can easily delete the contact
+   from the array. You can add a &quot;HTML data attribute&quot;
+   using trashbin.dataset.contactId = 3; for example, when you
+   create the img element of the trash bin, do something like this:</p>
+   <pre>
         let trashbin = document.createElement(&quot;img&quot;);
         trashbin.src = &quot;http://i.imgur.com/yHyDPio.png&quot;;
         trashbin.dataset.contactId = 3; // 3 is the current row index and
@@ -21157,7 +21305,8 @@ features we implemented in the previous page:</p>
 	</li>
 	</ul>
   <li>&lbrack;ADVANCED&rbrack; Using 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList" 
+	target="_blank" rel="noopener noreferrer">
 	the classList JavaScript interface</a>: elem.classList.add(&quot;name
     of a CSS class&quot;), remove, and toggle methods, allow the user to
     manipulate CSS classes from JavaScript. Try to make the table of
