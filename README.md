@@ -11792,49 +11792,48 @@ CodePen: </a>.</p>
 1.  var canvas, ctx, mousePos, mouseButton;
 2.  
 3.  window.onload = function init() {
-4.  canvas = document.getElementById(&apos;myCanvas&apos;);
-5.  ctx = canvas.getContext(&apos;2d&apos;);
+4.    canvas = document.getElementById(&apos;myCanvas&apos;);
+5.    ctx = canvas.getContext(&apos;2d&apos;);
 6.  
-7.  canvas.addEventListener(&apos;mousemove&apos;, function (evt) {
-8.  mousePos = getMousePos(canvas, evt);
-9.  var message = &apos;Mouse position:
-   &apos; + mousePos.x + &apos;,&apos; + mousePos.y;
-10. writeMessage(canvas, message);
-11. }, false);
+7.    canvas.addEventListener(&apos;mousemove&apos;, function (evt) {
+8.      mousePos = getMousePos(canvas, evt);
+9.      var message = &apos;Mouse position:
+          &apos; + mousePos.x + &apos;,&apos; + mousePos.y;
+10.     writeMessage(canvas, message);
+11.   }, false);
 12. 
-13. canvas.addEventListener(&apos;mousedown&apos;, function (evt) {
-14. mouseButton = evt.button;
-15. var message = &quot;Mouse button &quot; + evt.button + &quot; down at position:
-&quot; + mousePos.x + &apos;,&apos; + mousePos.y;
-16. writeMessage(canvas, message);
-17. }, false);
+13.   canvas.addEventListener(&apos;mousedown&apos;, function (evt) {
+14.     mouseButton = evt.button;
+15.     var message = &quot;Mouse button &quot; + evt.button + &quot; down at position:
+          &quot; + mousePos.x + &apos;,&apos; + mousePos.y;
+16.     writeMessage(canvas, message);
+17.   }, false);
 18. 
-19. canvas.addEventListener(&apos;mouseup&apos;, function (evt) {
-20. var message = &quot;Mouse up at position:
-    &quot; + mousePos.x + &apos;,&apos; + mousePos.y;
-21. writeMessage(canvas, message);
-22. }, false);
+19.   canvas.addEventListener(&apos;mouseup&apos;, function (evt) {
+20.     var message = &quot;Mouse up at position:
+          &quot; + mousePos.x + &apos;,&apos; + mousePos.y;
+21.       writeMessage(canvas, message);
+22.   }, false);
 23. };
 24. 
 25. function writeMessage(canvas, message) {
-26. ctx.save();
-27. ctx.clearRect(0, 0, canvas.width, canvas.height);
-28. ctx.font = &apos;18pt Calibri&apos;;
-29. ctx.fillStyle = &apos;black&apos;;
-30. ctx.fillText(message, 10, 25);
-31. ctx.restore();
+26.   ctx.save();
+27.   ctx.clearRect(0, 0, canvas.width, canvas.height);
+28.   ctx.font = &apos;18pt Calibri&apos;;
+29.   ctx.fillStyle = &apos;black&apos;;
+30.   ctx.fillText(message, 10, 25);
+31.   ctx.restore();
 32. }
 33. 
 34. function getMousePos(canvas, evt) {
-35. // necessary to take into account CSS boudaries
-36. var rect = canvas.getBoundingClientRect();
-37. return {
-38. x: evt.clientX - rect.left,
-39. y: evt.clientY - rect.top
-40. };
+35.   // necessary to take into account CSS boudaries
+36.   var rect = canvas.getBoundingClientRect();
+37.   return {
+38.     x: evt.clientX - rect.left,
+39.     y: evt.clientY - rect.top
+40.   };
 41. }
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-5">2.6.5 Moving a player with the mouse</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11844,14 +11843,14 @@ section to get the correct mouse position:</p>
 
 <h5>Working example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 357.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 357. codepen: working example (307) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image357.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: working example, get correct mouse position"
+  alt="CodePen: working example, get correct mouse position." />
 <p align="center"><a href="https://codepen.io/w3devcampus/pen/EWMBeR">
-CodePen: </a>.</p>
+CodePen: working example</a>.</p>
 
 <h5>Extract from the JavaScript source code:</h5>
 
@@ -11884,20 +11883,19 @@ CodePen: </a>.</p>
 26. }
 </pre>
 
-<i>Line 9</i> defines a mousemove event listener: the mouseMoved callback
+<p><i>Line 9</i> defines a mousemove event listener: the mouseMoved callback
 function will be called each time the user moves the mouse on the
-canvas.
+canvas.</p>
 
-The mouseMoved(evt) function uses the trick from the previous section
-and puts the correct mouse position in the mousePos variable. 
+<p>The mouseMoved(evt) function uses the trick from the previous section
+and puts the correct mouse position in the mousePos variable.</p>
 
-With this code, as soon as we move the mouse on top of the canvas,
-we&apos;ll have this mousePos global variable (line1) that will contain the
-mouse position (in the form of
-the mousePos.x and mousePos.y properties).
+<p>With this code, as soon as we move the mouse on top of the canvas,
+we&apos;ll have this mousePos global variable (<b><i>line 1</i></b>) that will contain the
+mouse position (in the form of the mousePos.x and mousePos.y properties).</p>
 
-And here is the new mainLoop function. We added a call to
-the mousePlayerWithMouse function:
+<h5>And here is the new mainLoop function. We added a call to
+the mousePlayerWithMouse function:</h5>
 
 <pre>
 1.  function mainLoop() {
@@ -11918,7 +11916,7 @@ the mousePlayerWithMouse function:
 16. }
 </pre>
 
-And here is the code of the movePlayerWithMouse function:
+<h5>And here is the code of the movePlayerWithMouse function:</h5>
 
 <pre>
 1.  function movePlayerWithMouse() {
@@ -11936,17 +11934,16 @@ The mouse position may be undefined if the animation loop started
 without the mouse cursor being on top of the canvas. Remember that the
 mainLoop starts as soon as the page is loaded.
 
-Perhaps it&apos;s occurred to you that it might be better to move the player
+<p>Perhaps it&apos;s occurred to you that it might be better to move the player
 &quot;from its center&quot; instead of from its top left corner. We leave this
-improvement to you! :-)
-
+improvement to you! :-)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-6">2.6.6 Adding collision detection</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Let&apos;s make it a game by adding collision detection! And try to move the
 player to all the balls as fast as you can.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 358. codepen: adding collision detection (295) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 358. codepen: adding collision detection (309) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image358.png?raw=true"
   style="width:65%"
@@ -11957,11 +11954,11 @@ CodePen: adding collision detection</a>.</p>
 
 <h5>How do we detect collisions?</h5>
 
-First, if you&apos;re into game programming, we have a full section about
-collision detection one of the W3Cx [HTML5 Apps and
-Games](https://www.edx.org/course/html5-apps-and-games) course modules.
+<p>First, if you&apos;re into game programming, we have a full section about
+collision detection one of the W3Cx <a href="https://www.edx.org/course/html5-apps-and-games">
+HTML5 Apps and Games</a> course modules.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 359. blue and yellow circles: no collision/collision (296) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 359. blue and yellow circles: no collision/collision (310) ~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image359.png?raw=true"
   style="width:20%"
@@ -12091,14 +12088,14 @@ max speed we would like, the color and size of the player, etc.</p>
 
 <h5>New version:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 360. new version:  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 360. codepen: new version, adding input fields (312) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image360.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: adding input fields"
+  alt="CodePen: adding input fields." />
 <p align="center"><a href="https://codepen.io/w3devcampus/pen/RpOyRN">
-CodePen: </a>.</p>
+CodePen: adding input fields</a>.</p>
 
 <h5>Explanations:</h5>
 
@@ -12152,20 +12149,20 @@ fields:
 
 <pre>
 1.  function changeNbBalls(nb) {
-2.  startGame(nb);
+2.    startGame(nb);
 3.  }
 4.  
 5.  function changeColorToEat(color) {
-6.  colorToEat = color;
-7.  startGame(initialNumberOfBalls);
+6.    colorToEat = color;
+7.    startGame(initialNumberOfBalls);
 8.  }
 9.  
 10. function changePlayerColor(color) {
-11. player.color = color;
+11.   player.color = color;
 12. }
 13. 
 14. function changeBallSpeed(coef) {
-15. globalSpeedMutiplier = coef;
+15.   globalSpeedMutiplier = coef;
 16. }
 </pre>
 
@@ -12176,13 +12173,13 @@ Here is the startGame(nb_balls) function:
 
 <pre>
 1.  function startGame(nb) {
-2.  do {
-3.  balls = createBalls(nb);
-4.  initialNumberOfBalls = nb;
-5.  numberOfGoodBalls = countNumberOfGoodBalls(balls, colorToEat);
-6.  } while(numberOfGoodBalls === 0); // in case no good ball in the set
+2.    do {
+3.      balls = createBalls(nb);
+4.      initialNumberOfBalls = nb;
+5.      numberOfGoodBalls = countNumberOfGoodBalls(balls, colorToEat);
+6.    } while(numberOfGoodBalls === 0); // in case no good ball in the set
 7.  
-8.  wrongBallsEaten = goodBallsEaten = 0;
+8.    wrongBallsEaten = goodBallsEaten = 0;
 9.  }
 </pre>
 
@@ -12191,98 +12188,105 @@ the newly created set of balls:
 
 <pre>
 1.  function countNumberOfGoodBalls(balls, colorToEat) {
-2.  var nb = 0;
+2.    var nb = 0;
 3.  
-4.  balls.forEach(function(b) {
-5.  if(b.color === colorToEat) // we count the number of balls
-6.  nb++;                      // of this color in the balls array
-7.  });
+4.    balls.forEach(function(b) {
+5.      if(b.color === colorToEat) // we count the number of balls
+6.        nb++;                    // of this color in the balls array
+7.    });
 8.  
-9.  return nb;                   // return this number to the caller
+9.    return nb;                   // return this number to the caller
 10. }
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-8">2.6.8 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Here is the discussion forum for this part of the course. Please either
-post your comments/observations/questions or share your creations.
+<p>Here is the discussion forum for this part of the course. Please either
+post your comments/observations/questions or share your creations.</p>
 
 <h5>Suggested topics</h5>
 
--   First, do not forget to share your creations in the forum!
-
--   Do you know about jQuery or equivalent libraries that were developed
+<ul>
+  <li>First, do not forget to share your creations in the forum!</li>
+  <li>Do you know about jQuery or equivalent libraries that were developed
     to try to make the DOM easier to manipulate? Some people do not
-    recommend using them now - why is this?
+    recommend using them now - why is this?</li>
+</ul>
 
 <h5>Optional projects</h5>
 
--   The game is not completely finished, as you may have noticed :-) So,
+<ul>
+  <li>The game is not completely finished, as you may have noticed :-) So,
     try to make &quot;levels&quot;: when all good balls have been eaten, let&apos;s
     restart automatically, but this time with one more ball in the
-    initial set!
-
--   Try to display the level number on the right,
-
--   Try to use a global variable &quot;gameState&quot; that can be equal to
+    initial set!</li>
+  <li>Try to display the level number on the right,</li>
+  <li>Try to use a global variable &quot;gameState&quot; that can be equal to
     &quot;gameRunning&quot; or to &quot;displayGameOverMenu&quot;. Use it in the game
     loop with a switch statement, to display a game over menu when the
     player hits a certain number of bad balls (say three bad balls eaten
-    and you&apos;re done!)
+    and you&apos;re done!)</li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 361. A monster in the shape of a bacteria (315) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image361.png?raw=true"
+  style="width:10%"
+  title="A monster in the shape of a bacteria"
+  alt="A monster in the shape of a bacteria." />
 
-![a monster in the shape of a bacteria](./images/image361.png){width="1.0in"
-height="0.9813648293963254in"}
-
--   When, in the game over menu, listen to keydown events on the canvas
-    and suggest pressing space to go to restart the game.
-
--   Add other input fields to further customize the game.
-
--   Try to draw a small monster instead of a red square for the player,
-    and do the same thing with the balls - make some improvements!
-
--   Try to make ball movements different depending on their color
+<ul>
+  <li>When, in the game over menu, listen to keydown events on the canvas
+    and suggest pressing space to go to restart the game.</li>
+  <li>Add other input fields to further customize the game.</li>
+  <li>Try to draw a small monster instead of a red square for the player,
+    and do the same thing with the balls - make some improvements!</li>
+  <li>Try to make ball movements different depending on their color
     (random direction that changes along the course of a ball, zigzag
-    movements, etc.)
-
--   Try to make the balls change their size during the animation.
-
--   More difficult: try to make your player fire bullets to destroy
-    enemy balls :-)
-
+    movements, etc.)</li>
+  <li>Try to make the balls change their size during the animation.</li>
+  <li>More difficult: try to make your player fire bullets to destroy
+    enemy balls :-)</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-1-1">3.1.1 Video introduction - Module 3 (1:29)</h3>
+<h3 id="ch3-1-1">3.1.1 Introduction - Module 3 (1:29)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 362. intro module 3 (315) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image362.png?raw=true"
+  style="width:65%"
+  title="Intro: standard  API's in your browser"
+  alt="Intro: standard  API's in your browser." />
 
-![](./images/image362.png){width="5.0in"
-height="2.563033683289589in"}
+<p>From what we've learned so far, it is time now to enjoy some of the
+standard API's your browser provides.</p>
 
-From what we've learned so far, it is time now to enjoy some of the
-standard API's your browser provides.
-
-This module is centered around the BOM; the "Browser Object Model". That
+<p>This module is centered around the BOM; the "Browser Object Model". That
 provides standard objects such as the navigator or the window object. We
 already had a glimpse of these, this time we look at them more into
 details. In addition, we will look at some HTML5 standards APIs provided
-by your browser.
+by your browser.</p>
 
-For example, the geolocation API will help you display an interactive
+<p>For example, the geolocation API will help you display an interactive
 map centered on your location, or the multimedia API will give you
-complete controls over audio or video players.
+complete controls over audio or video players.</p>
 
-Also, we'll look at persistence APIs that will enable you to load and
+<p>Also, we'll look at persistence APIs that will enable you to load and
 save data on your hard disk. The next day if you open your Web
 application, you will able to retrieve these data. This is an important
 feature. We will come back to features we already played with, such as
 arrays and iterators, but the main topic is really about browser APIs.
 We will end this module with a mid-course project, and different
-difficulty levels will be proposed.
+difficulty levels will be proposed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-2">3.1.2 Module 3 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![geolocation](./images/image363.png){width="2.0in" height="0.8479199475065616in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 363. geolocation (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image363.png?raw=true"
+  style="width:25%"
+  title="Geolocation"
+  alt="Geolocation." />
 
 <h5>What you will learn in Module 3:</h5>
 
@@ -12305,47 +12309,66 @@ fundamental concepts are presented.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-1">3.2.1 Arrays (8:57)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 364. codepen: arrays (317) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image364.png?raw=true"
+  style="width:65%"
+  title="CodePen: arrays"
+  alt="CodePen: arrays." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/owgeyJ">
+CodePen: arrays</a>.</p>
 
-![](./images/image364.png){width="5.0in"
-height="2.563033683289589in"}
-
-<b>https://codepen.io/w3devcampus/pen/owgeyJ</b>
-
-Let&apos;s continue with the arrays. We already encounter them during the
+<p>Let&apos;s continue with the arrays. We already encounter them during the
 first module but this time we will give more details. And maybe we&apos;ll
 come back again to arrays in the next module. Each week, during each
 module we give some small extra information so that in the end, you will
-have a good view of each JavaScript concepts.
-
-![](./images/image365.png){width="5.0in"
-height="2.3269225721784776in"}
+have a good view of each JavaScript concepts.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 365.  (317) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image365.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Let&apos;s start with an array called &quot;myarr&quot; that contains some colors.
 The first thing we must remind is that each element has an index. And
 the first index is at number 0. If I type in the console&#133;it gives me
 the first element. "myarr&lbrack;0&rbrack;" gives the first element. Arrays in
 JavaScript are objects.
-
-![](./images/image366.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 366. (318) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image366.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 If I try "typeof myarr" it&apos;s says "objects". And objects, in an
 object-oriented languages, have properties. They are the DNA of the
 objects, like person has an age, person has a name, an array has the
 length. As the array is an object, it will have some interesting
 properties.
-
-![](./images/image367.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 367. (318) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image367.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 One of them is the length&#41;and you access properties using the "."
 operator. This, the length, corresponds to the number of elements: 1, 2,
 3 and 4. The last one, the last element is at index given by the length
 property -- 1. "purple", the last element, is located at index
 "myarr.length-1".
-
-![](./images/image368.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 368. (319) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image368.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 If you want to add an element to an array, you've got different
 possibilities. The most common one, the one that I recommend, is to use
@@ -12353,18 +12376,26 @@ a method called "push". red, blue, yellow, purple. Let&apos;s add &apos;orange',
 like this. Like that, it returns the new length: 5 elements. And if I
 look at the content of my array, it now has, at the end, the last
 element I pushed inside: orange. &quot;push&quot; is very useful.
-
-![](./images/image369.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 369. (319) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image369.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 You can also add an element at the end of an existing array by adding it
 to the index equal to the length of the array. If I do this, we don&apos;t
 have any "green" here&#133;You see, I'm using the index length. If I do
 like that, it returns the new element we added, and it adds at the end.
 To be frank, most of the time I use the &quot;push&quot; method.
-
-![](./images/image370.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 370. (320) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image370.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 You can also sort the elements of an array using the &quot;sort&quot; method.
 Objects have properties: their DNA, their characteristics, and they have
@@ -12372,9 +12403,13 @@ methods that correspond to their behavior. You can sort an array because
 it has a sort method. It&apos;s a sort of function associated with the
 array. If I just call &quot;sort&quot; without any parameter, it returns the
 array sorted by ascending alphabetical order.
-
-![](./images/image371.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 371. (320) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image371.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 If I want to work with more complex elements, I can make an array with
 an object. I prepared an array that contains objects, it&apos;s called
@@ -12382,16 +12417,24 @@ an object. I prepared an array that contains objects, it&apos;s called
 element, here. It gives me a person whose <b>familyName</b> is Buffa, whose
 <b>givenName</b> is Michel, age 51. This corresponds to the first element
 of the array.
-
-![](./images/image372.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 372. (321) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image372.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 If I want to access some properties of this element, I will use the "."
 operator. So persons.0.givenName will correspond to Michel, persons.0 is
 this element, .givenName corresponds to this property.
-
-![](./images/image373.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 373. (321) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image373.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Ok, so if I want to sort this array by age for example, I cannot use
 just persons.sort() as it will not know which criteria I must use or
@@ -12410,9 +12453,13 @@ pass the name of this comparison function. And in that case, the array
 is sorted by age: 20, 32, 51. When you call this method, it returns a
 sorted array but it also sorts the array itself. The array is no more
 the one we had first, now it&apos;s a sorted array.
-
-![](./images/image374.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 374. (318) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image374.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 If I want to remove an element from the array, I will use the splice
 method. The first parameter is the index after which we will remove an
@@ -12420,9 +12467,13 @@ element. If I say 0, it means start at index 0, remove 1 element. It
 will remove the element just after 0. It removed the element named Pig
 Bodine, it was in the middle. If I look at the array now, we just remove
 the element in the middle with the age 20.
-
-![](./images/image375.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 375. (318) ~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image375.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 If I want to remove the last element, I can use the &quot;pop&quot; method. You
 remember that the &quot;push&quot; method adds at the end an element and the
@@ -14981,9 +15032,9 @@ for you, images, sound samples and also deal with streamed music.
 And when everything is ready, it will call a function of your own that
 will start the game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (384) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (384) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image4xx.png?raw=true"
+<img src="./images/image436.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -14995,9 +15046,9 @@ musics, of the sound samples or of the images you want to load, and you
 indicate their URLs. So "backgroundImage" it&apos;s a PNG, logo it&apos;s a PNG,
 "plop" it&apos;s a MP3.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image4xx.png?raw=true"
+<img src="./images/image436.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -15008,9 +15059,9 @@ everything for you. You can indicate background music with "buffer:
 true", "loop: true". This is a background music will be looped in the
 background. How do you load all these assets?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image4xx.png?raw=true"
+<img src="./images/image432.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -15022,9 +15073,9 @@ the "Loading assets" &#41; "Loading assets" message.
 Then we call "loadAssets()" and we pass the name of function that will
 really start the game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image4xx.png?raw=true"
+<img src="./images/image433.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -15032,18 +15083,18 @@ This is where you will start animation, drawing, playing music and so
 on. And this "loadAssets()" function will use this "assetsToLoadURLs" object
 we talked earlier.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image4xx.png?raw=true"
+<img src="./images/image434.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
 Look in the "startGame()" function we&apos;re going to use this now.
 And how are we going to use this for playing music for example?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 435.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image4xx.png?raw=true"
+<img src="./images/image435.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -15055,9 +15106,9 @@ the music ".play()".
 For playing some sound samples, here we are going to play a "plop" sound
 sample every 1000 milliseconds&#41; every second. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4xx.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image4xx.png?raw=true"
+<img src="./images/image436.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
