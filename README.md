@@ -2024,14 +2024,14 @@ horizontally, on a light green background, with a violet border of 12
 pixels (a solid border, not a dashed one), and this border has rounded
 corners made of arcs of a circle whose radius is 15 pixels.</p>
 
-<p>The part before the opening brace (<b>line 1</b>) is the &quot;CSS selector&quot;,
+<p>The part before the opening brace (<b><i>line 1</i></b>) is the &quot;CSS selector&quot;,
 it indicates the elements that have their properties changed according
 to what is inside the braces.</p>
 
 <p>The part inside the braces is a set of properties and values that are
 useful for setting the look and feel of the selected elements.</p>
 
-<p><b>Line 2</b> for example, says that all h1s are colored in red.</p>
+<p><b><i>Line 2</i></b> for example, says that all h1s are colored in red.</p>
 
 <h4>CSS rules are applied in sequence</h4>
 
@@ -12931,11 +12931,14 @@ here are some examples:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-3">3.2.3 Iterating on array elements (7:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](./images/image377.png){width="6.0in"
-height="3.075640857392826in"}
-
-<b>https://codepen.io/w3devcampus/pen/VWYMNK</b>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 377.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image377.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/VWYMNK">
+CodePen: iterating on array elements</a>.</p>
 
 Hello! Let&apos;s look at the different methods you can use to iterate on
 each element of an array. One of the most practical one consists in
@@ -12950,9 +12953,13 @@ example is to use only a single argument that will be the current
 element while we are iterating. I call it "day" here, and day will be:
 Monday, Tuesday, Wednesday,&#133; each time, we iterate on the collection
 of the days, on the array of days.
-
-![](./images/image378.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 378.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image378.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 If I do "<b>document.body.innerHTML</b>&quot;&#41;You see that when the code is
 executed, for each element in the array, the variable "<b>day</b>" here,
@@ -12963,18 +12970,26 @@ Here is the result. You can see that we can iterate using this
 "<b>forEach</b>" iterator, it&apos;s very simple. The <b>name</b>, here, is not
 important. You can call it &quot;<b>singleD</b>", you can call it "<b>d</b>" and
 it works. You choose the name of the variable.
-
-![](./images/image379.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 379.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image379.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 This iterator also takes optionally a second parameter that will be the
 index of the element. We can use this index to display, to give some
 numbers to the elements. Here, it will display the name of the day:
 Monday is at index, followed by the value of the index, 0. Monday is the
 element in the array at index 0. Tuesday is the element at the index 1.
-
-![](./images/image380.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 380.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image380.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 You can also use a third argument, that is the array itself. Let&apos;s call
 it "<b>arr</b>" and usually, we use the array to display the length of the
@@ -12984,9 +12999,13 @@ displays: Monday is at index 0 from an array of 3 elements! "3", we took
 it from the third argument, and we use the length property from it. This
 is what we can do with the "forEach" iterator, very practical, very
 simple.
-
-![](./images/image381.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 381.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image381.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Another thing we can do, let me put this in comments, is use a regular
 "<b>for</b>" loop. Using a "<b>for</b>" loop&#133; so the very automatic way is
@@ -13003,9 +13022,13 @@ through all elements in the array. And we need to use the "<b>a</b>"
 brackets with the index between the brackets notation to display the
 value. Which is best? This one or the with the "<b>forEach</b>" iterator?
 It depends.
-
-![](./images/image382.png){width="5.0in"
-height="2.3269225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 382.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image382.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
 Here you can just go 2 by 2&#133; I can iterate 2 by 2, or I can break the
 loop in the middle using the "break" keyword and a condition with an
@@ -13015,12 +13038,14 @@ each element, use the "<b>forEach</b>" operator. If you need to jump over
 some elements, do some operations in the middle, stop the iteration,
 then go for the "<b>for</b>" loop.
 
-&lt;end of video transcript 3.2.3&gt; done.
+<!-- end of transcript 3.2.3 -->
 
 <h5>Get the source code of the example shown in the video:</h5>
 
--   The example source code [is available at
-    CodePen](https://codepen.io/w3devcampus/pen/VWYMNK)
+<ul>
+  <li>The example source code <a href="https://codepen.io/w3devcampus/pen/VWYMNK">
+    is available at CodePen</a></li>
+</ul>
 
 Let&apos;s study the different methods for iterating on array elements.
 
@@ -13050,19 +13075,27 @@ that can have one, two or three parameters:
 
 This is the most practical way to iterate on each individual element of
 a collection (array, string);
-
-![](./images/image383.png){width="5.0in"
-height="1.5929483814523184in"}
-
-<https://codepen.io/w3devcampus/pen/QpRybG>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 383.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image383.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/QpRybG">
+CodePen: iterating on each individual element of a collection (array, string)</a>.</p>
 
 <h5>Now, let&apos;s iterate on an array of person, and use two parameters in the callback 
 function in order to get the index of the current element:</h5>
-
-![](./images/image384.png){width="5.0in"
-height="1.584935476815398in"}
-
-<https://codepen.io/w3devcampus/pen/rygxpr>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 384.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image384.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/rygxpr">
+CodePen: iterating on an array of person, and use 2 parms in callback function</a>.</p>
 
 <pre>
 1.  var persons = &lbrack;
@@ -13082,11 +13115,15 @@ height="1.584935476815398in"}
 This can be useful if we need to know the length of the array, or do
 special things within the array (add/change/move elements during the
 iteration):
-
-![](./images/image385.png){width="5.0in"
-height="1.6164534120734908in"}
-
-<https://codepen.io/w3devcampus/pen/ZKyMQj>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 385.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image385.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/ZKyMQj">
+CodePen: array iteration</a>.</p>
 
 In this example, we used the third parameter (the array) to access its
 length inside the iteration loop.
@@ -13101,40 +13138,49 @@ Using this method allows elements to be iterated two by two, or the loop
 to be broken in the middle using the break instruction, etc.
 
 <h5>Iterating over all elements in an array, using a for loop</h5>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 386.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image386.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/evaJKL">
+CodePen: iterating over all elements in an array, using a for loop</a>.</p>
 
-![](./images/image386.png){width="5.0in"
-height="1.6089741907261592in"}
-
-<https://codepen.io/w3devcampus/pen/evaJKL>
-
-Another example where we iterate two by two (just changed the increment
-in the for loop):
-
-![](./images/image387.png){width="5.0in"
-height="1.5929494750656168in"}
-
-<https://codepen.io/w3devcampus/pen/zZQrme>
+<p>Another example where we iterate two by two (just changed the increment
+in the for loop):</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 387.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image387.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/zZQrme">
+CodePen: iterate two by two</a>.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-4">3.2.4 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Please either post your comments/observations/questions or share your
-creations.
+<p>Please either post your comments/observations/questions or share your creations.</p>
 
 <h5>Suggested topics</h5>
 
--   Which syntax do you prefer for iterating arrays?
-
--   We decided not to explain all the things you can do with
+<ul>
+  <li>Which syntax do you prefer for iterating arrays?</li>
+  <li>We decided not to explain all the things you can do with
     the splice method. It&apos;s a very powerful method, but showing all its
     features could be overwhelming. However, if you&apos;re curious, please
     look on the Web for more details. Do you think we&apos;ve been right not
-    to tell you all the possibilities of splice?
+    to tell you all the possibilities of splice?</li>
+</ul>
 
 <h5>Optional project: an interactive picture album browser</h5>
 
--   Let&apos;s start with an array variable like that:
+<ul>
+  <li>Let&apos;s start with an array variable like that:</li>
+</ul>
 
 <pre>
 1.  let myPicturesArray = &lbrack;
@@ -13184,50 +13230,54 @@ creations.
 44. &rbrack;;
 </pre>
 
--   It&apos;s an array of pictures, each picture having a URL, a URL for a
+<ul>
+  <li>It&apos;s an array of pictures, each picture having a URL, a URL for a
     tiny version of the picture, called a thumbnail, a title, and the
     name of the album it belongs to, that can be used as a picture
     description (HTML alt attribute) but also for displaying it next to
-    the picture.
+    the picture.</li>
+  <li>Here is a small example that iterates on the pictures and create 
+    &lt;img&gt; elements on the fly:</li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 388.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image388.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/KqzPOm">
+CodePen: iterating pictures and create img elements</a>.</p>
 
--   Here is a small example that iterates on the pictures and
-    create &lt;img&gt; elements on the fly:
-
-![](./images/image388.png){width="6.5in" height="8.2875in"}
-
-[<b>https://codepen.io/w3devcampus/pen/KqzPOm</b>](https://codepen.io/w3devcampus/pen/KqzPOm)
-
--   What you will have to do:
-
-    1.  <b>Improve the display, by adding margins (CSS), shadows, border,
+<ul>
+  <li>What you will have to do:
+    <ol start="1">
+	  <li><b>Improve the display, by adding margins (CSS), shadows, border,
         and changing the URLs for real pictures</b>. Remember that you
         need to have a smaller versions of the pictures, i.e.,
         thumbnails. You can use existing images (images.google.com is
-        your friend) or images you upload somewhere.
-
-    2.  <b>Use JavaScript for adding a click event listener on each
+        your friend) or images you upload somewhere.</li>
+	  <li><b>Use JavaScript for adding a click event listener on each
         image</b>, then when clicked, you will show a bigger version of
         each picture. For the moment, just change the value of the src
         attribute of the clicked image (set it to the URL of the full
-        size image from the array).
-
-    3.  <b>Try to make something nicer: reserve a &lt;div&gt; on the right of
+        size image from the array).</li>
+	  <li><b>Try to make something nicer: reserve a &lt;div&gt; on the right of
         the document so to display the clicked image with a bigger
         size</b>. In that case, you will need to create an image (only
         once, after the first click), to set it to the size of the div
         (use the width and height attributes of the img element), and to
-        append it to the div.
-
-    4.  <b>Try to add more images, and find a way to display them per
+        append it to the div.</li>
+	  <li><b>Try to add more images, and find a way to display them per
         album.</b> Create buttons entitled &quot;album1&quot;, &quot;album2&quot;, etc.,
         and when clicked, you will only display images from the selected
-        album.
-
-    5.  <b>&lbrack;Advanced&rbrack; Add an option for deleting a picture.</b> It should
-        be removed from the document and from the array too&#41;
-
-    6.  <b>Feel free to add any interesting feature you think about ;-)</b>
-
+        album.</li>
+	  <li><b>&lbrack;Advanced&rbrack; Add an option for deleting a picture.</b> It should
+        be removed from the document and from the array too&#41;</li>
+	  <li><b>Feel free to add any interesting feature you think about ;-)</b></li>
+	</ol>
+	</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-1">3.3.1 Playing audio and video streams</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13285,7 +13335,13 @@ the &lt;video&gt; element</b>
 
 Help! <b>&lt;video src=&quot;my youtube video URL&quot;&gt;&lt;/video&gt;</b> does not
 work! 
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 391.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image391.png?raw=true"
+  style="width:25%"
+  title=""
+  alt="." />
 ![](./images/image389.png){width="6.0in"
 height="0.9082130358705162in"}
 
@@ -13312,9 +13368,13 @@ it&apos;s HTML5 but it&apos;s not a <b>&lt;video&gt;</b> element directly inse
 the HTML of this page - it&apos;s an <b>&lt;iframe&gt;</b>.
 
 https://www.youtube.com/watch?v=tIHa587wZyY
-
-![](./images/image390.png){width="4.0in"
-height="2.216359361329834in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 390.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image390.png?raw=true"
+  style="width:25%"
+  title=""
+  alt="." />
 
 <h5>The &lt;audio&gt; element</h5>
 
@@ -13350,11 +13410,14 @@ The most simple basic example: [online example from
 JSBin](https://jsbin.com/xojobirowo/edit?html,output)
 
 Press play to stream the neigh of a horse:  
-
- ![](./images/image391.png){width="2.1354166666666665in"
-height="0.4583333333333333in"}
-
-<https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 391.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image391.png?raw=true"
+  style="width:25%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg">Horse neigh</a>.</p>
 
 <h5>The code is very similar to the basic <b>&lt;video&gt;</b> element usage.</h5>
 
@@ -13398,26 +13461,39 @@ does not support the &lt;audio&gt; element. This is also a best practice!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-2">3.3.2 Audio and video player JavaScript API (9:05)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding video: the video element JavaScript API
-
-![](./images/image392.png){width="6.0in"
-height="3.089744094488189in"}
-
-<b>https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011</b>
+<p>Live coding transcript: the video element JavaScript API</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 392.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image392.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011">
+CodePen: JavaScript API</a>.</p>
 
 Today, let&apos;s have a look at some APIs. An API is a set of functions you
 can use from your JavaScript code.
-
-![](./images/image393.png){width="5.0in"
-height="2.7094017935258092in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 393.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image393.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 One of them is the audio and video player JavaScript API that will give
 you the possibility to control a video player from JavaScript, making
 your own custom video player.
-
-![](./images/image394.png){width="5.0in"
-height="2.7094017935258092in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 394.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image394.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 Let&apos;s look at one small example. I prepared, here, an HTML document
 with a video player. In order to include a video player in your
@@ -13433,9 +13509,14 @@ And when you include a video element with some sources in your HTML
 document, the browser will ask the remote server and get the video
 format it prefers. You don&apos;t have to wonder which one is the best, your
 browser will choose.
-
-![](./images/image395.png){width="5.0in"
-height="2.7094017935258092in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 395.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image395.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 If I click on the video player, you see that&#41; Ok! By adding a
 controls attribute it will display a control bar with buttons for play,
@@ -13458,27 +13539,42 @@ ready and when the page have be loaded.
 We use "<b>window.onload = init</b>" with an init callback that will
 executed only when the <b>DOM</b> is ready, and inside this function, we
 will get a reference to the video player.
-
-![](./images/image396.png){width="5.0in"
-height="2.7094017935258092in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 396.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image396.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 Let&apos;s write it. And I will declare this reference as a global variable.
 Like this. When I click on the button, I will use the JavaScript API of
 this object -this video player- and I can call "<b>vid.play()</b>". I click
 on the button and it plays the video. How can you guess the names of the
 all the methods you can use?
-
-![](./images/image397.png){width="5.0in"
-height="3.674679571303587in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 397.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image397.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 Go to the course, and in the section about the audio and video player
 JavaScript APIs you got this picture here, that is a link to the W3C
 specifications. And here you can interactively try the different
 methods. And the names on the buttons are the names of the different
 methods you can call when you see parenthesis: <b>play(), pause()</b>&#41;
-
-![](./images/image398.png){width="5.0in"
-height="2.7307688101487315in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 398.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image398.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 And also you&apos;ve got properties, these properties you can&#133; you can use
 them for getting information -what is the current time?- for example. Or
@@ -13493,25 +13589,40 @@ ended.
 The &quot;<b>ended</b>&quot; event here, you can see it and so that you can play
 another video and do some play lists with the videos that are changed:
 when one is finished, the other starts and so on.
-
-![](./images/image399.png){width="5.0in"
-height="2.7307688101487315in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 399.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image399.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 Let&apos;s go back our example, and we will just implement the &quot;pause&quot;
 functionality. And we will add a &quot;pause&quot; button. Now I can play the
 video and I can pause it.
-
-![](./images/image400.png){width="5.0in"
-height="2.7307688101487315in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 400.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image400.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 If I want to rewind to the beginning&#41; let&apos;s try again! And in order
 to do this, instead of calling a method&#41;we will just use the
 "<b>currentTime</b>" property and set it to 0. Remember from this document,
 you see the "<b>currentTime</b>" here, it&apos;s a property of the video player
 object.
-
-![](./images/image401.png){width="5.0in"
-height="2.7307688101487315in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 401.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image401.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 Let&apos;s try it, play! Rewind! We start again from zero, and so on. If you
 want to display the "<b>currentTime</b>" while this video is still played.
@@ -13593,9 +13704,14 @@ link](https://www.w3.org/2010/05/video/mediaevents.html), play with the
 different buttons and look at the table of events and properties that
 will change in real time. The displayed names show the properties,
 events, and methods from the API.
-
-![](./images/image402.png){width="5.0in"
-height="3.294491469816273in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 402.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image402.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 <h5>Here is a table that shows the most interesting methods, properties, and 
 events provided by the <b>&lt;video&gt;</b> element API</h5>
@@ -13603,9 +13719,14 @@ events provided by the <b>&lt;video&gt;</b> element API</h5>
 We provide this as a quick reminder - keep in mind that the [complete
 list](https://html.spec.whatwg.org/multipage/media.html#mediaevents) is
 much longer! 
-
-![](./images/image403.png){width="7.0in"
-height="5.487073490813648in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 403.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image403.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
 
 Now let&apos;s take a look at a set of examples demonstrating how to use the
 most important of these properties, methods, and events&#41;
@@ -13627,14 +13748,24 @@ buttons to play/pause the video or to go back to the beginning by
 setting the currentTime property to zero.
 
 <h5>Try it online:</h5>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image404.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/dyvjoKV">
+CodePen: example</a>.</p>
 
-![](./images/image404.png){width="5.0in"
-height="1.5929483814523184in"}
-
-<https://codepen.io/w3devcampus/pen/dyvjoKV>
-
-![](./images/image405.png){width="3.0in"
-height="2.7111111111111112in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 405.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image405.png?raw=true"
+  style="width:30%"
+  title=""
+  alt="." />
+</p>
 
 <h5>Source code extract:</h5>
 
@@ -13655,32 +13786,32 @@ height="2.7111111111111112in"}
 14. vid = document.querySelector(&quot;#vid&quot;);
 15. 
 16. function playVideo() {
-17. vid.play();
+17.   vid.play();
 18. }
 19. function pauseVideo() {
-20. vid.pause();
+20.   vid.pause();
 21. }
 22. 
 23. function rewindVideo() {
-24. vid.currentTime = 0;
+24.   vid.currentTime = 0;
 25. }
 26. &lt;/script&gt;
 </pre>
 
 <b>Explanations:</b>
 
--   <i>Lines 7, 9 and 11</i>: we add a click listener to each button, in
+-   <b><i>Lines 7, 9 and 11</i></b>: we add a click listener to each button, in
     order to call a JavaScript function when each button is clicked.
 
--   <i>Line 14</i>: using the DOM API, we get the JavaScript object that
+-   <b><i>Line 14</i></b>: using the DOM API, we get the JavaScript object that
     corresponds to the video element we inserted in the HTML document.
     This line is not within a function, so will be executed when the
     page loads.
 
--   <i>Lines 17 and 20</i>: we call methods from the API for
+-   <b><i>Lines 17 and 20</i></b>: we call methods from the API for
     playing/pausing the video.
 
--   <i>Line 24</i>: we modify the currentTime property in order to rewind
+-   <b><i>Line 24</i></b>: we modify the currentTime property in order to rewind
     the video. Note that vid.load() also rewinds the video and shows the
     poster image again, but it also pauses the video. By
     using currentTime=0, the playback does not stop.
@@ -13689,37 +13820,31 @@ height="2.7111111111111112in"}
 
 This example listens to the ended event, and calls a callback function
 when the video is ended.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 406.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image406.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/poeZJGo">
+CodePen: example</a>.</p>
 
-![](./images/image406.png){width="5.0in"
-height="1.603632983377078in"}
-
-<https://codepen.io/w3devcampus/pen/poeZJGo>
-
+<pre>
 1.  &lt;video src=&quot;video.ogv&quot; id=&quot;myVideo&quot;&gt;
-
 2.  video not supported
-
 3.  &lt;/video&gt;
-
 4.  
-
 5.  &lt;script type=&apos;text/javascript&apos;&gt;
-
 6.  var vid = document.querySelector(&apos;#myVideo&apos;);
-
 7.  vid.addEventListener(&apos;ended&apos;, playNextVideo, false);
-
 8.  
-
 9.  function playNextVideo(e) {
-
 10. // Whatever you want to do after the event, change the src attribute
-
 11. // of the video element, for example, in order to play another video
-
 12. }
-
 13. &lt;/script&gt;
+</pre>
 
 <h5>Example #3: how to manage playlists - sequential movies</h5>
 
@@ -13729,11 +13854,15 @@ changes the src attribute of the video element and plays the video.
 Check the online example below: use the progress cursor to go near the
 end of the first video that is being played, and see how it continues
 with the next video.
-
-![](./images/image407.png){width="5.0in"
-height="1.603632983377078in"}
-
-<https://codepen.io/w3devcampus/pen/jOBpbqP>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 407.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image407.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/jOBpbqP">
+CodePen: example</a>.</p>
 
 <h5>Source code:</h5>
 
@@ -13792,26 +13921,26 @@ P1120973_512kb.mp4&quot;
 
 <h5>Explanations:</h5>
 
--   <i>Line 9</i>: the JavaScript array that contains the URLs of the videos
+-   <b><i>Line 9</i></b>: the JavaScript array that contains the URLs of the videos
     in the playlist. In this example, we&apos;ve got only two of them, but
     if the array is larger the example still works.
 
--   <i>Line 44</i>: when the page is loaded, an <b>init()</b> function is
+-   <b><i>Line 44</i></b>: when the page is loaded, an <b>init()</b> function is
     called.
 
--   <i>Lines 34-40</i>: we use the <b>DOM</b> to get the JavaScript object
+-   <b><i>Lines 34-40</i></b>: we use the <b>DOM</b> to get the JavaScript object
     corresponding to the video element, then define a listener for
     the ended event. Each time a video ends,
     the <b>loadAndplayNextVideo()</b> callback is called. As the video
     element has no src attribute by default, we also preload the first
-    video (call to <b>loadNextVideo()</b> at *line 38*).
+    video (call to <b>loadNextVideo()</b> at <b><i>line 38</i></b>).
 
--   <i>Lines 17-21</i>: the <b>loadNextVideo()</b> function uses a variable
+-   <b><i>Lines 17-21</i></b>: the <b>loadNextVideo()</b> function uses a variable
     called <b>currentVideo</b> that corresponds to the index of the current
     video. By setting <b>myVideo.src = sources &lbrack;currentVideo %
     sources.length&rbrack;</b>, we set the src of the video element to
     sources&lbrack;0&rbrack;, then to sources&lbrack;1&rbrack;, and, as we increment
-    the <b>currentVideo</b> index each time (<i>line 20</i>), if it becomes
+    the <b>currentVideo</b> index each time (<b><i>line 20</i></b>), if it becomes
     greater than 1, the modulo (the &quot;%&quot; symbol is the modulo in
     JavaScript) will make it &quot;loop&quot; between 0 and the number of videos
     in the playlist. In other words, when the last video ends, it starts
@@ -13872,9 +14001,8 @@ the code.
 
 <h5>Example #1: a player showing the use of every type of CSS3 transformation</h5>
 
-Please see this example online, originally written by [Chris
-Heilmann](https://christianheilmann.com/), and tuned by us ;).
-
+<p>Please see this example online, originally written by <a href="https://christianheilmann.com/">Chris
+Heilmann</a>, and tuned by us ;).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 410.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -13891,13 +14019,12 @@ applies CSS3 transforms.
 
 This example shows a lot:
 
--   It uses the HTML5 elements <b>&lt;nav&gt;, &lt;footer&gt;, &lt;header&gt;</b>.
-
--   It shows the use of CSS3 2D transformations (scale, translate, and
-    rotate).
-
--   It shows how to handle <b>DOM</b> events using JavaScript and how to
-    modify CSS properties of the <b>&lt;video&gt;</b> element from JavaScript.
+<ul>
+  <li>It uses the HTML5 elements <b>&lt;nav&gt;, &lt;footer&gt;, &lt;header&gt;</b>.</li>
+  <li>It shows the use of CSS3 2D transformations (scale, translate, and rotate).</li>
+  <li>It shows how to handle <b>DOM</b> events using JavaScript and how to
+    modify CSS properties of the <b>&lt;video&gt;</b> element from JavaScript.</li>
+</ul>
 
 <h5>Example #2: how to track all possible events and manipulate many properties</h5>
 
@@ -14040,7 +14167,7 @@ percentage into the movie duration for which there is data. &quot;
 
 This is the ultimate way of doing a real custom player: redesign your
 own controls using SVG shapes! This example (try
-it [online](https://www.w3.org/2010/Talks/0430-www2010-plh/video-player.xhtml))
+it <a href="https://www.w3.org/2010/Talks/0430-www2010-plh/video-player.xhtml">online</a>)
 is given &quot;as is&quot; for those of you who may be curious.
 
 <h4>Example #5: a custom video player written by a previous student</h4>
@@ -14052,8 +14179,7 @@ play/pause/next/previous/volume controls, and present it in a Web page
 that used a nice layout based on the HTML5 structuring elements studied
 previously.
 
-Here is the online example. We recommend that you look at the source
-code:
+Here is the online example. We recommend that you look at the source code:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 413.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -14248,11 +14374,12 @@ basic example might be useful.
 12. &lt;/html&gt;
 </pre>
 
--   <i>Lines 5 and 6</i> are the required files to use the Leaflet API
-    (this is the official name of the OpenStreetMaps API),
-
--   <i>Line 10</i> is the &lt;div&gt; container that will be used to display
-    the interactive map
+<ul>
+  <li><b><i>Lines 5 and 6</i></b> are the required files to use the Leaflet API
+    (this is the official name of the OpenStreetMaps API),</li>
+  <li><b><i>Line 10</i></b> is the &lt;div&gt; container that will be used to display
+    the interactive map</li>
+</ul>
 
 <h5>JavaScript part:</h5>
 
@@ -14335,7 +14462,7 @@ Google reverse geocoding example (screenshot only):
   alt="." />
 
 Source code of this example (in order to run it, you need a Google API
-key, used at <i>line 6</i>).
+key, used at <b><i>line 6</i></b>).
 
 <pre>
 1.  &lt;!DOCTYPE html&gt;
@@ -14480,8 +14607,8 @@ geocoder in a form field. This example might be useful if you want to
 pre-fill the address of a registration form, depending on the current
 location of the person who is registering.
 
-Click on the Codepen logo (on the top right) so to run the [online
-example](https://codepen.io/w3devcampus/pen/MWKEJqM) (for security
+Click on the Codepen logo (on the top right) so to run the 
+<a href="https://codepen.io/w3devcampus/pen/MWKEJqM">online example</a> (for security 
 reasons the embedded version cannot run in this page):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 420.  (373) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14786,7 +14913,7 @@ CodePen: load sound sample using howlerjs</a>.</p>
 15. }
 </pre>
 
-The important part is located in <i>lines 5-9</i>: the Howler library is to
+The important part is located in <b><i>lines 5-9</i></b>: the Howler library is to
 be used like this: sound = new Howl({&#133;}); The part between the { and
 } is an object. The url&apos;s property is an array with at least one
 element: the URL of the sound we want to use, located on remote servers.
@@ -14797,13 +14924,13 @@ a decoded sound will use nearly zero cpu, which makes it good for
 games!).
 
 Finally, once the sound is decoded, the onload callback is executed. In
-other words, the function after onload: will be executed (at <i>lines
-7-9</i>). In this callback, we enable the button because the sound is
+other words, the function after onload: will be executed (at <b><i>lines
+7-9</i></b>). In this callback, we enable the button because the sound is
 ready to be played.
 
 The playSound function can only be called when the button is enabled
 (when the sound sample has been loaded and decoded). In order to play a
-sound loaded by Howler.JS, we just call the play() method (<i>line14</i>).
+sound loaded by Howler.JS, we just call the play() method (<b><i>line14</i></b>).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-3">3.5.3 Adding music and sound effects</h3>
@@ -16153,8 +16280,8 @@ or to remove properties after an object has been created.</h5>
 11. };
 </pre>
 
-<i>Lines 5, 6 and 9</i>: we can add properties and methods after the object
-has been created empty at <i>line 2</i>.
+<b><i>Lines 5, 6 and 9</i></b>: we can add properties and methods after the object
+has been created empty at <b><i>line 2</i></b>.
 
 <h5>Deleting a property or a method</h5>
 
@@ -16977,7 +17104,7 @@ These special functions are called &quot;getters&quot; and &quot;setters&quot;, 
 declared using the keywords get and set followed by the name of the
 property they define.
 
-<h5>Typical use (<i>lines 7 and 11</i>):</h5>
+<h5>Typical use (<b><i>lines 7 and 11</i></b>):</h5>
 
 <pre>
 1.  class Person {
@@ -17012,7 +17139,7 @@ property they define.
 Notice that when you declare get familyName() {&#41;} for example, you
 define implicitly a property whose name is &quot;familyName&quot; and that will
 be accessible using object.familyName, where object is an instance of
-the class. See <i>lines 22-25</i> in the example above. Displaying the value
+the class. See <b><i>lines 22-25</i></b> in the example above. Displaying the value
 of p1.familyName will call implicitly get familyName(),
 while p1.familyName = &apos;Smith&apos;; will call set familyName(&apos;Smith&apos;);
 
@@ -17296,16 +17423,17 @@ in other projects.
 
 <h5>Explanations:</h5>
 
--   <i>Line 6</i>: the draw function&apos;s content is nearly the same as the
+<ul>
+  <li><b><i>Line 6</i></b>: the draw function&apos;s content is nearly the same as the
     drawFilledCircle function we previously used. We replaced all c.x,
     c.y etc. by this.x, this.y, to use the properties of the current
     object. This means that when we create a ball with var b = new
     Ball(&#41;); and when we draw it using b.draw(ctx), then this.x will
-    be the value of the x property of the ball b, etc.
-
--   <i>Line 23</i>: the move function takes no parameter as it will add the
+    be the value of the x property of the ball b, etc.</li>
+  <li><b><i>Line 23</i></b>: the move function takes no parameter as it will add the
     value of the speedX/speedY properties to the current x and y value
-    of the current ball.
+    of the current ball.</li>
+</ul>
 
 Notice that we did not take into account the globalSpeedMultiplier we
 had in the old moveAllBalls function, as this is not something that is
@@ -17795,12 +17923,13 @@ the same as "p.valueOf()". If I type "**p.toString()**", in that case,
 it gives me the value of "p" as a string, and as a string its the value
 is this message.
 
-&lt;video transcript above&gt;
+<!-- transcript for 5.2.4 built-in js class: object -->
 
 <h5>Source code shown in the above lesson</h5>
 
-The source code of the example shown in the video [is available on
-CodePen](https://codepen.io/w3devcampus/pen/EXmONY?editors=0012)
+<p>The source code of the example shown in the video 
+<a href="https://codepen.io/w3devcampus/pen/EXmONY?editors=0012">
+is available on CodePen</a>.</p>
 
 The father of all objects: Object. All objects will inherit the
 properties and methods from the special class named Object.
@@ -17845,7 +17974,7 @@ a string by calling toString() implicitly</b>.</p>
 6.  &quot;The object as a String : 1, 2, 3&quot;
 </pre>
 
-<i>Line 5</i>: using the + operator with a string as the left argument will
+<b><i>Line 5</i></b>: using the + operator with a string as the left argument will
 force the other arguments to convert to string by implicitly calling
 their toString() method.
 
@@ -18466,30 +18595,31 @@ to use the standard syntax:
 
 <h5>Explanations:</h5>
 
--   <i>Line 10</i>: in JavaScript, and in many other programming
+<ul>
+  <li><b><i>Line 10</i></b>: in JavaScript, and in many other programming
     languages,<b> a string is not modifiable at all</b>.
     <b>When we do var s = s + &quot;hello&quot;, in fact, we are building a new
     string somewhere in memory, and we assign this new value to the
     variable s.</b>
     We never &quot;modify&quot; the characters of the string s, we just give
-    to s another address in memory to point to. 
+    to s another address in memory to point to.</li>
+</ul>
 
 <h4>Useful methods: toUpperCase, toLowerCase, indexOf, charAt</h4>
 
 These methods are all inherited from the String class:
 
--   toUpperCase: returns the string in upper case. Do not change the
-    original string.
-
--   toLowerCase: returns the string in lower case. Do not change the
-    original string.
-
--   indexOf: returns the index of the string value passed as parameter,
-    -1 if the string value is not found in the original string.
-
--   charAt: returns the char at the index passed as parameter. Returns
+<ul>
+  <li>toUpperCase: returns the string in upper case. Do not change the
+    original string.</li>
+  <li>toLowerCase: returns the string in lower case. Do not change the
+    original string.</li>
+  <li>indexOf: returns the index of the string value passed as parameter,
+    -1 if the string value is not found in the original string.</li>
+  <li>charAt: returns the char at the index passed as parameter. Returns
     an empty string if the index is out of bounds (less than 0 or
-    greater than the length of the string).
+    greater than the length of the string).</li>
+</ul>
 
 <pre>1.  &gt; var s = "I'm the Walrus";
 2.  Undefined
@@ -18518,12 +18648,13 @@ These methods are all inherited from the String class:
 
 <h5>Other useful methods: lastIndexOf, chaining methods</h5>
 
--   lastIndexOf: returns the last index of the string value passed as
-    parameter
-
--   indexOf can also be used with two parameters, the second one being
+<ul>
+  <li>lastIndexOf: returns the last index of the string value passed as
+    parameter</li>
+  <li>indexOf can also be used with two parameters, the second one being
     the starting index when looking for the string value passed as
-    parameter
+    parameter</li>
+</ul>
 
 <pre>1.  &gt; s = &apos;wow wow wow!&apos;;
 2.  &quot;wow wow wow!&quot;
@@ -18943,21 +19074,20 @@ week Michel Buffa&apos;s birthday will occur, between 2017 and 2047:
 
 <h5>Explanations:</h5>
 
--   <i>Line 1</i> we use an array with each element being the number of
-    times the birthday occurs on a Sunday, Monday, etc.
-
--   <i>Line 3</i>: we iterate using a for loop on every year between 2017
-    and 2047.
-
--   <i>Line 4</i>: we build a Date object using 16 of April, but change the
+<ul>
+  <li><b><i>Line 1</i></b> we use an array with each element being the number of
+    times the birthday occurs on a Sunday, Monday, etc.</li>
+  <li><b><i>Line 3</i></b>: we iterate using a for loop on every year between 2017
+    and 2047.</li>
+  <li><b><i>Line 4</i></b>: we build a Date object using 16 of April, but change the
     year, we compute the date of each of Michel Buffa&apos;s birthdays
     between 2017 and 2045, and we get the index of the day (using
     the getDay() method). This index is used to increment corresponding
-    elements of the array defined in <i>line 1</i>.
-
--   Finally, <i>line 7</i> displays the content of the array. Remember
-     that typing a variable name in the devtool console is equivalent to
-    calling the object toString() method.
+    elements of the array defined in <b><i>line 1</i></b>.</li>
+  <li>Finally, <b><i>line 7</i></b> displays the content of the array. Remember
+    that typing a variable name in the devtool console is equivalent to
+	calling the object toString() method.</li>
+</ul>
 
 And here is a full version with input fields and results displayed in an
 HTML table:
@@ -18969,8 +19099,8 @@ HTML table:
   title=" "
   alt=" ." />
 </p>
-
-<https://codepen.io/w3devcampus/pen/Mmwqgq>
+<p align="center"><a href="https://codepen.io/w3devcampus/pen/Mmwqgq">
+CodePen: example</a>.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-1">5.3.1 The HTML table basics</h3>
@@ -18995,8 +19125,8 @@ first thing after the opening &lt;table&gt; tag.
 
 <b>Second best practice for accessibility:</b> use a scope attribute with
 all &lt;th scope = &quot;row or column&quot;&gt; for identifying whether a table
-header is a column header or a row header. We invite you to read [these
-guidelines](https://www.w3.org/WAI/tutorials/tables/) for making
+header is a column header or a row header. We invite you to read 
+<a href="https://www.w3.org/WAI/tutorials/tables/">these guidelines</a> for making
 accessible tables.
 
 <h5>Typical example:</h5>
@@ -20028,9 +20158,9 @@ JavaScript object:
 With the JSON representation of an object you cannot access the original
 object&apos;s properties using the &quot;.&quot; operator, nor call its
 methods. <b>The JSON format only stores the list of the object properties
-(name and value) as a string.</b> Look at <i>line 10</i>: we cannot access
+(name and value) as a string.</b> Look at <b><i>line 10</i></b>: we cannot access
 the name property of the JSON representation of the metallica object
-defined at <i>line 1</i>.
+defined at <b><i>line 1</i></b>.
 
 When we parse a JSON string using JSON.parse(), we get a real JavaScript
 object, and we can access its properties (<b><i>lines 16 and 19</i></b>).
@@ -20861,10 +20991,10 @@ an &quot;add&quot; button.</p>
 15. &lt;/form&gt;
 </pre>
 
-<p>The button at <i>line 13</i> will submit the form by default (it&apos;s
+<p>The button at <b><i>line 13</i></b> will submit the form by default (it&apos;s
 equivalent to an &lt;input type=&quot;submit&quot;&gt;).</p>
 
-<p>The event listener at <i>line 1</i>:</p>
+<p>The event listener at <b><i>line 1</i></b>:</p>
 
 <pre>1.  &lt;form onsubmit=&quot;return formSubmitted();&quot;&gt;</pre>
 
