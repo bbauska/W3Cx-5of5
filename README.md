@@ -2,7 +2,7 @@
 title: "W3Cx-5of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
 author: "bbauska"
 date created: "7/07/2024 Sun 12+pm"
-date last editted: "8/10/2024 Sat 4+pm"
+date last editted: "8/11/2024 Sun 4+pm"
 
 output: 
   markdown:
@@ -3534,7 +3534,8 @@ the value of the variable x=2 and we display the value of the x variable in bold
   style="width:65%"
   title="Result of execution Example 1; JavaScript in the HTML file"
   alt="Result of execution Example 1; JavaScript in the HTML file." />
-</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY">CodePen: JS in the .html file</a>.</h6>
+<!-- image with codepen -->
 
 <p>This is the result of the execution of this code. And this code is not in a 
 function, so it's executed as soon as the page is rendered. When the browser
@@ -3548,31 +3549,36 @@ can also open the devtools using the "F12" key or "ctrl+alt+i" or "cmd+alt+i" on
 a Mac. And you see that the "console.log" message has been displayed in the devtool 
 console of your browser.</p>
 
-<!-- image missing ? -->
+<!-- image -->
 <p>Here, notice that we use the "script" element directly into the body of the 
 document. Another possibility is to a put this code in the head of the document.
 It's also common practice because it separates clearly the JavaScript code from 
 the HTML body of the document. In that case, the result is the same, except that 
 the JavaScript code is displayed before the rest of the page.</p>
 
-<!-- image missing ? -->
 <p>Here we defined the variable x, we added it to the body of the document, and 
 later on we display the body, where the browser renders the body of the document. 
 Okay, what is better? It depends on your application. For the moment, just stay 
 with knowing that you can put scripts in the body or in the head of a document.</p>
 
-<!-- image missing ? -->
+<!-- image -->
 <p>Another possibility is to use an external JavaScript file. In that case, the 
 same way we showed you how to use an external file for storing the CSS code, we 
 can use the "script" tag with the "src" attribute to include in the HTML document 
-an external JavaScript file. Notice than we can include more than one JavaScript 
+an external JavaScript file. 
+
+<!-- image -->
+Notice than we can include more than one JavaScript 
 file if we like, like this. In that example, we are including 3 different JavaScript 
 files sequentially. 
 
 <!-- image -->
 I prepared for you an example you can download - it's called 
 "Example_3.zip". I click on it, download it, unpack it, and inside this element, 
-I've got an HTML file. And I open it with my Sublime Text editor. And what I've 
+I've got an HTML file. And I open it with my Sublime Text editor. 
+
+<!-- image -->
+And what I've 
 got here, is that you can see in the HTML header in that case but you can also 
 put this in the body if you like, we included a "script.js" file located under 
 the "js" directory.</p>
@@ -3580,12 +3586,12 @@ the "js" directory.</p>
 <!-- image missing -->
 I can also open this file. I can see that I display the message called "Function executed"
 and a function "addSomeText" directly in the script. When is this executed?
-It's executed when we click on a button.
+It's executed when we click on a button. Let's have the button "onclick" call the function 
+"addSomeText". 
 
-<!-- image -->
-Let's have the button "onclick" call the function "addSomeText". Let's execute this, here is the result: 
+<!-- image here -->
+Let's execute this, here is the result: 
 "Click me to call a JavaScript function that will add some content to this document". 
-
 I click and you see that the function have been executed. And finally, the last thing you 
 can do, is to include an external JavaScript source code. 
 <!-- image -->
@@ -3602,7 +3608,7 @@ library for plotting functions&#133; then you can use some functionalities that 
 from the "paper.js" library. You need to read the documentation to learn how to use 
 it, but here is an example: a set of squares, animated squares, that follow the mouse.
 
-<!-- end transcript 1.3.3 -->
+<!-- end transcript 1.3.3 where to put JS code -->
 
 <h4>JavaScript code can be located in different places</h4>
 
@@ -21109,7 +21115,8 @@ this):
 adaptation of the function displayUsersAsATable(users) from the previous
 CodePen:</p>
 
-<pre>1.  class ContactManager {
+<pre>
+1.  class ContactManager {
 2.    &#133;
 3.    displayContactsAsATable(idOfContainer) {
 4.      // to empty the container that contains the results
@@ -21138,7 +21145,7 @@ CodePen:</p>
 27. }
 </pre>
 
-<h5><b>Explanations</b>:</h5>
+<h5>Explanations:</h5>
 <ul>
   <li><b><i>Line 3</i></b>: the method displayContactsAsATable takes as a parameter
     the id of the HTML element in which the table will be inserted after
@@ -21148,7 +21155,7 @@ CodePen:</p>
     display!&quot;</li>
   <li><b><i>Lines 16-25</i></b>: we create a table, and for each contact we insert and
     fill a new row in the table.</li>
-  <li><b><i>Line 28</i></b>: the table is inserted (appended) in the HTML container.</li>
+  <li><b><i>Line 26</i></b>: the table is inserted (appended) in the HTML container.</li>
 </ul>
 
 <h5>CodePen of this example:</h5>
@@ -21160,8 +21167,7 @@ CodePen:</p>
   title="CodePen: table list of contacts"
   alt="CodePen: table list of contacts." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/yXoVdp" 
-target="_blank" rel="noopener noreferrer">
-CodePen: list of contacts table</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: list of contacts table</a>.</h6>
 
 <p>Note that we also added a method called addTestData() to the
 ContactManager class, as this is a way to make testing the class easier.
@@ -21268,7 +21274,7 @@ features we implemented in the previous page:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is the discussion forum for this part of the course.</p>
 
-<p><b>Optional projects</b></p>
+<h5>Optional projects</h5>
 
 <ul>
   <li>Improve the CSS of the contact manager table.</li>
@@ -21276,7 +21282,7 @@ features we implemented in the previous page:</p>
   <li>Add an extra column with a trash bin icon in it (you can use
    this <a href="https://i.imgur.com/yHyDPio.png" 
    target="_blank" rel="noopener noreferrer">one</a><img src="./images/image528.png 
-   style="width:.33 height:.33" alt="Trashbin icon">, do right click and &quot;save link
+   style="width:1.33 height:1.33" alt="Trashbin icon">, do right click and &quot;save link
    as&quot;). When you click on this icon, delete the contact.<br>
    <br>
    <p><i>Hint</i>: find a way to get the index of the current row in the
@@ -21330,4 +21336,4 @@ features we implemented in the previous page:</p>
 <!-- last editted 8/5/2024 2:10pm -->
 <!-- last editted 8/6/2024 11:04pm -->
 <!-- last editted 8/10/2024 4:24pm -->
-
+<!-- last editted 8/11/2024 4:00pm -->
