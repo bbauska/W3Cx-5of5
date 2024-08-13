@@ -10336,8 +10336,8 @@ by this list:</p>
 
 <p>We select all elements of type input that have an attribute checked equal to true, 
 and located inside an element whose id is "fruits". Notice the use of 
-<b>document.querySelectorAll</b>, for selecting more than one element (<b><i>line 6</i></b>), then, we 
-iterate on the list (<b><i>line 8</i></b>) and concatenate to the string variable <b>listOfSelectedValues</b> 
+document.querySelectorAll, for selecting more than one element (<b><i>line 6</i></b>), then, we 
+iterate on the list (<b><i>line 8</i></b>) and concatenate to the string variable listOfSelectedValues 
 the value of each element (located in its value attribute). This is done in <b><i>line 9</i></b>.</p>
 
 <p><b><i>Lines 9-12</i></b> use the parentNode property of the selected nodes in order 
@@ -10373,7 +10373,7 @@ target="_blank" rel="noopener noreferrer">CodePen: Change background of p under 
 
 <p>JavaScript code: we build a CSS selector using the id passed as a
 parameter. In this example, the id is &apos;firstDiv&apos;, the id of the div
-at <b><i>line 3</i><?b> in the above code.</p>
+at <b><i>line 3</i></b> in the above code.</p>
 
 <p>The variable CSS selector at <b><i>line 2</i></b> in the JavaScript code below
 will have a value equal to &quot;#firstDiv p&quot;, that means: select
@@ -10439,7 +10439,7 @@ a &#35; before the id when using a CSS selector).</p>
 to document.querySelector(&apos;#myDiv&apos;);</p>
 
 <ul>
-  <li><b>document.getElementsByTagName(tagName) </b>returns a list of
+  <li><b>document.getElementsByTagName(tagName)</b> returns a list of
     elements which are named "tagName".</li>
 </ul>
 
@@ -10811,8 +10811,11 @@ CodePen: Modify attributes of select elements</a>.</h6>
 
 <p>In general, to add new nodes to the DOM we follow these steps:</p>
 
-1.  Create a new element by calling the <b>createElement</b>() method,
-    using a syntax like:<br>
+<ol start="1">
+  <li>Create a new element by calling the <b>createElement</b>() method,
+    using a syntax like:</li>
+</ol>
+
 <pre>
 1.  var elm = document.createElement(name_of_the_element)
 </pre>
@@ -10824,7 +10827,10 @@ CodePen: Modify attributes of select elements</a>.</h6>
 2.  var img = document.createElement(&apos;img&apos;); etc.
 </pre>
 
-2.  Set some attributes / values  / styles for this element.<br>
+<ol start="2">
+  <li>Set some attributes / values  / styles for this element.</li>
+</ol>
+
 <h5>Examples:</h5>
 <pre>
 1.  li.innerHTML = &apos;&lt;b&gt;This is a new list item in bold!&lt;/b&gt;&apos;; // can add HTML in it
@@ -10834,9 +10840,12 @@ CodePen: Modify attributes of select elements</a>.</h6>
 5.  img.width = 200;
 </pre>
 
-3.  Add the newly created element to another element in the DOM,
+<ol start="3">
+  <li>Add the newly created element to another element in the DOM,
     using append(), appendChild(), insertBefore() or
-    the innerHTML property<br>
+    the innerHTML property</li>
+</ol>
+
 <h5>Examples:</h5>
 <pre>
 1.  var ul = document.querySelector(&apos;#myList&apos;);
@@ -10846,7 +10855,8 @@ CodePen: Modify attributes of select elements</a>.</h6>
 5.  document.body.append(img); // adds the image at the end of the document
 </pre>
 
-<h5>Example #1: use of the <b>createElement(), append()</b> methods and of the <b>textContent</b> attribute {#example-1-use-of-the-createelement-append-methods-and-of-the-textcontent-attribute .unnumbered}
+<h5>Example #1: use of the <b>createElement(), append()</b> methods and of 
+the <b>textContent</b> attribute</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 337. codepen: example, createElement, append & textContent (266) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14424,20 +14434,20 @@ with several examples.</p>
   title="Geolocation logo"
   alt="Geolocation logo." />
 
-The Geolocation HTML5 JavaScript API is implemented by most modern Web
+<p>The Geolocation HTML5 JavaScript API is implemented by most modern Web
 browsers, and uses different means to get the current location: GPS,
-GSM/3G triangulation, Wifi, IP address, etc.
+GSM/3G triangulation, Wifi, IP address, etc.</p>
 
-It is possible to prompt the user to activate the GPS (this is what most
+<p>It is possible to prompt the user to activate the GPS (this is what most
 GPS navigation software does on mobile phones), or ask for a particular
 mean among those available. It is also possible to track the current
 position when it changes. This is useful for writing a navigation
 application or for tracking in real time the position of different
 participants in the case of an application that involves several persons
-at the same time (using WebSockets, for example).
+at the same time (using WebSockets, for example).</p>
 
-Browser support for the Geolocation API is excellent, both on mobile and
-on desktop devices.
+<p>Browser support for the Geolocation API is excellent, both on mobile and
+on desktop devices.</p>
 
 <h5>External resources:</h5>
 
