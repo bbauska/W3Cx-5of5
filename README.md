@@ -14134,14 +14134,14 @@ the code.</p>
 <p>Please see this example online, originally written by <a href="https://christianheilmann.com/" 
 target="_blank" rel="noopener noreferrer">Chris Heilmann</a>, and tuned by us ;).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 410.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 410. codepen: example css3 transformation (360) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image410.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example CSS3 transformation"
+  alt="CodePen: example CSS3 transformation." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bGqjVWG" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: example CSS3 transformation</a>.</h6>
 
 <p>Don&apos;t forget to click the JavaScript and CSS tabs of the CodePen in
 order to display the JavaScript code that creates the buttons on the
@@ -14162,14 +14162,14 @@ applies CSS3 transforms.</p>
 <p>This example also shows how to handle failures. See the code and play
 with this example below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 411.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 411. codepen: handling events for the video element (360) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image411.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: handling events for the video element"
+  alt="CodePen: handling events for the video element." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/abJjvqY" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: example events for the video element</a>.</h6>
 
 <p>Below is a piece of code for handling errors during video playback:</p>
 
@@ -14217,14 +14217,14 @@ target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 
 <p>Check the example below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 412.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 412. codepen: check progress of buffering (362) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image412.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: check progress of buffering"
+  alt="CodePen: check progress of buffering." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/vYxaNMq" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: example check progress of buffering</a>.</h6>
 
 <p>Note that on mobile phones, the video does not start until the user
 presses the play control or clicks on the video picture. Using the
@@ -14313,14 +14313,14 @@ previously.</p>
 
 <p>Here is the online example. We recommend that you look at the source code:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 413.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 413. codepen: custom video player (364) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image413.png?raw=true"
   style="width:10%"
-  title=""
-  alt="." />
+  title="CodePen: custom video player"
+  alt="CodePen: custom video player." />
 <h6 align="left"><a href="https://codepen.io/w3devcampus/pen/LYWBGYa" 
-target="_blank" rel="noopener noreferrer">CodePen example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen example custom video player</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-6">3.3.6 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14361,12 +14361,12 @@ custom player with nice CSS and buttons</a></p>
 
 <h4>Project #2: a video quiz!</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 414.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 414. media player logo (365) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image414.png?raw=true"
   style="width:10%"
-  title="Media Playrer"
-  alt="Media Player." />
+  title="Media Player logo"
+  alt="Media Player logo." />
 
 <p>Create a quiz based on videos - here is a proposed story telling:</p>
 
@@ -14381,7 +14381,7 @@ custom player with nice CSS and buttons</a></p>
   <li>When the video ends, please show the final score.</li>
 </ul>
 
-<h5><b>A few hints:</b></h5>
+<h5>A few hints:</h5>
 
 1.  Use an array with stop times, for example let stopTimes = &lbrack;5, 10,
     20&rbrack;. This will mean &quot;the video should stop at currentTime = 5,
@@ -14416,8 +14416,13 @@ advice(s), and also tell you that you are the best ;))</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This chapter presents the new Geolocation API and illustrates its use
 with several examples.</p>
-
-![](./images/image415.png){width="2.0in" height="0.8550164041994751in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 363. geolocation logo (366) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
+<img src="./images/image363.png?raw=true"
+  style="width:20%"
+  title="Geolocation logo"
+  alt="Geolocation logo." />
 
 The Geolocation HTML5 JavaScript API is implemented by most modern Web
 browsers, and uses different means to get the current location: GPS,
@@ -14460,26 +14465,26 @@ latitude, using online Web services?</p>
 
 <h5>How to get a map centered on your longitude and latitude</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 415.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 415. geolocation map (367) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image415.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Geolocation map"
+  alt="Geolocation map." />
 
 <p>This example is just given &quot;as is&quot;, as there are so many possibilities
 for rendering a map with <a href="https://leafletjs.com/reference-1.6.0.html">the Leaflet API for
-OpenStreetMaps</a>. <a href="https://leafletjs.com/index.html"></a>). However, we think having such a
-basic example might be useful.</p>
+OpenStreetMaps</a>. <a href="https://leafletjs.com/index.html">Leafletjs.com</a>). However, we 
+think having such a basic example might be useful.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 416.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 416. codepen: example click to show your location (367) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image416.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example click to show your location"
+  alt="CodePen: example click to show your location." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: example click to show your location</a>.</h6>
 
 <h5>Source code extract:</h5>
 
@@ -14582,12 +14587,12 @@ Let&apos;s see some examples of use.
 
 Google reverse geocoding example (screenshot only):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 417.  (369) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 417. mapquest: longitude and latitude (369) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image417.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Mapquest: longitude and latitude"
+  alt="Mapquest: longitude and latitude." />
 
 Source code of this example (in order to run it, you need a Google API
 key, used at <b><i>line 6</i></b>).
