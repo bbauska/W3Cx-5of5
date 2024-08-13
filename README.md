@@ -15580,12 +15580,12 @@ They are very very similar.
   title=""
   alt="." />
 
-Look at this object named "book": book.title &#133; Le Petit Prince and
+<p>Look at this object named "book": book.title &#133; Le Petit Prince and
 book&lbrack;&apos;title&apos;&rbrack; will give exactly the same result.Why would you use
-this notation for accessing properties?
+this notation for accessing properties?</p>
 
-It&apos;s because in some cases you can have property names that include
-spaces or that start with a number.
+<p>It&apos;s because in some cases you can have property names that include
+spaces or that start with a number.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 446.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15594,9 +15594,9 @@ spaces or that start with a number.
   title=""
   alt="." />
 
-For example, if I write this: book&lbrack;&apos;1stPublication&apos;&rbrack; as an index, it
+<p>For example, if I write this: book&lbrack;&apos;1stPublication&apos;&rbrack; as an index, it
 works. And if I type the object book, I can see that I defined the
-property that is named &quot;1stPublication.
+property that is named &quot;1stPublication.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 447.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15605,18 +15605,18 @@ property that is named &quot;1stPublication.
   title=""
   alt="." />
 
-But if I use the &apos;.&apos; notation, and if I try to set this property,
+<p>But if I use the &apos;.&apos; notation, and if I try to set this property,
 it&apos;s invalid because the property name when used with the &apos;.&apos;
 notation cannot start with a number. It&apos;s the same if we&apos;ve got
 property names that contain spaces like &apos;date of publication'. I can
 define a property that has spaces in its name using brackets but not
-using the &apos;.&apos; notation.
+using the &apos;.&apos; notation.</p>
 
-The bracket notation can also be useful when you&apos;ve got the name of the
+<p>The bracket notation can also be useful when you&apos;ve got the name of the
 property in a variable. For example, I&apos;ve got in the variable named
 "key", the "title" property name. And I want to access &quot;book.title",
 except that in that case the name of the property is the value of the
-"key" variable.
+"key" variable.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 448.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15625,31 +15625,31 @@ except that in that case the name of the property is the value of the
   title=""
   alt="." />
 
-I type key ="name" &#133; "book2" that is an object with the name. I can
+<p>I type key ="name" &#133; "book2" that is an object with the name. I can
 type &quot;book2.key3", it&apos;s exactly the same as typing "book2.name". You
 can also have objects that contain objects. The "book2" object, here,
 has the property name author that in turn is an object. It uses brackets
 and a pair of property values. In that case, you can chain the &apos;.&apos;
 operator to access the sub-properties. "book2.author" is an object,
 "book2.author.familyName" will access the "familyName" property of the
-author object that is a property of "book2". And it gives "heller" here.
+author object that is a property of "book2". And it gives "heller" here.</p>
 
 <!-- end transcript 4.2.2  -->
 
 <h5>Source code of the example in the above lesson</h5>
 
-Source code [is available on
-CodePen](https://codepen.io/w3devcampus/pen/XgNdLK?editors=0012)
+<p>Source code <a href="https://codepen.io/w3devcampus/pen/XgNdLK?editors=0012">
+is available on CodePen</a>.</p>
 
 <h5>From objects to arrays</h5>
 
 <h5>In Javascript, an object = a table whose keys/indexes are defined!</h5>
 
-<b>Important note:</b> Darth Vader is called &quot;Dark Vador&quot; in the French
+<p><b>Important note:</b> Darth Vader is called &quot;Dark Vador&quot; in the French
 versions of Star Wars, and, as a French tutor, I think it&apos;s cool to
-give to one of the heroes an international name. :-)
+give to one of the heroes an international name. :-)</p>
 
-Look at this array:
+<p>Look at this array:</p>
 
 <pre>
 1.  &gt; var darkVador = &lbrack;&apos;villain&apos;, &apos;half human half machine&apos;&rbrack;;
@@ -15662,7 +15662,7 @@ Look at this array:
 8.  &quot;half human half machine&quot;
 </pre>
 
-And now, look at this object:
+<p>And now, look at this object:</p>
 
 <pre>
 1.  var darkVador = {
@@ -15671,27 +15671,26 @@ And now, look at this object:
 4.  };
 </pre>
 
-They look a bit similar, don&apos;t they?
+<p>They look a bit similar, don&apos;t they?</p>
 
--   Same name of the variable that contains the object = darkVador
-
--   Instead of &apos;&lbrack;&apos; and &apos;&rbrack;&apos; that we used for defining an array, we
-    use &apos;{&apos; and &apos;}&apos; for defining an object
-
--   The elements of the object (its <b>properties</b>) are separated by a
-    comma &apos;,&apos;
-
--   The pairs of keys/values are separated by &apos;:&apos; as
-    in race<b>:</b> &apos;half human, half machine&apos;
-
--   The last pair of keys/values has no &apos;,&apos; at the end.
+<ul>
+  <li>Same name of the variable that contains the object = darkVador</li>
+  <li>Instead of &apos;&lbrack;&apos; and &apos;&rbrack;&apos; that we used 
+    for defining an array, we use &apos;{&apos; and &apos;}&apos; for defining 
+	an object</li>
+  <li>The elements of the object (its <b>properties</b>) are separated by a
+    comma &apos;,&apos;</li>
+  <li>The pairs of keys/values are separated by &apos;:&apos; as
+    in race<b>:</b> &apos;half human, half machine&apos;</li>
+  <li>The last pair of keys/values has no &apos;,&apos; at the end.</li>
+</ul>
 
 <h5>It is possible to access the object&apos;s properties with &quot;.&quot; or with brackets</h5>
 
-We saw that we can use the &quot;.&quot; operator, followed by the property
+<p>We saw that we can use the &quot;.&quot; operator, followed by the property
 name. It&apos;s also possible to use the bracket notation, and manipulate
 the object as an array whose indexes, instead of being 0, 1, 2 etc., are
-the property names!
+the property names!</p>
 
 <pre>
 1.  &gt; var book = {
@@ -15818,11 +15817,9 @@ object author, which is also a property of the book object).</p>
   title=""
   alt="." />
 
-Hello!
-
-In this video, we will talk about objects' methods and about the "this"
+<p>In this lesson, we will talk about objects' methods and about the "this"
 keyword that is very useful when using methods that will access
-properties inside an object, or methods that will call other methods.
+properties inside an object, or methods that will call other methods.</p>
 
 For arrays, we speak of elements but for objects, we talk about
 properties.
@@ -15851,10 +15848,10 @@ It will describe itself.
   title=""
   alt="." />
 
-Let&apos;s have a look at some examples. so here we&apos;ve got an object named
+<p>Let&apos;s have a look at some examples. so here we&apos;ve got an object named
 "medor" with the property "name" and the method "bark". If I open the
 console, I can type the name of the object. And, we see that it&apos;s got a
-name and a method.
+name and a method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 452.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15863,11 +15860,11 @@ name and a method.
   title=""
   alt="." />
 
-And to call a method, it&apos;s the same as with accessing properties, you
+<p>And to call a method, it&apos;s the same as with accessing properties, you
 use the &apos;.&apos; operator, method . the name of the function followed by
 parenthesis and if the method take arguments, you would add arguments
 between parenthesis. It&apos;s just displayed an alert saying "Ouaf, Ouaf!"
-because the dog does "Ouaf, Ouaf!".
+because the dog does "Ouaf, Ouaf!".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 453.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15876,20 +15873,20 @@ because the dog does "Ouaf, Ouaf!".
   title=""
   alt="." />
 
-Let&apos;s have a look at another example. Here, we&apos;ve got an object named
+<p>Let&apos;s have a look at another example. Here, we&apos;ve got an object named
 darkVador with properties and a method. Here we&apos;ve got the
 describeYourself method that will make darkVador say: "I&apos;m a human and
 I&apos;m a villain in a series of movies". You can see that from inside the
-method describeYourself, we need to access the value of properties.
+method describeYourself, we need to access the value of properties.</p>
 
-For this, we used the "this" keyword&#41; "this.race" means the race
+<p>For this, we used the "this" keyword&#41; "this.race" means the race
 property of the object darkVador, "this.job" means the job property of
 the object darkVador. If we omit "this." before the name of the
 properties, we are referring to a variable, a global variable for
 example. If there was a variable named "job", in that case it will
 display the name of variable. But if I&apos;ve had "this." before, it means
 the "job" of this object, the "job" property of this object. Let&apos;s try
-it.
+it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 454/455.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15903,11 +15900,11 @@ it.
   alt="." />
 </p>
 
-You see that it displays "I&apos;m a human and I&apos;m a villain " blah blah
+<p>You see that it displays "I&apos;m a human and I&apos;m a villain " blah blah
 blah&#133;And "human" and "villain" are the values of the "race" and the
 "job" properties inside the object. "this.race" was used for displaying
 this value. You can also use the "this" keyword for calling a method
-from another method.
+from another method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 456.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15917,13 +15914,13 @@ from another method.
   alt="." />
 </p>
 
-Let&apos;s add a "console.log("hello I&apos;m describeYourself!!!")", and let&apos;s
+<p>Let&apos;s add a "console.log("hello I&apos;m describeYourself!!!")", and let&apos;s
 call this describeYourself from the talk that is just above. For calling
 a method from another one, I use "this.", followed by the name of the
 method. And I save and if you call the talk method, you see that it says
 "hello I&apos;m describeYourself!!!" before displaying "come to the dark
 side", that is in the talk method, because this.describeYourself()
-executed describeYourself from the talk method.
+executed describeYourself from the talk method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 457.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15933,10 +15930,10 @@ executed describeYourself from the talk method.
   alt="." />
 </p>
 
-In the example, I have also a click event listener that you can try that
+<p>In the example, I have also a click event listener that you can try that
 will display a message in the HTML5 page itself. It just shows that we
 can call method by using the name of this object followed by the name of
-the method with parentheses.
+the method with parentheses.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 458.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15946,13 +15943,13 @@ the method with parentheses.
   alt="." />
 </p>
 
-Ok, there is another interesting way to define objects and to add and
+<p>Ok, there is another interesting way to define objects and to add and
 remove properties and methods. You can describe an object with 0
 property or method, or just few of them. And you can complete it, you
 can add properties and methods after its creation. We created an empty
 object named darkVador, and we defined properties (race and job),
 methods (talk and describeYourself) after the creation of the object.
-You can try this example, it will work the same.
+You can try this example, it will work the same.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 459.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15962,31 +15959,34 @@ You can try this example, it will work the same.
   alt="." />
 </p>
 
-And if we look at the value of the darkVador object in the devtool
+<p>And if we look at the value of the darkVador object in the devtool
 console (on the right), you see that it&apos;s a complete object that
 contains the properties and the methods we define after creating the
-object.
+object.</p>
 
 <!-- end transcript 4.2.5 -->
 
 <h5>Source code of the live lesson example</h5>
 
--   [Available on CodePen](https://codepen.io/w3devcampus/pen/EXNrjB?editors=0011)
+<ul>
+  <li><a href="https://codepen.io/w3devcampus/pen/EXNrjB?editors=0011">
+    Available on CodePen</a></li>
+</ul>
 
 <h5>Elements, properties and methods</h5>
 
 <h5>Some vocabulary:</h5>
 
--   For <b>arrays</b>, we speak of <b>elements</b>
-
--   For <b>objects</b>, we talk about <b>properties</b>
-
--   But <b>a property can also be a function</b>, in which case it is
-    called a <b>method</b>
+<ul>
+  <li>For <b>arrays</b>, we speak of <b>elements</b></li>
+  <li>For <b>objects</b>, we talk about <b>properties</b></li>
+  <li>But <b>a property can also be a function</b>, in which case it is
+    called a <b>method</b></li>
+</ul>
 
 <h5>Yes, it is possible for an object&apos;s property to be a function!</h5>
 
-A very simple example:
+<p>A very simple example:</p>
 
 <pre>
 1.  var medor = {
@@ -15997,8 +15997,8 @@ A very simple example:
 6.  };
 </pre>
 
-In this example, the bark property&apos;s value is a function, so we
-call bark &quot;a method&quot;.
+<p>In this example, the bark property&apos;s value is a function, so we
+call bark &quot;a method&quot;.<>/p>
 
 A method is a special property that corresponds to the object&apos;s
 behavior
@@ -16043,21 +16043,21 @@ target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 11. }
 </pre>
 
-In <b><i>line 1</i></b>, we created a simple object named darkVador, that has two
-properties (race and job) and a method (talk).
+<p>In <b><i>line 1</i></b>, we created a simple object named darkVador, that has two
+properties (race and job) and a method (talk).</p>
 
-In the dvSpeak function, at <b><i>line 10</i></b>, we call darkVador&apos;s talk
+<p>In the dvSpeak function, at <b><i>line 10</i></b>, we call darkVador&apos;s talk
 method. The syntax is a mix between the one for accessing a property
 (with the &apos;.&apos; operator), and the one for calling a function (with
-parentheses and &apos;;&apos; at the end).
+parentheses and &apos;;&apos; at the end).</p>
 
-When we write darkVador.talk(), we are executing the talk method of the
+<p>When we write darkVador.talk(), we are executing the talk method of the
 object darkVador, but in plain English, we&apos;re just asking Dark Vador to
-talk. We invoke its behavior!
+talk. We invoke its behavior!</p>
 
-<b>Another example with the player we saw briefly in Module 2</b>
+<p><b>Another example with the player we saw briefly in Module 2</b></p>
 
-Here is the last version of the player object we saw in our small game:
+<p>Here is the last version of the player object we saw in our small game:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 461.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -16131,23 +16131,23 @@ more readable and more encapsulated version of our player object:</h5>
 18. }
 </pre>
 
-Assuming that the move and draw methods are fully implemented, we will
-now be able to call:
+<p>Assuming that the move and draw methods are fully implemented, we will
+now be able to call:</p>
 
--   player.move(mousePos.x, mousePos.y) to change the position of the
-    player,
+<ul>
+  <li>player.move(mousePos.x, mousePos.y) to change the position of the
+    player,</li>
+  <li>player.draw() to draw the player at its current position, with its
+    current size and color.</li>
+</ul>
 
--   player.draw() to draw the player at its current position, with its
-    current size and color.
-
-Readability is better, it is like asking the player to move, or asking
+<p>Readability is better, it is like asking the player to move, or asking
 it to draw itself. And we do not need to pass the x, y, width, height,
 color to the draw method: it is inside the player object, and it can
-access all its internal property values!
+access all its internal property values!</p>
 
-In the next section we will look at how we can access other object&apos;s
-properties from a method or call other methods.
-
+<p>In the next section we will look at how we can access other object&apos;s
+properties from a method or call other methods.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-6">4.2.6 &quot;this&quot;: accessing properties (3:37)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -16166,58 +16166,58 @@ modules.</p>
 
 <p>That&apos;s with a small red squared player that follow the mouse.</p>
 
-We had an animation loop that 60 times/second cleared the canvas, draws
+<p>We had an animation loop that 60 times/second cleared the canvas, draws
 the player (the red square), moved the player, following the mouse, and
-then asked for a new frame of animation.
+then asked for a new frame of animation.</p>
 
-This is how it works.
+<p>This is how it works.</p>
 
-For drawing the player we called "drawFilledRectangle()" passing, as a
-parameter, a player object with just properties in it.
+<p>For drawing the player we called "drawFilledRectangle()" passing, as a
+parameter, a player object with just properties in it.</p>
 
-For drawing the player, we call "drawFilledRectangle()" with the player
+<p>For drawing the player, we call "drawFilledRectangle()" with the player
 as parameter, and we use the x and y and color and width and height
-properties of the player's object.
+properties of the player's object.</p>
 
-The same for moving the player with the mouse: we&apos;ve got a method that
+<p>The same for moving the player with the mouse: we&apos;ve got a method that
 will use "player.x" and "player.y" giving to them the position of the
-mouse.
+mouse.</p>
 
-We can go further in object-oriented programming by moving these
-functions inside the object, here, as methods.
+<p>We can go further in object-oriented programming by moving these
+functions inside the object, here, as methods.</p>
 
-Of course, we&apos;ll have to do some small modifications because "player.x"
-and "player.y", will become the properties of the object itself.
+<p>Of course, we&apos;ll have to do some small modifications because "player.x"
+and "player.y", will become the properties of the object itself.</p>
 
-Let&apos;s have a look at the modified version. So here we&apos;ve got the
+<p>Let&apos;s have a look at the modified version. So here we&apos;ve got the
 "move" function that will take the "x" and the "y" position of the
 mouse, and we just set them to the "this.x" and "this.y" properties of
-the object.
+the object.</p>
 
-Let&apos;s look at how we call this move method from the animation loop:
-just "player.move(mousePos.x, mousePos.y)".
+<p>Let&apos;s look at how we call this move method from the animation loop:
+just "player.move(mousePos.x, mousePos.y)".</p>
 
-The same for drawing the player: we copy and paste the content of the
+<p>The same for drawing the player: we copy and paste the content of the
 previous "drawFilledRectangle()" method except, that when we add to
 access x, y, color, width and height properties, we use "this.x",
-"this.y", etc.
+"this.y", etc.</p>
 
-And we also pass the context that is the object used for drawing in the
-canvas as a parameter.
+<p>And we also pass the context that is the object used for drawing in the
+canvas as a parameter.</p>
 
-Like this, we can use the object in another project and don&apos;t rely on a
+<p>Like this, we can use the object in another project and don&apos;t rely on a
 global variable&#133;like we did before in the previous example, the
-context was a global variable, here.
+context was a global variable, here.</p>
 
-By passing it as a parameter, if the global variable has a different
-name, we just have to pass it as a parameter.
+<p>By passing it as a parameter, if the global variable has a different
+name, we just have to pass it as a parameter.</p>
 
-Look at the code of this "draw()" method: "player.draw()" context.
+<p>Look at the code of this "draw()" method: "player.draw()" context.</p>
 
-Like this we&apos;ve got a more compact object that contains its
+<p>Like this we&apos;ve got a more compact object that contains its
 characteristics and the methods that correspond to its behaviors to what
 it can do and, of course, the methods will modify the properties for
-changing the position of the object on the screen.
+changing the position of the object on the screen.</p>
 
 <!-- end transcript 4.2.6 -->
 
@@ -16380,13 +16380,13 @@ target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 11. };
 </pre>
 
-<b><i>Lines 5, 6 and 9</i></b>: we can add properties and methods after the object
-has been created empty at <b><i>line 2</i></b>.
+<p><b><i>Lines 5, 6 and 9</i></b>: we can add properties and methods after the object
+has been created empty at <b><i>line 2</i></b>.</p>
 
 <h5>Deleting a property or a method</h5>
 
-You can use the JavaScript keyword &quot;delete&quot; to delete an object&apos;s
-property (it will become undefined).
+<p>You can use the JavaScript keyword &quot;delete&quot; to delete an object&apos;s
+property (it will become undefined).</p>
 
 <h5>Example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -16421,21 +16421,19 @@ target="_blank" rel="noopener noreferrer">this CodePen example from the course</
 target="_blank" rel="noopener noreferrer">this example from the course</a>). 
 Look at the onchange = &quot;changePageBackgroundColor(<b>this.value</b>);&quot; &#41;</p>
 
-In fact, the &quot;this&quot; keyword can be confusing in JavaScript. The key
+<p>In fact, the &quot;this&quot; keyword can be confusing in JavaScript. The key
 thing to remember is that <b>it is bound to the calling object when the
-function is called</b>, not when the function is created.
+function is called</b>, not when the function is created.</p>
 
-And in the case of event listeners, the callbacks are called by the
+<p>And in the case of event listeners, the callbacks are called by the
 browser&#41; You can conclude that it&apos;s a good habit not to have event
 listeners in your objects: just use methods in which there is no
-confusion about &quot;this&quot;.
-
+confusion about &quot;this&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-1">4.3.1 Classes: definition</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Let&apos;s study what is the concept of &quot;class&quot; in object oriented
-programming languages.
+<p>Let&apos;s study what is the concept of &quot;class&quot; in object oriented
+programming languages.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 467. dark vador and his friend pikachu (16x) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -16971,9 +16969,9 @@ Objects can also be created by functions that return objects (factories):
 3.    var mxx = event.clientX - rect.left;
 4.    var my = event.clientY - rect.top;
 5.    <b>return { // the getMousePos function returns an object. It's a factory</b>
-6.      **x: mx,**
-7.      **y: my**
-8.    **}**
+6.      <b>x: mx,</b>
+7.      <b>y: my</b>
+8.    <b>}</b>
 9.  }
 </pre>
 
@@ -17200,7 +17198,7 @@ target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 It is possible to use special methods that are
-called **getters **and** setters**. They allow to make some checks when
+called <b>getters </b>and<b> setters</b>. They allow to make some checks when
 one is trying to set a value to a property, or to do some processing
 when accessing it (for example for displaying it in uppercase, even if
 its value is in lowercase).
@@ -17249,7 +17247,7 @@ of p1.familyName will call implicitly get familyName(),
 while p1.familyName = &apos;Smith&apos;; will call set familyName(&apos;Smith&apos;);
 
 As get familyName() defines an implicit property named familyName, the
-convention is to use this.**&#95;**familyName for storing its value (the
+convention is to use this.<b>&#95;</b>familyName for storing its value (the
 same name preceded by an underscore).
 
 <h5>Example at CodePen:</h5>
@@ -17308,7 +17306,7 @@ post your comments/observations/questions or share your creations.
     arrays).
 
 2.  &lbrack;ADVANCED&rbrack; input fields and buttons inside a form!
-    **Beware**: either do not put your input fields and buttons inside
+    <b>Beware</b>: either do not put your input fields and buttons inside
     a &lt;form&gt; or the buttons will submit the form (this is their
     default behavior, unless you add an attribute type=&quot;button&quot; to the
     buttons). Or you might also declare &lt;form onsubmit = &quot;return
@@ -17544,13 +17542,13 @@ in other projects.
 Notice that we did not take into account the globalSpeedMultiplier we
 had in the old moveAllBalls function, as this is not something that is
 individually relevant to each ball: it is more something that affect ALL
-balls. **This should raise an alert: use an ES6 class property for
-that!**
+balls. <b>This should raise an alert: use an ES6 class property for
+that!</b>
 
 In other words, even if zero ball has been created,
 this globalSpeedMultiplier is set and can be modified using a slider in
 the graphic user interface. Consequently, it is not a ball
-property, **more a property of the Ball class itself**.
+property, <b>more a property of the Ball class itself</b>.
 
 This setting could be created using a class property, as seen in a
 previous section of this course.
@@ -17628,35 +17626,33 @@ author of some of these courses! Byebye!
 
 What you will learn in Module 5:
 
--   **We continue the study of object-oriented JavaScript programming
-    with &quot;predefined classes&quot;**: Object, Array, String, Date, Math
+-   <b>We continue the study of object-oriented JavaScript programming
+    with &quot;predefined classes&quot;</b>: Object, Array, String, Date, Math
 
--   **We present a very useful API for building HTML5 tables
-    dynamically**.
+-   <b>We present a very useful API for building HTML5 tables
+    dynamically</b>.
 
--   **We&apos;ll also see how to use HTML5 forms from JavaScript**:
+-   <b>We&apos;ll also see how to use HTML5 forms from JavaScript</b>:
     intercept their submission, retrieve input field values, and so on.
 
--   **We will study the JavaScript Object Notation (JSON) format**, used
+-   <b>We will study the JavaScript Object Notation (JSON) format</b>, used
     extensively when manipulating data from remote servers (via REST
     WebServices) or for persistence (saving data client or server-side).
     We will see several examples that consume such data and display them
     in a dynamic HTML5 table.
 
--   **Finally, we will develop together a mini contact manager** using
+-   <b>Finally, we will develop together a mini contact manager</b> using
     classes, a dynamic table, a form and load/save its data using the
     JSON format. It will be your job to improve it by adding additional
     features.
 
-This module ends with the final exam which regroups questions specific
+<p>This module ends with the final exam which regroups questions specific
 to the current module but also a potpourri of questions related to the 4
-previous modules.
-
+previous modules.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-1">5.2.1 References and objects (5:53)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding lesson: references and objects
+<p>Live coding transcript: references and objects</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 479.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -17666,9 +17662,9 @@ Live coding lesson: references and objects
   alt=" ." />
 </p>
 
-References and objects.
+<p>References and objects.</p>
 
-When you define a variable, this is what happens: if its value is a
+<p>When you define a variable, this is what happens: if its value is a
 primitive value, a number, a string or a boolean for example, the
 variable contains this value directly. On the opposite, if its value is
 an object with braces or created with the "new" keyword we saw during
@@ -17676,37 +17672,37 @@ module 4, the variable contains the memory address of the object. We say
 that &quot;this variable points to an object&quot; or &quot;references this
 object&quot;. And accessing the variable will automatically resolve the
 reference, meaning that the value of the variable is the referenced
-object.
+object.</p>
 
-And&#41; let&apos;s see what happens when we copy a variable and modify the
+<p>And&#41; let&apos;s see what happens when we copy a variable and modify the
 value of the variable that contains the copy. You will see that there
 are differences between variables that have a primitive value and
-variables that reference an object.
+variables that reference an object.</p>
 
-Let&apos;s start with primitive type&#133;With primitive type if we take
+<p>Let&apos;s start with primitive type&#133;With primitive type if we take
 variable a and put the value "2" in it, then, if we copy this value of
 this variable into another one, &#41;here I&apos;ve got the variable "x=2"
 and I set "x2" , "x2". So I&apos;ve got "x2" that is a copy of "x", then if
 I modify the copied value, if I say "x2=3", you can notice that "x", the
 original variable, has not been modified. We just made a copy of it, a
 complete copy, and we modified the copy without changing the original.
-Now with objects, it&apos;s completely different.
+Now with objects, it&apos;s completely different.</p>
 
-Let&apos;s take the "y" variable from the example. That is an object with
+<p>Let&apos;s take the "y" variable from the example. That is an object with
 the property "a", that has the value of 2. If you look at the type of
 "y", it will say "y" is an object. Then, we copy "y" into "y2" and into
 "y3". "var y2=y" "y3=y". And then we modify one of the copy, "y2.a=3".
-We modify the property "a" of the object "y2".
+We modify the property "a" of the object "y2".</p>
 
-It says "y2" as the value equal to 3. But if we display also the value
+<p>It says "y2" as the value equal to 3. But if we display also the value
 of the property "a" for "y" and "y3", you will see that their value is
 the same. If we display here, "y.a" and "y3.a", the value is exactly the
 same. It's because "y", "y2" and "y3" point to the same location into
 memory. They just hold the memory address of the location that contains
 the value. If we modify this value using the "y2" reference, we also
-modify the value of the property of "y3" and "y".
+modify the value of the property of "y3" and "y".</p>
 
-You must understand this, take it slowly, look at the code, look at the
+<p>You must understand this, take it slowly, look at the code, look at the
 video again until you are fine with that. However, if we say "y2" equals
 another object, in that case, if we modify "y2": "y2.a = 20" here. Then
 if we display the value of "y2.a", it will say "20". But if we just try
@@ -17715,9 +17711,9 @@ to display the value of "y" and "y3", they have not changed. "y.a"
 because we assigned to "y2" another location in memory. And you can
 check if 2 different variables point to the same object using the "==="
 operator. So if we compare "y" and "y2", &#41;and I made just the
-test&#41;, it will say "y and y2 ARE NOT the same object in memory".
+test&#41;, it will say "y and y2 ARE NOT the same object in memory".</p>
 
-You remember "y2" points to another location. And if you compare "y" and
+<p>You remember "y2" points to another location. And if you compare "y" and
 "y3", in that case they are the same objects. "y", "y3": they are the
 same objects, if I modify the property "a" of "y", and if I look to the
 "y3" it's modified too. To sum up, variables that are objects are in
@@ -17725,7 +17721,7 @@ fact references to locations in memory. If we copy this variable that
 contains an object, we will get many variables that point to the same
 location in memory. With predefined types like Number, String and so on,
 it&apos;s a real copy that is done when we do "x=x2" for example. And in
-that case, only the copy is modified, not the original.
+that case, only the copy is modified, not the original.</p>
 
 <!-- end  transcript 5.2.1 -->
 
@@ -17734,27 +17730,27 @@ that case, only the copy is modified, not the original.
 -   The source code [is available on
     CodePen](https://codepen.io/w3devcampus/pen/KqmGgq?editors=0012)
 
-First of all, we have to define &quot;reference&quot;. Unlike a pointer
+<p>First of all, we have to define &quot;reference&quot;. Unlike a pointer
 variable, which contains the actual address of an object within the
 memory, a reference variable is an alias to a variable. This means that
 when you modify a reference variable, the original variable is modified
 too. This is because the two variables reference (i.e. point to) the
-same object.
+same object.</p>
 
-When you define a variable (such as var x = 10; or let name =
+<p>When you define a variable (such as var x = 10; or let name =
 &quot;Michel&quot;; or let courseAuthor = {firstName:&apos;Michel&apos;,
-lastName:&apos;Buffa&apos;), this is what happens:
+lastName:&apos;Buffa&apos;), this is what happens:</p>
 
 -   If its value is a primitive value (number, string, or
-    boolean), **the variable contains this value directly**.
+    boolean), <b>the variable contains this value directly</b>.
 
--   If its value is an object, the variable contains **the memory
-    address of the object**. We say that this variable &quot;points to&quot; an
+-   If its value is an object, the variable contains <b>the memory
+    address of the object</b>. We say that this variable &quot;points to&quot; an
     object (or references this object). Accessing the variable will
     automatically resolve the reference, meaning that the value of the
     variable is the referenced object.
 
-Examples:
+<p>Examples:</p>
 
 <pre>1.  // Defining two variables
 2.  var x = 2; // the variable x contains the primitive datum 2
@@ -17777,9 +17773,9 @@ Examples:
 19. y; // { a: 4 } &lt;- The object referenced by &quot;y&quot; and &quot;y3&quot; is modified
 </pre>
 
-Of course, these rules also apply to the properties of objects.
+<p>Of course, these rules also apply to the properties of objects.</p>
 
-Example:
+<p>Example:</p>
 
 <pre>1.  var driver = {
 2.      name: &apos;Jean&apos;
@@ -17794,10 +17790,10 @@ Example:
 11. car.driver.name; // &apos;Albert&apos;
 </pre>
 
-JavaScript is a &quot;pass by value&quot; language, unlike some other languages,
+<p>JavaScript is a &quot;pass by value&quot; language, unlike some other languages,
 which are &quot;pass by reference&quot; languages. This means that when you pass
 a variable to a function as argument, the value of the variable is
-copied into the argument.
+copied into the argument.</p>
 
 <h5>Example:</h5>
 
@@ -17812,11 +17808,11 @@ copied into the argument.
 9.  x; // 2 &lt;- but x equals 2
 </pre>
 
-When working with objects, the reference of the object is copied into
+<p>When working with objects, the reference of the object is copied into
 the argument. That means you can modify the referenced object. But if
 you change the reference (for example by assigning a new object), the
 original variable (which now points to another object) will not be
-modified.
+modified.</p>
 
 <h5>Example 1:</h5>
 
@@ -17845,7 +17841,7 @@ modified.
 11. and the variable &quot;a&quot; are not referencing the same object.&#41;/
 </pre>
 
-Other example:
+<p>Other example:</p>
 
 <pre>1.  &gt; var originalObject = {name:&apos;Michel&apos;};
 2.  undefined
@@ -17872,9 +17868,8 @@ Other example:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-2">5.2.2 Comparing two objects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Comparing two objects will only return true if they point to the same
-object (i.e., if they have the same reference).
+<p>Comparing two objects will only return true if they point to the same
+object (i.e., if they have the same reference).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 480.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -17884,9 +17879,9 @@ object (i.e., if they have the same reference).
   alt=" ." />
 </p>
 
-Two objects of the same type, with the same property value, that look
+<p>Two objects of the same type, with the same property value, that look
 identical, will not be equal one to another if they don't have the same
-reference (if they point to different places in memory).
+reference (if they point to different places in memory).</p>
 
 <pre>1.  &gt; var originalObject = {name:&apos;Michel&apos;};
 2.  undefined
@@ -17907,34 +17902,30 @@ reference (if they point to different places in memory).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id"ch5-2-3">5.2.3 The &quot;global&quot; window object</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-It is time to tell you the truth: the JavaScript code is executed by an
+<p>It is time to tell you the truth: the JavaScript code is executed by an
 "environment&quot; (usually a Web browser, but there are some HTTP Web
 servers that use JavaScript for coding the server side of Web sites of
-applications, such as the NodeJS HTTP server). 
+applications, such as the NodeJS HTTP server).</p>
 
-This environment defines a "global object".
+<p>This environment defines a "global object".</p>
 
-**When this environment is a Web browser
-(and this is the case for all examples we have seen in this course),**
-**this global object is named window.**
+<h5>When this environment is a Web browser
+(and this is the case for all examples we have seen in this course),
+this global object is named window.</h5>
 
-**The "global variables" defined with the keyword var are properties of
-this window object,
-and we can say the same of predefined functions like prompt, alert,
-etc.**
+<h5>The "global variables" defined with the keyword var are properties of
+this window object, and we can say the same of predefined functions like prompt, alert,
+etc.</h5>
 
-**However, at the top level of programs and functions,
+<h5>However, at the top level of programs and functions,
 let, unlike var, does not create a property on the
-global window object.**
+global window object.</h5>
 
-**TIP: **if you have global variables/objects declared with let,
+<p><b>TIP:</b> if you have global variables/objects declared with let,
 just declare them with var instead, and you will be able to inspect
-them
-easily from the devtool console.
-You can switch back to using let, later.
+them easily from the devtool console. You can switch back to using let, later.</p>
 
-Let&apos;s see some examples:
+<p>Let&apos;s see some examples:</p>
 
 <pre>1.  &gt; var a = 1;
 2.  undefined
@@ -17964,7 +17955,7 @@ Let&apos;s see some examples:
 5.  true
 </pre>
 
-Predefined functions are methods from the global object window:
+<p>Predefined functions are methods from the global object window:</p>
 
 <pre>1.  &gt; parseInt(&apos;10 little children&apos;);
 2.  10
@@ -17981,7 +17972,6 @@ Predefined functions are methods from the global object window:
 13. &gt; window.addEventListener === addEventListener
 14. true
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-4">5.2.4 Built-in JS class: Object (3:12)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17993,9 +17983,7 @@ Predefined functions are methods from the global object window:
   alt=" ." />
 </p>
 
-Hello!
-
-JavaScript comes with a set of predefined objects or built-in objects
+<p>JavaScript comes with a set of predefined objects or built-in objects
 such as Math, String, Date and so on. For developers that already know
 the Java language&#41; or C#, you can imagine this more like a class from
 the developer&apos;s kit, a class that is provided by the language itself.
@@ -18003,30 +17991,30 @@ The consequence of this is that on all the objects you manipulate in
 JavaScript, you will be able to use a predefined set of methods and
 properties that will be inherited from this predefined object. On all
 the objects you manipulate, you will be able to use a method called
-"**toString()**" that is very similar to what we&apos;ve got in the Java
-language. Another method is called "**valueOf()**" that will just return
-the value of the object. Let&apos;s take an example with first an array.
+"<b>toString()</b>" that is very similar to what we&apos;ve got in the Java
+language. Another method is called "<b>valueOf()</b>" that will just return
+the value of the object. Let&apos;s take an example with first an array.</p>
 
-Here, we&apos;ve got the array "t", that contains: 1, 2 and 3. If I type the
+<p>Here, we&apos;ve got the array "t", that contains: 1, 2 and 3. If I type the
 name of the array in the devtool console, it calls behind the scene
-"valueOf()". It&apos;s the same thing as if I typed: "**t.valueOf()**". If I
-try to print the value of "t" using "**console.log()**" for example: if
-I do: "**console.log(t.toString())**", in that case, it will return the
-value of "t" as a string and not as an array.
+"valueOf()". It&apos;s the same thing as if I typed: "<b>t.valueOf()</b>". If I
+try to print the value of "t" using "<b>console.log()</b>" for example: if
+I do: "<b>console.log(t.toString())</b>", in that case, it will return the
+value of "t" as a string and not as an array.</p>
 
-Writing "**t.toString()**" will convert to string the object. But, if
-you just write "**console.log**" using just "t", in that case we are
+<p>Writing "<b>t.toString()</b>" will convert to string the object. But, if
+you just write "<b>console.log</b>" using just "t", in that case we are
 implicitly trying to convert it to a string. The call to
-"**toString()**" will be implicit. If I type "**console.log(&quot;t = &quot; +
-t)**", it works, because it&apos;s the same as writing "**t.toString()**".
+"<b>toString()</b>" will be implicit. If I type "<b>console.log(&quot;t = &quot; +
+t)</b>", it works, because it&apos;s the same as writing "<b>t.toString()</b>".
 We&apos;ve got the same behavior with the Java language and the C# language.
-You see the same result.
+You see the same result.</p>
 
-We can also try with an object. Here, we&apos;ve got a "p" object that has 2
+<p>We can also try with an object. Here, we&apos;ve got a "p" object that has 2
 properties: name and age. If I type "p", it will display the value, it's
-the same as "p.valueOf()". If I type "**p.toString()**", in that case,
+the same as "p.valueOf()". If I type "<b>p.toString()</b>", in that case,
 it gives me the value of "p" as a string, and as a string its the value
-is this message.
+is this message.</p>
 
 <!-- end transcript 5.2.4 built-in js class: object -->
 
@@ -18114,10 +18102,10 @@ create an array, using the brackets notation, it&apos;s equivalent to using
 the "new" keyword with the name of the predefined class (or object)
 named, from JavaScript, "Array", with a big "A".</p>
 
-<p>You can create an empty array using "**new Array()**" or you can create
-an array with elements inside, using "**new Array()**" followed by the
+<p>You can create an empty array using "<b>new Array()<b>" or you can create
+an array with elements inside, using "<b>new Array()</b>" followed by the
 list of elements. And if you only give one argument, you create an empty
-array full of undefined elements. "**new Array(10)**" will create an
+array full of undefined elements. "<b>new Array(10)<b>" will create an
 array with 10 undefined elements inside.</p>
 
 <p>To tell you the truth, I nearly never use this notation. I prefer using
@@ -18128,12 +18116,12 @@ are objects.</p>
 inherited from this "Array" predefined object. We already met the
 "length" property that corresponds to the number of elements in an
 array. If we look at the array named "a2", that contains "1" and "2", 2
-numeric elements, 2 numbers, &quot;**a2.length**&quot; will display "2" &#133; 2
+numeric elements, 2 numbers, &quot;<b>a2.length</b>&quot; will display "2" &#133; 2
 elements&#133; value "2".</p>
 
 <p>As arrays are objects, you can imagine that you
 can also set some properties to them. You can do
-"**a2.name=&quot;Michel"**". This not so good because your are mixing
+"<b>a2.name=&quot;Michel"</b>". This not so good because your are mixing
 numbers with a property that is a name, and so on&#41; I don&apos;t recommend
 at all doing that: avoid! But just to show you something: it's that the
 length of an array works only on elements that have a numeric index. If
@@ -18152,41 +18140,41 @@ undefined.</p>
 <p>If you set the length to a value less than the current number of
 elements, in that case, it will shorten the array. It will remove the
 unwanted elements from the array. Now let&apos;s have a look at the most
-useful methods on arrays. One is called "**sort()**" and it's useful for
+useful methods on arrays. One is called "<b>sort()</b>" and it's useful for
 sorting an array. I&apos;ve got an array named "a" in the example.</p>
 
 <p>Ok, let&apos;s set it again, here. I&apos;ve got an array named "a", if I type
-"**a.sort()**", it will both return a sorted array but it will also sort
+"<b>a.sort()</b>", it will both return a sorted array but it will also sort
 the array itself. And by default, it sorts the array using just the
 numerical or alphabetical order. You can also add and remove elements to
 "a". We already saw the "push()" and the "pop()" methods. If I do
-"**a.push()**" with new elements, and if we look again at the array, I
+"<b>a.push()</b>" with new elements, and if we look again at the array, I
 added twice an element named "new" and each time it returns the new
 length of the array. "a.length" is "7".</p>
 
-<p>I can use "**pop()**": **a.pop()**, that will remove the last inserted
+<p>I can use "<b>pop()</b>": <b>a.pop()</b>, that will remove the last inserted
 element, the element at the end. It will return the value that has been
 removed, and you can see that "a" losts its last element. I can do it
 again: "a" lost 2 new elements I added earlier. Ok, let&apos;s have a look
-at another method called "**join()**".</p>
+at another method called "<b>join()</b>".</p>
 
-<p>"**join()**" will add a string between each elements of the array.
-"**a.join()**", and if I want to add some minus signs, will return the
+<p>"<b>join()</b>" will add a string between each elements of the array.
+"<b>a.join()</b>", and if I want to add some minus signs, will return the
 array with the minus sign in the middle. But it did not change the
 original array. If I want to use it, I can do: var b&#41; b with
-minus&#41; = **a.join("&#45;&#45;-")** And in that case, it's the returned
+minus&#41; = <b>a.join("&#45;&#45;-")</b> And in that case, it's the returned
 array that will get the new modified value.</p>
 
-<p>You can also use "**slice()**". "**slice()**" is a method that returns a
+<p>You can also use "<b>slice()</b>". "<b>slice()</b>" is a method that returns a
 sub-array without modifying the original array. If I want to remove the
 "3" and the "5" here, I need to remove elements from index 1 until index
 2, &#41;3.</p>
 
-<p>"**a.slice(1,3)**"&#133; that means it will return "3" and "5" because this
+<p>"<b>a.slice(1,3)</b>"&#133; that means it will return "3" and "5" because this
 is the index of the last element before which I must stop cutting. And
 this does not modify the original array. If I want to remove elements
 and maybe insert elements at the location of the slice I remove, there
-is another method called "**splice()**". The "**splice()**" method
+is another method called "<b>splice()</b>". The "<b>splice()</b>" method
 modifies the array, it removes the slice and also adds new elements.</p>
 
 <p>Let&apos;s start with the array "a". And I want to remove "3" and "5", and
@@ -18194,7 +18182,7 @@ insert new elements instead. I can use the same syntax as before except
 that I will add a "p" for changing the name of the method, and I will
 add 3 new elements. If I look at what happened, it returned the slice
 that has been removed and now, in the array, we inserted instead the new
-elements. In that case, "**splice()**"&#41; the last&#41;, the second
+elements. In that case, "<b>splice()</b>"&#41; the last&#41;, the second
 parameter, is included in the slice, It&apos;s a bit different and the
 previous method we saw. This means &quot;remove elements 1 with index 1, 2
 and 3&quot; and put these elements instead.</p>
@@ -21198,13 +21186,13 @@ features we implemented in the previous page:</p>
    from the array. You can add a &quot;HTML data attribute&quot;
    using trashbin.dataset.contactId = 3; for example, when you
    create the img element of the trash bin, do something like this:</p>
-   <pre>
-        let trashbin = document.createElement(&quot;img&quot;);
-        trashbin.src = &quot;http://i.imgur.com/yHyDPio.png&quot;;
-        trashbin.dataset.contactId = 3; // 3 is the current row index and
-                                        // corresponds to contact at 
-                                        // index = 3 in the array of contacts
-		</pre>
+<pre>
+let trashbin = document.createElement(&quot;img&quot;);
+trashbin.src = &quot;http://i.imgur.com/yHyDPio.png&quot;;
+trashbin.dataset.contactId = 3; // 3 is the current row index and
+                                // corresponds to contact at 
+                                // index = 3 in the array of contacts
+</pre>
         <p>It&apos;s like adding a data-contactId attribute to the HTML of
         the img element.<br>
 		Then in the event listener, use evt.target.dataset.contactId to get it back.</p>
@@ -21225,7 +21213,7 @@ features we implemented in the previous page:</p>
     of a CSS class&quot;), remove, and toggle methods, allow the user to
     manipulate CSS classes from JavaScript. Try to make the table of
     contacts editable. Click on a cell and it will become editable
-    (*tip*: use both a label and an input field). When you click, you
+    (<i>tip</i>: use both a label and an input field). When you click, you
     hide the label and show the input field, and when you click outside
     of the input field, you do the reverse. Use the &quot;blur&quot; event to
     detect when clicks occur outside).</li>
