@@ -8894,9 +8894,9 @@ which real keyboard keys, so here are some handy pointers:</p>
 
 <h4>Event types related to keyboard</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 269. keydown, keyup and keypress (237) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 272. keydown, keyup and keypress (237) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image269.png?raw=true"
+<img src="./images/image272.png?raw=true"
   style="width:50%"
   title="keydown, keyup and keypress"
   alt="keydown, keyup and keypress." />
@@ -8909,18 +8909,18 @@ targeting modern browsers. keyCode has a more powerful/easy to use
 replacement called code (not yet supported by all browsers), that comes
 with a new key property (see the following pages of the course).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 270. keyCode, shiftKey, ctrlKey &amp; altKey (237) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 273. keyCode, shiftKey, ctrlKey &amp; altKey (237) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image270.png?raw=true"
+<img src="./images/image273.png?raw=true"
   style="width:50%"
   title="keyCode, shiftKey, ctrlKey &amp; altKey"
   alt="keyCode, shiftKey, ctrlKey &amp; altKey." />
 
 <h4>Example #1: use keyup and keydown on the window object</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 271. codepen: example using keyup/keydown (237) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 274. codepen: example using keyup/keydown (237) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image271.png?raw=true"
+<img src="./images/image274.png?raw=true"
   style="width:50%"
   title="CodePen: example using keyup and keydown"
   alt="CodePen: example using keyup and keydown." />
@@ -8930,18 +8930,21 @@ CodePen: example using keyup and keydown</a>.</h6>
 
 <h4>Example #2: see  keypress on the window object</h4>
 
-See the Pen [keyup and keydown events on
-window](https://codepen.io/w3devcampus/pen/WpWjey/) by W3Cx
-([&commat;w3devcampus](https://codepen.io/w3devcampus))
-on [CodePen](https://codepen.io/).
+<p>See the Pen <a href="https://codepen.io/w3devcampus/pen/WpWjey/" 
+target="_blank" rel="noopener noreferrer">
+keyup and keydown events on window</a> by W3Cx
+(<a href="https://codepen.io/w3devcampus" 
+target="_blank" rel="noopener noreferrer">
+&commat;w3devcampus</a>)on <a href="https://codepen.io/" 
+target="_blank" rel="noopener noreferrer">CodePen</a></p>
 
 <h4>Example #3: detect a combination of keys + modifier keys (shift, ctrl, alt)</h4>
 
 <p>Try to type shift-a for example, ctrl-shift-b or alt-f&hellip;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~ 272. codepen: example detect combination of keys + modifier keys (238) ~~~~~~~~~~-->
+<!--~~~~~~~~~~ 275. codepen: example detect combination of keys + modifier keys (238) ~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image272.png?raw=true"
+<img src="./images/image275.png?raw=true"
   style="width:50%"
   title="CodePen: example detect combination of keys + modifier keys (shift, ctrl, alt)"
   alt="CodePen: example detect combination of keys + modifier keys (shift, ctrl, alt)." />
@@ -8992,29 +8995,29 @@ target="_blank" rel="noopener noreferrer">Wikipedia's keyboard layout page</a>!<
 <h4><a href="https://en.wikipedia.org/wiki/QWERTY" 
 target="_blank" rel="noopener noreferrer">QWERTY</a> layout, used in US, GB, etc.</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 273. qwerty keyboard layout (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 273. qwerty keyboard layout (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image273.png?raw=true"
   style="width:50%"
-  title=""
-  alt="qwerty keyboard layout." />
+  title="Qwerty keyboard layout"
+  alt="Qwerty keyboard layout." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 274. azerty keyboard layout (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 274. azerty keyboard layout (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image274.png?raw=true"
   style="width:50%"
-  title=""
-  alt="azerty keyboard layout." />
+  title="Azerty keyboard layout"
+  alt="Azerty keyboard layout." />
 
-<h4>In addition, <a href="https://en.wikipedia.org/wiki/QWERTZ" 
+<h5>In addition, <a href="https://en.wikipedia.org/wiki/QWERTZ" 
 target="_blank" rel="noopener noreferrer">QWERTZ</a> keyboards are in use in Germany 
 and other European countries, and 
 <a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout" 
-target="_blank" rel="noopener noreferrer">DVORAK</a> is another alternative to QWERTY:</h4>
+target="_blank" rel="noopener noreferrer">DVORAK</a> is another alternative to QWERTY:</h5>
 
 <h5>DVORAK:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 275. dvorak layout keyboard (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 275. dvorak layout keyboard (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image275.png?raw=true"
   style="width:50%"
@@ -9023,7 +9026,7 @@ target="_blank" rel="noopener noreferrer">DVORAK</a> is another alternative to 
 
 <h5>QWERTZ:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 276. qwertz layout keyboard (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 276. qwertz layout keyboard (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image276.png?raw=true"
   style="width:50%"
@@ -9034,7 +9037,7 @@ target="_blank" rel="noopener noreferrer">DVORAK</a> is another alternative to 
 <a href="https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards" 
 target="_blank" rel="noopener noreferrer">Arabic keyboards</a>):</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 280. saoudian arabic keyboar layout (224) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 280. saoudian arabic keyboar layout (240) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image280.jpeg?raw=true"
   style="width:50%"
@@ -9043,7 +9046,7 @@ target="_blank" rel="noopener noreferrer">Arabic keyboards</a>):</h4>
 <h6><a href="https://en.wikipedia.org/wiki/Bengali_input_methods#Bangla_Jatiyo" 
 target="_blank" rel="noopener noreferrer">Bangla National (Jatiyo) keyboard</a>:</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 281. Bangladesh keyboard layout (224) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 281. Bangladesh keyboard layout (240) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image281.png?raw=true"
   style="width:50%"
@@ -9097,7 +9100,7 @@ target="_blank" rel="noopener noreferrer">
 reference keyboard</a>. For instance here is their reference keyboard for 
 the alphanumerical part:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 282. reference alphanumeric keyboard (225) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 282. reference alphanumeric keyboard (241) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image282.png?raw=true"
   style="width:50%"
@@ -9111,7 +9114,7 @@ the user presses various types of keys, both for code and key.</p>
 
 <h4>Example that displays the key and code values with your current keyboard</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 283. codepen: display key and code values (225) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 283. codepen: display key and code values (241) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image283.png?raw=true"
   style="width:50%"
@@ -9138,7 +9141,7 @@ describing the values for the key property.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-8">2.4.8 Mouse events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 284. Hand holding mouse; MouseUp, MouseOver, MouseDrag &amp; MouseDown. (226) ~~~~~~~-->
+<!--~~~~~~ 284. Hand holding mouse; MouseUp, MouseOver, MouseDrag &amp; MouseDown. (242) ~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image284.png?raw=true"
   style="width:25%"
@@ -9176,7 +9179,7 @@ listen to.</p>
 
 <h4>Event types related to mouse</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 285. mouse event types (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 285. mouse event types (243) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image285.png?raw=true"
   style="width:65%"
@@ -9185,7 +9188,7 @@ listen to.</p>
 
 <h4>MouseEvent properties</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 286. mouse event properties (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 286. mouse event properties (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image286.png?raw=true"
   style="width:65%"
@@ -9198,7 +9201,7 @@ listen to.</p>
 
 <h4>Example #1: detect a click on an element</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 287. codepen: detect a click on an element (228) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 287. codepen: detect a click on an element (244) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image287.png?raw=true"
   style="width:50%"
@@ -9217,7 +9220,7 @@ relative to the top of the page, even if they are not visible. Click on
 the codePen label on top right and run this example! It does not work
 when embedded in this page!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 288. codepen: diff between clientX, Y, and pageX, Y (228) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 288. codepen: diff between clientX, Y, and pageX, Y (245) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image288.png?raw=true"
   style="width:50%"
@@ -9228,7 +9231,7 @@ target="_blank" rel="noopener noreferrer">CodePen: diff between clientX, Y, and 
 
 <h4>Example #3: detect a mousemove event and get the mouse position relative to the page</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 289. codepen: detect mousemove and get mouse position (228) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 289. codepen: detect mousemove and get mouse position (245) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image289.png?raw=true"
   style="width:50%"
@@ -9242,7 +9245,7 @@ target="_blank" rel="noopener noreferrer">CodePen: detect mousemove and get posi
 <p>Here is a first version that does not work well due to a naive use of
 clientX/PageX and clientY/pageY mouse event properties:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~ 290. codepen: detect mouse movement & position relative to fired event (229) ~~~~~~~-->
+<!--~~~~~~~ 290. codepen: detect mouse movement & position relative to fired event (245) ~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image290.png?raw=true"
   style="width:65%"
@@ -9260,7 +9263,7 @@ rectangle. We can use the top and left properties along
 with <b>evt.clientX</b> and <b>evt.clientY</b> to fix the mouse position and to get a
 real position relative to the top left corner of the canvas:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~ 291. CodePen: get position relative to top left corner of canvas (229) ~~~~~~~~~~-->
+<!--~~~~~~~~~~ 291. CodePen: get position relative to top left corner of canvas (246) ~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image291.png?raw=true"
   style="width:50%"
@@ -9287,7 +9290,7 @@ target="_blank" rel="noopener noreferrer">CodePen</a>.</h6>
 
 <h4>Example #5: combine mouseup, mousedown, mousemove to implement a click and drag behavior</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 292. codepen: click and drag behavior (230) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 292. codepen: click and drag behavior (246) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image292.png?raw=true"
   style="width:50%"
@@ -9299,7 +9302,7 @@ CodePen: click and drag behavior</a>.</h6>
 
 <h4>Example #6: create and attach a right-click context menu to any element</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 293. codepen: create and attach a right-click context menu to element (230) ~~~~~~~~~-->
+<!--~~~~~~ 293. codepen: create and attach a right-click context menu to element (247) ~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image293.png?raw=true"
   style="width:50%"
@@ -9313,7 +9316,7 @@ CodePen: create and attach a right-click context menu to an element</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Events related to forms</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 294. events related to forms (231) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 294. events related to forms (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image294.png?raw=true"
   style="width:65%"
@@ -9331,7 +9334,7 @@ the course that deals with form events.</p>
 
 <p>First variant: using the &apos;input&apos; event:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 295. codepen: simple input field validation (231) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 295. codepen: simple input field validation (248) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image295.png?raw=true"
   style="width:50%"
@@ -9342,7 +9345,7 @@ target="_blank" rel="noopener noreferrer">CodePen: simple input field validation
 
 <h4>Second variant: using the &apos;keyup&apos; event:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 296. codepen: using the 'keyup' event (231) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 296. codepen: using the 'keyup' event (248) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image296.png?raw=true"
   style="width:50%"
@@ -9359,7 +9362,7 @@ week to this topic.</h6>
 
 <h4>Example #2: do something while a slider is being moved</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 297. codepen: do something while a slider is being moved (232) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 297. codepen: do something while a slider is being moved (248) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image297.png?raw=true"
   style="width:50%"
@@ -9370,23 +9373,23 @@ target="_blank" rel="noopener noreferrer">CodePen: do something while a slider i
 
 <h4>Example #3: detect value changes in a number input field</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 298. codepen: detect value changes in a number field (232) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 298. codepen: detect value changes in a number field (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image298.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: detect value changes in a number field"
+  alt="CodePen: detect value changes in a number field." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LWvxeB" 
 target="_blank" rel="noopener noreferrer">CodePen: detect value changes in a number field</a>.</h6>
 
 <h5>Example #4: choose a color and do something</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 299.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 299. codepen: example choose a color (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image299.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: example; choose a color"
+  alt="CodePen: example; choose a color." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/gmygzV" 
 target="_blank" rel="noopener noreferrer">CodePen: choose a color and do something</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9396,7 +9399,7 @@ target="_blank" rel="noopener noreferrer">CodePen: choose a color and do somethi
 
 <h5>HTML5 events:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 300. keyboard and mouse (233) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 300. keyboard and mouse (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image300.jpeg?raw=true"
   style="width:25%"
@@ -9506,7 +9509,7 @@ use most of the events displayed in these tables.</p>
 
 <p>Most useful common properties:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 301. type and target (235) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 301. type and target (251) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image301.png?raw=true"
   style="width:65%"
@@ -9516,7 +9519,7 @@ use most of the events displayed in these tables.</p>
 
 <p>Most useful common methods:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 302. preventDefault() and stopPropagation() (235) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 302. preventDefault() and stopPropagation() (252) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image301.png?raw=true"
   style="width:65%"
@@ -9531,7 +9534,7 @@ use most of the events displayed in these tables.</p>
 <p>There are many other events related to the page life cycle. Below are
 the most useful ones for an intro course:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 303. load, resize and scroll (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 303. load, resize and scroll (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image301.png?raw=true"
   style="width:65%"
@@ -9555,7 +9558,7 @@ canvas size, for example).</p>
 
 <h4>Event types related to keyboard</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 304. keydown, keyup and keypress (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 304. keydown, keyup and keypress (252) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image304.png?raw=true"
   style="width:65%"
@@ -9565,7 +9568,7 @@ canvas size, for example).</p>
 
 <h4>keyboardEvent properties</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~ 305. keyCode (now deprecated), shiftKey, ctrlKey and altKey (236) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 305. keyCode (now deprecated), shiftKey, ctrlKey and altKey (253) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image305.png?raw=true"
   style="width:65%"
@@ -9577,7 +9580,7 @@ canvas size, for example).</p>
 
 <h4>Event types related to mouse</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~ 306. click, dblclick, and many mouse events and contextmenu (237) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 306. click, dblclick, and many mouse events and contextmenu (253) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image306.png?raw=true"
   style="width:65%"
@@ -9587,7 +9590,7 @@ canvas size, for example).</p>
 
 <h4>MouseEvent properties</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 307. button, clientX/Y, pageX/Y, screenX/Y, Key and detail (237) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 307. button, clientX/Y, pageX/Y, screenX/Y, Key and detail (254) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image307.png?raw=true"
   style="width:65%"
@@ -9599,7 +9602,7 @@ canvas size, for example).</p>
 
 <h4>Events related to forms</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 308. input, change, focus, blur, select and submit (238) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 308. input, change, focus, blur, select and submit (254) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image308.png?raw=true"
   style="width:65%"
@@ -9632,7 +9635,7 @@ post your comments/observations/questions or share your creations.</p>
 
 <h4>Optional project</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 309. hand holding stopwatch (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 309. hand holding stopwatch (255) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image309.png?raw=true"
   style="width:25%"
@@ -9654,7 +9657,7 @@ post your comments/observations/questions or share your creations.</p>
 target="_blank" rel="noopener noreferrer">
 "Typing Frenzy"</a> created by learner @AnthonyRKing (ARK)!</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 310. codepen: typing frenzy (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 310. codepen: typing frenzy (255) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image310.png?raw=true"
   style="width:65%"
@@ -9724,14 +9727,14 @@ showed you:</p>
 <p>Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 311. html and circle (241) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 311. html and circle (257) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image311.png?raw=true"
   style="width:50%"
-  title="html and circle"
-  alt="html and circle." />
+  title="CodePen: html and red circle"
+  alt="CodePen: html and red circle." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/BRNpYQ" 
-target="_blank" rel="noopener noreferrer">html red circle</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: html red circle</a>.</h6>
 
 <p>Consider the figure above.  It contains a single html element.  It turns
 out this includes within it the entire content of your html file.  If
@@ -9775,7 +9778,7 @@ ones are highlighted in bold.</p>
 Firefox for exploring the DOM, as it proposes a good structured view of
 the DOM and of its properties/methods:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 312. firefox devtool console (242) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 312. firefox devtool console (258) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image312.png?raw=true"
   style="width:50%"
@@ -9786,7 +9789,7 @@ the DOM and of its properties/methods:</p>
 above screenshot, you will be able to look at all the properties, all
 the methods, all the event listeners:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 313. w3cx js.0x javascript introduction (243) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 313. w3cx js.0x javascript introduction (259) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image313.png?raw=true"
   style="width:50%"
@@ -9798,7 +9801,7 @@ with the mouse: click the target icon and click on the element on the
 page that you want to inspect, this time with Google Chrome, but you
 will find this option in all modern browsers&apos; devtool consoles:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 314. example: DOM inspector (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 314. example: DOM inspector (260) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image314.png?raw=true"
   style="width:50%"
@@ -9824,7 +9827,7 @@ selector API (for selecting elements in the DOM). These are the most
 useful parts and it will give you enough knowledge to solve nearly every
 problem where you need to manipulate the DOM.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 315. exclamation mark in red triangle (244) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 315. exclamation mark in red triangle (260) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image315.png?raw=true"
   style="width:15%"
@@ -9833,7 +9836,7 @@ problem where you need to manipulate the DOM.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-3">2.5.3 Accessing HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 316. two buttons and four images (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 316. two buttons and four images (261) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image316.png?raw=true"
   style="width:65%"
@@ -9845,7 +9848,7 @@ target="_blank" rel="noopener noreferrer">CodePen: two buttons and four images</
 <p>This time, let&apos;s look a bit more in depth to the different methods for
 selecting elements in an HTML page, and then do something with these elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 317. codepen: two buttons and four images (245) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 317. codepen: two buttons and four images (261) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image317.png?raw=true"
   style="width:65%"
@@ -9857,7 +9860,7 @@ target="_blank" rel="noopener noreferrer">CodePen: two buttons and four images</
 <p>I prepared here an HTML document that contains two buttons that do
 nothing for the moment, and it contains also 4 images.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 318. codepen: four images defined (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 318. codepen: four images defined (262) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image318.png?raw=true"
   style="width:65%"
@@ -9866,14 +9869,14 @@ nothing for the moment, and it contains also 4 images.</p>
 <p>Here are the images&#133; They&apos;ve got an id: img1, img2, and so on. 
 They&apos;ve got some URLs and a width.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 319. function init() (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 319. function init() (262) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image319.png?raw=true"
   style="width:50%"
   title="function init()"
   alt="function init()." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 320. window.onload=init; (246) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 320. window.onload=init; (262) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image320.png?raw=true"
   style="width:50%"
@@ -9883,7 +9886,7 @@ They&apos;ve got some URLs and a width.</p>
 <p>If we look at the JavaScript code I prepared, I added an <b>init</b> function 
 that is called when the page is loaded.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 321. html code onload and button definitions (247) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 321. html code onload and button definitions (263) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image321.png?raw=true"
   style="width:65%"
@@ -9898,7 +9901,7 @@ check that the init function is executed. And it&apos;s executed after the
 page is loaded, after the DOM is ready.
 Then we will select all images, and set some CSS properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 322. function init() and console.log 'page loaded' (247) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 322. function init() and console.log 'page loaded' (263) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image322.png?raw=true"
   style="width:65%"
@@ -9921,7 +9924,7 @@ very simple use of it. It takes a single argument that is a callback. Here
 I&apos;m using just a variable that corresponds to the current image.
 You can name it as you like. In that case it&apos;s &quot;currentImage&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 323. currentImage.style.border example (248) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 323. currentImage.style.border example (264) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image323.png?raw=true"
   style="width:65%"
@@ -9932,7 +9935,7 @@ You can name it as you like. In that case it&apos;s &quot;currentImage&quot;.</p
 executed, it will take each element from the list of images, and add to each image
 a border.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 324. red border added to images (248) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 324. red border added to images (264) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image324.png?raw=true"
   style="width:65%"
@@ -9943,7 +9946,7 @@ a border.</p>
 You can also add a margin. In that case I&apos;ve got the different images
 with a margin of 10 pixels at top, left, right and bottom.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 325/326. before/after border added to 1st image only (249) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 325/326. before/after border added to 1st image only (265) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image325.png?raw=true"
   style="width:45%"
@@ -9971,7 +9974,7 @@ element of type &quot;img&quot;. It&apos;s the same syntax I used for
 <b>querySelectorAll</b>, except that in that case it selects just the first one, 
 and you&apos;ve got the same result.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 327. new function resizeAllImages (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 327. new function resizeAllImages (265) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image327.png?raw=true"
   style="width:65%"
@@ -10039,7 +10042,7 @@ requesting the DOM, like jQuery introduced ages ago.</p>
 the querySelector method (or querySelectorAll) on the document object,
 that corresponds to the whole DOM tree of your web page:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 328. example; querySelector and querySelectorAll (251) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 328. example; querySelector and querySelectorAll (267) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image328.png?raw=true"
   style="width:50%"
@@ -10137,7 +10140,7 @@ target="_blank" rel="noopener noreferrer">W3Cx</a>.</p>
 
 <h4><b>Example #1: get all &lt;li&gt; directly in a &lt;ul&gt; of class nav</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 329. CodePen example; get all li's in ul class (253) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 329. CodePen example; get all li's in ul class (269) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image329.png?raw=true"
   style="width:65%"
@@ -10191,7 +10194,7 @@ target="_blank" rel="noopener noreferrer">CodePen: get all li's within a ul of c
 <h5>Example #2: display all checked &lt;input type=&quot;checkbox&quot;&gt; elements
 located inside an element of a given id.</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 330. show checked items inside an element of a given id (254) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 330. show checked items inside an element of a given id (270) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image330.png?raw=true"
   style="width:65%"
@@ -10281,7 +10284,7 @@ to access it from the &lt;input&gt; child we selected, we use elm.parentNode.</p
 
 <h4>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 331. CodePen: Change background of p under element by id (256) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 331. CodePen: Change background of p under element by id (272) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image331.png?raw=true"
   style="width:65%"
@@ -10452,7 +10455,7 @@ about CSS):</p>
 
 <p>Here are some examples:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 332. codepen: update styles (259) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 332. codepen: update styles (275) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image332.png?raw=true"
   style="width:65%"
@@ -10517,13 +10520,15 @@ collection of class names:</p>
 
 <h4>Another example: add and remove multiple CSS properties in a list of checkboxes</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 333. show checked items & reset list (261) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 333. show checked items & reset list (277) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image333.png?raw=true"
   style="width:65%"
-  title=" "
-  alt="." />
+  title="CodePen: show checked items and reset list"
+  alt="CodePen: show checked items and reset list." />
 </p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GWeJzz">
+CodePen: show checked items and reset list</a>.</h6>
 
 <p>This is a variation of an example from a previous section. This time,
 when the &lt;input type=&quot;checkbox&quot;&gt; elements have been checked, in
@@ -10608,7 +10613,7 @@ There are subtle differences that can be seen in the above example
 (click the &apos;edit on CodePen&quot; part on the top left, and once in
 codePen, open the devtool console):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 335. open the console and look at the js code (263) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 335. open the console and look at the js code (279) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image335.png?raw=true"
   style="width:65%"
@@ -10668,7 +10673,7 @@ field, etc.</p>
 
 <p>This example shows some of the things we can do:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 336. codepen: try these (264) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 336. codepen: try these (280) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image336.png?raw=true"
   style="width:65%"
@@ -10727,7 +10732,7 @@ using append(), appendChild(), insertBefore() or the innerHTML property.</p>
 
 <h5>Example #1: use of the createElement(), append() methods and of the textContent attribute</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 336. codepen: modify attributes of select elements (265) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 336. codepen: modify attributes of select elements (281) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image336.png?raw=true"
   style="width:65%"
@@ -10789,7 +10794,7 @@ CodePen: Modify attributes of select elements</a>.</h6>
 <h5>Example #1: use of the <b>createElement(), append()</b> methods and of 
 the <b>textContent</b> attribute</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~ 337. codepen: example, createElement, append & textContent (266) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 337. codepen: example, createElement, append & textContent (282) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image337.png?raw=true"
   style="width:65%"
@@ -10858,7 +10863,7 @@ adding/deleting/modifying a DOM node&apos;s content.
 <p>This is the same example, but in an abbreviated form, using
 the innerHTML property:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 338. codepen: using innerHTML property to add new elements (268) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 338. codepen: using innerHTML property to add new elements (284) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image338.png?raw=true"
   style="width:65%"
@@ -10889,7 +10894,7 @@ the <b>targetElem.</b></p>
 
 <h5>Example #1: a simple one</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 339. codepen: click a browser image to move to zone (268) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 339. codepen: click a browser image to move to zone (284) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image339.png?raw=true"
   style="width:65%"
@@ -10914,7 +10919,7 @@ event listener is declared on the two divs (on the left and the right),
 we just call append() on the target div element, and this will add the
 dragged image to the div, while removing it from its original location.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 340. codepen: drag 'n drop browser images in a zone (269) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 340. codepen: drag 'n drop browser images in a zone (285) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image340.png?raw=true"
   style="width:65%"
@@ -10930,7 +10935,7 @@ target="_blank" rel="noopener noreferrer">CodePen: Example #2, Drag 'n drop imag
 <p>Let&apos;s take an example that we&apos;ve already encountered. This time, you
 will check the elements you want to remove from the list!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 341. codepen: removing elements from the dom (270) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 341. codepen: removing elements from the dom (286) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image341.png?raw=true"
   style="width:65%"
@@ -11000,7 +11005,7 @@ use the ul&apos;s innerHTML property both for emptying the list (<b><i>lines
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding lesson: basic example showing how to draw in a canvas.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 342. how to draw in a canvas (271) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 342. how to draw in a canvas (287) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image342.png?raw=true"
   style="width:65%"
@@ -11069,7 +11074,7 @@ around it:</p>
 <h5>Example #1: some drawing examples (wireframe and filled rectangle, filled circle, 
 filled text, changing colors)</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~ 343.  ~~~~~-->
+<!--~~~~~~~ 343.  (290) ~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image343.png?raw=true"
   style="width:65%"
@@ -11162,7 +11167,7 @@ filled text, changing colors)</h5>
 
 <h5>Example #2: functions that save and restore the context before drawing</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~ 344. CodePen: Functions that save and restore the context before drawing (2xx) ~~~~~-->
+<!--~~~~~~~ 344. CodePen: Functions that save and restore the context before drawing (292) ~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image344.png?raw=true"
   style="width:65%"
@@ -11204,7 +11209,7 @@ example.
 <p>This is where you reap the benefits of your good habits of
 saving/restoring the context and using ctx.translate(x, y)!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 345. codepen: drawmymonster (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 345. codepen: drawmymonster (294) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image345.png?raw=true"
   style="width:65%"
@@ -11329,7 +11334,7 @@ as described in the above video.</p>
 ask the browser to call it again in 1/60th of a second if possible. See
 the CodePen example below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 346.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 346.  (297) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image346.png?raw=true"
   style="width:65%"
@@ -11342,7 +11347,7 @@ target="_blank" rel="noopener noreferrer">CodePen: DrawMyMonster</a>.</h6>
 
 <p>Here the balls bounce on the sides of the canvas (walls).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 347. CodePen: bouncing ball (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 347. CodePen: bouncing ball (298) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image347.png?raw=true"
   style="width:65%"
@@ -11483,7 +11488,7 @@ Let&apos;s animate balls and let&apos;s start with 3 the animation of 3 balls:
 In the animation loop, we draw and move these three balls. Here is the
 result:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 348. CodePen: animating multiple objects (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 348. CodePen: animating multiple objects (301) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image348.png?raw=true"
   style="width:65%"
@@ -11526,7 +11531,7 @@ moving any number of balls!</h4>
 New version: look at
 the <b>createBalls, drawBalls</b> and <b>moveBalls</b> functions now!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 349. CodePen: using arrays and loops (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 349. CodePen: using arrays and loops (302) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image349.png?raw=true"
   style="width:65%"
@@ -11641,12 +11646,12 @@ Let&apos;s look at the new functions we&apos;ve added: 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-4">2.6.4 Mouse interactions</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 350.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 350. mouse logo (304) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image350.png?raw=true"
   style="width:10%"
-  title=""
-  alt="." />
+  title="Mouse logo"
+  alt="Mouse logo." />
 
 Detecting mouse events in a canvas is quite straightforward: you add an
 event listener to the canvas, and the browser invokes that listener when
@@ -11724,7 +11729,7 @@ element in the viewport: <b>getBoundingClientRect</b>().
 
 Here is an example that shows the problem:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 351. CodePen: position and size in viewport (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 351. CodePen: position and size in viewport (306) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image351.png?raw=true"
   style="width:65%"
@@ -11755,16 +11760,16 @@ CodePen: Position and Size in viewport</a>.</p>
 15. }
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 352.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 352. mouse position x and y coordinates (306) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image352.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Mouse position, x and y coordinates"
+  alt="Mouse position, x and y coordinates." />
 
 <h5><b>A good version of the code:</b></h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 353. CodePen: getMousePos (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 353. CodePen: getMousePos (307) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image353.png?raw=true"
   style="width:65%"
@@ -11788,12 +11793,12 @@ And here is the fixed version of the getMousePos function:
 
 Result (the cursor is approximately at the top left corner):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 354.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 354. mouse position (307) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image354.png?raw=true"
   style="width:20%"
-  title=""
-  alt="." />
+  title="Mouse position"
+  alt="Mouse position." />
 
 <h4>How to display the mouse position, and the mouse button that has been pressed or released</h4>
 
@@ -11803,21 +11808,21 @@ shows how to get the mouse button number using the evt.button property.
 
 <h5>Example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 355.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 355. CodePen: example move mouse & click anywhere (308) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image355.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example move mouse and click anywhere"
+  alt="CodePen: example move mouse and click anywhere." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/zZbVjW" 
 target="_blank" rel="noopener noreferrer">CodePen: </a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 356.  (2xx) ~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<!--~~~~~~~~~~~~~~~~~~~ 356. mouse position click and release button (308) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left" width="100%">
 <img src="./images/image356.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Mouse position: click and release button"
+  alt="Mouse position: click and release button." />
 
 <h5>Extract from source code:</h5>
 
@@ -11876,7 +11881,7 @@ section to get the correct mouse position:</p>
 
 <h5>Working example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 357. codepen: working example (307) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 357. codepen: working example (309) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image357.png?raw=true"
   style="width:65%"
@@ -11976,7 +11981,7 @@ improvement to you! :-)</p>
 <p>Let&apos;s make it a game by adding collision detection! And try to move the
 player to all the balls as fast as you can.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 358. codepen: adding collision detection (309) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 358. codepen: adding collision detection (311) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image358.png?raw=true"
   style="width:65%"
