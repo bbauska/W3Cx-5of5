@@ -7443,17 +7443,17 @@ commented - please remove comments and try to understand the results).</p>
   <li><b>null</b></li>
   <li><b>0</b></li>
   <li><b>NaN</b></li>
-  <li><b>&quot;&quot;</b> (empty string)</li>
+  <li><b>&quot;&quot; (empty string)</b></li>
 </ul>
 
-<p><b>All other values, including all objects, evaluate to true when passed
-to a conditional statement.</b></p>
+<p>All other values, including all objects, evaluate to true when passed
+to a conditional statement.</p>
 
 <h4>The if-then-else ternary operator</h4>
 
 <p>This ternary operator is a shortcut version of if&hellip;then&hellip;else.</p>
 
-<p>Let&apos;s look at this code example:</p>
+<h5>Let&apos;s look at this code example:</h5>
 
 <pre>1.  var max;
 2.  var min = 2;
@@ -7489,7 +7489,7 @@ without curly braces on the Web: what does this mean?</p>
 
 <p>Here are two versions of the same code.</p>
 
-<p><b>Version 1: </b>no curly braces</p>
+<h5>Version 1: <b>no curly braces</b></h5>
 
 <pre>1.  <b>if</b> (a &gt; 2)
 2.    result = 'a is bigger than 2';
@@ -7497,8 +7497,8 @@ without curly braces on the Web: what does this mean?</p>
 4.    result = 'a is not bigger than 2';
 </pre>
 
-<p><b>Version 2: </b>with curly braces for delimiting the &quot;then&quot; and
-&quot;else&quot; blocks.</p>
+<h5>Version 2: <b>with curly braces for delimiting the &quot;then&quot; and
+&quot;else&quot; blocks.</b></h5>
 
 <pre>1.  <b>if</b> (a &gt; 2) <b>{</b>
 2.    result = 'a is bigger than 2';
@@ -7517,45 +7517,44 @@ pressing the enter key. And you can add some extra lines of code without
 worrying about adding curly braces because you broke the &quot;1 line
 statement rule&quot;).</p>
 
-<p><b>It is strongly recommended that you always use if-statements</b>
-<b>enclosed in curly braces.</b></p>
+<p>It is strongly recommended that you always use if-statements enclosed in curly braces.</p>
 
 <p>Of course, one-line if-statements like this:</p>
 
 <pre>1.  if (true) doSomething();</pre>
 
-<p>&hellip;are really fast to write, but if you want to add a second statement
+<p>&hellip;are fast to write, but if you want to add a second statement
 later it will become more time consuming.</p>
 
-<p><b>Conclusion: always use curly braces!</b></p>
+<h5>Conclusion: always use curly braces!</h5>
 
 <h4>The switch statement</h4>
 
 <p>In order to avoid having a series of ifs and elses, it is possible to
 use a <b>switch</b> statement.</p>
 
-<h4>The syntax of the switch statement is:</h4>
+<h5>The syntax of the switch statement is:</h5>
 
 <pre>
 1. <b>switch</b> (expression) <b>{</b>
 2.    <b>case</b> value1:
 3.      Statement
-4.    <b>break</b>; // break can be omitted in that case
-5.                   // the second test case will be executed
-6.                   // most of the time we add a break; at the end
-7.                   // of a &quot;case&quot;
+4.      <b>break</b>; // break can be omitted in that case
+5.             // the second test case will be executed
+6.             // most of the time we add a break; at the end
+7.             // of a &quot;case&quot;
 8.
 9.    <b>case</b> value2:
 10.      Statement
-11.     <b>break</b>;
+11.      <b>break</b>;
 12.
 13.   <b>case</b> value3:
 14.     Statement
 15.     <b>break</b>;
 16.
-17.   <b>default</b>:    // if no case tested true
+17.   <b>default</b>: // if no case tested true
 18.     Statement
-19.    <b>break</b>;
+19.     <b>break</b>;
 20. }
 </pre>
 
@@ -7573,21 +7572,21 @@ block are executed sequentially until the keyword <b>break</b> is reached.
 5.      gear = 'spacesuit';
 6.      <b>break;</b>
 7.
-8.  <b>case</b> 'black':
+8.    <b>case</b> 'black':
 9.      gear = 'boots';
-10.      <b>break</b>;
+10.     <b>break</b>;
 11.
-12. <b>case</b> 'grey':
+12.   <b>case</b> 'grey':
 13.     gear = 'umbrella';
 14.     <b>break</b>;
 15.
-16. <b>case</b> 'white':
+16.   <b>case</b> 'white':
 17.     gear = 'jacket';
 18.     <b>break</b>;
 19.
-20. <b>default</b>:
+20.   <b>default</b>:
 21.     gear = 'watch';
-22.     break; // useless if in the last case
+22.     <b>break</b>; // useless if in the last case
 23. }          // end of the switch statement
 </pre>
 
@@ -7601,7 +7600,8 @@ executed!</p>
 
 <h4>Example #2: a switch without &quot;breaks&quot; at the end of each case</h4>
 
-<pre>1.  var gear = '';
+<pre>
+1.  var gear = '';
 2. 
 3.  <b>switch</b> (cloudColor) <b>{</b>
 4.    <b>case</b> 'green':
@@ -7611,8 +7611,8 @@ executed!</p>
 8.    <b>case</b> 'black':
 9.      gear += 'boots, ';
 10.
-11.    <b>case</b> 'grey':
-12.      gear += 'umbrella, ';
+11.   <b>case</b> 'grey':
+12.     gear += 'umbrella, ';
 13.
 14.   <b>case</b> 'white':
 15.     gear += 'jacket, ';
@@ -7641,7 +7641,7 @@ console to see the outputs of this program):</p>
   title="Look at JS from this example, open devtools"
   alt="Look at JS from this example, open devtools." />
 <p align="center"><a href="https://codepen.io/w3devcampus/pen/PpjPKy">
-CodePen: open devtools</a>.</p>
+CodePen: open devtools to see the outputs</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-3">2.2.3 Loop statements (8:06)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8344,15 +8344,16 @@ works. Okay, or I could have used the same syntax we saw earlier, with a
 regular callback function with a name, and we just indicate onclick
 equal the name of the callback, like this, which is the same name&hellip; So
 if I click, it works.</p>
+
 <h4>Online example used in the above lesson</h4>
 
 <ul>
-  <li><a href="https://codepen.io/w3devcampus/pen/pwzXqb?editors=1000">Example on CodePen</a></li>
+  <li><a href="https://codepen.io/w3devcampus/pen/pwzXqb?editors=1000">CodePen: Example click event listener</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>2.4.2 cont'd; Adding and removing event listeners to HTML element</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Live coding video: adding an event listener to a specific HTML element.</p>
+<p>Live coding transcript: adding an event listener to a specific HTML element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 249. how to add an event listener to html element (223) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8360,8 +8361,8 @@ if I click, it works.</p>
   style="width:50%"
   title="How to add an event listener to html element"
   alt="How to add an event listener to html element." />
-<p>In this video, I will show you how to add an event listener to an html
-element, and not to the whole document, like in the previous video.</p>
+<p>In this lesson, I will show you how to add an event listener to an html
+element, and not to the whole document, like in the previous lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 250. onclick = name of function (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8712,23 +8713,24 @@ good practice. I nearly always do this on my own softwares.</p>
   title=""
   alt="." />
 <p>Another variant is that instead of using the &quot;onload&quot; syntax, you can
-just write window.load = init.
-This will produce the same result&hellip; onload&hellip; and in that case,
+just write window.load = init.</p>
+
+<p>This will produce the same result&hellip; onload&hellip; and in that case,
 instead of using body onload&hellip;you use window.onload.
 It&apos;s a bit better because you do not mix JavaScript and html, it&apos;s a
 better separation of the different parts of your Web application.
 You may notice that here I haven&apos;t typed the event argument.
 Every event callback will have an event object passed by the browser
-when the event is processed.
+when the event is processed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 264.  (233) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 264. codepen: page status: page loaded (233) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image264.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-
-And this event object can be used to guess what type of event has been
+  title="CodePen: Page Status: Page Loaded"
+  alt="CodePen: Page Status: Page Loaded." />
+</p>
+<p>And this event object can be used to guess what type of event has been
 fired, can be used to get the different properties of the event, such as
 the x and y positions of the mouse, the button that has been clicked,
 the target element that fired the event and so on&hellip;</p>
@@ -8737,21 +8739,22 @@ the target element that fired the event and so on&hellip;</p>
 a similar way we presented in a previous example&hellip;
 I can add a listener in the init function&hellip;and in this listener, I
 can, for example, display the name of the button that has been used for
-clicking.
-Let&apos;s try it&hellip; here is the console, I clear it, then I click on the
-button, and it says it&apos;s button 0.
-You can also try different types of events, like detecting mouse moves.
+clicking. Let&apos;s try it&hellip; here is the console, I clear it, then I click on the
+button, and it says it&apos;s button 0.</p>
+
+<p>You can also try different types of events, like detecting mouse moves.
 In that case, we are going to detect mouse moves on the button, and you
 can see in the console that it works.</p>
-You can, for example, use the event objet to detect the x position of
+
+<p>You can, for example, use the event object to detect the x position of
 the mouse.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 265.  (233) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 265. codepen: get position of mouse (233) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image265.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: get position of mouse"
+  alt="CodePen: get position of mouse." />
 
 <p>There are different properties for getting the position of the mouse,
 relative to top of the page, relative to the top of the viewport or
@@ -8766,11 +8769,13 @@ element.</p>
 <p>In the next sections, for each kind of event, we&apos;ll detail the
 different properties and provide examples that show how to use them.</p>
 
+<!-- end transcript 2.4.4 page lifecycle events -->
+
 <h4>Online example used in the above lesson video.</h4>
 
 <ul>
   <li><a href="https://codepen.io/w3devcampus/pen/XgrveY?editors=0001" 
-    target="_blank" rel="noopener noreferrer">Example on CodePen</a></li>
+    target="_blank" rel="noopener noreferrer">Example on CodePen; page lifecycle events</a>.</li>
 </ul>
 
 <p>The page lifecycle events detect when the page is loaded and when the
@@ -8790,72 +8795,71 @@ useful ones for an introduction course are shown below:</p>
 
 <h4>Page event properties</h4>
 
-There are no particular properties that need to be mentioned here.
+<p>There are no particular properties that need to be mentioned here.
 Usually, the load event listener corresponds to a JavaScript function
 that can be seen as &quot;the main&quot; function of your Web application. It is
 a best practice to start everything after the page has been completely
-loaded. In the resize listener, you get the new size of the window, or
+loaded.</p>
+<p>In the resize listener, you get the new size of the window, or
 the new size of some HTML elements in the page (as they might have been
 resized too when the window was resized), and then you do something
 (redraw a graphic in an HTML canvas that takes into account the new
-canvas size, for example).
+canvas size, for example).</p>
 
 <h4>Example 1: wait until the page is loaded (when the DOM is ready) before doing something</h4>
 
 <p>This first variant that uses &lt;body onload=&quot;init();&quot;&gt;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 267.  (235) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 267. codepen: example of body onload = 'init()' (235) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image267.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: example of body onload = 'init()'"
+  alt="CodePen: example of body onload = 'init()'." />
 
-This second variant: using window.onload = init; in the JavaScript
-code&hellip;
+<p>This second variant: using window.onload = init; in the JavaScript
+code&hellip;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 268.  (235) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 268. codepen: example of window.onload = 'init()' (235) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image268.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: example of window.onload = 'init()'"
+  alt="CodePen: example of window.onload = 'init()'." />
 
 <h4>Example 2: detect a resize of the window</h4>
 
-In this example, we&apos;re listening to page load and page resize events.
+<p>In this example, we&apos;re listening to page load and page resize events.
 When the window is loaded for the first time, or resized, we call
-the resize() callback function.
-The window.innerWidth and window.innerHeight properties are used to
+the resize() callback function.</p>
+<p>The window.innerWidth and window.innerHeight properties are used to
 display the updated size of the window. We also
-use screen.width and screen.height to display the screen size.
+use screen.width and screen.height to display the screen size.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 269.  (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 269. codepen: window.innerWidth & .innerHeight (236) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image269.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-
+  title="CodePen: example using window.innerWidth &amp; innerHeight"
+  alt="CodePen: example using window.innerWidth &amp; innerHeight." />
 
 <h4>Example 3: do something as the page is being scrolled up or down</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 270.  (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 270. codepen: example as page is scrolled (236) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image270.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: example as page is scrolled"
+  alt="CodePen: example as page is scrolled." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-5">2.4.5 Key events</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 271.  (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 271. keyboard logo (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image271.png?raw=true"
   style="width:30%"
-  title=""
-  alt="." />
+  title="Keyboard logo"
+  alt="Keyboard logo." />
 <p>This has been a bit of a nightmare for years, as different browsers have
 had different ways of handling key events and key codes (
 <a href="https://unixpapa.com/js/key.html" target="_blank" rel="noopener noreferrer">
@@ -8890,12 +8894,12 @@ which real keyboard keys, so here are some handy pointers:</p>
 
 <h4>Event types related to keyboard</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 269.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 269. keydown, keyup and keypress (237) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image269.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="keydown, keyup and keypress"
+  alt="keydown, keyup and keypress." />
 
 <h4>keyboardEvent properties</h4>
 
@@ -8905,58 +8909,24 @@ targeting modern browsers. keyCode has a more powerful/easy to use
 replacement called code (not yet supported by all browsers), that comes
 with a new key property (see the following pages of the course).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 270.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 270. keyCode, shiftKey, ctrlKey &amp; altKey (237) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image270.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="keyCode, shiftKey, ctrlKey &amp; altKey"
+  alt="keyCode, shiftKey, ctrlKey &amp; altKey." />
 
 <h4>Example #1: use keyup and keydown on the window object</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 271.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 271. codepen: example using keyup/keydown (237) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image271.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example of the 'keyup' and 'keydown' events on the window
-  object&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;Please type some keys and see what happens&lt;/p&gt;
-&lt;div id=&quot;keys&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>window.onkeyup = processKeyUp;
-window.onkeydown = processKeyDown;
-/&ast; or we could have written:
-window.addEventListener('keyup', processKeyUp);
-window.addEventListener('keydown', processKeyDown);
-&ast;/
-function processKeyUp(evt) {
-var keys = document.querySelector('#keys');
-keys.innerHTML += &quot;keyup: &quot; + evt.key + &quot; code: &quot; + evt.keyCode +
-  &quot;&lt;br&gt;&quot;;
-}
-function processKeyDown(evt) {
-var keys = document.querySelector('#keys');
-keys.innerHTML += &quot;keydown: &quot; + evt.key + &quot; code: &quot; + evt.keyCode +
-&quot;&lt;br&gt;&quot;;
-}
-</pre>
+  title="CodePen: example using keyup and keydown"
+  alt="CodePen: example using keyup and keydown." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJZJZp" 
+target="_blank" rel="noopener noreferrer">
+CodePen: example using keyup and keydown</a>.</h6>
 
 <h4>Example #2: see  keypress on the window object</h4>
 
@@ -8969,54 +8939,15 @@ on [CodePen](https://codepen.io/).
 
 <p>Try to type shift-a for example, ctrl-shift-b or alt-f&hellip;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 272.  (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 272. codepen: example detect combination of keys + modifier keys (238) ~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image272.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-
-<h5>HTML:</h5>
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
-&lt;title&gt;Example of the 'keypress' event on the window object, awith
-  shift, meta and alt&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;Please type some keys and see what happens. Try typing key
-  modifiers at the same time: shift, alt, control&lt;/p&gt;
-&lt;div id=&quot;keys&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-<h5>JS:</h5>
-
-<pre>window.onkeydown = processKeyDown;
-/&ast; or we could have written:
-window.addEventListener('keypress', processKeyPress);
-&ast;/
-function processKeyDown(evt) {
-var keys = document.querySelector('#keys');
-keys.innerHTML += &quot;keypress: &quot; + evt.key +
-&quot; code: &quot; + evt.keyCode + &quot; Modifiers : &quot;;
-var modifiers = &quot;&quot;;
-if(event.shiftKey)
-modifiers += &quot;SHIFT &quot;;
-if(event.altKey)
-modifiers += &quot;ALT &quot;;
-if(event.ctrlKey)
-modifiers += &quot;CTRL &quot;;
-if(modifiers === &quot;&quot;)
-modifiers = &quot;NONE&quot;;
-keys.innerHTML += modifiers + &quot;<br>&quot;;
-}
-</pre>
-
+  title="CodePen: example detect combination of keys + modifier keys (shift, ctrl, alt)"
+  alt="CodePen: example detect combination of keys + modifier keys (shift, ctrl, alt)." />
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/BWERyY" 
+target="_blank" rel="noopener noreferrer">
+CodePen: example detect combination of keys + modifier key</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-6">2.4.6 Dealing with different keyboard layouts</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -18724,7 +18655,8 @@ tokens separated by space and will in turn build again a string with
 <ul>
   <li>The source code that corresponds to what has been showed in the
     video is available <a href="https://codepen.io/w3devcampus/pen/pwPGve?editors=0012">
-	in this CodePen</a>.
+	in this CodePen</a>.</li>
+</ul>
 
 <p>The String class can be used to build new strings, but it's preferable
 to use the standard syntax:</p>
