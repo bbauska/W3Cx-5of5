@@ -2,7 +2,7 @@
 title: "W3Cx-5of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
 author: "bbauska"
 date created: "7/07/2024 Sun 12+pm"
-date last editted: "8/12/2024 Mon 8+pm"
+date last editted: "8/13/2024 Tue 4+pm"
 
 output: 
   markdown:
@@ -327,8 +327,8 @@ HTML5, CSS and JavaScript.</p>
     <b>JavaScript Introduction</b></a></li>
 </ol>
 
-<p><b>To get a W3C FEWD professional certificate, you must successfully pass 
-and receive a Verified Certificate in the five courses above</b>.</p>
+<p>To get a W3C FEWD professional certificate, you must successfully pass 
+and receive a Verified Certificate in the five courses above.</p>
 
 <h4>Foreword:</h4>
 
@@ -338,12 +338,14 @@ and receive a Verified Certificate in the five courses above</b>.</p>
   &ldquo;When I work locally, with files located on my computer hard drive, I
   use the Sublime Text source code editor, Visual Studio Code, WebStorm,
   NetBeans, depending on the size of the project I&apos;m working on.<br>
-    - <b>For testing simple examples, I mainly use the JSBin.com online code 
-    editor.</b><br>
-    - <b>For embedding online examples in this course, I use the CodePen.io 
-    online code editor.</b><br>
-    - <b>For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
-    the LiveWeave online code editor.&rdquo;</b>
+  <ul>
+    <li><b>For testing simple examples, I mainly use the JSBin.com online code 
+    editor.</b></li>
+	<li><b>For embedding online examples in this course, I use the CodePen.io 
+    online code editor.</b></li>
+	<li><b>For choosing a CSS color, shadow, text-shadow, gradients, etc. I use
+    the LiveWeave online code editor.&rdquo;</b></li>
+  <ul>
 </blockquote>
 
 <h4>Web editors</h4>
@@ -953,9 +955,9 @@ disabilities can use them. However, currently many sites and tools are
 developed with accessibility barriers that make them difficult or
 impossible for some people to use.</p>
 
-<p><b>Accessibility is essential for developers and organizations that want
+<p>Accessibility is essential for developers and organizations that want
 to create high-quality websites and web tools, and not exclude people
-from using their products and services.</b></p>
+from using their products and services.</p>
 
 <p>Making the web accessible benefits people <b>with</b> and
 <b>without</b> disabilities, businesses, and society. Accessibility is an
@@ -1126,17 +1128,17 @@ your Web page works for people around the world, and to make it work
 differently for different cultures, where needed. Let&apos;s meet the words
 &apos;charset&apos; and &apos;lang&apos;, soon to become your favorite markup ;)</p>
 
-<h4>Example 1: Character encoding declaration</h4>
+<h5>Example 1: Character encoding declaration</h5>
 
 <p>A character encoding declaration is <b>vital to ensure that the text in
 your page is recognized by browsers around the world</b>, and not garbled.
 You will learn more about what this is, and how to use it as you work
 through the course.  For now, just ensure that it&apos;s always there.</p>
 
-<p><b>Check #1: There is a character encoding declaration near the start of
-your source code, and  its value is UTF-8.</b></p>
+<h5><b>Check #1</b>: There is a character encoding declaration near the start of
+your source code, and  its value is UTF-8.</h5>
 
-<h4><b>Example 1</b>:</h4>
+<h5>Example 1:</h5>
 
 <pre>&lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;/&gt;
@@ -1144,7 +1146,7 @@ your source code, and  its value is UTF-8.</b></p>
 &lt;/head&gt;
 </pre>
 
-<h4>Example 2: Primary language declaration</h4>
+<h5><b>Example 2</b>: Primary language declaration</h5>
 
 <p>For a wide variety of reasons, it&apos;s important for a browser to know
 what language your page is written in, including font selection,
@@ -1155,8 +1157,8 @@ tag</b>. Again you will learn how to do this during the course.  You will
 also learn how to change the language, where necessary, for parts of
 your document that are in a different language.</p>
 
-<h5><b>Check #2: The HTML tag has a lang attribute which correctly indicates 
-the language of your content.</b></h5>
+<h5><b>Check #2</b>: The HTML tag has a lang attribute which correctly indicates 
+the language of your content.</h5>
 
 <h5><b>Example 2</b>: This indicates that the page is in French.</h5>
 
@@ -1181,11 +1183,11 @@ forms for capturing personal details, you will quickly find that your
 assumptions about how personal names and addresses work are very different 
 from those of people from other cultures.</p>
 
-<p><b>Check #3: If your content will be seen by people from diverse
+<p><b>Check #3</b>: If your content will be seen by people from diverse
 cultures, check that your cultural references will be recognized and
-that there is no inappropriate cultural bias.</b></p>
+that there is no inappropriate cultural bias.</p>
 
-<h4>Don&apos;t worry!</h4>
+<h5>Don&apos;t worry!</h5>
 
 <p>The following 7 quick tips summarize some important concepts of international 
 Web design. They will become more meaningful as you work through the course, so 
@@ -18084,10 +18086,10 @@ create an array, using the brackets notation, it&apos;s equivalent to using
 the "new" keyword with the name of the predefined class (or object)
 named, from JavaScript, "Array", with a big "A".</p>
 
-<p>You can create an empty array using "<b>new Array()<b>" or you can create
+<p>You can create an empty array using "<b>new Array()</b>" or you can create
 an array with elements inside, using "<b>new Array()</b>" followed by the
 list of elements. And if you only give one argument, you create an empty
-array full of undefined elements. "<b>new Array(10)<b>" will create an
+array full of undefined elements. "<b>new Array(10)</b>" will create an
 array with 10 undefined elements inside.</p>
 
 <p>To tell you the truth, I nearly never use this notation. I prefer using
@@ -20080,7 +20082,7 @@ with albums, thumbnails&#41;</p>
 project about pictures and albums. How do you work with such a format?
 There are 2 different utility methods from the JSON predefined object.</p>
 
-<p>One is called "<b>stringify()"</b> and will be useful for converting a
+<p>One is called "<b>stringify()</b>" and will be useful for converting a
 JavaScript object into JSON. And the other one will be
 "<b>JSON.parse()</b>" that will take a JSON object, a JSON string, and give
 back a JavaScript object.</p>
@@ -20403,7 +20405,7 @@ CodePen: working with remote data using XhR2 API</a>.</h6>
 21. }
 </pre>
 
-<h5><b>Explanations</b>:</h5>
+<h5>Explanations:</h5>
 
 <ul>
   <li><b><i>Lines 4 and 5</i></b> build an Ajax request using XhR2.</li>
@@ -20415,7 +20417,7 @@ CodePen: working with remote data using XhR2 API</a>.</h6>
   <li><b><i>Line 12</i></b>: we turn the JSON response into a regular JavaScript
     object we can work with, using <b>JSON.parse()</b>.</li>
   <li><b><i>Line 13</i></b>: we pass this list of users, now a JavaScript object, to
-    the <b>displayUsersAsATable </b>method, that will use the HTML table
+    the <b>displayUsersAsATable</b> method, that will use the HTML table
     API we saw earlier in the course.</li>
 </ul>
 
@@ -20582,7 +20584,7 @@ the localStorage for this domain:</p>
   alt="devtools can be used to show localStorage." />
 </p>
 
-<p><b>Differences with cookies?</b></p>
+<p>Differences with cookies?</p>
 
 <p>Cookies are also a popular way to store key-value pairs. Web Storage,
 however, is a more powerful technique than cookies. The main difference
@@ -20595,7 +20597,7 @@ stylesheet, a JavaScript file, etc.).</p>
 HTTP, and are easily accessible (read, change and delete) from
 JavaScript, using the Web Storage API.</p>
 
-<p><b>External resources</b></p>
+<p>External resources</p>
 
 <ul>
   <li><a href="http://www.w3.org/TR/webstorage/">The W3C Web Storage API recommendation</a>.</li>
@@ -20609,7 +20611,7 @@ JavaScript, using the Web Storage API.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is the discussion forum for this part of the course.</p>
 
-<p><b>Suggested topic</b></p>
+<p>Suggested topic</p>
 
 <ul>
   <li>Did you know that using XhR2 for getting remote data, you can also
@@ -20624,7 +20626,7 @@ JavaScript, using the Web Storage API.</p>
 	<a href="https://fetch-progress.anthum.com/">monitoring uploads and downloads</a>).</li>
 </ul>
 
-<p><b>Optional projects</b></p>
+<h5>Optional projects</h5>
 
 <ul>
   <li>Please display the data <a href="https://gist.githubusercontent.com/heiswayi/7fde241975ed8a80535a/raw/ff1caaeaf62bd6740ab7cafcd61f1215de173379/datatables-data.json">
@@ -20653,8 +20655,8 @@ and the HTML table JavaScript API.</p>
     features (build a better HTML table, add new sorting options, etc.)</li>
 </ul>
 
-<p><b>Let&apos;s start with a simple skeleton (no GUI), beginning with
-the Contact class</b></p>
+<p>Let&apos;s start with a simple skeleton (no GUI), beginning with
+the Contact class</p>
 
 <pre>
 1.  class Contact {
@@ -20677,7 +20679,7 @@ above class like this:</p>
 <p>Then you can print the properties of contact c1 or c2 using for
 example console.log(c1.name), console.log(c2.email), etc.</p>
 
-<p><b>A minimal ContactManager class</b></p>
+<p>A minimal ContactManager class</p>
 
 <pre>
 1.  class ContactManager {
@@ -20751,7 +20753,7 @@ that there are no syntax errors, that everything runs smoothly.</p>
 <p>Here is the CodePen of this minimal version. Click on the CodePen label
 on the top right, and once in CodePen, open the console:</p>
 
-<p><b>Adding a method for sorting the list of contacts by name</b></p>
+<h5>Adding a method for sorting the list of contacts by name</h5>
 
 <p>Do you remember the sort() method you can use on arrays? We saw it in
 modules 2 or 3. Since our array contains objects, we must provide a
@@ -20879,7 +20881,7 @@ as a string, we convert it to the JSON format using the
   alt="console.log storage inspector." />
 </p>
 
-<b>Restoring the list of contacts</b>
+<h5>Restoring the list of contacts</h5>
 
 <p>This time, we&apos;ve added a load() method that will check if a list of
 contacts has been saved. If this is the case, it will read it from
@@ -20927,7 +20929,7 @@ has been restored to its previous value.</p>
 33. console.log(&quot;Do you notice: contacts have all been restored!&quot;);
 </pre>
 
-<h5><b>Explanations</b>:</h5>
+<h5>Explanations:</h5>
 
 <ul>
   <li>At <b><i>line 13</i></b>, we check if a previous version has been saved.</li>
@@ -21113,7 +21115,7 @@ is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
 14. }
 </pre>
 
-<p><b>Explanations:</b></p>
+<h5>Explanations:</h5>
 
 <ul>
   <li><b><i>Lines 2-7</i></b>: we get the values entered in the form&apos;s input fields,
@@ -21218,5 +21220,6 @@ trashbin.dataset.contactId = 3; // 3 is the current row index and
 <!-- last editted 8/10/2024 4:24pm -->
 <!-- last editted 8/11/2024 4:00pm -->
 <!-- last editted 8/12/2024 8:41pm -->
+<!-- last editted 8/13/2024 4:04pm -->
 
 
