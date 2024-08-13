@@ -2,7 +2,7 @@
 title: "W3Cx-5of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
 author: "bbauska"
 date created: "7/07/2024 Sun 12+pm"
-date last editted: "8/11/2024 Sun 4+pm"
+date last editted: "8/12/2024 Mon 8+pm"
 
 output: 
   markdown:
@@ -136,10 +136,10 @@ output:
 	<h5><a href="#ch2-6-8">2.6.8 Discussion and projects</a></h5>
 </blockquote>
 
-<h3>Module 3: Playing with HTML5 APIs</h3>
+<h3>Module 3: Standard HTML5 APIs</h3>
 <blockquote>
-  <h4><a href="#ch3-1">3.1 Intro Module 3: Playing with HTML5 APIs</a></h4>
-	<h5><a href="#ch3-1-1">3.1.1 Intro: Module 3: Playing with HTML5 APIs</a></h5>
+  <h4><a href="#ch3-1">3.1 Intro Module 3: Standard HTML5 APIs</a></h4>
+	<h5><a href="#ch3-1-1">3.1.1 Intro: Standard HTML5 APIs</a></h5>
 	<h5><a href="#ch3-1-2">3.1.2 Module 3 outline</a></h5>
   <h4><a href="#ch3-2">3.2 Arrays and Iterators</a></h4>
 	<h5><a href="#ch3-2-1">3.2.1 Arrays</a></h5>
@@ -193,8 +193,6 @@ output:
   <h4><a href="#ch4-4">4.4 Organizing the code in separate files</a></h4>
 	<h5><a href="#ch4-4-1">4.4.1 Class and constructor</a></h5>
 	<h5><a href="#ch4-4-2">4.4.2 Adding methods classes</a></h5>
-	<h5><a href="#ch4-4-3">4.4.3 </a></h5>
-	<h5><a href="#ch4-4-4">4.4.4 </a></h5>
 </blockquote>
 
 <h3>Module 5: Working with Forms</h3>
@@ -202,8 +200,6 @@ output:
   <h4><a href="#ch5-1">5.1 Intro Module 5: Working with Forms</a></h4>
 	<h5><a href="#ch5-1-1">5.1.1 Intro: Working with Forms</a></h5>
 	<h5><a href="#ch5-1-2">5.1.2 Module 5 outline</a></h5>
-	<h5><a href="#ch5-1-3">5.1.3 </a></h5>
-	<h5><a href="#ch5-1-4">5.1.4 </a></h5>
   <h4><a href="#ch5-2">5.2 Built-in JavaScript Objects</a></h4>
 	<h5><a href="#ch5-2-1">5.2.1 References and objects</a></h5>
 	<h5><a href="#ch5-2-2">5.2.2 Comparing two objects</a></h5>
@@ -10270,8 +10266,8 @@ located inside an element of a given id.</h5>
   style="width:65%"
   title="Show Checked items inside an element of a given id"
   alt="Show Checked items inside an element of a given id." />
-<h6 href="https://codepen.io/w3devcampus/pen/MpLzqV" 
-target="_blank" rel="noopener noreferrer">CodePen: Show Checked items</h6>
+<h6 align="center><a href="https://codepen.io/w3devcampus/pen/MpLzqV" 
+target="_blank" rel="noopener noreferrer">CodePen: Show Checked items</a></h6>
 </p>
 
 <h5>HTML:</h5>
@@ -10316,7 +10312,7 @@ are each a child of a &lt;li&gt; element. The text displayed: &quot;Apples&qu
 &quot;Oranges&quot; etc. belong to the &lt;li&gt; element. In order to access it
 from the &lt;input&gt; child we selected, we use elm.parentNode.</p>
 
-<p>Finally, at the end of the document, <b>line 14</b> adds a message followed
+<p>Finally, at the end of the document, <b><i>line 14</i></b> adds a message followed
 by this list:</p>
 
 <h5>JavaScript code:</h5>
@@ -10340,17 +10336,17 @@ by this list:</p>
 
 <p>We select all elements of type input that have an attribute checked equal to true, 
 and located inside an element whose id is "fruits". Notice the use of 
-<b>document.querySelectorAll</b>, for selecting more than one element (<i>line 6</i>), then, we 
-iterate on the list (<i>line 8</i>) and concatenate to the string variable <b>listOfSelectedValues</b> 
-the value of each element (located in its value attribute). This is done in <i>line 9</i>.</p>
+<b>document.querySelectorAll</b>, for selecting more than one element (<b><i>line 6</i></b>), then, we 
+iterate on the list (<b><i>line 8</i></b>) and concatenate to the string variable <b>listOfSelectedValues</b> 
+the value of each element (located in its value attribute). This is done in <b><i>line 9</i></b>.</p>
 
-<p><i>Lines 9-12</i> use the parentNode property of the selected nodes in order 
+<p><b><i>Lines 9-12</i></b> use the parentNode property of the selected nodes in order 
 to change the color of the &lt;li&gt; (parents of &lt;input&gt; elements selected) in red. 
 In the DOM tree, we selected input elements that are each a child of a &lt;li&gt; element. 
 The text displayed: "Apples", "Oranges" etc. belong to the &lt;li&gt; element. In order 
 to access it from the &lt;input&gt; child we selected, we use elm.parentNode.</p>
 
-<p>Finally, at the end of the document, <i>line 14</i> adds a message followed by this list:</p>
+<p>Finally, at the end of the document, <b><i>line 14</i></b> adds a message followed by this list:</p>
 
 <h4>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10377,16 +10373,16 @@ target="_blank" rel="noopener noreferrer">CodePen: Change background of p under 
 
 <p>JavaScript code: we build a CSS selector using the id passed as a
 parameter. In this example, the id is &apos;firstDiv&apos;, the id of the div
-at <i>line 3</i> in the above code.</p>
+at <b><i>line 3</i><?b> in the above code.</p>
 
-<p>The variable CSS selector at <i>line 2</i> in the JavaScript code below
+<p>The variable CSS selector at <b><i>line 2</i></b> in the JavaScript code below
 will have a value equal to &quot;#firstDiv p&quot;, that means: select
 all &lt;p&gt; under an element whose id is &quot;firstDiv&quot;.
 The paragraphs variable is a list that contains the paragraphs selected.
 Then we iterate on this list (this time using a for loop, which is an
 alternative method to using the forEach method used in previous
-examples) (<i>lines 5-7</i>), and we change the background of all selected
-paragraphs (<i>line 6</i>).</p>
+examples) (<b><i>lines 5-7</i></b>), and we change the background of all selected
+paragraphs (<b><i>line 6</i></b>).</p>
 
 <pre>1.  function changeBackGroundOfPs(id) {
 2.    var paragraphs = document.querySelectorAll(&quot;#&quot; + id + &quot; p&quot;);
@@ -10864,9 +10860,9 @@ target="_blank" rel="noopener noreferrer">
 CodePen: Enter a number &amp; add to list</a>.</h6>
 
 <p>HTML code extract: we use an &lt;input type=&quot;number&quot;&gt; for entering a
-number (<i>line 2</i>). Then if one clicks on the &quot;Add to the list&quot; button,
-the add() JavaScript function is called (<i>line 3</i>), this will add the
-typed number to the empty list at <i>line 7</i>. If one presses the &quot;reset&quot;
+number (<b><i>line 2</i></b>). Then if one clicks on the &quot;Add to the list&quot; button,
+the add() JavaScript function is called (<b><i>line 3</i></b>), this will add the
+typed number to the empty list at <b><i>line 7</i></b>. If one presses the &quot;reset&quot;
 button, it will empty this same list by calling the reset() JavaScript
 function.</p>
 
@@ -10881,7 +10877,7 @@ function.</p>
 8.  &lt;ul id=&quot;numbers&quot;&gt;&lt;/ul&gt;
 </pre>
 
-JavaScript code extract: notice at <i>line 25</i> the use of
+JavaScript code extract: notice at <b><i>line 25</i></b> the use of
 the innerHTML property for resetting the content of the &lt;ul&gt; list.
 innerHTML corresponds to all the sub DOM contained inside
 the &lt;ul&gt;&#133;&lt;/ul&gt;. innerHTML can be used for
@@ -11004,16 +11000,16 @@ target="_blank" rel="noopener noreferrer">
 CodePen: removing elements from the DOM</a>.</h6>
 
 <p>JavaScript code extract: we need to get the &lt;ul&gt; that contains all
-the &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;&lt;/li&gt; elements (<i>line 3</i>). This
+the &lt;li&gt;&lt;input type=&quot;checkbox&quot;&gt;&lt;/li&gt; elements (<b><i>line 3</i></b>). This
 is the element we will use for calling <b>removeChild(&#133;)</b>.</p>
 
-<p>The loop on the checked element (<i>lines 5-12</i>) iterates on a list of checked
+<p>The loop on the checked element (<b><i>lines 5-12</i></b>) iterates on a list of checked
 input elements. In order to make both the text (Apples, Oranges, etc.)
 AND the checkbox disappears, we need to access the different &lt;li&gt; elements 
-that contain the selected checkboxes. This is done in <i>line 10</i>.</p>
+that contain the selected checkboxes. This is done in <b><i>line 10</i></b>.</p>
 
 <p>Then, we can call <b>ul.removeChild(li)</b> on the &lt;ul&gt; for removing the 
-&lt;li&gt; that contains the selected element (<i>line 11</i>).</p>
+&lt;li&gt; that contains the selected element (<b><i>line 11</i></b>).</p>
 
 <pre>
 1.  function removeSelected() {
@@ -11034,9 +11030,9 @@ that contain the selected checkboxes. This is done in <i>line 10</i>.</p>
 <h5>Removing all children of an element using the innerHTML property</h5>
 
 <p>In the same example, if you look at the reset() JavaScript function, we
-use the ul&apos;s innerHTML property both for emptying the list (<i>lines
-3-4</i>) and for appending to it all the initial HTML code (<i>lines
-6-17</i>):</p>
+use the ul&apos;s innerHTML property both for emptying the list (<b><i>lines
+3-4</i></b>) and for appending to it all the initial HTML code (<b><i>lines
+6-17</i></b>):</p>
 
 <pre>
 1.  function reset() {
@@ -11093,12 +11089,12 @@ A typical HTML code for adding a canvas to a Web page:
 10. &lt;/html&gt;
 </pre>
 
-The canvas declaration is at <i>line 8</i>. Use attributes to give it
+<p>The canvas declaration is at <b><i>line 8</i></b>. Use attributes to give it
 a width and a height, but unless you add some CSS properties, you will
-not see it on the screen because it&apos;s transparent!
+not see it on the screen because it&apos;s transparent!</p>
 
-Let&apos;s use CSS to reveal the canvas, for example, add a 1px black border
-around it:
+<p>Let&apos;s use CSS to reveal the canvas, for example, add a 1px black border
+around it:</p>
 
 <pre>
 1.  canvas {
@@ -11106,7 +11102,7 @@ around it:
 3.  }
 </pre>
 
-And here is a reminder of best practices when using the canvas:
+<p>And here is a reminder of best practices when using the canvas:</p>
 
 1.  <b>Use a function that is called AFTER the page is fully
     loaded</b> (and the DOM is ready), select the canvas in the DOM (this
@@ -11178,48 +11174,48 @@ filled text, changing colors)</h5>
 
 <h5><b>Explanations:</b></h5>
 
-1.  We use a function (<i>line 4</i>) called after the page is loaded (we
-    say &quot;after the DOM is ready&quot;), so that the querySelector at <i>line
-    6</i> will return the canvas.  If the page was not completely loaded
+1.  We use a function (<b><i>line 4</i></b>) called after the page is loaded (we
+    say &quot;after the DOM is ready&quot;), so that the querySelector at <b><i>line
+    6</i></b> will return the canvas.  If the page was not completely loaded
     and if this code had been run before it had finished loading, the
     canvas value would have been &quot;undefined&quot;.
 
-2.  Once we have the canvas, we request a &quot;graphic context&quot; (<b>line
-    8</b>). This is a variable for 2D or 3D  drawing on a canvas (in our
+2.  Once we have the canvas, we request a &quot;graphic context&quot; (<b><i>line
+    8</i></b>). This is a variable for 2D or 3D  drawing on a canvas (in our
     case: 2D!) that we will use for drawing or setting colors, line
     widths, text fonts, etc.
 
 3.  Then we can draw. Here we show only a few things you can do with the
     canvas API, but believe me, you can do much more (draw images,
     gradients, textures, etc.)!
-    At <i>line 15,</i> we draw a filled rectangle. Parameters are the x and
+    At <b><i>line 15,</i></b> we draw a filled rectangle. Parameters are the x and
     y coordinates of the top left corner (x goes to the right, y to the
     bottom of your screen), and the width and the height of the
-    rectangle. At <i>line 14,</i> we used the fillStyle property of the
+    rectangle. At <b><i>line 14,</i></b> we used the fillStyle property of the
     context to set the color of filled shapes. This means: &quot;now, all
     filled shapes you are going to draw will be in red!&quot;. It&apos;s like a
     global setting.
 
-4.  <i>Lines 17-20</i> draw a green wireframe rectangle, with a line width
+4.  <b><i>Lines 17-20</i></b> draw a green wireframe rectangle, with a line width
     equal to 4 pixels. Notice the use of &quot;stroke&quot; instead of &quot;fill&quot;
     in the property name strokeStyle/fillStyle and in the context method
     for drawing a rectangle strokeRect/fillRect.
 
-5.  <i>Lines 23-25</i> draw a filled circle. The syntax is a bit different
+5.  <b><i>Lines 23-25</i></b> draw a filled circle. The syntax is a bit different
     as circles are parts of a &quot;path&quot; (see the HTML5 fundamentals
     course, we explain the concept of &quot;path&quot; in the canvas API). Just
     keep in mind for now that before drawing a circle you need to
     call beginPath(). The call to arc(x, y, radius, start_angle,
     end_angle) does not draw the circle, it defines it. The next
-    instruction ctx.fill() at <i>line 25</i> will draw all shapes that have
+    instruction ctx.fill() at <b><i>line 25</i></b> will draw all shapes that have
     been defined since a new path began, as filled shapes.
     Calling ctx.stroke() here, instead of ctx.fill() would have drawn a
     wireframe circle instead of a filled one. Also note that the filled
     circle is red even if we did not specify the color. Remember that we
-    set ctx.fillStyle = &apos;red&apos; at <i>line 14</i>. Unless we change this,
+    set ctx.fillStyle = &apos;red&apos; at <b><i>line 14</i></b>. Unless we change this,
     all filled shapes will be red.
 
-6.  <i>Lines 28-30</i> draw a filled text. The call to filltext(message, x,
+6.  <b><i>Lines 28-30</i></b> draw a filled text. The call to filltext(message, x,
     y) draws a filled text at the x,y position; this time in purple as
     we called ctx.fillStyle=&apos;purple&apos; before calling fillText(&#133;)
 
@@ -11494,7 +11490,7 @@ the <b>moveBall</b> function, the ball passed as a parameter becomes the
 function, we are in reality changing the x value of the global
 object <b>ball</b>! 
 
-Ok, and at <i>line 5</i> we call <b>testCollisionBallWithWalls(b)</b>, which
+Ok, and at <b><i>line 5</i></b> we call <b>testCollisionBallWithWalls(b)</b>, which
 will test if the ball b hits a vertical or horizontal wall. Let&apos;s see
 an extract of this function now:
 
@@ -11513,7 +11509,7 @@ an extract of this function now:
 12. }
 </pre>
 
-At <i>line 3</i> you can see the test that checks if the ball b hits the
+At <b><i>line 3</i></b> you can see the test that checks if the ball b hits the
 right side of the canvas. The right wall is at w (the width of the
 canvas) on the X-axis. If we compare (<b>b.x + b.radius</b>) with w, we can
 check if a part of the ball extends beyond the right wall. 
@@ -11534,7 +11530,7 @@ effect if the balls moves, say, 20 pixels per frame or more. The ball
 will never be in a position where the eye can &quot;see it against the
 wall&quot;. This is why experienced game coders know that you just need to
 put the ball &quot;at the contact position&quot;, not to its previous position,
-before reversing the speed value. This is done at <i>lines 8-9</i>. Try
+before reversing the speed value. This is done at <b><i>lines 8-9</i></b>. Try
 changing <b>speedX</b> to say, 20, and you&apos;ll see what we mean.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11629,13 +11625,13 @@ Let&apos;s look at the new functions we&apos;ve added: 
 <h5>Explanations:</h5>
 
 <ul>
-  <li><i>Line 3</i>: we declare an empty array that will contain the balls,</li>
-  <li><i>Lines 7-14</i>: we create a new ball object with random values. Note
+  <li><b><i>Line 3</i></b>: we declare an empty array that will contain the balls,</li>
+  <li><b><i>Lines 7-14</i></b>: we create a new ball object with random values. Note
     the use of Math.random(), a predefined JavaScript function that
     returns a decimal value between 0 and 1. We call another function
     named getARandomColor() that returns a color taken randomly,</li>
-  <li><i>Line 16</i>: we add the newly created ball b to the array,</li>
-  <li><li>Line 19</li>: we return the array to the caller.</li>
+  <li><b><i>Line 16</i></b>: we add the newly created ball b to the array,</li>
+  <li><b><i>Line 19</i></b>: we return the array to the caller.</li>
 </ul>
 
 <h5>The getARandomColor function</h5>
@@ -11979,7 +11975,7 @@ target="_blank" rel="noopener noreferrer">CodePen: working example</a>.</p>
 26. }
 </pre>
 
-<p><i>Line 9</i> defines a mousemove event listener: the mouseMoved callback
+<p><b><i>Line 9</i></b> defines a mousemove event listener: the mouseMoved callback
 function will be called each time the user moves the mouse on the
 canvas.</p>
 
@@ -12345,14 +12341,14 @@ post your comments/observations/questions or share your creations.</p>
     enemy balls :-)</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-1-1">3.1.1 Introduction - Module 3 (1:29)</h3>
+<h3 id="ch3-1-1">3.1.1 Introduction - Standard HTML API's (1:29)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 362. intro module 3 (315) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image362.png?raw=true"
   style="width:65%"
-  title="Intro: standard  API's in your browser"
-  alt="Intro: standard  API's in your browser." />
+  title="Intro: standard HTML API's in your browser"
+  alt="Intro: standard HTML API's in your browser." />
 
 <p>From what we've learned so far, it is time now to enjoy some of the
 standard API's your browser provides.</p>
@@ -12377,31 +12373,30 @@ difficulty levels will be proposed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-2">3.1.2 Module 3 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 363. geolocation (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 363. geolocation logo (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image363.png?raw=true"
   style="width:25%"
-  title="Geolocation"
-  alt="Geolocation." />
+  title="Geolocation logo"
+  alt="Geolocation logo." />
 
 <h5>What you will learn in Module 3:</h5>
 
-Note that this module is more &quot;project oriented&quot;, meaning less
-fundamental concepts are presented.
+<p>Note that this module is more &quot;project oriented&quot;, meaning less
+fundamental concepts are presented.</p>
 
--   JavaScript arrays and strings: let&apos;s study fundamental JavaScript
+<ul>
+  <li>JavaScript arrays and strings: let&apos;s study fundamental JavaScript
     concepts, and this time let&apos;s have a closer look to JavaScript
-    arrays and strings.
-
--   New HTML5 APIs: we&apos;ve already seen the selector and the DOM APIs,
+    arrays and strings.</li>
+  <li>New HTML5 APIs: we&apos;ve already seen the selector and the DOM APIs,
     respectively for selecting and manipulating HTML elements
     dynamically. We also had a taste of the HTML5 canvas API for drawing
     and animating. This time, let&apos;s look at the audio and video
-    elements APIs, as well as the geolocation API.
-
--   Finally, let&apos;s add background music and sound effects to the small
-    game we started writing during module 2.
-
+    elements APIs, as well as the geolocation API.</li>
+  <li>Finally, let&apos;s add background music and sound effects to the small
+    game we started writing during module 2.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-1">3.2.1 Arrays (8:57)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12420,126 +12415,126 @@ come back again to arrays in the next module. Each week, during each
 module we give some small extra information so that in the end, you will
 have a good view of each JavaScript concepts.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 365.  (317) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 365. codepen: example array (317) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image365.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example array"
+  alt="CodePen: example array." />
 
-Let&apos;s start with an array called &quot;myarr&quot; that contains some colors.
+<p>Let&apos;s start with an array called &quot;myarr&quot; that contains some colors.
 The first thing we must remind is that each element has an index. And
 the first index is at number 0. If I type in the console&#133;it gives me
 the first element. "myarr&lbrack;0&rbrack;" gives the first element. Arrays in
-JavaScript are objects.
+JavaScript are objects.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 366. (318) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 366. codepen: example array, #2 (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image366.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example array, #2"
+  alt="CodePen: example array, #2." />
 
-If I try "typeof myarr" it&apos;s says "objects". And objects, in an
+<p>If I try "typeof myarr" it&apos;s says "objects". And objects, in an
 object-oriented languages, have properties. They are the DNA of the
 objects, like person has an age, person has a name, an array has the
 length. As the array is an object, it will have some interesting
-properties.
+properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 367. (318) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 367. codepen: example array, #3 (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image367.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example array, #3"
+  alt="CodePen: example array, #3." />
 
-One of them is the length&#41;and you access properties using the "."
+<p>One of them is the length&#41;and you access properties using the "."
 operator. This, the length, corresponds to the number of elements: 1, 2,
 3 and 4. The last one, the last element is at index given by the length
 property -- 1. "purple", the last element, is located at index
-"myarr.length-1".
+"myarr.length-1".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 368. (319) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 368. codepen: example array, #4 (31x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image368.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example array, #4"
+  alt="CodePen: example array, #4." />
 
-If you want to add an element to an array, you've got different
+<p>If you want to add an element to an array, you've got different
 possibilities. The most common one, the one that I recommend, is to use
 a method called "push". red, blue, yellow, purple. Let&apos;s add &apos;orange',
 like this. Like that, it returns the new length: 5 elements. And if I
 look at the content of my array, it now has, at the end, the last
-element I pushed inside: orange. &quot;push&quot; is very useful.
+element I pushed inside: orange. &quot;push&quot; is very useful.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 369. (319) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 369. codepen: example array, #5 (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image369.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example array, #5"
+  alt="CodePen: example array, #5." />
 
-You can also add an element at the end of an existing array by adding it
+<p>You can also add an element at the end of an existing array by adding it
 to the index equal to the length of the array. If I do this, we don&apos;t
 have any "green" here&#133;You see, I'm using the index length. If I do
 like that, it returns the new element we added, and it adds at the end.
-To be frank, most of the time I use the &quot;push&quot; method.
+To be frank, most of the time I use the &quot;push&quot; method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 370. (320) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 370. codepen: example array, #6 (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image370.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example array, #6"
+  alt="CodePen: example array, #6." />
 
-You can also sort the elements of an array using the &quot;sort&quot; method.
+<p>You can also sort the elements of an array using the &quot;sort&quot; method.
 Objects have properties: their DNA, their characteristics, and they have
 methods that correspond to their behavior. You can sort an array because
 it has a sort method. It&apos;s a sort of function associated with the
 array. If I just call &quot;sort&quot; without any parameter, it returns the
-array sorted by ascending alphabetical order.
+array sorted by ascending alphabetical order.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 371. (320) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 371. codepen: example array with object (320) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image371.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example array with an object"
+  alt="CodePen: example array with an object." />
 
-If I want to work with more complex elements, I can make an array with
+<p>If I want to work with more complex elements, I can make an array with
 an object. I prepared an array that contains objects, it&apos;s called
 &quot;persons&quot; and each element is an object. If I look at the first
 element, here. It gives me a person whose <b>familyName</b> is Buffa, whose
 <b>givenName</b> is Michel, age 51. This corresponds to the first element
-of the array.
+of the array.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 372. (321) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 372. codepen: example array with object, #2 (321) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image372.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example array with an object, #2"
+  alt="CodePen: example array with an object, #2." />
 
-If I want to access some properties of this element, I will use the "."
+<p>If I want to access some properties of this element, I will use the "."
 operator. So persons.0.givenName will correspond to Michel, persons.0 is
-this element, .givenName corresponds to this property.
+this element, .givenName corresponds to this property.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 373. (321) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 373. codepen: example array with object, #3 (321) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image373.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example array with an object, #3"
+  alt="CodePen: example array with an object, #3." />
 
-Ok, so if I want to sort this array by age for example, I cannot use
+<p>If I want to sort this array by age for example, I cannot use
 just persons.sort() as it will not know which criteria I must use or
 which property I want the sort to be done. We can pass an argument here,
 that will be a callback, a function called by the &quot;sort&quot; method from
 the API. And this callback will indicate how we compared 2 different
-elements. Let&apos;s try it! I prepared it.
+elements. Let&apos;s try it! I prepared it.</p>
 
-We can define a function named, for example, <b>compareByAge</b>() that
+<p>We can define a function named, for example, <b>compareByAge</b>() that
 will compare an element named "a" with an element named "b". And we
 suppose that these elements have an age property, and then we compare.
 If "a" has a smaller age than "b", we return -1. If the age of the
@@ -12548,28 +12543,28 @@ return 0 if the ages are equal. And then, we just call "sort", and we
 pass the name of this comparison function. And in that case, the array
 is sorted by age: 20, 32, 51. When you call this method, it returns a
 sorted array but it also sorts the array itself. The array is no more
-the one we had first, now it&apos;s a sorted array.
+the one we had first, now it&apos;s a sorted array.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 374. (318) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 374. CodePen: example remove an element from array using splice (318) ~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image374.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example remove an element from array using splice"
+  alt="CodePen: example remove an element from array using splice." />
 
-If I want to remove an element from the array, I will use the splice
+<p>If I want to remove an element from the array, I will use the splice
 method. The first parameter is the index after which we will remove an
 element. If I say 0, it means start at index 0, remove 1 element. It
 will remove the element just after 0. It removed the element named Pig
 Bodine, it was in the middle. If I look at the array now, we just remove
-the element in the middle with the age 20.
+the element in the middle with the age 20.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 375. (318) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 375. CodePen: example remove an element from array using splice, #2 (318) ~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image375.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example remove an element from array using splice, #2"
+  alt="CodePen: example remove an element from array using splice, #2." />
 
 If I want to remove the last element, I can use the &quot;pop&quot; method. You
 remember that the &quot;push&quot; method adds at the end an element and the
@@ -12649,7 +12644,7 @@ number of elements-
 
 <h5>JavaScript arrays are objects and have some useful properties and methods</h5>
 
-Note that in JavaScript, arrays are &quot;objects&quot; (<i>lines 2-3</i> in the above
+Note that in JavaScript, arrays are &quot;objects&quot; (<b><i>lines 2-3</i></b> in the above
 example), which means that they have properties and methods. You can
 access/call them using the &quot;.&quot; operator. Here are the most common
 properties and methods.
@@ -12707,7 +12702,7 @@ for sorting (e.g., sort by age);
 
 <h5>Explanations:</h5>
 
--   <i>Line 17</i> calls <b>persons.sort
+-   <b><i>Line 17</i></b> calls <b>persons.sort
     (function_that_compares_two_elements),</b> passing as a unique
     parameter a function that compares two people&apos;s ages. This function
     must return -1 if the first person is younger than the second
@@ -12944,10 +12939,10 @@ end of the string:
 </pre>
 
 -   You cannot use push/pop as this raises an error &quot;is not a
-    function&quot; (<i>lines 1-5</i>)
+    function&quot; (<b><i>lines 1-5</i></b>)
 
 -   You can try to put elements out of the range of the string: nothing
-    will happen and the string will remain unchanged (<i>lines 7-17</i>)
+    will happen and the string will remain unchanged (<b><i>lines 7-17</i></b>)
 
 You can&apos;t even modify a character using an index. Strings are &quot;read
 only&quot; when using brackets to access individual characters!
@@ -13435,93 +13430,88 @@ CodePen: iterating pictures and create img elements</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-1">3.3.1 Playing audio and video streams</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-These examples are adapted from the ones in the W3Cx [HTML5 Coding
-Essentials and Best
-Practices](https://www.edx.org/learn/html5/the-world-wide-web-consortium-w3c-html5-coding-essentials-and-best-practices) course,
-which covers multimedia in depth. The [HTML5 advanced course (HTML5 Apps
-and
-Games)](https://www.edx.org/learn/html5/the-world-wide-web-consortium-w3c-html5-apps-and-games) also
-gives further examples covering topics such as making a video player
-with chapter navigation, clickable transcript, audio EQ, etc.
+<p>These examples are adapted from the ones in the W3Cx 
+<a href="https://www.edx.org/learn/html5/the-world-wide-web-consortium-w3c-html5-coding-essentials-and-best-practices">
+HTML5 Coding Essentials and Best Practices</a> course, which covers multimedia in depth. 
+The <a href="https://www.edx.org/learn/html5/the-world-wide-web-consortium-w3c-html5-apps-and-games">
+HTML5 advanced course (HTML5 Apps and Games)</a> also gives further examples covering 
+topics such as making a video player with chapter navigation, clickable transcript, 
+audio EQ, etc.</p>
 
 <h5>The &lt;video&gt; element</h5>
 
-The &lt;video&gt; element of HTML5 is one of the two &quot;Flash killers&quot; (the
+<p>The &lt;video&gt; element of HTML5 is one of the two &quot;Flash killers&quot; (the
 other being the &lt;canvas&gt; element). It was designed to replace horrible
 things like embedded Flash objects that we used to encounter not so long
-ago.
+ago.</p>
 
-The new way of doing things is a lot better&#41; (please open this [live
-example at JS Bin](https://jsbin.com/kimayesazo/edit?html,output)).
+<p>The new way of doing things is a lot better&#41; (please open this 
+<a href="https://jsbin.com/kimayesazo/edit?html,output">live example at JS Bin</a>).</p>
 
-The source code of this example shows the typical usage of
-the &lt;video&gt; element:
+<p>The source code of this example shows the typical usage of
+the &lt;video&gt; element:</p>
 
+<pre>
 1.  &lt;video width=&quot;320&quot; height=&quot;240&quot; controls=&quot;controls&quot;&gt;
-
 2.  &lt;source src=&quot;movie.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-
 3.  &lt;source src=&quot;movie.ogg&quot; type=&quot;video/ogg&quot; /&gt;
-
 4.  Your browser does not support the &lt;video&gt; element.
-
 5.  &lt;/video&gt;
+</pre>
 
 <h5>Please note that:</h5>
 
--   The <b>controls</b> attribute indicates that a control panel with
-    play/stop/volume/progress widgets should be displayed;
-
--   Usually the browser  will use the first format it recognizes  (in
+<ul>
+  <li>The <b>controls</b> attribute indicates that a control panel with
+    play/stop/volume/progress widgets should be displayed;</li>
+  <li>Usually the browser  will use the first format it recognizes  (in
     this case, the browser checks whether <b>mp4</b> is supported, and if
     not, it will check for the <b>ogg</b> format, and so on). Some browsers
-    may use a different heuristic and choose a &quot;preferred&quot; format.
+    may use a different heuristic and choose a &quot;preferred&quot; format.</li>
+  <li>The <b>&lt;video&gt;</b> element is a DOM member, so  CSS styling can be
+    applied, as well as manipulation using the DOM API.</li>
+</ul>
 
--   The <b>&lt;video&gt;</b> element is a DOM member, so  CSS styling can be
-    applied, as well as manipulation using the DOM API.
+<p>You will learn more about the different attributes of
+the <b>&lt;video&gt;</b> element later on in the course.</p>
 
-You will learn more about the different attributes of
-the <b>&lt;video&gt;</b> element later on in the course.
+<p><b>Restriction: you cannot embed a YouTube or a Daily Motion video using
+the &lt;video&gt; element</b></p>
 
-<b>Restriction: you cannot embed a YouTube or a Daily Motion video using
-the &lt;video&gt; element</b>
-
-Help! <b>&lt;video src=&quot;my youtube video URL&quot;&gt;&lt;/video&gt;</b> does not
-work! 
+<p>Help! <b>&lt;video src=&quot;my youtube video URL&quot;&gt;&lt;/video&gt;</b> 
+does not work!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 391.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 391. geo logo (16x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image391.png?raw=true"
+<img src="./images/image389.png?raw=true"
   style="width:25%"
-  title=""
-  alt="." />
-![](./images/image389.png){width="6.0in"
-height="0.9082130358705162in"}
+  title="Geo logo"
+  alt="Geo logo." />
 
-While they use HTML5 to render their videos, these
-hosting sites (YouTube, etc.) use rather complex techniques in order to
-prevent you from using them with the <b>&lt;video&gt;</b> element. Instead, you
-often need to embed an <b>&lt;iframe&gt;</b> that will render the HTML5 videos
-in your Web site, and of course, the advertising that comes along with
-them.
+<p>While they use HTML5 to render their videos, these hosting sites (YouTube, etc.) 
+use rather complex techniques in order to prevent you from using them with the 
+<b>&lt;video&gt;</b> element. Instead, you often need to embed an <b>&lt;iframe&gt;</b> 
+that will render the HTML5 videos in your Web site, and of course, the advertising 
+that comes along with them.</p>
 
-Usually you have an &quot;embed&quot; button close to the videos that prompts
-you with some HTML code that you can copy and paste for embedding.
+<p>Usually you have an &quot;embed&quot; button close to the videos that prompts
+you with some HTML code that you can copy and paste for embedding.</p>
 
 <h5>An example using YouTube:</h5>
 
-Here is the HTML code you need to copy and paste in order to embed a
+<p>Here is the HTML code you need to copy and paste in order to embed a
 video (in this case, a tutorial that tells you how to embed a YouTube
-video):
+video):</p>
 
+<pre>
 1.  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZH1XOsv8Oyo&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</pre>
 
-Below is the YouTube video embedded in this page using the above code:
+<p>Below is the YouTube video embedded in this page using the above code:
 it&apos;s HTML5 but it&apos;s not a <b>&lt;video&gt;</b> element directly inserted in
-the HTML of this page - it&apos;s an <b>&lt;iframe&gt;</b>.
+the HTML of this page - it&apos;s an <b>&lt;iframe&gt;</b>.</p>
 
-https://www.youtube.com/watch?v=tIHa587wZyY
+<p><a href="https://www.youtube.com/watch?v=tIHa587wZyY">YouTube</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 390.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -13534,36 +13524,37 @@ https://www.youtube.com/watch?v=tIHa587wZyY
 
 <h5>Introduction</h5>
 
-HTML5 audio is composed of several layers:
+<h5>HTML5 audio is composed of several layers:</h5>
 
--   [<b>The &lt;audio&gt; element </b>](https://www.w3.org/wiki/HTML/Elements/audio)is
-    useful for embedding an audio player into a Web page. It is
+<ul>
+  <li><a href="https://www.w3.org/wiki/HTML/Elements/audio"><b>The &lt;audio&gt; element </b></a> 
+    is useful for embedding an audio player into a Web page. It is
     dedicated for streamed audio. It is very similar to
-    the <b>&lt;video&gt;</b> element, both in its use and in its API.
-
--   [<b>The &quot;Web Audio API&quot;</b>](https://www.w3.org/TR/webaudio/) is
-    designed for musical applications and for adding sound effects to
+    the <b>&lt;video&gt;</b> element, both in its use and in its API.</li>
+  <li><a href="https://www.w3.org/TR/webaudio/"><b>The &quot;Web Audio API&quot;</b></a> 
+    is designed for musical applications and for adding sound effects to
     games. This pure JavaScript API supports manipulation of sound
     samples (loops, etc.), music synthesis and sound generation
     (oscillators, etc.). It also comes with a set of predefined sound
-    processing modules (reverb, delay, etc.).
+    processing modules (reverb, delay, etc.).</li>
+</ul>
 
-This course focuses on the <b>&lt;audio&gt;</b> element. Please check for  [the
-Web Audio API](https://www.w3.org/TR/webaudio/) and other advanced parts
-of HTML5 in W3Cx&apos;s [HTML5 Apps and
-Games](https://www.edx.org/course/html5-apps-and-games) course.
+<p>This course focuses on the <b>&lt;audio&gt;</b> element. Please check for 
+<a href="https://www.w3.org/TR/webaudio/">the Web Audio API</a> and other advanced parts
+of HTML5 in W3Cx&apos;s <a href="https://www.edx.org/course/html5-apps-and-games">
+HTML5 Apps and Games</a> course.</p>
 
-The attributes, event set and JavaScript API of
+<p>The attributes, event set and JavaScript API of
 the <b>&lt;audio&gt;</b> element are just a &quot;reduced&quot; version of the ones
 from the <b>&lt;video&gt;</b> element, and here we will only address their
-differences and peculiarities.
+differences and peculiarities.</p>
 
 <h5>The &lt;audio&gt; element</h5>
 
-The most simple basic example: [online example from
-JSBin](https://jsbin.com/xojobirowo/edit?html,output)
+<p>The most simple basic example: <a href="https://jsbin.com/xojobirowo/edit?html,output">
+online example from JSBin</a></p>
 
-Press play to stream the neigh of a horse:  
+<p>Press play to stream the neigh of a horse:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 391. horse neigh (16x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -21337,3 +21328,6 @@ features we implemented in the previous page:</p>
 <!-- last editted 8/6/2024 11:04pm -->
 <!-- last editted 8/10/2024 4:24pm -->
 <!-- last editted 8/11/2024 4:00pm -->
+<!-- last editted 8/12/2024 8:41pm -->
+
+
