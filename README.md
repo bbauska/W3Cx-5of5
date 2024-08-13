@@ -18143,13 +18143,13 @@ a string by calling toString() implicitly</b>.</p>
 6.  &quot;The object as a String : 1, 2, 3&quot;
 </pre>
 
-<b><i>Line 5</i></b>: using the + operator with a string as the left argument will
+<p><b><i>Line 5</i></b>: using the + operator with a string as the left argument will
 force the other arguments to convert to string by implicitly calling
-their toString() method.
+their toString() method.</p>
 
 <h5>The <b>valueOf</b> method inherited from Object by all objects</h5>
 
-The <b>ValueOf</b> method returns the value of an object:
+<p>The <b>ValueOf</b> method returns the value of an object:</p>
 
 <pre>1.  &gt; var t = &lbrack;1, 2, 3&rbrack;;
 2.  undefined
@@ -18160,44 +18160,42 @@ The <b>ValueOf</b> method returns the value of an object:
 7.  &gt; t.toString();
 8.  &quot;1,2,3&quot;
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-5">5.2.5 Built-in JS class: Array (8:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding video: predefined object - Array
+<p>Live coding transcript: predefined object - Array</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 482.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 482. codepen: built-in js class: array (462) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image482.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="CodePen: built-in JS class: array"
+  alt="CodePen: built-in JS class: array." />
 </p>
 
-Hi!
-
-This time, we look at the Array predefined JavaScript object. When you
+<p>This time, we look at the Array predefined JavaScript object. When you
 create an array, using the brackets notation, it&apos;s equivalent to using
 the "new" keyword with the name of the predefined class (or object)
-named, from JavaScript, "Array", with a big "A".
+named, from JavaScript, "Array", with a big "A".</p>
 
-You can create an empty array using "**new Array()**" or you can create
+<p>You can create an empty array using "**new Array()**" or you can create
 an array with elements inside, using "**new Array()**" followed by the
 list of elements. And if you only give one argument, you create an empty
 array full of undefined elements. "**new Array(10)**" will create an
-array with 10 undefined elements inside.
+array with 10 undefined elements inside.</p>
 
-To tell you the truth, I nearly never use this notation. I prefer using
+<p>To tell you the truth, I nearly never use this notation. I prefer using
 directly the bracket notation. But this was just to show you that arrays
-are objects.
+are objects.</p>
 
-Now, let&apos;s look at some of the predefined properties and methods
+<p>Now, let&apos;s look at some of the predefined properties and methods
 inherited from this "Array" predefined object. We already met the
 "length" property that corresponds to the number of elements in an
 array. If we look at the array named "a2", that contains "1" and "2", 2
 numeric elements, 2 numbers, &quot;**a2.length**&quot; will display "2" &#133; 2
-elements&#133; value "2". As arrays are objects, you can imagine that you
+elements&#133; value "2".</p>
+
+<p>As arrays are objects, you can imagine that you
 can also set some properties to them. You can do
 "**a2.name=&quot;Michel"**". This not so good because your are mixing
 numbers with a property that is a name, and so on&#41; I don&apos;t recommend
@@ -18205,57 +18203,57 @@ at all doing that: avoid! But just to show you something: it's that the
 length of an array works only on elements that have a numeric index. If
 we display the length after adding the name (property), we will still
 have a length of "2"&#133;&quot;only elements with a numeric indexes are taken
-into account&quot;.
+into account&quot;.</p>
 
-We can also change the "length" value. If we set the "length" to an
+<p>We can also change the "length" value. If we set the "length" to an
 arbitrary number, and if this number is bigger than the current number
 of elements, it will make the array grow and will fill it with undefined
 elements. After doing "a2.length=5", we can look at the length after
 that: it will be "5" and if we display the content of the array, it will
 display undefined, undefined, undefined. The notation, here, means
-undefined.
+undefined.</p>
 
-If you set the length to a value less than the current number of
+<p>If you set the length to a value less than the current number of
 elements, in that case, it will shorten the array. It will remove the
 unwanted elements from the array. Now let&apos;s have a look at the most
 useful methods on arrays. One is called "**sort()**" and it's useful for
-sorting an array. I&apos;ve got an array named "a" in the example.
+sorting an array. I&apos;ve got an array named "a" in the example.</p>
 
-Ok, let&apos;s set it again, here. I&apos;ve got an array named "a", if I type
+<p>Ok, let&apos;s set it again, here. I&apos;ve got an array named "a", if I type
 "**a.sort()**", it will both return a sorted array but it will also sort
 the array itself. And by default, it sorts the array using just the
 numerical or alphabetical order. You can also add and remove elements to
 "a". We already saw the "push()" and the "pop()" methods. If I do
 "**a.push()**" with new elements, and if we look again at the array, I
 added twice an element named "new" and each time it returns the new
-length of the array. "a.length" is "7".
+length of the array. "a.length" is "7".</p>
 
-I can use "**pop()**": **a.pop()**, that will remove the last inserted
+<p>I can use "**pop()**": **a.pop()**, that will remove the last inserted
 element, the element at the end. It will return the value that has been
 removed, and you can see that "a" losts its last element. I can do it
 again: "a" lost 2 new elements I added earlier. Ok, let&apos;s have a look
-at another method called "**join()**".
+at another method called "**join()**".</p>
 
-"**join()**" will add a string between each elements of the array.
+<p>"**join()**" will add a string between each elements of the array.
 "**a.join()**", and if I want to add some minus signs, will return the
 array with the minus sign in the middle. But it did not change the
 original array. If I want to use it, I can do: var b&#41; b with
 minus&#41; = **a.join("&#45;&#45;-")** And in that case, it's the returned
-array that will get the new modified value.
+array that will get the new modified value.</p>
 
-You can also use "**slice()**". "**slice()**" is a method that returns a
+<p>You can also use "**slice()**". "**slice()**" is a method that returns a
 sub-array without modifying the original array. If I want to remove the
 "3" and the "5" here, I need to remove elements from index 1 until index
-2, &#41;3.
+2, &#41;3.</p>
 
-"**a.slice(1,3)**"&#133; that means it will return "3" and "5" because this
+<p>"**a.slice(1,3)**"&#133; that means it will return "3" and "5" because this
 is the index of the last element before which I must stop cutting. And
 this does not modify the original array. If I want to remove elements
 and maybe insert elements at the location of the slice I remove, there
 is another method called "**splice()**". The "**splice()**" method
-modifies the array, it removes the slice and also adds new elements.
+modifies the array, it removes the slice and also adds new elements.</p>
 
-Let&apos;s start with the array "a". And I want to remove "3" and "5", and
+<p>Let&apos;s start with the array "a". And I want to remove "3" and "5", and
 insert new elements instead. I can use the same syntax as before except
 that I will add a "p" for changing the name of the method, and I will
 add 3 new elements. If I look at what happened, it returned the slice
@@ -18263,38 +18261,40 @@ that has been removed and now, in the array, we inserted instead the new
 elements. In that case, "**splice()**"&#41; the last&#41;, the second
 parameter, is included in the slice, It&apos;s a bit different and the
 previous method we saw. This means &quot;remove elements 1 with index 1, 2
-and 3&quot; and put these elements instead.
+and 3&quot; and put these elements instead.</p>
 
-It removed these 3 elements: 3, 5, 7 and inserted these elements
+<p>It removed these 3 elements: 3, 5, 7 and inserted these elements
 instead. If you just use 2 parameters, the begin and the end indexes, it
 will just remove elements. In that case, we&apos;ll remove the 2 elements
 I've inserted here. And if I look at the array, it has been modified.
 These methods are quite powerful for manipulating elements inside an
 array: remove, insert, insert at the end, remove at the end, and so
-on&#41;
+on&#41;</p>
 
-<!-- end transcript 5.2.5 -->
+<!-- end transcript 5.2.5 built-in JS class: array -->
 
 <h5>Source code from the above video</h5>
 
--   The source code is available[ on this
-    CodePen](https://codepen.io/w3devcampus/pen/XgRyar?editors=0012)
+<ul>
+  <li>The source code is available <a href="https://codepen.io/w3devcampus/pen/XgRyar?editors=0012">
+    on this CodePen</a></li>
+</ul>
 
-The Array class can be used for creating arrays (however, we
-recommend that you use the other methods presented instead):
+<p>The Array class can be used for creating arrays (however, we
+recommend that you use the other methods presented instead):</p>
 
-<pre>1.  &gt; **var a = new Array();** // **same as a = &lbrack;&rbrack;; use this instead!**
+<pre>1.  &gt; <b>var a = new Array();</b> // <b>same as a = &lbrack;&rbrack;; use this instead!</b>
 2.  undefined
 3.   
-4.  &gt; **var b = new Array(1, 2, 3);**
+4.  &gt; <b>var b = new Array(1, 2, 3);</b>
 5.  undefined
 6.   
 7.  &gt; b;
 8.  &lbrack;1, 2, 3&rbrack;
 </pre>
 
-Attention: if only one element, this corresponds to the initial size of
-the array.
+<p>Attention: if only one element, this corresponds to the initial size of
+the array.</p>
 
 <pre>1.  &gt; var myArray = new Array(3);
 2.  undefined
@@ -18305,13 +18305,13 @@ the array.
 
 <h5>Arrays are objects, but they are "special" objects</h5>
 
--   Their property names are numerical indexes that start from 0
-
--   They have a special length property that represents their
-    length/number of elements
-
--   They have other built-in properties in addition to the ones
-    inherited from Object (toString, valueOf)
+<ul>
+  <li>Their property names are numerical indexes that start from 0</li>
+  <li>They have a special length property that represents their
+    length/number of elements</li>
+  <li>They have other built-in properties in addition to the ones
+    inherited from Object (toString, valueOf)</li>
+</ul>
 
 <pre>1.  &gt; var a = &lbrack;&rbrack;, o = {};
 2.  undefined
@@ -18323,7 +18323,7 @@ the array.
 8.  undefined
 </pre>
 
-Some horrible things we can do with arrays (TO AVOID!):
+<p>Some horrible things we can do with arrays (TO AVOID!):</p>
 
 <pre>1.  &gt; var a = &lbrack;1, 2&rbrack;;
 2.  undefined
@@ -18352,18 +18352,18 @@ Some horrible things we can do with arrays (TO AVOID!):
 25. &lbrack;1, 2, 3, name: &quot;I&apos;m an array named a!&quot;&rbrack;
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 483.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 483. with arrays, only numerical indexes count (465) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image483.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="With arrays, only properties with a numerial index are taken into account by the length property"
+  alt="With arrays, only properties with a numerial index are taken into account by the length property." />
 </p>
 
-<h5><b>The length property can be modified: reducing or increasing the size of an array</b></h5>
+<h5>The length property can be modified: reducing or increasing the size of an array</h5>
 
-If you give to the length property a value bigger than the number of
-elements in an array, it adds undefined elements to it:
+<p>If you give to the length property a value bigger than the number of
+elements in an array, it adds undefined elements to it:</p>
 
 <pre>1.  &gt; var a = &lbrack;1, 2&rbrack;;
 2.  undefined
@@ -18375,8 +18375,8 @@ elements in an array, it adds undefined elements to it:
 8.  &lbrack;1, 2, undefined × 3&rbrack;
 </pre>
 
-If you give to the length property a value less than the array's number
-of elements, it reduces the size of the array:
+<p>If you give to the length property a value less than the array's number
+of elements, it reduces the size of the array:</p>
 
 <pre>1.  &gt; var a = &lbrack;1, 2, 3&rbrack;;
 2.  undefined
@@ -18391,29 +18391,25 @@ of elements, it reduces the size of the array:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-6">5.2.6 The most useful methods of the class Array</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>The most useful methods you can use on arrays are: sort(), join(),
+slice(), splice(), push()and pop()</p>
 
-The most useful methods you can use on arrays are: sort(), join(),
-slice(), splice(), push()and pop()
-
--   sort: sort the elements in the array. Either alphabetically if they
+<ul>
+  <li>sort: sort the elements in the array. Either alphabetically if they
     are strings, or in ascending order if they are numbers. There is
     also a way to sort the elements using other criteria, which is
     explained a bit further on in the course. With a call to var b =
     a.sort(), a is also sorted. The sort method sorts the array +
-    returns it.
-
--   join: adds a string between each element and returns the result as a
-    string
-
--   slice: returns a sub-array without modifying the original array
-
--   splice: modifies the array, it removes "a slice" and it also adds
-    new elements
-
--   push: appends an element at the end of the array and returns the new
-    length
-
--   pop: removes the last element and returns it
+    returns it.</li>
+  <li>join: adds a string between each element and returns the result as a
+    string</li>
+  <li>slice: returns a sub-array without modifying the original array</li>
+  <li>splice: modifies the array, it removes "a slice" and it also adds
+    new elements</li>
+  <li>push: appends an element at the end of the array and returns the new
+    length</li>
+  <li>pop: removes the last element and returns it</li>
+</ul>
 
 <h5>Typical uses of  push, pop, sort, join</h5>
 
@@ -18446,23 +18442,22 @@ slice(), splice(), push()and pop()
 27.  
 28. &gt; a.join(&apos; and &apos;);
 29. &quot;1 and 3 and 5 and 7 and test&quot;
-30. 
 </pre>
 
 <h5>The slice() method returns a sub-array without modifying the original array</h5>
 
-The slice() method returns a shallow copy of a portion of an array into
-a new array object selected from begin to end (**end not included**).
-The original array will not be modified.
+<p>The slice() method returns a shallow copy of a portion of an array into
+a new array object selected from begin to end (<b>end not included</b>).
+The original array will not be modified.</p>
 
-Possible syntaxes:
+<h5>Possible syntaxes:</h5>
 
--   arr.slice()
-
--   arr.slice(begin)
-
--   arr.slice(begin, end) // ELEMENT AT INDEX=end will not be included
-    in the slice!
+<ul>
+  <li>arr.slice()</li>
+  <li>arr.slice(begin)</li>
+  <li>arr.slice(begin, end) // ELEMENT AT INDEX=end will not be included
+    in the slice!</li>
+</ul>
 
 <pre>1.  &gt; a;
 2.  &lbrack;1, 3, 5, 7, &quot;test&quot;&rbrack;
@@ -18484,26 +18479,26 @@ Possible syntaxes:
 
 <h5>The splice() method modifies the array: it removes "a slice" and also adds new elements</h5>
 
-The first two parameters are start and the number of elements to delete,
+<p>The first two parameters are start and the number of elements to delete,
 the other parameters are the elements to add to the array to replace the
-slice that will be removed.
+slice that will be removed.</p>
 
-Possible syntaxes:
+<h5>Possible syntaxes:</h5>
 
--   array.splice(start)
+<ul>
+  <li>array.splice(start)</li>
+  <li>array.splice(start, deleteCount)</li>
+  <li>array.splice(start, deleteCount, item1, item2, &#41;)</li>
+</ul>
 
--   array.splice(start, deleteCount)
+<p>start: index at which to start changing the array (with origin 0)</p>
 
--   array.splice(start, deleteCount, item1, item2, &#41;)
+<p>deleteCount: An integer indicating the number of old array elements to
+remove.</p>
 
-start: index at which to start changing the array (with origin 0)
-
-deleteCount: An integer indicating the number of old array elements to
-remove.
-
-item1, item2, &#41;: these are optional. They are the elements to add to
+<p>item1, item2, &#41;: these are optional. They are the elements to add to
 the array, beginning at the start index. If you don&apos;t specify any
-elements, splice() will only remove elements from the array.
+elements, splice() will only remove elements from the array.</p>
 
 <h5>Examples:</h5>
 
@@ -18526,9 +18521,8 @@ elements, splice() will only remove elements from the array.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-7">5.2.7 Built-in JS class: Number</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-The Number class can be used to transform strings into numbers, but it is
-recommended that you use parseInt or parseFloat instead.
+<p>The Number class can be used to transform strings into numbers, but it is
+recommended that you use parseInt or parseFloat instead.</p>
 
 <pre>1.  &gt; var n = Number(&apos;3.1416&apos;);
 2.  undefined
@@ -18552,16 +18546,15 @@ recommended that you use parseInt or parseFloat instead.
 20. 3.1416
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 484.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 484. numbers logo (469) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image484.png?raw=true"
   style="width:10%"
-  title=" "
-  alt=" ." />
+  title="Numbers logo"
+  alt="Number logo." />
 </p>
 
-Number has useful non-modifiable properties
-(constants): MAX_VALUE and MIN_VALUE:
+<p>Number has useful non-modifiable properties (constants): MAX_VALUE and MIN_VALUE:</p>
 
 <pre>1.  &gt; Number.MAX_VALUE;
 2.  1.7976931348623157e+308
@@ -18593,8 +18586,7 @@ Number has useful non-modifiable properties
 <pre>1.  &gt; var n = 123.456;
 2.  123.456
 3.   
-4.  &gt; n.toFixed(1); // sets the number of digits for the decimal part
-    of the number
+4.  &gt; n.toFixed(1); // sets the number of digits for the decimal part of the number
 5.  &quot;123.5&quot;
 6.   
 7.  &gt; n = new Number(123.456); // same as n = 123.456
@@ -18632,105 +18624,110 @@ Number has useful non-modifiable properties
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: predefined class - String</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 485.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 485. built-in js class: string (471) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image485.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="CodePen: built-in JavaScript class: string"
+  alt="CodePen: built-in JavaScript class: string." />
 </p>
 
-Strings are also a predefined object and all strings in JavaScript
+<p>Strings are also a predefined object and all strings in JavaScript
 inherit from different properties and methods. I will show you the most
 useful ones, but before that, I must explain to you one thing that is a
 maybe not explicit: in JavaScript, strings are not modifiable. You
 cannot change the content of a string without copying its content into
-another string. Let me show you that.
+another string. Let me show you that.</p>
 
-If I declare a string with the value "Michel" in it: string "s" - and I
+<p>If I declare a string with the value "Michel" in it: string "s" - and I
 try to modify its content like this: "s." character at position 0 equals
 something else. It returns the character that I modified but if I type
 the value of "s", it&apos;s unchanged. When you want to add or remove
 characters, you cannot use the bracket notation. The most common thing
-we do is: "s = s +" something.
+we do is: "s = s +" something.</p>
 
-You see like that. I&apos;m creating a new string that has the old value of
+<p>You see like that. I&apos;m creating a new string that has the old value of
 "s" plus the "say hello" string. This is stored somewhere in memory and
 then "s" will get a new reference: instead of referencing "Michel", it
 now references another string located somewhere else in memory that has
 the value "Michel says hello". This is how we can concatenate elements
-to a string.
+to a string.</p>
 
-Let&apos;s look at some of the most useful methods. One is a
-"**toUpperCase()**". It returns the string "s" in upper case, but
+<p>Let&apos;s look at some of the most useful methods. One is a
+"<b>toUpperCase()</b>". It returns the string "s" in upper case, but
 without modifying the string itself. If you want to modify "s", you will
-do: "s = **s.toUpperCase()**". In that case, &quot;s&quot; has been modified.
+do: "s = <b>s.toUpperCase()</b>". In that case, &quot;s&quot; has been modified.
 The same, if you want to put it in lower case, so you&apos;ve got
-"**toLowerCase()**". That works too and using "s = **s.toLowerCase()**"
-modifies the string. Some other interesting methods are "**indexOf()**"
+"<b>toLowerCase()</b>". That works too and using "s = <b>s.toLowerCase()</b>"
+modifies the string.</p>
+
+<p>Some other interesting methods are "<b>indexOf()</b>"
 to locate, to get the index of a particular character. "<b>s.indexOf()</b>"
 and&#41;if I say&#41; the character "c", it will return 2. 0 for the "m",
 1 for the "i" and 2 for the "c". "<b>indexOf()</b>" returns the first
-occurrence. If I try it with an "l", it will be 5 for the first
+occurrence.</p>
+
+<p>If I try it with an "l", it will be 5 for the first
 occurrence of the chain. You&apos;ve got also the "<b>lastIndexOf()</b>" method
 that is useful for getting the last position: 15 will be this "l", the
 last "l" from the "hello" word located at the end of the string. You&apos;ve
 got also "<b>charAt()</b>" that is useful for getting a character at a
 given position: "<b>s.charAt(5)</b>" will return the character at number 5,
-it&apos;s "l".
+it&apos;s "l".</p>
 
-We can also chain methods. We&apos;ve got "s" that has the value of "Michel
+<p>We can also chain methods. We&apos;ve got "s" that has the value of "Michel
 says hello". You can say: "<b>s.toUpperCase()</b>" and this will return the
 same value but in upper case. And now I can do for example:
 "<b>lastIndexOf()</b>" with the big "L" and it will give me the answer,
 because "<b>s.toUpperCase()</b>" will return a value in upper case and on
 this return value, we will try to get the index of the last "l", big "L"
-in it. Then, you can also get parts of a string without modifying it.
+in it. Then, you can also get parts of a string without modifying it.</p>
 
-You&apos;ve got 2 different methods that are very similar. For the most
+<p>You&apos;ve got 2 different methods that are very similar. For the most
 common use, it&apos;s "<b>slice()</b>" and "<b>substring()</b>". Let&apos;s me show
 you "<b>substring()</b>". Let&apos;s type again the value of "s":
-<b>s.substring()</b>"&#133; beginning index and end index&#133;
+<b>s.substring()</b>"&#133; beginning index and end index&#133;</p>
 
-For example, 0 to 3 will get the characters at index 0, 1 and 2. It
+<p>For example, 0 to 3 will get the characters at index 0, 1 and 2. It
 stops before the end parameter. It will get character at position 0, 1
 and 2 not 3. If I try again with 3 to 5, it will get only 2 characters:
-3 and 4. You see that.
+3 and 4. You see that.</p>
 
-"<b>slice()</b>" does the same thing, so in my opinion just choose one.
+<p>"<b>slice()</b>" does the same thing, so in my opinion just choose one.
 "<b>slice()</b>" will do exactly the same thing. To tell you the thrust, I
 mainly use only "<b>substring()</b>" with 2 arguments begin and end that
 are positive and begin less that end. Follow this advice and will not
 have any problem. Other interesting methods are "<b>split()</b>" and
 "<b>join()</b>". If you use "<b>split()</b>", you can indicate the separator
-character. In the current string, you&apos;ve got spaces between the words.
+character. In the current string, you&apos;ve got spaces between the words.</p>
 
-If I do this, it returns an array composed of tokens that are just the
+<p>If I do this, it returns an array composed of tokens that are just the
 different slices of the strings separated by a space. If I want to split
 "s" using another separator, for example, I can enter the character "l",
-then in that case you will have slices separated by the "l" keyword.
+then in that case you will have slices separated by the "l" keyword.</p>
 
-Ok let&apos;s try again with this one.
+<p>Ok let&apos;s try again with this one.</p>
 
-And "<b>join()</b>" will rebuild, again from an array of tokens, it will
+<p>And "<b>join()</b>" will rebuild, again from an array of tokens, it will
 rebuild a string. And you can indicate what set of characters should be
-inserted in the middle between each token.
+inserted in the middle between each token.</p>
 
-If I do this, it will&#133; ok&#133;I need to do this on the array so:
+<p>If I do this, it will&#133; ok&#133;I need to do this on the array so:
 "<b>s.split(&apos; &apos;).join(&apos;&#45;&#45;&#45;-&apos;)</b>" will first return the array of
 tokens separated by space and will in turn build again a string with
-&apos;&#45;&#45;&#45;-&apos; between different tokens.
+&apos;&#45;&#45;&#45;-&apos; between different tokens.</p>
 
-<!-- end transcript 5.2.8 -->
+<!-- end transcript 5.2.8 built-in JavaScript class: string -->
 
 <h5>Source code from the video example</h5>
 
--   The source code that corresponds to what has been showed in the
-    video is available [in this
-    CodePen](https://codepen.io/w3devcampus/pen/pwPGve?editors=0012).
+<ul>
+  <li>The source code that corresponds to what has been showed in the
+    video is available <a href="https://codepen.io/w3devcampus/pen/pwPGve?editors=0012">
+	in this CodePen</a>.
 
-The String class can be used to build new strings, but it's preferable
-to use the standard syntax:
+<p>The String class can be used to build new strings, but it's preferable
+to use the standard syntax:</p>
 
 <pre>1.  &gt; var name = 'Michel'; // use this rather than using new String(&#133;)
 2.  undefined
@@ -18749,18 +18746,19 @@ to use the standard syntax:
 
 <pre>1.  &gt; var name = 'Michel';
 2.  Undefined
-3.  name.length;
-4.  6
-5.  name&lbrack;0&rbrack;;
-6.  "M"
-7.  name&lbrack;0&rbrack; = 'Z';
-8.  "Z"
-9.  name; // we cannot modify a string using s&lbrack;index&rbrack; = value;
-10. "Michel"
-11. 'Michel'.length;
-12. 6
-13. 'Michel'&lbrack;0&rbrack;;
-14. "M"
+3.
+4.  name.length;
+5.  6
+6.  name&lbrack;0&rbrack;;
+7.  "M"
+8.  name&lbrack;0&rbrack; = 'Z';
+9.  "Z"
+10. name; // we cannot modify a string using s&lbrack;index&rbrack; = value;
+11. "Michel"
+12. 'Michel'.length;
+13. 6
+14. 'Michel'&lbrack;0&rbrack;;
+15. "M"
 </pre>
 
 <h5>Explanations:</h5>
@@ -18777,7 +18775,7 @@ to use the standard syntax:
 
 <h4>Useful methods: toUpperCase, toLowerCase, indexOf, charAt</h4>
 
-These methods are all inherited from the String class:
+<p>These methods are all inherited from the String class:</p>
 
 <ul>
   <li>toUpperCase: returns the string in upper case. Do not change the
@@ -18802,7 +18800,6 @@ These methods are all inherited from the String class:
 9.  undefined
 10. s2;
 11. &quot;i&apos;m the walrus&quot;
-
 12. s; // s is unchanged
 13. &quot;I&apos;m the Walrus&quot;
 14. s.indexOf(&apos;w&apos;); // no 'w' in s
@@ -18812,8 +18809,9 @@ These methods are all inherited from the String class:
 18. 8
 19. s2&lbrack;8&rbrack;; // char at index 8
 20. &quot;w&quot;
-21. s2.charAt(8); // same as s2&lbrack;8&rbrack;
-22. &quot;w&quot;
+21.
+22. s2.charAt(8); // same as s2&lbrack;8&rbrack;
+23. &quot;w&quot;
 </pre>
 
 <h5>Other useful methods: lastIndexOf, chaining methods</h5>
@@ -18848,17 +18846,16 @@ These methods are all inherited from the String class:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-9">5.2.9 The most useful methods of the class String</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-The most useful methods of the String are: slice, substring, split, join
+<p>The most useful methods of the String are: slice, substring, split, join.</p>
 
 <h5>The slice and substring methods</h5>
 
-<b>Both these methods can be used to extract a substring from a
-string. </b>They take two parameters: the start and end index of the slice
+<p><b>Both these methods can be used to extract a substring from a
+string.</b> They take two parameters: the start and end index of the slice
 (<b>element at end index will NOT be included in the slice</b>): "please
-cut from this index, to this one, not included!". 
+cut from this index, to this one, not included!".</p>
 
-These two methods are very similar. 
+<p>These two methods are very similar.</p>
 
 <h5>Examples:</h5>
 
@@ -18891,64 +18888,63 @@ These two methods are very similar. 
 <h4>&lbrack;Advanced&rbrack; There is a difference between slice and substring, 
 when the second parameter is negative</h4>
 
-If you are a beginner, we recommend that you use substring for most
+<p>If you are a beginner, we recommend that you use substring for most
 common cases (as it will behave the same as slice) and that you stay
 away from negative parameters, where slice and substring show small
-differences.
+differences.</p>
 
-Beginners: do not read what follows about slice and substring! There
-will be no related graded questions at the end of this chapter!
+<p>Beginners: do not read what follows about slice and substring! There
+will be no related graded questions at the end of this chapter!</p>
 
 <pre>1.  &gt; var s = &quot;My name is Bond! James Bond!&quot;;
 2.  undefined
 3.   
 4.  &gt; s.slice(11, -1); // start from index = 11 to length-1, extract
-    the end of the string from 11th element
+      the end of the string from 11th element
 5.  &quot;Bond! James Bond&quot;
 6.   
 7.  &gt; s.substring(11, -1); // the reverse, extract from 0 until 11-1,
-    get the first 10 chars
+      get the first 10 chars
 8.  &quot;My name is &quot;
 9.   
-10. &gt; s.substring(1, -1); // extract from 0 to 1-1 = 0, get the first
-    char
+10. &gt; s.substring(1, -1); // extract from 0 to 1-1 = 0, get the first char
 11. &quot;M&quot;
 </pre>
 
-Actually, here is a summary of the common behaviors and the differences
-between slice and substring.
+<p>Actually, here is a summary of the common behaviors and the differences
+between slice and substring.</p>
 
 <h4>&lbrack;Advanced&rbrack; slice(start, stop) works like substring(start, stop) 
 with a few different behaviors</h4>
 
-<b>What they have in common:</b>
+<h5>What they have in common:</h5>
 
--   If start equals stop: returns an empty string
+<ul>
+  <li>If start equals stop: returns an empty string</li>
+  <li>If stop is omitted: extracts characters to the end of the string</li>
+  <li>If either argument is greater than the string&apos;s length, the 
+    string&apos;s length will be used instead.</li>
+</ul>
 
--   If stop is omitted: extracts characters to the end of the string
+<h5>Distinctions of substring():</h5>
 
--   If either argument is greater than the string&apos;s length, the
-    string&apos;s length will be used instead.
+<ul>
+  <li>If start &gt; stop, then substring will swap those two arguments.</li>
+  <li>If either argument is negative or is NaN, it is treated as if it were 0.</li>
+</ul>
 
-<b>Distinctions of substring():</b>
+<h5>Distinctions of slice():</h5>
 
--   If start &gt; stop, then substring will swap those two arguments.
-
--   If either argument is negative or is NaN, it is treated as if it
-    were 0.
-
-<b>Distinctions of slice():</b>
-
--   If start &gt; stop, slice() will NOT swap the two arguments.
-
--   If start is negative: sets char from the end of string.
-
--   If stop is negative: sets stop to: string.length -- Math.abs(stop.
+<ul>
+  <li>If start &gt; stop, slice() will NOT swap the two arguments.</li>
+  <li>If start is negative: sets char from the end of string.</li>
+  <li>If stop is negative: sets stop to: string.length -- Math.abs(stop.</li>
+</ul>
 
 <h5>The split(), join() and concat() methods</h5>
 
-The split method returns an array of strings, the parameter is a
-separator. The join method builds a string from an array of strings.
+<p>The split method returns an array of strings, the parameter is a
+separator. The join method builds a string from an array of strings.</p>
 
 <pre>1.  &gt; var s = &quot;My name is Bond! James Bond!&quot;;
 2.  undefined
@@ -18984,20 +18980,18 @@ separator. The join method builds a string from an array of strings.
 32. &quot;My name is Bond! James Bond! And I&apos;ve made a lot of movies!&quot;
 33.  
 34. &gt; s += &quot; Action films!&quot; // this too, most common syntax for
-    concatenating strings
+      concatenating strings
 35. &quot;My name is Bond! James Bond! And I&apos;ve made a lot of movies!
-    Action films!&quot;
+      Action films!&quot;
 36.  
 37. &gt; s; // s changed too
 38. &quot;My name is Bond! James Bond! And I&apos;ve made a lot of movies!
-    Action films!&quot;
+      Action films!&quot;
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-10">5.2.10 Built-in JavaScript class: Math</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-It's not possible to do var m = new Math();
+<p>It's not possible to do var m = new Math();</p>
 
 <pre>1.  &gt; var m = new Math();
 2.  VM5777:1 <b>Uncaught TypeError: Math is not a constructor</b>
@@ -19005,12 +18999,12 @@ It's not possible to do var m = new Math();
 4.  (anonymous) @ VM5777:1
 </pre>
 
-But the Math class has a lot of properties and methods that are useful
+<p>But the Math class has a lot of properties and methods that are useful
 for arithmetic expressions. <b>They are all class methods and properties,
 so you will need to use the name of the class followed by the dot
-operator to access them.</b>
+operator to access them.</b></p>
 
-Here are some examples:
+<h5>Here are some examples:</h5>
 
 <pre>1.  Math.PI;
 2.  3.141592653589793
@@ -19026,7 +19020,7 @@ Here are some examples:
 
 <h4>Random numbers between 0 and 1 with Math.random()</h4>
 
-Math.random() returns a float value between 0 and 1.
+<h5>Math.random() returns a float value between 0 and 1.</h5>
 
 <h5>Examples:</h5>
 
@@ -19042,7 +19036,7 @@ Math.random() returns a float value between 0 and 1.
 <h5>And here is a utility function:</h5>
 
 <pre>1.  function getRandomValue(min, max) {
-2.  return ((max - min) &#42; Math.random()) + min;
+2.    return ((max - min) &#42; Math.random()) + min;
 3.  }
 4.  getRandomValue(5, 10);
 5.  5.064160540161435
@@ -19054,29 +19048,33 @@ Math.random() returns a float value between 0 and 1.
 
 <h5>For example Math.round(Math.random()); will return 0 or 1.</h5>
 
--   Indeed, if Math.random() returns a value above 0.5, Math.round of
-    this value will return 1, if the value is below 0.5, Math.round will
-    return 0:
+<p>Indeed, if Math.random() returns a value above 0.5, Math.round of
+this value will return 1, if the value is below 0.5, Math.round will
+return 0:</p>
 
-<pre>  1. Math.round(Math.random());
-  2. 1
-  3. Math.round(Math.random());
-  4. 0
-  5. Math.round(Math.random());
-  6. 1
-  7. Math.round(Math.random());
-  8. 1
+<pre>1.  &gt; Math.round(Math.random());
+2.  1
+3. 
+4.  &gt; Math.round(Math.random());
+5.  0
+6.
+7.  &gt; Math.round(Math.random());
+8.  1
+9.
+10. &gt; Math.round(Math.random());
+11. 1
 </pre>
 
-<h5>Get the min and the max of two values with Math.min(a, b) and Math.max(a, b)</h5>
+<p>Get the min and the max of two values with Math.min(a, b) and Math.max(a, b)</p>
 
 <pre>1. Math.min(12, 4);
 2. 4
-3. Math.max(12, 4);
-4. 12
+3.
+4. Math.max(12, 4);
+5. 12
 </pre>
 
-A useful function that restricts a value between  min and  max bounds:
+<p>A useful function that restricts a value between  min and  max bounds:</p>
 
 <pre>1.  function restrictValue(value, min, max) {
 2.  return Math.min(Math.max(1, value), max);
@@ -19103,29 +19101,28 @@ A useful function that restricts a value between  min and  max bounds:
 
 <h4>Math.atan2(dy, dx) is useful for getting an angle between a point in a canvas and the mouse cursor</h4>
 
-Here is a typical example of the use of Math.atan2 in a video game, in
+<p>Here is a typical example of the use of Math.atan2 in a video game, in
 order to make an object follow the mouse cursor by moving towards it.
-Look at the code in the mainloop function.
+Look at the code in the mainloop function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 486.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 486. CodePen: example using Math.atan2 in video game (480) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image486.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="CodePen: example using Math.atan2 in video game"
+  alt="CodePen: example using Math.atan2 in video game." />
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/aWOJQN" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: example using Math.atan2 in video game</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-11">5.2.11 Built-in JS class: Date</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Let&apos;s see how to get a date by calling the Date constructor.</p>
 
-Let&apos;s see how to get a date by calling the Date constructor.
+<p>Without any argument, a call to new Date() returns the current date.</p>
 
-<b>Without any argument, a call to new Date() returns the current date.</b>
-
-<b>Note</b>: The return value is actually a Date object, which is displayed
-by calling toString() on this object.
+<p><b>Note</b>: The return value is actually a Date object, which is displayed
+by calling toString() on this object.</p>
 
 <pre>1.  var date = new Date();
 2.  undefined
@@ -19135,17 +19132,17 @@ by calling toString() on this object.
 6.  Wed Apr 12 2017 11:10:28 GMT+0200 (CEST)
 </pre>
 
-<b>We can also pass it an argument that can be:</b>
+<p>We can also pass it an argument that can be:</p>
 
--   A string that encodes a date
+<ul>
+  <li>A string that encodes a date,</li>
+  <li>A set of numeric values separated by a comma for month, day, hour,
+    and so on,</li>
+  <li>A Unix &quot;timestamp&quot;  (number of milliseconds elapsed since 1970)</li>
+</ul>
 
--   A set of numeric values separated by a comma for month, day, hour,
-    and so on
-
--   A Unix &quot;timestamp&quot;  (number of milliseconds elapsed since 1970)
-
-&#41; in this case it returns a date object that corresponds to the
-encoded date passed as argument.
+<p>&#41; in this case it returns a date object that corresponds to the
+encoded date passed as argument.</p>
 
 <h4>Examples:</h4>
 
@@ -19159,10 +19156,10 @@ encoded date passed as argument.
 8.  Mon Jan 02 2017 08:30:00 GMT+0100 (CET)
 </pre>
 
-Numerical parameters can also be passed in this order: year, month
+<p>Numerical parameters can also be passed in this order: year, month
 (0-11), day (1-31), time (0-23), minutes (0-59), seconds , milliseconds
 (0-999). We do not have to pass everything but it should always be in
-this order.
+this order.</p>
 
 <h4>Examples:</h4>
 
@@ -19187,8 +19184,8 @@ this order.
 19. Mon Jan 01 2018 00:00:00 GMT+0100 (CET)
 </pre>
 
-One can build the date with a Unix timestamp (number of milliseconds
-since 1970):
+<p>One can build the date with a Unix timestamp (number of milliseconds 
+since 1970):</p>
 
 <pre>1.  new Date(1199885822900);
 2.  Wed Jan 09 2008 14:37:02 GMT+0100 (CET)
@@ -19230,16 +19227,18 @@ does not matter if we pass parameters:
 7.  Great, it was a Friday :-)
 </pre>
 
-Let&apos;s write a small piece of code that will guess which days of the
-week Michel Buffa&apos;s birthday will occur, between 2017 and 2047:
+<p>Let&apos;s write a small piece of code that will guess which days of the
+week Michel Buffa&apos;s birthday will occur, between 2017 and 2047:</p>
 
-<pre>1.  var dayOfTheWeek = &lbrack;0,0,0,0,0,0,0&rbrack;;
-2.  for (var year = 2017; year &lt;= 2047; year++) {
-3.  dayOfTheWeek&lbrack;new Date(year, 4, 16).getDay()&rbrack;++;
-4.  }
-5.  daysOfTheWeek
-6.  &lbrack;4, 4, 5, 5, 4, 4&rbrack; // 4 times on a Sunday, Monday, Friday and Saturday,
-7.  &lbrack;4, 4, 5, 5, 5, 4, 4&rbrack; // 5 times on Tuesday, Wednesday and Thursday
+<pre>
+1.  var dayOfTheWeek = &lbrack;0,0,0,0,0,0,0&rbrack;;
+2. 
+3.  for (var year = 2017; year &lt;= 2047; year++) {
+4.    dayOfTheWeek&lbrack;new Date(year, 4, 16).getDay()&rbrack;++;
+5.  }
+6.  daysOfTheWeek
+7.  &lbrack;4, 4, 5, 5, 4, 4&rbrack;    // 4 times on a Sunday, Monday, Friday and Saturday,
+8.  &lbrack;4, 4, 5, 5, 5, 4, 4&rbrack; // 5 times on Tuesday, Wednesday and Thursday
 </pre>
 
 <h5>Explanations:</h5>
@@ -19259,122 +19258,124 @@ week Michel Buffa&apos;s birthday will occur, between 2017 and 2047:
 	calling the object toString() method.</li>
 </ul>
 
-And here is a full version with input fields and results displayed in an
-HTML table:
+<p>And here is a full version with input fields and results displayed in an
+HTML table:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 487.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 487. codepen: example input fields in html table  (483) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image487.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="CodePen: example input fields in HTML table"
+  alt="CodePen: example input fields in HTML table." />
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/Mmwqgq" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: example input fields in HTML table</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-1">5.3.1 The HTML table basics</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>The &lt;table&gt; element helps with rendering tables in an HTML document.</p>
 
-The &lt;table&gt; element helps with rendering tables in an HTML document.  
-
-Each table row is defined with the &lt;tr&gt; tag (<b>T</b>able <b>R</b>ow). A
+<p>Each table row is defined with the &lt;tr&gt; tag (<b>T</b>able <b>R</b>ow). A
 table header is defined with the &lt;th&gt; tag (<b>T</b>able <b>H</b>eader). By
 default, table headings are bold and centered. A table data/cell is
 defined with the &lt;td&gt; tag (<b>T</b>able <b>D</b>ata). In each cell, you can
 have other HTML elements/tags. You can have only &quot;column table
 headers&quot; (the first row of the table will be in bold), or you can also
-have &quot;row headers&quot; (first cell of each row).
+have &quot;row headers&quot; (first cell of each row).</p>
 
-</b>Best practice for making the table accessible:</b> always add
+<p><b>Best practice for making the table accessible:</b> always add
 a &lt;caption&gt; tag inside the &lt;table&gt; tag. Data tables very often have
 brief descriptive text before or after the table that indicates the
 content of that table. This text should be associated to its respective
 table using the &lt;caption&gt; element. The &lt;caption&gt; element must be the
-first thing after the opening &lt;table&gt; tag.
+first thing after the opening &lt;table&gt; tag.</p>
 
-<b>Second best practice for accessibility:</b> use a scope attribute with
+<p><b>Second best practice for accessibility:</b> use a scope attribute with
 all &lt;th scope = &quot;row or column&quot;&gt; for identifying whether a table
 header is a column header or a row header. We invite you to read 
 <a href="https://www.w3.org/WAI/tutorials/tables/" 
 target="_blank" rel="noopener noreferrer">these guidelines</a> for making 
-accessible tables.
+accessible tables.</p>
 
 <h5>Typical example:</h5>
 
-<pre>1.  &lt;table&gt;
-2.  &lt;caption&gt;A typical HTML table&lt;/caption&gt;
-3.  &lt;tr&gt;
-4.  &lt;th scope=&quot;col&quot;&gt;Given Name&lt;/th&gt;
-5.  &lt;th scope=&quot;col&quot;&gt;Family Name&lt;/th&gt;
-6.  &lt;th scope=&quot;col&quot;&gt;Age&lt;/th&gt;
-7.  &lt;/tr&gt;
-8.  &lt;tr&gt;
-9.  &lt;td&gt;Michel&lt;/td&gt;
-10. &lt;td&gt;Buffa&lt;/td&gt;
-11. &lt;td&gt;52&lt;/td&gt;
-12. &lt;/tr&gt;
-13. &lt;tr&gt;
-14. &lt;td&gt;Dark&lt;/td&gt;
-15. &lt;td&gt;Vador&lt;/td&gt;
-16. &lt;td&gt;Unknown&lt;/td&gt;
-17. &lt;/tr&gt;
-18. &lt;tr&gt;
-19. &lt;td&gt;Luke&lt;/td&gt;
-20. &lt;td&gt;Skywalker&lt;/td&gt;
-21. &lt;td&gt;Unknown&lt;/td&gt;
-22. &lt;/tr&gt;
+<pre>
+1.  &lt;table&gt;
+2.    &lt;caption&gt;A typical HTML table&lt;/caption&gt;
+3.    &lt;tr&gt;
+4.      &lt;th scope=&quot;col&quot;&gt;Given Name&lt;/th&gt;
+5.      &lt;th scope=&quot;col&quot;&gt;Family Name&lt;/th&gt;
+6.      &lt;th scope=&quot;col&quot;&gt;Age&lt;/th&gt;
+7.    &lt;/tr&gt;
+8.    &lt;tr&gt;
+9.      &lt;td&gt;Michel&lt;/td&gt;
+10.     &lt;td&gt;Buffa&lt;/td&gt;
+11.     &lt;td&gt;52&lt;/td&gt;
+12.   &lt;/tr&gt;
+13.   &lt;tr&gt;
+14.     &lt;td&gt;Dark&lt;/td&gt;
+15.       &lt;td&gt;Vador&lt;/td&gt;
+16.       &lt;td&gt;Unknown&lt;/td&gt;
+17.   &lt;/tr&gt;
+18.   &lt;tr&gt;
+19.     &lt;td&gt;Luke&lt;/td&gt;
+20.     &lt;td&gt;Skywalker&lt;/td&gt;
+21.     &lt;td&gt;Unknown&lt;/td&gt;
+22.   &lt;/tr&gt;
 23. &lt;/table&gt;
 </pre>
 
-Most of the time, we add some CSS rules for rendering cell/row/table
+<p>Most of the time, we add some CSS rules for rendering cell/row/table
 borders and for adjusting spacing between the text in the cells and the
-cell borders. Let&apos;s look at some examples.
+cell borders. Let&apos;s look at some examples.</p>
 
 <h5>Example #1: HTML table with a very light CSS styling</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 488.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 488. codepen: html table with very light css styling (484) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image488.png?raw=true"
   style="width:65%"
   title="CodePen: HTML table with a very light CSS styling"
   alt="CodePen: HTML table with a very light CSS styling." />
 </p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/vmNQNQ" 
+target="_blank" rel="noopener noreferrer">CodePen: HTML table with very light CSS styling</a>.</h6>
 
-<https://codepen.io/w3devcampus/pen/vmNQNQ>
-
-<h5>This is a static table. You can look at the CSS code: {#this-is-a-static-table.-you-can-look-at-the-css-code .unnumbered}
+<h5>This is a static table. You can look at the CSS code:</h5>
 
 <pre>1.  table {
-2.  width:100%;
-3.  border:1px solid;
+2.    width:100%;
+3.    border:1px solid;
 4.  }
-5.  tr, th, td {
-6.  border:1px solid;
-7.  font-family:courier;
-8.  }
-9.  td {
-10. text-align:center;
-11. padding:10px;
-12. }
+5.
+6.  tr, th, td {
+7.    border:1px solid;
+8.    font-family:courier;
+9.  }
+10.
+11. td {
+12.   text-align:center;
+13.   padding:10px;
+14. }
 </pre>
 
-</b>Explanations</b>:
+<h5>Explanations</h5>:
 
--   <b><i>Line 1</i></b>: this rule says that the table will occupy the width of
+<ul>
+  <li><b><i>Line 1</i></b>: this rule says that the table will occupy the width of
     the window and will have a black, continuous border that is one
-    pixel wide.
-
--   <b><i>Line 7</i></b>: this rule says that table rows, table cells and table
+    pixel wide.</li>
+  <li><b><i>Line 6</i></b>: this rule says that table rows, table cells and table
     headers will also have a border and will use the font family
-    Courier.
-
--   <b><i>Line 12</i></b>: this says that all cells will have the text
+    Courier.</li>
+  <li><b><i>Line 11</i></b>: this says that all cells will have the text
     horizontally centered and an internal margin (called padding) of
-    10px in each direction (top, bottom, left, right).
+    10px in each direction (top, bottom, left, right).</li>
+<ul>
 
 <h5>Example #2: with more CSS styling (flat design)</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 489. codepen: html table with a very light css styling (465) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 489. codepen: html table with a very light css styling (485) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image489.png?raw=true"
   style="width:65%"
@@ -19389,7 +19390,7 @@ CodePen: HTML table with a very light CSS styling</a>.</h6>
 
 <h5>Look at the CSS - it&apos;s the only part that changed:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 490. codepen: change css (466) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 490. codepen: change css (486) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image490.png?raw=true"
   style="width:65%"
@@ -19401,124 +19402,88 @@ target="_blank" rel="noopener noreferrer">CodePen: change css</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-2">5.3.2 The HTML table JavaScript API (4:43)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Live coding video: HTML table JavaScript API</p>
+<p>Live coding transcript: HTML table JavaScript API</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 491. the html table js api (467) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 491. the html table js api (487) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image491.png?raw=true"
   style="width:65%"
   title="The HTML table JavaScript API"
   alt="The HTML table JavaScript API." />
 </p>
+<p>This time, we will talk about HTLM tables and their JavaScript API.
+Just to remind you, an HTML table uses different tags. The most common is 
+&lt;table&gt; for defining the table, &lt;tr&gt; is for a row: table row (tr), 
+inside a row, you&apos;ve got &lt;td&gt; for table data (td), and you can have
+also table body, and so on. We recommend you to go to the HTML5&CSS Fundamentals 
+course for having a full survey of HTML tables.</p>
 
-This time, we will talk about HTLM tables and their JavaScript API.
-
-Just to remind you, an HTML table uses different tags.
-
-The most common is &lt;table&gt; for defining the table, &lt;tr&gt; is for a
-row: table row (tr),
-
-Inside a row, you&apos;ve got &lt;td&gt; for table data (td), and you can have
-also table body, and so on.
-
-We recommend you to go to the HTML5&CSS Fundamentals course for having a
-full survey of HTML tables.
-
-So here, I defined a table with a header, and 3 rows. And we&apos;ll see how
+<p>Here, I defined a table with a header, and 3 rows. And we&apos;ll see how
 we can use some functions from the API for inserting a row or deleting a
-row.
+row. It&apos;s very easy. First, you need to get a reference on the table, so
+put an id on your table. Here, I&apos;ve set the table as for id "myTable". 
+We use query selector "#myTable" to get a reference on the table.</p>
 
-So it&apos;s very easy. First, you need to get a reference on the table, so
-put an id on your table.
-
-Here, I&apos;ve the table as for id "myTable". So we use query selector
-"#myTable" to get a reference on the table.
-
-Then, using the table object, you can use different methods that are
+<p>Then, using the table object, you can use different methods that are
 described in the course, but the must common one is "insertRow()"
-without any argument.
-
-Without any argument: that means insert at the end of the table.
-
+without any argument. Without any argument: that means insert at the end of the table.
 If you pass an index here, it will be the position, the location, where
 you want to insert the new row.
-
 And once you created the row, you can use "innerHTML" to put some HTML
-code inside the row.
+code inside the row.</p>
 
-So here, I use some &lt;td&gt; elements to create 3 different table data,
-table cells in the row.
-
-So if I click "Add a new row", it will call this callback "insertRow()",
-
+<p>Here, I use some &lt;td&gt; elements to create 3 different table data, table cells 
+in the row. If I click "Add a new row", it will call this callback "insertRow()",
 that will insert a row at the end of the table with "new", "new", "new"
-inside.
+inside. I just made the same structure as I had in the static elements. I mean a
+&lt;tr&gt; with 3 &lt;td&gt; inside. I could have used as well, instead of " innerHTML",
+I could have built the cell one by one using "row.insertCell()".</p>
 
-I just made the same structure as I had in the static elements. I mean a
-&lt;tr&gt; with 3 &lt;td&gt; inside.
+<p>From the table I inserted the row, from the row I insert a cell and then I use the 
+innerHTML" to add some HTML in a new row. For example, I can put the first cell in 
+bold using this "Add a new row". I've just inserted the new row made of 3 cells.
+Row that is inserted creates the cells inside: New cell1, New cell2, New cell3. You 
+see this API is quite simple.</p>
 
-I could have used as well, instead of " innerHTML",
-
-I could have built the cell one by one using "row.insertCell()".
-
-So, from the table I inserted the row, from the row I insert a cell and
-then I use the innerHTML" to add some HTML in a new row.
-
-For example, I can put the first cell in bold using this "Add a new
-row".
-
-I've just inserted the new row made of 3 cells.
-
-Row that is inserted creates the cells inside:
-
-New cell1, New cell2, New cell3.
-
-So you see this API is quite simple.
-
-@@@@For deleting a row when I click on this button, I will call with a
+<p>For deleting a row when I click on this button, I will call with a
 click event listener the "deleteFirstRow()" function. It&apos;s very similar
-to inserting a row.
-
-I first get a reference on the table using a "querySelector".
-
+to inserting a row. I first get a reference on the table using a "querySelector".
 I get a table object and I call "deleteRow()", 0 being the first line,
-the header.
-
-So "deleteRow(1)" will delete the first row from the body of the table.
-
+the header. So "deleteRow(1)" will delete the first row from the body of the table.
 Each time I click, it deletes a the first row and when I click on "add a
-new row", it adds a new row.
+new row", it adds a new row.</p>
 
-We could have created the whole table itself dynamically. This will be
+<p>We could have created the whole table itself dynamically. This will be
 shown in a next video where we consume remote data from Web services,
 get the data and create on the fly, create dynamically a table with rows
-and cells that will be used for displaying the data we just collected.
+and cells that will be used for displaying the data we just collected.</p>
 
 <!-- end transcript 5.3.2 -->
 
 <h4>Source code from the above video</h4>
 
-The source code shown in the above video is available [on this
-CodePen](https://codepen.io/w3devcampus/pen/LLLrao?editors=0010).
+<p>The source code shown in the above video is available 
+<a href="https://codepen.io/w3devcampus/pen/LLLrao?editors=0010">
+on this CodePen</a>.</p>
 
-There is a JavaScript API associated with the HTML table elements that
+<p>There is a JavaScript API associated with the HTML table elements that
 makes dynamic table management possible, enabling you to add or delete a
-row, add or delete a cell, modify the content of the cells, etc.
+row, add or delete a cell, modify the content of the cells, etc.</p>
 
-We&apos;ve already seen some examples in the course, but we have not
-completely covered the table JavaScript API.
+<p>We&apos;ve already seen some examples in the course, but we have not
+completely covered the table JavaScript API.</p>
 
 <h5>The table object (&lt;table&gt;) {#the-table-object-table .unnumbered}
 
-When you look for a table using the DOM API or the selector API, or when
-you create a table using the DOM API, you get a Table object:
+<p>When you look for a table using the DOM API or the selector API, or when
+you create a table using the DOM API, you get a Table object:</p>
 
 <pre>1.  var table = document.getElementById(&quot;myTable&quot;);
 2.  var table = document.querySelector(&quot;#myTable&quot;);
 3.  var table = document.createElement(&quot;table&quot;); // creates a new table
 </pre>
 
-Like all objects, an instance of Table will have properties and methods:
+<p>Like all objects, an instance of Table will have properties and methods:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 492. most useful properties (469) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -19536,26 +19501,26 @@ Like all objects, an instance of Table will have properties and methods:
   alt=" ." />
 </p>
 
-Example that adds a new row or removes a row to/from a table using
-the insertRow()/deleteRow() methods:
+<p>Example that adds a new row or removes a row to/from a table using
+the insertRow()/deleteRow() methods:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 494. codepen: a typical html table (470) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 494. codepen: a typical html table (470) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image494.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="CodePen: a typical HTML table"
+  alt="CodePen: a typical HTML table." />
 </p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/aWdOgw" 
+target="_blank" rel="noopener noreferrer">CodePen: a typical HTML table</a>.</h6>
 
-<https://codepen.io/w3devcampus/pen/aWdOgw>
-
-Notice the use of row.innerHTML= here to add some cells to the row. We
-will soon see another method for doing this.
+<p>Notice the use of row.innerHTML= here to add some cells to the row. We
+will soon see another method for doing this.</p>
 
 <h5>The tableRow object (&lt;tr&gt;)</h5>
 
-When you look for a row using the DOM API or the selector API, or when
-you create a row using the DOM API, you get a Row object:
+<p>When you look for a row using the DOM API or the selector API, or when
+you create a row using the DOM API, you get a Row object:</p>
 
 <pre>1.  var row1 = document.getElementById(&quot;row1&quot;);
 2.  var row1 = document.querySelector(&quot;#row1&quot;);
@@ -19580,9 +19545,8 @@ You can also access a row from the rows property of a table:
 13. &lt;tr&gt;&lt;td&gt;Hello&lt;/td&gt;&lt;/tr&gt;
 </pre>
 
-Like all objects, a tableRow object has properties and methods. Here are
-the most useful ones:
-
+<p>Like all objects, a tableRow object has properties and methods. Here are
+the most useful ones:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 495. most useful properties; cells, rowIndex and sectionRowIndex (471) ~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -19600,100 +19564,96 @@ the most useful ones:
   alt="Most useful methods; insertCell() and deleteCell()." />
 </p>
 
-Below are new versions of the previous examples, but instead of using
-the innerHTML of the TableRow object, we use the insertCell() method.
+<p>Below are new versions of the previous examples, but instead of using
+the innerHTML of the TableRow object, we use the insertCell() method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 497. a typical html table (472) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 497. codepen: a typical html table (472) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image497.png?raw=true"
   style="width:65%"
-  title="A typical HTML table"
-  alt="A typical HTML table." />
+  title="CodePen: A typical HTML table"
+  alt="CodePen: A typical HTML table." />
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OmMmGr" 
-target="_blank" rel="noopener noreferrer">
-CodePen: a typical HTML table</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: a typical HTML table</a>.</h6>
 
 <h5>Notice how we&apos;ve created the new row cells:</h5>
 
-<pre>1.  function insertRow() {
-2.  var table = document.querySelector(&quot;#myTable&quot;);
-3.  // without parameters, insert at the end,
-4.  // otherwise parameter = index where the row will be inserted
-5.  var row = table.insertRow();
-6.  var cell1 = row.insertCell();
-7.  cell1.innerHTML = &quot;New cell1&quot;;
-8.  var cell2 = row.insertCell();
-9.  cell2.innerHTML = &quot;New cell2&quot;;
-10. var cell3 = row.insertCell();
-11. cell3.innerHTML = &quot;New cell3&quot;; 
+<pre>
+1.  function insertRow() {
+2.    var table = document.querySelector(&quot;#myTable&quot;);
+3.    // without parameters, insert at the end,
+4.    // otherwise parameter = index where the row will be inserted
+5.    var row = table.insertRow();
+6.    var cell1 = row.insertCell();
+7.    cell1.innerHTML = &quot;New cell1&quot;;
+8.    var cell2 = row.insertCell();
+9.    cell2.innerHTML = &quot;New cell2&quot;;
+10.   var cell3 = row.insertCell();
+11.   cell3.innerHTML = &quot;New cell3&quot;; 
 12. }
 </pre>
 
-So should we use insertCell() or just row.innerHTML= &quot;&lt;td&gt; &#41;
+<p>Should we use insertCell() or just row.innerHTML= &quot;&lt;td&gt; &#41;
 &lt;/td&gt;&quot; ?
 It&apos;s up to you: depending on the HTML that you plan to insert into each
-cell, one version may be more readable than the other.
-
+cell, one version may be more readable than the other.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-3">5.3.3 HTML forms: best practices</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <h4>Creating accessible forms</h4>
 
-Forms are commonly used to enable user interaction within Web sites and
+<p>Forms are commonly used to enable user interaction within Web sites and
 Web applications, for example, for login, registering, commenting, and
-purchasing.
+purchasing.</p>
 
-Since HTML5 provides functionalities to assist with accessibility,
+<p>Since HTML5 provides functionalities to assist with accessibility,
 developers should make a concerted effort to mark up Web based forms.
 The following two guidelines are to give you a good start to make your
-forms accessible:
+forms accessible:</p>
 
-1.  For every form field, ensure that a descriptive <b>label</b> is
+<ol start="1">
+  <li>For every form field, ensure that a descriptive <b>label</b> is
     provided and use the &lt;label&gt; element to identify each form
-    control.
-
-2.  For larger or complex forms, use
-    the &lt;fieldset&gt; and &lt;legend&gt; elements to respectively <b>group and
-    associate</b> related form controls.
+    control.</li>
+  <li>For larger or complex forms, use the &lt;fieldset&gt; and &lt;legend&gt; 
+    elements to respectively <b>group and associate</b> related form controls.</li>
+</ol>
 
 <h5>Further reading:</h5>
 
-The WAI Web site hosts a [Forms
-tutorial](https://www.w3.org/WAI/tutorials/forms/) where you will find
-more guidelines to help make your forms truly accessible: Form
-Instructions, Validating Input, User Notifications, Multi-Page Forms,
-and Custom Controls.
+<p>The WAI Web site hosts a <a href="https://www.w3.org/WAI/tutorials/forms/">
+Forms tutorial</a> where you will find more guidelines to help make your forms 
+truly accessible: Form Instructions, Validating Input, User Notifications, 
+Multi-Page Forms, and Custom Controls.</p>
 
 <h4>Why is this important?</h4>
 
-Forms can be visually and cognitively complex and difficult to use.
+<p>Forms can be visually and cognitively complex and difficult to use.
 Accessible forms are easier to use for everyone, including people with
-disabilities.
+disabilities.</p>
 
--   <b>People with cognitive disabilities</b> can more easily understand
+<ul>
+  <li><b>People with cognitive disabilities</b> can more easily understand
     the form and how to complete it, as making forms accessible improves
-    the layout structure, instructions, and feedback.
-
--   <b>People using speech input</b> can use the labels via voice commands
+    the layout structure, instructions, and feedback.</li>
+  <li><b>People using speech input</b> can use the labels via voice commands
     to activate controls and move the focus to the fields that they need
-    to complete.
-
--   <b>People with limited dexterity</b> benefit from large clickable areas
+    to complete.</li>
+  <li><b>People with limited dexterity</b> benefit from large clickable areas
     that include the labels, especially for smaller controls, such as
-    radio buttons and checkboxes.
-
--   <b>People using screen readers</b> can identify and understand form
+    radio buttons and checkboxes.</li>
+  <li><b>People using screen readers</b> can identify and understand form
     controls more easily because they are associated with labels, field
-    sets, and other structural elements.
+    sets, and other structural elements.</li>
+</ul>
 
 <h5>Labeling controls</h5>
 
 <h5>Labels need to describe the purpose of the form control</h5>
 
-Form fields and other form controls usually have visible labels, such as
-&quot;E-mail Address:&quot; as the label for a text field (see figure below).
+<p>Form fields and other form controls usually have visible labels, such as
+&quot;E-mail Address:&quot; as the label for a text field (see figure below).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 498. E-mail address (473) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -19703,17 +19663,17 @@ Form fields and other form controls usually have visible labels, such as
   alt="E-mail address." />
 </p>
 
-When these labels are marked up correctly, people can interact with them
+<p>When these labels are marked up correctly, people can interact with them
 using only the keyboard, using voice input, and using screen readers.
 Also, the label itself becomes clickable, which enables a person who has
 difficulty clicking on small radio buttons or checkboxes to click
-anywhere on the label text.
+anywhere on the label text.</p>
 
 <h5>Associating labels explicitly</h5>
 
-Whenever possible, use the label element to explicitly associate text
+<p>Whenever possible, use the label element to explicitly associate text
 with form elements. The for attribute of the label must exactly match
-the id of the form control. 
+the id of the form control.</p>
 
 <h4>Example #1 (click on the label, not on the input field to see the effect):</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -19734,18 +19694,19 @@ the id of the form control. 
 
 <h5>Alternative example #1:</h5>
 
-Note that you can also include the &lt;input&gt; element inside
+<p>Note that you can also include the &lt;input&gt; element inside
 the &lt;label&gt;&#41;&lt;/label&gt; element, and also add a &lt;span lang=&quot;en&quot;&gt;
 for example, to indicate the language used in the label.
-Sometimes, [nesting labels and inputs can also make CSS styling easier
-and produce better results with screen
-readers](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form).
+Sometimes, <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form">
+nesting labels and inputs can also make CSS styling easier and produce better results 
+with screen readers</a>.</p>
 
 <h5>Source code (with &lt;input&gt; inside the &lt;label&gt;):</h5>
 
-<pre>1.  &lt;label for=&quot;first_name&quot;&gt;&lt;span lang=en&quot;&gt;Your First
-    Name&lt;/span&gt;
-2.  &lt;input id=&quot;first_name&quot; type=&quot;text&quot; name=&quot;fname&quot;/&gt;
+<pre>
+1.  &lt;label for=&quot;first_name&quot;&gt;&lt;span lang=en&quot;&gt;Your First
+      Name&lt;/span&gt;
+2.    &lt;input id=&quot;first_name&quot; type=&quot;text&quot; name=&quot;fname&quot;/&gt;
 3.  &lt;/label&gt;
 </pre>
 
@@ -19770,21 +19731,21 @@ readers](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_st
 
 <h5>Labeling buttons</h5>
 
-The label of a &lt;button&gt; element is set inside the element and can
+<p>The label of a &lt;button&gt; element is set inside the element and can
 include markup. This allows advanced accessibility hints to be included,
-such as marking up language change.
+such as marking up language change.</p>
 
-Example: &lt;button&gt;Mon &lt;span
+<p>Example: &lt;button&gt;Mon &lt;span
 lang=&quot;fr&quot;&gt;bouton&lt;/span&gt;&lt;/button&gt;, for a button with a label in
-French.
+French.</p>
 
-When using the &lt;input&gt; element to create buttons, the label is set in
-the value attribute of the element.
+<p>When using the &lt;input&gt; element to create buttons, the label is set in
+the value attribute of the element.</p>
 
-Example: &lt;input type=&quot;submit&quot; value=&quot;Please submit&quot;&gt;, will be
-rendered as a button.
+<p>Example: &lt;input type=&quot;submit&quot; value=&quot;Please submit&quot;&gt;, will be
+rendered as a button.</p>
 
-Source code for an example of &quot;Submit&quot; and &quot;Cancel&quot; buttons:
+<p>Source code for an example of &quot;Submit&quot; and &quot;Cancel&quot; buttons:</p>
 
 <pre>1.  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
 2.  &lt;button type=&quot;button&quot;&gt;Cancel&lt;/button&gt;
@@ -19792,7 +19753,7 @@ Source code for an example of &quot;Submit&quot; and &quot;Cancel&quot; buttons:
 4.  &lt;input type=&quot;button&quot; value=&quot;Cancel&quot;&gt;
 </pre>
 
-These will produce the same results:
+<p>These will produce the same results:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 501. Submit and Cancel buttons (475) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -19819,23 +19780,23 @@ These will produce the same results:
 
 <h4>Grouping controls</h4>
 
-Groupings of form controls, typically groups of related checkboxes and
+<p>Groupings of form controls, typically groups of related checkboxes and
 radio buttons, sometimes require a higher level description. Grouping
 related form controls makes forms more understandable for all users, as
-related controls are easier to identify.
+related controls are easier to identify.</p>
 
 <h4>Associating related controls with fieldset</h4>
 
-Grouping needs to be carried out visually and in the code, for example,
+<p>Grouping needs to be carried out visually and in the code, for example,
 by using the &lt;fieldset&gt; and &lt;legend&gt; elements to associate related
 form controls. The &lt;fieldset&gt; identifies the entire grouping
-and &lt;legend&gt; identifies the grouping&apos;s descriptive text.
+and &lt;legend&gt; identifies the grouping&apos;s descriptive text.</p>
 
 <h5>Example #1: Radio buttons</h5>
 
-In the example below, there are three radio buttons that allow the user
+<p>In the example below, there are three radio buttons that allow the user
 to choose an output format. Radio button groups should always be grouped
-using &lt;fieldset&gt;.
+using &lt;fieldset&gt;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 503. Output formats; text, csv and html (476) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -19847,24 +19808,25 @@ using &lt;fieldset&gt;.
 
 <h5>Source code:</h5>
 
-<pre>1.  &lt;fieldset&gt;
-2.  &lt;legend&gt;Output format&lt;/legend&gt;
-3.  &lt;div&gt;
-4.  &lt;input type=&quot;radio&quot; name=&quot;format&quot; id=&quot;txt&quot; value=&quot;txt&quot; checked&gt;
-5.  &lt;label for=&quot;txt&quot;&gt;Text file&lt;/label&gt;
-6.  &lt;/div&gt;
-7.  &lt;div&gt;
-8.  &lt;input type=&quot;radio&quot; name=&quot;format&quot; id=&quot;csv&quot; value=&quot;csv&quot;&gt;
-9.  &lt;label for=&quot;csv&quot;&gt;CSV file&lt;/label&gt;
-10. &lt;/div&gt;
-11. &lbrack;&#133;&rbrack;
+<pre>
+1.  &lt;fieldset&gt;
+2.    &lt;legend&gt;Output format&lt;/legend&gt;
+3.    &lt;div&gt;
+4.      &lt;input type=&quot;radio&quot; name=&quot;format&quot; id=&quot;txt&quot; value=&quot;txt&quot; checked&gt;
+5.      &lt;label for=&quot;txt&quot;&gt;Text file&lt;/label&gt;
+6.    &lt;/div&gt;
+7.    &lt;div&gt;
+8.      &lt;input type=&quot;radio&quot; name=&quot;format&quot; id=&quot;csv&quot; value=&quot;csv&quot;&gt;
+9.      &lt;label for=&quot;csv&quot;&gt;CSV file&lt;/label&gt;
+10.   &lt;/div&gt;
+11.   &lbrack;&#133;&rbrack;
 12. &lt;/fieldset&gt;
 </pre>
 
 <h5>Example #2: Checkboxes</h5>
 
-In the example below, there are three checkboxes that are all part of an
-opt-in function for receiving different types of information.
+<p>In the example below, there are three checkboxes that are all part of an
+opt-in function for receiving different types of information.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 504. example checkboxes (477) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -19876,29 +19838,29 @@ opt-in function for receiving different types of information.
 
 <h5>Source code:</h5>
 
-<pre>1.  &lt;fieldset&gt;
-2.  &lt;legend&gt;I want to receive&lt;/legend&gt;
-3.  &lt;div&gt;
-4.  &lt;input type=&quot;checkbox&quot; name=&quot;newsletter&quot; id=&quot;check_1&quot;&gt;
-5.  &lt;label for=&quot;check_1&quot;&gt;The weekly newsletter&lt;/label&gt;
-6.  &lt;/div&gt;
-7.  &lbrack;&#133;&rbrack;
+<pre>
+1.  &lt;fieldset&gt;
+2.    &lt;legend&gt;I want to receive&lt;/legend&gt;
+3.    &lt;div&gt;
+4.      &lt;input type=&quot;checkbox&quot; name=&quot;newsletter&quot; id=&quot;check_1&quot;&gt;
+5.      &lt;label for=&quot;check_1&quot;&gt;The weekly newsletter&lt;/label&gt;
+6.    &lt;/div&gt;
+7.    &lbrack;&#133;&rbrack;
 8.  &lt;/fieldset&gt;
 </pre>
 
 <h4>&lbrack;Advanced&rbrack; Associating related controls with WAI-ARIA</h4>
 
-WAI-ARIA provides a grouping role that functions in a similar
+<p>WAI-ARIA provides a grouping role that functions in a similar
 way to fieldset and legend. For example, a div element can
 have role=group to indicate that the contained elements are members of a
-group.
+group.</p>
 
-WAI-ARIA roles are very important in the accessibility world, and we
-invite you to see an example provided in the [associated WAI
-tutorial](https://www.w3.org/WAI/tutorials/forms/grouping/). Find also
-another [WAI-ARIA documentation on
-MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA).
-
+<p>WAI-ARIA roles are very important in the accessibility world, and we
+invite you to see an example provided in the 
+<a href="https://www.w3.org/WAI/tutorials/forms/grouping/">associated WAI tutorial</a>. 
+Find also another <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA">
+WAI-ARIA documentation on MDN</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-4">5.3.4 HTML forms and JavaScript (9:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -19911,85 +19873,95 @@ MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA).
   title="HTML forms best practices"
   alt="HTML forms best practices." />
 </p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZyJXBe" 
+target="_blank" rel="noopener noreferrer">CodePen: HMTL forms best practices</a>.</h6>
 
-Hi everybody. For this first video, we will talk about traditional form
-design.
-
+<p>Hi everybody. For this first video, we will talk about traditional form design. 
 When you design a form, using the form element, usually you add two
-attributes to it:
+attributes to it:</p>
 
-1&#41; first attribute called action that has for value the URL of the
+<p>1&#41; first attribute called action that has for value the URL of the
 server side component that will process the data entered and sent when
-you submit the form. And,
+you submit the form. And,</p>
 
-2&#41; an attribute called method that will indicates the way the browser
+<p>2&#41; an attribute called method that will indicates the way the browser
 will send the data from the form to the server. As this course is really
 focused on HTML5, that is a 100% client-side technology, we&apos;re not
 going to explain how we can process form data in PHP, in Java or in
 asp.NET or whatever. We will focus on the client-side on the new input
 field, the new attributes and a new validation system that is included
-in the browser that implements the new HTML5 features.
+in the browser that implements the new HTML5 features.</p>
 
-One good practice, this is not new with HTML5, is to group different
+<p>One good practice, this is not new with HTML5, is to group different
 input elements into a fieldset. You can see some details about this
 practice in the accessible form part of the course. Here, we use the
 fieldset that generated this small bar here. That is a visual rendering
 of the group and we use the legend element inside that render as a title
 in the fieldset border. Inside, for the sake this example, we just used
-two input fields of type=&quot;text ».We associated a label with the 'for'
-attribute that matches the ID attributes.
+two input fields of type=&quot;text&quot;.We associated a label with the 'for'
+attribute that matches the ID attributes.</p>
 
-This is a good practice for accessibility, and if you click on the
+<p>This is a good practice for accessibility, and if you click on the
 label, it gives the focus to the input field thanks to the 'for' and the
 ID attributes that match. What we can just add is some CSS to make this
 a little bit nicer. Usually for the fieldset I add some padding. Padding
 if for the internal space; you can see that I added some space here. And
 for separating the different lines here, I usually add some
-margin-bottom to the labels. with a value, 10px for example.
+margin-bottom to the labels. with a value, 10px for example.</p>
 
-And in order to make this work, I use display 'inline-block' for the
+<p>And in order to make this work, I use display 'inline-block' for the
 labels. OK, I made a small mistake here, about the margin-bottom. And
 you can see that if I change the value or the length of the levels, the
 input fields are no more aligned. In order to align the input fields,
 the common technique is input, float them to the right and give them a
 right margin. Let&apos;s say maybe 7px for the margin-right, and give them a
-width&#133; Ok, like that. Like that, you see if I change the length of the
-labels the input fields are aligned. This is not new with HTML5. What is
-new is that, okay let me just add a border-radius to the fieldset. This
-makes nice rounded corners here. Okay what is new is that some
-attributes like this one 'required' that will make the input field
-invalid if it&apos;s empty. And i can visualize this automatically, because
+width&#133;</p>
+
+<p>You see if I change the length of the labels the input fields are aligned. 
+This is not new with HTML5. What is new is that, okay let me just add a border-radius 
+to the fieldset. This makes nice rounded corners here. Okay what is new is that some
+attributes like this one 'required' that will make the input field invalid if 
+it&apos;s empty.</p>
+
+<p>And I can visualize this automatically, because
 the new input fields with HTML5 inherit a CSS pseudo class called
 'invalid'. I use the column followed by the keyword 'invalid' to
-visualize that. Or « <b>background-color:pink;</b> » Like this you can see
+visualize that. Or <b>background-color:pink;</b>. Like this you can see
 that the fields are invalid because they&apos;re pink and become valid as
 soon as I type something inside. If I try to submit a form with an
-'invalid', field it pops up some bubbles with an error message.
+'invalid', field it pops up some bubbles with an error message.</p>
 
-And the message is in the language is the one of my operating system, so
+<p>And the message is in the language is the one of my operating system, so
 here it&apos;s in French. This is new. It&apos;s called the built invalidation
 system and some new input fields like, for example, the email: the input
-type=&quot;email ». Just change that&#133; This time it will become valid not
+type=&quot;email&quot;. Just change that&#133; This time it will become valid not
 when I type something but also when I type something that looks like a
 valid email address. If I remove this character The @ character here, it
-becomes invalid. So, we&apos;ve got some defaults rules for validating new
+becomes invalid.</p>
+
+<p>We&apos;ve got some defaults rules for validating new
 type of input fields. If I want to enter an age, I can use the new
 age&#133; type=&quot;number&quot; for example. Like this, it&apos;s an input field for
 entering numbers and this one has some min values like 1 year old, max
 value is 120 years old, and if I type something that is not valid, you
-can see that it's with the pink background, meaning it is 'invalid'. If
-I type a real number, it becomes valid. Or if I choose a real number.
+can see that it's with the pink background, meaning it is 'invalid'.</p>
+
+<p>If I type a real number, it becomes valid. Or if I choose a real number.
 Also, particularities with this input field, is that you can use the
 step attribute&#133;step=5 means &lt;I made a mistake&gt; okay like this it
 will jump from 1 to 6. If the value is not a multiple of 5, it&apos;s
 'invalid'. Starting from 0. Okay if I enter 20, it&apos;s valid but 21 is
-not. If I add 5 you can see it jumps from one multiple of 5 to another
+not.</p>
+
+<p>If I add 5 you can see it jumps from one multiple of 5 to another
 one. I&apos;m going just to show you the last example but there are more
 input fields on that brought by HTML5, all the details will be in the
 course. For example, if you want to select a birth date, there is a new
-input field of type=&quot;date ». You can also indicate some constraints
+input field of type=&quot;date. You can also indicate some constraints
 with attributes, but you will see that in the dedicated part of the
-course. Here, you got directly without writing any JavaScript a calendar
+course.</p>
+
+<p>Here, you got directly without writing any JavaScript a calendar
 that is popping up to select your birth date&#133; Let&apos;s say something
 that is random. And here you&apos;ve got a birth date, and you can enter
 using the keyboard but if you type something that is invalid..This is
@@ -19997,28 +19969,31 @@ the really basics of HTML5 forms. There are 13 new input elements, lot
 of new attributes and others elements that can be used to constraint the
 values. For example, instead of having a calendar, we can have only a
 small set of dates to choose from. All these things are explained in the
-course, take some time to read and look at all these examples. This is
-the end of this video good luck &#133; good work !
+course, take some time to read and look at all these examples.</p>
+
+<p>This is the end of this video good luck &#133; good work !</p>
 
 <!-- end transcript 5.3.4 -->
 
-Source code from the example shown in the above video
+<p>Source code from the example shown in the above video:</p>
 
--   The source code of the example can be found [on this
-    CodePen](https://codepen.io/w3devcampus/pen/ZyJXBe)
+<ul>
+  <li>The source code of the example can be found <a href="https://codepen.io/w3devcampus/pen/ZyJXBe">
+    on this CodePen</a></li>
+</ul>
 
-We highly recommend that you follow the W3Cx [HTML5 Coding essentials
-and Best
-Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) course
-that has an entire module dedicated to HTML5 forms. 
+<p>We highly recommend that you follow the W3Cx 
+<a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices">
+HTML5 Coding essentials and Best Practices</a> course that has an entire module 
+dedicated to HTML5 forms.</p>
 
-Forms are a way to get user input which is either sent to a remote
-server, or processed locally, or both.
+<p>Forms are a way to get user input which is either sent to a remote
+server, or processed locally, or both.</p>
 
-This section of the course only covers local processing and the
-client-side part, with a focus on JavaScript processing.
+<p>This section of the course only covers local processing and the
+client-side part, with a focus on JavaScript processing.</p>
 
-Typical example:
+<h5>Typical example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 506. codepen: form input sent to server without JavaScript (481) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -20241,11 +20216,15 @@ addition to JavaScript.</p>
 
 <p><b>There are two main methods to know:</b></p>
 
-1.  Transform any JavaScript object in JSON:
+<ol start="1">
+  <li>Transform any JavaScript object in JSON:</li>
+</ol>
 
 <p><b>var jsonStr = JSON.stringify(obj);</b></p>
 
-2.  Transform any JSON string into a JavaScript object:
+<ol start="2">
+  <li>Transform any JSON string into a JavaScript object:</li>
+</ol>
 
 <p><b>var jsObj  = JSON.parse(jsonStr);</b></p>
 
@@ -20493,7 +20472,8 @@ CodePen: working with remote data using XhR2 API</a>.</h6>
 
 <h5>JavaScript source code extract:</h5>
 
-<pre>1.  function search() {
+<pre>
+1.  function search() {
 2.    var queryURL = &quot;https://jsonplaceholder.typicode.com/users&quot;;
 3.  
 4.    var xhr = new XMLHttpRequest();
@@ -20582,7 +20562,8 @@ CodePen: Get remote list of users' names &amp; emails using fetch API</a>.</h6>
 
 <h4>JavaScript source code extract:</h4>
 
-<pre>1.  function search() {
+<pre>
+1.  function search() {
 2.    var queryURL = &quot;https://jsonplaceholder.typicode.com/users&quot;;
 3.  
 4.    fetch(queryURL)
@@ -20655,7 +20636,8 @@ applies to sessionStorage.</p>
 
 <h4>Example:</h4>
 
-<pre>1.  // Using localStorage
+<pre>
+1.  // Using localStorage
 2.  
 3.  // store data
 4.  localStorage.lastName = &quot;Bunny&quot;;
@@ -20770,28 +20752,31 @@ This is a play project that you can easily improve:
 <b>Let&apos;s start with a simple skeleton (no GUI), beginning with
 the Contact class</b>
 
-<pre>1.  class Contact {
-2.  constructor(name, email) {
-3.  this.name = name;
-4.  this.email = email;
-5.  }
+<pre>
+1.  class Contact {
+2.    constructor(name, email) {
+3.      this.name = name;
+4.      this.email = email;
+5.    }
 6.  }
 </pre>
 
-As you can see, a contact is just a name and an email. We will use the
-above class like this:
+<p>As you can see, a contact is just a name and an email. We will use the
+above class like this:</p>
 
-<pre>1.  var c1 = new Contact(&quot;Jimi Hendrix&quot;, &quot;jimi@rip.com&quot;);
+<pre>
+1.  var c1 = new Contact(&quot;Jimi Hendrix&quot;, &quot;jimi@rip.com&quot;);
 2.  var c2 = new Contact(&quot;Robert
     Fripp&quot;, &quot;robert.fripp@kingcrimson.com&quot;);
 </pre>
 
-Then you can print the properties of contact c1 or c2 using for
-example console.log(c1.name), console.log(c2.email), etc.
+<p>Then you can print the properties of contact c1 or c2 using for
+example console.log(c1.name), console.log(c2.email), etc.</p>
 
 <b>A minimal ContactManager class</b>
 
-<pre>1.  class ContactManager {
+<pre>
+1.  class ContactManager {
 2.    constructor() {
 3.      // when we build the contact manager, it
 4.      // has an empty list of contacts
@@ -20868,25 +20853,26 @@ modules 2 or 3. Since our array contains objects, we must provide a
 callback for comparing two elements by name. Here is the code for the
 new sort() method we added to the ContactManager class:
 
-<pre>1.  sort() {
-2.  // As our array contains objects, we need to pass as argument
-3.  // a method that can compare two contacts.
-4.  // we use a class method, which is similar to the distance(p1, p2)
-5.  // method we saw in the ES6 Point class in module 4
-6.  // We always call such methods using the name of the class followed
-7.  // by the dot operator
-8.  <b>this.listOfContacts.sort(ContactManager.compareByName);</b>
+<pre>
+1.  sort() {
+2.    // As our array contains objects, we need to pass as argument
+3.    // a method that can compare two contacts.
+4.    // we use a class method, which is similar to the distance(p1, p2)
+5.    // method we saw in the ES6 Point class in module 4
+6.    // We always call such methods using the name of the class followed
+7.    // by the dot operator
+8.    <b>this.listOfContacts.sort(ContactManager.compareByName);</b>
 9.  }
 10. 
 11. <b>// class method for comparing two contacts by name</b>
 12. <b>static compareByName</b>(c1, c2) {
-13. // JavaScript has built in capabilities for comparing strings
-14. // in alphabetical order
-15. if (c1.name &lt; c2.name)
-16. return -1;
-17. if (c1.name &gt; c2.name)
-18. return 1;
-19. return 0; // c1.name = c2.name
+13.   // JavaScript has built in capabilities for comparing strings
+14.   // in alphabetical order
+15.   if (c1.name &lt; c2.name)
+16.     return -1;
+17.   if (c1.name &gt; c2.name)
+18.     return 1;
+19.   return 0; // c1.name = c2.name
 20. }
 </pre>
 
@@ -21202,7 +21188,8 @@ is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
 
 <h4>Here is the code of the formSubmitted function:</h4>
 
-<pre>1.  function formSubmitted() {
+<pre>
+1.  function formSubmitted() {
 2.    // Get the values from input fields
 3.    let name = document.querySelector(&quot;#name&quot;);
 4.    let email = document.querySelector(&quot;#email&quot;);
