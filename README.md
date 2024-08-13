@@ -12884,7 +12884,7 @@ end of the string:</p>
     function&quot; (<b><i>lines 1-5</i></b>)</li>
   <li>You can try to put elements out of the range of the string: nothing
     will happen and the string will remain unchanged (<b><i>lines 7-17</i></b>)</li>
-<ul>
+</ul>
 
 <p>You can&apos;t even modify a character using an index. Strings are &quot;read
 only&quot; when using brackets to access individual characters!</p>
@@ -13727,6 +13727,7 @@ audio player.
 <!-- end transcript 3.3.2 -->
 
 <h5>Source code of the example from the video:</h5>
+
 <ul>
   <li>The example presented in the above video is available
     on <a href="https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011">CodePen</a>.</li>
@@ -13750,7 +13751,7 @@ that has:</p>
   <li><b>Events</b> generated during the life cycle of the element that can
     be processed using JavaScript callbacks. It is also possible to send
     events to control the video player.</li>
-<ul>
+</ul>
 
 <p>Like any HTML element, the <b>&lt;video&gt;</b> element can be
 manipulated/created using the DOM JavaScript API. Here is an example of
@@ -14509,18 +14510,18 @@ target="_blank" rel="noopener noreferrer">CodePen: example click to show your lo
     location,</li>
   <li>The rest is a basic use of the Leaflet API. Notice at <b><i>line 17</i></b> that 
     &apos;map&apos; is the id of the &lt;div&gt; from the HTML part of the code.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-3">3.4.3 Reverse geocoding</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-cDifferent Web services can be used to get an address from longitude and
+<p>cDifferent Web services can be used to get an address from longitude and
 latitude. Most are free of charge, but they will ask you to register an
 API key and enter your credit card number. If you send too many
 requests, you will be charged.Such a service is the [Google Reverse
 Geocoding JavaScript
 API](https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse).
 For those of you who are really interested to know how this API works,
-please read the Google documentation and tutorials.
+please read the Google documentation and tutorials.</p>
 
 There is also an interesting Leaflet plugin (an extension to Leaflet)
 based on the [Gisgraphy](https://www.gisgraphy.com/) (free open source
@@ -14531,7 +14532,7 @@ Let&apos;s see some examples of use.
 
 <h5>Example #1: how to get a physical address from the longitude and latitude</h5>
 
-Google reverse geocoding example (screenshot only):
+<p>Google reverse geocoding example (screenshot only):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 417. mapquest: longitude and latitude (369) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14540,8 +14541,8 @@ Google reverse geocoding example (screenshot only):
   title="Mapquest: longitude and latitude"
   alt="Mapquest: longitude and latitude." />
 
-Source code of this example (in order to run it, you need a Google API
-key, used at <b><i>line 6</i></b>).
+<p>Source code of this example (in order to run it, you need a Google API
+key, used at <b><i>line 6</i></b>).</p>
 
 <pre>
 1.  &lt;!DOCTYPE html&gt;
@@ -16834,7 +16835,7 @@ subject of a future &quot; JavaScript advanced&quot; course.</p>
   <li><b>A method is simply defined by its name followed by its
     parameters (we no more use the keyword &quot;function&quot;)</b>
     Example: speak() {&#41;} in the source code below.</li>
-<ul>
+</ul>
 
 <p>Here is the new version of the Hero &quot;template&quot;, this time with the ES6
 class syntax:</p>
@@ -17279,7 +17280,7 @@ post your comments/observations/questions or share your creations.</p>
     see what sort of problems can occur when moving from a functional
     approach to an object-oriented approach</li>
   <li>Build a class-based contact manager!</li>
-<ul>
+</ul>
 
 <ol start="1">
   <li>Try to build a small database (in a JavaScript array) that will hold
@@ -19277,7 +19278,7 @@ target="_blank" rel="noopener noreferrer">CodePen: HTML table with very light CS
   <li><b><i>Line 11</i></b>: this says that all cells will have the text
     horizontally centered and an internal margin (called padding) of
     10px in each direction (top, bottom, left, right).</li>
-<ul>
+</ul>
 
 <h5>Example #2: with more CSS styling (flat design)</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -20833,6 +20834,7 @@ contacts in JSON:</h5>
 </pre>
 
 <p>You write data identified by a key in localStorage like this:</p>
+
 <ul>
   <li>localStorage.keyName = a string value</li>
 </ul>
@@ -21021,6 +21023,7 @@ CodePen:</p>
 </pre>
 
 <h5>Explanations:</h5>
+
 <ul>
   <li><b><i>Line 3</i></b>: the method displayContactsAsATable takes as a parameter
     the id of the HTML element in which the table will be inserted after
@@ -21197,6 +21200,7 @@ trashbin.dataset.contactId = 3; // 3 is the current row index and
     hide the label and show the input field, and when you click outside
     of the input field, you do the reverse. Use the &quot;blur&quot; event to
     detect when clicks occur outside).</li>
+  </li>
 </ul>
 <!-- the end? -->
 <!-- last editted 7/16/2024 6:25pm -->
