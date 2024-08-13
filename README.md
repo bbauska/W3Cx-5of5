@@ -16716,105 +16716,86 @@ declared at <b><i>line 5</i></b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding lesson: modern JavaScript&apos;s classes</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 470.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 470. codepen: example javascript classes  (428) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image470.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="CodePen: example JavaScript classes"
+  alt="CodePen: example JavaScript classes." />
 </p>
 
-In the last lesson, we saw JavaScript 5 constructor function that were
-useful for building multiple instances of the same template.
+<p>In the last lesson, we saw JavaScript 5 constructor function that were
+useful for building multiple instances of the same template.</p>
 
-Well, this constructor function syntax is OK but not easy to read.
-
+<p>Well, this constructor function syntax is OK but not easy to read.
 If someone doesn&apos;t respect the conventions, like using the capital
 letter for the name of the function, and so on, it&apos;s very easy to think
-that this is just a normal function.
+that this is just a normal function.</p>
 
-If I read a source code with a constructor function written in
+<p>If I read a source code with a constructor function written in
 lowercase, I might not understand that it's meant for building objects.
-
 JavaScript 6 introduced the concept of classes that we&apos;re going to see.
-
 But just before looking at the class version of the hero we saw earlier,
-let&apos;s have a look at it again.
+let&apos;s have a look at it again.</p>
 
-Previously, we had a function with the name that starts with a capital
+<!-- image here -->
+<p>Previously, we had a function with the name that starts with a capital
 letter, we passed the parameters for building the object, and we used
 this to set the different properties.
-
 We used the equal sign for setting values to the properties at building
 time, and we used also the equal syntax for defining methods. And inside
-methods, we used these for accessing the properties. With the new
-JavaScript 6 syntax, it&apos;s much simpler.
+methods, we used these for accessing the properties.</p>
 
+<!-- image here -->
+<p>With the new JavaScript 6 syntax, it&apos;s much simpler.
 We use the "class" keyword followed by the name of the class for
-defining a class.
+defining a class. JavaScript 6 also introduces the concept of constructor.</p>
 
-JavaScript 6 also introduces the concept of constructor.
+<p>Constructor is a special method that will be called at construction time, when 
+"new" is used. When we will build darkVador using "new" followed by the name of the
+class, it will call this method. So "new Hero( "Dark Vador", "empire")" will call 
+the constructor in the class, passing "Dark Vador" and "empire" as values for the 
+"name" and "side" arguments.</p>
 
-Constructor is a special method that will be called at construction
-time, when "new" is used.
+<p>Inside the constructor, we usually set the different properties, and for this we use 
+the same syntax as in constructor function. We use "this" followed by the name of 
+the property and we use the equal sign for setting values to the properties.</p>
 
-When we will build darkVador using "new" followed by the name of the
-class, it will call this method.
+<!-- image -->
+<p>Then we can define methods, and here, the syntax again is much simpler.
+No more use of the "function" keyword.<p>
 
-So "new Hero( "Dark Vador", "empire")" will call the constructor in the
-class, passing "Dark Vador" and "empire" as values for the "name" and
-"side" arguments.
-
-Inside the constructor, we usually set the different properties, and for
-this we use the same syntax as in constructor function.
-
-We use "this" followed by the name of the property and we use the equal
-sign for setting values to the properties.
-
-Then we can define methods, and here, the syntax again is much simpler.
-
-No more use of the "function" keyword.
-
-Look at this, you just type the name of the method followed by
+<p>Look at this, you just type the name of the method followed by
 parentheses, and eventually, you can add arguments between parentheses.
-
 Compare the way we declare the method in JavaScript 5, inside the
 constructor function, with the way we declare method with JavaScript 6
-classes.
+classes. Here, we will able to call "darkVador.speak()" to call this method.</p>
 
-Here, we will able to call "darkVador.speak()" to call this method.
-
-And inside the method, you will still use "this" keyword for accessing
+<p>And inside the method, you will still use "this" keyword for accessing
 internal properties of the object of for calling internal methods.
-
-If I had a method, "anotherMethod" here.
-
-Blah blah blah &#133; something.
-
+If I had a method, "anotherMethod" here. Blah blah blah &#133; something.
 I would call it using "this.anotherMethod".
-
 In this aspect, it&apos;s very similar to what we saw with constructor
 functions and JavaScript objects with the JavaScript 5 syntax.
+Okay, so we can try this example.</p>
 
-Okay, so we can try this example.
-
-Here we build, in a similar way as previously with constructor function,
+<!-- image -->
+<p>Here we build, in a similar way as previously with constructor function,
 we build object using the "new" keyword followed by the name of the
 class and we pass the parameter for building the object, that will be
-passed to the constructor.
+passed to the constructor.</p>
 
-We can type "ianSolo": see that it&apos;s been built correctly.
+<!-- image -->
+<p>We can type "ianSolo": see that it&apos;s been built correctly.</p>
 
-And if we compare to the JavaScript 5 version, the "IanSolo JavaScript
+<!-- image -->
+<p>And if we compare to the JavaScript 5 version, the "IanSolo JavaScript
 5", you see it&apos;s completely similar.
-
 Well, in this example, we had a method describe yourself, but it&apos;s
 really the same thing behind the scene, just a syntactic sugar for
 making&#41; defining templates for building object much more easier than
-before.
-
-I recommend to use the class syntax from ES6, it&apos;s supported by all
-modern browsers.
+before. I recommend to use the class syntax from ES6, it&apos;s supported by all
+modern browsers.</p>
 
 <!-- end transcript 4.3.3 -->
 
@@ -16825,35 +16806,38 @@ modern browsers.
     target="_blank" rel="noopener noreferrer">is available at CodePen</a></li>
 </ul>
 
-ES5&apos;s constructor function syntax is not easy to read. If someone does
+<p>ES5&apos;s constructor function syntax is not easy to read. If someone does
 not respect the &quot;conventions&quot; that we&apos;ve just discussed (start the
 class with an uppercase, etc.), then the code may work, but it will be
-difficult to guess that we are not in front of a regular function. 
+difficult to guess that we are not in front of a regular function.</p>
 
-Modern JavaScript now provides a class keyword and
+<p>Modern JavaScript now provides a class keyword and
 a constructor keyword, along with advanced concepts that will be the
-subject of a future &quot; JavaScript advanced&quot; course. 
+subject of a future &quot; JavaScript advanced&quot; course.</p>
 
-Main changes:
+<h5>Main changes:</h5>
 
--   <b>A class is simply defined using the keyword class followed by the
-    name of the class</b>
+<ul>
+  <li><b>A class is simply defined using the keyword class followed by the
+    name of the class</b></li>
+  <li><b>The unique constructor is defined using the constructor keyword
+    followed by the parameters</b></li>
+  <li><b>The constructor is executed when an object is created using the
+    keyword new</b></li>
+</ul>
 
--   <b>The unique constructor is defined using the constructor keyword
-    followed by the parameters</b>
-
--   <b>The constructor is executed when an object is created using the
-    keyword new</b>
-    Example: let h1 = new Hero(&apos;Ian Solo&apos;, &apos;rebels&apos;);
+<p>Example: let h1 = new Hero(&apos;Ian Solo&apos;, &apos;rebels&apos;);</p>
     
-    This will call constructor(name, side) in the example below.
+<p>This will call constructor(name, side) in the example below.</p>
 
--   <b>A method is simply defined by its name followed by its
+<ul>
+  <li><b>A method is simply defined by its name followed by its
     parameters (we no more use the keyword &quot;function&quot;)</b>
-    Example: speak() {&#41;} in the source code below.
+    Example: speak() {&#41;} in the source code below.</li>
+<ul>
 
-Here is the new version of the Hero &quot;template&quot;, this time with the ES6
-class syntax:
+<p>Here is the new version of the Hero &quot;template&quot;, this time with the ES6
+class syntax:</p>
 
 <pre>
 1.  class Hero {
@@ -16881,16 +16865,18 @@ class syntax:
     the parameters.</li>
 </ul>
 
-The instructions in the body of the constructor are executed when an
+<p>The instructions in the body of the constructor are executed when an
 object is created using the keyword new followed by the name of the
 class, with arguments between parentheses. These arguments will be
-passed to the constructor.
+passed to the constructor.</p>
 
--   <b><i>Line 7</i></b>: a method is simply defined by its name followed by its
-    parameters. <b>Again, no more use of the function keyword.</b>
+<ul>
+  <li><b><i>Line 7</i></b>: a method is simply defined by its name followed by its
+    parameters. <b>Again, no more use of the function keyword.</b></li>
+</ul>
 
-See below an interactive example that uses an ES6 class to create Star
-Wars&apos; heroes.
+<p>See below an interactive example that uses an ES6 class to create Star
+Wars&apos; heroes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 471.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -16905,7 +16891,7 @@ target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>You must declare a class before using it!</h4>
 
-Unlike functions, classes must be declared BEFORE using them.
+<p>Unlike functions, classes must be declared BEFORE using them.
 
 An important difference between function declarations and class
 declarations is that function declarations are &quot;hoisted&quot; and class
@@ -16916,8 +16902,8 @@ classes!
 <b>You first need to declare your class and then access it, otherwise
 code like the following will throw a ReferenceError</b>:
 
-Incorrect version =&gt; you try to create an instance of a class before it
-has been declared:
+<p>Incorrect version =&gt; you try to create an instance of a class before it
+has been declared:</p>
 
 <pre>
 1.  var p = new Rectangle(); // ReferenceError
@@ -16954,14 +16940,14 @@ constructor functions and ES6 classes).
 1.  var darkVador = { firstName:'Dark', lastName:'Vador'};
 </pre>
 
-Objects can be created with the keyword new and a constructor function
-or an ES6 class:
+<p>Objects can be created with the keyword new and a constructor function
+or an ES6 class:</p>
 
 <pre>
 1.  var darkVador = new Hero('Dark Vador', 'empire');
 </pre>
 
-Objects can also be created by functions that return objects (factories):
+<p>Objects can also be created by functions that return objects (factories):</p>
 
 <pre>
 1.  function getMousePos(event, canvas) {
@@ -16984,8 +16970,8 @@ And here is how you can use this:
     &quot; + mousePos.y);
 </pre>
 
-The call to getMousePos returns an object that has an x and
-a y property.
+<p>The call to getMousePos returns an object that has an x and
+a y property.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-6">4.3.6 Static properties and methods (6:33)</h3>
@@ -17001,57 +16987,57 @@ Live coding lesson: static properties and methods
   alt=" ." />
 </p>
 
-Hi, let&apos;s talk again about classes, properties and methods. So far, we
+<p>Hi, let&apos;s talk again about classes, properties and methods. So far, we
 saw classes that are templates for building objects. And in the class,
 we define properties and methods. Properties are for describing the
-characteristics of each object that will be built.
+characteristics of each object that will be built.</p>
 
-The name property, the side property, for the Star War heroes,
+<p>The name property, the side property, for the Star War heroes,
 correspond to Luke Skywalker and the rebels, to Dark Vador and the
 empire. And these properties and methods are called 'instance
 properties' and 'instance methods' because they are tied to the objects
 that have been created. And we use them by preceding them by the name of
-the object: luke.speak(), darkVador.name(), and so on.
+the object: luke.speak(), darkVador.name(), and so on.</p>
 
-Sometimes you will want to have some properties for characterizing the
+<p>Sometimes you will want to have some properties for characterizing the
 class itself, and some methods for characterizing the behavior of a
 class. For example, you would like to know how many heroes have been
-built. And you'd like for that to ask the hero class.
+built. And you'd like for that to ask the hero class.</p>
 
-We can define what we call 'static properties' and 'static methods'. But
+<p>We can define what we call 'static properties' and 'static methods'. But
 I prefer to use another name for them that is also very common: we call
-them class properties and class methods.
+them class properties and class methods.</p>
 
-Class properties define the characteristic of the class itself: how many
+<p>Class properties define the characteristic of the class itself: how many
 heroes have you built? And the class methods will correspond to the
 behavior of the class Hero: &quot;Hey! Please give me how many heroes from
-the rebels you've built&quot;.
+the rebels you've built&quot;.</p>
 
-Let&apos;s see an example. I will declare a property for the class Hero. We
+<p>Let&apos;s see an example. I will declare a property for the class Hero. We
 use the name of the class followed by &apos;.&apos; followed by the name of the
-property.
+property.</p>
 
-Here, I declare that after the Hero class, because we explained this in
+<p>Here, I declare that after the Hero class, because we explained this in
 another page of the course, but unlike functions, you can use only class
 name after it has been declared. The class Hero is declared here, I can
-only use "Hero.something" 24
+only use "Hero.something" 24</p>
 
-Here, I declared a variable named "numberHeroesCreated". I can type this
+<p>Here, I declared a variable named "numberHeroesCreated". I can type this
 in the console and see that it returns 0. But why it&apos;s interesting, is
 that I can use this class property inside a class itself. If in the
 constructor, I increment the "numberofHeroesCreated", the property of
-the class Hero. And if I build 0 instance, &#133;
+the class Hero. And if I build 0 instance, &#133;</p>
 
-I can look at the value of this property: it says 0. But if I built 2
+<p>I can look at the value of this property: it says 0. But if I built 2
 objects, in that case the "new" keyword will call twice the constructor
 method. And the property of the class Hero will say I've built 2 heroes.
-If I&apos;m just uncommenting another one, here. The return value is 3.
+If I&apos;m just uncommenting another one, here. The return value is 3.</p>
 
-It&apos;s important to use this method, using the name of the class because
+<p>It&apos;s important to use this method, using the name of the class because
 it corresponds to a property of this class, to characteristics&#41;
-&quot;class Hero,
+&quot;class Hero,</p>
 
-How many heroes have you created?&quot; Now, we can also have static
+<p>How many heroes have you created?&quot; Now, we can also have static
 methods. A static method can be some sort of utility method, some
 behavior method of the class itself. Here we&apos;ve got a class that
 defines a point, defined by its "x" and "y" properties. We can have a
@@ -17059,23 +17045,23 @@ defines a point, defined by its "x" and "y" properties. We can have a
 could have this located outside of the class and it will just use the
 coordinates of two points for computing the distance. But if it&apos;s meant
 to work only on points, it&apos;s a good idea to put it as a class method
-inside the point class.
+inside the point class.</p>
 
-Like this, when you will compute the distance between 2 points, we&apos;ll
+<p>Like this, when you will compute the distance between 2 points, we&apos;ll
 just call: Point.distance(), passing the 2 points as parameter. In plain
 text, it means: &quot;class point, please compute the distance between these
 2 points that are instanced of your class&quot;. When you&apos;ve got methods
 that are only related to instances of the class itself, it&apos;s a good
-idea to put it inside. And you precede them by the "static" keyword.
+idea to put it inside. And you precede them by the "static" keyword.</p>
 
-Because sometimes, you can call such methods without using any instance.
+<p>Because sometimes, you can call such methods without using any instance.
 For example, if I want a method that will work on the
 "numberHeroesCreated": static getHowManyHeroesYouCreated()&#133;
 HowManyHeroesYouCreated. And here, it makes sense that it should be a
 special method because, instead of using an instance name, I will use
-the name of the class.
+the name of the class.</p>
 
-getHowManyHeroesYouCreated()&#133; 0!
+<p>getHowManyHeroesYouCreated()&#133; 0!</p>
 
 <!-- end transcript 4.3.6 -->
 
@@ -17091,16 +17077,16 @@ getHowManyHeroesYouCreated()&#133; 0!
 
 <h5>Class properties and methods vs. instances&apos; properties and methods</h5>
 
-Sometimes, there are methods &quot;attached&quot; to a class, not to an instance
-of a class.
+<p>Sometimes, there are methods &quot;attached&quot; to a class, not to an instance
+of a class.</p>
 
-For example, imagine the Hero class we&apos;ve already seen, and we would
+<p>For example, imagine the Hero class we&apos;ve already seen, and we would
 like to know how many Star Wars&apos;s heroes have been created. If zero
 hero has been created, it&apos;s obvious that we could not use this property
 with an instance of the class such as Dark
-Vador: darkVador.getNbHeroes(); this would make no sense.
+Vador: darkVador.getNbHeroes(); this would make no sense.</p>
 
-Instead, object oriented programming languages have the concept of
+<p>Instead, object oriented programming languages have the concept of
 &quot;class properties&quot; and &quot;class methods&quot; that complete the &quot;instance
 properties&quot; and &quot;instance methods&quot; that we&apos;ve seen up to this
 point. Hero.getNbHeroes() means &quot;Hey, class Hero, can you tell me how
@@ -17108,22 +17094,22 @@ many heroes have been created using your class?&quot;. Class methods define
 the &quot;class behavior&quot;, and instance methods define the instances&apos;
 behavior. darVador.speak(); means &quot;Hey, Dark Vador, please, tell us
 something!&quot;. I speak to Dark Vador and I&apos;m expecting something
-creative from him, such as &quot;I&apos;m your father, Luke!&quot;.
+creative from him, such as &quot;I&apos;m your father, Luke!&quot;.</p>
 
-It&apos;s the same for properties. If there is a property
+<p>It&apos;s the same for properties. If there is a property
 named nbHerosCreated in the class Hero, it represents the DNA of the
 class, not of the instances. You can say &quot;the Hero class has the number
 of heroes it created&quot;, and you can say &quot;Dark Vador has a name and
 belongs to the empire side&quot;, but not &quot;Dark Vador has a number of
-heroes he created&quot;. We have class properties and instance properties.
+heroes he created&quot;. We have class properties and instance properties.</p>
 
 <h5>The static keyword is used for defining class methods</h5>
 
 <h5>Class methods</h5>
 
-How do we distinguish them? By using the static keyword. When you see a
+<p>How do we distinguish them? By using the static keyword. When you see a
 method preceded by the static keyword, it means that you see a class
-property or a class method.
+property or a class method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 474.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -17135,15 +17121,15 @@ property or a class method.
 
 <h5>Class properties</h5>
 
-Class properties should be defined after the class definition, and
+<p>Class properties should be defined after the class definition, and
 declared using the name of the class followed by the . operator and the
 name of the property.
 Example: Point.nbPointsCreated in the example below. A best practice is
-to ALWAYS use them this way.
+to ALWAYS use them this way.</p>
 
-There is another way to declare Class properties (using static getters
+<p>There is another way to declare Class properties (using static getters
 and setters &#45;- see next section, for advanced users), but we recommend
-using this one for beginners.
+using this one for beginners.</p>
 
 <h5>Example of creation and use of class methods and properties using an ES6 class</h5>
 
@@ -17196,16 +17182,15 @@ target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-7">4.3.7 &lbrack;Advanced&rbrack; Modern JavaScript&apos;s getters and setters</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-It is possible to use special methods that are
+<p>It is possible to use special methods that are
 called <b>getters </b>and<b> setters</b>. They allow to make some checks when
 one is trying to set a value to a property, or to do some processing
 when accessing it (for example for displaying it in uppercase, even if
-its value is in lowercase).
+its value is in lowercase).</p>
 
-These special functions are called &quot;getters&quot; and &quot;setters&quot;, and are
+<p>These special functions are called &quot;getters&quot; and &quot;setters&quot;, and are
 declared using the keywords get and set followed by the name of the
-property they define.
+property they define.</p>
 
 <h5>Typical use (<b><i>lines 7 and 11</i></b>):</h5>
 
@@ -17239,16 +17224,16 @@ property they define.
     familyName(&apos;Smith&apos;);
 </pre>
 
-Notice that when you declare get familyName() {&#41;} for example, you
+<p>Notice that when you declare get familyName() {&#41;} for example, you
 define implicitly a property whose name is &quot;familyName&quot; and that will
 be accessible using object.familyName, where object is an instance of
 the class. See <b><i>lines 22-25</i></b> in the example above. Displaying the value
 of p1.familyName will call implicitly get familyName(),
-while p1.familyName = &apos;Smith&apos;; will call set familyName(&apos;Smith&apos;);
+while p1.familyName = &apos;Smith&apos;; will call set familyName(&apos;Smith&apos;);</p>
 
-As get familyName() defines an implicit property named familyName, the
+<p>As get familyName() defines an implicit property named familyName, the
 convention is to use this.<b>&#95;</b>familyName for storing its value (the
-same name preceded by an underscore).
+same name preceded by an underscore).</p>
 
 <h5>Example at CodePen:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17264,17 +17249,16 @@ target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-8">4.3.8 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Here is the discussion forum for this part of the course. Please either
-post your comments/observations/questions or share your creations.
+<p>Here is the discussion forum for this part of the course. Please either
+post your comments/observations/questions or share your creations.</p>
 
 <h5>Suggested topics</h5>
 
--   Did you now that modern JavaScript&apos;s classes are just &quot;a syntactic
+<ul>
+  <li>Did you now that modern JavaScript&apos;s classes are just &quot;a syntactic
     sugar&quot;? In fact they are equivalent to constructor functions from
-    ES5&#41;
-
--   There are two sorts of object-oriented languages: class-based
+    ES5&#41;</li>
+  <li>There are two sorts of object-oriented languages: class-based
     languages and prototype-based languages.
     JavaScript is a prototype-based language. In this introductory
     course, we managed to avoid this term! Without getting into too much
@@ -17282,30 +17266,32 @@ post your comments/observations/questions or share your creations.
     Web pages related to those.
     And yes, ES6 classes are not &quot;real classes&quot;&#41; They are meant to
     make developers&apos; lives easier, i.e., for the developers who already
-    know a class-based language such as Java, C#, etc.
+    know a class-based language such as Java, C#, etc.</li>
+</ul>
 
 <h5>Optional projects</h5>
 
--   Try to write one of the example from the previous modules without
+<ul>
+  <li>Try to write one of the example from the previous modules without
     using any single time the keyword &quot;function&quot;, use only JavaScript
     classes and instances. In case of problems -&gt; go the the forum and
     share your experience, this will be very useful for all students to
     see what sort of problems can occur when moving from a functional
-    approach to an object-oriented approach
+    approach to an object-oriented approach</li>
+  <li>Build a class-based contact manager!</li>
+<ul>
 
--   Build a class-based contact manager!
-
-1.  Try to build a small database (in a JavaScript array) that will hold
+<ol start="1">
+  <li>Try to build a small database (in a JavaScript array) that will hold
     your contacts. You will use classes for defining:
     1) a Contact class, with givenName, familyName, phoneNumber, etc.
-    and
+    and<br>
     2) an HTML set of input fields (not inside a form) for creating new
     contacts + an &quot;Add contact&quot; button. When you click on the button,
     it calls an addContact() callback of your own that will create a new
     contact and add it to your database (using the push method on
-    arrays).
-
-2.  &lbrack;ADVANCED&rbrack; input fields and buttons inside a form!
+    arrays).</li>
+  <li>&lbrack;ADVANCED&rbrack; input fields and buttons inside a form!
     <b>Beware</b>: either do not put your input fields and buttons inside
     a &lt;form&gt; or the buttons will submit the form (this is their
     default behavior, unless you add an attribute type=&quot;button&quot; to the
@@ -17314,38 +17300,32 @@ post your comments/observations/questions or share your creations.
     (You can change this name if you like) when the form is submitted.
     In the processMyForm method, get the content of the input fields,
     build a contact, add it to the array etc. And then, do not forget to
-    return false to avoid the submission of the HTML form).
-
-3.  It would be cool to also have a listContact() function that will
+    return false to avoid the submission of the HTML form).</li>
+  <li>It would be cool to also have a listContact() function that will
     generate a list of contacts
     (create &lt;ul&gt;&#41;&lt;/ul&gt; with &lt;li&gt;&#41;&lt;/li&gt; inside, one for
-    each contact).
-
-4.  Now, try to write an ES6 class ContactManager (or you could also use
+    each contact).</li>
+  <li>Now, try to write an ES6 class ContactManager (or you could also use
     an object literal for that&#41;, but let&apos;s try
      practicing JavaScript classes!), that will have the array of
-    contact as a property.
-
-5.  Create an instance db of this class:
-    let db = new ContactManager();
-
-6.  Add in the ContactManager class an add(c) and a list() method (for
+    contact as a property.</li>
+  <li>Create an instance db of this class:<br>
+    let db = new ContactManager();</li>
+  <li>Add in the ContactManager class an add(c) and a list() method (for
     adding a contact c to the array of contacts, and for listing the
-    contacts).
-
-7.  Now, when you press the buttons, the addContact() method from step 1
+    contacts).</li>
+  <li>Now, when you press the buttons, the addContact() method from step 1
     will call db.addContact(c) where db is the instance of
-    your ContactManager class and c is an instance of the Contact class.
-
-8.  Feel free to customize this project with nice CSS, etc.
-
+    your ContactManager class and c is an instance of the Contact class.</li>
+  <li>Feel free to customize this project with nice CSS, etc.</li>
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-4-1">4.4.1 Class and constructor</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-First, let&apos;s look how we were handling balls previously in our game!
+<p>First, let&apos;s look how we were handling balls previously in our game!</p>
 
-We have built balls in order to fill the array of balls.
+<p>We have built balls in order to fill the array of balls.</p>
 
 <h5>OLD VERSION:</h5>
 
@@ -17741,14 +17721,15 @@ same object.</p>
 &quot;Michel&quot;; or let courseAuthor = {firstName:&apos;Michel&apos;,
 lastName:&apos;Buffa&apos;), this is what happens:</p>
 
--   If its value is a primitive value (number, string, or
-    boolean), <b>the variable contains this value directly</b>.
-
--   If its value is an object, the variable contains <b>the memory
+<ul>
+  <li>If its value is a primitive value (number, string, or
+    boolean), <b>the variable contains this value directly</b>.</li>
+  <li>If its value is an object, the variable contains <b>the memory
     address of the object</b>. We say that this variable &quot;points to&quot; an
     object (or references this object). Accessing the variable will
     automatically resolve the reference, meaning that the value of the
-    variable is the referenced object.
+    variable is the referenced object.</li>
+</ul>
 
 <p>Examples:</p>
 
@@ -20531,17 +20512,17 @@ target="_blank" rel="noopener noreferrer">
 related W3C specification</a>) introduces &quot;two related mechanisms, similar 
 to HTTP session cookies, for storing structured data on the client side&quot;.</p>
 
-Indeed, Web Storage provides two
+<p>Indeed, Web Storage provides two
 interfaces - sessionStorage and localStorage - whose main difference is
 data longevity. This specification defines an API for persistent data
-storage of key-value pair data in Web clients.
+storage of key-value pair data in Web clients.</p>
 
-<b>With localStorage the data will remain until it is deleted, whereas
-with sessionStorage the data is erased when the tab/browser is closed.</b>
+<p><b>With localStorage the data will remain until it is deleted, whereas
+with sessionStorage the data is erased when the tab/browser is closed.</b></p>
 
-For convenience, we will mainly illustrate the localStorage object. Just
+<p>For convenience, we will mainly illustrate the localStorage object. Just
 change &quot;local&quot; to &quot;session&quot; and it should work (this time with a
-session lifetime)
+session lifetime)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 518. table: key/value pairs (491) ~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -20600,82 +20581,79 @@ the localStorage for this domain:</p>
   alt="devtools can be used to show localStorage." />
 </p>
 
-<b>Differences with cookies?</b>
+<p><b>Differences with cookies?</b></p>
 
-Cookies are also a popular way to store key-value pairs. Web Storage,
+<p>Cookies are also a popular way to store key-value pairs. Web Storage,
 however, is a more powerful technique than cookies. The main difference
 is in size limits: cookies are limited to a few KBytes whereas Web
 Storage may extend to several MBytes. Also, cookies generate additional
 HTTP request traffic (whether to request a Web page, an image, a
-stylesheet, a JavaScript file, etc.).
+stylesheet, a JavaScript file, etc.).</p>
 
-Objects managed by Web Storage are no longer carried on the network and
+<p>Objects managed by Web Storage are no longer carried on the network and
 HTTP, and are easily accessible (read, change and delete) from
-JavaScript, using the Web Storage API.
+JavaScript, using the Web Storage API.</p>
 
-<b>External resources</b>
+<p><b>External resources</b></p>
 
--   [The W3C Web Storage API
-    recommendation](http://www.w3.org/TR/webstorage/)
-
--   [Client-side
-    storage](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage) article
-    on MDN
-
--   [An Overview of Client-Side
-    Storage](https://css-tricks.com/overview-client-side-storage/)
-
+<ul>
+  <li><a href="http://www.w3.org/TR/webstorage/">The W3C Web Storage API recommendation</a>.</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage">
+    Client-side storage article on MDN</a>.</li>
+  <li><a href="https://css-tricks.com/overview-client-side-storage/">
+    An Overview of Client-Side Storage</a>.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-4">5.4.4 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Here is the discussion forum for this part of the course.</p>
 
-Here is the discussion forum for this part of the course.
+<p><b>Suggested topic</b></p>
 
-<b>Suggested topic</b>
-
--   Did you know that using XhR2 for getting remote data, you can also
+<ul>
+  <li>Did you know that using XhR2 for getting remote data, you can also
     monitor the download progression using n xhr.onprogress = event
-    listener and a &lt;progress&gt; HTML element. See [this
-    example](https://jsbin.com/nuxanaf/edit?html,output)! This is
-    not directly possible using the [fetch
-    API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) (you
-    need to give a look at [the streams
-    API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API) that
-    can be used altogether with the fetch API for [monitoring uploads
-    and downloads](https://fetch-progress.anthum.com/)).
+    listener and a &lt;progress&gt; HTML element. See 
+	<a href="https://jsbin.com/nuxanaf/edit?html,output">
+	this example</a>! This is not directly possible using the 
+	<a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">
+	fetch API</a> (you need to give a look at 
+	<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API">
+	the streams API</a> that can be used altogether with the fetch API for 
+	<a href="https://fetch-progress.anthum.com/">monitoring uploads and downloads</a>).</li>
+</ul>
 
-<b>Optional projects</b>
+<p><b>Optional projects</b></p>
 
--   Please display the data [from this
-    URL](https://gist.githubusercontent.com/heiswayi/7fde241975ed8a80535a/raw/ff1caaeaf62bd6740ab7cafcd61f1215de173379/datatables-data.json) in
-    a dynamic table.
-
--   Try to add a &quot;hi-score&quot; table to the game developed during this
+<ul>
+  <li>Please display the data <a href="https://gist.githubusercontent.com/heiswayi/7fde241975ed8a80535a/raw/ff1caaeaf62bd6740ab7cafcd61f1215de173379/datatables-data.json">
+    from this URL</a> in a dynamic table.</li>
+  <li>Try to add a &quot;hi-score&quot; table to the game developed during this
     course. The table will be displayed when you lose, and will show
-    only the 10 best scores.
-
+    only the 10 best scores.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-1">5.5.1 A contact manager (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-In this final part of the course, let&apos;s build together a minimal
+<p>In this final part of the course, let&apos;s build together a minimal
 contact manager that shows how to use ES6 classes, local storage, forms
-and the HTML table JavaScript API.
+and the HTML table JavaScript API.</p>
 
-This is a play project that you can easily improve:
+<p>This is a play project that you can easily improve:</p>
 
--   A contact, in this application, is just a person with a name and an
+<ul>
+  <li>A contact, in this application, is just a person with a name and an
     email. Feel free to add other properties and methods to the Contact
-    class.
-
--   The contactManager is also an ES6 class with methods for adding,
+    class.</li>
+  <li>The contactManager is also an ES6 class with methods for adding,
     removing, sorting, saving and loading contacts on your hard disk. We
     will add new functionalities, step by step, in the next sections,
     but you can improve the examples provided by adding your own new
-    features (build a better HTML table, add new sorting options, etc.)
+    features (build a better HTML table, add new sorting options, etc.)</li>
+</ul>
 
-<b>Let&apos;s start with a simple skeleton (no GUI), beginning with
-the Contact class</b>
+<p><b>Let&apos;s start with a simple skeleton (no GUI), beginning with
+the Contact class</b></p>
 
 <pre>
 1.  class Contact {
@@ -20698,7 +20676,7 @@ above class like this:</p>
 <p>Then you can print the properties of contact c1 or c2 using for
 example console.log(c1.name), console.log(c2.email), etc.</p>
 
-<b>A minimal ContactManager class</b>
+<p><b>A minimal ContactManager class</b></p>
 
 <pre>
 1.  class ContactManager {
@@ -20733,18 +20711,19 @@ example console.log(c1.name), console.log(c2.email), etc.</p>
 
 <h4>Explanations:</h4>
 
--   This is a minimal ES6 class for building a contact manager. It has
+<ul>
+  <li>This is a minimal ES6 class for building a contact manager. It has
     only one property: the list of contacts, and a method for adding a
     new contact (<b><i>line 8</i></b>), one for removing a contact (<b><i>line 12</i></b>), that
     iterate on the list of contacts until the contact passed as a
     parameter is found (when email properties match), then the contact
     is removed using the splice method, and we go out from the loop
-    using the break statement (<b><i>line 22</i></b>).
+    using the break statement (<b><i>line 22</i></b>).</li>
+  <li>It also has a utility method for printing to the console the list of
+    contacts (<b><i>line 27</i></b>).</li>
+</ul>
 
--   It also has a utility method for printing to the console the list of
-    contacts (<b><i>line 27</i></b>).
-
-We can use the contact manager like this:
+<p>We can use the contact manager like this:</p>
 
 <pre>1.  var cm = new ContactManager();
 2.  var c1 = new Contact(&quot;Jimi Hendrix&quot;, &quot;jimi@rip.com&quot;);
@@ -20763,20 +20742,20 @@ We can use the contact manager like this:
 13. cm.printContactsToConsole();
 </pre>
 
-As you can see, this is a very minimal version. It&apos;s always a good idea
+<p>As you can see, this is a very minimal version. It&apos;s always a good idea
 to start with very simple structures/classes, and a few methods. Then
 type the code on CodePen or JSBin and use the devtool console. Check
-that there are no syntax errors, that everything runs smoothly.
+that there are no syntax errors, that everything runs smoothly.</p>
 
-Here is the CodePen of this minimal version. Click on the CodePen label
-on the top right, and once in CodePen, open the console:
+<p>Here is the CodePen of this minimal version. Click on the CodePen label
+on the top right, and once in CodePen, open the console:</p>
 
-<b>Adding a method for sorting the list of contacts by name</b>
+<p><b>Adding a method for sorting the list of contacts by name</b></p>
 
-Do you remember the sort() method you can use on arrays? We saw it in
+<p>Do you remember the sort() method you can use on arrays? We saw it in
 modules 2 or 3. Since our array contains objects, we must provide a
 callback for comparing two elements by name. Here is the code for the
-new sort() method we added to the ContactManager class:
+new sort() method we added to the ContactManager class:</p>
 
 <pre>
 1.  sort() {
@@ -20801,14 +20780,14 @@ new sort() method we added to the ContactManager class:
 20. }
 </pre>
 
-The important thing here is to notice that we declared
+<p>The important thing here is to notice that we declared
 the compareByName method as a class method (using the static keyword).
 This is similar to what we did in the Point class example from module 4,
 when we explained the &quot;class properties and methods&quot;. This method
 compareByName does not depend on any instance of the contact manager,
-consequently: it&apos;s a class method.
+consequently: it&apos;s a class method.</p>
 
-CodePen that uses this new method:
+<p>CodePen that uses this new method:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 521. codepen:  (49x) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -20858,10 +20837,10 @@ contacts in JSON:</h5>
   <li>localStorage.keyName = a string value</li>
 </ul>
 
-In our case, <b><i>line 11</i></b> saves the list of contacts with a key named
+<p>In our case, <b><i>line 11</i></b> saves the list of contacts with a key named
 &quot;contacts&quot; in the local storage. In order to save the list of contacts
 as a string, we convert it to the JSON format using the
- JSON.stringify(&#41;) method (JSON = string based)
+ JSON.stringify(&#41;) method (JSON = string based)</p>
 
 <p>Try an example on CodePen, save some contacts&#41;</p>
 
@@ -20900,14 +20879,15 @@ as a string, we convert it to the JSON format using the
 
 <b>Restoring the list of contacts</b>
 
-This time, we&apos;ve added a load() method that will check if a list of
+<p>This time, we&apos;ve added a load() method that will check if a list of
 contacts has been saved. If this is the case, it will read it from
-LocalStorage, convert it back from JSON into a JavaScript object. In
-order to test this, in the following CodePen, we first save the list,
+LocalStorage, convert it back from JSON into a JavaScript object.</p>
+
+<p>In order to test this, in the following CodePen, we first save the list,
 then we empty the list in memory (setting the array to an empty array),
 print the list of contacts (that displays a message &quot;LIST EMPTY!&quot;),
 then we load the contacts from LocalStorage and print the list again: it
-has been restored to its previous value.
+has been restored to its previous value.</p>
 
 <pre>
 1.  class ContactManager {
@@ -20992,10 +20972,10 @@ CodePen: XhR2 - get a remote list of user's names and emails</a>.</h6>
 11. &lt;/html&gt;
 </pre>
 
-The div at <b><i>line 9</i></b> is where we&apos;re going to dynamically insert an HTML
+<p>The div at <b><i>line 9</i></b> is where we&apos;re going to dynamically insert an HTML
 table with one row for each contact. We will keep the same minimal CSS
 for displaying table, row and cell borders (we encourage you to improve
-this):
+this):</p>
 
 <pre>1.  table {
 2.     margin-top: 20px;
