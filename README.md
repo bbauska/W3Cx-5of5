@@ -5508,7 +5508,7 @@ floating point numbers is that 0.1 + 0.2 does not equal 0.3.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 171. devtools console showing 0.1+0.2 is not equal to 0.3 (145) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image171.png?raw=true"
+<img src="./images/image171.jpeg?raw=true"
   style="width:50%"
   title="Devtools console showing 0.1 + 0.2 is not equal to 0.3 but to 0.300000000000004"
   alt="Devtools console showing 0.1 + 0.2 is not equal to 0.3 but to 0.300000000000004." />
@@ -5823,8 +5823,8 @@ with double and closed with single quotes
 <h5>Image from the devtool console, from the example above:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 175. error - devtools console; do not mix single and double quotes (152) ~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image175.png?raw=true"
+<p align="left" width="100%">
+<img src="./images/image175.jpeg?raw=true"
   style="width:50%"
   title="Error; devtools console error; do not mix single and double quotes"
   alt="Error; devtools console error; do not mix single and double quotes." />
@@ -6044,10 +6044,10 @@ unless the formula is a pure addition.</p>
 
 <h4>The above example is shown in the devtools console:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~ 173. devtools console; how to convert a number into a string (149) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 177. devtools console; how to convert a number into a string (149) ~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image173.png?raw=true"
-  style="width:25%"
+<img src="./images/image177.jpeg?raw=true"
+  style="width:35%"
   title="Devtools console; how to convert a number into a string"
   alt="Devtools console; how to convert a number into a string." />
 
@@ -6427,13 +6427,16 @@ console and console.log(&hellip;)!</p>
 <p>Let&apos;s check that some parts of the code you wrote are executed
 correctly.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 174. button click me to display the value of the x var (156) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 178. button click me to display the value of the x var (156) ~~~~~~~~~~~~~~~~-->
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/YNbvgP" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image174.png?raw=true"
+<img src="./images/image178.png?raw=true"
   style="width:50%"
   title="Button click me to display the value of the x variable"
-  alt="Button click me to display the value of the x variable." />
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/YNbvgP" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+  alt="Button click me to display the value of the x variable." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/YNbvgP" 
+target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 
 <p>Normally, when the button is clicked, we should call the addXToThePage() 
 function, which in turn should display the value of the variable x inside an 
@@ -6443,13 +6446,16 @@ HTML paragraph.</p>
 a console.log(&quot;In the addXToThePage function&quot;); as the first
 instruction of the function:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 175. write messages to the devtools console (157) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 179. write messages to the devtools console (166) ~~~~~~~~~~~~~~~~~~~~~~-->
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/YNbvoX" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image175.png?raw=true"
+<img src="./images/image179.png?raw=true"
   style="width:50%"
   title="Write messages to the devtools console"
-  alt="Write messages to the devtools console." />
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/YNbvoX" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+  alt="Write messages to the devtools console." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/YNbvoX" 
+target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 
 <p>And let&apos;s execute this with the devtool console open (use F12 on
 Windows, or Cmd-Alt-i on a Mac, or control-shift-i). First, as the
@@ -6457,9 +6463,9 @@ provided example is located on CodePen, an online IDE, it&apos;s better to
 execute it in &quot;debug mode&quot;. The online IDE will just display a page
 (see snapshot below) with the code running:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176. select debug mode (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180. select debug mode (166) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image176.png?raw=true"
+<img src="./images/image180.png?raw=true"
   style="width:50%"
   title="Select Debug mode"
   alt="Select Debug mode." />
@@ -6468,18 +6474,18 @@ execute it in &quot;debug mode&quot;. The online IDE will just display a page
 whole codepen IDE + your code!). Open the devtool console (F12 or
 control-shift-i or cmd-alt-i on Mac), and you should see this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 177. console debug (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181. console debug (167) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image177.png?raw=true"
+<img src="./images/image181.png?raw=true"
   style="width:50%"
   title="Console debug"
   alt="Console debug." />
 
 <p>Now, press the button! An error message appears:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 178. error message in the devtool console (158) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 182. error message in the devtool console (167) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image178.jpg?raw=true"
+<img src="./images/image182.jpeg?raw=true"
   style="width:50%"
   title="Error message in the devtool console"
   alt="Error message in the devtool console." />
@@ -6488,9 +6494,9 @@ control-shift-i or cmd-alt-i on Mac), and you should see this:</p>
 We can check the source code by clicking on the YNbvoX:40 link on the
 right:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 179. source code that fired the error (158) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 183. source code that fired the error (167) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image179.png?raw=true"
+<img src="./images/image183.jpeg?raw=true"
   style="width:50%"
   title="Source code that fired the error"
   alt="Source code that fired the error." />
@@ -6499,9 +6505,9 @@ right:</p>
 the onclick=&quot;&hellip;&quot;, the name we used : AddXToToThePage has &quot;ToTo&quot;
 instead of &quot;To&quot;. Let&apos;s fix that now and try again:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 180. this time we entered the addxtothepage function! (159) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 184. this time we entered the addxtothepage function! (168) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image180.png?raw=true"
+<img src="./images/image184.png?raw=true"
   style="width:50%"
   title="This time we entered the addXToToThePage function"
   alt="This time we entered the addXToToThePage function." />
@@ -6510,9 +6516,9 @@ instead of &quot;To&quot;. Let&apos;s fix that now and try again:</p>
 go in debug mode, open the devtool console and click the button. Here is
 what we get:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 181. codepen; click me to display the value of the x variable (159) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 185. codepen; click me to display the value of the x variable (168) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image181.png?raw=true"
+<img src="./images/image185.jpeg?raw=true"
   style="width:50%"
   title="CodePen; click me to display the value of the x variable"
   alt="CodePen; click me to display the value of the x variable." />
@@ -6525,12 +6531,16 @@ error at least to this point&hellip;</p>
 <p>Let&apos;s fix this &quot;X&quot;! We&apos;ll replace it with an &quot;x&quot; and everything
 should be ok now:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 182. codepen; write messages to the devtool console (159) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 186. codepen; write messages to the devtool console (169) ~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/egajBx" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image182.png?raw=true"
+<img src="./images/image186.png?raw=true"
   style="width:50%"
   title="CodePen; Write messages to the devtool console"
-  alt="CodePen; Write messages to the devtool console." />
+  alt="CodePen; Write messages to the devtool console." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/egajBx" 
+target="_blank" rel="noopener noreferrer">CodePen; write messages to the devtool console</a>.</h6>
 
 <p>You can click on the button now&hellip;.</p>
 
@@ -6552,9 +6562,9 @@ strings.</p>
 
 <p>We typed this code in the devtool console to check what it does:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 183. type javascript code into the console (160) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 187. type javascript code into the console (169) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image183.png?raw=true"
+<img src="./images/image187.jpeg?raw=true"
   style="width:50%"
   title="Type JavaScript code into the console"
   alt="Type JavaScript code into the console." />
@@ -6575,9 +6585,9 @@ calculations:</p>
 
 <p>Result:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 184. expression displayed using console.log (161) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 188. expression displayed using console.log (170) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image184.png?raw=true"
+<img src="./images/image188.jpeg?raw=true"
   style="width:50%"
   title="Expression displayed using console.log"
   alt="Expression displayed using console.log." />
@@ -6613,9 +6623,9 @@ use):</p>
   <li>etc.</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185. contact list (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 189. contact list (170) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image185.png?raw=true"
+<img src="./images/image189.png?raw=true"
   style="width:50%"
   title="Contact list"
   alt="Contact list." />
@@ -6624,9 +6634,9 @@ use):</p>
 <p>Just click the button to build the HTML table dynamically. You should
 see this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 186. dynamic contact list; given name, family name (162) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 190. dynamic contact list; given name, family name (170) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image186.png?raw=true"
+<img src="./images/image190.png?raw=true"
   style="width:25%"
   title="Dynamic contact list; given name, family name"
   alt="Dynamic contact list; given name, family name." />
@@ -6641,33 +6651,42 @@ what can be done.</p>
 
 <h4>Example #1: change common properties (color, border, background color)</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 187. change common properties  (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 191. change common properties  (171) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/rjgQgN" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image187.png?raw=true"
+<img src="./images/image191.png?raw=true"
   style="width:50%"
   title="Change common properties"
-  alt="Change common properties." />
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/rjgQgN" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+  alt="Change common properties." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/rjgQgN" 
+target="_blank" rel="noopener noreferrer">CodePen; change common properties</a>.</h6>
 
 <h4>Example #2: change the background image property using an external image</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 188. change the background image (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 192. change the background image (172) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/MJdzMM" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image188.png?raw=true"
+<img src="./images/image192.png?raw=true"
   style="width:50%"
   title="Change the background image property using an external image"
-  alt="Change the background image property using an external image." />
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/MJdzMM" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+  alt="Change the background image property using an external image." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/MJdzMM" 
+target="_blank" rel="noopener noreferrer">CodePen; change the background image</a>.</h6>
 
 <h4>Example #3: Use the background image as a sprite sheet - animate Mario!</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 189. use the background image as a sprite sheet (164) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 193. use the background image as a sprite sheet (172) ~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ygWGBd" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image189.png?raw=true"
+<img src="./images/image193.png?raw=true"
   style="width:50%"
   title="Use the background image as a sprite sheet"
-  alt="Use the background image as a sprite sheet." />
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygWGBd" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+  alt="Use the background image as a sprite sheet." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygWGBd" 
+target="_blank" rel="noopener noreferrer">CodePen; use background image as a sprite sheet</a>.</h6>
 
 <p>Notice how the CSS properties change when we use them from JavaScript:</p>
 
@@ -6699,9 +6718,9 @@ study some of the most useful events in even greater depth.</p>
 
 <h4>Example #1: use input events on an HTML input field</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 190. use input events on an html input field (165) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 194. use input events on an html input field (173) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image190.png?raw=true"
+<img src="./images/image194.png?raw=true"
   style="width:50%"
   title="Use input events on an HTML input field"
   alt="Use input events on an HTML input field." />
@@ -6721,9 +6740,9 @@ make a small game, etc. Small and diverse examples for illustrating some
 JavaScript data structures such as Arrays or Objects are going to be
 presented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 191. listen to mouse events in an html5 canvas (166) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 195. listen to mouse events in an html5 canvas (174) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image191.png?raw=true"
+<img src="./images/image195.png?raw=true"
   style="width:50%"
   title="Listen to mouse events in an HTML5 canvas"
   alt="Listen to mouse events in an HTML5 canvas." />
@@ -6731,9 +6750,9 @@ presented.</p>
   
 <h4>Example #3: a paint program - click and drag mouse, then release</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 192. a paint program - click and drag mouse (166) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 196. a paint program - click and drag mouse (174) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image192.png?raw=true"
+<img src="./images/image196.png?raw=true"
   style="width:50%"
   title="A paint program - click and drag mouse"
   alt="A paint program - click and drag mouse." />
@@ -6741,9 +6760,9 @@ presented.</p>
 
 <h4>Example #4: move a monster in an HTML5 canvas using left and right arrow keys</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 193. move a monster in an html5 canvas (167) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 197. move a monster in an html5 canvas (175) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image193.png?raw=true"
+<img src="./images/image197.png?raw=true"
   style="width:50%"
   title="Move a monster in an HTML5 canvas"
   alt="Move a monster in an HTML5 canvas." />
@@ -6774,9 +6793,9 @@ image cannot be seen in this embedded example anymore.</p>
 <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" target="_blank" rel="noopener noreferrer">
 W3Cx HTML5 Coding Essentials and Best Practices</a> course provides many other examples that use the webcam.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 194. codepen; example webcam (168) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 198. codepen; example webcam (176) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image194.png?raw=true"
+<img src="./images/image198.png?raw=true"
   style="width:50%"
   title="CodePen; Example Webcam"
   alt="CodePen; Example Webcam." />
@@ -6791,9 +6810,9 @@ to try <a href="https://webcamtoy.com/" target="_blank" rel="noopener noreferrer
 <p>Click on the piano keyboard. Use the different buttons, sliders, etc.
 This example uses the WebAudio API in order to synthesize sounds.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~ 195. codepen; using the webaudio api to build a small sythesizer (168) ~~~~~~~~~~~-->
+<!--~~~~~~~~~ 199. codepen; using the webaudio api to build a small sythesizer (176) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image195.png?raw=true"
+<img src="./images/image199.png?raw=true"
   style="width:50%"
   title="CodePen; Using the WebAudio API to build a small sythesizer"
   alt="CodePen; Using the WebAudio API to build a small sythesizer." />
@@ -6827,9 +6846,9 @@ plots f(x) = x&#94;2, then f(x) = sin(x) and finally a mix of
 fours functions : f(x) = x&#94;2 (in red), f(x) = 3&ast;x (in green), f(x) =
 cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 196. codepen; plot mathematical functions (169) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 200. codepen; plot mathematical functions (177) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image196.png?raw=true"
+<img src="./images/image200.png?raw=true"
   style="width:50%"
   title="CodePen; Plot mathematical functions"
   alt="CodePen; Plot mathematical functions." />
@@ -6843,9 +6862,9 @@ the xRange and yRange values). If you have trouble, 
 <a href="https://codepen.io/w3devcampus/pen/MJMYNb" target="_blank" rel="noopener noreferrer">
 look here</a> for a solution.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 197. plot force directed graph using d3.js (170) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 201. plot force directed graph using d3.js (178) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image197.png?raw=true"
+<img src="./images/image201.png?raw=true"
   style="width:50%"
   title="Plot force directed graph using d3.js"
   alt="Plot force directed graph using d3.js." />
@@ -6863,9 +6882,9 @@ learn by copying and pasting, tweaking code you haven't even written, etc. Go to
 codepen.io and use the search button for "d3" and you will find plenty of examples 
 that use that library.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 198. codepen; force-directed draggable graph (170) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 202. codepen; force-directed draggable graph (178) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image198.png?raw=true"
+<img src="./images/image202.png?raw=true"
   style="width:50%"
   title="CodePen; A force-directed draggable graph"
   alt="CodePen; A force-directed draggable graph." />
@@ -6888,9 +6907,9 @@ If you want to try other compatible songs, look for any .mod, .it, .xm song on
 the Web and drag and drop it into the example page. A good resource for such 
 files is The Mod Archive, you can download plenty of chiptune files from there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 199. codepen; chiptune - load demo song (171) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 203. codepen; chiptune - load demo song (179) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image199.png?raw=true"
+<img src="./images/image203.png?raw=true"
   style="width:50%"
   title="CodePen; Chiptune music with WebAudio"
   alt="CodePen; Chiptune music with WebAudio." />
@@ -6904,9 +6923,9 @@ it easier to animate sprites (sub images from a big image called a "sprite sheet
 in an HTML5 canvas. We will see how to use the HTML5 canvas later on in this course. 
 The example is just here to illustrate what can be done using external libraries.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 200. codepen; animate a green spite (172) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 204. codepen; animate a green spite (180) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image200.png?raw=true"
+<img src="./images/image204.png?raw=true"
   style="width:50%"
   title="CodePen; Animate a green sprite"
   alt="CodePen; Animate a green sprite." />
@@ -6925,7 +6944,7 @@ target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 (see <a href="https://jsonplaceholder.typicode.com/users" 
  target="_blank" rel="noopener noreferrer">remote data</a>):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 205. codepen; use remote structured data (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 205. codepen; use remote structured data (181) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image205.png?raw=true"
   style="width:50%"
@@ -6940,7 +6959,7 @@ target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 remote sounds, decode them and play them as samples in memory (useful
 for video games):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 206. CodePen: Load and decode remote sounds for use in a video game (173) ~~~~~~~~~-->
+<!--~~~~~~~~ 206. CodePen: Load and decode remote sounds for use in a video game (181) ~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image206.png?raw=true"
   style="width:50%"
@@ -6953,7 +6972,7 @@ target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Lesson: Introduction to Module 2</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 207. learn how to handle events (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 207. learn how to handle events (182) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image207.png?raw=true"
   style="width:50%"
@@ -6973,7 +6992,7 @@ such as conditional statements, logical operators (if, then, else), and
 loops. How to display multiple rows in a table, how to draw multiples graphical
 objects on the screen.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 208. university cote d'azur w3cx (173) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 208. university cote d'azur w3cx (182) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image208.png?raw=true"
   style="width:50%"
@@ -7004,7 +7023,7 @@ the forum. And let other students enjoy your creation :D</p>
 <p>Live coding video: boolean value, if&hellip;else statement and comparison
 operators</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 209. codepen; comparison operators and the if, else stmts (174) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 209. codepen; comparison operators and the if, else stmts (183) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image209.png?raw=true"
   style="width:50%"
@@ -7020,7 +7039,7 @@ a boolean variable. And we&apos;re gonna see how this variable can be tested in 
 &quot;if&quot;, followed by parentheses, and by a block of instructions, that will 
 be executed only if what is between the parentheses here, is true.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 210. codepen; this is a javascript course (175) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 210. codepen; this is a javascript course (184) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image210.png?raw=true"
   style="width:50%"
@@ -7043,7 +7062,7 @@ JavaScript course!&quot;. If I set it back to true, you can see that
 it&apos;s a bit like a switch. It prints: &quot;This is a JavaScript 
 course!&quot;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 211. codepen; comparison operators (175) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 211. codepen; comparison operators (184) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image211.png?raw=true"
   style="width:50%"
@@ -7060,7 +7079,7 @@ will avoid you a lot of errors.</p>
 <p>I will show the differences in a minute, but consider these last with the three 
 equals (===) and not equals equals (==), to be the ones you must use.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 212. codepen; comparison operators; baby, child, adult or old (176) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 212. codepen; comparison operators; baby, child, adult or old (185) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image212.png?raw=true"
   style="width:50%"
@@ -7073,7 +7092,7 @@ less than 2, print &quot;I&apos;m a baby&quot;, and you can see that this has be
 executed, because the variable is 1, 1 is less than 2. It&apos;s been executed&#133;
 I can add some &quot;else&hellip;if&quot; statements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 213. codepen; comparison operators; baby, child, adult or old (176) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 213. codepen; comparison operators; baby, child, adult or old (185) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image213.png?raw=true"
   style="width:50%"
@@ -7090,7 +7109,7 @@ statements like that. And you can notice that I added at the end only an
 &quot;else&quot; statement, without an &quot;if&quot; behind. This means: 
 &quot;when all the other cases are false, please come here!&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 214. codepen; comparison operators; baby, child, adult or old (176) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 214. codepen; comparison operators; baby, child, adult or old (186) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image214.png?raw=true"
   style="width:50%"
@@ -7101,7 +7120,7 @@ statements like that. And you can notice that I added at the end only an
 I will execute the block of instructions that is just after the last &quot;else&quot;, 
 and it prints &quot;I&apos;m old&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 215. codepen; comparison operators; baby, child, adult or old (176) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 215. codepen; comparison operators; baby, child, adult or old (186) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image215.png?raw=true"
   style="width:50%"
@@ -7112,13 +7131,12 @@ and it prints &quot;I&apos;m old&quot;.</p>
 operator. If I set the variable to be 72, then this test is true and it prints 
 &quot;I&apos;m 72&quot; in the devtool console.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 216. codepen;  (176) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 216. codepen;  (187) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image216.png?raw=true"
   style="width:45%"
   title="CodePen; "
   alt="CodePen; ." />
-
 
 <p>We can also use more than one 
 test at once using logical operators. The double ampersand (&&) here is the AND 
@@ -7126,7 +7144,7 @@ operator. This will be true only is age is more than 12 and less than 14.
 If I set the variable to 13, it will print &quot;I&apos;m a young teenager&quot;
 because both tests here, > 12 and &lt; 14, are true.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 217. codepen;  (176) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 217. codepen;  (187) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image217.png?raw=true"
   style="width:45%"
@@ -7136,7 +7154,7 @@ because both tests here, > 12 and &lt; 14, are true.</p>
 are true. Let&apos;s try with age = 8. With age equals to 8, this is false, age > 12, 
 but age &lt; 14 is true, it prints &quot;I&apos;m a young teenager&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 218/219. codepen;  (176) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 218/219. codepen;  (187) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image218.png?raw=true"
   style="width:45%"
@@ -7157,6 +7175,8 @@ equal sign, then it does not print anymore &quot;I&apos;m 72&quot; because age, 
 a string, has not been converted to a number. And thrust me, it&apos;s much better to 
 use the triple equals operator, it will avoid you many errors like considering a string 
 as a number, and so on.</p>
+
+<!-- end of transcript 2.2.1 boolean values and logical operators -->
 
 <h4>Source code of the example shown in the video</h4>
 
@@ -7508,29 +7528,28 @@ target="_blank" rel="noopener noreferrer">isNan documentation</a>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-2">2.2.2 Conditional statements (5:07)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Live coding video: switch statement</p>
+<p>Live coding transcript: switch statement</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 220.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 220. switch conditional statement (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image220.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- image goes here -->
+  title="Switch conditional statement"
+  alt="Switch conditional statement." />
 
 <p>Hi! Let&apos;s have a look at the switch statement.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 221.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 221. switch statement (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image221.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Switch conditional statement"
+  alt="Switch conditional statement." />
 <p>I prepared a small example in which we take a day number between 0 and 6, 0 for 
 Monday, 1 for Tuesday, and so on&#133; And to pick a random number that is an integer, 
 we used a formula like this, that uses a predefined object called Math.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 222.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 222. math.random day of week (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image222.png?raw=true"
   style="width:50%"
@@ -7539,27 +7558,29 @@ we used a formula like this, that uses a predefined object called Math.</p>
 <p>Math.random() returns a number between 0 and 1, 6 multiplied by this, will give a 
 number between 0 and 7, and we just return the rounded nearest integer. When we 
 execute this, &quot;picked day number&hellip;&quot; you see that it takes some random 
-values each time we execute. If I clear the console and execute this, it will pick a 
-number.</p>
+values each time we execute.</p>
 
-<p>And then, here is a first version that uses &quot;if statements&quot; that is a
-bit naïve. It says: if day equals 0, then print Monday; if day equals 1 &#133; ; and
-so on. Why is it naïve? Because we&apos;re going to execute all the tests and we 
-all know that only one of them will be true.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 223.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 223. math.random and switch (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image223.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
+
+<p>If I clear the console and execute this, it will pick a 
+number. And then, here is a first version that uses &quot;if statements&quot; that is a
+bit naïve. It says: if day equals 0, then print Monday; if day equals 1 &#133; ; and
+so on. Why is it naïve? Because we&apos;re going to execute all the tests and we 
+all know that only one of them will be true.</p>
+
 <p>Instead of multiplying series the tests, a better version is to use
 &quot;if&hellip; else&quot; statements, like this&hellip; so if day equals 0, then print
 Monday, else if day equals 1, print Tuesday&hellip;
 In that case, we&apos;re gonna test just until we find the day, and all the
 else will be ignored.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 224.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 224. using switch (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image224.png?raw=true"
   style="width:50%"
@@ -7581,16 +7602,17 @@ the same result.</p>
 enter different case statements. You can make errors if you don&apos;t know what to 
 break keyword means, but it can also be useful to regroup cases.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 225. use switch to display days of the week (188) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 225. use switch to display days of the week (197) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image225.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Use switch to display days of the week"
+  alt="Use switch to display days of the week." />
 <p>For example, if I want to print &quot;This is a week day, we go to work!&quot;,
 when we&apos;ve got Monday, Tuesday&hellip; any day of the week! And if I want
 to print &quot;Week end!&quot; for Saturday and Sunday, then I can regroup cases
 like that.</p>
+
 <p>You see case 0, case 1, case 2, case 3, case 4&hellip; and then just use a
 break after we executed the block of instructions that is related to all
 these five cases.
@@ -7598,19 +7620,20 @@ Doing this, we will print &quot;Week Day&hellip;&quot; only if the day has a
 value of 0, 1, 2, 3 or 4, and we will print &quot;Week end!&quot; if it has a
 value of 5 or 6.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 226. use switch; week day & weekends (189) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 226. use switch; week day & weekends (198) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image226.png?raw=true"
   style="width:50%"
   title="Use switch; week day and weekends"
   alt="Use switch; week day and weekends." />
+  
 <p>Be careful because I saw this error a lot of time with beginners: you
 must use &quot;case&quot; only with a value after it, not an expression!
 This thing here case &quot;day greater or equal than 0&quot; or &quot;day less than
 4&quot; is not valid. You cannot use an expression here, after the case.
 This is not going to work. Avoid! This&hellip; error!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227. example; use an array (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227. example; use an array (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image227.png?raw=true"
   style="width:50%"
@@ -7620,10 +7643,11 @@ This is not going to work. Avoid! This&hellip; error!</p>
 It&apos;s not to use any if or any switch&hellip;but use an array!
 If we&apos;ve got an array that contains all the string values for the
 days of the week, we can just do a console.log&hellip; daysOfTheWeek&hellip; 
-brackets, and use the day as an index.
-And this works too and it&apos;s only two lines of code.</p>
+brackets, and use the day as an index. And this works too and it&apos;s only two lines of code.</p>
 
-<h4>Example from the video</h4>
+<!-- end transcript 2.2.2 -->
+
+<h4>Example from the transcript</h4>
 
 <p><a href="https://codepen.io/w3devcampus/pen/jmoJRZ" target="_blank" rel="noopener noreferrer">
 CodePen example from the lesson above</a></p>
@@ -7672,7 +7696,17 @@ or for-statement. We will see these statements below.</p>
 <p>All the examples for this section are in this codepen (to run it: click
 on the &quot;edit on CodePen&quot; label, and once in CodePen, open the devtool
 console to see the outputs of this program):</p>
- 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 227b. example; devtool console to see output (200) ~~~~~~~~~~~~~~~~~~~~~-->
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/qrjdza">
+<p align="center" width="100%">
+<img src="./images/image227b.png?raw=true"
+  style="width:50%"
+  title="CodePen: example; devtool console to see output"
+  alt="CodePen: example; devtool console to see output." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/qrjdza">
+CodePen: example devtool console to see output of this program</a>.</h6>
+
 <p>(Please look, edit and try whatever you want. There are parts that are
 commented - please remove comments and try to understand the results).</p>
 
