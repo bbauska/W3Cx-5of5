@@ -483,19 +483,22 @@ target="_blank" rel="noopener noreferrer">Things you can do with CodePen</a> 
 &lbrack;Brent Miller, February 6, 2019&rbrack;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 10. snapshot of a 'button' codepen example (09) ~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image010.jpeg?raw=true"
   style="width:50%"
   title="Snapshot of a 'button' CodePen example"
   alt="Snapshot of a 'button' CodePen example." />
-</p>
+</p></a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. plunker logo (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://plnkr.co/" target="_blank" rel="noopener noreferrer">
 <p align="left" width="25%">
 <img src="./images/image011.png?raw=true"
   style="width:5%"
   title="Plunker logo"
-  alt="Plunker logo." />
+  alt="Plunker logo." /></a>
 <a href="https://plnkr.co/" target="_blank" rel="noopener noreferrer">Plunker</a> 
 allows us to work online with separate files. So, when we have no choice but to 
 use separate files, we might use this tool.</p>
@@ -1350,12 +1353,14 @@ edit the source code and see the resulting Web page updating in real
 time):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 33. codepen a tale of two cities (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/PWqYxG" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image033.png?raw=true"
   style="width:50%"
   title="Codepen: A Tale of Two Cities"
   alt="Codepen: A Tale of Two Cities." />
-</p>
+</p></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PWqYxG" 
 target="_blank" rel="noopener noreferrer">CodePen: A Tale of Two Cities</a></h6>
 
@@ -1405,12 +1410,14 @@ your Web page looks, as well as how it responds and interacts with you.</p>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 34. codepen: who am i? (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/egNOLj" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image034.png?raw=true"
   style="width:65%"
   title="CodePen: Who Am I?"
   alt="CodePen: Who Am I?" />
-</p>
+</p></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/egNOLj" 
 target="_blank" rel="noopener noreferrer">CodePen: Who Am I?</a></h6>
 
