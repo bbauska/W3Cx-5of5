@@ -3477,7 +3477,7 @@ years ago).</p>
 <p>Here is an example that will display the current and past members of
 famous rock bands:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 119. codepen example, lookup band members (88) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 119. codepen example, lookup band members (89) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image119.png?raw=true"
   style="width:65%"
@@ -3490,7 +3490,7 @@ target="_blank" rel="noopener noreferrer">CodePen: Database Lookup Band Members<
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-3">1.3.3 Where to put JavaScript code (7:13)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 120. where to put javascript code (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 120. where to put javascript code (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image120.png?raw=true"
   style="width:65%"
@@ -3508,7 +3508,7 @@ of the computer where we are going to store some values. And the variable has a 
 and it's declared using the "var" keyword. There are others possibilities we will 
 see later.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 121. example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 121. example 1; js in the html file (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image121.png?raw=true"
   style="width:65%"
@@ -3526,14 +3526,13 @@ element of the document, and the "innerHTML" property corresponds to its HTML
 content. By doing this, we are adding a bold element JavaScript code executing 
 the value of the variable x=2 and we display the value of the x variable in bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 122. result of example 1; js in the html file (89) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 122. result of example 1; js in the html file (90) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122.png?raw=true"
   style="width:65%"
   title="Result of execution Example 1; JavaScript in the HTML file"
   alt="Result of execution Example 1; JavaScript in the HTML file." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY">CodePen: JS in the .html file</a>.</h6>
-<!-- image with codepen -->
 
 <p>This is the result of the execution of this code. And this code is not in a 
 function, so it's executed as soon as the page is rendered. When the browser
@@ -3546,8 +3545,14 @@ executed")". We can open it by clicking on the console button in CodePen, or we
 can also open the devtools using the "F12" key or "ctrl+alt+i" or "cmd+alt+i" on 
 a Mac. And you see that the "console.log" message has been displayed in the devtool 
 console of your browser.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 122a.  (91) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image122a.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
-<!-- image -->
 <p>Here, notice that we use the "script" element directly into the body of the 
 document. Another possibility is to a put this code in the head of the document.
 It's also common practice because it separates clearly the JavaScript code from 
@@ -3558,48 +3563,99 @@ the JavaScript code is displayed before the rest of the page.</p>
 later on we display the body, where the browser renders the body of the document. 
 Okay, what is better? It depends on your application. For the moment, just stay 
 with knowing that you can put scripts in the body or in the head of a document.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 122b.  (92) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image122b.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
-<!-- image -->
 <p>Another possibility is to use an external JavaScript file. In that case, the 
 same way we showed you how to use an external file for storing the CSS code, we 
 can use the "script" tag with the "src" attribute to include in the HTML document 
 an external JavaScript file. 
 
-<!-- image -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 122c.  (92) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image122c.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+
 Notice than we can include more than one JavaScript 
 file if we like, like this. In that example, we are including 3 different JavaScript 
 files sequentially. 
 
-<!-- image -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 122d.  (93) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image122d.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+
 I prepared for you an example you can download - it's called 
 "Example_3.zip". I click on it, download it, unpack it, and inside this element, 
 I've got an HTML file. And I open it with my Sublime Text editor. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 122e.  (93) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image122e.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
-<!-- image -->
 And what I've 
 got here, is that you can see in the HTML header in that case but you can also 
 put this in the body if you like, we included a "script.js" file located under 
 the "js" directory.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 122f.  (94) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image122f.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
-<!-- image missing -->
 I can also open this file. I can see that I display the message called "Function executed"
 and a function "addSomeText" directly in the script. When is this executed?
 It's executed when we click on a button. Let's have the button "onclick" call the function 
 "addSomeText". 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 122g.  (94) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image122g.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
 
-<!-- image here -->
 Let's execute this, here is the result: 
 "Click me to call a JavaScript function that will add some content to this document". 
 I click and you see that the function have been executed. And finally, the last thing you 
-can do, is to include an external JavaScript source code. 
-<!-- image -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 122h.  (95) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image122h.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+
 You've got an example here, where we use the "paper.js" library and the "paper.js" library,
 if I open the "paper.js" Web site, is a library for making graphic animations in JavaScript,
 so you can have plenty of funny things you can do. Things like that, or things like this&#133;
 Just to be able to use what this library proposes, you need to include the library.
 If you read the documentation, they will tell that you what you need to include&#133;
 
-<!-- image -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 122i.  (95) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image122i.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+
 Okay -let's open it in CodePen- &#133;you need to include this JavaScript file.
 And once you included this JavaScript file&#133; a bit the same way we used the external 
 library for plotting functions&#133; then you can use some functionalities that come 
@@ -3646,7 +3702,7 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 
 <h4>Here is this first example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 123. example 1: js in the .html file (87) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 123. example 1: js in the .html file (97) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image123.png?raw=true"
   style="width:65%"
@@ -3668,24 +3724,25 @@ the &lt;head&gt;..&lt;/head&gt; section of an HTML page.</p>
 <p>This time, we placed a JavaScript function that is invoked (called) when
 a button is clicked:</p>
 
-<pre>&lt;head&gt;
-  <b>&lt;script&gt;</b>
-    <b>function addSomeText() {</b>
-      <b>// append a message in the body of the html document</b>
-      <b>document.body.innerHTML += "<br>Function executed!";</b>
-    <b>}</b>
-  <b>&lt;/script&gt;</b>
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;button <b>onclick="addSomeText();"</b>Click me to call a JavaScript function that will add
-    some content to this document
-  &lt;/button&gt;
-&lt;/body&gt;
+<pre>
+1.  &lt;head&gt;
+2.    <b>&lt;script&gt;</b>
+3.      <b>function addSomeText() {</b>
+4.        <b>// append a message in the body of the html document</b>
+5.        <b>document.body.innerHTML += "<br>Function executed!";</b>
+6.      <b>}</b>
+7.    <b>&lt;/script&gt;</b>
+8.  &lt;/head&gt;
+9.  &lt;body&gt;
+10.   &lt;button <b>onclick="addSomeText();"</b>Click me to call a JavaScript function that will add
+11.     some content to this document
+12.   &lt;/button&gt;
+13. &lt;/body&gt;
 </pre>
 
 <h4>Here is this second example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 124. example 2: js in the .html file, in head (88) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 124. example 2: js in the .html file, in head (98) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image124.png?raw=true"
   style="width:65%"
@@ -3750,7 +3807,7 @@ offers many advantages:</p>
 <p>It is good practice to locate CSS files in a css subfolder, and
 JavaScript files in a js subfolder.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 125. a typical html/css/js project folder structure (90) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 125. a typical html/css/js project folder structure (99) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image125.jpeg?raw=true"
   style="width:50%"
@@ -3760,7 +3817,7 @@ JavaScript files in a js subfolder.</p>
 
 <p>In this example, we have just one CSS file and one JavaScript file:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 126. a typical html/css/js project folder, folder expanded (90) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 126. a typical html/css/js project folder, folder expanded (99) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image126.jpeg?raw=true"
   style="width:50%"
@@ -3828,7 +3885,7 @@ made by others is really common when working on JavaScript projects.</p>
 <p>Here is a running example that uses the paperJS library, included using
 an external URL:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 127. example 4: use an external js file (91) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 127. example 4: use an external js file (101) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image127.png?raw=true"
   style="width:65%"
@@ -3839,7 +3896,7 @@ an external URL:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128. how to debug javascript (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128. how to debug javascript (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image128.png?raw=true"
   style="width:65%"
@@ -3857,7 +3914,7 @@ the most is the console. A console loads problems or errors.
 So, if I can clear the messages from here and this is the place where I will see
 the different error messages I've got in my code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 129. jsbin example test console (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 129. jsbin example test console (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image129.png?raw=true"
   style="width:65%"
@@ -3868,7 +3925,7 @@ the different error messages I've got in my code.</p>
 <p>Here is an example in JsBin. So, you can click here to see the console or
 it’s the same thing you can get here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. console.log 'hello' (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. console.log 'hello' (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image130.png?raw=true"
   style="width:65%"
@@ -3885,7 +3942,7 @@ in console: "hello".</p>
 here I've got a script that will display, as soon the page is loaded,
 "Some JavaScript code has been executed".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 131. jsbin; console.log error check (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 131. jsbin; console.log error check (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image131.png?raw=true"
   style="width:65%"
@@ -3894,7 +3951,7 @@ here I've got a script that will display, as soon the page is loaded,
 </p>
 <p>If I run the code, here, it displays "Some JavaScript code has been executed".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 132. jsbin; error check on console.log (94) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 132. jsbin; error check on console.log (103) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image132.png?raw=true"
   style="width:65%"
@@ -3910,7 +3967,7 @@ difficult to debug your code because you are debugging at the same time the code
 of the tool itself that is written in JavaScript too. Each these tools comes with 
 a way to run your code in what we decode ‘standalone mode’ or ‘debug mode’.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 133. js debugging using the devtools console (94) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 133. js debugging using the devtools console (104) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image133.png?raw=true"
   style="width:65%"
@@ -3924,7 +3981,7 @@ browser console, I can see the error message.</p>
 where my program made a mistake display, as an error. Here, I can see 
 that console needs only one "l", I can fix that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 134. jsbin; error check in console (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 134. jsbin; error check in console (104) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image134.png?raw=true"
   style="width:65%"
@@ -3937,7 +3994,7 @@ of 10, I can use «console.log" to display the value of x, using the "+" operato
 In that case, if I run my code it will help me by displaying the value of different 
 variables when “console.log” is executed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135. codepen; debug mode (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135. codepen; debug mode (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image135.png?raw=true"
   style="width:65%"
@@ -4030,14 +4087,15 @@ redirects all console.log() messages), and re-execute the page (just
 type a space at the end of a line to re-render the page and display the
 message in the console), we see the message in the console tab, as well
 as in the dev. tools console. This is illustrated by the image below
-(or <a href="https://jsbin.com/moqimuz/edit?html,console,output" target="_blank" rel="noopener noreferrer">online</a>):</p>
+(or <a href="https://jsbin.com/moqimuz/edit?html,console,output" 
+target="_blank" rel="noopener noreferrer">online</a>):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 133. snapshot of a javascript console view (103) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 136. jsbin: snapshot of a javascript console view (107) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image133.jpeg?raw=true"
+<img src="./images/image136.jpeg?raw=true"
   style="width:50%"
-  title="Snapshot of a JavaScript console view"
-  alt="Snapshot of a JavaScript console view." />
+  title="JSBin: Snapshot of a JavaScript console view"
+  alt="JSBin: Snapshot of a JavaScript console view." />
 </p>
 
 <p>It is also possible to use the &quot;real dev. tool console&quot;, and for this,
@@ -4046,9 +4104,9 @@ Bin editor. Press the black arrow on the top right of the output
 window - this will render the page as a standalone Web page, then
 press <b>F12</b>. You should see:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 134. snapshot of a javascript console view (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 137. snapshot of a javascript console view (108) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image134.jpeg?raw=true"
+<img src="./images/image137.jpeg?raw=true"
   style="width:50%"
   title="Snapshot of a JavaScript console view"
   alt="Snapshot of a JavaScript console view." />
@@ -4057,7 +4115,7 @@ press <b>F12</b>. You should see:</p>
 <p>Ok, now, let&apos;s make an error: change console.log() into conso<b>lll</b>e.log(). 
 Let&apos;s see what happens:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 008. view of the javascript console showing an eror (104) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 008. view of the javascript console showing an eror (109) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image008.jpeg?raw=true"
   style="width:50%"
@@ -4067,9 +4125,9 @@ Let&apos;s see what happens:</p>
 
 <p>And if we run it standalone and use the dev. tool console:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~ 135. View of the JavaScript console (showing the line that caused the error (104) ~~~~~-->
+<!--~~~~ 138. View of the JavaScript console (showing the line that caused the error (109) ~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image135.jpeg?raw=true"
+<img src="./images/image138.jpeg?raw=true"
   style="width:50%"
   title="View of the JavaScript console (showing the line that caused the error"
   alt="View of the JavaScript console (showing the line that caused the error." />
@@ -4078,9 +4136,9 @@ Let&apos;s see what happens:</p>
 <p>And if we click on the line number to the right, the dev. tool shows the
 source code centered on the line that caused the error:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 136. view of the javascript console (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 139. view of the javascript console (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image136.jpeg?raw=true"
+<img src="./images/image139.jpeg?raw=true"
   style="width:50%"
   title="View of the JavaScript console"
   alt="View of the JavaScript console." />
@@ -4151,10 +4209,10 @@ using a regular source code editor and .html, .css and .js files.</p>
 
 <h4><b>Here is what the resulting Web page will look like:</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 137. codepen: interactive function plotter (107) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 140. codepen: interactive function plotter (112) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image137.png?raw=true"
-  style="width:50%"
+<img src="./images/image140.png?raw=true"
+  style="width:65%"
   title="CodePen: Interactive Function Plotter"
   alt="CodePen: Interactive Function Plotter." />
 
@@ -4164,9 +4222,9 @@ Demo (CodePen: Interactive Function Plotter)</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 Using CodePen (6:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 138. codepen: interactive function plotter (107) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 141. codepen: interactive function plotter (112) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image138.png?raw=true"
+<img src="./images/image141.png?raw=true"
   style="width:50%"
   title="CodePen: Interactive Function Plotter"
   alt="CodePen: Interactive Function Plotter." />
@@ -4178,10 +4236,10 @@ function plotter. In this version, you can see that we added some input fields
 for changing the color of the curve, for changing the range of the x values, 
 changing interactively the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 139. codepen; plotting functions with d3js.org (107) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 142. codepen; plotting functions with d3js.org (113) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image139.jpeg?raw=true"
-  style="width:50%"
+<img src="./images/image142.jpeg?raw=true"
+  style="width:65%"
   title="CodePen; Plotting Functions with d3js.org"
   alt="CodePen; Plotting Functions with d3js.org." />
 </p>
@@ -4200,14 +4258,14 @@ part. That will indicate, within the target property, the "id" of the div where 
 are going to plot the function. In the data property is the function itself: "sin(x)" 
 and its color: red. What can we do to improve this?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 140/141. codepen; plotting functions with d3js.org (107) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 143/144. codepen; plotting functions with d3js.org (113) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image140.png?raw=true"
+<img src="./images/image143.png?raw=true"
   style="width:45%"
   title=""
   alt="." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/image141.png?raw=true"
+<img src="./images/image144.png?raw=true"
   style="width:45%"
   title=""
   alt="." />
@@ -4221,10 +4279,10 @@ can have add some shadows, height, margin and so on. Let's me just copy and past
 some code I’ve prepared. Here we are. Now, what I've got, is a nicer presentation 
 of the function itself.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 142.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 145.  (114) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image142.png?raw=true"
-  style="width:50%"
+<img src="./images/image145.png?raw=true"
+  style="width:65%"
   title=""
   alt="." />
 </p>
@@ -4238,10 +4296,10 @@ an event listener: "onchange="plot();. That means: "when the color has been sele
 call the plot() function". And you remember that this function is the one that plots 
 the mathematical function, here. The plot function is here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 143.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 146.  (114) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image143.png?raw=true"
-  style="width:50%"
+<img src="./images/image146.png?raw=true"
+  style="width:65%"
   title=""
   alt="." />
 </p>
@@ -4262,9 +4320,9 @@ corresponds to the part that I highlight now. .color=color</p>
 the same principles with other input fields. Let me just copy and paste some code 
 I prepared, that will add all these different controllers.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 144.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 147.  (115) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image144.png?raw=true"
+<img src="./images/image147.png?raw=true"
   style="width:50%"
   title=""
   alt="." />
@@ -4280,7 +4338,7 @@ and shadow properties from CSS, put the first section with the different input
 fields on the left and the plot on the right.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 145.  (1) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 145.  (116) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image145.png?raw=true"
   style="width:50%"
@@ -4292,7 +4350,7 @@ fields on the left and the plot on the right.</p>
 properties for both sections in a section selector. OK, what I've got now, is 
 that I've got a nice balanced view of the whole application.</p>
 
-<!-- end transcript 1.4.2 -->
+<!-- end transcript 1.4.2 using CodePen -->
 
 <h4>CodePen example with the starting code used in the video</h4>
 
@@ -4306,24 +4364,11 @@ input field, not yet supported by Safari.</p>
 
 <p>In case you have a hard time to follow the video, 
 <a href="https://codepen.io/w3devcampus/pen/bqGboZ" target="_blank" rel="noopener noreferrer">here is the full example</a> 
-(this link points to the example from the previous course page).
-
-<p>We're going to work from an example we already saw in the course: the math function 
-plotter. In this version, you can see that we added some input fields for changing 
-the color of the curve, for changing the range of the x values, changing interactively 
-the functions we are going to plot, and so on.</p>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image144.png?raw=true"
-  style="width:50%"
-  title=""
-  alt="." />
-<!-- pages 108-112 to be filled from class plus more I'm sure -->
+(this link points to the example from the previous course page).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-3">1.4.3 Using Sublime Text (4:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image145.png?raw=true"
   style="width:50%"
@@ -4335,7 +4380,7 @@ files and a regular source code editor, and working on your local hard
 disk. I&apos;m going first to create a directory for storing the files on my
 desktop. &quot;Math plotter app&quot; and I will work inside.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image146.png?raw=true"
   style="width:50%"
@@ -4345,34 +4390,32 @@ desktop. &quot;Math plotter app&quot; and I will work inside.</p>
 <p>In this folder, I will create a subfolder named &quot;js&quot; for the js files
 and a subfolder named &quot;css&quot; for the CSS files, and the HTML file will
 lie in the current directory.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 147.  (116) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 147. save as index.html (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image147.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Save as index.html"
+  alt="Save as index.html." />
 </p>
 
 <p>With Sublime Text, I can open this folder, the one I just created. And I can start 
 saving the current file as &quot;index.html&quot;. I will copy the HTML, CSS and 
 JavaScript source code from the previous example. I just took the previous application.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 148.  (116) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148. style.css and script.js (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image148.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Create and save style.css and script.js"
+  alt="Create and save style.css and script.js." />
 </p>
 <p>And I will copy it in the index.html file. I create a &quot;style.css&quot; 
 and a &quot;script.js&quot; file for holding the JavasCript and CSS files. I 
 copy the source code from the js part of the previous example. I create a new 
 file with the CSS code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 149.  (117) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 149. save as js/script.js (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image149.png?raw=true"
   style="width:50%"
@@ -4383,7 +4426,7 @@ file with the CSS code.</p>
 src=&quot;js/script.js&quot;&gt;</p>
 <p>Remember that the script tag has always a closing tag at this end.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 150.  (117) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. save as style.css (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image150.png?raw=true"
   style="width:50%"
@@ -4393,7 +4436,7 @@ src=&quot;js/script.js&quot;&gt;</p>
 <p>It is not an auto-closing tag. And I use a &quot;link&quot; tag for importing 
 the CSS file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 151.  (118) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 151. test index; open in browser (120) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image151.png?raw=true"
   style="width:50%"
@@ -4418,7 +4461,7 @@ Sublime Text.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding lesson: JavaScript variables</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 152. javascript variables (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image152.png?raw=true"
   style="width:50%"
@@ -4437,14 +4480,24 @@ with JavaScript version 6.</p>
 <p>Before ES6, you could only use &quot;var&quot;. There are small differences that 
 I will explain later, but for the moment you can use &quot;var&quot; or you can 
 use &quot;let&quot;. Once a variable is declared, you must initialize the variable, 
-this is where you give it a value. And this is done by using the equal sign. As 
-you can see, the console.log will display in the console the value of the variable 
-&quot;myName&quot;.</p>
+this is where you give it a value. And this is done by using the equal sign. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 152. javascript variables (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image152.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- image here pg 121 -->
+<p>As you can see, the console.log will display in the console the value of the variable 
+&quot;myName&quot;. You can also initialize and declare a variable at the same time.</p>
 
-<p>You can also initialize and declare a variable at the same time. You see, I 
-declare a variable called myDog and I gave it a name: Rex. Also, you can use 
-these variables in instructions, in expressions like: &quot;the name of my dog is&quot;.
-You can use the "+" operator for concatenating strings, because "myDog"
+<!-- image here pg 121 -->
+<p>You see, I declare a variable called myDog and I gave it a name: Rex. Also, you can use 
+these variables in instructions, in expressions like: &quot;the name of my dog is&quot;.</p>
+
+<!-- image here pg 122 -->
+<p>You can use the "+" operator for concatenating strings, because "myDog"
 is a string, and in that case you will see: &quot;the name of my dog is&quot; 
 &#133;followed by the value of the "myDog" variable.</p>
 
@@ -4454,17 +4507,20 @@ names, you use lowercase. But the convention, when you start using composed
 words, is to use the &quot;lower camel case&quot; syntax. If your variable 
 name is made of two or more words, write the first one in lowercase, and 
 capitalize every other words. Example: "myFastCar", &quot;my&quot; is lowercase, 
-&quot;Fast&quot; and &quot;Car&quot; are capitalized. Also, variables are case 
-sensitive: do not mix a variable name in lower case and in uppercase. For example, 
-if I give to the small "x" a value of "2", and to big "X" a value of "4", and if 
-I display the value of big "X", then the JavaScript interpreter will know that 
-big "X" is different than small "x".</p>
+&quot;Fast&quot; and &quot;Car&quot; are capitalized.</p>
+
+<!-- image here 122 -->
+<p>Also, variables are case sensitive: do not mix a variable name in lower case 
+and in uppercase. For example, if I give to the small "x" a value of "2", and to 
+big "X" a value of "4", and if I display the value of big "X", then the JavaScript 
+interpreter will know that big "X" is different than small "x".</p>
 
 <p>If you need to use different names like if I've got two fast cars, just, my 
 recommendation: use "myFastCar1", "myFastCar2", etc. Also, you should not use 
 JavaScript reserved words such as &quot;var&quot;, &quot;let&quot;, &quot;if&quot;, 
 &quot;for&quot;, &quot;function&quot;, etc.</p>
 
+<!-- image here 123 -->
 <p>So, var function = 2; will raise an error, I can show that to you in the
 devtool console, this raises an error. This also raises an error. That's all 
 for the moment about the variables.</p>
@@ -4473,7 +4529,7 @@ for the moment about the variables.</p>
 will see that there is a small difference between "var" and "let" when
 you declare variables.</p>
 
-<!-- video above for 1.5.1 -->
+<!-- video above for 1.5.1 javascript variables and values -->
 <!------------------------------------------------------------------------------------------------>
 <p>In most of the examples seen earlier, we&apos;ve used the concept of
 &quot;variable&quot;, and we have used them to &quot;store values&quot;. 
@@ -4585,9 +4641,9 @@ example, and type myNumber2 in the devtool console, it will display 34
 <p>Below is an image that explains how you can try JavaScript code in the
 devtools console:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 153. devtools console example (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 157. devtools console example (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image153.png?raw=true"
+<img src="./images/image157.png?raw=true"
   style="width:50%"
   title="Devtools console example"
   alt="Devtools console example." />
