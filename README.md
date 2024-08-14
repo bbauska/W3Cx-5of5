@@ -2,7 +2,7 @@
 title: "W3Cx-5of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
 author: "bbauska"
 date created: "7/07/2024 Sun 12+pm"
-date last editted: "8/13/2024 Tue 4+pm"
+date last editted: "8/14/2024 Wed 11+am"
 
 output: 
   markdown:
@@ -13392,14 +13392,17 @@ predefined objects&quot;). Without going into detail just yet, here are some exa
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-3">3.2.3 Iterating on array elements (7:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 377. CodePen: iterating on array elements (333) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 377. CodePen: iterating on array elements (334) ~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/VWYMNK" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image377.png?raw=true"
   style="width:65%"
   title="CodePen: iterating on array elements"
-  alt="CodePen: iterating on array elements." />
+  alt="CodePen: iterating on array elements." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VWYMNK" 
-target="_blank" rel="noopener noreferrer">CodePen: iterating on array elements</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: iterating on array elements</a>.</h6>
 
 <p>Hello! Let&apos;s look at the different methods you can use to iterate on
 each element of an array. One of the most practical one consists in
@@ -13415,7 +13418,7 @@ element while we are iterating. I call it "day" here, and day will be:
 Monday, Tuesday, Wednesday,&#133; each time, we iterate on the collection
 of the days, on the array of days.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 378. codepen: using document.body.innerHTML (334) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 378. codepen: using document.body.innerHTML (335) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image378.png?raw=true"
   style="width:65%"
@@ -13432,7 +13435,7 @@ document&apos;s body, the name of the day and we go to the next line.</p>
 important. You can call it &quot;<b>singleD</b>", you can call it "<b>d</b>" and
 it works. You choose the name of the variable.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 379. codepen: using document.body.innerHTML, #2 (334) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 379. codepen: using document.body.innerHTML, #2 (336) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image379.png?raw=true"
   style="width:65%"
@@ -13445,7 +13448,7 @@ numbers to the elements. Here, it will display the name of the day:
 Monday is at index, followed by the value of the index, 0. Monday is the
 element in the array at index 0. Tuesday is the element at the index 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 380. codepen: document.body.innerHTML with 'for each' (335) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 380. codepen: document.body.innerHTML with 'for each' (336) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image380.png?raw=true"
   style="width:65%"
@@ -13461,7 +13464,7 @@ it from the third argument, and we use the length property from it. This
 is what we can do with the "forEach" iterator, very practical, very
 simple.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 381. codepen: document.body.innerHTML with 'for each', #2 (335) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 381. codepen: document.body.innerHTML with 'for each', #2 (337) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image381.png?raw=true"
   style="width:65%"
@@ -13484,7 +13487,7 @@ brackets with the index between the brackets notation to display the
 value. Which is best? This one or the with the "<b>forEach</b>" iterator?
 It depends.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 382. codepen: document.body.innerHTML with 'for each', #3 (335) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 382. codepen: document.body.innerHTML with 'for each', #3 (337) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image382.png?raw=true"
   style="width:65%"
@@ -13537,12 +13540,14 @@ that can have one, two or three parameters:</p>
 <p>This is the most practical way to iterate on each individual element of
 a collection (array, string);</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 383.  (33x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 383. codepen: iterating on each element (338) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/QpRybG" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image383.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: iterating on each element"
+  alt="CodePen: iterating on each element." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/QpRybG" 
 target="_blank" rel="noopener noreferrer">
 CodePen: iterating on each individual element of a collection (array, string)</a>.</h6>
@@ -13550,15 +13555,17 @@ CodePen: iterating on each individual element of a collection (array, string)</a
 <p>Now, let&apos;s iterate on an array of person, and use two parameters in the callback 
 function in order to get the index of the current element:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~ 384. CodePen: iterating on an array of person, and use 2 parms callback function (33x) ~~~-->
+<!--~ 384. CodePen: iterating on an array of person, and use 2 parms callback function (339) ~~~-->
+<a href="https://codepen.io/w3devcampus/pen/rygxpr" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image384.png?raw=true"
   style="width:65%"
   title="CodePen: iterating on an array of person, and use 2 parms in callback function"
-  alt="CodePen: iterating on an array of person, and use 2 parms in callback function." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/rygxpr" 
+  alt="CodePen: iterating on an array of person, and use 2 parms in callback function." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/rygxpr" 
 target="_blank" rel="noopener noreferrer">
-CodePen: iterating on an array of person, and use 2 parms in callback function</a>.</p>
+CodePen: iterating on an array of person, and use 2 parms in callback function</a>.</h6>
 
 <pre>
 1.  var persons = &lbrack;
@@ -13578,12 +13585,14 @@ CodePen: iterating on an array of person, and use 2 parms in callback function</
 <p>This can be useful if we need to know the length of the array, or do
 special things within the array (add/change/move elements during the iteration):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 385. codepen: array iteration (33x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 385. codepen: array iteration (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZKyMQj" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image385.png?raw=true"
   style="width:65%"
   title="CodePen: array iteration"
-  alt="CodePen: array iteration." />
+  alt="CodePen: array iteration." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZKyMQj" 
 target="_blank" rel="noopener noreferrer">CodePen: array iteration</a>.</h6>
 
@@ -13601,12 +13610,14 @@ to be broken in the middle using the break instruction, etc.</p>
 
 <h5>Iterating over all elements in an array, using a for loop</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 386. codepen: iterating over all elements in an array, using a for loop (3xx) ~~~~~~~-->
+<!--~~~~~~ 386. codepen: iterating over all elements in an array, using a for loop (340) ~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/evaJKL" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image386.png?raw=true"
   style="width:65%"
   title="CodePen: iterating over all elements in an array, using a for loop"
-  alt="CodePen: iterating over all elements in an array, using a for loop." />
+  alt="CodePen: iterating over all elements in an array, using a for loop." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/evaJKL" 
 target="_blank" rel="noopener noreferrer">
 CodePen: iterating over all elements in an array, using a for loop</a>.</h6>
@@ -13614,12 +13625,14 @@ CodePen: iterating over all elements in an array, using a for loop</a>.</h6>
 <p>Another example where we iterate two by two (just changed the increment
 in the for loop):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 387. codepen: iterate two by two (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 387. codepen: iterate two by two (340) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/zZQrme" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image387.png?raw=true"
   style="width:65%"
   title="CodePen: iterate two by two"
-  alt="CodePen: iterate two by two." />
+  alt="CodePen: iterate two by two." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/zZQrme" 
 target="_blank" rel="noopener noreferrer">CodePen: iterate two by two</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13702,12 +13715,14 @@ target="_blank" rel="noopener noreferrer">CodePen: iterate two by two</a>.</h6>
     &lt;img&gt; elements on the fly:</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 388. CodePen: iterating pictures and create img elements (3xx) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 388. CodePen: iterating pictures and create img elements (342) ~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/KqzPOm" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image388.png?raw=true"
   style="width:65%"
   title="CodePen: iterating pictures and create img elements"
-  alt="CodePen: iterating pictures and create img elements." />
+  alt="CodePen: iterating pictures and create img elements." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KqzPOm" 
 target="_blank" rel="noopener noreferrer">
 CodePen: iterating pictures and create img elements</a>.</h6>
@@ -13795,12 +13810,12 @@ the &lt;video&gt; element</b></p>
 <p>Help! <b>&lt;video src=&quot;my youtube video URL&quot;&gt;&lt;/video&gt;</b> 
 does not work!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 391. geo logo (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="left" width="100%">
+<!--~~~~~~~~~~~~~~~~~~~ 389. beware: cannot embed social media videos (344) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
 <img src="./images/image389.png?raw=true"
-  style="width:25%"
-  title="Geo logo"
-  alt="Geo logo." />
+  style="width:65%"
+  title="Beware: cannot embed social media videos"
+  alt="Beware: cannot embed social media videos." />
 
 <p>While they use HTML5 to render their videos, these hosting sites (YouTube, etc.) 
 use rather complex techniques in order to prevent you from using them with the 
@@ -13827,12 +13842,12 @@ the HTML of this page - it&apos;s an <b>&lt;iframe&gt;</b>.</p>
 
 <p><a href="https://www.youtube.com/watch?v=tIHa587wZyY">YouTube</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 390.  (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 390. Example YouTube video (345) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image390.png?raw=true"
-  style="width:25%"
-  title=""
-  alt="." />
+  style="width:50%"
+  title="Example YouTube video"
+  alt="Example YouTube video." />
 
 <h5>The &lt;audio&gt; element</h5>
 
@@ -13870,12 +13885,14 @@ online example from JSBin</a></p>
 
 <p>Press play to stream the neigh of a horse:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 391. horse neigh (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 391. horse neigh (346) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg" 
+target="_blank" rel="noopener noreferrer">
 <p align="left" width="100%">
 <img src="./images/image391.png?raw=true"
   style="width:25%"
   title="Horse neigh"
-  alt="Horse neigh." />
+  alt="Horse neigh." /></a>
 <h6 align="center"><a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg" 
 target="_blank" rel="noopener noreferrer">Horse neigh</a>.</h6>
 
@@ -13922,36 +13939,38 @@ does not support the &lt;audio&gt; element. This is also a best practice!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding transcript: the video element JavaScript API</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 392. codepen: javascript api (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 392. codepen: javascript api (347) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image392.png?raw=true"
   style="width:65%"
   title="CodePen: JavaScript API"
-  alt="CodePen: JavaScript API." />
+  alt="CodePen: JavaScript API." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011" 
 target="_blank" rel="noopener noreferrer">CodePen: JavaScript API</a>.</h6>
 
 <p>Today, let&apos;s have a look at some APIs. An API is a set of functions you
 can use from your JavaScript code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 393.  (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 393. audio/video player JS API's (347) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image393.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Audio/Video player JavaScript API's"
+  alt="Audio/Video player JavaScript API's." />
 </p>
 
 <p>One of them is the audio and video player JavaScript API that will give
 you the possibility to control a video player from JavaScript, making
 your own custom video player.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 394.  (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 394. adding video player to html document (348) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image394.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Adding video player to HTML document"
+  alt="Adding video player to HTML document." />
 </p>
 
 <p>Let&apos;s look at one small example. I prepared, here, an HTML document
@@ -13969,12 +13988,12 @@ document, the browser will ask the remote server and get the video
 format it prefers. You don&apos;t have to wonder which one is the best, your
 browser will choose.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 395.  (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 395. audio control overlapping image (348) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image395.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Audio control overlapping image"
+  alt="Audio control overlapping image." />
 </p>
 
 <p>If I click on the video player, you see that&#41; Ok! By adding a
@@ -13999,12 +14018,12 @@ ready and when the page have be loaded.</p>
 executed only when the <b>DOM</b> is ready, and inside this function, we
 will get a reference to the video player.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 396.  (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 396. window onload initialize with video player (349) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image396.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Window onload initialize with video player"
+  alt="Window onload initialize with video player." />
 </p>
 
 <p>Let&apos;s write it. And I will declare this reference as a global variable.
@@ -14013,12 +14032,12 @@ this object -this video player- and I can call "<b>vid.play()</b>". I click
 on the button and it plays the video. How can you guess the names of the
 all the methods you can use?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 397.  (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 397. video controls in API (350) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image397.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Video controls in API"
+  alt="Video controls in API." />
 </p>
 
 Go to the course, and in the section about the audio and video player
@@ -14027,84 +14046,84 @@ specifications. And here you can interactively try the different
 methods. And the names on the buttons are the names of the different
 methods you can call when you see parenthesis: <b>play(), pause()</b>&#41;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 398.  (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 398. example, video controls in API (350) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image398.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Example, video controls in API"
+  alt="Example, video controls in API." />
 </p>
 
-And also you&apos;ve got properties, these properties you can&#133; you can use
+<p>And also you&apos;ve got properties, these properties you can&#133; you can use
 them for getting information -what is the current time?- for example. Or
 you can use them also for setting, changing their values. And for
 example, going back&#41; if I say current time equals 0, or "currentTime
 +=10", I&apos;m advancing 10 seconds in the video. Some properties are read
-only or read and write. You got also events&#41; so you can listen to
+only or read and write. You also have events&#41; so you can listen to
 events while the video is being played. And for example, for
 synchronizing some contents on the page, for detecting when the video is
-ended.
+ended.</p>
 
-The &quot;<b>ended</b>&quot; event here, you can see it and so that you can play
+<p>The &quot;<b>ended</b>&quot; event here, you can see it and so that you can play
 another video and do some play lists with the videos that are changed:
-when one is finished, the other starts and so on.
+when one is finished, the other starts and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 399.  (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 399. add play and pause buttons (351) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image399.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Add play and pause buttons"
+  alt="Add play and pause buttons." />
 </p>
 
-Let&apos;s go back our example, and we will just implement the &quot;pause&quot;
+<p>Let&apos;s go back our example, and we will just implement the &quot;pause&quot;
 functionality. And we will add a &quot;pause&quot; button. Now I can play the
-video and I can pause it.
+video and I can pause it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 400.  (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 400. add rewind button (351) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image400.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Add rewind button"
+  alt="Add rewind button." />
 </p>
 
-If I want to rewind to the beginning&#41; let&apos;s try again! And in order
+<p>If I want to rewind to the beginning&#41; let&apos;s try again! And in order
 to do this, instead of calling a method&#41;we will just use the
 "<b>currentTime</b>" property and set it to 0. Remember from this document,
 you see the "<b>currentTime</b>" here, it&apos;s a property of the video player
-object.
+object.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 401.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 401. test example, rewind currentTime (352) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image401.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Test example, rewind currentTime"
+  alt="Test example, rewind currentTime." />
 </p>
 
-Let&apos;s try it, play! Rewind! We start again from zero, and so on. If you
+<p>Let&apos;s try it, play! Rewind! We start again from zero, and so on. If you
 want to display the "<b>currentTime</b>" while this video is still played.
 You can add an event listener on the video element "<b>ontimeupdate =
-isplayTimeWhileVideoIsPlaying()</b>".
+isplayTimeWhileVideoIsPlaying()</b>".</p>
 
-Ok, like this: while the video is being played, this method will be
+<p>Ok, like this: while the video is being played, this method will be
 called and we can here, for example, display the <b>currentTime&#133;
 console.log()</b>. Let&apos;s me open the console, play the video and you see
 the current time. You can make a test: if "vid. currentTime greater than
-5 seconds&quot;, then we pause the video.
+5 seconds&quot;, then we pause the video.</p>
 
-Let&apos;s try it. Then for example, you can ask a question, making a quiz
+<p>Let&apos;s try it. Then for example, you can ask a question, making a quiz
 related to the video, and so on. Ok, this was just to show you some
 basics of using the JavaScript API of media elements such as the video
-audio player.
+audio player.</p>
 
 <!-- end transcript 3.3.2 -->
 
-<h5>Source code of the example from the video:</h5>
+<h5>Source code of the example from the lesson:</h5>
 
 <ul>
-  <li>The example presented in the above video is available
+  <li>The example presented in the above lesson is available
     on <a href="https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011">CodePen</a>.</li>
 </ul>
 
@@ -14164,12 +14183,12 @@ direct link</a>, play with the different buttons and look at the table of events
 and properties that will change in real time. The displayed names show the properties,
 events, and methods from the API.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 402.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 402. table of methods, properties and events (354) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image402.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Table: most interesting methods, properties and events"
+  alt="Table: most interesting methods, properties and events." />
 </p>
 
 <h5>Here is a table that shows the most interesting methods, properties, and 
@@ -14179,12 +14198,12 @@ events provided by the <b>&lt;video&gt;</b> element API</h5>
 <a href="https://html.spec.whatwg.org/multipage/media.html#mediaevents">
 complete list</a> is much longer!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 403.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 403. how to use media properties, methods and events (355) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image403.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="How to use media properties, methods and events"
+  alt="How to use media properties, methods and events." />
 </p>
 
 <p>Now let&apos;s take a look at a set of examples demonstrating how to use the
@@ -14206,21 +14225,23 @@ setting the currentTime property to zero.</p>
 
 <h5>Try it online:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404. codepen: example media api (356) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/dyvjoKV" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image404.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example media API"
+  alt="CodePen: example media API." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/dyvjoKV" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: example media API</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 405.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 405. example, custom controls (356) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image405.png?raw=true"
   style="width:30%"
-  title=""
-  alt="." />
+  title="Example, custom controls"
+  alt="Example, custom controls." />
 </p>
 
 <h5>Source code extract:</h5>
@@ -14276,14 +14297,16 @@ target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <p>This example listens to the ended event, and calls a callback function
 when the video is ended.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 406.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 406. codepen: listen and callback (357) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/poeZJGo" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image406.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: listen and callback"
+  alt="CodePen: listen and callback." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/poeZJGo" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: listen and callback</a>.</h6>
 
 <pre>
 1.  &lt;video src=&quot;video.ogv&quot; id=&quot;myVideo&quot;&gt;
@@ -14310,14 +14333,16 @@ changes the src attribute of the video element and plays the video.</p>
 end of the first video that is being played, and see how it continues
 with the next video.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 407.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 407. codepen: progress cursor (358) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/jOBpbqP" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image407.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: progress cursor"
+  alt="CodePen: progress cursor." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/jOBpbqP" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: progress cursor</a>.</h6>
 
 <h5>Source code:</h5>
 
@@ -14414,14 +14439,16 @@ pages. Click on &quot;Edit on CodePen&quot; to run them.</b></p>
 
 <h5>First version that uses callbacks (success/error, see the JS code):</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 408.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 408. codepen: using callbacks, #1 (360) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/OpYNBE" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image408.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: using callback, #1"
+  alt="CodePen: using callback, #1." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OpYNBE" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: using callback, #1</a>.</h6>
 
 <h5>Second version that uses a new JavaScript syntax called &quot;promises&quot;:</h5>
 
@@ -14431,14 +14458,16 @@ I can display its stream in a &lt;video&gt; element. Otherwise, send me an
 alert&quot;. (note that we&apos;ve put the alert in a comment in the CodePen
 below).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 409.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 409. codepen: using callback promise, #2 (360) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/EWzKrK" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image409.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: using callback promise, #2"
+  alt="CodePen: using callback promise, #2." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/EWzKrK" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: using callback promise, #2</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-5">3.3.5 Extended examples</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14457,11 +14486,13 @@ the code.</p>
 target="_blank" rel="noopener noreferrer">Chris Heilmann</a>, and tuned by us ;).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 410. codepen: example css3 transformation (360) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/bGqjVWG" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image410.png?raw=true"
   style="width:65%"
   title="CodePen: example CSS3 transformation"
-  alt="CodePen: example CSS3 transformation." />
+  alt="CodePen: example CSS3 transformation." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bGqjVWG" 
 target="_blank" rel="noopener noreferrer">CodePen: example CSS3 transformation</a>.</h6>
 
@@ -14484,14 +14515,17 @@ applies CSS3 transforms.</p>
 <p>This example also shows how to handle failures. See the code and play
 with this example below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 411. codepen: handling events for the video element (360) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 411. codepen: handling events for the video element (361) ~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/abJjvqY" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image411.png?raw=true"
   style="width:65%"
   title="CodePen: handling events for the video element"
-  alt="CodePen: handling events for the video element." />
+  alt="CodePen: handling events for the video element." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/abJjvqY" 
-target="_blank" rel="noopener noreferrer">CodePen: example events for the video element</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: example events for the video element</a>.</h6>
 
 <p>Below is a piece of code for handling errors during video playback:</p>
 
@@ -14539,12 +14573,14 @@ target="_blank" rel="noopener noreferrer">CodePen: example events for the video 
 
 <p>Check the example below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 412. codepen: check progress of buffering (362) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 412. codepen: check progress of buffering (363) ~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/vYxaNMq" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image412.png?raw=true"
   style="width:65%"
   title="CodePen: check progress of buffering"
-  alt="CodePen: check progress of buffering." />
+  alt="CodePen: check progress of buffering." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/vYxaNMq" 
 target="_blank" rel="noopener noreferrer">CodePen: example check progress of buffering</a>.</h6>
 
@@ -14635,12 +14671,14 @@ previously.</p>
 
 <p>Here is the online example. We recommend that you look at the source code:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 413. codepen: custom video player (364) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 413. codepen: custom video player (365) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/LYWBGYa" 
+target="_blank" rel="noopener noreferrer">
 <p align="left" width="100%">
 <img src="./images/image413.png?raw=true"
   style="width:10%"
   title="CodePen: custom video player"
-  alt="CodePen: custom video player." />
+  alt="CodePen: custom video player." /></a>
 <h6 align="left"><a href="https://codepen.io/w3devcampus/pen/LYWBGYa" 
 target="_blank" rel="noopener noreferrer">CodePen example custom video player</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14683,7 +14721,7 @@ custom player with nice CSS and buttons</a></p>
 
 <h4>Project #2: a video quiz!</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 414. media player logo (365) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 414. media player logo (366) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image414.png?raw=true"
   style="width:10%"
@@ -14739,7 +14777,7 @@ advice(s), and also tell you that you are the best ;))</p>
 <p>This chapter presents the new Geolocation API and illustrates its use
 with several examples.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 363. geolocation logo (366) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 363. geolocation logo (367) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image363.png?raw=true"
   style="width:20%"
@@ -21686,5 +21724,6 @@ trashbin.dataset.contactId = 3; // 3 is the current row index and
 <!-- last editted 8/11/2024 4:00pm -->
 <!-- last editted 8/12/2024 8:41pm -->
 <!-- last editted 8/13/2024 4:04pm -->
+<!-- last editted 8/14/2024 11:00am -->
 
 
