@@ -4541,7 +4541,7 @@ this is where you give it a value. And this is done by using the equal sign.
   style="width:65%"
   title="Use console.log to display variables"
   alt="Use console.log to display variables." />
-<!-- image here pg 121 -->
+
 <p>As you can see, the console.log will display in the console the value of the variable 
 &quot;myName&quot;. You can also initialize and declare a variable at the same time.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4551,7 +4551,7 @@ this is where you give it a value. And this is done by using the equal sign.
   style="width:65%"
   title="Declare variable and give it a name"
   alt="Declare variable and give it a name." />
-<!-- image here pg 121 -->
+
 <p>You see, I declare a variable called myDog and I gave it a name: Rex. Also, you can use 
 these variables in instructions, in expressions like: &quot;the name of my dog is&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4837,7 +4837,6 @@ variable here, can be used inside a function.</p>
   title="Console.log will display 1"
   alt="Console.log will display 1." />
 
-<!-- image goes here pg 128 -->
 <p>The console.log inside f1&#133; if I execute f1&#133; will display the value
 "1" because the variable here is &quot;global&quot;. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4847,7 +4846,7 @@ variable here, can be used inside a function.</p>
   style="width:50%"
   title=""
   alt="." />
-<!-- image goes here pg 129 -->
+
 <p>If I've got another function&#133; f2, that declares another variable y, and if I try to
 display this value from outside of the function, then it does not
 work&#133;I've got an error: y is not defined. So, you've got &quot;local
@@ -4862,7 +4861,6 @@ local one wins.</p>
   title=""
   alt="." />
 
-<!-- image goes here pg 129 -->
 <p>If I try to display inside F2 the value of x, it will be the closest
 variable -the local one- that will be displayed. If I execute f2, then
 it will display &quot;x = 2&quot;, it's the value of the local one that is taken
@@ -4878,7 +4876,7 @@ account.</p>
   style="width:50%"
   title=""
   alt="." />
-<!-- image goes here pg 130 -->
+
 <p>This x here, is not the global one: it's the one I passed as a parameter
 that has the value 10. Now, there are some little variations when
 I use &quot;let&quot; instead of &quot;var&quot;. Let's see some examples. 
@@ -4889,7 +4887,7 @@ I use &quot;let&quot; instead of &quot;var&quot;. Let's see some examples.
   style="width:50%"
   title=""
   alt="." />
-<!-- image goes here pg 130 -->
+
 <p>With JavaScript 6, I can use &quot;let&quot; instead of &quot;var&quot;. The global scope
 does not change. If I declare a global variable, it can be used
 anywhere. But, if I declare a local variable, it's no more local to the whole
@@ -4911,7 +4909,7 @@ not &quot;4&quot;.</p>
   style="width:50%"
   title=""
   alt="." />
-<!-- image goes here pg 131 -->
+
 <p>If the variable was named "b" and if I tried to display it, then&#133; I've
 got an error: &quot;b is not defined&quot;. 
 
@@ -4923,7 +4921,6 @@ got an error: &quot;b is not defined&quot;.
   title=""
   alt="." />
 
-<!-- image goes here pg 131 -->
 <p>Remember that if I used &quot;var&quot; in
 that case it works, because &quot;var&quot; will define a variable local to the
 whole function, not just to the block of instructions.</p>
@@ -5876,13 +5873,13 @@ antislash.</p>
 common one, it&apos;s useful for concatenating values to any string. Let&apos;s
 look at one example.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 176a.  (154) ~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 176a. concatenation operator (+) (154) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image176a.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- image here pg 154 -->
+  title="Concatenation operator (+)"
+  alt="Concatenation operator (+)." />
+
 <p>If I say &apos;my name is&apos; + &apos;Michel Buffa', then you see that the result
 here is the concatenation of the string 'my name is' and the string
 'Michel Buffa'. You can also use variables of different types, that will
@@ -5893,28 +5890,26 @@ the operator, are strings.</p>
 of x &quot; and the number value of x (that was 10), has been converted and
 concatenated to it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 176b.  (154) ~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 176b. variables, strings and concatenation (154) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image176b.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Variables, strings and concatenation"
+  alt="Variables, strings and concatenation." />
 
-<!-- image here pg 154 -->
 <p>There are also some ways to convert variables to strings.
 x here, is a number, but x = &quot;&quot; + 10; in that case,
 x is a string. You can also concatenate string values&#133; s1 =
 &quot;one&quot;, s2 = &quot;two&quot;, if I concatenate these values here, s is equal to
 the concatenation of s1 and s2.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 176c.  (155) ~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 176c. shorthand assignment operator (+=) (155) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image176c.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Shorthand assignment operator (+=)"
+  alt="Shorthand assignment operator (+=)." />
 
-<!-- image here pg 155 -->
 <p>There is also an assignment operator called += that can be very useful
 when concatenating values to a string. Like var s=Hello; s+=&quot;My
 friend&quot;, you give a value of s=&quot;Hello my Friend&quot;.<br>
@@ -5922,27 +5917,26 @@ The += means s = s+something, it adds to the end of s. I can also use
 strings in mathematical operations, and they can be converted
 automatically.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 176d.  (155) ~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 176d. example, string & conversion to number (155) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image176d.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Example, string and conversion to number"
+  alt="Example, string and conversion to number." />
 
-<!-- image here pg 155 -->
 <p>I&apos;ve got s2 that is 10. s2 is a string, and if I do 
 s2=s2 &ast; 2; in that case, s2 has been converted automatically.
 The value &quot;10&quot; as a string became 10 as a number. And s2 now is a
 number that is worth twice its previous value.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 176e.  (156) ~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 176e. example, string, number and not a number (NaN) (156) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image176e.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<!-- image here pg 156 -->
+  title="Example, string, number and Not a Number (NaN)"
+  alt="Example, string, number and Not a Number (NaN)." />
+
 <p>If I try to use a string that is not a number, not a value that can be converted 
 to a number, like &quot;hello&quot;&hellip; in that case - if do the same operation - 
 the result is NaN that means &quot;Not a Number&quot;, you cannot convert 
@@ -7954,7 +7948,7 @@ only a watch (default case).</p>
 on the &quot;edit on codepen&quot; label and once in codepen, open the devtool
 console to see the outputs of this program):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 228. look at js from this example, open devtools (204) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 228. look at js from this example, open devtools (205) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image228.png?raw=true"
   style="width:50%"
@@ -7967,7 +7961,7 @@ CodePen: open devtools to see the outputs</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: <b>loop</b> statements</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229. loop statements (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229. loop statements (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image229.png?raw=true"
   style="width:50%"
@@ -7976,7 +7970,7 @@ CodePen: open devtools to see the outputs</a>.</p>
 <p>Let&apos;s talk about loop statements.</p>
 <p>There are different loop statements in JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 230. while loop, 1 to 3, and sum of sum (205) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 230. while loop, 1 to 3, and sum of sum (206) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image230.png?raw=true"
   style="width:50%"
@@ -8075,7 +8069,7 @@ than&quot; operator here.
 I counted for i equals 0, 1, 2, 3, 4&hellip; then, when i is equal to 5 the
 condition is no more true and we exit the loop.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. for loop 0 thru 4 (208) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. for loop 0 thru 4 (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image235.png?raw=true"
   style="width:50%"
@@ -8084,7 +8078,7 @@ condition is no more true and we exit the loop.</p>
 <p>We can also use less than or equal to. In this case we counted to the final 
 value and included it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. increment loop by 2 (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. increment loop by 2 (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image236.png?raw=true"
   style="width:50%"
@@ -8095,7 +8089,7 @@ value and included it.</p>
 In that case (let me clear and execute again), we run the loop with a value of 
 i = 0, i=2, i=4, i=6, the condition is no more true, we exit from the loop.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 237. daysOfTheWeek array enumeration (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 237. daysOfTheWeek array enumeration (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image237.png?raw=true"
   style="width:50%"
@@ -8119,10 +8113,10 @@ with the index equal to i, inside the <b>loop</b>.</p>
 <p><a href="https://codepen.io/w3devcampus/pen/qmGeYZ?editors=0012" 
 target="_blank" rel="noopener noreferrer">Example on CodePen</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. a loop in the sky (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. a loop in the sky (211) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image238.jpeg?raw=true"
-  style="width:25%"
+  style="width:15%"
   title="A loop in the sky"
   alt="A loop in the sky." />
 
@@ -8430,7 +8424,7 @@ at the section about DOM in this module.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. quiz (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image239.jpeg?raw=true"
-  style="width:25%"
+  style="width:15%"
   title="Quiz"
   alt="Quiz." />
 
@@ -9977,12 +9971,14 @@ post your comments/observations/questions or share your creations.</p>
 target="_blank" rel="noopener noreferrer">
 "Typing Frenzy"</a> created by learner @AnthonyRKing (ARK)!</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 310. codepen: typing frenzy (255) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 310. codepen: typing frenzy (256) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h6 align="center"><a href="https://codepen.io/TKonan/pen/wvQgVJQ" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image310.png?raw=true"
   style="width:65%"
   title="CodePen: Typing Frenzy by ARK"
-  alt="CodePen: Typing Frenzy by ARK." />
+  alt="CodePen: Typing Frenzy by ARK." /></a>
 <h6 align="center"><a href="https://codepen.io/TKonan/pen/wvQgVJQ" 
 target="_blank" rel="noopener noreferrer">CodePen: Typing Frenzy</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10047,7 +10043,7 @@ showed you:</p>
 <p>Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 311. html and circle (257) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 311. html and circle (258) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image311.png?raw=true"
   style="width:50%"
@@ -10098,10 +10094,10 @@ ones are highlighted in bold.</p>
 Firefox for exploring the DOM, as it proposes a good structured view of
 the DOM and of its properties/methods:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 312. firefox devtool console (258) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 312. firefox devtool console (259) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image312.png?raw=true"
-  style="width:50%"
+  style="width:85%"
   title="Firefox devtool console"
   alt="Firefox devtool console." />
 
@@ -10157,11 +10153,13 @@ problem where you need to manipulate the DOM.</p>
 <h3 id="ch2-5-3">2.5.3 Accessing HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 316. two buttons and four images (261) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/OpdaxM" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image316.png?raw=true"
   style="width:65%"
   title="CodePen Overview: Two buttons and four images"
-  alt="CodePen Overview: Two buttons and four images." />
+  alt="CodePen Overview: Two buttons and four images." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OpdaxM" 
 target="_blank" rel="noopener noreferrer">CodePen: two buttons and four images</a>.</h6>
 
@@ -10169,11 +10167,13 @@ target="_blank" rel="noopener noreferrer">CodePen: two buttons and four images</
 selecting elements in an HTML page, and then do something with these elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 317. codepen: two buttons and four images (261) ~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/OpdaxM" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image317.png?raw=true"
   style="width:65%"
   title="CodePen: Two buttons defined"
-  alt="CodePen: Two buttons defined." />
+  alt="CodePen: Two buttons defined." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OpdaxM" 
 target="_blank" rel="noopener noreferrer">CodePen: two buttons and four images</a>.</h6>
 
@@ -10363,11 +10363,13 @@ the querySelector method (or querySelectorAll) on the document object,
 that corresponds to the whole DOM tree of your web page:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 328. example; querySelector and querySelectorAll (267) ~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/OpdaxM" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image328.png?raw=true"
   style="width:50%"
   title="Example; querySelector and querySelectorAll"
-  alt="Example; querySelector and querySelectorAll." />
+  alt="Example; querySelector and querySelectorAll." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OpdaxM" 
 target="_blank" rel="noopener noreferrer">
 CodePen Example: querySelector &amp; querySelectorAll</a>.</h6>
@@ -10461,11 +10463,13 @@ target="_blank" rel="noopener noreferrer">W3Cx</a>.</p>
 <h4><b>Example #1: get all &lt;li&gt; directly in a &lt;ul&gt; of class nav</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 329. CodePen example; get all li's in ul class (269) ~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/evxQMr" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image329.png?raw=true"
   style="width:65%"
   title="CodePen Example; Get all li's in ul class"
-  alt="CodePen Example; Get all li's in ul class." />
+  alt="CodePen Example; Get all li's in ul class." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/evxQMr" 
 target="_blank" rel="noopener noreferrer">CodePen: get all li's within a ul of class nav</a>.</h6>
 
@@ -10515,11 +10519,13 @@ target="_blank" rel="noopener noreferrer">CodePen: get all li's within a ul of c
 located inside an element of a given id.</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 330. show checked items inside an element of a given id (270) ~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/MpLzqV" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image330.png?raw=true"
   style="width:65%"
   title="Show Checked items inside an element of a given id"
-  alt="Show Checked items inside an element of a given id." />
+  alt="Show Checked items inside an element of a given id." /></a>
 <h6 align="center><a href="https://codepen.io/w3devcampus/pen/MpLzqV" 
 target="_blank" rel="noopener noreferrer">CodePen: Show Checked items</a></h6>
 </p>
@@ -10605,11 +10611,13 @@ to access it from the &lt;input&gt; child we selected, we use elm.parentNode.</p
 <h4>Example #3: change the background of all paragraphs &lt;p&gt; in an element of a given id</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 331. CodePen: Change background of p under element by id (272) ~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/LWqqqm" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image331.png?raw=true"
   style="width:65%"
   title="CodePen: Change background of all paragraphs in element of a given id"
-  alt="CodePen: Change background of all paragraphs in element of a given id." />
+  alt="CodePen: Change background of all paragraphs in element of a given id." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LWqqqm" 
 target="_blank" rel="noopener noreferrer">CodePen: Change background of p under element id</a>
 </h6>
@@ -10776,12 +10784,13 @@ about CSS):</p>
 <p>Here are some examples:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 332. codepen: update styles (275) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/evxoQq" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image332.png?raw=true"
   style="width:65%"
   title="Update style within html document"
-  alt="Update style within html document." />
-</p>
+  alt="Update style within html document." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/evxoQq" 
 target="_blank" rel="noopener noreferrer">CodePen: Update styles in document</a>
 </h6>
@@ -10841,13 +10850,15 @@ collection of class names:</p>
 <h4>Another example: add and remove multiple CSS properties in a list of checkboxes</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 333. show checked items & reset list (277) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/GWeJzz" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image333.png?raw=true"
   style="width:65%"
   title="CodePen: show checked items and reset list"
-  alt="CodePen: show checked items and reset list." />
-</p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GWeJzz">
+  alt="CodePen: show checked items and reset list." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GWeJzz" 
+target="_blank" rel="noopener noreferrer">
 CodePen: show checked items and reset list</a>.</h6>
 
 <p>This is a variation of an example from a previous section. This time,
@@ -10934,12 +10945,13 @@ There are subtle differences that can be seen in the above example
 codePen, open the devtool console):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 335. open the console and look at the js code (279) ~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/MpxEdj" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image335.png?raw=true"
   style="width:65%"
   title="Open the console and look at the JavaScript code"
-  alt="Open the console and look at the JavaScript code." />
-</p>
+  alt="Open the console and look at the JavaScript code." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/MpxEdj" 
 target="_blank" rel="noopener noreferrer">
 CodePen: Open the console and look at the JavaScript code</a>.</h6>
@@ -10994,12 +11006,13 @@ field, etc.</p>
 <p>This example shows some of the things we can do:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 336. codepen: try these (280) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/RpdjwE" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image336.png?raw=true"
   style="width:65%"
   title="CodePen: Modifying DOM nodes with textContent and innerHTML"
-  alt="CodePen: Modifying DOM nodes with textContent and innerHTML." />
-</p>
+  alt="CodePen: Modifying DOM nodes with textContent and innerHTML." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/RpdjwE" 
 target="_blank" rel="noopener noreferrer">
 CodePen (Modifying DOM Nodes with textContent and innerHTML</a></h6>
@@ -11053,12 +11066,13 @@ using append(), appendChild(), insertBefore() or the innerHTML property.</p>
 <h5>Example #1: use of the createElement(), append() methods and of the textContent attribute</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 336. codepen: modify attributes of select elements (281) ~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/aWeqzO" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image336.png?raw=true"
   style="width:65%"
   title="CodePen: Modify attributes of select elements"
-  alt="CodePen: Modify attributes of select elements." />
-</p>
+  alt="CodePen: Modify attributes of select elements." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/aWeqzO" 
 target="_blank" rel="noopener noreferrer">
 CodePen: Modify attributes of select elements</a>.</h6>
@@ -11115,12 +11129,13 @@ CodePen: Modify attributes of select elements</a>.</h6>
 the <b>textContent</b> attribute</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 337. codepen: example, createElement, append & textContent (282) ~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/aWeqz" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image337.png?raw=true"
   style="width:65%"
   title="CodePen: Example, createElement, append, and textContent"
-  alt="CodePen: Example, createElement, append, and textContent." />
-</p>
+  alt="CodePen: Example, createElement, append, and textContent." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/aWeqz" 
 target="_blank" rel="noopener noreferrer">
 CodePen: Enter a number &amp; add to list</a>.</h6>
@@ -11184,11 +11199,13 @@ adding/deleting/modifying a DOM node&apos;s content.
 the innerHTML property:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 338. codepen: using innerHTML property to add new elements (284) ~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/jBJbqM" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image338.png?raw=true"
   style="width:65%"
   title="CodePen: Using innerHTML property to add new elements"
-  alt="CodePen: Using innerHTML property to add new elements." />
+  alt="CodePen: Using innerHTML property to add new elements." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/jBJbqM" 
 target="_blank" rel="noopener noreferrer">
 CodePen: Example, using innerHTML property</a>.</h6>
@@ -11215,11 +11232,13 @@ the <b>targetElem.</b></p>
 <h5>Example #1: a simple one</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 339. codepen: click a browser image to move to zone (284) ~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/peYyPz" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image339.png?raw=true"
   style="width:65%"
   title="CodePen: Click a browser image to move to zone area"
-  alt="CodePen: Click a browser image to move to zone area." />
+  alt="CodePen: Click a browser image to move to zone area." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/peYyPz" 
 target="_blank" rel="noopener noreferrer">
 CodePen Example #1, Click browser image to move to a zone</a>.</h6>
@@ -11240,13 +11259,16 @@ we just call append() on the target div element, and this will add the
 dragged image to the div, while removing it from its original location.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 340. codepen: drag 'n drop browser images in a zone (285) ~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/xwxEZg" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image340.png?raw=true"
   style="width:65%"
   title="Drag 'n drop browser images in a zone"
-  alt="Drag 'n drop browser images in a zone." />
+  alt="Drag 'n drop browser images in a zone." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/xwxEZg" 
-target="_blank" rel="noopener noreferrer">CodePen: Example #2, Drag 'n drop images</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: Example #2, Drag 'n drop images</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-8">2.5.8 Removing elements from the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11488,11 +11510,13 @@ filled text, changing colors)</h5>
 <h5>Example #2: functions that save and restore the context before drawing</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~ 344. CodePen: Functions that save and restore the context before drawing (292) ~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/EWMbmE" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image344.png?raw=true"
   style="width:65%"
   title="CodePen: Functions that save and restore the context before drawing"
-  alt="CodePen: Functions that save and restore the context before drawing." />
+  alt="CodePen: Functions that save and restore the context before drawing." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/EWMbmE" 
 target="_blank" rel="noopener noreferrer">
 CodePen: Functions that save and restore the context before drawing</a>.</h6>
@@ -11529,14 +11553,17 @@ example.
 <p>This is where you reap the benefits of your good habits of
 saving/restoring the context and using ctx.translate(x, y)!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 345. codepen: drawmymonster (294) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 345. codepen: DrawMyMonster (294) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/aJMMzL" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image345.png?raw=true"
   style="width:65%"
   title="CodePen: DrawMyMonster"
-  alt="CodePen: DrawMyMonster." />
+  alt="CodePen: DrawMyMonster." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/aJMMzL" 
-target="_blank" rel="noopener noreferrer">CodePen: DrawMyMonster</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: DrawMyMonster</a>.</h6>
 
 <p>Here is JavaScript code that implements these best practices:</p>
 
@@ -11654,27 +11681,33 @@ as described in the above video.</p>
 ask the browser to call it again in 1/60th of a second if possible. See
 the CodePen example below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 346.  (297) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 346. codepen: draw and animate monster (298) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/PpLLKY" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image346.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: draw drawMyMonster and animate"
+  alt="CodePen: draw drawMyMonster and animate." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpLLKY" 
-target="_blank" rel="noopener noreferrer">CodePen: DrawMyMonster</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: draw DrawMyMonster and animate</a>.</h6>
 
 <h5>Example #2: bouncing ball</h5>
 
 <p>Here the balls bounce on the sides of the canvas (walls).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 347. CodePen: bouncing ball (298) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 347. CodePen: bouncing balls (299) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/OpqqqM" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image347.png?raw=true"
   style="width:65%"
-  title="CodePen: Bouncing Ball"
-  alt="CodePen: Bouncing Ball." />
+  title="CodePen: Bouncing Balls"
+  alt="CodePen: Bouncing Balls." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OpqqqM" 
-target="_blank" rel="noopener noreferrer">CodePen: Bouncing Ball</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: Bouncing Balls</a>.</h6>
 
 <h5>Explanations:</h5>
 
@@ -11809,11 +11842,13 @@ In the animation loop, we draw and move these three balls. Here is the
 result:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 348. CodePen: animating multiple objects (301) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/bqZypx" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image348.png?raw=true"
   style="width:65%"
   title="CodePen: animating multiple objects"
-  alt="CodePen: animating multiple objects." />
+  alt="CodePen: animating multiple objects." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bqZypx" 
 target="_blank" rel="noopener noreferrer">
 CodePen: Animating Multiple Objects</a>.</h6>
@@ -11852,11 +11887,13 @@ New version: look at
 the <b>createBalls, drawBalls</b> and <b>moveBalls</b> functions now!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 349. CodePen: using arrays and loops (302) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/jBJoLo" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image349.png?raw=true"
   style="width:65%"
   title="CodePen: using arrays and loops"
-  alt="CodePen: using arrays and loops." />
+  alt="CodePen: using arrays and loops." /></a>
 <p align="center"><a href="https://codepen.io/w3devcampus/pen/jBJoLo" 
 target="_blank" rel="noopener noreferrer">
 CodePen: Using Arrays and Loops</a>.</p>
@@ -12050,11 +12087,13 @@ element in the viewport: <b>getBoundingClientRect</b>().
 Here is an example that shows the problem:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 351. CodePen: position and size in viewport (306) ~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/Wpmqdw" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image351.png?raw=true"
   style="width:65%"
   title="CodePen: position and size in viewport"
-  alt="CodePen: position and size in viewport." />
+  alt="CodePen: position and size in viewport." /></a>
 <p align="center"><a href="https://codepen.io/w3devcampus/pen/Wpmqdw" 
 target="_blank" rel="noopener noreferrer">
 CodePen: Position and Size in viewport</a>.</p>
@@ -12090,13 +12129,16 @@ CodePen: Position and Size in viewport</a>.</p>
 <h5><b>A good version of the code:</b></h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 353. CodePen: getMousePos (307) ~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/MpxMQo" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image353.png?raw=true"
   style="width:65%"
   title="CodePen: getMousePos"
-  alt="CodePen: getMousePos." />
+  alt="CodePen: getMousePos." /></a>
 <p align="center"><a href="https://codepen.io/w3devcampus/pen/MpxMQo" 
-target="_blank" rel="noopener noreferrer">CodePen: getMousePos</a>.</p>
+target="_blank" rel="noopener noreferrer">
+CodePen: getMousePos</a>.</p>
 
 And here is the fixed version of the getMousePos function:
 
@@ -12129,13 +12171,16 @@ shows how to get the mouse button number using the evt.button property.
 <h5>Example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 355. CodePen: example move mouse & click anywhere (308) ~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/zZbVjW" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image355.png?raw=true"
   style="width:65%"
   title="CodePen: example move mouse and click anywhere"
-  alt="CodePen: example move mouse and click anywhere." />
+  alt="CodePen: example move mouse and click anywhere." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/zZbVjW" 
-target="_blank" rel="noopener noreferrer">CodePen: </a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: example move mouse and click</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 356. mouse position click and release button (308) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -12201,14 +12246,17 @@ section to get the correct mouse position:</p>
 
 <h5>Working example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 357. codepen: working example (309) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 357. codepen: working example, get mouse position (310) ~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/EWMBeR" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image357.png?raw=true"
   style="width:65%"
   title="CodePen: working example, get correct mouse position"
-  alt="CodePen: working example, get correct mouse position." />
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/EWMBeR" 
-target="_blank" rel="noopener noreferrer">CodePen: working example</a>.</p>
+  alt="CodePen: working example, get correct mouse position." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/EWMBeR" 
+target="_blank" rel="noopener noreferrer">
+CodePen: working example, get correct mouse position</a>.</h6>
 
 <h5>Extract from the JavaScript source code:</h5>
 
@@ -12301,12 +12349,14 @@ improvement to you! :-)</p>
 <p>Let&apos;s make it a game by adding collision detection! And try to move the
 player to all the balls as fast as you can.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 358. codepen: adding collision detection (311) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 358. codepen: adding collision detection (312) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/gmEVJG" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image358.png?raw=true"
   style="width:65%"
   title="CodePen: adding collision detection"
-  alt="CodePen: adding collision detection." />
+  alt="CodePen: adding collision detection." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/gmEVJG" 
 target="_blank" rel="noopener noreferrer">CodePen: adding collision detection</a>.</h6>
 
@@ -12316,7 +12366,7 @@ target="_blank" rel="noopener noreferrer">CodePen: adding collision detection</a
 collision detection one of the W3Cx <a href="https://www.edx.org/course/html5-apps-and-games" 
 target="_blank" rel="noopener noreferrer">HTML5 Apps and Games</a> course modules.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 359. blue and yellow circles: no collision/collision (310) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 359. blue and yellow circles: no collision/collision (313) ~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image359.png?raw=true"
   style="width:20%"
@@ -12446,12 +12496,14 @@ max speed we would like, the color and size of the player, etc.</p>
 
 <h5>New version:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 360. codepen: new version, adding input fields (312) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 360. codepen: new version, adding input fields (315) ~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/RpOyRN" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image360.png?raw=true"
   style="width:65%"
   title="CodePen: adding input fields"
-  alt="CodePen: adding input fields." />
+  alt="CodePen: adding input fields." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/RpOyRN" 
 target="_blank" rel="noopener noreferrer">CodePen: adding input fields</a>.</h6>
 
@@ -12609,7 +12661,7 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-1">3.1.1 Introduction - Standard HTML API's (1:29)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 362. intro module 3 (315) ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 362. intro - standard api's (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image362.png?raw=true"
   style="width:65%"
@@ -12639,7 +12691,7 @@ difficulty levels will be proposed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-2">3.1.2 Module 3 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 363. geolocation logo (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 363. geolocation logo (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image363.png?raw=true"
   style="width:25%"
@@ -12666,14 +12718,17 @@ fundamental concepts are presented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-1">3.2.1 Arrays (8:57)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 364. codepen: arrays (317) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 364. codepen: arrays (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/owgeyJ" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image364.png?raw=true"
   style="width:65%"
   title="CodePen: arrays"
-  alt="CodePen: arrays." />
+  alt="CodePen: arrays." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/owgeyJ" 
-target="_blank" rel="noopener noreferrer">CodePen: arrays</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: arrays</a>.</h6>
 
 <p>Let&apos;s continue with the arrays. We already encounter them during the
 first module but this time we will give more details. And maybe we&apos;ll
@@ -12681,7 +12736,7 @@ come back again to arrays in the next module. Each week, during each
 module we give some small extra information so that in the end, you will
 have a good view of each JavaScript concepts.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 365. codepen: example array (317) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 365. codepen: example array (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image365.png?raw=true"
   style="width:65%"
@@ -12694,7 +12749,7 @@ the first index is at number 0. If I type in the console&#133;it gives me
 the first element. "myarr&lbrack;0&rbrack;" gives the first element. Arrays in
 JavaScript are objects.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 366. codepen: example array, #2 (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 366. codepen: example array, #2 (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image366.png?raw=true"
   style="width:65%"
@@ -12707,7 +12762,7 @@ objects, like person has an age, person has a name, an array has the
 length. As the array is an object, it will have some interesting
 properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 367. codepen: example array, #3 (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 367. codepen: example array, #3 (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image367.png?raw=true"
   style="width:65%"
@@ -12720,7 +12775,7 @@ operator. This, the length, corresponds to the number of elements: 1, 2,
 property -- 1. "purple", the last element, is located at index
 "myarr.length-1".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 368. codepen: example array, #4 (31x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 368. codepen: example array, #4 (322) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image368.png?raw=true"
   style="width:65%"
@@ -12734,7 +12789,7 @@ like this. Like that, it returns the new length: 5 elements. And if I
 look at the content of my array, it now has, at the end, the last
 element I pushed inside: orange. &quot;push&quot; is very useful.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 369. codepen: example array, #5 (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 369. codepen: example array, #5 (322) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image369.png?raw=true"
   style="width:65%"
@@ -12747,7 +12802,7 @@ have any "green" here&#133;You see, I'm using the index length. If I do
 like that, it returns the new element we added, and it adds at the end.
 To be frank, most of the time I use the &quot;push&quot; method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 370. codepen: example array, #6 (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 370. codepen: example array, #6 (323) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image370.png?raw=true"
   style="width:65%"
@@ -12761,7 +12816,7 @@ it has a sort method. It&apos;s a sort of function associated with the
 array. If I just call &quot;sort&quot; without any parameter, it returns the
 array sorted by ascending alphabetical order.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 371. codepen: example array with object (320) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 371. codepen: example array with object (323) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image371.png?raw=true"
   style="width:65%"
@@ -12775,7 +12830,7 @@ element, here. It gives me a person whose <b>familyName</b> is Buffa, whose
 <b>givenName</b> is Michel, age 51. This corresponds to the first element
 of the array.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 372. codepen: example array with object, #2 (321) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 372. codepen: example array with object, #2 (324) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image372.png?raw=true"
   style="width:65%"
@@ -12786,7 +12841,7 @@ of the array.</p>
 operator. So persons.0.givenName will correspond to Michel, persons.0 is
 this element, .givenName corresponds to this property.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 373. codepen: example array with object, #3 (321) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 373. codepen: example array with object, #3 (324) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image373.png?raw=true"
   style="width:65%"
@@ -12811,7 +12866,7 @@ is sorted by age: 20, 32, 51. When you call this method, it returns a
 sorted array but it also sorts the array itself. The array is no more
 the one we had first, now it&apos;s a sorted array.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~ 374. CodePen: example remove an element from array using splice (318) ~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 374. CodePen: example remove an element from array using splice (325) ~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image374.png?raw=true"
   style="width:65%"
@@ -12825,7 +12880,7 @@ will remove the element just after 0. It removed the element named Pig
 Bodine, it was in the middle. If I look at the array now, we just remove
 the element in the middle with the age 20.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 375. CodePen: example remove an element from array using splice, #2 (318) ~~~~~~~~~-->
+<!--~~~~~~~~ 375. CodePen: example remove an element from array using splice, #2 (325) ~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image375.png?raw=true"
   style="width:65%"
@@ -12886,7 +12941,7 @@ JavaScript object.</p>
 <p>Each element of an array has a key/index and a value. Here are the
 keys/indexes and values from the above example:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 376. Table with key and value of the previous array example (325) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 376. Table with key and value of the previous array example (326) ~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image376.jpeg?raw=true"
   style="width:15%"
@@ -16762,10 +16817,9 @@ programming languages.</p>
   style="width:20%"
   title="Dark vador and his friend named pikachu"
   alt="Dark vador and his friend named pikachu." />
-<p>So far in this course, we&apos;ve only used
-singleton objects: objects that only occur once: player, darkVador, etc.</p>
-
-<p>Ok, this is not quite true, I&apos;d forgotten that we created many balls in
+<p>So far in this course, we&apos;ve only used singleton objects: objects that 
+only occur once: player, darkVador, etc. 
+Ok, this is not quite true, I&apos;d forgotten that we created many balls in
 the module 2 game. We&apos;ll come back to this example further down the
 page!</p>
 
@@ -16804,115 +16858,121 @@ ES5&apos;s function constructors, and with modern JavaScript&apos;s classes!</
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding lesson: the &quot;new&quot; keyword</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 468.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 468. introduction to 'new' keyword (422) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image468.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="The 'new' keyword"
+  alt="The 'new' keyword." />
 </p>
 
-So far, in this course, we&apos;ve only used singleton objects: objects that
-only occur once.
+<p>So far, in this course, we&apos;ve only used singleton objects: objects that
+only occur once. We&apos;ve got one player in the game, we&apos;ve got one 
+Dark Vador in the examples with the Star Wars heroes. But imagine Luke Skywalker, 
+Ian Solo and Dark Vador&#133; what do they have in common?</p>
 
-We&apos;ve got one player in the game, we&apos;ve got one Dark Vador in the
-examples with the Star Wars heroes.
-
-But imagine Luke Skywalker, Ian Solo and Dark Vador&#133; what do they have
-in common?
-
-They&apos;re all Star Wars heroes, they all have a name, they all belong to
+<p>They&apos;re all Star Wars heroes, they all have a name, they all belong to
 one side, the good or the bad people, the rebels or the empire, etc.
-
 Imagine that we have a way of programming that will describe not the
-objects themselves, but a model, a template, for these objects.
+objects themselves, but a model, a template, for these objects.</p>
 
-We could call it StarWarsHeroes for example, and use it for creating our
+<p>We could call it StarWarsHeroes for example, and use it for creating our
 heroes' objects, each being of the same kind, but with different names,
-different sizes, different descriptions.
+different sizes, different descriptions.</p>
 
-Imagine the balls from the Module 2, in the game, the balls that were
+<p>Imagine the balls from the Module 2, in the game, the balls that were
 bouncing against the walls. They all have the same shape (a circle), the
 same properties x and y, and color, but they all differ, they all have x
-and y coordinates that are different, and different colors.
+and y coordinates that are different, and different colors.</p>
 
-In many programming languages, these templates are called classes.
-
+<p>In many programming languages, these templates are called classes.
 You&apos;ve got a class Person, and you create objects that are instances of
-Persons.
+Persons. From a model, you create Michel Buffa. From a Hero class you will create
+Luke Skywalker. From a Ball class, you will create many balls with different shapes,
+radius and coordinates. In JavaScript 5, we did not have such a concept.</p>
 
-From a model, you create Michel Buffa. From a Hero class you will create
-Luke Skywalker.
-
-From a Ball class, you will create many balls with different shapes,
-radius and coordinates.
-
-In JavaScript 5, we did not have such a concept.
-
-Instead, we have &quot;constructor functions&quot;.
-
-I will show you how they work.
-
+<p>Instead, we have &quot;constructor functions&quot;. I will show you how they work.
 With JavaScript 6, we&apos;ve got the concept of "classes", and it will be
-the topic of a next video.
-
-But as &quot;constructor functions&quot; from JavaScript 5 are in many, many
-examples on the Web, I will show you that to you first.
-
-You start by writing a simple function, but by convention, you start
-with a capital letter: &quot;Hero&quot;.
-
+the topic of a next video. But as &quot;constructor functions&quot; from 
+JavaScript 5 are in many, many examples on the Web, I will show you that to you first.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 468a. simple function (423) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image468a.png?raw=true"
+  style="width:65%"
+  title="Simple function"
+  alt="Simple function." />
+</p>
+<p>You start by writing a simple function, but by convention, you start
+with a capital letter: &quot;Hero&quot;. 
 And then, you can indicate the parameters that your heroes will have.
-
 You will indicate the name and the side of a Star Wars heroes for
-example.
-
-Then you will initialize the properties of each hero.
-
+example. Then you will initialize the properties of each hero.
 What I write here is very common: &quot;this&quot; followed by the name of the
-property equal the name of the parameter passed for building an object.
+property equal the name of the parameter passed for building an object.</p>
 
-If I use just this syntax, I can start building heroes. And for this I
-use the keyword &quot;new&quot;.
+<p>If I use just this syntax, I can start building heroes. And for this I
+use the keyword &quot;new&quot;. I just typed the name of the constructor 
+function, preceded by the keyword &quot;new&quot;.</p>
 
-I just typed the name of the constructor function, preceded by the
-keyword &quot;new&quot;.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 468b. build an object (424) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image468b.png?raw=true"
+  style="width:65%"
+  title="Build an object"
+  alt="Build an object." />
+</p>
 
-If we open the console and look at this object&#133; you see that we built
-an object.
+<p>If we open the console and look at this object&#133; you see that we built
+an object. And where it&apos;s interesting? It&apos;s when you create multiple 
+objects.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 468c. 'this' objects & methods (424) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image468c.png?raw=true"
+  style="width:65%"
+  title="'this' objects and methods"
+  alt="'this' objects and methods." />
+</p>
 
-And where it&apos;s interesting? It&apos;s when you create multiple objects.
+<p>If you look at these objects, &#133; dark &#133;, we created multiple objects
+from the same template. Of course, we can also add methods in this object.</p>
 
-If you look at these objects, &#133; dark &#133;, we created multiple objects
-from the same template.
-
-Of course, we can also add methods in this object.
-
-And the syntax is also to declare the name of the method preceded by
+<p>And the syntax is also to declare the name of the method preceded by
 &quot;this": this.describeYourself =&#133; and then the body of the function.
+This is a property defined in the class Hero. First, we can check that the method 
+has been added to each object&#133;so, Ian Solo&#133; you can see the method here: 
+&quot;describeYourself&quot;&#41; you can see the body of the method. Luke Skywalker 
+has the same method because it&apos;s &quot;an instance of the same class&quot;.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 468d. define & assign name and side (425) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image468d.png?raw=true"
+  style="width:65%"
+  title="Define and assign name and side"
+  alt="Define and assign name and side." />
+</p>
 
-This is a property defined in the class Hero.
+<p>We can call ianSolo.describeYourself(); and it will say &quot;I&apos;m Ian Solo
+and I&apos;m from the Rebels&quot;. If we do the same with darkVador, it will say 
+&quot;I&apos;m Dark Vador and I&apos;m from the Empire&quot;.</p>
 
-First, we can check that the method has been added to each object&#133;so,
-Ian Solo&#133; you can see the method here: &quot;describeYourself&quot;&#41; you
-can see the body of the method.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 468e. more on object properties (425) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image468e.png?raw=true"
+  style="width:65%"
+  title="More on object properties"
+  alt="More on object properties." />
+</p>
 
-Luke Skywalker has the same method because it&apos;s &quot;an instance of the
-same class&quot;.
-
-We can call ianSolo.describeYourself(); and it will say &quot;I&apos;m Ian Solo
-and I&apos;m from the Rebels&quot;.
-
-If we do the same with darkVador, it will say &quot;I&apos;m Dark Vador and I&apos;m
-from the Empire&quot;.
-
-Just using these lines here, we&apos;ll create different objects that will
+<p>Just using these lines here, we&apos;ll create different objects that will
 all share a name, a side and a describeYourself properties and methods,
 but with different values that have been passed at construction time.
+The 'new' operator here is for constructing, for building objects.</p>
 
-The 'new' operator here is for constructing, for building objects.
-
-<!-- end transcript 4.3.2 -->
+<!-- end transcript 4.3.2 the 'new' keyword -->
 
 <h5>Source code shown in this lesson</h5>
 
@@ -16985,15 +17045,15 @@ The syntax is the same as for creating a function, except that:</p>
 
 <h5>Full interactive example that uses a constructor function</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 469.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 469.  codepen: example constructor function (427) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image469.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="CodePen: example constructor function"
+  alt="CodePen: example constructor function." />
 </p>
-
-<https://codepen.io/w3devcampus/pen/KWjMRw>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KWjMRw">
+CodePen: example constructor function</a>.</h6>
 
 <h5>JavaScript source code:</h5>
 
@@ -17058,16 +17118,29 @@ lowercase, I might not understand that it's meant for building objects.
 JavaScript 6 introduced the concept of classes that we&apos;re going to see.
 But just before looking at the class version of the hero we saw earlier,
 let&apos;s have a look at it again.</p>
-
-<!-- image here -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470a. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image470a.png?raw=true"
+  style="width:65%"
+  title="CodePen: example function"
+  alt="CodePen: example function." />
+</p>
 <p>Previously, we had a function with the name that starts with a capital
 letter, we passed the parameters for building the object, and we used
 this to set the different properties.
 We used the equal sign for setting values to the properties at building
 time, and we used also the equal syntax for defining methods. And inside
 methods, we used these for accessing the properties.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470b. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image470b.png?raw=true"
+  style="width:65%"
+  title="CodePen: example function"
+  alt="CodePen: example function." />
+</p>
 
-<!-- image here -->
 <p>With the new JavaScript 6 syntax, it&apos;s much simpler.
 We use the "class" keyword followed by the name of the class for
 defining a class. JavaScript 6 also introduces the concept of constructor.</p>
@@ -17081,8 +17154,15 @@ the constructor in the class, passing "Dark Vador" and "empire" as values for th
 <p>Inside the constructor, we usually set the different properties, and for this we use 
 the same syntax as in constructor function. We use "this" followed by the name of 
 the property and we use the equal sign for setting values to the properties.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470c. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image470c.png?raw=true"
+  style="width:65%"
+  title="CodePen: example function"
+  alt="CodePen: example function." />
+</p>
 
-<!-- image -->
 <p>Then we can define methods, and here, the syntax again is much simpler.
 No more use of the "function" keyword.<p>
 
@@ -17099,17 +17179,38 @@ I would call it using "this.anotherMethod".
 In this aspect, it&apos;s very similar to what we saw with constructor
 functions and JavaScript objects with the JavaScript 5 syntax.
 Okay, so we can try this example.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470d. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image470d.png?raw=true"
+  style="width:65%"
+  title="CodePen: example function"
+  alt="CodePen: example function." />
+</p>
 
-<!-- image -->
 <p>Here we build, in a similar way as previously with constructor function,
 we build object using the "new" keyword followed by the name of the
 class and we pass the parameter for building the object, that will be
 passed to the constructor.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470e. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image470e.png?raw=true"
+  style="width:65%"
+  title="CodePen: example function"
+  alt="CodePen: example function." />
+</p>
 
-<!-- image -->
 <p>We can type "ianSolo": see that it&apos;s been built correctly.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470f. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image470f.png?raw=true"
+  style="width:65%"
+  title="CodePen: example function"
+  alt="CodePen: example function." />
+</p>
 
-<!-- image -->
 <p>And if we compare to the JavaScript 5 version, the "IanSolo JavaScript
 5", you see it&apos;s completely similar.
 Well, in this example, we had a method describe yourself, but it&apos;s
@@ -17118,7 +17219,7 @@ making&#41; defining templates for building object much more easier than
 before. I recommend to use the class syntax from ES6, it&apos;s supported by all
 modern browsers.</p>
 
-<!-- end transcript 4.3.3 -->
+<!-- end transcript 4.3.3 creating objects using js classes -->
 
 <h4>Source code from above video examples</h4>
 
@@ -17199,14 +17300,16 @@ passed to the constructor.</p>
 <p>See below an interactive example that uses an ES6 class to create Star
 Wars&apos; heroes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 471.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 471. make star wars heroes speak (433) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/PpMpBo" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image471.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="Make star wars heroes speak"
+  alt="Make star wars heroes speak." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpMpBo" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: make star wars heroes speak</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-4">4.3.4 Declaring a class before using it</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17249,12 +17352,12 @@ constructor functions and ES6 classes).
 
 <p>Objects can be created as "literals":</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 472.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 472. darth vador image (434) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image472.png?raw=true"
-  style="width:20%"
-  title=" "
-  alt=" ." />
+  style="width:15%"
+  title="Darth Vador"
+  alt="Darth Vador." />
 </p>
 
 <pre>
@@ -17297,10 +17400,9 @@ a y property.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-6">4.3.6 Static properties and methods (6:33)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding lesson: static properties and methods
+<p>Live coding lesson: static properties and methods</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 473.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 473.   (435) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image473.png?raw=true"
   style="width:65%"
@@ -17312,7 +17414,13 @@ Live coding lesson: static properties and methods
 saw classes that are templates for building objects. And in the class,
 we define properties and methods. Properties are for describing the
 characteristics of each object that will be built.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 473a.  (435) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image473a.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
 <p>The name property, the side property, for the Star War heroes,
 correspond to Luke Skywalker and the rebels, to Dark Vador and the
 empire. And these properties and methods are called 'instance
@@ -17333,7 +17441,13 @@ them class properties and class methods.</p>
 heroes have you built? And the class methods will correspond to the
 behavior of the class Hero: &quot;Hey! Please give me how many heroes from
 the rebels you've built&quot;.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 473b.   (436) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image473b.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
 <p>Let&apos;s see an example. I will declare a property for the class Hero. We
 use the name of the class followed by &apos;.&apos; followed by the name of the
 property.</p>
@@ -17342,39 +17456,75 @@ property.</p>
 another page of the course, but unlike functions, you can use only class
 name after it has been declared. The class Hero is declared here, I can
 only use "Hero.something" 24</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 473c.   (437) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image473c.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
 <p>Here, I declared a variable named "numberHeroesCreated". I can type this
 in the console and see that it returns 0. But why it&apos;s interesting, is
 that I can use this class property inside a class itself. If in the
 constructor, I increment the "numberofHeroesCreated", the property of
 the class Hero. And if I build 0 instance, &#133;</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 473d.   (437) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image473d.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
 <p>I can look at the value of this property: it says 0. But if I built 2
 objects, in that case the "new" keyword will call twice the constructor
 method. And the property of the class Hero will say I've built 2 heroes.
 If I&apos;m just uncommenting another one, here. The return value is 3.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 473e.   (437) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image473e.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
 <p>It&apos;s important to use this method, using the name of the class because
 it corresponds to a property of this class, to characteristics&#41;
-&quot;class Hero,</p>
-
-<p>How many heroes have you created?&quot; Now, we can also have static
-methods. A static method can be some sort of utility method, some
-behavior method of the class itself. Here we&apos;ve got a class that
-defines a point, defined by its "x" and "y" properties. We can have a
-"distance" method for computing the distance between two points. We
+&quot;class Hero. How many heroes have you created?&quot;</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 473f.   (438) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image473f.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+<p>Now, we can also have static methods. A static method can be some sort of 
+utility method, some behavior method of the class itself. Here we&apos;ve got 
+a class that defines a point, defined by its "x" and "y" properties. We can 
+have a "distance" method for computing the distance between two points. We
 could have this located outside of the class and it will just use the
 coordinates of two points for computing the distance. But if it&apos;s meant
 to work only on points, it&apos;s a good idea to put it as a class method
 inside the point class.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 473g.   (438) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image473g.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
 <p>Like this, when you will compute the distance between 2 points, we&apos;ll
 just call: Point.distance(), passing the 2 points as parameter. In plain
 text, it means: &quot;class point, please compute the distance between these
 2 points that are instanced of your class&quot;. When you&apos;ve got methods
 that are only related to instances of the class itself, it&apos;s a good
 idea to put it inside. And you precede them by the "static" keyword.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 473h.   (439) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image473h.png?raw=true"
+  style="width:65%"
+  title=" "
+  alt=" ." />
+</p>
 <p>Because sometimes, you can call such methods without using any instance.
 For example, if I want a method that will work on the
 "numberHeroesCreated": static getHowManyHeroesYouCreated()&#133;
@@ -17432,12 +17582,12 @@ heroes he created&quot;. We have class properties and instance properties.</p>
 method preceded by the static keyword, it means that you see a class
 property or a class method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 474.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 474. the static keyword  (440) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image474.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="The static keyword"
+  alt="The static keyword." />
 </p>
 
 <h5>Class properties</h5>
@@ -17558,13 +17708,15 @@ same name preceded by an underscore).</p>
 
 <h5>Example at CodePen:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 476.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 476. codepen:  (442) ~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/WOoQgw" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image476.png?raw=true"
   style="width:65%"
   title=" "
   alt=" ." />
-</p>
+</p></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/WOoQgw" 
 target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17643,7 +17795,6 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-4-1">4.4.1 Class and constructor</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <p>First, let&apos;s look how we were handling balls previously in our game!</p>
 
 <p>We have built balls in order to fill the array of balls.</p>
@@ -17722,19 +17873,16 @@ the next page of this course):
 10.   &#41; // code to come for methods
 11. }
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-4-2">4.4.2 Adding methods classes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Ok, we&apos;ve seen how to define the Ball class: properties and
+<p>Ok, we&apos;ve seen how to define the Ball class: properties and
 constructor. Properties are the DNA for balls: they all have an x and y
-position, a radius, a color, a horizontal and a vertical speed.
+position, a radius, a color, a horizontal and a vertical speed.</p>
+<p>It is time to add some behaviors: a draw and a move method. Indeed, all
+balls will be able to draw and move themselves.</p>
 
-It is time to add some behaviors: a draw and a move method. Indeed, all
-balls will be able to draw and move themselves.
-
-Here&apos;s how we were drawing a ball in the previous version of the game:
+<p>Here&apos;s how we were drawing a ball in the previous version of the game:</p>
 
 <pre>1.  function drawFilledCircle(<b>c</b>) {
 2.    // GOOD practice: save the context, use 2D trasnformations
@@ -17754,7 +17902,7 @@ Here&apos;s how we were drawing a ball in the previous version of the game:
 16. }
 </pre>
 
-And this how we were drawing and moving all the balls:
+<p>And this how we were drawing and moving all the balls:</p>
 
 <pre>1.  function drawAllBalls(ballArray) {
 2.      ballArray.forEach(function(b) {
@@ -17778,24 +17926,24 @@ And this how we were drawing and moving all the balls:
 
 <h5>Adding a draw and a move method to the ES6 ball class</h5>
 
-Instead of having these behaviors as separate functions that take a ball
+<p>Instead of having these behaviors as separate functions that take a ball
 reference as a parameter, it is always better to put this as a method
 inside the class. Indeed, each ball can move, can draw itself, and the
-content of these methods does not bring any external dependencies.
+content of these methods does not bring any external dependencies.</p>
 
-For example, if we decide to put a method named testCollisionWithWalls
+<p>For example, if we decide to put a method named testCollisionWithWalls
 inside the Ball class, it would be bad, in terms of reusability, for
 its content to rely on external, global variables, such as the canvas
 size. You could have passed the canvas as a parameter, but then you
 create more specialization: you have a Ball class for balls that can
 move inside a rectangular area that is a canvas. It&apos;s better to just
-pass the width and the height of the zone.
+pass the width and the height of the zone.</p>
 
-Anyway, if you plan to use your balls in another game, it is recommended
+<p>Anyway, if you plan to use your balls in another game, it is recommended
 that you keep the class as simple as possible. It will be more reusable
-in other projects.
+in other projects.</p>
 
-<b>New version</b> of the ES6 Ball class with draw and move methods:
+<p><b>New version</b> of the ES6 Ball class with draw and move methods:</p>
 
 <pre>1.  class Ball {
 2.      constructor(x, y, radius, color, speedX, speedY) {
@@ -17840,19 +17988,19 @@ in other projects.
     of the current ball.</li>
 </ul>
 
-Notice that we did not take into account the globalSpeedMultiplier we
+<p>Notice that we did not take into account the globalSpeedMultiplier we
 had in the old moveAllBalls function, as this is not something that is
 individually relevant to each ball: it is more something that affect ALL
 balls. <b>This should raise an alert: use an ES6 class property for
-that!</b>
+that!</b></p>
 
-In other words, even if zero ball has been created,
+<p>In other words, even if zero ball has been created,
 this globalSpeedMultiplier is set and can be modified using a slider in
 the graphic user interface. Consequently, it is not a ball
-property, <b>more a property of the Ball class itself</b>.
+property, <b>more a property of the Ball class itself</b>.</p>
 
-This setting could be created using a class property, as seen in a
-previous section of this course.
+<p>This setting could be created using a class property, as seen in a
+previous section of this course.</p>
 
 <h5>And here is how we can now move and draw ALL balls</h5>
 
@@ -17875,35 +18023,37 @@ previous section of this course.
 17. }
 </pre>
 
-And here is the CodePen version of the game that includes these
-improvements:
+<p>And here is the CodePen version of the game that includes these
+improvements:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 477.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 477. codepen: game with improvements (451) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/EWzgpr" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image477.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="CodePen: game with improvements"
+  alt="CodePen: game with improvements." /></a>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/EWzgpr" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: game with improvements</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-1-1">5.1.1 Video introduction - Module 5 (1:31)</h3>
+<h3 id="ch5-1-1">5.1.1 Transcript Introduction - Adding Interactivity (1:31)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Lesson: Introduction to Module 5</p>
+<p>Transcript: Introduction - Adding interactivity</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 478.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 478. adding interactivity to web documents  (451) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image478.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="Adding interactivity to web documents"
+  alt="Adding interactivity to web documents." />
 </p>
 
-Adding interactivity to your Web documents often involves the use of
-different input fields.
+<p>Adding interactivity to your Web documents often involves the use of
+different input fields.</p>
 
-The HTML5 specification came with a lot of new form elements such as
+<p>The HTML5 specification came with a lot of new form elements such as
 sliders, color chooser, and so on. In this module, you will learn what
 can be done using JavaScript and form inputs. For example, how can we
 ask the user to enter new data, how can we manipulate input fields'
@@ -17912,40 +18062,34 @@ an HTML table by adding a new row with this new data? Other interactions
 may involve sliders to adjust the volume of a video, custom button for
 controlling a play list, color chooser for controlling color style and
 so on. You will learn the main events related to HTML5 forms and will
-play with many examples.
+play with many examples.</p>
 
-We'll also come back to projects seen during the previous modules and
+<p>We'll also come back to projects seen during the previous modules and
 enhance their interactivity by adding forms. This is the last module of
 this course, congratulations!! The HTML5 series is a natural
 continuation of this course since you will be able to put into practice
 your new JavaScript skills! And I hope to see you again as I&apos;m the
-author of some of these courses! Byebye!
-
+author of some of these courses! Byebye!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-1-2">5.1.2 Module 5 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-What you will learn in Module 5:
-
--   <b>We continue the study of object-oriented JavaScript programming
-    with &quot;predefined classes&quot;</b>: Object, Array, String, Date, Math
-
--   <b>We present a very useful API for building HTML5 tables
-    dynamically</b>.
-
--   <b>We&apos;ll also see how to use HTML5 forms from JavaScript</b>:
-    intercept their submission, retrieve input field values, and so on.
-
--   <b>We will study the JavaScript Object Notation (JSON) format</b>, used
+<p>What you will learn in Module 5:</p>
+<ul>
+  <li>We continue the study of object-oriented JavaScript programming
+    with &quot;predefined classes&quot;</b>: Object, Array, String, Date, Math.</li>
+  <li>We present a very useful API for building HTML5 tables dynamically.</li>
+  <li>We&apos;ll also see how to use HTML5 forms from JavaScript:
+    intercept their submission, retrieve input field values, and so on.</li>
+  <li>We will study the JavaScript Object Notation (JSON) format, used
     extensively when manipulating data from remote servers (via REST
     WebServices) or for persistence (saving data client or server-side).
     We will see several examples that consume such data and display them
-    in a dynamic HTML5 table.
-
--   <b>Finally, we will develop together a mini contact manager</b> using
+    in a dynamic HTML5 table.</li>
+  <li>Finally, we will develop together a mini contact manager using
     classes, a dynamic table, a form and load/save its data using the
     JSON format. It will be your job to improve it by adding additional
-    features.
+    features.</li>
+</ul>
 
 <p>This module ends with the final exam which regroups questions specific
 to the current module but also a potpourri of questions related to the 4
@@ -17955,15 +18099,18 @@ previous modules.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding transcript: references and objects</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 479.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 479.  codepen: references and objects (453) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/KqmGgq?editors=0012">
 <p align="center" width="100%">
 <img src="./images/image479.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="CodePen: references and objects"
+  alt="CodePen: references and objects." /></a>
 </p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KqmGgq?editors=0012">
+CodePen: references and objects</a>.</h6>
 
-<p>References and objects.</p>
+<h5>References and objects</h5>
 
 <p>When you define a variable, this is what happens: if its value is a
 primitive value, a number, a string or a boolean for example, the
@@ -18173,12 +18320,12 @@ modified.</p>
 <p>Comparing two objects will only return true if they point to the same
 object (i.e., if they have the same reference).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 480.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 480. balancing rocks logo (457) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image480.png?raw=true"
   style="width:20%"
-  title=" "
-  alt=" ." />
+  title="Balancing rocks logo"
+  alt="Balancing rocks logo." />
 </p>
 
 <p>Two objects of the same type, with the same property value, that look
@@ -18200,7 +18347,6 @@ reference (if they point to different places in memory).</p>
 13. &gt; copy === anotherObject
 14. false
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id"ch5-2-3">5.2.3 The &quot;global&quot; window object</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -18277,7 +18423,7 @@ them easily from the devtool console. You can switch back to using let, later.<
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-4">5.2.4 Built-in JS class: Object (3:12)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 481.   (4xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 481. built-in javascript class: object (459) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image481.png?raw=true"
   style="width:65%"
@@ -18291,8 +18437,9 @@ the Java language&#41; or C#, you can imagine this more like a class from
 the developer&apos;s kit, a class that is provided by the language itself.
 The consequence of this is that on all the objects you manipulate in
 JavaScript, you will be able to use a predefined set of methods and
-properties that will be inherited from this predefined object. On all
-the objects you manipulate, you will be able to use a method called
+properties that will be inherited from this predefined object.</p>
+
+<p>On all the objects you manipulate, you will be able to use a method called
 "<b>toString()</b>" that is very similar to what we&apos;ve got in the Java
 language. Another method is called "<b>valueOf()</b>" that will just return
 the value of the object. Let&apos;s take an example with first an array.</p>
