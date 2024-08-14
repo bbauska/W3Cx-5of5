@@ -3634,6 +3634,7 @@ It's executed when we click on a button. Let's have the button "onclick" call th
 Let's execute this, here is the result: 
 "Click me to call a JavaScript function that will add some content to this document". 
 I click and you see that the function have been executed. And finally, the last thing you 
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 122h.  (95) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3642,12 +3643,11 @@ I click and you see that the function have been executed. And finally, the last 
   title=""
   alt="." />
 
-You've got an example here, where we use the "paper.js" library and the "paper.js" library,
+<p>You've got an example here, where we use the "paper.js" library and the "paper.js" library,
 if I open the "paper.js" Web site, is a library for making graphic animations in JavaScript,
 so you can have plenty of funny things you can do. Things like that, or things like this&#133;
 Just to be able to use what this library proposes, you need to include the library.
-If you read the documentation, they will tell that you what you need to include&#133;
-
+If you read the documentation, they will tell that you what you need to include&#133;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 122i.  (95) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3656,11 +3656,11 @@ If you read the documentation, they will tell that you what you need to include&
   title=""
   alt="." />
 
-Okay -let's open it in CodePen- &#133;you need to include this JavaScript file.
+<p>Okay -let's open it in CodePen- &#133;you need to include this JavaScript file.
 And once you included this JavaScript file&#133; a bit the same way we used the external 
 library for plotting functions&#133; then you can use some functionalities that come 
 from the "paper.js" library. You need to read the documentation to learn how to use 
-it, but here is an example: a set of squares, animated squares, that follow the mouse.
+it, but here is an example: a set of squares, animated squares, that follow the mouse.</p>
 
 <!-- end transcript 1.3.3 where to put JS code -->
 
