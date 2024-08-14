@@ -1643,15 +1643,15 @@ we presented earlier:</p>
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
   &lt;head&gt;
-   &lt;title&gt;Your first HTML page&lt;/title&gt;
-   &lt;meta charset="utf-8"/&gt;
+    &lt;title&gt;Your first HTML page&lt;/title&gt;
+    &lt;meta charset="utf-8"/&gt;
   &lt;/head&gt;
   &lt;body&gt;
-   &lt;h1&gt;My home page&lt;/h1&gt;
-   &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
-professor at the University of Côte d&apos;Azur, in France, and I'm also
-the author of three W3Cx MOOCS.&lt;/p&gt;
-   &lt;/body&gt;
+    &lt;h1&gt;My home page&lt;/h1&gt;
+    &lt;p&gt;Hi! Welcome to my Home Page! My name is Michel Buffa, I&apos;m a
+      professor at the University of Côte d&apos;Azur, in France, and I'm also
+      the author of three W3Cx MOOCS.&lt;/p&gt;
+  &lt;/body&gt;
 &lt;/html&gt;
 </pre>
 
@@ -1966,9 +1966,10 @@ of Leonardo. I pick an image of Leonardo. I display the image and
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Hi!</h4>
 
-<p>In this short video, I will show you quickly the principle of CSS.</p>
-<p>I recommend you however to follow the CSS Basics course from W3Cx if you
-want to learn this technology more deeply.</p>
+<p>In this short video, I will show you quickly the principle of CSS. 
+I recommend you follow the CSS Basics course from W3Cx if you want to learn 
+this technology more deeply.</p>
+
 <p>HTML is for structure. CSS is another language, by W3C, that it&apos;s
 useful for specifying the look and feel of these elements. How do they
 fit together&#133;How many spaces between them&#133;What color to use, and so
@@ -2029,9 +2030,8 @@ language for describing how to display an HTML document.</p>
 
 <h4>Let&apos;s look at an example!</h4>
 
-<p>Let&apos;s take the (ridiculous) Michel Buffa home page again:</p>
-
-<p>Notice the use of some HTML tags: h1, img, p, body etc.</p>
+<p>Let&apos;s take the (ridiculous) Michel Buffa home page again:
+Notice the use of some HTML tags: h1, img, p, body etc.</p>
 
 <p>Now, we can add some &quot;CSS rules&quot; to the HTML, and see that the
 appearance of the resulting HTML page rendering is rather different
@@ -2040,11 +2040,13 @@ code, remember you can always make changes to the code: change the color
 in the CSS part, etc.):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. codepen: my home page (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/GrJpXO" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image062.png?raw=true"
   style="width:50%"
   title="Example CodePen: My Home Page"
-  alt="Example CodePen: My Home Page." />
+  alt="Example CodePen: My Home Page." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GrJpXO" 
 target="_blank" rel="noopener noreferrer">CodePen: My Home Page</a></h6>
 
@@ -2120,11 +2122,13 @@ Best practice is to name these things to increase clarity, consistency and brevi
 <p>Let&apos;s look at a modified version of Michel Buffa&apos;s home page example:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 63. example codepen: update css rule (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ZLGWQJ" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image063.png?raw=true"
   style="width:50%"
   title="Example CodePen: Update CSS Rules"
-  alt="Example CodePen: Update CSS Rules." />
+  alt="Example CodePen: Update CSS Rules." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLGWQJ" 
 target="_blank" rel="noopener noreferrer">CodePen: Update CSS Rule</a></h6>
 
@@ -2200,11 +2204,13 @@ located inside the &lt;head&gt;&hellip;&lt;/head&gt; of the HTML documents, li
 this example:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 64. example codepen: update css rule (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ygNOxv" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image064.png?raw=true"
   style="width:50%"
   title="Example CodePen: Update CSS Rules"
-  alt="Example CodePen: Update CSS Rules." />
+  alt="Example CodePen: Update CSS Rules." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygNOxv" 
 target="_blank" rel="noopener noreferrer">CodePen: Update CSS Rule</a></h6>
 
@@ -2459,11 +2465,13 @@ examples:</p>
 <p>Example #1: push the button to modify the heading of the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 81. example: javascript; push button to modify the heading (62) ~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/pREjaE" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image081.png?raw=true"
   style="width:50%"
   title="Example: index.html: update heading using JavaScript"
-  alt="Example: index.html: update heading using JavaScript." />
+  alt="Example: index.html: update heading using JavaScript." /></a>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE" 
 target="_blank" rel="noopener noreferrer">CodePen: Use JS to Modify CSS</a></h6>
@@ -2472,14 +2480,16 @@ target="_blank" rel="noopener noreferrer">CodePen: Use JS to Modify CSS</a></h6>
 border) of a paragraph in the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 82. example: javascript: update button to modify css style (62) ~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/bgwVvN" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image082.png?raw=true"
   style="width:50%"
   title="Example: javascript: update button to modify CSS style"
-  alt="Example: javascript: update button to modify CSS style." />
+  alt="Example: javascript: update button to modify CSS style." /></a>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN" 
-target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+target="_blank" rel="noopener noreferrer">CodePen: example JS update button to modify CSS style</a>.</h6>
 
 <p>We have a closer look at how these examples work in the subsequent parts
 of the course. These examples are just here to show you how JavaScript
@@ -2541,11 +2551,13 @@ the Java programming language, no longer exists, having been bought by Oracle
 Corporation in 2009.)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 87. snapshot; dotjs 2017 - brandan eich - history of js (64) ~~~~~~~~~~~~~~~-->
+<a href="https://www.youtube.com/watch?v=aX3ZABCdC38" 
+target="_blank" rel="noopener noreferrer">
 <p align="left" width="100%">
 <img src="./images/image087.png?raw=true"
   style="width:40%"
   title="dotJS 2017 - Brandan Eich - A Brief History of JavaScript"
-  alt="dotJS 2017 - Brandan Eich - A Brief History of JavaScript." />
+  alt="dotJS 2017 - Brandan Eich - A Brief History of JavaScript." /></a>
 </p>
 <h6 align="left"><a href="https://www.youtube.com/watch?v=aX3ZABCdC38" 
 target="_blank" rel="noopener noreferrer">dotJS 2017 - Brandan Eich - 
@@ -2583,8 +2595,8 @@ it with Internet Explorer 3 in 1996 -- It was a dud).</p>
   alt="Snapshot of a web page in Netscape Navigator 2." />
 </p>
 
-<p align="center"><b>Netscape Navigator 2 in 1996, with big buttons and plain HTML pages. 
-CSS did NOT exist at that time!</b></p>
+<p align="center">Netscape Navigator 2 in 1996, with big buttons and plain HTML pages. 
+CSS did NOT exist at that time!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 90. snapshot of a web page in internet explorer (65) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2594,15 +2606,17 @@ CSS did NOT exist at that time!</b></p>
   alt="Snapshot of a web page in IE 3." />
 </p>
 
-<p align="center"><b>Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
-did NOT exist at this time!</b></p>
+<p align="center">Internet Explorer 3 in 1996 - look at the official Yahoo page :-) CSS
+did NOT exist at this time!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. ecma logo (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://en.wikipedia.org/wiki/Ecma_International" 
+target="_blank" rel="noopener noreferrer">
 <p align="left" width="100%">
 <img src="./images/image091.gif?raw=true"
   style="width:75%"
   title="ecma"
-  alt="ECMA." />
+  alt="ECMA." /></a>
 Towards the end of 1996, JavaScript was standardized
 by <a href="https://en.wikipedia.org/wiki/Ecma_International" 
 target="_blank" rel="noopener noreferrer">ECMA</a> as
@@ -2613,7 +2627,6 @@ worry, it&apos;s the same thing.</b> EcmaScript has continued to be released
 right up to the present day. MS still didn't play ball.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 92. javascript detailed timeline (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- <p align="left" width="50%"> -->
 <img src="./images/image092.png?raw=true"
   align="left" 
   width="50%"
@@ -2774,14 +2787,18 @@ post your comments/observations/questions or share your creations.</p>
 </p>
 
 <p>What it the best method for learning Web Development?</p>
+
 <p>Take a look at one of my websites; <a href="https://Web-Programming.bauska.org" 
 target="_blank" rel="noopener noreferrer">
 'Web Programming with JavaScript and Python'</a>.</p>
+
 <p>Now, what it the best method for learning JavaScript?</p>
+
 <p>When you are a complete beginner, I will recommend to look at examples, tweak 
 them, change small things, try to understand what the syntax looks like. Even 
 without deep explanations, without reading a book, or studying in details the 
 different concepts of language, you can learn a lot.</p>
+
 <p>To learn everything, a great start is W3Cx. Google it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 94. html for myfunction; simple plotting function (70) ~~~~~~~~~~~~~~~~~~~-->
@@ -2831,11 +2848,13 @@ to click on &quot;Edit on CodePen&quot; label here, it will open the code in the
 CodePen.io online editor. And&hellip; just look at the HTML part here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 97. codepen example, plotting function library; d3js.org (72) ~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/PpYpjJ" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image097.png?raw=true"
   style="width:50%"
   title="CodePen Example; Plotting function library; d3js.org"
-  alt="CodePen Example; Plotting function library; d3js.org." />
+  alt="CodePen Example; Plotting function library; d3js.org." /></a>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ" 
 target="_blank" rel="noopener noreferrer">CodePen; D3 Plotting</a></h6>
@@ -2973,7 +2992,6 @@ brackets.</p>
 
 <h4>FIRST: learn by looking at and tweaking the code in the examples</h4>
 
-<!-- page 76 -->
 <p>Well, there is no definitive answer to this question, but I&apos;d recommend
 firstly looking at small examples, tweaking them and trying to guess
 what they do. You will rapidly discover that you can learn a lot just by
@@ -3014,11 +3032,13 @@ guess where the function is specified, where the range for the x and y values is
 set, etc. Notice that you can use your mouse wheel to zoom in/out the function plot.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 106. learn javascript graphs d3.js (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/PpYpjJ" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image106.png?raw=true"
   style="width:50%"
   title="Learn JavaScript graphs d3.js"
-  alt="Learn JavaScript graphs d3.js." />
+  alt="Learn JavaScript graphs d3.js." /></a>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ" 
 target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph</a></h6>
@@ -3269,6 +3289,7 @@ you saw:</p>
 
 <p>Hello! What can be done with JavaScript? Let me show you some examples that are 
 the most common ones.</p>
+
 <p>First, you can change dynamically the content of a Web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 110/111. my home page before & after title change (82) ~~~~~~~~~~~~~~~~~~~-->
@@ -3291,8 +3312,10 @@ content of the page.</p>
 <p align="center" width="100%">
 <img src="./images/image112.png?raw=true"
   style="width:50%"
-  title="My home page. This is an example of interactivity between JS and the HTML content of a document"
-  alt="My home page. This is an example of interactivity between JS and the HTML content of a document." />
+  title="My home page. This is an example of interactivity between JS and the 
+    HTML content of a document"
+  alt="My home page. This is an example of interactivity between JS and the 
+    HTML content of a document." />
 </p>
 
 <p>Another thing we can do is to change dynamically the CSS style of some
@@ -3323,6 +3346,8 @@ surface address. Here we go. I&apos;m located near Antibes in the south of Franc
   style="width:50%"
   title="Example; using databases and tables in JS"
   alt="Example; using databases and tables in JS." />
+</p>
+
 <p>You can also work with remote data. So in this code, I&apos;m just sending
 what we call an Ajax request to a remote server to get a list of
 users&#133; and once I get this list of users, I just use the HTML table
@@ -3352,11 +3377,13 @@ were the most typical uses of JavaScript Web sites.</p>
 course material.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 116. change html using javascript (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/pREjaE" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image116.png?raw=true"
   style="width:65%"
   title="Change the HTML main title using JS"
-  alt="Change the HTML main title using JS." />
+  alt="Change the HTML main title using JS." /></a>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pREjaE" 
 target="_blank" rel="noopener noreferrer">CodePen: Change HTML using JS</a></h6>
@@ -3399,11 +3426,13 @@ adding a parenthesis after its name, followed by a semi colon):</p>
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 117. example of interactivity between javascript & html (86) ~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/bgwVvN" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image117.png?raw=true"
   style="width:65%"
   title="Example of interactivity between javascript &amp; html"
-  alt="Example of interactivity between javascript &amp; html." />
+  alt="Example of interactivity between javascript &amp; html." /></a>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bgwVvN" 
 target="_blank" rel="noopener noreferrer">
@@ -3462,12 +3491,14 @@ need to click the CodePen logo on top right to run this example. For
 security reasons it cannot be run inside this course page</b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 118. codepen example, geolocation mapping (87) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/LYVgyxE" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image118.png?raw=true"
   style="width:65%"
   align="center"
   title="CodePen example; Geolocation mapping"
-  alt="CodePen example; Geolocation mapping." />
+  alt="CodePen example; Geolocation mapping." /></a>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE" 
 target="_blank" rel="noopener noreferrer">
@@ -3485,13 +3516,14 @@ years ago).</p>
 famous rock bands:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 119. codepen example, lookup band members (89) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/wJwpKq" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image119.png?raw=true"
   style="width:65%"
   title="CodePen Example; Database lookup band members"
-  alt="CodePen Example; Database lookup band members." />
+  alt="CodePen Example; Database lookup band members." /></a>
 </p>
-
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/wJwpKq" 
 target="_blank" rel="noopener noreferrer">CodePen: Database Lookup Band Members</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3504,8 +3536,9 @@ target="_blank" rel="noopener noreferrer">CodePen: Database Lookup Band Members<
   title="Where to put JavaScript code"
   alt="Where to put JavaScript code." />
 </p>
+
 <p>Welcome!<br>
-In this video, we will just look at the different locations where we can put 
+In this lesson, we will just look at the different locations where we can put 
 JavaScript code. The first place where you can put JavaScript code is inside an 
 HTML document, using the &lt;script&gt; and &lt;/script&gt; tags.</p>
 
@@ -3516,11 +3549,13 @@ and it's declared using the "var" keyword. There are others possibilities we wil
 see later.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 121. example 1; js in the html file (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ZLBPpY" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image121.png?raw=true"
   style="width:65%"
   title="Example 1; JavaScript in the HTML file"
-  alt="Example 1; JavaScript in the HTML file." />
+  alt="Example 1; JavaScript in the HTML file." /></a>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY" 
 target="_blank" rel="noopener noreferrer">
@@ -3534,12 +3569,16 @@ content. By doing this, we are adding a bold element JavaScript code executing
 the value of the variable x=2 and we display the value of the x variable in bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 122. result of example 1; js in the html file (90) ~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ZLBPpY" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image122.png?raw=true"
   style="width:65%"
   title="Result of execution Example 1; JavaScript in the HTML file"
-  alt="Result of execution Example 1; JavaScript in the HTML file." />
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY">CodePen: JS in the .html file</a>.</h6>
+  alt="Result of execution Example 1; JavaScript in the HTML file." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY" 
+target="_blank" rel="noopener noreferrer">
+CodePen: JS in the .html file</a>.</h6>
 
 <p>This is the result of the execution of this code. And this code is not in a 
 function, so it's executed as soon as the page is rendered. When the browser
@@ -3553,12 +3592,12 @@ can also open the devtools using the "F12" key or "ctrl+alt+i" or "cmd+alt+i" on
 a Mac. And you see that the "console.log" message has been displayed in the devtool 
 console of your browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 122a.  (91) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 122a. script within index.html (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122a.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Script within index.html"
+  alt="Script within index.html." />
 
 <p>Here, notice that we use the "script" element directly into the body of the 
 document. Another possibility is to a put this code in the head of the document.
@@ -3571,12 +3610,12 @@ later on we display the body, where the browser renders the body of the document
 Okay, what is better? It depends on your application. For the moment, just stay 
 with knowing that you can put scripts in the body or in the head of a document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 122b.  (92) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 122b. script is in external javascript file (92) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122b.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Script is in external JavaScript file; script.js"
+  alt="Script is in external JavaScript file; script.js." />
 
 <p>Another possibility is to use an external JavaScript file. In that case, the 
 same way we showed you how to use an external file for storing the CSS code, we 
@@ -3584,71 +3623,69 @@ can use the "script" tag with the "src" attribute to include in the HTML documen
 an external JavaScript file. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 122c.  (92) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 122c. can include more than one JS file (92) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122c.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="More than one JS file can be called from index.html"
+  alt="More than one JS file can be called from index.html." />
 
-Notice than we can include more than one JavaScript 
+<p>Notice than we can include more than one JavaScript 
 file if we like, like this. In that example, we are including 3 different JavaScript 
-files sequentially. 
-
+files sequentially.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 122d.  (93) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 122d. example_3.zip - open in sublime (93) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122d.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Find example_3.zip and open using sublime text editor"
+  alt="Find example_3.zip and open using sublime text editor." />
 
-I prepared for you an example you can download - it's called 
+<p>I prepared for you an example you can download - it's called 
 "Example_3.zip". I click on it, download it, unpack it, and inside this element, 
-I've got an HTML file. And I open it with my Sublime Text editor. 
+I've got an HTML file. And I open it with my Sublime Text editor.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 122e.  (93) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 122e. include script.js in html index file (93) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122e.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Include script.js in index.html"
+  alt="Include script.js in index.html." />
 
-And what I've 
-got here, is that you can see in the HTML header in that case but you can also 
-put this in the body if you like, we included a "script.js" file located under 
-the "js" directory.</p>
+<p>And what I've got here, is that you can see in the HTML header in that case 
+but you can also put this in the body if you like, we included a "script.js" 
+file located under the "js" directory.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 122f.  (94) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 122f. add javascript to script.js (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122f.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Now, add JS to script.js"
+  alt="Now, add JS to script.js." />
 
-I can also open this file. I can see that I display the message called "Function executed"
+<p>I can also open this file. I can see that I display the message called "Function executed"
 and a function "addSomeText" directly in the script. When is this executed?
 It's executed when we click on a button. Let's have the button "onclick" call the function 
-"addSomeText". 
+"addSomeText".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 122g.  (94) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 122g. click to call JS function to add content (94) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122g.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Click button to call JS function to add content"
+  alt="Click button to call JS function to add content." />
 
-Let's execute this, here is the result: 
+<p>Let's execute this, here is the result: 
 "Click me to call a JavaScript function that will add some content to this document". 
 I click and you see that the function have been executed. And finally, the last thing you 
-
+can do, is to include an external JavaScript source code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 122h.  (95) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 122h. intro to paper.js library (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122h.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Intro to paper.js library"
+  alt="Intro to paper.js library." />
 
 <p>You've got an example here, where we use the "paper.js" library and the "paper.js" library,
 if I open the "paper.js" Web site, is a library for making graphic animations in JavaScript,
@@ -3656,12 +3693,12 @@ so you can have plenty of funny things you can do. Things like that, or things l
 Just to be able to use what this library proposes, you need to include the library.
 If you read the documentation, they will tell that you what you need to include&#133;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 122i.  (95) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 122i. codepen: example paper.js (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image122i.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example paper.js"
+  alt="CodePen: example paper.js." />
 
 <p>Okay -let's open it in CodePen- &#133;you need to include this JavaScript file.
 And once you included this JavaScript file&#133; a bit the same way we used the external 
@@ -3710,11 +3747,13 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 <h4>Here is this first example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 123. example 1: js in the .html file (97) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ZLBPpY" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image123.png?raw=true"
   style="width:65%"
   title="Example 1: JS in the .html file"
-  alt="Example 1: JS in the .html file." />
+  alt="Example 1: JS in the .html file." /></a>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLBPpY" 
 target="_blank" rel="noopener noreferrer">CodePen: JS in HTML</a></h6>
@@ -3750,13 +3789,14 @@ a button is clicked:</p>
 <h4>Here is this second example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 124. example 2: js in the .html file, in head (98) ~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/apBMYJ" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image124.png?raw=true"
   style="width:65%"
   title="Example 2: JS in the .html file, but this time in head"
-  alt="Example 2: JS in the .html file, but this time in head." />
+  alt="Example 2: JS in the .html file, but this time in head." /></a>
 </p>
-
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/apBMYJ" target="_blank" rel="noopener noreferrer">
 CodePen: Plotting Functions in JS</a></h6>
 
@@ -3893,13 +3933,17 @@ made by others is really common when working on JavaScript projects.</p>
 an external URL:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 127. example 4: use an external js file (101) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/VPmNWg" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image127.png?raw=true"
   style="width:65%"
   title="Example 4: use an external JS file"
-  alt="Example 4: use an external JS file." />
+  alt="Example 4: use an external JS file." /></a>
 </p>
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VPmNWg" target="_blank" rel="noopener noreferrer">CodePen: Example paperJS</a></h6>
+<h6 align="center">
+<a href="https://codepen.io/w3devcampus/pen/VPmNWg" target="_blank" rel="noopener noreferrer">
+CodePen: Example paperJS</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-4">1.3.4 How to debug JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4217,12 +4261,12 @@ using a regular source code editor and .html, .css and .js files.</p>
 <h4><b>Here is what the resulting Web page will look like:</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 140. codepen: interactive function plotter (112) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/bqGboZ" target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image140.png?raw=true"
   style="width:65%"
   title="CodePen: Interactive Function Plotter"
-  alt="CodePen: Interactive Function Plotter." />
-
+  alt="CodePen: Interactive Function Plotter." /></a>
 <h6 align="center">
 <a href="https://codepen.io/w3devcampus/pen/bqGboZ" target="_blank" rel="noopener noreferrer">
 Demo (CodePen: Interactive Function Plotter)</a></h6>
@@ -4431,6 +4475,7 @@ file with the CSS code.</p>
 </p>
 <p>&quot;Save as&quot; &#133; I include the JavaScript code :&lt;script
 src=&quot;js/script.js&quot;&gt;</p>
+
 <p>Remember that the script tag has always a closing tag at this end.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. save as style.css (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4440,6 +4485,7 @@ src=&quot;js/script.js&quot;&gt;</p>
   title=""
   alt="." />
 </p>
+
 <p>It is not an auto-closing tag. And I use a &quot;link&quot; tag for importing 
 the CSS file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4489,21 +4535,33 @@ I will explain later, but for the moment you can use &quot;var&quot; or you can
 use &quot;let&quot;. Once a variable is declared, you must initialize the variable, 
 this is where you give it a value. And this is done by using the equal sign. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 152. javascript variables (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 152a. console.log to display variables (121) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image152.png?raw=true"
-  style="width:50%"
-  title=""
-  alt="." />
+<img src="./images/image152a.png?raw=true"
+  style="width:65%"
+  title="Use console.log to display variables"
+  alt="Use console.log to display variables." />
 <!-- image here pg 121 -->
 <p>As you can see, the console.log will display in the console the value of the variable 
 &quot;myName&quot;. You can also initialize and declare a variable at the same time.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 152b. declare variable and give it a name (121) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image152b.png?raw=true"
+  style="width:65%"
+  title="Declare variable and give it a name"
+  alt="Declare variable and give it a name." />
 <!-- image here pg 121 -->
 <p>You see, I declare a variable called myDog and I gave it a name: Rex. Also, you can use 
 these variables in instructions, in expressions like: &quot;the name of my dog is&quot;.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 152c. use "+" to concatenate strings (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image152c.png?raw=true"
+  style="width:65%"
+  title="Use '+' to concatenate strings"
+  alt="Use '+' to concatenate strings." />
 
-<!-- image here pg 122 -->
 <p>You can use the "+" operator for concatenating strings, because "myDog"
 is a string, and in that case you will see: &quot;the name of my dog is&quot; 
 &#133;followed by the value of the "myDog" variable.</p>
@@ -4511,12 +4569,19 @@ is a string, and in that case you will see: &quot;the name of my dog is&quot;
 <p>There are also naming rules and conventions for variables. You can give
 to variables names like "x", "y", "z". If they are just single, one-word
 names, you use lowercase. But the convention, when you start using composed 
-words, is to use the &quot;lower camel case&quot; syntax. If your variable 
-name is made of two or more words, write the first one in lowercase, and 
+words, is to use the &quot;lower camel case&quot; syntax.</p>
+
+<p>If your variable name is made of two or more words, write the first one in lowercase, and 
 capitalize every other words. Example: "myFastCar", &quot;my&quot; is lowercase, 
 &quot;Fast&quot; and &quot;Car&quot; are capitalized.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 152d. variables are case sensitive (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image152d.png?raw=true"
+  style="width:65%"
+  title="Variables are case sensitive"
+  alt="Variables are case sensitive." />
 
-<!-- image here 122 -->
 <p>Also, variables are case sensitive: do not mix a variable name in lower case 
 and in uppercase. For example, if I give to the small "x" a value of "2", and to 
 big "X" a value of "4", and if I display the value of big "X", then the JavaScript 
@@ -4526,8 +4591,14 @@ interpreter will know that big "X" is different than small "x".</p>
 recommendation: use "myFastCar1", "myFastCar2", etc. Also, you should not use 
 JavaScript reserved words such as &quot;var&quot;, &quot;let&quot;, &quot;if&quot;, 
 &quot;for&quot;, &quot;function&quot;, etc.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 152e. var function = 2; will raise error (123) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image152e.png?raw=true"
+  style="width:65%"
+  title="var function = 2; will raise error"
+  alt="var function = 2; will raise error." />
 
-<!-- image here 123 -->
 <p>So, var function = 2; will raise an error, I can show that to you in the
 devtool console, this raises an error. This also raises an error. That's all 
 for the moment about the variables.</p>
@@ -4648,9 +4719,9 @@ example, and type myNumber2 in the devtool console, it will display 34
 <p>Below is an image that explains how you can try JavaScript code in the
 devtools console:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 157. devtools console example (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 157. devtools console example (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image157.png?raw=true"
+<img src="./images/image157.jpeg?raw=true"
   style="width:50%"
   title="Devtools console example"
   alt="Devtools console example." />
@@ -4658,9 +4729,9 @@ devtools console:</p>
 <p>If you try to use a variable that has never been declared, you get an
 error message:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 154. error message: undeclared type error (120) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 158. error message: undeclared type error (126) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image154.png?raw=true"
+<img src="./images/image158.png?raw=true"
   style="width:50%"
   title="Error Message: Undeclared type error"
   alt="Error Message: Undeclared type error." />
@@ -4716,9 +4787,9 @@ error will be raised if you try to change their value in the future.</p>
 3.  const MAX_GRADE = 20;
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~ 155. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (124) ~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 159. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (124) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image155.jpg?raw=true"
+<img src="./images/image159.jpeg?raw=true"
   style="width:50%"
   title="Comparison between var: TIME_LIMIT and constant: MAX_GRADE."
   alt="Comparison between var: TIME_LIMIT and constant: MAX_GRADE." />
@@ -4743,9 +4814,9 @@ work with var):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Scope of JS variables (4:19)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156. scope of js variables (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160. scope of js variables (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image156.png?raw=true"
+<img src="./images/image160.png?raw=true"
   style="width:50%"
   title="Scope of JavaScript variables"
   alt="Scope of JavaScript variables." />
@@ -4758,16 +4829,40 @@ variable.</p>
 functions, it's usable anywhere in your code. It's considered as a
 &quot;global variable&quot;: it belongs to the &quot;global scope&quot;. So, the x
 variable here, can be used inside a function.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160a. console.log will display 1 (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image160a.png?raw=true"
+  style="width:50%"
+  title="Console.log will display 1"
+  alt="Console.log will display 1." />
 
+<!-- image goes here pg 128 -->
 <p>The console.log inside f1&#133; if I execute f1&#133; will display the value
-"1" because the variable here is &quot;global&quot;. If I've got another
-function&#133; f2, that declares another variable y, and if I try to
+"1" because the variable here is &quot;global&quot;. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160b.  (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image160b.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- image goes here pg 129 -->
+<p>If I've got another function&#133; f2, that declares another variable y, and if I try to
 display this value from outside of the function, then it does not
 work&#133;I've got an error: y is not defined. So, you've got &quot;local
 variables&quot;, and &quot;global variables&quot;. In the case of local variables,
 when a variable has the same name as a global variable, then the most
 local one wins.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160c.  (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image160c.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
+<!-- image goes here pg 129 -->
 <p>If I try to display inside F2 the value of x, it will be the closest
 variable -the local one- that will be displayed. If I execute f2, then
 it will display &quot;x = 2&quot;, it's the value of the local one that is taken
@@ -4776,15 +4871,28 @@ The same&hellip; if I pass a parameter to a function, and if this parameter
 has the same name as a global variable, then it acts as a local
 variable, and it's the value of the local parameter that is taken into
 account.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160d.  (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image160d.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- image goes here pg 130 -->
 <p>This x here, is not the global one: it's the one I passed as a parameter
 that has the value 10. Now, there are some little variations when
-I use &quot;let&quot; instead of &quot;var&quot;. Let's see some examples. With
-JavaScript 6, I can use &quot;let&quot; instead of &quot;var&quot;. The global scope
+I use &quot;let&quot; instead of &quot;var&quot;. Let's see some examples. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160e.  (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image160e.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- image goes here pg 130 -->
+<p>With JavaScript 6, I can use &quot;let&quot; instead of &quot;var&quot;. The global scope
 does not change. If I declare a global variable, it can be used
-anywhere.</p>
-
-<p>But, if I declare a local variable, it's no more local to the whole
+anywhere. But, if I declare a local variable, it's no more local to the whole
 function in which it is defined, but it's local to the block of
 instructions that is defined by an opening brace and a closing brace.</p>
 
@@ -4796,9 +4904,27 @@ the global variable &quot;a&quot; that will be used.</p>
 
 <p>This is why the printed value here, when I execute "f" is &quot;1&quot; and
 not &quot;4&quot;.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160f.  (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image160f.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- image goes here pg 131 -->
 <p>If the variable was named "b" and if I tried to display it, then&#133; I've
-got an error: &quot;b is not defined&quot;. Remember that if I used &quot;var&quot; in
+got an error: &quot;b is not defined&quot;. 
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160g.  (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image160g.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+
+<!-- image goes here pg 131 -->
+<p>Remember that if I used &quot;var&quot; in
 that case it works, because &quot;var&quot; will define a variable local to the
 whole function, not just to the block of instructions.</p>
 
@@ -4826,14 +4952,17 @@ be used anywhere in the code.</p>
 
 <h4>Here is an example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 157. global scoping of variable (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 161. global scoping of variable (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/WjMMLZ" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image157.png?raw=true"
+<img src="./images/image161.png?raw=true"
   style="width:50%"
   title="Global scoping of variables"
-  alt="Global scoping of variables." />
+  alt="Global scoping of variables." /></a>
 <h6 align="center">
-<a href="https://codepen.io/w3devcampus/pen/WjMMLZ" target="_blank" rel="noopener noreferrer">Demo (CodePen)</a></h6>
+<a href="https://codepen.io/w3devcampus/pen/WjMMLZ" target="_blank" rel="noopener noreferrer">
+CodePen: global scoping of variables</a>.</h6>
 
 <h5>1.2) Local scope / local variable (also called function scope)</h5>
 
@@ -4856,26 +4985,31 @@ JavaScript 6 / ES6. See examples at the end of this section.</p>
 <p>Example of a local variable declared in a function, that is NOT local to
 the block, but to the whole function:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 158. global and local variables (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 162. global and local variables (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/RVMOGx" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image158.png?raw=true"
+<img src="./images/image162.png?raw=true"
   style="width:50%"
   title="Global and local variables"
-  alt="Global and local variables." />
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/RVMOGx" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+  alt="Global and local variables." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/RVMOGx" 
+target="_blank" rel="noopener noreferrer">CodePen; example global and local variables</a>.</h6>
 
 <p>Here is another example that shows the differences between global and
 local variables, and highlights the &quot;masking&quot; of global variables by
 local variables when they share the same name.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 160. variables; global and local (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 163. variables; global and local (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/oWEEmN" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image160.png?raw=true"
+<img src="./images/image163.png?raw=true"
   style="width:50%"
   title="Variables; global and local"
-  alt="Variables; global and local." />
-
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/oWEEmN" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+  alt="Variables; global and local." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/oWEEmN" 
+target="_blank" rel="noopener noreferrer">CodePen: example variables, global and local</a>.</h6>
 
 <h5>1.3) Never declare a variable without the keyword var!</h5>
 
@@ -4896,18 +5030,20 @@ JavaScript 6 or above.</b></p>
 <p>Here is an example that shows what happens when you forget to use var or
 let while declaring a local variable:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 158. local and global variable scoping (126) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 164. local and global variable scoping (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/rmJJbo" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image158.png?raw=true"
+<img src="./images/image164.png?raw=true"
   style="width:50%"
   title="Local and global variable scoping"
-  alt="Local and global variable scoping." />
-
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/rmJJbo" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+  alt="Local and global variable scoping." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/rmJJbo" 
+target="_blank" rel="noopener noreferrer">CodePen</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~ 160. declaring a variable without var in function make it global (126) ~~~~~~~~~~~-->
+<!--~~~~~~~~~ 165. declaring a variable without var in function make it global (134) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160.jpeg?raw=true"
+<img src="./images/image165.jpeg?raw=true"
   style="width:50%"
   title="Declaring a variable without var in function make it global"
   alt="Declaring a variable without var in function make it global." />
@@ -4929,14 +5065,16 @@ in another block that contains the current block).</b></p>
 <p>Example of a local variable declared with the let keyword. Its scope is
 the block:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 160. if block is true, let a=4 (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 166. if block is true, let a=4 (135) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VbXNPz" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image160.png?raw=true"
+<img src="./images/image166.png?raw=true"
   style="width:50%"
   title="if block is true, let a=4"
-  alt="if block is true, let a=4." />
-
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VbXNPz" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+  alt="if block is true, let a=4." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/VbXNPz" 
+target="_blank" rel="noopener noreferrer">CodePen; example let keyword</a>.</h6>
 
 <h5>3) Recommended way to declare variables: var or let?</h5>
 
@@ -4948,9 +5086,9 @@ declaring variables and constants!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-3">1.5.3 JS data types (5:27)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163. js data types (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167. js data types (135) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image163.png?raw=true"
+<img src="./images/image167.png?raw=true"
   style="width:50%"
   title="JavaScript data types"
   alt="JavaScript data types." />
@@ -4961,12 +5099,38 @@ kind of value you can give to this variable. With JavaScript, there are many
 possibilities: even if when you declare a variable, you don't type if data type: 
 "var x=10", the value you give to this variable will help JavaScript figure out 
 the data type of this variable.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167a. js data types (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image167a.png?raw=true"
+  style="width:50%"
+  title="JavaScript data types"
+  alt="JavaScript data types." />
+</p>
 <p>And there is an operator named "typeof" that you can use for visualizing
 the internal data table of variable. So "var x=10", this corresponds to
-a number. If I give to "x" a string value like my name, then the type of
+a number.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167b. js data types (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image167b.png?raw=true"
+  style="width:50%"
+  title="JavaScript data types"
+  alt="JavaScript data types." />
+</p>
+<p>If I give to "x" a string value like my name, then the type of
 "x" will be "string". It changed its internal type on the fly, we call
-this "dynamic typing". What kind of data types can we get? String,
+this "dynamic typing".</p>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167c. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image167c.png?raw=true"
+  style="width:50%"
+  title="JavaScript data types"
+  alt="JavaScript data types." />
+</p>
+<p>What kind of data types can we get? String,
 number, we've got also boolean value: "var x = true" or "x = false"
 corresponds to a boolean value: "typeof x"&#133; boolean.</p>
 
@@ -4976,11 +5140,27 @@ some other statements that will test boolean value.</p>
 
 <p>In that case, it printed "it's true!!!" because "x" was "true".
 If I give to "x" the value "false", then if I execute this code, it will
-do nothing because "x" is false.
-We've got also some special values&hellip; but "typeof y": undefined.
+do nothing because "x" is false.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167d. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image167d.png?raw=true"
+  style="width:50%"
+  title="JavaScript data types"
+  alt="JavaScript data types." />
+</p>
+
+<p>We've got also some special values&hellip; but "typeof y": undefined.
 I can test if y is undefined then .&#133;And in that case, you can test if
 a variable is defined or not.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167e. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image167e.png?raw=true"
+  style="width:50%"
+  title="JavaScript data types"
+  alt="JavaScript data types." />
+</p>
 <p>There is a special data type called "null" that corresponds to "no
 value". The difference with the null defined variable is that the variable that
 has the value of null is still defined.
@@ -5011,9 +5191,9 @@ of an object.</p>
 <p>Well, there are multiple possibilities: What we call &quot;primitive data types&quot;: 
 for example a number, a string, etc. ex: var x = 3; var name = "Buffa";</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 164. red cards depicting primitive data types (129) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 168. red cards depicting primitive data types (129) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image164.png?raw=true"
+<img src="./images/image168.png?raw=true"
   style="width:30%"
   title="Red cards depicting primitive data types"
   alt="Red cards depicting primitive data types." />
@@ -5065,9 +5245,9 @@ or function)</p>
 
 <p>We will use it in lots of examples in the next three sections.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 165. dynamic typing. use typeof operator to see dynamic type of variable (130) ~~~~~~-->
+<!--~~~~~~ 169. dynamic typing. use typeof operator to see dynamic type of variable (130) ~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image165.jpg?raw=true"
+<img src="./images/image169.jpeg?raw=true"
   style="width:50%"
   title="Dynamic typing. You can use the typeof operator to see the dynamic type of a variable"
   alt="Dynamic typing. You can use the typeof operator to see the dynamic type of a variable." />
@@ -5077,9 +5257,9 @@ for us, for explaining the data types.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-4">1.5.4 Numbers</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 166. numbers 1 thu 9, then 0, twice (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 170. numbers 1 thu 9, then 0, twice (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image166.png?raw=true"
+<img src="./images/image170.png?raw=true"
   style="width:25%"
   title="Numbers 1 thu 9, then 0, twice"
   alt="Numbers 1 thu 9, then 0, twice." />
@@ -5326,9 +5506,9 @@ floating point numbers is that 0.1 + 0.2 does not equal 0.3.</p>
 2.  0.30000000000000004
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~ 167. devtools console showing 0.1+0.2 is not equal to 0.3 (135) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 171. devtools console showing 0.1+0.2 is not equal to 0.3 (145) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image167.png?raw=true"
+<img src="./images/image171.png?raw=true"
   style="width:50%"
   title="Devtools console showing 0.1 + 0.2 is not equal to 0.3 but to 0.300000000000004"
   alt="Devtools console showing 0.1 + 0.2 is not equal to 0.3 but to 0.300000000000004." />
@@ -5377,9 +5557,9 @@ precedence.</p>
 <p>For example, this is an expression: (3 + 2). And the expression (3 + 2)
 &ast; 4, which equals 20, depends on the expression within the parentheses.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168. operators (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172. operators (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image168.png?raw=true"
+<img src="./images/image172.png?raw=true"
   style="width:25%"
   title="Operators"
   alt="Operators." />
@@ -5393,9 +5573,9 @@ to a number or a string (for addition or concatenation).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: number operators</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 169. codepen: number operators (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 173. codepen: number operators (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image169.png?raw=true"
+<img src="./images/image173.png?raw=true"
   style="width:50%"
   title="CodePen: Number operators"
   alt="CodePen: Number operators." />
@@ -5539,9 +5719,9 @@ both prefixed or suffixed, which have different effects:</p>
 
 <h4>Below is snapshot with explanations:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. example console log (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174. example console log (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image170.png?raw=true"
+<img src="./images/image174.jpeg?raw=true"
   style="width:30%"
   title="Example console log"
   alt="Example console log." />
@@ -5642,9 +5822,9 @@ with double and closed with single quotes
 
 <h5>Image from the devtool console, from the example above:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~ 171. error - devtools console; do not mix single and double quotes (145) ~~~~~~~~~-->
+<!--~~~~~~~~~ 175. error - devtools console; do not mix single and double quotes (152) ~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image171.png?raw=true"
+<img src="./images/image175.png?raw=true"
   style="width:50%"
   title="Error; devtools console error; do not mix single and double quotes"
   alt="Error; devtools console error; do not mix single and double quotes." />
@@ -5662,9 +5842,9 @@ with double and closed with single quotes
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding video: string and string operators</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~ 172. snapshot of a devtools console; do not mix single and double quotes (145) ~~~~~~-->
+<!--~~~~~~ 176. snapshot of a devtools console; do not mix single and double quotes (153) ~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image172.png?raw=true"
+<img src="./images/image176.png?raw=true"
   style="width:50%"
   title="Snapshot of a devtools console error; do not mix single and double quotes"
   alt="Snapshot of a devtools console error; do not mix single and double quotes." />
@@ -5695,7 +5875,14 @@ antislash.</p>
 <p>Let&apos;s talk about string operators. The "+" operator is the most
 common one, it&apos;s useful for concatenating values to any string. Let&apos;s
 look at one example.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~ 176a.  (154) ~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image176a.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- image here pg 154 -->
 <p>If I say &apos;my name is&apos; + &apos;Michel Buffa', then you see that the result
 here is the concatenation of the string 'my name is' and the string
 'Michel Buffa'. You can also use variables of different types, that will
@@ -5705,23 +5892,57 @@ the operator, are strings.</p>
 <p>You see that the value of s is the concatenation of the string &quot;value
 of x &quot; and the number value of x (that was 10), has been converted and
 concatenated to it.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~ 176b.  (154) ~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image176b.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
+<!-- image here pg 154 -->
 <p>There are also some ways to convert variables to strings.
 x here, is a number, but x = &quot;&quot; + 10; in that case,
 x is a string. You can also concatenate string values&#133; s1 =
 &quot;one&quot;, s2 = &quot;two&quot;, if I concatenate these values here, s is equal to
 the concatenation of s1 and s2.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~ 176c.  (155) ~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image176c.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
 
+<!-- image here pg 155 -->
 <p>There is also an assignment operator called += that can be very useful
 when concatenating values to a string. Like var s=Hello; s+=&quot;My
 friend&quot;, you give a value of s=&quot;Hello my Friend&quot;.<br>
 The += means s = s+something, it adds to the end of s. I can also use
 strings in mathematical operations, and they can be converted
-automatically. I&apos;ve got s2 that is 10. s2 is a string, and if I do 
+automatically.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~ 176d.  (155) ~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image176d.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+
+<!-- image here pg 155 -->
+<p>I&apos;ve got s2 that is 10. s2 is a string, and if I do 
 s2=s2 &ast; 2; in that case, s2 has been converted automatically.
 The value &quot;10&quot; as a string became 10 as a number. And s2 now is a
 number that is worth twice its previous value.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~ 176e.  (156) ~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image176e.png?raw=true"
+  style="width:50%"
+  title=""
+  alt="." />
+<!-- image here pg 156 -->
 <p>If I try to use a string that is not a number, not a value that can be converted 
 to a number, like &quot;hello&quot;&hellip; in that case - if do the same operation - 
 the result is NaN that means &quot;Not a Number&quot;, you cannot convert 
