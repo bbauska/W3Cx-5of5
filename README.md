@@ -1776,7 +1776,7 @@ tag, and everything in between the tags is the contents of the element:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. diagram of an element (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image050.png?raw=true"
+<img src="./images/image050.png"
   style="width:40%"
   title="Diagram of an element"
   alt="Diagram of an element." />
@@ -1839,7 +1839,7 @@ add a height attribute, and see the result:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 51. codepen: pbs twing profile image (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image051.png?raw=true"
+<img src="./images/image051.png"
   style="width:40%"
   title="CodePen: pbs.twing profile image"
   alt="CodePen: pbs.twing profile image." />
@@ -1869,7 +1869,7 @@ going to render will be an HTML5 file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 53. example: html, head and body (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image052.png?raw=true"
+<img src="./images/image053.png"
   style="width:50%"
   title="Example: HTML, head and body"
   alt=""Example: HTML, head and body." />
@@ -1884,7 +1884,7 @@ element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. jsbin example; template (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image054.png?raw=true"
+<img src="./images/image054.png"
   style="width:50%"
   title="JSBin example; template: head and body"
   alt="JSBin example; template: head and body." />
@@ -1894,7 +1894,7 @@ element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 55. example: html, head and body (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image055.png?raw=true"
+<img src="./images/image055.png"
   style="width:50%"
   title="Example: HTML, head and body"
   alt="Example: HTML, head and body." />
@@ -1909,7 +1909,7 @@ visible content. I start with the very common element, a very common tag.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 56. example: html, head and body (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image056.png?raw=true"
+<img src="./images/image056.png"
   style="width:50%"
   title="Example: HTML, head and body"
   alt="Example: HTML, head and body." />
@@ -1931,7 +1931,7 @@ the next line without letting some space between paragraphs, it&apos;s called
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 57. example: html, head and body (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image057.png?raw=true"
+<img src="./images/image057.png"
   style="width:50%"
   title="Example: HTML, head and body"
   alt="Example: HTML, head and body." />
@@ -1945,7 +1945,7 @@ list, a numbered list, I can use an order list.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 58. example: html, head and body (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image058.png?raw=true"
+<img src="./images/image058.png"
   style="width:50%"
   title="Example: HTML, head and body"
   alt="Example: HTML, head and body." />
@@ -1986,7 +1986,7 @@ on &#133;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 59. example: html, head and body (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image059.png?raw=true"
+<img src="./images/image059.png"
   style="width:50%"
   title="Example: HTML, head and body"
   alt="Example: HTML, head and body." />
@@ -1998,7 +1998,7 @@ shadows, borders, background colors, different character fonts and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. example: html, head and body (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image060.png?raw=true"
+<img src="./images/image060.png"
   style="width:50%"
   title="Example: HTML, head and body"
   alt="Example: HTML, head and body." />
@@ -2052,12 +2052,12 @@ in the CSS part, etc.):</p>
 <a href="https://codepen.io/w3devcampus/pen/GrJpXO" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image062.png?raw=true"
+<img src="./images/image062.png"
   style="width:50%"
   title="Example CodePen: My Home Page"
   alt="Example CodePen: My Home Page." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GrJpXO" 
-target="_blank" rel="noopener noreferrer">CodePen: My Home Page</a></h6>
+target="_blank" rel="noopener noreferrer">CodePen: My Home Page</a>.</h6>
 
 <p>If you click on the CSS button on the top left of the previous codepen
 example, you see the CSS rules that have been applied to the HTML
@@ -2134,7 +2134,7 @@ Best practice is to name these things to increase clarity, consistency and brevi
 <a href="https://codepen.io/w3devcampus/pen/ZLGWQJ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image063.png?raw=true"
+<img src="./images/image063.png"
   style="width:50%"
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." /></a>
@@ -2216,12 +2216,12 @@ this example:</p>
 <a href="https://codepen.io/w3devcampus/pen/ygNOxv" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image064.png?raw=true"
+<img src="./images/image064.png"
   style="width:50%"
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ygNOxv" 
-target="_blank" rel="noopener noreferrer">CodePen: Update CSS Rule</a></h6>
+target="_blank" rel="noopener noreferrer">CodePen: Update CSS Rule</a>.</h6>
 
 <p>This is OK if you do not have too many CSS rules. In general it&apos;s
 better to put the CSS rules in one or more separate .css files, like
@@ -2231,7 +2231,7 @@ open this example in Plunker</a>)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 65. snapshot of a code editor showing a separte css file (56) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image065.jpeg?raw=true"
+<img src="./images/image065.jpeg"
   style="width:60%"
   title="Snapshot of a code editor showing a separate CSS file"
   alt="Snapshot of a code editor showing a separate CSS file." />
@@ -2248,7 +2248,7 @@ AWS Cloud9</a> that enable you to manage files in the cloud).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 66. example codepen: update css rule (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image066.png?raw=true"
+<img src="./images/image066.png"
   style="width:50%"
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." />
@@ -2260,7 +2260,7 @@ the different languages.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 67. example codepen: update css rule (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image067.png?raw=true"
+<img src="./images/image067.png"
   style="width:50%"
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." />
@@ -2274,12 +2274,12 @@ make a project with HTML and CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 68/69. example source code: my home page (58) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image068.png?raw=true"
+<img src="./images/image068.png"
   style="width:45%"
   title="Example Web Page: My Home Page"
   alt="Example Web Page: My Home Page." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/image069.png?raw=true"
+<img src="./images/image069.png"
   style="width:45%"
   title="Example source code: My Home Page"
   alt="Example source code: My Home Page." />
@@ -2292,7 +2292,7 @@ CSS file in an HTML file, we use the &quot;link&quot; tag with the attribute
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 70. codepen: link to css stylesheet (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image070.png?raw=true"
+<img src="./images/image070.png"
   style="width:50%"
   title="CodePen: Link to external CSS Stylesheet"
   alt="CodePen: Link to external CSS Stylesheet." />
@@ -2305,7 +2305,7 @@ my hierarchy, here. The &quot;index.html&quot; file that includes the .css file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. codepen: example style.css (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image071.png?raw=true"
+<img src="./images/image071.png"
   style="width:50%"
   title="CodePen: Example style.css"
   alt="CodePen: Example style.css." />
@@ -2321,7 +2321,7 @@ directly in your browser the file and see the result.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 72. example codepen: change css background-color (59) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image072.png?raw=true"
+<img src="./images/image072.png"
   style="width:50%"
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." />
@@ -2336,7 +2336,7 @@ rendered and I&apos;m no more including an external file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 73. example codepen: index.html (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image073.png?raw=true"
+<img src="./images/image073.png"
   style="width:50%"
   title="Example CodePen: Update CSS Rules"
   alt="Example CodePen: Update CSS Rules." />
@@ -2356,7 +2356,7 @@ when you ask for a Web page to be rendered in the browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 74. example: edx studio; using 3rd party js libraries (60) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image074.png?raw=true"
+<img src="./images/image074.png"
   style="width:50%"
   title="Example: edx studio; using 3rd party JS libraries"
   alt="Example: edx studio; using 3rd party JS libraries." />
@@ -2375,12 +2375,12 @@ interactivity to the documents.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 75/76. example: codepen; using javascript (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image075.png"
   style="width:35%"
   title="Example: CodePen; using JavaScript, before change"
   alt="Example: CodePen; using JavaScript, before change." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/image076.png?raw=true"
+<img src="./images/image076.png"
   style="width:35%"
   title="Example: CodePen; using JavaScript, after change"
   alt="Example: CodePen; using JavaScript, after change." />
@@ -2405,13 +2405,13 @@ elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 77/78. example: codepen; using javascript, #2 (60) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image077.png?raw=true"
-  style="width:35%"
+<img src="./images/image077.png"
+  style="width:45%"
   title="Example: CodePen; using JavaScript, before change #2"
   alt="Example: CodePen; using JavaScript, before change #2." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/image078.png?raw=true"
-  style="width:35%"
+<img src="./images/image078.png"
+  style="width:45%"
   title="Example: CodePen; using JavaScript, after change #2"
   alt="Example: CodePen; using JavaScript, after change #2." />
 </p>
@@ -2436,7 +2436,7 @@ form, etc.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 79. example: index.html: update heading using javascript (61) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image079.png?raw=true"
+<img src="./images/image079.png"
   style="width:50%"
   title="Example: index.html: update heading using JavaScript"
   alt="Example: index.html: update heading using JavaScript." />
@@ -2455,7 +2455,7 @@ it&apos;s a real standard of the Web (even if not standardized by the W3C).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 80. javascript is the perfect glue (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image080.png?raw=true"
+<img src="./images/image080.png"
   style="width:35%"
   title="JavaScript is the perfect glue"
   alt="JavaScript is the perfect glue." />
@@ -2477,7 +2477,7 @@ examples:</p>
 <a href="https://codepen.io/w3devcampus/pen/pREjaE" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image081.png?raw=true"
+<img src="./images/image081.png"
   style="width:50%"
   title="Example: index.html: update heading using JavaScript"
   alt="Example: index.html: update heading using JavaScript." /></a>
@@ -2492,7 +2492,7 @@ border) of a paragraph in the page.</p>
 <a href="https://codepen.io/w3devcampus/pen/bgwVvN" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image082.png?raw=true"
+<img src="./images/image082.png"
   style="width:50%"
   title="Example: javascript: update button to modify CSS style"
   alt="Example: javascript: update button to modify CSS style." /></a>
@@ -2522,12 +2522,12 @@ Maps and eBay.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 83/84. photo brandan eich, creator of js, netscape js book (63) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image083.jpeg?raw=true"
+<img src="./images/image083.jpeg"
   style="width:45%"
   title="Photo of Brandan Eich, creator of JavaScript"
   alt="Photo of Brandan Eich, creator of JavaScript." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/image084.jpeg?raw=true"
+<img src="./images/image084.jpeg"
   style="width:45%"
   title="Cover page of the Netscape JavaScript 1.2 book"
   alt="Cover page of the Netscape JavaScript 1.2 book." />
@@ -2535,12 +2535,12 @@ Maps and eBay.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 85/86. year 1995, netscape logo (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image085.jpeg?raw=true"
+<img src="./images/image085.jpeg"
   style="width:45%"
   title="Year 1995"
   alt="Year 1995." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/image086.png?raw=true"
+<img src="./images/image086.png"
   style="width:45%"
   title="Netscape logo"
   alt="Netscape logo." />
@@ -2563,7 +2563,7 @@ Corporation in 2009.)</p>
 <a href="https://www.youtube.com/watch?v=aX3ZABCdC38" 
 target="_blank" rel="noopener noreferrer">
 <p align="left" width="100%">
-<img src="./images/image087.png?raw=true"
+<img src="./images/image087.png"
   style="width:40%"
   title="dotJS 2017 - Brandan Eich - A Brief History of JavaScript"
   alt="dotJS 2017 - Brandan Eich - A Brief History of JavaScript." /></a>
@@ -2574,7 +2574,7 @@ A Brief History of JavaScript</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. sun microsystems logo (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
-<img src="./images/image088.png?raw=true"
+<img src="./images/image088.png"
   style="width:20%"
   title="Sun Microsystems logo"
   alt="Sun Microsystems logo." />
@@ -2598,7 +2598,7 @@ it with Internet Explorer 3 in 1996 -- It was a dud).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 89. snapshot of a web page in netscape navigator 2 (65) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image089.jpeg?raw=true"
+<img src="./images/image089.jpeg"
   style="width:50%"
   title="Snapshot of a web page in Netscape Navigator 2"
   alt="Snapshot of a web page in Netscape Navigator 2." />
@@ -2609,7 +2609,7 @@ CSS did NOT exist at that time!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 90. snapshot of a web page in internet explorer (65) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image090.jpeg?raw=true"
+<img src="./images/image090.jpeg"
   style="width:50%"
   title="Snapshot of a web page in IE 3"
   alt="Snapshot of a web page in IE 3." />
@@ -2622,7 +2622,7 @@ did NOT exist at this time!</p>
 <a href="https://en.wikipedia.org/wiki/Ecma_International" 
 target="_blank" rel="noopener noreferrer">
 <p align="left" width="100%">
-<img src="./images/image091.gif?raw=true"
+<img src="./images/image091.gif"
   style="width:75%"
   title="ecma"
   alt="ECMA." /></a>
@@ -2636,7 +2636,7 @@ worry, it&apos;s the same thing.</b> EcmaScript has continued to be released
 right up to the present day. MS still didn't play ball.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 92. javascript detailed timeline (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img src="./images/image092.png?raw=true"
+<img src="./images/image092.png"
   align="left" 
   width="50%"
   title="JavaScript detailed timeline"
@@ -2789,7 +2789,7 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 93. the best way to learn javascript (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image093.png?raw=true"
+<img src="./images/image093.png"
   style="width:50%"
   title="The Best Way to Learn JavaScript"
   alt="The Best Way to Learn JavaScript." />
@@ -2812,7 +2812,7 @@ different concepts of language, you can learn a lot.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 94. html for myfunction; simple plotting function (70) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image094.png?raw=true"
+<img src="./images/image094.png"
   style="width:50%"
   title="HTML for a simple plotting function"
   alt="HTML for a simple plotting function." />
@@ -2823,7 +2823,7 @@ understanding the details, and try to tweak it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 95. css for myfunction plot diagram (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image095.png?raw=true"
+<img src="./images/image095.png"
   style="width:50%"
   title="CSS for myFunction; a simple plot function"
   alt="CSS for myFunction; a simple plot function." />
@@ -2835,7 +2835,7 @@ zoom out, and you can look at the HTML code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 96. function of sin(x) with 2 times pi from -1 to 1 (71) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image096.png?raw=true"
+<img src="./images/image096.png"
   style="width:50%"
   title="Example functionPlot; myFunction of sin(x) in red with x axis of 2 times 
     pi and y axis of minus 1 to 1"
@@ -2860,13 +2860,13 @@ CodePen.io online editor. And&hellip; just look at the HTML part here.</p>
 <a href="https://codepen.io/w3devcampus/pen/PpYpjJ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image097.png?raw=true"
+<img src="./images/image097.png"
   style="width:50%"
   title="CodePen Example; Plotting function library; d3js.org"
   alt="CodePen Example; Plotting function library; d3js.org." /></a>
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PpYpjJ" 
-target="_blank" rel="noopener noreferrer">CodePen; D3 Plotting</a></h6>
+target="_blank" rel="noopener noreferrer">CodePen; D3 Plotting</a>.</h6>
 
 <p>Okay, we can just look at the HTML part and zoom in a little bit. What do we 
 see? We can see that it uses 2 libraries here between &lt;script&gt; and 
@@ -2877,7 +2877,7 @@ is located at &quot;d3js.org&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 98. js data driven documents (d3) library (72) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image098.png?raw=true"
+<img src="./images/image098.png"
   style="width:40%"
   title="JS data driven documents (d3) library"
   alt="JS data driven documents (d3) library." />
@@ -2893,7 +2893,7 @@ elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 99. html, css and js; plotting functions using function plot library (73) ~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image099.png?raw=true"
+<img src="./images/image099.png"
   style="width:50%"
   title="HTML, CSS and JS; plotting functions using the function plot library"
   alt="HTML, CSS and JS; plotting functions using the function plot library." />
@@ -2911,7 +2911,7 @@ instead of going from PI to 2 PI.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 100. plotting functions in js using function plot library, #2 (73) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image100.png?raw=true"
+<img src="./images/image100.png"
   style="width:50%"
   title="HTML, CSS and JS; plotting functions using the function plot library, #2"
   alt="HTML, CSS and JS; plotting functions using the function plot library, #2." />
