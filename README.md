@@ -1370,10 +1370,9 @@ target="_blank" rel="noopener noreferrer">
 <img src="./images/image033.png?raw=true"
   style="width:50%"
   title="Codepen: A Tale of Two Cities"
-  alt="Codepen: A Tale of Two Cities." />
-</p></a>
+  alt="Codepen: A Tale of Two Cities." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/PWqYxG" 
-target="_blank" rel="noopener noreferrer">CodePen: A Tale of Two Cities</a></h6>
+target="_blank" rel="noopener noreferrer">CodePen: A Tale of Two Cities</a>.</h6>
 
 <h5>HTML:</h5>
 
@@ -1427,8 +1426,7 @@ target="_blank" rel="noopener noreferrer">
 <img src="./images/image034.png?raw=true"
   style="width:65%"
   title="CodePen: Who Am I?"
-  alt="CodePen: Who Am I?" />
-</p></a>
+  alt="CodePen: Who Am I?" /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/egNOLj" 
 target="_blank" rel="noopener noreferrer">CodePen: Who Am I?</a></h6>
 
@@ -11493,24 +11491,22 @@ around it:</p>
 
 <p>And here is a reminder of best practices when using the canvas:</p>
 
-1.  <b>Use a function that is called AFTER the page is fully
+<ol start="1">
+  <li><b>Use a function that is called AFTER the page is fully
     loaded</b> (and the DOM is ready), select the canvas in the DOM (this
     is the init function (as in window.onload = init) we already saw
-    many times).
-
-2.  <b>Then, get a 2D graphic context for this canvas</b> (the context is
+    many times).</li>
+  <li><b>Then, get a 2D graphic context for this canvas</b> (the context is
     an object we will use to draw on the canvas, to set global
-    properties such as color, gradients, patterns and line width).
-
-3.  <b>Only then can you can draw something</b>.
-
-4.  <b>Do not forget to use global variables for the canvas and context
+    properties such as color, gradients, patterns and line width).</li>
+  <li><b>Only then can you can draw something</b>.</li>
+  <li><b>Do not forget to use global variables for the canvas and context
     objects.</b> I also recommend keeping the width and height of the
-    canvas somewhere. These might be useful later.
-
-5.  <b>For each function that will change the context (color, line width,
+    canvas somewhere. These might be useful later.</li>
+  <li><b>For each function that will change the context (color, line width,
     coordinate system, etc.), start by saving the context, and end by
-    restoring it.</b>
+    restoring it.</b></li>
+</ol>
 
 <h5>Examples</h5>
 
@@ -11563,18 +11559,17 @@ filled text, changing colors)</h5>
 
 <h5><b>Explanations:</b></h5>
 
-1.  We use a function (<b><i>line 4</i></b>) called after the page is loaded (we
+<ol start="1">
+  <li>We use a function (<b><i>line 4</i></b>) called after the page is loaded (we
     say &quot;after the DOM is ready&quot;), so that the querySelector at <b><i>line
     6</i></b> will return the canvas.  If the page was not completely loaded
     and if this code had been run before it had finished loading, the
-    canvas value would have been &quot;undefined&quot;.
-
-2.  Once we have the canvas, we request a &quot;graphic context&quot; (<b><i>line
+    canvas value would have been &quot;undefined&quot;.</li>
+  <li>Once we have the canvas, we request a &quot;graphic context&quot; (<b><i>line
     8</i></b>). This is a variable for 2D or 3D  drawing on a canvas (in our
     case: 2D!) that we will use for drawing or setting colors, line
-    widths, text fonts, etc.
-
-3.  Then we can draw. Here we show only a few things you can do with the
+    widths, text fonts, etc.</li>
+  <li>Then we can draw. Here we show only a few things you can do with the
     canvas API, but believe me, you can do much more (draw images,
     gradients, textures, etc.)!
     At <b><i>line 15,</i></b> we draw a filled rectangle. Parameters are the x and
@@ -11583,14 +11578,12 @@ filled text, changing colors)</h5>
     rectangle. At <b><i>line 14,</i></b> we used the fillStyle property of the
     context to set the color of filled shapes. This means: &quot;now, all
     filled shapes you are going to draw will be in red!&quot;. It&apos;s like a
-    global setting.
-
-4.  <b><i>Lines 17-20</i></b> draw a green wireframe rectangle, with a line width
+    global setting.</li>
+  <li><b><i>Lines 17-20</i></b> draw a green wireframe rectangle, with a line width
     equal to 4 pixels. Notice the use of &quot;stroke&quot; instead of &quot;fill&quot;
     in the property name strokeStyle/fillStyle and in the context method
-    for drawing a rectangle strokeRect/fillRect.
-
-5.  <b><i>Lines 23-25</i></b> draw a filled circle. The syntax is a bit different
+    for drawing a rectangle strokeRect/fillRect.</li>
+  <li><b><i>Lines 23-25</i></b> draw a filled circle. The syntax is a bit different
     as circles are parts of a &quot;path&quot; (see the HTML5 fundamentals
     course, we explain the concept of &quot;path&quot; in the canvas API). Just
     keep in mind for now that before drawing a circle you need to
@@ -11602,11 +11595,11 @@ filled text, changing colors)</h5>
     wireframe circle instead of a filled one. Also note that the filled
     circle is red even if we did not specify the color. Remember that we
     set ctx.fillStyle = &apos;red&apos; at <b><i>line 14</i></b>. Unless we change this,
-    all filled shapes will be red.
-
-6.  <b><i>Lines 28-30</i></b> draw a filled text. The call to filltext(message, x,
+    all filled shapes will be red.</li>
+  <li><b><i>Lines 28-30</i></b> draw a filled text. The call to filltext(message, x,
     y) draws a filled text at the x,y position; this time in purple as
-    we called ctx.fillStyle=&apos;purple&apos; before calling fillText(&#133;)
+    we called ctx.fillStyle=&apos;purple&apos; before calling fillText(&#133;)</li>
+</ol>
 
 <h5>Example #2: functions that save and restore the context before drawing</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11622,24 +11615,24 @@ target="_blank" rel="noopener noreferrer">
 target="_blank" rel="noopener noreferrer">
 CodePen: Functions that save and restore the context before drawing</a>.</h6>
 
-<h5><b>Explanations:</b></h5>
+<h5>Explanations:</h5>
 
-This time we&apos;ve written two functions for a cleaner code: one function
+<p>This time we&apos;ve written two functions for a cleaner code: one function
 that draws a filled rectangle with a given color, and one function that
-draws a filled circle, with a given color.
+draws a filled circle, with a given color.</p>
 
-The values for x, y, width, height, radius, color can be passed as
-parameters to these functions.
+<p>The values for x, y, width, height, radius, color can be passed as
+parameters to these functions.</p>
 
-When a function changes anything to the &quot;global context&quot;: filled or
+<p>When a function changes anything to the &quot;global context&quot;: filled or
 stroke color, line width, or the position of the coordinate system
 (located by default in 0, 0, at the top left of the canvas), then it is
 good practice to save this context at the beginning of the function,
 with a call to ctx.save(), and to restore it at the end of the function,
 with a call to ctx.restore(). In this way, any change to the &quot;global
-context&quot; won&apos;t have any effect outside of the function.
+context&quot; won&apos;t have any effect outside of the function.</p>
 
-We used also ctx.translate(x, y) in order to move the rectangle and the
+<p>We used also ctx.translate(x, y) in order to move the rectangle and the
 circle (look, they have been drawn at x=0, y=0, but as we translate the
 origin of the coordinate system with ctx.translate, the shapes are
 located in x, y on in the canvas). This is also a good practice: indeed,
@@ -11647,9 +11640,9 @@ if we add more shapes (like eyes in the rectangle, in order to draw a
 monster), using coordinates relative to 0, 0, the whole set of shapes
 will be translated by the call to ctx.translate(x, y). This will make it
 easier to draw characters, monsters, etc. as we will see in a third
-example.
+example.</p>
 
-<h5>Example #3: draw a monster instead of a simple rectangle or circle {#example-3-draw-a-monster-instead-of-a-simple-rectangle-or-circle .unnumbered}
+<h5>Example #3: draw a monster instead of a simple rectangle or circle</h5>
 
 <p>This is where you reap the benefits of your good habits of
 saving/restoring the context and using ctx.translate(x, y)!</p>
@@ -12227,7 +12220,7 @@ CodePen: Position and Size in viewport</a>.</p>
   title="Mouse position, x and y coordinates"
   alt="Mouse position, x and y coordinates." />
 
-<h5><b>A good version of the code:</b></h5>
+<h5>A good version of the code:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 353. CodePen: getMousePos (307) ~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/MpxMQo" 
@@ -12529,27 +12522,26 @@ each ball in the array. Let&apos;s look at this new version:
 24. }
 </pre>
 
-<h5><b>Explanations:</b></h5>
+<h5>Explanations:</h5>
 
--   <b><i>Line 3</i></b>: Look at the iterator;  this time instead of just one
+<ul>
+  <li><b><i>Line 3</i></b>: Look at the iterator;  this time instead of just one
     parameter (the current element), we&apos;ve added a second optional
     parameter that will be the index of the current element, starting
-    from zero.
-
--   <b><i>Line 10</i></b>: for each ball in the array, we will
+    from zero.</li>
+  <li><b><i>Line 10</i></b>: for each ball in the array, we will
     call testCollisionWithPlayer(b, index); that will check if there is
     a collision between the ball b and the player. We also pass
     the index of the ball. If a collision occurs, we will have to remove
     the ball from the array, and for that, we will need its index in the
-    array.
-
--   <b><i>Line 15</i></b> is the collision test, and if it is true (collision with
+    array.</li>
+  <li><b><i>Line 15</i></b> is the collision test, and if it is true (collision with
     the player), then the ball dies and we remove it from the array
-    using the splice method you can use on arrays.
-
--   <b><i>Line 22</i></b>: here it is, we remove the current ball in the array
+    using the splice method you can use on arrays.</li>
+  <li><b><i>Line 22</i></b>: here it is, we remove the current ball in the array
     using balls.splice(position, numberOfElementsToRemove). The positon
-    is given by index, and the number of balls to remove is one.
+    is given by index, and the number of balls to remove is one.</li>
+</ul>
 
 <p>We&apos;ve also added a function for displaying the number of balls in the
 array while we are playing. When this number reaches zero, we display
@@ -18517,25 +18509,18 @@ reference (if they point to different places in memory).</p>
 servers that use JavaScript for coding the server side of Web sites of
 applications, such as the NodeJS HTTP server).</p>
 
-<p>This environment defines a "global object".</p>
-
-<h5>When this environment is a Web browser
-(and this is the case for all examples we have seen in this course),
-this global object is named window.</h5>
-
-<h5>The "global variables" defined with the keyword var are properties of
+<p>This environment defines a "global object". When this environment is a Web browser
+(and this is the case for all examples we have seen in this course), this global object 
+is named window. The "global variables" defined with the keyword var are properties of
 this window object, and we can say the same of predefined functions like prompt, alert,
-etc.</h5>
-
-<h5>However, at the top level of programs and functions,
-let, unlike var, does not create a property on the
-global window object.</h5>
+etc. However, at the top level of programs and functions, let, unlike var, does not 
+create a property on the global window object.</p>
 
 <p><b>TIP:</b> if you have global variables/objects declared with let,
 just declare them with var instead, and you will be able to inspect
 them easily from the devtool console. You can switch back to using let, later.</p>
 
-<p>Let&apos;s see some examples:</p>
+<h5>Let&apos;s see some examples:</h5>
 
 <pre>1.  &gt; var a = 1;
 2.  undefined
@@ -18895,10 +18880,9 @@ the array.</p>
   alt="With arrays, only properties with a numerial index are taken into account by the length property." />
 </p>
 
-<h5>The length property can be modified: reducing or increasing the size of an array</h5>
-
-<p>If you give to the length property a value bigger than the number of
-elements in an array, it adds undefined elements to it:</p>
+<p>The length property can be modified: reducing or increasing the size of an array. 
+If you give to the length property a value bigger than the number of elements in an 
+array, it adds undefined elements to it:</p>
 
 <pre>1.  &gt; var a = &lbrack;1, 2&rbrack;;
 2.  undefined
@@ -18922,7 +18906,6 @@ of elements, it reduces the size of the array:</p>
 7.  &gt; a;
 8.  &lbrack;1, 2&rbrack;
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-6">5.2.6 The most useful methods of the class Array</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -20017,7 +20000,7 @@ row, add or delete a cell, modify the content of the cells, etc.</p>
 <p>We&apos;ve already seen some examples in the course, but we have not
 completely covered the table JavaScript API.</p>
 
-<h5>The table object (&lt;table&gt;) {#the-table-object-table .unnumbered}
+<h5>The table object (&lt;table&gt;)</h5>
 
 <p>When you look for a table using the DOM API or the selector API, or when
 you create a table using the DOM API, you get a Table object:</p>
@@ -20281,19 +20264,17 @@ styling easier and produce better results with screen readers</a>.</p>
 
 <p>The label of a &lt;button&gt; element is set inside the element and can
 include markup. This allows advanced accessibility hints to be included,
-such as marking up language change.</p>
-
-<p>Example: &lt;button&gt;Mon &lt;span
+such as marking up language change.<br>
+Example: &lt;button&gt;Mon &lt;span
 lang=&quot;fr&quot;&gt;bouton&lt;/span&gt;&lt;/button&gt;, for a button with a label in
 French.</p>
 
 <p>When using the &lt;input&gt; element to create buttons, the label is set in
-the value attribute of the element.</p>
-
-<p>Example: &lt;input type=&quot;submit&quot; value=&quot;Please submit&quot;&gt;, will be
+the value attribute of the element.<br>
+Example: &lt;input type=&quot;submit&quot; value=&quot;Please submit&quot;&gt;, will be
 rendered as a button.</p>
 
-<p>Source code for an example of &quot;Submit&quot; and &quot;Cancel&quot; buttons:</p>
+<h5>Source code for an example of &quot;Submit&quot; and &quot;Cancel&quot; buttons:</h5>
 
 <pre>1.  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
 2.  &lt;button type=&quot;button&quot;&gt;Cancel&lt;/button&gt;
@@ -20301,7 +20282,7 @@ rendered as a button.</p>
 4.  &lt;input type=&quot;button&quot; value=&quot;Cancel&quot;&gt;
 </pre>
 
-<p>These will produce the same results:</p>
+<h5>These will produce the same results:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 501. Submit and Cancel buttons (475) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
