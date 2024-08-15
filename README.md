@@ -16,7 +16,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/w3cx-logo.jpg?raw=true"
+<img src="./images/w3cx-logo.jpg"
   style="width:35%"
   align="center"
   title="W3Cx logo"
@@ -26,7 +26,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. W3Cx-5of5-JS.0x logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.png?raw=true"
+<img src="./images/image001.png"
   style="width:65%"
   title="W3Cx JS logo"
   alt="W3Cx JS.0x logo." />
@@ -304,7 +304,7 @@ professional skills needed to succeed in today&apos;s most in-demand fields.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 02. banner image for the fewd professional certificate program (05) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image002.png?raw=true"
+<img src="./images/image002.png"
   style="width:40%"
   align="center"
   title="Banner image  for the FEWD professional certificate program"
@@ -366,7 +366,7 @@ you prefer. However, there are some in particular that we recommend.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. sublime text logo (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image003.png?raw=true"
+<img src="./images/image003.png"
   style="width:5%"
   align="left" width="25%"
   title="Sublime text logo"
@@ -378,14 +378,14 @@ very often). Sublime text supports hundreds of plugins to enhance its features.<
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 04. snapshot of sublime text editing an html/css/js project (06) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image004.jpeg?raw=true"
+<img src="./images/image004.jpeg"
   style="width:40%"
   title="Snapshot of Sublime Text editing an html/css/js project"
   alt="Snapshot of Sublime Text editing an html/css/js project." /></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. vs code logo (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
-<img src="./images/image005.jpeg?raw=true"
+<img src="./images/image005.jpeg"
   style="width:5%"
   title="VS Code logo"
   alt="VS Code logo." />
@@ -394,7 +394,7 @@ Visual Studio Code</a> is a free, open source, multi-platform editor by Microso
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 06. snapshot of visual studio code editing an html/css/js project (07) ~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image006.jpeg?raw=true"
+<img src="./images/image006.jpeg"
   style="width:40%"
   title="Snapshot of Visual Studio code editing an html/css/js project"
   alt="Snapshot of Visual Studio code editing an html/css/js project." />
@@ -440,7 +440,7 @@ Visual Studio Code</a> is a free, open source, multi-platform editor by Microso
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. jsbin logo (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://jsbin.com/" target="_blank" rel="noopener noreferrer">
 <p align="left" width="25%">
-<img src="./images/image007.png?raw=true"
+<img src="./images/image007.png"
   style="width:5%"
   title="JSBin logo"
   alt="JSBin logo." /></a>
@@ -463,7 +463,7 @@ for the live coding videos.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. jsbin example error code (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image008.jpeg?raw=true"
+<img src="./images/image008.jpeg"
   style="width:50%"
   title="JSBin Example Error Code"
   alt="JSBin Example Error Code." />
@@ -472,7 +472,7 @@ for the live coding videos.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. codepen logo (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">
 <p align="left" width="25%">
-<img src="./images/image009.png?raw=true"
+<img src="./images/image009.png"
   style="width:5%"
   title="CodePen logo"
   alt="CodePen logo." /></a>
@@ -496,7 +496,7 @@ target="_blank" rel="noopener noreferrer">Things you can do with CodePen</a> 
 <a href="https://codepen.io/brentmiller/post/things-you-can-do-with-codepen" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image010.jpeg?raw=true"
+<img src="./images/image010.jpeg"
   style="width:50%"
   title="Snapshot of a 'button' CodePen example"
   alt="Snapshot of a 'button' CodePen example." />
@@ -505,7 +505,7 @@ target="_blank" rel="noopener noreferrer">
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. plunker logo (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://plnkr.co/" target="_blank" rel="noopener noreferrer">
 <p align="left" width="25%">
-<img src="./images/image011.png?raw=true"
+<img src="./images/image011.png"
   style="width:5%"
   title="Plunker logo"
   alt="Plunker logo." /></a>
@@ -515,7 +515,7 @@ use separate files, we might use this tool.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 12. snapshot of a plunker example (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image012.jpeg?raw=true"
+<img src="./images/image012.jpeg"
   style="width:50%"
   title="Snapshot of a Plunker example"
   alt="Snapshot of a Plunker example." />
@@ -524,7 +524,7 @@ use separate files, we might use this tool.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. liveweave logo (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://liveweave.com/" target="_blank" rel="noopener noreferrer">
 <p align="left" width="25%">
-<img src="./images/image013.png?raw=true"
+<img src="./images/image013.png"
   style="width:5%"
   title="Liveweave logo"
   alt="Liveweave logo." /></a>
@@ -536,7 +536,7 @@ when we want to include an SVG arrow in a document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 14. liveweave code editor example (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image014.jpeg?raw=true"
+<img src="./images/image014.jpeg"
   style="width:50%"
   title="Liveweave Code Editor Example"
   alt="Liveweave Code Editor Example." />
@@ -544,7 +544,7 @@ when we want to include an SVG arrow in a document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 15. liveweave code editor example (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image015.jpeg?raw=true"
+<img src="./images/image015.jpeg"
   style="width:65%"
   title="Liveweave Code Editor Example"
   alt="Liveweave Code Editor Example." />
@@ -553,7 +553,7 @@ when we want to include an SVG arrow in a document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. jsfiddle logo (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://jsfiddle.net/" target="_blank" rel="noopener noreferrer">
 <p align="left" width="25%">
-<img src="./images/image016.png?raw=true"
+<img src="./images/image016.png"
   style="width:5%"
   title="jsFiddle logo"
   alt="jsFiddle logo." /></a>
@@ -580,7 +580,7 @@ available online</a>. (See also screenshots below:)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. multitrack audio player (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image017.jpeg?raw=true"
+<img src="./images/image017.jpeg"
   style="width:50%"
   title="Multitrack audio player"
   alt="Multitrack audio player." />
@@ -592,7 +592,7 @@ valuable approach):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. c9 ide, example (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image018.jpeg?raw=true"
+<img src="./images/image018.jpeg"
   style="width:50%"
   title="C9 IDE, example"
   alt="C9 IDE example." />
@@ -657,7 +657,7 @@ given by CanIUse when searching for &quot;CSS3 colors&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 19. example of a caniuse browser support table (using css3) colors (14) ~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image019.png?raw=true"
+<img src="./images/image019.png"
   style="width:40%"
   title="Example of a CanIUse browser support table (using CSS3) colors"
   alt="Example of a CanIUse browser support table (using CSS3) colors." />
@@ -667,11 +667,11 @@ given by CanIUse when searching for &quot;CSS3 colors&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20/21. logo of mdn web docs (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image020.png?raw=true"
+<img src="./images/image020.png"
   style="width:30%"
   title="MDN web docs, logo #1"
   alt="MDN web docs, logo #1." />
-<img src="./images/image021.png?raw=true"
+<img src="./images/image021.png"
   style="width:20%"
   title="MDN web docs, logo #2"
   alt="MDN web docs, logo #2." />
@@ -696,7 +696,7 @@ exactly which browsers will support it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. w3c developers logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="25%">
-<img src="./images/image022.png?raw=true"
+<img src="./images/image022.png"
   style="width:20%"
   title="W3C Developers logo"
   alt="W3C Developers logo." />
@@ -724,7 +724,7 @@ stylesheets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 23. laptop showing unicorn validator (15) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
-<img src="./images/image023.png?raw=true"
+<img src="./images/image023.png"
   style="width:20%"
   title="Laptop showing unicorn validator"
   alt="Laptop showing unicorn validator." />
@@ -763,7 +763,7 @@ internationalization tips.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. W3Cx cheatsheet (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image024.png?raw=true"
+<img src="./images/image024.png"
   style="width:30%"
   title="W3Cx cheatsheet"
   alt="W3Cx cheatsheet." />
@@ -798,7 +798,7 @@ technologies are built is a great way to build your expertise.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. github octocat logo (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image025.png?raw=true"
+<img src="./images/image025.png"
   style="width:10%"
   title="GitHub Octocat logo"
   alt="GitHub Octocat logo." />
@@ -822,7 +822,7 @@ define key parts of what actually makes the World Wide Web work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 26. w3c web incubator community group logo (17) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image026.png?raw=true"
+<img src="./images/image026.png"
   style="width:20%"
   title="W3Cx JS logo"
   alt="W3Cx JS.0x logo." />
@@ -848,7 +848,7 @@ define key parts of what actually makes the World Wide Web work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 27. tim berners-lee at his desk in cern, switzerland (18) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image027.jpeg?raw=true"
+<img src="./images/image027.jpeg"
   style="width:20%"
   title="Tim Berners-Lee at his desk in CERN, Switzerland 1994"
   alt="Tim Berners-Lee at his desk in CERN, Switzerland 1994." />
@@ -943,7 +943,7 @@ the difference between Internet and the Web.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 28. tim berners-lee & fake vint cert on the right (17) ~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
-<img src="./images/image028.jpeg?raw=true"
+<img src="./images/image028.jpeg"
   style="width:30%"
   title="Tim Berners-Lee invented the WEB &amp; DARPA invented the Internet"
   alt="Tim Berners-Lee invented the WEB &amp; DARPA invented the Internet." />
@@ -1093,7 +1093,7 @@ English, because there are 18 characters between the &apos;i&apos; and the
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 29. W3C Internationalization Activity logo (23) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
-<img src="./images/image029.png?raw=true"
+<img src="./images/image029.png"
   style="width:10%"
   title="W3C Internationalization Activity logo"
   alt="W3C Internationalization Activity logo." />
@@ -1115,7 +1115,7 @@ stretches worldwide.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. unicode symbols snapshot (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
-<img src="./images/image030.jpeg?raw=true"
+<img src="./images/image030.jpeg"
   style="width:20%"
   title="Unicode symbols snapshot"
   alt="Unicode symbols snapshot." />
@@ -1306,7 +1306,7 @@ you understand the basic concepts of the language.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. html5 logo (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image031.png?raw=true"
+<img src="./images/image031.png"
   style="width:20%"
   title="HTML5 logo"
   alt="HTML5 logo." />
@@ -1323,7 +1323,7 @@ incorporate hyperlinks into a text document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 32. illustration of hypertext documents (27) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image032.png?raw=true"
+<img src="./images/image032.png"
   style="width:50%"
   title="Illustration of hypertext documents"
   alt="Illustration of hypertext documents." />
@@ -1367,7 +1367,7 @@ time):</p>
 <a href="https://codepen.io/w3devcampus/pen/PWqYxG" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image033.png?raw=true"
+<img src="./images/image033.png"
   style="width:50%"
   title="Codepen: A Tale of Two Cities"
   alt="Codepen: A Tale of Two Cities." /></a>
@@ -1423,7 +1423,7 @@ your Web page looks, as well as how it responds and interacts with you.</p>
 <a href="https://codepen.io/w3devcampus/pen/egNOLj" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image034.png?raw=true"
+<img src="./images/image034.png"
   style="width:65%"
   title="CodePen: Who Am I?"
   alt="CodePen: Who Am I?" /></a>
@@ -1465,7 +1465,7 @@ order to test the HTML code provided earlier in this section.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. jsbin live coding (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image035.png?raw=true"
+<img src="./images/image035.png"
   style="width:50%"
   title="JSBin live coding"
   alt="JSBin live coding." />
@@ -1483,7 +1483,7 @@ editor for editing HTML5 files directly on your hard disk.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 36. jsbin template and my home page (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image036.png?raw=true"
+<img src="./images/image036.png"
   style="width:50%"
   title="JSBin template and My Home Page"
   alt="JSBin template and My Home Page." />
@@ -1495,12 +1495,12 @@ target="_blank" rel="noopener noreferrer">JSBin</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 37/38. jsbin create my home page, who am i? (32) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image037.png?raw=true"
+<img src="./images/image037.png"
   style="width:45%"
   title="JSBin live web site, My Home Page"
   alt="JSBin live web site, My Home Page." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/image038.png?raw=true"
+<img src="./images/image038.png"
   style="width:45%"
   title="JSBin, My Home Page and Who Am I?"
   alt="JSBin, My Home Page and Who Am I?" />
@@ -1523,7 +1523,7 @@ what you&apos;ve done.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. codepen.io has search engine (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image039.png?raw=true"
+<img src="./images/image039.png"
   style="width:50%"
   title="CodePen.io has search engine"
   alt="CodePen.io has search engine." />
@@ -1536,7 +1536,7 @@ look for existing examples made by others.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. codepen.io, my home page (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image040.png?raw=true"
+<img src="./images/image040.png"
   style="width:50%"
   title="CodePen.io, My Home Page"
   alt="CodePen.io, My Home Page." />
@@ -1548,7 +1548,7 @@ these examples.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. my home page, who am i? (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image041.png?raw=true"
+<img src="./images/image041.png"
   style="width:50%"
   title="My Home Page, Who am I?"
   alt="My Home Page, Who am I?" />
@@ -1563,7 +1563,7 @@ option (bottom right of screen in 'edit CodePen' mode).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. codepen, export to zip file (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image042.png?raw=true"
+<img src="./images/image042.png"
   style="width:50%"
   title="CodePen, export to zip file"
   alt="CodePen, export to zip file." />
@@ -1591,7 +1591,7 @@ recommend is that you create a directory somewhere.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 43. live web development using sublime (36) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image043.png?raw=true"
+<img src="./images/image043.png"
   style="width:65%"
   title="Live web development using Sublime"
   alt="Live web development using Sublime." />
@@ -1607,7 +1607,7 @@ i save the file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 44. sublime example opened in browser (36) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image044.png?raw=true"
+<img src="./images/image044.png"
   style="width:60%"
   title="Sublime example opened in browser"
   alt="Sublime example opened in browser." />
@@ -1621,7 +1621,7 @@ reload the page, and I can see that I changed the content of the HTML file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. jsbin, hello w3cx students (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image045.png?raw=true"
+<img src="./images/image045.png"
   style="width:60%"
   title="JSBin, Hello W3Cx students"
   alt="JSBin, Hello W3Cx students." />
@@ -1669,7 +1669,7 @@ we presented earlier:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. html, red circle in jsbin (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image046.png?raw=true"
+<img src="./images/image046.png"
   style="width:50%"
   title="HTML, red circle in JSBin"
   alt="HTML, red circle in JSBin." />
@@ -1682,7 +1682,7 @@ components, a head and a body.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. html tree structure (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image047.png?raw=true"
+<img src="./images/image047.png"
   style="width:60%"
   title="HTML tree structure"
   alt="HTML tree structure." />
@@ -1698,7 +1698,7 @@ referred to as &quot;siblings&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. html, with head & body (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image048.png?raw=true"
+<img src="./images/image048.png"
   style="width:60%"
   title="HTML, with head & body"
   alt="HTML, with head & body." />
@@ -1722,7 +1722,7 @@ a text file?  Well, that&apos;s where &quot;tags&quot; come in.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. thinking about html tags (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="50%">
-<img src="./images/image049.jpeg?raw=true"
+<img src="./images/image049.jpeg"
   style="width:20%"
   title="Thinking about HTML tags"
   alt="Thinking about HTML tags." />
@@ -1852,7 +1852,7 @@ add a height attribute, and see the result:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. your first html page (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image052.png?raw=true"
+<img src="./images/image052.png"
   style="width:50%"
   title="Your first HTML page"
   alt="Your first HTML page." />
@@ -2016,7 +2016,7 @@ indicate a box-shadow.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. css: cascade style sheet (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image061.png?raw=true"
+<img src="./images/image061.png"
   style="width:50%"
   title="CSS: Cascade Style Sheet"
   alt="CSS: Cascade Style Sheet." />
@@ -2930,7 +2930,7 @@ There are the parameters.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 101. variable parameters for plotting functions in js (74) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image101.png?raw=true"
+<img src="./images/image101.png"
   style="width:50%"
   title="Variable parameters for plotting functions in JS"
   alt="Variable parameters for plotting functions in JS." />
@@ -2957,7 +2957,7 @@ value and the maximum value.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 102. additional plotting function; sine in pink (75) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image102.png?raw=true"
+<img src="./images/image102.png"
   style="width:50%"
   title="Additional plotting function; sine in pink"
   alt="Additional plotting function; sine in pink." />
@@ -2970,7 +2970,7 @@ pink&hellip;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 103. more plotting functions in js using function plot library (75) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image103.png?raw=true"
+<img src="./images/image103.png"
   style="width:50%"
   title="More plotting function examples in JS using D3 function plot library"
   alt="More plotting function examples in JS using D3 function plot library." />
@@ -2987,7 +2987,7 @@ looking at the functions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 104. still more plotting functions in js using function plot library (76) ~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image104.png?raw=true"
+<img src="./images/image104.png"
   style="width:50%"
   title="Still more plotting functions in JS using the D3 function plot library"
   alt="Still more plotting functions in JS using the D3 function plot library." />
@@ -3044,7 +3044,7 @@ set, etc. Notice that you can use your mouse wheel to zoom in/out the function p
 <a href="https://codepen.io/w3devcampus/pen/PpYpjJ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image106.png?raw=true"
+<img src="./images/image106.png"
   style="width:50%"
   title="CodePen: Learn JavaScript graphs d3.js"
   alt="CodePen: Learn JavaScript graphs d3.js." /></a>
@@ -3195,7 +3195,7 @@ parameter to the functionPlot(&hellip;) call are in bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 107. grid with x-axis, y-axis, origin & target (80) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image107.gif?raw=true"
+<img src="./images/image107.gif"
   style="width:80%"
   title="Coordplane: Grid with x-axis, y-axis, origin &amp; target"
   alt="Coordplane: Grid with x-axis, y-axis, origin &amp; target." />
@@ -3264,7 +3264,7 @@ cos(x) to our example, with a different color:</p>
 <a href="https://codepen.io/w3devcampus/pen/KWPyeX" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image108.png?raw=true"
+<img src="./images/image108.png"
   style="width:65%"
   title="CodePen: JS Graph, #2"
   alt="CodePen: JS Graph, #2." /></a>
@@ -3291,7 +3291,7 @@ you saw:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 109. CodePen: what can be done with javascript (82) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image109.png?raw=true"
+<img src="./images/image109.png"
   style="width:50%"
   title="CodePen: what can be done with JavaScript?"
   alt="CodePen: what can be done with JavaScript?" />
@@ -3304,12 +3304,12 @@ the most common ones.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 110/111. my home page before & after title change (82) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image110.png?raw=true"
+<img src="./images/image110.png"
   style="width:45%"
   title="My home page. Before JS title change"
   alt="My home page. Before JS title change." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/image111.png?raw=true"
+<img src="./images/image111.png"
   style="width:45%"
   title="My home page. This new title has been changed from JavaScript!"
   alt="My home page. This new title has been changed from JavaScript!" />
@@ -3320,7 +3320,7 @@ content of the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~ 112. My home page. example of interactivity between JS and the HTML content (83) ~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image112.png?raw=true"
+<img src="./images/image112.png"
   style="width:50%"
   title="My home page. This is an example of interactivity between JS and the 
     HTML content of a document"
@@ -3333,7 +3333,7 @@ part of the document. I click on the button and I change the style of the title.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. example; where am i? (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image113.png?raw=true"
+<img src="./images/image113.png"
   style="width:50%"
   title="Example 'Where am I?'"
   alt="Example 'Where am I?'" />
@@ -3352,7 +3352,7 @@ surface address. Here we go. I&apos;m located near Antibes in the south of Franc
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 114. example; databases and tables (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image114.png?raw=true"
+<img src="./images/image114.png"
   style="width:50%"
   title="Example; using databases and tables in JS"
   alt="Example; using databases and tables in JS." />
@@ -3366,7 +3366,7 @@ display the data that just came from a remote server.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 115. table lookup members of the beatles (84) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image115.png?raw=true"
+<img src="./images/image115.png"
   style="width:50%"
   title="Example table lookup for members (old and newer) of the Beatles"
   alt="Example table lookup for members (old and newer) of the Beatles." />
@@ -3390,7 +3390,7 @@ course material.</p>
 <a href="https://codepen.io/w3devcampus/pen/pREjaE" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image116.png?raw=true"
+<img src="./images/image116.png"
   style="width:65%"
   title="Change the HTML main title using JS"
   alt="Change the HTML main title using JS." /></a>
@@ -3438,7 +3438,7 @@ adding a parenthesis after its name, followed by a semi colon):</p>
 <a href="https://codepen.io/w3devcampus/pen/bgwVvN" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image117.png?raw=true"
+<img src="./images/image117.png"
   style="width:65%"
   title="CodePen: example of interactivity between javascript &amp; html"
   alt="CodePen: example of interactivity between javascript &amp; html." /></a>
@@ -3502,7 +3502,7 @@ security reasons it cannot be run inside this course page</b>).</p>
 <a href="https://codepen.io/w3devcampus/pen/LYVgyxE" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image118.png?raw=true"
+<img src="./images/image118.png"
   style="width:65%"
   align="center"
   title="CodePen: example Geolocation mapping"
@@ -3525,7 +3525,7 @@ famous rock bands:</p>
 <a href="https://codepen.io/w3devcampus/pen/wJwpKq" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image119.png?raw=true"
+<img src="./images/image119.png"
   style="width:65%"
   title="CodePen: example database lookup band members"
   alt="CodePen: example database lookup band members." /></a>
@@ -3536,7 +3536,7 @@ target="_blank" rel="noopener noreferrer">CodePen: database lookup band members<
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 120. where to put javascript code (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image120.png?raw=true"
+<img src="./images/image120.png"
   style="width:65%"
   title="Where to put JavaScript code"
   alt="Where to put JavaScript code." />
@@ -3557,7 +3557,7 @@ see later.</p>
 <a href="https://codepen.io/w3devcampus/pen/ZLBPpY" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image121.png?raw=true"
+<img src="./images/image121.png"
   style="width:65%"
   title="CodePen: example 1; JavaScript in the HTML file"
   alt="CodePen: example 1; JavaScript in the HTML file." /></a>
@@ -3576,7 +3576,7 @@ the value of the variable x=2 and we display the value of the x variable in bold
 <a href="https://codepen.io/w3devcampus/pen/ZLBPpY" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image122.png?raw=true"
+<img src="./images/image122.png"
   style="width:65%"
   title="CodePen: result of execution Example 1; JavaScript in the HTML file"
   alt="CodePen: result of execution Example 1; JavaScript in the HTML file." /></a>
@@ -3597,7 +3597,7 @@ console of your browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 122a. script within index.html (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122a.png?raw=true"
+<img src="./images/image122a.png"
   style="width:65%"
   title="Script within index.html"
   alt="Script within index.html." />
@@ -3615,7 +3615,7 @@ with knowing that you can put scripts in the body or in the head of a document.<
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 122b. script is in external javascript file (92) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122b.png?raw=true"
+<img src="./images/image122b.png"
   style="width:65%"
   title="Script is in external JavaScript file; script.js"
   alt="Script is in external JavaScript file; script.js." />
@@ -3628,7 +3628,7 @@ an external JavaScript file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 122c. can include more than one JS file (92) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122c.png?raw=true"
+<img src="./images/image122c.png"
   style="width:65%"
   title="More than one JS file can be called from index.html"
   alt="More than one JS file can be called from index.html." />
@@ -3639,7 +3639,7 @@ files sequentially.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 122d. example_3.zip - open in sublime (93) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122d.png?raw=true"
+<img src="./images/image122d.png"
   style="width:65%"
   title="Find example_3.zip and open using sublime text editor"
   alt="Find example_3.zip and open using sublime text editor." />
@@ -3650,7 +3650,7 @@ I've got an HTML file. And I open it with my Sublime Text editor.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 122e. include script.js in html index file (93) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122e.png?raw=true"
+<img src="./images/image122e.png"
   style="width:65%"
   title="Include script.js in index.html"
   alt="Include script.js in index.html." />
@@ -3661,7 +3661,7 @@ file located under the "js" directory.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 122f. add javascript to script.js (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122f.png?raw=true"
+<img src="./images/image122f.png"
   style="width:65%"
   title="Now, add JS to script.js"
   alt="Now, add JS to script.js." />
@@ -3673,7 +3673,7 @@ It's executed when we click on a button. Let's have the button "onclick" call th
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 122g. click to call JS function to add content (94) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122g.png?raw=true"
+<img src="./images/image122g.png"
   style="width:65%"
   title="Click button to call JS function to add content"
   alt="Click button to call JS function to add content." />
@@ -3685,7 +3685,7 @@ can do, is to include an external JavaScript source code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 122h. intro to paper.js library (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122h.png?raw=true"
+<img src="./images/image122h.png"
   style="width:65%"
   title="Intro to paper.js library"
   alt="Intro to paper.js library." />
@@ -3698,7 +3698,7 @@ If you read the documentation, they will tell that you what you need to include&
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 122i. codepen: example paper.js (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122i.png?raw=true"
+<img src="./images/image122i.png"
   style="width:65%"
   title="CodePen: example paper.js"
   alt="CodePen: example paper.js." />
@@ -3753,7 +3753,7 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 <a href="https://codepen.io/w3devcampus/pen/ZLBPpY" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image123.png?raw=true"
+<img src="./images/image123.png"
   style="width:65%"
   title="CodePen: example 1: JS in the .html file"
   alt="CodePen: example 1: JS in the .html file." /></a>
@@ -3794,7 +3794,7 @@ a button is clicked:</p>
 <a href="https://codepen.io/w3devcampus/pen/apBMYJ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image124.png?raw=true"
+<img src="./images/image124.png"
   style="width:65%"
   title="CodePen: example 2: JS in the .html file, but this time in head"
   alt="CodePen: example 2: JS in the .html file, but this time in head." /></a>
@@ -3858,7 +3858,7 @@ JavaScript files in a js subfolder.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 125. a typical html/css/js project folder structure (99) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image125.jpeg?raw=true"
+<img src="./images/image125.jpeg"
   style="width:50%"
   title="A typical HTML/CSS/JS project folder structure"
   alt="A typical HTML/CSS/JS project folder structure." />
@@ -3868,7 +3868,7 @@ JavaScript files in a js subfolder.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 126. a typical html/css/js project folder, folder expanded (99) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image126.jpeg?raw=true"
+<img src="./images/image126.jpeg"
   style="width:50%"
   title="A typical HTML/CSS/JS project folder, folder expanded"
   alt="A typical HTML/CSS/JS project folder, folder expanded." />
@@ -3938,7 +3938,7 @@ an external URL:</p>
 <a href="https://codepen.io/w3devcampus/pen/VPmNWg" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image127.png?raw=true"
+<img src="./images/image127.png"
   style="width:65%"
   title="Example 4: use an external JS file"
   alt="Example 4: use an external JS file." /></a>
@@ -3950,7 +3950,7 @@ CodePen: Example paperJS</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128. how to debug javascript (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image128.png?raw=true"
+<img src="./images/image128.png"
   style="width:65%"
   title="How to debug JavaScript"
   alt="How to debug JavaScript." />
@@ -3968,7 +3968,7 @@ the different error messages I've got in my code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 129. jsbin example test console (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image129.png?raw=true"
+<img src="./images/image129.png"
   style="width:65%"
   title="JSBin example; test console"
   alt="JSBin example; test console." />
@@ -3979,7 +3979,7 @@ it’s the same thing you can get here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. console.log 'hello' (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image130.png?raw=true"
+<img src="./images/image130.png"
   style="width:65%"
   title="console.log 'hello'"
   alt="console.log 'hello'." />
@@ -3996,7 +3996,7 @@ here I've got a script that will display, as soon the page is loaded,
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 131. jsbin; console.log error check (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image131.png?raw=true"
+<img src="./images/image131.png"
   style="width:65%"
   title="JSBin; console.log error check"
   alt="JSBin; console.log error check." />
@@ -4005,7 +4005,7 @@ here I've got a script that will display, as soon the page is loaded,
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 132. jsbin; error check on console.log (103) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image132.png?raw=true"
+<img src="./images/image132.png"
   style="width:65%"
   title="JSBin; error check on console.log"
   alt="JSBin; error check on console.log." />
@@ -4021,7 +4021,7 @@ a way to run your code in what we decode ‘standalone mode’ or ‘debug mode�
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 133. js debugging using the devtools console (104) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image133.png?raw=true"
+<img src="./images/image133.png"
   style="width:65%"
   title="JavaScript debugging using the devtools console"
   alt="JavaScript debugging using the devtools console." />
@@ -4035,7 +4035,7 @@ that console needs only one "l", I can fix that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 134. jsbin; error check in console (104) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image134.png?raw=true"
+<img src="./images/image134.png"
   style="width:65%"
   title="JSBin; Error check in console"
   alt="JSBin; Error check in console." />
@@ -4048,7 +4048,7 @@ variables when “console.log” is executed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135. codepen; debug mode (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image135.png?raw=true"
+<img src="./images/image135.png"
   style="width:65%"
   title="CodePen; Debug Mode"
   alt="CodePen; Debug Mode." />
@@ -4144,7 +4144,7 @@ target="_blank" rel="noopener noreferrer">online</a>):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 136. jsbin: snapshot of a javascript console view (107) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image136.jpeg?raw=true"
+<img src="./images/image136.jpeg"
   style="width:50%"
   title="JSBin: Snapshot of a JavaScript console view"
   alt="JSBin: Snapshot of a JavaScript console view." />
@@ -4158,7 +4158,7 @@ press <b>F12</b>. You should see:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 137. snapshot of a javascript console view (108) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image137.jpeg?raw=true"
+<img src="./images/image137.jpeg"
   style="width:50%"
   title="Snapshot of a JavaScript console view"
   alt="Snapshot of a JavaScript console view." />
@@ -4169,7 +4169,7 @@ Let&apos;s see what happens:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 008. view of the javascript console showing an eror (109) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image008.jpeg?raw=true"
+<img src="./images/image008.jpeg"
   style="width:50%"
   title="View of the JavaScript console showing an eror"
   alt="View of the JavaScript console showing an eror." />
@@ -4179,7 +4179,7 @@ Let&apos;s see what happens:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~ 138. View of the JavaScript console (showing the line that caused the error (109) ~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image138.jpeg?raw=true"
+<img src="./images/image138.jpeg"
   style="width:50%"
   title="View of the JavaScript console (showing the line that caused the error"
   alt="View of the JavaScript console (showing the line that caused the error." />
@@ -4190,7 +4190,7 @@ source code centered on the line that caused the error:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 139. view of the javascript console (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image139.jpeg?raw=true"
+<img src="./images/image139.jpeg"
   style="width:50%"
   title="View of the JavaScript console"
   alt="View of the JavaScript console." />
@@ -4264,7 +4264,7 @@ using a regular source code editor and .html, .css and .js files.</p>
 <!--~~~~~~~~~~~~~~~~~~~ 140. codepen: interactive function plotter (112) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/bqGboZ" target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image140.png?raw=true"
+<img src="./images/image140.png"
   style="width:65%"
   title="CodePen: Interactive Function Plotter"
   alt="CodePen: Interactive Function Plotter." /></a>
@@ -4276,7 +4276,7 @@ Demo (CodePen: Interactive Function Plotter)</a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 141. codepen: interactive function plotter (112) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image141.png?raw=true"
+<img src="./images/image141.png"
   style="width:50%"
   title="CodePen: Interactive Function Plotter"
   alt="CodePen: Interactive Function Plotter." />
@@ -4290,7 +4290,7 @@ changing interactively the functions we are going to plot, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 142. codepen; plotting functions with d3js.org (113) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image142.jpeg?raw=true"
+<img src="./images/image142.jpeg"
   style="width:65%"
   title="CodePen; Plotting Functions with d3js.org"
   alt="CodePen; Plotting Functions with d3js.org." />
@@ -4312,12 +4312,12 @@ and its color: red. What can we do to improve this?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 143/144. codepen; plotting functions with d3js.org (113) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image143.png?raw=true"
+<img src="./images/image143.png"
   style="width:45%"
   title=""
   alt="." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/image144.png?raw=true"
+<img src="./images/image144.png"
   style="width:45%"
   title=""
   alt="." />
@@ -4333,7 +4333,7 @@ of the function itself.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 145.  (114) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image145.png?raw=true"
+<img src="./images/image145.png"
   style="width:65%"
   title=""
   alt="." />
@@ -4350,7 +4350,7 @@ the mathematical function, here. The plot function is here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 146.  (114) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image146.png?raw=true"
+<img src="./images/image146.png"
   style="width:65%"
   title=""
   alt="." />
@@ -4374,7 +4374,7 @@ I prepared, that will add all these different controllers.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 147.  (115) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image147.png?raw=true"
+<img src="./images/image147.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4392,7 +4392,7 @@ fields on the left and the plot on the right.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 145.  (116) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image145.png?raw=true"
+<img src="./images/image145.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4422,7 +4422,7 @@ input field, not yet supported by Safari.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image145.png?raw=true"
+<img src="./images/image145.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4434,7 +4434,7 @@ desktop. &quot;Math plotter app&quot; and I will work inside.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image146.png?raw=true"
+<img src="./images/image146.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4445,7 +4445,7 @@ lie in the current directory.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 147. save as index.html (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image147.png?raw=true"
+<img src="./images/image147.png"
   style="width:50%"
   title="Save as index.html"
   alt="Save as index.html." />
@@ -4457,7 +4457,7 @@ JavaScript source code from the previous example. I just took the previous appli
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148. style.css and script.js (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image148.png?raw=true"
+<img src="./images/image148.png"
   style="width:50%"
   title="Create and save style.css and script.js"
   alt="Create and save style.css and script.js." />
@@ -4469,7 +4469,7 @@ file with the CSS code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 149. save as js/script.js (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image149.png?raw=true"
+<img src="./images/image149.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4481,7 +4481,7 @@ src=&quot;js/script.js&quot;&gt;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. save as style.css (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image150.png?raw=true"
+<img src="./images/image150.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4492,7 +4492,7 @@ the CSS file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 151. test index; open in browser (120) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image151.png?raw=true"
+<img src="./images/image151.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4517,7 +4517,7 @@ Sublime Text.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 152. javascript variables (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image152.png?raw=true"
+<img src="./images/image152.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4538,7 +4538,7 @@ this is where you give it a value. And this is done by using the equal sign.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 152a. console.log to display variables (121) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image152a.png?raw=true"
+<img src="./images/image152a.png"
   style="width:65%"
   title="Use console.log to display variables"
   alt="Use console.log to display variables." />
@@ -4548,7 +4548,7 @@ this is where you give it a value. And this is done by using the equal sign.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 152b. declare variable and give it a name (121) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image152b.png?raw=true"
+<img src="./images/image152b.png"
   style="width:65%"
   title="Declare variable and give it a name"
   alt="Declare variable and give it a name." />
@@ -4558,7 +4558,7 @@ these variables in instructions, in expressions like: &quot;the name of my dog i
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 152c. use "+" to concatenate strings (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image152c.png?raw=true"
+<img src="./images/image152c.png"
   style="width:65%"
   title="Use '+' to concatenate strings"
   alt="Use '+' to concatenate strings." />
@@ -4578,7 +4578,7 @@ capitalize every other words. Example: "myFastCar", &quot;my&quot; is lowercase,
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 152d. variables are case sensitive (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image152d.png?raw=true"
+<img src="./images/image152d.png"
   style="width:65%"
   title="Variables are case sensitive"
   alt="Variables are case sensitive." />
@@ -4595,7 +4595,7 @@ JavaScript reserved words such as &quot;var&quot;, &quot;let&quot;, &quot;if&quo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 152e. var function = 2; will raise error (123) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image152e.png?raw=true"
+<img src="./images/image152e.png"
   style="width:65%"
   title="var function = 2; will raise error"
   alt="var function = 2; will raise error." />
@@ -4722,7 +4722,7 @@ devtools console:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 157. devtools console example (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image157.jpeg?raw=true"
+<img src="./images/image157.jpeg"
   style="width:50%"
   title="Devtools console example"
   alt="Devtools console example." />
@@ -4732,7 +4732,7 @@ error message:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 158. error message: undeclared type error (126) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image158.png?raw=true"
+<img src="./images/image158.png"
   style="width:50%"
   title="Error Message: Undeclared type error"
   alt="Error Message: Undeclared type error." />
@@ -4791,7 +4791,7 @@ error will be raised if you try to change their value in the future.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 159. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (124) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image159.jpeg?raw=true"
+<img src="./images/image159.jpeg"
   style="width:50%"
   title="Comparison between var: TIME_LIMIT and constant: MAX_GRADE."
   alt="Comparison between var: TIME_LIMIT and constant: MAX_GRADE." />
@@ -4818,7 +4818,7 @@ work with var):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160. scope of js variables (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160.png?raw=true"
+<img src="./images/image160.png"
   style="width:50%"
   title="Scope of JavaScript variables"
   alt="Scope of JavaScript variables." />
@@ -4834,7 +4834,7 @@ variable here, can be used inside a function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160a. console.log will display 1 (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160a.png?raw=true"
+<img src="./images/image160a.png"
   style="width:50%"
   title="Console.log will display 1"
   alt="Console.log will display 1." />
@@ -4844,7 +4844,7 @@ variable here, can be used inside a function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160b.  (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160b.png?raw=true"
+<img src="./images/image160b.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4858,7 +4858,7 @@ local one wins.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160c.  (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160c.png?raw=true"
+<img src="./images/image160c.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4874,7 +4874,7 @@ account.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160d.  (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160d.png?raw=true"
+<img src="./images/image160d.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4885,7 +4885,7 @@ I use &quot;let&quot; instead of &quot;var&quot;. Let's see some examples.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160e.  (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160e.png?raw=true"
+<img src="./images/image160e.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4907,7 +4907,7 @@ not &quot;4&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160f.  (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160f.png?raw=true"
+<img src="./images/image160f.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4918,7 +4918,7 @@ got an error: &quot;b is not defined&quot;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160g.  (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160g.png?raw=true"
+<img src="./images/image160g.png"
   style="width:50%"
   title=""
   alt="." />
@@ -4955,7 +4955,7 @@ be used anywhere in the code.</p>
 <a href="https://codepen.io/w3devcampus/pen/WjMMLZ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image161.png?raw=true"
+<img src="./images/image161.png"
   style="width:50%"
   title="Global scoping of variables"
   alt="Global scoping of variables." /></a>
@@ -4988,7 +4988,7 @@ the block, but to the whole function:</p>
 <a href="https://codepen.io/w3devcampus/pen/RVMOGx" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image162.png?raw=true"
+<img src="./images/image162.png"
   style="width:50%"
   title="Global and local variables"
   alt="Global and local variables." /></a>
@@ -5003,7 +5003,7 @@ local variables when they share the same name.</p>
 <a href="https://codepen.io/w3devcampus/pen/oWEEmN" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image163.png?raw=true"
+<img src="./images/image163.png"
   style="width:50%"
   title="CodePen: example variables; global and local"
   alt="CodePen: example variables; global and local." /></a>
@@ -5033,7 +5033,7 @@ let while declaring a local variable:</p>
 <a href="https://codepen.io/w3devcampus/pen/rmJJbo" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image164.png?raw=true"
+<img src="./images/image164.png"
   style="width:50%"
   title="CodePen: Local and global variable scoping"
   alt="CodePen: Local and global variable scoping." /></a>
@@ -5042,7 +5042,7 @@ target="_blank" rel="noopener noreferrer">CodePen: local and global variable sco
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 165. declaring a variable without var in function make it global (134) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image165.jpeg?raw=true"
+<img src="./images/image165.jpeg"
   style="width:50%"
   title="Declaring a variable without var in function make it global"
   alt="Declaring a variable without var in function make it global." />
@@ -5068,7 +5068,7 @@ the block:</p>
 <a href="https://codepen.io/w3devcampus/pen/VbXNPz" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image166.png?raw=true"
+<img src="./images/image166.png"
   style="width:50%"
   title="CodePen: if block is true, let a=4"
   alt="CodePen: if block is true, let a=4." /></a>
@@ -5087,7 +5087,7 @@ declaring variables and constants!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167. js data types (135) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image167.png?raw=true"
+<img src="./images/image167.png"
   style="width:50%"
   title="JavaScript data types"
   alt="JavaScript data types." />
@@ -5101,7 +5101,7 @@ the data type of this variable.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167a. js data types (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image167a.png?raw=true"
+<img src="./images/image167a.png"
   style="width:50%"
   title="JavaScript data types"
   alt="JavaScript data types." />
@@ -5112,7 +5112,7 @@ a number.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167b. js data types (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image167b.png?raw=true"
+<img src="./images/image167b.png"
   style="width:50%"
   title="JavaScript data types"
   alt="JavaScript data types." />
@@ -5124,7 +5124,7 @@ this "dynamic typing".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167c. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image167c.png?raw=true"
+<img src="./images/image167c.png"
   style="width:50%"
   title="JavaScript data types"
   alt="JavaScript data types." />
@@ -5143,7 +5143,7 @@ do nothing because "x" is false.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167d. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image167d.png?raw=true"
+<img src="./images/image167d.png"
   style="width:50%"
   title="JavaScript data types"
   alt="JavaScript data types." />
@@ -5155,7 +5155,7 @@ a variable is defined or not.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167e. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image167e.png?raw=true"
+<img src="./images/image167e.png"
   style="width:50%"
   title="JavaScript data types"
   alt="JavaScript data types." />
@@ -5192,7 +5192,7 @@ for example a number, a string, etc. ex: var x = 3; var name = "Buffa";</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 168. red cards depicting primitive data types (129) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image168.png?raw=true"
+<img src="./images/image168.png"
   style="width:30%"
   title="Red cards depicting primitive data types"
   alt="Red cards depicting primitive data types." />
@@ -5246,7 +5246,7 @@ or function)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~ 169. dynamic typing. use typeof operator to see dynamic type of variable (130) ~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image169.jpeg?raw=true"
+<img src="./images/image169.jpeg"
   style="width:50%"
   title="Dynamic typing. You can use the typeof operator to see the dynamic type of a variable"
   alt="Dynamic typing. You can use the typeof operator to see the dynamic type of a variable." />
@@ -5258,7 +5258,7 @@ for us, for explaining the data types.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 170. numbers 1 thu 9, then 0, twice (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image170.png?raw=true"
+<img src="./images/image170.png"
   style="width:25%"
   title="Numbers 1 thu 9, then 0, twice"
   alt="Numbers 1 thu 9, then 0, twice." />
@@ -5507,7 +5507,7 @@ floating point numbers is that 0.1 + 0.2 does not equal 0.3.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 171. devtools console showing 0.1+0.2 is not equal to 0.3 (145) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image171.jpeg?raw=true"
+<img src="./images/image171.jpeg"
   style="width:50%"
   title="Devtools console showing 0.1 + 0.2 is not equal to 0.3 but to 0.300000000000004"
   alt="Devtools console showing 0.1 + 0.2 is not equal to 0.3 but to 0.300000000000004." />
@@ -5558,7 +5558,7 @@ precedence.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172. operators (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image172.png?raw=true"
+<img src="./images/image172.png"
   style="width:25%"
   title="Operators"
   alt="Operators." />
@@ -5574,7 +5574,7 @@ to a number or a string (for addition or concatenation).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 173. codepen: number operators (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image173.png?raw=true"
+<img src="./images/image173.png"
   style="width:50%"
   title="CodePen: Number operators"
   alt="CodePen: Number operators." />
@@ -5720,7 +5720,7 @@ both prefixed or suffixed, which have different effects:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174. example console log (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image174.jpeg?raw=true"
+<img src="./images/image174.jpeg"
   style="width:30%"
   title="Example console log"
   alt="Example console log." />
@@ -5823,7 +5823,7 @@ with double and closed with single quotes
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 175. error - devtools console; do not mix single and double quotes (152) ~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image175.jpeg?raw=true"
+<img src="./images/image175.jpeg"
   style="width:50%"
   title="Error; devtools console error; do not mix single and double quotes"
   alt="Error; devtools console error; do not mix single and double quotes." />
@@ -5843,7 +5843,7 @@ with double and closed with single quotes
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~ 176. snapshot of a devtools console; do not mix single and double quotes (153) ~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image176.png?raw=true"
+<img src="./images/image176.png"
   style="width:50%"
   title="Snapshot of a devtools console error; do not mix single and double quotes"
   alt="Snapshot of a devtools console error; do not mix single and double quotes." />
@@ -5877,7 +5877,7 @@ look at one example.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 176a. concatenation operator (+) (154) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image176a.png?raw=true"
+<img src="./images/image176a.png"
   style="width:50%"
   title="Concatenation operator (+)"
   alt="Concatenation operator (+)." />
@@ -5894,7 +5894,7 @@ concatenated to it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 176b. variables, strings and concatenation (154) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image176b.png?raw=true"
+<img src="./images/image176b.png"
   style="width:50%"
   title="Variables, strings and concatenation"
   alt="Variables, strings and concatenation." />
@@ -5907,7 +5907,7 @@ the concatenation of s1 and s2.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 176c. shorthand assignment operator (+=) (155) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image176c.png?raw=true"
+<img src="./images/image176c.png"
   style="width:50%"
   title="Shorthand assignment operator (+=)"
   alt="Shorthand assignment operator (+=)." />
@@ -5921,7 +5921,7 @@ automatically.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 176d. example, string & conversion to number (155) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image176d.png?raw=true"
+<img src="./images/image176d.png"
   style="width:50%"
   title="Example, string and conversion to number"
   alt="Example, string and conversion to number." />
@@ -5934,7 +5934,7 @@ number that is worth twice its previous value.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 176e. example, string, number and not a number (NaN) (156) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image176e.png?raw=true"
+<img src="./images/image176e.png"
   style="width:50%"
   title="Example, string, number and Not a Number (NaN)"
   alt="Example, string, number and Not a Number (NaN)." />
@@ -6042,7 +6042,7 @@ unless the formula is a pure addition.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 177. devtools console; how to convert a number into a string (149) ~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image177.jpeg?raw=true"
+<img src="./images/image177.jpeg"
   style="width:35%"
   title="Devtools console; how to convert a number into a string"
   alt="Devtools console; how to convert a number into a string." />
@@ -6427,7 +6427,7 @@ correctly.</p>
 <a href="https://codepen.io/w3devcampus/pen/YNbvgP" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image178.png?raw=true"
+<img src="./images/image178.png"
   style="width:50%"
   title="CodePen: button click me to display the value of the x variable"
   alt="CodePen: button click me to display the value of the x variable." /></a>
@@ -6446,7 +6446,7 @@ instruction of the function:</p>
 <a href="https://codepen.io/w3devcampus/pen/YNbvoX" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image179.png?raw=true"
+<img src="./images/image179.png"
   style="width:50%"
   title="CodePen: write messages to the devtools console"
   alt="CodePen: write messages to the devtools console." /></a>
@@ -6461,7 +6461,7 @@ execute it in &quot;debug mode&quot;. The online IDE will just display a page
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180. select debug mode (166) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image180.png?raw=true"
+<img src="./images/image180.png"
   style="width:50%"
   title="Select Debug mode"
   alt="Select Debug mode." />
@@ -6472,7 +6472,7 @@ control-shift-i or cmd-alt-i on Mac), and you should see this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181. console debug (167) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image181.png?raw=true"
+<img src="./images/image181.png"
   style="width:50%"
   title="Console debug"
   alt="Console debug." />
@@ -6481,7 +6481,7 @@ control-shift-i or cmd-alt-i on Mac), and you should see this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 182. error message in the devtool console (167) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image182.jpeg?raw=true"
+<img src="./images/image182.jpeg"
   style="width:50%"
   title="Error message in the devtool console"
   alt="Error message in the devtool console." />
@@ -6492,7 +6492,7 @@ right:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 183. source code that fired the error (167) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image183.jpeg?raw=true"
+<img src="./images/image183.jpeg"
   style="width:50%"
   title="Source code that fired the error"
   alt="Source code that fired the error." />
@@ -6503,7 +6503,7 @@ instead of &quot;To&quot;. Let&apos;s fix that now and try again:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 184. this time we entered the addxtothepage function! (168) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image184.png?raw=true"
+<img src="./images/image184.png"
   style="width:50%"
   title="This time we entered the addXToToThePage function"
   alt="This time we entered the addXToToThePage function." />
@@ -6514,7 +6514,7 @@ what we get:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 185. codepen; click me to display the value of the x variable (168) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image185.jpeg?raw=true"
+<img src="./images/image185.jpeg"
   style="width:50%"
   title="CodePen; click me to display the value of the x variable"
   alt="CodePen; click me to display the value of the x variable." />
@@ -6531,7 +6531,7 @@ should be ok now:</p>
 <a href="https://codepen.io/w3devcampus/pen/egajBx" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image186.png?raw=true"
+<img src="./images/image186.png"
   style="width:50%"
   title="CodePen; Write messages to the devtool console"
   alt="CodePen; Write messages to the devtool console." /></a>
@@ -6560,7 +6560,7 @@ strings.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 187. type javascript code into the console (169) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image187.jpeg?raw=true"
+<img src="./images/image187.jpeg"
   style="width:50%"
   title="Type JavaScript code into the console"
   alt="Type JavaScript code into the console." />
@@ -6583,7 +6583,7 @@ calculations:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 188. expression displayed using console.log (170) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image188.jpeg?raw=true"
+<img src="./images/image188.jpeg"
   style="width:50%"
   title="Expression displayed using console.log"
   alt="Expression displayed using console.log." />
@@ -6623,7 +6623,7 @@ use):</p>
 <a href="https://codepen.io/w3devcampus/pen/pRmZqY" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image189.png?raw=true"
+<img src="./images/image189.png"
   style="width:50%"
   title="CodePen: Contact list"
   alt="CodePen: Contact list." /></a>
@@ -6635,7 +6635,7 @@ see this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 190. dynamic contact list; given name, family name (170) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image190.png?raw=true"
+<img src="./images/image190.png"
   style="width:25%"
   title="Dynamic contact list; given name, family name"
   alt="Dynamic contact list; given name, family name." />
@@ -6654,7 +6654,7 @@ what can be done.</p>
 <a href="https://codepen.io/w3devcampus/pen/rjgQgN" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image191.png?raw=true"
+<img src="./images/image191.png"
   style="width:50%"
   title="Change common properties"
   alt="Change common properties." /></a>
@@ -6667,7 +6667,7 @@ target="_blank" rel="noopener noreferrer">CodePen; change common properties</a>.
 <a href="https://codepen.io/w3devcampus/pen/MJdzMM" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image192.png?raw=true"
+<img src="./images/image192.png"
   style="width:50%"
   title="Change the background image property using an external image"
   alt="Change the background image property using an external image." /></a>
@@ -6680,7 +6680,7 @@ target="_blank" rel="noopener noreferrer">CodePen; change the background image</
 <a href="https://codepen.io/w3devcampus/pen/ygWGBd" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image193.png?raw=true"
+<img src="./images/image193.png"
   style="width:50%"
   title="Use the background image as a sprite sheet"
   alt="Use the background image as a sprite sheet." /></a>
@@ -6721,7 +6721,7 @@ study some of the most useful events in even greater depth.</p>
 <a href="https://codepen.io/w3devcampus/pen/jyoXGN" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image194.png?raw=true"
+<img src="./images/image194.png"
   style="width:50%"
   title="CodePen: Use input events on an HTML input field"
   alt="CodePen: Use input events on an HTML input field." /></a>
@@ -6748,7 +6748,7 @@ presented.</p>
 <a href="https://codepen.io/w3devcampus/pen/QdRzJw" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image195.png?raw=true"
+<img src="./images/image195.png"
   style="width:50%"
   title="Listen to mouse events in an HTML5 canvas"
   alt="Listen to mouse events in an HTML5 canvas." /></a>
@@ -6761,7 +6761,7 @@ target="_blank" rel="noopener noreferrer">CodePen: listen to mouse events in HTM
 <a href="https://codepen.io/w3devcampus/pen/VPOqJG" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image196.png?raw=true"
+<img src="./images/image196.png"
   style="width:50%"
   title="A paint program - click and drag mouse"
   alt="A paint program - click and drag mouse." /></a>
@@ -6774,7 +6774,7 @@ target="_blank" rel="noopener noreferrer">CodePen: a paint program</a>.</h6>
 <a href="https://codepen.io/w3devcampus/pen/ygWZEP" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image197.png?raw=true"
+<img src="./images/image197.png"
   style="width:50%"
   title="Move a monster in an HTML5 canvas"
   alt="Move a monster in an HTML5 canvas." /></a>
@@ -6810,7 +6810,7 @@ W3Cx HTML5 Coding Essentials and Best Practices</a> course provides many other 
 <a href="https://codepen.io/w3devcampus/pen/ZLNwqx" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image198.png?raw=true"
+<img src="./images/image198.png"
   style="width:50%"
   title="CodePen; Example Webcam"
   alt="CodePen; Example Webcam." /></a>
@@ -6829,7 +6829,7 @@ This example uses the WebAudio API in order to synthesize sounds.</p>
 <a href="https://codepen.io/w3devcampus/pen/oBRVgv" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image199.png?raw=true"
+<img src="./images/image199.png"
   style="width:50%"
   title="CodePen; Using the WebAudio API to build a small sythesizer"
   alt="CodePen; Using the WebAudio API to build a small sythesizer." /></a>
@@ -6868,7 +6868,7 @@ cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)</p>
 <a href="https://codepen.io/w3devcampus/pen/jyjEob" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image200.png?raw=true"
+<img src="./images/image200.png"
   style="width:50%"
   title="CodePen; Plot mathematical functions"
   alt="CodePen; Plot mathematical functions." /></a>
@@ -6886,7 +6886,7 @@ look here</a> for a solution.</p>
 <a href="https://codepen.io/w3devcampus/pen/NdVJvy" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image201.png?raw=true"
+<img src="./images/image201.png"
   style="width:50%"
   title="Plot force directed graph using d3.js"
   alt="Plot force directed graph using d3.js." /></a>
@@ -6909,7 +6909,7 @@ that use that library.</p>
 <a href="https://codepen.io/w3devcampus/pen/Bpgypq" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image202.png?raw=true"
+<img src="./images/image202.png"
   style="width:50%"
   title="CodePen; A force-directed draggable graph"
   alt="CodePen; A force-directed draggable graph." /></a>
@@ -6937,7 +6937,7 @@ files is The Mod Archive, you can download plenty of chiptune files from there.<
 <a href="https://codepen.io/w3devcampus/pen/GrbgMB" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image203.png?raw=true"
+<img src="./images/image203.png"
   style="width:50%"
   title="CodePen; Chiptune music with WebAudio"
   alt="CodePen; Chiptune music with WebAudio." /></a>
@@ -6955,7 +6955,7 @@ The example is just here to illustrate what can be done using external libraries
 <a href="https://codepen.io/w3devcampus/pen/dNBPQm" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image204.png?raw=true"
+<img src="./images/image204.png"
   style="width:50%"
   title="CodePen; Animate a green sprite"
   alt="CodePen; Animate a green sprite." /></a>
@@ -6978,7 +6978,7 @@ target="_blank" rel="noopener noreferrer">CodePen: animate a green sprite</a>.</
 <a href="https://codepen.io/w3devcampus/pen/xgoZdg" 
  target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image205.png?raw=true"
+<img src="./images/image205.png"
   style="width:50%"
   title="CodePen: Use remote structured data"
   alt="CodePen: Use remote structured data." /></a>
@@ -6995,7 +6995,7 @@ for video games):</p>
 <a href="https://codepen.io/w3devcampus/pen/BWbNQG" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image206.png?raw=true"
+<img src="./images/image206.png"
   style="width:50%"
   title="CodePen: Load and decode remote sounds for use in a video game"
   alt="CodePen: Load and decode remote sounds for use in a video game." /></a>
@@ -7008,7 +7008,7 @@ target="_blank" rel="noopener noreferrer">CodePen: load and decode remote sounds
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 207. learn how to handle events (182) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image207.png?raw=true"
+<img src="./images/image207.png"
   style="width:50%"
   title="Learn how to handle events"
   alt="Learn how to handle events." />
@@ -7028,7 +7028,7 @@ objects on the screen.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 208. university cote d'azur w3cx (182) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image208.png?raw=true"
+<img src="./images/image208.png"
   style="width:50%"
   title="University Cote d'azur W3Cx"
   alt="University Cote d'azur W3Cx." />
@@ -7059,7 +7059,7 @@ operators</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 209. codepen; comparison operators and the if, else stmts (183) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image209.png?raw=true"
+<img src="./images/image209.png"
   style="width:50%"
   title="CodePen; Comparison Operators and the if, else statements"
   alt="CodePen; Comparison Operators and the if, else statements." />
@@ -7075,7 +7075,7 @@ be executed only if what is between the parentheses here, is true.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 210. codepen; this is a javascript course (184) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image210.png?raw=true"
+<img src="./images/image210.png"
   style="width:50%"
   title="CodePen; This is a JavaScript course"
   alt="CodePen; This is a JavaScript course." />
@@ -7098,7 +7098,7 @@ course!&quot;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 211. codepen; comparison operators (184) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image211.png?raw=true"
+<img src="./images/image211.png"
   style="width:50%"
   title="CodePen; Comparison operators"
   alt="CodePen; Comparison operators." />
@@ -7115,7 +7115,7 @@ equals (===) and not equals equals (==), to be the ones you must use.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 212. codepen; comparison operators; baby, child, adult or old (185) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image212.png?raw=true"
+<img src="./images/image212.png"
   style="width:50%"
   title="CodePen; Comparison operators; baby, child, adult or old"
   alt="CodePen; Comparison operators; baby, child, adult or old." />
@@ -7128,7 +7128,7 @@ I can add some &quot;else&hellip;if&quot; statements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 213. codepen; comparison operators; baby, child, adult or old (185) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image213.png?raw=true"
+<img src="./images/image213.png"
   style="width:50%"
   title="CodePen; Comparison operators; baby, child, adult or old"
   alt="CodePen; Comparison operators; baby, child, adult or old." />
@@ -7145,7 +7145,7 @@ statements like that. And you can notice that I added at the end only an
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 214. codepen; comparison operators; baby, child, adult or old (186) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image214.png?raw=true"
+<img src="./images/image214.png"
   style="width:50%"
   title="CodePen; Comparison operators; baby, child, adult or old"
   alt="CodePen; Comparison operators; baby, child, adult or old." />
@@ -7156,7 +7156,7 @@ and it prints &quot;I&apos;m old&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 215. codepen; comparison operators; baby, child, adult or old (186) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image215.png?raw=true"
+<img src="./images/image215.png"
   style="width:50%"
   title="CodePen; Comparison operators; baby, child, adult or old"
   alt="CodePen; Comparison operators; baby, child, adult or old." />
@@ -7167,7 +7167,7 @@ operator. If I set the variable to be 72, then this test is true and it prints
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 216. codepen; example using AND operator (&&) (187) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image216.png?raw=true"
+<img src="./images/image216.png"
   style="width:45%"
   title="CodePen; example using AND operator (&&)"
   alt="CodePen; example using AND operator (&&)." />
@@ -7180,7 +7180,7 @@ and &lt; 14, are true.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 217. codepen; example using OR operator (||)(187) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image217.png?raw=true"
+<img src="./images/image217.png"
   style="width:45%"
   title="CodePen; example using OR operator (||)"
   alt="CodePen; example using OR operator (||)." />
@@ -7191,12 +7191,12 @@ but age &lt; 14 is true, it prints &quot;I&apos;m a young teenager&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 218/219. codepen; example triple equal sign (===) (187) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image218.png?raw=true"
+<img src="./images/image218.png"
   style="width:45%"
   title="CodePen; example using triple equal sign (===)"
   alt="CodePen; example using triple equal sign (===)." />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/image219.png?raw=true"
+<img src="./images/image219.png"
   style="width:45%"
   title="CodePen; example using triple equal sign (===)"
   alt="CodePen; example using triple equal sign (===)." />
@@ -7567,7 +7567,7 @@ target="_blank" rel="noopener noreferrer">isNan documentation</a>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 220. switch conditional statement (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image220.png?raw=true"
+<img src="./images/image220.png"
   style="width:50%"
   title="Switch conditional statement"
   alt="Switch conditional statement." />
@@ -7576,7 +7576,7 @@ target="_blank" rel="noopener noreferrer">isNan documentation</a>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 221. switch statement (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image221.png?raw=true"
+<img src="./images/image221.png"
   style="width:50%"
   title="Switch conditional statement"
   alt="Switch conditional statement." />
@@ -7586,7 +7586,7 @@ we used a formula like this, that uses a predefined object called Math.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 222. math.random day of week (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image222.png?raw=true"
+<img src="./images/image222.png"
   style="width:50%"
   title=""
   alt="." />
@@ -7597,7 +7597,7 @@ values each time we execute.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 223. math.random and switch (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image223.png?raw=true"
+<img src="./images/image223.png"
   style="width:50%"
   title="Using math.Random and switch"
   alt="Using math.Random and switch." />
@@ -7616,7 +7616,7 @@ else will be ignored.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 224. using switch (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image224.png?raw=true"
+<img src="./images/image224.png"
   style="width:50%"
   title="Using switch"
   alt="Using switch." />
@@ -7638,7 +7638,7 @@ break keyword means, but it can also be useful to regroup cases.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 225. use switch to display days of the week (197) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image225.png?raw=true"
+<img src="./images/image225.png"
   style="width:50%"
   title="Use switch to display days of the week"
   alt="Use switch to display days of the week." />
@@ -7656,7 +7656,7 @@ value of 5 or 6.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 226. use switch; week day & weekends (198) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image226.png?raw=true"
+<img src="./images/image226.png"
   style="width:50%"
   title="Use switch; week day and weekends"
   alt="Use switch; week day and weekends." />
@@ -7669,7 +7669,7 @@ This is not going to work. Avoid! This&hellip; error!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227. example; use an array (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image227.png?raw=true"
+<img src="./images/image227.png"
   style="width:50%"
   title="Example; use an array"
   alt="Example; use an array." />
@@ -7735,7 +7735,7 @@ console to see the outputs of this program):</p>
 <a href="https://codepen.io/w3devcampus/pen/qrjdza" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image227b.png?raw=true"
+<img src="./images/image227b.png"
   style="width:50%"
   title="CodePen: example; devtool console to see output"
   alt="CodePen: example; devtool console to see output." /></a>
@@ -7992,7 +7992,7 @@ console to see the outputs of this program):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 228. look at js from this example, open devtools (205) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image228.png?raw=true"
+<img src="./images/image228.png"
   style="width:50%"
   title="Look at JS from this example, open devtools"
   alt="Look at JS from this example, open devtools." />
@@ -8006,7 +8006,7 @@ CodePen: open devtools to see the outputs</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229. loop statements (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image229.png?raw=true"
+<img src="./images/image229.png"
   style="width:50%"
   title="Loop statements"
   alt="Loop statements." />
@@ -8015,7 +8015,7 @@ CodePen: open devtools to see the outputs</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 230. while loop, 1 to 3, and sum of sum (206) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image230.png?raw=true"
+<img src="./images/image230.png"
   style="width:50%"
   title="While loop, 1 to 3, and sum of sum"
   alt="While loop, 1 to 3, and sum of sum." />
@@ -8038,7 +8038,7 @@ continue after the loop and the console.log is executed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231. while loop, n and m (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image231.png?raw=true"
+<img src="./images/image231.png"
   style="width:50%"
   title="While loop, n and m"
   alt="While loop, n and m." />
@@ -8052,7 +8052,7 @@ result is 10 as you can see.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 232. do while, 0 to less than 20 (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image232.png?raw=true"
+<img src="./images/image232.png"
   style="width:50%"
   title="Do while loop, 0 to less than 20"
   alt="Do while loop, 0 to less than 20." />
@@ -8073,7 +8073,7 @@ is here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233. do while, 0 to under 20 (207) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image233.png?raw=true"
+<img src="./images/image233.png"
   style="width:50%"
   title="Do while loop, 0 thru 19 (under 20)"
   alt="Do while loop, 0 thru 19 (under 20)." />
@@ -8101,7 +8101,7 @@ condition false.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234. for loop, 0 thru 4 (208) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/imageXXX.png?raw=true"
+<img src="./images/imageXXX.png"
   style="width:50%"
   title="For loop, 0 thru 4"
   alt="For loop, 0 thru 4." />
@@ -8114,7 +8114,7 @@ condition is no more true and we exit the loop.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. for loop 0 thru 4 (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image235.png?raw=true"
+<img src="./images/image235.png"
   style="width:50%"
   title="For loop, 0 thru 4"
   alt="For loop, 0 thru 4." />
@@ -8123,7 +8123,7 @@ value and included it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. increment loop by 2 (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image236.png?raw=true"
+<img src="./images/image236.png"
   style="width:50%"
   title="Increment loop by 2"
   alt="Increment loop by 2." />
@@ -8134,7 +8134,7 @@ i = 0, i=2, i=4, i=6, the condition is no more true, we exit from the loop.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 237. daysOfTheWeek array enumeration (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image237.png?raw=true"
+<img src="./images/image237.png"
   style="width:50%"
   title="daysOfTheWeek array enumeration; Monday thru Sunday"
   alt="daysOfTheWeek array enumeration; Monday thru Sunday." />
@@ -8158,7 +8158,7 @@ target="_blank" rel="noopener noreferrer">Example on CodePen</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. a loop in the sky (211) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image238.jpeg?raw=true"
+<img src="./images/image238.jpeg"
   style="width:15%"
   title="A loop in the sky"
   alt="A loop in the sky." />
@@ -8467,7 +8467,7 @@ at the section about DOM in this module.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. quiz (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image239.jpeg?raw=true"
+<img src="./images/image239.jpeg"
   style="width:15%"
   title="Quiz"
   alt="Quiz." />
@@ -8518,7 +8518,7 @@ statements, and a function declaration is not an executable statement.</p>
 <a href="https://codepen.io/w3devcampus/pen/jmoBRj" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image240.png?raw=true"
+<img src="./images/image240.png"
   style="width:50%"
   title="CodePen: sum function & displayinpage function"
   alt="CodePen: sum function & displayinpage function." /></a>
@@ -8537,7 +8537,7 @@ be stored in a variable. Then, the variable can be used as a <b>function</b>:</
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 241. codepen: sum and displayInPage (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image241.png?raw=true"
+<img src="./images/image241.png"
   style="width:50%"
   title="CodePen: sum and displayInPage"
   alt="CodePen: sum and displayInPage." />
@@ -8578,7 +8578,7 @@ document):</p>
 <a href="https://codepen.io/w3devcampus/pen/OmYmVr" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image242.png?raw=true"
+<img src="./images/image242.png"
   style="width:50%"
   title="CodePen: processClick"
   alt="CodePen: processClick." /></a>
@@ -8604,7 +8604,7 @@ CSS, such as by using the <b>:hover</b> pseudo CSS class.</p>
 <a href="https://codepen.io/w3devcampus/pen/gmvgxa" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image243.png?raw=true"
+<img src="./images/image243.png"
   style="width:50%"
   title="CodePen: :hover"
   alt="CodePen: :hover." /></a>
@@ -8635,7 +8635,7 @@ ones that correspond to the type of event &quot;they listen to&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 244. adding event listener to a document (220) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image244.png?raw=true"
+<img src="./images/image244.png"
   style="width:50%"
   title="Adding event listener to a document"
   alt="Adding event listener to a document." />
@@ -8648,7 +8648,7 @@ and we will start with the simplest example.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. listen to mouse clicks (220) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image245.png?raw=true"
+<img src="./images/image245.png"
   style="width:50%"
   title="Listen to mouse clicks and add an event listener"
   alt="Listen to mouse clicks and add an event listener." />
@@ -8667,7 +8667,7 @@ call.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 246. anonymous function, callback (221) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image246.png?raw=true"
+<img src="./images/image246.png"
   style="width:50%"
   title="anonymous function, callback"
   alt="anonymous function, callback." />
@@ -8687,7 +8687,7 @@ Notice the parenthesis, followed by a semicolon at the end, because this is just
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 247. window.onclick = function(evt) (222) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image247.png?raw=true"
+<img src="./images/image247.png"
   style="width:50%"
   title="window.onclick = function(evt)"
   alt="window.onclick = function(evt)." />
@@ -8699,7 +8699,7 @@ to this property &quot;onclick&quot;, we assign directly the function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 248. anonymous function (222) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image248.png?raw=true"
+<img src="./images/image248.png"
   style="width:50%"
   title="anonymous function"
   alt="anonymous function." />
@@ -8724,7 +8724,7 @@ if I click, it works.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 249. how to add an event listener to html element (223) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image249.png?raw=true"
+<img src="./images/image249.png"
   style="width:50%"
   title="How to add an event listener to html element"
   alt="How to add an event listener to html element." />
@@ -8733,7 +8733,7 @@ element, and not to the whole document, like in the previous lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 250. onclick = name of function (223) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image250.png?raw=true"
+<img src="./images/image250.png"
   style="width:50%"
   title="CodePen: onclick = name of function"
   alt="CodePen: onclick = name of function." />
@@ -8750,7 +8750,7 @@ Here, I&apos;using just the DOM API for adding some text to the document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 251. codepen: document.querySelector (224) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image251.png?raw=true"
+<img src="./images/image251.png"
   style="width:50%"
   title="CodePen: document.querySelector"
   alt="CodePen: document.querySelector." />
@@ -8771,7 +8771,7 @@ in the declaration of the html button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 252. document.querySelector and addEventListener (225) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image252.png?raw=true"
+<img src="./images/image252.png"
   style="width:50%"
   title="document.querySelector and addEventListener"
   alt="document.querySelector and addEventListener." />
@@ -8823,7 +8823,7 @@ on a web document will be processed by this event handler):</p>
 <a href="https://codepen.io/w3devcampus/pen/peaeoZ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image253.png?raw=true"
+<img src="./images/image253.png"
   style="width:50%"
   title="CodePen: addEventListener function"
   alt="CodePen: addEventListener function." /></a>
@@ -8879,7 +8879,7 @@ elements. For example, here is how we can listen to clicks on a specific button
 <a href="https://codepen.io/w3devcampus/pen/vxdxdm" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image254.png?raw=true"
+<img src="./images/image254.png"
   style="width:50%"
   title="CodePen: Click me!"
   alt="CodePen: Click me!" /></a>
@@ -8913,7 +8913,7 @@ of the element:</p>
 <a href="https://codepen.io/w3devcampus/pen/aJqWZJ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image255.png?raw=true"
+<img src="./images/image255.png"
   style="width:50%"
   title="CodePen: processClick(event)"
   alt="CodePen: processClick(event)." /></a>
@@ -8948,7 +8948,7 @@ is no longer a click event listener attached to it.</p>
 <a href="https://codepen.io/w3devcampus/pen/PpRBxP" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image256.png?raw=true"
+<img src="./images/image256.png"
   style="width:50%"
   title="CodePen: add and remove event listeners"
   alt="CodePen: add and remove event listeners." /></a>
@@ -9021,7 +9021,7 @@ common types of events in detail.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 257. most useful common properties (230) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image257.png?raw=true"
+<img src="./images/image257.png"
   style="width:50%"
   title="Most useful properties; type &amp; target."
   alt="Most useful properties; type &amp; target." />
@@ -9030,7 +9030,7 @@ common types of events in detail.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 258. most useful common methods (230) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image258.png?raw=true"
+<img src="./images/image258.png"
   style="width:50%"
   title="Most useful methods; preventDefault &amp; stopPropagation"
   alt="Most useful methods; preventDefault &amp; stopPropagation." />
@@ -9040,7 +9040,7 @@ Live coding video: page ‘load’ event and the event object
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 259.  (230) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image259.png?raw=true"
+<img src="./images/image259.png"
   style="width:50%"
   title=""
   alt="." />
@@ -9049,7 +9049,7 @@ at different types of events.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 260.  (231) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image258.png?raw=true"
+<img src="./images/image258.png"
   style="width:50%"
   title=""
   alt="." />
@@ -9064,7 +9064,7 @@ I&apos;m adding a console.log message just to verify.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 261.  (231) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image259.png?raw=true"
+<img src="./images/image259.png"
   style="width:50%"
   title=""
   alt="." />
@@ -9077,7 +9077,7 @@ I can execute any kind of code, I will never have to wonder&hellip; to think:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 262.  (232) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image260.png?raw=true"
+<img src="./images/image260.png"
   style="width:50%"
   title=""
   alt="." />
@@ -9090,7 +9090,7 @@ good practice. I nearly always do this on my own softwares.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 263.  (232) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image263.png?raw=true"
+<img src="./images/image263.png"
   style="width:50%"
   title=""
   alt="." />
@@ -9107,7 +9107,7 @@ when the event is processed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 264. codepen: page status: page loaded (233) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image264.png?raw=true"
+<img src="./images/image264.png"
   style="width:65%"
   title="CodePen: Page Status: Page Loaded"
   alt="CodePen: Page Status: Page Loaded." />
@@ -9133,7 +9133,7 @@ the mouse.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 265. codepen: get position of mouse (233) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image265.png?raw=true"
+<img src="./images/image265.png"
   style="width:65%"
   title="CodePen: get position of mouse"
   alt="CodePen: get position of mouse." />
@@ -9170,7 +9170,7 @@ useful ones for an introduction course are shown below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 266. load, resize and scroll events (234) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image266.png?raw=true"
+<img src="./images/image266.png"
   style="width:50%"
   title="Load, Resize and Scroll events"
   alt="Load, Resize and Scroll events." />
@@ -9194,7 +9194,7 @@ canvas size, for example).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 267. codepen: example of body onload = 'init()' (235) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image267.png?raw=true"
+<img src="./images/image267.png"
   style="width:50%"
   title="CodePen: example of body onload = 'init()'"
   alt="CodePen: example of body onload = 'init()'." />
@@ -9204,7 +9204,7 @@ code&hellip;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 268. codepen: example of window.onload = 'init()' (235) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image268.png?raw=true"
+<img src="./images/image268.png"
   style="width:50%"
   title="CodePen: example of window.onload = 'init()'"
   alt="CodePen: example of window.onload = 'init()'." />
@@ -9220,7 +9220,7 @@ use screen.width and screen.height to display the screen size.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 269. codepen: window.innerWidth & .innerHeight (236) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image269.png?raw=true"
+<img src="./images/image269.png"
   style="width:50%"
   title="CodePen: example using window.innerWidth &amp; innerHeight"
   alt="CodePen: example using window.innerWidth &amp; innerHeight." />
@@ -9229,7 +9229,7 @@ use screen.width and screen.height to display the screen size.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 270. codepen: example as page is scrolled (236) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image270.png?raw=true"
+<img src="./images/image270.png"
   style="width:50%"
   title="CodePen: example as page is scrolled"
   alt="CodePen: example as page is scrolled." />
@@ -9239,7 +9239,7 @@ use screen.width and screen.height to display the screen size.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 271. keyboard logo (236) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://unixpapa.com/js/key.html" target="_blank" rel="noopener noreferrer">
 <p align="left" width="100%">
-<img src="./images/image271.png?raw=true"
+<img src="./images/image271.png"
   style="width:30%"
   title="Keyboard logo"
   alt="Keyboard logo." /></a>
@@ -9279,7 +9279,7 @@ which real keyboard keys, so here are some handy pointers:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 272. keydown, keyup and keypress (237) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image272.png?raw=true"
+<img src="./images/image272.png"
   style="width:50%"
   title="keydown, keyup and keypress"
   alt="keydown, keyup and keypress." />
@@ -9294,7 +9294,7 @@ with a new key property (see the following pages of the course).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 273. keyCode, shiftKey, ctrlKey &amp; altKey (237) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image273.png?raw=true"
+<img src="./images/image273.png"
   style="width:50%"
   title="keyCode, shiftKey, ctrlKey &amp; altKey"
   alt="keyCode, shiftKey, ctrlKey &amp; altKey." />
@@ -9305,7 +9305,7 @@ with a new key property (see the following pages of the course).</p>
 <a href="https://codepen.io/w3devcampus/pen/wJZJZp" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image274.png?raw=true"
+<img src="./images/image274.png"
   style="width:50%"
   title="CodePen: example using keyup and keydown"
   alt="CodePen: example using keyup and keydown." /></a>
@@ -9331,7 +9331,7 @@ target="_blank" rel="noopener noreferrer">CodePen</a></p>
 <a href="https://codepen.io/w3devcampus/pen/BWERyY" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image275.png?raw=true"
+<img src="./images/image275.png"
   style="width:50%"
   title="CodePen: example detect combination of keys + modifier keys (shift, ctrl, alt)"
   alt="CodePen: example detect combination of keys + modifier keys (shift, ctrl, alt)." /></a>
@@ -9384,14 +9384,14 @@ target="_blank" rel="noopener noreferrer">QWERTY</a> layout, used in US, GB, e
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 273. qwerty keyboard layout (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image273.png?raw=true"
+<img src="./images/image273.png"
   style="width:45%"
   title="Qwerty keyboard layout"
   alt="Qwerty keyboard layout." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 274. azerty keyboard layout (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image274.png?raw=true"
+<img src="./images/image274.png"
   style="width:45%"
   title="Azerty keyboard layout"
   alt="Azerty keyboard layout." />
@@ -9406,7 +9406,7 @@ target="_blank" rel="noopener noreferrer">DVORAK</a> is another alternative to 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 275. dvorak layout keyboard (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image275.png?raw=true"
+<img src="./images/image275.png"
   style="width:50%"
   title="Dvorak layout keyboard"
   alt="Dvorak layout keyboard." />
@@ -9417,7 +9417,7 @@ target="_blank" rel="noopener noreferrer">DVORAK</a> is another alternative to 
 <a href="https://en.wikipedia.org/wiki/Arabic_alphabet#Keyboards" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image276.png?raw=true"
+<img src="./images/image276.png"
   style="width:50%"
   title="Qwertz layout keyboard"
   alt="qwertz layout keyboard." /></a>
@@ -9429,7 +9429,7 @@ target="_blank" rel="noopener noreferrer">Arabic keyboards</a>):</h4>
 <a href="https://en.wikipedia.org/wiki/Bengali_input_methods#Bangla_Jatiyo" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image280.jpeg?raw=true"
+<img src="./images/image280.jpeg"
   style="width:50%"
   title="Saoudian Arabic keyboard layout"
   alt="Saoudian Arabic keyboard layout." /></a>
@@ -9438,7 +9438,7 @@ target="_blank" rel="noopener noreferrer">Bangla National (Jatiyo) keyboard</a>:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 281. Bangladesh keyboard layout (240) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image281.png?raw=true"
+<img src="./images/image281.png"
   style="width:50%"
   title="Bangladesh keyboard layout"
   alt="Bangladesh keyboard layout." />
@@ -9492,7 +9492,7 @@ the alphanumerical part:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 282. reference alphanumeric keyboard (241) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image282.png?raw=true"
+<img src="./images/image282.png"
   style="width:50%"
   title="Reference alphanumeric keyboard"
   alt="Reference alphanumeric keyboard." />
@@ -9506,7 +9506,7 @@ the user presses various types of keys, both for code and key.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 283. codepen: display key and code values (241) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image283.png?raw=true"
+<img src="./images/image283.png"
   style="width:50%"
   title="CodePen: display key and code values"
   alt="CodePen: display key and code values." />
@@ -9533,7 +9533,7 @@ describing the values for the key property.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~ 284. Hand holding mouse; MouseUp, MouseOver, MouseDrag &amp; MouseDown. (242) ~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image284.png?raw=true"
+<img src="./images/image284.png"
   style="width:25%"
   title="Hand holding mouse; MouseUp, MouseOver, MouseDrag &amp; MouseDown"
   alt="Hand holding mouse; MouseUp, MouseOver, MouseDrag &amp; MouseDown." />
@@ -9571,7 +9571,7 @@ listen to.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 285. mouse event types (243) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image285.png?raw=true"
+<img src="./images/image285.png"
   style="width:65%"
   title="Mouse event types"
   alt="Mouse event types." />
@@ -9580,7 +9580,7 @@ listen to.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 286. mouse event properties (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image286.png?raw=true"
+<img src="./images/image286.png"
   style="width:65%"
   title="MouseEvent properties; button, clientX/Y, pageX/Y, screenX/Y, altKey, 
     ctrlKey, shiftKey and detail"
@@ -9595,7 +9595,7 @@ listen to.</p>
 <a href="https://codepen.io/w3devcampus/pen/EWJmyj" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image287.png?raw=true"
+<img src="./images/image287.png"
   style="width:50%"
   title="CodePen: detect a click on an element"
   alt="CodePen: detect a click on an element." /></a>
@@ -9616,7 +9616,7 @@ when embedded in this page!</p>
 <a href="https://codepen.io/w3devcampus/pen/bqJWJJ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image288.png?raw=true"
+<img src="./images/image288.png"
   style="width:50%"
   title="CodePen: difference between clientX, clientY and pageX, pageY"
   alt="CodePen: difference between clientX, clientY and pageX, pageY." /></a>
@@ -9629,7 +9629,7 @@ target="_blank" rel="noopener noreferrer">CodePen: diff between clientX, Y, and 
 <a href="https://codepen.io/w3devcampus/pen/OpGmjE" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image289.png?raw=true"
+<img src="./images/image289.png"
   style="width:50%"
   title="CodePen: detect mouse movement and mouse position relative to the page"
   alt="CodePen: detect mouse movement and mouse position relative to the page." /></a>
@@ -9645,7 +9645,7 @@ clientX/PageX and clientY/pageY mouse event properties:</p>
 <a href="https://codepen.io/w3devcampus/pen/oZryVL" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image290.png?raw=true"
+<img src="./images/image290.png"
   style="width:65%"
   title="CodePen: detect mouse movement &amp; position relative to fired event"
   alt="CodePen: detect mouse movement &amp; position relative to fired event." /></a>
@@ -9665,7 +9665,7 @@ real position relative to the top left corner of the canvas:</p>
 <a href="https://codepen.io/w3devcampus/pen/oZOWQG" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image291.png?raw=true"
+<img src="./images/image291.png"
   style="width:50%"
   title="CodePen: get position relative to top left corner of canvas"
   alt="CodePen: get position relative to top left corner of canvas." /></a>
@@ -9694,7 +9694,7 @@ target="_blank" rel="noopener noreferrer">CodePen: get position relative to top 
 <a href="https://codepen.io/w3devcampus/pen/bqJRMV" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image292.png?raw=true"
+<img src="./images/image292.png"
   style="width:50%"
   title="CodePen: Implement a click and drag behavior"
   alt="CodePen: Implement a click and drag behavior." /></a>
@@ -9708,7 +9708,7 @@ CodePen: click and drag behavior</a>.</h6>
 <a href="https://codepen.io/w3devcampus/pen/oZOweM" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image293.png?raw=true"
+<img src="./images/image293.png"
   style="width:50%"
   title="CodePen: create and attach a right-click context menu to element"
   alt="CodePen: create and attach a right-click context menu to element." /></a>
@@ -9722,7 +9722,7 @@ CodePen: create and attach a right-click context menu to an element</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 294. events related to forms (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image294.png?raw=true"
+<img src="./images/image294.png"
   style="width:65%"
   title="Events related to forms"
   alt="Events related to forms." />
@@ -9742,7 +9742,7 @@ the course that deals with form events.</p>
 <a href="https://codepen.io/w3devcampus/pen/vxMgxQ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image295.png?raw=true"
+<img src="./images/image295.png"
   style="width:50%"
   title="CodePen: simple input field validation"
   alt="CodePen: simple input field validation." /></a>
@@ -9755,7 +9755,7 @@ target="_blank" rel="noopener noreferrer">CodePen: simple input field validation
 <a href="https://codepen.io/w3devcampus/pen/XMQpRa" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image296.png?raw=true"
+<img src="./images/image296.png"
   style="width:50%"
   title="CodePen: using the 'keyup' event"
   alt="CodePen: using the 'keyup' event." /></a>
@@ -9774,7 +9774,7 @@ week to this topic.</h6>
 <a href="https://codepen.io/w3devcampus/pen/yMrgPg" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image297.png?raw=true"
+<img src="./images/image297.png"
   style="width:50%"
   title="CodePen: do something while a slider is being moved"
   alt="CodePen: do something while a slider is being moved." /></a>
@@ -9787,7 +9787,7 @@ target="_blank" rel="noopener noreferrer">CodePen: do something while a slider i
 <a href="https://codepen.io/w3devcampus/pen/LWvxeB" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image298.png?raw=true"
+<img src="./images/image298.png"
   style="width:50%"
   title="CodePen: detect value changes in a number field"
   alt="CodePen: detect value changes in a number field." /></a>
@@ -9800,7 +9800,7 @@ target="_blank" rel="noopener noreferrer">CodePen: detect value changes in a num
 <a href="https://codepen.io/w3devcampus/pen/gmygzV" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image299.png?raw=true"
+<img src="./images/image299.png"
   style="width:50%"
   title="CodePen: example; choose a color"
   alt="CodePen: example; choose a color." /></a>
@@ -9815,7 +9815,7 @@ target="_blank" rel="noopener noreferrer">CodePen: choose a color and do somethi
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 300. keyboard and mouse (249) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image300.jpeg?raw=true"
+<img src="./images/image300.jpeg"
   style="width:25%"
   title="Picture of keyboard and mouse"
   alt="Picture of keyboard and mouse." />
@@ -9925,7 +9925,7 @@ use most of the events displayed in these tables.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 301. type and target (251) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image301.png?raw=true"
+<img src="./images/image301.png"
   style="width:65%"
   title="Type: returns the name of the event &amp; Target: Returns the element that triggered the event"
   alt="Type: returns the name of the event &amp; Target: Returns the element that triggered the event." />
@@ -9935,7 +9935,7 @@ use most of the events displayed in these tables.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 302. preventDefault() and stopPropagation() (252) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image301.png?raw=true"
+<img src="./images/image301.png"
   style="width:65%"
   title="preventDefault() and stopPropagation() functions"
   alt="preventDefault() and stopPropagation() functions." />
@@ -9950,7 +9950,7 @@ the most useful ones for an intro course:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 303. load, resize and scroll (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image301.png?raw=true"
+<img src="./images/image301.png"
   style="width:65%"
   title="load, resize and scroll events"
   alt="load, resize and scroll events." />
@@ -9974,7 +9974,7 @@ canvas size, for example).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 304. keydown, keyup and keypress (252) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image304.png?raw=true"
+<img src="./images/image304.png"
   style="width:65%"
   title="keydown, keyup and keypress"
   alt="keydown, keyup and keypress." />
@@ -9984,7 +9984,7 @@ canvas size, for example).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 305. keyCode (now deprecated), shiftKey, ctrlKey and altKey (253) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image305.png?raw=true"
+<img src="./images/image305.png"
   style="width:65%"
   title="keyCode (now deprecated), shiftKey, ctrlKey and altKey"
   alt="keyCode (now deprecated), shiftKey, ctrlKey and altKey." />
@@ -9996,7 +9996,7 @@ canvas size, for example).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 306. click, dblclick, and many mouse events and contextmenu (253) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image306.png?raw=true"
+<img src="./images/image306.png"
   style="width:65%"
   title="click, dblclick, many mouse events, and contextmenu"
   alt="click, dblclick, many mouse events, and contextmenu." />
@@ -10006,7 +10006,7 @@ canvas size, for example).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 307. button, clientX/Y, pageX/Y, screenX/Y, Key and detail (254) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image307.png?raw=true"
+<img src="./images/image307.png"
   style="width:65%"
   title="button, clientX/Y, pageX/Y, screenX/Y, Key and detail"
   alt="button, clientX/Y, pageX/Y, screenX/Y, Key and detail." />
@@ -10018,7 +10018,7 @@ canvas size, for example).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 308. input, change, focus, blur, select and submit (254) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image308.png?raw=true"
+<img src="./images/image308.png"
   style="width:65%"
   title="input, change, focus, blur, select and submit"
   alt="input, change, focus, blur, select and submit." />
@@ -10051,7 +10051,7 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 309. hand holding stopwatch (255) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image309.png?raw=true"
+<img src="./images/image309.png"
   style="width:25%"
   title="Hand holding stopwatch"
   alt="Hand holding stopwatch." />
@@ -10075,7 +10075,7 @@ target="_blank" rel="noopener noreferrer">
 <a href="https://codepen.io/TKonan/pen/wvQgVJQ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image310.png?raw=true"
+<img src="./images/image310.png"
   style="width:65%"
   title="CodePen: Typing Frenzy by ARK"
   alt="CodePen: Typing Frenzy by ARK." /></a>
@@ -10145,7 +10145,7 @@ showed you:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 311. html and circle (258) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image311.png?raw=true"
+<img src="./images/image311.png"
   style="width:50%"
   title="CodePen: html and red circle"
   alt="CodePen: html and red circle." />
@@ -10196,7 +10196,7 @@ the DOM and of its properties/methods:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 312. firefox devtool console (259) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image312.png?raw=true"
+<img src="./images/image312.png"
   style="width:85%"
   title="Firefox devtool console"
   alt="Firefox devtool console." />
@@ -10207,7 +10207,7 @@ the methods, all the event listeners:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 313. w3cx js.0x javascript introduction (259) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image313.png?raw=true"
+<img src="./images/image313.png"
   style="width:50%"
   title="w3cx js.0x javascript introduction"
   alt="w3cx js.0x javascript introduction." />
@@ -10219,7 +10219,7 @@ will find this option in all modern browsers&apos; devtool consoles:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 314. example: DOM inspector (260) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image314.png?raw=true"
+<img src="./images/image314.png"
   style="width:50%"
   title="DOM inspector"
   alt="DOM inspector." />
@@ -10245,7 +10245,7 @@ problem where you need to manipulate the DOM.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 315. exclamation mark in red triangle (260) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image315.png?raw=true"
+<img src="./images/image315.png"
   style="width:15%"
   title="Exclamation mark in red triangle"
   alt="Exclamation mark in red triangle." />
@@ -10256,7 +10256,7 @@ problem where you need to manipulate the DOM.</p>
 <a href="https://codepen.io/w3devcampus/pen/OpdaxM" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image316.png?raw=true"
+<img src="./images/image316.png"
   style="width:65%"
   title="CodePen Overview: Two buttons and four images"
   alt="CodePen Overview: Two buttons and four images." /></a>
@@ -10270,7 +10270,7 @@ selecting elements in an HTML page, and then do something with these elements.</
 <a href="https://codepen.io/w3devcampus/pen/OpdaxM" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image317.png?raw=true"
+<img src="./images/image317.png"
   style="width:65%"
   title="CodePen: Two buttons defined"
   alt="CodePen: Two buttons defined." /></a>
@@ -10282,7 +10282,7 @@ nothing for the moment, and it contains also 4 images.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 318. codepen: four images defined (262) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image318.png?raw=true"
+<img src="./images/image318.png"
   style="width:65%"
   title="CodePen: four images defined"
   alt="CodePen: four images defined." />
@@ -10291,14 +10291,14 @@ They&apos;ve got some URLs and a width.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 319. function init() (262) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image319.png?raw=true"
+<img src="./images/image319.png"
   style="width:50%"
   title="function init()"
   alt="function init()." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 320. window.onload=init; (262) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image320.png?raw=true"
+<img src="./images/image320.png"
   style="width:50%"
   title="window onload = init"
   alt="window onload = init." />
@@ -10308,7 +10308,7 @@ that is called when the page is loaded.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 321. html code onload and button definitions (263) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image321.png?raw=true"
+<img src="./images/image321.png"
   style="width:65%"
   title="html code onload and button definitions"
   alt="html code onload and button definitions." />
@@ -10323,7 +10323,7 @@ Then we will select all images, and set some CSS properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 322. function init() and console.log 'page loaded' (263) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image322.png?raw=true"
+<img src="./images/image322.png"
   style="width:65%"
   title="function init() and console.log 'page loaded, the dom is ready'"
   alt="function init() and console.log 'page loaded, the dom is ready'." />
@@ -10346,7 +10346,7 @@ You can name it as you like. In that case it&apos;s &quot;currentImage&quot;.</p
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 323. currentImage.style.border example (264) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image323.png?raw=true"
+<img src="./images/image323.png"
   style="width:65%"
   title="Select images using currentImage.style.border"
   alt="Select images using currentImage.style.border." />
@@ -10357,7 +10357,7 @@ a border.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 324. red border added to images (264) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image324.png?raw=true"
+<img src="./images/image324.png"
   style="width:65%"
   title="Add red border to images"
   alt="Add red border to images." />
@@ -10368,11 +10368,11 @@ with a margin of 10 pixels at top, left, right and bottom.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 325/326. before/after border added to 1st image only (265) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image325.png?raw=true"
+<img src="./images/image325.png"
   style="width:45%"
   title="Before border added to 1st image"
   alt="Before border added to 1st image." />
-<img src="./images/image326.png?raw=true"
+<img src="./images/image326.png"
   style="width:45%"
   title="After border added to 1st image"
   alt="After border added to 1st image." />
@@ -10396,7 +10396,7 @@ and you&apos;ve got the same result.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 327. new function resizeAllImages (265) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image327.png?raw=true"
+<img src="./images/image327.png"
   style="width:65%"
   title="New function: resizeAllImages"
   alt="New function: resizeAllImages." />
@@ -10466,7 +10466,7 @@ that corresponds to the whole DOM tree of your web page:</p>
 <a href="https://codepen.io/w3devcampus/pen/OpdaxM" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image328.png?raw=true"
+<img src="./images/image328.png"
   style="width:50%"
   title="Example; querySelector and querySelectorAll"
   alt="Example; querySelector and querySelectorAll." /></a>
@@ -10566,7 +10566,7 @@ target="_blank" rel="noopener noreferrer">W3Cx</a>.</p>
 <a href="https://codepen.io/w3devcampus/pen/evxQMr" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image329.png?raw=true"
+<img src="./images/image329.png"
   style="width:65%"
   title="CodePen Example; Get all li's in ul class"
   alt="CodePen Example; Get all li's in ul class." /></a>
@@ -10622,7 +10622,7 @@ located inside an element of a given id.</h5>
 <a href="https://codepen.io/w3devcampus/pen/MpLzqV" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image330.png?raw=true"
+<img src="./images/image330.png"
   style="width:65%"
   title="Show Checked items inside an element of a given id"
   alt="Show Checked items inside an element of a given id." /></a>
@@ -10714,7 +10714,7 @@ to access it from the &lt;input&gt; child we selected, we use elm.parentNode.</p
 <a href="https://codepen.io/w3devcampus/pen/LWqqqm" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image331.png?raw=true"
+<img src="./images/image331.png"
   style="width:65%"
   title="CodePen: Change background of all paragraphs in element of a given id"
   alt="CodePen: Change background of all paragraphs in element of a given id." /></a>
@@ -10886,7 +10886,7 @@ about CSS):</p>
 <a href="https://codepen.io/w3devcampus/pen/evxoQq" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image332.png?raw=true"
+<img src="./images/image332.png"
   style="width:65%"
   title="Update style within html document"
   alt="Update style within html document." /></a>
@@ -10952,7 +10952,7 @@ collection of class names:</p>
 <a href="https://codepen.io/w3devcampus/pen/GWeJzz" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image333.png?raw=true"
+<img src="./images/image333.png"
   style="width:65%"
   title="CodePen: show checked items and reset list"
   alt="CodePen: show checked items and reset list." /></a>
@@ -11047,7 +11047,7 @@ codePen, open the devtool console):</p>
 <a href="https://codepen.io/w3devcampus/pen/MpxEdj" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image335.png?raw=true"
+<img src="./images/image335.png"
   style="width:65%"
   title="Open the console and look at the JavaScript code"
   alt="Open the console and look at the JavaScript code." /></a>
@@ -11108,7 +11108,7 @@ field, etc.</p>
 <a href="https://codepen.io/w3devcampus/pen/RpdjwE" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image336.png?raw=true"
+<img src="./images/image336.png"
   style="width:65%"
   title="CodePen: Modifying DOM nodes with textContent and innerHTML"
   alt="CodePen: Modifying DOM nodes with textContent and innerHTML." /></a>
@@ -11168,7 +11168,7 @@ using append(), appendChild(), insertBefore() or the innerHTML property.</p>
 <a href="https://codepen.io/w3devcampus/pen/aWeqzO" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image336.png?raw=true"
+<img src="./images/image336.png"
   style="width:65%"
   title="CodePen: Modify attributes of select elements"
   alt="CodePen: Modify attributes of select elements." /></a>
@@ -11231,7 +11231,7 @@ the <b>textContent</b> attribute</h5>
 <a href="https://codepen.io/w3devcampus/pen/aWeqz" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image337.png?raw=true"
+<img src="./images/image337.png"
   style="width:65%"
   title="CodePen: Example, createElement, append, and textContent"
   alt="CodePen: Example, createElement, append, and textContent." /></a>
@@ -11301,7 +11301,7 @@ the innerHTML property:</p>
 <a href="https://codepen.io/w3devcampus/pen/jBJbqM" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image338.png?raw=true"
+<img src="./images/image338.png"
   style="width:65%"
   title="CodePen: Using innerHTML property to add new elements"
   alt="CodePen: Using innerHTML property to add new elements." /></a>
@@ -11334,7 +11334,7 @@ the <b>targetElem.</b></p>
 <a href="https://codepen.io/w3devcampus/pen/peYyPz" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image339.png?raw=true"
+<img src="./images/image339.png"
   style="width:65%"
   title="CodePen: Click a browser image to move to zone area"
   alt="CodePen: Click a browser image to move to zone area." /></a>
@@ -11361,7 +11361,7 @@ dragged image to the div, while removing it from its original location.
 <a href="https://codepen.io/w3devcampus/pen/xwxEZg" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image340.png?raw=true"
+<img src="./images/image340.png"
   style="width:65%"
   title="Drag 'n drop browser images in a zone"
   alt="Drag 'n drop browser images in a zone." /></a>
@@ -11378,7 +11378,7 @@ will check the elements you want to remove from the list!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 341. codepen: removing elements from the dom (286) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image341.png?raw=true"
+<img src="./images/image341.png"
   style="width:65%"
   title="CodePen: Removing elements from the DOM"
   alt="CodePen: Removing elements from the DOM." />
@@ -11448,7 +11448,7 @@ use the ul&apos;s innerHTML property both for emptying the list (<b><i>lines
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 342. how to draw in a canvas (287) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image342.png?raw=true"
+<img src="./images/image342.png"
   style="width:65%"
   title=" "
   alt="." />
@@ -11515,7 +11515,7 @@ filled text, changing colors)</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~ 343.  (290) ~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image343.png?raw=true"
+<img src="./images/image343.png"
   style="width:65%"
   title=""
   alt="." />
@@ -11607,7 +11607,7 @@ filled text, changing colors)</h5>
 <a href="https://codepen.io/w3devcampus/pen/EWMbmE" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image344.png?raw=true"
+<img src="./images/image344.png"
   style="width:65%"
   title="CodePen: Functions that save and restore the context before drawing"
   alt="CodePen: Functions that save and restore the context before drawing." /></a>
@@ -11651,7 +11651,7 @@ saving/restoring the context and using ctx.translate(x, y)!</p>
 <a href="https://codepen.io/w3devcampus/pen/aJMMzL" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image345.png?raw=true"
+<img src="./images/image345.png"
   style="width:65%"
   title="CodePen: DrawMyMonster"
   alt="CodePen: DrawMyMonster." /></a>
@@ -11779,7 +11779,7 @@ the CodePen example below:</p>
 <a href="https://codepen.io/w3devcampus/pen/PpLLKY" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image346.png?raw=true"
+<img src="./images/image346.png"
   style="width:65%"
   title="CodePen: draw drawMyMonster and animate"
   alt="CodePen: draw drawMyMonster and animate." /></a>
@@ -11795,7 +11795,7 @@ CodePen: draw DrawMyMonster and animate</a>.</h6>
 <a href="https://codepen.io/w3devcampus/pen/OpqqqM" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image347.png?raw=true"
+<img src="./images/image347.png"
   style="width:65%"
   title="CodePen: Bouncing Balls"
   alt="CodePen: Bouncing Balls." /></a>
@@ -11939,7 +11939,7 @@ result:
 <a href="https://codepen.io/w3devcampus/pen/bqZypx" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image348.png?raw=true"
+<img src="./images/image348.png"
   style="width:65%"
   title="CodePen: animating multiple objects"
   alt="CodePen: animating multiple objects." /></a>
@@ -11984,7 +11984,7 @@ the <b>createBalls, drawBalls</b> and <b>moveBalls</b> functions now!
 <a href="https://codepen.io/w3devcampus/pen/jBJoLo" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image349.png?raw=true"
+<img src="./images/image349.png"
   style="width:65%"
   title="CodePen: using arrays and loops"
   alt="CodePen: using arrays and loops." /></a>
@@ -12099,7 +12099,7 @@ Let&apos;s look at the new functions we&apos;ve added: 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 350. mouse logo (304) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image350.png?raw=true"
+<img src="./images/image350.png"
   style="width:10%"
   title="Mouse logo"
   alt="Mouse logo." />
@@ -12184,7 +12184,7 @@ Here is an example that shows the problem:
 <a href="https://codepen.io/w3devcampus/pen/Wpmqdw" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image351.png?raw=true"
+<img src="./images/image351.png"
   style="width:65%"
   title="CodePen: position and size in viewport"
   alt="CodePen: position and size in viewport." /></a>
@@ -12215,7 +12215,7 @@ CodePen: Position and Size in viewport</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 352. mouse position x and y coordinates (306) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image352.png?raw=true"
+<img src="./images/image352.png"
   style="width:65%"
   title="Mouse position, x and y coordinates"
   alt="Mouse position, x and y coordinates." />
@@ -12226,7 +12226,7 @@ CodePen: Position and Size in viewport</a>.</p>
 <a href="https://codepen.io/w3devcampus/pen/MpxMQo" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image353.png?raw=true"
+<img src="./images/image353.png"
   style="width:65%"
   title="CodePen: getMousePos"
   alt="CodePen: getMousePos." /></a>
@@ -12251,7 +12251,7 @@ Result (the cursor is approximately at the top left corner):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 354. mouse position (307) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image354.png?raw=true"
+<img src="./images/image354.png"
   style="width:20%"
   title="Mouse position"
   alt="Mouse position." />
@@ -12268,7 +12268,7 @@ shows how to get the mouse button number using the evt.button property.
 <a href="https://codepen.io/w3devcampus/pen/zZbVjW" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image355.png?raw=true"
+<img src="./images/image355.png"
   style="width:65%"
   title="CodePen: example move mouse and click anywhere"
   alt="CodePen: example move mouse and click anywhere." /></a>
@@ -12278,7 +12278,7 @@ CodePen: example move mouse and click</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 356. mouse position click and release button (308) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image356.png?raw=true"
+<img src="./images/image356.png"
   style="width:65%"
   title="Mouse position: click and release button"
   alt="Mouse position: click and release button." />
@@ -12344,7 +12344,7 @@ section to get the correct mouse position:</p>
 <a href="https://codepen.io/w3devcampus/pen/EWMBeR" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image357.png?raw=true"
+<img src="./images/image357.png"
   style="width:65%"
   title="CodePen: working example, get correct mouse position"
   alt="CodePen: working example, get correct mouse position." /></a>
@@ -12447,7 +12447,7 @@ player to all the balls as fast as you can.</p>
 <a href="https://codepen.io/w3devcampus/pen/gmEVJG" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image358.png?raw=true"
+<img src="./images/image358.png"
   style="width:65%"
   title="CodePen: adding collision detection"
   alt="CodePen: adding collision detection." /></a>
@@ -12462,7 +12462,7 @@ target="_blank" rel="noopener noreferrer">HTML5 Apps and Games</a> course module
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 359. blue and yellow circles: no collision/collision (313) ~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image359.png?raw=true"
+<img src="./images/image359.png"
   style="width:20%"
   title="Blue: no collision, yellow: collision"
   alt="Blue: no collision, yellow: collision." />
@@ -12593,7 +12593,7 @@ max speed we would like, the color and size of the player, etc.</p>
 <a href="https://codepen.io/w3devcampus/pen/RpOyRN" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image360.png?raw=true"
+<img src="./images/image360.png"
   style="width:65%"
   title="CodePen: adding input fields"
   alt="CodePen: adding input fields." /></a>
@@ -12733,7 +12733,7 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 361. A monster in the shape of a bacteria (315) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image361.png?raw=true"
+<img src="./images/image361.png"
   style="width:10%"
   title="A monster in the shape of a bacteria"
   alt="A monster in the shape of a bacteria." />
@@ -12756,7 +12756,7 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 362. intro - standard api's (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image362.png?raw=true"
+<img src="./images/image362.png"
   style="width:65%"
   title="Intro: standard HTML API's in your browser"
   alt="Intro: standard HTML API's in your browser." />
@@ -12786,7 +12786,7 @@ difficulty levels will be proposed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 363. geolocation logo (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image363.png?raw=true"
+<img src="./images/image363.png"
   style="width:25%"
   title="Geolocation logo"
   alt="Geolocation logo." />
@@ -12815,7 +12815,7 @@ fundamental concepts are presented.</p>
 <a href="https://codepen.io/w3devcampus/pen/owgeyJ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image364.png?raw=true"
+<img src="./images/image364.png"
   style="width:65%"
   title="CodePen: arrays"
   alt="CodePen: arrays." /></a>
@@ -12831,7 +12831,7 @@ have a good view of each JavaScript concepts.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 365. codepen: example array (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image365.png?raw=true"
+<img src="./images/image365.png"
   style="width:65%"
   title="CodePen: example array"
   alt="CodePen: example array." />
@@ -12844,7 +12844,7 @@ JavaScript are objects.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 366. codepen: example array, #2 (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image366.png?raw=true"
+<img src="./images/image366.png"
   style="width:65%"
   title="CodePen: example array, #2"
   alt="CodePen: example array, #2." />
@@ -12857,7 +12857,7 @@ properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 367. codepen: example array, #3 (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image367.png?raw=true"
+<img src="./images/image367.png"
   style="width:65%"
   title="CodePen: example array, #3"
   alt="CodePen: example array, #3." />
@@ -12870,7 +12870,7 @@ property -- 1. "purple", the last element, is located at index
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 368. codepen: example array, #4 (322) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image368.png?raw=true"
+<img src="./images/image368.png"
   style="width:65%"
   title="CodePen: example array, #4"
   alt="CodePen: example array, #4." />
@@ -12884,7 +12884,7 @@ element I pushed inside: orange. &quot;push&quot; is very useful.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 369. codepen: example array, #5 (322) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image369.png?raw=true"
+<img src="./images/image369.png"
   style="width:65%"
   title="CodePen: example array, #5"
   alt="CodePen: example array, #5." />
@@ -12897,7 +12897,7 @@ To be frank, most of the time I use the &quot;push&quot; method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 370. codepen: example array, #6 (323) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image370.png?raw=true"
+<img src="./images/image370.png"
   style="width:65%"
   title="CodePen: example array, #6"
   alt="CodePen: example array, #6." />
@@ -12911,7 +12911,7 @@ array sorted by ascending alphabetical order.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 371. codepen: example array with object (323) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image371.png?raw=true"
+<img src="./images/image371.png"
   style="width:65%"
   title="CodePen: example array with an object"
   alt="CodePen: example array with an object." />
@@ -12925,7 +12925,7 @@ of the array.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 372. codepen: example array with object, #2 (324) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image372.png?raw=true"
+<img src="./images/image372.png"
   style="width:65%"
   title="CodePen: example array with an object, #2"
   alt="CodePen: example array with an object, #2." />
@@ -12936,7 +12936,7 @@ this element, .givenName corresponds to this property.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 373. codepen: example array with object, #3 (324) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image373.png?raw=true"
+<img src="./images/image373.png"
   style="width:65%"
   title="CodePen: example array with an object, #3"
   alt="CodePen: example array with an object, #3." />
@@ -12961,7 +12961,7 @@ the one we had first, now it&apos;s a sorted array.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 374. CodePen: example remove an element from array using splice (325) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image374.png?raw=true"
+<img src="./images/image374.png"
   style="width:65%"
   title="CodePen: example remove an element from array using splice"
   alt="CodePen: example remove an element from array using splice." />
@@ -12975,7 +12975,7 @@ the element in the middle with the age 20.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 375. CodePen: example remove an element from array using splice, #2 (325) ~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image375.png?raw=true"
+<img src="./images/image375.png"
   style="width:65%"
   title="CodePen: example remove an element from array using splice, #2"
   alt="CodePen: example remove an element from array using splice, #2." />
@@ -13036,7 +13036,7 @@ keys/indexes and values from the above example:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 376. Table with key and value of the previous array example (326) ~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image376.jpeg?raw=true"
+<img src="./images/image376.jpeg"
   style="width:15%"
   title="Table with key and value of the previous array example"
   alt="Table with key and value of the previous array example." />
@@ -13489,7 +13489,7 @@ predefined objects&quot;). Without going into detail just yet, here are some exa
 <a href="https://codepen.io/w3devcampus/pen/VWYMNK" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image377.png?raw=true"
+<img src="./images/image377.png"
   style="width:65%"
   title="CodePen: iterating on array elements"
   alt="CodePen: iterating on array elements." /></a>
@@ -13513,7 +13513,7 @@ of the days, on the array of days.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 378. codepen: using document.body.innerHTML (335) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image378.png?raw=true"
+<img src="./images/image378.png"
   style="width:65%"
   title="CodePen: example using document.body.innerHTML"
   alt="CodePen: example using document.body.innerHTML." />
@@ -13530,7 +13530,7 @@ it works. You choose the name of the variable.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 379. codepen: using document.body.innerHTML, #2 (336) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image379.png?raw=true"
+<img src="./images/image379.png"
   style="width:65%"
   title="CodePen: example using document.body.innerHTML, #2"
   alt="CodePen: example using document.body.innerHTML, #2." />
@@ -13543,7 +13543,7 @@ element in the array at index 0. Tuesday is the element at the index 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 380. codepen: document.body.innerHTML with 'for each' (336) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image380.png?raw=true"
+<img src="./images/image380.png"
   style="width:65%"
   title="CodePen: example document.body.innerHTML with 'for each'"
   alt="CodePen: example document.body.innerHTML with 'for each'." />
@@ -13559,7 +13559,7 @@ simple.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 381. codepen: document.body.innerHTML with 'for each', #2 (337) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image381.png?raw=true"
+<img src="./images/image381.png"
   style="width:65%"
   title="CodePen: example document.body.innerHTML with 'for each', #2"
   alt="CodePen: example document.body.innerHTML with 'for each', #2." />
@@ -13582,7 +13582,7 @@ It depends.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 382. codepen: document.body.innerHTML with 'for each', #3 (337) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image382.png?raw=true"
+<img src="./images/image382.png"
   style="width:65%"
   title="CodePen: example document.body.innerHTML with 'for each', #3"
   alt="CodePen: example document.body.innerHTML with 'for each', #3." />
@@ -13637,7 +13637,7 @@ a collection (array, string);</p>
 <a href="https://codepen.io/w3devcampus/pen/QpRybG" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image383.png?raw=true"
+<img src="./images/image383.png"
   style="width:65%"
   title="CodePen: iterating on each element"
   alt="CodePen: iterating on each element." /></a>
@@ -13652,7 +13652,7 @@ function in order to get the index of the current element:</p>
 <a href="https://codepen.io/w3devcampus/pen/rygxpr" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image384.png?raw=true"
+<img src="./images/image384.png"
   style="width:65%"
   title="CodePen: iterating on an array of person, and use 2 parms in callback function"
   alt="CodePen: iterating on an array of person, and use 2 parms in callback function." /></a>
@@ -13682,7 +13682,7 @@ special things within the array (add/change/move elements during the iteration)
 <a href="https://codepen.io/w3devcampus/pen/ZKyMQj" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image385.png?raw=true"
+<img src="./images/image385.png"
   style="width:65%"
   title="CodePen: array iteration"
   alt="CodePen: array iteration." /></a>
@@ -13707,7 +13707,7 @@ to be broken in the middle using the break instruction, etc.</p>
 <a href="https://codepen.io/w3devcampus/pen/evaJKL" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image386.png?raw=true"
+<img src="./images/image386.png"
   style="width:65%"
   title="CodePen: iterating over all elements in an array, using a for loop"
   alt="CodePen: iterating over all elements in an array, using a for loop." /></a>
@@ -13722,7 +13722,7 @@ in the for loop):</p>
 <a href="https://codepen.io/w3devcampus/pen/zZQrme" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image387.png?raw=true"
+<img src="./images/image387.png"
   style="width:65%"
   title="CodePen: iterate two by two"
   alt="CodePen: iterate two by two." /></a>
@@ -13812,7 +13812,7 @@ target="_blank" rel="noopener noreferrer">CodePen: iterate two by two</a>.</h6>
 <a href="https://codepen.io/w3devcampus/pen/KqzPOm" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image388.png?raw=true"
+<img src="./images/image388.png"
   style="width:65%"
   title="CodePen: iterating pictures and create img elements"
   alt="CodePen: iterating pictures and create img elements." /></a>
@@ -13908,7 +13908,7 @@ does not work!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 389. beware: cannot embed social media videos (344) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image389.png?raw=true"
+<img src="./images/image389.png"
   style="width:65%"
   title="Beware: cannot embed social media videos"
   alt="Beware: cannot embed social media videos." />
@@ -13941,7 +13941,7 @@ target="_blank" rel="noopener noreferrer">YouTube</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 390. Example YouTube video (345) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image390.png?raw=true"
+<img src="./images/image390.png"
   style="width:50%"
   title="Example YouTube video"
   alt="Example YouTube video." />
@@ -13989,7 +13989,7 @@ target="_blank" rel="noopener noreferrer">online example from JSBin</a></p>
 <a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg" 
 target="_blank" rel="noopener noreferrer">
 <p align="left" width="100%">
-<img src="./images/image391.png?raw=true"
+<img src="./images/image391.png"
   style="width:25%"
   title="Horse neigh"
   alt="Horse neigh." /></a>
@@ -14043,7 +14043,7 @@ does not support the &lt;audio&gt; element. This is also a best practice!</p>
 <a href="https://codepen.io/w3devcampus/pen/WOvVPQ?editors=0011" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image392.png?raw=true"
+<img src="./images/image392.png"
   style="width:65%"
   title="CodePen: JavaScript API"
   alt="CodePen: JavaScript API." /></a>
@@ -14055,7 +14055,7 @@ can use from your JavaScript code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 393. audio/video player JS API's (347) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image393.png?raw=true"
+<img src="./images/image393.png"
   style="width:65%"
   title="Audio/Video player JavaScript API's"
   alt="Audio/Video player JavaScript API's." />
@@ -14067,7 +14067,7 @@ your own custom video player.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 394. adding video player to html document (348) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image394.png?raw=true"
+<img src="./images/image394.png"
   style="width:65%"
   title="Adding video player to HTML document"
   alt="Adding video player to HTML document." />
@@ -14090,7 +14090,7 @@ browser will choose.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 395. audio control overlapping image (348) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image395.png?raw=true"
+<img src="./images/image395.png"
   style="width:65%"
   title="Audio control overlapping image"
   alt="Audio control overlapping image." />
@@ -14120,7 +14120,7 @@ will get a reference to the video player.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 396. window onload initialize with video player (349) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image396.png?raw=true"
+<img src="./images/image396.png"
   style="width:65%"
   title="Window onload initialize with video player"
   alt="Window onload initialize with video player." />
@@ -14134,7 +14134,7 @@ all the methods you can use?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 397. video controls in API (350) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image397.png?raw=true"
+<img src="./images/image397.png"
   style="width:65%"
   title="Video controls in API"
   alt="Video controls in API." />
@@ -14148,7 +14148,7 @@ methods you can call when you see parenthesis: <b>play(), pause()</b>&#41;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 398. example, video controls in API (350) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image398.png?raw=true"
+<img src="./images/image398.png"
   style="width:65%"
   title="Example, video controls in API"
   alt="Example, video controls in API." />
@@ -14170,7 +14170,7 @@ when one is finished, the other starts and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 399. add play and pause buttons (351) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image399.png?raw=true"
+<img src="./images/image399.png"
   style="width:65%"
   title="Add play and pause buttons"
   alt="Add play and pause buttons." />
@@ -14182,7 +14182,7 @@ video and I can pause it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 400. add rewind button (351) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image400.png?raw=true"
+<img src="./images/image400.png"
   style="width:65%"
   title="Add rewind button"
   alt="Add rewind button." />
@@ -14196,7 +14196,7 @@ object.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 401. test example, rewind currentTime (352) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image401.png?raw=true"
+<img src="./images/image401.png"
   style="width:65%"
   title="Test example, rewind currentTime"
   alt="Test example, rewind currentTime." />
@@ -14287,7 +14287,7 @@ names show the properties, events, and methods from the API.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 402. table of methods, properties and events (354) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image402.png?raw=true"
+<img src="./images/image402.png"
   style="width:65%"
   title="Table: most interesting methods, properties and events"
   alt="Table: most interesting methods, properties and events." />
@@ -14302,7 +14302,7 @@ target="_blank" rel="noopener noreferrer">complete list</a> is much longer!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 403. how to use media properties, methods and events (355) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image403.png?raw=true"
+<img src="./images/image403.png"
   style="width:65%"
   title="How to use media properties, methods and events"
   alt="How to use media properties, methods and events." />
@@ -14331,7 +14331,7 @@ setting the currentTime property to zero.</p>
 <a href="https://codepen.io/w3devcampus/pen/dyvjoKV" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image404.png?raw=true"
+<img src="./images/image404.png"
   style="width:65%"
   title="CodePen: example media API"
   alt="CodePen: example media API." /></a>
@@ -14340,7 +14340,7 @@ target="_blank" rel="noopener noreferrer">CodePen: example media API</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 405. example, custom controls (356) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image405.png?raw=true"
+<img src="./images/image405.png"
   style="width:30%"
   title="Example, custom controls"
   alt="Example, custom controls." />
@@ -14403,7 +14403,7 @@ when the video is ended.</p>
 <a href="https://codepen.io/w3devcampus/pen/poeZJGo" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image406.png?raw=true"
+<img src="./images/image406.png"
   style="width:65%"
   title="CodePen: listen and callback"
   alt="CodePen: listen and callback." /></a>
@@ -14439,7 +14439,7 @@ with the next video.</p>
 <a href="https://codepen.io/w3devcampus/pen/jOBpbqP" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image407.png?raw=true"
+<img src="./images/image407.png"
   style="width:65%"
   title="CodePen: progress cursor"
   alt="CodePen: progress cursor." /></a>
@@ -14545,7 +14545,7 @@ pages. Click on &quot;Edit on CodePen&quot; to run them.</b></p>
 <a href="https://codepen.io/w3devcampus/pen/OpYNBE" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image408.png?raw=true"
+<img src="./images/image408.png"
   style="width:65%"
   title="CodePen: using callback, #1"
   alt="CodePen: using callback, #1." /></a>
@@ -14564,7 +14564,7 @@ below).</p>
 <a href="https://codepen.io/w3devcampus/pen/EWzKrK" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image409.png?raw=true"
+<img src="./images/image409.png"
   style="width:65%"
   title="CodePen: using callback promise, #2"
   alt="CodePen: using callback promise, #2." /></a>
@@ -14591,7 +14591,7 @@ target="_blank" rel="noopener noreferrer">Chris Heilmann</a>, and tuned by us ;)
 <a href="https://codepen.io/w3devcampus/pen/bGqjVWG" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image410.png?raw=true"
+<img src="./images/image410.png"
   style="width:65%"
   title="CodePen: example CSS3 transformation"
   alt="CodePen: example CSS3 transformation." /></a>
@@ -14621,7 +14621,7 @@ with this example below:</p>
 <a href="https://codepen.io/w3devcampus/pen/abJjvqY" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image411.png?raw=true"
+<img src="./images/image411.png"
   style="width:65%"
   title="CodePen: handling events for the video element"
   alt="CodePen: handling events for the video element." /></a>
@@ -14679,7 +14679,7 @@ CodePen: example events for the video element</a>.</h6>
 <a href="https://codepen.io/w3devcampus/pen/vYxaNMq" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image412.png?raw=true"
+<img src="./images/image412.png"
   style="width:65%"
   title="CodePen: check progress of buffering"
   alt="CodePen: check progress of buffering." /></a>
@@ -14777,7 +14777,7 @@ previously.</p>
 <a href="https://codepen.io/w3devcampus/pen/LYWBGYa" 
 target="_blank" rel="noopener noreferrer">
 <p align="left" width="100%">
-<img src="./images/image413.png?raw=true"
+<img src="./images/image413.png"
   style="width:10%"
   title="CodePen: custom video player"
   alt="CodePen: custom video player." /></a>
@@ -14825,7 +14825,7 @@ custom player with nice CSS and buttons</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 414. media player logo (366) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image414.png?raw=true"
+<img src="./images/image414.png"
   style="width:10%"
   title="Media Player logo"
   alt="Media Player logo." />
@@ -14881,7 +14881,7 @@ with several examples.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 363. geolocation logo (367) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image363.png?raw=true"
+<img src="./images/image363.png"
   style="width:20%"
   title="Geolocation logo"
   alt="Geolocation logo." />
@@ -14930,7 +14930,7 @@ latitude, using online Web services?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 415. geolocation map (367) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image415.png?raw=true"
+<img src="./images/image415.png"
   style="width:65%"
   title="Geolocation map"
   alt="Geolocation map." />
@@ -14943,7 +14943,7 @@ Leafletjs.com</a>). However, we think having such a basic example might be usefu
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 416. codepen: example click to show your location (367) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image416.png?raw=true"
+<img src="./images/image416.png"
   style="width:65%"
   title="CodePen: example click to show your location"
   alt="CodePen: example click to show your location." />
@@ -15053,7 +15053,7 @@ Let&apos;s see some examples of use.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 417. mapquest: longitude and latitude (369) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image417.png?raw=true"
+<img src="./images/image417.png"
   style="width:65%"
   title="Mapquest: longitude and latitude"
   alt="Mapquest: longitude and latitude." />
@@ -15175,7 +15175,7 @@ used to convert to a physical address.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 418.  (372) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image418.png?raw=true"
+<img src="./images/image418.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15191,7 +15191,7 @@ Due to security reasons, it cannot run embedded in this page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 419.  (372) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image419.png?raw=true"
+<img src="./images/image419.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15213,7 +15213,7 @@ reasons the embedded version cannot run in this page):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 420.  (373) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image420.png?raw=true"
+<img src="./images/image420.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15239,7 +15239,7 @@ post your comments/observations/questions or share your creations.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 421.  (373) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image421.jpeg?raw=true"
+<img src="./images/image421.jpeg"
   style="width:40%"
   title="Devtool console geolocation simulation"
   alt="Devtool console geolocation simulation." />
@@ -15295,7 +15295,7 @@ perfect for providing a background atmosphere in a video game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 422.  (374) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image422.png?raw=true"
+<img src="./images/image422.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15309,7 +15309,7 @@ Live coding lesson: using sound samples
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 423.  (375) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image423.png?raw=true"
+<img src="./images/image423.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15322,7 +15322,7 @@ for adding to your page an audio player.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 424.  (375) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image424.png?raw=true"
+<img src="./images/image424.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15336,7 +15336,7 @@ remove the controls attribute. Then, I can completely hide the player.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 425.  (376) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image425.png?raw=true"
+<img src="./images/image425.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15348,7 +15348,7 @@ video player, I declare an audio player, here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 426.  (376) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image426.png?raw=true"
+<img src="./images/image426.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15358,7 +15358,7 @@ play function, that will get a reference on the player.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 427.  (377) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image427.png?raw=true"
+<img src="./images/image427.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15368,7 +15368,7 @@ play and pause methods to play and pause the music.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 428.  (377) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image428.png?raw=true"
+<img src="./images/image428.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15383,7 +15383,7 @@ high level libraries for making this task easier. One of them is called
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 429.  (378) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image429.png?raw=true"
+<img src="./images/image429.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15395,7 +15395,7 @@ tag.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 430.  (378) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image430.png?raw=true"
+<img src="./images/image430.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15405,7 +15405,7 @@ And then from JavaScript, you can use it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 431.  (379) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image431.png?raw=true"
+<img src="./images/image431.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15415,7 +15415,7 @@ Let&apos;s look at the way the play sound is implemented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (379) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image432.png?raw=true"
+<img src="./images/image432.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15425,7 +15425,7 @@ referring to, here, has been loaded when the page was ready.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433.  (380) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image433.png?raw=true"
+<img src="./images/image433.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15460,7 +15460,7 @@ decode it in memory, and play it:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434.  (381) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image434.png?raw=true"
+<img src="./images/image434.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15544,7 +15544,7 @@ effects (when the player eats a ball):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 435. codepen: music and sound effects (383) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image435.png?raw=true"
+<img src="./images/image435.png"
   style="width:65%"
   title="CodePen: music and sound effects"
   alt="CodePen: music and sound effects." />
@@ -15569,7 +15569,7 @@ this sample has been loaded and decoded do we start the animation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (384) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image436.png?raw=true"
+<img src="./images/image436.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15584,7 +15584,7 @@ will start the game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (384) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image436.png?raw=true"
+<img src="./images/image436.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15598,7 +15598,7 @@ indicate their URLs. So "backgroundImage" it&apos;s a PNG, logo it&apos;s a PNG,
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image436.png?raw=true"
+<img src="./images/image436.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15611,7 +15611,7 @@ background. How do you load all these assets?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image432.png?raw=true"
+<img src="./images/image432.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15625,7 +15625,7 @@ really start the game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image433.png?raw=true"
+<img src="./images/image433.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15635,7 +15635,7 @@ we talked earlier.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image434.png?raw=true"
+<img src="./images/image434.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15644,7 +15644,7 @@ And how are we going to use this for playing music for example?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 435.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image435.png?raw=true"
+<img src="./images/image435.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15658,7 +15658,7 @@ sample every 1000 milliseconds&#41; every second.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image436.png?raw=true"
+<img src="./images/image436.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15711,7 +15711,7 @@ uncomment in the <b>startGame(&#133;)</b> function):
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 437.  (389) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image437.png?raw=true"
+<img src="./images/image437.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15821,7 +15821,7 @@ written by students like you who followed the HTML5 advanced course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 438.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image438.jpeg?raw=true"
+<img src="./images/image438.jpeg"
   style="width:65%"
   title="Star Warrior, an HTML5 games that uses the multiple asset loader"
   alt="Star Warrior, an HTML5 games that uses the multiple asset loader." />
@@ -15849,7 +15849,7 @@ rotated, etc. It also uses the multiple asset loader presented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 439.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image439.png?raw=true"
+<img src="./images/image439.png"
   style="width:65%"
   title=""
   alt="Audio music." />
@@ -15861,7 +15861,7 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 440.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image440.png?raw=true"
+<img src="./images/image440.png"
   style="width:20%"
   title=""
   alt="Audio music." />
@@ -15913,7 +15913,7 @@ Video
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 441.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image441.png?raw=true"
+<img src="./images/image441.png"
   style="width:65%"
   title=""
   alt="." />
@@ -15998,13 +15998,13 @@ And we access properties values using the &quot;.&quot; operator, like this:
 5.  5
 </pre>
 
-<b>However, we haven&apos;t explained 90% of what is going on, and what we
+<p><b>However, we haven&apos;t explained 90% of what is going on, and what we
 can do with &quot;objects&quot;.</b> Our objective in this module, is to explain
 the most important features of objects, while keeping it simple (more
 advanced topics will be taught in a future &quot;JavaScript Advanced&quot;
-course, such as prototypes, context binding, etc.).
+course, such as prototypes, context binding, etc.).</p>
 
-Features you will learn:
+<h5>Features you will learn:</h5>
 
 -   The relationship between JavaScript objects and arrays,
 
@@ -16029,75 +16029,73 @@ Features you will learn:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Live coding transcript: object&apos;s properties
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 442.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 442. codepen: js object properties (397) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image442.png?raw=true"
+<img src="./images/image442.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: JS object properties"
+  alt="CodePen: JS object properties." />
 
-Hello!
+<p>This module is about JavaScript object oriented programming. In other
+words, we&apos;ll talk a lot about JavaScript objects.</p>
 
-This module is about JavaScript object oriented programming. In other
-words, we&apos;ll talk a lot about JavaScript objects.
-
-This first video, we will focus on JavaScript object properties. The
+<p>This first lesson, we will focus on JavaScript object properties. The
 properties are these small parts in the object description that describe
 the object's characteristics. So far, we mainly saw what we call "object
-literals" or "singleton objects".
+literals" or "singleton objects".</p>
 
-They're objects that use this syntax: you use the "let" or the "var"
+<p>They're objects that use this syntax: you use the "let" or the "var"
 keyword followed by the name of the object, by braces, and between
 braces you&apos;ve got some pairs: property name, columns and property
-value.
+value.</p>
 
-In order to access the properties, you use the name of object: js1. You
+<p>In order to access the properties, you use the name of object: js1. You
 use the &apos;.&apos; operator followed by the name of the properties. js1.weeks
 will display the value of the week&apos;s properties for the object js1:
 &quot;the JavaScript 1 course lasts 5 weeks&quot;. You can also access other
-properties like author: &quot;Michel Buffa&quot;.
+properties like author: &quot;Michel Buffa&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 443.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 443. codepen: arrays and elements (398) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image443.png?raw=true"
+<img src="./images/image443.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: arrays and elements"
+  alt="CodePen: arrays and elements." />
 
-Then let&apos;s have a look at some arrays. Here, we&apos;ve got an array named
+<p>Then let&apos;s have a look at some arrays. Here, we&apos;ve got an array named
 "darkVador1asAnArray" and you can access the different elements of an
 array, using brackets followed by the index, "0" being the first
-element.
+element.</p>
 
-So "darkVador1asAnArray&lbrack;0&rbrack;" will display "villain". That is the value
+<p>So "darkVador1asAnArray&lbrack;0&rbrack;" will display "villain". That is the value
 of the first element. If you look at "darkVadorAsAnObject", in that case
-we use the &apos;.&apos; operator and the name of the property: job.
+we use the &apos;.&apos; operator and the name of the property: job.</p>
 
-If you look at the two notations, the one with the array and the one
+<p>If you look at the two notations, the one with the array and the one
 with a property name and the &apos;.&apos; operator, they look rather similar.
 And if you look at the type of the "darkVador1asAnArray" variable, it&apos;s
 an object. In fact, objects declared with braces and pairs of property
-and name are very very similar to arrays because arrays are objects too.
+and name are very very similar to arrays because arrays are objects too.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 444.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 444. codepen: objects, arrays, and indexes (399) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image444.png?raw=true"
+<img src="./images/image444.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: objects, arrays, and indexes"
+  alt="CodePen: objects, arrays, and indexes." />
 
-If I use the name of the property with the brackets notation, look at
+<p>If I use the name of the property with the brackets notation, look at
 that: darkVadorAsAnObject&lbrack;&rbrack;, the name of the property (job) then&#133;
 you&apos;ve got the exact same result as if you're using the &apos;.&apos; operator.
 In JavaScript objects are arrays whose indexes are the property names.
-They are very very similar.
+They are very very similar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 445.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 445. codepen: example property names (399) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image445.png?raw=true"
+<img src="./images/image445.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example property names"
+  alt="CodePen: example property names." />
 
 <p>Look at this object named "book": book.title &#133; Le Petit Prince and
 book&lbrack;&apos;title&apos;&rbrack; will give exactly the same result.Why would you use
@@ -16106,23 +16104,23 @@ this notation for accessing properties?</p>
 <p>It&apos;s because in some cases you can have property names that include
 spaces or that start with a number.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 446.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 446. codepen: define object & property (400) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image446.png?raw=true"
+<img src="./images/image446.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: define object and property"
+  alt="CodePen: define object and property." />
 
 <p>For example, if I write this: book&lbrack;&apos;1stPublication&apos;&rbrack; as an index, it
 works. And if I type the object book, I can see that I defined the
 property that is named &quot;1stPublication.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 447.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 447. using '.' notation to set property (400) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image447.png?raw=true"
+<img src="./images/image447.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: using '.' notation to set property"
+  alt="CodePen: using '.' notation to set property." />
 
 <p>But if I use the &apos;.&apos; notation, and if I try to set this property,
 it&apos;s invalid because the property name when used with the &apos;.&apos;
@@ -16137,12 +16135,12 @@ property in a variable. For example, I&apos;ve got in the variable named
 except that in that case the name of the property is the value of the
 "key" variable.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 448.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 448. codepen: object embedded in an object (401) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image448.png?raw=true"
+<img src="./images/image448.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: object embedded in an object"
+  alt="CodePen: object embedded in an object." />
 
 <p>I type key ="name" &#133; "book2" that is an object with the name. I can
 type &quot;book2.key3", it&apos;s exactly the same as typing "book2.name". You
@@ -16290,7 +16288,6 @@ and &apos;&rbrack;&apos; &#41;</p>
 4.  <b>book&lbrack;key&rbrack;;</b>
 5.  &quot;Le Petit Prince&quot;
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-4">4.2.4 An object can contain another object</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -16314,70 +16311,66 @@ and &apos;&rbrack;&apos; &#41;</p>
 15. &quot;Heller&quot;
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 449.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 449. stack of books logo (404) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image449.jpeg?raw=true"
+<img src="./images/image449.jpeg"
   style="width:10%"
-  title="List of books"
-  alt="List of books." />
-<p>Accessing the embedded object author is
-done by chaining property accesses using the &quot;.&quot; operator, like
-in book.author.givenName (here we access the givenName property of the
-object author, which is also a property of the book object).</p>
+  title="Stack of books logo"
+  alt="Stack of books logo." />
+
+<p>Accessing the embedded object author is done by chaining property accesses 
+using the &quot;.&quot; operator, like in book.author.givenName (here we access 
+the givenName property of the object author, which is also a property of the book 
+object).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-5">4.2.5 Elements, properties and methods (6:37)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding transcript: object methods</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 450.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 450. codepen: object methods (405) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image450.png?raw=true"
+<img src="./images/image450.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: object methods"
+  alt="CodePen: object methods." />
 
 <p>In this lesson, we will talk about objects' methods and about the "this"
 keyword that is very useful when using methods that will access
 properties inside an object, or methods that will call other methods.</p>
 
-For arrays, we speak of elements but for objects, we talk about
-properties.
+<p>For arrays, we speak of elements but for objects, we talk about
+properties. But we can also have some functions that will be assigned to properties
+and a property that is equal to a function is called: a method.</p>
 
-But we can also have some functions that will be assigned to properties
-and a property that is equal to a function is called: a method.
-
-With objects, properties correspond to characteristics of objects, to
+<p>With objects, properties correspond to characteristics of objects, to
 their DNA, while methods will correspond to the behavior of the objects.
-
 If you&apos;ve got a dog, we can call a method named "bark". It will mean:
-hey Medor (the dog's name), please bark!
+hey Medor (the dog's name), please bark!</p>
 
-If you&apos;ve got a person -an object person- with a method named
+<p>If you&apos;ve got a person -an object person- with a method named
 describeYourself, it&apos;s like if you are talking to the person:
 person.describeYourself(), you are calling the method describeYourself
 on the object person, you are talking to the person and you expect a
-behavior.
-
-It will describe itself.
+behavior. It will describe itself.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 451.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 451. codepen: object, property & method (406) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image451.png?raw=true"
+<img src="./images/image451.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: object, property &amp; method"
+  alt="CodePen: object, property &amp; method." />
 
 <p>Let&apos;s have a look at some examples. so here we&apos;ve got an object named
 "medor" with the property "name" and the method "bark". If I open the
 console, I can type the name of the object. And, we see that it&apos;s got a
 name and a method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 452.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 452. codepen: example calling a method (406) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image452.png?raw=true"
+<img src="./images/image452.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example calling a method"
+  alt="CodePen: example calling a method." />
 
 <p>And to call a method, it&apos;s the same as with accessing properties, you
 use the &apos;.&apos; operator, method . the name of the function followed by
@@ -16385,12 +16378,12 @@ parenthesis and if the method take arguments, you would add arguments
 between parenthesis. It&apos;s just displayed an alert saying "Ouaf, Ouaf!"
 because the dog does "Ouaf, Ouaf!".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 453.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 453. codepen: example object & method (407) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image453.png?raw=true"
+<img src="./images/image453.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example object and method"
+  alt="CodePen: example object and method." />
 
 <p>Let&apos;s have a look at another example. Here, we&apos;ve got an object named
 darkVador with properties and a method. Here we&apos;ve got the
@@ -16407,16 +16400,17 @@ display the name of variable. But if I&apos;ve had "this." before, it means
 the "job" of this object, the "job" property of this object. Let&apos;s try
 it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 454/455.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 454/455. example method describeYourself (407) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image454.png?raw=true"
-  style="width:35%"
-  title=""
-  alt="." />
-<img src="./images/image455.png?raw=true"
-  style="width:35%"
-  title=""
-  alt="." />
+<img src="./images/image454.png"
+  style="width:45%"
+  title="CodePen: example method describeYourself"
+  alt="CodePen: example method describeYourself." />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./images/image455.png"
+  style="width:45%"
+  title="CodePen: output of darkVador.describeYourself()"
+  alt="CodePen: output of darkVador.describeYourself()." />
 </p>
 
 <p>You see that it displays "I&apos;m a human and I&apos;m a villain " blah blah
@@ -16425,12 +16419,12 @@ blah&#133;And "human" and "villain" are the values of the "race" and the
 this value. You can also use the "this" keyword for calling a method
 from another method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 456.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 456. codepen: calling method from another method (408) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image456.png?raw=true"
+<img src="./images/image456.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: calling method from another method"
+  alt="CodePen: calling method from another method." />
 </p>
 
 <p>Let&apos;s add a "console.log("hello I&apos;m describeYourself!!!")", and let&apos;s
@@ -16441,12 +16435,12 @@ method. And I save and if you call the talk method, you see that it says
 side", that is in the talk method, because this.describeYourself()
 executed describeYourself from the talk method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 457.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 457. codepen: methods (408) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image457.png?raw=true"
+<img src="./images/image457.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: methods"
+  alt="CodePen: methods." />
 </p>
 
 <p>In the example, I have also a click event listener that you can try that
@@ -16454,28 +16448,29 @@ will display a message in the HTML5 page itself. It just shows that we
 can call method by using the name of this object followed by the name of
 the method with parentheses.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 458.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 458. codepen: methods and 'this' (409) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image458.png?raw=true"
+<img src="./images/image458.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: methods and 'this'"
+  alt="CodePen: methods and 'this'." />
 </p>
 
 <p>Ok, there is another interesting way to define objects and to add and
 remove properties and methods. You can describe an object with 0
 property or method, or just few of them. And you can complete it, you
-can add properties and methods after its creation. We created an empty
-object named darkVador, and we defined properties (race and job),
-methods (talk and describeYourself) after the creation of the object.
-You can try this example, it will work the same.</p>
+can add properties and methods after its creation.</p>
+
+<p>We created an empty object named darkVador, and we defined properties 
+(race and job), methods (talk and describeYourself) after the creation of 
+the object. You can try this example, it will work the same.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 459.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 459. codepen: example empty object with properties & methods (410) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image459.png?raw=true"
+<img src="./images/image459.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: example empty object with properties &amp; methods"
+  alt="CodePen: example empty object with properties &amp; methods." />
 </p>
 
 <p>And if we look at the value of the darkVador object in the devtool
@@ -16535,15 +16530,16 @@ with the method&apos;s name as a string index).
 
 Let&apos;s see some examples:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 460.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 460. codepen: example calling a method (411) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/RpmzQY"
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image460.png?raw=true"
+<img src="./images/image460.png"
   style="width:65%"
-  title=""
-  alt="." />
-</p>
+  title="CodePen: example calling a method"
+  alt="CodePen: example calling a method." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/RpmzQY"
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: example calling a method</a>.</h6>
 
 <h5>JavaScript source code:</h5>
 
@@ -16578,15 +16574,16 @@ talk. We invoke its behavior!</p>
 
 <p>Here is the last version of the player object we saw in our small game:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 461.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 461. codepen: example player object (412) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/xqNoJX" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image461.png?raw=true"
+<img src="./images/image461.png"
   style="width:65%"
-  title=""
-  alt="." />
-</p>
+  title="CodePen: example player object"
+  alt="CodePen: example player object." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/xqNoJX" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: example player object</a>.</h6>
 
 <h5>JavaScript source code:</h5>
 
@@ -16670,14 +16667,14 @@ properties from a method or call other methods.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-6">4.2.6 &quot;this&quot;: accessing properties (3:37)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h5>Live coding video: add methods to the player object from the game</h5>
+<h5>Live coding lesson: add methods to the player object from the game</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 462. "this" (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 462. "this" accessing properties (413) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image462.png?raw=true"
+<img src="./images/image462.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="'this': accessing properties"
+  alt="'this': accessing properties." />
 </p>
 
 <p>Let&apos;s have a look now at the game we developed during the first three
@@ -16766,7 +16763,7 @@ this time fully functional:</h5>
 <a href="https://codepen.io/w3devcampus/pen/oZRrQd" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image463.png?raw=true"
+<img src="./images/image463.png"
   style="width:65%"
   title="CodePen: 'this' example"
   alt="CodePen: 'this' example." /></a>
@@ -16828,7 +16825,7 @@ occurrences of ctx in the code).</p>
 <a href="https://codepen.io/w3devcampus/pen/JWqgGZ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image464.png?raw=true"
+<img src="./images/image464.png"
   style="width:50%"
   title="CodePen: example Dark Vador in a method"
   alt="CodePen: example Dark Vador in a method." /></a>
@@ -16883,7 +16880,7 @@ or to remove properties after an object has been created.</h5>
 <a href="https://codepen.io/w3devcampus/pen/WpqeyK" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image465.png?raw=true"
+<img src="./images/image465.png"
   style="width:50%"
   title="CodePen: example add properties and methods"
   alt="CodePen: example add properties and methods." /></a>
@@ -16921,7 +16918,7 @@ property (it will become undefined).</p>
 <a href="https://codepen.io/w3devcampus/pen/RpzNEP" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image466.png?raw=true"
+<img src="./images/image466.png"
   style="width:50%"
   title="CodePen: example"
   alt="CodePen: example." /></a>
@@ -16966,7 +16963,7 @@ programming languages.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 467. dark vador and his friend pikachu (16x) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image467.jpeg?raw=true"
+<img src="./images/image467.jpeg"
   style="width:20%"
   title="Dark vador and his friend named pikachu"
   alt="Dark vador and his friend named pikachu." />
@@ -17013,7 +17010,7 @@ ES5&apos;s function constructors, and with modern JavaScript&apos;s classes!</
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 468. introduction to 'new' keyword (422) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image468.png?raw=true"
+<img src="./images/image468.png"
   style="width:65%"
   title="The 'new' keyword"
   alt="The 'new' keyword." />
@@ -17051,7 +17048,7 @@ JavaScript 5 are in many, many examples on the Web, I will show you that to you 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 468a. simple function (423) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image468a.png?raw=true"
+<img src="./images/image468a.png"
   style="width:65%"
   title="Simple function"
   alt="Simple function." />
@@ -17071,7 +17068,7 @@ function, preceded by the keyword &quot;new&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 468b. build an object (424) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image468b.png?raw=true"
+<img src="./images/image468b.png"
   style="width:65%"
   title="Build an object"
   alt="Build an object." />
@@ -17083,7 +17080,7 @@ objects.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 468c. 'this' objects & methods (424) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image468c.png?raw=true"
+<img src="./images/image468c.png"
   style="width:65%"
   title="'this' objects and methods"
   alt="'this' objects and methods." />
@@ -17101,7 +17098,7 @@ has the same method because it&apos;s &quot;an instance of the same class&quot;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 468d. define & assign name and side (425) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image468d.png?raw=true"
+<img src="./images/image468d.png"
   style="width:65%"
   title="Define and assign name and side"
   alt="Define and assign name and side." />
@@ -17114,7 +17111,7 @@ and I&apos;m from the Rebels&quot;. If we do the same with darkVador, it will sa
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 468e. more on object properties (425) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image468e.png?raw=true"
+<img src="./images/image468e.png"
   style="width:65%"
   title="More on object properties"
   alt="More on object properties." />
@@ -17202,7 +17199,7 @@ The syntax is the same as for creating a function, except that:</p>
 <a href="https://codepen.io/w3devcampus/pen/KWjMRw" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image469.png?raw=true"
+<img src="./images/image469.png"
   style="width:65%"
   title="CodePen: example constructor function"
   alt="CodePen: example constructor function." /></a>
@@ -17254,7 +17251,7 @@ declared at <b><i>line 5</i></b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 470. codepen: example javascript classes  (428) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image470.png?raw=true"
+<img src="./images/image470.png"
   style="width:65%"
   title="CodePen: example JavaScript classes"
   alt="CodePen: example JavaScript classes." />
@@ -17276,7 +17273,7 @@ let&apos;s have a look at it again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470a. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image470a.png?raw=true"
+<img src="./images/image470a.png"
   style="width:65%"
   title="CodePen: example function"
   alt="CodePen: example function." />
@@ -17290,7 +17287,7 @@ methods, we used these for accessing the properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470b. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image470b.png?raw=true"
+<img src="./images/image470b.png"
   style="width:65%"
   title="CodePen: example function"
   alt="CodePen: example function." />
@@ -17312,7 +17309,7 @@ the property and we use the equal sign for setting values to the properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470c. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image470c.png?raw=true"
+<img src="./images/image470c.png"
   style="width:65%"
   title="CodePen: example function"
   alt="CodePen: example function." />
@@ -17337,7 +17334,7 @@ Okay, so we can try this example.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470d. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image470d.png?raw=true"
+<img src="./images/image470d.png"
   style="width:65%"
   title="CodePen: example function"
   alt="CodePen: example function." />
@@ -17350,7 +17347,7 @@ passed to the constructor.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470e. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image470e.png?raw=true"
+<img src="./images/image470e.png"
   style="width:65%"
   title="CodePen: example function"
   alt="CodePen: example function." />
@@ -17360,7 +17357,7 @@ passed to the constructor.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470f. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image470f.png?raw=true"
+<img src="./images/image470f.png"
   style="width:65%"
   title="CodePen: example function"
   alt="CodePen: example function." />
@@ -17459,7 +17456,7 @@ Wars&apos; heroes.</p>
 <a href="https://codepen.io/w3devcampus/pen/PpMpBo" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image471.png?raw=true"
+<img src="./images/image471.png"
   style="width:65%"
   title="Make star wars heroes speak"
   alt="Make star wars heroes speak." /></a>
@@ -17509,7 +17506,7 @@ constructor functions and ES6 classes).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 472. darth vador image (434) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image472.png?raw=true"
+<img src="./images/image472.png"
   style="width:15%"
   title="Darth Vador"
   alt="Darth Vador." />
@@ -17559,7 +17556,7 @@ a y property.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 473.   (435) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image473.png?raw=true"
+<img src="./images/image473.png"
   style="width:65%"
   title=" "
   alt=" ." />
@@ -17572,7 +17569,7 @@ characteristics of each object that will be built.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 473a.  (435) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image473a.png?raw=true"
+<img src="./images/image473a.png"
   style="width:65%"
   title=" "
   alt=" ." />
@@ -17599,7 +17596,7 @@ the rebels you've built&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 473b.   (436) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image473b.png?raw=true"
+<img src="./images/image473b.png"
   style="width:65%"
   title=" "
   alt=" ." />
@@ -17614,7 +17611,7 @@ only use "Hero.something" 24</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 473c.   (437) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image473c.png?raw=true"
+<img src="./images/image473c.png"
   style="width:65%"
   title=" "
   alt=" ." />
@@ -17626,7 +17623,7 @@ the class Hero. And if I build 0 instance, &#133;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 473d.   (437) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image473d.png?raw=true"
+<img src="./images/image473d.png"
   style="width:65%"
   title=" "
   alt=" ." />
@@ -17637,7 +17634,7 @@ If I&apos;m just uncommenting another one, here. The return value is 3.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 473e.   (437) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image473e.png?raw=true"
+<img src="./images/image473e.png"
   style="width:65%"
   title=" "
   alt=" ." />
@@ -17647,7 +17644,7 @@ it corresponds to a property of this class, to characteristics&#41;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 473f.   (438) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image473f.png?raw=true"
+<img src="./images/image473f.png"
   style="width:65%"
   title=" "
   alt=" ." />
@@ -17662,7 +17659,7 @@ inside the point class.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 473g.   (438) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image473g.png?raw=true"
+<img src="./images/image473g.png"
   style="width:65%"
   title=" "
   alt=" ." />
@@ -17675,7 +17672,7 @@ idea to put it inside. And you precede them by the "static" keyword.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 473h.   (439) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image473h.png?raw=true"
+<img src="./images/image473h.png"
   style="width:65%"
   title=" "
   alt=" ." />
@@ -17739,7 +17736,7 @@ property or a class method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 474. the static keyword  (440) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image474.png?raw=true"
+<img src="./images/image474.png"
   style="width:65%"
   title="The static keyword"
   alt="The static keyword." />
@@ -17800,7 +17797,7 @@ using this one for beginners.</p>
 <a href="https://codepen.io/w3devcampus/pen/rmOjrv" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image475.png?raw=true"
+<img src="./images/image475.png"
   style="width:65%"
   title="CodePen: example distance between 2 points"
   alt="CodePen: example distance between 2 points." /></a>
@@ -17868,7 +17865,7 @@ same name preceded by an underscore).</p>
 <a href="https://codepen.io/w3devcampus/pen/WOoQgw" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image476.png?raw=true"
+<img src="./images/image476.png"
   style="width:65%"
   title="CodePen: example"
   alt="CodePen: example." /></a>
@@ -18185,7 +18182,7 @@ improvements:</p>
 <a href="https://codepen.io/w3devcampus/pen/EWzgpr" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image477.png?raw=true"
+<img src="./images/image477.png"
   style="width:65%"
   title="CodePen: game with improvements"
   alt="CodePen: game with improvements." /></a>
@@ -18198,7 +18195,7 @@ target="_blank" rel="noopener noreferrer">CodePen: game with improvements</a>.</
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 478. adding interactivity to web documents  (451) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image478.png?raw=true"
+<img src="./images/image478.png"
   style="width:65%"
   title="Adding interactivity to web documents"
   alt="Adding interactivity to web documents." />
@@ -18257,7 +18254,7 @@ previous modules.</p>
 <a href="https://codepen.io/w3devcampus/pen/KqmGgq?editors=0012" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image479.png?raw=true"
+<img src="./images/image479.png"
   style="width:65%"
   title="CodePen: references and objects"
   alt="CodePen: references and objects." /></a>
@@ -18476,7 +18473,7 @@ object (i.e., if they have the same reference).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 480. balancing rocks logo (457) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image480.png?raw=true"
+<img src="./images/image480.png"
   style="width:20%"
   title="Balancing rocks logo"
   alt="Balancing rocks logo." />
@@ -18572,7 +18569,7 @@ them easily from the devtool console. You can switch back to using let, later.<
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 481. built-in javascript class: object (459) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image481.png?raw=true"
+<img src="./images/image481.png"
   style="width:65%"
   title=" "
   alt=" ." />
@@ -18687,7 +18684,7 @@ their toString() method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 482. codepen: built-in js class: array (462) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image482.png?raw=true"
+<img src="./images/image482.png"
   style="width:65%"
   title="CodePen: built-in JS class: array"
   alt="CodePen: built-in JS class: array." />
@@ -18874,7 +18871,7 @@ the array.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 483. with arrays, only numerical indexes count (465) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image483.png?raw=true"
+<img src="./images/image483.png"
   style="width:65%"
   title="With arrays, only properties with a numerial index are taken into account by the length property"
   alt="With arrays, only properties with a numerial index are taken into account by the length property." />
@@ -19066,7 +19063,7 @@ recommended that you use parseInt or parseFloat instead.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 484. numbers logo (469) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image484.png?raw=true"
+<img src="./images/image484.png"
   style="width:10%"
   title="Numbers logo"
   alt="Number logo." />
@@ -19144,7 +19141,7 @@ recommended that you use parseInt or parseFloat instead.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 485. built-in js class: string (471) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image485.png?raw=true"
+<img src="./images/image485.png"
   style="width:65%"
   title="CodePen: built-in JavaScript class: string"
   alt="CodePen: built-in JavaScript class: string." />
@@ -19628,7 +19625,7 @@ Look at the code in the mainloop function.</p>
 <a href="https://codepen.io/w3devcampus/pen/aWOJQN" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image486.png?raw=true"
+<img src="./images/image486.png"
   style="width:65%"
   title="CodePen: example using Math.atan2 in video game"
   alt="CodePen: example using Math.atan2 in video game." /></a>
@@ -19786,7 +19783,7 @@ HTML table:</p>
 <a href="https://codepen.io/w3devcampus/pen/Mmwqgq" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image487.png?raw=true"
+<img src="./images/image487.png"
   style="width:65%"
   title="CodePen: example input fields in HTML table"
   alt="CodePen: example input fields in HTML table." /></a>
@@ -19858,7 +19855,7 @@ cell borders. Let&apos;s look at some examples.</p>
 <a href="https://codepen.io/w3devcampus/pen/vmNQNQ" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image488.png?raw=true"
+<img src="./images/image488.png"
   style="width:65%"
   title="CodePen: HTML table with a very light CSS styling"
   alt="CodePen: HTML table with a very light CSS styling." /></a>
@@ -19903,7 +19900,7 @@ target="_blank" rel="noopener noreferrer">CodePen: HTML table with very light CS
 <a href="https://codepen.io/w3devcampus/pen/MmKYNx" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image489.png?raw=true"
+<img src="./images/image489.png"
   style="width:65%"
   title="CodePen: HTML table with a very light CSS styling"
   alt="CodePen: HTML table with a very light CSS styling." /></a>
@@ -19919,7 +19916,7 @@ CodePen: HTML table with a very light CSS styling</a>.</h6>
 <a href="https://codepen.io/w3devcampus/pen/gWPppo" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image490.png?raw=true"
+<img src="./images/image490.png"
   style="width:65%"
   title="CodePen: change CSS"
   alt="CodePen: change CSS." /></a>
@@ -19933,7 +19930,7 @@ CodePen: change css</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 491. the html table js api (487) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image491.png?raw=true"
+<img src="./images/image491.png"
   style="width:65%"
   title="The HTML table JavaScript API"
   alt="The HTML table JavaScript API." />
@@ -20014,7 +20011,7 @@ you create a table using the DOM API, you get a Table object:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 492. most useful properties (469) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image492.png?raw=true"
+<img src="./images/image492.png"
   style="width:65%"
   title=" "
   alt=" ." />
@@ -20022,7 +20019,7 @@ you create a table using the DOM API, you get a Table object:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 493. most useful methods (470) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image493.png?raw=true"
+<img src="./images/image493.png"
   style="width:65%"
   title=" "
   alt=" ." />
@@ -20035,7 +20032,7 @@ the insertRow()/deleteRow() methods:</p>
 <a href="https://codepen.io/w3devcampus/pen/aWdOgw" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image494.png?raw=true"
+<img src="./images/image494.png"
   style="width:65%"
   title="CodePen: a typical HTML table"
   alt="CodePen: a typical HTML table." /></a>
@@ -20079,7 +20076,7 @@ the most useful ones:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 495. most useful properties; cells, rowIndex and sectionRowIndex (471) ~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image495.png?raw=true"
+<img src="./images/image495.png"
   style="width:65%"
   title="Most useful properties; cells, rowIndex and sectionRowIndex"
   alt="Most useful properties; cells, rowIndex and sectionRowIndex." />
@@ -20087,7 +20084,7 @@ the most useful ones:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 496. most useful methods; insertCell()/deleteCell (471) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image496.png?raw=true"
+<img src="./images/image496.png"
   style="width:65%"
   title="Most useful methods; insertCell() and deleteCell()"
   alt="Most useful methods; insertCell() and deleteCell()." />
@@ -20100,7 +20097,7 @@ the innerHTML of the TableRow object, we use the insertCell() method.</p>
 <a href="https://codepen.io/w3devcampus/pen/OmMmGr" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image497.png?raw=true"
+<img src="./images/image497.png"
   style="width:65%"
   title="CodePen: A typical HTML table"
   alt="CodePen: A typical HTML table." /></a>
@@ -20188,7 +20185,7 @@ disabilities.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 498. E-mail address (473) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image498.png?raw=true"
+<img src="./images/image498.png"
   style="width:20%"
   title="E-mail address"
   alt="E-mail address." />
@@ -20210,7 +20207,7 @@ the id of the form control.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 499. first name (474) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image499.png?raw=true"
+<img src="./images/image499.png"
   style="width:65%"
   title="First name"
   alt="First name." />
@@ -20245,7 +20242,7 @@ styling easier and produce better results with screen readers</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 500. First name and Subscribe to newsletter checkbox (474) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image500.png?raw=true"
+<img src="./images/image500.png"
   style="width:65%"
   title="First name and Subscribe to newsletter checkbox"
   alt="First name and Subscribe to newsletter checkbox." />
@@ -20286,7 +20283,7 @@ rendered as a button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 501. Submit and Cancel buttons (475) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image501.png?raw=true"
+<img src="./images/image501.png"
   style="width:65%"
   title="Submit and Cancel buttons"
   alt="Submit and Cancel buttons." />
@@ -20294,7 +20291,7 @@ rendered as a button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 502. Labeling text areas: Enter your address (475) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image502.png?raw=true"
+<img src="./images/image502.png"
   style="width:20%"
   title="Labeling text areas: Enter your address"
   alt="Labeling text areas: Enter your address." />
@@ -20329,7 +20326,7 @@ using &lt;fieldset&gt;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 503. Output formats; text, csv and html (476) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image503.png?raw=true"
+<img src="./images/image503.png"
   style="width:15%"
   title="Output formats; text, csv and html"
   alt="Output formats; text, csv and html." />
@@ -20359,7 +20356,7 @@ opt-in function for receiving different types of information.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 504. example checkboxes (477) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image504.png?raw=true"
+<img src="./images/image504.png"
   style="width:20%"
   title="Example checkboxes"
   alt="Example checkboxes." />
@@ -20400,7 +20397,7 @@ target="_blank" rel="noopener noreferrer">WAI-ARIA documentation on MDN</a>.</p>
 <a href="https://codepen.io/w3devcampus/pen/ZyJXBe" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image505.png?raw=true"
+<img src="./images/image505.png"
   style="width:65%"
   title="CodePen: HTML forms best practices"
   alt="CodePen: HTML forms best practices." /></a>
@@ -20532,7 +20529,7 @@ client-side part, with a focus on JavaScript processing.</p>
 <a href="https://codepen.io/w3devcampus/pen/ZKQJBR" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image506.png?raw=true"
+<img src="./images/image506.png"
   style="width:65%"
   title="CodePen: form input can be sent to a server without JavaScript"
   alt="CodePen: form input can be sent to a server without JavaScript." /></a>
@@ -20566,7 +20563,7 @@ the form data, or for complex, global validation:</p>
 <a href="https://codepen.io/w3devcampus/pen/pPgWoq" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image507.png?raw=true"
+<img src="./images/image507.png"
   style="width:65%"
   title="CodePen: validating user input 'on the fly' using JavaScript"
   alt="CodePen: validating user input 'on the fly' using JavaScript." /></a>
@@ -20593,7 +20590,7 @@ real time:</p>
 <a href="https://codepen.io/w3devcampus/pen/XMQpRa" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image508.png?raw=true"
+<img src="./images/image508.png"
   style="width:65%"
   title="CodePen: simple input field validation using the 'input' event"
   alt="CodePen: simple input field validation using the 'input' event." /></a>
@@ -20611,7 +20608,7 @@ cannot be in the future), etc.</p>
 <a href="https://codepen.io/w3devcampus/pen/gWPxvL" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image509.png?raw=true"
+<img src="./images/image509.png"
   style="width:65%"
   title="CodePen: example use of the validation API"
   alt="CodePen: example use of the validation API." /></a>
@@ -20650,7 +20647,7 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 510. magnifying glass (484) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image510.png?raw=true"
+<img src="./images/image510.png"
   style="width:20%"
   title="Magnifying glass"
   alt="Magnifying glass." />
@@ -20675,7 +20672,7 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 511. prev (left) and next (right arrow)  (484) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image511.png?raw=true"
+<img src="./images/image511.png"
   style="width:20%"
   title="Previous and next buttons"
   alt="Previous and next buttons." />
@@ -20688,7 +20685,7 @@ remote data</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 512. json notation, working with localStorage (485) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image512.png?raw=true"
+<img src="./images/image512.png"
   style="width:65%"
   title="JSON notation, working with LocalStorage"
   alt="JSON notation, working with LocalStorage." />
@@ -20866,7 +20863,7 @@ object, and we can access its properties (<b><i>lines 16 and 19</i></b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 513. CodePen: consuming JSON remote data (488) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image513.png?raw=true"
+<img src="./images/image513.png"
   style="width:65%"
   title="CodePen: consuming JSON remote data"
   alt="CodePen: consuming JSON remote data." />
@@ -20981,7 +20978,7 @@ browser as shown below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 514. json: working with remote data using XhR2 API (487) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image514.jpeg?raw=true"
+<img src="./images/image514.jpeg"
   style="width:35%"
   title="JSON: working with remote data using XhR2 API"
   alt="JSON: working with remote data using XhR2 API." />
@@ -21001,7 +20998,7 @@ use.</p>
 <a href="https://codepen.io/w3devcampus/pen/vmLMRN" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image515.png?raw=true"
+<img src="./images/image515.png"
   style="width:65%"
   title="CodePen: working with remote data using XhR2 API"
   alt="CodePen: working with remote data using XhR2 API." /></a>
@@ -21093,7 +21090,7 @@ not detailed in this course.</p>
 <a href="https://codepen.io/w3devcampus/pen/xgoZdg" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image516.png?raw=true"
+<img src="./images/image516.png"
   style="width:65%"
   title="CodePen: get remote list using fetch API"
   alt="CodePen: get remote list using fetch API." /></a>
@@ -21136,7 +21133,7 @@ database for JavaScript objects.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 517. cross-browser client-side storage (491) ~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image517.jpeg?raw=true"
+<img src="./images/image517.jpeg"
   style="width:20%"
   title="Cross-Browser client-side storage"
   alt="Cross-Browser client-side storage." />
@@ -21161,7 +21158,7 @@ session lifetime)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 518. table: key/value pairs (491) ~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image518.png?raw=true"
+<img src="./images/image518.png"
   style="width:20%"
   title="Table of key/value pairs"
   alt="Table of key/value pairs." />
@@ -21202,7 +21199,7 @@ the localStorage for this domain:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 519. example: localStorage (492) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image519.jpeg?raw=true"
+<img src="./images/image519.jpeg"
   style="width:65%"
   title="Example: localStorage"
   alt="Example: localStorage." />
@@ -21210,7 +21207,7 @@ the localStorage for this domain:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 520. devtools can be used to show localStorage (493) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image520.jpeg?raw=true"
+<img src="./images/image520.jpeg"
   style="width:65%"
   title="devtools can be used to show localStorage"
   alt="devtools can be used to show localStorage." />
@@ -21436,7 +21433,7 @@ consequently: it&apos;s a class method.</p>
 <a href="https://codepen.io/w3devcampus/pen/MovoBz" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image521.png?raw=true"
+<img src="./images/image521.png"
   style="width:65%"
   title="CodePen: using new class method"
   alt="CodePen: using new class method." /></a>
@@ -21496,7 +21493,7 @@ as a string, we convert it to the JSON format using the
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 522. google chrome local storage inspector (499) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image522.jpeg?raw=true"
+<img src="./images/image522.jpeg"
   style="width:65%"
   title="Google Chrome local storage inspector"
   alt="Google Chrome local storage inspector." />
@@ -21506,7 +21503,7 @@ as a string, we convert it to the JSON format using the
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 523. firefox active storage view in devtools (499) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image523.jpeg?raw=true"
+<img src="./images/image523.jpeg"
   style="width:65%"
   title="Firefox active storage view in devtools"
   alt="Firefox active storage view in devtools." />
@@ -21517,7 +21514,7 @@ as a string, we convert it to the JSON format using the
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 524. console.log storage inspector (500) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image524.jpeg?raw=true"
+<img src="./images/image524.jpeg"
   style="width:65%"
   title="console.log storage inspector"
   alt="console.log storage inspector." />
@@ -21595,7 +21592,7 @@ and adapt it to our needs:</p>
 <a href="https://codepen.io/w3devcampus/pen/vmLMRN" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image525.png?raw=true"
+<img src="./images/image525.png"
   style="width:50%"
   title="CodePen: table list of contacts"
   alt="CodePen: table list of contacts." /></a>
@@ -21688,7 +21685,7 @@ CodePen:</p>
 <a href="https://codepen.io/w3devcampus/pen/yXoVdp" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image526.png?raw=true"
+<img src="./images/image526.png"
   style="width:50%"
   title="CodePen: table list of contacts"
   alt="CodePen: table list of contacts." /></a>
@@ -21779,7 +21776,7 @@ is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
 <a href="https://codepen.io/w3devcampus/pen/awypEg" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
-<img src="./images/image527.png?raw=true"
+<img src="./images/image527.png"
   style="width:50%"
   title="CodePen: Add new contact and list in table"
   alt="CodePen: Add new contact and list in table." /></a>
