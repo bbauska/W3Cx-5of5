@@ -6622,11 +6622,13 @@ use):</p>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 189. codepen: contact list (170) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/pRmZqY" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image189.png?raw=true"
   style="width:50%"
   title="CodePen: Contact list"
-  alt="CodePen: Contact list." />
+  alt="CodePen: Contact list." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pRmZqY" 
 target="_blank" rel="noopener noreferrer">CodePen: contact list</a>.</h6>
 
@@ -7732,7 +7734,7 @@ on the &quot;edit on CodePen&quot; label, and once in CodePen, open the devtool
 console to see the outputs of this program):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 227b. example; devtool console to see output (200) ~~~~~~~~~~~~~~~~~~~~~-->
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/qrjdza" 
+<a href="https://codepen.io/w3devcampus/pen/qrjdza" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image227b.png?raw=true"
@@ -8515,11 +8517,13 @@ statements, and a function declaration is not an executable statement.</p>
 <h4>Here is an example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 240. codepen: sum function & displayinpage function (217) ~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/jmoBRj" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image240.png?raw=true"
   style="width:50%"
   title="CodePen: sum function & displayinpage function"
-  alt="CodePen: sum function & displayinpage function." />
+  alt="CodePen: sum function & displayinpage function." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/jmoBRj" 
 target="_blank" rel="noopener noreferrer">CodePen: sum and displayInPage functions</a>.</h6>
 
@@ -16767,14 +16771,16 @@ of the player object, this means &quot;from this object&quot;.</p>
 this time fully functional:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 463. codepen: "this" examples (16x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/oZRrQd" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image463.png?raw=true"
   style="width:65%"
   title="CodePen: 'this' example"
-  alt="CodePen: 'this' example." />
+  alt="CodePen: 'this' example." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/oZRrQd" 
-target="_blank" rel="noopener noreferrer">CodePen: 'this' example</a>.</h6>
-</p>
+target="_blank" rel="noopener noreferrer">
+CodePen: 'this' example</a>.</h6>
 
 <h5>JavaScript code extract:</h5>
 
@@ -16826,14 +16832,17 @@ occurrences of ctx in the code).</p>
 
 <h4>Let&apos;s see the Dark Vador example with the use of this in a method</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 464.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 464. CodePen: example Dark Vador in a method (16) ~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/JWqgGZ" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image464.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: example Dark Vador in a method"
+  alt="CodePen: example Dark Vador in a method." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/JWqgGZ" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: example Dark Vador in a method</a>.</h6>
 
 <h5>JavaScript source code:</h5>
 
@@ -16878,14 +16887,17 @@ or to remove properties after an object has been created.</h5>
 
 <h5>Examples:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 465.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 465. codepen: example add properties and methods (xxx) ~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/WpqeyK" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image465.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="CodePen: example add properties and methods"
+  alt="CodePen: example add properties and methods." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/WpqeyK" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: example add properties and methods</a>.</h6>
 
 <h5>JavaScript code extract:</h5>
 
@@ -16913,15 +16925,17 @@ property (it will become undefined).</p>
 
 <h5>Example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 466.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 466. codepen: example (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/RpzNEP" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image466.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
-<h6 align="center"<a href="https://codepen.io/w3devcampus/pen/RpzNEP" 
-target="_blank" rel="noopener noreferrer">CodePen example</a>.
-</h6>
+  title="CodePen: example"
+  alt="CodePen: example." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/RpzNEP" 
+target="_blank" rel="noopener noreferrer">
+CodePen example</a>.</h6>
 
 <h5>JavaScript code extract:</h5>
 
@@ -17858,15 +17872,14 @@ same name preceded by an underscore).</p>
 
 <h5>Example at CodePen:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 476. codepen:  (442) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 476. codepen: example (442) ~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/WOoQgw" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image476.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
-</p></a>
+  title="CodePen: example"
+  alt="CodePen: example." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/WOoQgw" 
 target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -19629,14 +19642,16 @@ order to make an object follow the mouse cursor by moving towards it.
 Look at the code in the mainloop function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 486. CodePen: example using Math.atan2 in video game (480) ~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/aWOJQN" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image486.png?raw=true"
   style="width:65%"
   title="CodePen: example using Math.atan2 in video game"
-  alt="CodePen: example using Math.atan2 in video game." />
-</p>
+  alt="CodePen: example using Math.atan2 in video game." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/aWOJQN" 
-target="_blank" rel="noopener noreferrer">CodePen: example using Math.atan2 in video game</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: example using Math.atan2 in video game</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-11">5.2.11 Built-in JS class: Date</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -19785,14 +19800,16 @@ week Michel Buffa&apos;s birthday will occur, between 2017 and 2047:</p>
 HTML table:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 487. codepen: example input fields in html table  (483) ~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/Mmwqgq" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image487.png?raw=true"
   style="width:65%"
   title="CodePen: example input fields in HTML table"
-  alt="CodePen: example input fields in HTML table." />
-</p>
+  alt="CodePen: example input fields in HTML table." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/Mmwqgq" 
-target="_blank" rel="noopener noreferrer">CodePen: example input fields in HTML table</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: example input fields in HTML table</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-1">5.3.1 The HTML table basics</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -19900,12 +19917,13 @@ target="_blank" rel="noopener noreferrer">CodePen: HTML table with very light CS
 <h5>Example #2: with more CSS styling (flat design)</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 489. codepen: html table with a very light css styling (485) ~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/MmKYNx" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image489.png?raw=true"
   style="width:65%"
   title="CodePen: HTML table with a very light CSS styling"
-  alt="CodePen: HTML table with a very light CSS styling." />
-</p>
+  alt="CodePen: HTML table with a very light CSS styling." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/MmKYNx" 
 target="_blank" rel="noopener noreferrer">
 CodePen: HTML table with a very light CSS styling</a>.</h6>
@@ -19915,14 +19933,16 @@ CodePen: HTML table with a very light CSS styling</a>.</h6>
 <h5>Look at the CSS - it&apos;s the only part that changed:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 490. codepen: change css (486) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/gWPppo" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image490.png?raw=true"
   style="width:65%"
   title="CodePen: change CSS"
-  alt="CodePen: change CSS." />
-</p>
+  alt="CodePen: change CSS." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/gWPppo" 
-target="_blank" rel="noopener noreferrer">CodePen: change css</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: change css</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-2">5.3.2 The HTML table JavaScript API (4:43)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -20029,14 +20049,16 @@ you create a table using the DOM API, you get a Table object:</p>
 the insertRow()/deleteRow() methods:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 494. codepen: a typical html table (470) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/aWdOgw" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image494.png?raw=true"
   style="width:65%"
   title="CodePen: a typical HTML table"
-  alt="CodePen: a typical HTML table." />
-</p>
+  alt="CodePen: a typical HTML table." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/aWdOgw" 
-target="_blank" rel="noopener noreferrer">CodePen: a typical HTML table</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: a typical HTML table</a>.</h6>
 
 <p>Notice the use of row.innerHTML= here to add some cells to the row. We
 will soon see another method for doing this.</p>
@@ -20092,14 +20114,16 @@ the most useful ones:</p>
 the innerHTML of the TableRow object, we use the insertCell() method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 497. codepen: a typical html table (472) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/OmMmGr" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image497.png?raw=true"
   style="width:65%"
   title="CodePen: A typical HTML table"
-  alt="CodePen: A typical HTML table." />
-</p>
+  alt="CodePen: A typical HTML table." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OmMmGr" 
-target="_blank" rel="noopener noreferrer">CodePen: a typical HTML table</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: a typical HTML table</a>.</h6>
 
 <h5>Notice how we&apos;ve created the new row cells:</h5>
 
@@ -20392,14 +20416,16 @@ target="_blank" rel="noopener noreferrer">WAI-ARIA documentation on MDN</a>.</p>
 <p>Live coding video: HTML Forms Best Practices</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 505. html forms best practices (478) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ZyJXBe" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image505.png?raw=true"
   style="width:65%"
-  title="HTML forms best practices"
-  alt="HTML forms best practices." />
-</p>
+  title="CodePen: HTML forms best practices"
+  alt="CodePen: HTML forms best practices." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZyJXBe" 
-target="_blank" rel="noopener noreferrer">CodePen: HMTL forms best practices</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: HMTL forms best practices</a>.</h6>
 
 <p>Hi everybody. For this first video, we will talk about traditional form design. 
 When you design a form, using the form element, usually you add two
@@ -20522,12 +20548,13 @@ client-side part, with a focus on JavaScript processing.</p>
 <h5>Typical example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 506. codepen: form input sent to server without JavaScript (481) ~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ZKQJBR" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image506.png?raw=true"
   style="width:65%"
   title="CodePen: form input can be sent to a server without JavaScript"
-  alt="CodePen: form input can be sent to a server without JavaScript." />
-</p>
+  alt="CodePen: form input can be sent to a server without JavaScript." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZKQJBR" 
 target="_blank" rel="noopener noreferrer">
 CodePen: form input sent to server without JavaScript</a>.</h6>
@@ -20555,12 +20582,13 @@ feedback while entering the password. No JavaScript is used for sending
 the form data, or for complex, global validation:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 507. codepen: validating user input 'on the fly' using js (482) ~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/pPgWoq" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image507.png?raw=true"
   style="width:65%"
   title="CodePen: validating user input 'on the fly' using JavaScript"
-  alt="CodePen: validating user input 'on the fly' using JavaScript." />
-</p>
+  alt="CodePen: validating user input 'on the fly' using JavaScript." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/pPgWoq" 
 target="_blank" rel="noopener noreferrer">
 CodePen: validating user input 'on the fly' using JavaScript</a>.</h6>
@@ -20581,12 +20609,13 @@ feedback.</p>
 real time:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 508. codepen: simple input field validation (483) ~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/XMQpRa" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image508.png?raw=true"
   style="width:65%"
   title="CodePen: simple input field validation using the 'input' event"
-  alt="CodePen: simple input field validation using the 'input' event." />
-</p>
+  alt="CodePen: simple input field validation using the 'input' event." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/XMQpRa" 
 target="_blank" rel="noopener noreferrer">
 CodePen: simple input field validation</a>.</h6>
@@ -20598,12 +20627,13 @@ different input fields, that some values are coherent (e.g. a birthday
 cannot be in the future), etc.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 509. codepen: example use of validation api (483) ~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/gWPxvL" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image509.png?raw=true"
   style="width:65%"
   title="CodePen: example use of the validation API"
-  alt="CodePen: example use of the validation API." />
-</p>
+  alt="CodePen: example use of the validation API." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/gWPxvL" 
 target="_blank" rel="noopener noreferrer">
 CodePen: example use of the validation API</a>.</h6>
@@ -20987,11 +21017,13 @@ use.</p>
 <h4>Downloading JSON data using the XhR2 API</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 515. CodePen: working with remote data using XhR2 API (488) ~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/vmLMRN" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image515.png?raw=true"
   style="width:65%"
   title="CodePen: working with remote data using XhR2 API"
-  alt="CodePen: working with remote data using XhR2 API." />
+  alt="CodePen: working with remote data using XhR2 API." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/vmLMRN" 
 target="_blank" rel="noopener noreferrer">
 CodePen: working with remote data using XhR2 API</a>.</h6>
@@ -21077,11 +21109,13 @@ fetch&#41;then&#41;then&#41; is based on the concept of &quot;promises&quot;) is
 not detailed in this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 516. CodePen: get remote list using fetch api (490) ~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/xgoZdg" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image516.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: get remote list using fetch API"
+  alt="CodePen: get remote list using fetch API." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/xgoZdg" 
 target="_blank" rel="noopener noreferrer">
 CodePen: Get remote list of users' names &amp; emails using fetch API</a>.</h6>
