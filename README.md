@@ -2157,7 +2157,7 @@ in our case it&apos;s the second h2 element:</p>
 5. }
 </pre>
 
-<p><b>Line 1</b> uses the &quot;#&quot; character in the selector, meaning that we&apos;re
+<p><b><i>Line 1</i></b> uses the &quot;#&quot; character in the selector, meaning that we&apos;re
 going to select an element by its id attribute. In this case, the
 selector equal to #hobbyTitle, selects the element that has an
 attribute id=&quot;hobbyTitle&quot;.</p>
@@ -6807,13 +6807,15 @@ image cannot be seen in this embedded example anymore.</p>
 W3Cx HTML5 Coding Essentials and Best Practices</a> course provides many other examples that use the webcam.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 198. codepen; example webcam (176) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ZLNwqx" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image198.png?raw=true"
   style="width:50%"
   title="CodePen; Example Webcam"
-  alt="CodePen; Example Webcam." />
+  alt="CodePen; Example Webcam." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZLNwqx" 
-target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+target="_blank" rel="noopener noreferrer">CodePen: example Webcam</a>.</h6>
 
 <p>If you want to spend some time having fun with the WebCam, don&apos;t forget
 to try <a href="https://webcamtoy.com/" target="_blank" rel="noopener noreferrer">the WebCam Toy</a> demo!</p>
@@ -6824,12 +6826,15 @@ to try <a href="https://webcamtoy.com/" target="_blank" rel="noopener noreferrer
 This example uses the WebAudio API in order to synthesize sounds.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 199. codepen; using the webaudio api to build a small sythesizer (176) ~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/oBRVgv" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image199.png?raw=true"
   style="width:50%"
   title="CodePen; Using the WebAudio API to build a small sythesizer"
-  alt="CodePen; Using the WebAudio API to build a small sythesizer." />
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/oBRVgv" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+  alt="CodePen; Using the WebAudio API to build a small sythesizer." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/oBRVgv" 
+target="_blank" rel="noopener noreferrer">CodePen: using the webaudio API to build a small sythesizer</a>.</h6>
 
 <h5>HTML:</h5>
 
@@ -6841,8 +6846,8 @@ the preview window before using keyboard.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Thousands of JavaScript libraries exist. Their purposes range from making it 
 easier to plot a math function, playing 
-<a href="https://fr.wikipedia.org/wiki/Chiptune" target="_blank" rel="noopener noreferrer">chiptune</a> music, animating 
-objects, through to visualizing data and much more.</p>
+<a href="https://fr.wikipedia.org/wiki/Chiptune" target="_blank" rel="noopener noreferrer">
+chiptune</a> music, animating objects, through to visualizing data and much more.</p>
 
 <h4>Examples</h4>
 
@@ -6860,13 +6865,15 @@ fours functions : f(x) = x&#94;2 (in red), f(x) = 3&ast;x (in green), f(x)
 cos(x) (in blue) and f(x) = -3&ast;x&#94;2 + x&#94;2 (dashed)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 200. codepen; plot mathematical functions (177) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/jyjEob" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image200.png?raw=true"
   style="width:50%"
   title="CodePen; Plot mathematical functions"
-  alt="CodePen; Plot mathematical functions." />
+  alt="CodePen; Plot mathematical functions." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/jyjEob" 
-target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+target="_blank" rel="noopener noreferrer">CodePen: plot mathematical functions</a>.</h6>
 
 <p>Here is another much simpler example, please edit the code (click on
 &quot;edit on codepen&quot;) and change the function for something like f(x) =
@@ -6876,12 +6883,15 @@ the xRange and yRange values). If you have trouble, 
 look here</a> for a solution.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 201. plot force directed graph using d3.js (178) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/NdVJvy" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image201.png?raw=true"
   style="width:50%"
   title="Plot force directed graph using d3.js"
-  alt="Plot force directed graph using d3.js." />
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/NdVJvy" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+  alt="Plot force directed graph using d3.js." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/NdVJvy" 
+target="_blank" rel="noopener noreferrer">CodePen: plot force directed graph using d3.js</a>.</h6>
 
 <h4>Example #2: plot a force directed graph using the d3.js JavaScript library</h4>
 
@@ -6896,12 +6906,15 @@ codepen.io and use the search button for "d3" and you will find plenty of exampl
 that use that library.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 202. codepen; force-directed draggable graph (178) ~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/Bpgypq" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image202.png?raw=true"
   style="width:50%"
   title="CodePen; A force-directed draggable graph"
-  alt="CodePen; A force-directed draggable graph." />
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/Bpgypq" target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+  alt="CodePen; A force-directed draggable graph." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/Bpgypq" 
+target="_blank" rel="noopener noreferrer">CodePen: force-directed draggable graph</a>.</h6>
 
 <h4>Example #3: play chiptune songs using the chiptune.js library</h4>
 
@@ -6921,13 +6934,15 @@ the Web and drag and drop it into the example page. A good resource for such
 files is The Mod Archive, you can download plenty of chiptune files from there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 203. codepen; chiptune - load demo song (179) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/GrbgMB" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image203.png?raw=true"
   style="width:50%"
   title="CodePen; Chiptune music with WebAudio"
-  alt="CodePen; Chiptune music with WebAudio." />
+  alt="CodePen; Chiptune music with WebAudio." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GrbgMB" 
-target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+target="_blank" rel="noopener noreferrer">CodePen: chiptune - load demo song</a>.</h6>
 
 <h4>Example #4: animate a sprite in an HTML5 canvas using the sprite.js library</h4>
 
@@ -6937,13 +6952,15 @@ in an HTML5 canvas. We will see how to use the HTML5 canvas later on in this cou
 The example is just here to illustrate what can be done using external libraries.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 204. codepen; animate a green spite (180) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/dNBPQm" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image204.png?raw=true"
   style="width:50%"
   title="CodePen; Animate a green sprite"
-  alt="CodePen; Animate a green sprite." />
+  alt="CodePen; Animate a green sprite." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/dNBPQm" 
-target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+target="_blank" rel="noopener noreferrer">CodePen: animate a green sprite</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-8">1.6.8 Working with remote data</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6958,13 +6975,15 @@ target="_blank" rel="noopener noreferrer">CodePen</a></h6>
  target="_blank" rel="noopener noreferrer">remote data</a>):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 205. codepen; use remote structured data (181) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/xgoZdg" 
+ target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image205.png?raw=true"
   style="width:50%"
   title="CodePen: Use remote structured data"
-  alt="CodePen: Use remote structured data." />
+  alt="CodePen: Use remote structured data." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/xgoZdg" 
- target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+ target="_blank" rel="noopener noreferrer">CodePen: use remote structured data</a>.</h6>
 
 <h4>Example #2: load and decode remote sounds for use in a video game</h4>
 
@@ -6973,13 +6992,15 @@ remote sounds, decode them and play them as samples in memory (useful
 for video games):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 206. CodePen: Load and decode remote sounds for use in a video game (181) ~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/BWbNQG" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image206.png?raw=true"
   style="width:50%"
   title="CodePen: Load and decode remote sounds for use in a video game"
-  alt="CodePen: Load and decode remote sounds for use in a video game." />
+  alt="CodePen: Load and decode remote sounds for use in a video game." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/BWbNQG" 
-target="_blank" rel="noopener noreferrer">CodePen</a></h6>
+target="_blank" rel="noopener noreferrer">CodePen: load and decode remote sounds</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1-1">2.1.1 Intro Module 2: Adding Interactivity to JS Documents</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8175,38 +8196,38 @@ statement.</p>
 7.  &hellip;
 </pre>
 
-<p>The block inside the while (<b>lines 4 and 5</b>) will be executed three
+<p>The block inside the while (<b><i>lines 4 and 5</i></b>) will be executed three
 times:</p>
 
 <ul>
-  <li><b>Line 1</b> initializes i with a value of 1.</li>
-  <li>We enter the while statement at <b>line 3</b>. Is the value
+  <li><b><i>Line 1</i></b> initializes i with a value of 1.</li>
+  <li>We enter the while statement at <b><i>line 3</i></b>. Is the value
     of i strictly less than 4?</li>
   <li>Yes, the variable i is equal to 1, we enter the statement inside
     the while.</li>
   <li><b>Run 1:</b></li>
     <ul>
-      <li>We execute <b>line 4</b>: j += i; (equivalent to j = j + i).
-        As j was set to 1 at <b>line 1</b>, j is now equal to 2.</li>
+      <li>We execute <b><i>line 4</i></b>: j += i; (equivalent to j = j + i).
+        As j was set to 1 at <b><i>line 1</i></b>, j is now equal to 2.</li>
       <li>We execute <b>line 5</b> and increment i by one. The variable i is
         now equal to 2.</li>
-      <li>We go back to the while at <b>line 3</b>. Is i < 4? Yes, we
+      <li>We go back to the while at <b><i>line 3</i></b>. Is i < 4? Yes, we
         execute lines 3 and 4 again.</li>
 	</ul>
     <li><b>Run 2:</b></li>
 	<ul>
-      <li>Now at the end of <b>line 5</b>, j is equal to &quot;old j value&quot; +
+      <li>Now at the end of <b><i>line 5</i></b>, j is equal to &quot;old j value&quot; +
         &quot;new i value&quot;, so j = 2 + 2 = 4, i has been incremented and is
         now equal to 3.</li>
-      <li>We go back to the while at <b>line 3</b>. Is i < 4? Yes, we
+      <li>We go back to the while at <b><i>line 3</i></b>. Is i < 4? Yes, we
         execute lines 3 and 4 again.</li>
 	</ul>
   <li><b>Run 3:</b></li>
     <ul>
-      <li>Now at the end of<b> line 5</b>, j is equal to &quot;old j value&quot; +
+      <li>Now at the end of <b><i>line 5</i></b>, j is equal to &quot;old j value&quot; +
         &quot;new i value&quot;, so j = 4 + 3 = 7, i has been incremented and is
         now equal to 4.</li>
-      <li>We go back to the while at <b>line 3</b>. Is i < 4? No! The value
+      <li>We go back to the while at <b><i>line 3</i></b>. Is i < 4? No! The value
         of i is now 4, which is not less than 4. We continue
         the execution of the program at line 7 with i = 4 and j = 7.</li>
 	</ul>
@@ -8585,8 +8606,9 @@ target="_blank" rel="noopener noreferrer">
   style="width:50%"
   title="CodePen: :hover"
   alt="CodePen: :hover." /></a>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/gmvgxa" target="_blank" rel="noopener noreferrer">
-CodePen: :hover</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/gmvgxa" 
+target="_blank" rel="noopener noreferrer">
+CodePen: :hover</a>.</h6>
 
 <p>However, firing a specific action when the button is clicked, knowing
 which mouse button has been used, computing the (x, y) mouse pointer
@@ -8805,9 +8827,10 @@ target="_blank" rel="noopener noreferrer">
   alt="CodePen: addEventListener function." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/peaeoZ" 
 target="_blank" rel="noopener noreferrer">
-CodePen: addEventListener function</a>.</p>
+CodePen: addEventListener function</a>.</h6>
+
 <p>The <b>addEventListener</b> function is one possible syntax for registering a
-function to be called when a given type of event occurs.</h6>
+function to be called when a given type of event occurs.</p>
 
 <pre>1. addEventListener(type_of_event, callback_function)</pre>
 
@@ -8858,8 +8881,8 @@ target="_blank" rel="noopener noreferrer">
   style="width:50%"
   title="CodePen: Click me!"
   alt="CodePen: Click me!" /></a>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/vxdxdm" 
-target="_blank" rel="noopener noreferrer">CodePen: Click me!</a></p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/vxdxdm" 
+target="_blank" rel="noopener noreferrer">CodePen: Click me!</a></h6>
 
 <p>In this example, instead of using the addEventListener method directly,
 we used it on a DOM object (the button):</p>
@@ -9331,15 +9354,15 @@ backward), while US keyboards will use WASD, for example. So keep in
 mind that keys are not located at the same place on keyboards from
 different countries.</p>
 
-</p>Extract from the &quot;
+<p>Extract from the &quot;
 <a href="https://hacks.mozilla.org/2017/03/internationalize-your-keyboard-controls/" 
 target="_blank" rel="noopener noreferrer">
 Internationalize your keyboard controls</a>&quot; article on MDN:</p>
 
-<p><b>&quot;Recently I came across two lovely new graphical demos, and in both
+<p>&quot;Recently I came across two lovely new graphical demos, and in both
 cases, the controls would not work on my French <b><a href="https://en.wikipedia.org/wiki/AZERTY" 
 target="_blank" rel="noopener noreferrer">
-<i>AZERTY keyboard</i></a>.</b></p>
+<i>AZERTY keyboard</i></a>.</p>
 
 <p>There was the wonderful WebGL 2 technological demo 
 <a href="https://www.youtube.com/watch?v=TT7ugKuUMv0/" target="_blank" rel="noopener noreferrer">
@@ -9595,8 +9618,8 @@ target="_blank" rel="noopener noreferrer">
   style="width:50%"
   title="CodePen: difference between clientX, clientY and pageX, pageY"
   alt="CodePen: difference between clientX, clientY and pageX, pageY." /></a>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/bqJWJJ" 
-target="_blank" rel="noopener noreferrer">CodePen: diff between clientX, Y, and pageX, Y</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/bqJWJJ" 
+target="_blank" rel="noopener noreferrer">CodePen: diff between clientX, Y, and pageX, Y</a>.</h6>
 
 <h4>Example #3: detect a mousemove event and get the mouse position relative to the page</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9608,8 +9631,8 @@ target="_blank" rel="noopener noreferrer">
   style="width:50%"
   title="CodePen: detect mouse movement and mouse position relative to the page"
   alt="CodePen: detect mouse movement and mouse position relative to the page." /></a>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/OpGmjE" 
-target="_blank" rel="noopener noreferrer">CodePen: detect mousemove and get position</a>.</p>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OpGmjE" 
+target="_blank" rel="noopener noreferrer">CodePen: detect mousemove and get position</a>.</h6>
 
 <h4>Example #4: detect a mousemove and get the mouse position relative to the element that fired the event</h4>
 
@@ -9624,9 +9647,9 @@ target="_blank" rel="noopener noreferrer">
   style="width:65%"
   title="CodePen: detect mouse movement &amp; position relative to fired event"
   alt="CodePen: detect mouse movement &amp; position relative to fired event." /></a>
-<p align="center"><a href="https://codepen.io/w3devcampus/pen/oZryVL" 
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/oZryVL" 
 target="_blank" rel="noopener noreferrer">
-CodePen: detect mousemove and get position relative to fired event</a>.</p>
+CodePen: detect mousemove and get position relative to fired event</a>.</h6>
 
 <p>Here is another version that uses <b>clientX/clientY</b> and
 the <b>e.target.getBoundingClientRect()</b> method that returns the bounding
@@ -10602,7 +10625,7 @@ target="_blank" rel="noopener noreferrer">
   title="Show Checked items inside an element of a given id"
   alt="Show Checked items inside an element of a given id." /></a>
 <h6 align="center><a href="https://codepen.io/w3devcampus/pen/MpLzqV" 
-target="_blank" rel="noopener noreferrer">CodePen: Show Checked items</a></h6>
+target="_blank" rel="noopener noreferrer">CodePen: Show Checked items</a>.</h6>
 </p>
 
 <h5>HTML:</h5>
@@ -10694,8 +10717,7 @@ target="_blank" rel="noopener noreferrer">
   title="CodePen: Change background of all paragraphs in element of a given id"
   alt="CodePen: Change background of all paragraphs in element of a given id." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LWqqqm" 
-target="_blank" rel="noopener noreferrer">CodePen: Change background of p under element id</a>
-</h6>
+target="_blank" rel="noopener noreferrer">CodePen: Change background of p under element id</a>.</h6>
 
 <h5>HTML code:</h5>
 
@@ -13661,7 +13683,7 @@ CodePen: iterating on an array of person, and use 2 parms in callback function</
 special things within the array (add/change/move elements during the iteration):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 385. codepen: array iteration (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZKyMQj" 
+<a href="https://codepen.io/w3devcampus/pen/ZKyMQj" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image385.png?raw=true"
@@ -13840,7 +13862,7 @@ target="_blank" rel="noopener noreferrer">
 HTML5 Coding Essentials and Best Practices</a> course, which covers multimedia in depth. 
 The <a href="https://www.edx.org/learn/html5/the-world-wide-web-consortium-w3c-html5-apps-and-games" 
 target="_blank" rel="noopener noreferrer">
-HTML5 advanced course (HTML5 Apps and Games)</a> also gives further examples covering 
+HTML5 Advanced Course (HTML5 Apps and Games)</a> also gives further examples covering 
 topics such as making a video player with chapter navigation, clickable transcript, 
 audio EQ, etc.</p>
 
@@ -13852,7 +13874,8 @@ things like embedded Flash objects that we used to encounter not so long
 ago.</p>
 
 <p>The new way of doing things is a lot better&#41; (please open this 
-<a href="https://jsbin.com/kimayesazo/edit?html,output" target="_blank" rel="noopener noreferrer">live example at JS Bin</a>).</p>
+<a href="https://jsbin.com/kimayesazo/edit?html,output" target="_blank" rel="noopener noreferrer">
+live example at JS Bin</a>).</p>
 
 <p>The source code of this example shows the typical usage of
 the &lt;video&gt; element:</p>
@@ -13917,7 +13940,8 @@ video):</p>
 it&apos;s HTML5 but it&apos;s not a <b>&lt;video&gt;</b> element directly inserted in
 the HTML of this page - it&apos;s an <b>&lt;iframe&gt;</b>.</p>
 
-<p><a href="https://www.youtube.com/watch?v=tIHa587wZyY" target="_blank" rel="noopener noreferrer">YouTube</a></p>
+<p><a href="https://www.youtube.com/watch?v=tIHa587wZyY" 
+target="_blank" rel="noopener noreferrer">YouTube</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 390. Example YouTube video (345) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -14432,51 +14456,51 @@ target="_blank" rel="noopener noreferrer">CodePen: progress cursor</a>.</h6>
 1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.  &lt;head&gt;
-4.  &lt;meta charset=&quot;utf-8&quot;/&gt;
-5.  &lt;title&gt;Sequential Movies&lt;/title&gt;
-6.  &lt;script&gt;
-7.  var myVideo;
-8.  var currentVideo = 0;
-9.  var sources = &lbrack;
-10. &quot;https://mainline.i3s.unice.fr/mooc/samuraiPizzacat.mp4&quot;,
-11. &quot;https://www.archive.org/download/AnimatedMechanicalArtPiecesAtMit/
-P1120973_512kb.mp4&quot;
-12. &rbrack;;
+4.    &lt;meta charset=&quot;utf-8&quot;/&gt;
+5.    &lt;title&gt;Sequential Movies&lt;/title&gt;
+6.    &lt;script&gt;
+7.      var myVideo;
+8.      var currentVideo = 0;
+9.      var sources = &lbrack;
+10.     &quot;https://mainline.i3s.unice.fr/mooc/samuraiPizzacat.mp4&quot;,
+11.     &quot;https://www.archive.org/download/AnimatedMechanicalArtPiecesAtMit/
+          P1120973_512kb.mp4&quot;
+12.     &rbrack;;
 13. 
-14. // Set the src of the video to the next URL in the playlist
-15. // If at the end we start again from beginning (the modulo
-16. // source.length does that)
-17. function loadNextVideo() {
-18. myVideo.src = sources&lbrack;currentVideo % sources.length&rbrack;
-19. myVideo.load();
-20. currentVideo++;
-21. }
+14.     // Set the src of the video to the next URL in the playlist
+15.     // If at the end we start again from beginning (the modulo
+16.     // source.length does that)
+17.     function loadNextVideo() {
+18.       myVideo.src = sources&lbrack;currentVideo % sources.length&rbrack;
+19.       myVideo.load();
+20.       currentVideo++;
+21.     }
 22. 
-23. // listener plays the video
-24. function loadAndplayNextVideo() {
-25. console.log(&quot;playing &quot; + sources&lbrack;currentVideo % sources.length&rbrack;)
-26. loadNextVideo();
-27. myVideo.play();
+23.     // listener plays the video
+24.     function loadAndplayNextVideo() {
+25.       console.log(&quot;playing &quot; + sources&lbrack;currentVideo % sources.length&rbrack;)
+26.       loadNextVideo();
+27.       myVideo.play();
 28. 
-29. }
+29.     }
 30. 
-31. // Called when the page is loaded
-32. function init(){
-33. // get the video element using the DOM api
-34. myVideo = document.querySelector(&quot;#myVideo&quot;);
+31.     // Called when the page is loaded
+32.     function init(){
+33.       // get the video element using the DOM api
+34.       myVideo = document.querySelector(&quot;#myVideo&quot;);
 35. 
-36. // Defines a callback function called each time a video ended
-37. myVideo.addEventListener(&apos;ended&apos;, loadAndplayNextVideo, false);
+36.       // Defines a callback function called each time a video ended
+37.       myVideo.addEventListener(&apos;ended&apos;, loadAndplayNextVideo, false);
 38. 
-39. // Loads the first video when the page is loaded
-40. loadNextVideo();
-41. }
-42. &lt;/script&gt;
+39.       // Loads the first video when the page is loaded
+40.       loadNextVideo();
+41.     }
+42.   &lt;/script&gt;
 43. &lt;/head&gt;
 44. &lt;body onload=&quot;init()&quot;&gt;
-45. &lt;video id=&quot;myVideo&quot;
-46. controls&gt;
-47. &lt;/video&gt;
+45.   &lt;video id=&quot;myVideo&quot;
+46.     controls&gt;
+47.   &lt;/video&gt;
 48. &lt;/body&gt;
 49. &lt;/html&gt;
 </pre>
