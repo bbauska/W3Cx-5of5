@@ -26,7 +26,6 @@ details > summary {
   box-shadow: 3px 3px 4px black;
   cursor: pointer;
 }
-
 details > p {
   border-radius: 0 0 10px 10px;
   background-color: #fff;
@@ -34,11 +33,9 @@ details > p {
   margin: 0;
   box-shadow: 3px 3px 4px darkgreen;
 }
-
 details[open] > summary {
   background-color: yellow;
 }
-
 
 pre, code {
   font-family: monospace, monospace;
@@ -74,7 +71,6 @@ a:hover {
   background-color: #ffff00;  /* yellow */
   text-decoration: underline;
 }
-
 
 details {
   font: 14px Bahnschrift, Inter, sans-serif, Calibri;
