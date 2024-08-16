@@ -19,7 +19,8 @@
 
   <title>W3Cx-5of5-JS.0x</title>
   <link rel="canonical" href="https://w3cx-5of5.bauska.org">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles.min.css">
+<!--  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css"> -->
 </head>
 
 <body>
@@ -27,6 +28,9 @@
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--  <script src="/js/highlight.min.js"></script> -->
+<!--  <script>hljs.highlightAll();</script> -->
+<!--  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script> -->
   <script>
   <!-- get the button -->
   var mybutton = document.getElementById("myBtn");
@@ -68,15 +72,23 @@
   alt="W3Cx JS.0x logo."
   style="width:35%;" />
 
+<h2><strong>Course Information</strong></h2>
+
 </head>
 
 <body>
+<h2 id="table-of-contents"><a href="#table-of-contents">Table of Contents</a></h2>
+<!-- from readme.md the following -->
 <h2 align="center">W3Cx Front-End Web Developer</h2>
 <br/>
 <p id="table-of-contents"></p>
+
 <h2><a href="#table-of-contents">Table of Contents - W3Cx-5of5-JS.0x - JavaScript Introduction</a></h2>
+
 <h2>Syllabus</h2>
+
 <h3>Course Information</h3>
+
 <blockquote>
   <h4><a href="#cha-1">a1. Welcome to JavaScript Introduction</a></h4>
   <h4><a href="#cha-2">a2. Course forums</a></h4>
@@ -1414,6 +1426,10 @@ target="_blank" rel="noopener noreferrer">CodePen: A Tale of Two Cities</a>.</h6
 
 <h5>HTML:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>&lt;body&gt;
   &lt;h1&gt;A Tale of Two Cities&lt;/h1&gt;
   &lt;p&gt;
@@ -1426,6 +1442,8 @@ target="_blank" rel="noopener noreferrer">CodePen: A Tale of Two Cities</a>.</h6
   &lt;/p&gt;
 &lt;/body&gt;
 </pre>
+
+</details>
 
 <p>If you eliminated everything in between the angle brackets from the
 text, for most purposes it would still read the same:</p>
@@ -1687,6 +1705,10 @@ elements of the Document Object Model (that developers refer to as the
 <p>As an example, let&apos;s look at a simplified version of the last HTML code
 we presented earlier:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
   &lt;head&gt;
@@ -1701,6 +1723,8 @@ we presented earlier:</p>
   &lt;/body&gt;
 &lt;/html&gt;
 </pre>
+
+</details>
 
 <p>Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):</p>
@@ -3111,6 +3135,10 @@ target="_blank" rel="noopener noreferrer">
 <p>Then, looking at the JavaScript code of the example (click the JS button
 on the CodePen example), we see:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  functionPlot(<b>{</b>
 2.    <b>target: '#myFunction',</b>
 3.    <b>data: &lbrack;{&lt;</b>
@@ -3122,6 +3150,8 @@ on the CodePen example), we see:</p>
 9.      <b>xAxis:{domain: &lbrack;0, 2&ast;Math.PI&rbrack;}</b>
 10. <b>}</b>);
 </pre>
+
+</details>
 
 <p>Ok, the syntax looks strange if you are not used to JavaScript, but I bet that 
 you guessed that the function plotted is &quot;sin(x)&quot;, that the color of the 
@@ -3180,6 +3210,10 @@ for the x and y values, with or without a grid, etc.</p>
 <p>Let&apos;s have a look at the parameters we used in our example (the ones
 you tweaked). They are in bold in the source code we saw earlier:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  {
 2.    <b>target</b>: '#myFunction',
 3.    <b>data</b>: &lbrack;{
@@ -3195,6 +3229,8 @@ you tweaked). They are in bold in the source code we saw earlier:</p>
 13.   }
 14. }
 </pre>
+
+</details>
 
 <h4>JavaScript object</h4>
 
@@ -3286,6 +3322,10 @@ properties:</p>
 try to plot an additional function in our example. We will add f(x) =
 cos(x) to our example, with a different color:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  data: &lbrack;
 2.    {
 3.      fn: 'sin(x)',  // First function
@@ -3297,6 +3337,8 @@ cos(x) to our example, with a different color:</p>
 9.    }
 10. &rbrack;
 </pre>
+
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. codepen: js graph, #2 (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/KWPyeX" 
@@ -3761,14 +3803,18 @@ it, but here is an example: a set of squares, animated squares, that follow the 
     src=&quot;https://www.aserver.com/&hellip;./js/script.js&quot;&gt;&lt;/script&gt; tag</li>
 </ol>
 
-<p>Here are some examples:</p>
+<h5>Here are some examples:</h5>
 
 <h4>Example #1: the JavaScript code is included in an HTML file using the 
 &lt;script&gt;&hellip;&lt;/script&gt; tag</h4>
 
 <h4>First variant: in the &lt;body&gt;..&lt;/body&gt; of the HTML document</h4>
 
-<p>Typically:</p>
+<h5>Typically:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &lt;body&gt;
@@ -3784,6 +3830,8 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 10.   &#133;
 11. &lt;/body&gt;
 </pre>
+
+</details>
 
 <h4>Here is this first example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3810,6 +3858,10 @@ the &lt;head&gt;..&lt;/head&gt; section of an HTML page.</p>
 <p>This time, we placed a JavaScript function that is invoked (called) when
 a button is clicked:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  &lt;head&gt;
 2.    <b>&lt;script&gt;</b>
@@ -3825,6 +3877,8 @@ a button is clicked:</p>
 12.   &lt;/button&gt;
 13. &lt;/body&gt;
 </pre>
+
+</details>
 
 <h4>Here is this second example on CodePen:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3879,6 +3933,10 @@ offers many advantages:</p>
 
 <h5>Example that uses more than one JavaScript file:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  &lt;head&gt;
 2.    &#133;
 3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
@@ -3888,6 +3946,8 @@ offers many advantages:</p>
 7.    <b>&#133;</b>
 8.  &lt;/head&gt;
 </pre>
+
+</details>
 
 <h4>A typical HTML/CSS/JS project folder structure, when working with external local files</h4>
 
@@ -3914,6 +3974,10 @@ JavaScript files in a js subfolder.</p>
 
 <h5>Contents of the index.html file:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  &#133;
 2.  &lt;head&gt;
 3.    &#133;
@@ -3929,20 +3993,22 @@ JavaScript files in a js subfolder.</p>
 11. &lt;/html&gt;
 </pre>
 
-<p>Content of the js/script.js file (JavaScript file):</p>
+</details>
+
+<h5>Content of the js/script.js file (JavaScript file):</h5>
 
 <pre>1.  function addSomeText() {
 2.    document.body.innerHTML += "&lt;p&gt;Function executed!&lt;/p&gt;";
 3.  }
 </pre>
 
-<p>Content of the style.css file:</p>
+<h5>Content of the style.css file:</h5>
 
 <pre>1.  p {
 2.    color:green;
 3.  }</pre>
 
-<p>How to run this example:</p>
+<h5>How to run this example:</h5>
 
 <ol>
   <li>Download the zip file of this project: 
@@ -4138,6 +4204,10 @@ able to type any JavaScript command.</p>
 <p>Let&apos;s look at this example below (or online as a 
 <a href="http://jsbin.com/moqimuz/edit?html,console,output" target="_blank" rel="noopener noreferrer">JS Bin)</a>:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&gt;
@@ -4153,6 +4223,8 @@ able to type any JavaScript command.</p>
 12. &lt;/body&gt;
 13. &lt;/html&gt;
 </pre>
+
+</details>
 
 <p>The simplest way to add JavaScript code in an HTML page is to use
 the &lt;script&gt;&hellip;&lt;/script&gt; element.</p>
@@ -4738,6 +4810,10 @@ windows, or ctrl-shift i, or cmd-alt-i on other computers.</p>
 example, and type myNumber2 in the devtool console, it will display 34
 (while myNumber1 will have an undefined value):</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  var myNumber1, myNumber2 = 34, myNumber3;
 2.  undefined
 3.  // Or with the ES6 syntax you can also use "let"
@@ -4754,6 +4830,8 @@ example, and type myNumber2 in the devtool console, it will display 34
 14. myNumber1;
 15. undefined
 </pre>
+
+</details>
 
 <p>Below is an image that explains how you can try JavaScript code in the
 devtools console:</p>
@@ -4839,6 +4917,10 @@ error will be raised if you try to change their value in the future.</p>
 <p>Here are a set of examples (using the let keyword, but they would also
 work with var):</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  let a;
 2.  let thisIsAVariable;
 3.  let and_this_too; // but <b>does not respect the usual naming convention</b>
@@ -4851,6 +4933,8 @@ work with var):</p>
 10. let case_matters = 'lower';
 11. let CASE_MATTERS = 'upper';
 </pre>
+
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-2">1.5.2 Scope of JS variables (4:19)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5315,7 +5399,11 @@ for us, for explaining the data types.</p>
   <li><b>Decimal</b>: 3.46, -466.8770</li>
 </ul>
 
-<p>Examples of integer and decimals:</p>
+<h5>Examples of integer and decimals:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  var n=1;
 2.  undefined
@@ -5338,6 +5426,8 @@ for us, for explaining the data types.</p>
 19. "number"
 </pre>
 
+</details>
+
 <ul>
   <li><b>Scientific notation</b>: 3.46e4, 5.3e+6, 5344000e-5</li>
 </ul>
@@ -5345,6 +5435,10 @@ for us, for explaining the data types.</p>
 <pre>3.46e4 equals 3.46 x 10&#94;4 equals 34600</pre>
 
 <h4>Examples:</h4>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  &gt; 1e1;
 2.  10
@@ -5367,6 +5461,8 @@ for us, for explaining the data types.</p>
 19. &gt; typeof 2e-3;
 20. "number"
 </pre>
+
+</details>
 
 <ul>
   <li><b>Octal</b>: 010</li>
@@ -5400,6 +5496,10 @@ value is 243</pre>
 
 <h4>Examples of octal and hexadecimal data types:</h4>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  &gt; var n3 = 0377;
 2.  undefined
 3.  
@@ -5428,6 +5528,8 @@ value is 243</pre>
 26. 255
 </pre>
 
+</details>
+
 <h5><b>Special values</b>:</h5>
 
 <ul>
@@ -5452,7 +5554,11 @@ to divide 0 by 0 (type 0/0 in the devtool console).</p>
 
 <h4>Examples:</h4>
 
-<p>Any operation with Infinity gives Infinity as a result:</p>
+<h5>Any operation with Infinity gives Infinity as a result:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  &gt; Infinity;
 2.  Infinity
@@ -5487,6 +5593,14 @@ to divide 0 by 0 (type 0/0 in the devtool console).</p>
 31. NaN
 </pre>
 
+</details>
+
+<br/>
+
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  &gt; Infinity - 20;
 2.  Infinity
 3.   
@@ -5500,9 +5614,15 @@ to divide 0 by 0 (type 0/0 in the devtool console).</p>
 11. Infinity
 </pre>
 
+</details>
+
 <h4>Examples with NaN:</h4>
 
 <p>NaN is a special value and its type is &quot;Number&quot;!</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  &gt; typeof NaN;
 2.  "number"
@@ -5521,6 +5641,8 @@ to divide 0 by 0 (type 0/0 in the devtool console).</p>
 15.  
 16. &gt; 1 + 2 + a;
 17. NaN</pre>
+
+</details>
 
 <h4>&lbrack;ADVANCED&rbrack; Optional explanations about numbers</h4>
 
@@ -5679,6 +5801,10 @@ both prefixed or suffixed, which have different effects:</p>
 
 <h4>Example #1: simple operator use</h4>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  &gt; 1 + 2;
 2.  3
@@ -5705,7 +5831,13 @@ both prefixed or suffixed, which have different effects:</p>
 23.  3
 </pre>
 
+</details>
+
 <h4>Example #2: more operators</h4>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; 1 + 2;
@@ -5721,7 +5853,13 @@ both prefixed or suffixed, which have different effects:</p>
 11.  1.5
 </pre>
 
+</details>
+
 <h4>Example #3: pre and post increments</h4>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  &gt; var m = 0;
 2.  Undefined
@@ -5754,6 +5892,8 @@ both prefixed or suffixed, which have different effects:</p>
 29.  &gt; m;
 30.  4</pre>
 
+</details>
+
 <h4>Below is snapshot with explanations:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174. example console log (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5764,6 +5904,10 @@ both prefixed or suffixed, which have different effects:</p>
   alt="Example console log." />
   
 <h4>Example #4: other versions of post and pre increments</h4>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  &gt; var a = 123; var b = a++;
 2.  Undefined
@@ -5793,6 +5937,8 @@ both prefixed or suffixed, which have different effects:</p>
 26.  122
 </pre>
 
+</details>
+
 <h4>Example #5: short variant that mixes assignment and execution of an operator</h4>
 
 <p>Binary operators can be used with a shorter syntax when we want to assign the resulting 
@@ -5808,6 +5954,10 @@ Code below (try it in the devtool console of your browser):</p>
 <h4>Example #6: more with pre operators +=, -=, *=, /=</h4>
 
 <p>There are good chances you will encounter such code:</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  &gt; var a = 5;
 2.  Undefined
@@ -5829,6 +5979,8 @@ Code below (try it in the devtool console of your browser):</p>
 18.  
 19.  &gt; // this is normal, as it is even
 </pre>
+
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-7">1.5.7 Strings, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5843,6 +5995,10 @@ string - this is not a convention, but a recommendation.</p>
 <p>And finally, you cannot start a string with a single and end with a
 double quotes, or the opposite.</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  &gt; "Hello World";
 2.  "Hello World"
 3.   
@@ -5856,6 +6012,8 @@ double quotes, or the opposite.</p>
 with double and closed with single quotes
 11. VM24763:1 Uncaught SyntaxError: Invalid or unexpected token
 </pre>
+
+</details>
 
 <h5>Image from the devtool console, from the example above:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5992,6 +6150,10 @@ two.</p>
 <p>The operator (+) used with strings is called the concatenation operator,
 and it allows you to concatenate strings.</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  //the operator (+)
 2.  var s1 = 'one';
 3.  var s2= 'two';
@@ -6004,10 +6166,16 @@ and it allows you to concatenate strings.</p>
 10. //'string'
 </pre>
 
+</details>
+
 <h4>The shorthand assignment operator (+=)</h4>
 
 <p>The shorthand assignment operator (+=) can also be used to concatenate
 strings.</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  //the assignment operator (+=)
 2.  var s1 = 'one';
@@ -6017,9 +6185,15 @@ strings.</p>
 6.  //returns 'onetwo'
 </pre>
 
+</details>
+
 <h4>The method concat()</h4>
 
 <p>Another way to concatenate strings is the method concat():</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  //the 'concat' method
 2.  var s1 = 'one';
@@ -6029,7 +6203,13 @@ strings.</p>
 6.  //returns 'onetwo'
 </pre>
 
+</details>
+
 <p>All the methods shown above can be used with a variable number of arguments:</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1. var s1 = 'Hello';
 2. s1 = s1 + ' World' + ' JavaScript';
@@ -6043,10 +6223,16 @@ strings.</p>
 10. //s1,s2 and s3 return 'Hello World JavaScript'
 </pre>
 
+</details>
+
 <h4>Converting strings</h4>
 
 <p>A String number in an arithmetic expression is converted to Number,
 unless the formula is a pure addition.</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  &gt; var s = '1'; s = 3 &ast; s; typeof s;
 2.  "number"
@@ -6076,6 +6262,8 @@ unless the formula is a pure addition.</p>
 26. NaN
 </pre>
 
+</details>
+
 <h4>The above example is shown in the devtools console:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 177. devtools console; how to convert a number into a string (149) ~~~~~~~~~~~~-->
@@ -6091,6 +6279,10 @@ unless the formula is a pure addition.</p>
 with an empty string, at the beginning of expression (type this in the
 devtools):</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  var n = 1;
 2.  typeof n;
 3.  // returns "number"
@@ -6099,6 +6291,8 @@ devtools):</p>
 6.  typeof n;
 7.  // returns "string"
 </pre>
+
+</details>
 
 <h4>Special character: the &quot;&#92;&#92;&quot;</h4>
 
@@ -6122,6 +6316,10 @@ examples:</p>
 
 <h5>&quot;&#92;n&quot; for &quot;next line&quot;:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  var s = '&#92;n1&#92;n2&#92;n3&#92;n';
 2.  s
 3.  // returns "
@@ -6131,7 +6329,13 @@ examples:</p>
 7.  "
 </pre>
 
+</details>
+
 <h5>&quot;&#92;r&quot; for &quot;carriage return&quot;:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  var s = '1&#92;r2';
 2.  var s = '1&#92;n&#92;r2';
@@ -6140,6 +6344,8 @@ examples:</p>
 5.  "1
 6.  2"
 </pre>
+
+</details>
 
 <h5>&quot;&#92;t&quot; for &quot;insert a tabulation&quot;:</h5>
 
@@ -6185,6 +6391,10 @@ type window.location, etc.</p>
 <p>We will study these objects later, but for the moment, just play with
 objects :-)</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  &gt; window.innerHeight
 2.  217
@@ -6194,6 +6404,8 @@ objects :-)</p>
 6.  "Google Inc."
 </pre>
 
+</details>
+
 <h4>You can define your own objects</h4>
 
 <p>There are many ways to create your own JavaScript objects. For the
@@ -6201,6 +6413,10 @@ moment, let&apos;s stick to the simplest one, &quot;singleton objects&quot;, and
 now all you need to know is that they can have properties that hold
 values. We will return to objects in Week 4 and cover them in further
 detail.</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  var student1 = {
@@ -6211,7 +6427,13 @@ detail.</p>
 6.  }                      // declaration
 </pre>
 
+</details>
+
 <p>Accessing an object&apos;s properties: we use the operator &quot;.&quot;</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; student1.ssn
@@ -6226,6 +6448,8 @@ detail.</p>
 10.   ssn: "11-22-33-44"
 11. }
 </pre>
+
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-10">1.5.10 Arrays, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6250,6 +6474,10 @@ this:</p>
 <p>To access an element, you use the array variable and &quot;&lbrack;&quot; followed by
 the index value followed by &quot;&rbrack;&quot;, as shown in these examples:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
 2.  undefined
 3.  daysOfWeek&lbrack;0&rbrack;
@@ -6261,6 +6489,8 @@ the index value followed by &quot;&rbrack;&quot;, as shown in these examples:<
 9.  daysOfWeek.length
 10. 7
 </pre>
+
+</details>
 
 <h4>Use the length property of an array to know its length</h4>
 
@@ -6282,6 +6512,10 @@ you learn how to iterate on an array&apos;s elements (Week 2).</b></p>
 <p>If you want to add a new element at the end of an array, use the index
 equal to the length of the array.</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  <b>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
     'Thursday', 'Friday';, 'Saturday'&rbrack;;</b>
 2.  <b>undefined</b>
@@ -6298,9 +6532,15 @@ equal to the length of the array.</p>
 12. <b>// Sunday, the 7th day of week is at index 6 !</b>
 </pre>
 
+</details>
+
 <h4>Arrays are JavaScript objects!</h4>
 
 <p>Well, this is not so important for the moment, but look:</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  &gt; var a &lbrack;&rbrack;;
 2.  &gt; <b>typeof a;</b>
@@ -6314,6 +6554,8 @@ equal to the length of the array.</p>
 10. 2
 </pre>
 
+</details>
+
 <p>And indeed, when you write daysOfWeek.length, you are using the array as
 an object, and you are using the length property of array objects.</p>
 
@@ -6323,6 +6565,10 @@ an object, and you are using the length property of array objects.</p>
 they have more properties and more methods than the push method. You
 will learn more about this in a later lesson (Arrays part 2), but for
 the moment, let&apos;s focus on the most useful features&hellip;</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  &gt; var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'&rbrack;;
 2.  undefined
@@ -6335,6 +6581,8 @@ the moment, let&apos;s focus on the most useful features&hellip;</p>
 9.  &gt; daysOfWeek.length
 10. 7
 </pre>
+
+</details>
 
 <h4>Arrays and Strings</h4>
 
@@ -6349,7 +6597,11 @@ the moment, let&apos;s focus on the most useful features&hellip;</p>
   <li>Each individual character can be accessed using an index.</li>
 </ol>
 
-Examples:
+<h5>Examples:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  &gt; var s = 'one';
 2.  &gt; s&lbrack;0&rbrack;
@@ -6361,6 +6613,8 @@ Examples:
 8.  &gt; s.length;
 9.  3
 </pre>
+
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-11">1.5.11 Functions, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6407,6 +6661,10 @@ value undefined:</p>
 <p>An array named &quot;arguments&quot; is created automatically in each function,
 it contains all the call parameters of the function:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  function f() {
 1.    return arguments;
 1.  }
@@ -6418,7 +6676,13 @@ it contains all the call parameters of the function:</p>
 7.  // returns &lbrack;1, 2, 3, 4, true, "Michel Buffa"&rbrack;
 </pre>
 
+</details>
+
 <h4>Example of the sum with a variable number of arguments</h4>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  function newSum() {
 2.    var i, res = 0;
@@ -6434,6 +6698,8 @@ it contains all the call parameters of the function:</p>
 12. &gt;&gt;&gt; newSum(1, 2, 3, 4);
 13. 10
 </pre>
+
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6-1">1.6.1 Intro: Simple JS Examples to play with</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7283,6 +7549,10 @@ it becomes a string variable:</p>
 
 <p>undefined is returned when a variable has not been assigned:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  var foo;
 2.  &gt; foo
 3.  undefined
@@ -7295,6 +7565,8 @@ it becomes a string variable:</p>
 10. }
 11. 'The variable foo has no value and is undefined'
 </pre>
+
+</details>
 
 <p>The above example shows how we can test whether a variable has a value
 (<b>line 8</b> uses a conditional statement).</p>
@@ -7345,6 +7617,10 @@ a ReferenceError will be raised. But the typeof operator will return
   <li><b>&&</b>, &vert;&vert; operators are binary, ! is unary.</li>
 </ul>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  var b = !true; 
 2.  b; //false
 3.   
@@ -7357,6 +7633,8 @@ a ReferenceError will be raised. But the typeof operator will return
 10. var b = "one"; // implicit conversion of "one" to a boolean value
 11. !!b; //true
 </pre>
+
+</details>
 
 <p>In an expression with logical operators, as shown in <b>lines
 8 </b>and<b> 11</b> of the previous example, non-boolean values are
@@ -7377,6 +7655,10 @@ third, and nth conditions from being tested in certain cases:</p>
 
 <p>Examples:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  var b = 5;
 2.  var c = 6;
 3.   
@@ -7394,6 +7676,8 @@ third, and nth conditions from being tested in certain cases:</p>
 15.   console.log('b not equal to 15 or c not equal to 6');
 16. }
 </pre>
+
+</details>
 
 <h4>Implicit conversions of non boolean values in expressions</h4>
 
@@ -7446,6 +7730,10 @@ can be seen as true/false.</b></p>
 
 <p>What is the value of the variable myNumber after the execution of this code?</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  var myNumber = !1;
 2. 
@@ -7455,6 +7743,8 @@ can be seen as true/false.</b></p>
 6.  
 7.  myNumber = myNumber || 2;
 </pre>
+
+</details>
 
 <p><b>Explanation</b>: after the first line, myNumber equals false. In
 the if statement, at <b>line 3</b>, false does not equal null. Therefore,
@@ -7491,7 +7781,11 @@ conversion</b>.</p>
 both operands reference the same object, or in the case of value types,
 have the same value.</p>
 
-<p>Some examples:</p>
+<h5>Some examples:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  1 == 1;
 2.  //true
@@ -7512,6 +7806,8 @@ have the same value.</p>
 17. 1 === '1';
 18. //false
 </pre>
+
+</details>
 
 <p>Depending on the context, generally strict equal (or strict not
 equal) is preferred.</p>
@@ -7550,6 +7846,10 @@ check the NaN value: isNaN(expr).</p>
   <li>isNaN: returns true if the argument coerces to NaN, and otherwise returns false.</li>
 </ul>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  isNaN(NaN);
 2.  // true
 3.  
@@ -7563,6 +7863,8 @@ check the NaN value: isNaN(expr).</p>
 11. // true
 </pre>
 
+</details>
+
 <p>&quot;A reliable way for ECMAScript code to test if a value X is a NaN, is
 an expression of the form X !== X. The result will be true if, and only if, X 
 is a NaN. &quot; (see the 
@@ -7570,6 +7872,10 @@ is a NaN. &quot; (see the 
 target="_blank" rel="noopener noreferrer">isNan documentation</a>).</p>
 
 <h5>A complete example with isNaN:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  var num =0/0;
 2.  
@@ -7591,6 +7897,8 @@ target="_blank" rel="noopener noreferrer">isNan documentation</a>).</p>
 18. num;
 19. //returns 0 in this three cases
 </pre>
+
+</details>
 
 <p>Of course 0/0 rarely happens, but there are other cases where NaN can appear, for example:</p>
 
@@ -7805,6 +8113,10 @@ commented - please remove comments and try to understand the results).</p>
 
 <h4>Example #1: if-statement</h4>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  var num = 10;
 2.
 3.  if (num === 10) {
@@ -7814,7 +8126,13 @@ commented - please remove comments and try to understand the results).</p>
 7.  // num equals 20
 </pre>
 
+</details>
+
 <h4>Example #2: if-else statement</h4>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  var num = 10;
 2.
@@ -7826,6 +8144,8 @@ commented - please remove comments and try to understand the results).</p>
 8.
 9.  // num equals 0
 </pre>
+
+</details>
 
 <h5>Reminder:</h5>
 
@@ -7929,6 +8249,10 @@ use a <b>switch</b> statement.</p>
 
 <h5>The syntax of the switch statement is:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1. <b>switch</b> (expression) <b>{</b>
 2.    <b>case</b> value1:
@@ -7952,11 +8276,17 @@ use a <b>switch</b> statement.</p>
 20. }
 </pre>
 
+</details>
+
 <p>If the value of an expression equals one of the cases (the equality
 operator evaluated is<b> ===</b>), all the statements next to this case
 block are executed sequentially until the keyword <b>break</b> is reached.
 
 <h4>Example #1: a common switch/case/default example</h4>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  var gear = '';
@@ -7984,6 +8314,8 @@ block are executed sequentially until the keyword <b>break</b> is reached.
 23. }          // end of the switch statement
 </pre>
 
+</details>
+
 <p>In this example, if the clouds are grey, then my gear will be just an
 umbrella. If they are white, I&apos;ll wear only a jacket, if they are black
 I&apos;ll be nude with just boots (!), and if they are green I&apos;ll get a
@@ -7993,6 +8325,10 @@ different cases make the choices 100% exclusive. Only one case can be
 executed!</p>
 
 <h4>Example #2: a switch without &quot;breaks&quot; at the end of each case</h4>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  var gear = '';
@@ -8015,6 +8351,8 @@ executed!</p>
 18.     gear += 'watch';
 19. <b>}</b> // end of the switch statement
 </pre>
+
+</details>
 
 <p><b>Explanation</b>: if the clouds are black, then my gear will be &apos;boots,
 umbrella, jacket, watch&apos;. If the clouds are green, my gear is a
@@ -8358,7 +8696,11 @@ array, which is also an object).</p>
 
 <pre>1. for ( variable in expression ) statement</pre>
 
-<p>Typical example:</p>
+<h5>Typical example:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  var michel = {              // michel is an object
 2.      familyName:'Buffa',     // familyName, givenName, age
@@ -8376,6 +8718,8 @@ array, which is also an object).</p>
 14.                                     // as michel.givenName
 15. <b>}</b>
 </pre>
+
+</details>
 
 <p>Before each execution of the block statement, the variable named
 &quot;property&quot; is assigned with the name of one of the properties (the
@@ -8399,6 +8743,10 @@ statement is that the loop continues.</p>
 
 <h4>Typical example:</h4>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1. for(var i = 1, k = 0; i &lt; 5; i++) {
 2.   if (i === 3) {
 3.     continue;
@@ -8409,6 +8757,8 @@ statement is that the loop continues.</p>
 8. }
 9. console.log('Final k value:' + k)
 </pre>
+
+</details>
 
 <p>Copy and paste this example in your devtool console, but first, try to
 guess what the value of <b>k</b> will be!</p>
@@ -8426,6 +8776,10 @@ statement.</p>
 <pre>1. break &lbrack;label&rbrack;</pre>
 
 <h4>Typical example:</h4>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  var tab = &lbrack;'michel', 'john', 'donald', 'paul'&rbrack;; // johh at index = 1
 2.  
@@ -8448,6 +8802,8 @@ statement.</p>
 19. // Execute the function
 20. isNameInTheArray('john', tab);
 </pre>
+
+</details>
 
 <p>Copy and paste in the devtool console. You&apos;ll see that the function
 that compares each element in the array passed as the second parameter
@@ -9712,6 +10068,10 @@ target="_blank" rel="noopener noreferrer">CodePen: get position relative to top 
 
 <h5>JavaScript source code extract:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1. function processMouseMouve(evt) {
 2.   var mousePositions = document.querySelector('#mousePositions');
 3. 
@@ -9725,6 +10085,8 @@ target="_blank" rel="noopener noreferrer">CodePen: get position relative to top 
 11.                             &quot;<br>&quot;
 12. }
 </pre>
+
+</details>
 
 <h4>Example #5: combine mouseup, mousedown, mousemove to implement a click and drag behavior</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10161,6 +10523,10 @@ the <b>Document Object Model</b> (developers call it <b>the &quot;DOM&quot;</b>)
 <p>Let&apos;s take, for example, a simplified version of the last HTML code we
 showed you:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1. &lt;!DOCTYPE html&gt;
 2. &lt;html lang=&quot;en&quot;&gt;
 3.   &lt;head&gt;
@@ -10177,6 +10543,8 @@ showed you:</p>
 14.  &lt;/body&gt;
 15. &lt;/html&gt;
 </pre>
+
+</details>
 
 <p>Click the red circle next to HTML to unfold this HTML document structure
 (we can also say &quot;see its DOM structure&quot;):</p>
@@ -10519,6 +10887,10 @@ CodePen Example: querySelector &amp; querySelectorAll</a>.</h6>
 images, the first one with an id equal to &quot;img1&quot; (<b><i>lines 11, 14, 16
 and 18</i></b>).</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  &hellip;
 2.  &lt;button onclick=&quot;addBorderToFirstImage();&quot;&gt;
 3.    Add a border to the first image
@@ -10541,11 +10913,17 @@ and 18</i></b>).</p>
 20. &hellip;
 </pre>
 
+</details>
+
 <p><b>JavaScript part</b>: the <b>init</b> function is executed as soon as the page
 is loaded (and the DOM is ready), in this function we add a shadow and
 margins to all images (<b><i>lines 3-21</i></b>). The two other functions are
 called when one of the HTML buttons is clicked (<b><i>line 23 and line
 31</i></b>).</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  window.onload = init; // run init once the page is loaded
 2.
@@ -10590,6 +10968,8 @@ called when one of the HTML buttons is clicked (<b><i>line 23 and line
 41. }
 </pre>
 
+</details>
+
 <h4>Miscellanous examples of use of querySelector(CSSSelector) and querySelectorAll(CSSselector)</h4>
 
 <p>Here are some other examples that use more complicated CSS selectors. If
@@ -10613,6 +10993,10 @@ target="_blank" rel="noopener noreferrer">CodePen: get all li's within a ul of c
 
 <h5>HTML:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  &lt;button onclick=&quot;firstLiClassRedInUl();&quot;&gt;Select first li of
     class red and color it in red&lt;/button&gt;
@@ -10633,7 +11017,13 @@ target="_blank" rel="noopener noreferrer">CodePen: get all li's within a ul of c
 15. &lt;/ul&gt;
 </pre>
 
+</details>
+
 <h5>JS:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  function firstLiClassRedInUl() {
 2.    // first li of class=&quot;red&quot; in a ul
@@ -10650,6 +11040,8 @@ target="_blank" rel="noopener noreferrer">CodePen: get all li's within a ul of c
 13.   })
 14. }
 </pre>
+
+</details>
 
 <h4>Source code extracts:</h4>
 
@@ -10669,6 +11061,10 @@ target="_blank" rel="noopener noreferrer">CodePen: Show Checked items</a>.</h6>
 </p>
 
 <h5>HTML:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &lt;button onclick=&quot;<b>displayListOfCheckedItems();</b>&quot;&gt;
@@ -10695,6 +11091,8 @@ target="_blank" rel="noopener noreferrer">CodePen: Show Checked items</a>.</h6>
 22. &lt;/ul&gt;
 </pre>
 
+</details>
+
 <p>JavaScript code: we select all elements of type input that have an
 attribute checked equal to true, and located inside an element whose id
 is &quot;fruits&quot;. Notice the use of document.querySelectorAll, for
@@ -10715,6 +11113,10 @@ by this list:</p>
 
 <h5>JavaScript code:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  function displayListOfCheckedItems() {
 2.    // all inputs that have been checked
 3.    var listOfSelectedValues=&quot;&quot;;
@@ -10731,6 +11133,8 @@ by this list:</p>
 14.   document.body.append(&quot;You selected: &quot; + listOfSelectedValues);
 15. }
 </pre>
+
+</details>
 
 <p>We select all elements of type input that have an attribute checked equal to true, 
 and located inside an element whose id is "fruits". Notice the use of 
@@ -10761,6 +11165,10 @@ target="_blank" rel="noopener noreferrer">CodePen: Change background of p under 
 
 <h5>HTML code:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  &lt;button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);</b>&quot;&gt;Change
     backgrounds of p under a given element known by id&lt;/button&gt;
 2.  &lt;br&gt;
@@ -10769,6 +11177,8 @@ target="_blank" rel="noopener noreferrer">CodePen: Change background of p under 
 5.  &lt;p&gt;Second paragraph.&lt;/p&gt;
 6.  &lt;/div&gt;
 </pre>
+
+</details>
 
 <p>JavaScript code: we build a CSS selector using the id passed as a
 parameter. In this example, the id is &apos;firstDiv&apos;, the id of the div
@@ -10783,6 +11193,10 @@ alternative method to using the forEach method used in previous
 examples) (<b><i>lines 5-7</i></b>), and we change the background of all selected
 paragraphs (<b><i>line 6</i></b>).</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  function changeBackGroundOfPs(id) {
 2.    var paragraphs = document.querySelectorAll(&quot;#&quot; + id + &quot; p&quot;);
 3.
@@ -10793,7 +11207,13 @@ paragraphs (<b><i>line 6</i></b>).</p>
 8.  }
 </pre>
 
+</details>
+
 <h5>Other examples that use more complex selectors:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>1.  // all elements li in ul elements in an element of id=nav
 2.  var el = document.querySelector(&apos;#nav ul li&apos;);
@@ -10815,6 +11235,8 @@ paragraphs (<b><i>line 6</i></b>).</p>
 18. var div = document.getElementById(&quot;bar&quot;);
 19. var p = div.querySelector(&quot;p&quot;);
 </pre>
+
+</details>
 
 <h4>Accessing HTML elements with the DOM API (old fashioned)</h4>
 
@@ -10964,6 +11386,10 @@ collection of class names:</p>
 
 <pThe list of methods usable on a classList object are add(), remove(), toggle() and contains().</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  // By default, start without a class in the div: &lt;div class=&quot;&quot;/&gt;
 2. 
 3.  // Set &quot;foo&quot; as the class by adding it to the classList
@@ -10983,6 +11409,8 @@ collection of class names:</p>
 17. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div class=&quot;foo&quot;/&gt;
 18. div.classList.toggle(&apos;foo&apos;); // class set to &lt;div class=&quot;&quot;/&gt;
 </pre>
+
+</details>
 
 <h4>Another example: add and remove multiple CSS properties in a list of checkboxes</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11017,6 +11445,10 @@ methods on the &lt;li&gt; elements:</p>
 
 <h5>JavaScript code:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  function displayListOfCheckedItems() {
 2.    // all inputs that have been checked
 3.    var listOfSelectedValues=&quot;&quot;;
@@ -11046,6 +11478,7 @@ methods on the &lt;li&gt; elements:</p>
 27. }
 </pre>
 
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-5">2.5.5 Modifying selected HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11063,6 +11496,10 @@ or to insert a whole set of HTML elements inside another one.</p>
 
 <h4>Typical use:</h4>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  var elem = document.querySelector('#myElem');
 2.  elem.innerHTML = 'Hello '; // replace content by Hello
@@ -11072,6 +11509,8 @@ or to insert a whole set of HTML elements inside another one.</p>
 6.  // at the beginning
 7.  elem.innerHTML = ''; // empty the elem
 </pre>
+
+</details>
 
 <h4>Using the textContent property</h4>
 
@@ -11111,6 +11550,10 @@ it. However, when we modify the textContent value, it also replaces the
 text decoration (the &lt;em&gt; is removed), this is done at <b><i>lines
 16-20</i></b>.</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>1.  window.onload = init;
 2.   
 3.  function init() {
@@ -11133,6 +11576,8 @@ text decoration (the &lt;em&gt; is removed), this is done at <b><i>lines
 20.                                      // paragraph"
 21. }
 </pre>
+
+</details>
 
 <h4>Changing the attributes of selected elements</h4>
 
@@ -11239,6 +11684,7 @@ CodePen: Modify attributes of select elements</a>.</h6>
 </ol>
 
 <h5>Examples:</h5>
+
 <pre>
 1.  li.innerHTML = &apos;&lt;b&gt;This is a new list item in bold!&lt;/b&gt;&apos;; // can add HTML in it
 2.  li.textContent = &apos;Another new list item&apos;;
@@ -11254,6 +11700,7 @@ CodePen: Modify attributes of select elements</a>.</h6>
 </ol>
 
 <h5>Examples:</h5>
+
 <pre>
 1.  var ul = document.querySelector(&apos;#myList&apos;);
 2.  ul.append(li); // insert at the end, appendChild() could also be used (old)
@@ -11284,6 +11731,10 @@ typed number to the empty list at <b><i>line 7</i></b>. If one presses the &quot
 button, it will empty this same list by calling the reset() JavaScript
 function.</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  &lt;label for=&quot;newNumber&quot;&gt;Please enter a number&lt;/label&gt;
 2.  &lt;input type=&quot;number&quot; id=&quot;newNumber&quot; value=0&gt;
@@ -11295,11 +11746,19 @@ function.</p>
 8.  &lt;ul id=&quot;numbers&quot;&gt;&lt;/ul&gt;
 </pre>
 
-JavaScript code extract: notice at <b><i>line 25</i></b> the use of
+<details>
+  <summary>Source code:</summary>
+</details>
+
+<p>JavaScript code extract: notice at <b><i>line 25</i></b> the use of
 the innerHTML property for resetting the content of the &lt;ul&gt; list.
 innerHTML corresponds to all the sub DOM contained inside
 the &lt;ul&gt;&#133;&lt;/ul&gt;. innerHTML can be used for
-adding/deleting/modifying a DOM node&apos;s content.
+adding/deleting/modifying a DOM node&apos;s content.</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function add() {
@@ -11329,6 +11788,8 @@ adding/deleting/modifying a DOM node&apos;s content.
 25.   ul.innerHTML = &quot;&quot;;  
 26. }
 </pre>
+
+</details>
 
 <h5>Example #2: using the innerHTML property to add new elements</h5>
 
@@ -11436,6 +11897,10 @@ that contain the selected checkboxes. This is done in <b><i>line 10</i></b>.</p
 <p>Then, we can call <b>ul.removeChild(li)</b> on the &lt;ul&gt; for removing the 
 &lt;li&gt; that contains the selected element (<b><i>line 11</i></b>).</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  function removeSelected() {
 2.    var list = document.querySelectorAll(&quot;#fruits input:checked&quot;);
@@ -11452,12 +11917,18 @@ that contain the selected checkboxes. This is done in <b><i>line 10</i></b>.</p
 13. }
 </pre>
 
+</details>
+
 <h5>Removing all children of an element using the innerHTML property</h5>
 
 <p>In the same example, if you look at the reset() JavaScript function, we
 use the ul&apos;s innerHTML property both for emptying the list (<b><i>lines
 3-4</i></b>) and for appending to it all the initial HTML code (<b><i>lines
 6-17</i></b>):</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function reset() {
@@ -11479,6 +11950,8 @@ use the ul&apos;s innerHTML property both for emptying the list (<b><i>lines
 16.                   value=&apos;grapes&apos;&gt;Grapes&lt;/li&gt;&quot;;
 17. }
 </pre>
+
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-1">2.6.1 Drawing (5:36)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11488,18 +11961,22 @@ use the ul&apos;s innerHTML property both for emptying the list (<b><i>lines
 <p align="center" width="100%">
 <img src="./images/image342.png?raw=true"
   style="width:65%"
-  title=" "
-  alt="." />
+  title="How to draw in a canvas"
+  alt="How to draw in a canvas." />
 
 <!-- end transcript 2.6.1 -->
 
-The HTML5 canvas is a transparent element that is useful for drawing and
+<p>The HTML5 canvas is a transparent element that is useful for drawing and
 animating. We&apos;ll see some simple examples here, as we&apos;re going to
 finish this week by writing a small, simple game together, that will use
 most of what we&apos;ve learnt so far: loops, conditional statements,
-events, functions, callbacks, simple objects, a few input fields, etc.
+events, functions, callbacks, simple objects, a few input fields, etc.</p>
 
-A typical HTML code for adding a canvas to a Web page:
+<h5>A typical HTML code for adding a canvas to a Web page:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &lt;!DOCTYPE html&gt;
@@ -11513,6 +11990,8 @@ A typical HTML code for adding a canvas to a Web page:
 9.  &lt;/body&gt;
 10. &lt;/html&gt;
 </pre>
+
+</details>
 
 <p>The canvas declaration is at <b><i>line 8</i></b>. Use attributes to give it
 a width and a height, but unless you add some CSS properties, you will
@@ -11561,6 +12040,10 @@ filled text, changing colors)</h5>
 
 <h5>Extract from the JavaScript code:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  // useful to have them as global variables
 2.  var canvas, ctx;
@@ -11594,6 +12077,8 @@ filled text, changing colors)</h5>
 30. ctx.fillText(&quot;Hello!&quot;, 60, 20); // or ctx.strokeText for wireframe
 31. }
 </pre>
+
+</details>
 
 <h5><b>Explanations:</b></h5>
 
@@ -11699,6 +12184,10 @@ CodePen: DrawMyMonster</a>.</h6>
 
 <p>Here is JavaScript code that implements these best practices:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  // useful to have them as global variables
 2.  var canvas, ctx, w, h;
@@ -11752,6 +12241,8 @@ CodePen: DrawMyMonster</a>.</h6>
 50. ctx.restore();
 51. }
 </pre>
+
+</details>
 
 <p>In this small example, we used the context object to draw a monster
 using the default color (black) and wireframe and filled modes:</p>
@@ -11843,8 +12334,12 @@ CodePen: Bouncing Balls</a>.</h6>
 
 <h5>Explanations:</h5>
 
-This time, we&apos;ve used &quot;simple objects&quot; for the circle and the
-rectangles, and we&apos;ve called them &quot;player&quot; and &quot;ball&quot;:
+<p>This time, we&apos;ve used &quot;simple objects&quot; for the circle and the
+rectangles, and we&apos;ve called them &quot;player&quot; and &quot;ball&quot;:</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  var ball = {
@@ -11865,13 +12360,19 @@ rectangles, and we&apos;ve called them &quot;player&quot; and &quot;ball&quot;:
 16. }
 </pre>
 
-With this syntax, it&apos;s easier to manipulate &quot;the x pos of the ball&quot; -
+</details>
+
+<p>With this syntax, it&apos;s easier to manipulate &quot;the x pos of the ball&quot; -
 you just have to use <b>ball.x</b>. we added two properties to the ball
 object: <b>speedX</b> and <b>speedY</b>. Their value is the number of pixels
 that will be added to the current <b>ball.x</b> and <b>ball.y</b> position, at
-each frame of animation.
+each frame of animation.</p>
 
-Let&apos;s look at the animation loop:
+<h5>Let&apos;s look at the animation loop:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function mainLoop() {
@@ -11890,17 +12391,23 @@ Let&apos;s look at the animation loop:
 14. }
 </pre>
 
-Now, let&apos;s decompose the animation loop in some external functions to
+</details>
+
+<p>Now, let&apos;s decompose the animation loop in some external functions to
 make it more readable. At each frame of animation, we will clear the
 canvas, draw the player as a rectangle, draw the ball as a circle, and
-move the ball. 
+move the ball.</p>
 
-You can take a look at the new versions of <b>drawFilledRectangle</b> that
+<p>You can take a look at the new versions of <b>drawFilledRectangle</b> that
 now take only one parameter named r, instead of x, y, width, height and
 a color. We&apos;ve only changed a few things in its code (changed
-x to <b>r.x,</b> y to <b>r.y,</b> color to <b>r.color</b> etc.)
+x to <b>r.x,</b> y to <b>r.y,</b> color to <b>r.color</b> etc.)</p>
 
-Let&apos;s look at the moveBall function:
+<h5>Let&apos;s look at the moveBall function:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function moveBall(b) {
@@ -11911,19 +12418,25 @@ Let&apos;s look at the moveBall function:
 6.  }
 </pre>
 
-This function is called 60 times per second. So, 60 times per second we
-modify the <b>b.x</b> and <b>b.y</b> positions of the ball passed as parameter
-by adding to them the <b>b.speedX</b> and <b>b.speedY</b> property values.
+</details>
 
-Notice that we call <b>moveBall(ball)</b> from <b>mainLoop</b>. In
+<p>This function is called 60 times per second. So, 60 times per second we
+modify the <b>b.x</b> and <b>b.y</b> positions of the ball passed as parameter
+by adding to them the <b>b.speedX</b> and <b>b.speedY</b> property values.</p>
+
+<p>Notice that we call <b>moveBall(ball)</b> from <b>mainLoop</b>. In
 the <b>moveBall</b> function, the ball passed as a parameter becomes the
 <b>b</b> parameter. So, when we change the <b>b.x</b> value inside the
 function, we are in reality changing the x value of the global
-object <b>ball</b>! 
+object <b>ball</b>!</p>
 
-Ok, and at <b><i>line 5</i></b> we call <b>testCollisionBallWithWalls(b)</b>, which
+<p>Ok, and at <b><i>line 5</i></b> we call <b>testCollisionBallWithWalls(b)</b>, which
 will test if the ball b hits a vertical or horizontal wall. Let&apos;s see
-an extract of this function now:
+an extract of this function now:</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function testCollisionBallWithWalls(b) {
@@ -11940,20 +12453,22 @@ an extract of this function now:
 12. }
 </pre>
 
-At <b><i>line 3</i></b> you can see the test that checks if the ball b hits the
+</details>
+
+<p>At <b><i>line 3</i></b> you can see the test that checks if the ball b hits the
 right side of the canvas. The right wall is at w (the width of the
 canvas) on the X-axis. If we compare (<b>b.x + b.radius</b>) with w, we can
-check if a part of the ball extends beyond the right wall. 
+check if a part of the ball extends beyond the right wall.</p>
 
-Remember that each 1/60th of a second, the ball moves a certain number
+<p>Remember that each 1/60th of a second, the ball moves a certain number
 of pixels to the right (the exact value is <b>b.speedX</b>). Imagine that
 the ball moves 10 pixels to the right at each frame of animation. At
 some point, it will &quot;cross the right wall&quot;. We cannot just change the
 sign of <b>b.speedX</b> to make it go to the other side. If we did this, it
 may stay stuck against the side with one half of the ball on either side
-of the wall. 
+of the wall.</p>
 
-If we now remove <b>b.speedX</b> to the <b>ball.x position</b>, we return the
+<p>If we now remove <b>b.speedX</b> to the <b>ball.x position</b>, we return the
 ball to the position it was in before it hit the wall. If we
 then reverse <b>speedX</b>, the ball will indeed start moving with a
 reverse horizontal speed. This will work but can give a strange visual
@@ -11962,16 +12477,14 @@ will never be in a position where the eye can &quot;see it against the
 wall&quot;. This is why experienced game coders know that you just need to
 put the ball &quot;at the contact position&quot;, not to its previous position,
 before reversing the speed value. This is done at <b><i>lines 8-9</i></b>. Try
-changing <b>speedX</b> to say, 20, and you&apos;ll see what we mean.
-
+changing <b>speedX</b> to say, 20, and you&apos;ll see what we mean.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-3">2.6.3 Animating multiple objects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Let&apos;s animate balls and let&apos;s start with 3 the animation of 3 balls:
+<p>Let&apos;s animate balls and let&apos;s start with 3 the animation of 3 balls:
 <b>ball1, ball2 and ball3.</b>
 In the animation loop, we draw and move these three balls. Here is the
-result:
+result:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 348. CodePen: animating multiple objects (301) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/bqZypx" 
@@ -11985,7 +12498,11 @@ target="_blank" rel="noopener noreferrer">
 target="_blank" rel="noopener noreferrer">
 CodePen: Animating Multiple Objects</a>.</h6>
 
-<b>Extract of the source code: the mainLoop function</b>
+<h5>Extract of the source code: the mainLoop function</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function mainLoop() {
@@ -12009,14 +12526,16 @@ CodePen: Animating Multiple Objects</a>.</h6>
 19. }
 </pre>
 
-And what if we have 100 balls? We&apos;re not going to copy and paste the
-lines that draw and move the balls 100 times!
+</details>
+
+<p>And what if we have 100 balls? We&apos;re not going to copy and paste the
+lines that draw and move the balls 100 times!</p>
 
 <h4>Using arrays and loops for creating any number of balls, for animating and 
 moving any number of balls!</h4>
 
-New version: look at
-the <b>createBalls, drawBalls</b> and <b>moveBalls</b> functions now!
+<h5>New version: look at
+the <b>createBalls, drawBalls</b> and <b>moveBalls</b> functions now!</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 349. CodePen: using arrays and loops (302) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/jBJoLo" 
@@ -12030,9 +12549,13 @@ target="_blank" rel="noopener noreferrer">
 target="_blank" rel="noopener noreferrer">
 CodePen: Using Arrays and Loops</a>.</p>
 
-Let&apos;s look at the new functions we&apos;ve added: 
+<h5>Let&apos;s look at the new functions we&apos;ve added:</h5>
 
-<b>createBalls(numberOfBalls),</b> returns an array of balls:
+<h5><b>createBalls(numberOfBalls),</b> returns an array of balls:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function createBalls(n) {
@@ -12057,6 +12580,8 @@ Let&apos;s look at the new functions we&apos;ve added: 
 20. }
 </pre>
 
+</details>
+
 <h5>Explanations:</h5>
 
 <ul>
@@ -12070,6 +12595,10 @@ Let&apos;s look at the new functions we&apos;ve added: 
 </ul>
 
 <h5>The getARandomColor function</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1. function getARandomColor() {
@@ -12085,6 +12614,8 @@ Let&apos;s look at the new functions we&apos;ve added: 
 11.   return c;
 12. }
 </pre>
+
+</details>
 
 <h5>Explanations:</h5>
 
@@ -12105,6 +12636,10 @@ Let&apos;s look at the new functions we&apos;ve added: 
 
 <h5>Functions drawAllBalls and moveAllBalls:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  function drawAllBalls(ballArray) {
 2.  ballArray.forEach(function(b) {
@@ -12124,6 +12659,8 @@ Let&apos;s look at the new functions we&apos;ve added: 
 16. }
 </pre>
 
+</details>
+
 <h5>Explanations:</h5>
 
 <ul>
@@ -12142,12 +12679,16 @@ Let&apos;s look at the new functions we&apos;ve added: 
   title="Mouse logo"
   alt="Mouse logo." />
 
-Detecting mouse events in a canvas is quite straightforward: you add an
+<p>Detecting mouse events in a canvas is quite straightforward: you add an
 event listener to the canvas, and the browser invokes that listener when
-the event occurs.
+the event occurs.</p>
 
-The example below is about listening to mouseup and mousedown events
-(when a user presses or releases any mouse button):
+<p>The example below is about listening to mouseup and mousedown events
+(when a user presses or releases any mouse button):</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  canvas.addEventListener(&apos;mousedown&apos;, function (evt) {
@@ -12159,64 +12700,63 @@ The example below is about listening to mouseup and mousedown events
 7.  });
 </pre>
 
-The event received by the listener function will be used for getting the
+</details>
+
+<p>The event received by the listener function will be used for getting the
 button number or the coordinates of the mouse cursor. Before looking at
 different examples, let&apos;s look at the different event types we can
-listen to.
+listen to.</p>
 
 <h4>The different mouse events (reminder)</h4>
 
-In the last example, we saw how to detect
-the <b>mouseup</b> and <b>mousedown</b> events.
+<p>In the last example, we saw how to detect
+the <b>mouseup</b> and <b>mousedown</b> events.</p>
 
-There are other events related to the mouse:
+<h5>There are other events related to the mouse:</h5>
 
--   <b>mouseleave</b>: similar to <b>mouseout</b>, fired when the mouse leaves
+<ul>
+  <li><b>mouseleave</b>: similar to <b>mouseout</b>, fired when the mouse leaves
     the surface of the element. The difference
     between <b>mouseleave</b> and <b>mouseout</b> is that <b>mouseleave</b> does
     not fire when the cursor moves over descendant elements,
     and mouseout is fired when the element the cursor moves to
     is outside the bounds of the original element or is a child of the
-    original element.
-
--   <b>mouseover</b>: the mouse cursor is moving over the element that
+    original element.</li>
+  <li><b>mouseover</b>: the mouse cursor is moving over the element that
     listens to that event. A <b>mouseover</b> event occurs on an element
     when you are over it - coming from either its child OR parent
     element, but a <b>mouseenter</b> event only occurs when the mouse moves
-    from the parent element to the child element.
-
--   <b>mousedown</b>: fired when a mouse button is pressed.
-
--   <b>mouseup</b>: fired when a mouse button is released.
-
--   <b>mouseclick</b>: fired after a <b>mousedown</b> and a <b>mouseup</b> have
-    occured.
-
--   <b>mousemove</b>: fired while the mouse moves over the element. Each
+    from the parent element to the child element.</li>
+  <li><b>mousedown</b>: fired when a mouse button is pressed.</li>
+  <li><b>mouseup</b>: fired when a mouse button is released.</li>
+  <li><b>mouseclick</b>: fired after a <b>mousedown</b> and a <b>mouseup</b> have
+    occured.</li>
+  <li><b>mousemove</b>: fired while the mouse moves over the element. Each
     time the mouse moves, a new event is fired,
     unlike with <b>mouseover</b> or <b>mouseenter</b>, where only one event is
-    fired.
+    fired.</li>
+</ul>
 
 <h4>The tricky part: getting the position of the mouse relative to the canvas</h4>
 
-When you listen to any of the above events, the event object (we call it
+<p>When you listen to any of the above events, the event object (we call it
 a &quot;DOM event&quot;), passed to the listener function, has properties that
-correspond to the mouse coordinates: <b>clientX</b> and <b>clientY</b>.
+correspond to the mouse coordinates: <b>clientX</b> and <b>clientY</b>.</p>
 
-However, these are what we call &quot;viewport coordinates&quot;. Instead of
+<p>However, these are what we call &quot;viewport coordinates&quot;. Instead of
 being relative to the canvas itself, they are relative to the viewport
-(the visible part of the page).
+(the visible part of the page).</p>
 
-Most of the time you need to work with the mouse position relative to
+<p>Most of the time you need to work with the mouse position relative to
 the canvas, not to the viewport, so you must convert the coordinates
 between the viewport and the canvas. This will take into account the
 position of the canvas in the viewport, and the CSS properties that may
-affect the canvas position (margin, etc.).
+affect the canvas position (margin, etc.).</p>
 
-Fortunately, there is a method for getting the position and size of any
-element in the viewport: <b>getBoundingClientRect</b>().
+<p>Fortunately, there is a method for getting the position and size of any
+element in the viewport: <b>getBoundingClientRect</b>().</p>
 
-Here is an example that shows the problem:
+<h5>Here is an example that shows the problem:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 351. CodePen: position and size in viewport (306) ~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/Wpmqdw" 
@@ -12231,6 +12771,10 @@ target="_blank" rel="noopener noreferrer">
 CodePen: Position and Size in viewport</a>.</p>
 
 <h5>WRONG code used in this example:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &#133;
@@ -12250,6 +12794,8 @@ CodePen: Position and Size in viewport</a>.</p>
 14. };
 15. }
 </pre>
+
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 352. mouse position x and y coordinates (306) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -12272,7 +12818,11 @@ target="_blank" rel="noopener noreferrer">
 target="_blank" rel="noopener noreferrer">
 CodePen: getMousePos</a>.</p>
 
-And here is the fixed version of the getMousePos function:
+<h5>And here is the fixed version of the getMousePos function:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function getMousePos(canvas, evt) {
@@ -12285,7 +12835,9 @@ And here is the fixed version of the getMousePos function:
 8.  }
 </pre>
 
-Result (the cursor is approximately at the top left corner):
+</details>
+
+<h5>Result (the cursor is approximately at the top left corner):</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 354. mouse position (307) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -12322,6 +12874,10 @@ CodePen: example move mouse and click</a>.</h6>
   alt="Mouse position: click and release button." />
 
 <h5>Extract from source code:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  var canvas, ctx, mousePos, mouseButton;
@@ -12369,6 +12925,8 @@ CodePen: example move mouse and click</a>.</h6>
 40.   };
 41. }
 </pre>
+
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-5">2.6.5 Moving a player with the mouse</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12391,6 +12949,10 @@ target="_blank" rel="noopener noreferrer">
 CodePen: working example, get correct mouse position</a>.</h6>
 
 <h5>Extract from the JavaScript source code:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  var mousePos;
@@ -12421,6 +12983,8 @@ CodePen: working example, get correct mouse position</a>.</h6>
 26. }
 </pre>
 
+</details>
+
 <p><b><i>Line 9</i></b> defines a mousemove event listener: the mouseMoved callback
 function will be called each time the user moves the mouse on the
 canvas.</p>
@@ -12434,6 +12998,10 @@ mouse position (in the form of the mousePos.x and mousePos.y properties).</p
 
 <h5>And here is the new mainLoop function. We added a call to
 the mousePlayerWithMouse function:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function mainLoop() {
@@ -12454,7 +13022,13 @@ the mousePlayerWithMouse function:</h5>
 16. }
 </pre>
 
+</details>
+
 <h5>And here is the code of the movePlayerWithMouse function:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function movePlayerWithMouse() {
@@ -12465,12 +13039,14 @@ the mousePlayerWithMouse function:</h5>
 6.  }
 </pre>
 
-If the mouse position is defined, the player&apos;s x and y position will
-equal to the positions of the mouse pointer.
+</details>
 
-The mouse position may be undefined if the animation loop started
+<p>If the mouse position is defined, the player&apos;s x and y position will
+equal to the positions of the mouse pointer.</p>
+
+<p>The mouse position may be undefined if the animation loop started
 without the mouse cursor being on top of the canvas. Remember that the
-mainLoop starts as soon as the page is loaded.
+mainLoop starts as soon as the page is loaded.</p>
 
 <p>Perhaps it&apos;s occurred to you that it might be better to move the player
 &quot;from its center&quot; instead of from its top left corner. We leave this
@@ -12512,6 +13088,10 @@ and Y-axis (we implemented this after reading this 
 <a href="https://stackoverflow.com/questions/401847/circle-rectangle-collision-detection-intersection" 
 target="_blank" rel="noopener noreferrer">thread at StackOverflow</a>):</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  // Collisions between rectangle and circle
 2.  function circRectsOverlap(x0, y0, w0, h0, cx, cy, r) {
@@ -12527,11 +13107,17 @@ target="_blank" rel="noopener noreferrer">thread at StackOverflow</a>):</p>
 12. }
 </pre>
 
-Let&apos;s look at our game! This time, we&apos;ve added into the loop a
+</details>
+
+<p>Let&apos;s look at our game! This time, we&apos;ve added into the loop a
 collision test between the player and the balls. If the player hits a
 ball, it&apos;s removed from the ball array. We did this test in the
 moveBalls function, as we were already testing collisions with walls for
-each ball in the array. Let&apos;s look at this new version:
+each ball in the array. Let&apos;s look at this new version:</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function moveAllBalls(ballArray) {
@@ -12560,6 +13146,8 @@ each ball in the array. Let&apos;s look at this new version:
 24. }
 </pre>
 
+</details>
+
 <h5>Explanations:</h5>
 
 <ul>
@@ -12585,6 +13173,10 @@ each ball in the array. Let&apos;s look at this new version:
 array while we are playing. When this number reaches zero, we display
 &quot;You Win!&quot;:</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  function drawNumberOfBallsAlive(balls) {
 2.    ctx.save();
@@ -12599,7 +13191,13 @@ array while we are playing. When this number reaches zero, we display
 11. }
 </pre>
 
+</details>
+
 <p>This function is called by the mainLoop:</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function mainLoop() {
@@ -12615,6 +13213,7 @@ array while we are playing. When this number reaches zero, we display
 11. }
 </pre>
 
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-7">2.6.7 Adding input fields</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12642,6 +13241,10 @@ target="_blank" rel="noopener noreferrer">CodePen: adding input fields</a>.</h6>
 
 <p>HTML code: this time we&apos;ve used an oninput in each input field, and an
 onchange attribute on the &lt;select&gt; HTML drop down menu:</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &lt;div id=&quot;controls&quot;&gt;
@@ -12672,8 +13275,14 @@ onchange attribute on the &lt;select&gt; HTML drop down menu:</p>
 26. &lt;/div&gt;
 </pre>
 
-JavaScript code: we&apos;ve added some new variables in order to get closer
-to a real game with a goal, levels, game over menu and so on.
+</details>
+
+<p>JavaScript code: we&apos;ve added some new variables in order to get closer
+to a real game with a goal, levels, game over menu and so on.</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  var initialNumberOfBalls; // number of balls at the beginning
@@ -12685,8 +13294,14 @@ to a real game with a goal, levels, game over menu and so on.
 7.  var numberOfGoodBalls;        // number of good balls in the set
 </pre>
 
-And here are the callback functions called when you use the input
-fields:
+</details>
+
+<h5>And here are the callback functions called when you use the input
+fields:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function changeNbBalls(nb) {
@@ -12707,10 +13322,16 @@ fields:
 16. }
 </pre>
 
-Each time we change the number of balls in the game, or the color of the
-balls you need to eat, we need to restart the game. 
+</details>
 
-Here is the startGame(nb_balls) function:
+<p>Each time we change the number of balls in the game, or the color of the
+balls you need to eat, we need to restart the game.</p>
+
+<h5>Here is the startGame(nb_balls) function:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function startGame(nb) {
@@ -12724,8 +13345,14 @@ Here is the startGame(nb_balls) function:
 9.  }
 </pre>
 
-&#41; and here is the function that counts the number of good balls in
-the newly created set of balls:
+</details>
+
+<h5>&#41; and here is the function that counts the number of good balls in
+the newly created set of balls:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function countNumberOfGoodBalls(balls, colorToEat) {
@@ -12739,6 +13366,8 @@ the newly created set of balls:
 9.    return nb;                   // return this number to the caller
 10. }
 </pre>
+
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-8">2.6.8 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13055,6 +13684,10 @@ comparison functions for the <b>sort</b> elements.</p>
 strings, integer values, decimal values, boolean values, or any sort of
 JavaScript object.</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  &gt; var myarr = &lbrack;&apos;red&apos;, &apos;blue&apos;, &apos;yellow&apos;, &apos;purple&apos;&rbrack;;
 2.  Undefined
@@ -13068,6 +13701,8 @@ JavaScript object.</p>
 10. &gt; myarr&lbrack;3&rbrack;;
 11. &quot;purple&quot;
 </pre>
+
+</details>
 
 <p>Each element of an array has a key/index and a value. Here are the
 keys/indexes and values from the above example:</p>
@@ -13083,6 +13718,10 @@ keys/indexes and values from the above example:</p>
 first element is at index 0, and the last at the index equal to the
 number of elements.</p>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  &gt; var a = &lbrack;&rbrack;;
 2.  &gt; typeof a;
@@ -13096,12 +13735,18 @@ number of elements.</p>
 10. 2
 </pre>
 
+</details>
+
 <h5>JavaScript arrays are objects and have some useful properties and methods</h5>
 
 <p>Note that in JavaScript, arrays are &quot;objects&quot; (<b><i>lines 2-3</i></b> in the above
 example), which means that they have properties and methods. You can
 access/call them using the &quot;.&quot; operator. Here are the most common
 properties and methods.</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; var a = &lbrack;1, 3, 2, 5, 7&rbrack;;
@@ -13121,6 +13766,8 @@ properties and methods.</p>
 14. &lbrack;1, 2, 5, 7&rbrack;
 </pre>
 
+</details>
+
 <p>By default, the sort() method sorts elements alphabetically if they are strings, 
 or from lowest to highest if they are numeric. If you want to sort objects like 
 {firstName:&apos;michel&apos;, lastName:&apos;Buffa&apos;, age:51}, you will need 
@@ -13128,6 +13775,10 @@ to use another method passed as an argument to the sort method, for example to
 indicate the property you want to use for sorting (e.g., sort by age);</p>
 
 <h5>Example with an array of persons (each person is an object):</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  var persons = &lbrack;
@@ -13151,6 +13802,8 @@ indicate the property you want to use for sorting (e.g., sort by age);</p>
 19. // them by age and sort the array.
 </pre>
 
+</details>
+
 <h5>Explanations:</h5>
 
 <ul>
@@ -13164,6 +13817,10 @@ indicate the property you want to use for sorting (e.g., sort by age);</p>
 
 <h5>Elements can be of different types in a same array</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  &gt; var a = &lbrack;1,2,3&rbrack;;
 2.  
@@ -13174,10 +13831,16 @@ indicate the property you want to use for sorting (e.g., sort by age);</p>
 7.  &lbrack;1, 2, &quot;three&quot;&rbrack;
 </pre>
 
+</details>
+
 <h5>Adding elements to an array</h5>
 
 <p>We can add new elements using a new index, if you want to add a new element at the 
 end, use the push method!</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; var a = &lbrack;1,2,"three"&rbrack;;
@@ -13197,7 +13860,13 @@ end, use the push method!</p>
 14. &lbrack;1, 2, 3, &quot;four&quot;, &quot;five&quot;, &quot;six&quot;&rbrack;  // a new element at the end
 </pre>
 
+</details>
+
 <h5>When using indexes, be careful not to leave &quot;holes&quot; in the array:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; a&lbrack;7&rbrack; = 'height';
@@ -13206,6 +13875,8 @@ end, use the push method!</p>
 4.  &gt; a;
 5.  &lbrack;1, 2, 3, &quot;four&quot;, &quot;five&quot;, &quot;six&quot;, undefined × 1, &quot;height&quot;&rbrack;
 </pre>
+
+</details>
 
 <p>This array is valid, but having a &lbrack;6&rbrack; equal to &quot;undefined&quot; is often
 prone to errors. Be careful when using absolute indexes for adding
@@ -13235,6 +13906,10 @@ elements. We recommend using the push method instead.</p>
 
 <h5>Examples:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  &gt; a;
 2.  &lbrack;1, 2, 3, &quot;four&quot;, &quot;five&quot;, &quot;six&quot;, undefined × 1, &quot;height&quot;&rbrack;
@@ -13258,7 +13933,13 @@ elements. We recommend using the push method instead.</p>
 20. &lbrack;&quot;four&quot;, &quot;five&quot;, &quot;six&quot;&rbrack;
 </pre>
 
+</details>
+
 <h5>Recommended method for removing the last element: the pop method!</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; a
@@ -13271,7 +13952,13 @@ elements. We recommend using the push method instead.</p>
 8.  &lbrack;&quot;four&quot;, &quot;five&quot;&rbrack;
 </pre>
 
+</details>
+
 <h5>Trap: the delete method is not good for removing an element from an array!</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; delete a&lbrack;1&rbrack;;
@@ -13282,11 +13969,17 @@ elements. We recommend using the push method instead.</p>
 6.  // but it&apos;s still in the array!
 </pre>
 
+</details>
+
 <h5>Arrays of arrays</h5>
 
 <p>It is possible for an array to be an element within an array! This example shows an 
 array made of two arrays of three elements each. It&apos;s a 2x3 matrix with two rows 
 and three columns!</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; var a = &lbrack;&lbrack;1,2,3&rbrack;, &lbrack;4,5,6&rbrack;&rbrack;; // a is a matrix: 2 rows, 3 columns.
@@ -13317,8 +14010,14 @@ and three columns!</p>
 26. 6
 </pre>
 
+</details>
+
 <p>It is possible to have different arrays with different lengths and different types 
 of element in an array:</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; var a = &lbrack;&rbrack;;
@@ -13333,6 +14032,8 @@ of element in an array:</p>
 10. &gt; a
 11. &lbrack;Array(5), Array(3)&rbrack;
 </pre>
+
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-2">3.2.2 Strings are arrays of characters</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13340,6 +14041,10 @@ of element in an array:</p>
 
 <p>JavaScript strings are &quot;like&quot; arrays of characters, but they have some
 limitations, and some dedicated properties and methods:</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; var s = 'Michel';
@@ -13355,6 +14060,8 @@ limitations, and some dedicated properties and methods:</p>
 11. 6
 </pre>
 
+</details>
+
 <p>Indeed, the string s behaves like an array, it has the length property
 like an array, and we can access individual characters using indexes
 that go from 0 to length-1, like arrays&#41;</p>
@@ -13364,6 +14071,10 @@ that go from 0 to length-1, like arrays&#41;</p>
 <p>You cannot add elements to strings using a non-existent index, you
 cannot use the push/pop methods for adding/removing  characters at the
 end of the string:</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  s.push(&apos; Buffa&apos;);
@@ -13385,6 +14096,8 @@ end of the string:</p>
 17. &quot;Michel&quot;
 </pre>
 
+</details>
+
 <ul>
   <li>You cannot use push/pop as this raises an error &quot;is not a
     function&quot; (<b><i>lines 1-5</i></b>)</li>
@@ -13394,6 +14107,10 @@ end of the string:</p>
 
 <p>You can&apos;t even modify a character using an index. Strings are &quot;read
 only&quot; when using brackets to access individual characters!</p>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; var s = 'Michel';
@@ -13405,6 +14122,8 @@ only&quot; when using brackets to access individual characters!</p>
 7.  s; // no luck!
 8.  &quot;Michel&quot;
 </pre>
+
+</details>
 
 <p>You also can&apos;t remove characters using the array&apos;s splice method:</p>
 
@@ -13424,6 +14143,10 @@ predefined objects&quot;). Without going into detail just yet, here are some exa
 
 <h5>Adding a string to the beginning of a string using the + operator:</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  &gt; var s = &apos;Michel&apos;;
 2.  undefined
@@ -13435,7 +14158,13 @@ predefined objects&quot;). Without going into detail just yet, here are some exa
 8.  &quot;OHello Michel&quot;
 </pre>
 
+</details>
+
 <h5>Adding a string to the end of another one with the + operator:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; s = &apos;Michel&apos;;
@@ -13448,7 +14177,13 @@ predefined objects&quot;). Without going into detail just yet, here are some exa
 8.  &quot;Michel Buffa&quot;
 </pre>
 
+</details>
+
 <h5>Adding a string at the end of another one using the concat method:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  &gt; var s1 = &apos;Michel&apos;;
@@ -13476,6 +14211,8 @@ predefined objects&quot;). Without going into detail just yet, here are some exa
 23. &quot;BuffaMichel&quot;
 </pre>
 
+</details>
+
 <h5>Removing chars from a string using the substring method:</h5>
 
 <h5>Removing the last char (equivalent to the pop method from arrays):</h5>
@@ -13489,6 +14226,10 @@ predefined objects&quot;). Without going into detail just yet, here are some exa
 </pre>
 
 <h5>Removing a certain number of chars starting from a string, starting at a given index:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  var s = &apos;Michel&apos;;
@@ -13504,7 +14245,13 @@ predefined objects&quot;). Without going into detail just yet, here are some exa
 11. console.log(s); // will display &quot;Mel&quot; in the console
 </pre>
 
+</details>
+
 <h5>Replacing a char at a given index:</h5>
+
+<details>
+  <summary>Source code:</summary>
+</details>
 
 <pre>
 1.  function replaceAt(s, index, character) {
@@ -13520,6 +14267,8 @@ predefined objects&quot;). Without going into detail just yet, here are some exa
 11. s2 = replaceAt(s2, 0, &quot;Coca&quot;);
 12. console.log(s2); // Will display &quot;CocaScript&quot;
 </pre>
+
+</details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-3">3.2.3 Iterating on array elements (7:22)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13658,6 +14407,10 @@ that can have one, two or three parameters:</p>
 
 <h5>Typical use with only one parameter (the current element):</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  var a = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;&rbrack;;
 2.  
@@ -13667,6 +14420,8 @@ that can have one, two or three parameters:</p>
 6.  &quot;&lt;br&gt;&quot;; // will display Monday, Tuesday, Wednesday
 7.  })
 </pre>
+
+</details>
 
 <p>This is the most practical way to iterate on each individual element of
 a collection (array, string);</p>
@@ -13698,6 +14453,10 @@ target="_blank" rel="noopener noreferrer">
 target="_blank" rel="noopener noreferrer">
 CodePen: iterating on an array of person, and use 2 parms in callback function</a>.</h6>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  var persons = &lbrack;
 2.  {name:&apos;Michel&apos;, age:51},
@@ -13710,6 +14469,8 @@ CodePen: iterating on an array of person, and use 2 parms in callback function</
 9.  &quot;, at index &quot; + index + &quot; in the array&lt;br&gt;&quot;;
 10. });
 </pre>
+
+</details>
 
 <h5>Finally, let&apos;s use three parameters, the last one being the array itself</h5>
 
@@ -13788,6 +14549,10 @@ target="_blank" rel="noopener noreferrer">CodePen: iterate two by two</a>.</h6>
   <li>Let&apos;s start with an array variable like that:</li>
 </ul>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  let myPicturesArray = &lbrack;
 2.  {
@@ -13835,6 +14600,8 @@ target="_blank" rel="noopener noreferrer">CodePen: iterate two by two</a>.</h6>
 43. }
 44. &rbrack;;
 </pre>
+
+</details>
 
 <ul>
   <li>It&apos;s an array of pictures, each picture having a URL, a URL for a
@@ -14036,6 +14803,10 @@ target="_blank" rel="noopener noreferrer">Horse neigh</a>.</h6>
 
 <h5>The code is very similar to the basic <b>&lt;video&gt;</b> element usage.</h5>
 
+<details>
+  <summary>Source code:</summary>
+</details>
+
 <pre>
 1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
@@ -14058,6 +14829,8 @@ target="_blank" rel="noopener noreferrer">Horse neigh</a>.</h6>
 19. &lt;/body&gt;
 20. &lt;/html&gt;
 </pre>
+
+</details>
 
 <p>In this example, just as for the &lt;video&gt; element, we used
 the controls attribute in order to render the play/stop, time, volume
