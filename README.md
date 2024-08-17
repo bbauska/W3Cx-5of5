@@ -15038,18 +15038,18 @@ target="_blank" rel="noopener noreferrer">CodePen: example click to show your lo
 <p>cDifferent Web services can be used to get an address from longitude and
 latitude. Most are free of charge, but they will ask you to register an
 API key and enter your credit card number. If you send too many
-requests, you will be charged.Such a service is the [Google Reverse
-Geocoding JavaScript
-API](https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse).
+requests, you will be charged.Such a service is the 
+<a href="https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse">
+Google Reverse Geocoding JavaScript API</a>.
 For those of you who are really interested to know how this API works,
 please read the Google documentation and tutorials.</p>
 
-There is also an interesting Leaflet plugin (an extension to Leaflet)
-based on the [Gisgraphy](https://www.gisgraphy.com/) (free open source
-framework) service, that comes with a [nice demo of reverse
-geocoding](https://services.gisgraphy.com/static/leaflet/index.html).
+<p>There is also an interesting Leaflet plugin (an extension to Leaflet)
+based on the <a href="https://www.gisgraphy.com/">Gisgraphy</a> free open source
+framework) service, that comes with a <a href="https://services.gisgraphy.com/static/leaflet/index.html">
+nice demo of reverse geocoding</a>.</p>
 
-Let&apos;s see some examples of use.
+<p>Let&apos;s see some examples of use.</p>
 
 <h5>Example #1: how to get a physical address from the longitude and latitude</h5>
 
@@ -15253,26 +15253,28 @@ post your comments/observations/questions or share your creations.
 
 <h4>Optional projects</h4>
 
--   Here are a few project ideas. Your classmates and the team who
+<ul>
+  <li>Here are a few project ideas. Your classmates and the team who
     prepared the course will be glad to try them and offer feedback.
     Please post URLs in this discussion forum. These projects are
     optional, meaning that they won&apos;t be graded.
-
-    -   <b>Project 1 (easy)</b>: Add a map showing your location to one of
+    <ul>
+      <li><b>Project 1 (easy)</b>: Add a map showing your location to one of
         your Web pages. Start with a simple, static map, then try with
-        an interactive map. Reuse the examples from the course.
-
-    -   <b>Project 2 (a bit harder)</b>: The examples provided in the
+        an interactive map. Reuse the examples from the course.</li>
+	  <li><b>Project 2 (a bit harder)</b>: The examples provided in the
         course used OpenStreetMap, but why don&apos;t you try to do the same
         with GoogleMaps? Some services are free of charge, but they will
         ask you to get an API key (see [this YouTube
         tutorial](https://www.youtube.com/watch?v=C3znRXBMYZo) about how
-        to get such a key).
-
+        to get such a key).</li>
+	</ul>
+  </li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-1">3.5.1 Background music (streamed)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><b>Warning about the autoplay policy</b></p>
+<h5>Warning about the autoplay policy</h5>
 
 <p>Since 2018, most browsers have adopted <a href="https://developer.chrome.com/blog/autoplay/" 
 target="_blank" rel="noopener noreferrer">
@@ -15297,85 +15299,85 @@ perfect for providing a background atmosphere in a video game.</p>
 
 <h5>Here is one simple example of background music control from JavaScript:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 422.  (374) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 422. codepen: play/pause music (374) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ZeNpyx" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image422.png"
   style="width:65%"
-  title=""
-  alt="." />
-
-<!-- <https://codepen.io/w3devcampus/pen/ZeNpyx> -->
+  title="CodePen: play/pause background music"
+  alt="CodePen: play/pause background music." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZeNpyx" 
+target="_blank" rel="noopener noreferrer">
+CodePen: play/pause background music</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-2">3.5.2 Sound effects using howler.js (4:10)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Live coding lesson: using sound samples
+<h5>Live coding lesson: using sound samples:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 423.  (375) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 423. CodePen: Using sound samples (375) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image423.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: Using sound samples"
+  alt="CodePen: Using sound samples." />
 
-Hello!
-
-The same way we made the small custom video player, you can also use the
+<p>The same way we made the small custom video player, you can also use the
 audio HTML element that is similar in its use to the video HTML element,
-for adding to your page an audio player.
+for adding to your page an audio player.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 424.  (375) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 424. codepen: play/pause music (375) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image424.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: play/pause music"
+  alt="CodePen: play/pause music." />
 
-Here, the audio is streamed from a remote server, the same way with the
-video element, a video movie is streamed from a remote server.
+<p>Here, the audio is streamed from a remote server, the same way with the
+video element, a video movie is streamed from a remote server.</p>
 
-If you want to add background music to your game, you can use the audio
+<p>If you want to add background music to your game, you can use the audio
 player, but of course you will want to hide completely the buttons. If I 
-remove the controls attribute. Then, I can completely hide the player.
+remove the controls attribute. Then, I can completely hide the player.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 425.  (376) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 425. codepen:  play/pause buttons (376) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image425.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: play/pause buttons"
+  alt="CodePen: play/pause buttons." />
 
-Here, I kept some buttons for playing music or pausing it. But you saw
+<p>Here, I kept some buttons for playing music or pausing it. But you saw
 that you can start playing the music from JavaScript. You can also&#133;;
 directly start the music when the page is loaded. The same way I use the
-video player, I declare an audio player, here.
+video player, I declare an audio player, here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 426.  (376) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 426. codepen: play/pause buttons, #2 (376) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image426.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: play/pause buttons, #2"
+  alt="CodePen: play/pause buttons, #2." />
 
-And in JavaScript, I&apos;ve got my button onclick="play()" that will call a
-play function, that will get a reference on the player.
+<p>And in JavaScript, I&apos;ve got my button onclick="play()" that will call a
+play function, that will get a reference on the player.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 427.  (377) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 426. codepen: play/pause buttons, #3 (377) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image427.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: play/pause buttons, #3"
+  alt="CodePen: play/pause buttons, #3." />
 
-This is the id of the player. You can see it here. And I&apos;m calling the
-play and pause methods to play and pause the music.
+<p>This is the id of the player. You can see it here. And I&apos;m calling the
+play and pause methods to play and pause the music.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 428.  (377) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 428. codepen: play sound sample 1 (377) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image428.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: play sound sample 1"
+  alt="CodePen: play sound sample 1." />
 
 <p>For sound effects, that will have to be played very fast,&#133;; that last
 a very short time. It&apos;s better to load the sounds in memory and then
@@ -15385,54 +15387,54 @@ complicated to use the low level WebAudio API. Some developers made some
 high level libraries for making this task easier. One of them is called
 <a href="https://howlerjs.com/" target="_blank" rel="noopener noreferrer">howler.js</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 429.  (378) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 429. howler.js audio library (378) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image429.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Howler.js audio library"
+  alt="Howler.js audio library." />
 
 <p>This is the Web site --- howler.js &quot;Make working with audio in
 JavaScript easy&quot;. You can read the documentations and look at samples
 here. The way we used it, is that we've just including it using a script
 tag.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 430.  (378) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 430. codepen: play sound sample 1, #1 (378) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image430.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: play sound sample 1, #1"
+  alt="CodePen: play sound sample 1, #1." />
 
 <p>This is the inclusion of a minified, a very short version of this library. 
 And then from JavaScript, you can use it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 431.  (379) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 431. codepen: play sound sample 1, #2 (379) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image431.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: play sound sample 1, #2"
+  alt="CodePen: play sound sample 1, #2." />
 
 <p>Here we&apos;ve got a button that will play a very short sound&#133; you see.
 Let&apos;s look at the way the play sound is implemented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (379) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 432. codepen: play sound sample 1, #3 (379) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image432.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: play sound sample 1, #3"
+  alt="CodePen: play sound sample 1, #3." />
 
 <p>The play sound function just does "sound.play();", but the sound we are
 referring to, here, has been loaded when the page was ready.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433.  (380) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 433. codepen: play sound sample 1, #4 (380) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image433.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: play sound sample 1, #4"
+  alt="CodePen: play sound sample 1, #4." />
 
 <p>So "window.onload = init;"&#133; You saw that many times now. From then, we
 use the Howl library like this. "new Howl": you indicate the URL of your
@@ -15462,12 +15464,14 @@ HowlerJS is one of these</a>.</p>
 <h5>Example that uses Howler.js to load a sound sample from a remote server, then 
 decode it in memory, and play it:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434.  (381) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 434. codepen: load sound sample using howlerjs (381) ~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ZeNpEX" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image434.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: load sound sample using howlerjs"
+  alt="CodePen: load sound sample using howlerjs." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZeNpEX" 
 target="_blank" rel="noopener noreferrer">
 CodePen: load sound sample using howlerjs</a>.</h6>
@@ -15478,19 +15482,19 @@ CodePen: load sound sample using howlerjs</a>.</h6>
 1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.  &lt;head&gt;
-4.  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.28/howler.min.js&quot;&gt;&lt;/script&gt;
-5.  &lt;title&gt;Simple example that uses howler.js for playing sound
-    samples&lt;/title&gt;
-6.  &lt;meta charset=&quot;utf-8&quot;&gt;
+4.    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.28/howler.min.js&quot;&gt;&lt;/script&gt;
+5.    &lt;title&gt;Simple example that uses howler.js for playing sound
+        samples&lt;/title&gt;
+6.    &lt;meta charset=&quot;utf-8&quot;&gt;
 7.  &lt;/head&gt;
 8.  &lt;body&gt;
-9.  &lt;p&gt;Turn volume 1. As soon as the button becomes enabled, that
-    means that the sound sample
-10. has been downloaded and decoded in memory. It can now be played.
-    Click on the button to play
-11. this sound. Click it rapidly: you see, it&apos;s ok for a game!&lt;/p&gt;
-12. &lt;button onclick=&quot;playSound();&quot; id=&quot;button1&quot; disabled&gt;Play
-    sound sample 1&lt;/button&gt;
+9.    &lt;p&gt;Turn volume 1. As soon as the button becomes enabled, that
+      means that the sound sample
+10.   has been downloaded and decoded in memory. It can now be played.
+      Click on the button to play
+11.   this sound. Click it rapidly: you see, it&apos;s ok for a game!&lt;/p&gt;
+12.   &lt;button onclick=&quot;playSound();&quot; id=&quot;button1&quot; disabled&gt;Play
+      sound sample 1&lt;/button&gt;
 13. &lt;/body&gt;
 14. &lt;/html&gt;
 </pre>
@@ -15521,25 +15525,24 @@ CodePen: load sound sample using howlerjs</a>.</h6>
 15. }
 </pre>
 
-The important part is located in <b><i>lines 5-9</i></b>: the Howler library is to
-be used like this: sound = new Howl({&#133;}); The part between the { and
+<p>The important part is located in <b><i>lines 5-9</i></b>: the Howler library is to
+be used like this: sound = new Howl({...}); The part between the { and
 } is an object. The url&apos;s property is an array with at least one
 element: the URL of the sound we want to use, located on remote servers.
-The call to new Howl({&#133;}); will start downloading the sound in
+The call to new Howl({...}); will start downloading the sound in
 background, then, once it has loaded, it will &quot;decode it&quot; (i.e., an
 mp3 file will use some cpu to be decoded on the fly and played, whereas
 a decoded sound will use nearly zero cpu, which makes it good for
-games!).
+games!).</p>
 
-Finally, once the sound is decoded, the onload callback is executed. In
+<p>Finally, once the sound is decoded, the onload callback is executed. In
 other words, the function after onload: will be executed (at <b><i>lines
 7-9</i></b>). In this callback, we enable the button because the sound is
-ready to be played.
+ready to be played.</p>
 
-The playSound function can only be called when the button is enabled
+<p>The playSound function can only be called when the button is enabled
 (when the sound sample has been loaded and decoded). In order to play a
-sound loaded by Howler.JS, we just call the play() method (<b><i>line14</i></b>).
-
+sound loaded by Howler.JS, we just call the play() method (<b><i>line14</i></b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-3">3.5.3 Adding music and sound effects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -15556,49 +15559,48 @@ effects (when the player eats a ball):</p>
 target="_blank" rel="noopener noreferrer">
 CodePen: adding music and sound effects</a>.</h6>
 
-Look at the HTML part: we included the Howler.js library and we also
+<p>Look at the HTML part: we included the Howler.js library and we also
 added an &lt;audio&gt; player (invisible; we removed the controls attribute)
-for background music.
+for background music.</p>
 
-In the JavaScript code, we start the background music as soon as the
-page is loaded.
+<p>In the JavaScript code, we start the background music as soon as the
+page is loaded.</p>
 
-We then used HowlerJS to load a sound sample in background. Only once
-this sample has been loaded and decoded do we start the animation.
-
+<p>We then used HowlerJS to load a sound sample in background. Only once
+this sample has been loaded and decoded do we start the animation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-4">3.5.4 &lbrack;Advanced&rbrack; a multiple image, sound and music loader (3:47)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Live coding video: a multiple image, sound and music loader</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (384) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 436. codepen: multiple image, sound and music loader (384) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: multiple image, sound and music loader"
+  alt="CodePen: multiple image, sound and music loader." />
 
-I prepared for you&#133;; more for advanced users&#133;; a multiple image,
-sound and music loader.
+<p>I prepared for you...; more for advanced users...; a multiple image,
+sound and music loader.</p>
 
-It&apos;s a function that you will call&#133;; that will load in background,
+<p>It&apos;s a function that you will call...; that will load in background,
 for you, images, sound samples and also deal with streamed music.
 And when everything is ready, it will call a function of your own that
-will start the game.
+will start the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (384) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 436. codepen: multiple image, sound and music loader (384) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: multiple image, sound and music loader"
+  alt="CodePen: multiple image, sound and music loader." />
 
-Like this, when the game starts, all images, musics and sounds are ready
+<p>Like this, when the game starts, all images, musics and sounds are ready
 to go. Let&apos;s have a look at it. Here is how it looks like. You define an
 object called "assetsToLoadURLs" and you indicate the names of the
 musics, of the sound samples or of the images you want to load, and you
 indicate their URLs. So "backgroundImage" it&apos;s a PNG, logo it&apos;s a PNG,
-"plop" it&apos;s a MP3.
+"plop" it&apos;s a MP3.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15606,12 +15608,13 @@ indicate their URLs. So "backgroundImage" it&apos;s a PNG, logo it&apos;s a PNG,
   style="width:65%"
   title=""
   alt="." />
-And you can also indicate if it&apos;s going to be streamed or loaded and
+  
+<p>And you can also indicate if it&apos;s going to be streamed or loaded and
 decoded in memory for fast access. You can indicate if it&apos;s gonna loop,
-start again at the end. You can indicate the volume&#133;; and it will do
+start again at the end. You can indicate the volume...; and it will do
 everything for you. You can indicate background music with "buffer:
 true", "loop: true". This is a background music will be looped in the
-background. How do you load all these assets?
+background. How do you load all these assets?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15619,13 +15622,14 @@ background. How do you load all these assets?
   style="width:65%"
   title=""
   alt="." />
-You use the "loadAssets()" function that is provided at this end of this
+  
+<p>You use the "loadAssets()" function that is provided at this end of this
 source file but you don&apos;t have to look at the details.
 You don&apos;t have to understand in details how it works.
 Here, in the init() function called when the page is loaded, we display
-the "Loading assets" &#133;; "Loading assets" message.
+the "Loading assets" ...; "Loading assets" message.
 Then we call "loadAssets()" and we pass the name of function that will
-really start the game.
+really start the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15633,18 +15637,19 @@ really start the game.
   style="width:65%"
   title=""
   alt="." />
-This is where you will start animation, drawing, playing music and so
+
+<p>This is where you will start animation, drawing, playing music and so
 on. And this "loadAssets()" function will use this "assetsToLoadURLs" object
-we talked earlier.
+we talked earlier.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image434.png"
   style="width:65%"
-  title=""
-  alt="." />
-Look in the "startGame()" function we&apos;re going to use this now.
-And how are we going to use this for playing music for example?
+  title="CodePen: play sound sample 1"
+  alt="CodePen: play sound sample 1." />
+<p>Look in the "startGame()" function we&apos;re going to use this now.
+And how are we going to use this for playing music for example?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 435.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15653,12 +15658,12 @@ And how are we going to use this for playing music for example?
   title=""
   alt="." />
 
-"playHumbug()". You see. The music is just called by its name.
+<p>"playHumbug()". You see. The music is just called by its name.
 "LoadedAssets" the object of the top of the file ".humbug" the name of
-the music ".play()".
+the music ".play()".</p>
 
-For playing some sound samples, here we are going to play a "plop" sound
-sample every 1000 milliseconds&#133;; every second. 
+<p>For playing some sound samples, here we are going to play a "plop" sound
+sample every 1000 milliseconds...; every second.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15667,13 +15672,13 @@ sample every 1000 milliseconds&#133;; every second.
   title=""
   alt="." />
 
-We just do "LoadedAssets.plop.play()" you see the name &quot;plop&quot; comes from here.
+<p>We just do "LoadedAssets.plop.play()" you see the name &quot;plop&quot; comes from here.
 Instead of using "assetsToLoadURLs" now we are using "LoadedAssets&quot;.plop because the 
 "LoadedAssets" will initialize this object here, this variable with the decoded sound samples, 
-with the loaded images and so on.
+with the loaded images and so on.</p>
 
-I hope you will find this useful if you are planning to write a small
-HTML5 game with lots of JavaScript.
+<p>I hope you will find this useful if you are planning to write a small
+HTML5 game with lots of JavaScript.</p>
 
 <!-- end transcript 3.5.4 -->
 
@@ -15701,24 +15706,26 @@ game:</p>
     its src attribute.</li>
 </ul>
 
-We wrote a multiple &quot;<b>asset loader</b>&quot; to make all these tasks easy.
+<p>We wrote a multiple &quot;<b>asset loader</b>&quot; to make all these tasks easy.</p>
 
-Here is a small example that you may use if you like, which takes an array of 
+<p>Here is a small example that you may use if you like, which takes an array of 
 &quot;assets to be loaded&quot;, that can be either an image, a sound sample or 
 streamed background music. You call the loadAssets(callback) function, passing as 
 a parameter a single callback function of yours. When all assets are loaded, your 
 callback will be executed, and will get a single parameter: the assets ready to
-be used!
+be used!</p>
 
-Example (to hear the music and sound sample, there are two lines to
-uncomment in the <b>startGame(&#133;)</b> function):
+<h5>Example (to hear the music and sound sample, there are two lines to
+uncomment in the <b>startGame(&#133;)</b> function):</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 437.  (389) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/QpRGrz" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image437.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: load music and sound sample"
+  alt="CodePen: load music and sound sample." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/QpRGrz" 
 target="_blank" rel="noopener noreferrer">
 CodePen: load music and sound sample</a>.</h6>
@@ -15744,8 +15751,9 @@ CodePen: load music and sound sample</a>.</h6>
 16.   xmas: { url: &apos;https://&#133;;/assets/sounds/xmas.mp3&apos;,
 17.           buffer: true, loop: true, volume: 0.6 }
 18. };
+</pre>
 
-
+<pre>
 1.  var loadedAssets; // above assets, ready to be used
 2.
 3. function init() {
@@ -15798,8 +15806,8 @@ CodePen: load music and sound sample</a>.</h6>
 50. }
 </pre>
 
-<h4>Two games that have been written by students in the W3C Apps and Games course 
-(which has a module dedicated to game programming):</h4>
+<h5>Two games that have been written by students in the W3C Apps and Games course 
+(which has a module dedicated to game programming):</h5>
 
 <p>These games are not for JavaScript beginners, but it&apos;s time to spend
 some time having fun :-) You can look at the source code: it&apos;s been
@@ -15855,7 +15863,7 @@ rotated, etc. It also uses the multiple asset loader presented.</p>
 <p align="center" width="100%">
 <img src="./images/image439.png"
   style="width:65%"
-  title=""
+  title="Audio music"
   alt="Audio music." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-5">3.5.5 Discussion and projects</h3>
@@ -15921,8 +15929,6 @@ Video
   style="width:65%"
   title=""
   alt="." />
-
-Hey!
 
 This module is about JavaScript objects.
 
@@ -15992,7 +15998,7 @@ course. Here is an example:
 6.  }
 </pre>
 
-And we access properties values using the &quot;.&quot; operator, like this:
+<h5>And we access properties values using the &quot;.&quot; operator, like this:</h5>
 
 <pre>
 1.  js1.author
