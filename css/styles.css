@@ -13,11 +13,18 @@ img {
   margin: auto;
   display: block;
 }
+
+p { 
+  font-size: 13.5px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  text-align: left; 
+  margin-left: 10px;
+}
+
 details {
   font: 15px "Bahnschrift", Calibri, sans-serif;
   width: 620px;
 }
-
 details > summary {
   padding: 2px 6px;
   width: 15em;
@@ -100,12 +107,12 @@ background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93
 
 body {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  font-size: 14.5px;  /* 1.2rem; */
+  font-size: 13.5px;  /* 1.2rem; */
   background-color: #eee;  /* very light gray */
   color: #000000;  /* black */
   text-align: left;
   padding: 10px;
-  margin: 15px;  /* was margin-left: 10px; */
+  margin: 10px;  /* was margin-left: 10px; */
 }
 
 #myBtn {
@@ -135,6 +142,37 @@ table {
   margin-left: 15px;
   border: 1px solid black;
 }
+
+ h1 { 
+    font-size: 21px;
+    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
+    text-align: center;
+  }
+  h2 { 
+    font-size: 18px;
+    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
+    padding: 10px;
+  }
+  h3 { 
+    font-size: 17px;
+    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
+	margin-left: 10px;  
+  }
+  h4 { 
+    font-size: 16px;
+    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
+	margin-left: 10px;
+  }
+  h5 { 
+    font-size: 15px;
+    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
+	margin-left: 10px;
+  }
+  h6 { 
+    font-size: 10px;
+    font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+	margin-left: 10px;
+  }
 
 @media all and (max-width: 500px) {
   img.frame { 
