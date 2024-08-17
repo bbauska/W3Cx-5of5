@@ -2,7 +2,7 @@
 title: "W3Cx-5of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
 author: "bbauska"
 date created: "7/07/2024 Sun 12+pm"
-date last editted: "8/14/2024 Wed 11+am"
+date last editted: "8/16/2024 Fri 9+pm"
 
 output: 
   markdown:
@@ -9505,19 +9505,20 @@ the user presses various types of keys, both for code and key.</p>
 <h4>Example that displays the key and code values with your current keyboard</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 283. codepen: display key and code values (241) ~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/GmYxNY" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image283.png"
   style="width:50%"
   title="CodePen: display key and code values"
-  alt="CodePen: display key and code values." />
+  alt="CodePen: display key and code values." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/GmYxNY" 
 target="_blank" rel="noopener noreferrer">
 CodePen: display key and code values</a>.</h6>
 
 <p>I encourage you to take a look and get at least an overview of this
-specification.</p>
-
-<p>Please note that the W3C has also published a sibling specification
+specification.<br/>
+Please note that the W3C has also published a sibling specification
 describing the values for the key property.</p>
 
 <h4>Current browser support</h4>
@@ -9858,7 +9859,8 @@ really bad practice and causes a host of problems during development.</p>
 multiple <b>listener</b> functions. If you need to do this, use the version
 shown below.</p>
 
-<h4><b>Method #3: register a callback to the event listener with the addEventListener method (preferred  method)</b></h4>
+<h4><b>Method #3: register a callback to the event listener with the 
+addEventListener method (preferred  method)</b></h4>
 
 <pre>1.  document.getElementById(&apos;someDiv&apos;).<b>addEventListener</b>(&apos;click&apos;, function() {
 2.    alert(&apos;clicked!&apos;);
@@ -10051,7 +10053,7 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 309. hand holding stopwatch (255) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
-<img src="./images/image309.png"
+<img src="./images/image309.jpeg"
   style="width:25%"
   title="Hand holding stopwatch"
   alt="Hand holding stopwatch." />
@@ -10109,7 +10111,7 @@ nodes (attributes, content), and also handle their associated events.</p>
 the global object window. We rarely manipulate the window object
 directly as it is implicit: window.document is the same as document.</p>
 
-<p>So by using this object, we can access and manipulate our page from
+<p>By using this object, we can access and manipulate our page from
 JavaScript as a structured document.</p>
 
 <h4>Reminder from Module 1: HTML and the DOM</h4>
@@ -10144,24 +10146,27 @@ showed you:</p>
 (we can also say &quot;see its DOM structure&quot;):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 311. html and circle (258) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/BRNpYQ" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image311.png"
   style="width:50%"
   title="CodePen: html and red circle"
-  alt="CodePen: html and red circle." />
+  alt="CodePen: html and red circle." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/BRNpYQ" 
-target="_blank" rel="noopener noreferrer">CodePen: html red circle</a>.</h6>
+target="_blank" rel="noopener noreferrer">
+CodePen: html red circle</a>.</h6>
 
-<p>Consider the figure above.  It contains a single html element.  It turns
-out this includes within it the entire content of your html file.  If
-you click on the &quot;html&quot; red node, you&apos;ll find that it contains two
-components, a head and a body.  Clicking on each of these will reveal
-their respective contents.  This structure is what we computer
-scientists call a &quot;tree&quot;.  Any given element (except for the outermost
-&apos;html&apos; element) is wholly contained inside another element, referred
-to as the &quot;parent&quot; element.  Not surprisingly, the elements that a
-given element contains are its &quot;child&quot; elements.  And, yes, children
-of a common parent are often referred to as &quot;siblings&quot;.</p>
+<p>Consider the figure above.  It contains a single html element. It turns out this 
+includes within it the entire content of your html file. If you click on the 
+&quot;html&quot; red node, you&apos;ll find that it contains two components, a 
+head and a body. Clicking on each of these will reveal their respective contents. 
+This structure is what we computer scientists call a &quot;tree&quot;.  Any given 
+element (except for the outermost &apos;html&apos; element) is wholly contained 
+inside another element, referred to as the &quot;parent&quot; element.  Not 
+surprisingly, the elements that a given element contains are its &quot;child&quot; 
+elements.  And, yes, children of a common parent are often referred to as 
+&quot;siblings&quot;.</p>
 
 <p>Thus, in the example above, the top element is the html element, which
 contains just two elements, the head and body.  The head element
@@ -10372,6 +10377,7 @@ with a margin of 10 pixels at top, left, right and bottom.</p>
   style="width:45%"
   title="Before border added to 1st image"
   alt="Before border added to 1st image." />
+npsp;npsp;npsp;npsp;npsp;
 <img src="./images/image326.png"
   style="width:45%"
   title="After border added to 1st image"
@@ -10724,11 +10730,11 @@ target="_blank" rel="noopener noreferrer">CodePen: Change background of p under 
 <h5>HTML code:</h5>
 
 <pre>1.  &lt;button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);</b>&quot;&gt;Change
-    backgrounds of p under a given element known by id&lt;/button&gt;
+      backgrounds of p under a given element known by id&lt;/button&gt;
 2.  &lt;br&gt;
 3.  &lt;div <b>id=&quot;firstDiv&quot;</b>&gt;
-4.  &lt;p&gt;First paragraph.&lt;/p&gt;
-5.  &lt;p&gt;Second paragraph.&lt;/p&gt;
+4.    &lt;p&gt;First paragraph.&lt;/p&gt;
+5.    &lt;p&gt;Second paragraph.&lt;/p&gt;
 6.  &lt;/div&gt;
 </pre>
 
@@ -11257,7 +11263,7 @@ function.</p>
 8.  &lt;ul id=&quot;numbers&quot;&gt;&lt;/ul&gt;
 </pre>
 
-JavaScript code extract: notice at <b><i>line 25</i></b> the use of
+<p>JavaScript code extract: notice at <b><i>line 25</i></b> the use of
 the innerHTML property for resetting the content of the &lt;ul&gt; list.
 innerHTML corresponds to all the sub DOM contained inside
 the &lt;ul&gt;&#133;&lt;/ul&gt;. innerHTML can be used for
@@ -11377,11 +11383,13 @@ CodePen: Example #2, Drag 'n drop images</a>.</h6>
 will check the elements you want to remove from the list!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 341. codepen: removing elements from the dom (286) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/NpJxdX" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image341.png"
   style="width:65%"
   title="CodePen: Removing elements from the DOM"
-  alt="CodePen: Removing elements from the DOM." />
+  alt="CodePen: Removing elements from the DOM." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/NpJxdX" 
 target="_blank" rel="noopener noreferrer">
 CodePen: removing elements from the DOM</a>.</h6>
@@ -11450,29 +11458,29 @@ use the ul&apos;s innerHTML property both for emptying the list (<b><i>lines
 <p align="center" width="100%">
 <img src="./images/image342.png"
   style="width:65%"
-  title=" "
-  alt="." />
+  title="How to draw in a canvas"
+  alt="How to draw in a canvas." />
 
 <!-- end transcript 2.6.1 -->
 
-The HTML5 canvas is a transparent element that is useful for drawing and
+<p>The HTML5 canvas is a transparent element that is useful for drawing and
 animating. We&apos;ll see some simple examples here, as we&apos;re going to
 finish this week by writing a small, simple game together, that will use
 most of what we&apos;ve learnt so far: loops, conditional statements,
-events, functions, callbacks, simple objects, a few input fields, etc.
+events, functions, callbacks, simple objects, a few input fields, etc.</p>
 
-A typical HTML code for adding a canvas to a Web page:
+<p>A typical HTML code for adding a canvas to a Web page:</p>
 
 <pre>
 1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
-3.  &lt;head&gt;
-4.  &lt;meta charset=&quot;utf-8&quot;&gt;
-5.  &lt;title&gt;Draw a monster in a canvas&lt;/title&gt;
-6.  &lt;/head&gt;
-7.  &lt;body&gt;
-8.  &lt;canvas id=&quot;myCanvas&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;&lt;/canvas&gt;
-9.  &lt;/body&gt;
+3.    &lt;head&gt;
+4.      &lt;meta charset=&quot;utf-8&quot;&gt;
+5.      &lt;title&gt;Draw a monster in a canvas&lt;/title&gt;
+6.    &lt;/head&gt;
+7.    &lt;body&gt;
+8.      &lt;canvas id=&quot;myCanvas&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;&lt;/canvas&gt;
+9.    &lt;/body&gt;
 10. &lt;/html&gt;
 </pre>
 
@@ -11528,32 +11536,32 @@ filled text, changing colors)</h5>
 2.  var canvas, ctx;
 3.  
 4.  window.onload = function init() {
-5.  // called AFTER the page has been loaded
-6.  canvas = document.querySelector(&quot;#myCanvas&quot;);
-7.  // important, we will draw with this object
-8.  ctx = canvas.getContext(&apos;2d&apos;);
+5.    // called AFTER the page has been loaded
+6.    canvas = document.querySelector(&quot;#myCanvas&quot;);
+7.    // important, we will draw with this object
+8.    ctx = canvas.getContext(&apos;2d&apos;);
 9.  
-10. // ready to go! We can use the context for drawing
-11. // or changing colors, line widths, etc.
+10.   // ready to go! We can use the context for drawing
+11.   // or changing colors, line widths, etc.
 12. 
-13. // filled rectangle
-14. ctx.fillStyle = &apos;red&apos;;
-15. ctx.fillRect(10, 10, 30, 30);
+13.   // filled rectangle
+14.   ctx.fillStyle = &apos;red&apos;;
+15.   ctx.fillRect(10, 10, 30, 30);
 16. 
-17. // wireframe rectangle
-18. ctx.strokeStyle = &apos;green&apos;;
-19. ctx.lineWidth = 4;
-20. ctx.strokeRect(100, 40, 40, 40);
+17.   // wireframe rectangle
+18.   ctx.strokeStyle = &apos;green&apos;;
+19.   ctx.lineWidth = 4;
+20.   ctx.strokeRect(100, 40, 40, 40);
 21. 
-22. // fill circle, will use current ctx.fillStyle
-23. ctx.beginPath();
-24. ctx.arc(60, 60, 10, 0, 2&#42;Math.PI);
-25. ctx.fill(); // or ctx.stroke() for a wireframe circle
+22.   // fill circle, will use current ctx.fillStyle
+23.   ctx.beginPath();
+24.   ctx.arc(60, 60, 10, 0, 2&#42;Math.PI);
+25.   ctx.fill(); // or ctx.stroke() for a wireframe circle
 26. 
-27. // some text
-28. ctx.fillStyle = &quot;purple&quot;;
-29. ctx.font = &quot;20px Arial&quot;;
-30. ctx.fillText(&quot;Hello!&quot;, 60, 20); // or ctx.strokeText for wireframe
+27.   // some text
+28.   ctx.fillStyle = &quot;purple&quot;;
+29.   ctx.font = &quot;20px Arial&quot;;
+30.   ctx.fillText(&quot;Hello!&quot;, 60, 20); // or ctx.strokeText for wireframe
 31. }
 </pre>
 
@@ -11667,51 +11675,51 @@ CodePen: DrawMyMonster</a>.</h6>
 3.  
 4.  
 5.  window.onload = function init() {
-6.  // Called AFTER the page has been loaded
-7.  canvas = document.querySelector(&quot;#myCanvas&quot;);
+6.    // Called AFTER the page has been loaded
+7.    canvas = document.querySelector(&quot;#myCanvas&quot;);
 8.  
-9.  // Often useful
-10. w = canvas.width;
-11. h = canvas.height;
+9.    // Often useful
+10.   w = canvas.width;
+11.   h = canvas.height;
 12. 
-13. // Important, we will draw with this object
-14. ctx = canvas.getContext(&apos;2d&apos;);
+13.   // Important, we will draw with this object
+14.   ctx = canvas.getContext(&apos;2d&apos;);
 15. 
-16. // Ready to go!
-17. // Try to change the parameter values to move
-18. // the monster
-19. drawMyMonster(10, 10); // try to change that
+16.   // Ready to go!
+17.   // Try to change the parameter values to move
+18.   // the monster
+19.   drawMyMonster(10, 10); // try to change that
 20. };
 21. 
 22. function drawMyMonster(x, y) {
-23. // Draw a big monster!
-24. // Head
+23.   // Draw a big monster!
+24.   // Head
 25. 
-26. // BEST practice: save the context, use 2D transformations
-27. ctx.save();
+26.   // BEST practice: save the context, use 2D transformations
+27.   ctx.save();
 28. 
-29. // Translate the coordinate system, draw relative to it
-30. ctx.translate(x, y);
+29.   // Translate the coordinate system, draw relative to it
+30.   ctx.translate(x, y);
 31. 
-32. // (0, 0) is the top left corner of the monster.
-33. ctx.strokeRect(0, 0, 100, 100);
+32.   // (0, 0) is the top left corner of the monster.
+33.   ctx.strokeRect(0, 0, 100, 100);
 34. 
-35. // Eyes
-36. ctx.fillRect(20, 20, 10, 10);
-37. ctx.fillRect(65, 20, 10, 10);
+35.   // Eyes
+36.   ctx.fillRect(20, 20, 10, 10);
+37.   ctx.fillRect(65, 20, 10, 10);
 38. 
-39. // Nose
-40. ctx.strokeRect(45, 40, 10, 40);
+39.   // Nose
+40.   ctx.strokeRect(45, 40, 10, 40);
 41. 
-42. // Mouth
-43. ctx.strokeRect(35, 84, 30, 10);
+42.   // Mouth
+43.   ctx.strokeRect(35, 84, 30, 10);
 44. 
-45. // Teeth
-46. ctx.fillRect(38, 84, 10, 10);
-47. ctx.fillRect(52, 84, 10, 10);
+45.   // Teeth
+46.   ctx.fillRect(38, 84, 10, 10);
+47.   ctx.fillRect(52, 84, 10, 10);
 48. 
-49. // BEST practice: restore the context
-50. ctx.restore();
+49.   // BEST practice: restore the context
+50.   ctx.restore();
 51. }
 </pre>
 
@@ -11810,59 +11818,59 @@ rectangles, and we&apos;ve called them &quot;player&quot; and &quot;ball&quot;:
 
 <pre>
 1.  var ball = {
-2.  x: 100,
-3.  y:100,
-4.  radius: 15,
-5.  color:&apos;green&apos;,
-6.  speedX:2,
-7.  speedY:1
+2.    x: 100,
+3.    y:100,
+4.    radius: 15,
+5.    color:&apos;green&apos;,
+6.    speedX:2,
+7.    speedY:1
 8.  }
 9.  
 10. var player = {
-11. x:10,
-12. y:10,
-13. width:20,
-14. height:20,
-15. color:&apos;red&apos;
+11.   x:10,
+12.   y:10,
+13.   width:20,
+14.   height:20,
+15.   color:&apos;red&apos;
 16. }
 </pre>
 
-With this syntax, it&apos;s easier to manipulate &quot;the x pos of the ball&quot; -
+<p>With this syntax, it&apos;s easier to manipulate &quot;the x pos of the ball&quot; -
 you just have to use <b>ball.x</b>. we added two properties to the ball
 object: <b>speedX</b> and <b>speedY</b>. Their value is the number of pixels
 that will be added to the current <b>ball.x</b> and <b>ball.y</b> position, at
-each frame of animation.
+each frame of animation.</p>
 
-Let&apos;s look at the animation loop:
+<p>Let&apos;s look at the animation loop:</p>
 
 <pre>
 1.  function mainLoop() {
-2.  // 1 - clear the canvas
-3.  ctx.clearRect(0, 0, w, h);
+2.    // 1 - clear the canvas
+3.    ctx.clearRect(0, 0, w, h);
 4.  
-5.  <b>// draw the ball and the player</b>
-6.  <b>drawFilledRectangle(player);</b>
-7.  <b>drawFilledCircle(ball);</b>
+5.    <b>// draw the ball and the player</b>
+6.    <b>drawFilledRectangle(player);</b>
+7.    <b>drawFilledCircle(ball);</b>
 8.  
-9.  <b>// animate the ball that is bouncing all over the walls</b>
-10. <b>moveBall(ball);</b>
+9.    <b>// animate the ball that is bouncing all over the walls</b>
+10.   <b>moveBall(ball);</b>
 11. 
-12. // ask for a new animation frame
-13. requestAnimationFrame(mainLoop);
+12.   // ask for a new animation frame
+13.   requestAnimationFrame(mainLoop);
 14. }
 </pre>
 
-Now, let&apos;s decompose the animation loop in some external functions to
+<p>Now, let&apos;s decompose the animation loop in some external functions to
 make it more readable. At each frame of animation, we will clear the
 canvas, draw the player as a rectangle, draw the ball as a circle, and
-move the ball. 
+move the ball.</p>
 
-You can take a look at the new versions of <b>drawFilledRectangle</b> that
+<p>You can take a look at the new versions of <b>drawFilledRectangle</b> that
 now take only one parameter named r, instead of x, y, width, height and
 a color. We&apos;ve only changed a few things in its code (changed
-x to <b>r.x,</b> y to <b>r.y,</b> color to <b>r.color</b> etc.)
+x to <b>r.x,</b> y to <b>r.y,</b> color to <b>r.color</b> etc.)</p>
 
-Let&apos;s look at the moveBall function:
+<p>Let&apos;s look at the moveBall function:</p>
 
 <pre>
 1.  function moveBall(b) {
@@ -11873,49 +11881,49 @@ Let&apos;s look at the moveBall function:
 6.  }
 </pre>
 
-This function is called 60 times per second. So, 60 times per second we
+<p>This function is called 60 times per second. So, 60 times per second we
 modify the <b>b.x</b> and <b>b.y</b> positions of the ball passed as parameter
-by adding to them the <b>b.speedX</b> and <b>b.speedY</b> property values.
+by adding to them the <b>b.speedX</b> and <b>b.speedY</b> property values.</p>
 
-Notice that we call <b>moveBall(ball)</b> from <b>mainLoop</b>. In
+<p>Notice that we call <b>moveBall(ball)</b> from <b>mainLoop</b>. In
 the <b>moveBall</b> function, the ball passed as a parameter becomes the
 <b>b</b> parameter. So, when we change the <b>b.x</b> value inside the
 function, we are in reality changing the x value of the global
-object <b>ball</b>! 
+object <b>ball</b>!</p>
 
-Ok, and at <b><i>line 5</i></b> we call <b>testCollisionBallWithWalls(b)</b>, which
+<p>Ok, and at <b><i>line 5</i></b> we call <b>testCollisionBallWithWalls(b)</b>, which
 will test if the ball b hits a vertical or horizontal wall. Let&apos;s see
-an extract of this function now:
+an extract of this function now:</p>
 
 <pre>
 1.  function testCollisionBallWithWalls(b) {
-2.  // COLLISION WITH VERTICAL WALLS?
-3.  if((b.x + b.radius) &gt; w) {
-4.  // the ball hit the right wall
-5.  // change horizontal direction
-6.  b.speedX = -b.speedX;
+2.    // COLLISION WITH VERTICAL WALLS?
+3.    if((b.x + b.radius) &gt; w) {
+4.      // the ball hit the right wall
+5.      // change horizontal direction
+6.      b.speedX = -b.speedX;
 7.  
-8.  // put the ball at the collision point
-9.  b.x = w - b.radius;
-10. } &#133;
-11. &#133;
+8.      // put the ball at the collision point
+9.      b.x = w - b.radius;
+10.   } &#133;
+11.   &#133;
 12. }
 </pre>
 
-At <b><i>line 3</i></b> you can see the test that checks if the ball b hits the
+<p>At <b><i>line 3</i></b> you can see the test that checks if the ball b hits the
 right side of the canvas. The right wall is at w (the width of the
 canvas) on the X-axis. If we compare (<b>b.x + b.radius</b>) with w, we can
-check if a part of the ball extends beyond the right wall. 
+check if a part of the ball extends beyond the right wall.</p>
 
-Remember that each 1/60th of a second, the ball moves a certain number
+<p>Remember that each 1/60th of a second, the ball moves a certain number
 of pixels to the right (the exact value is <b>b.speedX</b>). Imagine that
 the ball moves 10 pixels to the right at each frame of animation. At
 some point, it will &quot;cross the right wall&quot;. We cannot just change the
 sign of <b>b.speedX</b> to make it go to the other side. If we did this, it
 may stay stuck against the side with one half of the ball on either side
-of the wall. 
+of the wall.</p>
 
-If we now remove <b>b.speedX</b> to the <b>ball.x position</b>, we return the
+<p>If we now remove <b>b.speedX</b> to the <b>ball.x position</b>, we return the
 ball to the position it was in before it hit the wall. If we
 then reverse <b>speedX</b>, the ball will indeed start moving with a
 reverse horizontal speed. This will work but can give a strange visual
@@ -11924,16 +11932,13 @@ will never be in a position where the eye can &quot;see it against the
 wall&quot;. This is why experienced game coders know that you just need to
 put the ball &quot;at the contact position&quot;, not to its previous position,
 before reversing the speed value. This is done at <b><i>lines 8-9</i></b>. Try
-changing <b>speedX</b> to say, 20, and you&apos;ll see what we mean.
-
+changing <b>speedX</b> to say, 20, and you&apos;ll see what we mean.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-3">2.6.3 Animating multiple objects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Let&apos;s animate balls and let&apos;s start with 3 the animation of 3 balls:
+<p>Let&apos;s animate balls and let&apos;s start with 3 the animation of 3 balls:
 <b>ball1, ball2 and ball3.</b>
-In the animation loop, we draw and move these three balls. Here is the
-result:
+In the animation loop, we draw and move these three balls. Here is the result:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 348. CodePen: animating multiple objects (301) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/bqZypx" 
@@ -11947,38 +11952,38 @@ target="_blank" rel="noopener noreferrer">
 target="_blank" rel="noopener noreferrer">
 CodePen: Animating Multiple Objects</a>.</h6>
 
-<b>Extract of the source code: the mainLoop function</b>
+<h5>Extract of the source code: the mainLoop function</h5>
 
 <pre>
 1.  function mainLoop() {
-2.  // 1 - clear the canvas
-3.  ctx.clearRect(0, 0, w, h);
+2.    // 1 - clear the canvas
+3.    ctx.clearRect(0, 0, w, h);
 4.  
-5.  // draw the balls and the player
-6.  drawFilledRectangle(player);
+5.    // draw the balls and the player
+6.    drawFilledRectangle(player);
 7.  
-8.  drawFilledCircle(ball1);
-9.  drawFilledCircle(ball2);
-10. drawFilledCircle(ball3);
+8.    drawFilledCircle(ball1);
+9.    drawFilledCircle(ball2);
+10.   drawFilledCircle(ball3);
 11. 
-12. // animate the balls bouncing all over the walls
-13. moveBall(ball1);
-14. moveBall(ball2);
-15. moveBall(ball3);
+12.   // animate the balls bouncing all over the walls
+13.   moveBall(ball1);
+14.   moveBall(ball2);
+15.   moveBall(ball3);
 16. 
-17. // ask for a new animation frame
-18. requestAnimationFrame(mainLoop);
+17.   // ask for a new animation frame
+18.   requestAnimationFrame(mainLoop);
 19. }
 </pre>
 
-And what if we have 100 balls? We&apos;re not going to copy and paste the
-lines that draw and move the balls 100 times!
+<p>And what if we have 100 balls? We&apos;re not going to copy and paste the
+lines that draw and move the balls 100 times!</p>
 
 <h4>Using arrays and loops for creating any number of balls, for animating and 
 moving any number of balls!</h4>
 
-New version: look at
-the <b>createBalls, drawBalls</b> and <b>moveBalls</b> functions now!
+<p>New version: look at
+the <b>createBalls, drawBalls</b> and <b>moveBalls</b> functions now!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 349. CodePen: using arrays and loops (302) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/jBJoLo" 
@@ -11992,30 +11997,30 @@ target="_blank" rel="noopener noreferrer">
 target="_blank" rel="noopener noreferrer">
 CodePen: Using Arrays and Loops</a>.</p>
 
-Let&apos;s look at the new functions we&apos;ve added: 
+<p>Let&apos;s look at the new functions we&apos;ve added:</p>
 
-<b>createBalls(numberOfBalls),</b> returns an array of balls:
+<h5><br>createBalls(numberOfBalls),</b> returns an array of balls:</h5>
 
 <pre>
 1.  function createBalls(n) {
-2.  // empty array
-3.  var ballArray = &lbrack;&rbrack;;
+2.    // empty array
+3.    var ballArray = &lbrack;&rbrack;;
 4.  
-5.  // create n balls
-6.  for(var i=0; i &lt; n; i++) {
-7.  var b = {
-8.  x:w/2,
-9.  y:h/2,
-10. radius: 5 + 30 &#42; Math.random(), // between 5 and 35
-11. speedX: -5 + 10 &#42; Math.random(), // between -5 and + 5
-12. speedY: -5 + 10 &#42; Math.random(), // between -5 and + 5
-13. color: getARandomColor(),
-14. }
-15. // add ball b to the array
-16. ballArray.push(b);
-17. }
-18. // returns the array full of randomly created balls
-19. return ballArray;
+5.    // create n balls
+6.    for(var i=0; i &lt; n; i++) {
+7.      var b = {
+8.        x:w/2,
+9.        y:h/2,
+10.       radius: 5 + 30 &#42; Math.random(), // between 5 and 35
+11.       speedX: -5 + 10 &#42; Math.random(), // between -5 and + 5
+12.       speedY: -5 + 10 &#42; Math.random(), // between -5 and + 5
+13.       color: getARandomColor(),
+14.     }
+15.     // add ball b to the array
+16.     ballArray.push(b);
+17.   }
+18.   // returns the array full of randomly created balls
+19.   return ballArray;
 20. }
 </pre>
 
@@ -12034,7 +12039,7 @@ Let&apos;s look at the new functions we&apos;ve added: 
 <h5>The getARandomColor function</h5>
 
 <pre>
-1. function getARandomColor() {
+1.  function getARandomColor() {
 2.    var colors = &lbrack;&apos;red&apos;, &apos;blue&apos;, &apos;cyan&apos;, &apos;purple&apos;,
 3.    &apos;pink&apos;, &apos;green&apos;, &apos;yellow&apos;&rbrack;;
 4.    // a value between 0 and color.length-1
@@ -12069,20 +12074,20 @@ Let&apos;s look at the new functions we&apos;ve added: 
 
 <pre>
 1.  function drawAllBalls(ballArray) {
-2.  ballArray.forEach(function(b) {
-3.  drawFilledCircle(b);
-4.  });
+2.    ballArray.forEach(function(b) {
+3.      drawFilledCircle(b);
+4.    });
 5.  }
 6.  
 7.  function moveAllBalls(ballArray) {
-8.  // iterate on all balls in array
-9.  ballArray.forEach(function(b) {
-10. // b is the current ball in the array
-11. b.x += b.speedX;
-12. b.y += b.speedY;
+8.    // iterate on all balls in array
+9.    ballArray.forEach(function(b) {
+10.     // b is the current ball in the array
+11.     b.x += b.speedX;
+12.     b.y += b.speedY;
 13. 
-14. testCollisionBallWithWalls(b);
-15. });
+14.     testCollisionBallWithWalls(b);
+15.   });
 16. }
 </pre>
 
@@ -12104,12 +12109,12 @@ Let&apos;s look at the new functions we&apos;ve added: 
   title="Mouse logo"
   alt="Mouse logo." />
 
-Detecting mouse events in a canvas is quite straightforward: you add an
+<p>Detecting mouse events in a canvas is quite straightforward: you add an
 event listener to the canvas, and the browser invokes that listener when
-the event occurs.
+the event occurs.</p>
 
-The example below is about listening to mouseup and mousedown events
-(when a user presses or releases any mouse button):
+<p>The example below is about listening to mouseup and mousedown events
+(when a user presses or releases any mouse button):</p>
 
 <pre>
 1.  canvas.addEventListener(&apos;mousedown&apos;, function (evt) {
@@ -12121,64 +12126,60 @@ The example below is about listening to mouseup and mousedown events
 7.  });
 </pre>
 
-The event received by the listener function will be used for getting the
+<p>The event received by the listener function will be used for getting the
 button number or the coordinates of the mouse cursor. Before looking at
 different examples, let&apos;s look at the different event types we can
-listen to.
+listen to.</p>
 
 <h4>The different mouse events (reminder)</h4>
 
-In the last example, we saw how to detect
-the <b>mouseup</b> and <b>mousedown</b> events.
+<p>In the last example, we saw how to detect the <b>mouseup</b> and <b>mousedown</b> events.</p>
 
-There are other events related to the mouse:
+<h5>There are other events related to the mouse:</h5>
 
--   <b>mouseleave</b>: similar to <b>mouseout</b>, fired when the mouse leaves
+<ul>
+  <li><b>mouseleave</b>: similar to <b>mouseout</b>, fired when the mouse leaves
     the surface of the element. The difference
     between <b>mouseleave</b> and <b>mouseout</b> is that <b>mouseleave</b> does
     not fire when the cursor moves over descendant elements,
     and mouseout is fired when the element the cursor moves to
     is outside the bounds of the original element or is a child of the
-    original element.
-
--   <b>mouseover</b>: the mouse cursor is moving over the element that
+    original element.</li>
+  <li><b>mouseover</b>: the mouse cursor is moving over the element that
     listens to that event. A <b>mouseover</b> event occurs on an element
     when you are over it - coming from either its child OR parent
     element, but a <b>mouseenter</b> event only occurs when the mouse moves
-    from the parent element to the child element.
-
--   <b>mousedown</b>: fired when a mouse button is pressed.
-
--   <b>mouseup</b>: fired when a mouse button is released.
-
--   <b>mouseclick</b>: fired after a <b>mousedown</b> and a <b>mouseup</b> have
-    occured.
-
--   <b>mousemove</b>: fired while the mouse moves over the element. Each
+    from the parent element to the child element.</li>
+  <li><b>mousedown</b>: fired when a mouse button is pressed.</li>
+  <li><b>mouseup</b>: fired when a mouse button is released.</li>
+  <li><b>mouseclick</b>: fired after a <b>mousedown</b> and a <b>mouseup</b> have
+    occured.</li>
+  <li><b>mousemove</b>: fired while the mouse moves over the element. Each
     time the mouse moves, a new event is fired,
     unlike with <b>mouseover</b> or <b>mouseenter</b>, where only one event is
-    fired.
+    fired.</li>
+</ul>
 
 <h4>The tricky part: getting the position of the mouse relative to the canvas</h4>
 
-When you listen to any of the above events, the event object (we call it
+<p>When you listen to any of the above events, the event object (we call it
 a &quot;DOM event&quot;), passed to the listener function, has properties that
-correspond to the mouse coordinates: <b>clientX</b> and <b>clientY</b>.
+correspond to the mouse coordinates: <b>clientX</b> and <b>clientY</b>.</p>
 
-However, these are what we call &quot;viewport coordinates&quot;. Instead of
+<p>However, these are what we call &quot;viewport coordinates&quot;. Instead of
 being relative to the canvas itself, they are relative to the viewport
-(the visible part of the page).
+(the visible part of the page).</p>
 
-Most of the time you need to work with the mouse position relative to
+<p>Most of the time you need to work with the mouse position relative to
 the canvas, not to the viewport, so you must convert the coordinates
 between the viewport and the canvas. This will take into account the
 position of the canvas in the viewport, and the CSS properties that may
-affect the canvas position (margin, etc.).
+affect the canvas position (margin, etc.).</p>
 
-Fortunately, there is a method for getting the position and size of any
-element in the viewport: <b>getBoundingClientRect</b>().
+<p>Fortunately, there is a method for getting the position and size of any
+element in the viewport: <b>getBoundingClientRect</b>().</p>
 
-Here is an example that shows the problem:
+<h5>Here is an example that shows the problem:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 351. CodePen: position and size in viewport (306) ~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/Wpmqdw" 
@@ -12197,19 +12198,19 @@ CodePen: Position and Size in viewport</a>.</p>
 <pre>
 1.  &#133;
 2.  <b>canvas.addEventListener(&apos;mousemove&apos;, function (evt) {</b>
-3.  <b>mousePos = getMousePos(canvas, evt);</b>
-4.  var message = &apos;Mouse position:
-    &apos; + mousePos.x + &apos;,&apos; + mousePos.y;
-5.  writeMessage(canvas, message);
+3.    <b>mousePos = getMousePos(canvas, evt);</b>
+4.    var message = &apos;Mouse position:
+        &apos; + mousePos.x + &apos;,&apos; + mousePos.y;
+5.    writeMessage(canvas, message);
 6.  }, false);
 7.  
 8.  &#133;
 9.  <b>function getMousePos(canvas, evt) {</b>
-10. <b>// WRONG!!!</b>
-11. return {
-12. <b>x: evt.clientX,</b>
-13. <b>y: evt.clientY</b>
-14. };
+10.   <b>// WRONG!!!</b>
+11.   return {
+12.     <b>x: evt.clientX,</b>
+13.     <b>y: evt.clientY</b>
+14.   };
 15. }
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12234,20 +12235,20 @@ target="_blank" rel="noopener noreferrer">
 target="_blank" rel="noopener noreferrer">
 CodePen: getMousePos</a>.</p>
 
-And here is the fixed version of the getMousePos function:
+<h5>And here is the fixed version of the getMousePos function:</h5>
 
 <pre>
 1.  function getMousePos(canvas, evt) {
-2.  <b>// necessary to take into account CSS boundaries</b>
-3.  <b>var rect = canvas.getBoundingClientRect();</b>
-4.  return {
-5.  x: evt.clientX <b>- rect.left,</b>
-6.  y: evt.clientY <b>- rect.top</b>
-7.  };
+2.    <b>// necessary to take into account CSS boundaries</b>
+3.    <b>var rect = canvas.getBoundingClientRect();</b>
+4.    return {
+5.      x: evt.clientX <b>- rect.left,</b>
+6.      y: evt.clientY <b>- rect.top</b>
+7.    };
 8.  }
 </pre>
 
-Result (the cursor is approximately at the top left corner):
+<h5>Result (the cursor is approximately at the top left corner):</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 354. mouse position (307) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
@@ -12279,7 +12280,7 @@ CodePen: example move mouse and click</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~ 356. mouse position click and release button (308) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image356.png"
-  style="width:65%"
+  style="width:25%"
   title="Mouse position: click and release button"
   alt="Mouse position: click and release button." />
 
@@ -12358,28 +12359,28 @@ CodePen: working example, get correct mouse position</a>.</h6>
 1.  var mousePos;
 2.  
 3.  window.onload = function init() {
-4.  &#41;
-5.  // create 10 balls
-6.  balls = createBalls(10);
+4.    &#133;
+5.    // create 10 balls
+6.    balls = createBalls(10);
 7.  
-8.  // add a mousemove event listener to the canvas
-9.  canvas.addEventListener(&apos;mousemove&apos;, mouseMoved);
+8.    // add a mousemove event listener to the canvas
+9.    canvas.addEventListener(&apos;mousemove&apos;, mouseMoved);
 10. 
-11. // ready to go !
-12. mainLoop();
+11.   // ready to go !
+12.   mainLoop();
 13. };
 14. 
 15. function mouseMoved(evt) {
-16. mousePos = getMousePos(canvas, evt);
+16.   mousePos = getMousePos(canvas, evt);
 17. }
 18. 
 19. function getMousePos(canvas, evt) {
-20. // from the previous section
-21. var rect = canvas.getBoundingClientRect();
-22. return {
-23. x: evt.clientX - rect.left,
-24. y: evt.clientY - rect.top
-25. };
+20.   // from the previous section
+21.   var rect = canvas.getBoundingClientRect();
+22.   return {
+23.     x: evt.clientX - rect.left,
+24.     y: evt.clientY - rect.top
+25.   };
 26. }
 </pre>
 
@@ -12399,20 +12400,20 @@ the mousePlayerWithMouse function:</h5>
 
 <pre>
 1.  function mainLoop() {
-2.  // 1 - clear the canvas
-3.  ctx.clearRect(0, 0, w, h);
+2.    // 1 - clear the canvas
+3.    ctx.clearRect(0, 0, w, h);
 4.  
-5.  // draw the ball and the player
-6.  drawFilledRectangle(player);
-7.  drawAllBalls(balls);
+5.    // draw the ball and the player
+6.    drawFilledRectangle(player);
+7.    drawAllBalls(balls);
 8.  
-9.  // animate the ball that is bouncing all over the walls
-10. moveAllBalls(balls);
+9.    // animate the ball that is bouncing all over the walls
+10.   moveAllBalls(balls);
 11. 
-12. <b>movePlayerWithMouse();</b>
+12.   <b>movePlayerWithMouse();</b>
 13. 
-14. // ask for a new animation frame
-15. requestAnimationFrame(mainLoop);
+14.   // ask for a new animation frame
+15.   requestAnimationFrame(mainLoop);
 16. }
 </pre>
 
@@ -12420,19 +12421,19 @@ the mousePlayerWithMouse function:</h5>
 
 <pre>
 1.  function movePlayerWithMouse() {
-2.  if(mousePos !== undefined) {
-3.  player.x = mousePos.x;
-4.  player.y = mousePos.y;
-5.  }
+2.    if(mousePos !== undefined) {
+3.      player.x = mousePos.x;
+4.      player.y = mousePos.y;
+5.    }
 6.  }
 </pre>
 
-If the mouse position is defined, the player&apos;s x and y position will
-equal to the positions of the mouse pointer.
+<p>If the mouse position is defined, the player&apos;s x and y position will
+equal to the positions of the mouse pointer.</p>
 
-The mouse position may be undefined if the animation loop started
+<p>The mouse position may be undefined if the animation loop started
 without the mouse cursor being on top of the canvas. Remember that the
-mainLoop starts as soon as the page is loaded.
+mainLoop starts as soon as the page is loaded.</p>
 
 <p>Perhaps it&apos;s occurred to you that it might be better to move the player
 &quot;from its center&quot; instead of from its top left corner. We leave this
@@ -12477,23 +12478,25 @@ target="_blank" rel="noopener noreferrer">thread at StackOverflow</a>):</p>
 <pre>
 1.  // Collisions between rectangle and circle
 2.  function circRectsOverlap(x0, y0, w0, h0, cx, cy, r) {
-3.  var testX=cx;
-4.  var testY=cy;
+3.    var testX=cx;
+4.    var testY=cy;
 5.  
-6.  if (testX &lt; x0) testX=x0;
-7.  if (testX &gt; (x0+w0)) testX=(x0+w0);
-8.  if (testY &lt; y0) testY=y0;
-9.  if (testY &gt; (y0+h0)) testY=(y0+h0);
+6.    if (testX &lt; x0) testX=x0;
+7.    if (testX &gt; (x0+w0)) testX=(x0+w0);
+8.    if (testY &lt; y0) testY=y0;
+9.    if (testY &gt; (y0+h0)) testY=(y0+h0);
 10. 
-11. return (((cx-testX)&#41;(cx-testX)+(cy-testY)&#41;(cy-testY))&lt; r&#41;r);
+11.   return (((cx-testX)&#133;(cx-testX)+(cy-testY)&#133;(cy-testY))&lt; r&#133;r);
 12. }
 </pre>
 
-Let&apos;s look at our game! This time, we&apos;ve added into the loop a
+<p>Let&apos;s look at our game! This time, we&apos;ve added into the loop a
 collision test between the player and the balls. If the player hits a
 ball, it&apos;s removed from the ball array. We did this test in the
 moveBalls function, as we were already testing collisions with walls for
-each ball in the array. Let&apos;s look at this new version:
+each ball in the array.</p>
+
+<h5>Let&apos;s look at this new version:</h5>
 
 <pre>
 1.  function moveAllBalls(ballArray) {
@@ -12561,7 +12564,7 @@ array while we are playing. When this number reaches zero, we display
 11. }
 </pre>
 
-<p>This function is called by the mainLoop:</p>
+<h5>This function is called by the mainLoop:</h5>
 
 <pre>
 1.  function mainLoop() {
@@ -12607,35 +12610,35 @@ onchange attribute on the &lt;select&gt; HTML drop down menu:</p>
 
 <pre>
 1.  &lt;div id=&quot;controls&quot;&gt;
-2.  &lt;label for=&quot;nbBalls&quot;&gt;Number of balls: &lt;/label&gt;
-3.  &lt;input type=&quot;number&quot; min=1 max=30
-4.  value=10 id=&quot;nbBalls&quot;
-5.  oninput=&quot;changeNbBalls(this.value);&quot;&gt;
-6.  &lt;p&gt;&lt;/p&gt;
+2.    &lt;label for=&quot;nbBalls&quot;&gt;Number of balls: &lt;/label&gt;
+3.    &lt;input type=&quot;number&quot; min=1 max=30
+4.    value=10 id=&quot;nbBalls&quot;
+5.    oninput=&quot;changeNbBalls(this.value);&quot;&gt;
+6.    &lt;p&gt;&lt;/p&gt;
 7.  
-8.  &lt;label for=&quot;nbBalls&quot;&gt;Player color: &lt;/label&gt;
-9.  &lt;input type=&quot;color&quot; value=&apos;#FF0000&apos;
-10. oninput=&quot;changePlayerColor(this.value);&quot;&gt;
-11. &lt;p&gt;&lt;/p&gt;
+8.    &lt;label for=&quot;nbBalls&quot;&gt;Player color: &lt;/label&gt;
+9.    &lt;input type=&quot;color&quot; value=&apos;#FF0000&apos;
+10.   oninput=&quot;changePlayerColor(this.value);&quot;&gt;
+11.   &lt;p&gt;&lt;/p&gt;
 12. 
-13. &lt;label for=&quot;nbBalls&quot;&gt;Color of ball to eat: &lt;/label&gt;
-14. &lt;select onchange=&quot;changeColorToEat(this.value);&quot;&gt;
-15. &lt;option value=&apos;red&apos;&gt;red&lt;/option&gt;
-16. &lt;option value=&apos;blue&apos;&gt;blue&lt;/option&gt;
-17. &lt;option value=&apos;green&apos;&gt;green&lt;/option&gt;
-18. &lt;/select&gt;
-19. &lt;p&gt;&lt;/p&gt;
+13.   &lt;label for=&quot;nbBalls&quot;&gt;Color of ball to eat: &lt;/label&gt;
+14.   &lt;select onchange=&quot;changeColorToEat(this.value);&quot;&gt;
+15.     &lt;option value=&apos;red&apos;&gt;red&lt;/option&gt;
+16.     &lt;option value=&apos;blue&apos;&gt;blue&lt;/option&gt;
+17.     &lt;option value=&apos;green&apos;&gt;green&lt;/option&gt;
+18.   &lt;/select&gt;
+19.   &lt;p&gt;&lt;/p&gt;
 20. 
-21. &lt;label for=&quot;nbBalls&quot;&gt;Change ball speed: &lt;/label&gt;
-22. &lt;input type=&quot;range&quot; value=&apos;1&apos;
-23. min=0.1 max=3 step=0.1
-24. oninput=&quot;changeBallSpeed(this.value);&quot;&gt; +
-25. &lt;p&gt;&lt;/p&gt;
+21.   &lt;label for=&quot;nbBalls&quot;&gt;Change ball speed: &lt;/label&gt;
+22.   &lt;input type=&quot;range&quot; value=&apos;1&apos;
+23.   min=0.1 max=3 step=0.1
+24.   oninput=&quot;changeBallSpeed(this.value);&quot;&gt; +
+25.   &lt;p&gt;&lt;/p&gt;
 26. &lt;/div&gt;
 </pre>
 
-JavaScript code: we&apos;ve added some new variables in order to get closer
-to a real game with a goal, levels, game over menu and so on.
+<p>JavaScript code: we&apos;ve added some new variables in order to get closer
+to a real game with a goal, levels, game over menu and so on.</p>
 
 <pre>
 1.  var initialNumberOfBalls; // number of balls at the beginning
@@ -12647,8 +12650,7 @@ to a real game with a goal, levels, game over menu and so on.
 7.  var numberOfGoodBalls;        // number of good balls in the set
 </pre>
 
-And here are the callback functions called when you use the input
-fields:
+<h5>And here are the callback functions called when you use the input fields:</h5>
 
 <pre>
 1.  function changeNbBalls(nb) {
@@ -12669,10 +12671,10 @@ fields:
 16. }
 </pre>
 
-Each time we change the number of balls in the game, or the color of the
-balls you need to eat, we need to restart the game. 
+<p>Each time we change the number of balls in the game, or the color of the
+balls you need to eat, we need to restart the game.</p>
 
-Here is the startGame(nb_balls) function:
+<h5>Here is the startGame(nb_balls) function:</h5>
 
 <pre>
 1.  function startGame(nb) {
@@ -12686,8 +12688,8 @@ Here is the startGame(nb_balls) function:
 9.  }
 </pre>
 
-&#41; and here is the function that counts the number of good balls in
-the newly created set of balls:
+<h5>&#133; and here is the function that counts the number of good balls in
+the newly created set of balls:</h5>
 
 <pre>
 1.  function countNumberOfGoodBalls(balls, colorToEat) {
@@ -12862,7 +12864,7 @@ properties.</p>
   title="CodePen: example array, #3"
   alt="CodePen: example array, #3." />
 
-<p>One of them is the length&#41;and you access properties using the "."
+<p>One of them is the length&#133;and you access properties using the "."
 operator. This, the length, corresponds to the number of elements: 1, 2,
 3 and 4. The last one, the last element is at index given by the length
 property -- 1. "purple", the last element, is located at index
@@ -13058,7 +13060,7 @@ number of elements.</p>
 10. 2
 </pre>
 
-<h5>JavaScript arrays are objects and have some useful properties and methods</h5>
+<p>JavaScript arrays are objects and have some useful properties and methods.</p>
 
 <p>Note that in JavaScript, arrays are &quot;objects&quot; (<b><i>lines 2-3</i></b> in the above
 example), which means that they have properties and methods. You can
@@ -13319,9 +13321,9 @@ limitations, and some dedicated properties and methods:</p>
 
 <p>Indeed, the string s behaves like an array, it has the length property
 like an array, and we can access individual characters using indexes
-that go from 0 to length-1, like arrays&#41;</p>
+that go from 0 to length-1, like arrays&#133;</p>
 
-<p>However&#41; they are not quite the same as arrays!</p>
+<p>However&#133; they are not quite the same as arrays!</p>
 
 <p>You cannot add elements to strings using a non-existent index, you
 cannot use the push/pop methods for adding/removing  characters at the
@@ -13518,7 +13520,7 @@ of the days, on the array of days.</p>
   title="CodePen: example using document.body.innerHTML"
   alt="CodePen: example using document.body.innerHTML." />
 
-<p>If I do "<b>document.body.innerHTML</b>&quot;&#41;You see that when the code is
+<p>If I do "<b>document.body.innerHTML</b>&quot;&#133;You see that when the code is
 executed, for each element in the array, the variable "<b>day</b>" here,
 will be that day, and we use the <b>DOM API</b> to add at the end of the
 document&apos;s body, the name of the day and we go to the next line.</p>
@@ -13624,9 +13626,9 @@ that can have one, two or three parameters:</p>
 1.  var a = &lbrack;&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;&rbrack;;
 2.  
 3.  a.forEach(function(day) {
-4.  // day is the current element
-5.  document.body.innerHTML += day +
-6.  &quot;&lt;br&gt;&quot;; // will display Monday, Tuesday, Wednesday
+4.    // day is the current element
+5.    document.body.innerHTML += day +
+6.    &quot;&lt;br&gt;&quot;; // will display Monday, Tuesday, Wednesday
 7.  })
 </pre>
 
@@ -13662,14 +13664,14 @@ CodePen: iterating on an array of person, and use 2 parms in callback function</
 
 <pre>
 1.  var persons = &lbrack;
-2.  {name:&apos;Michel&apos;, age:51},
-3.  {name:&apos;Henri&apos;, age:20},
-4.  {name:&apos;Francois&apos;, age:29}
+2.    {name:&apos;Michel&apos;, age:51},
+3.    {name:&apos;Henri&apos;, age:20},
+4.    {name:&apos;Francois&apos;, age:29}
 5.  &rbrack;;
 6.  
 7.  persons.forEach(function(p, index) {
-8.  document.body.innerHTML += p.name + &quot;, age &quot; + p.age +
-9.  &quot;, at index &quot; + index + &quot; in the array&lt;br&gt;&quot;;
+8.    document.body.innerHTML += p.name + &quot;, age &quot; + p.age +
+9.      &quot;, at index &quot; + index + &quot; in the array&lt;br&gt;&quot;;
 10. });
 </pre>
 
@@ -13752,49 +13754,49 @@ target="_blank" rel="noopener noreferrer">CodePen: iterate two by two</a>.</h6>
 
 <pre>
 1.  let myPicturesArray = &lbrack;
-2.  {
-3.  &quot;albumId&quot;: 1,
-4.  &quot;id&quot;: 1,
-5.  &quot;title&quot;: &quot;accusamus beatae ad facilis cum similique qui sunt&quot;,
-6.  &quot;url&quot;: &quot;https://placehold.it/600/92c952&quot;,
-7.  &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/92c952&quot;
-8.  },
-9.  {
-10. &quot;albumId&quot;: 1,
-11. &quot;id&quot;: 2,
-12. &quot;title&quot;: &quot;reprehenderit est deserunt velit ipsam&quot;,
-13. &quot;url&quot;: &quot;https://placehold.it/600/771796&quot;,
-14. &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/771796&quot;
-15. },
-16. {
-17. &quot;albumId&quot;: 2,
-18. &quot;id&quot;: 51,
-19. &quot;title&quot;: &quot;non sunt voluptatem placeat consequuntur rem
-    incidunt&quot;,
-20. &quot;url&quot;: &quot;https://placehold.it/600/8e973b&quot;,
-21. &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/8e973b&quot;
-22. },
-23. {
-24. &quot;albumId&quot;: 2,
-25. &quot;id&quot;: 52,
-26. &quot;title&quot;: &quot;eveniet pariatur quia nobis reiciendis laboriosam ea&quot;,
-27. &quot;url&quot;: &quot;https://placehold.it/600/121fa4&quot;,
-28. &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/121fa4&quot;
-29. },
-30. {
-31. &quot;albumId&quot;: 3,
-32. &quot;id&quot;: 127,
-33. &quot;title&quot;: &quot;magnam quia sed aspernatur&quot;,
-34. &quot;url&quot;: &quot;https://placehold.it/600/74456b&quot;,
-35. &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/74456b&quot;
-36. },
-37. {
-38. &quot;albumId&quot;: 3,
-39. &quot;id&quot;: 128,
-40. &quot;title&quot;: &quot;est facere ut nam repellat numquam quia quia eos&quot;,
-41. &quot;url&quot;: &quot;https://placehold.it/600/b0931d&quot;,
-42. &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/b0931d&quot;
-43. }
+2.    {
+3.      &quot;albumId&quot;: 1,
+4.      &quot;id&quot;: 1,
+5.      &quot;title&quot;: &quot;accusamus beatae ad facilis cum similique qui sunt&quot;,
+6.      &quot;url&quot;: &quot;https://placehold.it/600/92c952&quot;,
+7.      &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/92c952&quot;
+8.    },
+9.    {
+10.     &quot;albumId&quot;: 1,
+11.     &quot;id&quot;: 2,
+12.     &quot;title&quot;: &quot;reprehenderit est deserunt velit ipsam&quot;,
+13.     &quot;url&quot;: &quot;https://placehold.it/600/771796&quot;,
+14.     &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/771796&quot;
+15.   },
+16.   {
+17.     &quot;albumId&quot;: 2,
+18.     &quot;id&quot;: 51,
+19.     &quot;title&quot;: &quot;non sunt voluptatem placeat consequuntur rem
+          incidunt&quot;,
+20.     &quot;url&quot;: &quot;https://placehold.it/600/8e973b&quot;,
+21.     &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/8e973b&quot;
+22.   },
+23.   {
+24.     &quot;albumId&quot;: 2,
+25.     &quot;id&quot;: 52,
+26.     &quot;title&quot;: &quot;eveniet pariatur quia nobis reiciendis laboriosam ea&quot;,
+27.     &quot;url&quot;: &quot;https://placehold.it/600/121fa4&quot;,
+28.     &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/121fa4&quot;
+29.   },
+30.   {
+31.     &quot;albumId&quot;: 3,
+32.     &quot;id&quot;: 127,
+33.     &quot;title&quot;: &quot;magnam quia sed aspernatur&quot;,
+34.     &quot;url&quot;: &quot;https://placehold.it/600/74456b&quot;,
+35.     &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/74456b&quot;
+36.   },
+37.   {
+38.     &quot;albumId&quot;: 3,
+39.     &quot;id&quot;: 128,
+40.     &quot;title&quot;: &quot;est facere ut nam repellat numquam quia quia eos&quot;,
+41.     &quot;url&quot;: &quot;https://placehold.it/600/b0931d&quot;,
+42.     &quot;thumbnailUrl&quot;: &quot;https://placehold.it/150/b0931d&quot;
+43.   }
 44. &rbrack;;
 </pre>
 
@@ -13822,7 +13824,7 @@ CodePen: iterating pictures and create img elements</a>.</h6>
 
 <ul>
   <li>What you will have to do:
-    <ol start="1">
+    <ol type="1">
 	  <li><b>Improve the display, by adding margins (CSS), shadows, border,
         and changing the URLs for real pictures</b>. Remember that you
         need to have a smaller versions of the pictures, i.e.,
@@ -13844,7 +13846,7 @@ CodePen: iterating pictures and create img elements</a>.</h6>
         and when clicked, you will only display images from the selected
         album.</li>
 	  <li><b>&lbrack;Advanced&rbrack; Add an option for deleting a picture.</b> It should
-        be removed from the document and from the array too&#41;</li>
+        be removed from the document and from the array too&#133;</li>
 	  <li><b>Feel free to add any interesting feature you think about ;-)</b></li>
 	</ol>
 	</li>
@@ -13869,7 +13871,7 @@ other being the &lt;canvas&gt; element). It was designed to replace horrible
 things like embedded Flash objects that we used to encounter not so long
 ago.</p>
 
-<p>The new way of doing things is a lot better&#41; (please open this 
+<p>The new way of doing things is a lot better&#133; (please open this 
 <a href="https://jsbin.com/kimayesazo/edit?html,output" target="_blank" rel="noopener noreferrer">
 live example at JS Bin</a>).</p>
 
@@ -13940,11 +13942,13 @@ the HTML of this page - it&apos;s an <b>&lt;iframe&gt;</b>.</p>
 target="_blank" rel="noopener noreferrer">YouTube</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 390. Example YouTube video (345) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://www.youtube.com/watch?v=tIHa587wZyY" 
+target="_blank" rel="noopener noreferrer">
 <p align="left" width="100%">
 <img src="./images/image390.png"
   style="width:50%"
   title="Example YouTube video"
-  alt="Example YouTube video." />
+  alt="Example YouTube video." /></a>
 
 <h5>The &lt;audio&gt; element</h5>
 
@@ -13983,7 +13987,7 @@ differences and peculiarities.</p>
 <p>The most simple basic example: <a href="https://jsbin.com/xojobirowo/edit?html,output" 
 target="_blank" rel="noopener noreferrer">online example from JSBin</a></p>
 
-<p>Press play to stream the neigh of a horse:</p>
+<h5>Press play to stream the neigh of a horse:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 391. horse neigh (346) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg" 
@@ -13993,30 +13997,30 @@ target="_blank" rel="noopener noreferrer">
   style="width:25%"
   title="Horse neigh"
   alt="Horse neigh." /></a>
-<h6 align="center"><a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg" 
+<h6 align="left"><a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg" 
 target="_blank" rel="noopener noreferrer">Horse neigh</a>.</h6>
 
-<h5>The code is very similar to the basic <b>&lt;video&gt;</b> element usage.</h5>
+<p>The code is very similar to the basic <b>&lt;video&gt;</b> element usage.</p>
 
 <pre>
 1.  &lt;!DOCTYPE html&gt;
 2.  &lt;html lang=&quot;en&quot;&gt;
 3.  &lt;head&gt;
-4.  &lt;meta charset=&quot;utf-8&quot;&gt;
-5.  &lt;title&gt;Using the audio element&lt;/title&gt;
+4.    &lt;meta charset=&quot;utf-8&quot;&gt;
+5.    &lt;title&gt;Using the audio element&lt;/title&gt;
 6.  &lt;/head&gt;
 7.  &lt;body&gt;
-8.  &lt;audio controls=&quot;controls&quot; crossorigin=&quot;anonymous&quot;&gt;
-9.  &lt;source src=<https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg>
-10. type=&quot;audio/ogg&quot; /&gt;
-11. &lt;source src=<https://mainline.i3s.unice.fr/mooc/week2p1/horse.mp3>
-12. type=&quot;audio/mp3&quot; /&gt;
-13. Your browser does not support the audio element.
-14. Download the audio/video in
-15. &lt;a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg"&gt;OGG&lt;/a&gt;
-16. or &lt;a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.mp3"&gt;MP3&lt;/a&gt;
-17. format.
-18. &lt;/audio&gt;
+8.    &lt;audio controls=&quot;controls&quot; crossorigin=&quot;anonymous&quot;&gt;
+9.      &lt;source src=<https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg>
+10.       type=&quot;audio/ogg&quot; /&gt;
+11.     &lt;source src=<https://mainline.i3s.unice.fr/mooc/week2p1/horse.mp3>
+12.       type=&quot;audio/mp3&quot; /&gt;
+13.     Your browser does not support the audio element.
+14.     Download the audio/video in
+15.     &lt;a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.ogg"&gt;OGG&lt;/a&gt;
+16.     or &lt;a href="https://mainline.i3s.unice.fr/mooc/week2p1/horse.mp3"&gt;MP3&lt;/a&gt;
+17.     format.
+18.   &lt;/audio&gt;
 19. &lt;/body&gt;
 20. &lt;/html&gt;
 </pre>
@@ -14025,14 +14029,14 @@ target="_blank" rel="noopener noreferrer">Horse neigh</a>.</h6>
 the controls attribute in order to render the play/stop, time, volume
 and progress widgets.</p>
 
-<p>Notice the other similarities: between the &lt;audio&gt;&#41;&lt;/audio&gt; tags,
+<p>Notice the other similarities: between the &lt;audio&gt;&#133;&lt;/audio&gt; tags,
 we added a text message that is displayed if the Web browser doesn&apos;t
 support the &lt;audio&gt; element, and we used
-several &lt;source&gt;&#41;&lt;/source&gt; elements that link to different audio
+several &lt;source&gt;&#133;&lt;/source&gt; elements that link to different audio
 formats for the same file. The browser will use the first format it
 recognizes.</p>
 
-<p><i>Lines 13-17:</i>  we suggest downloading the audio files if the browser
+<p><i><b>Lines 13-17</b></i>:  we suggest downloading the audio files if the browser
 does not support the &lt;audio&gt; element. This is also a best practice!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-2">3.3.2 Audio and video player JavaScript API (9:05)</h3>
@@ -14075,7 +14079,7 @@ your own custom video player.</p>
 
 <p>Let&apos;s look at one small example. I prepared, here, an HTML document
 with a video player. In order to include a video player in your
-document, just use the video HTML5 tag: video&#41; slash video. You
+document, just use the video HTML5 tag: video&#133; slash video. You
 indicate with the source tag the URL of the video file that will be
 streamed into your document. And in order to maximize the compatibility
 with old browsers, it&apos;s recommended to propose the video in different
@@ -14096,7 +14100,7 @@ browser will choose.</p>
   alt="Audio control overlapping image." />
 </p>
 
-<p>If I click on the video player, you see that&#41; Ok! By adding a
+<p>If I click on the video player, you see that&#133; Ok! By adding a
 controls attribute it will display a control bar with buttons for play,
 pause&#133; for adjusting the volume&#133; for going forward and backward
 video and so on. And if I remove this, you don&apos;t have anymore the
@@ -14111,7 +14115,7 @@ function in the JavaScript part: playVideo(). In order to control the
 video player you must get a reference on it. We used the
 "querySelector()" method we saw earlier in module 2. We&apos;re going to do
 the same thing. And do you remember that we can access elements from the
-DOM&#41; you can get references on the HTML elements only when the DOM is
+DOM&#133; you can get references on the HTML elements only when the DOM is
 ready and when the page have be loaded.</p>
 
 <p>We use "<b>window.onload = init</b>" with an init callback that will
@@ -14140,11 +14144,11 @@ all the methods you can use?</p>
   alt="Video controls in API." />
 </p>
 
-Go to the course, and in the section about the audio and video player
+<p>Go to the course, and in the section about the audio and video player
 JavaScript APIs you got this picture here, that is a link to the W3C
 specifications. And here you can interactively try the different
 methods. And the names on the buttons are the names of the different
-methods you can call when you see parenthesis: <b>play(), pause()</b>&#41;
+methods you can call when you see parenthesis: <b>play(), pause()</b>&#133;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 398. example, video controls in API (350) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -14157,9 +14161,9 @@ methods you can call when you see parenthesis: <b>play(), pause()</b>&#41;
 <p>And also you&apos;ve got properties, these properties you can&#133; you can use
 them for getting information -what is the current time?- for example. Or
 you can use them also for setting, changing their values. And for
-example, going back&#41; if I say current time equals 0, or "currentTime
+example, going back&#133; if I say current time equals 0, or "currentTime
 +=10", I&apos;m advancing 10 seconds in the video. Some properties are read
-only or read and write. You also have events&#41; so you can listen to
+only or read and write. You also have events&#133;; so you can listen to
 events while the video is being played. And for example, for
 synchronizing some contents on the page, for detecting when the video is
 ended.</p>
@@ -14188,8 +14192,8 @@ video and I can pause it.</p>
   alt="Add rewind button." />
 </p>
 
-<p>If I want to rewind to the beginning&#41; let&apos;s try again! And in order
-to do this, instead of calling a method&#41;we will just use the
+<p>If I want to rewind to the beginning&#133;; let&apos;s try again! And in order
+to do this, instead of calling a method&#133;;we will just use the
 "<b>currentTime</b>" property and set it to 0. Remember from this document,
 you see the "<b>currentTime</b>" here, it&apos;s a property of the video player
 object.</p>
@@ -14309,7 +14313,7 @@ target="_blank" rel="noopener noreferrer">complete list</a> is much longer!</p>
 </p>
 
 <p>Now let&apos;s take a look at a set of examples demonstrating how to use the
-most important of these properties, methods, and events&#41;</p>
+most important of these properties, methods, and events&#133;;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-3">3.3.3 Examples using the JavaScript API</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14352,7 +14356,7 @@ target="_blank" rel="noopener noreferrer">CodePen: example media API</a>.</h6>
 1.  &lt;video id=&quot;vid&quot; controls&gt;
 2.  &lt;source src=https://mainline.i3s.unice.fr/mooc/samuraiPizzacat.webm
 3.  type=video/webm&gt;
-4.  &#41;
+4.  &#133;;
 5.  &lt;/video&gt;
 6.  &lt;p&gt;Example of custom controls:&lt;/p&gt;
 7.  &lt;button onclick=&quot;playVideo();&quot; style=&quot;cursor: pointer;&quot;&gt;Play&lt;/button&gt;
@@ -14632,17 +14636,17 @@ CodePen: example events for the video element</a>.</h6>
 <p>Below is a piece of code for handling errors during video playback:</p>
 
 <pre>
-1.  &#41;
+1.  &#133;;
 2.  
 3.  vid.addEventListener(&apos;error&apos;, function(evt) {
 4.    logEvent(evt,&apos;red&apos;);
 5.  }, false);
 6.  
-7.  &#41;
+7.  &#133;;
 8.  
 9.  function logEvent(evt, color) {
 10.   switch (evt.type) {
-11.     &#41;
+11.     &#133;;
 12.     case &apos;error&apos;:
 13.     var error = document.querySelector(&apos;video&apos;).error;
 14. 
@@ -14667,7 +14671,7 @@ CodePen: example events for the video element</a>.</h6>
 32.     }
 33.     break;
 34.   }
-35.   &#41;
+35.   &#133;;
 36. }
 </pre>
 
@@ -14715,7 +14719,7 @@ movie duration for which there is data. &quot;</p>
 7.  function getPercentProg() {
 8.    var myVideo = document.getElementsByTagName(&apos;video&apos;)&lbrack;0&rbrack;;
 9.    var endBuf = myVideo.buffered.end(0);
-10.   var soFar = parseInt(((endBuf / myVideo.duration) &#41; 100));
+10.   var soFar = parseInt(((endBuf / myVideo.duration) &#133;; 100));
 11.   document.getElementById(&quot;loadStatus&quot;).innerHTML = soFar + &apos;%&apos;;
 12. }
 13. 
@@ -14748,7 +14752,7 @@ movie duration for which there is data. &quot;</p>
 39. &lt;source src=https://html5doctor.com/demos/video-canvas-magic/video.mp4
 40. type=video/mp4&gt;
 41. &lt;/video&gt;
-42. &lt;p id=&quot;loadStatus&quot;&gt;Buffering&#41;&lt;/p&gt;
+42. &lt;p id=&quot;loadStatus&quot;&gt;Buffering&#133;;&lt;/p&gt;
 43. &lt;/div&gt;
 44. &lt;/body&gt;
 45. &lt;/html&gt;
@@ -14796,7 +14800,7 @@ creations.</p>
     target="_blank" rel="noopener noreferrer">free videos</a></li>
   <li>Hosting videos is complicated when you want to use them with CodePen
     or JsBin, do you have some tips to share with others? For this
-    course, we run our own private HTTP server&#41; We are speaking about
+    course, we run our own private HTTP server&#133;; We are speaking about
     files that can be used with the &lt;video&gt; element directly, not on
     YouTube, DailyMotion, etc.</li>
   <li>What tool do you use for encoding your audio and video files?</li>
@@ -14839,7 +14843,7 @@ custom player with nice CSS and buttons</a></p>
     &quot;Leonardo Di Caprio&quot; or &quot;Harisson Ford&quot;?</li>
   <li>Once the question is answered, you display &quot;Correct&quot; or
     &quot;Incorrect&quot;</li>
-  <li>Then the video continues&#41;.</li>
+  <li>Then the video continues&#133;;.</li>
   <li>When the video ends, please show the final score.</li>
 </ul>
 
@@ -15342,7 +15346,7 @@ remove the controls attribute. Then, I can completely hide the player.
   alt="." />
 
 Here, I kept some buttons for playing music or pausing it. But you saw
-that you can start playing the music from JavaScript. You can also&#41;
+that you can start playing the music from JavaScript. You can also&#133;;
 directly start the music when the page is loaded. The same way I use the
 video player, I declare an audio player, here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -15373,7 +15377,7 @@ play and pause methods to play and pause the music.
   title=""
   alt="." />
 
-<p>For sound effects, that will have to be played very fast,&#41; that last
+<p>For sound effects, that will have to be played very fast,&#133;; that last
 a very short time. It&apos;s better to load the sounds in memory and then
 play them. There are small sounds samples that are loaded and decoded
 and kept in memory for a very fast use within video games. It&apos;s a bit
@@ -15505,7 +15509,7 @@ CodePen: load sound sample using howlerjs</a>.</h6>
 3.  function init() {
 4.    var button = document.querySelector(&quot;#button1&quot;);
 5.    sound = new Howl({
-6.      urls: &lbrack;   &apos;https://&#41;/assets/sounds/plop.mp3&apos;&rbrack;,
+6.      urls: &lbrack;   &apos;https://&#133;;/assets/sounds/plop.mp3&apos;&rbrack;,
 7.      onload: function () {
 8.        console.log(&quot;Loaded asset &quot;);
 9.        button.disabled = false; // enable the play sound button
@@ -15574,10 +15578,10 @@ this sample has been loaded and decoded do we start the animation.
   title=""
   alt="." />
 
-I prepared for you&#41; more for advanced users&#41; a multiple image,
+I prepared for you&#133;; more for advanced users&#133;; a multiple image,
 sound and music loader.
 
-It&apos;s a function that you will call&#41; that will load in background,
+It&apos;s a function that you will call&#133;; that will load in background,
 for you, images, sound samples and also deal with streamed music.
 And when everything is ready, it will call a function of your own that
 will start the game.
@@ -15604,7 +15608,7 @@ indicate their URLs. So "backgroundImage" it&apos;s a PNG, logo it&apos;s a PNG,
   alt="." />
 And you can also indicate if it&apos;s going to be streamed or loaded and
 decoded in memory for fast access. You can indicate if it&apos;s gonna loop,
-start again at the end. You can indicate the volume&#41; and it will do
+start again at the end. You can indicate the volume&#133;; and it will do
 everything for you. You can indicate background music with "buffer:
 true", "loop: true". This is a background music will be looped in the
 background. How do you load all these assets?
@@ -15619,7 +15623,7 @@ You use the "loadAssets()" function that is provided at this end of this
 source file but you don&apos;t have to look at the details.
 You don&apos;t have to understand in details how it works.
 Here, in the init() function called when the page is loaded, we display
-the "Loading assets" &#41; "Loading assets" message.
+the "Loading assets" &#133;; "Loading assets" message.
 Then we call "loadAssets()" and we pass the name of function that will
 really start the game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -15654,7 +15658,7 @@ And how are we going to use this for playing music for example?
 the music ".play()".
 
 For playing some sound samples, here we are going to play a "plop" sound
-sample every 1000 milliseconds&#41; every second. 
+sample every 1000 milliseconds&#133;; every second. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -15726,18 +15730,18 @@ CodePen: load music and sound sample</a>.</h6>
 2.
 3.
 4.  var assetsToLoadURLs = {
-5.    backgroundImage: { url: &apos;https://&#41;/assets/images/background.png&apos; }, 
-6.    logo1: { url: &quot;https://&#41;/assets/images/SkywardWithoutBalls.png&quot; },
-7.    logo2: { url: &quot;https://&#41;/assets/images/BoundsWithoutBalls.png&quot; },
-8.    bell:  { url: &quot;https://&#41;/assets/images/bells.png&quot; },
-9.    spriteSheetBunny: { url: &apos;https://&#41;/assets/images/bunnySpriteSheet.png&apos; },
-10.   plop: { url: &apos;https://&#41;/assets/sounds/plop.mp3&apos;,
+5.    backgroundImage: { url: &apos;https://&#133;;/assets/images/background.png&apos; }, 
+6.    logo1: { url: &quot;https://&#133;;/assets/images/SkywardWithoutBalls.png&quot; },
+7.    logo2: { url: &quot;https://&#133;;/assets/images/BoundsWithoutBalls.png&quot; },
+8.    bell:  { url: &quot;https://&#133;;/assets/images/bells.png&quot; },
+9.    spriteSheetBunny: { url: &apos;https://&#133;;/assets/images/bunnySpriteSheet.png&apos; },
+10.   plop: { url: &apos;https://&#133;;/assets/sounds/plop.mp3&apos;,
 11.           buffer: false, loop: false, volume: 1.0 },
-12.   humbug: { url: &apos;https://&#41;/assets/sounds/humbug.mp3&apos;,
+12.   humbug: { url: &apos;https://&#133;;/assets/sounds/humbug.mp3&apos;,
 13.             buffer: true, loop: true, volume: 1.0 },
-14.   concertino: { url: &apos;https://&#41;/assets/sounds/christmas_concertino.mp3&apos;,
+14.   concertino: { url: &apos;https://&#133;;/assets/sounds/christmas_concertino.mp3&apos;,
 15.                 buffer: true, loop: true, volume: 1.0 },
-16.   xmas: { url: &apos;https://&#41;/assets/sounds/xmas.mp3&apos;,
+16.   xmas: { url: &apos;https://&#133;;/assets/sounds/xmas.mp3&apos;,
 17.           buffer: true, loop: true, volume: 0.6 }
 18. };
 
@@ -15880,7 +15884,7 @@ post your comments/observations/questions or share your creations.</p>
 -   Do you know other libraries similar to HowlerJS, useful for
     manipulating audio (streamed or as sound samples)?
 
--   Your instructor wrote some open source WebAudio applications&#41;.
+-   Your instructor wrote some open source WebAudio applications&#133;;.
     find which ones! :-)
 
 -   You can also use another funny library for synthesizing 8 bits sound
@@ -15891,7 +15895,7 @@ post your comments/observations/questions or share your creations.</p>
 
 -   Try to make a nice audio player that will chain background musics,
     when one is finished the next one starts (use an &quot;ended&quot; event
-    listener on the audio element, for example, add onended=&quot;&#41;.&quot;)
+    listener on the audio element, for example, add onended=&quot;&#133;;.&quot;)
 
 -   Add some buttons/menu to the game so that we can choose between 2 or
     3 different background musics, or turn the music off.
@@ -15904,7 +15908,7 @@ post your comments/observations/questions or share your creations.</p>
 
 -   &lbrack;advanced, harder&rbrack; try to think about a way to display a progress
     bar while the multiple image/sound/music loader is loading the
-    files&#41;
+    files&#133;;
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-1-1">4.1.1 Video introduction - Module 4 (1:53)</h3>
@@ -16277,7 +16281,7 @@ nothing at all:</p>
 <h4>Another classic case where the name of a property is in a variable</h4>
 
 <p>In this case it is necessary  to use the syntax with &apos;&lbrack;&apos; 
-and &apos;&rbrack;&apos; &#41;</p>
+and &apos;&rbrack;&apos; &#133;;</p>
 
 <h5>Example:</h5>
 
@@ -16391,7 +16395,7 @@ describeYourself method that will make darkVador say: "I&apos;m a human and
 I&apos;m a villain in a series of movies". You can see that from inside the
 method describeYourself, we need to access the value of properties.</p>
 
-<p>For this, we used the "this" keyword&#41; "this.race" means the race
+<p>For this, we used the "this" keyword&#133;; "this.race" means the race
 property of the object darkVador, "this.job" means the job property of
 the object darkVador. If we omit "this." before the name of the
 properties, we are referring to a variable, a global variable for
@@ -16847,7 +16851,7 @@ CodePen: example Dark Vador in a method</a>.</h6>
 9.      &quot; in a series of movies!&quot; + this.breathe();
 10.   },
 11.   breathe() {
-12.     return &quot;&#41;..shhhhhhhhh&#41;..&quot;;
+12.     return &quot;&#133;;..shhhhhhhhh&#133;;..&quot;;
 13.   }
 14. }
 15. 
@@ -16942,17 +16946,17 @@ Normally, &quot;this&quot; is the current object when you use it inside an
 &quot;object literal&quot; (like in <a href="https://codepen.io/w3devcampus/pen/JWqgGZ" 
 target="_blank" rel="noopener noreferrer">this CodePen example from the course</a>).</p>
 
-<p>But&#41; we also met &quot;this&quot; in event listeners (see in 
+<p>But&#133;; we also met &quot;this&quot; in event listeners (see in 
 <a href="https://codepen.io/w3devcampus/pen/gmygzV?editors=1000" 
 target="_blank" rel="noopener noreferrer">this example from the course</a>). 
-Look at the onchange = &quot;changePageBackgroundColor(<b>this.value</b>);&quot; &#41;</p>
+Look at the onchange = &quot;changePageBackgroundColor(<b>this.value</b>);&quot; &#133;;</p>
 
 <p>In fact, the &quot;this&quot; keyword can be confusing in JavaScript. The key
 thing to remember is that <b>it is bound to the calling object when the
 function is called</b>, not when the function is created.</p>
 
 <p>And in the case of event listeners, the callbacks are called by the
-browser&#41; You can conclude that it&apos;s a good habit not to have event
+browser&#133;; You can conclude that it&apos;s a good habit not to have event
 listeners in your objects: just use methods in which there is no
 confusion about &quot;this&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17093,7 +17097,7 @@ from the same template. Of course, we can also add methods in this object.</p>
 &quot;this": this.describeYourself =&#133; and then the body of the function.
 This is a property defined in the class Hero. First, we can check that the method 
 has been added to each object&#133;so, Ian Solo&#133; you can see the method here: 
-&quot;describeYourself&quot;&#41; you can see the body of the method. Luke Skywalker 
+&quot;describeYourself&quot;&#133;; you can see the body of the method. Luke Skywalker 
 has the same method because it&apos;s &quot;an instance of the same class&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 468d. define & assign name and side (425) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17178,7 +17182,7 @@ The syntax is the same as for creating a function, except that:</p>
     
     In a constructor function named &quot;Hero&quot;, you will find properties
     declared like this: this.name this.side; and methods declared like
-    this: this.speak = function() {&#41;}
+    this: this.speak = function() {&#133;;}
 
 5.  <b>Very often some properties are initialized using the constructor
     function parameters</b>, so that the newly constructed objects will
@@ -17190,7 +17194,7 @@ The syntax is the same as for creating a function, except that:</p>
     
     function Hero(name) {
         <b>this.name = name;</b>
-        &#41;
+        &#133;;
     }
 
 <h5>Full interactive example that uses a constructor function</h5>
@@ -17367,7 +17371,7 @@ passed to the constructor.</p>
 5", you see it&apos;s completely similar.
 Well, in this example, we had a method describe yourself, but it&apos;s
 really the same thing behind the scene, just a syntactic sugar for
-making&#41; defining templates for building object much more easier than
+making&#133;; defining templates for building object much more easier than
 before. I recommend to use the class syntax from ES6, it&apos;s supported by all
 modern browsers.</p>
 
@@ -17407,7 +17411,7 @@ subject of a future &quot; JavaScript advanced&quot; course.</p>
 <ul>
   <li><b>A method is simply defined by its name followed by its
     parameters (we no more use the keyword &quot;function&quot;)</b>
-    Example: speak() {&#41;} in the source code below.</li>
+    Example: speak() {&#133;;} in the source code below.</li>
 </ul>
 
 <p>Here is the new version of the Hero &quot;template&quot;, this time with the ES6
@@ -17484,13 +17488,13 @@ has been declared:</p>
 <pre>
 1.  var p = new Rectangle(); // ReferenceError
 2.  
-3.  class Rectangle {&#41;}
+3.  class Rectangle {&#133;;}
 </pre>
 
 Correct version =&gt;
 
 <pre>
-1.  class Rectangle {&#41;}
+1.  class Rectangle {&#133;;}
 2.  
 3.  var p = new Rectangle(); // WORKS !
 </pre>
@@ -17639,7 +17643,7 @@ If I&apos;m just uncommenting another one, here. The return value is 3.</p>
   title=" "
   alt=" ." />
 <p>It&apos;s important to use this method, using the name of the class because
-it corresponds to a property of this class, to characteristics&#41;
+it corresponds to a property of this class, to characteristics&#133;;
 &quot;class Hero. How many heroes have you created?&quot;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 473f.   (438) ~~~~~~~~~~~~~~~~~~~~~-->
@@ -17772,7 +17776,7 @@ using this one for beginners.</p>
 11.     const dx = a.x - b.x;
 12.     const dy = a.y - b.y;
 13. 
-14.     return Math.sqrt(dx&#41;dx + dy&#41;dy);
+14.     return Math.sqrt(dx&#133;;dx + dy&#133;;dy);
 15.   }
 16. }
 17. // static property definition is necessarily outside of the class
@@ -17848,7 +17852,7 @@ property they define.</p>
     familyName(&apos;Smith&apos;);
 </pre>
 
-<p>Notice that when you declare get familyName() {&#41;} for example, you
+<p>Notice that when you declare get familyName() {&#133;;} for example, you
 define implicitly a property whose name is &quot;familyName&quot; and that will
 be accessible using object.familyName, where object is an instance of
 the class. See <b><i>lines 22-25</i></b> in the example above. Displaying the value
@@ -17882,14 +17886,14 @@ post your comments/observations/questions or share your creations.</p>
 <ul>
   <li>Did you now that modern JavaScript&apos;s classes are just &quot;a syntactic
     sugar&quot;? In fact they are equivalent to constructor functions from
-    ES5&#41;</li>
+    ES5&#133;;</li>
   <li>There are two sorts of object-oriented languages: class-based
     languages and prototype-based languages.
     JavaScript is a prototype-based language. In this introductory
     course, we managed to avoid this term! Without getting into too much
     details, you might be curious about prototypes and maybe read some
     Web pages related to those.
-    And yes, ES6 classes are not &quot;real classes&quot;&#41; They are meant to
+    And yes, ES6 classes are not &quot;real classes&quot;&#133;; They are meant to
     make developers&apos; lives easier, i.e., for the developers who already
     know a class-based language such as Java, C#, etc.</li>
 </ul>
@@ -17928,10 +17932,10 @@ post your comments/observations/questions or share your creations.</p>
     return false to avoid the submission of the HTML form).</li>
   <li>It would be cool to also have a listContact() function that will
     generate a list of contacts
-    (create &lt;ul&gt;&#41;&lt;/ul&gt; with &lt;li&gt;&#41;&lt;/li&gt; inside, one for
+    (create &lt;ul&gt;&#133;;&lt;/ul&gt; with &lt;li&gt;&#133;;&lt;/li&gt; inside, one for
     each contact).</li>
   <li>Now, try to write an ES6 class ContactManager (or you could also use
-    an object literal for that&#41;, but let&apos;s try
+    an object literal for that&#133;;, but let&apos;s try
      practicing JavaScript classes!), that will have the array of
     contact as a property.</li>
   <li>Create an instance db of this class:<br>
@@ -17962,9 +17966,9 @@ post your comments/observations/questions or share your creations.</p>
 7.  <b>let b = {</b>
 8.  <b>x:w/2,</b>
 9.  <b>y:h/2,</b>
-10. <b>radius: 5 + 30 &#41; Math.random(), // between 5 and 35</b>
-11. <b>speedX: -5 + 10 &#41; Math.random(), // between -5 and + 5</b>
-12. <b>speedY: -5 + 10 &#41; Math.random(), // between -5 and + 5</b>
+10. <b>radius: 5 + 30 &#133;; Math.random(), // between 5 and 35</b>
+11. <b>speedX: -5 + 10 &#133;; Math.random(), // between -5 and + 5</b>
+12. <b>speedY: -5 + 10 &#133;; Math.random(), // between -5 and + 5</b>
 13. <b>color:getARandomColor(),</b>
 14. <b>}</b>
 15. // add ball b to the array
@@ -17980,7 +17984,7 @@ In the code above, in order to build n balls, we created a singleton
 ball object multiple times. This worked, but if we have misspelled a
 property name within the code, or forgot one of the properties that had
 to be initialized, we would have received no warnings. We will replace
-these lines with something like let b = new Ball(&#41;);
+these lines with something like let b = new Ball(&#133;;);
 
 <b>NEW VERSION</b>: using the new keyword and an ES6 class
 
@@ -17990,12 +17994,12 @@ these lines with something like let b = new Ball(&#41;);
 4.  
 5.    // create n balls
 6.    for(let i=0; i &lt; n; i++) {
-7.      // Create some random values&#41;
+7.      // Create some random values&#133;;
 8.      let x = w/2;
 9.      let y = h/2;
-10.     let radius = 5 + 30 &#41; Math.random(); // between 5 and 35
-11.     let speedX = -5 + 10 &#41; Math.random(); // between -5 and + 5
-12.     let speedY = -5 + 10 &#41; Math.random(); // between -5 and + 5
+10.     let radius = 5 + 30 &#133;; Math.random(); // between 5 and 35
+11.     let speedX = -5 + 10 &#133;; Math.random(); // between -5 and + 5
+12.     let speedY = -5 + 10 &#133;; Math.random(); // between -5 and + 5
 13.     let color = getARandomColor();
 14.     // Create the new ball b
 15.     let b = new Ball(x, y, radius, color, speedX, speedY);
@@ -18022,7 +18026,7 @@ the next page of this course):
 7.      this.speedX = speedX;
 8.      this.speedY = speedY;
 9.    }
-10.   &#41; // code to come for methods
+10.   &#133;; // code to come for methods
 11. }
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -18046,7 +18050,7 @@ balls will be able to draw and move themselves.</p>
 8.    ctx.fillStyle =<b> c.color;</b>
 9.    // (0, 0) is the top left corner of the monster.
 10.   ctx.beginPath();
-11.   ctx.arc(0, 0,<b> c.radius</b>, 0, 2&#41;Math.PI);
+11.   ctx.arc(0, 0,<b> c.radius</b>, 0, 2&#133;;Math.PI);
 12.   ctx.fill();
 13. 
 14.   // GOOD practice: restore the context
@@ -18066,8 +18070,8 @@ balls will be able to draw and move themselves.</p>
 8.      // iterate on all balls in array
 9.      balls.forEach(function(b, index) {
 10.         // b is the current ball in the array
-11.         b.x += (b.speedX &#41; globalSpeedMutiplier);
-12.         b.y += (b.speedY &#41; globalSpeedMutiplier);
+11.         b.x += (b.speedX &#133;; globalSpeedMutiplier);
+12.         b.y += (b.speedY &#133;; globalSpeedMutiplier);
 13. 
 14.         testCollisionBallWithWalls(b);
 15. 
@@ -18112,7 +18116,7 @@ in other projects.</p>
 13.         ctx.fillStyle = <b>this.color;</b>
 14.         // (0, 0) is the top left corner of the monster.
 15.         ctx.beginPath();
-16.         ctx.arc(0, 0, <b>this.radius</b>, 0, 2&#41;Math.PI);
+16.         ctx.arc(0, 0, <b>this.radius</b>, 0, 2&#133;;Math.PI);
 17.         ctx.fill();
 18. 
 19.         // BEST practice: restore the context
@@ -18133,7 +18137,7 @@ in other projects.</p>
     drawFilledCircle function we previously used. We replaced all c.x,
     c.y etc. by this.x, this.y, to use the properties of the current
     object. This means that when we create a ball with var b = new
-    Ball(&#41;); and when we draw it using b.draw(ctx), then this.x will
+    Ball(&#133;;); and when we draw it using b.draw(ctx), then this.x will
     be the value of the x property of the ball b, etc.</li>
   <li><b><i>Line 23</i></b>: the move function takes no parameter as it will add the
     value of the speedX/speedY properties to the current x and y value
@@ -18273,14 +18277,14 @@ object&quot;. And accessing the variable will automatically resolve the
 reference, meaning that the value of the variable is the referenced
 object.</p>
 
-<p>And&#41; let&apos;s see what happens when we copy a variable and modify the
+<p>And&#133;; let&apos;s see what happens when we copy a variable and modify the
 value of the variable that contains the copy. You will see that there
 are differences between variables that have a primitive value and
 variables that reference an object.</p>
 
 <p>Let&apos;s start with primitive type&#133;With primitive type if we take
 variable a and put the value "2" in it, then, if we copy this value of
-this variable into another one, &#41;here I&apos;ve got the variable "x=2"
+this variable into another one, &#133;;here I&apos;ve got the variable "x=2"
 and I set "x2" , "x2". So I&apos;ve got "x2" that is a copy of "x", then if
 I modify the copied value, if I say "x2=3", you can notice that "x", the
 original variable, has not been modified. We just made a copy of it, a
@@ -18309,8 +18313,8 @@ to display the value of "y" and "y3", they have not changed. "y.a"
 "y3.a" - you see in the console, they&apos;ve got their original value. It's
 because we assigned to "y2" another location in memory. And you can
 check if 2 different variables point to the same object using the "==="
-operator. So if we compare "y" and "y2", &#41;and I made just the
-test&#41;, it will say "y and y2 ARE NOT the same object in memory".</p>
+operator. So if we compare "y" and "y2", &#133;;and I made just the
+test&#133;;, it will say "y and y2 ARE NOT the same object in memory".</p>
 
 <p>You remember "y2" points to another location. And if you compare "y" and
 "y3", in that case they are the same objects. "y", "y3": they are the
@@ -18436,9 +18440,9 @@ modified.</p>
 6.  };
 7.  
 8.  addAndSet(obj, 3);
-9.  obj.x; /&#41; 2 &lt;- The referenced object is not modified
+9.  obj.x; /&#133;; 2 &lt;- The referenced object is not modified
 10. because at the end of the function the variable &quot;obj&quot;
-11. and the variable &quot;a&quot; are not referencing the same object.&#41;/
+11. and the variable &quot;a&quot; are not referencing the same object.&#133;;/
 </pre>
 
 <p>Other example:</p>
@@ -18577,7 +18581,7 @@ them easily from the devtool console. You can switch back to using let, later.<
 
 <p>JavaScript comes with a set of predefined objects or built-in objects
 such as Math, String, Date and so on. For developers that already know
-the Java language&#41; or C#, you can imagine this more like a class from
+the Java language&#133;; or C#, you can imagine this more like a class from
 the developer&apos;s kit, a class that is provided by the language itself.
 The consequence of this is that on all the objects you manipulate in
 JavaScript, you will be able to use a predefined set of methods and
@@ -18715,7 +18719,7 @@ elements&#133; value "2".</p>
 <p>As arrays are objects, you can imagine that you
 can also set some properties to them. You can do
 "<b>a2.name=&quot;Michel"</b>". This not so good because your are mixing
-numbers with a property that is a name, and so on&#41; I don&apos;t recommend
+numbers with a property that is a name, and so on&#133;; I don&apos;t recommend
 at all doing that: avoid! But just to show you something: it's that the
 length of an array works only on elements that have a numeric index. If
 we display the length after adding the name (property), we will still
@@ -18754,14 +18758,14 @@ at another method called "<b>join()</b>".</p>
 <p>"<b>join()</b>" will add a string between each elements of the array.
 "<b>a.join()</b>", and if I want to add some minus signs, will return the
 array with the minus sign in the middle. But it did not change the
-original array. If I want to use it, I can do: var b&#41; b with
-minus&#41; = <b>a.join("&#45;&#45;-")</b> And in that case, it's the returned
+original array. If I want to use it, I can do: var b&#133;; b with
+minus&#133;; = <b>a.join("&#45;&#45;-")</b> And in that case, it's the returned
 array that will get the new modified value.</p>
 
 <p>You can also use "<b>slice()</b>". "<b>slice()</b>" is a method that returns a
 sub-array without modifying the original array. If I want to remove the
 "3" and the "5" here, I need to remove elements from index 1 until index
-2, &#41;3.</p>
+2, &#133;;3.</p>
 
 <p>"<b>a.slice(1,3)</b>"&#133; that means it will return "3" and "5" because this
 is the index of the last element before which I must stop cutting. And
@@ -18775,7 +18779,7 @@ insert new elements instead. I can use the same syntax as before except
 that I will add a "p" for changing the name of the method, and I will
 add 3 new elements. If I look at what happened, it returned the slice
 that has been removed and now, in the array, we inserted instead the new
-elements. In that case, "<b>splice()</b>"&#41; the last&#41;, the second
+elements. In that case, "<b>splice()</b>"&#133;; the last&#133;;, the second
 parameter, is included in the slice, It&apos;s a bit different and the
 previous method we saw. This means &quot;remove elements 1 with index 1, 2
 and 3&quot; and put these elements instead.</p>
@@ -18786,7 +18790,7 @@ will just remove elements. In that case, we&apos;ll remove the 2 elements
 I've inserted here. And if I look at the array, it has been modified.
 These methods are quite powerful for manipulating elements inside an
 array: remove, insert, insert at the end, remove at the end, and so
-on&#41;</p>
+on&#133;;</p>
 
 <!-- end transcript 5.2.5 built-in JS class: array -->
 
@@ -18989,7 +18993,7 @@ The original array will not be modified.</p>
 13. &gt; a;
 14. &lbrack;1, 3, 5, 7, &quot;test&quot;&rbrack;
 15.  
-16. // a is unchanged by calls to a.slice(&#41;)
+16. // a is unchanged by calls to a.slice(&#133;;)
 </pre>
 
 <h5>The splice() method modifies the array: it removes "a slice" and also adds new elements</h5>
@@ -19003,7 +19007,7 @@ slice that will be removed.</p>
 <ul>
   <li>array.splice(start)</li>
   <li>array.splice(start, deleteCount)</li>
-  <li>array.splice(start, deleteCount, item1, item2, &#41;)</li>
+  <li>array.splice(start, deleteCount, item1, item2, &#133;;)</li>
 </ul>
 
 <p>start: index at which to start changing the array (with origin 0)</p>
@@ -19011,7 +19015,7 @@ slice that will be removed.</p>
 <p>deleteCount: An integer indicating the number of old array elements to
 remove.</p>
 
-<p>item1, item2, &#41;: these are optional. They are the elements to add to
+<p>item1, item2, &#133;;: these are optional. They are the elements to add to
 the array, beginning at the start index. If you don&apos;t specify any
 elements, splice() will only remove elements from the array.</p>
 
@@ -19178,7 +19182,7 @@ modifies the string.</p>
 
 <p>Some other interesting methods are "<b>indexOf()</b>"
 to locate, to get the index of a particular character. "<b>s.indexOf()</b>"
-and&#41;if I say&#41; the character "c", it will return 2. 0 for the "m",
+and&#133;;if I say&#133;; the character "c", it will return 2. 0 for the "m",
 1 for the "i" and 2 for the "c". "<b>indexOf()</b>" returns the first
 occurrence.</p>
 
@@ -19396,8 +19400,8 @@ cut from this index, to this one, not included!".</p>
 19. &gt; s = s.substring(11, 16);
 20. &quot;Bond!&quot;
 21.  
-22. &gt; s; <b>// this time s has changed, because we did s = s.substring(&#41;), the same </b>
-23. <b>     // could have been done with s = s .slice(&#41;)</b>
+22. &gt; s; <b>// this time s has changed, because we did s = s.substring(&#133;;), the same </b>
+23. <b>     // could have been done with s = s .slice(&#133;;)</b>
 24. &quot;Bond!&quot;
 </pre>
 
@@ -19474,11 +19478,11 @@ separator. The join method builds a string from an array of strings.</p>
 10. &gt; s.split(&apos; &apos;).join(&apos;-#-&apos;);
 11. &quot;My-#-name-#-is-#-Bond!-#-James-#-Bond!&quot;
 12.  
-13. &gt; s.split(&apos; &apos;).join(&apos;&#41;&#41;.&apos;);
-14. &quot;My&#41;&#41;.name&#41;&#41;.is&#41;&#41;.Bond!&#41;&#41;.James&#41;&#41;.Bond!&quot;
+13. &gt; s.split(&apos; &apos;).join(&apos;&#133;;&#133;;.&apos;);
+14. &quot;My&#133;;&#133;;.name&#133;;&#133;;.is&#133;;&#133;;.Bond!&#133;;&#133;;.James&#133;;&#133;;.Bond!&quot;
 15.  
-16. &gt; s.split(&apos;Bond!&apos;).join(&apos;&#41;&#41;.&apos;);
-17. &quot;My name is &#41;&#41;. James &#41;&#41;.&quot;
+16. &gt; s.split(&apos;Bond!&apos;).join(&apos;&#133;;&#133;;.&apos;);
+17. &quot;My name is &#133;;&#133;;. James &#133;;&#133;;.&quot;
 18.  
 19. &gt; s.split(&apos;Bond!&apos;).join(&apos; &apos;);
 20. &quot;My name is James &quot;
@@ -19542,7 +19546,7 @@ operator to access them.</b></p>
 
 <pre>1.  Math.random();
 2.  0.6033316111663034
-3.  100 &#41; Math.random(); // between 0 and 100
+3.  100 &#133; Math.random(); // between 0 and 100
 4.  11.780563288516422
 </pre>
 
@@ -19659,7 +19663,7 @@ by calling toString() on this object.</p>
   <li>A Unix &quot;timestamp&quot;  (number of milliseconds elapsed since 1970)</li>
 </ul>
 
-<p>&#41; in this case it returns a date object that corresponds to the
+<p>&#133; in this case it returns a date object that corresponds to the
 encoded date passed as argument.</p>
 
 <h4>Examples:</h4>
@@ -20122,7 +20126,7 @@ CodePen: a typical HTML table</a>.</h6>
 12. }
 </pre>
 
-<p>Should we use insertCell() or just row.innerHTML= &quot;&lt;td&gt; &#41;
+<p>Should we use insertCell() or just row.innerHTML= &quot;&lt;td&gt; &#133;
 &lt;/td&gt;&quot; ?
 It&apos;s up to you: depending on the HTML that you plan to insert into each
 cell, one version may be more readable than the other.</p>
@@ -20223,7 +20227,7 @@ the id of the form control.</p>
 <h5>Alternative example #1:</h5>
 
 <p>Note that you can also include the &lt;input&gt; element inside
-the &lt;label&gt;&#41;&lt;/label&gt; element, and also add a &lt;span lang=&quot;en&quot;&gt;
+the &lt;label&gt;&#133;&lt;/label&gt; element, and also add a &lt;span lang=&quot;en&quot;&gt;
 for example, to indicate the language used in the label.
 Sometimes, <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form"
 target="_blank" rel="noopener noreferrer">nesting labels and inputs can also make CSS 
@@ -20550,7 +20554,7 @@ A &lt;button type=&quot;submit&quot;&gt; or an &lt;input type=submit&gt; fie
 to submit the form content.</p>
 
 <p>For example: &lt;form action=&quot;myServerCode.php&quot;
-method=&quot;POST&quot;&gt;&#41;&lt;/form&gt;. Here, we set the URL of the server side
+method=&quot;POST&quot;&gt;&#133;&lt;/form&gt;. Here, we set the URL of the server side
 code (myServerCode.php), and the HTTP method that will be used by the
 browser for sending the form content (POST).</p>
 
@@ -20701,7 +20705,7 @@ some formatted JavaScript data.</p>
 Web site that provides some examples of JSON data set. If you want some
 photos, some pictures, you click on it and you&apos;ve got a string-based
 notation, a JSON version of an array. An array that contains pictures
-with albums, thumbnails&#41;</p>
+with albums, thumbnails&#133;</p>
 
 <p>It&apos;s the same data format we used in a previous module for an optional
 project about pictures and albums. How do you work with such a format?
@@ -20927,7 +20931,7 @@ object is an array, you see it&apos;s an array.</p>
 object. I can also directly turn it into a string. Ok, parentheses is
 missing&#133;And I can see this time, the first user, the 'first user' that
 has been displayed. Now we will use this! That will check that it works:
-we can call displayUsersAsATable(&#41;) passing the users. In order to
+we can call displayUsersAsATable(&#133;) passing the users. In order to
 insert a table here, first we need to create the table.</p>
 
 <p>Let me copy and paste some code. We start by getting a reference on the
@@ -21065,7 +21069,7 @@ message.</p>
 <p>See <a href="https://javascript.info/fetch-api" 
 target="_blank" rel="noopener noreferrer">this blog post</a> for a detailed
 tutorial. Asynchronous JavaScript and JavaScript promises (the
-fetch&#41;then&#41;then&#41; is based on the concept of &quot;promises&quot;) is
+fetch&#133;then&#133;then&#133; is based on the concept of &quot;promises&quot;) is
 not detailed in this course.</p>
 
 <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" 
@@ -21083,7 +21087,7 @@ message.</p>
 <p>See <a href="https://javascript.info/fetch-api" 
 target="_blank" rel="noopener noreferrer">this blog post</a> for a detailed
 tutorial. Asynchronous JavaScript and JavaScript promises (the
-fetch&#41;then&#41;then&#41; is based on the concept of &quot;promises&quot;) is
+fetch&#133;then&#133;then&#133; is based on the concept of &quot;promises&quot;) is
 not detailed in this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 516. CodePen: get remote list using fetch api (490) ~~~~~~~~~~~~~~~~~~~~-->
@@ -21121,8 +21125,8 @@ CodePen: Get remote list of users' names &amp; emails using fetch API</a>.</h6>
 </pre>
 
 <p>In contrast to XhR2, fetch is based on a concept called &quot;JavaScript
-promises&quot;. You recognize promises when you see &quot;.then&#41;&quot;
-&quot;.then&#41;&quot;.</p>
+promises&quot;. You recognize promises when you see &quot;.then&#133;&quot;
+&quot;.then&#133;&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-3">5.4.3 The LocalStorage API</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -21465,7 +21469,7 @@ contacts in JSON:</h5>
 4.      // has an empty list of contacts
 5.      this.listOfContacts = &lbrack;&rbrack;;
 6.    }
-7.    &#41;
+7.    &#133;
 8.    save() {
 9.      // We can only save strings in local storage. So, let&apos;s convert
 10.     // our array of contacts to JSON</b>
@@ -21483,11 +21487,11 @@ contacts in JSON:</h5>
 <p>In our case, <b><i>line 11</i></b> saves the list of contacts with a key named
 &quot;contacts&quot; in the local storage. In order to save the list of contacts
 as a string, we convert it to the JSON format using the
- JSON.stringify(&#41;) method (JSON = string based)</p>
+ JSON.stringify(&#133;) method (JSON = string based)</p>
 
-<p>Try an example on CodePen, save some contacts&#41;</p>
+<p>Try an example on CodePen, save some contacts&#133;</p>
 
-<p>&#41; then we can check in the devtools that the list has been saved.</p>
+<p>&#133; then we can check in the devtools that the list has been saved.</p>
 
 <p>In Google Chrome, click the Application tab, then LocalStorage:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -21866,5 +21870,6 @@ trashbin.dataset.contactId = 3; // 3 is the current row index and
 <!-- last editted 8/12/2024 8:41pm -->
 <!-- last editted 8/13/2024 4:04pm -->
 <!-- last editted 8/14/2024 11:00am -->
+<!-- last editted 8/16/2024 9:23pm -->
 
 
