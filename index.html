@@ -10485,11 +10485,13 @@ showed you:</p>
 (we can also say &quot;see its DOM structure&quot;):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 311. html and circle (258) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/BRNpYQ" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image311.png?raw=true"
   style="width:50%"
   title="CodePen: html and red circle"
-  alt="CodePen: html and red circle." />
+  alt="CodePen: html and red circle." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/BRNpYQ" 
 target="_blank" rel="noopener noreferrer">CodePen: html red circle</a>.</h6>
 
@@ -11097,12 +11099,13 @@ target="_blank" rel="noopener noreferrer">CodePen: Change background of p under 
 <details>
   <summary>Source code:</summary>
 
-<pre>1.  &lt;button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);</b>&quot;&gt;Change
+<pre>
+1.  &lt;button onclick=&quot;<b>changeBackGroundOfPs(&apos;firstDiv&apos;);</b>&quot;&gt;Change
     backgrounds of p under a given element known by id&lt;/button&gt;
 2.  &lt;br&gt;
 3.  &lt;div <b>id=&quot;firstDiv&quot;</b>&gt;
-4.  &lt;p&gt;First paragraph.&lt;/p&gt;
-5.  &lt;p&gt;Second paragraph.&lt;/p&gt;
+4.    &lt;p&gt;First paragraph.&lt;/p&gt;
+5.    &lt;p&gt;Second paragraph.&lt;/p&gt;
 6.  &lt;/div&gt;
 </pre>
 
@@ -12255,20 +12258,20 @@ rectangles, and we&apos;ve called them &quot;player&quot; and &quot;ball&quot;:<
 
 <pre>
 1.  var ball = {
-2.  x: 100,
-3.  y:100,
-4.  radius: 15,
-5.  color:&apos;green&apos;,
-6.  speedX:2,
-7.  speedY:1
+2.    x: 100,
+3.    y:100,
+4.    radius: 15,
+5.    color:&apos;green&apos;,
+6.    speedX:2,
+7.    speedY:1
 8.  }
 9.  
 10. var player = {
-11. x:10,
-12. y:10,
-13. width:20,
-14. height:20,
-15. color:&apos;red&apos;
+11.   x:10,
+12.   y:10,
+13.   width:20,
+14.   height:20,
+15.   color:&apos;red&apos;
 16. }
 </pre>
 
@@ -12287,18 +12290,18 @@ each frame of animation.</p>
 
 <pre>
 1.  function mainLoop() {
-2.  // 1 - clear the canvas
-3.  ctx.clearRect(0, 0, w, h);
+2.    // 1 - clear the canvas
+3.    ctx.clearRect(0, 0, w, h);
 4.  
-5.  <b>// draw the ball and the player</b>
-6.  <b>drawFilledRectangle(player);</b>
-7.  <b>drawFilledCircle(ball);</b>
+5.    <b>// draw the ball and the player</b>
+6.    <b>drawFilledRectangle(player);</b>
+7.    <b>drawFilledCircle(ball);</b>
 8.  
-9.  <b>// animate the ball that is bouncing all over the walls</b>
-10. <b>moveBall(ball);</b>
+9.    <b>// animate the ball that is bouncing all over the walls</b>
+10.   <b>moveBall(ball);</b>
 11. 
-12. // ask for a new animation frame
-13. requestAnimationFrame(mainLoop);
+12.   // ask for a new animation frame
+13.   requestAnimationFrame(mainLoop);
 14. }
 </pre>
 
@@ -12321,10 +12324,10 @@ x to <b>r.x,</b> y to <b>r.y,</b> color to <b>r.color</b> etc.)</p>
 
 <pre>
 1.  function moveBall(b) {
-2.  b.x += b.speedX;
-3.  b.y += b.speedY;
+2.    b.x += b.speedX;
+3.    b.y += b.speedY;
 4.  
-5.  testCollisionBallWithWalls(b);
+5.    testCollisionBallWithWalls(b);
 6.  }
 </pre>
 
@@ -12349,16 +12352,16 @@ an extract of this function now:</p>
 
 <pre>
 1.  function testCollisionBallWithWalls(b) {
-2.  // COLLISION WITH VERTICAL WALLS?
-3.  if((b.x + b.radius) &gt; w) {
-4.  // the ball hit the right wall
-5.  // change horizontal direction
-6.  b.speedX = -b.speedX;
+2.    // COLLISION WITH VERTICAL WALLS?
+3.    if((b.x + b.radius) &gt; w) {
+4.      // the ball hit the right wall
+5.      // change horizontal direction
+6.      b.speedX = -b.speedX;
 7.  
-8.  // put the ball at the collision point
-9.  b.x = w - b.radius;
-10. } ...
-11. ...
+8.      // put the ball at the collision point
+9.      b.x = w - b.radius;
+10.   } ...
+11.   ...
 12. }
 </pre>
 
@@ -12727,12 +12730,12 @@ CodePen: getMousePos</a>.</h6>
 
 <pre>
 1.  function getMousePos(canvas, evt) {
-2.  <b>// necessary to take into account CSS boundaries</b>
-3.  <b>var rect = canvas.getBoundingClientRect();</b>
-4.  return {
-5.  x: evt.clientX <b>- rect.left,</b>
-6.  y: evt.clientY <b>- rect.top</b>
-7.  };
+2.    <b>// necessary to take into account CSS boundaries</b>
+3.    <b>var rect = canvas.getBoundingClientRect();</b>
+4.    return {
+5.      x: evt.clientX <b>- rect.left,</b>
+6.      y: evt.clientY <b>- rect.top</b>
+7.    };
 8.  }
 </pre>
 
@@ -15959,7 +15962,7 @@ post your comments/observations/questions or share your creations.</p>
     findings in the forum.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 421.  (373) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 421. devtools console geolocation simulation (373) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image421.jpeg?raw=true"
   style="width:40%"
@@ -16018,84 +16021,82 @@ perfect for providing a background atmosphere in a video game.</p>
 
 <h5>Here is one simple example of background music control from JavaScript:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 422.  (374) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 422. CodePen: background music control (374) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image422.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-
-<!-- <https://codepen.io/w3devcampus/pen/ZeNpyx> -->
+  title="CodePen: background music control"
+  alt="CodePen: background music control." />
+<h6 align="center"><a hef="https://codepen.io/w3devcampus/pen/ZeNpyx">
+CodePen: background music control</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-2">3.5.2 Sound effects using howler.js (4:10)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Live coding lesson: using sound samples</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 423.  (375) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 423. sound effects using howler.js (375) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image423.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
 
-Hello!
-
-The same way we made the small custom video player, you can also use the
+<p>The same way we made the small custom video player, you can also use the
 audio HTML element that is similar in its use to the video HTML element,
-for adding to your page an audio player.
+for adding to your page an audio player.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 424.  (375) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 424. play/pause video and audio (375) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image424.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Play/pause video and audio"
+  alt="Play/pause video and audio." />
 
-Here, the audio is streamed from a remote server, the same way with the
-video element, a video movie is streamed from a remote server.
+<p>Here, the audio is streamed from a remote server, the same way with the
+video element, a video movie is streamed from a remote server.</p>
 
-If you want to add background music to your game, you can use the audio
+<p>If you want to add background music to your game, you can use the audio
 player, but of course you will want to hide completely the buttons. If I 
-remove the controls attribute. Then, I can completely hide the player.
+remove the controls attribute. Then, I can completely hide the player.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 425.  (376) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 425. play/pause, #2 (376) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image425.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Play/pause, #2"
+  alt="Play/pause, #2." />
 
-Here, I kept some buttons for playing music or pausing it. But you saw
+<p>Here, I kept some buttons for playing music or pausing it. But you saw
 that you can start playing the music from JavaScript. You can also&#41;
 directly start the music when the page is loaded. The same way I use the
-video player, I declare an audio player, here.
+video player, I declare an audio player, here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 426.  (376) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 426. play/pause, #3 (376) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image426.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Play/pause, #3"
+  alt="Play/pause, #3." />
 
-And in JavaScript, I&apos;ve got my button onclick="play()" that will call a
-play function, that will get a reference on the player.
+<p>And in JavaScript, I&apos;ve got my button onclick="play()" that will call a
+play function, that will get a reference on the player.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 427.  (377) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 427. play/pause, #4 (377) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image427.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Play/pause, #4"
+  alt="Play/pause, #4." />
 
-This is the id of the player. You can see it here. And I&apos;m calling the
-play and pause methods to play and pause the music.
+<p>This is the id of the player. You can see it here. And I&apos;m calling the
+play and pause methods to play and pause the music.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 428.  (377) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 428. play sound sample #1 (377) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image428.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Play sound sample #1"
+  alt="Play sound sample #1." />
 
 <p>For sound effects, that will have to be played very fast,&#41; that last
 a very short time. It&apos;s better to load the sounds in memory and then
@@ -16105,54 +16106,54 @@ complicated to use the low level WebAudio API. Some developers made some
 high level libraries for making this task easier. One of them is called
 <a href="https://howlerjs.com/" target="_blank" rel="noopener noreferrer">howler.js</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 429.  (378) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 429. audio library howler.js (378) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image429.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Audio library howler.js"
+  alt="Audio library howler.js." />
 
 <p>This is the Web site --- howler.js &quot;Make working with audio in
 JavaScript easy&quot;. You can read the documentations and look at samples
 here. The way we used it, is that we've just including it using a script
 tag.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 430.  (378) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 430. play sound sample 1 (378) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image430.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Play sound sample 1"
+  alt="Play sound sample 1." />
 
 <p>This is the inclusion of a minified, a very short version of this library. 
 And then from JavaScript, you can use it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 431.  (379) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 431. play sound sample 1, #2 (379) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image431.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Play sound sample 1, #2"
+  alt="Play sound sample 1, #2." />
 
 <p>Here we&apos;ve got a button that will play a very short sound&#133; you see.
 Let&apos;s look at the way the play sound is implemented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (379) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 432. play sound sample 1, #3 (379) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image432.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Play sound sample 1, #3"
+  alt="Play sound sample 1, #3." />
 
 <p>The play sound function just does "sound.play();", but the sound we are
 referring to, here, has been loaded when the page was ready.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433.  (380) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 433. play sound sample 1, #4 (380) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image433.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Play sound sample 1, #4"
+  alt="Play sound sample 1, #4." />
 
 <p>So "window.onload = init;"&#133; You saw that many times now. From then, we
 use the Howl library like this. "new Howl": you indicate the URL of your
@@ -16160,6 +16161,7 @@ audio file and you&apos;ve got a callback. A callback is a function that
 will be executed when the sound has been loaded and decoded. What we do
 here, is that, by declaring "sound=new Howl", we ask the Howl library to
 load and decode the sound.</p>
+
 <p>Then, it tells us when the sound is ready to be used and in that case, 
 we enable the button that is greyed and not clickable by default.</p>
 
@@ -16182,12 +16184,14 @@ HowlerJS is one of these</a>.</p>
 <h5>Example that uses Howler.js to load a sound sample from a remote server, then 
 decode it in memory, and play it:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434.  (381) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434. play sound sample 1 (381) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ZeNpEX" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image434.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Play sound sample 1"
+  alt="Play sound sample 1." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZeNpEX" 
 target="_blank" rel="noopener noreferrer">
 CodePen: load sound sample using howlerjs</a>.</h6>
@@ -16276,11 +16280,13 @@ sound loaded by Howler.JS, we just call the play() method (<b><i>line14</i></b
 effects (when the player eats a ball):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 435. codepen: music and sound effects (383) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/EWzgpr" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image435.png?raw=true"
   style="width:65%"
   title="CodePen: music and sound effects"
-  alt="CodePen: music and sound effects." />
+  alt="CodePen: music and sound effects." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/EWzgpr" 
 target="_blank" rel="noopener noreferrer">
 CodePen: adding music and sound effects</a>.</h6>
@@ -16314,9 +16320,9 @@ for you, images, sound samples and also deal with streamed music.
 And when everything is ready, it will call a function of your own that
 will start the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (384) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436a.  (384) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image436.png?raw=true"
+<img src="./images/image436a.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -16328,9 +16334,9 @@ musics, of the sound samples or of the images you want to load, and you
 indicate their URLs. So "backgroundImage" it&apos;s a PNG, logo it&apos;s a PNG,
 "plop" it&apos;s a MP3.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436b.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image436.png?raw=true"
+<img src="./images/image436b.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -16342,9 +16348,9 @@ everything for you. You can indicate background music with "buffer:
 true", "loop: true". This is a background music will be looped in the
 background. How do you load all these assets?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436c.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image432.png?raw=true"
+<img src="./images/image436c.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
@@ -16356,53 +16362,55 @@ the "Loading assets" &#41; "Loading assets" message.
 Then we call "loadAssets()" and we pass the name of function that will
 really start the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436d.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image433.png?raw=true"
+<img src="./images/image436d.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
-This is where you will start animation, drawing, playing music and so
+
+<p>This is where you will start animation, drawing, playing music and so
 on. And this "loadAssets()" function will use this "assetsToLoadURLs" object
-we talked earlier.
+we talked earlier.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436e.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image434.png?raw=true"
-  style="width:65%"
-  title=""
-  alt="." />
-Look in the "startGame()" function we&apos;re going to use this now.
-And how are we going to use this for playing music for example?
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 435.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image435.png?raw=true"
+<img src="./images/image436e.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
 
-"playHumbug()". You see. The music is just called by its name.
+<p>Look in the "startGame()" function we&apos;re going to use this now.
+And how are we going to use this for playing music for example?</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436f.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image436f.png?raw=true"
+  style="width:65%"
+  title=""
+  alt="." />
+
+<p>"playHumbug()". You see. The music is just called by its name.
 "LoadedAssets" the object of the top of the file ".humbug" the name of
-the music ".play()".
+the music ".play()".</p>
 
-For playing some sound samples, here we are going to play a "plop" sound
-sample every 1000 milliseconds&#41; every second. 
+<p>For playing some sound samples, here we are going to play a "plop" sound
+sample every 1000 milliseconds&#41; every second.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436g.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image436.png?raw=true"
+<img src="./images/image436g.png?raw=true"
   style="width:65%"
   title=""
   alt="." />
 
-We just do "LoadedAssets.plop.play()" you see the name &quot;plop&quot; comes from here.
+<p>We just do "LoadedAssets.plop.play()" you see the name &quot;plop&quot; comes from here.
 Instead of using "assetsToLoadURLs" now we are using "LoadedAssets&quot;.plop because the 
 "LoadedAssets" will initialize this object here, this variable with the decoded sound samples, 
-with the loaded images and so on.
+with the loaded images and so on.</p>
 
-I hope you will find this useful if you are planning to write a small
-HTML5 game with lots of JavaScript.
+<p>I hope you will find this useful if you are planning to write a small
+HTML5 game with lots of JavaScript.</p>
 
 <!-- end transcript 3.5.4 -->
 
@@ -16430,24 +16438,24 @@ game:</p>
     its src attribute.</li>
 </ul>
 
-We wrote a multiple &quot;<b>asset loader</b>&quot; to make all these tasks easy.
+<p>We wrote a multiple &quot;<b>asset loader</b>&quot; to make all these tasks easy.</p>
 
-Here is a small example that you may use if you like, which takes an array of 
+<p>Here is a small example that you may use if you like, which takes an array of 
 &quot;assets to be loaded&quot;, that can be either an image, a sound sample or 
 streamed background music. You call the loadAssets(callback) function, passing as 
 a parameter a single callback function of yours. When all assets are loaded, your 
 callback will be executed, and will get a single parameter: the assets ready to
-be used!
+be used!</p>
 
-Example (to hear the music and sound sample, there are two lines to
-uncomment in the <b>startGame(&#133;)</b> function):
+<p>Example (to hear the music and sound sample, there are two lines to
+uncomment in the <b>startGame(&#133;)</b> function):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 437.  (389) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 437. codepen: load music and sound sample (389) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image437.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: load music and sound"
+  alt="CodePen: load music and sound." />
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/QpRGrz" 
 target="_blank" rel="noopener noreferrer">
 CodePen: load music and sound sample</a>.</h6>
@@ -16563,7 +16571,7 @@ written by students like you who followed the HTML5 advanced course.</p>
   </li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 438.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 438. star warrior, an html5 game (392) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image438.jpeg?raw=true"
   style="width:65%"
@@ -16591,11 +16599,11 @@ rotated, etc. It also uses the multiple asset loader presented.</p>
     (once unzipped, just double click index.html)</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 439.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 439. winter scenery (393) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image439.png?raw=true"
   style="width:65%"
-  title=""
+  title="Winter scenery"
   alt="Audio music." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-5">3.5.5 Discussion and projects</h3>
@@ -16603,12 +16611,12 @@ rotated, etc. It also uses the multiple asset loader presented.</p>
 <p>Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 440.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 440. headphones logo (393) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image440.png?raw=true"
   style="width:20%"
-  title=""
-  alt="Audio music." />
+  title="Headphones logo"
+  alt="Headphones logo." />
   
 <h4>Suggested topics</h4>
 
@@ -16650,12 +16658,12 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Video</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 441.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 441. javascript objects (394) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image441.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: JavaScript objects"
+  alt="CodePen: JavaScript objects." />
 
 <p>This module is about JavaScript objects.</p>
 
@@ -16664,7 +16672,13 @@ detail. As with many other programming languages, JavaScript objects can
 be compared to real-life objects. A JavaScript object is an entity with
 a type and properties that define its characteristics. It also comes
 with special functions associated to it called methods.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 441a. from objects to arrays (395) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image441a.png?raw=true"
+  style="width:65%"
+  title="CodePen: from objects to arrays"
+  alt="CodePen: from objects to arrays." />
 <p>Let's take the example of these bottles and this candle. They are
 different kind of objects, different type of objects. But they also have
 a color, they also have a weight and they have a material. This candle
@@ -16755,12 +16769,12 @@ course, such as prototypes, context binding, etc.).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Live coding transcript: object&apos;s properties</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 442.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 442. from objects to arrays (397) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image442.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="From objects to arrays"
+  alt="From objects to arrays." />
 
 <p>This module is about JavaScript object oriented programming. In other
 words, we&apos;ll talk a lot about JavaScript objects.</p>
@@ -16781,12 +16795,12 @@ will display the value of the week&apos;s properties for the object js1:
 &quot;the JavaScript 1 course lasts 5 weeks&quot;. You can also access other
 properties like author: &quot;Michel Buffa&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 443.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 443. codepen: object: js1 (398) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image443.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: object: js1"
+  alt="CodePen: object: js1." />
 
 <p>Then let&apos;s have a look at some arrays. Here, we&apos;ve got an array named
 "darkVador1asAnArray" and you can access the different elements of an
@@ -16803,12 +16817,12 @@ And if you look at the type of the "darkVador1asAnArray" variable, it&apos;s
 an object. In fact, objects declared with braces and pairs of property
 and name are very very similar to arrays because arrays are objects too.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 444.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 444. brackets and '.' operator (399) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image444.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Brackets and '.' operator"
+  alt="Brackets and '.' operator." />
 
 <p>If I use the name of the property with the brackets notation, look at
 that: darkVadorAsAnObject&lbrack;&rbrack;, the name of the property (job) then&#133;
@@ -16816,21 +16830,21 @@ you&apos;ve got the exact same result as if you're using the &apos;.&apos; opera
 In JavaScript objects are arrays whose indexes are the property names.
 They are very very similar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 445.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 445. book.title, '.' notation (399) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image445.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Book.title, '.' notation"
+  alt="Book.title, '.' notation." />
 
 <p>Look at this object named "book": book.title &#133; Le Petit Prince and
-book&lbrack;&apos;title&apos;&rbrack; will give exactly the same result.Why would you use
+book&lbrack;&apos;title&apos;&rbrack; will give exactly the same result. Why would you use
 this notation for accessing properties?</p>
 
 <p>It&apos;s because in some cases you can have property names that include
 spaces or that start with a number.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 446.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 446. example, index (400) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image446.png?raw=true"
   style="width:65%"
@@ -16841,7 +16855,7 @@ spaces or that start with a number.</p>
 works. And if I type the object book, I can see that I defined the
 property that is named &quot;1stPublication.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 447.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 447. '.' notation (400) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image447.png?raw=true"
   style="width:65%"
@@ -16861,12 +16875,12 @@ property in a variable. For example, I&apos;ve got in the variable named
 except that in that case the name of the property is the value of the
 "key" variable.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 448.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 448. object can contain object (401) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image448.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Object can contain object"
+  alt="Object can contain object." />
 
 <p>I type key ="name" &#133; "book2" that is an object with the name. I can
 type &quot;book2.key3", it&apos;s exactly the same as typing "book2.name". You
@@ -17862,7 +17876,6 @@ has the same method because it&apos;s &quot;an instance of the same class&quot;.
 <p>We can call ianSolo.describeYourself(); and it will say &quot;I&apos;m Ian Solo
 and I&apos;m from the Rebels&quot;. If we do the same with darkVador, it will say 
 &quot;I&apos;m Dark Vador and I&apos;m from the Empire&quot;.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 468e. more on object properties (425) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
