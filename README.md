@@ -2,7 +2,7 @@
 title: "W3Cx-5of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
 author: "bbauska"
 date created: "7/07/2024 Sun 12+pm"
-date last editted: "8/16/2024 Fri 9+pm"
+date last editted: "8/30/2024 Fri 1+pm"
 
 output: 
   markdown:
@@ -14946,11 +14946,13 @@ target="_blank" rel="noopener noreferrer">the Leaflet API for OpenStreetMaps</a>
 Leafletjs.com</a>). However, we think having such a basic example might be useful.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 416. codepen: example click to show your location (367) ~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/LYVgyxE" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image416.png"
   style="width:65%"
   title="CodePen: example click to show your location"
-  alt="CodePen: example click to show your location." />
+  alt="CodePen: example click to show your location." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/LYVgyxE" 
 target="_blank" rel="noopener noreferrer">CodePen: example click to show your location</a>.</h6>
 
@@ -15177,12 +15179,14 @@ related questions are asked in this module&apos;s exercises or final exam.</p>
 are computed from your click and a free reverse geocoding service is
 used to convert to a physical address.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 418.  (372) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 418. codepen: leaflet control geocoder (372) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/ZEQJQQp" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image418.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: Leaflet Control Geocoder"
+  alt="CodePen: Leaflet Control Geocoder." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZEQJQQp" 
 target="_blank" rel="noopener noreferrer">CodePen: Longitude and Latitude</a>.</h6>
 
@@ -15193,14 +15197,16 @@ target="_blank" rel="noopener noreferrer">CodePen: Longitude and Latitude</a>.</
 target="_blank" rel="noopener noreferrer">the example in Codepen</a>. 
 Due to security reasons, it cannot run embedded in this page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 419.  (372) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 419. leaflet control geocoder, 2 (372) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/KKVXaRJ" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image419.png"
   style="width:65%"
-  title=""
-  alt="." />
-
-<!-- <b>https://codepen.io/w3devcampus/pen/KKVXaRJ</b>](https://codepen.io/w3devcampus/pen/KKVXaRJ) -->
+  title="Leaflet Control Geocoder, #2"
+  alt="Leaflet Control Geocoder, #2." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/KKVXaRJ" 
+target="_blank" rel="noopener noreferrer">CodePen: Leaflet Control Geocoder</a>.</h6>
 
 <h5>Example #4: use of geolocation, map and reverse geocoder in an HTML form</h5>
 
@@ -15215,41 +15221,44 @@ location of the person who is registering.</p>
 target="_blank" rel="noopener noreferrer">online example</a> (for security 
 reasons the embedded version cannot run in this page):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 420.  (373) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 420. codepen: example reverse geocoding (373) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/MWKEJqM" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image420.png"
   style="width:65%"
-  title=""
-  alt="." />
-
-<!-- [<b>https://codepen.io/w3devcampus/pen/MWKEJqM</b>](https://codepen.io/w3devcampus/pen/MWKEJqM) -->
+  title="CodePen: Example Reverse Geocoding"
+  alt="CodePen: Example Reverse Geocoding." /></a>
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/MWKEJqM" 
+target="_blank" rel="noopener noreferrer">CodePen: Example Reverse Geocoding</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-4">3.4.4 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Here is the discussion forum for this part of the course. Please either
-post your comments/observations/questions or share your creations.
+<p>Here is the discussion forum for this part of the course. Please either
+post your comments/observations/questions or share your creations.</p>
 
 <h4>Suggested topics</h4>
-
--   What features of a Web application do you think could benefit from
-    geolocation?
-
--   Do you know that you can simulate a position using the dev. tools of
+<ul>
+  <li>What features of a Web application do you think could benefit from
+    geolocation?</li>
+  <li>Do you know that you can simulate a position using the dev. tools of
     some browsers? Try exploring the dev. tools of Google Chrome. Also,
     there are browser extensions and applications that can help develop
     interactive maps. Please look for some of them and share your
     findings in the forum.
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 421.  (373) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 421. devtool console geolocation simulation (373) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image421.jpeg"
   style="width:40%"
   title="Devtool console geolocation simulation"
   alt="Devtool console geolocation simulation." />
 
--   Can you recommend good tutorials about Google Map and about
-    OpenStreetMap, the two main services that propose maps on the fly?
+<ul>
+  <li>Can you recommend good tutorials about Google Map and about
+    OpenStreetMap, the two main services that propose maps on the fly?</li>
+</ul>
 
 <h4>Optional projects</h4>
 
@@ -15550,11 +15559,13 @@ sound loaded by Howler.JS, we just call the play() method (<b><i>line14</i></b
 effects (when the player eats a ball):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 435. codepen: music and sound effects (383) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/w3devcampus/pen/EWzgpr" 
+target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image435.png"
   style="width:65%"
   title="CodePen: music and sound effects"
-  alt="CodePen: music and sound effects." />
+  alt="CodePen: music and sound effects." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/EWzgpr" 
 target="_blank" rel="noopener noreferrer">
 CodePen: adding music and sound effects</a>.</h6>
@@ -21877,5 +21888,6 @@ trashbin.dataset.contactId = 3; // 3 is the current row index and
 <!-- last editted 8/13/2024 4:04pm -->
 <!-- last editted 8/14/2024 11:00am -->
 <!-- last editted 8/16/2024 9:23pm -->
+<!-- last editted 8/30/2024 1:25pm -->
 
 
