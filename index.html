@@ -1917,7 +1917,7 @@ going to render will be an HTML5 file.</p>
 <img src="./images/image052.png?raw=true"
   style="width:50%"
   title="Example: HTML, head and body"
-  alt=""Example: HTML, head and body." />
+  alt="Example: HTML, head and body." />
 </p>
 
 <p>Then, you&apos;ve got a first element that is called &lt;html&gt; and you&apos;ve
@@ -4917,12 +4917,12 @@ a function.</p>
 <p>The console.log inside f1... if I execute f1... will display the value
 "1" because the variable here is &quot;global&quot;. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160b.  (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 160b. local vs global variables (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image160b.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Local vs global variables"
+  alt="Local vs global variables." />
 
 <p>If I've got another function... f2, that declares another variable y, and if I try to
 display this value from outside of the function, then it does not
@@ -4931,12 +4931,12 @@ variables&quot;, and &quot;global variables&quot;. In the case of local variable
 when a variable has the same name as a global variable, then the most
 local one wins.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160c.  (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 160c. local variable closest takes precedence (129) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image160c.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Local variable closest takes precedence over global variables"
+  alt="Local variable closest takes precedence over global variables." />
 
 <p>If I try to display inside F2 the value of x, it will be the closest
 variable -the local one- that will be displayed. If I execute f2, then
@@ -4947,23 +4947,23 @@ has the same name as a global variable, then it acts as a local
 variable, and it's the value of the local parameter that is taken into
 account.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160d.  (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 160d. local vs global, let vs var  (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image160d.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Local vs global and 'let' vs 'var'"
+  alt="Local vs global and 'let' vs 'var'." />
 
 <p>This x here, is not the global one: it's the one I passed as a parameter
 that has the value 10. Now, there are some little variations when
-I use &quot;let&quot; instead of &quot;var&quot;. Let's see some examples. 
+I use &quot;let&quot; instead of &quot;var&quot;. Let's see some examples.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160e.  (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 160e. vars declared with 'let'  (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image160e.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="A variable declared with 'let' in a block is local to the block"
+  alt="A variable declared with 'let' in a block is local to the block." />
 
 <p>With JavaScript 6, I can use &quot;let&quot; instead of &quot;var&quot;. The global scope
 does not change. If I declare a global variable, it can be used
@@ -4980,23 +4980,22 @@ the global variable &quot;a&quot; that will be used.</p>
 <p>This is why the printed value here, when I execute "f" is &quot;1&quot; and
 not &quot;4&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160f.  (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 160f. reference error; b is not defined (131) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image160f.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="ReferenceError; b is not defined"
+  alt="ReferenceError; b is not defined." />
 
 <p>If the variable was named "b" and if I tried to display it, then... I've
-got an error: &quot;b is not defined&quot;. 
-
+got an error: &quot;b is not defined&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160g.  (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160g. if var b then it works (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image160g.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="var b works as a variable local to the WHOLE function"
+  alt="var b works as a variable local to the WHOLE function." />
 
 <p>Remember that if I used &quot;var&quot; in
 that case it works, because &quot;var&quot; will define a variable local to the
@@ -5195,7 +5194,6 @@ a number.</p>
 <p>If I give to "x" a string value like my name, then the type of
 "x" will be "string". It changed its internal type on the fly, we call
 this "dynamic typing".</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167c. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5216,7 +5214,7 @@ some other statements that will test boolean value.</p>
 If I give to "x" the value "false", then if I execute this code, it will
 do nothing because "x" is false.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167d. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167d. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image167d.png?raw=true"
   style="width:50%"
@@ -5228,7 +5226,7 @@ do nothing because "x" is false.</p>
 I can test if y is undefined then ....And in that case, you can test if
 a variable is defined or not.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167e. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167e. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image167e.png?raw=true"
   style="width:50%"
@@ -6640,7 +6638,7 @@ provided example is located on CodePen, an online IDE, it&apos;s better to
 execute it in &quot;debug mode&quot;. The online IDE will just display a page
 (see snapshot below) with the code running:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180. select debug mode (166) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180. select debug mode (166) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image180.png?raw=true"
   style="width:50%"
@@ -6651,7 +6649,7 @@ execute it in &quot;debug mode&quot;. The online IDE will just display a page
 whole codepen IDE + your code!). Open the devtool console (F12 or
 control-shift-i or cmd-alt-i on Mac), and you should see this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181. console debug (167) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181. console debug (167) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image181.png?raw=true"
   style="width:50%"
@@ -7790,8 +7788,8 @@ we used a formula like this, that uses a predefined object called Math.</p>
 <p align="center" width="100%">
 <img src="./images/image222.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Math.random() between 0 and 1"
+  alt="Math.random() between 0 and 1." />
 <p>Math.random() returns a number between 0 and 1, 6 multiplied by this, will give a 
 number between 0 and 7, and we just return the rounded nearest integer. When we 
 execute this, &quot;picked day number&hellip;&quot; you see that it takes some random 
@@ -9273,23 +9271,24 @@ common types of events in detail.</p>
   alt="Most useful methods; preventDefault &amp; stopPropagation." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-4">2.4.4 Page lifecycle events</h3>
-Live coding video: page ‘load’ event and the event object
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 259.  (230) ~~~~~~~~~~~~~~~~~~~~~-->
+<p>Live coding video: page ‘load’ event and the event object</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 259. page lifecycle events (230) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image259.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Page lifecycle events"
+  alt="Page lifecycle events." />
 <p>This time let&apos;s talk about the event object, and we&apos;ll start looking
 at different types of events.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 260.  (231) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 260. load event; onload = callback (231) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image258.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="Load event; onload = callback"
+  alt="Load event; onload = callback." />
 
 <p>One of the events you will use is called the &apos;load&apos; event, and you can
 apply it on the page using onload equal followed by the name of the
@@ -9299,12 +9298,12 @@ callback.</p>
 always use a function that will be called when the page is loaded.
 I&apos;m adding a console.log message just to verify.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 261.  (231) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 261. onload="init();" (231) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image259.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="onload='init()'; dom is ready"
+  alt="onload='init()'; dom is ready." />
 <p>I open the console, and you can see that if I save the document and run
 again the example, or if I clear the console and execute it again, this
 callback is called when the page is loaded&hellip; that means &quot;when the 
@@ -9312,12 +9311,12 @@ DOM is ready&quot;.Then, from this function, I can call any other function,
 I can execute any kind of code, I will never have to wonder&hellip; to think: 
 &quot;is the DOM ready?&quot;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 262.  (232) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 262. function init() page loaded (232) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image260.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="function init() page loaded (or not)"
+  alt="function init() page loaded (or not)." />
 <p>For example, to update this part of the page&hellip; I use a span with an id 
 attribute. I can locate the span&hellip; and like this&hellip; using the querySelector
 method and a CSS selector on the id&hellip; &quot;pageStatus&quot; is the id of the
@@ -9325,12 +9324,12 @@ element&hellip; Then I can change the content of the page&hellip; If you look at
 is happening when I execute the code, it says &quot;page loaded&quot;. This is a very 
 good practice. I nearly always do this on my own softwares.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 263.  (232) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 263. window.onload = init; (232) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image263.png?raw=true"
   style="width:50%"
-  title=""
-  alt="." />
+  title="window.onload = init()"
+  alt="window.onload = init()." />
 <p>Another variant is that instead of using the &quot;onload&quot; syntax, you can
 just write window.load = init.</p>
 
@@ -11801,12 +11800,12 @@ around it:</p>
 <h5>Example #1: some drawing examples (wireframe and filled rectangle, filled circle, 
 filled text, changing colors)</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~ 343.  (290) ~~~~~-->
+<!--~~~~~~~~~~ 343. example; canvas red circle and square, green outlined square (290) ~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image343.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Example canvas; red circle and square, green outlined square"
+  alt="Example canvas; red circle and square, green outlined square." />
 </p>
 
 <h5>Extract from the JavaScript code:</h5>
@@ -15763,8 +15762,8 @@ CodePen: background music control</a>.</h6>
 <p align="center" width="100%">
 <img src="./images/image423.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Sound effects using howler.js"
+  alt="Sound effects using howler.js." />
 
 <p>The same way we made the small custom video player, you can also use the
 audio HTML element that is similar in its use to the video HTML element,
@@ -16041,12 +16040,12 @@ for you, images, sound samples and also deal with streamed music.
 And when everything is ready, it will call a function of your own that
 will start the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436a.  (384) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 436a. winter season game; background music (384) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436a.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Winter season game; background URLs for image and sounds"
+  alt="Winter season game; background URLs for image and sounds." />
 
 <p>Like this, when the game starts, all images, musics and sounds are ready
 to go. Let&apos;s have a look at it. Here is how it looks like. You define an
@@ -16055,12 +16054,12 @@ musics, of the sound samples or of the images you want to load, and you
 indicate their URLs. So "backgroundImage" it&apos;s a PNG, logo it&apos;s a PNG,
 "plop" it&apos;s a MP3.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436b.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 436b. assets loaded for game (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436b.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Assets loaded for winter game"
+  alt="Assets loaded for winter game." />
 
 <p>And you can also indicate if it&apos;s going to be streamed or loaded and
 decoded in memory for fast access. You can indicate if it&apos;s gonna loop,
@@ -16069,47 +16068,45 @@ everything for you. You can indicate background music with "buffer:
 true", "loop: true". This is a background music will be looped in the
 background. How do you load all these assets?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436c.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 436c. loadAssets() function call (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436c.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
-<p>You use the "loadAssets()" function that is provided at this end of this
-source file but you don&apos;t have to look at the details.
-You don&apos;t have to understand in details how it works.
-Here, in the init() function called when the page is loaded, we display
-the "Loading assets" &#41; "Loading assets" message.
-Then we call "loadAssets()" and we pass the name of function that will
-really start the game.</p>
+  title="loadAssets() function call"
+  alt="loadAssets() function call." />
+<p>You use the "loadAssets()" function that is provided at this end of this source file 
+but you don&apos;t have to look at the details. You don&apos;t have to understand in 
+details how it works. Here, in the init() function called when the page is loaded, we 
+display the "Loading assets" &#41; "Loading assets" message. Then we call "loadAssets()" 
+and we pass the name of the function that will really start the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436d.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 436d. start animation, drawing, music, etc (386) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436d.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Start animation, drawing, music, etc"
+  alt="Start animation, drawing, music, etc." />
 
 <p>This is where you will start animation, drawing, playing music and so
 on. And this "loadAssets()" function will use this "assetsToLoadURLs" object
 we talked earlier.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436e.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436e. startGame() function (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436e.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="startGame() function"
+  alt="startGame() function." />
 
 <p>Look in the "startGame()" function we&apos;re going to use this now.
 And how are we going to use this for playing music for example?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436f.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 436f. setInterval sound effects (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436f.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="setInterval on sound effects"
+  alt="setInterval on sound effects." />
 
 <p>"playHumbug()". You see. The music is just called by its name.
 "LoadedAssets" the object of the top of the file ".humbug" the name of
@@ -16118,12 +16115,12 @@ the music ".play()".</p>
 <p>For playing some sound samples, here we are going to play a "plop" sound
 sample every 1000 milliseconds&#41; every second.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436g.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436g. loadAssets.plop.play (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436g.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="loadAssets.plop.play"
+  alt="loadAssets.plop.play." />
 
 <p>We just do "LoadedAssets.plop.play()" you see the name &quot;plop&quot; comes from here.
 Instead of using "assetsToLoadURLs" now we are using "LoadedAssets&quot;.plop because the 
@@ -16561,19 +16558,19 @@ spaces or that start with a number.</p>
 <p align="center" width="100%">
 <img src="./images/image446.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Example, index"
+  alt="Example, index." />
 
 <p>For example, if I write this: book&lbrack;&apos;1stPublication&apos;&rbrack; as an index, it
-works. And if I type the object book, I can see that I defined the
-property that is named &quot;1stPublication.</p>
+works. And if I type the object book, I can see that I defined the property that is named 
+&quot;1stPublication.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 447. '.' notation (400) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 447. '.' notation (400) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image447.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Dot '.' notation"
+  alt="Dot '.' notation." />
 
 <p>But if I use the &apos;.&apos; notation, and if I try to set this property,
 it&apos;s invalid because the property name when used with the &apos;.&apos;
@@ -16807,24 +16804,24 @@ person.describeYourself(), you are calling the method describeYourself
 on the object person, you are talking to the person and you expect a
 behavior. It will describe itself.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 451.  (406) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 451. test, example object medor (406) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image451.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Test, example object 'medor'"
+  alt="Test, example object 'medor'." />
 
 <p>Let&apos;s have a look at some examples. so here we&apos;ve got an object named
 "medor" with the property "name" and the method "bark". If I open the
 console, I can type the name of the object. And, we see that it&apos;s got a
 name and a method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 452.  (406) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 452. ouarf, ouarf (dog barking) (406) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image452.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Ouarf, Ouarf (dog barking)"
+  alt="Ouarf, Oauarf (dog barking)." />
 
 <p>And to call a method, it&apos;s the same as with accessing properties, you
 use the &apos;.&apos; operator, method . the name of the function followed by
@@ -16832,12 +16829,12 @@ parenthesis and if the method take arguments, you would add arguments
 between parenthesis. It&apos;s just displayed an alert saying "Ouaf, Ouaf!"
 because the dog does "Ouaf, Ouaf!".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 453.  (407) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 453. describeYourself method (407) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image453.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Example, describeYourself method"
+  alt="Example, describeYourself method." />
 
 <p>Let&apos;s have a look at another example. Here, we&apos;ve got an object named
 darkVador with properties and a method. Here we&apos;ve got the
@@ -16854,17 +16851,17 @@ display the name of variable. But if I&apos;ve had "this." before, it means
 the "job" of this object, the "job" property of this object. Let&apos;s try
 it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 454/455.  (407) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 454/455. test, new object (407) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image454.png?raw=true"
   style="width:35%"
-  title=""
-  alt="." />
+  title="Define new object"
+  alt="Define new object." />
 nbsp;nbsp;nbsp;nbsp;nbsp;
 <img src="./images/image455.png?raw=true"
   style="width:35%"
-  title=""
-  alt="." />
+  title="test, darkVador describeYourself"
+  alt="test, darkVador describeYourself." />
 </p>
 
 <p>You see that it displays "I&apos;m a human and I&apos;m a villain " blah blah
@@ -16873,12 +16870,12 @@ blah&#133;And "human" and "villain" are the values of the "race" and the
 this value. You can also use the "this" keyword for calling a method
 from another method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 456.  (408) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 456. this.describeYourself (408) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image456.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="this.describeYourself"
+  alt="this.describeYourself." />
 </p>
 
 <p>Let&apos;s add a "console.log("hello I&apos;m describeYourself!!!")", and let&apos;s
@@ -16889,12 +16886,12 @@ method. And I save and if you call the talk method, you see that it says
 side", that is in the talk method, because this.describeYourself()
 executed describeYourself from the talk method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 457.  (408) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 457. click event listener & call method (408) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image457.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Click event listener &amp; call method"
+  alt="Click event listener &amp; call method." />
 </p>
 
 <p>In the example, I have also a click event listener that you can try that
@@ -16902,12 +16899,12 @@ will display a message in the HTML5 page itself. It just shows that we
 can call method by using the name of this object followed by the name of
 the method with parentheses.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 458.  (409) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 458. create empty object, then define properties (409) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image458.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Create empty object, then define its properties"
+  alt="Create empty object, then define its properties." />
 </p>
 
 <p>Ok, there is another interesting way to define objects and to add and
@@ -16918,12 +16915,12 @@ object named darkVador, and we defined properties (race and job),
 methods (talk and describeYourself) after the creation of the object.
 You can try this example, it will work the same.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 459.  (410) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 459. test, darkVador object in devtool console (410) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image459.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Test, darkVador object in devtools console"
+  alt="Test, darkVador object in devtools console." />
 </p>
 
 <p>And if we look at the value of the darkVador object in the devtool
@@ -16986,15 +16983,15 @@ with the method&apos;s name as a string index).</p>
 
 <h5>Let&apos;s see some examples:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 460.  (411) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 460. test button, make darkVador speak (411) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image460.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Test button, make darkVador speak"
+  alt="Test button, make darkVador speak." />
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/RpmzQY"
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: example make darkVador speak</a>.</h6>
 
 <h5>JavaScript Source Code:</h5>
 
@@ -17032,15 +17029,15 @@ talk. We invoke its behavior!</p>
 
 <p>Here is the last version of the player object we saw in our small game:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 461.  (412) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 461. Example, red square in canvas (412) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image461.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Example, red square in canvas"
+  alt="Example, red square in canvas." />
 </p>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/xqNoJX" 
-target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: example, red square in canvas</a>.</h6>
 
 <h5>JavaScript Source Code:</h5>
 
@@ -17132,12 +17129,12 @@ properties from a method or call other methods.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Live coding video: add methods to the player object from the game</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 462. "this" (414) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 462. "this" accessing properties (414) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image462.png?raw=true"
   style="width:65%"
-  title=""
-  alt="." />
+  title="'this' accessing properties"
+  alt="'this' accessing properties." />
 </p>
 
 <p>Let&apos;s have a look now at the game we developed during the first three
@@ -17720,7 +17717,7 @@ declared at <b><i>line 5</i></b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding lesson: modern JavaScript&apos;s classes</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 470. codepen: example javascript classes  (428) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 470. codepen: example javascript classes (428) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image470.png?raw=true"
   style="width:65%"
@@ -17742,26 +17739,26 @@ JavaScript 6 introduced the concept of classes that we&apos;re going to see.
 But just before looking at the class version of the hero we saw earlier,
 let&apos;s have a look at it again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470a. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 470a. codepen: class & methods (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image470a.png?raw=true"
   style="width:65%"
-  title="CodePen: example function"
-  alt="CodePen: example function." />
+  title="CodePen: class &amp; methods"
+  alt="CodePen: class &amp; methods." />
 </p>
 <p>Previously, we had a function with the name that starts with a capital
 letter, we passed the parameters for building the object, and we used
 this to set the different properties.
 We used the equal sign for setting values to the properties at building
-time, and we used also the equal syntax for defining methods. And inside
+time, and we also used the equal syntax for defining methods. And inside
 methods, we used these for accessing the properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470b. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 470b. codepen: class & constructor (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image470b.png?raw=true"
   style="width:65%"
-  title="CodePen: example function"
-  alt="CodePen: example function." />
+  title="CodePen: class &amp; constuctor"
+  alt="CodePen: class &amp; constructor." />
 </p>
 
 <p>With the new JavaScript 6 syntax, it&apos;s much simpler.
@@ -17778,12 +17775,12 @@ the constructor in the class, passing "Dark Vador" and "empire" as values for th
 the same syntax as in constructor function. We use "this" followed by the name of 
 the property and we use the equal sign for setting values to the properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470c. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 470c. codepen: define class object (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image470c.png?raw=true"
   style="width:65%"
-  title="CodePen: example function"
-  alt="CodePen: example function." />
+  title="CodePen: define class object"
+  alt="CodePen: define class object." />
 </p>
 
 <p>Then we can define methods, and here, the syntax again is much simpler.
@@ -17803,12 +17800,12 @@ In this aspect, it&apos;s very similar to what we saw with constructor
 functions and JavaScript objects with the JavaScript 5 syntax.
 Okay, so we can try this example.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470d. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 470d. codepen: new objects with class (429) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image470d.png?raw=true"
   style="width:65%"
-  title="CodePen: example function"
-  alt="CodePen: example function." />
+  title="CodePen: new objects with class"
+  alt="CodePen: new objects with class." />
 </p>
 
 <p>Here we build, in a similar way as previously with constructor function,
@@ -17816,22 +17813,22 @@ we build object using the "new" keyword followed by the name of the
 class and we pass the parameter for building the object, that will be
 passed to the constructor.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470e. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470e. codepen: add new objects (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image470e.png?raw=true"
   style="width:65%"
-  title="CodePen: example function"
-  alt="CodePen: example function." />
+  title="CodePen: define and add new objects"
+  alt="CodePen: define and add new objects." />
 </p>
 
 <p>We can type "ianSolo": see that it&apos;s been built correctly.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470f. codepen: example function (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 470f. codepen: define new object (429) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image470f.png?raw=true"
   style="width:65%"
-  title="CodePen: example function"
-  alt="CodePen: example function." />
+  title="CodePen: define new object"
+  alt="CodePen: define new object." />
 </p>
 
 <p>And if we compare to the JavaScript 5 version, the "IanSolo JavaScript
@@ -18091,29 +18088,29 @@ the class Hero. And if I build 0 instance, &#133;</p>
 <p align="center" width="100%">
 <img src="./images/image473d.png?raw=true"
   style="width:65%"
-  title="static method; distance"
-  alt="static method; distance." />
+  title="Static method; distance"
+  alt="Static method; distance." />
 <p>I can look at the value of this property: it says 0. But if I built 2
 objects, in that case the "new" keyword will call twice the constructor
 method. And the property of the class Hero will say I've built 2 heroes.
 If I&apos;m just uncommenting another one, here. The return value is 3.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 473e.   (437) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 473e. example method 'this' (437) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image473e.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="Example method 'this'"
+  alt="Example method 'this'." />
 <p>It&apos;s important to use this method, using the name of the class because
 it corresponds to a property of this class, to characteristics&#133;
 &quot;class Hero. How many heroes have you created?&quot;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 473f.   (438) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 473f. JS: calculate static distance (a, b) (438) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image473f.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="Calculate the static distance between two points"
+  alt="Calculate the static distance between two points." />
 <p>Now, we can also have static methods. A static method can be some sort of 
 utility method, some behavior method of the class itself. Here we&apos;ve got 
 a class that defines a point, defined by its "x" and "y" properties. We can 
@@ -18123,12 +18120,12 @@ coordinates of two points for computing the distance. But if it&apos;s meant
 to work only on points, it&apos;s a good idea to put it as a class method
 inside the point class.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 473g.   (438) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 473g. distance between two points in 2d space (438) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image473g.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="Compute distance between two points in 2d space"
+  alt="Compute distance between two points in 2d space." />
 <p>Like this, when you will compute the distance between 2 points, we&apos;ll
 just call: Point.distance(), passing the 2 points as parameter. In plain
 text, it means: &quot;class point, please compute the distance between these
@@ -18136,12 +18133,12 @@ text, it means: &quot;class point, please compute the distance between these
 that are only related to instances of the class itself, it&apos;s a good
 idea to put it inside. And you precede them by the "static" keyword.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 473h.   (439) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 473h.  special method using name of class: numberHeroesCreated (439) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image473h.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="Special method using name of class: numberHeroesCreated"
+  alt="Special method using name of class: numberHeroesCreated." />
 </p>
 <p>Because sometimes, you can call such methods without using any instance.
 For example, if I want a method that will work on the
@@ -18332,14 +18329,14 @@ same name preceded by an underscore).</p>
 
 <h5>Example at CodePen:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 476. codepen: example (442) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 476. codepen: example familyName (442) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/WOoQgw" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
 <img src="./images/image476.png?raw=true"
   style="width:65%"
-  title="CodePen: example"
-  alt="CodePen: example." /></a>
+  title="CodePen: example familyName"
+  alt="CodePen: example familyName." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/WOoQgw" 
 target="_blank" rel="noopener noreferrer">CodePen: example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -18693,7 +18690,7 @@ target="_blank" rel="noopener noreferrer">CodePen: game with improvements</a>.</
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Transcript: Introduction - Adding interactivity</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 478. adding interactivity to web documents  (451) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 478. adding interactivity to web documents (451) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image478.png?raw=true"
   style="width:65%"
@@ -19098,12 +19095,12 @@ them easily from the devtool console. You can switch back to using let, later.<
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-4">5.2.4 Built-in JS class: Object (3:12)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 481. built-in javascript class: object (459) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 481. built-in javascript class: object (459) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image481.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="Built-in JS class: object"
+  alt="Built-in JS class: object." />
 </p>
 
 <p>JavaScript comes with a set of predefined objects or built-in objects
@@ -19224,12 +19221,12 @@ their toString() method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Live coding transcript: predefined object - Array</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 482. codepen: built-in js class: array (462) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 482. built-in js class: array (462) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image482.png?raw=true"
   style="width:65%"
-  title="CodePen: built-in JS class: array"
-  alt="CodePen: built-in JS class: array." />
+  title="Built-in JS class: array"
+  alt="Built-in JS class: array." />
 </p>
 
 <p>This time, we look at the Array predefined JavaScript object. When you
@@ -20653,20 +20650,20 @@ you create a table using the DOM API, you get a Table object:</p>
 
 <p>Like all objects, an instance of Table will have properties and methods:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 492. most useful properties (469) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 492. table: most useful properties (469) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image492.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="Table: most useful properties; rows, caption, tFoot &amp; tHead"
+  alt="Table: most useful properties; rows, caption, tFoot &amp; tHead." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 493. most useful methods (470) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 493. table: most useful methods (470) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image493.png?raw=true"
   style="width:65%"
-  title=" "
-  alt=" ." />
+  title="Table: most useful methods"
+  alt="Table: most useful methods." />
 </p>
 
 <p>Example that adds a new row or removes a row to/from a table using
@@ -21788,7 +21785,7 @@ database for JavaScript objects.</p>
 
 <h4>The Web Storage API (localStorage, sessionStorage)</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 517. cross-browser client-side storage (491) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 517. cross-browser client-side storage (491) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image517.jpeg?raw=true"
   style="width:20%"
@@ -21813,7 +21810,7 @@ with sessionStorage the data is erased when the tab/browser is closed.</b></p>
 change &quot;local&quot; to &quot;session&quot; and it should work (this time with a
 session lifetime)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 518. table: key/value pairs (491) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 518. table: key/value pairs (491) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image518.png?raw=true"
   style="width:20%"
@@ -21855,7 +21852,7 @@ a JsBin example in which we&apos;ve included the above code</a>.</p>
 browser dev. tools, we can check what has been stored in
 the localStorage for this domain:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 519. example: localStorage (492) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 519. example: localStorage (492) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image519.jpeg?raw=true"
   style="width:65%"
@@ -21863,12 +21860,12 @@ the localStorage for this domain:</p>
   alt="Example: localStorage." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 520. devtools can be used to show localStorage (493) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 520. devtools can be used to show localStorage (493) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image520.jpeg?raw=true"
   style="width:65%"
-  title="devtools can be used to show localStorage"
-  alt="devtools can be used to show localStorage." />
+  title="Devtools can be used to show localStorage"
+  alt="Devtools can be used to show localStorage." />
 </p>
 
 <p>Differences with cookies?</p>
@@ -22156,21 +22153,17 @@ contacts in JSON:</h5>
 &quot;contacts&quot; in the local storage. In order to save the list of contacts
 as a string, we convert it to the JSON format using the
  JSON.stringify(...) method (JSON = string based)</p>
-
 <p>Try an example on CodePen, save some contacts...</p>
-
 <p>... then we can check in the devtools that the list has been saved.</p>
-
 <p>In Google Chrome, click the Application tab, then LocalStorage:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 522. google chrome local storage inspector (499) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 522. google chrome local storage inspector (499) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image522.jpeg?raw=true"
   style="width:65%"
   title="Google Chrome local storage inspector"
   alt="Google Chrome local storage inspector." />
 </p>
-
 <p>In Firefox, you first need to activate the storage view like this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 523. firefox active storage view in devtools (499) ~~~~~~~~~~~~~~~~~~~~~-->
@@ -22367,7 +22360,7 @@ CodePen:</p>
 
 <h5>CodePen of this example:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 526. codepen: table list of contacts (527) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 526. codepen: table list of contacts (527) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/yXoVdp" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
@@ -22465,7 +22458,7 @@ is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
 
 <h4>CodePen example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 527. codepen: add new contact and list (530) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 527. codepen: add new contact and list (530) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/awypEg" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
@@ -22497,10 +22490,10 @@ features we implemented in the previous page:</p>
 <ul>
   <li>Improve the CSS of the contact manager table.</li>
   <li>Add more complicated features to the contact manager:</li>
-  <aa>Add an extra column with a trash bin icon in it (you can use
+  <li>Add an extra column with a trash bin icon in it (you can use
    this <a href="https://i.imgur.com/yHyDPio.png" 
    target="_blank" rel="noopener noreferrer">one</a><img src="./images/image528.png" 
-   style="width:1.33 height:1.33" alt="Trashbin icon">, do right click and &quot;save link
+   style="width:.33in height:.33in" alt="Trashbin icon">, do right click and &quot;save link
    as&quot;). When you click on this icon, delete the contact.<br>
    <br>
    <p><i>Hint</i>: find a way to get the index of the current row in the
@@ -22550,5 +22543,6 @@ Then in the event listener, use evt.target.dataset.contactId to get it back.</
 <!-- last editted 8/13/2024 4:04pm -->
 <!-- last editted 8/14/2024 11:00am -->
 <!-- last editted 8/17/2024 3:34pm -->
+<!-- last editted 8/30/2024 1:42pm -->
 
 </html>
