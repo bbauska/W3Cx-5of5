@@ -10930,7 +10930,7 @@ collection of class names:</p>
 
 <h5>The classList API</h5>
 
-<pThe list of methods usable on a classList object are add(), remove(), toggle() and contains().</p>
+<p>The list of methods usable on a classList object are add(), remove(), toggle() and contains().</p>
 
 <pre>1.  // By default, start without a class in the div: &lt;div class=&quot;&quot;/&gt;
 2. 
