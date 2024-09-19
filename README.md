@@ -2,7 +2,7 @@
 title: "W3Cx-5of5-JS.0x: Coursera - Front-End Web Development - JavaScript Introduction"
 author: "bbauska"
 date created: "7/07/2024 Sun 12+pm"
-date last editted: "8/30/2024 Fri 1+pm"
+date last editted: "9/19/2024 Thu 2+pm"
 
 output: 
   markdown:
@@ -5089,8 +5089,8 @@ declaring variables and constants!</b></p>
 <p align="center" width="100%">
 <img src="./images/image167.png"
   style="width:50%"
-  title="JavaScript data types"
-  alt="JavaScript data types." />
+  title="JavaScript data types: number, string, boolean, undefined and null"
+  alt="JavaScript data types: number, string, boolean, undefined and null." />
 </p>
 
 <p>Let's talk about JavaScript data types. The data type of variable is the 
@@ -5099,35 +5099,35 @@ possibilities: even if when you declare a variable, you don't type if data type:
 "var x=10", the value you give to this variable will help JavaScript figure out 
 the data type of this variable.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167a. js data types (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 167a. js data types: typeof x = 'number' (136) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image167a.png"
   style="width:50%"
-  title="JavaScript data types"
-  alt="JavaScript data types." />
+  title="JavaScript data types: typeof x = 'number'"
+  alt="JavaScript data types: typeof x = 'number'." />
 </p>
 <p>And there is an operator named "typeof" that you can use for visualizing
 the internal data table of variable. So "var x=10", this corresponds to
 a number.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167b. js data types (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 167b. js data types: typeof x = 'string' (136) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image167b.png"
   style="width:50%"
-  title="JavaScript data types"
-  alt="JavaScript data types." />
+  title="JavaScript data types: typeof x = 'string'"
+  alt="JavaScript data types: typeof x = 'string'." />
 </p>
 <p>If I give to "x" a string value like my name, then the type of
 "x" will be "string". It changed its internal type on the fly, we call
 this "dynamic typing".</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167c. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 167c. js data types: boolean value (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image167c.png"
   style="width:50%"
-  title="JavaScript data types"
-  alt="JavaScript data types." />
+  title="JavaScript data types: boolean value"
+  alt="JavaScript data types: boolean value." />
 </p>
 <p>What kind of data types can we get? String,
 number, we've got also boolean value: "var x = true" or "x = false"
@@ -5141,24 +5141,24 @@ some other statements that will test boolean value.</p>
 If I give to "x" the value "false", then if I execute this code, it will
 do nothing because "x" is false.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167d. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 167d. js data types: typeof y is 'undefined' (137) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image167d.png"
   style="width:50%"
-  title="JavaScript data types"
-  alt="JavaScript data types." />
+  title="JavaScript data types: typeof y is 'undefined'"
+  alt="JavaScript data types: typeof y is 'undefined'." />
 </p>
 
 <p>We've got also some special values&hellip; but "typeof y": undefined.
 I can test if y is undefined then .&#133;And in that case, you can test if
 a variable is defined or not.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167e. js data types (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 167e. js data types: z = null (no value) (137) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image167e.png"
   style="width:50%"
-  title="JavaScript data types"
-  alt="JavaScript data types." />
+  title="JavaScript data types: z = null (no value)"
+  alt="JavaScript data types: z = null (no value)." />
 </p>
 <p>There is a special data type called "null" that corresponds to "no
 value". The difference with the null defined variable is that the variable that
@@ -5184,7 +5184,7 @@ and null and object.</p>
 of an object.</p>
 
 <!-- end transcript 1.5.3 -->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What kind of values can we assign to a variable?</h4>
 
 <p>Well, there are multiple possibilities: What we call &quot;primitive data types&quot;: 
@@ -11110,7 +11110,7 @@ field, etc.</p>
 
 <p>This example shows some of the things we can do:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 336. codepen: try these (280) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 336. codepen: try these (280) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/RpdjwE" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
@@ -11521,12 +11521,12 @@ around it:</p>
 <h5>Example #1: some drawing examples (wireframe and filled rectangle, filled circle, 
 filled text, changing colors)</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~ 343.  (290) ~~~~~-->
+<!--~~~~~~ 343. canvas; with wireframe and filled rectangle, circle, text chg colors (290) ~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image343.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Canvas; with wireframe and filled rectangle, circle, text; change colors"
+  alt="Canvas; with wireframe and filled rectangle, circle, text; change colors." />
 </p>
 
 <h5>Extract from the JavaScript code:</h5>
@@ -11808,8 +11808,7 @@ target="_blank" rel="noopener noreferrer">
   title="CodePen: Bouncing Balls"
   alt="CodePen: Bouncing Balls." /></a>
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/OpqqqM" 
-target="_blank" rel="noopener noreferrer">
-CodePen: Bouncing Balls</a>.</h6>
+target="_blank" rel="noopener noreferrer">CodePen: Bouncing Balls</a>.</h6>
 
 <h5>Explanations:</h5>
 
@@ -12223,7 +12222,7 @@ CodePen: Position and Size in viewport</a>.</p>
 
 <h5>A good version of the code:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 353. CodePen: getMousePos (307) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 353. CodePen: getMousePos (307) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/MpxMQo" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
@@ -15613,12 +15612,12 @@ musics, of the sound samples or of the images you want to load, and you
 indicate their URLs. So "backgroundImage" it&apos;s a PNG, logo it&apos;s a PNG,
 "plop" it&apos;s a MP3.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 436. codepen: multiple image, sound and music loader (385) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="CodePen: multiple image, sound and music loader"
+  alt="CodePen: multiple image, sound and music loader." />
   
 <p>And you can also indicate if it&apos;s going to be streamed or loaded and
 decoded in memory for fast access. You can indicate if it&apos;s gonna loop,
@@ -15627,12 +15626,12 @@ everything for you. You can indicate background music with "buffer:
 true", "loop: true". This is a background music will be looped in the
 background. How do you load all these assets?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 432.  (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 432. load and decode sound samples (385) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image432.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Load and decode sound samples"
+  alt="Load and decode sound samples." />
   
 <p>You use the "loadAssets()" function that is provided at this end of this
 source file but you don&apos;t have to look at the details.
@@ -15642,32 +15641,32 @@ the "Loading assets" ...; "Loading assets" message.
 Then we call "loadAssets()" and we pass the name of function that will
 really start the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 433. play sound samples (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image433.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Play sound samples"
+  alt="Play sound samples." />
 
 <p>This is where you will start animation, drawing, playing music and so
 on. And this "loadAssets()" function will use this "assetsToLoadURLs" object
 we talked earlier.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434.  (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 434. startGame() function (386) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image434.png"
   style="width:65%"
-  title="CodePen: play sound sample 1"
-  alt="CodePen: play sound sample 1." />
+  title="CodePen: play sound sample 1 and startGame() function"
+  alt="CodePen: play sound sample 1 and startGame() function." />
 <p>Look in the "startGame()" function we&apos;re going to use this now.
 And how are we going to use this for playing music for example?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 435.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 435. canvas example; bouncing balls (387) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image435.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Canvas example; bouncing balls, speed and color"
+  alt="Canvas example; bouncing balls, speed and color." />
 
 <p>"playHumbug()". You see. The music is just called by its name.
 "LoadedAssets" the object of the top of the file ".humbug" the name of
@@ -15676,12 +15675,12 @@ the music ".play()".</p>
 <p>For playing some sound samples, here we are going to play a "plop" sound
 sample every 1000 milliseconds...; every second.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436.  (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 436. load in background images and sound (387) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image436.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Load into background images and sound"
+  alt="Load into background images and sound." />
 
 <p>We just do "LoadedAssets.plop.play()" you see the name &quot;plop&quot; comes from here.
 Instead of using "assetsToLoadURLs" now we are using "LoadedAssets&quot;.plop because the 
@@ -15729,7 +15728,7 @@ be used!</p>
 <h5>Example (to hear the music and sound sample, there are two lines to
 uncomment in the <b>startGame(&#133;)</b> function):</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 437.  (389) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 437. CodePen: load music and sound samples (389) ~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/QpRGrz" 
 target="_blank" rel="noopener noreferrer">
 <p align="center" width="100%">
@@ -15842,12 +15841,12 @@ written by students like you who followed the HTML5 advanced course.</p>
   </li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 438.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 438. star warrior, an html5 game (391) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image438.jpeg"
   style="width:65%"
-  title="Star Warrior, an HTML5 games that uses the multiple asset loader"
-  alt="Star Warrior, an HTML5 games that uses the multiple asset loader." />
+  title="Star Warrior, an HTML5 game that uses the multiple asset loader"
+  alt="Star Warrior, an HTML5 game that uses the multiple asset loader." />
 
 <ol start="2">
   <li>Skyward Bounds: written in less than a week by a group of students
@@ -15870,24 +15869,24 @@ rotated, etc. It also uses the multiple asset loader presented.</p>
     (once unzipped, just double click index.html)</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 439.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 439. audio music with winterland background (392) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image439.png"
   style="width:65%"
-  title="Audio music"
-  alt="Audio music." />
+  title="Audio music with winterland background"
+  alt="Audio music with winterland background." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-5">3.5.5 Discussion and projects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is the discussion forum for this part of the course. Please either
 post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 440.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 440. headphones (393) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left" width="100%">
 <img src="./images/image440.png"
   style="width:20%"
-  title=""
-  alt="Audio music." />
+  title="Headphones"
+  alt="Headphones." />
   
 <h4>Suggested topics</h4>
 
@@ -15934,12 +15933,12 @@ post your comments/observations/questions or share your creations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Video
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 441.  (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 441. video introduction (module 4) (395) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image441.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Video Introduction (Module 4)"
+  alt="Video Introduction (Module 4)." />
 
 This module is about JavaScript objects.
 
@@ -21889,5 +21888,6 @@ trashbin.dataset.contactId = 3; // 3 is the current row index and
 <!-- last editted 8/14/2024 11:00am -->
 <!-- last editted 8/16/2024 9:23pm -->
 <!-- last editted 8/30/2024 1:25pm -->
+<!-- last editted 9/19/2024 2:52pm -->
 
 
