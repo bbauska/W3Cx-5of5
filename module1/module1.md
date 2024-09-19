@@ -2,7 +2,7 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ module1.md in W3Cx-5of5-JS.0x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Module 1: Introduction to JavaScript</h2>
-<h3>1.1.1 Introduction - Video introduction (1:46)</h3>
+<h2>1.1.1 Introduction - Video introduction (1:46)</h2>
 
 > Hello everyone, welcome to the wonderful world of JavaScript! In this
 > module, after giving a brief history of JavaScript and Web browsers,
@@ -27,9 +27,7 @@
 > JavaScript, now :-)
 
 <hr>
-
 <h2 id="ch1-01">1.1.2 Introduction to JavaScript - Outline</h2>
-
 <h3>What you will learn in Module 1</h3>
 
 If you thought that a Web browser could only display HTML documents, you were mistaken! ;)
@@ -55,9 +53,7 @@ introductory course designed to help you understand the basic concepts of the la
 <hr>
 
 <h2>1.2 JavaScript, HTML and CSS - HTML is for structure</h2>
-
 <h3>HTML: Hyper Text Markup language</h3>
-
 <h4>The "Hyper Text" part: links!</h4>
 
 A fundamental key to the World Wide Web is the concept of "hypertext".  Hypertext is built on the idea of linking information together, 
@@ -166,7 +162,6 @@ During the course, we will show you how to test out simple code snippets in onli
 you how to organize your code with folders and files.
 
 The next video shows how you can use JsBin, CodePen, and SublimeText in order to test the HTML code provided earlier in this section.
-
 
 ### Live coding video: using the course's tools
 https://youtu.be/a272u8lwzRo
@@ -393,7 +388,7 @@ The id and class attributes
 
 Basically, any given element on your Web page can be identified uniquely with an 'id' attribute, or grouped with a class of other elements by setting the 'class' attribute.
 
-```css
+```html
 <p id="paragraph-1" class="regular-paragraphs">
   Call me Ishmael . . .
 </p>
@@ -459,7 +454,7 @@ Line 1 uses the "#" character in the selector, meaning that we're going to selec
 
 In that case we use a funny char font called 'caveat' we took from the Google font service (see fonts.google.com), and in order to be able to use it in a font-family CSS property, we included its definition using a <link> tag in the HTML part of the document:
 
-```hmtl
+```html
 <head>
   <title>Your first HTML page</title>
   <meta charset="utf-8"/>
@@ -480,7 +475,7 @@ The last rule targets all elements that have an attribute class="funny". Notice 
 
 This rule will change the color, font family and size of two out of three paragraphs in the HTML element:
 
-```css
+```
 ...
 <p class="funny">I also play electric guitar and love coding WebAudio applications...</p>
 ...
