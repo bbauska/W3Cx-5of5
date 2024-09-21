@@ -3974,7 +3974,8 @@ JavaScript files in a js subfolder.</p>
 
 <ol>
   <li>Download the zip file of this project: 
-    <a href="https://courses.edx.org/assets/courseware/v1/cd559ef3ce2c06e05cc68ef7cdef9a16/asset-v1:W3Cx+JS.0x+2T2022+type@asset+block/Example_3.zip" target="_blank" rel="noopener noreferrer">Example_3.zip</a></li>
+    <a href="https://courses.edx.org/assets/courseware/v1/cd559ef3ce2c06e05cc68ef7cdef9a16/asset-v1:W3Cx+JS.0x+2T2022+type@asset+block/Example_3.zip" 
+	target="_blank" rel="noopener noreferrer">Example_3.zip</a></li>
   <li>Unzip/unarchive it somewhere</li>
   <li>Double click the index.html file, this will open your Web browser
     and load the index.html file.</li>
@@ -3986,19 +3987,18 @@ JavaScript files in a js subfolder.</p>
 <p>External JavaScript libraries (they are just big JS files) can be also
 referenced with a full URL, like in this example:</p>
 
-<pre>1.  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;&gt;&lt;/script&gt;</pre>
+<pre>1. &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.22/paper.js&quot;&gt;&lt;/script&gt;</pre>
 
 <p>Here, we just included in our HTML document the
-excellent <a href="http://paperjs.org/" target="_blank" rel="noopener noreferrer">paperJS</a> library that can be used to
-make fancy animations in the HTML canvas element - we will use it later
-in the course.</p>
+excellent <a href="http://paperjs.org/" target="_blank" rel="noopener noreferrer">paperJS</a> 
+library that can be used to make fancy animations in the HTML canvas element - we will use it 
+later in the course.</p>
 
 <p>Once the library is included, the JavaScript code you will write can
 call functions located in this library. This &quot;reuse existing&quot; work
 made by others is really common when working on JavaScript projects.</p>
 
-<p>Here is a running example that uses the paperJS library, included using
-an external URL:</p>
+<p>Here is a running example that uses the paperJS library, included using an external URL:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 127. example 4: use an external js file (101) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/VPmNWg" 
@@ -4051,14 +4051,13 @@ it’s the same thing you can get here.</p>
   alt="console.log 'hello'." />
 </p>
 
-<p>If I type something here: console.log("hello"). So this is the instruction
-you will use the most for printing error messages in the dev toolconsole.
-If I execute it, it prints "hello", and I can see also in the browser built 
-in console: "hello".</p>
+<p>If I type something here: console.log("hello"). So this is the instruction you will use 
+the most for printing error messages in the dev toolconsole. If I execute it, it prints 
+"hello", and I can see also in the browser built in console: "hello".</p>
 
-<p>This just a comfortable way to display error messages. If I make some errors, 
-here I've got a script that will display, as soon the page is loaded,
-"Some JavaScript code has been executed".</p>
+<p>This just a comfortable way to display error messages. If I make some errors, here I've 
+got a script that will display, as soon the page is loaded, "Some JavaScript code has been 
+executed".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 131. jsbin; console.log error check (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4076,9 +4075,8 @@ here I've got a script that will display, as soon the page is loaded,
   title="JSBin; error check on console.log"
   alt="JSBin; error check on console.log." />
 
-<p>If there is a mistake, if I make an error here, for example, I write console 
-with two "l". I can see, in red, some messages: 
-"consolle is not defined", bla, bla, bla...</p>
+<p>If there is a mistake, if I make an error here, for example, I write console with two 
+"l". I can see, in red, some messages: "consolle is not defined", bla, bla, bla...</p>
  
 <p>When you use some online tools like JsBin or CodePen, and so on, it's a bit 
 difficult to debug your code because you are debugging at the same time the code 
@@ -4416,7 +4414,7 @@ that are input fields from HTML5. Let's do it. I add a section called "plotSetti
 that will contains all these controllers. Let's start for example with a controller 
 for the color. Here we go. What we added here is a label color value and the color 
 input field from HTML5. If I click here, it asks for a color. And we can also add 
-an event listener: "onchange="plot();. That means: "when the color has been selected, 
+an event listener: "onchange='plot();'". That means: "when the color has been selected, 
 call the plot() function". And you remember that this function is the one that plots 
 the mathematical function, here. The plot function is here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -15751,7 +15749,7 @@ perfect for providing a background atmosphere in a video game.</p>
   style="width:65%"
   title="CodePen: background music control"
   alt="CodePen: background music control." />
-<h6 align="center"><a hef="https://codepen.io/w3devcampus/pen/ZeNpyx">
+<h6 align="center"><a href="https://codepen.io/w3devcampus/pen/ZeNpyx">
 CodePen: background music control</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-2">3.5.2 Sound effects using howler.js (4:10)</h3>
@@ -22544,5 +22542,6 @@ Then in the event listener, use evt.target.dataset.contactId to get it back.</
 <!-- last editted 8/14/2024 11:00am -->
 <!-- last editted 8/17/2024 3:34pm -->
 <!-- last editted 8/30/2024 1:42pm -->
+<!-- last editted 9/21/2024 10:36am -->
 
 </html>
