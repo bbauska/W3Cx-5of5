@@ -22,7 +22,7 @@ p {
 }
 
 details {
-  font: 15px "Bahnschrift", Calibri, sans-serif;
+  font: 15px Bahnschrift, Calibri, sans-serif;
   width: 620px;
 }
 details > summary {
@@ -45,7 +45,7 @@ details[open] > summary {
 }
 
 pre, code {
-  font-family: monospace, monospace;
+  font-family: monospace, monospace, consolas;
   font-size: 12px;
   margin-left: 15px;  /* 10px */
   }
@@ -64,17 +64,17 @@ pre[href]:hover  {
 pre:hover, pre:focus { width: min-content; }
 
 a:link {
-  color: #013220;  /* very dark green */
+  color: #3333ff;  /* vivid blue, was; #013220 very dark green */
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: #a5682a;  /* brown */
+  color: #bbbbbb;  /* gray, was; #a5682a brown */
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: #000000;
+  color: #006700;  /* d green */
   background-color: #ffff00;  /* yellow */
   text-decoration: underline;
 }
