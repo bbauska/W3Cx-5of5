@@ -16913,16 +16913,16 @@ object.</p>
 </details>
 
 <p>In this example, the bark property&apos;s value is a function, so we
-call bark &quot;a method&quot;.<>/p>
+call bark &quot;a method&quot;.</p>
 
 <p>A method is a special property that corresponds to the object&apos;s
 behavior.</p>
 
-<b>Properties correspond to an object&apos;s DNA (its characteristics),
-and are nouns (age, name, etc.)</b>
+<p><b>Properties correspond to an object&apos;s DNA (its characteristics),
+and are nouns (age, name, etc.)</b></p>
 
-<b>Methods correspond to an object&apos;s behavior
-and are verbs (bark, move, changeSpeed, etc.)</b>
+<p><b>Methods correspond to an object&apos;s behavior
+and are verbs (bark, move, changeSpeed, etc.)</b></p>
 
 <h5>Calling a method</h5>
 
@@ -18381,7 +18381,7 @@ property name within the code, or forgot one of the properties that had
 to be initialized, we would have received no warnings. We will replace
 these lines with something like let b = new Ball(...);</p>
 
-<h5>NEW VERSION</b>: using the new keyword and an ES6 class</h5>
+<h5><b>NEW VERSION</b>: using the new keyword and an ES6 class</h5>
 
 <details>
   <summary>Source Code:</summary>
@@ -18651,7 +18651,7 @@ author of some of these courses! Byebye!</p>
 
 <ul>
   <li>We continue the study of object-oriented JavaScript programming
-    with &quot;predefined classes&quot;</b>: Object, Array, String, Date, Math.</li>
+    with &quot;predefined classes&quot;: Object, Array, String, Date, Math.</li>
   <li>We present a very useful API for building HTML5 tables dynamically.</li>
   <li>We&apos;ll also see how to use HTML5 forms from JavaScript:
     intercept their submission, retrieve input field values, and so on.</li>
@@ -18945,7 +18945,7 @@ reference (if they point to different places in memory).</p>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id"ch5-2-3">5.2.3 The &quot;global&quot; window object</h3>
+<h3 id="ch5-2-3">5.2.3 The &quot;global&quot; window object</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>It is time to tell you the truth: the JavaScript code is executed by an
 "environment&quot; (usually a Web browser, but there are some HTTP Web
@@ -21536,12 +21536,11 @@ see some JSON data coming from the server and being displayed in your
 browser as shown below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 514. json: working with remote data using XhR2 API (487) ~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image514.jpeg?raw=true"
+<img class="displayed"
+  src="./images/image514.jpeg?raw=true"
   style="width:35%"
   title="JSON: working with remote data using XhR2 API"
   alt="JSON: working with remote data using XhR2 API." />
-</p>
 
 <p>And we would like to use these data in our code, manipulating them as a
 JavaScript object.</p>
@@ -21556,8 +21555,8 @@ use.</p>
 <!--~~~~~~~~~~~~~~~ 515. CodePen: working with remote data using XhR2 API (488) ~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/vmLMRN" 
 target="_blank" rel="noopener noreferrer">
-<p align="center" width="100%">
-<img src="./images/image515.png?raw=true"
+<img class="displayed"
+  src="./images/image515.png?raw=true"
   style="width:65%"
   title="CodePen: working with remote data using XhR2 API"
   alt="CodePen: working with remote data using XhR2 API." /></a>
@@ -21651,8 +21650,8 @@ not detailed in this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~ 516. CodePen: get remote list using fetch api (490) ~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/xgoZdg" 
 target="_blank" rel="noopener noreferrer">
-<p align="center" width="100%">
-<img src="./images/image516.png?raw=true"
+<img class="displayed"
+  src="./images/image516.png?raw=true"
   style="width:65%"
   title="CodePen: get remote list using fetch API"
   alt="CodePen: get remote list using fetch API." /></a>
@@ -21695,12 +21694,13 @@ database for JavaScript objects.</p>
 <h4>The Web Storage API (localStorage, sessionStorage)</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 517. cross-browser client-side storage (491) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="left" width="100%">
-<img src="./images/image517.jpeg?raw=true"
+<div style="text-align:center;">
+<img class="displayed"
+  src="./images/image517.jpeg?raw=true"
   style="width:20%"
   title="Cross-Browser client-side storage"
   alt="Cross-Browser client-side storage." />
-</p>
+</div>
 
 <p>The Web storage API (see the <a href="https://www.w3.org/TR/webstorage/" 
 target="_blank" rel="noopener noreferrer">
@@ -21720,12 +21720,11 @@ change &quot;local&quot; to &quot;session&quot; and it should work (this time w
 session lifetime)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 518. table: key/value pairs (491) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="left" width="100%">
-<img src="./images/image518.png?raw=true"
+<img class="displayed"
+  src="./images/image518.png?raw=true"
   style="width:20%"
   title="Table of key/value pairs"
   alt="Table of key/value pairs." />
-</p>
 <p>Simple key-value stores, one per domain (following the 
 <a href="https://en.wikipedia.org/wiki/Same-origin_policy" 
 target="_blank" rel="noopener noreferrer">same origin policy</a>)!</p>
@@ -21762,20 +21761,18 @@ browser dev. tools, we can check what has been stored in
 the localStorage for this domain:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 519. example: localStorage (492) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image519.jpeg?raw=true"
+<img class="displayed"
+  src="./images/image519.jpeg?raw=true"
   style="width:65%"
   title="Example: localStorage"
   alt="Example: localStorage." />
-</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 520. devtools can be used to show localStorage (493) ~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image520.jpeg?raw=true"
+<img class="displayed"
+  src="./images/image520.jpeg?raw=true"
   style="width:65%"
   title="Devtools can be used to show localStorage"
   alt="Devtools can be used to show localStorage." />
-</p>
 
 <p>Differences with cookies?</p>
 
@@ -22007,8 +22004,8 @@ consequently: it&apos;s a class method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 521. codepen: using new class method (521) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/MovoBz" 
 target="_blank" rel="noopener noreferrer">
-<p align="center" width="100%">
-<img src="./images/image521.png?raw=true"
+<img class="displayed"
+  src="./images/image521.png?raw=true"
   style="width:65%"
   title="CodePen: using new class method"
   alt="CodePen: using new class method." /></a>
@@ -22067,32 +22064,29 @@ as a string, we convert it to the JSON format using the
 <p>In Google Chrome, click the Application tab, then LocalStorage:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 522. google chrome local storage inspector (499) ~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image522.jpeg?raw=true"
+<img class="displayed"
+  src="./images/image522.jpeg?raw=true"
   style="width:65%"
   title="Google Chrome local storage inspector"
   alt="Google Chrome local storage inspector." />
-</p>
 <p>In Firefox, you first need to activate the storage view like this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 523. firefox active storage view in devtools (499) ~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image523.jpeg?raw=true"
+<img class="displayed"
+  src="./images/image523.jpeg?raw=true"
   style="width:65%"
   title="Firefox active storage view in devtools"
   alt="Firefox active storage view in devtools." />
-</p>
 
 <p>You will see the list of contacts when you click on the newly appeared
 &quot;Storage&quot; tab:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 524. console.log storage inspector (500) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image524.jpeg?raw=true"
+<img class="displayed"
+  src="./images/image524.jpeg?raw=true"
   style="width:65%"
   title="console.log storage inspector"
   alt="console.log storage inspector." />
-</p>
 
 <h5>Restoring the list of contacts</h5>
 
@@ -22168,8 +22162,8 @@ and adapt it to our needs:</p>
 <!--~~~~~~~~~~ 525. codepen: XhR2 get a remote list of users' names and emails (525) ~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/vmLMRN" 
 target="_blank" rel="noopener noreferrer">
-<p align="center" width="100%">
-<img src="./images/image525.png?raw=true"
+<img class="displayed"
+  src="./images/image525.png?raw=true"
   style="width:50%"
   title="CodePen: table list of contacts"
   alt="CodePen: table list of contacts." /></a>
@@ -22272,8 +22266,8 @@ CodePen:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 526. codepen: table list of contacts (527) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/yXoVdp" 
 target="_blank" rel="noopener noreferrer">
-<p align="center" width="100%">
-<img src="./images/image526.png?raw=true"
+<img class="displayed"
+  src="./images/image526.png?raw=true"
   style="width:50%"
   title="CodePen: table list of contacts"
   alt="CodePen: table list of contacts." /></a>
@@ -22370,13 +22364,12 @@ is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 527. codepen: add new contact and list (530) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/awypEg" 
 target="_blank" rel="noopener noreferrer">
-<p align="center" width="100%">
-<img src="./images/image527.png?raw=true"
+<img class="displayed"
+  src="./images/image527.png?raw=true"
   style="width:50%"
   title="CodePen: Add new contact and list in table"
   alt="CodePen: Add new contact and list in table." /></a>
-<h6>
-<a href="https://codepen.io/w3devcampus/pen/awypEg" 
+<h6><a href="https://codepen.io/w3devcampus/pen/awypEg" 
 target="_blank" rel="noopener noreferrer">CodePen: add new contacts to table</a>.</h6>
 
 <p>Note that we&apos;ve also added some buttons for playing with the load/save
