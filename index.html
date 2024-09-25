@@ -21979,15 +21979,15 @@ new sort() method we added to the ContactManager class:</p>
 8.    <b>this.listOfContacts.sort(ContactManager.compareByName);</b>
 9.  }
 10. 
-11. <b>// class method for comparing two contacts by name</b>
+11. <b>// <i>class method for comparing two contacts by name</i></b>
 12. <b>static compareByName</b>(c1, c2) {
-13.   // JavaScript has built in capabilities for comparing strings
-14.   // in alphabetical order
+13.   // <i>JavaScript has built in capabilities for comparing strings</i>
+14.   // <i>in alphabetical order</i>
 15.   if (c1.name &lt; c2.name)
 16.     return -1;
 17.   if (c1.name &gt; c2.name)
 18.     return 1;
-19.   return 0; // c1.name = c2.name
+19.   return 0; // <i>c1.name = c2.name</i>
 20. }</pre>
 
 </details>
@@ -22035,14 +22035,14 @@ contacts in JSON:</h5>
 
 <pre>1.  class ContactManager {
 2.    constructor() {
-3.      // when we build the contact manager, it
-4.      // has an empty list of contacts
+3.      // <i>when we build the contact manager, it</i>
+4.      // <i>has an empty list of contacts</i>
 5.      this.listOfContacts = &lbrack;&rbrack;;
 6.    }
 7.    ...
 8.    save() {
-9.      // We can only save strings in local storage. So, let&apos;s convert
-10.     // our array of contacts to JSON</b>
+9.      // <i>We can only save strings in local storage. So, let&apos;s convert</i>
+10.     // <i>our array of contacts to JSON</i>
 11.     localStorage.contacts = JSON.stringify(this.listOfContacts);
 12.   }
 13. }</pre>
@@ -22395,7 +22395,7 @@ features we implemented in the previous page:</p>
   <li>Add an extra column with a trash bin icon in it (you can use
    this <a href="https://i.imgur.com/yHyDPio.png" 
    target="_blank" rel="noopener noreferrer">one</a><img src="./images/image528.png" 
-   style="width:.33in height:.33in" alt="Trashbin icon">, do right click and &quot;save link
+   style="width:.33in; height:.33in;" alt="Trashbin icon">, do right click and &quot;save link
    as&quot;). When you click on this icon, delete the contact.<br>
    <br>
    <p><i>Hint</i>: find a way to get the index of the current row in the
