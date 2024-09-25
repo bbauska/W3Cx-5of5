@@ -14573,7 +14573,7 @@ You can add an event listener on the video element "<b>ontimeupdate =
 isplayTimeWhileVideoIsPlaying()</b>".</p>
 
 <p>Ok, like this: while the video is being played, this method will be
-called and we can here, for example, display the <b>currentTime&#133;
+called and we can here, for example, display the <b>currentTime...
 console.log()</b>. Let&apos;s me open the console, play the video and you see
 the current time. You can make a test: if "vid. currentTime greater than
 5 seconds&quot;, then we pause the video.</p>
@@ -15005,13 +15005,13 @@ CodePen: example events for the video element</a>.</h6>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &#133;
+<pre>1.  ...
 2.  
 3.  vid.addEventListener(&apos;error&apos;, function(evt) {
 4.    logEvent(evt,&apos;red&apos;);
 5.  }, false);
 6.  
-7.  &#133;
+7.  ...
 8.  
 9.  function logEvent(evt, color) {
 10.   switch (evt.type) {
@@ -15040,7 +15040,7 @@ CodePen: example events for the video element</a>.</h6>
 32.     }
 33.     break;
 34.   }
-35.   &#133;
+35.   ...
 36. }</pre>
 
 </details>
@@ -15807,7 +15807,7 @@ And then from JavaScript, you can use it.</p>
   title="Play sound sample 1, #2"
   alt="Play sound sample 1, #2." />
 
-<p>Here we&apos;ve got a button that will play a very short sound&#133; you see.
+<p>Here we&apos;ve got a button that will play a very short sound... you see.
 Let&apos;s look at the way the play sound is implemented.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 432. play sound sample 1, #3 (379) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -15827,7 +15827,7 @@ referring to, here, has been loaded when the page was ready.</p>
   title="Play sound sample 1, #4"
   alt="Play sound sample 1, #4." />
 
-<p>So "window.onload = init;"&#133; You saw that many times now. From then, we
+<p>So "window.onload = init;"... You saw that many times now. From then, we
 use the Howl library like this. "new Howl": you indicate the URL of your
 audio file and you&apos;ve got a callback. A callback is a function that
 will be executed when the sound has been loaded and decoded. What we do
@@ -15924,10 +15924,10 @@ CodePen: load sound sample using howlerjs</a>.</h6>
 </details>
 
 <p>The important part is located in <b><i>lines 5-9</i></b>: the Howler library is to
-be used like this: sound = new Howl({&#133;}); The part between the { and
+be used like this: sound = new Howl({...}); The part between the { and
 } is an object. The url&apos;s property is an array with at least one
 element: the URL of the sound we want to use, located on remote servers.
-The call to new Howl({&#133;}); will start downloading the sound in
+The call to new Howl({...}); will start downloading the sound in
 background, then, once it has loaded, it will &quot;decode it&quot; (i.e., an
 mp3 file will use some cpu to be decoded on the fly and played, whereas
 a decoded sound will use nearly zero cpu, which makes it good for
@@ -16114,7 +16114,7 @@ callback will be executed, and will get a single parameter: the assets ready to
 be used!</p>
 
 <p>Example (to hear the music and sound sample, there are two lines to
-uncomment in the <b>startGame(&#133;)</b> function):</p>
+uncomment in the <b>startGame(...)</b> function):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 437. codepen: load music and sound sample (389) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -16485,7 +16485,7 @@ and name are very very similar to arrays because arrays are objects too.</p>
   alt="Brackets and '.' operator." />
 
 <p>If I use the name of the property with the brackets notation, look at
-that: darkVadorAsAnObject&lbrack;&rbrack;, the name of the property (job) then&#133;
+that: darkVadorAsAnObject&lbrack;&rbrack;, the name of the property (job) then...
 you&apos;ve got the exact same result as if you're using the &apos;.&apos; operator.
 In JavaScript objects are arrays whose indexes are the property names.
 They are very very similar.</p>
@@ -16497,7 +16497,7 @@ They are very very similar.</p>
   title="Book.title, '.' notation"
   alt="Book.title, '.' notation." />
 
-<p>Look at this object named "book": book.title &#133; Le Petit Prince and
+<p>Look at this object named "book": book.title ... Le Petit Prince and
 book&lbrack;&apos;title&apos;&rbrack; will give exactly the same result. Why would you use
 this notation for accessing properties?</p>
 
@@ -16542,7 +16542,7 @@ except that in that case the name of the property is the value of the
   title="Object can contain object"
   alt="Object can contain object." />
 
-<p>I type key ="name" &#133; "book2" that is an object with the name. I can
+<p>I type key ="name" ... "book2" that is an object with the name. I can
 type &quot;book2.key3", it&apos;s exactly the same as typing "book2.name". You
 can also have objects that contain objects. The "book2" object, here,
 has the property name author that in turn is an object. It uses brackets
@@ -16677,7 +16677,7 @@ nothing at all:</p>
 <h4>Another classic case where the name of a property is in a variable</h4>
 
 <p>In this case it is necessary  to use the syntax with &apos;&lbrack;&apos; 
-and &apos;&rbrack;&apos; &#133;</p>
+and &apos;&rbrack;&apos; ...</p>
 
 <h5>Example:</h5>
 
@@ -16794,7 +16794,7 @@ describeYourself method that will make darkVador say: "I&apos;m a human and
 I&apos;m a villain in a series of movies". You can see that from inside the
 method describeYourself, we need to access the value of properties.</p>
 
-<p>For this, we used the "this" keyword&#133; "this.race" means the race
+<p>For this, we used the "this" keyword... "this.race" means the race
 property of the object darkVador, "this.job" means the job property of
 the object darkVador. If we omit "this." before the name of the
 properties, we are referring to a variable, a global variable for
@@ -16817,7 +16817,7 @@ nbsp;nbsp;nbsp;nbsp;nbsp;
   alt="test, darkVador describeYourself." />
 
 <p>You see that it displays "I&apos;m a human and I&apos;m a villain " blah blah
-blah&#133;And "human" and "villain" are the values of the "race" and the
+blah...And "human" and "villain" are the values of the "race" and the
 "job" properties inside the object. "this.race" was used for displaying
 this value. You can also use the "this" keyword for calling a method
 from another method.</p>
@@ -17120,7 +17120,7 @@ access x, y, color, width and height properties, we use "this.x",
 canvas as a parameter.</p>
 <!-- image goes here -->
 <p>Like this, we can use the object in another project and don&apos;t rely on a
-global variable&#133;like we did before in the previous example, the
+global variable...like we did before in the previous example, the
 context was a global variable, here.
 By passing it as a parameter, if the global variable has a different
 name, we just have to pass it as a parameter.
@@ -17246,7 +17246,7 @@ CodePen: example Dark Vador in a method</a>.</h6>
 9.      &quot; in a series of movies!&quot; + this.breathe();
 10.   },
 11.   breathe() {
-12.     return &quot;&#133;..shhhhhhhhh&#133;..&quot;;
+12.     return &quot;.....shhhhhhhhh.....&quot;;
 13.   }
 14. }
 15. 
@@ -17341,17 +17341,17 @@ Normally, &quot;this&quot; is the current object when you use it inside an
 &quot;object literal&quot; (like in <a href="https://codepen.io/w3devcampus/pen/JWqgGZ" 
 target="_blank" rel="noopener noreferrer">this CodePen example from the course</a>).</p>
 
-<p>But&#133; we also met &quot;this&quot; in event listeners (see in 
+<p>But... we also met &quot;this&quot; in event listeners (see in 
 <a href="https://codepen.io/w3devcampus/pen/gmygzV?editors=1000" 
 target="_blank" rel="noopener noreferrer">this example from the course</a>). 
-Look at the onchange = &quot;changePageBackgroundColor(<b>this.value</b>);&quot; &#133;</p>
+Look at the onchange = &quot;changePageBackgroundColor(<b>this.value</b>);&quot; ...</p>
 
 <p>In fact, the &quot;this&quot; keyword can be confusing in JavaScript. The key
 thing to remember is that <b>it is bound to the calling object when the
 function is called</b>, not when the function is created.</p>
 
 <p>And in the case of event listeners, the callbacks are called by the
-browser&#133; You can conclude that it&apos;s a good habit not to have event
+browser... You can conclude that it&apos;s a good habit not to have event
 listeners in your objects: just use methods in which there is no
 confusion about &quot;this&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17418,7 +17418,7 @@ ES5&apos;s function constructors, and with modern JavaScript&apos;s classes!</
 <p>So far, in this course, we&apos;ve only used singleton objects: objects that
 only occur once. We&apos;ve got one player in the game, we&apos;ve got one 
 Dark Vador in the examples with the Star Wars heroes. But imagine Luke Skywalker, 
-Ian Solo and Dark Vador&#133; what do they have in common?</p>
+Ian Solo and Dark Vador... what do they have in common?</p>
 
 <p>They&apos;re all Star Wars heroes, they all have a name, they all belong to
 one side, the good or the bad people, the rebels or the empire, etc.
@@ -17471,7 +17471,7 @@ function, preceded by the keyword &quot;new&quot;.</p>
   title="Build an object"
   alt="Build an object." />
 
-<p>If we open the console and look at this object&#133; you see that we built
+<p>If we open the console and look at this object... you see that we built
 an object. And where it&apos;s interesting? It&apos;s when you create multiple 
 objects.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17482,14 +17482,14 @@ objects.</p>
   title="'this' objects and methods"
   alt="'this' objects and methods." />
 
-<p>If you look at these objects, &#133; dark &#133;, we created multiple objects
+<p>If you look at these objects, ... dark ..., we created multiple objects
 from the same template. Of course, we can also add methods in this object.</p>
 
 <p>And the syntax is also to declare the name of the method preceded by
-&quot;this": this.describeYourself =&#133; and then the body of the function.
+&quot;this": this.describeYourself =... and then the body of the function.
 This is a property defined in the class Hero. First, we can check that the method 
-has been added to each object&#133;so, Ian Solo&#133; you can see the method here: 
-&quot;describeYourself&quot;&#133; you can see the body of the method. Luke Skywalker 
+has been added to each object...so, Ian Solo... you can see the method here: 
+&quot;describeYourself&quot;... you can see the body of the method. Luke Skywalker 
 has the same method because it&apos;s &quot;an instance of the same class&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 468d. define & assign name and side (425) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -17581,7 +17581,7 @@ The syntax is the same as for creating a function, except that:</p>
 
 <p>In a constructor function named &quot;Hero&quot;, you will find properties
     declared like this: this.name this.side; and methods declared like
-    this: this.speak = function() {&#133;}</p>
+    this: this.speak = function() {...}</p>
 
 <ol start="5">
   <li><b>Very often some properties are initialized using the constructor
@@ -17595,7 +17595,7 @@ The syntax is the same as for creating a function, except that:</p>
 
 <pre>1. function Hero(name) {
 2.   <b>this.name = name;</b>
-3.   &#133;
+3.   ...
 4. }</pre>
 
 <h5>Full interactive example that uses a constructor function</h5>
@@ -17728,7 +17728,7 @@ classes. Here, we will able to call "darkVador.speak()" to call this method.</p>
 
 <p>And inside the method, you will still use "this" keyword for accessing
 internal properties of the object of for calling internal methods.
-If I had a method, "anotherMethod" here. Blah blah blah &#133; something.
+If I had a method, "anotherMethod" here. Blah blah blah ... something.
 I would call it using "this.anotherMethod".
 In this aspect, it&apos;s very similar to what we saw with constructor
 functions and JavaScript objects with the JavaScript 5 syntax.
@@ -17766,7 +17766,7 @@ passed to the constructor.</p>
 5", you see it&apos;s completely similar.
 Well, in this example, we had a method describe yourself, but it&apos;s
 really the same thing behind the scene, just a syntactic sugar for
-making&#133; defining templates for building object much more easier than
+making... defining templates for building object much more easier than
 before. I recommend to use the class syntax from ES6, it&apos;s supported by all
 modern browsers.</p>
 
@@ -17806,7 +17806,7 @@ subject of a future &quot; JavaScript advanced&quot; course.</p>
 <ul>
   <li><b>A method is simply defined by its name followed by its
     parameters (we no more use the keyword &quot;function&quot;)</b>
-    Example: speak() {&#133;} in the source code below.</li>
+    Example: speak() {...} in the source code below.</li>
 </ul>
 
 <p>Here is the new version of the Hero &quot;template&quot;, this time with the ES6
@@ -17885,11 +17885,11 @@ has been declared:</p>
 
 <pre>1.  var p = new Rectangle(); // ReferenceError
 2.  
-3.  class Rectangle {&#133;}</pre>
+3.  class Rectangle {...}</pre>
 
 <p>Correct version =&gt;</p>
 
-<pre>1.  class Rectangle {&#133;}
+<pre>1.  class Rectangle {...}
 2.  
 3.  var p = new Rectangle(); // WORKS !</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -18011,7 +18011,7 @@ only use "Hero.something" 24</p>
 in the console and see that it returns 0. But why it&apos;s interesting, is
 that I can use this class property inside a class itself. If in the
 constructor, I increment the "numberofHeroesCreated", the property of
-the class Hero. And if I build 0 instance, &#133;</p>
+the class Hero. And if I build 0 instance, ...</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 473d. static method (437) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -18031,7 +18031,7 @@ If I&apos;m just uncommenting another one, here. The return value is 3.</p>
   title="Example method 'this'"
   alt="Example method 'this'." />
 <p>It&apos;s important to use this method, using the name of the class because
-it corresponds to a property of this class, to characteristics&#133;
+it corresponds to a property of this class, to characteristics...
 &quot;class Hero. How many heroes have you created?&quot;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 473f. JS: calculate static distance (a, b) (438) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -18070,12 +18070,12 @@ idea to put it inside. And you precede them by the "static" keyword.</p>
   alt="Special method using name of class: numberHeroesCreated." />
 <p>Because sometimes, you can call such methods without using any instance.
 For example, if I want a method that will work on the
-"numberHeroesCreated": static getHowManyHeroesYouCreated()&#133;
+"numberHeroesCreated": static getHowManyHeroesYouCreated()...
 HowManyHeroesYouCreated. And here, it makes sense that it should be a
 special method because, instead of using an instance name, I will use
 the name of the class.</p>
 
-<p>getHowManyHeroesYouCreated()&#133; 0!</p>
+<p>getHowManyHeroesYouCreated()... 0!</p>
 
 <!-- end transcript 4.3.6 -->
 
@@ -18164,7 +18164,7 @@ using this one for beginners.</p>
 11.     const dx = a.x - b.x;
 12.     const dy = a.y - b.y;
 13. 
-14.     return Math.sqrt(dx&#133;dx + dy&#133;dy);
+14.     return Math.sqrt(dx...dx + dy...dy);
 15.   }
 16. }
 17. // static property definition is necessarily outside of the class with ES6
@@ -18243,7 +18243,7 @@ property they define.</p>
 
 </details>
 
-<p>Notice that when you declare get familyName() {&#133;} for example, you
+<p>Notice that when you declare get familyName() {...} for example, you
 define implicitly a property whose name is &quot;familyName&quot; and that will
 be accessible using object.familyName, where object is an instance of
 the class. See <b><i>lines 22-25</i></b> in the example above. Displaying the value
