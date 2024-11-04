@@ -267,7 +267,7 @@
 	<h5><a href="#ch5-5-4">5.5.4 Use a form to enter new contacts (part 4)</a></h5>  
 	<h5><a href="#ch5-5-5">5.5.5 Discussion and projects</a></h5>  
 <!--  <h4><a href="#ch5-6">5.6 Where to from here?</a></h4> -->
-	<h5><a href="#ch5-6-1">5.6.1 Where now?</a></h5>
+<!--	<h5><a href="#ch5-6-1">5.6.1 Where now?</a></h5> -->
 </blockquote>
 
 <a href="https://github.com/bbauska/W3Cx-5of5-Introduction-JavaScript.git" 
@@ -21666,12 +21666,12 @@ CodePen: Get remote list of users' names &amp; emails using fetch API</a>.</h6>
 3.  
 4.    fetch(queryURL)
 5.    .then(function(response) {
-6.      // response is a json string,
-7.      // convert it to a pure JavaScript object
+6.      // <i>response is a json string,</i>
+7.      // <i>convert it to a pure JavaScript object.</i>
 8.      return response.json();
 9.    })
 10.   .then(function(users) {
-11.     // users is a JavaScript object here
+11.     // <i>users is a JavaScript object here.</i>
 12.     displayUsersAsATable(users)
 13.   })
 14.   .catch(function(error) {
@@ -21736,14 +21736,14 @@ applies to sessionStorage.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  // Using localStorage
+<pre>1.  // <i>Using localStorage.</i>
 2.  
-3.  // store data
+3.  // <i>Store data.</i>
 4.  localStorage.lastName = &quot;Bunny&quot;;
 5.  localStorage.firstName = &quot;Bugs&quot;;
 6.  localStorage.location = &quot;Earth&quot;;
 7.  
-8.  // retrieve data
+8.  // <i>Retrieve data.</i>
 9.  var lastName = localStorage.lastName;
 10. var firstName = localStorage.firstName;
 11. var location = localStorage.location;</pre>
@@ -21762,6 +21762,7 @@ the localStorage for this domain:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 519. example: localStorage (492) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image519.jpeg?raw=true"
+  loading="lazy"
   style="width:65%"
   title="Example: localStorage"
   alt="Example: localStorage." />
@@ -21769,22 +21770,21 @@ the localStorage for this domain:</p>
 <!--~~~~~~~~~~~~~~~~~~ 520. devtools can be used to show localStorage (493) ~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image520.jpeg?raw=true"
+  loading="lazy"
   style="width:65%"
   title="Devtools can be used to show localStorage"
   alt="Devtools can be used to show localStorage." />
 
 <p>Differences with cookies?</p>
 
-<p>Cookies are also a popular way to store key-value pairs. Web Storage,
-however, is a more powerful technique than cookies. The main difference
-is in size limits: cookies are limited to a few KBytes whereas Web
-Storage may extend to several MBytes. Also, cookies generate additional
-HTTP request traffic (whether to request a Web page, an image, a
+<p>Cookies are also a popular way to store key-value pairs. Web Storage, however, is a 
+more powerful technique than cookies. The main difference is in size limits: cookies are 
+limited to a few KBytes whereas Web Storage may extend to several MBytes. Also, cookies 
+generate additional HTTP request traffic (whether to request a Web page, an image, a
 stylesheet, a JavaScript file, etc.).</p>
 
-<p>Objects managed by Web Storage are no longer carried on the network and
-HTTP, and are easily accessible (read, change and delete) from
-JavaScript, using the Web Storage API.</p>
+<p>Objects managed by Web Storage are no longer carried on the network and HTTP, and are 
+easily accessible (read, change and delete) from JavaScript, using the Web Storage API.</p>
 
 <p>External resources</p>
 
@@ -21823,7 +21823,7 @@ JavaScript, using the Web Storage API.</p>
 	  target="_blank" rel="noopener noreferrer">monitoring uploads and downloads</a>).</li>
 </ul>
 
-<h5>Optional projects</h5>
+<p>Optional projects</p>
 
 <ul>
   <li>Please display the data <a href="https://gist.githubusercontent.com/heiswayi/7fde241975ed8a80535a/raw/ff1caaeaf62bd6740ab7cafcd61f1215de173379/datatables-data.json"
@@ -21852,54 +21852,53 @@ and the HTML table JavaScript API.</p>
     features (build a better HTML table, add new sorting options, etc.)</li>
 </ul>
 
-<p>Let&apos;s start with a simple skeleton (no GUI), beginning with
-the Contact class</p>
+<p>Let&apos;s start with a simple skeleton (no GUI), beginning with the Contact class.</p>
 
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  class Contact {
-2.    constructor(name, email) {
-3.      this.name = name;
-4.      this.email = email;
-5.    }
-6.  }</pre>
+<pre>1. class Contact {
+2.   constructor(name, email) {
+3.     this.name = name;
+4.     this.email = email;
+5.   }
+6. }</pre>
 
 </details>
 
 <p>As you can see, a contact is just a name and an email. We will use the
 above class like this:</p>
 
-<pre>1.  var c1 = new Contact(&quot;Jimi Hendrix&quot;, &quot;jimi@rip.com&quot;);
-2.  var c2 = new Contact(&quot;Robert
-    Fripp&quot;, &quot;robert.fripp@kingcrimson.com&quot;);</pre>
+<pre>1. var c1 = new Contact(&quot;Jimi Hendrix&quot;, &quot;jimi@rip.com&quot;);
+2. var c2 = new Contact(&quot;Robert
+   Fripp&quot;, &quot;robert.fripp@kingcrimson.com&quot;);</pre>
 
 <p>Then you can print the properties of contact c1 or c2 using for
 example console.log(c1.name), console.log(c2.email), etc.</p>
 
-<p>A minimal ContactManager class</p>
+<p>A minimal ContactManager class:</p>
 
 <details>
   <summary>Source Code:</summary>
 
 <pre>1.  class ContactManager {
 2.    constructor() {
-3.      // when we build the contact manager, it
-4.      // has an empty list of contacts
+3.      // <i>When we build the contact manager, it</i>
+4.      // <i>has an empty list of contacts.</i>
 5.      this.listOfContacts = &lbrack;&rbrack;;
 6.    }
 7.    add(contact) {
 8.      this.listOfContacts.push(contact);
 9.    }
 10.   remove(contact) {
-11.     // we iterate on the list of contacts until we find the contact
-12.     // passed as a parameter (we say that they are equal if emails match)
+11.     // <i>We iterate on the list of contacts until we find the contact</i>
+12.     // <i>passed as a parameter (we say that they are equal if emails match)</i>
 13.     for(let i = 0; i &lt; this.listOfContacts.length; i++) {
 14.       var c = this.listOfContacts&lbrack;i&rbrack;;
 15.       if(c.email === contact.email) {
-16.         // remove the contact at index i
+16.         // <i>Remove the contact at index i.</i>
 17.         this.listOfContacts.splice(i, 1);
-18.         // stop/exit the loop
+18.         // <i>stop/exit the loop.</i>
 19.         break;
 20.       }
 21.     };
@@ -21969,12 +21968,12 @@ new sort() method we added to the ContactManager class:</p>
   <summary>Source Code:</summary>
 
 <pre>1.  sort() {
-2.    // As our array contains objects, we need to pass as argument
-3.    // a method that can compare two contacts.
-4.    // we use a class method, which is similar to the distance(p1, p2)
-5.    // method we saw in the ES6 Point class in module 4
-6.    // We always call such methods using the name of the class followed
-7.    // by the dot operator
+2.    // <i>As our array contains objects, we need to pass as argument</i>
+3.    // <i>a method that can compare two contacts.</i>
+4.    // <i>We use a class method, which is similar to the distance(p1, p2)</i>
+5.    // <i>method we saw in the ES6 Point class in module 4.</i>
+6.    // <i>We always call such methods using the name of the class followed</i>
+7.    // <i>by the dot operator.</i>
 8.    <b>this.listOfContacts.sort(ContactManager.compareByName);</b>
 9.  }
 10. 
@@ -22005,6 +22004,7 @@ consequently: it&apos;s a class method.</p>
 target="_blank" rel="noopener noreferrer">
 <img class="displayed"
   src="./images/image521.png?raw=true"
+  loading="lazy"
   style="width:65%"
   title="CodePen: using new class method"
   alt="CodePen: using new class method." /></a>
@@ -22065,6 +22065,7 @@ as a string, we convert it to the JSON format using the
 <!--~~~~~~~~~~~~~~~~~~~~ 522. google chrome local storage inspector (499) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image522.jpeg?raw=true"
+  loading="lazy"
   style="width:65%"
   title="Google Chrome local storage inspector"
   alt="Google Chrome local storage inspector." />
@@ -22073,50 +22074,50 @@ as a string, we convert it to the JSON format using the
 <!--~~~~~~~~~~~~~~~~~~~ 523. firefox active storage view in devtools (499) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image523.jpeg?raw=true"
+  loading="lazy"
   style="width:65%"
   title="Firefox active storage view in devtools"
   alt="Firefox active storage view in devtools." />
 
-<p>You will see the list of contacts when you click on the newly appeared
-&quot;Storage&quot; tab:</p>
+<p>You will see the list of contacts when you click on the newly appeared &quot;Storage&quot; tab:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 524. console.log storage inspector (500) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image524.jpeg?raw=true"
+  loading="lazy"
   style="width:65%"
   title="console.log storage inspector"
   alt="console.log storage inspector." />
 
 <h5>Restoring the list of contacts</h5>
 
-<p>This time, we&apos;ve added a load() method that will check if a list of
-contacts has been saved. If this is the case, it will read it from
-LocalStorage, convert it back from JSON into a JavaScript object.</p>
+<p>This time, we&apos;ve added a load() method that will check if a list of contacts has 
+been saved. If this is the case, it will read it from LocalStorage, convert it back from 
+JSON into a JavaScript object.</p>
 
-<p>In order to test this, in the following CodePen, we first save the list,
-then we empty the list in memory (setting the array to an empty array),
-print the list of contacts (that displays a message &quot;LIST EMPTY!&quot;),
-then we load the contacts from LocalStorage and print the list again: it
-has been restored to its previous value.</p>
+<p>In order to test this, in the following CodePen, we first save the list, then we empty 
+the list in memory (setting the array to an empty array), print the list of contacts (that 
+displays a message &quot;LIST EMPTY!&quot;), then we load the contacts from LocalStorage 
+and print the list again: it has been restored to its previous value.</p>
 
 <details>
   <summary>Source Code:</summary>
 
 <pre>1.  class ContactManager {
 2.    constructor() {
-3.      // when we build the contact manager, it
-4.      // has an empty list of contacts
+3.      // <i>When we build the contact manager, it</i>
+4.      // <i>has an empty list of contacts.</i>
 5.      this.listOfContacts = &lbrack;&rbrack;;
 6.    }
-7.    // Will erase all contacts
+7.    // <i>Will erase all contacts</i>
 8.    empty() {
 9.      this.listOfContacts = &lbrack;&rbrack;;
 10.   }
 11.   ...
 12.   load() {
 13.     if(localStorage.contacts !== undefined) {
-14.       // the array of contacts is saved in JSON, let&apos;s convert
-15.       // it back to a real JavaScript object.
+14.       // <i>The array of contacts is saved in JSON, let&apos;s convert</i>
+15.       // <i>it back to a real JavaScript object.</i>
 16.       this.listOfContacts = JSON.parse(localStorage.contacts);
 17.     }
 18.   }
@@ -22159,11 +22160,11 @@ previous section of the course, the one about working with remote data),
 and adapt it to our needs:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 525. codepen: XhR2 get a remote list of users' names and emails (525) ~~~~~~~~~~~-->
-<a href="https://codepen.io/w3devcampus/pen/vmLMRN" 
-target="_blank" rel="noopener noreferrer">
+<a href="https://codepen.io/w3devcampus/pen/vmLMRN" target="_blank" rel="noopener noreferrer">
 <img class="displayed"
   src="./images/image525.png?raw=true"
-  style="width:50%"
+  loading="lazy"
+  style="width:30%"
   title="CodePen: table list of contacts"
   alt="CodePen: table list of contacts." /></a>
 <h6><a href="https://codepen.io/w3devcampus/pen/vmLMRN" 
@@ -22209,9 +22210,8 @@ this):</p>
 
 </details>
 
-<p>And here is the method we add in our ContactManager class; an
-adaptation of the function displayUsersAsATable(users) from the previous
-CodePen:</p>
+<p>And here is the method we add in our ContactManager class; an adaptation of the 
+function displayUsersAsATable(users) from the previous CodePen:</p>
 
 <details>
   <summary>Source Code:</summary>
@@ -22219,27 +22219,27 @@ CodePen:</p>
 <pre>1.  class ContactManager {
 2.    ...
 3.    displayContactsAsATable(idOfContainer) {
-4.      // to empty the container that contains the results
+4.      // <i>to empty the container that contains the results</i>
 5.      let container = document.querySelector(&quot;#&quot; + idOfContainer);
 6.      container.innerHTML = &quot;&quot;;
 7.   
 8.      if(this.listOfContacts.length === 0) {
 9.        container.innerHTML = &quot;&lt;p&gt;No contacts to display!&lt;/p&gt;&quot;;
-10.       // stops the execution of this method
+10.       // <i>stops the execution of this method</i>
 11.       return;
 12.     }
-13.     // creates and populates the table with users
+13.     // <i>creates and populates the table with users</i>
 14.     let table = document.createElement(&quot;table&quot;);
 15. 
-16.     // iterates on the array of users
+16.     // <i>iterates on the array of users</i>
 17.     this.listOfContacts.forEach(function(currentContact) {
-18.       // creates a row
+18.       // <i>creates a row</i>
 19.       let row = table.insertRow();
 20. 
 21.       row.innerHTML = &quot;&lt;td&gt;&quot; + currentContact.name + &quot;&lt;/td&gt;&quot;
 22.                     + &quot;&lt;td&gt;&quot; + currentContact.email + &quot;&lt;/td&gt;&quot;
 23.     });
-24.     // adds the table to the div
+24.     // <i>adds the table to the div</i>
 25.     container.appendChild(table);
 26.   }
 27. }</pre>
@@ -22252,7 +22252,7 @@ CodePen:</p>
   <li><b><i>Line 3</i></b>: the method displayContactsAsATable takes as a parameter
     the id of the HTML element in which the table will be inserted after
     being built. This id is used by the querySelector call at <b><i>line 5</i></b>.</li>
-  <li><b><i>Lines 9-13</i></b>: if the list of contacts is empty, we just return, but
+  <li><b><i>Lines 8-12</i></b>: if the list of contacts is empty, we just return, but
     first we display in the HTML container a message: &quot;No contact to
     display!&quot;</li>
   <li><b><i>Lines 16-25</i></b>: we create a table, and for each contact we insert and
@@ -22267,6 +22267,7 @@ CodePen:</p>
 target="_blank" rel="noopener noreferrer">
 <img class="displayed"
   src="./images/image526.png?raw=true"
+  loading="lazy"
   style="width:50%"
   title="CodePen: table list of contacts"
   alt="CodePen: table list of contacts." /></a>
@@ -22349,12 +22350,12 @@ is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
 <h5>Explanations:</h5>
 
 <ul>
-  <li><b><i>Lines 2-7</i></b>: we get the values entered in the form&apos;s input fields,
+  <li><b><i>Lines 3-6</i></b>: we get the values entered in the form&apos;s input fields,
     build a new contact and add it to the contact list</li>
-  <li><b><i>Lines 10-11</i></b>: we reset the content of the input fields (we empty
+  <li><b><i>Lines 8-9</i></b>: we reset the content of the input fields (we empty
     them)</li>
-  <li><b><i>Line 14</i></b>: we display the HTML table with the new added contact</li>
-  <li><b><i>Line 17</i></b>: we return false so that the form will not be submitted.
+  <li><b><i>Line 11</i></b>: we display the HTML table with the new added contact</li>
+  <li><b><i>Line 13</i></b>: we return false so that the form will not be submitted.
     This will prevent the browser from reloading the HTML page.</li>
 </ul>
 
@@ -22365,21 +22366,21 @@ is interesting that we use onclick=&quot;return formSubmitted();&quot;:</p>
 target="_blank" rel="noopener noreferrer">
 <img class="displayed"
   src="./images/image527.png?raw=true"
+  loading="lazy"
   style="width:50%"
   title="CodePen: Add new contact and list in table"
   alt="CodePen: Add new contact and list in table." /></a>
 <h6><a href="https://codepen.io/w3devcampus/pen/awypEg" 
 target="_blank" rel="noopener noreferrer">CodePen: add new contacts to table</a>.</h6>
 
-<p>Note that we&apos;ve also added some buttons for playing with the load/save
-features we implemented in the previous page:</p>
+<p>Note that we&apos;ve also added some buttons for playing with the load/save features we 
+implemented in the previous page:</p>
 
 <ul>
   <li>Add some new contacts to the list using the form,</li>
   <li>Save them by clicking on the save button,</li>
   <li>Empty the list, click the empty button,</li>
-  <li>Reload the list... you can see that contacts have been correctly
-    saved and restored!</li>
+  <li>Reload the list... you can see that contacts have been correctly saved and restored!</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-5">5.5.5 Discussion and projects</h3>
@@ -22390,41 +22391,37 @@ features we implemented in the previous page:</p>
 
 <ul>
   <li>Improve the CSS of the contact manager table.</li>
-  <li>Add more complicated features to the contact manager:</li>
+  <li>Add more complicated features to the contact manager.</li>
   <li>Add an extra column with a trash bin icon in it (you can use
    this <a href="https://i.imgur.com/yHyDPio.png" 
    target="_blank" rel="noopener noreferrer">one</a><img src="./images/image528.png" 
-   style="width:.33in; height:.33in;" alt="Trashbin icon">, do right click and &quot;save link
+   style="align: left; width:.33in; height:.33in;" alt="Trashbin icon">, do right click and &quot;save link
    as&quot;). When you click on this icon, delete the contact.<br>
    <br>
    <p><i>Hint</i>: find a way to get the index of the current row in the
    click event listener, so that you can easily delete the contact
    from the array. You can add a &quot;HTML data attribute&quot;
    using trashbin.dataset.contactId = 3; for example, when you
-   create the img element of the trash bin, do something like this:</p></li>
-</ul>   
+   create the img element of the trash bin, do something like this:</p>
 
-<pre>let trashbin = document.createElement(&quot;img&quot;);
-trashbin.src = &quot;http://i.imgur.com/yHyDPio.png&quot;;
-trashbin.dataset.contactId = 3; // 3 is the current row index and
-                                // corresponds to contact at 
-                                // index = 3 in the array of contacts</pre>
+  <pre>let trashbin = document.createElement(&quot;img&quot;);
+  trashbin.src = &quot;http://i.imgur.com/yHyDPio.png&quot;;
+  trashbin.dataset.contactId = 3; // <i>3 is the current row index and</i>
+                                  // <i>corresponds to contact at</i>
+                                  // <i>index = 3 in the array of contacts.</i></pre>
 
-<p>It&apos;s like adding a data-contactId attribute to the HTML of
-the img element.<br>
-Then in the event listener, use evt.target.dataset.contactId to get it back.</p>
-
-<ul>
-  <li>Add a search form for searching a contact by name: rebuild the
-    table to display only contacts that match. More difficult:
-    reduce the table as you type!</li>
+  <p>It&apos;s like adding a data-contactId attribute to the HTML of the img element.<br>
+  Then in the event listener, use evt.target.dataset.contactId to get it back.</p>
+  </li>
+  <li>Add a search form for searching a contact by name: rebuild the table to display 
+    only contacts that match. More difficult: reduce the table as you type!</li>
   <li>Improve the CSS of this ugly-looking table! ;-)</li>
   <li>Add a header on the table and try to make the table sortable
-    when you click on the header of one column (e.g., clicking on
-        &quot;email&quot; will sort the table by email).
-  <ul>
-    <li>&lbrack;ADVANCED&rbrack; Using 
-      <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList" 
+    when you click on the header of one column (e.g., clicking on &quot;email&quot; will 
+	sort the table by email).
+    <ul>
+      <li>&lbrack;ADVANCED&rbrack; Using 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList" 
         target="_blank" rel="noopener noreferrer">
         the classList JavaScript interface</a>: elem.classList.add(&quot;name
         of a CSS class&quot;), remove, and toggle methods, allow the user to
@@ -22433,8 +22430,9 @@ Then in the event listener, use evt.target.dataset.contactId to get it back.</
         (<i>tip</i>: use both a label and an input field). When you click, you
         hide the label and show the input field, and when you click outside
         of the input field, you do the reverse. Use the &quot;blur&quot; event to
-        detect when clicks occur outside).</li>
-  </ul>
+        detect when clicks occur outside).
+	  </li>
+    </ul>
   </li>
 </ul>
 </body>
@@ -22448,5 +22446,5 @@ Then in the event listener, use evt.target.dataset.contactId to get it back.</
 <!-- last editted 9/21/2024 10:36am -->
 <!-- last editted 9/22/2024 12:10pm -->
 <!-- last editted 9/24/2024 11:10am -->
-
+<!-- last editted 11/4/2024 2:28pm -->
 </html>
