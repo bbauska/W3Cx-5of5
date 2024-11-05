@@ -30,8 +30,9 @@ details > summary {
   width: 12em;
   background-color: #eee;
   border: none;
-  box-shadow: 3px 3px 4px black;
+  box-shadow: 3px 3px 4px #00008b;  /* dark blue */
   cursor: pointer;
+  margin-left: 15px;
 }
 details > p {
   border-radius: 0 0 10px 10px;
@@ -77,30 +78,6 @@ a:hover {
   color: #006700;  /* d green */
   background-color: #ffff00;  /* yellow */
   text-decoration: underline;
-}
-
-details {
-  font: 14px Bahnschrift, Inter, sans-serif, Calibri;
-  width: 65%;
-}
-details > summary {
-  padding: 2px 6px;
-  width: 15em;  /* 12em */
-  background-color: #eee;  /* very light gray */
-  border: none;
-  box-shadow: 3px 3px 4px #00008b;  /* dark blue */
-  cursor: pointer;
-  margin-left: 15px;  /* px */
-}
-details > p {
-  border-radius: 0 0 10px 10px;
-  background-color: #fff;  /* white */
-  padding: 2px 6px;
-  margin: 0;
-  box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
-}
-details[open] > summary {
-  background-color: yellow;
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
