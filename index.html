@@ -3373,11 +3373,11 @@ cos(x) to our example, with a different color:</p>
 
 <pre>1.  data: &lbrack;
 2.    {
-3.      fn: 'sin(x)',  // First function
+3.      fn: 'sin(x)',  // <i>First function</i>
 4.      color: 'red'
 5.    },
 6.    {
-7.      fn: 'cos(x)',  // Second function
+7.      fn: 'cos(x)',  // <i>Second function</i>
 8.      color: 'blue'
 9.    }
 10. &rbrack;</pre>
@@ -3882,10 +3882,10 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 2.    ...
 3.    &lt;script&gt;
 4.      var x = 2;
-5.      // show a message in the body of the html document
+5.      // <i>show a message in the body of the html document</i>
 6.      document.body.innerHTML += "<b>JavaScript code executed. The value of the variable x is: 
           "+ x + </b>"";
-7.      // also print a message in the devtool console
+7.      // <i>also print a message in the devtool console</i>
 8.      console.log("JavaScript code executed");
 9.    &lt;/script&gt;
 10.   ...
@@ -3925,7 +3925,7 @@ a button is clicked:</p>
 <pre>1.  &lt;head&gt;
 2.    <b>&lt;script&gt;</b>
 3.      <b>function addSomeText() {</b>
-4.        <b>// append a message in the body of the html document</b>
+4.        // <i>append a message in the body of the html document</i>
 5.        <b>document.body.innerHTML += "<br>Function executed!";</b>
 6.      <b>}</b>
 7.    <b>&lt;/script&gt;</b>
@@ -4841,8 +4841,8 @@ a line with &quot;//&quot;!)</p>
 
 <pre>1. var myValue;
 2. myValue = 78;
-3. // With the ES2015 syntax. BTW, lines staring with 
-4. // are comments!
+3. // <i>With the ES2015 syntax. BTW, lines staring with</i>
+4. // <i>are comments!</i>
 5. let myNumber = 1.34;</pre>
 
 <p>At <b>line 2</b>, we are not saying that &quot;myValue&quot; and &quot;78&quot; are the
@@ -4862,7 +4862,7 @@ comma. Always end each instruction line with a semi colon.</p>
 
 <pre>1. var myNumber1, myNumber2 = 34, myNumber3;
 2. 
-3. // Or with the ES2015 syntax, you can also use &quot;let&quot;
+3. // <i>Or with the ES2015 syntax, you can also use &quot;let&quot;</i>
 4. let x = 1, y = 3, z = 12;</pre>
 
 <h4>Try the devtool console - you can type code in there too!</h4>
@@ -4879,7 +4879,7 @@ example, and type myNumber2 in the devtool console, it will display 34
 
 <pre>1.  var myNumber1, myNumber2 = 34, myNumber3;
 2.  undefined
-3.  // Or with the ES6 syntax you can also use "let"
+3.  // <i>Or with the ES6 syntax you can also use "let"</i>
 4.  undefined
 5.  let x=1, y=3, z=12;
 6.  undefined
@@ -4932,7 +4932,7 @@ error message:</p>
 <h4>Example:</h4>
 
 <pre>1.  var myModel;
-2.  // ES2015 syntax
+2.  // <i>ES2015 syntax</i>
 3.  let michelBuffaAge = 51;</pre>
 
 <p>Most JavaScript examples you will find are written in the camelCase
@@ -4964,7 +4964,7 @@ error will be raised if you try to change their value in the future.</p>
 <h4>Example:</h4>
 
 <pre>1.  var TIME_LIMIT;
-2.  // ES2015 Syntax
+2.  // <i>ES2015 Syntax</i>
 3.  const MAX_GRADE = 20;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 159. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (124) ~~~~~~~~~~~-->
@@ -4985,13 +4985,13 @@ work with var):</p>
 
 <pre>1.  let a;
 2.  let thisIsAVariable;
-3.  let and_this_too; // but <b>does not respect the usual naming convention</b>
+3.  let and_this_too; // <i>but does not respect the usual naming convention</i>
 4.  let mix12three;
 5.  // invalid!
-6.  let 2three4five; // <b>can't start with a digit!</b>
+6.  let 2three4five; // <i>can't start with a digit!</i>
 7.  let a = 1
 8.  let v1, v2, v3 = 'hello', v4 = 4, v5;
-9.  // Beware with lowercase / uppercase
+9.  // <i>Beware with lowercase / uppercase</i>
 10. let case_matters = 'lower';
 11. let CASE_MATTERS = 'upper';</pre>
 
@@ -5935,7 +5935,7 @@ both prefixed or suffixed, which have different effects:</p>
 4.  &gt; m;
 5.  0
 6.  
-7.  &gt; // regular use of the + operator
+7.  &gt; // <i>regular use of the + operator</i>
 8.  m = m + 1;
 9.  1
 10.  
@@ -5948,13 +5948,13 @@ both prefixed or suffixed, which have different effects:</p>
 17.  &gt; m;
 18.  2
 19.  
-20.  &gt; // post increment
+20.  &gt; // <i>post increment</i>
 21.  m++;
 22.  2
 23.  
 24.  &gt; m;
 25.  3
-26.  &gt; console.log(m++); // will display 3 but after that m is incremented
+26.  &gt; console.log(m++); // <i>will display 3 but after that m is incremented</i>
 27.  3
 28.  
 29.  &gt; m;
@@ -6013,7 +6013,7 @@ value to a variable at the same time.<br>
 Code below (try it in the devtool console of your browser):</p>
 
 <pre>1.  &gt; var a = 10;
-2.  &gt; a &ast;= 5; // equivalent to a = a &ast; 5;
+2.  &gt; a &ast;= 5; // <i>equivalent to a = a &ast; 5;</i>
 3.  &gt; console.log(a);
 4.  &gt; 50</pre>
 
@@ -6027,22 +6027,22 @@ Code below (try it in the devtool console of your browser):</p>
 <pre>1.  &gt; var a = 5;
 2.  Undefined
 3.  
-4.  &gt; a += 3 // equivalent to a = a + 3;
+4.  &gt; a += 3 // <i>equivalent to a = a + 3;</i>
 5.  8
 6.  
-7.  &gt; a -= 2; // equivalent to a = a - 2;
+7.  &gt; a -= 2; // <i>equivalent to a = a - 2;</i>
 8.  6
 9.  
-10.  &gt; a &ast;= 10; // equivalent to a = a &ast; 10;
+10.  &gt; a &ast;= 10; // <i>equivalent to a = a &ast; 10;</i>
 11.  60
 12.  
-13.  &gt; a /= 5; // equivalent to a = a / 5;
+13.  &gt; a /= 5; // <i>equivalent to a = a / 5;</i>
 14.  12
 15.  
-16.  &gt; a %= 2; // equivalent to a = a % 2;
+16.  &gt; a %= 2; // <i>equivalent to a = a % 2;</i>
 17.  0
 18.  
-19.  &gt; // this is normal, as it is even</pre>
+19.  &gt; // <i>this is normal, as it is even</i></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6071,8 +6071,8 @@ double quotes, or the opposite.</p>
 7.  &gt; 'With single quotes';
 8.  "With single quotes"
 9.  
-10. &gt; "Do not mix double and single quotes'; // here we opened the string
-with double and closed with single quotes
+10. &gt; "Do not mix double and single quotes'; // <i>here we opened the string</i>
+<i>with double and closed with single quotes</i>
 11. VM24763:1 Uncaught SyntaxError: Invalid or unexpected token</pre>
 
 </details>
@@ -6222,16 +6222,16 @@ and it allows you to concatenate strings.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  //the operator (+)
+<pre>1.  // <i>the operator (+)</i>
 2.  var s1 = 'one';
 3.  var s2= 'two';
 4.  var s = s1 + s2;
 5. 
 6.  s;
-7.  // returns 'onetwo'
+7.  // <i>returns 'onetwo'</i>
 8.
 9.  typeof s;
-10. //'string'</pre>
+10. // <i>'string'</i></pre>
 
 </details>
 
@@ -6243,12 +6243,12 @@ strings.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  //the assignment operator (+=)
+<pre>1.  // <i>the assignment operator (+=)</i>
 2.  var s1 = 'one';
 3.  var s2 = 'two';
-4.  s1+= s2; // or directly s1+='two'
+4.  s1+= s2; // <i>or directly s1+='two'</i>
 5.  s1;
-6.  //returns 'onetwo'</pre>
+6.  // <i>returns 'onetwo'</i></pre>
 
 </details>
 
@@ -6259,12 +6259,12 @@ strings.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  //the 'concat' method
+<pre>1.  // <i>the 'concat' method</i>
 2.  var s1 = 'one';
 3.  var s2 ='two';
 4.  var s = s1.concat(s2);
 5.  s;
-6.  //returns 'onetwo'</pre>
+6.  // <i>returns 'onetwo'</i></pre>
 
 </details>
 
@@ -6282,7 +6282,7 @@ strings.</p>
 7. var s3 = 'Hello';
 8. s3.concat(' World' , ' JavaScript' );
 9. 
-10. //s1,s2 and s3 return 'Hello World JavaScript'</pre>
+10. // <i>s1,s2 and s3 return 'Hello World JavaScript'</i></pre>
 
 </details>
 
@@ -6344,11 +6344,11 @@ devtools):</p>
 
 <pre>1.  var n = 1;
 2.  typeof n;
-3.  // returns "number"
+3.  // <i>returns "number"</i>
 4.  n = "" + n;
-5.  // returns "1"
+5.  // <i>returns "1"</i>
 6.  typeof n;
-7.  // returns "string"</pre>
+7.  // <i>returns "string"</i></pre>
 
 </details>
 
@@ -6358,15 +6358,15 @@ devtools):</p>
 examples:</p>
 
 <pre>1.  var s = 'I don't know';
-2.  var s = "I don't know"; // here the &#92; is useless
-3.  var s = "I don't know";  // same result as previous line
-4.  var s = '"Hello", he said.'; // ok, double quotes inside single one will be displayed
-5.  var s = "&#92;"Hello&#92;", he said."; // double quotes inside double quotes need to be escaped</pre>
+2.  var s = "I don't know"; // <i>here the &#92; is useless</i>
+3.  var s = "I don't know";  // <i>same result as previous line</i>
+4.  var s = '"Hello", he said.'; // <i>ok, double quotes inside single one will be displayed</i>
+5.  var s = "&#92;"Hello&#92;", he said."; // <i>double quotes inside double quotes need to be escaped</i></pre>
 
 <h4>Escaping the escape! Use a double &quot;&#92;&quot;</h4>
 
 <pre>1.  var s = "1&#92;&#92;2"; s;
-2.  // returns "1&#92;2"</pre>
+2.  // <i>returns "1&#92;2"</i></pre>
 
 <h4>Special characters starting with &quot;&#92;&quot;</h4>
 
@@ -6377,7 +6377,7 @@ examples:</p>
 
 <pre>1.  var s = '&#92;n1&#92;n2&#92;n3&#92;n';
 2.  s
-3.  // returns "
+3.  // <i>returns "</i>
 4.  1
 5.  2
 6.  3
@@ -6393,7 +6393,7 @@ examples:</p>
 <pre>1.  var s = '1&#92;r2';
 2.  var s = '1&#92;n&#92;r2';
 3.  var s = '1&#92;r&#92;n2';
-4.  // the three previous lines give :
+4.  // <i>the three previous lines give:</i>
 5.  "1
 6.  2"</pre>
 
@@ -6402,7 +6402,7 @@ examples:</p>
 <h5>&quot;&#92;t&quot; for &quot;insert a tabulation&quot;:</h5>
 
 <pre>1.  var s = "1&#92;t2"
-2.  // s is equal to
+2.  // <i>s is equal to</i>
 3.  "1 2"</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-9">1.5.9 Objects, part 1</h3>
@@ -6469,8 +6469,8 @@ detail.</p>
 2.    fullName:'John Doe',
 3.    age: 23,
 4.    city: 'New York',
-5.    ssn: "11-22-33-44" // no comma at the end of the last property
-6.  }                    // declaration</pre>
+5.    ssn: "11-22-33-44" // <i>no comma at the end of the last property</i>
+6.  }                    // <i>declaration</i></pre>
 
 </details>
 
@@ -6560,13 +6560,13 @@ equal to the length of the array.</p>
 4.  <b>6</b>
 5.  <b>daysOfWeek&lbrack;6&rbrack;</b>
 6.  <b>undefined</b>
-7.  <b>// NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is
-    0 // last 6-1 = 5</b>
+7.  // <i>NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is 0</i>
+    // <i>last 6-1 = 5</i>
 8.  &gt; daysOfWeek<b>&lbrack;6&rbrack; = 'Sunday'</b>
 9.  <b>"Sunday"</b>
 10. <b>daysOfWeek.length</b>
 11. <b>7</b>
-12. <b>// Sunday, the 7th day of week is at index 6 !</b></pre>
+12. // <i>Sunday, the 7th day of week is at index 6 !</i></pre>
 
 </details>
 
@@ -6671,7 +6671,7 @@ execute it by calling it by name.</p>
 <h4>Calling a function</h4>
 
 <pre>1.  var result = sum(1, 2);
-2.  //result is equal to 3
+2.  // <i>result is equal to 3</i>
 3.  console.log(result)
 4.  &gt; 3</pre>
 
@@ -6696,10 +6696,10 @@ it contains all the call parameters of the function:</p>
 1.  }
 2.  &hellip;
 3.  f();
-4.  // returns &lbrack;&rbrack;
+4.  // <i>returns &lbrack;&rbrack;</i>
 5.  &hellip;
 6.  if( 1, 2, 3, 4, true, ';Michel Buffa';);
-7.  // returns &lbrack;1, 2, 3, 4, true, "Michel Buffa"&rbrack;</pre>
+7.  // <i>returns &lbrack;1, 2, 3, 4, true, "Michel Buffa"&rbrack;</i></pre>
 
 </details>
 
@@ -7603,7 +7603,7 @@ I&apos;ll do that&hellip;</b>&quot;, we need to define a few more concepts.</p>
 <p>A boolean variable should not be enclosed in quotation marks, otherwise
 it becomes a string variable:</p>
 
-<pre>1. var b = 'true'; // b is not a boolean but a string</pre>
+<pre>1. var b = 'true'; // <i>b is not a boolean but a string</i></pre>
 
 <h4>Undefined and null values</h4>
 
@@ -7634,7 +7634,7 @@ it becomes a string variable:</p>
 <p>The keyword &quot;<b>undefined</b>&quot; is part of the JavaScript language, so you
 can assign the undefined value to a variable:</p>
 
-<pre>1.  &gt; var foo = undefined; // equivalent to var foo; without giving any value
+<pre>1.  &gt; var foo = undefined; // <i>equivalent to var foo; without giving any value</i>
 2.  undefined
 3.   
 4.  &gt; foo;
@@ -7679,16 +7679,16 @@ a ReferenceError will be raised. But the typeof operator will return
   <summary>Source Code:</summary>
 
 <pre>1.  var b = !true; 
-2.  b; //false
+2.  b; // <i>false</i>
 3.   
 4.  var b = !!true;
-5.  b; //true
+5.  b; // <i>true</i>
 6.   
 7.  var b = "one"; 
-8.  !b;   false // implicit conversion of "one" to a boolean value
+8.  !b;   false // <i>implicit conversion of "one" to a boolean value</i>
 9.   
-10. var b = "one"; // implicit conversion of "one" to a boolean value
-11. !!b; //true</pre>
+10. var b = "one"; // <i>implicit conversion of "one" to a boolean value</i>
+11. !!b; // <i>true</i></pre>
 
 </details>
 
@@ -7717,15 +7717,15 @@ third, and nth conditions from being tested in certain cases:</p>
 <pre>1.  var b = 5;
 2.  var c = 6;
 3.   
-4.  if ((b === 5) &vert;&vert; (b === 6))  { //the second part is never tested
+4.  if ((b === 5) &vert;&vert; (b === 6))  { // <i>the second part is never tested</i>
 5.    console.log('b is equal to 5 or equal to 6');
 6.  }
 7.   
-8.  if ((b === 5) && (c === 6)) {  // second part is evaluated
+8.  if ((b === 5) && (c === 6)) {  // <i>second part is evaluated</i>
 9.    console.log('b  is equal to 5 and c is equal to 6');
 10. }
 11.  
-12. if ((b === 15) && (c === 6)) {  // second part is never evaluated
+12. if ((b === 15) && (c === 6)) {  // <i>second part is never evaluated</i>
 13.   console.log('b  is equal to 5 and c is equal to 6');
 14. } else {
 15.   console.log('b not equal to 15 or c not equal to 6');
@@ -7838,23 +7838,23 @@ have the same value.</p>
   <summary>Source Code:</summary>
 
 <pre>1.  1 == 1;
-2.  //true
+2.  // <i>true</i>
 3.  
 4.  1 == 2;
-5.  //false
+5.  // <i>false</i>
 6.  
-7.  /* Here, the interpreter will try to convert the string '1'
-8.  into a number before doing the comparison */
+7.  /* <i>Here, the interpreter will try to convert the string '1'</i>
+8.  <i>into a number before doing the comparison</i> */
 9.  
 10. 1 == '1';
-11. //true :
+11. // <i>true:</i>
 12.  
-13. //with strict equal, no conversion:
+13. // <i>with strict equal, no conversion:</i>
 14.  
 15. 1 === 1;
-16. //true
+16. // <i>true</i>
 17. 1 === '1';
-18. //false</pre>
+18. // <i>false</i></pre>
 
 </details>
 
@@ -7882,10 +7882,10 @@ is NaN: "Not-a-Number".</p>
 <h5>NaN has this special property:</h5>
 
 <pre>1.  NaN == NaN;
-2.  // false
+2.  // <i>false</i>
 3.  
 4.  NaN === NaN;
-5.  // false</pre>
+5.  // <i>false</i></pre>
 
 <p><b>Nan is equal to nothing - not even to itself!</b>. But you do have a function to 
 check the NaN value: isNaN(expr).</p>
@@ -7898,16 +7898,16 @@ check the NaN value: isNaN(expr).</p>
   <summary>Source Code:</summary>
 
 <pre>1.  isNaN(NaN);
-2.  // true
+2.  // <i>true</i>
 3.  
 4.  isNaN(0/0);
-5.  // true
+5.  // <i>true</i>
 6.  
 7.  isNaN(12);
-8.  // false
+8.  // <i>false</i>
 9.  
 10. isNaN('foo');
-11. // true</pre>
+11. // <i>true</i></pre>
 
 </details>
 
@@ -7927,20 +7927,20 @@ target="_blank" rel="noopener noreferrer">isNan documentation</a>).</p>
 3.  if(isNaN(num)){
 4.    num = 0;
 5.  }
-6.  //shortened version with the conditional operator
+6.  // <i>shortened version with the conditional operator</i>
 7.  var num = isNaN(num) ? 0 : num
 8.  
-9.  //version with logical operator (implicit conversion)
+9.  // <i>version with logical operator (implicit conversion)</i>
 10. var num = num || 0;
 11.  
 12. /*
-13.    &lt;=&gt; num = NaN || 0
+13.    <i>&lt;=&gt; num = NaN || 0</i>
 14.  
-15.    &lt;=&gt; num = false || 0
+15.    <i>&lt;=&gt; num = false || 0</i>
 16. */
 17.  
 18. num;
-19. //returns 0 in this three cases</pre>
+19. // <i>returns 0 in this three cases</i></pre>
 
 </details>
 
@@ -8175,7 +8175,7 @@ commented - please remove comments and try to understand the results).</p>
 4.    num = 20;
 5.  }
 6.
-7.  // num equals 20</pre>
+7.  // <i>num equals 20</i></pre>
 
 </details>
 
@@ -8192,7 +8192,7 @@ commented - please remove comments and try to understand the results).</p>
 6.    num = 0;
 7.  }
 8.
-9.  // num equals 0</pre>
+9.  // <i>num equals 0</i></pre>
 
 </details>
 
@@ -8305,10 +8305,10 @@ use a <b>switch</b> statement.</p>
 <pre>1. <b>switch</b> (expression) <b>{</b>
 2.    <b>case</b> value1:
 3.      Statement
-4.      <b>break</b>; // break can be omitted in that case
-5.             // the second test case will be executed
-6.             // most of the time we add a break; at the end
-7.             // of a &quot;case&quot;
+4.      <b>break</b>; // <i>break can be omitted in that case</i>
+5.             // <i>the second test case will be executed</i>
+6.             // <i>most of the time we add a break; at the end</i>
+7.             // <i>of a &quot;case&quot;</i>
 8.
 9.    <b>case</b> value2:
 10.      Statement
@@ -8318,7 +8318,7 @@ use a <b>switch</b> statement.</p>
 14.     Statement
 15.     <b>break</b>;
 16.
-17.   <b>default</b>: // if no case tested true
+17.   <b>default</b>: // <i>if no case tested true</i>
 18.     Statement
 19.     <b>break</b>;
 20. }</pre>
@@ -8355,8 +8355,8 @@ block are executed sequentially until the keyword <b>break</b> is reached.
 19.
 20.   <b>default</b>:
 21.     gear = 'watch';
-22.     <b>break</b>; // useless if in the last case
-23. }          // end of the switch statement</pre>
+22.     <b>break</b>; // <i>useless if in the last case</i>
+23. }          // <i>end of the switch statement</i></pre>
 
 </details>
 
@@ -8391,7 +8391,7 @@ executed!</p>
 16.
 17.   <b>default</b>:
 18.     gear += 'watch';
-19. <b>}</b> // end of the switch statement</pre>
+19. <b>}</b> // <i>end of the switch statement</i></pre>
 
 </details>
 
@@ -17286,6 +17286,7 @@ it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 454/455. test, new object (407) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image454.png?raw=true"
+  loading="lazy"
   style="width:35%"
   title="Define new object"
   alt="Define new object." />
