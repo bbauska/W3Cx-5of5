@@ -22,7 +22,7 @@ p {
 }
 
 details {
-  font: 15px Bahnschrift, Calibri, sans-serif;
+  font: 11px Bahnschrift, Calibri, sans-serif;
   width: 45%;  /* min-content; 620px; */
 }
 details > summary {
