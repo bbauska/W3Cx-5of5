@@ -1,4 +1,4 @@
-/* styles.css of w3cx-5of5 */
+/* styles.css of w3cx-1of5 */
 img.displayed {
   display: block;
   margin: 0 auto; 
@@ -8,88 +8,116 @@ img.displayed {
   border-color: #778899;  /* dark grayish blue */
   border-style: solid; 
 }
-img {
-  width: 60%;
-  margin: auto;
-  display: block;
+
+ul li {
+  font-size: 14.5px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  padding: 14.5px;  /* 10px */
+  line-height:110%;
+}
+ol li {
+  font-size: 14.5px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  padding: 14.5px;  /* 10px */
+  line-height:110%;
 }
 
 p { 
-  font-size: 13.5px;
+  font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  text-align: left; 
-  margin-left: 10px;
-}
-
-details {
-  font: 11px Bahnschrift, Calibri, sans-serif;
-  width: 45%;  /* min-content; 620px; */
-}
-details > summary {
-  padding: 2px 6px;
-  width: 12em;
-  background-color: #eee;
-  border: none;
-  box-shadow: 3px 3px 4px #00008b;  /* dark blue */
-  cursor: pointer;
-  margin-left: 15px;
-}
-details > p {
-  border-radius: 0 0 10px 10px;
-  background-color: #fff;
-  padding: 2px 6px;
-  margin: 0;
-  box-shadow: 3px 3px 4px darkgreen;
-}
-details[open] > summary {
-  background-color: yellow;
-}
-
-pre, code {
-  font-family: monospace, monospace, consolas;
-  font-size: 12px;
+  text-align: left;
   margin-left: 15px;  /* 10px */
-  }
-pre {
-  overflow: auto;
 }
-pre > code {
-  display: block;
-  margin-left: 15px;  /* 10px */
-  padding: 1rem;
-  word-wrap: normal;
-}
-pre[href]:hover  {
-  text-decoration: none;
-}
-pre:hover, pre:focus { width: min-content; }
 
 a:link {
-  color: #3333ff;  /* vivid blue, was; #013220 very dark green */
+  color: #013220;  /* very dark green */
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: #0067cd;  /* medium blue, was; #a5682a brown */
+  color: #037d50;  /* green, next: 0000ff: pure (or mostly pure) blue, was: dark red: #a5682a */
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: #006700;  /* d green */
+  color: #00000;
   background-color: #ffff00;  /* yellow */
   text-decoration: underline;
+}
+a[href]:hover {
+  text-decoration: underline; 
+  text-decoration-color: 0000ff;
+}
+
+div {
+  float: left;
+}
+
+h1 {
+  font-size: 21px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
+  text-align: center;
+}
+h2 {
+  font-size: 18px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
+  margin-left: 15px;  /* 10px */
+}
+h3 {
+  font-size: 17px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
+  margin-left: 15px;
+}
+h4 { 
+  font-size: 16px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
+  margin-left: 15px;
+}
+h5 { 
+  font-size: 15px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
+  margin-left: 15px;
+}
+h6 { 
+  font-size: 10px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  margin-left: 15px;
+}
+
+details {
+  font: 14px Bahnschrift, Inter, sans-serif, Calibri;
+  width: max-content;
+}
+details > summary {
+  padding: 2px 6px;
+  width: 12em;  /* 12em; */
+  background-color: #eee;  /* very light gray */
+  border: none;
+  box-shadow: 3px 3px 4px #00008b;  /* dark blue */
+  cursor: pointer;
+  margin-left: 15px;  /* 10px */
+}
+details > p {
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;  /* white */
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
+}
+details[open] > summary {
+  background-color: yellow;
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
 
 body {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  font-size: 13.5px;  /* 1.2rem; */
+  font-size: 14.5px;  /* 1.2rem; */
   background-color: #eee;  /* very light gray */
   color: #000000;  /* black */
   text-align: left;
   padding: 10px;
-  margin: 10px;  /* was margin-left: 10px; */
+  margin: 15px;  /* was margin-left: 10px; */
 }
 
 #myBtn {
@@ -111,50 +139,53 @@ body {
   background-color: #555;  /* very dark gray */
 }
 
-th, td {
-  border: 1px solid black;
+pre > code {
+  display: block;
+  margin-left: 15px;  /* 10px */
+  padding: 1rem;
+  word-wrap: normal;
 }
-table {
-  border-collapse: collapse;
-  margin-left: 15px;
-  border: 1px solid black;
+pre {
+  font:normal normal 10px/12px consolas,Courier,Monospace;
+  background-color:#eee;
+  overflow:auto;
+  margin:0 0 1em;
+  padding:.5em 1em;
+  white-space: pre-wraps;
+  overflow-x: auto;
 }
-
- h1 { 
-    font-size: 21px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
-    text-align: center;
-  }
-  h2 { 
-    font-size: 18px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-    padding: 10px;
-  }
-  h3 { 
-    font-size: 17px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-	margin-left: 10px;  
-  }
-  h4 { 
-    font-size: 16px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-	margin-left: 10px;
-  }
-  h5 { 
-    font-size: 15px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-	margin-left: 10px;
-  }
-  h6 { 
-    font-size: 10px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-    text-align: center;
-  }
-
-@media all and (max-width: 500px) {
-  img.frame { 
-    border-width: 0px;
-    width: 100%; }
+pre code,
+pre .line-number {
+  /* Ukuran line-height antara teks di dalam tag <code> dan <span class="line-number"> harus sama! */
+  font:normal normal 10px/12px consolas,Courier,Monospace;
+  color:black;
+  display:block;
+}
+pre .line-number {
+  font:normal normal 10px/12px consolas,Courier,Monospace;
+  float:left;
+  margin:0 1em 0 -1em;
+  border-right:1px solid;
+  text-align:right;
+  color: red;
+}
+pre .line-number span {
+  display:block;
+  padding:0 .5em 0 1em;
+}
+pre .cl {
+  display:block;
+  clear:both;
+}
+pre {
+  width: 400px;
+  overflow: auto;
+}
+pre[href]:hover  {
+  text-decoration: none;
+}
+pre:hover, pre:focus { 
+  width: 400px; 
 }
 
 @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
