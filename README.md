@@ -11013,7 +11013,6 @@ methods on the &lt;li&gt; elements:</p>
 26.   });
 27. }
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-5">2.5.5 Modifying selected HTML elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -18519,7 +18518,7 @@ reference (if they point to different places in memory).</p>
 14. false
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id"ch5-2-3">5.2.3 The &quot;global&quot; window object</h3>
+<h3 id="ch5-2-3">5.2.3 The &quot;global&quot; window object</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>It is time to tell you the truth: the JavaScript code is executed by an
 "environment&quot; (usually a Web browser, but there are some HTTP Web
