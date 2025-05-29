@@ -2204,9 +2204,9 @@ brown (second rule).</p>
 
 <p>The third rule uses what is called &quot;a multiple selector&quot;:</p>
 
-<pre>1.  p, h1, h2 {
-2.    font-family: cursive
-3.  }</pre>
+<pre>p, h1, h2 {
+  font-family: cursive
+}</pre>
 
 <p>This one says that all p, h1 and h2 uses a cursive font character. The
 &quot;,&quot; means &quot;and also&quot;.</p>
@@ -3208,16 +3208,16 @@ on the CodePen example), we see:</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  functionPlot(<b>{</b>
-2.    <b>target: '#myFunction',</b>
-3.    <b>data: &lbrack;{&lt;</b>
-4.      <b>fn: 'sin(x)',</b>
-5.      <b>color: 'red'</b>
-6.    <b>}&rbrack;,</b>
-7.    <b>grid: true,</b>
-8.      <b>yAxis:{domain: &lbrack;-1, 1&rbrack;},</b>
-9.      <b>xAxis:{domain: &lbrack;0, 2&ast;Math.PI&rbrack;}</b>
-10. <b>}</b>);</pre>
+<pre>functionPlot(<b>{</b>
+  <b>target: '#myFunction',</b>
+  <b>data: &lbrack;{&lt;</b>
+    <b>fn: 'sin(x)',</b>
+    <b>color: 'red'</b>
+  <b>}&rbrack;,</b>
+  <b>grid: true,</b>
+    <b>yAxis:{domain: &lbrack;-1, 1&rbrack;},</b>
+    <b>xAxis:{domain: &lbrack;0, 2&ast;Math.PI&rbrack;}</b>
+<b>}</b>);</pre>
 
 </details>
 
@@ -3281,20 +3281,20 @@ you tweaked). They are in bold in the source code we saw earlier:</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  {
-2.    <b>target</b>: '#myFunction',
-3.    <b>data</b>: &lbrack;{
-4.      fn: 'sin(x)',
-5.      color: 'red'
-6.    }&rbrack;,
-7.    <b>grid</b>: true,
-8.    <b>yAxis</b>: {
-9.      domain: &lbrack;-1, 1&rbrack;
-10.   },
-11.   <b>xAxis</b>: {
-12.     domain: &lbrack;0, 2&ast;Math.PI&rbrack;
-13.   }
-14. }</pre>
+<pre>{
+  <b>target</b>: '#myFunction',
+  <b>data</b>: &lbrack;{
+    fn: 'sin(x)',
+    color: 'red'
+  }&rbrack;,
+  <b>grid</b>: true,
+  <b>yAxis</b>: {
+    domain: &lbrack;-1, 1&rbrack;
+  },
+  <b>xAxis</b>: {
+    domain: &lbrack;0, 2&ast;Math.PI&rbrack;
+  }
+}</pre>
 
 </details>
 
@@ -3309,10 +3309,10 @@ much detail.</p>
 <p>A JavaScript object can be defined by two braces with a set of
 properties/values inside, separated by a comma. Here is a simple object:</p>
 
-<pre>1.  {
-2.    givenName: "Michel",
-3.    familyName: "Buffa"
-4.  }</pre>
+<pre>{
+  givenName: "Michel",
+  familyName: "Buffa"
+}</pre>
 
 <p>We use the &quot;:&quot; separator between the property name and its value. We
 use a comma between two properties, and we omit the comma after the last
@@ -3359,16 +3359,16 @@ Notice that between the name of the properties and the value there is a
 <p>If we look at the values of the xAxis and yAxis properties, they
 are also objects.</p>
 
-<pre>1.  xAxis: {
-2.    domain: &lbrack;0, 2&ast;Math.PI&rbrack;
-3.  }</pre>
+<pre>xAxis: {
+  domain: &lbrack;0, 2&ast;Math.PI&rbrack;
+}</pre>
 
 <p>The data object is even more complicated:</p>
 
-<pre>1.  data: &lbrack;{
-2.    fn: 'sin(x)',
-3.    color: 'red'
-4.  }&rbrack;,</pre>
+<pre>data: &lbrack;{
+  fn: 'sin(x)',
+  color: 'red'
+}&rbrack;,</pre>
 
 <p>Instead of containing another object like xAxis or yAxis, it contains
 another sort of object, but inside brackets! <b>In JavaScript, brackets
@@ -3388,16 +3388,16 @@ cos(x) to our example, with a different color:</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  data: &lbrack;
-2.    {
-3.      fn: 'sin(x)',  // <i>First function</i>
-4.      color: 'red'
-5.    },
-6.    {
-7.      fn: 'cos(x)',  // <i>Second function</i>
-8.      color: 'blue'
-9.    }
-10. &rbrack;</pre>
+<pre>data: &lbrack;
+  {
+    fn: 'sin(x)',  // <i>First function</i>
+    color: 'red'
+  },
+  {
+    fn: 'cos(x)',  // <i>Second function</i>
+    color: 'blue'
+  }
+&rbrack;</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3567,7 +3567,7 @@ element:</p>
 <p><b>It listens to click events</b> in order to call
 the changeTitle() function when we click on the button:</p>
 
-<pre>1.  &lt;button <b>onclick="changeTitle();</b>"&gt;Click me to change the
+<pre>&lt;button <b>onclick="changeTitle();</b>"&gt;Click me to change the
     title of the page&lt;/button&gt;</pre>
 
 <p>And it executes the whole action (changing the title text) in<b> a
@@ -3895,18 +3895,18 @@ it, but here is an example: a set of squares, animated squares, that follow the 
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &lt;body&gt;
-2.    ...
-3.    &lt;script&gt;
-4.      var x = 2;
-5.      // <i>show a message in the body of the html document</i>
-6.      document.body.innerHTML += "<b>JavaScript code executed. The value of the variable x is: 
-          "+ x + </b>"";
-7.      // <i>also print a message in the devtool console</i>
-8.      console.log("JavaScript code executed");
-9.    &lt;/script&gt;
-10.   ...
-11. &lt;/body&gt;</pre>
+<pre>&lt;body&gt;
+  ...
+  &lt;script&gt;
+    var x = 2;
+    // <i>show a message in the body of the html document</i>
+    document.body.innerHTML += "<b>JavaScript code executed. The value of the variable x is: 
+      "+ x + </b>"";
+    // <i>also print a message in the devtool console</i>
+    console.log("JavaScript code executed");
+  &lt;/script&gt;
+  ...
+&lt;/body&gt;</pre>
 
 </details>
 
@@ -3939,19 +3939,19 @@ a button is clicked:</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &lt;head&gt;
-2.    <b>&lt;script&gt;</b>
-3.      <b>function addSomeText() {</b>
-4.        // <i>append a message in the body of the html document</i>
-5.        <b>document.body.innerHTML += "<br>Function executed!";</b>
-6.      <b>}</b>
-7.    <b>&lt;/script&gt;</b>
-8.  &lt;/head&gt;
-9.  &lt;body&gt;
-10.   &lt;button <b>onclick="addSomeText();"</b>Click me to call a JavaScript function that will add
-11.     some content to this document
-12.   &lt;/button&gt;
-13. &lt;/body&gt;</pre>
+<pre>&lt;head&gt;
+  <b>&lt;script&gt;</b>
+    <b>function addSomeText() {</b>
+      // <i>append a message in the body of the html document</i>
+      <b>document.body.innerHTML += "<br>Function executed!";</b>
+    <b>}</b>
+  <b>&lt;/script&gt;</b>
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;button <b>onclick="addSomeText();"</b>Click me to call a JavaScript function that will add
+    some content to this document
+  &lt;/button&gt;
+&lt;/body&gt;</pre>
 
 </details>
 
@@ -3983,11 +3983,11 @@ offers many advantages:</p>
 
 <p>A typical example:</p>
 
-<pre>1.  &lt;head&gt;
-2.    ...
-3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
-4.    <b>&lt;script src="js/script.js"&gt;&lt;/script&gt;</b>
-5.  &lt;/head&gt;</pre>
+<pre>&lt;head&gt;
+  ...
+  &lt;link rel="stylesheet" href="css/style.css"&gt;
+  <b>&lt;script src="js/script.js"&gt;&lt;/script&gt;</b>
+&lt;/head&gt;</pre>
 
 <b>To use an external JavaScript file:</b>
 
@@ -4009,14 +4009,14 @@ offers many advantages:</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &lt;head&gt;
-2.    ...
-3.    &lt;link rel="stylesheet" href="css/style.css"&gt;
-4.    <b>&lt;script src="js/script1.js"&gt;&lt;/script&gt;</b>
-5.    <b>&lt;script src="js/script2.js"&gt;&lt;/script&gt;</b>
-6.    <b>&lt;script src="js/anotherOne.js"&gt;&lt;/script&gt;</b>
-7.    <b>...</b>
-8.  &lt;/head&gt;</pre>
+<pre>&lt;head&gt;
+  ...
+  &lt;link rel="stylesheet" href="css/style.css"&gt;
+  <b>&lt;script src="js/script1.js"&gt;&lt;/script&gt;</b>
+  <b>&lt;script src="js/script2.js"&gt;&lt;/script&gt;</b>
+  <b>&lt;script src="js/anotherOne.js"&gt;&lt;/script&gt;</b>
+  <b>...</b>
+&lt;/head&gt;</pre>
 
 </details>
 
@@ -4048,33 +4048,33 @@ JavaScript files in a js subfolder.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  ...
-2.  &lt;head&gt;
-3.    ...
-4.    <b>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;</b>
-5.    <b>&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;</b>
-6.  &lt;/head&gt;
-7.  &lt;body&gt;
-8.    &lt;h1&gt;Example 3: JavaScript and CSS in local files!&lt;/h1&gt;
-9.    &lt;button <b>onclick="addSomeText()</b>"&gt;Click me to call a
-        JavaScript function that will add some content to this
-        document&lt;/button&gt;
-10. &lt;/body&gt;
-11. &lt;/html&gt;</pre>
+<pre>...
+&lt;head&gt;
+  ...
+  <b>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;</b>
+  <b>&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;</b>
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Example 3: JavaScript and CSS in local files!&lt;/h1&gt;
+  &lt;button <b>onclick="addSomeText()</b>"&gt;Click me to call a
+    JavaScript function that will add some content to this
+    document&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
 <h5>Content of the js/script.js file (JavaScript file):</h5>
 
-<pre>1.  function addSomeText() {
-2.    document.body.innerHTML += "&lt;p&gt;Function executed!&lt;/p&gt;";
-3.  }</pre>
+<pre>function addSomeText() {
+  document.body.innerHTML += "&lt;p&gt;Function executed!&lt;/p&gt;";
+}</pre>
 
 <h5>Content of the style.css file:</h5>
 
-<pre>1.  p {
-2.    color:green;
-3.  }</pre>
+<pre>p {
+  color:green;
+}</pre>
 
 <h5>How to run this example:</h5>
 
@@ -4278,19 +4278,19 @@ able to type any JavaScript command.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &lt;!DOCTYPE html&gt;
-2.  &lt;html lang=&quot;en&gt;
-3.  &lt;head&gt;
-4.    &lt;meta charset=utf-8 /&gt;
-5.    &lt;title&gt;Web Audio API&lt;/title&gt;
-6.    &lt;script&gt;
-7.      console.log(&quot;Some JavaScript code has been executed&quot;);
-8.    &lt;/script&gt;
-9.  &lt;/head&gt;
-10. &lt;body&gt;
-11.   &lt;h1&gt;JavaScript debugging using the dev tool console&lt;/h1&gt;
-12. &lt;/body&gt;
-13. &lt;/html&gt;</pre>
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&gt;
+&lt;head&gt;
+  &lt;meta charset=utf-8 /&gt;
+  &lt;title&gt;Web Audio API&lt;/title&gt;
+  &lt;script&gt;
+    console.log(&quot;Some JavaScript code has been executed&quot;);
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;JavaScript debugging using the dev tool console&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -4832,8 +4832,8 @@ just give the name of the variable.</b></p>
 
 <h4>Example:</h4>
 
-<pre>1.  var myVar;
-2.  let x;</pre>
+<pre>var myVar;
+let x;</pre>
 
 <p>The first letter of a variable can only be &quot;&dollar;&quot;, 
 &quot;&lowbar;&quot;, &quot;a&quot; to &quot;z&quot;, or &quot;A&quot; 
@@ -4894,21 +4894,20 @@ example, and type myNumber2 in the devtool console, it will display 34
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  var myNumber1, myNumber2 = 34, myNumber3;
-2.  undefined
-3.  // <i>Or with the ES6 syntax you can also use "let"</i>
-4.  undefined
-5.  let x=1, y=3, z=12;
-6.  undefined
-7.  x;
-8.  1
-9.  z
-10. 12
-11. myNumber2;
-12. 34
-13. 
-14. myNumber1;
-15. undefined</pre>
+<pre>var myNumber1, myNumber2 = 34, myNumber3;
+undefined
+// <i>Or with the ES6 syntax you can also use "let"</i>
+undefined
+let x=1, y=3, z=12;
+undefined
+x;
+1
+z
+12
+myNumber2;
+34
+myNumber1;
+undefined</pre>
 
 </details>
 
@@ -4948,9 +4947,9 @@ error message:</p>
 
 <h4>Example:</h4>
 
-<pre>1.  var myModel;
-2.  // <i>ES2015 syntax</i>
-3.  let michelBuffaAge = 51;</pre>
+<pre>var myModel;
+// <i>ES2015 syntax</i>
+let michelBuffaAge = 51;</pre>
 
 <p>Most JavaScript examples you will find are written in the camelCase
 format. For harmony in the code source, it is a good idea to keep this
@@ -4980,9 +4979,9 @@ error will be raised if you try to change their value in the future.</p>
 
 <h4>Example:</h4>
 
-<pre>1.  var TIME_LIMIT;
-2.  // <i>ES2015 Syntax</i>
-3.  const MAX_GRADE = 20;</pre>
+<pre>var TIME_LIMIT;
+// <i>ES2015 Syntax</i>
+const MAX_GRADE = 20;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 159. Comparison between var: TIME_LIMIT and constant: MAX_GRADE (124) ~~~~~~~~~~~-->
 <img class="displayed"
@@ -5000,17 +4999,17 @@ work with var):</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  let a;
-2.  let thisIsAVariable;
-3.  let and_this_too; // <i>but does not respect the usual naming convention</i>
-4.  let mix12three;
-5.  // invalid!
-6.  let 2three4five; // <i>can't start with a digit!</i>
-7.  let a = 1
-8.  let v1, v2, v3 = 'hello', v4 = 4, v5;
-9.  // <i>Beware with lowercase / uppercase</i>
-10. let case_matters = 'lower';
-11. let CASE_MATTERS = 'upper';</pre>
+<pre>let a;
+let thisIsAVariable;
+let and_this_too; // <i>but does not respect the usual naming convention</i>
+let mix12three;
+// invalid!
+let 2three4five; // <i>can't start with a digit!</i>
+let a = 1
+let v1, v2, v3 = 'hello', v4 = 4, v5;
+// <i>Beware with lowercase / uppercase</i>
+let case_matters = 'lower';
+let CASE_MATTERS = 'upper';</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5409,13 +5408,13 @@ for example a number, a string, etc. ex: var x = 3; var name = "Buffa";</p>
   title="Red cards depicting primitive data types"
   alt="Red cards depicting primitive data types." />
 
-<pre>1.  var x = 3; var name = "Buffa";
-2.  &lt;a href="" target="_blank" rel="noopener noreferrer"&gt;a set of playing cards&lt;/a&gt;</pre>
+<pre>var x = 3; var name = "Buffa";
+&lt;a href="" target="_blank" rel="noopener noreferrer"&gt;a set of playing cards&lt;/a&gt;</pre>
 
 <p>Objects (everything that is not a &quot;primitive data type&quot; is an
 object):</p>
 
-<pre>1.  var michel = {firstName:'Michel', lastName:'Buffa'};</pre>
+<pre>var michel = {firstName:'Michel', lastName:'Buffa'};</pre>
 
 <p>There is a set of &quot;predefined objects&quot; in JavaScript (arrays,
 functions, etc). We will come back on these later in the course.</p>
@@ -5495,25 +5494,20 @@ for us, for explaining the data types.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  var n=1;
-2.  undefined
-3.  &gt; typeof n;
-4.  "number"
-5. 
-6.  &gt; n=1234;
-7.  1234
-8. 
-9.  &gt; typeof n;
-10. "number"
-11. 
-12. &gt; n=1.23;
-13. 1.23
-14. 
-15. &gt; typeof n;
-16. "number"
-17. 
-18. &gt; typeof 123;
-19. "number"</pre>
+<pre>var n=1;
+undefined
+&gt; typeof n;
+"number"
+&gt; n=1234;
+1234
+&gt; typeof n;
+"number"
+&gt; n=1.23;
+1.23
+&gt; typeof n;
+"number"
+&gt; typeof 123;
+"number"</pre>
 
 </details>
 
@@ -5558,9 +5552,9 @@ for us, for explaining the data types.</p>
 <p><b>Be careful with this, don&apos;t start an integer with 0 (zero),
 JavaScript will understand it as an octal value.</b></p>
 
-<pre>1.  010 equals 8 which means 1 &ast; 8^1 + 0 &ast; 8^0</pre>
+<pre>010 equals 8 which means 1 &ast; 8^1 + 0 &ast; 8^0</pre>
 
-<pre>1.  The number 0456 means 4 &ast; 8^2 + 5 &ast; 8^1 + 6 &ast; 8^0</pre>
+<pre>The number 0456 means 4 &ast; 8^2 + 5 &ast; 8^1 + 6 &ast; 8^0</pre>
 
 <p><b>Question 1</b>: What&apos;s the result, as an integer, of the
 operation: 24 - 024?</p>
@@ -5586,32 +5580,24 @@ value is 243</pre>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; var n3 = 0377;
-2.  undefined
-3.  
-4.  &gt; typeof n3;
-5.  "number"
-6.  
-7.  &gt; n3;
-8.  255
-9.   
-10. &gt; var n4 = 0x00;
-11. undefined
-12.  
-13. &gt; typeof n4;
-14. "number"
-15.  
-16. &gt; n4;
-17. 0
-18.  
-19. &gt; var n5 = 0xFF;
-20. undefined
-21.  
-22. &gt; typeof n5;
-23. "number"
-24.  
-25. &gt; n5;
-26. 255</pre>
+<pre>&gt; var n3 = 0377;
+undefined
+&gt; typeof n3;
+"number"
+&gt; n3;
+255
+&gt; var n4 = 0x00;
+undefined
+&gt; typeof n4;
+"number"
+&gt; n4;
+0
+&gt; var n5 = 0xFF;
+undefined 
+&gt; typeof n5;
+"number"
+&gt; n5;
+255</pre>
 
 </details>
 
@@ -5630,11 +5616,10 @@ than -1.79769313486231570e+308.</p>
 <p>Finally, Nan represents <b>not-a-number</b> values, for example if you try
 to divide 0 by 0 (type 0/0 in the devtool console).</p>
 
-<pre>1.  &gt; 0 / 0;
-2.  NaN
-3.  
-4.  &gt; 3 / 0;
-5.  Infinity</pre>
+<pre>&gt; 0 / 0;
+NaN
+&gt; 3 / 0;
+Infinity</pre>
 
 <h4>Examples:</h4>
 
@@ -5643,37 +5628,28 @@ to divide 0 by 0 (type 0/0 in the devtool console).</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; Infinity;
-2.  Infinity
-3.   
-4.  &gt; typeof Infinity;
-5.  "number"
-6.   
-7.  &gt; 1e309;
-8.  Infinity
-9.   
-10. &gt; 1e308;
-11. 1e+308
-12.  
-13. &gt; var a = 6 / 0;
-14. undefined
-15.  
-16. &gt; a;
-17. Infinity
-18.  
-19. &gt; var i = -Infinity;
-20. undefined
-21.  
-22. &gt; i;
-23. -Infinity
-24.  
-25. &gt; typeof i;
-26. "number"
-27. &gt; Infinity - Infinity;
-28. NaN
-29.   
-30. &gt; -Infinity + Infinity;
-31. NaN</pre>
+<pre>&gt; Infinity;
+Infinity
+&gt; typeof Infinity;
+"number"
+&gt; 1e309;
+Infinity
+&gt; 1e308;
+1e+308
+&gt; var a = 6 / 0;
+undefined
+&gt; a;
+Infinity
+&gt; var i = -Infinity;
+undefined
+&gt; i;
+-Infinity
+&gt; typeof i;
+"number"
+&gt; Infinity - Infinity;
+NaN
+&gt; -Infinity + Infinity;
+NaN</pre>
 
 </details>
 
@@ -5682,17 +5658,14 @@ to divide 0 by 0 (type 0/0 in the devtool console).</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; Infinity - 20;
-2.  Infinity
-3.   
-4.  &gt; -Infinity &ast; 3;
-5.  -Infinity
-6.   
-7.  &gt; Infinity / 2;
-8.  Infinity
-9.   
-10. &gt; Infinity - 9999999999999;
-11. Infinity</pre>
+<pre>&gt; Infinity - 20;
+Infinity
+&gt; -Infinity &ast; 3;
+-Infinity
+&gt; Infinity / 2;
+Infinity
+&gt; Infinity - 9999999999999;
+Infinity</pre>
 
 </details>
 
@@ -5703,23 +5676,18 @@ to divide 0 by 0 (type 0/0 in the devtool console).</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; typeof NaN;
-2.  "number"
-3.   
-4.  &gt; var a = NaN;
-5.  undefined
-6.   
-7.  &gt; a;
-8.  NaN 
-9.
-10. &gt; var a = 10 &ast; "f";
-11. undefined
-12.  
-13. &gt; a;
-14. NaN 
-15.  
-16. &gt; 1 + 2 + a;
-17. NaN</pre>
+<pre>&gt; typeof NaN;
+"number"
+&gt; var a = NaN;
+undefined
+&gt; a;
+NaN
+0. &gt; var a = 10 &ast; "f";
+undefined
+&gt; a;
+NaN
+&gt; 1 + 2 + a;
+NaN</pre>
 
 </details>
 
@@ -5751,8 +5719,8 @@ But there are approximation errors that are well-known in float
 calculations. One common example of errors due to the approximation of
 floating point numbers is that 0.1 + 0.2 does not equal 0.3.</p>
 
-<pre>1.  &gt; 0.1 + 0.2;
-2.  0.30000000000000004</pre>
+<pre>&gt; 0.1 + 0.2;
+0.30000000000000004</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 171. devtools console showing 0.1+0.2 is not equal to 0.3 (145) ~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5788,14 +5756,14 @@ prefixed or suffixed.</p>
 
 <h5>Unary operator example:</h5>
 
-<pre>1.  typeof 'world';</pre>
+<pre>typeof 'world';</pre>
 
 <p>A binary operator is applied to two different expressions, and is both 
 prefixed and suffixed.</p>
 
 <h5>Binary operator example:</h5>
 
-<pre>1.  var x = 45 / 32;</pre>
+<pre>var x = 45 / 32;</pre>
 
 <h5>The division operator is binary</h5>
 
@@ -5896,29 +5864,22 @@ both prefixed or suffixed, which have different effects:</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; 1 + 2;
-2.  3
-3.  
-4.  &gt; var a = 1;
-5.  undefined
-6.
-7.  &gt; var b = 2;
-8.  undefined
-9.  
-10.  &gt; a + 1;
-11.  2
-12.  
-13.  &gt; b + 2;
-14.  4
-15.  
-16.  &gt; a + b;
-17.  3
-18.  
-19.  &gt; var c = a + b;
-20.  undefined
-21.  
-22.  &gt; c;
-23.  3</pre>
+<pre>&gt; 1 + 2;
+3
+&gt; var a = 1;
+undefined
+&gt; var b = 2;
+undefined
+&gt; a + 1;
+2
+&gt; b + 2;
+4
+&gt; a + b;
+3
+&gt; var c = a + b;
+undefined
+&gt; c;
+3</pre>
 
 </details>
 
@@ -5927,17 +5888,14 @@ both prefixed or suffixed, which have different effects:</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; 1 + 2;
-2.  3
-3.  
-4.  &gt; 99.99 - 11;
-5.  88.99
-6.  
-7.  &gt; 2 &ast; 3;
-8.  6
-9.  
-10.  &gt; 6 / 4;
-11.  1.5</pre>
+<pre>&gt; 1 + 2;
+3
+&gt; 99.99 - 11;
+88.99
+&gt; 2 &ast; 3;
+6
+&gt; 6 / 4;
+1.5</pre>
 
 </details>
 
@@ -5946,36 +5904,28 @@ both prefixed or suffixed, which have different effects:</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; var m = 0;
-2.  Undefined
-3.
-4.  &gt; m;
-5.  0
-6.  
-7.  &gt; // <i>regular use of the + operator</i>
-8.  m = m + 1;
-9.  1
-10.  
-11.  &gt; m;
-12.  1
-13.  
-14.  &gt; m = m + 1;
-15.  2
-16.  
-17.  &gt; m;
-18.  2
-19.  
-20.  &gt; // <i>post increment</i>
-21.  m++;
-22.  2
-23.  
-24.  &gt; m;
-25.  3
-26.  &gt; console.log(m++); // <i>will display 3 but after that m is incremented</i>
-27.  3
-28.  
-29.  &gt; m;
-30.  4</pre>
+<pre>&gt; var m = 0;
+Undefined
+&gt; m;
+0
+&gt; // <i>regular use of the + operator</i>
+m = m + 1;
+1
+&gt; m;
+1
+&gt; m = m + 1;
+2
+&gt; m;
+2
+&gt; // <i>post increment</i>
+m++;
+2
+&gt; m;
+3
+&gt; console.log(m++); // <i>will display 3 but after that m is incremented</i>
+3
+&gt; m;
+4</pre>
 
 </details>
 
@@ -5994,32 +5944,24 @@ both prefixed or suffixed, which have different effects:</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; var a = 123; var b = a++;
-2.  Undefined
-3.  
-4.  &gt; b;
-5.  123
-6.  
-7.  &gt; a;
-8.  124
-9.  
-10.  &gt; var a = 123; var b = ++a;
-11.  Undefined
-12.  
-13.  &gt; b;
-14.  124
-15.  
-16.  &gt; a;
-17.  124
-18.  
-19.  &gt; var a = 123; var b = a--;
-20.  undefined
-21.  
-22.  &gt; b;
-23.  123
-24.  
-25.  &gt; a;
-26.  122</pre>
+<pre>&gt; var a = 123; var b = a++;
+Undefined
+&gt; b;
+123
+&gt; a;
+124
+&gt; var a = 123; var b = ++a;
+Undefined
+&gt; b;
+124
+&gt; a;
+124
+&gt; var a = 123; var b = a--;
+undefined
+&gt; b;
+123
+&gt; a;
+122</pre>
 
 </details>
 
@@ -6029,10 +5971,10 @@ both prefixed or suffixed, which have different effects:</p>
 value to a variable at the same time.<br>
 Code below (try it in the devtool console of your browser):</p>
 
-<pre>1.  &gt; var a = 10;
-2.  &gt; a &ast;= 5; // <i>equivalent to a = a &ast; 5;</i>
-3.  &gt; console.log(a);
-4.  &gt; 50</pre>
+<pre>&gt; var a = 10;
+&gt; a &ast;= 5; // <i>equivalent to a = a &ast; 5;</i>
+&gt; console.log(a);
+&gt; 50</pre>
 
 <h4>Example #6: more with pre operators +=, -=, *=, /=</h4>
 
@@ -6041,25 +5983,19 @@ Code below (try it in the devtool console of your browser):</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; var a = 5;
-2.  Undefined
-3.  
-4.  &gt; a += 3 // <i>equivalent to a = a + 3;</i>
-5.  8
-6.  
-7.  &gt; a -= 2; // <i>equivalent to a = a - 2;</i>
-8.  6
-9.  
-10.  &gt; a &ast;= 10; // <i>equivalent to a = a &ast; 10;</i>
-11.  60
-12.  
-13.  &gt; a /= 5; // <i>equivalent to a = a / 5;</i>
-14.  12
-15.  
-16.  &gt; a %= 2; // <i>equivalent to a = a % 2;</i>
-17.  0
-18.  
-19.  &gt; // <i>this is normal, as it is even</i></pre>
+<pre>&gt; var a = 5;
+Undefined
+&gt; a += 3 // <i>equivalent to a = a + 3;</i>
+8
+&gt; a -= 2; // <i>equivalent to a = a - 2;</i>
+6
+&gt; a &ast;= 10; // <i>equivalent to a = a &ast; 10;</i>
+60
+&gt; a /= 5; // <i>equivalent to a = a / 5;</i>
+12
+&gt; a %= 2; // <i>equivalent to a = a % 2;</i>
+0
+&gt; // <i>this is normal, as it is even</i></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6079,18 +6015,15 @@ double quotes, or the opposite.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; "Hello World";
-2.  "Hello World"
-3.   
-4.  &gt; "JavaScript Course";
-5.  "JavaScript Course"
-6. 
-7.  &gt; 'With single quotes';
-8.  "With single quotes"
-9.  
-10. &gt; "Do not mix double and single quotes'; // <i>here we opened the string</i>
-<i>with double and closed with single quotes</i>
-11. VM24763:1 Uncaught SyntaxError: Invalid or unexpected token</pre>
+<pre>&gt; "Hello World";
+"Hello World"
+&gt; "JavaScript Course";
+"JavaScript Course"
+&gt; 'With single quotes';
+"With single quotes"
+&gt; "Do not mix double and single quotes'; // <i>here we opened the string</i>
+  <i>with double and closed with single quotes</i>
+VM24763:1 Uncaught SyntaxError: Invalid or unexpected token</pre>
 
 </details>
 
@@ -6239,16 +6172,14 @@ and it allows you to concatenate strings.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  // <i>the operator (+)</i>
-2.  var s1 = 'one';
-3.  var s2= 'two';
-4.  var s = s1 + s2;
-5. 
-6.  s;
-7.  // <i>returns 'onetwo'</i>
-8.
-9.  typeof s;
-10. // <i>'string'</i></pre>
+<pre>// <i>the operator (+)</i>
+var s1 = 'one';
+var s2= 'two';
+var s = s1 + s2;
+s;
+// <i>returns 'onetwo'</i>
+typeof s;
+// <i>'string'</i></pre>
 
 </details>
 
@@ -6260,12 +6191,12 @@ strings.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  // <i>the assignment operator (+=)</i>
-2.  var s1 = 'one';
-3.  var s2 = 'two';
-4.  s1+= s2; // <i>or directly s1+='two'</i>
-5.  s1;
-6.  // <i>returns 'onetwo'</i></pre>
+<pre>// <i>the assignment operator (+=)</i>
+var s1 = 'one';
+var s2 = 'two';
+s1+= s2; // <i>or directly s1+='two'</i>
+s1;
+// <i>returns 'onetwo'</i></pre>
 
 </details>
 
@@ -6276,12 +6207,12 @@ strings.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  // <i>the 'concat' method</i>
-2.  var s1 = 'one';
-3.  var s2 ='two';
-4.  var s = s1.concat(s2);
-5.  s;
-6.  // <i>returns 'onetwo'</i></pre>
+<pre>// <i>the 'concat' method</i>
+var s1 = 'one';
+var s2 ='two';
+var s = s1.concat(s2);
+s;
+// <i>returns 'onetwo'</i></pre>
 
 </details>
 
@@ -6290,16 +6221,13 @@ strings.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1. var s1 = 'Hello';
-2. s1 = s1 + ' World' + ' JavaScript';
-3.  
-4. var s2 = 'Hello';
-5. s2+= ' World ' + ' JavaScript';
-6.
-7. var s3 = 'Hello';
-8. s3.concat(' World' , ' JavaScript' );
-9. 
-10. // <i>s1,s2 and s3 return 'Hello World JavaScript'</i></pre>
+<pre>var s1 = 'Hello';
+s1 = s1 + ' World' + ' JavaScript';
+var s2 = 'Hello';
+s2+= ' World ' + ' JavaScript';
+var s3 = 'Hello';
+s3.concat(' World' , ' JavaScript' );
+// <i>s1,s2 and s3 return 'Hello World JavaScript'</i></pre>
 
 </details>
 
@@ -6311,32 +6239,24 @@ unless the formula is a pure addition.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; var s = '1'; s = 3 &ast; s; typeof s;
-2.  "number"
-3.  
-4.  &gt; s;
-5.  3
-6.  
-7.  &gt; var s = '1'; s++; typeof s;
-8.  "number"
-9.
-10. &gt; s;
-11. 2
-12.
-13. &gt; var s = "100"; typeof s;
-14. "string"
-15.
-16. &gt; s = s &ast; 1;
-17. 100
-18. 
-19. &gt; typeof s;
-20. "number"
-21. 
-22. &gt; var d = "101 dalmatians";
-23. Undefined
-24. 
-25. &gt; d &ast; 1;
-26. NaN</pre>
+<pre>&gt; var s = '1'; s = 3 &ast; s; typeof s;
+"number"
+&gt; s;
+3
+&gt; var s = '1'; s++; typeof s;
+"number"
+&gt; s;
+2
+&gt; var s = "100"; typeof s;
+"string"
+&gt; s = s &ast; 1;
+100
+&gt; typeof s;
+"number"
+&gt; var d = "101 dalmatians";
+Undefined
+&gt; d &ast; 1;
+NaN</pre>
 
 </details>
 
@@ -6359,13 +6279,13 @@ devtools):</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  var n = 1;
-2.  typeof n;
-3.  // <i>returns "number"</i>
-4.  n = "" + n;
-5.  // <i>returns "1"</i>
-6.  typeof n;
-7.  // <i>returns "string"</i></pre>
+<pre>var n = 1;
+typeof n;
+// <i>returns "number"</i>
+n = "" + n;
+// <i>returns "1"</i>
+typeof n;
+// <i>returns "string"</i></pre>
 
 </details>
 
@@ -6374,16 +6294,16 @@ devtools):</p>
 <p>The &#92;&#92; is useful for &quot;escaping&quot; special characters. Here are a few
 examples:</p>
 
-<pre>1.  var s = 'I don't know';
-2.  var s = "I don't know"; // <i>here the &#92; is useless</i>
-3.  var s = "I don't know";  // <i>same result as previous line</i>
-4.  var s = '"Hello", he said.'; // <i>ok, double quotes inside single one will be displayed</i>
-5.  var s = "&#92;"Hello&#92;", he said."; // <i>double quotes inside double quotes need to be escaped</i></pre>
+<pre>var s = 'I don't know';
+var s = "I don't know"; // <i>here the &#92; is useless</i>
+var s = "I don't know";  // <i>same result as previous line</i>
+var s = '"Hello", he said.'; // <i>ok, double quotes inside single one will be displayed</i>
+var s = "&#92;"Hello&#92;", he said."; // <i>double quotes inside double quotes need to be escaped</i></pre>
 
 <h4>Escaping the escape! Use a double &quot;&#92;&quot;</h4>
 
-<pre>1.  var s = "1&#92;&#92;2"; s;
-2.  // <i>returns "1&#92;2"</i></pre>
+<pre>var s = "1&#92;&#92;2"; s;
+// <i>returns "1&#92;2"</i></pre>
 
 <h4>Special characters starting with &quot;&#92;&quot;</h4>
 
@@ -6392,13 +6312,13 @@ examples:</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  var s = '&#92;n1&#92;n2&#92;n3&#92;n';
-2.  s
-3.  // <i>returns "</i>
-4.  1
-5.  2
-6.  3
-7.  "</pre>
+<pre>var s = '&#92;n1&#92;n2&#92;n3&#92;n';
+s
+// <i>returns "</i>
+1
+2
+3
+"</pre>
 
 </details>
 
@@ -6407,20 +6327,20 @@ examples:</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  var s = '1&#92;r2';
-2.  var s = '1&#92;n&#92;r2';
-3.  var s = '1&#92;r&#92;n2';
-4.  // <i>the three previous lines give:</i>
-5.  "1
-6.  2"</pre>
+<pre>var s = '1&#92;r2';
+var s = '1&#92;n&#92;r2';
+var s = '1&#92;r&#92;n2';
+// <i>the three previous lines give:</i>
+"1
+2"</pre>
 
 </details>
 
 <h5>&quot;&#92;t&quot; for &quot;insert a tabulation&quot;:</h5>
 
-<pre>1.  var s = "1&#92;t2"
-2.  // <i>s is equal to</i>
-3.  "1 2"</pre>
+<pre>var s = "1&#92;t2"
+// <i>s is equal to</i>
+"1 2"</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-9">1.5.9 Objects, part 1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6462,12 +6382,12 @@ objects :-)</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; window.innerHeight
-2.  217
-3.  &gt; window.innerWidth
-4.  1704
-5.  &gt; navigator.vendor
-6.  "Google Inc."</pre>
+<pre>&gt; window.innerHeight
+217
+&gt; window.innerWidth
+1704
+&gt; navigator.vendor
+"Google Inc."</pre>
 
 </details>
 
@@ -6482,12 +6402,12 @@ detail.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  var student1 = {
-2.    fullName:'John Doe',
-3.    age: 23,
-4.    city: 'New York',
-5.    ssn: "11-22-33-44" // <i>no comma at the end of the last property</i>
-6.  }                    // <i>declaration</i></pre>
+<pre>var student1 = {
+  fullName:'John Doe',
+  age: 23,
+  city: 'New York',
+  ssn: "11-22-33-44" // <i>no comma at the end of the last property</i>
+}                    // <i>declaration</i></pre>
 
 </details>
 
@@ -6496,17 +6416,17 @@ detail.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; student1.ssn
-2.  "11-22-33-44"
-3.  &gt; student1.age
-4.  23
-5.  &gt; student1
-6.  &lbrack;object Object&rbrack; {
-7.    age: 23,
-8.    city: "New York",
-9.    fullName: "John Doe",
-10.   ssn: "11-22-33-44"
-11. }</pre>
+<pre>&gt; student1.ssn
+"11-22-33-44"
+&gt; student1.age
+23
+&gt; student1
+&lbrack;object Object&rbrack; {
+  age: 23,
+  city: "New York",
+  fullName: "John Doe",
+  ssn: "11-22-33-44"
+}</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6521,8 +6441,8 @@ this:</p>
 
 <p>You can fill them at declaration time:</p>
 
-<pre>1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
-2.  var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;</pre>
+<pre>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
+var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;</pre>
 
 <h4>Elements in an array can be accessed using <b>indexes</b>></h4>
 
@@ -6535,25 +6455,25 @@ the index value followed by &quot;&rbrack;&quot;, as shown in these examples:<
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
-2.  undefined
-3.  daysOfWeek&lbrack;0&rbrack;
-4.  "Monday"
-5.  daysOfWeek&lbrack;1&rbrack;
-6.  "Tuesday"
-7.  daysOfWeek&lbrack;2&rbrack;
-8.  "Wednesday"
-9.  daysOfWeek.length
-10. 7</pre>
+<pre>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
+undefined
+daysOfWeek&lbrack;0&rbrack;
+"Monday"
+daysOfWeek&lbrack;1&rbrack;
+"Tuesday"
+daysOfWeek&lbrack;2&rbrack;
+"Wednesday"
+daysOfWeek.length
+7</pre>
 
 </details>
 
 <h4>Use the length property of an array to know its length</h4>
 
-<pre>1.  var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday', 'Saturday', 'Sunday'&rbrack;;
-2.  undefined
-3.  daysOfWeek.<b>length</b>
-4.  <b>7</b></pre>
+<pre>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday', 'Saturday', 'Sunday'&rbrack;;
+undefined
+daysOfWeek.<b>length</b>
+<b>7</b></pre>
 
 <p>Indeed, there are seven days in a week and the daysOfWeek array
 has seven elements, indexed from <b>0</b> to <b>daysOfWeek.length -1</b></p>
@@ -6570,20 +6490,20 @@ equal to the length of the array.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  <b>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
+<pre><b>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
     'Thursday', 'Friday';, 'Saturday'&rbrack;;</b>
-2.  <b>undefined</b>
-3.  <b>daysOfWeek.length</b>
-4.  <b>6</b>
-5.  <b>daysOfWeek&lbrack;6&rbrack;</b>
-6.  <b>undefined</b>
-7.  // <i>NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is 0</i>
-    // <i>last 6-1 = 5</i>
-8.  &gt; daysOfWeek<b>&lbrack;6&rbrack; = 'Sunday'</b>
-9.  <b>"Sunday"</b>
-10. <b>daysOfWeek.length</b>
-11. <b>7</b>
-12. // <i>Sunday, the 7th day of week is at index 6 !</i></pre>
+<b>undefined</b>
+<b>daysOfWeek.length</b>
+<b>6</b>
+<b>daysOfWeek&lbrack;6&rbrack;</b>
+<b>undefined</b>
+// <i>NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is 0</i>
+// <i>last 6-1 = 5</i>
+&gt; daysOfWeek<b>&lbrack;6&rbrack; = 'Sunday'</b>
+<b>"Sunday"</b>
+<b>daysOfWeek.length</b>
+<b>7</b>
+// <i>Sunday, the 7th day of week is at index 6 !</i></pre>
 
 </details>
 
@@ -6594,16 +6514,16 @@ equal to the length of the array.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>1.  &gt; var a &lbrack;&rbrack;;
-2.  &gt; <b>typeof a;</b>
-3.  <b>"object"</b>
-4.  &gt; var a = &lbrack;1,2,3&rbrack;;
-5.  &gt; a
-6.  &lbrack;1, 2, 3&rbrack;
-7.  &gt; a&lbrack;0&rbrack;
-8.  1
-9.  &gt; a&lbrack;1&rbrack;
-10. 2</pre>
+<pre>&gt; var a &lbrack;&rbrack;;
+&gt; <b>typeof a;</b>
+<b>"object"</b>
+&gt; var a = &lbrack;1,2,3&rbrack;;
+&gt; a
+&lbrack;1, 2, 3&rbrack;
+&gt; a&lbrack;0&rbrack;
+1
+&gt; a&lbrack;1&rbrack;
+2</pre>
 
 </details>
 
