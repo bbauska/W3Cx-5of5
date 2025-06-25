@@ -188,6 +188,20 @@ pre:hover, pre:focus {
   width: 400px; 
 }
 
+th, td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  margin-left: 15px;
+  border: 1px solid black;
+}
+
+@media all and (max-width: 500px) {
+  img.frame { 
+    border-width: 0px;
+    width: 100%; }
+}
 @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
   div.example {
     font-size: 50px;
