@@ -30,23 +30,23 @@ p {
 }
 
 a:link {
-  color: #013220;  /* very dark green */
+  color: #013220;  /* Very dark (mostly black) cyan - lime green */
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: #037d50;  /* green, next: 0000ff: pure (or mostly pure) blue, was: dark red: #a5682a */
+  color: #037d50;  /* dark cyan - lime green */
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: #00000;
-  background-color: #ffff00;  /* yellow */
+  color: #00000;  /* black */
+  background-color: #ffff00;  /* pure (or mostly pure) yellow */
   text-decoration: underline;
 }
 a[href]:hover {
   text-decoration: underline; 
-  text-decoration-color: 0000ff;
+  text-decoration-color: #0000ff;  /* pure (or mostly pure) blue */
 }
 
 div {
@@ -102,7 +102,7 @@ details > p {
   background-color: #fff;  /* white */
   padding: 2px 6px;
   margin: 0;
-  box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
+  box-shadow: 3px 3px 4px #00008b;  /* dark blue */
 }
 details[open] > summary {
   background-color: yellow;
@@ -192,7 +192,7 @@ pre:hover, pre:focus {
   div.example {
     font-size: 50px;
     padding: 50px;
-    border: 8px solid black;
-    background: yellow;
+    border: 8px solid #000;  /* black */
+    background: #ffff00;  /* pure (or mostly pure) yellow */
   }
 }
