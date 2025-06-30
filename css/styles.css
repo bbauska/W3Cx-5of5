@@ -178,14 +178,14 @@ pre .cl {
   clear:both;
 }
 pre {
-  width: 400px;
+  width: 450px;
   overflow: auto;
 }
 pre[href]:hover  {
   text-decoration: none;
 }
 pre:hover, pre:focus { 
-  width: 400px; 
+  width: 450px; 
 }
 
 th, td {
