@@ -105,7 +105,7 @@ details > p {
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
 }
 details[open] > summary {
-  background-color: yellow;
+  background-color: #ffff00;  /* pure (or mostly pure) yellow */
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
@@ -114,7 +114,7 @@ body {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   font-size: 13.5px;  /* 14.5, 1.2rem; */
   background-color: #eee;  /* very light gray */
-  color: #000000;  /* black */
+  color: #000;  /* black */
   text-align: left;
   padding: 10px;
   margin: 15px;  /* was margin-left: 10px; */
@@ -158,7 +158,7 @@ pre code,
 pre .line-number {
   /* Ukuran line-height antara teks di dalam tag <code> dan <span class="line-number"> harus sama! */
   font:normal normal 10px/12px consolas,Courier,Monospace;
-  color:black;
+  color:#000;
   display:block;
 }
 pre .line-number {
@@ -167,7 +167,7 @@ pre .line-number {
   margin:0 1em 0 -1em;
   border-right:1px solid;
   text-align:right;
-  color: red;
+  color: #ff0000;  /* pure (or mostly pure) red */
 }
 pre .line-number span {
   display:block;
@@ -189,12 +189,12 @@ pre:hover, pre:focus {
 }
 
 th, td {
-  border: 1px solid black;
+  border: 1px solid #000;
 }
 table {
   border-collapse: collapse;
   margin-left: 15px;
-  border: 1px solid black;
+  border: 1px solid #000;
 }
 
 @media all and (max-width: 500px) {
