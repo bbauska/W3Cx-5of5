@@ -40,7 +40,7 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #00000;  /* black */
+  color: #000000;  /* black */
   background-color: #ffff00;  /* pure (or mostly pure) yellow */
   text-decoration: underline;
 }
@@ -151,7 +151,7 @@ pre {
   overflow:auto;
   margin:0 0 1em;
   padding:.5em 1em;
-  white-space: pre-wraps;
+  white-space: pre-wrap;
   overflow-x: auto;
 }
 pre code,
