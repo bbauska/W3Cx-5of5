@@ -9213,10 +9213,10 @@ name as the second parameter):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Adding an event listener to specific HTML elements</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Instead of listening to event on the whole document (using addEventListener 
-is the same as using window.addEventListener), we can listen to specific DOM 
-elements. For example, here is how we can listen to clicks on a specific button 
-(whereas clicks on the rest of the document will be ignored).</p>
+<p>Instead of listening to event on the whole document (using addEventListener is the same as
+using window.addEventListener), we can listen to specific DOM elements. For example, here is how 
+we can listen to clicks on a specific button (whereas clicks on the rest of the document will be 
+ignored).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 254. codepen: click me! button (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/vxdxdm" 
@@ -16066,14 +16066,14 @@ other words, the function after onload: will be executed (at <b><i>lines
 7-9</i></b>). In this callback, we enable the button because the sound is
 ready to be played.</p>
 
-<p>The playSound function can only be called when the button is enabled
-(when the sound sample has been loaded and decoded). In order to play a
-sound loaded by Howler.JS, we just call the play() method (<b><i>line14</i></b>).</p>
+<p>The playSound function can only be called when the button is enabled (when the sound sample has 
+been loaded and decoded). In order to play a sound loaded by Howler.JS, we just call the play() 
+method (<b><i>line14</i></b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-3">3.5.3 Adding music and sound effects</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Here is the last version of the game from Module 2 with music and sound
-effects (when the player eats a ball):</p>
+<p>Here is the last version of the game from Module 2 with music and sound effects (when the player 
+eats a ball):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 435. codepen: music and sound effects (383) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/EWzgpr" 
@@ -16087,15 +16087,13 @@ target="_blank" rel="noopener noreferrer">
 <h6 align="center"><a href="https://codepen.io/w3devcampus/pen/EWzgpr" 
 target="_blank" rel="noopener noreferrer">CodePen: adding music and sound effects</a>.</h6>
 
-<p>Look at the HTML part: we included the Howler.js library and we also
-added an &lt;audio&gt; player (invisible; we removed the controls attribute)
-for background music.</p>
+<p>Look at the HTML part: we included the Howler.js library and we also added an &lt;audio&gt; 
+player (invisible; we removed the controls attribute) for background music.</p>
 
-<p>In the JavaScript code, we start the background music as soon as the
-page is loaded.</p>
+<p>In the JavaScript code, we start the background music as soon as the page is loaded.</p>
 
-<p>We then used HowlerJS to load a sound sample in background. Only once
-this sample has been loaded and decoded do we start the animation.</p>
+<p>We then used HowlerJS to load a sound sample in background. Only once this sample has been 
+loaded and decoded do we start the animation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-4">3.5.4 &lbrack;Advanced&rbrack; a multiple image, sound and music loader (3:47)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -16191,12 +16189,11 @@ And how are we going to use this for playing music for example?</p>
   title="setInterval on sound effects"
   alt="setInterval on sound effects." />
 
-<p>"playHumbug()". You see. The music is just called by its name.
-"LoadedAssets" the object of the top of the file ".humbug" the name of
-the music ".play()".</p>
+<p>"playHumbug()". You see. The music is just called by its name. "LoadedAssets" the object of the 
+top of the file ".humbug" the name of the music ".play()".</p>
 
-<p>For playing some sound samples, here we are going to play a "plop" sound
-sample every 1000 milliseconds&#41; every second.</p>
+<p>For playing some sound samples, here we are going to play a "plop" sound sample every 1000
+milliseconds&#41; every second.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436g. loadAssets.plop.play (387) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -16211,8 +16208,8 @@ Instead of using "assetsToLoadURLs" now we are using "LoadedAssets&quot;.plop be
 "LoadedAssets" will initialize this object here, this variable with the decoded sound samples, 
 with the loaded images and so on.</p>
 
-<p>I hope you will find this useful if you are planning to write a small
-HTML5 game with lots of JavaScript.</p>
+<p>I hope you will find this useful if you are planning to write a small HTML5 game with lots 
+of JavaScript.</p>
 
 <!-- end transcript 3.5.4 -->
 
@@ -16223,34 +16220,27 @@ HTML5 game with lots of JavaScript.</p>
 target="_blank" rel="noopener noreferrer">
 HTML5 Apps and Games</a> course.</p>
 
-<p>In video games, you very often need to load assets before starting the
-game:</p>
+<p>In video games, you very often need to load assets before starting the game:</p>
 
 <ul>
-  <li>Images must be loaded (background image, game logo, sprite sheets,
-    etc.)</li>
-  <li>Sound samples must be loaded and decoded (the previous example used
-    only one single sound sample, but with multiple samples it becomes
-    more difficult to know when they are all ready to be used, as they
-    come asynchronously over the network),</li>
-  <li>For streamed music, you need an &lt;audio&gt; player element. If you use
-    different pieces of music, you may use multiple audio elements, and
-    you pause one and start another when you change the music.
-    Alternatively you may use a single audio element, and change
-    its src attribute.</li>
+  <li>Images must be loaded (background image, game logo, sprite sheets, etc.)</li>
+  <li>Sound samples must be loaded and decoded (the previous example used only one single sound 
+    sample, but with multiple samples it becomes more difficult to know when they are all ready 
+	to be used, as they come asynchronously over the network),</li>
+  <li>For streamed music, you need an &lt;audio&gt; player element. If you use different pieces of 
+    music, you may use multiple audio elements, and you pause one and start another when you change 
+	the music. Alternatively you may use a single audio element, and change its src attribute.</li>
 </ul>
 
 <p>We wrote a multiple &quot;<b>asset loader</b>&quot; to make all these tasks easy.</p>
 
-<p>Here is a small example that you may use if you like, which takes an array of 
-&quot;assets to be loaded&quot;, that can be either an image, a sound sample or 
-streamed background music. You call the loadAssets(callback) function, passing as 
-a parameter a single callback function of yours. When all assets are loaded, your 
-callback will be executed, and will get a single parameter: the assets ready to
-be used!</p>
+<p>Here is a small example that you may use if you like, which takes an array of &quot;assets to 
+be loaded&quot;, that can be either an image, a sound sample or streamed background music. You call
+the loadAssets(callback) function, passing as a parameter a single callback function of yours. When 
+all assets are loaded, your callback will be executed, and will get a single parameter: the assets 
+ready to be used!</p>
 
-<p>Example (to hear the music and sound sample, there are two lines to
-uncomment in the <b>startGame(...)</b> function):</p>
+<p>Example (to hear the music and sound sample, there are two lines to uncomment in the <b>startGame(...)</b> function):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 437. codepen: load music and sound sample (389) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -16285,7 +16275,7 @@ var assetsToLoadURLs = {
 };</pre>
 
 </details>
-
+<br><br>
 <details>
   <summary>Source Code:</summary>
 
@@ -16614,11 +16604,9 @@ and name are very very similar to arrays because arrays are objects too.</p>
   title="Brackets and '.' operator"
   alt="Brackets and '.' operator." />
 
-<p>If I use the name of the property with the brackets notation, look at
-that: darkVadorAsAnObject&lbrack;&rbrack;, the name of the property (job) then...
-you&apos;ve got the exact same result as if you're using the &apos;.&apos; operator.
-In JavaScript objects are arrays whose indexes are the property names.
-They are very very similar.</p>
+<p>If I use the name of the property with the brackets notation, look at that: darkVadorAsAnObject&lbrack;&rbrack;, the name of the property (job) then...you&apos;ve got the 
+exact same result as if you're using the &apos;.&apos; operator. In JavaScript objects are arrays 
+whose indexes are the property names. They are very similar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 445. book.title, '.' notation (399) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -16629,13 +16617,13 @@ They are very very similar.</p>
   alt="Book.title, '.' notation." />
 
 <p>Look at this object named "book": book.title ... Le Petit Prince and
-book&lbrack;&apos;title&apos;&rbrack; will give exactly the same result. Why would you use
-this notation for accessing properties?</p>
+book&lbrack;&apos;title&apos;&rbrack; will give exactly the same result. Why would you use this 
+notation for accessing properties?</p>
 
-<p>It&apos;s because in some cases you can have property names that include
-spaces or that start with a number.</p>
+<p>It&apos;s because in some cases you can have property names that include spaces or that start 
+with a number.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 446. example, index (400) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 446. example, index (400) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image446.webp?raw=true"
   loading="lazy"
@@ -16673,17 +16661,16 @@ except that in that case the name of the property is the value of the
   src="./images/image448.webp?raw=true"
   loading="lazy"
   style="width:35%"
-  title="Object can contain object"
-  alt="Object can contain object." />
+  title="Object can contain another object"
+  alt="Object can contain another object." />
 
-<p>I type key ="name" ... "book2" that is an object with the name. I can
-type &quot;book2.key3", it&apos;s exactly the same as typing "book2.name". You
-can also have objects that contain objects. The "book2" object, here,
-has the property name author that in turn is an object. It uses brackets
-and a pair of property values. In that case, you can chain the &apos;.&apos;
-operator to access the sub-properties. "book2.author" is an object,
-"book2.author.familyName" will access the "familyName" property of the
-author object that is a property of "book2". And it gives "heller" here.</p>
+<p>I type key ="name" ... "book2" that is an object with the name. I can type &quot;book2.key3", 
+it&apos;s exactly the same as typing "book2.name". You can also have objects that contain objects. 
+The "book2" object, here, has the property name author that in turn is an object. It uses brackets
+and a pair of property values. In that case, you can chain the &apos;.&apos; operator to access 
+the sub-properties. "book2.author" is an object, "book2.author.familyName" will access the 
+"familyName" property of the author object that is a property of "book2". And it gives "heller" 
+here.</p>
 
 <!-- end transcript 4.2.2  -->
 
@@ -16696,9 +16683,9 @@ target="_blank" rel="noopener noreferrer">is available on CodePen</a>.</p>
 
 <h5>In Javascript, an object = a table whose keys/indexes are defined!</h5>
 
-<p><b>Important note:</b> Darth Vader is called &quot;Dark Vador&quot; in the French
-versions of Star Wars, and, as a French tutor, I think it&apos;s cool to
-give to one of the heroes an international name. :-)</p>
+<p><b>Important note:</b> Darth Vader is called &quot;Dark Vador&quot; in the French versions of 
+Star Wars, and, as a French tutor, I think it&apos;s cool to give to one of the heroes an 
+international name. :-)</p>
 
 <h5>Look at this array:</h5>
 
@@ -16725,22 +16712,19 @@ Undefined
 
 <ul>
   <li>Same name of the variable that contains the object = darkVador</li>
-  <li>Instead of &apos;&lbrack;&apos; and &apos;&rbrack;&apos; that we used 
-    for defining an array, we use &apos;{&apos; and &apos;}&apos; for defining 
-    an object</li>
-  <li>The elements of the object (its <b>properties</b>) are separated by a
-    comma &apos;,&apos;</li>
-  <li>The pairs of keys/values are separated by &apos;:&apos; as
-    in race<b>:</b> &apos;half human, half machine&apos;</li>
+  <li>Instead of &apos;&lbrack;&apos; and &apos;&rbrack;&apos; that we used for defining an array, 
+    we use &apos;{&apos; and &apos;}&apos; for defining an object</li>
+  <li>The elements of the object (its <b>properties</b>) are separated by a comma &apos;,&apos;</li>
+  <li>The pairs of keys/values are separated by &apos;:&apos; as in race<b>:</b> &apos;half 
+    human, half machine&apos;</li>
   <li>The last pair of keys/values has no &apos;,&apos; at the end.</li>
 </ul>
 
 <h5>It is possible to access the object&apos;s properties with &quot;.&quot; or with brackets</h5>
 
-<p>We saw that we can use the &quot;.&quot; operator, followed by the property
-name. It&apos;s also possible to use the bracket notation, and manipulate
-the object as an array whose indexes, instead of being 0, 1, 2 etc., are
-the property names!</p>
+<p>We saw that we can use the &quot;.&quot; operator, followed by the property name. It&apos;s also
+possible to use the bracket notation, and manipulate the object as an array whose indexes, instead 
+of being 0, 1, 2 etc., are the property names!</p>
 
 <details>
   <summary>Source Code:</summary>
@@ -16765,11 +16749,10 @@ undefined
 
 </details>
 
-<p>As you can see, if you look at <b><i>lines 7-10</i></b> and <b><i>13-16</i></b>,
-writing book.title or book&lbrack;&apos;title&apos;&rbrack; is equivalent!</p>
+<p>As you can see, if you look at <b><i>lines 7-10</i></b> and <b><i>13-16</i></b>, 
+writing book.title or book&lbrack;&apos;title&apos;&rbrack; is equivalent!</p>
 
-<p><b>In JavaScript, objects are arrays whose indexes are property names:
-please remember this!</b></p>
+<p><b>In JavaScript, objects are arrays whose indexes are property names: please remember this!</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-3">4.2.3 Property declaration syntax</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -16801,8 +16784,8 @@ book&lbrack;&apos;date of publication&apos;&rbrack; = &apos;6 April 1943&apos;
 
 <h4>Another classic case where the name of a property is in a variable</h4>
 
-<p>In this case it is necessary  to use the syntax with &apos;&lbrack;&apos; 
-and &apos;&rbrack;&apos; ...</p>
+<p>In this case it is necessary  to use the syntax with &apos;&lbrack;&apos; and 
+&apos;&rbrack;&apos; ...</p>
 
 <h5>Example:</h5>
 
@@ -16810,7 +16793,6 @@ and &apos;&rbrack;&apos; ...</p>
 undefined
 <b>book&lbrack;key&rbrack;;</b>
 &quot;Le Petit Prince&quot;</pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-4">4.2.4 An object can contain another object</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -16844,10 +16826,10 @@ Undefined
   title="Pile of books logo"
   alt="Pile of books logo." />
 </div>
-<p>Accessing the embedded object author is
-done by chaining property accesses using the &quot;.&quot; operator, like
-in book.author.givenName (here we access the givenName property of the
-object author, which is also a property of the book object).</p>
+
+<p>Accessing the embedded object author is done by chaining property accesses using the &quot;.&quot; 
+operator, like in book.author.givenName (here we access the givenName property of the object author, 
+which is also a property of the book object).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-5">4.2.5 Elements, properties and methods (6:37)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -22445,6 +22427,7 @@ implemented in the previous page:</p>
 <!-- last editted 06/04/2025 9:20pm -->
 <!-- last editted 06/11/2025 7:39pm -->
 <!-- last editted 10/05/2025 11:41am -->
+<!-- last editted 1/1/2026 5:18pm -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <script src="./js/scripts.js"></script>
 </body>
