@@ -12,13 +12,13 @@ img.displayed {
 ul li {
   font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  padding: 14.5px;  /* 10px */
+  padding: 10px;  /* 14.5px */
   line-height:110%;
 }
 ol li {
   font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  padding: 14.5px;  /* 10px */
+  padding: 10px;  /* 14.5px */
   line-height:110%;
 }
 
