@@ -21276,15 +21276,13 @@ obj.name; // this is an object
 
 </details>
 
-<p>With the JSON representation of an object you cannot access the original
-object&apos;s properties using the &quot;.&quot; operator, nor call its
-methods. <b>The JSON format only stores the list of the object properties
-(name and value) as a string.</b> Look at <b><i>line 10</i></b>: we cannot access
-the name property of the JSON representation of the metallica object
-defined at <b><i>line 1</i></b>.</p>
+<p>With the JSON representation of an object you cannot access the original object&apos;s properties 
+using the &quot;.&quot; operator, nor call its methods. <b>The JSON format only stores the list of the 
+object properties (name and value) as a string.</b> Look at <b><i>line 10</i></b>: we cannot access 
+the name property of the JSON representation of the metallica object defined at <b><i>line 1</i></b>.</p>
 
-<p>When we parse a JSON string using JSON.parse(), we get a real JavaScript
-object, and we can access its properties (<b><i>lines 16 and 19</i></b>).</p>
+<p>When we parse a JSON string using JSON.parse(), we get a real JavaScript object, and we can 
+access its properties (<b><i>lines 16 and 19</i></b>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-2">5.4.2 Consuming JSON remote data (10:10)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -21298,88 +21296,71 @@ object, and we can access its properties (<b><i>lines 16 and 19</i></b>).</p>
   title="CodePen: consuming JSON remote data"
   alt="CodePen: consuming JSON remote data." />
 
-<p>This time we will look at how we can send an AJAX request to a remote
-server, get the data in JSON, parse this data and build dynamically an
-HTML table that will display the results.</p>
+<p>This time we will look at how we can send an AJAX request to a remote server, get the data in 
+JSON, parse this data and build dynamically an HTML table that will display the results.</p>
 
-<p>I prepared a small template, a small HTML template with a button that
-will call a "search()" function that is located in the JavaScript code
-and we will write it together. And we also prepared the div location
-that is not visible here, below the button, that will contain the table
+<p>I prepared a small template, a small HTML template with a button that will call a "search()" 
+function that is located in the JavaScript code and we will write it together. And we also 
+prepared the div location that is not visible here, below the button, that will contain the table 
 that we will create dynamically.</p>
 
-<p>First, let&apos;s have a look at the URL of the data source. I&apos;m still
-using the "jsonplaceholder.typicode.com" Web site. And if we click on
-"/user", you got here the URL that returns the list of users, actually
-an array of objects, each object being a user with properties and
-values. To send a request, we will use 2 different methods, one that is
-called "XhR2" or XML Http Request level 2.</p>
+<p>First, let&apos;s have a look at the URL of the data source. I&apos;m still using the 
+"jsonplaceholder.typicode.com" Web site. And if we click on "/user", you got here the URL that 
+returns the list of users, actually an array of objects, each object being a user with properties 
+and values. To send a request, we will use 2 different methods, one that is called "XhR2" or XML 
+Http Request level 2.</p>
 
-<p>And one that uses a brand-new API that is implemented only in recent
-browsers that is called "fetch". Let&apos;s start with "XhR2". I declare a
-URL, and "<b>queryURL</b>". I&apos;m just following the same syntax as in the
-example. And we need to create an XML Http Request: "xhr = new
+<p>And one that uses a brand-new API that is implemented only in recent browsers that is called 
+"fetch". Let&apos;s start with "XhR2". I declare a URL, and "<b>queryURL</b>". I&apos;m just 
+following the same syntax as in the example. And we need to create an XML Http Request: "xhr = new
 <b>XMLHttpRequest ()</b>".</p>
 
-<p>That's it: "<b>XMLHttpRequest()</b>". And then you indicate what is the
-parameter of the request: "<b>xhr.open()</b>". We&apos;re going to do a "GET".
-"GET" is an http order that means 'go on the Web and get me the data
-from there'. And you indicate also the URL. And the last parameter will
-be set to true. Then, you will send the request. When you do this, your
-request is sent but it can take some time. And for getting the data and
-processing it, we must indicate a callback that will call by the browser
-only when the response arrives.</p>
+<p>That's it: "<b>XMLHttpRequest()</b>". And then you indicate what is the parameter of the request: 
+"<b>xhr.open()</b>". We&apos;re going to do a "GET". "GET" is an http order that means 'go on the 
+Web and get me the data from there'. And you indicate also the URL. And the last parameter will 
+be set to true. Then, you will send the request. When you do this, your request is sent but it can 
+take some time. And for getting the data and processing it, we must indicate a callback that will 
+call by the browser only when the response arrives.</p>
 
-<p>This is how it works: "<b>xhr.onload</b> =" and you indicate the callback
-function, and usually, you also use the event as the only parameter. And
-here, we can just start trying to see if it works. I open the console,
-here, click on the button and see ... "xrh" is not defined. It&apos;s "xhr".
-Ok, I clear the console! Yes, the response arrived. I can even use the
-devtool debugger. If I click on "Network", "XHR", clear. Click on the
-button, I will see the request here and if I click on it, I can see the
-response.</p>
+<p>This is how it works: "<b>xhr.onload</b> =" and you indicate the callback function, and usually, 
+you also use the event as the only parameter. And here, we can just start trying to see if it works. 
+I open the console, here, click on the button and see ... "xrh" is not defined. It&apos;s "xhr". 
+Ok, I clear the console! Yes, the response arrived. I can even use the devtool debugger. If I click 
+on "Network", "XHR", clear. Click on the button, I will see the request here and if I click on it, 
+I can see the response.</p>
 
-<p>I see that I&apos;ve got the JSON object from the remote server. Now that
-the response arrived, I can directly display it: "<b>xhr.response</b>".
-It&apos;s a string, I save and run it again. Ok, sorry this was too long,
-but I can open the real devtool console, and I can see that I got the
+<p>I see that I&apos;ve got the JSON object from the remote server. Now that the response arrived, 
+I can directly display it: "<b>xhr.response</b>". It&apos;s a string, I save and run it again. Ok, 
+sorry this was too long, but I can open the real devtool console, and I can see that I got the 
 object here.</p>
 
-<p>This has been printed by the "<b>console.log()</b>". In order to work with
-this object, I will need to convert it to a real JavaScript object:
-"users = (<b>xhr.response</b>)". But in order to turn it into JavaScript
-object, we use "JSON.parse()", you remember from the previous video? And
-here, just to debug I can try to write: 'first user' ...Because this
-object is an array, you see it&apos;s an array.</p>
+<p>This has been printed by the "<b>console.log()</b>". In order to work with this object, I will 
+need to convert it to a real JavaScript object: "users = (<b>xhr.response</b>)". But in order to 
+turn it into JavaScript object, we use "JSON.parse()", you remember from the previous video? And 
+here, just to debug I can try to write: 'first user' ...Because this object is an array, you see 
+it&apos;s an array.</p>
 
-<p>Displaying the first of them should work. It says 'first user' is an
-object. I can also directly turn it into a string. Ok, parentheses is
-missing...And I can see this time, the first user, the 'first user' that
-has been displayed. Now we will use this! That will check that it works:
-we can call displayUsersAsATable(...) passing the users. In order to
-insert a table here, first we need to create the table.</p>
+<p>Displaying the first of them should work. It says 'first user' is an object. I can also directly 
+turn it into a string. Ok, parentheses is missing...And I can see this time, the first user, the 
+'first user' that has been displayed. Now we will use this! That will check that it works: we can 
+call displayUsersAsATable(...) passing the users. In order to insert a table here, first we need 
+to create the table.</p>
 
-<p>Let me copy and paste some code. We start by getting a reference on the
-HTML div in the page that was called users, "id = "users". Then we
-create a table: <b>document.createElement(&quot;table&quot;)</b>;, and then we can
-try to insert rows for each user. So "users.forEach()" takes a callback
-with the first parameter being the current element of the user&apos;s array.
-"console.log(currentUser.name)"...let&apos;s try this to see if it works...
-Clear ... save...Click on the button... and I see the names of the
-users.</p>
+<p>Let me copy and paste some code. We start by getting a reference on the HTML div in the page that 
+was called users, "id = "users". Then we create a table: <b>document.createElement(&quot;table&quot;)</b>;, 
+and then we can try to insert rows for each user. So "users.forEach()" takes a callback with the first 
+parameter being the current element of the user&apos;s array. "console.log(currentUser.name)"...let&apos;s 
+try this to see if it works... Clear ... save...Click on the button... and I see the names of the users.</p>
 
-<p>Now, I&apos;m going to add a row to a table. "<b>table.insertRow()</b>;" put
-this in variable called "row", and then I can do: "<b>row.innerHTML</b>= ",
-for example, just the name.</p>
+<p>Now, I&apos;m going to add a row to a table. "<b>table.insertRow()</b>;" put this in variable 
+called "row", and then I can do: "<b>row.innerHTML</b>= ", for example, just the name.</p>
 
-<p>Here, I inserted rows whose content is the name of the user. And in the
-end, what we do is that we will add the table to the div. So,
-"<b>usersDiv.appendChild()</b>", or "append" works too on modern browsers,
-append(). And we put the table in it. Let&apos;s try...Clear. "<b>usersDiv</b>"
-with a "s" and it works! Now, in order to have a nice table, I could
-also add some CSS to make it better, or I can define some &lt;td&gt; (table
-data) to make a nicer table. And I can display for example another
-property that will be the email of the person. That's it!</p>
+<p>Here, I inserted rows whose content is the name of the user. And in the end, what we do is that 
+we will add the table to the div. So, "<b>usersDiv.appendChild()</b>", or "append" works too on 
+modern browsers, append(). And we put the table in it. Let&apos;s try...Clear. "<b>usersDiv</b>"
+with a "s" and it works! Now, in order to have a nice table, I could also add some CSS to make it 
+better, or I can define some &lt;td&gt; (table data) to make a nicer table. And I can display for 
+example another property that will be the email of the person. That's it!</p>
 
 <!-- end transcript 5.4.2 -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -21387,23 +21368,21 @@ property that will be the email of the person. That's it!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>The source code can be found <a href="https://codepen.io/w3devcampus/pen/bRRjvv?editors=0011" 
-    target="_blank" rel="noopener noreferrer">on this CodePen</a></li>
+    target="_blank" rel="noopener noreferrer" title="CodePen">on this CodePen</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>JSON data from a REST Web Service</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Most &quot;big sites&quot; provide what we call a REST API. This means &quot;they
-propose to send/receive data to/from programs over HTTP&quot;, and most of
-the time the JSON format is one of the possible transport formats for
-the data. Google APIs, Facebook and Amazon APIs are like this.</p>
+<p>Most &quot;big sites&quot; provide what we call a REST API. This means &quot;they propose to 
+send/receive data to/from programs over HTTP&quot;, and most of the time the JSON format is one 
+of the possible transport formats for the data. Google APIs, Facebook and Amazon APIs are like 
+this.</p>
 
-<p><b>JSONPlaceholder</b> is a free online REST service that you can use
-whenever you need some fake data in JSON. Faking a server is great for
-tutorials, and this is exactly what the next example does. Please
-open <a href="https://jsonplaceholder.typicode.com/users" 
-target="_blank" rel="noopener noreferrer">this URL</a> - you will 
-see some JSON data coming from the server and being displayed in your
-browser as shown below:</p>
+<p><b>JSONPlaceholder</b> is a free online REST service that you can use whenever you need some 
+fake data in JSON. Faking a server is great for tutorials, and this is exactly what the next 
+example does. Please open <a href="https://jsonplaceholder.typicode.com/users" 
+target="_blank" rel="noopener noreferrer" title="JSON URL">this URL</a> - you will see some JSON 
+data coming from the server and being displayed in your browser as shown below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 514. json: working with remote data using XhR2 API (487) ~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -21413,13 +21392,11 @@ browser as shown below:</p>
   title="JSON: working with remote data using XhR2 API"
   alt="JSON: working with remote data using XhR2 API." />
 
-<p>And we would like to use these data in our code, manipulating them as a
-JavaScript object.</p>
+<p>And we would like to use these data in our code, manipulating them as a JavaScript object.</p>
 
-<p>This course does not cover Ajax and what we call &quot;asynchronous
-JavaScript&quot;. However, we can show you two simple examples that use the
-Xhr2 API for Ajax requests and the new fetch API that is simplest to
-use.</p>
+<p>This course does not cover Ajax and what we call &quot;asynchronous JavaScript&quot;. However, we 
+can show you two simple examples that use the Xhr2 API for Ajax requests and the new fetch API that 
+is simplest to use.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Downloading JSON data using the XhR2 API</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -21434,7 +21411,8 @@ target="_blank" rel="noopener noreferrer">
   alt="CodePen: working with remote data using XhR2 API." /></a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h6 style="text-align:center"><a href="https://codepen.io/w3devcampus/pen/vmLMRN" 
-target="_blank" rel="noopener noreferrer">CodePen: working with remote data using XhR2 API</a>.</h6>
+target="_blank" rel="noopener noreferrer" title="CodePen working with remote data">
+CodePen: working with remote data using XhR2 API</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>JavaScript source code extract:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -21466,55 +21444,47 @@ target="_blank" rel="noopener noreferrer">CodePen: working with remote data usin
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li><b><i>Lines 4 and 5</i></b> build an Ajax request using XhR2.</li>
-  <li><b><i>Line 22</i></b> is executed after: the request is sent in the background
-    (we say &quot;asynchronously&quot;).</li>
-  <li><b><i>Line 8</i></b>: when the server answers, this callback is executed, and
-    inside it, <b>this.response</b> corresponds to the response from the
-    HTTP server. It&apos;s in JSON format (<b><i>line 9</i></b>)</li>
-  <li><b><i>Line 12</i></b>: we turn the JSON response into a regular JavaScript
-    object we can work with, using <b>JSON.parse()</b>.</li>
-  <li><b><i>Line 13</i></b>: we pass this list of users, now a JavaScript object, to
-    the <b>displayUsersAsATable</b> method, that will use the HTML table
-    API we saw earlier in the course.</li>
+  <li><b><i>Line 22</i></b> is executed after: the request is sent in the background (we say 
+    &quot;asynchronously&quot;).</li>
+  <li><b><i>Line 8</i></b>: when the server answers, this callback is executed, and inside it, 
+    <b>this.response</b> corresponds to the response from the HTTP server. It&apos;s in JSON format 
+	(<b><i>line 9</i></b>)</li>
+  <li><b><i>Line 12</i></b>: we turn the JSON response into a regular JavaScript object we can work 
+    with, using <b>JSON.parse()</b>.</li>
+  <li><b><i>Line 13</i></b>: we pass this list of users, now a JavaScript object, to the 
+    <b>displayUsersAsATable</b> method, that will use the HTML table API we saw earlier in the 
+	course.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>&lbrack;Advanced&rbrack; Downloading JSON data using the fetch API</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" 
-target="_blank" rel="noopener noreferrer">Fetch API</a> provides
-a JavaScript interface for accessing and manipulating parts of the HTTP
-pipeline, such as requests and responses. It also provides a
-global <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch" 
-target="_blank" rel="noopener noreferrer">fetch()</a> method
-that provides an easy, logical way to fetch resources asynchronously
-across the network. You <b>fetch</b> data from a URL, <b>then</b>, you do
-something with the response, <b>then</b> you do something else. If there is
-an error you can <b>catch</b> this error and display, for example, an error
-message.</p>
+target="_blank" rel="noopener noreferrer" title="Fetch API">Fetch API</a> provides a JavaScript 
+interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses. 
+It also provides a global <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch" 
+target="_blank" rel="noopener noreferrer" title="fetch()">fetch()</a> method that provides an easy, 
+logical way to fetch resources asynchronously across the network. You <b>fetch</b> data from a URL, 
+<b>then</b>, you do something with the response, <b>then</b> you do something else. If there is an 
+error you can <b>catch</b> this error and display, for example, an error message.</p>
 
 <p>See <a href="https://javascript.info/fetch-api" 
-target="_blank" rel="noopener noreferrer">this blog post</a> for a detailed
-tutorial. Asynchronous JavaScript and JavaScript promises (the
-fetch...then...then... is based on the concept of &quot;promises&quot;) is
-not detailed in this course.</p>
+target="_blank" rel="noopener noreferrer" title="JavaScipt blog post">this blog post</a> for a 
+detailed tutorial. Asynchronous JavaScript and JavaScript promises (the fetch...then...then... is 
+based on the concept of &quot;promises&quot;) is not detailed in this course.</p>
 
 <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" 
-target="_blank" rel="noopener noreferrer">Fetch API</a> provides
-a JavaScript interface for accessing and manipulating parts of the HTTP
-pipeline, such as requests and responses. It also provides a
-global <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch" 
-target="_blank" rel="noopener noreferrer">fetch()</a> method
-that provides an easy, logical way to fetch resources asynchronously
-across the network. You <b>fetch</b> data from a URL, <b>then</b>, you do
-something with the response, <b>then</b> you do something else. If there is
-an error you can <b>catch</b> this error and display, for example, an error
-message.</p>
+target="_blank" rel="noopener noreferrer" title="Fetch API">Fetch API</a> provides a JavaScript 
+interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses. 
+It also provides a global <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch" 
+target="_blank" rel="noopener noreferrer" title="fetch()">fetch()</a> method that provides an easy, 
+logical way to fetch resources asynchronously across the network. You <b>fetch</b> data from a URL, 
+<b>then</b>, you do something with the response, <b>then</b> you do something else. If there is an 
+error you can <b>catch</b> this error and display, for example, an error message.</p>
 
-<p>See <a href="https://javascript.info/fetch-api" 
-target="_blank" rel="noopener noreferrer">this blog post</a> for a detailed
-tutorial. Asynchronous JavaScript and JavaScript promises (the
-fetch...then...then... is based on the concept of &quot;promises&quot;) is
-not detailed in this course.</p>
+<p>See <a href="https://javascript.info/fetch-api" target="_blank" rel="noopener noreferrer" 
+title="JavaScript blog post">this blog post</a> for a detailed tutorial. Asynchronous JavaScript 
+and JavaScript promises (the fetch...then...then... is based on the concept of &quot;promises&quot;) 
+is not detailed in this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 516. CodePen: get remote list using fetch api (490) ~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/xgoZdg" 
@@ -21551,14 +21521,13 @@ CodePen: Get remote list of users' names &amp; emails using fetch API</a>.</h6>
 
 </details>
 
-<p>In contrast to XhR2, fetch is based on a concept called &quot;JavaScript
-promises&quot;. You recognize promises when you see &quot;.then...&quot;
-&quot;.then...&quot;.</p>
+<p>In contrast to XhR2, fetch is based on a concept called &quot;JavaScript promises&quot;. You 
+recognize promises when you see &quot;.then...&quot; &quot;.then...&quot;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-3">5.4.3 The LocalStorage API</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Let&apos;s look at an example of use: the LocalStorage API as a client-side
-database for JavaScript objects.</p>
+<p>Let&apos;s look at an example of use: the LocalStorage API as a client-side database for 
+JavaScript objects.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The Web Storage API (localStorage, sessionStorage)</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -22311,7 +22280,8 @@ in the previous page:</p>
 <!-- last editted 10/05/2025 11:41am -->
 <!-- last editted 1/1/2026 5:18pm -->
 <!-- last editted 1/4/2026 3:55pm -->
-<!-- last editted 1/12/2026 11:78pm -->
+<!-- last editted 1/12/2026 11:28pm -->
+<!-- last editted 1/15/2026 9:53pm -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <script src="./js/scripts.js"></script>
 </body>
