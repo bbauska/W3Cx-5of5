@@ -14681,22 +14681,20 @@ target="_blank" rel="noopener noreferrer">complete list</a> is much longer!</p>
   title="How to use media properties, methods and events"
   alt="How to use media properties, methods and events." />
 
-<p>Now let&apos;s take a look at a set of examples demonstrating how to use the
-most important of these properties, methods, and events...;</p>
+<p>Now let&apos;s take a look at a set of examples demonstrating how to use the most important of 
+these properties, methods, and events...;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-3">3.3.3 Examples using the JavaScript API</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>The JavaScript API is useful for implementing playlists, making custom
-user interfaces and many other interesting things. The &quot;enhanced HTML5
-multimedia players&quot; lesson presented further on in the courses relies
-heavily on this API.</p>
+<p>The JavaScript API is useful for implementing playlists, making custom user interfaces and many 
+other interesting things. The &quot;enhanced HTML5 multimedia players&quot; lesson presented 
+further on in the courses relies heavily on this API.</p>
 
 <h5>Example #1: how to use external buttons to control the player&apos;s behavior</h5>
 
-<p>This example gives the first steps towards writing a custom video
-player. It shows basic usage of the JavaScript API for adding custom
-buttons to play/pause the video or to go back to the beginning by
-setting the currentTime property to zero.</p>
+<p>This example gives the first steps towards writing a custom video player. It shows basic usage 
+of the JavaScript API for adding custom buttons to play/pause the video or to go back to the 
+beginning by setting the currentTime property to zero.</p>
 
 <h5>Try it online:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14755,24 +14753,20 @@ function rewindVideo() {
 <h5>Explanations:</h5>
 
 <ul>
-  <li><b><i>Lines 7, 9 and 11</i></b>: we add a click listener to each button, in
-    order to call a JavaScript function when each button is clicked.</li>
-  <li><b><i>Line 14</i></b>: using the DOM API, we get the JavaScript object that
-    corresponds to the video element we inserted in the HTML document.
-    This line is not within a function, so will be executed when the
-    page loads.</li>
-  <li><b><i>Lines 17 and 20</i></b>: we call methods from the API for
-    playing/pausing the video.</li>
-  <li><b><i>Line 24</i></b>: we modify the currentTime property in order to rewind
-    the video. Note that vid.load() also rewinds the video and shows the
-    poster image again, but it also pauses the video. By using currentTime=0, 
-    the playback does not stop.</li>
+  <li><b><i>Lines 7, 9 and 11</i></b>: we add a click listener to each button, in order to call a 
+    JavaScript function when each button is clicked.</li>
+  <li><b><i>Line 14</i></b>: using the DOM API, we get the JavaScript object that corresponds to 
+    the video element we inserted in the HTML document. This line is not within a function, so 
+	will be executed when the page loads.</li>
+  <li><b><i>Lines 17 and 20</i></b>: we call methods from the API for playing/pausing the video.</li>
+  <li><b><i>Line 24</i></b>: we modify the currentTime property in order to rewind the video. Note 
+    that vid.load() also rewinds the video and shows the poster image again, but it also pauses the 
+	video. By using currentTime=0, the playback does not stop.</li>
 </ul>
 
 <h5>Example #2: how to detect the end of a video and start another one</h5>
 
-<p>This example listens to the ended event, and calls a callback function
-when the video is ended.</p>
+<p>This example listens to the ended event, and calls a callback function when the video is ended.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 406. codepen: listen and callback (357) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/poeZJGo" 
@@ -14805,12 +14799,11 @@ function playNextVideo(e) {
 
 <h5>Example #3: how to manage playlists - sequential movies</h5>
 
-<p>This example detects the end of a video, then loads the next video,
-changes the src attribute of the video element and plays the video.</p>
+<p>This example detects the end of a video, then loads the next video, changes the src attribute of 
+the video element and plays the video.</p>
 
-<p>Check the online example below: use the progress cursor to go near the
-end of the first video that is being played, and see how it continues
-with the next video.</p>
+<p>Check the online example below: use the progress cursor to go near the end of the first video 
+that is being played, and see how it continues with the next video.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 407. codepen: progress cursor (358) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/jOBpbqP" 
@@ -14885,26 +14878,21 @@ target="_blank" rel="noopener noreferrer">CodePen: progress cursor</a>.</h6>
 <h5>Explanations:</h5>
 
 <ul>
-  <li><b><i>Line 9</i></b>: the JavaScript array that contains the URLs of the videos
-    in the playlist. In this example, we&apos;ve got only two of them, but
-    if the array is larger the example still works.</li>
-  <li><b><i>Line 44</i></b>: when the page is loaded, an <b>init()</b> function is
-    called.</li>
-  <li><b><i>Lines 34-40</i></b>: we use the <b>DOM</b> to get the JavaScript object
-    corresponding to the video element, then define a listener for
-    the ended event. Each time a video ends,
-    the <b>loadAndplayNextVideo()</b> callback is called. As the video
-    element has no src attribute by default, we also preload the first
-    video (call to <b>loadNextVideo()</b> at <b><i>line 38</i></b>).</li>
-  <li><b><i>Lines 17-21</i></b>: the <b>loadNextVideo()</b> function uses a variable
-    called <b>currentVideo</b> that corresponds to the index of the current
-    video. By setting <b>myVideo.src = sources &lbrack;currentVideo %
-    sources.length&rbrack;</b>, we set the src of the video element to
-    sources&lbrack;0&rbrack;, then to sources&lbrack;1&rbrack;, and, as we increment
-    the <b>currentVideo</b> index each time (<b><i>line 20</i></b>), if it becomes
-    greater than 1, the modulo (the &quot;%&quot; symbol is the modulo in
-    JavaScript) will make it &quot;loop&quot; between 0 and the number of videos
-    in the playlist. In other words, when the last video ends, it starts
+  <li><b><i>Line 9</i></b>: the JavaScript array that contains the URLs of the videos in the playlist. 
+    In this example, we&apos;ve got only two of them, but if the array is larger the example still 
+	works.</li>
+  <li><b><i>Line 44</i></b>: when the page is loaded, an <b>init()</b> function is called.</li>
+  <li><b><i>Lines 34-40</i></b>: we use the <b>DOM</b> to get the JavaScript object corresponding to 
+    the video element, then define a listener for the ended event. Each time a video ends, the 
+	<b>loadAndplayNextVideo()</b> callback is called. As the video element has no src attribute by 
+	default, we also preload the first video (call to <b>loadNextVideo()</b> at <b><i>line 38</i></b>).</li>
+  <li><b><i>Lines 17-21</i></b>: the <b>loadNextVideo()</b> function uses a variable called 
+    <b>currentVideo</b> that corresponds to the index of the current video. By setting <b>myVideo.src 
+	= sources &lbrack;currentVideo % sources.length&rbrack;</b>, we set the src of the video element 
+	to sources&lbrack;0&rbrack;, then to sources&lbrack;1&rbrack;, and, as we increment the 
+	<b>currentVideo</b> index each time (<b><i>line 20</i></b>), if it becomes greater than 1, the 
+	modulo (the &quot;%&quot; symbol is the modulo in JavaScript) will make it &quot;loop&quot; between 
+	0 and the number of videos in the playlist. In other words, when the last video ends, it starts 
     back at the first one.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14912,13 +14900,12 @@ target="_blank" rel="noopener noreferrer">CodePen: progress cursor</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>It&apos;s very easy to use the getUserMedia API for accessing the webcam.</p>
 
-<p>Here is a version that should work on any recent browser except Apple
-Safari (which still does not support this API). Note that for security
-reasons you must host your HTML/CSS/JS page on an HTTPS server for
-getUserMedia to work.</p>
+<p>Here is a version that should work on any recent browser except Apple Safari (which still does 
+not support this API). Note that for security reasons you must host your HTML/CSS/JS page on an 
+HTTPS server for getUserMedia to work.</p>
 
-<p><b>For security reason, these examples cannot run in the course web
-pages. Click on &quot;Edit on CodePen&quot; to run them.</b></p>
+<p><b>For security reason, these examples cannot run in the course web pages. Click on &quot;Edit 
+on CodePen&quot; to run them.</b></p>
 
 <h5>First version that uses callbacks (success/error, see the JS code):</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -14936,11 +14923,10 @@ target="_blank" rel="noopener noreferrer">CodePen: using callback, #1</a>.</h6>
 
 <h5>Second version that uses a new JavaScript syntax called &quot;promises&quot;:</h5>
 
-<p>This is another way of saying, &quot;Please, browser, try to give me access
-to the webcam, <b>THEN</b> when the webcam is ready, please tell me so that
-I can display its stream in a &lt;video&gt; element. Otherwise, send me an
-alert&quot;. (note that we&apos;ve put the alert in a comment in the CodePen
-below).</p>
+<p>This is another way of saying, &quot;Please, browser, try to give me access to the webcam, 
+<b>THEN</b> when the webcam is ready, please tell me so that I can display its stream in a 
+&lt;video&gt; element. Otherwise, send me an alert&quot;. (note that we&apos;ve put the alert in 
+a comment in the CodePen below).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 409. codepen: using callback promise, #2 (360) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/EWzKrK" 
@@ -14956,14 +14942,12 @@ target="_blank" rel="noopener noreferrer">CodePen: using callback promise, #2</a
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-5">3.3.5 Extended examples</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>In this section, we propose five extended examples that use more
-JavaScript and more complex CSS manipulation. They might be a little
-hard to understand if you are a JavaScript beginner, but don&apos;t be
-afraid to try and test them, look at the code, etc.</p>
+<p>In this section, we propose five extended examples that use more JavaScript and more complex 
+CSS manipulation. They might be a little hard to understand if you are a JavaScript beginner, but 
+don&apos;t be afraid to try and test them, look at the code, etc.</p>
 
-<p>Some examples are given &quot;as is&quot;, such as the custom video player that
-uses SVG (at the end of the page); if you are interested, you may view
-the code.</p>
+<p>Some examples are given &quot;as is&quot;, such as the custom video player that uses SVG (at 
+the end of the page); if you are interested, you may view the code.</p>
 
 <h5>Example #1: a player showing the use of every type of CSS3 transformation</h5>
 
@@ -14982,24 +14966,22 @@ target="_blank" rel="noopener noreferrer">
 <h6 style="text-align:center"><a href="https://codepen.io/w3devcampus/pen/bGqjVWG" 
 target="_blank" rel="noopener noreferrer">CodePen: example CSS3 transformation</a>.</h6>
 
-<p>Don&apos;t forget to click the JavaScript and CSS tabs of the CodePen in
-order to display the JavaScript code that creates the buttons on the
-right of the video, and the CSS that processes the different clicks and
-applies CSS3 transforms.</p>
+<p>Don&apos;t forget to click the JavaScript and CSS tabs of the CodePen in order to display the 
+JavaScript code that creates the buttons on the right of the video, and the CSS that processes 
+the different clicks and applies CSS3 transforms.</p>
 
 <p>This example shows a lot:</p>
 
 <ul>
   <li>It uses the HTML5 elements <b>&lt;nav&gt;, &lt;footer&gt;, &lt;header&gt;</b>.</li>
   <li>It shows the use of CSS3 2D transformations (scale, translate, and rotate).</li>
-  <li>It shows how to handle <b>DOM</b> events using JavaScript and how to
-    modify CSS properties of the <b>&lt;video&gt;</b> element from JavaScript.</li>
+  <li>It shows how to handle <b>DOM</b> events using JavaScript and how to modify CSS properties 
+    of the <b>&lt;video&gt;</b> element from JavaScript.</li>
 </ul>
 
 <h5>Example #2: how to track all possible events and manipulate many properties</h5>
 
-<p>This example also shows how to handle failures. See the code and play
-with this example below:</p>
+<p>This example also shows how to handle failures. See the code and play with this example below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 411. codepen: handling events for the video element (361) ~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/abJjvqY" 
@@ -15070,22 +15052,20 @@ target="_blank" rel="noopener noreferrer">
 <h6 style="text-align:center"><a href="https://codepen.io/w3devcampus/pen/vYxaNMq" 
 target="_blank" rel="noopener noreferrer">CodePen: example check progress of buffering</a>.</h6>
 
-<p>Note that on mobile phones, the video does not start until the user
-presses the play control or clicks on the video picture. Using the
-&quot;canplaythrough&quot; event is a trick to call a function that starts the
-video player as soon as the page is loaded on a desktop computer. This
-event is not supported by mobile devices, so if you try this example on
-a mobile, the video will not start automatically.</p>
+<p>Note that on mobile phones, the video does not start until the user presses the play control or 
+clicks on the video picture. Using the &quot;canplaythrough&quot; event is a trick to call a 
+function that starts the video player as soon as the page is loaded on a desktop computer. This 
+event is not supported by mobile devices, so if you try this example on a mobile, the video will 
+not start automatically.</p>
 
 <p>As explained by the <a href="https://developer.apple.com/" target="_blank" rel="noopener noreferrer">
-Apple Developer Web site</a>: &quot;The buffered property is a TimeRanges object: 
-an array of start and stop times, not a single value. Consider what happens if the 
-person watching the media uses the time scrubber to jump forward to a point in the 
-movie that hasn't loaded yet---the movie stops loading and jumps forward to the 
-new point in time, then starts buffering again from there. The buffered property
-can contain an array of discontinuous ranges. The example simply seeks the end of 
-the array and reads the last value, so it actually shows the percentage into the 
-movie duration for which there is data. &quot;</p>
+Apple Developer Web site</a>: &quot;The buffered property is a TimeRanges object: an array of start 
+and stop times, not a single value. Consider what happens if the person watching the media uses the 
+time scrubber to jump forward to a point in the movie that hasn't loaded yet---the movie stops loading 
+and jumps forward to the new point in time, then starts buffering again from there. The buffered 
+property can contain an array of discontinuous ranges. The example simply seeks the end of the array 
+and reads the last value, so it actually shows the percentage into the movie duration for which there 
+is data. &quot;</p>
 
 <h5>Source Code extract:</h5>
 
@@ -21496,7 +21476,7 @@ target="_blank" rel="noopener noreferrer">
   alt="CodePen: get remote list using fetch API." /></a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h6 style="text-align:center"><a href="https://codepen.io/w3devcampus/pen/xgoZdg" 
-target="_blank" rel="noopener noreferrer">
+target="_blank" rel="noopener noreferrer" title="Codepen.io: get remote list using fetch API">
 CodePen: Get remote list of users' names &amp; emails using fetch API</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <details>
@@ -21532,31 +21512,27 @@ JavaScript objects.</p>
 <h4>The Web Storage API (localStorage, sessionStorage)</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 517. cross-browser client-side storage (491) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<div style="text-align:center;">
 <img class="displayed"
   src="./images/image517.webp?raw=true"
   loading="lazy"
   style="width:20%"
   title="Cross-Browser client-side storage"
   alt="Cross-Browser client-side storage." />
-</div>
 
-<p>The Web storage API (see the <a href="https://www.w3.org/TR/webstorage/" 
-target="_blank" rel="noopener noreferrer">
-related W3C specification</a>) introduces &quot;two related mechanisms, similar 
-to HTTP session cookies, for storing structured data on the client side&quot;.</p>
+<p>The Web storage API (see the <a href="https://www.w3.org/TR/webstorage/" target="_blank" 
+rel="noopener noreferrer" title="W3&apos;s web storage API">related W3C specification</a>) introduces 
+&quot;two related mechanisms, similar to HTTP session cookies, for storing structured data on the 
+client side&quot;.</p>
 
-<p>Indeed, Web Storage provides two
-interfaces - sessionStorage and localStorage - whose main difference is
-data longevity. This specification defines an API for persistent data
-storage of key-value pair data in Web clients.</p>
+<p>Indeed, Web Storage provides two interfaces - sessionStorage and localStorage - whose main 
+difference is data longevity. This specification defines an API for persistent data storage of 
+key-value pair data in Web clients.</p>
 
-<p><b>With localStorage the data will remain until it is deleted, whereas
-with sessionStorage the data is erased when the tab/browser is closed.</b></p>
+<p><b>With localStorage the data will remain until it is deleted, whereas with sessionStorage the 
+data is erased when the tab/browser is closed.</b></p>
 
-<p>For convenience, we will mainly illustrate the localStorage object. Just
-change &quot;local&quot; to &quot;session&quot; and it should work (this time with a
-session lifetime)</p>
+<p>For convenience, we will mainly illustrate the localStorage object. Just change &quot;local&quot; 
+to &quot;session&quot; and it should work (this time with a session lifetime)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 518. table: key/value pairs (491) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -21570,10 +21546,9 @@ session lifetime)</p>
 <a href="https://en.wikipedia.org/wiki/Same-origin_policy" 
 target="_blank" rel="noopener noreferrer" title="Wiki origin policy">same origin policy</a>)!</p>
 
-<p><b>localStorage</b> is a simple key-value store, in which the keys and values
-are strings. There is only one store per domain. This functionality is
-exposed through the globally available localStorage object. The same
-applies to sessionStorage.</p>
+<p><b>localStorage</b> is a simple key-value store, in which the keys and values are strings. There 
+is only one store per domain. This functionality is exposed through the globally available 
+localStorage object. The same applies to sessionStorage.</p>
 
 <details>
   <summary>Source Code:</summary>
@@ -21590,14 +21565,12 @@ var location = localStorage.location;</pre>
 
 </details>
 
-<p>This data is located in a store attached to the origin of the page.
-We&apos;ve created <a href="http://jsbin.com/hebino/1/edit?html,output" 
-target="_blank" rel="noopener noreferrer">
+<p>This data is located in a store attached to the origin of the page. We&apos;ve created 
+<a href="http://jsbin.com/hebino/1/edit?html,output" target="_blank" rel="noopener noreferrer">
 a JsBin example in which we&apos;ve included the above code</a>.</p>
 
-<p>Once opened in your browser, the JavaScript code is executed. With the
-browser dev. tools, we can check what has been stored in
-the localStorage for this domain:</p>
+<p>Once opened in your browser, the JavaScript code is executed. With the browser dev. tools, we 
+can check what has been stored in the localStorage for this domain:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 519. example: localStorage (492) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -21617,26 +21590,25 @@ the localStorage for this domain:</p>
 
 <p>Differences with cookies?</p>
 
-<p>Cookies are also a popular way to store key-value pairs. Web Storage, however, is a 
-more powerful technique than cookies. The main difference is in size limits: cookies are 
-limited to a few KBytes whereas Web Storage may extend to several MBytes. Also, cookies 
-generate additional HTTP request traffic (whether to request a Web page, an image, a
-stylesheet, a JavaScript file, etc.).</p>
+<p>Cookies are also a popular way to store key-value pairs. Web Storage, however, is a more powerful 
+technique than cookies. The main difference is in size limits: cookies are limited to a few KBytes 
+whereas Web Storage may extend to several MBytes. Also, cookies generate additional HTTP request 
+traffic (whether to request a Web page, an image, a stylesheet, a JavaScript file, etc.).</p>
 
-<p>Objects managed by Web Storage are no longer carried on the network and HTTP, and are 
-easily accessible (read, change and delete) from JavaScript, using the Web Storage API.</p>
+<p>Objects managed by Web Storage are no longer carried on the network and HTTP, and are easily 
+accessible (read, change and delete) from JavaScript, using the Web Storage API.</p>
 
 <p>External resources</p>
 
 <ul>
   <li><a href="http://www.w3.org/TR/webstorage/" 
-    target="_blank" rel="noopener noreferrer">
+    target="_blank" rel="noopener noreferrer" title="The W3C web storage API recommendation">
     The W3C Web Storage API recommendation</a>.</li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage"
-    target="_blank" rel="noopener noreferrer">
+    target="_blank" rel="noopener noreferrer" title="Client-side storage article on MDN">
     Client-side storage article on MDN</a>.</li>
   <li><a href="https://css-tricks.com/overview-client-side-storage/" 
-    target="_blank" rel="noopener noreferrer">
+    target="_blank" rel="noopener noreferrer" title="An Overview of Client-Side Storage">
     An Overview of Client-Side Storage</a>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -21647,49 +21619,46 @@ easily accessible (read, change and delete) from JavaScript, using the Web Stora
 <p>Suggested topic</p>
 
 <ul>
-  <li>Did you know that using XhR2 for getting remote data, you can also
-    monitor the download progression using n xhr.onprogress = event
-    listener and a &lt;progress&gt; HTML element. See 
-    <a href="https://jsbin.com/nuxanaf/edit?html,output" 
-    target="_blank" rel="noopener noreferrer">
+  <li>Did you know that using XhR2 for getting remote data, you can also monitor the download 
+    progression using an xhr.onprogress = event listener and a &lt;progress&gt; HTML element. 
+	See <a href="https://jsbin.com/nuxanaf/edit?html,output" target="_blank" rel="noopener 
+	noreferrer" title="JSBin xhr.onprogress">
     this example</a>! This is not directly possible using the 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" 
-    target="_blank" rel="noopener noreferrer">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" target="_blank" 
+	rel="noopener noreferrer" title="The fetch API">
     fetch API</a> (you need to give a look at 
     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API" 
-    target="_blank" rel="noopener noreferrer">
+    target="_blank" rel="noopener noreferrer" title="The stream API>
     the streams API</a> that can be used altogether with the fetch API for 
-    <a href="https://fetch-progress.anthum.com/"
-      target="_blank" rel="noopener noreferrer">monitoring uploads and downloads</a>).</li>
+    <a href="https://fetch-progress.anthum.com/" 
+    target="_blank" rel="noopener noreferrer" title="Monitoring uploads and downloads">
+	monitoring uploads and downloads</a>).</li>
 </ul>
 
 <p>Optional projects</p>
 
 <ul>
   <li>Please display the data <a href="https://gist.githubusercontent.com/heiswayi/7fde241975ed8a80535a/raw/ff1caaeaf62bd6740ab7cafcd61f1215de173379/datatables-data.json"
-    target="_blank" rel="noopener noreferrer">    from this URL</a> in a dynamic table.</li>
-  <li>Try to add a &quot;hi-score&quot; table to the game developed during this
-    course. The table will be displayed when you lose, and will show
-    only the 10 best scores.</li>
+    target="_blank" rel="noopener noreferrer" title="URL in a dynamic table">
+	from this URL</a> in a dynamic table.</li>
+  <li>Try to add a &quot;hi-score&quot; table to the game developed during this course. The table 
+    will be displayed when you lose, and will show only the 10 best scores.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-1">5.5.1 A contact manager (part 1)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>In this final part of the course, let&apos;s build together a minimal
-contact manager that shows how to use ES6 classes, local storage, forms
-and the HTML table JavaScript API.</p>
+<p>In this final part of the course, let&apos;s build together a minimal contact manager that 
+shows how to use ES6 classes, local storage, forms and the HTML table JavaScript API.</p>
 
 <p>This is a play project that you can easily improve:</p>
 
 <ul>
-  <li>A contact, in this application, is just a person with a name and an
-    email. Feel free to add other properties and methods to the Contact
-    class.</li>
-  <li>The contactManager is also an ES6 class with methods for adding,
-    removing, sorting, saving and loading contacts on your hard disk. We
-    will add new functionalities, step by step, in the next sections,
-    but you can improve the examples provided by adding your own new
-    features (build a better HTML table, add new sorting options, etc.)</li>
+  <li>A contact, in this application, is just a person with a name and an email. Feel free to add 
+    other properties and methods to the Contact class.</li>
+  <li>The contactManager is also an ES6 class with methods for adding, removing, sorting, saving 
+    and loading contacts on your hard disk. We will add new functionalities, step by step, in the 
+	next sections, but you can improve the examples provided by adding your own new features 
+	(build a better HTML table, add new sorting options, etc.)</li>
 </ul>
 
 <p>Let&apos;s start with a simple skeleton (no GUI), beginning with the Contact class.</p>
@@ -21706,15 +21675,13 @@ and the HTML table JavaScript API.</p>
 
 </details>
 
-<p>As you can see, a contact is just a name and an email. We will use the
-above class like this:</p>
+<p>As you can see, a contact is just a name and an email. We will use the above class like this:</p>
 
 <pre>var c1 = new Contact(&quot;Jimi Hendrix&quot;, &quot;jimi@rip.com&quot;);
 var c2 = new Contact(&quot;Robert
   Fripp&quot;, &quot;robert.fripp@kingcrimson.com&quot;);</pre>
 
-<p>Then you can print the properties of contact c1 or c2 using for
-example console.log(c1.name), console.log(c2.email), etc.</p>
+<p>Then you can print the properties of contact c1 or c2 using for example console.log(c1.name),  console.log(c2.email), etc.</p>
 
 <p>A minimal ContactManager class:</p>
 
@@ -21755,15 +21722,14 @@ example console.log(c1.name), console.log(c2.email), etc.</p>
 <h4>Explanations:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>This is a minimal ES6 class for building a contact manager. It has
-    only one property: the list of contacts, and a method for adding a
-    new contact (<b><i>line 8</i></b>), one for removing a contact (<b><i>line 12</i></b>), that
-    iterate on the list of contacts until the contact passed as a
-    parameter is found (when email properties match), then the contact
-    is removed using the splice method, and we go out from the loop
-    using the break statement (<b><i>line 22</i></b>).</li>
-  <li>It also has a utility method for printing to the console the list of
-    contacts (<b><i>line 27</i></b>).</li>
+  <li>This is a minimal ES6 class for building a contact manager. It has only one property: the 
+    list of contacts, and a method for adding a new contact (<b><i>line 8</i></b>), one for 
+	removing a contact (<b><i>line 12</i></b>), that iterate on the list of contacts until the 
+	contact passed as a parameter is found (when email properties match), then the contact is 
+	removed using the splice method, and we go out from the loop using the break statement 
+	(<b><i>line 22</i></b>).</li>
+  <li>It also has a utility method for printing to the console the list of contacts 
+    (<b><i>line 27</i></b>).</li>
 </ul>
 
 <p>We can use the contact manager like this:</p>
@@ -21787,20 +21753,18 @@ cm.printContactsToConsole();</pre>
 
 </details>
 
-<p>As you can see, this is a very minimal version. It&apos;s always a good idea
-to start with very simple structures/classes, and a few methods. Then
-type the code on CodePen or JSBin and use the devtool console. Check
-that there are no syntax errors, that everything runs smoothly.</p>
+<p>As you can see, this is a very minimal version. It&apos;s always a good idea to start with very 
+simple structures/classes, and a few methods. Then type the code on CodePen or JSBin and use the 
+devtool console. Check that there are no syntax errors, that everything runs smoothly.</p>
 
-<p>Here is the CodePen of this minimal version. Click on the CodePen label
-on the top right, and once in CodePen, open the console:</p>
+<p>Here is the CodePen of this minimal version. Click on the CodePen label on the top right, and 
+once in CodePen, open the console:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Adding a method for sorting the list of contacts by name</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Do you remember the sort() method you can use on arrays? We saw it in
-modules 2 or 3. Since our array contains objects, we must provide a
-callback for comparing two elements by name. Here is the code for the
-new sort() method we added to the ContactManager class:</p>
+<p>Do you remember the sort() method you can use on arrays? We saw it in modules 2 or 3. Since our 
+array contains objects, we must provide a callback for comparing two elements by name. Here is the 
+code for the new sort() method we added to the ContactManager class:</p>
 
 <details>
   <summary>Source Code:</summary>
@@ -21827,12 +21791,10 @@ new sort() method we added to the ContactManager class:</p>
 
 </details>
 
-<p>The important thing here is to notice that we declared
-the compareByName method as a class method (using the static keyword).
-This is similar to what we did in the Point class example from module 4,
-when we explained the &quot;class properties and methods&quot;. This method
-compareByName does not depend on any instance of the contact manager,
-consequently: it&apos;s a class method.</p>
+<p>The important thing here is to notice that we declared the compareByName method as a class method 
+(using the static keyword). This is similar to what we did in the Point class example from module 
+4, when we explained the &quot;class properties and methods&quot;. This method compareByName does not 
+depend on any instance of the contact manager, consequently: it&apos;s a class method.</p>
 
 <p>CodePen that uses this new method:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -21850,15 +21812,13 @@ target="_blank" rel="noopener noreferrer">CodePen: example using new class metho
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-2">5.5.2 Persistence (part 2)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Let&apos;s use load/save methods is for loading and saving the list of
-contacts in Local Storage.</p>
+<p>Let&apos;s use load/save methods is for loading and saving the list of contacts in Local Storage.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>load and save methods (persistence)</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>This time, we add to the ContactManager class a load() and
-a save() method for loading/saving from disk (from a key/value pair
-database located on your hard disk, and associated to the domain of your
-Web application).</p>
+<p>This time, we add to the ContactManager class a load() and a save() method for loading/saving 
+from disk (from a key/value pair database located on your hard disk, and associated to the domain 
+of your Web application).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Saving the list of contacts in JSON, checking the saved value using the devtools</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -21889,12 +21849,14 @@ Web application).</p>
   <li>localStorage.keyName = a string value</li>
 </ul>
 
-<p>In our case, <b><i>line 11</i></b> saves the list of contacts with a key named
-&quot;contacts&quot; in the local storage. In order to save the list of contacts
-as a string, we convert it to the JSON format using the
- JSON.stringify(...) method (JSON = string based)</p>
+<p>In our case, <b><i>line 11</i></b> saves the list of contacts with a key named &quot;contacts&quot; 
+in the local storage. In order to save the list of contacts as a string, we convert it to the JSON 
+format using the  JSON.stringify(...) method (JSON = string based)</p>
+
 <p>Try an example on CodePen, save some contacts...</p>
+
 <p>... then we can check in the devtools that the list has been saved.</p>
+
 <p>In Google Chrome, click the Application tab, then LocalStorage:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 522. google chrome local storage inspector (499) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -21904,6 +21866,7 @@ as a string, we convert it to the JSON format using the
   style="width:35%"
   title="Google Chrome local storage inspector"
   alt="Google Chrome local storage inspector." />
+
 <p>In Firefox, you first need to activate the storage view like this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 523. firefox active storage view in devtools (499) ~~~~~~~~~~~~~~~~~~~~~-->
@@ -21926,14 +21889,14 @@ as a string, we convert it to the JSON format using the
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Restoring the list of contacts</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>This time, we&apos;ve added a load() method that will check if a list of contacts has 
-been saved. If this is the case, it will read it from LocalStorage, convert it back from 
-JSON into a JavaScript object.</p>
+<p>This time, we&apos;ve added a load() method that will check if a list of contacts has been saved. 
+If this is the case, it will read it from LocalStorage, convert it back from JSON into a JavaScript 
+object.</p>
 
-<p>In order to test this, in the following CodePen, we first save the list, then we empty 
-the list in memory (setting the array to an empty array), print the list of contacts (that 
-displays a message &quot;LIST EMPTY!&quot;), then we load the contacts from LocalStorage 
-and print the list again: it has been restored to its previous value.</p>
+<p>In order to test this, in the following CodePen, we first save the list, then we empty the list 
+in memory (setting the array to an empty array), print the list of contacts (that displays a message 
+&quot;LIST EMPTY!&quot;), then we load the contacts from LocalStorage and print the list again: it 
+has been restored to its previous value.</p>
 
 <details>
   <summary>Source Code:</summary>
@@ -22003,9 +21966,8 @@ and adapt it to our needs:</p>
 target="_blank" rel="noopener noreferrer">
 CodePen: XhR2 - get a remote list of user's names and emails</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>This time, we will first add some HTML to the contact manager example
-(same as in the previous CodePen except that we&apos;ve renamed &quot;users&quot; as
-&quot;contacts&quot;):</p>
+<p>This time, we will first add some HTML to the contact manager example (same as in the previous 
+CodePen except that we&apos;ve renamed &quot;users&quot; as &quot;contacts&quot;):</p>
 
 <details>
   <summary>Source Code:</summary>
@@ -22282,6 +22244,7 @@ in the previous page:</p>
 <!-- last editted 1/4/2026 3:55pm -->
 <!-- last editted 1/12/2026 11:28pm -->
 <!-- last editted 1/15/2026 9:53pm -->
+<!-- last editted 1/19/2026 8:20am -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <script src="./js/scripts.js"></script>
 </body>
