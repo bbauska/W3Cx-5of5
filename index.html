@@ -3194,13 +3194,12 @@ name tells us.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Function parameters</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>The &quot;thing&quot; between parentheses is what we call &quot;the parameters of
-the function&quot;: the data we pass to the function so that it can plot
-different math functions, with different colors, with different ranges
-for the x and y values, with or without a grid, etc.</p>
+<p>The &quot;thing&quot; between parentheses is what we call &quot;the parameters of the function&quot;: 
+the data we pass to the function so that it can plot different math functions, with different colors, with 
+different ranges for the x and y values, with or without a grid, etc.</p>
 
-<p>Let&apos;s have a look at the parameters we used in our example (the ones
-you tweaked). They are in bold in the source code we saw earlier:</p>
+<p>Let&apos;s have a look at the parameters we used in our example (the ones you tweaked). They are in bold 
+in the source code we saw earlier:</p>
 
 <details>
   <summary>Source Code:</summary>
@@ -3224,36 +3223,33 @@ you tweaked). They are in bold in the source code we saw earlier:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>JavaScript object</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>In JavaScript you can have simple values like: 2, 5, &quot;hello&quot;,
-&quot;3.14&quot;, and you may also encounter more &quot;structured&quot; values that we
-call &quot;objects&quot;. In Module 3 we will address JavaScript objects, but
-for the moment we will just present them through examples, without too
-much detail.</p>
+<p>In JavaScript you can have simple values like: 2, 5, &quot;hello&quot;, &quot;3.14&quot;, and you 
+may also encounter more &quot;structured&quot; values that we call &quot;objects&quot;. In Module 3 
+we will address JavaScript objects, but for the moment we will just present them through examples, 
+without too much detail.</p>
 
-<p>A JavaScript object can be defined by two braces with a set of
-properties/values inside, separated by a comma. Here is a simple object:</p>
+<p>A JavaScript object can be defined by two braces with a set of properties/values inside, separated by a 
+comma. Here is a simple object:</p>
 
 <pre>{
   givenName: "Michel",
   familyName: "Buffa"
 }</pre>
 
-<p>We use the &quot;:&quot; separator between the property name and its value. We
-use a comma between two properties, and we omit the comma after the last
-property (or before the ending brace).</p>
+<p>We use the &quot;:&quot; separator between the property name and its value. We use a comma between two 
+properties, and we omit the comma after the last property (or before the ending brace).</p>
 
-<p>In our examples, the properties of the object that is passed as a
-parameter to the functionPlot(&hellip;) call are in bold.</p>
+<p>In our examples, the properties of the object that is passed as a parameter to the functionPlot(&hellip;) 
+call are in bold.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>They are respectively:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li><b>target</b>: the CSS selector that corresponds to the HTML element
-    that will contain the plot. Look at the HTML code (&lt;div
-    id=&quot;<b>myFunction</b>&quot;&gt;&lt;/div&gt;), the id value corresponds
-    to target: &quot;#<b>myFunction</b>&quot; in the object.</li>
-  <li><b>data</b>: this is where we indicate the value of the function(s) to
-    be plotted. We talk about this in greater detail below.</li>
+  <li><b>target</b>: the CSS selector that corresponds to the HTML element that will contain the plot. 
+    Look at the HTML code (&lt;div id=&quot;<b>myFunction</b>&quot;&gt;&lt;/div&gt;), the id value 
+	corresponds to target: &quot;#<b>myFunction</b>&quot; in the object.</li>
+  <li><b>data</b>: this is where we indicate the value of the function(s) to be plotted. We talk about 
+    this in greater detail below.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 107. grid with x-axis, y-axis, origin & target (80) ~~~~~~~~~~~~~~~~~~~~~-->
@@ -3265,23 +3261,18 @@ parameter to the functionPlot(&hellip;) call are in bold.</p>
   alt="Coordplane: Grid with x-axis, y-axis, origin &amp; target." />
 
 <ul>
-  <li><b>grid</b>: this can be true or false (we call these &quot;boolean
-    values&quot;) and indicates whether or not we want a grid to be drawn in
-    the background.</li>
-  <li><b>xAxis</b>: the value specifies the domain (range) for the x
-    values&hellip;</li>
-  <li><b>yAxis</b>: the value specifies the domain (range) for the y
-    values&hellip;</li>
+  <li><b>grid</b>: this can be true or false (we call these &quot;boolean values&quot;) and indicates 
+    whether or not we want a grid to be drawn in the background.</li>
+  <li><b>xAxis</b>: the value specifies the domain (range) for the x values&hellip;</li>
+  <li><b>yAxis</b>: the value specifies the domain (range) for the y values&hellip;</li>
 </ul>
 
-<p>Notice that after each property (color, grid, etc.) there is a &quot;,&quot;.
-Notice that between the name of the properties and the value there is a
-&quot;:&quot;, etc&hellip;</p>
+<p>Notice that after each property (color, grid, etc.) there is a &quot;,&quot;. Notice that between 
+the name of the properties and the value there is a &quot;:&quot;, etc&hellip;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><b>Embedded objects</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>If we look at the values of the xAxis and yAxis properties, they
-are also objects.</p>
+<p>If we look at the values of the xAxis and yAxis properties, they are also objects.</p>
 
 <pre>xAxis: {
   domain: &lbrack;0, 2&ast;Math.PI&rbrack;
@@ -3305,9 +3296,8 @@ properties:</p>
   <li>color: the color of the curve</li>
 </ul>
 
-<p><b>In arrays, the different elements are separated by commas.</b> Let&apos;s
-try to plot an additional function in our example. We will add f(x) =
-cos(x) to our example, with a different color:</p>
+<p><b>In arrays, the different elements are separated by commas.</b> Let&apos;s try to plot an additional 
+function in our example. We will add f(x) = cos(x) to our example, with a different color:</p>
 
 <details>
   <summary>Source Code:</summary>
@@ -3327,20 +3317,21 @@ cos(x) to our example, with a different color:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. codepen: js graph, #2 (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/KWPyeX" 
-target="_blank" rel="noopener noreferrer">
-<img class="displayed"
-  src="./images/image108.webp?raw=true"
-  loading="lazy"
-  style="width:45%"
-  title="CodePen: JS Graph, #2"
-  alt="CodePen: JS Graph, #2." /></a>
+  target="_blank" rel="noopener noreferrer">
+  <img class="displayed"
+    src="./images/image108.webp?raw=true"
+    loading="lazy"
+    style="width:45%"
+    title="CodePen: JS Graph, #2"
+    alt="CodePen: JS Graph, #2." />
+</a>
+
 <h6 style="text-align:center"><a href="https://codepen.io/w3devcampus/pen/KWPyeX" 
-target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph, #2</a></h6>
+  target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph, #2 </a></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Conclusion</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Just by looking at one example, and without going into the boring details, 
-you saw:</p>
+<p>Just by looking at one example, and without going into the boring details, you saw:</p>
 
 <ul>
   <li>How to plot a function using a third party library and how to
@@ -3383,8 +3374,7 @@ the most common ones.</p>
   title="My home page. This new title has been changed from JavaScript!"
   alt="My home page. This new title has been changed from JavaScript!" />
 
-<p>Here I&apos;ve got a Web page, I click on the button and I change the
-content of the page.</p>
+<p>Here I&apos;ve got a Web page, I click on the button and I change the content of the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~ 112. My home page. example of interactivity between JS and the HTML content (83) ~~~~~-->
 <img class="displayed"
@@ -3456,13 +3446,13 @@ course material.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 116. change html using javascript (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/pREjaE" 
-target="_blank" rel="noopener noreferrer">
-<img class="displayed"
-  src="./images/image116.webp?raw=true"
-  loading="lazy"
-  style="width:45%"
-  title="Change the HTML main title using JS"
-  alt="Change the HTML main title using JS." /></a>
+  target="_blank" rel="noopener noreferrer">
+  <img class="displayed"
+    src="./images/image116.webp?raw=true"
+    loading="lazy"
+    style="width:45%"
+    title="Change the HTML main title using JS"
+    alt="Change the HTML main title using JS." /></a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h6 style="text-align:center"><a href="https://codepen.io/w3devcampus/pen/pREjaE" 
 target="_blank" rel="noopener noreferrer">CodePen: Change HTML using JS</a></h6>
@@ -3470,10 +3460,12 @@ target="_blank" rel="noopener noreferrer">CodePen: Change HTML using JS</a></h6>
 <p>This first example used <b>the selector API</b> for selecting a particular
 element in the document (the main title) and <b><i>the DOM API</i></b> for
 modifying its content.</p>
+
 <p>An API is an <b><i>application programming interface</i></b>. In the case of
 JavaScript, the DOM API is implemented natively by the browser, and you
 can call several functions/methods or access properties of the DOM:  an
 object that represents the document (the Web page).</p>
+
 <p>It uses <b>the selector API</b> to target a particular part of the DOM (in
 our case, the main title of the page), the HTML element with
 an id attribute equal to &quot;mainTitle&quot;. The selector API uses the same
@@ -17784,17 +17776,14 @@ CodePen: make star wars heroes speak</a>.</h6>
 
 <p>Unlike functions, classes must be declared BEFORE using them.</p>
 
-<p>An important difference between function declarations and class
-declarations is that function declarations are &quot;hoisted&quot; and class
-declarations are not. This means that you can call a function BEFORE it
-has been declared in your source code. This is not the case with ES6
-classes!</p>
+<p>An important difference between function declarations and class declarations is that function 
+declarations are &quot;hoisted&quot; and class declarations are not. This means that you can call a 
+function BEFORE it has been declared in your source code. This is not the case with ES6 classes!</p>
 
-<p><b>You first need to declare your class and then access it, otherwise
-code like the following will throw a ReferenceError</b>:</p>
+<p><b>You first need to declare your class and then access it, otherwise code like the following 
+will throw a ReferenceError</b>:</p>
 
-<p>Incorrect version =&gt; you try to create an instance of a class before it
-has been declared:</p>
+<p>Incorrect version =&gt; you try to create an instance of a class before it has been declared:</p>
 
 <pre>var p = new Rectangle(); // ReferenceError
 class Rectangle {...}</pre>
@@ -17806,8 +17795,8 @@ var p = new Rectangle(); // WORKS !</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-3-5">4.3.5 Creating objects with functions (factories)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>We have already seen three different ways to create objects (literals,
-constructor functions and ES6 classes).</p>
+<p>We have already seen three different ways to create objects (literals, constructor functions 
+and ES6 classes).</p>
 
 <p>Objects can be created as "literals":</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -18011,36 +18000,31 @@ instead of using an instance name, I will use the name of the class.</p>
 <p>Sometimes, there are methods &quot;attached&quot; to a class, not to an instance
 of a class.</p>
 
-<p>For example, imagine the Hero class we&apos;ve already seen, and we would
-like to know how many Star Wars&apos;s heroes have been created. If zero
-hero has been created, it&apos;s obvious that we could not use this property
-with an instance of the class such as Dark
-Vador: darkVador.getNbHeroes(); this would make no sense.</p>
+<p>For example, imagine the Hero class we&apos;ve already seen, and we would like to know how many 
+Star Wars&apos;s heroes have been created. If zero hero has been created, it&apos;s obvious that we 
+could not use this property with an instance of the class such as Dark Vador: darkVador.getNbHeroes(); 
+this would make no sense.</p>
 
-<p>Instead, object oriented programming languages have the concept of
-&quot;class properties&quot; and &quot;class methods&quot; that complete the &quot;instance
-properties&quot; and &quot;instance methods&quot; that we&apos;ve seen up to this
-point. Hero.getNbHeroes() means &quot;Hey, class Hero, can you tell me how
-many heroes have been created using your class?&quot;. Class methods define
-the &quot;class behavior&quot;, and instance methods define the instances&apos;
-behavior. darVador.speak(); means &quot;Hey, Dark Vador, please, tell us
-something!&quot;. I speak to Dark Vador and I&apos;m expecting something
-creative from him, such as &quot;I&apos;m your father, Luke!&quot;.</p>
+<p>Instead, object oriented programming languages have the concept of &quot;class properties&quot; 
+and &quot;class methods&quot; that complete the &quot;instance properties&quot; and &quot;instance 
+methods&quot; that we&apos;ve seen up to this point. Hero.getNbHeroes() means &quot;Hey, class Hero, 
+can you tell me how many heroes have been created using your class?&quot;. Class methods define the 
+&quot;class behavior&quot;, and instance methods define the instances&apos; behavior. darVador.speak(); 
+means &quot;Hey, Dark Vador, please, tell us something!&quot;. I speak to Dark Vador and I&apos;m 
+expecting something creative from him, such as &quot;I&apos;m your father, Luke!&quot;.</p>
 
-<p>It&apos;s the same for properties. If there is a property
-named nbHerosCreated in the class Hero, it represents the DNA of the
-class, not of the instances. You can say &quot;the Hero class has the number
-of heroes it created&quot;, and you can say &quot;Dark Vador has a name and
-belongs to the empire side&quot;, but not &quot;Dark Vador has a number of
-heroes he created&quot;. We have class properties and instance properties.</p>
+<p>It&apos;s the same for properties. If there is a property named nbHerosCreated in the class Hero, 
+it represents the DNA of the class, not of the instances. You can say &quot;the Hero class has the 
+number of heroes it created&quot;, and you can say &quot;Dark Vador has a name and belongs to the 
+empire side&quot;, but not &quot;Dark Vador has a number of heroes he created&quot;. We have class 
+properties and instance properties.</p>
 
 <h5>The static keyword is used for defining class methods</h5>
 
 <h5>Class methods</h5>
 
-<p>How do we distinguish them? By using the static keyword. When you see a
-method preceded by the static keyword, it means that you see a class
-property or a class method.</p>
+<p>How do we distinguish them? By using the static keyword. When you see a method preceded by the 
+static keyword, it means that you see a class property or a class method.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 474. the static keyword (440) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -18746,7 +18730,7 @@ because at the end of the function the variable &quot;obj&quot;
 and the variable &quot;a&quot; are not referencing the same object..../</pre>
 
 </details>
-
+<br/>
 <details>
   <summary>Source Code:</summary>
 
@@ -18798,8 +18782,7 @@ true
 &gt; var anotherObject = {name:&apos;Michel&apos;};
 undefined
 &gt; copy === anotherObject
-false
-</pre>
+false</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -20929,14 +20912,14 @@ post your comments/observations/questions or share your creations.</p>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 511. prev (left) and next (right arrow)  (484) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<div style="text-align:left;">
+<!-- <div style="text-align:left;">  -->
 <img class="displayed"
   src="./images/image511.webp?raw=true"
   loading="lazy"
   style="width:20%"
   title="Previous and next buttons"
   alt="Previous and next buttons." />
-</div>
+<!-- </div> -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4-1">5.4.1 What is JSON? (4:42)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -20950,60 +20933,50 @@ post your comments/observations/questions or share your creations.</p>
   title="JSON notation, working with LocalStorage"
   alt="JSON notation, working with LocalStorage." />
 
-<p>Hi! I would like to present you the JSON format that is string-based
-format for exchanging, on the Web, JavaScript objects. Also, for storing
-JavaScript objects in databases. It&apos;s very popular and used by many Web
-services. A Web service is a remote server that uses a URL to send you
-some formatted JavaScript data.</p>
+<p>Hi! I would like to present you the JSON format that is string-based format for exchanging, on 
+the Web, JavaScript objects. Also, for storing JavaScript objects in databases. It&apos;s very 
+popular and used by many Web services. A Web service is a remote server that uses a URL to send 
+you some formatted JavaScript data.</p>
 
-<p>Here you&apos;ve got an example from the <b>jsonplaceholder.typicode.com</b>
-Web site that provides some examples of JSON data set. If you want some
-photos, some pictures, you click on it and you&apos;ve got a string-based
-notation, a JSON version of an array. An array that contains pictures
-with albums, thumbnails&#41;</p>
+<p>Here you&apos;ve got an example from the <b>jsonplaceholder.typicode.com</b> Web site that 
+provides some examples of JSON data set. If you want some photos, some pictures, you click on it 
+and you&apos;ve got a string-based notation, a JSON version of an array. An array that contains 
+pictures with albums, thumbnails&#41;</p>
 
-<p>It&apos;s the same data format we used in a previous module for an optional
-project about pictures and albums. How do you work with such a format?
-There are 2 different utility methods from the JSON predefined object.</p>
+<p>It&apos;s the same data format we used in a previous module for an optional project about pictures 
+and albums. How do you work with such a format? There are 2 different utility methods from the JSON 
+predefined object.</p>
 
-<p>One is called "<b>stringify()</b>" and will be useful for converting a
-JavaScript object into JSON. And the other one will be
-"<b>JSON.parse()</b>" that will take a JSON object, a JSON string, and give
-back a JavaScript object.</p>
+<p>One is called "<b>stringify()</b>" and will be useful for converting a JavaScript object into 
+JSON. And the other one will be "<b>JSON.parse()</b>" that will take a JSON object, a JSON string, 
+and give back a JavaScript object.</p>
 
-<p>Let&apos;s see some examples. I just took an
-array... if you try to stringify the array...you obtain an object that
-contains the array with quotes around. This is the JSON notation of an
-array. If you&apos;ve got more complex objects, for example, this one: it&apos;s
-an object with different properties and one of the properties is an
-array that contains in turn objects. It&apos;s just an example of the albums
-made by Metallica.</p>
+<p>Let&apos;s see some examples. I just took an array... if you try to stringify the array...you 
+obtain an object that contains the array with quotes around. This is the JSON notation of an array. 
+If you&apos;ve got more complex objects, for example, this one: it&apos;s an object with different 
+properties and one of the properties is an array that contains in turn objects. It&apos;s just an 
+example of the albums made by Metallica.</p>
 
-<p>If I try this, "<b>JSON.stringify()</b>" with this object, I get a JSON
-version of this object, and this can be sent through HTTP or can be
-downloaded from a remote server. HTTP is hypertext transfer protocol.
-Only text can be exchanged using HTTP and JSON is pure text. However, if
-I&apos;ve got to know a JSON string, I cannot access any property because
-this is no more a JavaScript object. If I want to get back the original
-object from the string, I will need to use "JSON.parse()". And this is a
-real JavaScript object. I can access its properties and call its
-methods. This is all we need to know about JSON.</p>
+<p>If I try this, "<b>JSON.stringify()</b>" with this object, I get a JSON version of this object, 
+and this can be sent through HTTP or can be downloaded from a remote server. HTTP is hypertext 
+transfer protocol. Only text can be exchanged using HTTP and JSON is pure text. However, if I&apos;ve 
+got to know a JSON string, I cannot access any property because this is no more a JavaScript object. 
+If I want to get back the original object from the string, I will need to use "JSON.parse()". And 
+this is a real JavaScript object. I can access its properties and call its methods. This is all we 
+need to know about JSON.</p>
 
-<p>"<b>JSON.parse()</b>" turns a JSON string to a JavaScript object you can
-use, and "<b>JSON.stringify()</b>" takes a JavaScript object and turns it
-into a JSON string.</p>
+<p>"<b>JSON.parse()</b>" turns a JSON string to a JavaScript object you can use, and "<b>JSON.stringify()</b>" 
+takes a JavaScript object and turns it into a JSON string.</p>
 
-<p>In the next lesson, we will see how we can use JSON objects, for example,
-downloading them from a remote data source and displaying their values
-in an HTML table.</p>
+<p>In the next lesson, we will see how we can use JSON objects, for example, downloading them from 
+a remote data source and displaying their values in an HTML table.</p>
 
 <!-- end transcript 5.4.1 -->
 
-<p>JSON stands for<b> J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation. It&apos;s a
-standard for transforming nearly any object into a string representation
-that is human readable. It became a standard for exchanging data to/from
-a remote HTTP server, and is available for many other languages in
-addition to JavaScript.</p>
+<p>JSON stands for<b> J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation. It&apos;s a standard for 
+transforming nearly any object into a string representation that is human readable. It became a standard 
+for exchanging data to/from a remote HTTP server, and is available for many other languages in addition 
+to JavaScript.</p>
 
 <p>A JavaScript object o in JSON looks a lot like what <b>o.toString()</b> returns.</p>
 
@@ -21046,17 +21019,16 @@ albums:&lbrack;
 };
 Undefined
 JSON.stringify(complexObject);
-&quot;{&quot;name&quot;:&quot;Metallica&quot;,&quot;albums&quot;:&lbrack;{&quot;name&quot;:&quot;Master of Puppets&quot;,&quot;year&quot;:1986},{&quot;name&quot;:&quot;Black Album&quot;,&quot;year&quot;:1991}&rbrack;}&quot;</pre>
+&quot;{&quot;name&quot;:&quot;Metallica&quot;,&quot;albums&quot;:&lbrack;{&quot;name&quot;:&quot;Master of Puppets&quot;,
+&quot;year&quot;:1986},{&quot;name&quot;:&quot;Black Album&quot;,&quot;year&quot;:1991}&rbrack;}&quot;</pre>
 
 </details>
 
-<p>In the above examples, you can see JSON representations of a simple
-variable of a predefined type, of an array, of a simple object, of an
-object that contains an array of objects (Metallica example).</p>
+<p>In the above examples, you can see JSON representations of a simple variable of a predefined type, 
+of an array, of a simple object, of an object that contains an array of objects (Metallica example).</p>
 
-<p>And indeed, it looks like the code you typed to create the objects, with
-quotes around it and around the property names. This is why it is called
-JavaScript Object Notation ;-)</p>
+<p>And indeed, it looks like the code you typed to create the objects, with quotes around it and around 
+the property names. This is why it is called JavaScript Object Notation ;-)</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>You cannot use JSON objects as JavaScript objects</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -22050,8 +22022,7 @@ in the previous page:</p>
   trashbin.src = &quot;http://i.imgur.com/yHyDPio.png&quot;;
   trashbin.dataset.contactId = 3; // <i>3 is the current row index and</i>
                                   // <i>corresponds to contact at</i>
-                                  // <i>index = 3 in the array of contacts.</i>
-  </pre>
+                                  // <i>index = 3 in the array of contacts.</i></pre>
 
     <p>It&apos;s like adding a data-contactId attribute to the HTML of the img element.<br>
     Then in the event listener, use evt.target.dataset.contactId to get it back.</p>
@@ -22097,6 +22068,7 @@ in the previous page:</p>
 <!-- last editted 1/15/2026 9:53pm -->
 <!-- last editted 1/19/2026 8:20am -->
 <!-- last editted 7/01/2026 10:22pm -->
+<!-- last editted 8/11/2026 4:46pm -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <script src="./js/scripts.js"></script>
 </body>
