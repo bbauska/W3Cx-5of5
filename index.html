@@ -3114,7 +3114,8 @@ target="_blank" rel="noopener noreferrer">CodePen: D3 JS Graph</a></h6>
 document of some external JavaScript code:</p>
 
 <pre>&lt;script src="https://d3js.org/d3.v3.min.js"&gt;&lt;/script&gt;
-&lt;script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;&lt;/script&gt;</pre>
+&lt;script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"&gt;
+  &lt;/script&gt;</pre>
 
 <p>We will examine this soon in a later section of the course, but, in
 brief, it means that we will use the <a href="https://d3js.org/" 
@@ -5640,7 +5641,7 @@ follow this link at Wikipedia</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-5">1.5.5 JS operators and expressions</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<b>An expression</b> is a small piece of code used to produce a value.
+<p><b>An expression</b> is a small piece of code used to produce a value.</p>
 
 <p>For example, the expression 3 + 5 produces the value 8, and the
 value 11 alone is also an expression. Within an expression, we can find
@@ -6192,8 +6193,10 @@ examples:</p>
 <pre>var s = 'I don't know';
 var s = "I don't know"; // <i>here the &#92; is useless</i>
 var s = "I don't know";  // <i>same result as previous line</i>
-var s = '"Hello", he said.'; // <i>ok, double quotes inside single one will be displayed</i>
-var s = "&#92;"Hello&#92;", he said."; // <i>double quotes inside double quotes need to be escaped</i></pre>
+var s = '"Hello", he said.'; // <i>ok, double quotes inside single one will be 
+  displayed</i>
+var s = "&#92;"Hello&#92;", he said."; // <i>double quotes inside double quotes 
+  need to be escaped</i></pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Escaping the escape! Use a double &quot;&#92;&quot;</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6336,7 +6339,8 @@ this:</p>
 
 <p>You can fill them at declaration time:</p>
 
-<pre>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
+<pre>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
+  'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
 var gradesInMaths = &lbrack;12, 7, 14, 18, 9, 11&rbrack;;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Elements in an array can be accessed using <b>indexes</b>></h4>
@@ -6350,7 +6354,8 @@ the index value followed by &quot;&rbrack;&quot;, as shown in these examples:<
 <details>
   <summary>Source Code:</summary>
 
-<pre>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
+<pre>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
+  'Thursday', 'Friday', 'Saturday', 'Sunday'&rbrack;;
 undefined
 daysOfWeek&lbrack;0&rbrack;
 "Monday"
@@ -6365,7 +6370,8 @@ daysOfWeek.length
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Use the length property of an array to know its length</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday', 'Saturday', 'Sunday'&rbrack;;
+<pre>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
+  'Thursday','Friday', 'Saturday', 'Sunday'&rbrack;;
 undefined
 daysOfWeek.<b>length</b>
 <b>7</b></pre>
@@ -6435,14 +6441,16 @@ the moment, let&apos;s focus on the most useful features&hellip;</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>&gt; var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'&rbrack;;
+<pre>&gt; var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
+  'Thursday', 'Friday', 'Saturday'&rbrack;;
 undefined
 &gt; daysOfWeek.length
 6
 <b>daysOfWeek.push('Sunday');</b>
 7
 &gt; daysOfWeek
-&lbrack;"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"&rbrack;
+&lbrack;"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
+  "Saturday", "Sunday"&rbrack;
 &gt; daysOfWeek.length
 7</pre>
 
