@@ -3833,15 +3833,15 @@ a button is clicked:</p>
   <summary>Source Code:</summary>
 
 <pre>&lt;head&gt;
-  <b>&lt;script&gt;</b>
-    <b>function addSomeText() {</b>
+  &lt;script&gt;
+    function addSomeText() {
       // <i>append a message in the body of the html document</i>
-      <b>document.body.innerHTML += "<br>Function executed!";</b>
-    <b>}</b>
-  <b>&lt;/script&gt;</b>
+      document.body.innerHTML += "<br>Function executed!";
+    }
+  &lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
-  &lt;button <b>onclick="addSomeText();"</b>Click me to call a JavaScript function that will add
+  &lt;button onclick="addSomeText();"Click me to call a JavaScript function that will add
     some content to this document
   &lt;/button&gt;
 &lt;/body&gt;</pre>
@@ -3881,7 +3881,7 @@ offers many advantages:</p>
 <pre>&lt;head&gt;
   ...
   &lt;link rel="stylesheet" href="css/style.css"&gt;
-  <b>&lt;script src="js/script.js"&gt;&lt;/script&gt;</b>
+  &lt;script src="js/script.js"&gt;&lt;/script&gt;
 &lt;/head&gt;</pre>
 
 <b>To use an external JavaScript file:</b>
@@ -3907,10 +3907,10 @@ offers many advantages:</p>
 <pre>&lt;head&gt;
   ...
   &lt;link rel="stylesheet" href="css/style.css"&gt;
-  <b>&lt;script src="js/script1.js"&gt;&lt;/script&gt;</b>
-  <b>&lt;script src="js/script2.js"&gt;&lt;/script&gt;</b>
-  <b>&lt;script src="js/anotherOne.js"&gt;&lt;/script&gt;</b>
-  <b>...</b>
+  &lt;script src="js/script1.js"&gt;&lt;/script&gt;
+  &lt;script src="js/script2.js"&gt;&lt;/script&gt;
+  &lt;script src="js/anotherOne.js"&gt;&lt;/script&gt;
+  ...
 &lt;/head&gt;</pre>
 
 </details>
@@ -3946,8 +3946,8 @@ JavaScript files in a js subfolder.</p>
 <pre>...
 &lt;head&gt;
   ...
-  <b>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;</b>
-  <b>&lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;</b>
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
+  &lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
   &lt;h1&gt;Example 3: JavaScript and CSS in local files!&lt;/h1&gt;
@@ -6167,12 +6167,12 @@ typeof n;
 examples:</p>
 
 <pre>var s = 'I don't know';
-var s = "I don't know"; // <i>here the &#92; is useless</i>
-var s = "I don't know";  // <i>same result as previous line</i>
-var s = '"Hello", he said.'; // <i>ok, double quotes inside single one will be 
-  displayed</i>
-var s = "&#92;"Hello&#92;", he said."; // <i>double quotes inside double quotes 
-  need to be escaped</i></pre>
+var s = "I don't know"; // here the &#92; is useless
+var s = "I don't know";  // same result as previous line
+var s = '"Hello", he said.'; // ok, double quotes inside single one will be 
+  displayed
+var s = "&#92;"Hello&#92;", he said."; // double quotes inside double quotes 
+  need to be escaped</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Escaping the escape! Use a double &quot;&#92;&quot;</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6367,19 +6367,19 @@ equal to the length of the array.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre><b>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
-    'Thursday', 'Friday';, 'Saturday'&rbrack;;</b>
-<b>undefined</b>
-<b>daysOfWeek.length</b>
-<b>6</b>
-<b>daysOfWeek&lbrack;6&rbrack;</b>
-<b>undefined</b>
+<pre>var daysOfWeek = &lbrack;'Monday', 'Tuesday', 'Wednesday', 
+    'Thursday', 'Friday';, 'Saturday'&rbrack;;
+undefined
+daysOfWeek.length
+6
+daysOfWeek&lbrack;6&rbrack;
+undefined
 // <i>NO ELEMENT AT INDEX 6 in an array of 6 elements, first index is 0</i>
 // <i>last 6-1 = 5</i>
-&gt; daysOfWeek<b>&lbrack;6&rbrack; = 'Sunday'</b>
-<b>"Sunday"</b>
-<b>daysOfWeek.length</b>
-<b>7</b>
+&gt; daysOfWeek&lbrack;6&rbrack; = 'Sunday'
+"Sunday"
+daysOfWeek.length
+7
 // <i>Sunday, the 7th day of week is at index 6 !</i></pre>
 
 </details>
@@ -6392,8 +6392,8 @@ equal to the length of the array.</p>
   <summary>Source Code:</summary>
 
 <pre>&gt; var a &lbrack;&rbrack;;
-&gt; <b>typeof a;</b>
-<b>"object"</b>
+&gt; typeof a;
+"object"
 &gt; var a = &lbrack;1,2,3&rbrack;;
 &gt; a
 &lbrack;1, 2, 3&rbrack;
@@ -6422,7 +6422,7 @@ the moment, let&apos;s focus on the most useful features&hellip;</p>
 undefined
 &gt; daysOfWeek.length
 6
-<b>daysOfWeek.push('Sunday');</b>
+daysOfWeek.push('Sunday');
 7
 &gt; daysOfWeek
 &lbrack;"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
@@ -6704,8 +6704,8 @@ strings.</p>
 <h4>Example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>var x = 2;
-console.log(<b>"The value of x is " + x + " and it';s ok like
-that."</b>);</pre>
+console.log("The value of x is " + x + " and it';s ok like
+that.");</pre>
 
 <p>We typed this code in the devtool console to check what it does:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7595,7 +7595,7 @@ The && and &vert;&vert; Operators in JavaScript</a></p>
 real value affected is not true false, it&apos;s one of the operands, that
 can be seen as true/false.</b></p>
 
-<pre><b>var boo2 = (0/0) || 43.2 ;</b></pre>
+<pre>var boo2 = (0/0) || 43.2;</pre>
 
 <p>boo2 equals 43.2 because the expression 0/0 equals NaN, which is evaluated as false.</p>
 
@@ -7953,8 +7953,8 @@ commented - please remove comments and try to understand the results).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5><b>Syntax:</b></h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre><b>if</b> ( Expression ) Statement <b>else</b> Statement
-<b>if</b> ( Expression ) Statement</pre>
+<pre>if ( Expression ) Statement else Statement
+if ( Expression ) Statement</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5><b>The expression may include:</b></h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8053,20 +8053,20 @@ without curly braces on the Web: what does this mean?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Version 1: <b>no curly braces</b></h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre><b>if</b> (a &gt; 2)
+<pre>if (a &gt; 2)
   result = 'a is bigger than 2';
-<b>else</b>
+else
   result = 'a is not bigger than 2';</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Version 2: <b>with curly braces for delimiting the &quot;then&quot; and
 &quot;else&quot; blocks.</b></h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre><b>if</b> (a &gt; 2) <b>{</b>
+<pre>if (a &gt; 2) {
   result = 'a is bigger than 2';
-<b>} else {</b>
+} else {
   result = 'a is not bigger than 2';
-<b>}</b></pre>
+}</pre>
 
 <p>Version 1 and version 2 are equivalent. Indeed, version 1 is correct:
 you can omit curly braces if the &quot;then&quot; or &quot;else&quot; blocks are made of
@@ -8099,29 +8099,28 @@ use a <b>switch</b> statement.</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre><b>switch</b> (expression) <b>{</b>
-  <b>case</b> value1:
+<pre>switch (expression) {
+  case value1:
     Statement
-    <b>break</b>; // <i>break can be omitted in that case</i>
+    break; // <i>break can be omitted in that case</i>
            // <i>the second test case will be executed</i>
            // <i>most of the time we add a break; at the end</i>
            // <i>of a &quot;case&quot;</i>
-  <b>case</b> value2:
+  case value2:
     Statement
-    <b>break</b>;
-  <b>case</b> value3:
+    break;
+  case value3:
     Statement
-    <b>break</b>;
-  <b>default</b>: // <i>if no case tested true</i>
+    break;
+  default: // <i>if no case tested true</i>
     Statement
-    <b>break</b>;
+    break;
 }</pre>
 
 </details>
 
-<p>If the value of an expression equals one of the cases (the equality
-operator evaluated is<b> ===</b>), all the statements next to this case
-block are executed sequentially until the keyword <b>break</b> is reached.
+<p>If the value of an expression equals one of the cases (the equality operator evaluated is<b> ===</b>), 
+all the statements next to this case block are executed sequentially until the keyword <b>break</b> is reached.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example #1: a common switch/case/default example</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8129,33 +8128,31 @@ block are executed sequentially until the keyword <b>break</b> is reached.
   <summary>Source Code:</summary>
 
 <pre>var gear = '';
-<b>switch</b> (cloudColor) <b>{</b>
-  <b>case</b> 'green':
+switch (cloudColor) {
+  case 'green':
     gear = 'spacesuit';
-    <b>break;</b>
-  <b>case</b> 'black':
+    break;
+  case 'black':
     gear = 'boots';
-    <b>break</b>;
-  <b>case</b> 'grey':
+    break;
+  case 'grey':
     gear = 'umbrella';
-    <b>break</b>;
-  <b>case</b> 'white':
+    break;
+  case 'white':
     gear = 'jacket';
-    <b>break</b>;
-  <b>default</b>:
+    break;
+  default:
     gear = 'watch';
-    <b>break</b>; // <i>useless if in the last case</i>
+    break; // <i>useless if in the last case</i>
 }          // <i>end of the switch statement</i></pre>
 
 </details>
 
-<p>In this example, if the clouds are grey, then my gear will be just an
-umbrella. If they are white, I&apos;ll wear only a jacket, if they are black
-I&apos;ll be nude with just boots (!), and if they are green I&apos;ll get a
-spacesuit. And if the cloud color is none of these, then I&apos;ll only wear
-a watch. The presence of the <b>break</b> keyword at the end of the
-different cases make the choices 100% exclusive. Only one case can be
-executed!</p>
+<p>In this example, if the clouds are grey, then my gear will be just an umbrella. If they are white, 
+I&apos;ll wear only a jacket, if they are black I&apos;ll be nude with just boots (!), and if they are 
+green I&apos;ll get a spacesuit. And if the cloud color is none of these, then I&apos;ll only wear a 
+watch. The presence of the <b>break</b> keyword at the end of the different cases make the choices 
+100% exclusive. Only one case can be executed!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example #2: a switch without &quot;breaks&quot; at the end of each case</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8163,19 +8160,19 @@ executed!</p>
   <summary>Source Code:</summary>
 
 <pre>var gear = '';
-<b>switch</b> (cloudColor) <b>{</b>
-  <b>case</b> 'green':
+switch (cloudColor) {
+  case 'green':
     gear += 'spacesuit';
-   <b>break</b>;
-  <b>case</b> 'black':
+    break;
+  case 'black':
     gear += 'boots, ';
-  <b>case</b> 'grey':
+  case 'grey':
     gear += 'umbrella, ';
-  <b>case</b> 'white':
+  case 'white':
     gear += 'jacket, ';
-  <b>default</b>:
+  default:
     gear += 'watch';
-<b>}</b> // <i>end of the switch statement</i></pre>
+} // <i>end of the switch statement</i></pre>
 
 </details>
 
@@ -8404,10 +8401,10 @@ statement.</p>
   <summary>Source Code:</summary>
 
 <pre>var i = 1, j = 1;
-<b>while ( i &lt; 4 ) {</b>
+while ( i &lt; 4 ) {
   j += i;
   i += 1; 
-<b>}</b>
+}
 &hellip;</pre>
 
 </details>
@@ -8472,10 +8469,10 @@ syntax is different:</p>
   <summary>Source Code:</summary>
   
 <pre>var i = 0;
-<b>do {</b>
-  <b>console.log('i = ' + i);</b>
+do {
+  console.log('i = ' + i);
     i++;
-<b>} while(i &lt; 20);</b>
+} while(i &lt; 20);
 console.log('Value of i after the do-while statement: ' + i);</pre>
 
 </details>
@@ -8516,7 +8513,7 @@ condition is omitted, it is replaced by <b>true</b> (infinite loop).</p>
 (var i = 0), and more than one instruction in the &quot;incrementation
 part&quot; (i++). Here is another example:</p>
 
-<pre>for (<b>var i = 1, j = 1;</b> i &lt;= 10;<b> i++, j+=2</b>) {
+<pre>for (var i = 1, j = 1; i &lt;= 10; i++, j+=2) {
 console.log('i = ' + i + ' j = ' + j);
 }</pre>
 
@@ -8544,20 +8541,20 @@ array, which is also an object).</p>
 <details>
   <summary>Source Code:</summary>
 
-<pre>var michel = {              // michel is an object
+<pre>var michel = {       // michel is an object
   familyName:'Buffa',     // familyName, givenName, age
                           // are its properties
   givenName: 'Michel',
   age: 51
 }
-<b>for(var property in michel) {</b>   // the for-in will
-                                // enumerate properties
+for(var property in michel) { // the for-in will
+                              // enumerate properties
   console.log(property);      // will print &quot;familyName&quot;,
                               // &quot;givenName&quot;,
                               // &quot;age&quot;
   console.log(michel[property]);  // michel['givenName']  same 
                                   // as michel.givenName
-<b>}</b></pre>
+}</pre>
 
 </details>
 
@@ -9094,21 +9091,21 @@ to put its body as the second parameter of the addEventListener function.</p>
 <p>In other words, this:</p>
 
 <pre>&lt;script&gt;
-addEventListener('click', <b>function(evt) {</b>
-  <b>document.body.innerHTML += 'Button clicked!';</b>
-<b>}</b>);
+addEventListener('click', function(evt) {
+  document.body.innerHTML += 'Button clicked!';
+});
 &lt;/script&gt;</pre>
 
-<p>&hellip; is the same as this (the function called when a click occurs has
-its body &quot;outside&quot; of the addEventListener parameters, and we use its
-name as the second parameter):</p>
+<p>&hellip; is the same as this (the function called when a click occurs has its body 
+&quot;outside&quot; of the addEventListener parameters, and we use its name as the 
+second parameter):</p>
 
 <details>
   <summary>Source Code:</summary>
   
 <pre>&lt;script&gt;
-  addEventListener('click',<b> processClick</b>);
-  function<b> processClick</b>(evt) {
+  addEventListener('click', processClick);
+  function processClick(evt) {
     console.log(&quot;Button clicked!&quot;);
   }
 &lt;/script&gt;</pre>
@@ -9174,7 +9171,7 @@ CodePen: processClick(event) example</a>.</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>This syntax:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>&lt;button id=&quot;myButton&quot; <b>onclick=&quot;processClick(event);</b>&quot;&gt;Click me!&lt;/button&gt;</pre>
+<pre>&lt;button id=&quot;myButton&quot; onclick=&quot;processClick(event);&quot;&gt;Click me!&lt;/button&gt;</pre>
 
 <p>&hellip; is ok when you only need a single event listener to click events
 for this button, as there can be only one onclick attribute per element.
@@ -9217,7 +9214,7 @@ function, so that we can pass it to both addEventListener and removeEventList
 
 <p>Typical example:</p>
 
-<pre>function processClick(<b>evt</b>) {
+<pre>function processClick(evt) {
   alert(&quot;Button clicked!&quot;);
 }</pre>
 
@@ -9505,7 +9502,7 @@ passed to the listener function will contain the code of the key that fired the 
 possible to test which key has been pressed or released, like this:</p>
 
 <pre>window.addEventListener('keydown', function(event) {
-  if (<b>event.keyCode === 37</b>) {
+  if (event.keyCode === 37) {
     //left arrow was pressed
   }
 });</pre>
@@ -9944,9 +9941,9 @@ target="_blank" rel="noopener noreferrer">CodePen: get position relative to top 
 <pre>function processMouseMouve(evt) {
   var mousePositions = document.querySelector('#mousePositions');
   // adjust mouse position relative to the canvas
-  <b>var rect = evt.target.getBoundingClientRect()</b>
-  <b>var mouseX = evt.clientX - rect.left;</b>
-  <b>var mouseY = evt.clientY - rect.top;</b>
+  var rect = evt.target.getBoundingClientRect()
+  var mouseX = evt.clientX - rect.left;
+  var mouseY = evt.clientY - rect.top;
   mousePositions.innerHTML = &quot;mouse pos X: &quot; + mouseX +
                              &quot; mouse pos Y: &quot; + mouseY +
                              &quot;<br>&quot;
@@ -10116,7 +10113,7 @@ your HTML code like this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><b>Method #1: declare an event handler in the HTML code</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>&lt;div id=&quot;someDiv&quot; <b>onclick</b>=&quot;alert(&apos;clicked!&apos;)&quot;&gt; content of
+<pre>&lt;div id=&quot;someDiv&quot; onclick=&quot;alert(&apos;clicked!&apos;)&quot;&gt; content of
   the div &lt;/div&gt;</pre>
 
 <p>This method is very easy to use, but it is not the recommended way to handle events. Indeed, 
@@ -10126,7 +10123,7 @@ really bad practice and causes a host of problems during development.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><b>Method #2: attach an event handler to an HTML element in JavaScript</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>document.getElementById(&apos;someDiv&apos;).<b>onclick </b>= function() {
+<pre>document.getElementById(&apos;someDiv&apos;).onclick = function() {
   alert(&apos;clicked!&apos;);
 }</pre>
 
@@ -10136,7 +10133,7 @@ you need to do this, use the version shown below.</p>
 <h4><b>Method #3: register a callback to the event listener with the addEventListener method 
 (preferred  method)</b></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>document.getElementById(&apos;someDiv&apos;).<b>addEventListener</b>(&apos;click&apos;, function() {
+<pre>document.getElementById(&apos;someDiv&apos;).addEventListener(&apos;click&apos;, function() {
   alert(&apos;clicked!&apos;);
 }, false);</pre>
 
@@ -10151,8 +10148,8 @@ at all).</p>
 <b>event object</b> to describe what happened. This object is provided as a parameter of the 
 <b>callback function</b>:</p>
 
-<pre>element.addEventListener(&apos;click&apos;, function(<b>event</b>) {
-  <b>// now you can use event object inside the callback</b>
+<pre>element.addEventListener(&apos;click&apos;, function(event) {
+  // now you can use event object inside the callback
 }, false);</pre>
 
 <p>Depending on the type of event you are listening to, you will consult different properties from 
@@ -11181,7 +11178,7 @@ of methods to manipulate its content.</p>
 <p>The classList property applies to an HTML element, and returns a collection of class names:</p>
 
 <pre>var elem= document.querySelector(&quot;#id1&quot;);
-var allClasses = elem.<b>classList</b>;</pre>
+var allClasses = elem.classList;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>The classList API</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11260,11 +11257,11 @@ function reset() {
     &gt;
     &gt; elm.checked = false;
     &gt;
-    &gt; <b>// remove CSS decoration</b>
+    &gt; // remove CSS decoration
     &gt;
-    &gt; <b>var liParent = elm.parentNode;</b>
+    &gt; var liParent = elm.parentNode;
     &gt;
-    &gt; <b>liParent.classList.remove(&quot;checked&quot;);</b>
+    &gt; liParent.classList.remove(&quot;checked&quot;);
   });
 }</pre>
 
@@ -11291,7 +11288,7 @@ another one.</p>
 
 <pre>var elem = document.querySelector('#myElem');
 elem.innerHTML = 'Hello '; // replace content by Hello
-elem.innerHTML += '<b>Michel Buffa</b>', // append at the end
+elem.innerHTML += 'Michel Buffa', // append at the end
 // Michel Buffa in bold
 elem.innerHTML = 'Welcome' + elem.innerHTML; // insert Welcome
 // at the beginning
@@ -11400,7 +11397,7 @@ var img = document.createElement('img'); etc.</pre>
 
 <h4>Examples: </h4>
 
-<pre>li.innerHTML = '<b>This is a new list item in bold!</b>'; // can add HTML in it
+<pre>li.innerHTML = 'This is a new list item in bold!'; // can add HTML in it
 li.textContent = 'Another new list item';
 li.style.color = 'green'; // green text
 img.src = "https://..../myImage.jpg"; // url of the image
@@ -12083,10 +12080,10 @@ each frame of animation.</p>
   // <i>1 - clear the canvas</i>
   ctx.clearRect(0, 0, w, h);
   // <i>draw the ball and the player</i>
-  <b>drawFilledRectangle(player);</b>
-  <b>drawFilledCircle(ball);</b>
+  drawFilledRectangle(player);
+  drawFilledCircle(ball);
   // <i>animate the ball that is bouncing all over the walls</i>
-  <b>moveBall(ball);</b>
+  moveBall(ball);
   // <i>ask for a new animation frame</i>
   requestAnimationFrame(mainLoop);
 }</pre>
@@ -12449,19 +12446,19 @@ target="_blank" rel="noopener noreferrer">CodePen: Position and Size in viewport
   <summary>Source Code:</summary>
 
 <pre>...
-<b>canvas.addEventListener(&apos;mousemove&apos;, function (evt) {</b>
-  <b>mousePos = getMousePos(canvas, evt);</b>
+canvas.addEventListener(&apos;mousemove&apos;, function (evt) {
+  mousePos = getMousePos(canvas, evt);
   var message = &apos;Mouse position:
     &apos; + mousePos.x + &apos;,&apos; + mousePos.y;
     writeMessage(canvas, message);
 }, false);
 
   ...
-<b>function getMousePos(canvas, evt) {</b>
+function getMousePos(canvas, evt) {
   // <i>WRONG!!!</i>
   return {
-    <b>x: evt.clientX,</b>
-    <b>y: evt.clientY</b>
+    x: evt.clientX,
+    y: evt.clientY
   };
 }</pre>
 
@@ -12497,10 +12494,10 @@ target="_blank" rel="noopener noreferrer">CodePen: getMousePos</a>.</h6>
 
 <pre>function getMousePos(canvas, evt) {
   // <i>necessary to take into account CSS boundaries</i>
-  <b>var rect = canvas.getBoundingClientRect();</b>
+  var rect = canvas.getBoundingClientRect();
   return {
-    x: evt.clientX <b>- rect.left,</b>
-    y: evt.clientY <b>- rect.top</b>
+    x: evt.clientX - rect.left,
+    y: evt.clientY - rect.top
   };
 }</pre>
 
@@ -12910,11 +12907,10 @@ to a real game with a goal, levels, game over menu and so on.</p>
 <pre>var initialNumberOfBalls; // <i>number of balls at the beginning</i>
 var globalSpeedMutiplier = 1; // <i>will change when we move the speed</i>
 // slider
-var colorToEat = &apos;red&apos;;       // <i>color of the &quot;good&quot; balls to eat</i>
+var colorToEat = &apos;red&apos;; // <i>color of the &quot;good&quot; balls to eat</i>
 var wrongBallsEaten = goodBallsEaten = 0; // <i>number of good/bad balls</i>
 // eaten
-var numberOfGoodBalls;        // <i>number of good balls in the set</i>
-</pre>
+var numberOfGoodBalls; // <i>number of good balls in the set</i></pre>
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>And here are the callback functions called when you use the input fields:</h5>
@@ -22018,6 +22014,7 @@ in the previous page:</p>
 <!-- last editted 8/11/2026 4:46pm -->
 <!-- last editted 9/13/2026 4:01pm -->
 <!-- last editted 9/14/2026 5:26pm -->
+<!-- last editted 9/15/2026 1:02am -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <script src="./js/scripts.js"></script>
 </body>
